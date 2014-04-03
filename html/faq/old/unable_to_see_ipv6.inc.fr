@@ -1,0 +1,9 @@
+
+<p><b>Si vous croyez fermement que vous avez IPv6, mais que nous sommes incapables de le d&eacute;tecter:</b> 
+cela peut dire une s&eacute;rie de choses. Soit votre organisation bloque l'utilisation d'IPv6
+pour se connecter &agrave; l'Internet via une politique de s&eacute;curit&eacute; de r&eacute;seau; soit
+votre adresse IPv6 n'est pas globale.
+Les adresses commen&ccedil;ant par "::", "fc", "fd", or "fe" ne sont pas globales et sont incapables d'acc&egrave;der
+&agrave; Internet.
+</p>
+

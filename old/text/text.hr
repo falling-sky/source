@@ -1,0 +1,217 @@
+# YAML format.  UTF8.  English provides a default for all messages.
+# Other langauge files are able to replace english messages.
+# "%1" and such may be used as placeholders in some of the strings.
+# If you don't know YAML:  indentation matters; follow the examples.
+
+#
+#  JAVASCRIPT
+#
+
+builtin:
+  v4is: Vaša javna IPv4 adresa je 
+  v6is: Vaša javna IPv6 adresa je
+  v6service: Vaša IPv6 usluga je
+  proxied_capitalized: Posredovan
+  started: Započeto
+  using: koristi
+  test_rigged: (Izvještaj nije poslan; provjera je bila namještena)
+  test_posting: (Ažuriranje statistike IPv6 pripremnjenosti)
+  test_posted: (Ažurirana statistika IPv6 pripremljenosti)
+  test_postfail: (Slanje izvještaja nije uspjelo; gore navedeni rezultati su točni ali statistika nije ažurirana.)
+  more_info: "[dodatne informacije]"
+  readiness_scores: Vaši rezultati
+  readiness_score: Vaš rezultat
+  readiness_ipv4: za stabilnost i pripremljenost vaše IPv4 veze kad pružatelji sadržaja koriste IPv4 i IPv6
+  readiness_ipv6: za stabilnost i pripremljenost vaše IPv6 veze kad pružatelji sadržaja budu primorani koristiti samo IPv6
+  click_to_see: Kliknite da bi ste vidjeli
+  test_data: Izvršene provjere
+  your_faq: Vaša Često postavljena pitanja
+  faq: Često postavljena pitanja
+  loading: učitavanje...
+  failed_to_load: učitavanje nije uspjelo
+  go_back: "[nazad]"
+  permalink: "[stalna poveznica]"
+  versions: "%app: Vi koristite inačicu %found; preporučena je %suggest ili novija."
+  ok: dobro
+  bad: loše
+  slow: sporo
+  timeout: bez odgovora
+  proxied: posredovano
+
+checkresults:
+  unknown_expansion: nepoznat izraz
+  rig_text: "neispravan parametar testa.  trebao bi imati 9 znakova.  o/s/b/t za otvoreno/sporo/loše/bez odgovora.  Za svaki od testova: a aaaa ds4 ds6 dsmtu ipv4 ipv6 v6mtu v6ns"
+  unknown_result_code: nepoznat kod rezultata
+
+form:
+  solicit: Željeli bi zajedno analizirati vaše postavke jer su provjere pokazala da je <b>vaša IPv6 veza neispravna</b> ili ju provjere ne podržavaju.  To nije uobičajeno; želite li %share svoje rezultate?
+  share: podjeliti vaše rezultate
+  retest: ponovite provjeru
+  confused: Rezultati nisu u potpunosti jasni. Molimo ponovno učitajte stanicu i %retest. Ako su rezultati ponovo jednaki možete %share sa nama kako bi mogli poboljšati ove provjere.
+  result_code: Kod rezultata
+  missing_contact: "Napomena: Ne možemo vas kontaktirate ako ne unesete adresu svoje elektroničke pošte.  Ukoliko rezultate želite poslati anonimno ponovo odaberite slanje rezultata."
+
+symptoms:
+  browser_blocked: Vaš preglednik je blokirao
+
+messages:
+  "No Direct IP": "Pristupi na stranice koje sadrže IP adrese su blokirani; možda zbog web filtera u vašem pregledniku kao što je 'NoScript' ili 'RequestPolicy', a možda ih filtrira vaš proxy poslužitelj. Zbog toga je funkcionalnost ovih provjera djelomično ograničena."
+  "No Direct IPv4": "IPv4 pristupi putem DNS imena rade, ali ne rade pristupi koji u adresi koriste numeričku IP adresu poslužitelja. Takavi pristupi se danas na webu rijetko koriste."
+  "No Direct IPv6": "IPv6 pristupi putem DNS imena rade, ali ne rade pristupi koji u adresi koriste numeričku IP adresu poslužitelja. Takavi pristupi se danas na webu rijetko koriste."
+  "6to4": "Koristite javni 6to4 pretvornik; vaš usmjeriterlj možda automatski pruža tu funkcionalnost.  Neki javni pretvornici ne daju garanciju kvalitete, pa ukoliko ih koristite možete imati problema s perfromansama. Bolje bi bilo da od svog ISP-a zatražite klasičnu IPv6 adresu."
+  "teredo": "Vaša IPv6 veza možda koristi Toredo, vrstu IPv4/IPv6 pretvorbe koja koristi javni pretvornik.  Kvalitet ovakvog pristupa može biti <i>slabiji</i> jer se IPv6 stranicama pristupa preko ajvnog premosnika."
+  "teredo-minimum": "Vaša IPv6 veza možda koristi Toredo, vrstu IPv4/IPv6 pretvorbe koja koristi javni pretvornik; trenutno radi samo spajanje direktno na IP adresu. Vaš preglednik neće moći otvoriti IPv6 stranice po imenu. To znači da trenutna konfiguracija nije pogodna za pristup IPv6 web stranicama."
+  "teredo-v4pref": "Vaša IPv6 veza možda koristi Toredo, vrstu IPv4/IPv6 pretvorbe koja koristi javni pretvornik. Vaša konkretna Teredo konfiguracija se koristi samo u slučaju da drugi pristupi ne rade. Kad pristupate stranici koja ima IPv4 i IPv6, prvo će se koristiti IPv4."
+  "IPv6 MTU": "Važno! IPv6 naizgled radi - međutim veći zahtjevi ne prolaze što ima za posljedicu da pristup web stranicama ne radi.  Ako pružatelj sadržaja koristi IPv6 činit će vam se da njihova web stranica ne radi. Kontaktirajte svoj ISP u vezi MTU problema; moguće da je problem u tunelu koji koristite."
+  "confused:ASK": "Rezultati provjera nisu jednoznačni; drugim riječima nisu onakvi kao što bi se očekivalo. Molimo ponovite provjere i ako su rezultati ponovo jednaki molimo ispunite web formu."
+#  "ORIGINAL:dualstack:ipv4_preferred": "Čestitamo!  Čini se da imate radeći IPv4 i IPv6 Internet pristup.  Ako pružatelj sadržaja koristi IPv6, vaš preglednik će sadržaje dohvaćati putem IPv6 veze. Upozorenje: Vaš preglednik preferira IPv4 u odnosu na IPv6 kad je to moguće.  U budućnosti bi ovo moglo utjecati na točnost stranica koje koriste podatke o vašoj lokaciji."
+#  "ORIGINAL:dualstack:ipv6_preferred": "Čestitamo!  Čini se da imate radeći IPv4 i IPv6 Internet pristup.  Ako pružatelj sadržaja koristi IPv6, vaš preglednik će sadržaje dohvaćati putem IPv6 veze. Vaš preglednik preferira IPv6 u odnosu na IPv4 kad je to moguće (ovo je očekivano ponašanje)."
+  "dualstack:ipv4_preferred": "-"
+  "dualstack:ipv6_preferred": "-"
+  "dualstack:slow": "Iz nepoznatog razloga vaš preglednik radi sporije kad pristupa stranicama koje imaju IPv4 i IPv6 adresu.  Molimo ponovo pokrenite provjeri i ako su rezultati ponovo isti ispunite kontakt formu."
+  "ipv4_only": "Čini se da možete pristupati samo IPv4 Internetu.  Ne možete pristupati sjedištima koja imaju samo IPv6 adresu."
+  "ipv4_only:ds_good": "Kad pružatelj sadržaja koristi IPv4 i IPv6 vaš preglednik pristupa IPv4 stranici bez zadrške."
+  "ipv4_only:ds_slow": "Kad pružatelj sadržaja koristi IPv4 i IPv6 vaš preglednik se značajno uspori u usporedbi sa pristupom na stranicu koja ima samo IPv4 adresu. Zbog toga vam se može činiti da je web stranica u kvaru.  Ovakvo ponašanje može biti posljedica vaše IPv6 konfiguracije."
+  "ipv4_only:ds_timeout": "Kad pružatelj sadržaja koristi IPv4 i IPv6 vaš preglednik se ne uspjeva spojiti u zadanom roku. Zbog toga vam se može činiti da je web stranica nedostupna. Ovakvo ponašanje može biti posljedica vaše IPv6 konfiguracije.  Razmislite o isključivanju IPv6 podrške ili potražite pomoć."
+  "ipv4_slow": "Veze na IPv4 stranice su spore ali funkcioniraju.  Možda ste vi ili vaš ISP iza uređaja za dijeljnje IP adresa (NAT) koji trenutno sporo radi."
+  "ipv6_only": "Čini se da možete pristupati samo IPv4 Internetu.  Nemate pristup na IPv4 stranice. To je prilično hrabro!"
+  "ipv6_slow": "Veze na IPv6 stranice su spore ali funkcioniraju.  Možda koristite javni IPv6 tunel koji je spor ili se ne nalazi u vašoj blizini."
+  "ipv6_timeout": "Veze na stranice koje koriste samo IPv6 ne uspijevaju u zadanom roku.  Zbog toga će vam web stranice koje koriste samo IPv6 izgledati nedostupne."
+  "broken_ipv6": "Spajanje na web stranice sa IPv6 adresom ne uspijeva.  Čini se da imate postavljen IPv6; vaše računalo vjeruje da IPv6 radi i da može usmjeravati podatke tim putem.  Ali to zapravo uopće ne radi.  Svaka web stranica koja aktivira IPv6 postat će vam nedostupna. Ako ne možete popraviti svoje IPv6 usmeravanje ili vezu potražite pomoć.  Ako nista drugo ne uspije, ozbiljno razmislite o isključivanju IPv6 podrške na vašem računalu."
+  "webfilter:blocked": "Provjere se ne mogu izvršiti na vašem sustavu; čini se da vatrozid ili filter u pregledniku spriječava izvršavanje provjera.  Kritične provjere se ne mogu izvršiti. Pokušajte isključiti dodatke i proširenja za preglednik (kao što je blokiranje oglasa), te nakon toga ponovo učitajte ovu stranicu.  Ako ni to ne pomogne, možete putem komentara zatražiti pomoć."
+  "webfilter:dsboth": "Provjere se ne mogu izvršiti na vašem sustavu; čini se da vatrozid ili filter u pregledniku spriječava izvršavanje provjera.  Provjere web stranica sa dualnom IPv4/IPv6 adresom ne uspjevaju. Pokušajte isključiti dodatke i proširenja za preglednik (kao što je blokiranje oglasa), te nakon toga ponovo učitajte ovu stranicu.  Ako ni to ne pomogne, možete putem komentara zatražiti pomoć."
+  "webfilter:addons": "Vaš preglednik blokira testne adrese.  Pokušat ćemo koristiti zamjenske načine pristupa, ali vaša IP adresa možda se neće moći prikaziti, te to može utjecati na točnost danih savjeta."
+  "webfilter:firefox": "Najvjerojatniji razlog je NoScript ili AdBlock+.  NoScript se može postaviti tako da propušta sve skripte na ovo stranici (ovo ćete možda morati ponoviti više puta). Za početak propustite dolje navedene adrese."
+  "NAT64": "Čestitamo!  Čini se da imate radeći IPv6 Internet pristup.  Napomena: vaš IPv4 pristup je ograničen na spajanje po imenu poslužitelja koristeći DNS poslužitelj vašeg ISP-a - numeričke IP adrese nije moguće koristiti. Vaš ISP vjerojatno koristi uređaj koji vam omogućava spajanje na IPv4 stranice po imenu (NAT64+DNS64).  Za većinu slučajeva ovo bi trebalo biti dovoljno."
+  "v6ns:ok": "DNS poslužitelj koji koristite (najvjerojatnije ga održava vaš ISP) ima pristup do IPv6 Interneta."
+  "v6ns:bad": "DNS poslužitelj koji koristite (najvjerojatnije ga održava vaš ISP) nema pristup do IPv6 Interneta ili nije postavljen da ga koristi. U budućnosti to može ograničiti vašu mogućnost spajanja sa stranice koje koriste samo IPv6."
+  "ip_timeout:firefox": "Vjerojatno koristite FireFox dodatak koji uzrokuje greške u provjerama za pristup na IP adrese. Primjer: RequestPolicy. Molim isključite dodatke kad pristupate ovoj stranici."
+  "confused:obbo": "Dohvat adrese za stranicu koja koristi samo IPv6 nije uspio, dok je dohvat i spajanje na stranicu sa dualnom IPv4/IPv6 adresom putem IPv6 bio uspješan. Nešto nije u redu sa DNS upitima."
+  "apple:dnsbug_aaaa": "Dohvat adrese za stranicu koja koristi samo IPv6 nije uspio, dok je dohvat i spajanje na stranicu sa dualnom IPv4/IPv6 adresom putem IPv6 bio uspješan.  Dohvat adrese za stranicu koja koristi samo IPv6 bi također trebao raditi. Apple ima grešku koja ponekad uzrokuje neuspjele IPv6 upite.  To smo već imali priliku vidjeti na prijašnjim provjerama.  Možete ponovu učitati stranicu i ponovo pokrenuti provjeru. Za više informacija pogledajte <a href=\"http://openradar.appspot.com/7333104\">http://openradar.appspot.com/7333104</a>."
+  "apple:dnsbug_ds": "Dohvat adrese za stranicu koja koristi dualnu IPv4 i IPv6 adresu nije uspio (trebalo je bar uspjeti spajanje putem IPv4 veze). Apple ima grešku koja ponekad uzrokuje neuspjele IPv6 upite.  To smo već imali priliku vidjeti na prijašnjim provjerama.  Možete ponovu učitati stranicu i ponovo pokrenuti provjeru. Za više informacija pogledajte <a href=\"http://openradar.appspot.com/7333104\">http://openradar.appspot.com/7333104</a>."
+  "ipv4:no_address": "IPv4 adresa nije detektirana"
+  "ipv6:no_address": "IPv6 adresa nije detektirana"
+  "no_address": "Vaše IP adrese nisu detektirane zbog interferencije s dodacima u pregledniku."
+  "opera": "Opera preglednik često ne radi ispravno sa ovom stranicom. <b>Ako primjetite probleme, pokušajte s drugim preglednikom</b>."
+  "opera:turbo": "<b>Isključite ubrzani način rada u Operi i pokušajte ponovo.</b>  Ubrzani način rada nije kompatibilan s funkcioniranjem ove stranice."
+  "dualstack:safe": "Dan <a href=\"ipv6launch.html\">svjetske IPv6 aktivacije</a> je 6. lipanj 2012. <b>Dobra vijest!</b> Preglednik u kojem ovo čitate, na ovom računalu i trenutnoj lokaciji bi trebali nastaviti ispravno raditi nakon svjetske IPv6 aktivacije."
+  "dualstack:unsafe": "Dan <a href=\"ipv6launch.html\">svjetske IPv6 aktivacije</a> je 6. lipanj 2012. <b>Provjere ukazuju na neispravnu IPv6 konfiguraciju i to će uzrokovati probleme kad web stranice aktiviraju IPv6.</b>"
+  "dualstack:mtu": "Dan <a href=\"ipv6launch.html\">svjetske IPv6 aktivacije</a> je 6. lipanj 2012. <b>Provjere ukazuju na MTU probleme kod IPv6 pristupa što može uzrokovati da se web stranice učitavaju sporo (ili se uopće ne učitaju) kad se na njima aktivira IPv6.</b>"
+  "buggydns1": "Pokušali smo dohvatiti IPv6 adresu ali je vaš DNS poslužitelj (koji se možda nalazi na kućnom usmjerivaču) vratio neispravan odgovor jer neispravno tretira kao IPv4 adresu."
+  "proxy_via": "Detektirali smo da za pristup stranicama koristite proxy poslužitelj.  To znači da ova stranica zapravo provjerava vaš proxy poslužitelj, a ne vaše računalo.  Detalji o proxy poslužitelju (navedeni u 'Via' zaglavlju zahtjeva): %details"
+  "proxy_via_dumb": "Detektirali smo da za pristup stranicama koristite proxy poslužitelj.  To znači da ova stranica zapravo provjerava vaš proxy poslužitelj, a ne vaše računalo."
+  "ipv6:nodns": "IPv6 spajanje radi, ali veze ostvarene putem DNS imena ne koriste IPv6.  Iz nekog razloga vaš preglednik ili operacijski sustav na šalje IPv6 'AAAA' upite na DNS."
+  "broken": "Imamo ideju kako možete popraviti greške prijavljenje kod provjere vašeg računala."
+  "sites": "Pošto imate aktivan IPv6 pristup prikazuje se kartica s popisom drugih IPv6 stranica kojima možete pristupiti. %sites"
+  "avoids_ipv6": "Vaš preglednik ima radeću IPv6 adresu ali ju izbjegava koristiti.  To je zabrinjavajuće."
+  
+# These are not just strings, but arrays,
+# #1: url
+# #2: link text to show (translate this!)
+# Between the first and second string, it must be a comma and a space.
+# ie:   "key":  ["url", "text"] 
+messages_popups:
+  "dualstack:safe": ["faq_ipv6launch.html", "Svjetska IPv6 aktivacija"]
+  "dualstack:unsafe":  ["faq_ipv6launch.html", "Svjetska IPv6 aktivacija"]
+  "dualstack:mtu": ["faq_pmtud.html", "ČPP: MTU"]
+  "IPv6 MTU": ["faq_pmtud.html", "ČPP: MTU"]
+  "ipv4:no_address": ["faq_ipv4_only.html", "ČPP: Bez IPv4 veze"]
+  "ipv6:no_address": ["faq_no_ipv6.html", "ČPP: Bez IPv6 veze"]
+  "6to4": ["faq_6to4.html", "ČPP: 6to4"]
+  "teredo-minimum": ["faq_teredo_minimum.html", "ČPP: Teredo osnovni pristup"]
+  "v6ns:bad": ["faq_v6ns_bad.html", "ČPP: v6ns neispravan"] 
+  "webfilter:blocked":  ["faq_browser_plugins.html", "ČPP: Dodatci za preglednik"]
+  "webfilter:dsboth":   ["faq_browser_plugins.html", "ČPP: Dodatci za preglednik"]
+  "webfilter:firefox":  ["faq_firefox_plugins.html", "ČPP: Dodatci za Firefox"]
+  "webfilter:addons":   ["faq_browser_plugins.html", "ČPP: Dodatci za preglednik"]
+  "ip_timeout:firefox": ["faq_firefox_plugins.html", "ČPP: Dodatci za Firefox"]
+  "opera": ["faq_opera.html", "ČPP: Opera"]
+  "buggydns1": ["faq_buggydns1.html", "ČPP: Neispravan DNS"]
+  "broken": ["broken.html", "ČPP: Neispravno!"]
+  "ipv6:nodns": ["faq_broken_aaaa.html", "ČPP: Neispravni DNS upiti"]
+  "avoids_ipv6": ["faq_avoids_ipv6.html", "ČPP: Izbjegavanje korištenja IPv6?"]
+
+
+#
+#   HTML
+#
+
+html:
+  h1: Provjera IPv6 veze
+  tabnav_index: IPv6 provjera
+  tabnav_faq: Često postavljena pitanja
+  tabnav_ipv6day: IPv6 dan
+  tabnav_ipv6launch: Svjetska IPv6 aktivacija
+  tabnav_stats: Statistika
+  tabnav_changes: Izmjene/ZaNapraviti
+  summary: Sažetak
+  tests_run: Izvršene provjere
+  tech_info: Tehničke informacije
+  share: Dijeli rezultate / Kontakt
+  faq_for_you: Vaša često postavljena pitanja
+  help_popup: Prozor pomoći
+  debug: Ispravljanje grešaka
+  click_to_see: Kliknite da bi ste vidjeli
+  mirrors: Kopije stranice
+  when: Lokalno vrijeme
+  disclaimer: Ova stranica je kopija weba test-ipv6.com.  Ovdje iskazani pogledi mogu ali ne moraju odražavati poglede vlasnika ove kopije stranice.
+  more_detail: "manje detalja"
+  less_detail: "više detalja"
+  sites: Druge IPv6 stranice
+
+html_header:
+  title: Provjera IPv6 veze
+  description: Ova stranica provjerava pripremljenost vašeg preglednika i Internet veze za IPv6, te prikazuje vašu trenutnu IPv4 i IPv6 adresu.
+
+
+html_mail:
+  comments_wanted:  <b>Vaši rezultati su nam bitni..</b>  Neprestano pokušavamo poboljšati kod stranice test-ipv6.com.  Pristajete li poslate detaljnije informacije o vašem pregledniku i postvakama računala?  Uz vašu pomoć možemo za druge korisnike dokumentirati kako da isprave slične greške na svom sustavu.
+  comments_unwanted: Ova forma daje vam mogućnost ostavljanja komentara, primjedbi ili postavljanje pitanja.  Rezultati vaših provjera bit će automatski uključeni u poslanu poruku.
+  comments_faq: <span id="comments_faq_link"></span> Stranica s često postavljenim pitanjima dostupna je za <b>vaše</b> rezultate provjera.  Molimo pročitajte ju prije ostavljanja komentara jer su mnoga pitanja već odgovorena.  Ako i nakon toga imate pitanje, komentar ili primjedbu slobodno nas kontaktirajte.
+  comments_delayed: "<b>Pokušat ćemo odgovoriti što prije no molimo za strpljenje</b> zbog povećanog interesa za <a href=\"http://www.internetsociety.org/worldipv6day\">svjetski IPv6 dan</a>."
+  limit_info: Ako prijavljujete problem u provjerama ili tražite pomoć u vezi vaših rezultata molimo da što je točnije moguće pošaljete sve tražene podatke.  Ako ostavljate općenite komentare, sami prosudite koliko detaljan treba biti opis.
+  thanks: Hvala,
+  form_purpose: Vrsta upita
+  form_pickone: (Odaberi jedan)
+  form_questions: Upit o rezultatima provjere
+  form_bug: Prijava greške sa detaljnim opisom
+  form_suggestion: Prijedlog
+  form_cheersjeers: Pohvale ili pokude
+  form_email: Vaša adresa elektroničke pošte ako želite da vas kontaktiramo.  <i>Obavezna ako želite odgovor.</i>
+  form_submit: Pošalji rezultate
+  help_anyinfo: Bilo kakve informacije za koje mislite da su korisne (tip uspmjerivača koji koristite, vatrozit ili proxy kroz koji prolazi promet, itd).  To uključuje i druge općenite informacije.
+  help_plugins: Provjere temeljene na javscript-u nisu uspješno završile. To može biti vezano uz dodatke ili proširenja instalirana u vaš preglednik.  Molimo navedite koji dodatci i proširenja su aktivni u vašem pregledniku.
+  help_generic: "Ako ste tehnički potkovani molimo kopirajte ispis sljedećih naredbi:"
+  help_windows: "Ako ste tehnički potkovani molimo otvorite \"Command Prompt\" ili \"cmd\" prozor te u njemu pokrenite sljedeće tri naredbe:"
+  help_output: "Kopirajte ispis navedenih naredbi u donju kućicu.  Ti podaci podrebni su da bi što točnije odgovorili na vaše pitanje."
+  comments_english: "Komentare preporučamo ostaviti na hrvatskom jeziku."
+
+html_tech:
+  how_this_works: "Kako rade ove provjere:"
+  how_general: Vaš preglednik pokušat će pristupiti nizu stranica.  Kombinacija uspješnih i neuspješnih pristupa odredit će koliko ste spremni za pristup na IPv6 web stranice.
+  pending: u tijeku
+  detail_a:  Dohvaća stranicu koja ima samo A zapis u DNS-u.  Ovaj pristup bi trebao koristiti IPv4 vezu.  Korisnici koji imaju samo IPv6 pristup moći će pristupiti takvoj stranici ako njihov ISP koristi NAT64/DNS64 ili web proxy.
+  detail_aaaa: Dohvaća stranicu koja ima samo AAAA zapis u DNS-u.  Ovaj pristup bi trebao koristiti IPv6 vezu.  Korisnicima koji još nemaju IPv6 vezu ova provjera će vjerojatno javiti grešku.  Greška bi se trebala javiti brzo i to je u redu - barem za sad.
+  detail_v6ns: Provjerava DNS poslužitelj vašeg ISP-a (umjesto provjeranja vašeg računala).  Ako je ova provjera uspješna, DNS poslužitelj koji koristite (obično ga održava vaš ISP) uspješno komunicira sa autoritativnim DNS poslužiteljima koji imaju samo IPv6 adresu.  Ova provjera (trenutno) nije kritična za pristup stranicama putem IPv6 veze.
+  detail_ds: Ovo je najvažnija provjera.  Dohvaća se stranica koja ima IPv4 i IPv6 zapise u DNS-u.  Korisnici koji imaju samo IPv4 pristup trebali bi se spojiti bez problema (koristeći IPv4 vezu).
+  detail_ds_warning: Ako ovaj provjera ne uspije ili traje predugo, možete očekivati značajne probleme kad pružatelji sadržaja počnu koristiti IPv6.
+  detail_ipv4: Dohvaća stranicu direktnim pristupom na IPv4 adresu.  Ovo bi gotovo uvijek trebalo raditi, osim ako koristite samo IPv6 pristup.  Ako je prva provjera bila uspješna, a ova nije, to vjerojatno znači da vaš ISP koristi NAT64/DNS64; za spajanje ćete morati koristiti imena računala umjesto IP adresa.
+  detail_ipv6: Dohvaća stranicu direktnim pristupom na IPv6 adresu.  Osnovna svrha ove provjere je nezavisno provjeriti IPv6 povezivost od mogućnosti dohvata DNS zapisa za IPv6.  Dodatna svrha je provjereiti je li aktiviran Teredo; neki sustavi mogu koristiti Teredo samo kad se u adresi stranice koristi IPv6 adresa.
+  detail_v6mtu: Provjerava rade li IPv6 zahtjevi kad se koriste veliki paketi.  Ako ova provjera ne uspije, ali druge IPv6 provjere rade, to upućuje na probleme sa PMTUD; moguće zbog korištenja IP tunela.
+  detail_dsmtu: Provjerava radi li dohvat stranice koja ima IPv4 i IPv6 adresu kad se koriste veliki paketu.  Ako ova provjera iz bilo kojeg razloga traje predugo, možete očekivati probleme u pristupu stranicama tijekom svjetskog IPv6 dana.
+  summary1: Ako se u sažetku rezultata pojavljuju problemi, možete sami (ili uz pomoć vaše tehničke podrške) koristiti gornje informacije za dijagnosticiranje problema.  U lijevom stupcu prikazane su adrese korištene u svakoj od provjera.  Na desno strani nalazi se opis provjere koja se postiže pristupom na navedene adrese stranica.
+  summary2: Stranica sa sažetkom rezultata osvježava se nakon što se izvrši svaka od provjera.  Ako sažetak rezultata ne odgovara gore navedenim rezultatima ili trebate dodatnu pomoć slobodno nas kontaktirajte.
+  bonus: (Ovo je dodatna provjera)
+  detail_buggydns1: Provjerava se upit neispravnog AAAA zapisa.  Neki usmjerivači pogrešno tumače odgovore kao A zapise i koriste samo prva 32 bita.  Da bi se uspješno spojili ova provjera treba prijaviti grešku.
+
+html_tests:
+  test_a: Provjera sa IPv4 DNS zapisom
+  test_aaaa: Provjera sa IPv6 DNS zapisom
+  test_ds: Provjera sa IPv4/IPv6 DNS zapisom
+  test_v6ns: Provjera koristi li DNS vašeg ISP-a IPv6
+  test_ipv4: Provjera IPv4 adrese bez DNS-a
+  test_ipv6: Provjera IPv6 adrese bez DNS-a
+  test_v6mtu: Provjera velikih IPv6 paketa
+  test_buggydns1: Provjera pokvarenog DNS-a
+  test_dsmtu: Provjera sa IPv4/IPv6 DNS-om i velikim paketima
+  bonus: (Ovo je dodatna provjera)

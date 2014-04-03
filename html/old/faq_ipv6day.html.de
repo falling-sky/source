@@ -1,0 +1,204 @@
+[% PROCESS "header.inc"  %]
+[% PROCESS "list-nav.inc" page = "ipv6day" %]
+
+
+<div id="content">
+  
+<h1 id="title">
+World IPv6 day
+</h1><p>
+<em>
+Der folgende Text beruht auf der FAQ zum 
+<a href="http://www.worldipv6day.org/faq/">
+World IPv6 Tag
+</a>, bereitgestellt von der
+<a href="http://www.internetsociety.org">
+ Internet Society
+</a>
+ (ISOC).
+</em>
+</p><div class="question">
+      Q: Was ist der World IPv6 Tag?
+    
+</div><div class="answer"><p>
+Ein Testzeitraum, in dem eine Reihe von vielbesuchten Websites ihre Server sowohl über IPv4 wie auch IPv6 verfügbar macht.
+     Dieser Test wird auf Initiative der
+<a href="http://www.internetsociety.org">
+ Internet Society
+</a>
+ (ISOC) durchgeführt. Weitere Informationen sind auf der  
+<a href="http://www.worldipv6day.org">
+World IPv6 Tag Informationsseite (engl.)
+</a>
+verfügbar.
+</p><p>
+Der World IPv6 Tag, der am 8. Juni 2011 stattfindet, ist ein globaler Test der IPv6-Connectivity, getragen von der Internet
+      Society. Am World IPv6 Tag werden große Web-Anbieter gemeinsam mit anderen Unternehmen der Netzwerkbranche auf ihren
+      Haupt-Websites für 24 Stunden IPv6 aktivieren. Das Ziel dieser Aktion ist es, die gesamte Internet-Branche, vor allem
+	  Internetprovider, Hardware-Hersteller, Betriebssystemhersteller und Web-Anbieter, zu motivieren, ihre
+      Dienste und Angebote auf IPv6 vorzubereiten, um einen einen problemlosen Übergang von IPv4 zu IPv6
+      sicherzustellen. Das ist erforderlich, weil der IPv4-Adressraum schon bald verbraucht sein wird.
+</p><div class="question">
+        Warum ist der World IPv6 Tag notwendig? </div><div class="answer"><p>
+Der Adressraum des aktuell genutzten Internetprotokolls, IPv4, wird voraussichtlich noch in 2011 verbraucht sein. 
+        Ohne rechtzeitiges Handeln besteht das Risiko höherer Kosten und eingeschränkter Funktionalität von 
+		Internetdiensten rund um die Welt.
+        Dauerhafte Abhilfe kann nur die Umstellung auf IPv6 schaffen, denn der Adressraum von IPv6 umfasst vier
+        Milliarden mal mehr IP-Adressen. 
+        IPv6 wird bereits intensiv in vielen großen Netzwerken intern genutzt, hat sich aber bislang noch nicht weltweit
+		durchgesetzt. Der IPv6 Tag wird der gesamten Branche helfen, gemeinsam die Einführung des neuen Protokolls zu 
+		beschleunigen.
+        Wenn die wichtigsten Website-Anbieter IPv6 auf ihren Haupt-Websites aktivieren, ist dies ein starker Anreiz
+		für die ganze Branche, die Systeme für den Übergang auf IPv6 bereitzumachen.
+
+</p></div><div class="question"><p>
+Welchen Beitrag leistet der World IPv6 Tag für den Test der Technologie?
+ </p></div><div class="answer"><p> Der World IPv6 Tag 
+  dient der Bündelung der bisherigen IPv6-Aktivitäten. Erstmalig werden Akteure aus allen Sparten der Branche gemeinsam und 
+  gleichzeitig an der großflächigen Aktivierung von IPv6 mit möglichst geringen Störungen arbeiten.
+  Diese Zusammenarbeit von Providern, Website-Betreibern, Betriebssystem- und Softwareherstellen sowie Hardwareherstellern
+  wird es ermöglichen, mögliche Probleme frühzeitig zu erkennen und zu lösen, z.B. fehlerhafte IPv6-Einstellungen in 
+  Privathaushalten oder unvollständige IPv6-Verbindungswege. Die große Zahl der beteiligten Anbieter wird außerdem helfen,
+  mögliche Probleme bei der weltweiten Skalierbarkent zu erkennen und gemeinsam zu lösen.
+</p></div><div class="question"><p>
+Was muß die Branche für einen reibungslosen Übergang zum IPv6-Regelbetrieb beitragen?
+
+</p></div><div class="answer"><p>
+Alle wichtigen Akteure der Internetbranche müssen die notwendigen Schritte zur erfolgreichen Einführung von IPv6 unternehmen, z.B. :
+
+</p><ul><li>
+Internetprovider müssen Ihren Kunden IPv6-Verbindungen ermöglichen.
+</li><li>
+Webseiten-Betreiber müssen ihre Angebote auch über IPv6 verfügbar machen.
+</li><li>
+Betriebssystemhersteller müssen die jeweils erforderlichen Updates bereitstellen
+</li><li>
+Backbone-Betreiber müssen Vorkehrungnen und Vereinbarungen zum IPv6 peering treffen
+</li><li>
+Hardwarehersteller müssen die erforderlichen Firmware-Aktualisierungen bereitstellen
+</li></ul></div><div class="question">
+        Welche Auswirkungen hat der World IPv6 Tag auf die Internet-Benutzer? </div><div class="answer"><p>
+  Eines der Ziele des World IPv6 Tages ist die Feststellung möglicher Störungen und Probleme unter kontrollierten Bedingungen,
+  um diese Probleme schnellstmöglich lösen zu können.
+  Der überwiegende Teil aller Internet-Benutzer wird voraussichtlich alle Dienste wie gewohnt nutzen können. In 
+  Ausnahmefällen ist es jedoch möglich, daß im Testzeitraum der Zugriff auf die teilnehmenden Web-Angebote gestört ist,
+  etwa durch fehlerhafte Netzwerkkonfiguration oder Fehlfunktionen bei Hardware-Komponenten wie Routern oder Modems, besonsers in
+  privaten Heim-Netzwerken.
+  Nach aktuellen Schätzungen wird höchstens 0.05 % aller Benutzer betroffen sein. Alle Teilnehmer des World IPv6 Tages 
+  versuchen in Zusammenarbeit mit Betriebsystemherstellern, ISPs und Herstellern von Heim-Routern die Anzahl 
+  der betroffenen Benutzer so gering wie möglich zu halten.
+  Durch die rechtzeitige Bereitstellung von Diagnosetools wird darüberhinaus versucht, mögliche Probleme schon vor dem Testzeitraum
+  zu erkennen und zu lösen.
+ 
+</p></div><div class="question">
+        Wie sollen Internet-Benutzer sich auf den  World IPv6 Tag vorbereiten? </div><div class="answer"><p>
+ Die meisten Internet-Benutzer werden keine Störungen bemerken. Die Web-Anbieter, Netzwerk-Provider sowie 
+ Betriebssystem- und Hardware-Hersteller  werden ihre Systeme so vorbereiten, dass die Internetnutzung ungestört bleibt.
+ In Ausnahmefällen kann der Zugriff auf manche der teilnehmenden Web-Angebote gestört sein. Internet-Benutzer können sich
+  vorab durch die Besuch von Testseiten wie dem 
+<a href="http://test-ipv6.com">
+IPv6 Test
+</a> informieren, ob ihre Verbindung in Ordnung ist. Wenn durch den Test Verbindungsprobleme erkannt werden,
+ kann IPv6 deaktiviert werden oder das Problem mit Hilfe des jeweiligen Providers weiter untersucht werden.
+</p></div><div class="question">
+        Was kann ich tun, wenn ich Probleme habe, eine teilnehmende Webseite zu erreichen?</div><div class="answer"><p>
+Es ist unwahrscheinlich, dass Sie am World IPv6 Tag von einer Störung betroffen sind.
+  Nach aktuellen Schätzungen wird höchstens 0.05 % aller Benutzer betroffen sein. Alle Teilnehmer des World IPv6 Tages 
+  versuchen in Zusammenarbeit mit Betriebsystemherstellern, ISPs und Herstellern von Heim-Routern die Anzahl 
+  der betroffenen Benutzer so gering wie möglich zu halten. Sie können schon vorab 
+<a href="http://test-ipv6.com">
+hier 
+</a> testen, ob Sie von Verbindungsproblemen betroffen sein könnten. Falls Sie am IPv6-Tag Störungen bemerken,
+      sollten Sie Kontakt mit Ihrem Provider aufnehmen, um die Störung zu beheben. Die Teilnehmer des IPv6-Tages werden
+	  in den nächsten Wochen gemeinsam Hinweise und konkrete Anleitungen veröffentlichen, um mögliche Störungen zu erkennen und
+	  zu beheben.
+</p></div><div class="question">
+        Was muss überprüft werden? Betriebssysteme? Webbrowser? Router? Provider? </div><div class="answer"><p>
+ Meist ist es ausreichend, sein Betriebssystem auf dem aktuellen Stand zu halten. Darüberhinaus kann es erforderlich sein,
+  an Ihrem Router, Gateway oder Modem Einstellungen zu ändern oder Firmware-Aktualisierungen vorzunehmen. Wenn Ihr Provider
+
+ noch keine IPv6-Verbindung bereitstellt und Sie technisch versiert sind, finden Sie auf der
+<a href="#" onclick=
+        "return help_page('faq_6to4.html','6to4');">
+6to4-Seite
+</a>
+ weitere Hinweise und Empfehlungen.
+</p></div><div class="question">
+        Werden die Teilnehmer des World IPv6 Tag IPv4 abschalten? </div><div class="answer"><p>
+Nein. Die Teilnehmer werden nicht von IPv4 umschalten IPv6, sondern lediglich  IPv6 zusätzlich aktivieren.
+        IPv4-Verbindungen werden weiterhin wie gewohnt nutzbar sein.
+</p></div><div class="question">
+        Wie kann eine Firma/Organisation beim World IPv6 Tag mitmachen? </div><div class="answer"><p>
+Teilnehmer sind jederzeit willkommen. Unter 
+<a target="isoc" href=
+        "http://www.worldipv6day.org/how-to-join/">
+finden Sie weitere Hinweise zur Teilnahme
+</a>
+.
+</p><div class="question">
+          Was kann ich tun, wenn durch den  Test auf test-ipv6.com mögliche Probleme ermittelt werden?
+        
+</div><div class="answer"><p>
+<b>
+Je nach Wissensstand können Sie folgendes probieren:
+</b>
+</p><ul>
+            
+<li>
+Bei der Verwendung von 6to4: vergewissern Sie sich, dass Protocol 41 nicht an einer Firewall geblockt wird.
+</li>
+            
+<li>
+Bei der Verwendung von 6to4 ohne Tunnel-Provider: Versuchen Sie es ggf. bei
+<a href=
+            "http://tunnelbroker.net">
+tunnelbroker.net
+</a>
+, 
+<a href="http://www.sixxs.net/">
+sixxs.net
+</a>
+, oder 
+<a href=
+            "http://gogonet.gogo6.com/page/freenet6-ipv6-services">
+gogo6 aka freenet6
+</a>
+. Diese Anbieter haben gemanagte Tunnels im Angebot.
+</li>
+            
+<li>
+Bei der Verwendung von 6to4 ohne Tunnelprovider in China: 
+<a href=
+            "http://www.6fei.com.cn">
+www.6fei.com.cn
+</a>
+ bietet einen  "go6" Dienst, der kostenlos innerhalb von China genutzt werden kann.
+</li>
+            
+<li>
+Bei der Verwendung von Teredo: vergewissern Sie sich, dass UDP auf Port 3544 ein- und ausgehend erlaubt ist.
+</li>
+            
+<li>
+Wenn nur der MTU Test fehlschlägt, sollte die MTU auf dem Tunnel-Interface verkleinert werden. Ausserdem sollten
+            ICMP6 type 2 Messages zugelassen sein.
+</li>
+            
+<li>
+Schalten Sie IPv6-Tunnelfunktionen an Ihrem Router ab, aber nicht wenn diese Einstellungen wurden von Ihrem Provider vorgegeben wurden.
+</li>
+            
+<li>
+Wenn Sie in einem Firmennetz arbeiten: Wenden Sie sich unbedingt an Ihre IT-Abteilung. Diese wird vermutlich eigene Richtlinien für die 
+Nutzung von IPv6 haben.
+</li>
+            
+<li>
+Privatbenutzer: Sie könnten ggf. IPv6 deaktivieren. Für Windows Vista and Windows 7 wird dies von Microsoft jedoch nicht empfohlen,
+ da Gruppen- und Freigabefunktionen gestört werden könnten.
+</li></ul></div></div></div>
+  
+</div>
+
+
+[% PROCESS "footer.inc" %]

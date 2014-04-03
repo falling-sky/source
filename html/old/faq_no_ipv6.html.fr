@@ -1,0 +1,17 @@
+[% PROCESS "header.inc"  %]
+[% PROCESS "list-nav.inc" page = "No IPv6" %]
+
+<div id="content">
+  
+<h1>Il semblerait que vous n'ayez pas IPv6 pour l'instant...</h1>
+  
+<p><i>Il semblerait que vous n'ayez pas IPv6.</i></p>
+  
+[% PROCESS "faq/dontfeelbad.inc" %]
+[% PROCESS "faq/whyipv6.inc" %]
+[% PROCESS "faq/unable_to_see_ipv6.inc" %]
+[% PROCESS "faq/brokers.inc" %]
+
+</div>
+
+[% PROCESS "footer.inc" %]

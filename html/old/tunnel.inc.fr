@@ -1,0 +1,30 @@
+
+<p>
+	Un tunnel est une technique souvent utilisée pour transporter un protocole
+	au travers d'un autre. Par exemple, pour transporter des paquets IP au-dessus
+	de PPP au-dessus d'ATM pour ASDL (une technique fréquente pour beaucoup
+	d'abonnés résidentiels à Internet).
+</p>
+
+<p>	
+	En ce qui concerne IPv6, les tunnels sont utilisés pour transporter:
+</p>
+	<ul>
+	<li>des paquets IPv6 sur un réseau IPv4: alors les utilisateurs qui ne disposent que d'IPv4 peuvent
+	accèder à la partie IPv6 de l'Internet;
+	<li>des paquets IPv4 sur un réseau IPv6: alors les utilisateurs qui ne disposent que d'IPv6 peuvent
+	accèder à la partie IPv4 de l'Internet.
+	</ul>
+
+<h1>C'est quoi un tunnel non-géré?</h1>
+<p>
+	Un <b>tunnel géré</b> est un tunnel dont les points terminaux (c-à-d les noeuds qui transposent des paquets IPv6
+	en paquets IPv4 et vice-versa) sont gérés par une organisme unique, qui est souvent votre FAI.
+</p>
+<p>
+	Un <b>tunnel non-géré</b> est un tunnel dont ces deux points terminaux sont gérés par deux organisations distinctes:
+</p>
+	<ul>
+	<li>votre FAI;</li>
+	<li>un <i>tunnel broker</i>.</li>
+	</ul>

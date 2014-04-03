@@ -1,0 +1,80 @@
+  
+<!-- Start of "simple dual stack test" by Jason Fesler <jfesler@gigo.com>, January 2011. -->
+<!-- Feel free to use the simple test on your own site, so long as you change the image urls.
+     Note JavaScript requires jQuery to be loaded.  If JavaScript is missing,
+     this page gracefully degrades (broken images instead of red box images).
+     
+     If you fail to change the image urls to your own resources, I reserve the right
+     to entertain myself and your viewers with http referer hacks.
+-->
+
+
+  <p>La table ci-dessous va essayer de télécharger 3 images.</p>
+
+<table summary="test images for ipv4, dual stack, and ipv6">
+
+<tr><th>R&eacute;ussi?</th><th>M&eacute;thode</th><th>D&eacute;tails</th></tr>
+
+
+<tr> 
+<td><img  height=32 width=32 src="http://ipv4.test-ipv6.com/images/knob_valid_green.png" alt="?"/></td>
+<td><b>IPv4</b></td>
+<td>
+IPv4.  L'Internet traditionel.
+</td></tr>
+
+<tr> 
+<td><img  height=32 width=32 src="http://ds.test-ipv6.com/images/knob_valid_green.png" alt="?"/></td>
+<td><b>IPv4 ou IPv6</b></td>
+<td>
+Si vert, vous n'avez pas de problème même après le World IPv6 Launch de 2012.<br/>
+Si rouge ou blanc (image brisée), cherchez de l'assistance auprès de votre département informatique ou du support technique de votre FAI. Essayez
+aussi de faire le <a href="/">test complet</a>,
+avec IE, Firefox, Safari ou Chrome pour avoir plus de détails sur les causes possibles de cet échec.
+</td></tr>
+
+<tr> 
+<td><img   height=32 width=32 src="http://ipv6.test-ipv6.com/images/knob_valid_green.png" alt="?"/></td>
+<td><b>IPv6</b></td>
+<td>
+<i>Si rouge ou blanc (image brisée), pas de panique!</i> Peu d'utilisateurs disposent d'IPv6 en ce moment;
+ce n'est pas très imporant en 2013 mais le deviendra dans les années à venir.
+</td></tr>
+
+</table>
+
+
+<script type="text/javascript" src="/jquery.js"></script>
+<script type="text/javascript">
+// If JavaScript was found, jQuery should be here.
+// And if that is the case, we can change the broken
+// images, to the red "X" icon to provide visual
+// consistency.  IF this function does not actually
+// run, it is perhaps still OK.
+// Only operate on images where alt="?", to limit scope.
+function ChangeToRed () {
+    $('img').each(function() {
+        if((typeof this.naturalWidth != "undefined" &&
+            this.naturalWidth == 0 ) 
+            || this.readyState == 'uninitialized' ) {
+                if ($(this).attr("alt") === "?") {
+                    $(this).attr('src', '/images/knob_cancel.png');
+                    $(this).attr('alt','red');
+                } 
+        } else {
+            if ($(this).attr("alt") === "?") {
+                $(this).attr('alt','green');
+            }
+        }
+    });
+};
+
+jQuery(document).ready(function () {
+  $(window).bind('load', ChangeToRed);
+  setTimeout(ChangeToRed, 10000);
+});
+</script>
+
+<!-- end of simple dual stack test -->
+
+<p><i>Une copie indépendante de ce test est disponible <a href="/simple_test.html">ici</a>.</i></p>

@@ -1,0 +1,722 @@
+
+
+"Project-Id-Version: PACKAGE VERSION\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"Last-Translator: Unspecified Translator <jfesler+unspecified-translator@test-ipv6.com>\n"
+"Language-Team: LANGUAGE <v6code@test-ipv6.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: builtin.js
+msgid "Click to see"
+msgstr "Klikk for å se"
+
+#: builtin.js
+msgid "failed to load"
+msgstr "klarte ikke å laste"
+
+#: builtin.js
+msgid "Frequently Asked Questions"
+msgstr "Ofte stilte spørsmål"
+
+#: builtin.js
+msgid "[go back]"
+msgstr "[gå tilbake]"
+
+#: builtin.js
+msgid "loading..."
+msgstr "laster..."
+
+#: builtin.js
+msgid "[more info]"
+msgstr "[mer informasjon]"
+
+#: builtin.js
+msgid "for your IPv4 stability and readiness, when publishers offer both IPv4 and IPv6"
+msgstr "for din IPv4-tilgang, når innholdsleverandører tilbyr både IPv4 og IPV6"
+
+#: builtin.js
+msgid "for your IPv6 stability and readiness, when publishers are forced to go IPv6 only"
+msgstr "for din IPv6-tilgang, når innholdsleverandører tilbyr kun IPv6"
+
+#: builtin.js
+msgid "Your readiness score"
+msgstr "Ditt test-resultat"
+
+#: builtin.js
+msgid "Started"
+msgstr "Startet"
+
+#: builtin.js
+msgid "test data"
+msgstr "test-data"
+
+#: builtin.js
+msgid "(Updated server side IPv6 readiness stats)"
+msgstr "(Oppdaterer server-statistikk over IPv6-tilgjengelighet)"
+
+#: builtin.js
+msgid "(Survey posting failed; the above information is accurate, but not recorded.)"
+msgstr "(Innsending av resultat feilet; informasjonen over er korrekt, men ikke lagret.)"
+
+#: builtin.js
+msgid "(Updating server side IPv6 readiness stats)"
+msgstr "(Oppdaterer server-statistikk over IPv6-tilgjengelighet)"
+
+#: builtin.js
+msgid "(Survey posting skipped; test was rigged)"
+msgstr "(Resultatet ble ikke sendt inn; testen var manipulert)"
+
+#: builtin.js
+msgid "using"
+msgstr "bruker"
+
+#: builtin.js
+msgid "Your IPv4 address on the public Internet appears to be"
+msgstr "Din offentlige IPv4-adresse ser ut til å være"
+
+#: builtin.js
+msgid "Your IPv6 address on the public Internet appears to be"
+msgstr "Din offentlige IPv6-adresse ser ut til å være"
+
+#: builtin.js
+msgid "Your IPv6 service appears to be"
+msgstr "Din IPv6-tjeneste ser ut til å være"
+
+#: builtin.js
+msgid "Your FAQ"
+msgstr "Dine ofte stilte spørsmål"
+
+#: checkresults.js
+msgid "test parameter wrong. should be 9 characters. o/s/b/t for open/slow/bad/timeout. Need one per: a aaaa ds4 ds6 dsmtu ipv4 ipv6 v6mtu v6ns"
+msgstr "test-parameteren stemmer ikke, burde være 9 tegn: o/s/b/t for åpen/treg/dårlig/tidsavbrudd. Trenger ett tegn for hver av disse: a aaaa ds4 ds6 dsmtu ipv4 ipv6 v6mtu v6ns"
+
+#: checkresults.js
+msgid "unknown expansion"
+msgstr "ukjent utvidelse"
+
+#: checkresults.js
+msgid "unknown result code"
+msgstr "ukjent resultat-kode"
+
+#: form.js
+msgid "Note: I can't contact you, if the contact info is blank. If you really want to submit this anonymously, hit Send Results again."
+msgstr "Merk: Jeg kan ikke kontakte deg, om kontaktinfo-feltet er tomt. Om du virkelig ønsker å sende inn anonymt, klikk Send Resultater igjen."
+
+#: form.js
+msgid "Result code"
+msgstr "Resultat-kode"
+
+#: form.js
+msgid "retest"
+msgstr "test igjen"
+
+#: form.js
+msgid "share your results"
+msgstr "dele ditt resultat"
+
+#: form.js
+msgid "I am most interested in discussing your setup with you, because it was been determined that <B>your IPv6 connectivity is broken</b>, or at least not fully understood. This is not normal; would you be willing to %share?"
+msgstr "Jeg er svært interessert i å diskutere nettverksoppsettet ditt med deg, fordi det ser ut som at <B>din IPv6-konnektivet er defekt</b>, eller iallfall ikke fullt ut forstått. Dette er ikke normalt; er du villing til å %share?"
+
+#: main/tabnav.inc
+msgid "Debug"
+msgstr "Feilsøk"
+
+#: disclaimer.inc
+msgid "This is a mirror of test-ipv6.com. The views expressed here may or may not reflect the views of the mirror owner."
+msgstr "Dette er et speil av test-ipv6.com."
+
+#: main/tabnav.inc
+msgid "FAQ for You"
+msgstr "Ofte stilte spørsmål relevant for deg"
+
+#: index.html
+msgid "Test your IPv6 connectivity."
+msgstr "Test din IPv6-konnektivitet"
+
+#: main/tabnav.inc
+msgid "Help Popup"
+msgstr "Hjelpevindu"
+
+#: list-nav.inc
+msgid "Mirrors"
+msgstr "Speil"
+
+#: main/tabnav.inc
+msgid "Share Results / Contact"
+msgstr "Del resultater / kontakt"
+
+#: main/tabnav.inc
+msgid "Summary"
+msgstr "Oppsummering"
+
+#: list-nav.inc
+msgid "FAQ"
+msgstr "Ofte Stilte Spørsmål"
+
+#: main/tests.inc
+msgid "Technical Info"
+msgstr "Teknisk informasjon"
+
+#: main/tabnav.inc
+msgid "Tests Run"
+msgstr "Utførte tester"
+
+#: header.inc
+msgid "This will test your browser and connection for IPv6 readiness, as well as show you your current IPV4 and IPv6 address."
+msgstr "Dette vil teste om din nettleser og internett-forbindelse er klar for IPv6, samt vise deg din nåværende IPv4- og IPv6-adresse."
+
+#: header.inc
+msgid "Test your IPv6."
+msgstr "Test din IPv6."
+
+#: main/mail-language.inc
+msgid "Please leave your comments using English, if possible."
+msgstr "Vennligst legg igjen dine kommentarer på engelsk, om mulig."
+
+#: main/mail.inc
+msgid "<span id=\"comments_faq_link\"></span> (FAQ) page is available for <b>your</b> exact set of results. Please read it before leaving comments; many questions have already been answered. If you still have questions, comments, or concerns, feel freel to use this form."
+msgstr "<b>ditt</b> resultat. Vennligst les dem før du legger igjen kommentarer - mange spørsmål har allerede blitt besvart. Om du fortsatt har spørsmål eller andre tilbakemeldinger, send gjerne inn skjemaet."
+
+#: main/mail.inc
+msgid "This form will let you leave a comment, voice concerns, or ask questions. Your test results will be included automatically."
+msgstr "Dette skjemaet vil la deg sende inn kommentarer, innspill, og spørsmål. Resultatet av testen din vil automatisk bli inkludert."
+
+#: main/mail.inc
+msgid "<b>Your particular configuration is of interest.</b> We are always striving to make the test-ipv6.com code better. Would you be willing to contribute more information about your browser and computer setup? With your help, we can document for others how to repair their systems."
+msgstr "<b>Ditt spesifikke oppsett er interessant.</b> Vi prøver hele tiden å forbedre test-ipv6.com. Er du villig til å gi oss mer tilbakemeling om oppsettet av din nettleser og datamaskin? Med din hjelp, vil vi være i stand til å hjelpe andre til å løse problemer med sine systemer."
+
+#: main/mail.inc
+msgid "Report a bug with diagnosis"
+msgstr "Rapportere en feil med diagnosen"
+
+#: main/mail.inc
+msgid "Cheers or Jeers"
+msgstr "Ris eller ros"
+
+#: main/mail.inc
+msgid "Email address if you'll permit me to contact you. <i>Required, if you wish a response.</i>"
+msgstr "E-postadressen din. <i>Påkrevd om du ønsker svar.</i>"
+
+#: main/mail.inc
+msgid "Purpose for comment"
+msgstr "Formålet med tilbakemeldingen"
+
+#: main/mail.inc
+msgid "Questions about test results"
+msgstr "Spørsmål vedr. test-resultet"
+
+#: main/mail.inc
+msgid "Send results"
+msgstr "Send inn"
+
+#: main/mail.inc
+msgid "Suggestion"
+msgstr "Forslag"
+
+#: main/mail.inc
+msgid "Any information you think I might find useful (what router you're using, or a firewall in the way, or type of proxy you use, etc). This includes general feedback."
+msgstr "Annen informasjon du tror vi kan ha nytte av (hvilken ruter du har, om du har en brannmur, hvilken proxy du bruker, osv). Dette inkluder generelle kommentarer"
+
+#: main/mail.inc
+msgid "If you are technically minded please cut/paste the output of the following commands:"
+msgstr "Om du er en teknisk innstilt, vennligst klipp ut/lim in resultatet av de følgende kommandoene:"
+
+#: main/mail.inc
+msgid "Copy the output from those commands, into the box below. This will help me confirm/deny any theories relating to your question."
+msgstr "Kopier resultatet av kommandoene inn i feltet under. Det vil hjelpe oss til å bekrefte eller avkrefte eventuelle teorier relatert til ditt spørsmål."
+
+#: main/mail.inc
+msgid "The javascript based test appears to have failed. This may be browser plugin or extension related. Please indicate what browser plugins and extenions you have enabled in this browser."
+msgstr "JavaScript-testene ser ut til å ha feilet. Dette kan være relatert til nettleser-utvidelser. Vennligst installert hvilke utvidelser og programtillegg du har aktivert i nettleseren din."
+
+#: main/mail.inc
+msgid "If you are technically minded, please open a \"Command Prompt\" or \"cmd\" window, and run these three commands:"
+msgstr "Om du er teknisk innstilt, vennligst åpne et \"Kommandolinje\" eller \"cmd\"-vindu, og kjør disse tre kommandoene:"
+
+#: main/mail.inc
+msgid "If reporting a problem with the test, or requesting help with your results, please fill out all requested information to the best of your ability. If leaving general comments, use your best judgement on how much to report."
+msgstr "Om du rapporterer et problem med testen, eller ønsker hjelp til å løse problemer med ditt oppsett, vennligst fyll ut alle felt så godt du kan. Om du bare ønsker å gi generell tilbakemelding, vurder selv hvor mye informasjon du ønsker å dele."
+
+#: main/mail.inc
+msgid "Thanks,"
+msgstr "Takk,"
+
+#: main/tech.inc
+msgid "(This is bonus credit)"
+msgstr "(This er en bonus)"
+
+#: main/tech.inc
+msgid "Fetches an object that has just an A record in DNS. This is expected to use IPv4. IPv6-only users might still reach this, if their provider has employed a NAT64/DNS64 or proxy solution."
+msgstr "Henter et objekt som kun har et A-innslag i DNS. Vi forventer en IPv4-oppkobling. Brukere som kun har IPv6 kan fortsatt nå disse, forutsatt at internettleverandøren tilbyr NAT64+DNS64 eller en proxy."
+
+#: main/tech.inc
+msgid "Fetches an object that has just an AAAA record in DNS. This is expected to use IPv6. Users not yet on the IPv6 Internet are likely to see this fail. As long as it fails quickly, it will be OK - for now."
+msgstr "Henter et objekt som kun har et AAAA-innslag i DNS. Vi forventer en IPv6-oppkobling. Brukere som ikke ennå har tilgang til IPv6 vil sannsynligvis feile denne testen. Så lenge den feiler raskt, er det OK - inntil videre."
+
+#: main/tech.inc
+msgid "Queries for a malformed AAAA record. Some routers mishandle these as \"A\" records, and only keep the first 32 bits. We want this test to fail to connect."
+msgstr "Sjekker etter omskrevet AAAA-innslag. Noen rutere håndterer disse ukorrekt som \"A\"-innslag, og beholder bare de første 32 bitsene. Denne testen er ment til å feile."
+
+#: main/tech.inc
+msgid "This is the most important test. This verifies your browser can connect to a site that has both IPv4 and IPv6 records published. IPv4 only hosts should connect fine (using IPv4)."
+msgstr "Dette er den viktigste testen. Den sjekker at nettleseren din kan nå nettsteder som har både IPv4 og IPv6 aktivert. Brukere med kun IPv4 burde kunne koble seg opp (med IPv4) uten problemer."
+
+#: main/tech.inc
+msgid "If this test fails or times out, you can expect major problems as publishers start offering their sites on IPv6."
+msgstr "Om denne testen feiler eller får tidsavbrudd, kan du forvente store problemer når innholdsleverandører begynner å tilby IPv6-tilgang til sine nettsteder."
+
+#: main/tech.inc
+msgid "Validates that you can connect to a dual-stack server (like the ds test); and that you can send/receive large packets on that connection. If this test times out for any reason, it indicates trouble for World IPv6 Day."
+msgstr "Sjekker at du kan koble til ett nettsted med både IPv4 og IPv6 aktivert (som ds-testen), og at du kan motta/sende store pakker over den forbindelsen. Om denne testen av en eller annen grunn får tidsavbrudd, indikerer det at du får problem på World IPv6 Day."
+
+#: main/tech.inc
+msgid "This will try connecting with a literal IPv4 numeric address. This should work for most people, unless they are running IPv6-only. If the first test worked, but this fails, it likely confirms your provider is using NAT64/DNS64; you'll need to only try connecting using hostnames instead of numeric IP addresses."
+msgstr "Dette tester direkte-tilgang til IPv4-adresser. Dette burde fungere for de fleste, med mindre de kun har IPv6. Om den første testen var vellykket, men denne feilet, er det sannsynlig at din internettleverandør bruker NAT64/DNS64. Du må i så fall begrense deg til å bruke utelukkende navn-baserte internettadresser."
+
+#: main/tech.inc
+msgid "This will try connecting with a literal IPv6 hexadecimal address. The primary purpose of this test is to separate out your connectivity on IPv6 from your ability to fetch DNS for it. A secondary purpose is to see if you have Teredo enabled; some systems may only use Teredo when an IPv6 address is in the URL."
+msgstr "Dette tester direkte-tilgang til IPv6-adresser. Hovedformålet med denne testen er å kunne differensiere mellom din IPv6-konnektivitet og hvorvidt du kan slå opp IPv6-adresser i DNS. Sekundært vil det vise oss om du har Teredo aktivert - noen datamaskiner vil kun bruke Teredo når IPv6-adressen står direkte i URL-en."
+
+#: main/tech.inc
+msgid "Validates that IPv6 requests with large packets work. If this test times out, but other IPv6 tests work, it suggests that there may be PMTUD issues; possibly involving IP tunnels."
+msgstr "Sjekker at IPv6-forespørsler med store pakker virker. Om denne testen får tidsavbrudd, mens andre IPv6-tester fungere, tyder det på at du har PMTUD-problemer - muligens har tunnelering noe med dette å gjøre."
+
+#: main/tech.inc
+msgid "This is a test of your ISP's resolver (instead of a test of your host). If this test passes, your DNS server (often run by your ISP) is capable of reaching IPV6-only DNS authoritative servers on the Internet. This is not critical (at this time) for you to reach sites via IPv6."
+msgstr "Dette er en test av din internettleverandør sin DNS-tjener (ikke en test av din datamaskin). Om testen er vellykket, er DNS-tjeneren du bruker i stand til å nå andre DNS-tjenere på internett som kun er tilgjengelig over IPv6. Dette er (for tiden) ikke påkrevd for at du skal kunne nå nettsider over IPv6."
+
+#: main/tests.inc
+msgid "Your browser will be instructed to reach a series of URLs. The combination of successes and failures tells a story about how ready you are for when publishers start offering their web sites on IPv6."
+msgstr "Nettleseren din vil få beskjed om å aksessere en rekke URL-er. Kombinasjonen av vellykkede og feilede aksesser forteller oss hvor klar du er for når innholdsleverandører begynner å tilby nettsidene sine over IPv6."
+
+#: main/tests.inc
+msgid "How this test works:"
+msgstr "Hvordan denne testen fungerer:"
+
+#: main/tests.inc
+msgid "pending"
+msgstr "avventer"
+
+#: main/tech.inc
+msgid "If the summary results indicated problems, you (or your technical support) may be able to use the information above to diagnose the issues. Each of the test urls and their results is shown on the left side. To the right you'll see a description of what that URL was designed to test."
+msgstr "Om sammendraget over indikerer problemer, kan muligens du (eller support hos din ISP/bedrift) bruke informasjonen til å stille en diagnose. Hver test-URL med tilhørende resultat er vist på venstre side. På høyre side ser du en beskrivelse av hva testen er ment å sjekke."
+
+#: main/tech.inc
+msgid "After each test is ran. The summary page attempts to look at the results If the summary doesn't seem to make sense given the symptoms recorded above, or if you need further assistance, please feel free to contact us."
+msgstr "Etter at testene er utført, prøver sammendrag-siden å vurdere resultatene. Om sammendraget ikke gir mening gitt symptomene vist over, eller du trenger mer hjelp, ikke nøl med å ta kontakt med oss."
+
+#: main/tests.inc
+msgid "Test with IPv4 DNS record"
+msgstr "Test med IPv4-innslag i DNS"
+
+#: main/tests.inc
+msgid "Test with IPv6 DNS record"
+msgstr "Test med IPv6-innslag i DNS"
+
+#: main/tests.inc
+msgid "Test for buggy DNS"
+msgstr "Test av defekt DNS"
+
+#: main/tests.inc
+msgid "Test with Dual Stack DNS record"
+msgstr "Test med både IPv4- og IPv6-innslag i DNS"
+
+#: main/tests.inc
+msgid "Test for Dual Stack DNS and large packet"
+msgstr "Test for dual-stack DNS og store pakker"
+
+#: main/tests.inc
+msgid "Test IPv4 without DNS"
+msgstr "Test av IPv4 uten bruk av DNS"
+
+#: main/tests.inc
+msgid "Test IPv6 without DNS"
+msgstr "Test av IPv6 uten bruk av DNS"
+
+#: main/tests.inc
+msgid "Test IPv6 large packet"
+msgstr "Test av IPv6 med store pakker"
+
+#: main/tests.inc
+msgid "Test if your ISP's DNS server uses IPv6"
+msgstr "Test om din internettleverandør sin DNS-tjener bruker IPv6"
+
+#: messages.js
+msgid "You appear to be using a public 6to4 gateway; your router may be providing this to you automatically. Such public gateways have no service level agreements; you may see performance problems using such. Better would be to get a native IPv6 address from your ISP."
+msgstr "Du ser ut til å bruke 6to4. Det er mulig din hjemme-ruter setter opp dette for deg automatisk. 6to4 har ingen garantier om tjenestekvalitet, og bruk av det kan føre til konnektivitestsproblemer. Det er bedre for deg å få ekte IPv6-adresser fra din ISP."
+
+#: messages.js
+msgid "Danger! IPv6 sorta works - however, large packets appear to fail, giving the appearance of a broken website. If a publisher publishes to IPv6, you will believe their web site to be broken. Ask your ISP about MTU issues; possibly with your tunnel."
+msgstr "Advarsel! IPv6 fungerar på sett og vis - men store datapakker kommer ikke frem, noe som vil resultere i at nettsteder ser ut til å ikke fungere. Om en innholdsleverandør tilgjengeliggjør nettstedet sitt over IPv6, vil det for deg se ut til å ikke fungere lengre. Spør ISP-en din om MTU-problem, muligens med din tunnel."
+
+#: messages.js
+msgid "Congratulations! You appear to have IPv6. Note: your IPv4 access is limited to connections by hostname looked up through your ISP's DNS server - not raw IP address. Your ISP probably has a device to help you reach IPv4 sites by name (NAT64+DNS64). This will work for most purposes."
+msgstr "Gratulerer! Du ser ut til å ha IPv6-konnektivet. Merk: Din IPv4-tilgang er begrenset til oppkoblinger via navn som blir slått opp gjennom din internettleverandør sine DNS-tjener, ikke direkte mot IP-adresser. Din ISP har sannsynligvis et system for å la deg få tilgang til IPv4-nettsteder via navn (NAT64+DNS64). Dette vil fungere greit i de fleste tilfeller."
+
+#: messages.js
+msgid "Connections to urls with IP addresses appear to be blocked; perhaps by a web filter such as 'NoScript' or 'RequestPolicy' installed into your browser, or filtering in your proxy server. This limits some of the functionality of this test site."
+msgstr "Tilkoblinger til URL-er med IP-adresser ser ut til å være blokkerte; muligens av et filter som f.eks. 'NoScript' eller 'RequestPolicy' installert i din nettleser, eller et filter i din proxy-server. Dette begrenser noe av funksjonaliteten på denne test-siden."
+
+#: messages.js
+msgid "IPv4 Connections using DNS work; but literal IP addresses in urls do not. These are rarely used on the web today."
+msgstr "IPv4-tilkoblinger virker når DNS er brukt, men ikke direkte mot IP-adresser. Dette er skjeldent i bruk på internett i dag."
+
+#: messages.js
+msgid "IPv6 Connections using DNS work; but literal IP addresses in urls do not. These are rarely used on the web today."
+msgstr "IPv6-tilkoblinger virker når DNS er brukt, men ikke direkte mot IP-adresser. Dette er skjeldent i bruk på internett i dag."
+
+#: messages.js
+msgid "Connections to IPv6-capable web sites hang. It appears that you may have IPv6 configured; and your computer believes that your IPv6 is working, with a route. It is however completely failing. Any web site that adds IPv6, will become unreachable to you. If you are unable to fix your IPv6 routing or connectivity, seek help. If all else fails, strongly consider disabling IP6 on host."
+msgstr "Oppkoblinger til IPv6-aktiverte nettsider henger. Det kan virke som du har IPv6 satt opp, og at din datamaskin tror denne konnektiviteten fungerer. Det feiler imidlertid fullstendig. En nettside som aktiverer IPv6, vil bli utilgjengelig for deg. Om du ikke er i stand til å reparere din IPv6-konnektivitet, søk hjelp. Om du ikke før løst problemet, vurder å deaktiver IPv6 på din datamaskin."
+
+#: messages.js
+msgid "We looked up an IPv6 address, but your DNS server (possibly your home router) mangled the response, and is treating it as (broken) IPv4."
+msgstr "Vi gjorde et oppslag av en IPv6-adresse, men din DNS-server (muligens din hjemme-ruter) rotet til svaret, og behandler det som (defekt) IPv4."
+
+#: messages.js
+msgid "Test results inconclusive; they were not consistent with expectations. Please rerun the test, and if the results are the same, please fill out the contact form."
+msgstr "Test-resultat var ikke i henhold til våre forventninger. Vennligst ta testen på nytt, og om resultatet er det samme, vennligst send inn tilbakemeldings-skjemaet."
+
+#: messages.js
+msgid "A lookup for an IPv6-only name failed; yet the lookup and connect for dual-stack connected via IPv6. Something appears to be confused with the DNS lookups."
+msgstr "Et navneoppslag med kun IPv6-svar feilet, men likevel fikk du koblet til via IPv6. Noe merkelig ser ut til å skje med navneoppslagene."
+
+#: messages.js
+msgid "<b>Our tests show that you will may have MTU problems with IPv6; this can cause web sites to load slow (or not at all) when web sites enable IPv6.</b>"
+msgstr "<b>Du ser ut til å få problemer den dagen</b> med å koble opp til nettsider som deltar. Sannsynligvis er PMTUD årsaken. Om du ikke er i stand til å løse dette på egen hånd, vurder å skru av IPv6, eller be din internettleverandør om hjelp."
+
+#: messages.js
+msgid "<b>Good news!</b> Your current configuration will continue to work as web sites enable IPv6."
+msgstr "<b>Ingen problemer er i vente for deg</b> med denne nettleseren fra denne lokasjonen."
+
+#: messages.js
+msgid "For unknown reasons, your browser appears to operate slower when given the option of connecting to both IPv4 and IPv6. Please rerun the test, and if the results are the same, please fill out the contact form."
+msgstr "Din nettleser ser ut til å være tregere når den har valget mellom å koble seg opp med både IPv4 og IPv6. Grunnen til dette er ukjent. Vennligst kjør testen på nytt, og om resultatet er identisk, vennligst send inn tilbakemeldings-skjemaet."
+
+#: messages.js
+msgid "<b>Our tests show that you will have a broken or misconfigured IPv6 setup, and this will cause problems as web sites enable IPv6.</b>"
+msgstr "<b>Du ser ut til å få problemer den dagen</b> med å koble opp til nettsider som deltar. Vurder å skru av IPv6, eller be din internettleverandør om hjelp."
+
+#: messages.js
+msgid "You are likely using a FireFox plugin that is causing IP based tests to fail. Examples: RequestPolicy. Please disable those while using this site."
+msgstr "Du bruker sannsynligvis en programutvidelse i Firefox som får IP-baserte tester til å feile. For eksempel: RequestPolicy. Vennligst deaktiver slike når du bruker dette nettstedet."
+
+#: messages.js
+msgid "No IPv4 address detected"
+msgstr "Ingen IPv4-adresse oppdaget"
+
+#: messages.js
+msgid "You appear to be able to browse the IPv4 Internet only. You will not be able to reach IPv6-only sites."
+msgstr "Du ser ut til å være i stand til å kun nå IPv4-internettet. Du vil ikke kunne nå nettsteder kun tilgjengelige over IPv6."
+
+#: messages.js
+msgid "When a publisher offers both IPv4 and IPv6, your browser appears to be happy to take the IPv4 site without delay."
+msgstr "Når en innholdsleverandør tilbyr både IPv4 og IPv6, ser din nettleser ut til å velge IPv4-alternativet uten noen forsinkelse."
+
+#: messages.js
+msgid "When a publisher offers both IPv4 and IPv6, your browser appears to slow down signficantly compared to an IPv4-only site. You may even believe the destination web site to be broken. This may be due to your IPv6 configuration."
+msgstr "Når en innholdsleverandør tilbyr både IPv4 og IPv6, ser din nettleser ut til å fungere markant tregere enn mot en nettside kun tilgjengelig over IPv6. Dette kan i verste fall oppleves som at nettsiden er nede. Dette kan være på grunn av ditt IPv6-oppsett."
+
+#: messages.js
+msgid "When a publisher offers both IPv4 and IPv6, your browser will time out trying to connect. You may believe the site is down. This may be due to your IPv6 configuration. Consider disabling IPv6, or seeking help."
+msgstr "Når en innholdsleverandør tilbyr både IPv4 og IPv6, vil din nettleser få tidsavbrudd når den prøver å koble seg opp. Dette kan oppleves som at nettsiden er nede. Vurder å skru av IPv6, eller få hjelp."
+
+#: messages.js
+msgid "Connections to IPv4 are slow, but functional. Perhaps you or your ISP put you behind an IP sharing device (NAT) that is currently slow."
+msgstr "Oppkoplinger mot IPv4 er trege, men fungerer. Det er mulig at du eller din internettleverandør har plassert deg bak en adressedelings-ruter (NAT) som for tiden er treg."
+
+#: messages.js
+msgid "No IPv6 address detected"
+msgstr "Ingen IPv6-adresse oppdaget"
+
+#: messages.js
+msgid "You appear to be able to browse the IPv6 Internet only. You have no access to IPv4. That's pretty bold!"
+msgstr "Du ser kun ut til å være i stand til å nå IPv6-internettet. Du har ingen tilgang til IPv4. Det er temmelig tøft av deg!"
+
+#: messages.js
+msgid "Connections to IPv6 are slow, but functional. Perhaps you are using a public IPv6 tunnel that is either slow, or not located near you."
+msgstr "Oppkoplinger mot IPv6 er trege, men fungerer. Det er mulig at du bruker en automatisk IPv6-tunnel som er enten treg, eller ikke terminert i nærheten av deg."
+
+#: messages.js
+msgid "Connections to IPv6-only sites are timing out. Any web site that is IPv6 only, will appear to be down to you."
+msgstr "Oppkoblinger til nettsider kun tilgjengelig over IPv6 får tidsavbrutt. Slike nettsider vil for deg se ut til å være nede."
+
+#: messages.js
+msgid "Your IP address(es) could not be detected due to inteference from browser add-ons."
+msgstr "Dine IP-adresse(r) kunne ikke oppdages pga. programutvidelser i nettleseren din."
+
+#: messages.js
+msgid "The Opera web browser seems to be break on this site frequently. <b>If you have trouble, try another browser</b>."
+msgstr "<b>Om du har problem, prøv en annen nettleser</b>."
+
+#: messages.js
+msgid "<b>Disable turbo mode on Opera, and try again.</b> Turbo mode is not compatible with the needs of this site."
+msgstr "<b>Deaktiver Opera Turbo, og prøv igjen.</b> Opera Turbo er ikke kompatibel med dette nettstedet."
+
+#: messages.js
+msgid "We have detected that you are using a proxy. This means we are testing your proxy server, not your computer. Proxy details (as reported by your proxy 'Via' header): %details"
+msgstr "Vi har oppdaget at du bruker en proxy. Dette betyr at vi tester din proxy-tjener, ikke din datamaskin. Detaljer om proxy-tjeneren din (oppgitt av 'Via'-hodet): %details"
+
+#: messages.js
+msgid "We have detected that you are using a proxy. This means we are testing your proxy server, not your computer."
+msgstr "Vi har oppdaget at du bruker en proxy. Dette betyr at vi tester din proxy-tjener, ikke din datamaskin."
+
+#: messages.js
+msgid "Your IPv6 connection appears to be using Teredo, a type of IPv4/IPv6 translation using a public gateway. The quality for this <i>may</i> suffer, as you are using a public gateway to reach IPv6 based sites."
+msgstr "Din IPv6-konnektivitet ser ut til å være via Teredo, en offentlig IPv4/IPv6-oversettingstjeneste. Din tjenestekvalitet kan bli skadelidende på grunn av dette, da du ser ut til å bruke Teredo til å nå IPv6-aktiverte nettsteder."
+
+#: messages.js
+msgid "Your IPv6 connection appears to be using Teredo, a type of IPv4/IPv6 gateway; currently it connects only to direct IP's. Your browser will not be able to go to IPv6 sites by name. This means the current configuration is not useful for browsing IPv6 web sites."
+msgstr "Din IPv6-konnektivet ser ut til å være via Teredo, en offentlig IPv4/IPv6-oversettingstjeneste. Den ser ut til å kun virke ved direkte oppkoblinger til IP-adresser, og du kan ikke nå IPv6-nettsteder via navneoppslag. Dette betyr at din konfigurasjon ikke er brukbar for å surfe på nettsteder over IPv6."
+
+#: messages.js
+msgid "Your IPv6 connection appears to be using Teredo, a type of IPv4/IPv6 gateway. Your particular teredo configuration is only used as a protocol of last resort. When visiting a site with both IPv4 and IPv6, IPv4 will be preferred."
+msgstr "Din IPv6-konnektivitet ser ut til å være via Teredo, en offentlig IPv4/IPv6-oversettingstjeneste. Den ser ut til bli brukt kun om alle andre oppkoblingsforsøk feilet. Når du går til et nettsted som har både IPv4 og IPv6, vil IPv4 bli foretrukket."
+
+#: messages.js
+msgid "Your DNS server (possibly run by your ISP) appears to have no access to the IPv6 Internet, or is not configured to use it. This may in the future restrict your ability to reach IPv6-only sites."
+msgstr "Din DNS-tjener (muligens driftet av din ISP) ser ikke ut til å ha tilgang til IPv6-internettet, eller er ikke satt opp til å bruke det. Dette kan i fremtiden begrense din tilgang til nettsteder kun tilgjengelig over IPv6."
+
+#: messages.js
+msgid "Your DNS server (possibly run by your ISP) appears to have IPv6 Internet access."
+msgstr "Din DNS-tjener (muligens driftet av din ISP) ser ut til å ha tilgang til IPv6-internettet."
+
+#: messages.js
+msgid "Your browser is blocking the test urls. We will try alternate methods, but they may fail to show your IP address; and may affect the quality of the advice given."
+msgstr "Din nettleser blokkerer test-adressene. Vi vil prøve alternative metoder å teste på, men de vil muligens ikke klare å vise din IP-adresse, og kan potensielt redusere kvaliteten på rådene vi gir deg."
+
+#: messages.js
+msgid "We are unable to test your system; it appears that a firewall or browser filter is preventing the test from running. Critical tests are failing. Try disabling any browser plugins, extensions, or add-ons (such as ad blockers); and reloading this page. If that still fails, you can leave a comment requesting help."
+msgstr "Vi er ikke i stand til å teste ditt system, det kan se ut som en brannmur eller nettleser-filter hindrer testen fra å kjøre - essensielle tester fungerer ikke. Prøv å deaktivere programutvidelser eller moduer i nettleseren din (som f.eks. reklamefiltre), og last deretter siden inn på nytt igjen. Om det fortsatt ikke fungerer, kan du legge igjen en kommentar for å få hjelp."
+
+#: messages.js
+msgid "We are unable to test your system; it appears that a firewall or browser filter is preventing the test from running. The dual-stack tests are failing. Try disabling any browser plugins, extensions, or add-ons (such as ad blockers); and reloading this page. If that still fails, you can leave a comment requesting help."
+msgstr "Vi er ikke i stand til å teste ditt system, det kan se ut som en brannmur eller nettleser-filter hindrer testen fra å kjøre - dualstack-testene fungerer ikke. Prøv å deaktivere programutvidelser eller moduer i nettleseren din (som f.eks. reklamefiltre), og last deretter siden inn på nytt igjen. Om det fortsatt ikke fungerer, kan du legge igjen en kommentar for å få hjelp."
+
+#: messages.js
+msgid "The most likely cause is NoScript or AdBlock+. NoScript can be told to permit all scripts on this page (you may need to do this more than once). At minimum, permit the urls listed below."
+msgstr "Sannsynligvis er årsaken NoScript eller AdBlock+. NoScript kan konfigureres til å tillate alle skript på denne siden (det er mulig du må gjøre dette flere ganger). Du må i alle fall tillate URL-ene under."
+
+#: messages.js
+msgid "faq: 6to4"
+msgstr "oss: 6to4"
+
+#: messages.js
+msgid "faq: MTU"
+msgstr "oss: MTU"
+
+#: messages.js
+msgid "faq: Buggy DNS"
+msgstr "oss: Buggy navnetjener"
+
+#: messages.js
+msgid "World IPv6 Launch"
+msgstr "World IPv6 Day"
+
+#: messages.js
+msgid "faq: Firefox Add-Ons"
+msgstr "oss: Programutvidelser i Firefox"
+
+#: messages.js
+msgid "faq: No IPv4"
+msgstr "oss: Ingen IPv4"
+
+#: messages.js
+msgid "faq: No IPv6"
+msgstr "oss: Ingen IPv6"
+
+#: messages.js
+msgid "faq: Opera"
+msgstr "oss: Opera"
+
+#: messages.js
+msgid "faq: Teredo Minimum"
+msgstr "oss: Minimal Teredo"
+
+#: messages.js
+msgid "faq: v6ns Bad"
+msgstr "oss: Dårlig IPv6-navnetjener"
+
+#: messages.js
+msgid "faq: Browser Plugins"
+msgstr "oss: Programtillegg i nettleser"
+
+#: symptoms.js
+msgid "Your browser blocked"
+msgstr "Nettleseren din blokkerte"
+
+
+#: faq_6to4.html
+msgid "test-ipv6.com views on 6to4"
+msgstr "test-ipv6.com sitt syn på 6to4"
+
+#: faq_6to4.html
+msgid "The ugly bits"
+msgstr "Ulempene"
+
+#: faq_6to4.html
+msgid "The good bits"
+msgstr "Fordelene"
+
+#: faq_6to4.html
+msgid "6to4 is a technology that allows you to use your existing Internet provider (with only IPv4), to access the IPV6 Internet. It does this by putting IPv6 packets inside IPv4 packets, and with the help of some friendly folks on the Internet. (The specification of this is in <a href=\"http://www.ietf.org/rfc/rfc3056.txt\">rfc3056</a>.)"
+msgstr 6to4 er en teknologi som gjør det mulig å bruke din nåværende internett-leverandør (med kun IPv4) til å no IPv6-internettet. Det fungerer ved at IPv6-pakkene blir puttet inni IPv4-pakker, og med hjelp fra frivillige hjelpere på internett. (Spesifiksasjonen finner du på <a href=\"http://www.ietf.org/rfc/rfc3056.txt\">rfc3056</a>.)
+
+
+#: faq_6to4.html
+msgid "Before covering my actual view on 6to4, lets discuss how it works."
+msgstr "Før vi går gjennom mitt syn på 6to4, la oss se på hvordan det faktisk fungerer."
+
+#: faq_6to4.html
+msgid "With traditional IPv4 Internet connections, traffic goes from you, to your ISP; to one or more ISPs; and finally to the end web site. Debugging issues with this is fairly easy. And, in the event of issues, your ISP has an obligation to fix things that they are associated with; the web site has a similiar contract with their ISP."
+msgstr "Med en tradisjonell IPv4-internettforbindelse går trafikken til deg, videre til din internett-leverendør, gjennom en eller flere andre internett-leverandører, før den til slutt ender opp hos nettsiden du ønsket å gå til. Feilsøking er relativt enkelt. Og, om det skulle være problem, har din internettleverandør en forpliktelse for å fikse problemene, og det samme gjelder for nettsiden sin internettleverandør."
+
+
+#: faq_6to4.html
+msgid "With unmanaged 6to4 connections (created \"automatically\" or without explicit gateway information) the process is a fair bit different. IPv6 is put into an IPv4 packet - much like sticking a letter in an envelope. This packet is sent to the \"nearest available\" gateway. Your ISP"
+msgstr "Med automatiske 6to4-forbindelser (opprettes uten noen eksplisitt ruter-konfiguresjon), ting henger sammen på en helt forskjellig måte. IPv6 blir puttet inni en IPv4-pakke - ikke ulikt det å putte et brev inni en konvolutt. Denne pakken blir så sent til den "nærmeste" ruteren. Internettleverandøren din <i>kan</i> ha en av disse, men de fleste har ikke. Sannsynligvis er den vedlikeholdt av en god samaritan som prøver å hjelpe til. Denne ruteren vil hente ut IPv6-trafikken fra innsiden av IPv4-pakkene, og videresende den ut på IPv6-internettet."
+
+
+#: faq_6to4.html
+msgid "Traffic from the web site takes a similiar path. That web site replies back to your automatic IPv6 address. This is routed to the nearest 6to4 relay to that web site. This is not deterministic from your part, at all. In fact, you won't even be able to tell where this relay is. That relay will take the IPv6 packet, stick it inside an IPv4 packet, and then send to your router."
+msgstr "Trafikk tilbake fra nettsiden til deg tar en lignende vei. Nettsiden svarer til din automatisk genererte IPv6-adresse, som blir sendt til den ruteren som er "nærmest" nettsiden. Dette er ikke forutsigbart fra din side i det hele tatt, du vil ikke ha noen mulighet til å se hvor denne ruteren befinner seg. Ruteren vil ta IPv6-trafikken, putte den inn i en IPv4-pakke, og sende den tilbake til deg."
+
+
+
+#: faq_6to4.html
+msgid "Q: What could possibly go wrong?"
+msgstr "Spm: Kva kan gå galt?"?
+
+#: faq_6to4.html
+msgid "The main issues involve the lack of a service level agreement, the lack of predictability, and a lack in the protocol for your computer to realize that this method is not working."
+msgstr "Hovedproblemene at det ikke finnes noen som har ansvaret for at det virker, mangelen på forutsigbarhet, og at din datamaskin ikke har noen forutsetning for å innse det når systemet ikke virker."
+
+
+#: faq_6to4.html
+msgid "Service level agreement: 6to4 relays are put up, voluntarilly by some organizations. They use BGP (the Internet's way of saying \"I'm here!\") to advertise to the world the existence of the public gateway. Some of them are managed quite well. Some are not. AS long as the route is being advertised, and they are the \"closest\" (in a BGP network sense - not in your control), that particular relay is the one you MUST use. Same for the web site you're trying to use - they have the same constraints, but most likely using a different relay than you. If anything goes wrong, even if you or the web site can figure out which one it is, there is not a good way to get the problem fixed."
+msgstr "Ansvar for at det virker: Ruterene som pakker inn og ut IPv6 i IPv4 er drevet av noen frivillige organisasjoner. De bruker BGP (internett sin måte å si «jeg er her!» på) for å annonsere til verden at her finnes det en offentlig tilgjengelig ruter. Noen blir vedlikeholdt ganske bra. Andre blir det ikke. Så lenge de blir annonsert, og de er "nærmest" (i henhold til BGP - noe du ikke kan kontrollere), den ruteren er den du MÅ bruke. Det samme gjelder nettsiden du prøver å gå til - den har de samme begrensningene, men bruker sannsynligvis en annen ruter enn deg. Om noe går galt med en av ruterene, og selv om du eller nettstedet kan finne ut hvilken det er, finnes det ingen god måte å faktisk få løst problemet."
+
+
+
+#: faq_6to4.html
+msgid "Some ISPs are starting to offer 6to4 relays in their network; one such example is Comcast. But even if your ISP does this, that is only half the battle."
+msgstr "Noen internettleverandører har aktivert slike 6to4-rutere i sine nettverk, for eksempel Comcast. Men selv om din internettleverandør gjør dette, løser det bare halve problemet."
+
+#: faq_6to4.html
+msgid "Once you enable 6to4, your computer will go \"Ah-ha! IPv6 Internet!\". Any time you vist a web site, your web browser will prefer to try IPv6 (if the web site is offering it). When it works, great! But when it doesn't work, you'll see timeouts. Browsers can wait a very long time before giving up on IPv6, and going back to IPv4. And the browser won't remember it had to try IPv4 - so ever web graphic, every link you click, etc will be subject to what looks like \"web site slow\" or \"web site down\"."
+msgstr "Med en gang 6to4 blir aktivert, vil din datamaskin tenke \"Aha! Jeg har tilgang til IPv6-internettet!\". Hver gang du besøker et nettsted, vil nettleseren din foretrekke å prøve IPv6 (om nettstedet tilbyr det). Når det det fungerer er det kjempebra, men når det ikke fungerer vil du oppleve tidsavbrudd. Nettlesere kan vente svært lenge før de innser at IPv6 ikke fungerer, og bruker IPv4 i stedet. Videre vil ikke nettleseren huske at den ble nødt til å bruke IPv4 - så du får et tidsavbrudd for hvert enkelt bilde eller objekt på nettsiden, for hver gang du klikker på en lenke, og så videre. Dette vil oppleves som at nettstedet er nede eller svært tregt."
+
+
+
+#: faq_6to4.html
+msgid "6to4 worked for me, but the \"Big Packet\" or MTU test was slow/failed. What happened?"
+msgstr "6to4 fungerte for meg, men "Stor Pakke"- eller MTU-testen var treg/feilet. Hva skjedde?"
+
+
+#: faq_6to4.html
+msgid "When using 6to4, your IPv6 packet has to be pushed into an IPv4 packet. Internet protocol packets have a maximum size; and this can vary based on the Internet service provider, as well as the equipment used."
+msgstr "Når du bruker 6to4, må IPv6-pakkene dine dyttes inn i IPv4-pakker. Internett-pakker har en maksimumstørrelse, og denne kan variere avhengig av din internettleverandør, samt hvilket nettverksutstyr som blir brukt."
+
+#: faq_6to4.html
+msgid "Because of this maximum size, your IPv6 packets actually have to be made a bit smaller - so that they fit inside the IPv4 packet, and that the IPv4 packet is still small enough to leave your network."
+msgstr "På grunn av denne maksimumsstørrelsen, må IPv6-pakken dine reduseres litt i størrelse slik at de passer inn i IPv4-pakken, uten å samtidig gjøre IPv4-pakken for stor til å kunne forlate nettverket ditt."
+
+#: faq_6to4.html
+msgid "Further down the line, there may be another network with even tigher restrictions on the packet size. That network may itself be a tunnel - ISPs occasionally have to do that. This is where the problem often - lies. The IPv4 tunnel will send a message back towards you, - indicating that the packet was too big - but you don't get it. Even - if you do, your IPv6 packets don't get the message, so ultimately - you never reduce your packet size."
+msgstr "Lengre ute på internett kan det kanskje være et annet nettverk med en ennå større restriksjon på pakke-størrelsen. Dette nettverket kan være ennå en tunnel - internettleverandørene gjør av og til dette. Dette er hvor problemet ofte ligger. IPv4-tunnelen vil sende en kontrollbeskjed tilbake til deg som indikerer at pakken var for stor, men denne beskjeden kommer aldri fram. Og selv om den gjør det, vil ikkje IPv6-delen av forbindelsen få beskjed, så til slutt ender det opp med at du aldri reduserer pakkestørrelsen din."
+
+#: faq_6to4.html
+msgid "For some people, reducing the MTU size on IPv6 will help. 1280 is the minimum legal size. You can try values between 1400 to 1480 if you really want to find the one magic value that seems to work for you; but if you do touch MTU at all I'd recommend just doing 1280, and avoid later frustration."
+msgstr "For noen vil det hjelpe å redusere din IPv6 MTU. 1280 er den minste tillatte verdien. Du kan prøve verdier mellom 1400 og 1480 om du virkelig vil finne den absolutt optimale verdien som fungerer for deg, men om du først går til det skrittet å endre MTU vil jeg anbefale å bruke 1280, slik at du unngår eventuelle ytterligere problemer i fremtiden."
+
+#: faq_6to4.html
+msgid "Managed tunnels"
+msgstr "Manuelt vedlikeholdte tunneler"
+
+#: faq_6to4.html
+msgid "You sure sound like you don't like 6to4."
+msgstr "Det høres ut som du virkelig misliker IPv6-tunneler?"
+
+#: faq_6to4.html
+msgid "I don't like that it is *unmanaged*. 6to4 is basically 6in4 - an IPv6 packet wrapped with an IPv4 header. Managed 6in4 services can actualy be pretty good.."
+msgstr "Jeg misliker automatisk 6to4. IPv6-tunneler er i seg selv ikke så ille."
+
+#: faq_6to4.html
+msgid "test-ipv6.com's recommendation is that if you need IPv6 before your ISP can offer it, consider a managed 6in4 service. 6in4 is the same service as 6to4 on the wire, except with a managed tunnel endpoint (instead of an anonymous one). There are a few major options out there. They each offer great service; and they offer a <b>support</b> channel. These relays are <b>actively monitored</b> for service quality. Best of all, the <b>same relay is used both directions</b> - meaning the same staff manages both conversions. Consider these services:"
+msgstr "test-ipv6.com sin anbefaling er at om du skal bruke en IPv6-tunnel, bruk en manuelt vedlikeholdt tjeneste. Det er flere å velge i. Felles for de alle er at de tilbyr god service, og at tjenesten er <b>supportert</b>. Disse tunnel-ruteren er <b>aktivt overvåket</b> for å forsikre at systemet fungerer optimalt. Og til slutt, den samme reuteren er brukt i <b>begge retninger</b> - noe som betyr at de samme teknikerene ivaretar både ut- og innpakking av IPv6 i IPV4. Disse tjenestene er vert å vurdere:"
+
+#: faq_6to4.html
+msgid "Ran by Hurricane Electric. The author of test-ipv6.com has used their services for 2-3 years; and would notice latency problems (lots of interactive SSH use from home to the server). This service requires a static IPv4 address (or static enough - you can always go to the tunnelbroker.net site and update your IP). Lastly, tunnelbroker is fully automated - you can sign up, get your tunnel assignment immediately, and configure your end."
+msgstr "Driftet av Hurricane Electric. Jeg har brukt denne i 2-3 år, og ville ha lagt merke til latens-problemer (jeg bruker masse interaktiv SSH til hjemmet mitt). Denne tjenesten krever en statisk IPv4-adresse (eller statisk nok - du kan alltids gå til tunnelbroker.net-siden og oppdatere din IP). Til slutt, den er helautomatisert - du kan registrere deg, få delt ut din tunnel umiddelbart, og konfigrere det opp."
+
+
+#: faq_6to4.html
+msgid "is another popular service. I see many European users using this service significantly; though their footprint is global. They work with dynamic IPs with some custom software that they provide."
+msgstr "er en annen populær tjeneste. Mange europeiske brukerer bruker denne tjenesten i stor grad, selv om de har en global tilstedeværelse. Den fungerer med dynamiske IP-adresser med hjelp av spesiallaget programvare."
+
+
+#: faq_6to4.html
+msgid "aka freenet6. I don't have personal experience with this, but test-ipv6.com does see a number of connections via this service."
+msgstr "a.k.a. freenet6. Jeg har ikke personlig erfaringer med denne tjenesten, men test-ipv6.com ser en god del oppkoplinger fra den."
+
+#: faq_6to4.html
+msgid "may be a better solution, in China. This requires a custom client to be installed."
+msgstr "er muligens det beste valget for kinesiske brukere. Den trenger spesiallaget programvare."
+
+
+#: faq_6to4.html
+msgid "in Australia offers both free and paid-for (with SLA) tunnels."
+
+
+
+#: broken.html
+msgid "What to do if you're broken..."
+msgstr "Hva du bør gjøre om du har problem..."
+
+#: broken.html
+msgid "If you are reading this page, it means that we've identified that your host will have problems on World IPv6 Day. Any web site that goes \"dual stack\" (meaning, both IPv4 and IPv6), will be unreachable to you."
+msgstr "Om du leser denne siden, betyr det at vi har har konkludert med at din datamaskin vil få problemer under World IPv6 Day. Enhvert nettsted som aktiverer IPv6 i tillegg til IPV4 vil bli utilgjengelig for deg."
+
+
+#: broken.html
+msgid "To resolve this, you'll first need to identify your IPv6 address (if you have one) and your IPv6 default route (if you have one). This will help identify which sections to read."
+msgstr "For å løse dette, må du først identifisere hva din IPv6-adresse er (om du har en), samt din IPv6 standard-rute (om du har en). Dette vil hjelpe til med å bestemme hvilket avsnitt du bør lese."
+
+
+#: broken.html
+msgid "If you find your particular problem is not well represented; or you have additional suggestions; please do leave feedback using the <a href='#' onclick='return GIGO.tabnav(\"mail\");'>form</a> (or contact <a href=\"mailto:jfesler@test-ipv6.com\">jfesler@test-ipv6.com</a>)."
+msgstr "Om du mener at ditt spesifikke problem ikke er godt beskrevet, eller om du har forslag til forbedringer, vennligst legg igjen en tilbekemlding ved å bruke <a href='#' onclick='return GIGO.tabnav(\"mail\");'>skjemaet</a> (eller ta kontakt med <a href='mailto:jfesler@test-ipv6.com'>jfesler@test-ipv6.com</a>).
+
+
+#: broken.html
+msgid "Make sure you are current"
+
+#: broken.html
+msgid "Find your IP address"
+msgstr "Finn ut din IP-adresse"
+
+
+#: broken.html
+msgid "If you set up a tunnel broker"
+msgstr "Om du har satt opp en IPv6-tunnel"
+
+#: broken.html
+msgid "If you set up 6to4 (IPv6 address: starts with 2002)"
+msgstr "Om du bruker 6to4 (IPv6-adressen starter med 2002)"
+
+#: broken.html
+msgid "If you have an ULA (IPv6 address: starts with FC or FD)"
+msgstr "Om du har ULA (IPv6-adressen starter med FC or FD)"
+
+#: broken.html
+msgid "If you have an Bad or Inappropriate IPv6 Addresss (see table)"
+msgstr "Om du har en uventet IPv6-adresse"
+
+
+#: broken.html
+msgid "If all else fails, disable or deprioritize IPv6"
+msgstr "Om alle andre forsøk ikke hjelper, deaktiver eller de-prioriter IPv6"
+

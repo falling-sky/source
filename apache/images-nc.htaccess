@@ -1,0 +1,4 @@
+ FileETag none   
+ ExpiresActive off
+ Header append Expires "Thu, 01 Jan 1971 00:00:00 GMT"
+ RequestHeader unset If-Modified-Since

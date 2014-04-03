@@ -1,0 +1,558 @@
+
+
+"Project-Id-Version: PACKAGE VERSION\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"Last-Translator: Unspecified Translator <jfesler+unspecified-translator@test-ipv6.com>\n"
+"Language-Team: LANGUAGE <v6code@test-ipv6.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: builtin.js
+msgid "Click to see"
+msgstr "Hier Klicken"
+
+#: builtin.js
+msgid "failed to load"
+msgstr "laden fehlgeschlagen"
+
+#: builtin.js
+msgid "Frequently Asked Questions"
+msgstr "Häufig gestellte Fragen"
+
+#: builtin.js
+msgid "[go back]"
+msgstr "[gehe zurück]"
+
+#: builtin.js
+msgid "loading..."
+msgstr "lade..."
+
+#: builtin.js
+msgid "[more info]"
+msgstr "[mehr Infos]"
+
+#: builtin.js
+msgid "for your IPv4 stability and readiness, when publishers offer both IPv4 and IPv6"
+msgstr "für Ihre IPv4 Stabilität und Bereitschaft, wenn Inhalte via IPv4 und IPv6 verfügbar sind"
+
+#: builtin.js
+msgid "for your IPv6 stability and readiness, when publishers are forced to go IPv6 only"
+msgstr "für Ihre IPv6 Stabilität und Bereitschaft, wenn Inhalte nur via IPv6 verfügbar sind"
+
+#: builtin.js
+msgid "Your readiness score"
+msgstr "Ihre Bereitschafts Ergebniss"
+
+#: builtin.js
+msgid "Started"
+msgstr "Begonnen"
+
+#: builtin.js
+msgid "test data"
+msgstr "Testergebnisse"
+
+#: builtin.js
+msgid "(Updated server side IPv6 readiness stats)"
+msgstr "(Serverseitige IPv6 Bereitschafts-Statisik aktualisiert)"
+
+#: builtin.js
+msgid "(Survey posting failed; the above information is accurate, but not recorded.)"
+msgstr "(Das Einsenden der Statistik ist fehlgeschlagen; Die oben aufgeführten Ergebnisse sind korrekt, wurden jedoch nicht eingesandt.)"
+
+#: builtin.js
+msgid "(Updating server side IPv6 readiness stats)"
+msgstr "(Aktualisire serverseitige IPv6 Bereitschafts-Statisik)"
+
+#: builtin.js
+msgid "(Survey posting skipped; test was rigged)"
+msgstr "(Statistik wurde nicht eingesandt; Der Test wurde manipuliert)"
+
+#: builtin.js
+msgid "using"
+msgstr "verwende"
+
+#: builtin.js
+msgid "Your IPv4 address on the public Internet appears to be"
+msgstr "Ihre IPv4 Internet-Adresse ist höchstwahrscheinlich"
+
+#: builtin.js
+msgid "Your IPv6 address on the public Internet appears to be"
+msgstr "Ihre IPv6 Internet-Adresse ist höchstwahrscheinlich"
+
+#: builtin.js
+msgid "Your IPv6 service appears to be"
+msgstr "Ihr IPv6 Anbieter ist höchstwahrscheinlich"
+
+#: builtin.js
+msgid "Your FAQ"
+msgstr "Ihre FAQ"
+
+#: checkresults.js
+msgid "test parameter wrong. should be 9 characters. o/s/b/t for open/slow/bad/timeout. Need one per: a aaaa ds4 ds6 dsmtu ipv4 ipv6 v6mtu v6ns"
+msgstr "test parameter falsch. Sollten 9 Zeichen sein. o/s/b/t for offen/langsam/schlecht/zeitüberschreitung. Jeweils ein Eintrag für: a aaaa ds4 ds6 dsmtu ipv4 ipv6 v6mtu v6ns"
+
+#: checkresults.js
+msgid "unknown expansion"
+msgstr "unbekannte Expansion"
+
+#: checkresults.js
+msgid "unknown result code"
+msgstr "unbekannter Rückgabewert"
+
+#: form.js
+msgid "Note: I can't contact you, if the contact info is blank. If you really want to submit this anonymously, hit Send Results again."
+msgstr "Anmerkung: Wir können Sie nicht kontaktieren wenn Sie keine Kontakinformation angeben. Falls Sie die Ergebnisse trotzdem anonym einsenden möchten, klicken Sie nochmals auf den entsprechenden Link"
+
+#: form.js
+msgid "Result code"
+msgstr "Rückgabewert"
+
+#: form.js
+msgid "retest"
+msgstr "erneut testen"
+
+#: form.js
+msgid "share your results"
+msgstr "Ihre Ergebnisse einzusenden"
+
+#: form.js
+msgid "I am most interested in discussing your setup with you, because it was been determined that <B>your IPv6 connectivity is broken</b>, or at least not fully understood. This is not normal; would you be willing to %share?"
+msgstr "Wir würden gerne Ihre Konfiguration besprechen, da festgestellt wurde, dass <B>Ihre IPv6 Konnektivität nicht richtig funktioniert</B>. Das ist nicht normal. Wären Sie allenfalls bereit %share?"
+
+#: main/tabnav.inc
+msgid "Debug"
+msgstr "Fehlersuche"
+
+#: main/tabnav.inc
+msgid "FAQ for You"
+msgstr "FAQ für Sie"
+
+#: index.html
+msgid "Test your IPv6 connectivity."
+msgstr "Testen Sie Ihre IPv6 Konnektivität."
+
+#: main/tabnav.inc
+msgid "Help Popup"
+msgstr "Hilfe Popup"
+
+#: main/tabnav.inc
+msgid "Share Results / Contact"
+msgstr "Ergebnisse einschicken / Kontakt"
+
+#: main/tabnav.inc
+msgid "Summary"
+msgstr "Zusammenfassung"
+
+#: list-nav.inc
+msgid "Test IPv6"
+msgstr "IPv6 testen"
+
+#: main/tests.inc
+msgid "Technical Info"
+msgstr "Technische Informationen"
+
+#: main/tabnav.inc
+msgid "Tests Run"
+msgstr "Durchgeführte Tests"
+
+#: header.inc
+msgid "This will test your browser and connection for IPv6 readiness, as well as show you your current IPV4 and IPv6 address."
+msgstr "Dies wird Ihren Webbrowser und Ihre Internetverbindung auf IPv6 Tauglichkeit überprüfen und Ihre aktuelle IPv4 und IPv6 Adresse ermitteln."
+
+#: header.inc
+msgid "Test your IPv6."
+msgstr "Testen Sie Ihre IPv6 Konnektivität."
+
+#: main/mail-language.inc
+msgid "Please leave your comments using English, if possible."
+msgstr "Wenn es für Sie möglich ist, wären wir froh, wenn Sie Kommentare und Anmerkungen in Englisch verfassen könnten. Vielen Dank."
+
+#: main/mail.inc
+msgid "<span id=\"comments_faq_link\"></span> (FAQ) page is available for <b>your</b> exact set of results. Please read it before leaving comments; many questions have already been answered. If you still have questions, comments, or concerns, feel freel to use this form."
+msgstr "<b>Ihre</b> Testergebnisse. Bitte lesen Sie diese bevor Sie Kommentare hinterlassen. Viele Fragen wurden darin bereits beantwortet. Falls Sie immer noch Fragen, Kommentare oder Anregungen haben, können Sie gerne dieses Formular benutzen."
+
+#: main/mail.inc
+msgid "This form will let you leave a comment, voice concerns, or ask questions. Your test results will be included automatically."
+msgstr "Dieses Formular ermöglicht Ihnen Kommentare zu hinterlassen, Anregungen und Kritik anzubringen sowie Fragen zu stellen. Ihre Testergebnisse werden automatisch mitgesandt."
+
+#: main/mail.inc
+msgid "<b>Your particular configuration is of interest.</b> We are always striving to make the test-ipv6.com code better. Would you be willing to contribute more information about your browser and computer setup? With your help, we can document for others how to repair their systems."
+msgstr "<b>Ihre besondere Konfiguration ist von Interesse.</b> Wir streben immer danach den test-ipv6 code zu verbessern. Wären Sie bereit mehr Informationen über Ihren Browser und Ihre Computerinstallation zur Verfügung zu stellen? Mit Ihrer Hilfe können wir unsere Dokumentation erweitern und dadurch anderen Leuten helfen Ihre Systeme zu reparieren."
+
+#: main/mail.inc
+msgid "Report a bug with diagnosis"
+msgstr "Fehler bei der Diagnose melden"
+
+#: main/mail.inc
+msgid "Cheers or Jeers"
+msgstr "Glückwünsche oder Kritik"
+
+#: main/mail.inc
+msgid "Email address if you'll permit me to contact you. <i>Required, if you wish a response.</i>"
+msgstr "E-Mail Adresse wenn Sie uns gestatten Sie zu kontaktieren. <i>Erforderlich, falls Sie eine Antwort wünschen.</i>"
+
+#: main/mail.inc
+msgid "Purpose for comment"
+msgstr "Grund für den Kontakt"
+
+#: main/mail.inc
+msgid "Questions about test results"
+msgstr "Frage zu den Testergebnissen"
+
+#: main/mail.inc
+msgid "Send results"
+msgstr "Ergebnisse einsenden"
+
+#: main/mail.inc
+msgid "Suggestion"
+msgstr "Anregungen"
+
+#: main/mail.inc
+msgid "Any information you think I might find useful (what router you're using, or a firewall in the way, or type of proxy you use, etc). This includes general feedback."
+msgstr "Alle Informationen welche uns helfen könnte (welches Routermodell Sie benutzen, welche Firewall, Typ des Proxyservers, usw.). Dies umfasst auch allgemeines Feedback."
+
+#: main/mail.inc
+msgid "If you are technically minded please cut/paste the output of the following commands:"
+msgstr "Falls Sie über genügend technisches Verständnis verfügen, fügen Sie bitte die Ausgabe folgender Kommandos ein:"
+
+#: main/mail.inc
+msgid "Copy the output from those commands, into the box below. This will help me confirm/deny any theories relating to your question."
+msgstr "Kopieren Sie die Ausgabe dieser Kommandos in das untenstehende Feld ein. Dies kann uns helfen bei der Interpretation Ihrer Testergebnisse."
+
+#: main/mail.inc
+msgid "The javascript based test appears to have failed. This may be browser plugin or extension related. Please indicate what browser plugins and extenions you have enabled in this browser."
+msgstr "Die Javascript basierten Überprüfungen scheinen fehlgeschlagen zu sein. Dies könnte von einer Browser Erweiterung verursacht worden sein. Bitte geben Sie an welche Erweiterungen Sie in diesem Webbrowser aktiviert haben."
+
+#: main/mail.inc
+msgid "If you are technically minded, please open a \"Command Prompt\" or \"cmd\" window, and run these three commands:"
+msgstr "Falls Sie über genügend technisches Verständnis verfügen, öffnens Sie die \"Eingabeaufforderung\" oder \"cmd\" und führen diese drei Kommandos aus:"
+
+#: main/mail.inc
+msgid "If reporting a problem with the test, or requesting help with your results, please fill out all requested information to the best of your ability. If leaving general comments, use your best judgement on how much to report."
+msgstr "Falls Sie ein Problem mit dem Test melden oder Hilfe mit Ihren Resultaten benötigen - Tragen Sie bitte alle angeforderten Information gemäss Ihren Möglichkeiten ein. Bei allgemeinen Kommentaren oder Anfragen entscheiden Sie selber welche Informationen nützlich sind."
+
+#: main/mail.inc
+msgid "Thanks,"
+msgstr "Danke,"
+
+#: main/tech.inc
+msgid "(This is bonus credit)"
+msgstr "(Dies gibt Zusatzpunkte)"
+
+#: main/tech.inc
+msgid "Fetches an object that has just an A record in DNS. This is expected to use IPv4. IPv6-only users might still reach this, if their provider has employed a NAT64/DNS64 or proxy solution."
+msgstr "Ruft ein Objekt auf welches nur über einen A record im DNS verfügt. Es wird eine IPv4 Verbindung erwartet. Nur-IPv6 Benutzer können unter Umständen auch eine Verbindung herstellen, nämlich dann wenn Ihr ISP eine NAT64/DNS64 oder eine andere Proxylösung zur Verfügung stellt."
+
+#: main/tech.inc
+msgid "Fetches an object that has just an AAAA record in DNS. This is expected to use IPv6. Users not yet on the IPv6 Internet are likely to see this fail. As long as it fails quickly, it will be OK - for now."
+msgstr "Ruft ein Objekt auf welches nur über einen AAAA record im DNS verfügt. Es wird eine IPv6 Verbindung erwartet. Für Benutzer ohne IPv6-fähigen Internetzugang wird dieser Test fehlschlagen. Solang dies ohne grosse Verzögerung geschieht ist dies zurzeit noch in Ordnung."
+
+#: main/tech.inc
+msgid "This is the most important test. This verifies your browser can connect to a site that has both IPv4 and IPv6 records published. IPv4 only hosts should connect fine (using IPv4)."
+msgstr "Dies ist der wichtigste Test. Es wird überprüft ob Ihr Browser Webseiten aufrufen können welche sowohl via IPv4, als auch IPv6 erreichbar sind. Systeme welche nur über IPv4 Konnektivität verfügen sollten solche Seiten problemlos erreichen können (via IPv4)."
+
+#: main/tech.inc
+msgid "If this test fails or times out, you can expect major problems as publishers start offering their sites on IPv6."
+msgstr "Falls dieser Test fehlschlägt oder in einer Zeitüberschreitung resultiert, werden Sie schwerwiegende Probleme bekommen, wenn Inhaltsanbieter beginnen Ihre Webseiten via IPv6 verfügbar zu machen."
+
+#: main/tech.inc
+msgid "Validates that you can connect to a dual-stack server (like the ds test); and that you can send/receive large packets on that connection. If this test times out for any reason, it indicates trouble for World IPv6 Day."
+msgstr "Es wird überprüft ob Ihr Browser einen Dual Stack Server erreichen kann (wie beim Test mit Dual Stack DNS Eintrag) und ob große Pakete über die Verbindung gesendet und empfangen werden können. Falls dieser Test aus irgendeinem Grund mit Time-Out fehlschlägt, ist mit Problemen am World IPv6 Tag zu rechnen."
+
+#: main/tech.inc
+msgid "This will try connecting with a literal IPv4 numeric address. This should work for most people, unless they are running IPv6-only. If the first test worked, but this fails, it likely confirms your provider is using NAT64/DNS64; you'll need to only try connecting using hostnames instead of numeric IP addresses."
+msgstr "Dieser Test versucht eine Verbindung direkt zu einer IPv4 Adresse zu erstellen (ohne DNS). Dies sollte für die meisten Systeme keine Probleme darstellen, es sei denn Sie verfügen nur über einen IPv6 Internetzugang. Falls der erste Test funkioniert, dieser aber fehlschlägt, bestätigt dies dass der Provider NAT64/DNS64 einsetzt. In diesem Fall müssen Sie Webseiten über Ihren Namen aufrufen und nicht direkt über Ihre IP-Adresse."
+
+#: main/tech.inc
+msgid "This will try connecting with a literal IPv6 hexadecimal address. The primary purpose of this test is to separate out your connectivity on IPv6 from your ability to fetch DNS for it. A secondary purpose is to see if you have Teredo enabled; some systems may only use Teredo when an IPv6 address is in the URL."
+msgstr "Dieser Test versucht eine Verbindung direkt zu einer IPv6 Adresse zu erstellen (ohne DNS). Der Hauptgrund für diesen Test ist es Ihre IPv6 Konnektivität unabhängig von der IPv6 Namensauflösung zu testen. Ein weiterer Zweck ist zu prüfen ob Teredo aktiviert ist. Einige Systeme benutzen Teredo nur falls eine IPv6 Adresse im URL angeben wird."
+
+#: main/tech.inc
+msgid "Validates that IPv6 requests with large packets work. If this test times out, but other IPv6 tests work, it suggests that there may be PMTUD issues; possibly involving IP tunnels."
+msgstr "Stellt sicher das IPv6 Anfragen mit grossen Paketen funktionieren. Falls dieser Test in einer Zeitüberschreitung resultiert, andere IPv6 Tests jedoch funktionieren, liegt vermutlich ein Problem mit der PMTUD (Path MTU Detection) vor. Tritt oft im Zusammenhang mit IP Tunnels auf."
+
+#: main/tech.inc
+msgid "This is a test of your ISP's resolver (instead of a test of your host). If this test passes, your DNS server (often run by your ISP) is capable of reaching IPV6-only DNS authoritative servers on the Internet. This is not critical (at this time) for you to reach sites via IPv6."
+msgstr "Dies ist eine Überprüfung des DNS Servers Ihres ISPs. Falls dieser Test erfolgreich ist, bedeutet dies dass der DNS Server fähig ist, nur via IPv6 erreichbare, authorative DNS Server im Internet zu erreichen. Dies ist (zumindest im Moment) nicht unbedingt erforderlich um Webseiten über eine IPv6 Verbindung zu erreichen."
+
+#: main/tests.inc
+msgid "Your browser will be instructed to reach a series of URLs. The combination of successes and failures tells a story about how ready you are for when publishers start offering their web sites on IPv6."
+msgstr "Ihr Webbrowser wird angewiesen eine Reihe von URLs aufzurufen. Aus der Auswertung der erfolgreichen und fehlgeschlagenen Aufrufen lässt sich ableiten wie bereit Sie sind, wenn Inhaltsanbieter beginnen Ihre Websiten via IPv6 verfügbar zu machen."
+
+#: main/tests.inc
+msgid "How this test works:"
+msgstr "Wie dieser Test funktioniert:"
+
+#: main/tests.inc
+msgid "pending"
+msgstr "anstehend"
+
+#: main/tech.inc
+msgid "If the summary results indicated problems, you (or your technical support) may be able to use the information above to diagnose the issues. Each of the test urls and their results is shown on the left side. To the right you'll see a description of what that URL was designed to test."
+msgstr "Falls aus der Ergebniszusammenfassung Probleme hervorgehen, können Sie (oder Ihr technischer Support) anhand der oben aufgeführten Information die Probleme diagnostizieren. Jeder Test URL and dessen Ergebnis wird jeweils links angezeit. Rechts sehen Sie eine Beschreibung was der entsprechende URL testen soll."
+
+#: main/tech.inc
+msgid "After each test is ran. The summary page attempts to look at the results If the summary doesn't seem to make sense given the symptoms recorded above, or if you need further assistance, please feel free to contact us."
+msgstr "Falls die Ergebniszusmmenfassung nicht mit den obenaufgeführten Symptomen übereinstimmt, oder Sie weitereführende Hilfe benötigen dürfen Sie uns gerne kontaktieren."
+
+#: main/tests.inc
+msgid "Test with IPv4 DNS record"
+msgstr "Test mit IPv4 DNS Eintrag"
+
+#: main/tests.inc
+msgid "Test with IPv6 DNS record"
+msgstr "Test mit IPv6 DNS Eintrag"
+
+#: main/tests.inc
+msgid "Test with Dual Stack DNS record"
+msgstr "Test mit Dual Stack DNS Eintrag"
+
+#: main/tests.inc
+msgid "Test for Dual Stack DNS and large packet"
+msgstr "Test mit Dual Stack und grosse Pakete"
+
+#: main/tests.inc
+msgid "Test IPv4 without DNS"
+msgstr "Test IPv4 ohne DNS"
+
+#: main/tests.inc
+msgid "Test IPv6 without DNS"
+msgstr "Test IPv6 ohne DNS"
+
+#: main/tests.inc
+msgid "Test IPv6 large packet"
+msgstr "Test grosse IPv6 Pakete"
+
+#: main/tests.inc
+msgid "Test if your ISP's DNS server uses IPv6"
+msgstr "Test ob der DNS server des ISP IPv6 unterstützt"
+
+#: messages.js
+msgid "You appear to be using a public 6to4 gateway; your router may be providing this to you automatically. Such public gateways have no service level agreements; you may see performance problems using such. Better would be to get a native IPv6 address from your ISP."
+msgstr "Es scheint Sie benutzen einen öffentlichen 6to4 Gateway; Ihr Router stellt diese Funktion möglicherweise automatisch bereit. Diese öffentlichen Gateways bieten jedoch keine optimale Qualität und es kann sein dass Performanceprobleme auftauchen. Die beste Lösung wäre Native IPv6 Konnektivität von Ihrem ISP zu beziehen."
+
+#: messages.js
+msgid "Danger! IPv6 sorta works - however, large packets appear to fail, giving the appearance of a broken website. If a publisher publishes to IPv6, you will believe their web site to be broken. Ask your ISP about MTU issues; possibly with your tunnel."
+msgstr "Achtung! IPv6 funktioniert mehr oder weniger - jedoch können keine grossen Pakete übertragen werden. Das führt dazu, dass Webseiten welche via IPv6 erreichbar sind, nicht richtig geladen werden können oder lange Wartezeiten entstehen. Fragen Sie bei Ihrem ISP betreffend MTU Probleme nach, evtl. bezüglich Ihres Tunnels."
+
+#: messages.js
+msgid "Congratulations! You appear to have IPv6. Note: your IPv4 access is limited to connections by hostname looked up through your ISP's DNS server - not raw IP address. Your ISP probably has a device to help you reach IPv4 sites by name (NAT64+DNS64). This will work for most purposes."
+msgstr "Gratulation! Sie scheinen eine IPv6 Verbindung zu haben. Anmerkung: Ihr IPv4 Internetzugriff ist beschränkt auf Webseiten welche über den DNS Server ihres ISPs aufgelöst werden - IP Adressen ansich funktionieren nicht. Ihr ISP nutzt vermutlich ein Gerät welches IPv4 Websiten nur per Hostnamen erreicht (NAT64+DNS64). Dies sollte in den meisten Fällen funktionieren."
+
+#: messages.js
+msgid "Connections to urls with IP addresses appear to be blocked; perhaps by a web filter such as 'NoScript' or 'RequestPolicy' installed into your browser, or filtering in your proxy server. This limits some of the functionality of this test site."
+msgstr "Verbindungen zu URLs welche IP Adressen behinhalten wurden blockiert; Evtl. von einem Webfilter wie 'NoScript' oder 'RequestPolicy' in Ihrem Browser oder durch einen Filter in ihrem Proxyserver. Dies schränkt die Funktionalität dieser Testseite ein."
+
+#: messages.js
+msgid "IPv4 Connections using DNS work; but literal IP addresses in urls do not. These are rarely used on the web today."
+msgstr "IPv4 Verbindungen unter Verwendung von DNS funktionieren; Verbindungen zu URLs welche IP addresses beinhalten funktioniern nicht. Diese URLs werden heute selten eingesetzt."
+
+#: messages.js
+msgid "IPv6 Connections using DNS work; but literal IP addresses in urls do not. These are rarely used on the web today."
+msgstr "IPv6 Verbindungen unter Verwendung von DNS funktionieren; Verbindungen zu URLs welche IP addresses beinhalten funktioniern nicht. Diese URLs werden heute selten eingesetzt."
+
+#: messages.js
+msgid "Connections to IPv6-capable web sites hang. It appears that you may have IPv6 configured; and your computer believes that your IPv6 is working, with a route. It is however completely failing. Any web site that adds IPv6, will become unreachable to you. If you are unable to fix your IPv6 routing or connectivity, seek help. If all else fails, strongly consider disabling IP6 on host."
+msgstr "Verbindungen zu IPv6 fähigen Webseiten funktionieren nicht. Es scheint als wäre eine IPv6 Konfiguration vorhanden und Ihr Computer glaubt diese Konfiguration funktioniert. Dies ist jedoch nicht der Fall. Alle IPv6 fähigen Webseiten werden für Sie unerreichbar sein. Falls Sie Ihre IPv6 Verbindung oder Ihr IPv6 Routing nicht reparieren können, suchen Sie sich Hilfe. Falls alle Lösungsversuche fehlschlagen sollten Sie IPv6 auf Ihrem Computer komplett deaktivieren."
+
+#: messages.js
+msgid "Test results inconclusive; they were not consistent with expectations. Please rerun the test, and if the results are the same, please fill out the contact form."
+msgstr "Testergebnisse lassen keine Rückschlüsse auf die Qualität Ihrer Internetverbindung zu. Die Testergebnisse entsprechen nicht den Erwartungen. Bitte führen Sie den Test erneut durch. Falls der Test zum selben Ergebnis führt, kontaktieren Sie bitte via das Kontaktformular."
+
+#: messages.js
+msgid "A lookup for an IPv6-only name failed; yet the lookup and connect for dual-stack connected via IPv6. Something appears to be confused with the DNS lookups."
+msgstr "Die Namensauflösung eines Nur-IPv6 Namens ist fehlgeschlagen, dennoch ist die Namensauflösung und die Verbindung für Dual-Stack Seiten via IPv6 erfolgt. Dies deutet auf ein fehlerhaftes Verhalten Ihrer Namensauflösung hin."
+
+#: messages.js
+msgid "<b>Our tests show that you will may have MTU problems with IPv6; this can cause web sites to load slow (or not at all) when web sites enable IPv6.</b>"
+msgstr "<b>Unsere Tests zeigen, dass Sie MTU Probleme bei IPv6 Verbindungen haben. Dies kann dazu führen, dass Webseiten nur langsam (oder auch gar nicht) angezeigt werden, sobald diese via IPv6 erreichbar sind.</b>"
+
+#: messages.js
+msgid "<b>Good news!</b> Your current configuration will continue to work as web sites enable IPv6."
+msgstr "<b>Gute Nachrichten!</b>Wir gehen davon aus, dass Ihr jetziger Browser auf diesem Computer an diesem Standort auch nach dem Launch funktionieren wird."
+
+#: messages.js
+msgid "For unknown reasons, your browser appears to operate slower when given the option of connecting to both IPv4 and IPv6. Please rerun the test, and if the results are the same, please fill out the contact form."
+msgstr "Aus unbekannten Gründen scheint Ihr Webbrowser langsamer zu arbeiten wenn die Möglichkeit besteht eine Webseite sowohl via IPv4 als auch IPv6 zu laden. Bitte führen Sie den Test erneut durch. Falls der Test zum selben Ergebnis führt, kontaktieren Sie bitte via das Kontaktformular."
+
+#: messages.js
+msgid "<b>Our tests show that you will have a broken or misconfigured IPv6 setup, and this will cause problems as web sites enable IPv6.</b>"
+msgstr "<b>Unsere Tests zeigen, dass Ihre IPv6 Konfiguration beschädigt oder fehlerhaft ist. Dies wird voraussichtlich zu Problemen führen wenn Webseiten-Betreiber IPv6 aktivieren"
+
+#: messages.js
+msgid "You are likely using a FireFox plugin that is causing IP based tests to fail. Examples: RequestPolicy. Please disable those while using this site."
+msgstr "Sie benutzen vermutlich eine Firefox Erweiterung welche IP Adress basierende Prüfungen verhindert. Beispiele: RequestPolicy. Deaktivieren Sie diese Erweiterungen während Sie diese Seite benutzen."
+
+#: messages.js
+msgid "No IPv4 address detected"
+msgstr "Keine IPv4 Adresse erkannt"
+
+#: messages.js
+msgid "You appear to be able to browse the IPv4 Internet only. You will not be able to reach IPv6-only sites."
+msgstr "Es scheint als hätten Sie nur eine IPv4 fähige Internetverbindung. Sie werden nicht in der Lage sein Webseiten welche nur via IPv6 verfügbar sind zu erreichen."
+
+#: messages.js
+msgid "When a publisher offers both IPv4 and IPv6, your browser appears to be happy to take the IPv4 site without delay."
+msgstr "Wenn Inhalte sowohl via IPv4 als auch via IPv6 verfügbar sind, benutzt Ihr Webbrowser IPv4 ohne Einschränkungen in der Qualität."
+
+#: messages.js
+msgid "When a publisher offers both IPv4 and IPv6, your browser appears to slow down signficantly compared to an IPv4-only site. You may even believe the destination web site to be broken. This may be due to your IPv6 configuration."
+msgstr "Wenn Inhalte sowohl via IPv4 als auch via IPv6 verfügbar sind, funktioniert Ihr Webbrowser wesentlich schlechter als bei Inhalten welche nur via IPv4 verfügbar sind. Es kann sogar sein das eine funktierende Webseite gar nicht erreicht werden kann. Dies deutet auf ein Problem Ihrer IPv6 Konfiguration hin."
+
+#: messages.js
+msgid "When a publisher offers both IPv4 and IPv6, your browser will time out trying to connect. You may believe the site is down. This may be due to your IPv6 configuration. Consider disabling IPv6, or seeking help."
+msgstr "Wenn Inhalte sowohl via IPv4 als auch via IPv6 verfügbar sind, kann Ihr Webbrowser die Inhalte nicht abrufen. Dies deutet auf ein Problem Ihrer IPv6 Konfiguration hin. Überlegen Sie sich IPv6 komplett zu deaktivieren oder Hilfe zu suchen."
+
+#: messages.js
+msgid "Connections to IPv4 are slow, but functional. Perhaps you or your ISP put you behind an IP sharing device (NAT) that is currently slow."
+msgstr "Verbindungen via IPv4 funktionieren, sind jedoch langsam. Eventuell stell Ihr ISP Ihre IPv4 Verbindung über ein NAT zur Verfügung, welches zurzeit überlastet ist."
+
+#: messages.js
+msgid "No IPv6 address detected"
+msgstr "Keine IPv6 Adresse erkannt"
+
+#: messages.js
+msgid "You appear to be able to browse the IPv6 Internet only. You have no access to IPv4. That's pretty bold!"
+msgstr "Es scheint als könnten Sie nur IPv6 Internetverbindungen herstellen. Das ist durchaus mutig :-)"
+
+#: messages.js
+msgid "Connections to IPv6 are slow, but functional. Perhaps you are using a public IPv6 tunnel that is either slow, or not located near you."
+msgstr "IPv6 Verbindungen sind langsam, funktionieren jedoch. Evtl. benutzen Sie einen Tunneldienst welcher zurzeit langsam oder nicht in Ihrer Nähe terminiert ist."
+
+#: messages.js
+msgid "Connections to IPv6-only sites are timing out. Any web site that is IPv6 only, will appear to be down to you."
+msgstr "Verbindungen zu Inhalten welche nur via IPv6 erreichbar sind, resultieren in einer Zeitüberschreitung. Alle Webseiten welche nur via IPv6 erreichbar sind, werden daher nicht funktionieren."
+
+#: messages.js
+msgid "Your IP address(es) could not be detected due to inteference from browser add-ons."
+msgstr "Ihre IP Adresse(n) konnte nicht erkannt werden aufgrund störender Browsererweiterungen."
+
+#: messages.js
+msgid "The Opera web browser seems to be break on this site frequently. <b>If you have trouble, try another browser</b>."
+msgstr "<b>Falls bei Ihnen Probleme auftauchen, versuchen Sie den Tests mit einem anderen Webbrowser durchzuführen</b>."
+
+#: messages.js
+msgid "<b>Disable turbo mode on Opera, and try again.</b> Turbo mode is not compatible with the needs of this site."
+msgstr "<b>Deaktivieren Sie Turbomodus in Opera und starten Sie den Test erneut</b> Der Turbomodus ist mit den Anforderungen dieser Seite nicht kompatibel."
+
+#: messages.js
+msgid "Your IPv6 connection appears to be using Teredo, a type of IPv4/IPv6 translation using a public gateway. The quality for this <i>may</i> suffer, as you are using a public gateway to reach IPv6 based sites."
+msgstr "Es scheint Sie benutzen Teredo um eine IPv6 Verbindung herzustellen. Teredo ist eine Technik zur IPv4/IPv6 Übersetzung durch Benutzung eines öffentlichen Gateways. Die Verbindungsqualität <i>kann</i> eingeschränkt sein. Sie hängt von der Qualität des benutzten öffentlichen Gateways ab."
+
+#: messages.js
+msgid "Your IPv6 connection appears to be using Teredo, a type of IPv4/IPv6 gateway; currently it connects only to direct IP's. Your browser will not be able to go to IPv6 sites by name. This means the current configuration is not useful for browsing IPv6 web sites."
+msgstr "Es scheint Sie benutzen Teredo um eine IPv6 Verbindung herzustellen. Teredo ist eine Technik zur IPv4/IPv6 Übersetzung durch Benutzung eines öffentlichen Gateways. In der aktuellen Konfiguration verbindet sich Teredo jedoch nur direkt via IP Adressen. Ihr Browser ist nicht in der Lage IPv6 Seiten via Namen aufzurufen. Das bedeutet die aktuelle Konfiguration ist nicht nutzbar um IPv6 Webseiten aufzurufen."
+
+#: messages.js
+msgid "Your DNS server (possibly run by your ISP) appears to have no access to the IPv6 Internet, or is not configured to use it. This may in the future restrict your ability to reach IPv6-only sites."
+msgstr "Ihr DNS Server (wahrscheinlich von Ihrem ISP betrieben) scheint entweder über keinen IPv6-Internetzugriff zu verfügen oder er ist nicht konfiguriert diesen zu benutzen. In Zukunft könnte dies das Erreichen von Webinhalten, welche nur via IPv6 abrufbar sind, einschränken."
+
+#: messages.js
+msgid "Your DNS server (possibly run by your ISP) appears to have IPv6 Internet access."
+msgstr "Ihr DNS Server (wahrscheinlich von Ihrem ISP betrieben) scheint über IPv6 Internetzugriff zu verfügen."
+
+#: messages.js
+msgid "Your browser is blocking the test urls. We will try alternate methods, but they may fail to show your IP address; and may affect the quality of the advice given."
+msgstr "Ihr Webbrowser blockiert die Test Links. Wir versuchen alternative Methoden, diese können evtl. Ihre IP-Adresse nicht ermitteln und die Qualität der Ratschläge beeinflussen."
+
+#: messages.js
+msgid "We are unable to test your system; it appears that a firewall or browser filter is preventing the test from running. Critical tests are failing. Try disabling any browser plugins, extensions, or add-ons (such as ad blockers); and reloading this page. If that still fails, you can leave a comment requesting help."
+msgstr "Wir können Ihr System nicht testen. Eine Firewall oder ein Filter in Ihrem Webbrowser scheint die Ausführung der Tests zu verhindern. Entscheidene Überprüfungen schlagen fehl. Versuchen Sie alle Browser AddIns und Erweiterungen (wie z.B. Werbeblocker) zu deaktivieren und die aktuelle Seite neu zu laden. Falls der Test immernoch fehlschlägt können Sie uns konktaktieren und um Hilfe fragen."
+
+#: messages.js
+msgid "We are unable to test your system; it appears that a firewall or browser filter is preventing the test from running. The dual-stack tests are failing. Try disabling any browser plugins, extensions, or add-ons (such as ad blockers); and reloading this page. If that still fails, you can leave a comment requesting help."
+msgstr "Wir können Ihr System nicht testen. Eine Firewall oder ein Filter in Ihrem Webbrowser scheint die Ausführung der Tests zu verhindern. Dual-Stack Prüfungen schlagen fehl. Versuchen Sie alle Browser AddIns und Erweiterungen (wie z.B. Werbeblocker) zu deaktivieren und die aktuelle Seite neu zu laden. Falls der Test immernoch fehlschlägt können Sie uns konktaktieren und um Hilfe fragen."
+
+#: messages.js
+msgid "The most likely cause is NoScript or AdBlock+. NoScript can be told to permit all scripts on this page (you may need to do this more than once). At minimum, permit the urls listed below."
+msgstr "Die wahrscheinlichste Ursache ist NoScript oder AdBlock+. NoScript kann so konfiguriert werden, dass alle Skripte dieser Seite ausgeführt werden dürfen (Sie müssen dies evtl. mehr als einmal konfigurieren). Mindestens sollte die unten aufgelisteten URLs erlaubt werden."
+
+#: messages.js
+msgid "faq: No IPv4"
+msgstr "faq: Kein IPv4"
+
+#: messages.js
+msgid "faq: No IPv6"
+msgstr "faq: Kein IPv6"
+
+#: messages.js
+msgid "faq: v6ns Bad"
+msgstr "faq: v6ns Schlecht"
+
+#: messages.js
+msgid "faq: Browser Plugins"
+msgstr "faq: Browser Erweiterungen"
+
+#: symptoms.js
+msgid "Your browser blocked"
+msgstr "Ihr Browser blockiert"
+
+#: faq/matrix_os.inc
+msgid "Windows Vista and Windows 7 are both IPv6 ready. Mac OS X 10.5 and higher is fine. FreeBSD and Linux, all recent versions, are also fine. When your Internet service provider offers IPv6 to you, these OSs are good. You may still need to replace your router (wireless or wired), if it is not aware of IPv6. You'll have to consult with your Internet service provider on when IPv6 will be offered."
+msgstr "Windows Vista und Windows 7 sind beide IPv6-kompatibel. Mac OS X ab Version 10.5 ebenfalls. FreeBSD und Linux, alle halbwegs aktuellen Versionen jedenfalls, sind auch IPv6-kompatibel. Sobald ihr Internet-Zugangsanbieter ihnen IPv6 anbietet wird es mit diesen Betriebssystemen funktionieren. Möglicherweise müssen Sie allerdings ihren Router (kabelgebunden oder WLAN) ersetzen, wenn dieser nicht mit IPv6 umgehen kann. Bitte wenden Sie sich bei Fragen zu Einführungsterminen und der Kompatibilität ihres Routers an ihren Internet-Zugangsanbieter."
+
+#: faq/matrix_os.inc
+msgid "Windows XP users: My advice is to plan on upgrading before using IPv6. It is technically possible to use IPv6 with XP, to a minimal extent."
+msgstr "Wenn Sie noch Windows XP einsetzen: Mein Rat ist, auf eine neuere Version umzusteigen, wenn Sie IPv6 verwenden wollen. Es ist technisch möglich, mit XP IPv6 zu verwenden, zu einem bestimmten Grad jedenfalls. Aber lassen Sie es lieber sein."
+
+#: faq/nothingwillbreak.inc
+msgid "The good news is, nothing will suddenly break."
+msgstr "Kein Grund zur Sorge - es geht nichts plötzlich kaputt."
+
+#: faq/nothingwillbreak.inc
+msgid "When web sites offer their content on both IPv4 and IPv6, you'll still reach them using your existing IPv4 Internet service."
+msgstr "Wenn Websites ihre Inhalte über IPv4 und IPv6 anbieten, dann werden Sie sie weiterhin über ihren vorhanden IPv4-Zugang erreichen."
+
+#: faq/dontfeelbad.inc
+msgid "It looks like you have only IPv4 Internet service at this time. Don't feel bad - most people are in this position right now. Most Internet service providers are not quite yet ready to provide IPv6 Internet to residential customers."
+msgstr "Es sieht so aus, als ob sie momentan nur einen IPv4-Internetzugang haben. Kein Problem - den meisten Menschen geht es ebenso. Die meisten Zugangsanbieter sind noch nicht soweit, um ihren Privatkunden IPv6 anbieten zu können."
+
+#: faq/dontstress.inc
+msgid "Don't stress too much on having an IPv6 address in 2011."
+msgstr "Und zu guter Letzt: Keine Panik! Machen Sie sich keinen Stress, um noch 2011 IPv6-fähig zu werden."
+
+#: faq/dontstress.inc
+msgid "If you do buy a new router, make sure that it will be IPv6 ready (or upgradable) when your service provider does offer IPv6."
+msgstr "Falls Sie sich sowieso einen neuen Router kaufen, dann achten Sie drauf, dass dieser IPv6-kompatibel ist (oder lassen sich zumindest ein Upgrade zusichern), damit sie dann durchstarten können, sobald ihr Zugangsanbieter IPv6 anbietet."
+
+#: faq/whyipv6.inc
+msgid "Many of the visitors to the site are new to what IPv6 is."
+msgstr "Viele Besucher dieser Seite haben zum ersten Mal überhaupt mit IPv6 zu tun."
+
+#: faq/whyipv6.inc
+msgid "If you don't know why IPv6 matters, see the <a href=\"#\" onclick=\"return help_page('faq_whyipv6.html','Why IPv6')\">Why IPv6 FAQ</a>."
+msgstr "Wenn Sie nicht wissen, warum IPv6 wichtig ist, dann lesen sie die <a href=\"#\" onclick=\"return help_page('faq_whyipv6.html','Warum IPv6?')\">\"Warum IPv6?\"-FAQ</a>."
+
+
+#: faq/whyipv6.inc
+msgid "This will give you a bit of background of what to expect with IPv4 in the coming months and years; and perhaps some incentive to ask your ISP when they will offer IPv6."
+msgstr "Dort finden Sie Hintergrundinformationen zur Zukunft von IPv4 in den nächsten Monaten und Jahren; und vielleicht auch ein paar Gründe, ihren Zugangsanbieter zu fragen, ab wann er IPv6 anbieten wird."
+
+#: faq/brokers.inc
+msgid "If you are savvy with technology, you can be an early adopter of IPv6, consider learning more about"
+msgstr "Wenn Sie sicher im Umgang mit moderner Technik sind, dann können sie als Frühstarter mit IPv6 loslegen - ihr Stichwort sind sogenannte"
+
+
+#: faq/brokers.inc
+msgid "providers (managed 6to4 tunnel services)."
+msgstr "-Provider, hier die betreuten/manuellen Tunnel."
+
+
+#: faq/brokers.inc
+msgid "The use of automatic tunnels is discouraged"
+msgstr "Die Benutzung von automatischen Tunneln wird nicht empfohlen."
+
+
+#: faq_ipv4_only.html
+msgid "About your IPv4-only Internet service."
+msgstr "Weitere Informationen zu ihrem nur-IPv4 Internet-Zugang."
+
+#: faq_ipv4_only.html
+msgid "This FAQ has been produced to try and address the questions of IPv4 only users"
+msgstr "Diese FAQ versucht, Antworten auf oft gestellte Fragen von nur-IPv4-Benutzern zu geben."
+
+#: faq_ipv4_only.html
+msgid "If you are not savvy with technology, here is more generic information:"
+msgstr "Und für die weniger an Technik interessierten:"
+

@@ -1,0 +1,5 @@
+<p>Il semble que vous avez seulement une connectivit&eacute; IPv4 vers l'Internet pour l'instant.
+Ne culpabilisez pas -- la plupart des autres internautes sont dans le m&ecirc;me cas en
+ce moment. La pluart des Fournisseurs d'Acc&egrave;s Internet (FAI) ne sont pas
+encore tout &agrave; fait pr&ecirc;ts &agrave; offrir un service Internet
+en IPv6 &agrave; leurs clients r&eacute;sidentiels.</p>

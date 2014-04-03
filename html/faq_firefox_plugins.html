@@ -1,0 +1,27 @@
+[% PROCESS "header.inc"  %]
+[% PROCESS "list-nav.inc" page = "Firefox Plugins" %]
+
+<div id="content">
+  
+   <h1>[% "FAQ on Firefox Plugins" | i18n %]</h1>
+
+   <p><i>[% "This FAQ has been produced to try and address issues caused when using Firefox" | i18n %]</i></p>
+
+
+[% PROCESS "faq/intro_js.inc" %]  
+[% PROCESS "faq/plugins_firefox.inc" %]
+[% PROCESS "faq/plugins_tryagain.inc" %]
+
+<h2>[% "Alternative test for you.." | i18n %]</h2>
+
+<p>[% "This image based test is provided as a workaround. It will give you a quick pass/fail test, to tell you if you should be worried for World IPv6 Day." | i18n %]</p>
+
+[% PROCESS "faq/simple_test.inc" %]
+
+
+
+</div>
+
+      
+    
+[% PROCESS "footer.inc" %]

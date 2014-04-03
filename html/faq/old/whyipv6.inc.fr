@@ -1,0 +1,8 @@
+<p>
+Beaucoup de visiteurs de ce site ne savent pas toujours ce qu'IPv6 repr&eacute;sente.
+Si vous ne savez pas pour IPv6 est important, veuillez lire
+<a href="#" onclick="return help_page('faq_whyipv6.html','Why IPv6')">la FAQ pourquoi IPv6</a>.
+Cela vous donnera des informations &agrave; propos du d&eacute;clin d'IPv4 dans les mois et ann&eacute;es &agrave; venir;
+et vous incitera peut-&ecirc;tre &agrave; demander &agrave; votre FAI quand il offrira IPv6.
+</p>
+

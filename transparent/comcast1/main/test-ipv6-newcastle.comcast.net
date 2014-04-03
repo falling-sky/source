@@ -1,0 +1,47 @@
+
+On your main name servers:
+
+;################################################################
+;# ZONE: test-ipv6-newcastle.comcast.net. 
+;# Put this on your real name servers.  Fix the SOA and NS
+;# to reflect your environment.
+;################################################################
+
+$TTL 300
+@	IN SOA ns1.example.com. domregtech.comcastonline.com. (
+  2013091301 ; Serial
+  86400 ; Refresh
+  7200  ; Retry
+  604800 ; Expire
+  172800) ; Minimum
+
+; Main web site is intentionally IPv4 only, per the FAQ.
+		A	69.252.208.167
+www		A	69.252.208.167
+
+; Specific records for tests
+ipv4		A	69.252.208.167
+ipv6		AAAA	2001:558:fe23:2:69:252:208:167
+ds		A	69.252.208.167
+ds		AAAA	2001:558:fe23:2:69:252:208:167
+
+; DNS recursive resolver testing;
+; Delegated to the VM running test-ipv6-newcastle.comcast.net; IPv6-only
+v6ns		ns	v6ns1
+v6ns1		AAAA	2001:558:fe23:2:69:252:208:167
+
+; buggydns detects CPE devices that misinterpret AAAA 
+; requests for A; the buggy CPE will return either the
+; first or last 32 bits.
+; Do not use where IPv4 is between 32.0.0.0 and 63.255.255.255.
+buggydns1	AAAA	45fc:d0a7:45fc:d0a7:45fc:d0a7:45fc:d0a7
+
+; Convenience names not used in the tests;
+; but perhaps friendly for humans
+a		A	69.252.208.167
+aaaa		AAAA	2001:558:fe23:2:69:252:208:167
+www4		A	69.252.208.167
+www6		AAAA	2001:558:fe23:2:69:252:208:167
+v4		A	69.252.208.167
+v6		AAAA	2001:558:fe23:2:69:252:208:167
+

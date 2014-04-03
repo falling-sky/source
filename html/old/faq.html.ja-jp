@@ -1,0 +1,192 @@
+[% PROCESS "header.inc"  %]
+[% PROCESS "list-nav.inc" page = "faq" %]
+
+<div id="content">
+
+
+  <h1 id="title">test-ipv6.com FAQ</h1>
+
+  <div class="question">
+    Q: このテストはどのように動作しますか?
+  </div>
+
+  <div class="answer">
+    テストはもっぱらクライアントサイドのJavaScriptです。接続性を診断するために、IPv6 のみを強制的に利用する、もしくはデュアルスタック、あるいはその他のシナリオといったさまざまな DNS の名前を用いて Web サーバから一連の AJAX リクエストが生成されます。これらの取得の成否、またどの程度の時間が掛かったかを考慮します。
+<!-- The test is entirely client-side javascript. To determine reachability, a series of ajax requests are made from the
+    web server, using various DNS names that force the use of IPv6 only, or dual stack, or other such scenarios. The
+    pass/fail of such fetches, as well as how long they take, are taken into account. -->
+  </div>
+
+  <div class="question">
+    Q: なぜこのサイトは IPv4 からのみ接続可能なのでしょうか?
+    <!-- Why is this web site reachable via IPv4 only -->
+  </div>
+
+  <div class="answer">
+    仰る通り、このサイトには意図的に AAAA レコードがありません。一定の割合のユーザはデュアルスタックのサイトを閲覧できません。もしユーザが接続できない場合、彼らは問題があることを申告できません。これはコンテンツプロバイダが今日直面している大きな問題です; そのうち、私は $dayjob のうちのひとつに勤務しております。そのようなものとして、メインテストページは(ネイティブにせよトランスレータ経由にせよ)IPv4を必要とします。
+
+    <!-- You're right, there are no AAAA records, intentionally. A percentage of users are unable to browse sites that are
+    dual-stack. If the users can't connect, then they can't be told they have a problem. This is a big problem facing
+    content providers today; of which, I work at one for my $dayjob. As such, the main test page requires IPv4 (either
+    native or translated). -->
+  </div>
+
+  <div class="answer">
+    いつか、壊れた "broken" ユーザの割合がきわめて低い状況になったら、test-ipv6.com をデュアルスタック化することを検討します。
+    <!-- At some point, when the percentage of "broken" users has gone significantly down, I'll consider making
+    test-ipv6.com dual-stack.. -->
+  </div>
+
+  <div class="question">
+    Q: どのように私の IPv6 のみのホストをテストできますか。
+    <!-- How do I test my IPv6-only host -->
+  </div>
+
+  <div class="answer">
+　　その質問をするぐらいなら、おそらくこのサイトはいらないでしょう。でも、本当にやりたいなら、IPv6 ホストから<a href=    "http://aaaa.test-ipv6.com">http://aaaa.test-ipv6.com</a>にアクセスしてください。
+
+    <!-- If you ask that question, chances are you don't need this site. However, if you really want to, visit <a href=
+    "http://aaaa.test-ipv6.com">http://aaaa.test-ipv6.com</a> with your IPv6-only host. -->
+  </div>
+
+  <div class="question">
+    Q: 壊れている(broken)の意味するところは？
+    <!-- What do you mean by broken? -->
+  </div>
+
+  <div class="answer">
+    今日のユーザの一部は、IPv6 が有効になっているものの、現時点で性能の低いパブリックトンネルを利用している、もしくは経路が存在するものの、壊れている、もしくは最適ではないといった場合があります。しかし、とにかく経路が存在することで、RFC3484のアドレス選択アルゴリズムによる選択対象となり、この壊れた経路を試行する要因となります。この結果、ブラウザが中断するまでに75秒以上を要する場合があります。(訳注: 日本では「フレッツ光プレミアム」や「フレッツ光NEXT」など、IPv6インターネットとは接続されていないIPv6ネットワークを持つサービスがあり、これらの経路が原因となり問題を引きおこす可能性があります。)
+    <!-- A percentage of users today have IPv6 enabled, but are either using a public tunnel that is currently giving poor
+    performance; or otherwise have a route that is installed but broken or suboptimal. However, because they have a
+    route at all, in many cases the address selection algorithm of RFC3484 will pick using it, and trying to use this
+    broken route. It can take towards 75+ seconds before the browser gives up! -->
+  </div>
+
+  <div class="answer">
+    これらの条件のあるユーザの視点からは、Web サイトが A レコードと AAAA レコードの両方を持つ Web サイト (例: "デュアルスタック") はタイムアウトするように見えます. そしてユーザは似たようなプロダクトを持つ他のサイトに移動するでしょう。これはコンテンツプロバイダが持つ苦難です。
+    <!-- From the perspective of a user with these conditions, a web site offering both A and AAAA DNS records (ie, "dual
+    stack") will appear to time out; and the user will move on to another site that offers a similar product. This is
+    the quandary content providers have. -->
+  </div>
+
+  <div class="question">
+    Q: あなたの統計によると、あなたは既にIPv6のみのユーザがいるということですが。
+　　<!-- Why did your stats say you already have IPv6-only users? -->
+  </div>
+
+  <div class="answer">
+    彼らは <a href="http://aaaa.test-ipv6.com">http://aaaa.test-ipv6.com</a> を利用しています。
+    <!-- They went to <a href="http://aaaa.test-ipv6.com">http://aaaa.test-ipv6.com</a> -->
+  </div>
+
+  <div class="question">
+    Q: (このサイトの)統計の正確性について教えてください
+    <!-- How valid are the stats? -->
+  </div>
+
+  <div class="answer">
+    このサイトの訪問者は、平均的なWebコンシューマーを代表していません。このサイトの訪問者は(訳注：アクセス解析用のタグなどで他のサイトに埋め込まれているわけではなく)、自分の選択で訪問しています。このサイトの意図としては、統計データを提供することではなく、ユーザに世界が IPv6 (その有無を問わず) に移行する準備状況のレベルをお伝えすることです。そのようなものとして、ここの統計は平均的なコンテンツプロバイダのそれと大きく異なります。
+    <!-- They do not represent the average web consumer. Visitors to this site are self-selecting. The intent of this site
+    is to not provide stats, but instead to inform the user the level of readiness for the world to move to IPv6 (with
+    or without'em!). As such, stats found here will be completely different from an average content provider. -->
+  </div>
+
+  <div class="answer">
+    現時点では、私はコンテンツプロバイダがデュアルスタックでの提供を開始した際のユーザの準備状況を憂慮しています。機能している IPv4 があり、IPv6 スタックを無効にしている(あるいは有効にしているが経路の存在しない)ユーザは、コンテンツプロバイダのサイトを引き続き問題なく閲覧できるでしょう。
+    <!-- At this time, I'm most concerned with the user's readiness for a content provider to start offering dual-stack. A
+    user who has working IPv4, and has a disabled IPv6 stack (or enabled, but zero routes), will continue to browse
+    that content provider's site without issues. -->
+  </div>
+
+  <div class="answer">
+    ユーザの視点でみれば、IPv4 もなければ、IPv6 もない。これが単純なインターネットの経験です。一般論として、もしユーザ自身が二つを意識する必要があれば、それはインターネット業界の失敗です。
+    <!-- From the user's perspective, there is no IPv4, there is no IPv6. There is simply the Internet experience. Generally
+    speaking, if users have to concern themselves between the two, those in the Internet industry have failed. -->
+  </div>
+
+  <div class="answer">
+    2011年には、私はIPv6利用と、同様にCGN(キャリアグレードNAT)の利用の増加を予想しています。現時点で、IPv4のみのユーザにもっと低いスコアを反映するため、スコアを調整する予定です。私は実のところ、一つはIPv4のみのユーザと、もう一つはデュアルスタックのユーザという二種類のスコアを考慮しています。
+
+    <!-- In 2011, I expect both increased IPv6 usage, as well as increased CGN (carrier grade NAT) to be used. At this point
+    I will start adjusting the scores to reflect a much lower score for IPv4 only users. I am actually considering two
+    scores, one for the IPv4 only user, and one for the dual-stack user. -->
+  </div>
+
+  <div class="question">
+    Q: コンテンツプロバイダが実施しているものと、このテストはどう違うのでしょうか？
+    <!-- How does your test differ, from what the content providers are doing? -->
+  </div>
+
+  <div class="answer">
+    コンテンツプロバイダは、壊れているユーザと壊れていないユーザの計測指標を、総計として持っています。彼らは、現時点でユーザの現在の状況に基づくフィードバックを行っていません。これらの計測指標は、サイトをいつIPv6対応させるか、それともIPv6のみにとどめておくかの経営上の意思決定の判断材料とすることに重きが置かれています。いくつかのサイトを IPv4 のみに留め置くオプション; いくつかの少数の良くない点があります。しかし、皆が何らかの方法で常にIPv4に到達できると予想しております。
+    <!-- Content providers are gathering metrics of broken vs non-broken users, in an aggregate form. They are not at this
+    time actually giving the user feedback as to the user's current state. Those metrics will principally drive the
+    business decision of when to start publishing sites over IPv6, versus remaining IPv4 only. IPv4 only for some
+    content sites really is an option; it has a handful of downsides, but the expectation is that everyone will always
+    be able to reach IPv4, in some fashion. -->
+  </div>
+
+  <div class="answer">
+   その一方で、このサイトはユーザがユーザ自身の現状と、その現状が意味するものを把握することを支援できることを意図しています。
+   <!-- This site, on the other hand, is intended to help the user understand their current state, and what that state
+    possibly means to them. -->
+  </div>
+
+  <div class="question">
+    Q: あなたのサイトは、誤ったIPアドレスを表示しています; 私のパブリックアドレスを見つけるため、どのようにプロキシサーバを迂回できますか？
+    <!-- Your site shows the wrong IP address; how can I bypass my proxy server to find my public address? -->
+  </div>
+
+  <div class="answer">
+    IPv4/IPv6/デュアルスタックについては, これらのうちの一つをご利用ください:
+
+    <p>IPv4用:<code>telnet a.test-ipv6.com 79</code><br />
+    IPv6用:<code>telnet aaaa.test-ipv6.com 79</code><br />
+    両用:<code>telnet ds.test-ipv6.com 79</code></p>
+
+    <p>あなたのオペレーティングシステムによっては、あなたのtelnetコマンドの他にオプションを指定する必要がある場合もありますのでご注意ください。例として、私の Mac では、"<code>telnet -6</code>"を利用する必要があります。</p>
+
+    <!-- <p>Note you _may_ need to specify other options to your telnet command, depending on your operating system. On my
+    mac, for example, I need to use "<code>telnet -6</code>".</p> -->
+  </div>
+
+  <div class="question">
+    Q: フィードバック、本当に読んでますか？
+    <!-- Do you actually read the feedback? -->
+  </div>
+
+  <div class="answer">
+    <p>はい、読んでます。ありがとうございます。ただ、連絡先情報をご記入いただいた場合のみ対応しております。連絡先情報なしでのフィードバックについては、お問い合わせいただいてもお返事はできませんが、感謝しております。</p>
+    <!-- Yes, I do. Thank you! Note that I can only follow up with you if you do leave contact information. While I am still
+    grateful for feedback without contact information, I will be unable to reply with any answers if you asked them. -->
+
+    <p>World IPv6 Dayのプレスリリースに伴い、流量が増えているため、不本意ではありますが、定型文の返事しかできない場合があります。あなたのメッセージを拝読しており、また結果についてもダブルチェックしております。もし不明確な点がございましたらお気軽にご連絡ください（英語のみ）。</p>
+    <!-- Note that with the increase in traffic, due to the World IPv6 Day press
+    release, it is possible that I'll reply with a template message.  Please
+    don't take this personally; I did read your message, and double checked
+    your results.   Feel free to reply if something's unclear. -->
+  </div>
+
+  <div class="question">
+    どのように私（英語版の作者）にコンタクトできますか？
+    <!-- How else can I contact you? -->
+  </div>
+
+  <div class="answer">あなたの接続性の詳細を含めるため、またメールの遅延を迂回（こちら側のグレイリスティングを含む）するため、こちらのフォームをご利用いただければ幸いです。とはいうものの、メールや jabber で直接連絡したい場合には<a href="mailto:jfesler@test-ipv6.com">jfesler@test-ipv6.com</a>までお願いします（英語のみ）。FreeNode 上では、単に "jfesler" です。<br />
+（訳注：日本語版サイトと日本語訳を担当している白畑に連絡を希望される場合には、<a href="mailto:shin/atmark/tokyo6to4.net">shin/atmark/tokyo6to4.net(/atmark/を@に置き換えてください</a>でご連絡ください。
+
+   <!-- I would prefer you use the form, as it gives details of your connectivity, and bypasses any mail delays (including
+    the graylisting on my side). That said, you are welcome to directly email or jabber <a href="mailto:jfesler@test-ipv6.com">jfesler@test-ipv6.com</a>. On FreeNode, I'm simply "jfesler". -->
+  </div>
+
+  <div class="question">
+    これはオープンソースですか？
+  </div>
+  
+  <div class="answer">
+    はい。詳細については<a href="source.html">ソースページ</a>をご覧ください。
+  </div>
+  
+</div>
+
+[% PROCESS "footer.inc" %]

@@ -1,0 +1,542 @@
+
+
+"Project-Id-Version: PACKAGE VERSION\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"Last-Translator: Unspecified Translator <jfesler+unspecified-translator@test-ipv6.com>\n"
+"Language-Team: LANGUAGE <v6code@test-ipv6.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: messages.js
+msgid "bad"
+msgstr "slecht"
+
+#: builtin.js
+msgid "Click to see"
+msgstr "Bekijk"
+
+#: builtin.js
+msgid "failed to load"
+msgstr "Laden mislukt"
+
+#: builtin.js
+msgid "Frequently Asked Questions"
+msgstr "Veelgestelde vragen"
+
+#: builtin.js
+msgid "[go back]"
+msgstr "[ga terug]"
+
+#: builtin.js
+msgid "loading..."
+msgstr "laden..."
+
+#: builtin.js
+msgid "[more info]"
+msgstr "[meer info]"
+
+#: messages.js
+msgid "ok"
+msgstr "goed"
+
+#: builtin.js
+msgid "for your IPv4 stability and readiness, when publishers offer both IPv4 and IPv6"
+msgstr "voor je IPv4 stabiliteit en gereedheid als websites op zowel IPv4 als IPv6 bereikbaar zijn."
+
+#: builtin.js
+msgid "for your IPv6 stability and readiness, when publishers are forced to go IPv6 only"
+msgstr "voor je IPv6 stabiliteit en gereedheid als websites enkel op IPv6 bereikbaar zijn."
+
+#: builtin.js
+msgid "Your readiness score"
+msgstr "Uw score"
+
+#: messages.js
+msgid "slow"
+msgstr "traag"
+
+#: builtin.js
+msgid "Started"
+msgstr "Gestart"
+
+#: builtin.js
+msgid "(Updated server side IPv6 readiness stats)"
+msgstr "(Statistieken opgeslagen op de server)"
+
+#: builtin.js
+msgid "(Survey posting failed; the above information is accurate, but not recorded.)"
+msgstr "(Opslaan van survey resultaten mislukt; bovenstaande informatie is correct maar niet weggeschreven.)"
+
+#: builtin.js
+msgid "(Updating server side IPv6 readiness stats)"
+msgstr "(Bezig met opslaan van statistieken op de server)"
+
+#: builtin.js
+msgid "(Survey posting skipped; test was rigged)"
+msgstr "(Opslaan van statistieken overgeslagen, test was beÔnvloed)"
+
+#: builtin.js
+msgid "using"
+msgstr "gebruik makend van"
+
+#: builtin.js
+msgid "Your IPv4 address on the public Internet appears to be"
+msgstr "Uw IPv4 adres op het publieke Internet is (waarschijnlijk)"
+
+#: builtin.js
+msgid "Your IPv6 address on the public Internet appears to be"
+msgstr "Uw Ipv6 adres op het publieke Internet is (waarschijnlijk)"
+
+#: builtin.js
+msgid "Your IPv6 service appears to be"
+msgstr "Uw IPv6 service is vermoedelijk"
+
+#: versions.js
+msgid "%app: You are running version %found; we recommend %suggest or newer."
+msgstr "%app: U draait versie %found; wij bevelen %suggest of nieuwer aan."
+
+#: builtin.js
+msgid "Your FAQ"
+msgstr "Uw FAQ"
+
+#: checkresults.js
+msgid "test parameter wrong. should be 9 characters. o/s/b/t for open/slow/bad/timeout. Need one per: a aaaa ds4 ds6 dsmtu ipv4 ipv6 v6mtu v6ns"
+msgstr "Foute test parameter, zou 9 karakters moeten zijn. o/s/b/t voor open/slow/bad/timeout. Een nodig per: a aaaa ds4 ds6 dsmtu ipv4 ipv6 v6mtu v6ns"
+
+#: checkresults.js
+msgid "unknown expansion"
+msgstr "onbekende expansie"
+
+#: checkresults.js
+msgid "unknown result code"
+msgstr "onbekende resultaatcode"
+
+#: form.js
+msgid "Note: I can't contact you, if the contact info is blank. If you really want to submit this anonymously, hit Send Results again."
+msgstr "Let op: we kunnen geen contact met u opnemen als u geen emailadres invult. Als u zeker weet dat u dit bericht anoniem achter wilt laten moet u het formulier nogmaals verzenden."
+
+#: form.js
+msgid "Result code"
+msgstr "Resultaat code"
+
+#: form.js
+msgid "retest"
+msgstr "test nogmaals"
+
+#: form.js
+msgid "share your results"
+msgstr "delen"
+
+#: form.js
+msgid "I am most interested in discussing your setup with you, because it was been determined that <B>your IPv6 connectivity is broken</b>, or at least not fully understood. This is not normal; would you be willing to %share?"
+msgstr "We zouden graag de inrichting van uw netwerk willen bespreken, omdat vastgesteld is dat <B>uw IPv6 verbinding defect is</B>, of minimaal niet goed getest wordt. Dit is niet normaal, zou u uw resultaten willen %share?"
+
+#: disclaimer.inc
+msgid "This is a mirror of test-ipv6.com. The views expressed here may or may not reflect the views of the mirror owner."
+msgstr "dit is een mirror van test-ipv6.com. Uitspraken op deze website kunnen maar hoeven niet overeen te komen met de mening van de eigenaar van de mirror."
+
+#: main/tabnav.inc
+msgid "FAQ for You"
+msgstr "FAQ voor u"
+
+#: index.html
+msgid "Test your IPv6 connectivity."
+msgstr "Test uw IPv6 verbinding."
+
+#: main/tabnav.inc
+msgid "Share Results / Contact"
+msgstr "Deel resultaten / Contact"
+
+#: main/tabnav.inc
+msgid "Other IPv6 Sites"
+msgstr "Andere IPv6 sites"
+
+#: main/tabnav.inc
+msgid "Summary"
+msgstr "Samenvatting"
+
+#: main/tests.inc
+msgid "Technical Info"
+msgstr "Technische Info"
+
+#: main/tabnav.inc
+msgid "Tests Run"
+msgstr "Uitgevoerde tests"
+
+#: header.inc
+msgid "This will test your browser and connection for IPv6 readiness, as well as show you your current IPV4 and IPv6 address."
+msgstr "Deze pagina test uw browser en verbinding op gereedheid voor IPv6 en toont u tevens uw huidige IPv4 en IPv6 adres."
+
+#: header.inc
+msgid "Test your IPv6."
+msgstr "Test uw IPv6."
+
+#: main/mail-language.inc
+msgid "Please leave your comments using English, if possible."
+msgstr "Laat uw commentaar achter in het Engels indien mogelijk."
+
+#: main/mail.inc
+msgid "<span id=\"comments_faq_link\"></span> (FAQ) page is available for <b>your</b> exact set of results. Please read it before leaving comments; many questions have already been answered. If you still have questions, comments, or concerns, feel freel to use this form."
+msgstr "<b>uw</b> specifieke set uitslagen. Lees deze aub door voor u commentaar achterlaat, veel vragen zijn al beantwoord. Als u nog steeds vragen of bezorgdheid hebt, gebruik dan dit formulier."
+
+#: main/mail.inc
+msgid "This form will let you leave a comment, voice concerns, or ask questions. Your test results will be included automatically."
+msgstr "Met behulp van dit formulier kunt u commentaar achterlaten, uw bezorgdheid uitspreken en vragen stellen. Uw testresultaten worden automatisch bijgevoegd."
+
+#: main/mail.inc
+msgid "<b>Your particular configuration is of interest.</b> We are always striving to make the test-ipv6.com code better. Would you be willing to contribute more information about your browser and computer setup? With your help, we can document for others how to repair their systems."
+msgstr "<b>Uw specifieke configuratie is interessant.</b> Wij doen ons best om de code achter deze website te verbeteren. Bent u bereid om meer informatie over uw browser en computerinstellingen te delen? Met uw hulp kunnen we voor anderen documenteren hoe ze hun systemen kunnen corrigeren."
+
+#: main/mail.inc
+msgid "Report a bug with diagnosis"
+msgstr "Meld een foute diagnose"
+
+#: main/mail.inc
+msgid "Cheers or Jeers"
+msgstr "Klachten en aanmoedigingen"
+
+#: main/mail.inc
+msgid "Email address if you'll permit me to contact you. <i>Required, if you wish a response.</i>"
+msgstr "Emailadres indien u toestaat dat we contact opnemen. <i>Noodzakelijk indien u een antwoord wilt.</i>"
+
+#: main/mail.inc
+msgid "Purpose for comment"
+msgstr "Doel van dit commentaar"
+
+#: main/mail.inc
+msgid "Questions about test results"
+msgstr "Vragen over testresultaten"
+
+#: main/mail.inc
+msgid "Send results"
+msgstr "Verstuur resultaten"
+
+#: main/mail.inc
+msgid "Suggestion"
+msgstr "Suggesties"
+
+#: main/mail.inc
+msgid "Any information you think I might find useful (what router you're using, or a firewall in the way, or type of proxy you use, etc). This includes general feedback."
+msgstr "Alle informatie waarvan u denkt dat nuttig is (welk type router u gebruikt, of er een firewall aanwezig is, of u een proxy gebruikt, etc). Ook algemeen commentaar valt hieronder."
+
+#: main/mail.inc
+msgid "If you are technically minded please cut/paste the output of the following commands:"
+msgstr "Als u technisch onderlegd bent kunt u hier de uitvoer van de volgende commando's plakken:"
+
+#: main/mail.inc
+msgid "Copy the output from those commands, into the box below. This will help me confirm/deny any theories relating to your question."
+msgstr "Kopieer de uitvoer van de volgende commando's in onderstaand veld. Dit helpt ons om theorie&euml;n omtrent uw vragen te bevestigen of ontkrachten."
+
+#: main/mail.inc
+msgid "The javascript based test appears to have failed. This may be browser plugin or extension related. Please indicate what browser plugins and extenions you have enabled in this browser."
+msgstr "De op javascript gebaseerde test lijkt mislukt te zijn. Dit kan gerelateerd zijn aan browser plugins of extensies. Geef aub aan welke browser plugins en extensies u ingeschakeld heeft in uw browser."
+
+#: main/mail.inc
+msgid "If you are technically minded, please open a \"Command Prompt\" or \"cmd\" window, and run these three commands:"
+msgstr "Wilt u als u technisch onderlegd bent een \"Command Prompt\" of \"cmd\" venster openen en de volgende drie commando's uitvoeren:"
+
+#: main/mail.inc
+msgid "If reporting a problem with the test, or requesting help with your results, please fill out all requested information to the best of your ability. If leaving general comments, use your best judgement on how much to report."
+msgstr "Als u een probleem met de test rapporteert of hulp bij uw resultaten vraagt, vul dan aub alle gevraagde informatie in. Als u algemeen commentaar levert, probeer dan in te schatten hoeveel informatie u aanlevert."
+
+#: main/mail.inc
+msgid "Thanks,"
+msgstr "Bedankt,"
+
+#: main/tech.inc
+msgid "(This is bonus credit)"
+msgstr "(Dit is bonus credit)"
+
+#: main/tech.inc
+msgid "Fetches an object that has just an A record in DNS. This is expected to use IPv4. IPv6-only users might still reach this, if their provider has employed a NAT64/DNS64 or proxy solution."
+msgstr "Benader een object met slechts een A record in DNS. Hierbij wordt naar verwachting gebruik gemaakt van IPv4. Gebruikers met alleen IPv6 kunnen dit record mogelijk bereiken als hun ISP een NAT64/DNS64 of proxy aanbiedt."
+
+#: main/tech.inc
+msgid "Fetches an object that has just an AAAA record in DNS. This is expected to use IPv6. Users not yet on the IPv6 Internet are likely to see this fail. As long as it fails quickly, it will be OK - for now."
+msgstr "Benader een object met slechts een AAAA record in DNS. Hierbij wordt naar verwachting gebruik gemaakt van IPv6. Gebruikers zonder IPv6 zullen deze test naar verwachting zien mislukken. Zo lang als deze test binnen korte tijd mislukt is alles -voor nu- in orde."
+
+#: main/tech.inc
+msgid "Queries for a malformed AAAA record. Some routers mishandle these as \"A\" records, and only keep the first 32 bits. We want this test to fail to connect."
+msgstr "Deze test doet verzoeken voor een fout AAAA record. Sommige routers behandelen deze als \"A\" records en bewaren alleen de eerste 32 bits. We verwachten dat deze test geen verbinding kan maken."
+
+#: main/tech.inc
+msgid "This is the most important test. This verifies your browser can connect to a site that has both IPv4 and IPv6 records published. IPv4 only hosts should connect fine (using IPv4)."
+msgstr "Dit is de belangrijkste test. Deze test controleert of uw browser kan verbinden met een website die zowel IPv4 als IPv6 DNS records aanbiedt. Machines met alleen IPv4 zouden zonder problemen (via IPv4) moeten kunnen verbinden."
+
+#: main/tech.inc
+msgid "If this test fails or times out, you can expect major problems as publishers start offering their sites on IPv6."
+msgstr "Als deze test mislukt of een timeout geeft kunt u grote problemen verwachten als websites via IPv6 beschikbaar gemaakt worden."
+
+#: main/tech.inc
+msgid "Validates that you can connect to a dual-stack server (like the ds test); and that you can send/receive large packets on that connection. If this test times out for any reason, it indicates trouble for World IPv6 Day."
+msgstr "Deze test controleert of u een dual-stack server kan benaderen en dat u grote pakketten kan verzenden en ontvangen over die verbinding. Indien deze test mislukt, geeft dat problemen aan voor World IPv6 Day."
+
+#: main/tech.inc
+msgid "This will try connecting with a literal IPv4 numeric address. This should work for most people, unless they are running IPv6-only. If the first test worked, but this fails, it likely confirms your provider is using NAT64/DNS64; you'll need to only try connecting using hostnames instead of numeric IP addresses."
+msgstr "Deze test zal proberen een IPv4-adres direct te benaderen. Deze succes zal slagen voor iedereen, tenzij ze alleen IPv6 gebruiken. Als de eerste test slaagt maar deze mislukt is het waarschijnlijk dat uw provider NAT64/DNS64 gebruikt en moet u proberen alleen te verbinden op hostnamen en niet op IP-adressen."
+
+#: main/tech.inc
+msgid "This will try connecting with a literal IPv6 hexadecimal address. The primary purpose of this test is to separate out your connectivity on IPv6 from your ability to fetch DNS for it. A secondary purpose is to see if you have Teredo enabled; some systems may only use Teredo when an IPv6 address is in the URL."
+msgstr "Deze test zal proberen een IPv6-adres direct te benaderen. Het belangrijkste doel van deze test is om te bepalen of uw mogelijkheid om via IPv6 te verbinden onafhankelijk is van de mogelijkheid om DNS ervoor op te vragen. Een tweede doel is om te zien of Teredo gebruikt wordt, sommige systemen gebruiken Teredo alleen als er een IPv6-adres in het URL staat."
+
+#: main/tech.inc
+msgid "Validates that IPv6 requests with large packets work. If this test times out, but other IPv6 tests work, it suggests that there may be PMTUD issues; possibly involving IP tunnels."
+msgstr "Deze test controleert of IPv6 requests met grote pakketten werken. Als deze test een timeout geeft maar andere testen werken duidt dit erop dat er PMTUD problemen zijn, mogelijk veroorzaakt door IP tunnels."
+
+#: main/tech.inc
+msgid "This is a test of your ISP's resolver (instead of a test of your host). If this test passes, your DNS server (often run by your ISP) is capable of reaching IPV6-only DNS authoritative servers on the Internet. This is not critical (at this time) for you to reach sites via IPv6."
+msgstr "Dit is een test van de DNS resolver van uw ISP (in plaats van een test van uw machine). Indien deze test lukt, is uw DNS server (vaak beheerd door uw ISP) in staat om een authoritatieve DNS-server met alleen IPv6 te benaderen. Dit is -voor nu- niet kritiek om websites via IPv6 te benaderen."
+
+#: main/tests.inc
+msgid "Your browser will be instructed to reach a series of URLs. The combination of successes and failures tells a story about how ready you are for when publishers start offering their web sites on IPv6."
+msgstr "Uw browser probeert om een aantal URL's te benaderen. De combinatie van gelukte en mislukte pogingen vertelt hoe gereed u bent voor het moment dat websites via IPv6 beschikbaar zijn."
+
+#: main/tests.inc
+msgid "How this test works:"
+msgstr "Hoe deze test werkt:"
+
+#: main/tests.inc
+msgid "pending"
+msgstr "in afwachting"
+
+#: main/tech.inc
+msgid "If the summary results indicated problems, you (or your technical support) may be able to use the information above to diagnose the issues. Each of the test urls and their results is shown on the left side. To the right you'll see a description of what that URL was designed to test."
+msgstr "Als de samenvatting aangeeft dat er problemen zijn kunt u (of uw technische ondersteuning) met behulp van de bovenstaande informatie de problemen analyseren. Alle test-URL's en de bijbehorende resultaten zijn aan de linkerzijde te zien. Aan de rechterzijde is beschreven welke test met het URL uitgevoerd wordt."
+
+#: main/tech.inc
+msgid "After each test is ran. The summary page attempts to look at the results If the summary doesn't seem to make sense given the symptoms recorded above, or if you need further assistance, please feel free to contact us."
+msgstr "Nadat iedere test uitgevoerd is. De samenvattingspagina probeert de testresultaten te analyseren. Als de uitkomst niet logisch is op basis van de bovenstaande symptomen of als u verdere ondersteuning wilt, neem dan contact op."
+
+#: main/tests.inc
+msgid "Test with IPv4 DNS record"
+msgstr "Test met een IPv4 DNS record"
+
+#: main/tests.inc
+msgid "Test with IPv6 DNS record"
+msgstr "Test met een IPv6 DNS record"
+
+#: main/tests.inc
+msgid "Test for buggy DNS"
+msgstr "Test voor kapotte DNS"
+
+#: main/tests.inc
+msgid "Test with Dual Stack DNS record"
+msgstr "Test met een Dual Stack DNS record"
+
+#: main/tests.inc
+msgid "Test for Dual Stack DNS and large packet"
+msgstr "Test met een Dual Stack DNS en grote pakketten"
+
+#: main/tests.inc
+msgid "Test IPv4 without DNS"
+msgstr "Test IPv4 zonder DNS"
+
+#: main/tests.inc
+msgid "Test IPv6 without DNS"
+msgstr "Test IPv6 zonder DNS"
+
+#: main/tests.inc
+msgid "Test IPv6 large packet"
+msgstr "Test IPv6 met grote pakketten"
+
+#: main/tests.inc
+msgid "Test if your ISP's DNS server uses IPv6"
+msgstr "Test of uw ISP's DNS server IPv6 gebruikt"
+
+#: messages.js
+msgid "You appear to be using a public 6to4 gateway; your router may be providing this to you automatically. Such public gateways have no service level agreements; you may see performance problems using such. Better would be to get a native IPv6 address from your ISP."
+msgstr "Het lijkt erop dat u een publieke 6to4 gateway gebruikt. Het is mogelijk dat uw router dit automatisch doet. Dergelijke gateways hebben geen service level agreements, u kunt daardoor problemen met de beschikbaarheid en kwaliteit. Native IPv6 via uw ISP werkt beter."
+
+#: messages.js
+msgid "Danger! IPv6 sorta works - however, large packets appear to fail, giving the appearance of a broken website. If a publisher publishes to IPv6, you will believe their web site to be broken. Ask your ISP about MTU issues; possibly with your tunnel."
+msgstr "LET OP! IPv6 werkt een beetje, maar grote pakketten lijken niet aan te komen, waardoor websites stuk kunnen lijken te zijn als deze IPv6 gebruiken. Vraag uw ISP over MTU problemen, mogelijk gerelateerd aan uw tunnel."
+
+#: messages.js
+msgid "Congratulations! You appear to have IPv6. Note: your IPv4 access is limited to connections by hostname looked up through your ISP's DNS server - not raw IP address. Your ISP probably has a device to help you reach IPv4 sites by name (NAT64+DNS64). This will work for most purposes."
+msgstr "Gefeliciteerd! U lijkt IPv6 te hebben. Let op: uw IPv6 toegang is beperkt tot verbindingen op naam via de DNS server van uw ISP, niet op IP-adres. Uw ISP heeft waarschijnlijk een appaaraat om IPv4 sites op naam te benaderen (NAT64+DNS64). Deze oplossing werkt meestal."
+
+#: messages.js
+msgid "Connections to urls with IP addresses appear to be blocked; perhaps by a web filter such as 'NoScript' or 'RequestPolicy' installed into your browser, or filtering in your proxy server. This limits some of the functionality of this test site."
+msgstr "verbindingen naar URLs met IP-adressen lijken geblokkeerd te worden, misschien door een webfilter als 'NoScript' of 'RequestPolicy' in uw browser, of door filtering in uw proxyserver. Dit beperkt een deel van de functionaliteit van deze test site."
+
+#: messages.js
+msgid "IPv4 Connections using DNS work; but literal IP addresses in urls do not. These are rarely used on the web today."
+msgstr "IPv4 verbindingen gebruik makend van DNS werken, maar verbindingen direct naar IP-adressen in URL's werken niet. Deze worden tegenwoordig zelden gebruikt op het Internet."
+
+#: messages.js
+msgid "IPv6 Connections using DNS work; but literal IP addresses in urls do not. These are rarely used on the web today."
+msgstr "IPv6 verbindingen gebruik makend van DNS werken, maar verbindingen direct naar IP-adressen in URL's werken niet. Deze worden tegenwoordig zelden gebruikt op het Internet."
+
+#: messages.js
+msgid "Your browser has real working IPv6 address - but is avoiding using it. We're concerned about this."
+msgstr "Uw browser heeft goed werkende IPv6 maar weigert dit te gebruiken. Dit baart ons zorgen."
+
+#: messages.js
+msgid "We have suggestions to help you fix your system."
+msgstr "We hebben suggesties om u te helpen uw systeem te repareren."
+
+#: messages.js
+msgid "Connections to IPv6-capable web sites hang. It appears that you may have IPv6 configured; and your computer believes that your IPv6 is working, with a route. It is however completely failing. Any web site that adds IPv6, will become unreachable to you. If you are unable to fix your IPv6 routing or connectivity, seek help. If all else fails, strongly consider disabling IP6 on host."
+msgstr "Verbindingen naar websites die IPv6 ondersteunen blijven hangen. Iedere website die beschikbaar wordt via IPv6 lijkt voor u onbereikbaar. Zoek ondersteuning als u uw IPv6 routering of verbinding niet kunt corrigeren. Overweeg om IPv6 uit te zetten op uw machine als dit allemaal niet lukt."
+
+#: messages.js
+msgid "We looked up an IPv6 address, but your DNS server (possibly your home router) mangled the response, and is treating it as (broken) IPv4."
+msgstr "We hebben een IPv6-adres opgevraagd, maar uw DNS-server (mogelijk uw thuisrouter) heeft het antwoord veranderd en behandeld als een kapotte IPv4."
+
+#: messages.js
+msgid "Test results inconclusive; they were not consistent with expectations. Please rerun the test, and if the results are the same, please fill out the contact form."
+msgstr "Op basis van de tests kunnen wij geen zekere uitspraken doen, ze zijn niet overeenkomstig onze verwachtingen. Voer de test aub nogmaals uit, en vul het contactformulier in als deze dezelfde resultaten oplevert."
+
+#: messages.js
+msgid "A lookup for an IPv6-only name failed; yet the lookup and connect for dual-stack connected via IPv6. Something appears to be confused with the DNS lookups."
+msgstr "Een opzoeking voor een IPv6-only naam is mislukt, terwijl er wel een verbinding via IPv6 gemaakt kon worden. Er lijkt iets mis te zijn met DNS opzoekingen."
+
+#: messages.js
+msgid "<b>Our tests show that you will may have MTU problems with IPv6; this can cause web sites to load slow (or not at all) when web sites enable IPv6.</b>"
+msgstr "<b>Onze tests tonen aan dat u MTU problemen kunt ondervinden met IPv6. Dit kan ertoe leiden dat websites langzaam of helemaal niet laden als deze IPv6 aanzetten.</b>"
+
+#: messages.js
+msgid "<b>Good news!</b> Your current configuration will continue to work as web sites enable IPv6."
+msgstr "<b>Goed nieuws!</b> We verwachten geen problemen met deze browser op deze lokatie en met deze verbinding na de Launch."
+
+#: messages.js
+msgid "For unknown reasons, your browser appears to operate slower when given the option of connecting to both IPv4 and IPv6. Please rerun the test, and if the results are the same, please fill out the contact form."
+msgstr "Om onduidelijke redenen lijkt uw browser langzaam te werken als deze zelf mag kiezen tussen IPv4 en IPv6. Voer aub de test nogmaals uit en vul het contactformulier in als hier dezelfde resultaten uit komen."
+
+#: messages.js
+msgid "<b>Our tests show that you will have a broken or misconfigured IPv6 setup, and this will cause problems as web sites enable IPv6.</b>"
+msgstr "<b>Onze tests tonen aan dat u een kapotte of foutief geconfigureerde IPv6 setup heeft en dat u problemen kunt verwachten als websites via IPv6 bereikbaar gemaakt worden.</b>"
+
+#: messages.js
+msgid "You are likely using a FireFox plugin that is causing IP based tests to fail. Examples: RequestPolicy. Please disable those while using this site."
+msgstr "U gebruikt waarschijnlijk een FireFox plugin als RequestPolicy die ervoor zorgt dat IP-tests mislukken. Zet deze plugin aub uit als u deze site bezoekt."
+
+#: messages.js
+msgid "No IPv4 address detected"
+msgstr "Geen IPv4 adres gedetecteerd"
+
+#: messages.js
+msgid "You appear to be able to browse the IPv4 Internet only. You will not be able to reach IPv6-only sites."
+msgstr "U lijkt alleen toegang te hebben tot het IPv4-deel van het Internet. U kunt geen IPv6-only websites benaderen."
+
+#: messages.js
+msgid "When a publisher offers both IPv4 and IPv6, your browser appears to be happy to take the IPv4 site without delay."
+msgstr "Als een website via zowel IPv4 als IPv6 beschikbaar is, kiest uw webbrowser IPv4 zonder vertraging."
+
+#: messages.js
+msgid "When a publisher offers both IPv4 and IPv6, your browser appears to slow down signficantly compared to an IPv4-only site. You may even believe the destination web site to be broken. This may be due to your IPv6 configuration."
+msgstr "Als een website via zowel IPv4 als IPv6 beschikbaar is, lijkt uw webbrowser langzaam te verbinden, vergeleken met een IPv4-only website. U zou hierdoor kunnen denken dat de betreffende website stuk is. Dit probleem kan door configuratiefouten veroorzaakt zijn."
+
+#: messages.js
+msgid "When a publisher offers both IPv4 and IPv6, your browser will time out trying to connect. You may believe the site is down. This may be due to your IPv6 configuration. Consider disabling IPv6, or seeking help."
+msgstr "Als een website via zowel IPv4 als IPv6 beschikbaar is, geeft uw browser een timeout bij het verbinden. U zou hierdoor kunnen denken dat de betreffende website stuk is. Overweeg om IPv6 uit te schakelen of om ondersteuning te vragen."
+
+#: messages.js
+msgid "Connections to IPv4 are slow, but functional. Perhaps you or your ISP put you behind an IP sharing device (NAT) that is currently slow."
+msgstr "Verbindingen via IPv4 zijn traag maar werken. Misschien dat u uw of ISP achter een langzaam NAT-apparaat zit."
+
+#: messages.js
+msgid "No IPv6 address detected"
+msgstr "Geen IPv6 adres gedetecteerd"
+
+#: messages.js
+msgid "IPv6 connections work, but connections using DNS names do not use IPv6. For some reason, your browser or your OS is not doing IPv6 DNS 'AAAA' lookups."
+msgstr "IPv6 verbindingen werken maar verbindingen op basis van DNS namen gebruiken geen IPv6. Om een of andere reden voert uw browser of OS geen IPv6 DNS 'AAAA' opzoekingen uit."
+
+#: messages.js
+msgid "You appear to be able to browse the IPv6 Internet only. You have no access to IPv4. That's pretty bold!"
+msgstr "Het lijkt erop dat u alleen het IPv6-Internet kunt benaderen. U heeft geen toegang tot IPv4. Dat is vrij gedurfd!"
+
+#: messages.js
+msgid "Connections to IPv6 are slow, but functional. Perhaps you are using a public IPv6 tunnel that is either slow, or not located near you."
+msgstr "Verbindingen via IPv6 zijn langzaam maar werken. Misschien gebruikt u een publieke IPv6 tunnel die langzaam of ver van u verwijderd is."
+
+#: messages.js
+msgid "Connections to IPv6-only sites are timing out. Any web site that is IPv6 only, will appear to be down to you."
+msgstr "Verbindingen naar websites met alleen IPv6 geven een timeout. Alle websites met alleen IPv6 zullen daarom stuk lijken voor u."
+
+#: messages.js
+msgid "Your IP address(es) could not be detected due to inteference from browser add-ons."
+msgstr "Uw IP-adres(sen) kon(den) niet gedetecteerd worden vanwege verstoring door browser add-ons."
+
+#: messages.js
+msgid "The Opera web browser seems to be break on this site frequently. <b>If you have trouble, try another browser</b>."
+msgstr "<b>Als u problemen blijft houden, probeer dan te testen met een andere webbrowser.</b>"
+
+#: messages.js
+msgid "<b>Disable turbo mode on Opera, and try again.</b> Turbo mode is not compatible with the needs of this site."
+msgstr "<b>Schakel 'turbo mode' in Opera uit en probeer het nogmaals.</b> Turbo mode werkt niet in combinatie met deze website."
+
+#: messages.js
+msgid "We have detected that you are using a proxy. This means we are testing your proxy server, not your computer. Proxy details (as reported by your proxy 'Via' header): %details"
+msgstr "We hebben gedetecteerd dat u een proxyserver gebruikt. Dit betekent dat we de proxyserver testen en niet uw computer. Proxy details (gerapporteerd door uw proxy door middel van de 'Via' header): %details"
+
+#: messages.js
+msgid "We have detected that you are using a proxy. This means we are testing your proxy server, not your computer."
+msgstr "We hebben gedetecteerd dat u een proxyserver gebruikt. Dit betekent dat we de proxyserver testen en niet uw computer."
+
+#: messages.js
+msgid "Since you have IPv6, we are including a tab that shows how well you can reach other IPv6 sites. %sites"
+msgstr "Aangezien u een werkende IPv6-verbinding heeft hebben wij een tabblad toegevoegd met informatie over hoe goed u andere IPv6-sites kunt bereiken. %sites"
+
+#: messages.js
+msgid "Your IPv6 connection appears to be using Teredo, a type of IPv4/IPv6 translation using a public gateway. The quality for this <i>may</i> suffer, as you are using a public gateway to reach IPv6 based sites."
+msgstr "Het lijkt erop dat u voor uw IPv6-verbinding gebruik maakt van Teredo, een IPv4/IPv6 gateway. Op dit moment kunt u alleen direct op IP verbinden, uw browser kan websites niet op naam via IPv6 benaderen. Dit houdt in dat uw huidige configuratie niet bruikbaar is om IPv6 websites te browsen."
+
+#: messages.js
+msgid "Your IPv6 connection appears to be using Teredo, a type of IPv4/IPv6 gateway; currently it connects only to direct IP's. Your browser will not be able to go to IPv6 sites by name. This means the current configuration is not useful for browsing IPv6 web sites."
+msgstr "Het lijkt erop dat u voor uw IPv6-verbinding gebruik maakt van Teredo, een IPv4/IP6 gateway. Op dit moment kunt u alleen direct op IP verbinden, uw browser kan websites niet op naam via IPv6 benaderen. Dit houdt in dat uw huidige configuratie niet bruikbaar is om IPv6 websites te browsen."
+
+#: messages.js
+msgid "Your IPv6 connection appears to be using Teredo, a type of IPv4/IPv6 gateway. Your particular teredo configuration is only used as a protocol of last resort. When visiting a site with both IPv4 and IPv6, IPv4 will be preferred."
+msgstr "Het lijkt erop dat u voor uw IPv6-verbiding gebruik maakt van Teredo, een IPv4/IPv6 gateway. Uw specifieke Teredo-configuratie is gebruikt als 'protocol of last resort': als u een site bezoekt die zowel IPv4 als IPv6 ondersteunt, krijgt IPv4 de voorkeur."
+
+#: messages.js
+msgid "Your DNS server (possibly run by your ISP) appears to have no access to the IPv6 Internet, or is not configured to use it. This may in the future restrict your ability to reach IPv6-only sites."
+msgstr "Uw DNS server (mogelijk beheerd door uw ISP) lijkt geen toegang tot het IPv6-Internet te hebben, of is zo geconfigureerd dat daar geen gebruik gemaakt van wordt. Dit kan in de toekomst uw bereikbaarheid naar IPv6-only websites beperken."
+
+#: messages.js
+msgid "Your DNS server (possibly run by your ISP) appears to have IPv6 Internet access."
+msgstr "Uw DNS server (waarschijnlijk beheerd door uw ISP) lijkt werkende IPv6 internettoegang te hebben."
+
+#: messages.js
+msgid "Your browser is blocking the test urls. We will try alternate methods, but they may fail to show your IP address; and may affect the quality of the advice given."
+msgstr "Uw browser blokkeert de test URL's. We zullen alternatieve testmethodes proberen, maar deze kunnen mogelijk uw IP-adres niet tonen en kunnen de kwaliteit van het gegeven advies beinvloeden."
+
+#: messages.js
+msgid "We are unable to test your system; it appears that a firewall or browser filter is preventing the test from running. Critical tests are failing. Try disabling any browser plugins, extensions, or add-ons (such as ad blockers); and reloading this page. If that still fails, you can leave a comment requesting help."
+msgstr "We kunnen uw systeem niet testen, het lijkt erop dat u een firewall of browser filter hebt die de tests blokkeren. Noodzakelijke tests mislukken. Probeer om browser plugins, extensies en add-ons (zoals ad blockers) uit te schakelen en de pagina te herladen. Als de test dan nog mislukt kunt u een verzoek om hulp achterlaten."
+
+#: messages.js
+msgid "We are unable to test your system; it appears that a firewall or browser filter is preventing the test from running. The dual-stack tests are failing. Try disabling any browser plugins, extensions, or add-ons (such as ad blockers); and reloading this page. If that still fails, you can leave a comment requesting help."
+msgstr "We kunnen uw systeem niet testen, het lijkt erop dat u een firewall of browser filter hebt die de tests blokkeren. De dual-stack tests mislukken. Probeer om browser plugins, extensies en add-ons (zoals ad blockers) uit te schakelen en de pagina te herladen. Als de test dan nog mislukt kunt u een verzoek om hulp achterlaten."
+
+#: messages.js
+msgid "The most likely cause is NoScript or AdBlock+. NoScript can be told to permit all scripts on this page (you may need to do this more than once). At minimum, permit the urls listed below."
+msgstr "De meest waarschijnlijke oorzaak is NoScript of Adblock+. NoScript kan verteld worden om alle scripts op deze pagina toe te staan (het is mogelijk dat u dit meer dan eens moet aangeven). Laat minimaal de hieronder genoemde URL's toe."
+
+#: messages.js
+msgid "faq: Avoiding IPv6?"
+msgstr "faq: IPv6 Omzeilen?"
+
+#: messages.js
+msgid "faq: Broken!"
+msgstr "faq: Defect!"
+
+#: messages.js
+msgid "faq: No IPv4"
+msgstr "faq: Geen IPv4"
+
+#: messages.js
+msgid "faq: No IPv6"
+msgstr "faq: Geen IPv6"
+
+#: messages.js
+msgid "faq: Broken DNS Lookups"
+msgstr "faq: Defecte DNS Opzoekingen"
+
+#: symptoms.js
+msgid "Your browser blocked"
+msgstr "Uw browser blokkeert"
+

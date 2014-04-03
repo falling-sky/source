@@ -1,0 +1,18 @@
+  <p>
+
+Wenn Sie sicher im Umgang mit moderner Technik sind, dann können sie als
+Frühstarter mit IPv6 loslegen - ihr Stichwort sind sogenannte
+
+<a href="#" onclick="return help_page('faq_6to4.html','6to4')">6to4</a> 
+-Provider, hier die betreuten/manuellen Tunnel.
+
+Die Benutzung von
+automatischen Tunneln wird
+
+<a href="#" onclick="return help_page('faq_6to4.html','6to4')">nicht empfohlen</a>.
+
+Als Windows-Nutzer ist
+möglicherweise 
+<a href="#" onclick="return help_page('faq_teredo.html','Teredo')">Teredo</a>
+eine Alternative.
+</p>

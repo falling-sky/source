@@ -1,0 +1,590 @@
+
+
+"Project-Id-Version: PACKAGE VERSION\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"Last-Translator: Unspecified Translator <jfesler+unspecified-translator@test-ipv6.com>\n"
+"Language-Team: LANGUAGE <v6code@test-ipv6.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: messages.js
+msgid "bad"
+msgstr "hibás"
+
+#: builtin.js
+msgid "Click to see"
+msgstr "Kattints ide"
+
+#: builtin.js
+msgid "failed to load"
+msgstr "betöltés sikertelen"
+
+#: builtin.js
+msgid "Frequently Asked Questions"
+msgstr "Gyakran Ismételt Kérdések"
+
+#: builtin.js
+msgid "[go back]"
+msgstr "[vissza]"
+
+#: builtin.js
+msgid "loading..."
+msgstr "betöltés..."
+
+#: builtin.js
+msgid "[more info]"
+msgstr "[Bővebb informácó]"
+
+#: messages.js
+msgid "ok"
+msgstr "rendben"
+
+#: builtin.js
+msgid "[permalink]"
+msgstr "[direkt link]"
+
+#: builtin.js
+msgid "for your IPv4 stability and readiness, when publishers offer both IPv4 and IPv6"
+msgstr "IPv4 felkészültséged és stabilitásod, amikor a tartalomszolgáltatónál rendelkezésre áll IPv4 és IPv6 is"
+
+#: builtin.js
+msgid "for your IPv6 stability and readiness, when publishers are forced to go IPv6 only"
+msgstr "IPv6 felkészültséged és stabilitásod, amikor a tartalomszolgáltatónál csak IPv6 használható"
+
+#: builtin.js
+msgid "Your readiness score"
+msgstr "Felkészültségi szint"
+
+#: messages.js
+msgid "slow"
+msgstr "lassú"
+
+#: builtin.js
+msgid "Started"
+msgstr "elindult"
+
+#: builtin.js
+msgid "test data"
+msgstr "teszt adatokhoz"
+
+#: builtin.js
+msgid "(Updated server side IPv6 readiness stats)"
+msgstr "(Szerver oldali IPv6 állapot frissítve)"
+
+#: builtin.js
+msgid "(Survey posting failed; the above information is accurate, but not recorded.)"
+msgstr "(A teszt sikertelen; a fenti információ pontos, de nem került rögzítésre)"
+
+#: builtin.js
+msgid "(Updating server side IPv6 readiness stats)"
+msgstr "(Szerver oldali IPv6 állapot frissítése)"
+
+#: builtin.js
+msgid "(Survey posting skipped; test was rigged)"
+msgstr "(Folyamat megszakítva; a teszt manipulált)"
+
+#: messages.js
+msgid "timeout"
+msgstr "időtúllépés"
+
+#: builtin.js
+msgid "using"
+msgstr "kapcsolat:"
+
+#: builtin.js
+msgid "Your IPv4 address on the public Internet appears to be"
+msgstr "A publikus IPv4 címed"
+
+#: builtin.js
+msgid "Your IPv6 address on the public Internet appears to be"
+msgstr "A publikus IPv6 címed"
+
+#: builtin.js
+msgid "Your IPv6 service appears to be"
+msgstr "A te IPv6 szolgáltatásod"
+
+#: versions.js
+msgid "%app: You are running version %found; we recommend %suggest or newer."
+msgstr "%app: A %found verziót futtatod; javasoljuk a %suggest vagy újabb verziót."
+
+#: builtin.js
+msgid "Your FAQ"
+msgstr "GYIK"
+
+#: checkresults.js
+msgid "test parameter wrong. should be 9 characters. o/s/b/t for open/slow/bad/timeout. Need one per: a aaaa ds4 ds6 dsmtu ipv4 ipv6 v6mtu v6ns"
+msgstr "hibás teszt paraméter. 9 karakternek kell lennie. o/s/b/t mint nyitott/lassú/hibás/időtúllépés Tesztenként egy: a aaaa ds4 ds6 dsmtu ipv4 ipv6 v6mtu v6ns"
+
+#: checkresults.js
+msgid "unknown expansion"
+msgstr "ismeretlen kiterjesztés"
+
+#: checkresults.js
+msgid "unknown result code"
+msgstr "ismeretlen eredménykód"
+
+#: form.js
+msgid "Note: I can't contact you, if the contact info is blank. If you really want to submit this anonymously, hit Send Results again."
+msgstr "Megjegyzés: Nem tudunk veled kapcsolatba lépni ha a kapcsolat infó üres. Ha tényleg névtelenül szeretnéd elküldeni, kattins az Eredmények küldésére mégegyszer."
+
+#: form.js
+msgid "Result code"
+msgstr "Eredmény kód"
+
+#: form.js
+msgid "retest"
+msgstr "ismételd meg"
+
+#: form.js
+msgid "share your results"
+msgstr "oszd meg"
+
+#: form.js
+msgid "I am most interested in discussing your setup with you, because it was been determined that <B>your IPv6 connectivity is broken</b>, or at least not fully understood. This is not normal; would you be willing to %share?"
+msgstr "<b>IPv6 kapcsolatod hibásnak</b>, vagy legalábbis nem értelmezhetőnek tűnik. Ez nem normális; Kérlek %share velünk az eredményeid."
+
+#: disclaimer.inc
+msgid "This is a mirror of test-ipv6.com. The views expressed here may or may not reflect the views of the mirror owner."
+msgstr "Ez a test-ipv6.com egyik tükör oldala. Az itt kifejtett vélemények lehet, de nem biztos, hogy a tulajdonos véleményét tükrözik."
+
+#: main/tabnav.inc
+msgid "FAQ for You"
+msgstr "GYIK neked"
+
+#: index.html
+msgid "Test your IPv6 connectivity."
+msgstr "Teszteld az IPv6 kapcsolatod."
+
+#: main/tabnav.inc
+msgid "Help Popup"
+msgstr "Segítség Popup"
+
+#: list-nav.inc
+msgid "Mirrors"
+msgstr "Tükrök"
+
+#: main/tabnav.inc
+msgid "Share Results / Contact"
+msgstr "Eredmények megosztása / Kapcsolat"
+
+#: main/tabnav.inc
+msgid "Summary"
+msgstr "Összegzés"
+
+#: list-nav.inc
+msgid "FAQ"
+msgstr "GYIK"
+
+#: list-nav.inc
+msgid "Test IPv6"
+msgstr "IPv6 Teszt"
+
+#: messages.js
+msgid "World IPv6 Launch"
+msgstr "Globális IPv6 Rajt"
+
+#: main/tests.inc
+msgid "Technical Info"
+msgstr "Technikai Info"
+
+#: main/tabnav.inc
+msgid "Tests Run"
+msgstr "Lefutott tesztek"
+
+#: header.inc
+msgid "This will test your browser and connection for IPv6 readiness, as well as show you your current IPV4 and IPv6 address."
+msgstr "Ez az oldal a böngésződ és a kapcsolatod IPv6 képességét teszteli, valamint megmutatja az aktuális IPV4 és IPV6 címedet."
+
+#: header.inc
+msgid "Test your IPv6."
+msgstr "Teszteld az IPv6 kapcsolatod."
+
+#: main/mail-language.inc
+msgid "Please leave your comments using English, if possible."
+msgstr "Kérlek magyar vagy angol nyelven írd az üzenetet."
+
+#: main/mail.inc
+msgid "<span id=\"comments_faq_link\"></span> (FAQ) page is available for <b>your</b> exact set of results. Please read it before leaving comments; many questions have already been answered. If you still have questions, comments, or concerns, feel freel to use this form."
+msgstr "<b>Te</b> konkrét eredményeidhez. Kérlek olvasd el mielőtt üzenetet küldesz; rengeteg kérdésre megszületett már a válasz. Ha ezek ellenére szeretnéd velünk megosztani kérdésed, kérésed, véleményed, akkor használd ezt az űrlapot."
+
+#: main/mail.inc
+msgid "This form will let you leave a comment, voice concerns, or ask questions. Your test results will be included automatically."
+msgstr "Ezen az űrlapon lehetőséged van üzenetet hagyni, szóvátenni bármit a témában, vagy kérdést feltenni. A teszt eredményeid automatikusan hozzá lesznek csatolva."
+
+#: main/mail.inc
+msgid "<b>Your particular configuration is of interest.</b> We are always striving to make the test-ipv6.com code better. Would you be willing to contribute more information about your browser and computer setup? With your help, we can document for others how to repair their systems."
+msgstr "<b>Érdekel minket a Te egyéni konfigurációd.</b> Folyamatosan próbáljuk jobbá tenni a test-ipv6.hu kódját. Hajlandó lennél bővebb információt megosztani a böngésződről és a számítógép konfigurációdról? A te segítségeddel dokumentálni tudjuk mások számára, hogy hogyan javítsák meg rendszereiket."
+
+#: main/mail.inc
+msgid "Report a bug with diagnosis"
+msgstr "Hiba bejelentése diagnózissal"
+
+#: main/mail.inc
+msgid "Cheers or Jeers"
+msgstr "Üdvözlet!"
+
+#: main/mail.inc
+msgid "Email address if you'll permit me to contact you. <i>Required, if you wish a response.</i>"
+msgstr "Email cím, ha hozzájárulsz hogy kapcsolatba lépjünk veled. <i>Szükséges, ha választ is szeretnél.</i>"
+
+#: main/mail.inc
+msgid "Purpose for comment"
+msgstr "Hozzászólás oka"
+
+#: main/mail.inc
+msgid "Questions about test results"
+msgstr "Kérdés a teszt eredményekkel kapcsolatban"
+
+#: main/mail.inc
+msgid "Send results"
+msgstr "Eredmények elküldése"
+
+#: main/mail.inc
+msgid "Suggestion"
+msgstr "Javaslat"
+
+#: main/mail.inc
+msgid "Any information you think I might find useful (what router you're using, or a firewall in the way, or type of proxy you use, etc). This includes general feedback."
+msgstr "Bármely információ amit hasznosnak gondolsz (milyen routert használsz, milyen tűzfalat, proxy típusa, stb). Valamint általános visszajelzés."
+
+#: main/mail.inc
+msgid "If you are technically minded please cut/paste the output of the following commands:"
+msgstr "Ha technikai beállítottságú vagy, kérlek másold be a kimenetét az alábbi parancsoknak:"
+
+#: main/mail.inc
+msgid "Copy the output from those commands, into the box below. This will help me confirm/deny any theories relating to your question."
+msgstr "Másold be a parancsok kimenetelét a lenti dobozba. Ez segíteni fog nekünk megerősíteni/helyesbíteni a kérdésedben felmerülő teóriákat."
+
+#: main/mail.inc
+msgid "The javascript based test appears to have failed. This may be browser plugin or extension related. Please indicate what browser plugins and extenions you have enabled in this browser."
+msgstr "A javascript alapú tesztek nem futottak le. Ez lehet egy böngésző kiegészítő miatt. Kérlek jelöld meg, milyen kiegészítők vannak engedélyezve a böngésződben."
+
+#: main/mail.inc
+msgid "If you are technically minded, please open a \"Command Prompt\" or \"cmd\" window, and run these three commands:"
+msgstr "Ha technikai beállítottságú vagy, kérlek nyiss egy Parancssori ablakot (cmd), és futtasd ezt a három parancsot:"
+
+#: main/mail.inc
+msgid "If reporting a problem with the test, or requesting help with your results, please fill out all requested information to the best of your ability. If leaving general comments, use your best judgement on how much to report."
+msgstr "Ha egy problémát jelentesz be a teszttel kapcsolatosan, vagy segítséget kérsz az eredményeidhez, kérlek add meg az összes szükséges információt a legjobb tudásod szerint."
+
+#: main/mail.inc
+msgid "Thanks,"
+msgstr "Köszönjük,"
+
+#: main/tech.inc
+msgid "(This is bonus credit)"
+msgstr "(Piros pont)"
+
+#: main/tech.inc
+msgid "Fetches an object that has just an A record in DNS. This is expected to use IPv4. IPv6-only users might still reach this, if their provider has employed a NAT64/DNS64 or proxy solution."
+msgstr "Meghív egy objektumot aminek csak egy A rekordja van a DNS-ben. Ez IPv4-et kell hogy használjon. Csak-IPv6 (IPv4 nélkül) felett csatlakozva is el lehet érni, ha a szolgáltató beállított NAT64/DNS64 megoldást vagy proxy-t."
+
+#: main/tech.inc
+msgid "Fetches an object that has just an AAAA record in DNS. This is expected to use IPv6. Users not yet on the IPv6 Internet are likely to see this fail. As long as it fails quickly, it will be OK - for now."
+msgstr "Meghív egy objektumot aminek csak egy AAAA rekordja van a DNS-ben. Ez IPv6-ot kell hogy használjon. Az IPv6-al nem rendelkező felhasználók számára ez sikertelen lesz. Ha gyorsan jön a hiba, akkor rendben van - egyelőre."
+
+#: main/tech.inc
+msgid "Queries for a malformed AAAA record. Some routers mishandle these as \"A\" records, and only keep the first 32 bits. We want this test to fail to connect."
+msgstr "Lekérések egy rosszul formázott AAAA rekordra. Néhány router hibásan kezeli ezeket mint \"A\" rekordokat, és csak az első 32 bitet tartja meg belőlük. Ezzel azt akarjuk látni hogy sikertelen-e a kapcsolat."
+
+#: main/tech.inc
+msgid "This is the most important test. This verifies your browser can connect to a site that has both IPv4 and IPv6 records published. IPv4 only hosts should connect fine (using IPv4)."
+msgstr "Ez egy fontos teszt. Ez ellenőrzi, hogy a böngésződ képes-e olyan oldalhoz csatlakozni, ahol IPv4 és IPv6 rekordok egyaránt hirdetve vannak. Csak-IPv4 (IPv6 nélküli) hosztoknak simán csatlakozniuk kell."
+
+#: main/tech.inc
+msgid "If this test fails or times out, you can expect major problems as publishers start offering their sites on IPv6."
+msgstr "Ha ez a teszt sikertelen, vagy túllépi a megengedett időt, komoly problémákra számíthatsz amikor a tartalomszolgáltatók elkezdik az oldalaikat IPv6 felett szolgáltatni."
+
+#: main/tech.inc
+msgid "Validates that you can connect to a dual-stack server (like the ds test); and that you can send/receive large packets on that connection. If this test times out for any reason, it indicates trouble for World IPv6 Day."
+msgstr "Ellenőrzi, hogy képes vagy-e csatlakozni dual-stack kiszolgálóhoz (mint a ds teszt); és képes vagy-e küldeni/fogadni nagy csomagokat ezen a kapcsolaton. Ha ez a teszt túllépi a megengedett valamiért, az problémát jelenthet majd az IPv6 világnapon."
+
+#: main/tech.inc
+msgid "This will try connecting with a literal IPv4 numeric address. This should work for most people, unless they are running IPv6-only. If the first test worked, but this fails, it likely confirms your provider is using NAT64/DNS64; you'll need to only try connecting using hostnames instead of numeric IP addresses."
+msgstr "Ez a teszt megpróbál számszerű IPv4 címhez csatlakozni. Ez a legtöbb embernél működni fog, ha csak nem kizárólag IPv6-on csatlakoznak IPv4 nélkül. Ha az első teszt sikeres volt, ez pedig sikertelen, az internet szolgáltatód valószínűleg NAT64/DNS64-et használ. Meg kell próbálnod csak hosztnevekhez csatlakozni numerikus IP címek nélkül."
+
+#: main/tech.inc
+msgid "This will try connecting with a literal IPv6 hexadecimal address. The primary purpose of this test is to separate out your connectivity on IPv6 from your ability to fetch DNS for it. A secondary purpose is to see if you have Teredo enabled; some systems may only use Teredo when an IPv6 address is in the URL."
+msgstr "Ez a teszt megpróbál egy hexadecimális numerikus IPv6 címhez csatlakozni. A célja, hogy külön válasszuk az IPv6-os kapcsolat képességét az IPv6 névfeloldás képességétől. Második célja, hogy lássuk, van-e teredo engefélyezve; néhány rendszer csak Teredo-t használ amikor IPv6 cím kerül az URL-be."
+
+#: main/tech.inc
+msgid "Validates that IPv6 requests with large packets work. If this test times out, but other IPv6 tests work, it suggests that there may be PMTUD issues; possibly involving IP tunnels."
+msgstr "Ellenőrzi, hogy működnek-e az IPv6 kérések nagy csomaggal. Ha ez a teszt túllépi a megengedett időt, de más IPv6 tesztek sikeresek, az valószínűleg PMTUD-vel kapcsolatos problémát jelent; valószínűleg az IP tunnelben."
+
+#: main/tech.inc
+msgid "This is a test of your ISP's resolver (instead of a test of your host). If this test passes, your DNS server (often run by your ISP) is capable of reaching IPV6-only DNS authoritative servers on the Internet. This is not critical (at this time) for you to reach sites via IPv6."
+msgstr "Ez az internetszolgáltató névfeloldását teszteli (a saját géped helyett). Ha ez a teszt sikeres, a DNS kiszolgálód (amit általában az internetszolgáltatód futtat) alkalmas Csak-IPv6 (IPv4 nélküli) autoratív DNS kiszolgálók elérésére. (Egyelőre) nem kritikus, hogy az oldalakat csak IPv6-on keresztül érd el."
+
+#: main/tests.inc
+msgid "Your browser will be instructed to reach a series of URLs. The combination of successes and failures tells a story about how ready you are for when publishers start offering their web sites on IPv6."
+msgstr "A böngésződ utasítva lesz egy sorozatnyi URL elérésére. A sikeres és sikertelen elérésekből kiderül, hogy mennyire állsz készen az IPv6-ot szolgáltató tartalomszolgáltatók oldalainak megtekintésére."
+
+#: main/tests.inc
+msgid "How this test works:"
+msgstr "Hogyan működik ez a teszt:"
+
+#: main/tests.inc
+msgid "pending"
+msgstr "fuggőben"
+
+#: main/tech.inc
+msgid "If the summary results indicated problems, you (or your technical support) may be able to use the information above to diagnose the issues. Each of the test urls and their results is shown on the left side. To the right you'll see a description of what that URL was designed to test."
+msgstr "Ha az összefoglaló eredmény problémát jelez, úgy felhasználhatod (vagy a technikai segítséged felhasználhatja) a fenti információkat a diagnoztizáláshoz. Minden egyes teszt URL-je és a hozzá kapcsolódó eredmények megtalálhatóak a bal oldalon. Jobbra a leírást fogod látni, hogy az az URL mit hivatott tesztelni."
+
+#: main/tech.inc
+msgid "After each test is ran. The summary page attempts to look at the results If the summary doesn't seem to make sense given the symptoms recorded above, or if you need further assistance, please feel free to contact us."
+msgstr "Miután minden teszt lefutott az összegző oldal megpróbálja megjeleníteni az eredményeket a fentiek alapján. Ha nem érted a tüneteket, vagy további segítségre van szükséged, kérlek lépj kapcsolatba velünk."
+
+#: main/tests.inc
+msgid "Test with IPv4 DNS record"
+msgstr "Tesztelés IPv4 DNS rekorddal"
+
+#: main/tests.inc
+msgid "Test with IPv6 DNS record"
+msgstr "Tesztelés IPv6 DNS rekorddal"
+
+#: main/tests.inc
+msgid "Test for buggy DNS"
+msgstr "Bugos DNS tesztelése"
+
+#: main/tests.inc
+msgid "Test with Dual Stack DNS record"
+msgstr "Tesztelés Dual Stack DNS rekorddal"
+
+#: main/tests.inc
+msgid "Test for Dual Stack DNS and large packet"
+msgstr "Dual Stack DNS és nagy csomag tesztelése"
+
+#: main/tests.inc
+msgid "Test IPv4 without DNS"
+msgstr "IPv4 teszt DNS nélkül"
+
+#: main/tests.inc
+msgid "Test IPv6 without DNS"
+msgstr "IPv6 teszt DNS nélkül"
+
+#: main/tests.inc
+msgid "Test IPv6 large packet"
+msgstr "Nagy IPv6 csomag tesztelése"
+
+#: main/tests.inc
+msgid "Test if your ISP's DNS server uses IPv6"
+msgstr "Az internetszolgáltató IPv6 DNS tesztje"
+
+#: messages.js
+msgid "You appear to be using a public 6to4 gateway; your router may be providing this to you automatically. Such public gateways have no service level agreements; you may see performance problems using such. Better would be to get a native IPv6 address from your ISP."
+msgstr "Úgy látszik, hogy publikus 6to4 átjárót használsz; lehet hogy a routered automatikusan biztosítja ezt számodra. Az ilyen publikus átjárók nem rendelkeznek szolgáltatási szint szerződéssel (SLA), így probléma lehet a sávszélességgel és a rendelkezésre állással. Jobban jársz ha natív IPv6 címet igényelsz a szolgáltatódtól."
+
+#: messages.js
+msgid "Danger! IPv6 sorta works - however, large packets appear to fail, giving the appearance of a broken website. If a publisher publishes to IPv6, you will believe their web site to be broken. Ask your ISP about MTU issues; possibly with your tunnel."
+msgstr "Vigyázat! Az IPv6 ugyan működik, de a nagy csomagok elvesznek, ami hibásan megjelenő weboldalakat eredményez. Ha egy tartalomszolgáltató így érhető el IPv6-on, biztos lehetsz benne, hogy meg lesz törve a weboldala. Érdeklődj az internet szolgáltatódnál MTU problémákról, valószínűleg a tunneledben."
+
+#: messages.js
+msgid "Congratulations! You appear to have IPv6. Note: your IPv4 access is limited to connections by hostname looked up through your ISP's DNS server - not raw IP address. Your ISP probably has a device to help you reach IPv4 sites by name (NAT64+DNS64). This will work for most purposes."
+msgstr "Gratulálunk! Úgy tűnik van élő IPv6 kapcsolatod. Megjegyzés: Az IPv4 kapcsolatod le van korlátozva az internet szolgáltatód DNS-e által feloldott hosztnevekre - nyers IP címek nélkül. Az internetszolgáltatód valószínűleg rendelkezik egy eszközzel, ami segít neked az IPv4 oldalakat név alapján elérni (NAT64+DNS64). Ez a legtöbb esetben jól működik."
+
+#: messages.js
+msgid "Connections to urls with IP addresses appear to be blocked; perhaps by a web filter such as 'NoScript' or 'RequestPolicy' installed into your browser, or filtering in your proxy server. This limits some of the functionality of this test site."
+msgstr "Az IP címes url-ekhez kapcsolódás tiltottnak látszik; esetleg 'NoScript' vagy 'RequestPolicy' szűrő van telepítve a böngésződön, vagy a proxy szervered tiltja. Ez akadályozza ennek a teszt oldalnak néhány funkcionalitását."
+
+#: messages.js
+msgid "IPv4 Connections using DNS work; but literal IP addresses in urls do not. These are rarely used on the web today."
+msgstr "A DNS feloldással működik az IPv4 kapcsolat, de a számszerű IP címek az url-ben nem. Ezeket ritkábban használják a weben manapság."
+
+#: messages.js
+msgid "IPv6 Connections using DNS work; but literal IP addresses in urls do not. These are rarely used on the web today."
+msgstr "A DNS feloldással működik az IPv6 kapcsolat, de a számszerű IP címek az url-ben nem. Ezeket ritkábban használják a weben manapság."
+
+#: messages.js
+msgid "We have suggestions to help you fix your system."
+msgstr "Vannak javaslataink a rendszered javításával kapcsolatosan"
+
+#: messages.js
+msgid "Connections to IPv6-capable web sites hang. It appears that you may have IPv6 configured; and your computer believes that your IPv6 is working, with a route. It is however completely failing. Any web site that adds IPv6, will become unreachable to you. If you are unable to fix your IPv6 routing or connectivity, seek help. If all else fails, strongly consider disabling IP6 on host."
+msgstr "Az IPv6-képes oldalak felé a kapcsolat fennakad. Úgy látszik, hogy van IPv6-od konfigurálva; és a számítógéped azt hiszi hogy az IPv6-od működik egy route-on, ami azonban nem igaz. Bármilyen weboldal ami IPv6 felett is bögészhető, elérhetetlen lesz számodra. Ha nem sikerül beállítanod az IPv6 routing-odat, kérj segítséget. Ha sehogy nem jársz sikerrel, erősen ajánlott az IPv6 letiltásia a gépeden."
+
+#: messages.js
+msgid "We looked up an IPv6 address, but your DNS server (possibly your home router) mangled the response, and is treating it as (broken) IPv4."
+msgstr "Megprobáltunk egy IPv6-os címet feloldani, de a DNS kiszolgálód (valószínűleg az otthoni routered) rosszul kezelte és (hibás) IPv4 kérésként kezelte."
+
+#: messages.js
+msgid "Test results inconclusive; they were not consistent with expectations. Please rerun the test, and if the results are the same, please fill out the contact form."
+msgstr "A teszt eredmények nem meggyőzőek; nem konzisztensek az elvárásainkkal. Kérlek futtasd újra a tesztet és ha az eredmény változatlan, töltsd ki a kapcsolat űrlapot."
+
+#: messages.js
+msgid "A lookup for an IPv6-only name failed; yet the lookup and connect for dual-stack connected via IPv6. Something appears to be confused with the DNS lookups."
+msgstr "Egy kizárólag IPv6-on indított névfeloldás nem sikerült; azonban a dual-stack névfeloldás és kapcsolat sikerült IPv6-ra. Valami probléma van a DNS névfeloldásaival."
+
+#: messages.js
+msgid "<b>Our tests show that you will may have MTU problems with IPv6; this can cause web sites to load slow (or not at all) when web sites enable IPv6.</b>"
+msgstr "<b>Valószínűleg problémás lesz ezen a napon megjelenítened</b> az IPv6-on szolgátatott oldalakat. A probléma oka valószínűleg a PMTUD. Ha nem tudod megoldani a problémát, fontold meg az IPv6 lekapcsolását, vagy kérd az internetszolgáltatód segítségét."
+
+#: messages.js
+msgid "<b>Good news!</b> Your current configuration will continue to work as web sites enable IPv6."
+msgstr "<b>nem lesz problémád az IPv6-os oldalak megjelenítésében</b>."
+
+#: messages.js
+msgid "For unknown reasons, your browser appears to operate slower when given the option of connecting to both IPv4 and IPv6. Please rerun the test, and if the results are the same, please fill out the contact form."
+msgstr "Ismeretlen okok miatt a böngésződ lassabbnak tűnik amikor egyszerre kell kapcsolódnia IPv4 valamint IPv6-on. Kérlek futtasd újra a tesztet és ha az eredmény változatlan, töltsd ki a kapcsolat űrlapot."
+
+#: messages.js
+msgid "<b>Our tests show that you will have a broken or misconfigured IPv6 setup, and this will cause problems as web sites enable IPv6.</b>"
+msgstr "<b>Valószínűleg problémás lesz ezen a napon megjelenítened</b> az IPv6-on szolgátatott oldalakat. Fontold meg az IPv6 kikapcsolását, vagy kérjsegítséget az internetszolgáltatódtól."
+
+#: messages.js
+msgid "You are likely using a FireFox plugin that is causing IP based tests to fail. Examples: RequestPolicy. Please disable those while using this site."
+msgstr "Valószínűleg olyan Firefox kiterjesztést használsz, ami az IP alapú teszteket gátolja. Például: RequestPolicy. Kérlek kapcsold ki mialatt ezt az oldalt használod."
+
+#: messages.js
+msgid "No IPv4 address detected"
+msgstr "Nincsen IPv4 címed"
+
+#: messages.js
+msgid "You appear to be able to browse the IPv4 Internet only. You will not be able to reach IPv6-only sites."
+msgstr "Úgy tűnik, csak az IPv4 Internetet tudod böngészni. A kizárólag IPv6-on szolgáltatott oldalakat nem fogod elérni."
+
+#: messages.js
+msgid "When a publisher offers both IPv4 and IPv6, your browser appears to be happy to take the IPv4 site without delay."
+msgstr "Amikor egy tartalomszolgáltató IPv4-en és IPv6-on is szolgáltat, a böngésződ késlekedés nélkül csatlakozik az IPv4-hez."
+
+#: messages.js
+msgid "When a publisher offers both IPv4 and IPv6, your browser appears to slow down signficantly compared to an IPv4-only site. You may even believe the destination web site to be broken. This may be due to your IPv6 configuration."
+msgstr "Amikor egy tartalomszolgáltató IPv4-en és IPv6-on is szolgáltat, a böngésződ jelentősen belassul egy csak IPv4-es oldalhoz képest. Elképzelhető, hogy hibásnak gondolod a weboldalt. Ez az IPv6 konfigurációd miatt lehet."
+
+#: messages.js
+msgid "When a publisher offers both IPv4 and IPv6, your browser will time out trying to connect. You may believe the site is down. This may be due to your IPv6 configuration. Consider disabling IPv6, or seeking help."
+msgstr "Amikor egy tartalomszolgáltató IPv4-en és IPv6-on is szolgáltat, a böngésződ túllépi a kapcsolódás maximális idejét, ezért úgy láthatod, hogy az oldal nem elérhető. Ez az IPv6 beállításaidtól függ, fontold meg az IPv6 letiltását, vagy kérj segítséget."
+
+#: messages.js
+msgid "Connections to IPv4 are slow, but functional. Perhaps you or your ISP put you behind an IP sharing device (NAT) that is currently slow."
+msgstr "A IPv4 kapcsolatod lassú, de működik. Lehetséges, hogy te vagy az internetszolgáltatód IP megosztó módszert használ (NAT-ot) ami lassítja a kapcsolatod."
+
+#: messages.js
+msgid "No IPv6 address detected"
+msgstr "Nincsen IPv6 címed"
+
+#: messages.js
+msgid "IPv6 connections work, but connections using DNS names do not use IPv6. For some reason, your browser or your OS is not doing IPv6 DNS 'AAAA' lookups."
+msgstr "Az IPv6 kapcsolat működik, de a DNS által felépített kapcsolatok nem használnak IPv6-ot. Valamiért a böngésződ, vagy az operációs rendszered nem oldja fel az IPv6-os 'AAAA' rekordokat."
+
+#: messages.js
+msgid "You appear to be able to browse the IPv6 Internet only. You have no access to IPv4. That's pretty bold!"
+msgstr "Csak IPv6-on tudod böngészni az internetet. Nincsen IPv4 kapcsolatod. Ez kissé merész!"
+
+#: messages.js
+msgid "Connections to IPv6 are slow, but functional. Perhaps you are using a public IPv6 tunnel that is either slow, or not located near you."
+msgstr "Az IPv6 kapcsolatod lassú, de működik. Valószínűleg publikus IPv6 tunnelt használsz ami vagy lassú, vagy távol van tőled."
+
+#: messages.js
+msgid "Connections to IPv6-only sites are timing out. Any web site that is IPv6 only, will appear to be down to you."
+msgstr "Az kizárólag IPv6 felett működő oldalak időtúllépéssel szakadnak meg. Azok az oldalak amik csak IPv6 felett működnek nem lesznek számodra elérhetőek."
+
+#: messages.js
+msgid "Your IP address(es) could not be detected due to inteference from browser add-ons."
+msgstr "Böngésző kiegészítők által okozott ütközés miatt az IP címe(i)d nem detektálhatóak."
+
+#: messages.js
+msgid "The Opera web browser seems to be break on this site frequently. <b>If you have trouble, try another browser</b>."
+msgstr "<b>Ha problémába ütközöl, próbálj ki egy másik böngészőt.</b>."
+
+#: messages.js
+msgid "<b>Disable turbo mode on Opera, and try again.</b> Turbo mode is not compatible with the needs of this site."
+msgstr "<b>Kapcsold ki az Opera turbo módját, és próbáld újra.</b> A turbo mód nem kompatibilis ennek az oldalnak az igényeivel."
+
+#: messages.js
+msgid "We have detected that you are using a proxy. This means we are testing your proxy server, not your computer. Proxy details (as reported by your proxy 'Via' header): %details"
+msgstr "Detektáltuk, hogy proxy-t használsz. Ez azt jeletni hogy nem a te számítógépedet, hanem a proxy szervert teszteljük. Proxy részletek (a proxy 'Via' fejlécéből): %details"
+
+#: messages.js
+msgid "We have detected that you are using a proxy. This means we are testing your proxy server, not your computer."
+msgstr "Detektáltuk, hogy proxy-t használsz. Ez azt jeletni hogy nem a te számítógépedet, hanem a proxy szervert teszteljük."
+
+#: messages.js
+msgid "Your IPv6 connection appears to be using Teredo, a type of IPv4/IPv6 translation using a public gateway. The quality for this <i>may</i> suffer, as you are using a public gateway to reach IPv6 based sites."
+msgstr "Az IPv6 kapcsolatod Teredo-t használ, egy IPv4/IPv6 címfordítót publikus átjárón keresztül. Ez valószínűleg, hogy a minőség rovására megy, mivel egy publikus átjárót használsz az IPv6 oldalak eléréséhez."
+
+#: messages.js
+msgid "Your IPv6 connection appears to be using Teredo, a type of IPv4/IPv6 gateway; currently it connects only to direct IP's. Your browser will not be able to go to IPv6 sites by name. This means the current configuration is not useful for browsing IPv6 web sites."
+msgstr "Az IPv6 kapcsolatod Teredo típusú IPv4/IPv6 átjárót használ; jelenleg csak direkt IP-khez tud csatlakozni. A böngésződ nem lesz képes IPv6 oldalakat elérni név alapján. Ez a beállítás nem alkalmas IPv6 oldalak böngészésére."
+
+#: messages.js
+msgid "Your IPv6 connection appears to be using Teredo, a type of IPv4/IPv6 gateway. Your particular teredo configuration is only used as a protocol of last resort. When visiting a site with both IPv4 and IPv6, IPv4 will be preferred."
+msgstr "Az IPv6 kapcsolatod Teredo típusú IPv4/IPv6 átjárót használ; A Te teredo konfigurációd csak legutolsó lehetőségként használja a protokollt. Ha egy IPv4-en és IPv6-on is elérhető oldalt látogatsz meg, az IPV4 lesz előnyben részesítve."
+
+#: messages.js
+msgid "Your DNS server (possibly run by your ISP) appears to have no access to the IPv6 Internet, or is not configured to use it. This may in the future restrict your ability to reach IPv6-only sites."
+msgstr "Úgy tűnik, hogy a DNS kiszolgálód (valószínűleg az internetszolgáltatóé) nem rendelkezik IPv6 kapcsolattal, vagy nincs megfelelően konfigurálva. Ez a későbbiekben gátolhat abban, hogy a csak IPv6-on szolgáltatott oldalakat böngészd."
+
+#: messages.js
+msgid "Your DNS server (possibly run by your ISP) appears to have IPv6 Internet access."
+msgstr "Úgy tűnik, hogy a DNS kiszolgálód (valószínűleg az internetszolgáltatóé) rendelkezik IPv6 kapcsolattal."
+
+#: messages.js
+msgid "Your browser is blocking the test urls. We will try alternate methods, but they may fail to show your IP address; and may affect the quality of the advice given."
+msgstr "A böngésződ blokkolja a teszt url-eket. Megpróbálkozunk alternatív metódusokkal, de lehet, hogy nem fog látszani az IP címed; ez befolyásolhatja a tanácsot amit a végén adunk."
+
+#: messages.js
+msgid "We are unable to test your system; it appears that a firewall or browser filter is preventing the test from running. Critical tests are failing. Try disabling any browser plugins, extensions, or add-ons (such as ad blockers); and reloading this page. If that still fails, you can leave a comment requesting help."
+msgstr "Nem sikerült tesztelni a rendszered; úgy tűnik hogy egy tűzfal, vagy egy szűrő a böngésződben megakadályozza a futását. Kritikus tesztek nem sikerülnek. Próbáld meg a böngésződ blokkoló kiegészítőit/bővítményeit kikapcsolni, aztán frissíteni az oldalt. Ha ezek után sem jársz sikerrel, kérj segítséget tőlünk a kapcsolat űrlapon."
+
+#: messages.js
+msgid "We are unable to test your system; it appears that a firewall or browser filter is preventing the test from running. The dual-stack tests are failing. Try disabling any browser plugins, extensions, or add-ons (such as ad blockers); and reloading this page. If that still fails, you can leave a comment requesting help."
+msgstr "Nem sikerült tesztelni a rendszered; úgy tűnik hogy egy tűzfal, vagy egy szűrő a böngésződben megakadályozza a futását. A dual-stack tesztek meghiúsultak. Próbáld meg a böngésződ blokkoló kiegészítőit/bővítményeit kikapcsolni, aztán frissíteni az oldalt. Ha ezek után sem jársz sikerrel, kérj segítséget tőlünk a kapcsolat űrlapon."
+
+#: messages.js
+msgid "The most likely cause is NoScript or AdBlock+. NoScript can be told to permit all scripts on this page (you may need to do this more than once). At minimum, permit the urls listed below."
+msgstr "A legvalószínűbb oka NoScript vagy AdBlock+. A NoScript-nél beállíthatod hogy ezen az oldalon minden scriptet engedélyezzen (lehet többször is engedélyezni kell). Legalább az itt felsorolt url-eket engedélyezd."
+
+#: messages.js
+msgid "faq: 6to4"
+msgstr "gyik: 6to4"
+
+#: messages.js
+msgid "faq: MTU"
+msgstr "gyik: MTU"
+
+#: messages.js
+msgid "faq: Broken!"
+msgstr "gyik: Hibás!"
+
+#: messages.js
+msgid "faq: Buggy DNS"
+msgstr "gyik: Bugos DNS"
+
+#: messages.js
+msgid "faq: Firefox Add-Ons"
+msgstr "gyik: Firefox Kiegészítők"
+
+#: messages.js
+msgid "faq: No IPv4"
+msgstr "gyik: Nincs IPv4"
+
+#: messages.js
+msgid "faq: No IPv6"
+msgstr "gyik: Nincs IPv6"
+
+#: messages.js
+msgid "faq: Broken DNS Lookups"
+msgstr "gyik: Hibás DNS névfeloldás"
+
+#: messages.js
+msgid "faq: Opera"
+msgstr "gyik: Opera"
+
+#: messages.js
+msgid "faq: Teredo Minimum"
+msgstr "gyik: Teredo Minimum"
+
+#: messages.js
+msgid "faq: v6ns Bad"
+msgstr "gyik: v6ns"
+
+#: messages.js
+msgid "faq: Browser Plugins"
+msgstr "gyik: Böngésző Kiegészítők"
+
+#: symptoms.js
+msgid "Your browser blocked"
+msgstr "A böngésződ blokkolva"
+

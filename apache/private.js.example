@@ -1,0 +1,18 @@
+PrivateConfig = 
+{
+  "db": {
+    "host": "localhost",
+    "db": "testipv6",
+    "username": "sampleusername",
+    "password": "samplepassword",
+  },
+  "paths": {
+    "rrd": "/var/www/site/rrd",
+    "png": "/var/www/site/charts",
+  },
+  "google_translate": { // Google translate for comments.php
+     "enable": 0,
+     "language": "en",
+     "key": "get_your_own_key"
+  }
+}

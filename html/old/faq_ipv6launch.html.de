@@ -1,0 +1,128 @@
+[% PROCESS "header.inc"  %]
+[% PROCESS "list-nav.inc" page = "ipv6launch" %]
+
+<div id="content">
+  <h1 id="title">World IPv6 Launch</h1>
+
+   <p><em>Der folgende Inhalt ist eine Kopie der <a href="http://www.worldipv6launch.org/faq/">World IPv6 Launch</a> FAQ Seite, betrieben von der <a href="http://www.internetsociety.org">Internet Society</a> (ISOC).</em></p>
+
+
+<div class="question">
+Was ist der World IPv6 Launch?
+</div>
+<div class="answer">
+<p>Organisiert von der Internet Society, soll der World IPv6 Lauch am 6. Juni 2012 Organisationen quer durch die Branche - dazu gehören Internet Service Provider (ISPs), Hardwarehersteller und Webhoster - motivieren sich auf die definitive Aktivierung des Internet Protocol in der Version 6 (IPv6) auf Ihren Produkten und Dienstleistungen vorzubereiten, da die Internet Protocol Version 4 Adressen allmählich ausgehen.
+</p>
+    <p><em><a href="when.html">Hier</a> erfahren Sie den Startzeitpunkt in ihrer Region.</em></p>
+</div>
+
+
+<div class="question">
+Was ist der Unterschied zum World IPv6 Day?
+</div>
+<div class="answer">
+<p>Der World IPv6 Launch wird das grösste Engagement der Branche bezüglich Einführung von IPv6 in der Geschichte des Internets. Mit dabei sind weltweit ISPs, Hersteller von Netzwerkequipment für den Heimgebrauch und Webseitenbetreiber welche IPv6 dauerhaft in Ihren Produkten und Dienstleistungen aktivieren werden</p>
+<p>Konkret:</p>
+<ul>
+<li>Am World IPv6 Lauch teilnehmende ISPs werden IPv6 für genügend Benutzer aktivieren, damit mindestens ein Prozent Ihrer leitungsgebundenen Internet-Privatnutzer die Webseiten der teilnehmenden Betreiber via IPv6 abrufen.</li>
+<li>Teilnehmende Hersteller von Netzwerkequipment für den Heimgebrauch werden IPv6 standardmässig auf Ihren Heim-/SOHO-Router Produkten aktivieren</li>
+<li>Teilnehmende Webseiten-Betreiber werden IPv6 Zugang zu ihren wichtigsten Haupt-Webseiten dauerhaft aktivieren</li>
+</ul>
+<p>Am World IPv6 Tag, welcher am 8. Juni 2011 stattfand, nahmen nur Webseiten-Betreiber teil. Letztes Jahr haben bedeutende Webseiten-Betreiber und andere Branchenteilnehmer erfolgreich IPv6 auf Ihren Haupt-Webseiten aktiviert und getestet.
+</p>
+</div>
+
+<div class="question">
+Wieso nur ein Prozent der leitungsgebundenen privaten Internetbenutzer?
+</div>
+<div class="answer">
+<p>Das Ziel ist ein Prozent im Juni zu erreichen. In vielen Fällen müssen Benutzer zuerst Hard- und/oder Software, wie Router oder Betriebssysteme aktualisiern um IPv6 zu nutzen. Im Verlauf der Zeit wird die IPv6 Nutzung steigen, ohne dass es Änderungen am Equipment oder den Dienstleistungen des ISPs bedarf.</p></div>
+
+
+<div class="question">
+Was ist IPv6 und wieso wird es benötigt?
+</div>
+<div class="answer">
+<p>Das Internet funktioniert indem es Daten zwischen Netzwerken in Paketform austauscht. Um an diesem Datenaustausch teilzunehmen, muss jeder Host, jeder Computer oder jedes andere Gerät mit einer eindeutigen IP Adresse adressierbar sein. IPv4 verfügt über ungefähr 4 Milliarden Adressen (Nummern welche jedem am Internet angeschlossen Gerät zugewiesen werden). Der explosionsartige Anstieg von Benutzern, Geräten und Webseiten im Internet führt dazu, dass die Verfügbarkeit von IPv4 Adressen zur Neige geht. IPv6, das Internetprotokoll der nächsten Generation, welches mehr als 340 Billionen, Billionen, Billionen Adressen umfasst, wird Milliarden von Menschen ohne Internetzugang mit dem Internet verbinden. IPv6 wird eine breite Auswahl an Geräten direkt miteinander vernetzen und so dazu beitragen, dass das Internet mit der heutigen Wachstumsrate unendlich weiter wachsen kann.</p>
+</div>
+
+<div class="question">
+Wieso ist der World IPv6 Launch nötig?
+</div>
+<div class="answer">
+<p>Es wird erwartet, dass Adressraum welcher bei der aktuellen Version des Internet Protokolls, IPv4, verwendet wird, in naher Zukunft ausläuft. Ohne zu Handeln laufen wir Gefahr, dass weltweit erhöhte Kosten und Leistungseinschränkungen für Internetnutzer enstehen. Zusätzlich beschnitten wird das Wachstum des Internet als Platform für Innovation und wirtschaftliche Entwicklung. Die einzige langfristige Lösung für dieses Problem ist die Einführung von IPv6, welches eine praktisch unbegrenzte Zahl an Andressen zur Verfügung stellt. IPv6 wird bereits heute in vielen bedeutenden Netzwerken in grossem Umfang eingesetzt, wurde bis heute jedoch nicht auf globaler Ebene Endanwendern zur Verfügung gestellt.</p>
+<p>Der World IPv6 Launch hilft den Interessensgruppen der Branche zusammenzuarbeiten um die Unterstützung für das neuen Protokoll zu beschleunigen. Mit bedeutenden ISPs, mit Herstellern von Netzwerkequipment im Heimbereich und mit Webseiten-Betreibern welche dieses Jahr am World IPv6 Launch, am 6. Juni 2012, IPv6 dauerhaft aktivieren, gibt es starke Anreize für die anderen Akteure der Branche ebenfalls ein Bekenntnis zum dauerhaften Übergang zu IPv6 in naher Zukunft abzulegen.</p>
+</div>
+
+<div class="question">
+Wie kann der World IPv6 Launch zu Veränderungen motivieren?
+</div>
+<div class="answer">
+<p>Der World IPv6 Launch bietet einen Brennpunkt, existierende Übergangsbemühungen und Branchenteilnehmer zusammenzubringen, um sich für das gemeinsame Ziel, IPv6 dauerhaft im globalen Internet zu etablieren, einzusezten. Durch gemeinsames Handeln am World IPv6 Launch sind ISPs, Webseitenbetreiber und Hardware-Hersteller in der Lage sich mit den gemeinsamen Herausforderungen zu befassen</p>
+</div>
+
+<div class="question">
+Was muss für einen wirksamen Übergang der gesamten Branche zu IPv6 noch passieren?
+</div>
+<div class="answer">
+<p>Mehr bedeutende Internet Branchenteilnehmer müssen handeln um einen erfolgreichen Übergang zu sichern, indem sie ihren Kunden IPv6 Konnektivität anbieten, Dienstleistungen im IPv6 Netzwerk betreiben und Ihre Software und Firmware aktualisieren. Während die technischen Grundlagen von IPv6 bereits gut etabliert sind, braucht es noch erhebliche Arbeit um IPv6 auf der ganzen Welt bereitzustellen.</p>
+</div>
+
+<div class="question">
+Welche Organisation können am World IPv6 Launch teilnehmen?
+</div>
+<div class="answer">
+<p>Wir ermutigen weitere Teilnehmer am diesjährigen World IPv6 Launch teilzunehmen.
+Mehr Informationen zur Teilnahme sind unter <a href="http://www.worldipv6launch.org">http://www.worldipv6launch.org</a> zu finden.
+</p>
+</div>
+
+<div class="question">
+Wie wird sich das auf meine alltägliche Internetnutzung auswirken?
+</div>
+<div class="answer">
+<p>Für meisten Internetnutzer wird es keine Beeinträchtigung der Internetnutzung geben. Sie können Ihre Dienstleisung ungestört geniessen. In Ausnahmefällen, können bei einzelnen Benutzern Verbindungsprobleme beim Besuchen von teilnehmenden Webseiten auftreten. Benutzer können eine <a href="http://test-ipv6.com">IPv6 Testseite</a> besuchen, um zu prüfen, ob Ihre Konnektivität beinflusst wird. Falls dieser Test auf Probleme hinweist, können Benutzer IPv6 deaktiviern oder Ihren ISP um Hilfe bei der Problembehebung ersuchen. Ein <a href="http://netalyzr.icsi.berkeley.edu/">detailierter Netzwerkkonnektivitäts-Test
+</a> ist ebenfalls verfügbar.
+</p>
+
+<p>
+Wenn ISPs IPv6 aktivieren und das Endgerät beim Kunden dies unterstützt, werden Heimbenutzer mit modernen Betriebssystemen und Geräte autmatisch beginnen IPv6 zu nutzen.
+Insbesondere, Windows Vista, Windows 7, and Mac OS X 10.7
+unterstützen IPv6.
+</p>
+
+<p>Sie können die Dokumentation Ihres Endgeräts (Router) konsultieren um zu prüfen ob diese IPv6 unterstüzt. Fragen Sie bei Ihrem Internet Service Provider nach ob IPv6 in Ihrem Anschlußgebiet verfügbar ist.
+</p>
+
+<p>Es ist jedoch wichtig festzuhalten, dass teilnehmende Webseiten weiter den Zugriff via IPv4 unterstützen. Sie müssen sich keine Sorgen machen, falls Sie keinen Zugriff zum IPv6 Internet haben. Der World IPv6 Lauch wird IPv6 parallel zum bestehenden IPv4 einführen.
+</p>
+</div>
+
+<div class="question">
+Was können Internetnutzer tun um sich auf den World IPv6 Launch vorzubereiten?
+</div>
+<div class="answer">
+Wenn ISPs IPv6 aktivieren und das Endgerät beim Kunden dies unterstützt, werden Heimbenutzer mit modernen Betriebssystemen und Geräte autmatisch beginnen IPv6 zu nutzen. Die überwiegende Mehrheit der Benutzer wird von der Umstellung nichts mitbekommen. IPv4 Zugang ist weiterhin verfügbar  wenn die Firmen dauerhaft IPv6 Unterstützung  bei Ihren Produkten und Dienstleistungen aktivieren.
+</div>
+
+<div class="question">
+Was unternehmen Webseiten-Betreiber um Ihre Benutzer und Kunden zu warnen?
+</div>
+<div class="answer">
+<p>Letztes Jahr haben zahlreiche Teilnehmer des World IPv6 Tag entsprechende Warnhinweise (inklusive Meldungen auf Ihren Webseiten) bereitgestellt, falls es Hinweise gab, dass die Benutzer möglichwerweise mit Verbindungsproblemen zu rechnen haben. Die Einzelheiten sind noch nicht entschieden, wir werden aber unserer Benutzer nicht im Regen stehen lassen.</p>
+</div>
+
+<div class="question">
+Was können Einzelpersonen tun um den World IPv6 Launch zu unterstützen?
+</div>
+<div class="answer">
+<p>Machen Sie mit und verbreiten Sie die Neuigkeit indem Sie den World IPv6 Launch Badge herunterladen und benutzen. Sie finden den Badge unter <a href="http://www.worldipv6launch.org/downloads">http://www.worldipv6launch.org/downloads</a>
+</p>
+</div>
+
+
+</div>
+
+
+[% PROCESS "footer.inc" %]
+

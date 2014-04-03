@@ -1,0 +1,129 @@
+[% PROCESS "header.inc"  %]
+[% PROCESS "list-nav.inc" page = "ipv6launch" %]
+
+<div id="content">
+  <h1 id="title">Globális IPv6 Rajt</h1>
+
+   <p><em>Az alábbi szöveg az <a href="http://www.internetsociety.org">Internet Society</a> (ISOC) tulajdonában lévő <a href="http://www.worldipv6launch.org/faq/">World IPv6 Launch</a> FAQ oldal fordítása.</em></p>
+
+<div class="question">
+Mi a Globális IPv6 Rajt?
+</div>
+<div class="answer">
+<p>Az Internet Society 2012 Június 6-ára Globális IPv6 Rajt (World IPv6 Launch) eseményt szervez, melynek célja, hogy motiválja a szakmabelieket - köztük internetszolgáltatókat (ISP-ket), hardware gyártókat, és szolgáltató cégeket - mivel az Internet Protokoll 4-es verzió (IPv4) címtartománya elfogy, készüljenek fel és állandósítsák szolgáltatásukat az Internet Protokoll 6-os verziója (IPv6) felett.
+</p>
+    <p><em><a href="when.html">Kattints ide</a> ha látni szeretnéd az indítás időpontját a te időzónádban.</em></p>
+</div>
+
+
+<div class="question">
+Miben más ez mint az IPv6 Világnap?
+</div>
+
+<div class="answer">
+<p>A Globális IPv6 Rajt, a szakma legszéleskörűbb IPv6 fejlődése az internet történetében. Internet szolgáltatók, otthoni hálózati eszközök gyártói és webes cégek egyaránt véglegesen elérhetővé teszik az IPv6-ot szolgáltatásaikban és termékeikben.</p>
+<p>Pontosítva:</p>
+<ul>
+<li>A résztvevő internetszolgáltatók lakossági ügyfeleik legalább 1%-a számára elérhetővé teszik a már előrhető weboldalak IPv6 feletti megjelenítését.</li>
+<li>A résztvevő gyártók alapértelmezetten elérhetővé teszik az IPv6-ot az otthoni felhasználású hálózati eszközeikben.</li>
+<li>A résztvevő webes cégek állandósítják IPv6 felett webes szolgáltatásaikat.</li>
+</ul>
+<p>Az IPv6 világnap kizárólag weboldalakra vonatkozott. A tavalyi IPv6 világnap 2011. június 8-án történt, a nagyobb webes cégek és más szakmabeli szereplők sikeres IPv6 tesztje volt 24 órán keresztül.</p>
+</div>
+
+<div class="question">
+Miért csak az ügyfelek 1%-a?
+</div>
+<div class="answer">
+<p>A cél az 1% elérése júniusig. A felhasználóknak sok esetben hardveresen és szoftveresen is frissíteniük kell, ahhoz hogy IPv6-ot használhassanak, például operációs rendszert, vagy routert. Későbbiekben, ahogy a felhasználók is lecserélik eszközeiket/szoftvereiket, az IPv6 felhasználása nőni fog, anélkül hogy az internetszolgáltatónál bármilyen változás történne az eszközökben vagy szolgáltatásban.
+</p></div>
+
+
+<div class="question">
+Mi az IPv6 és miért van rá szükségünk?
+</div>
+<div class="answer">
+<p>Az internet úgy működik, hogy adatot forgalmazunk csomagokban hálózatok között. Ahhoz hogy kommunikáljunk és adatcsomagokat küldjünk/fogadjunk, minden kliensnek, számítógépnek vagy egyéb eszköznek egy egyedi IP címmel kell azonosítva lennie. Az IPv4 nagyjából 4 milliárd címet tartalmaz (internetre kapcsolható eszközök száma). A felhasználók, eszközök és webes szolgáltatások számának robbanásszerű növekedésével az IPv4 címek majdnem  teljesen elfogytak. Az IPv6, azaz az új generációs internet protokollal ~340 szextillió (3,4x10<sup>38</sup>) cím áll rendelkezésre, olyan emberek milliárdjai számára teszi elérhetővé a kapcsolatot akik ma még nem csatlakoztak, óriási számú eszköz számára teszi lehetővé, hogy direkt kapcsolatot létesítsenek egymással. Lehetővé teszi, hogy az internet megtartsa jelenlegi növekedési sebességét.</p>
+</div>
+
+<div class="question">
+
+Miért szükséges a Globális IPv6 Rajt?
+</div>
+<div class="answer">
+<p>A jelenlegi IPv4-es internet protokoll címtartománya hamarosan elfogy. Ha nem cselekszünk, költségesebb lesz a működtetése, romolhat funkcionalitása és korlátozódik az internet innovációs és gazdasági platformjának fejlődése, növekedése is. Az egyetlen hosszútávú megoldás az IPv6 teljes bevezetése, ami lényegében korlátlan címet biztosít. Sok nagy hálózatban alkalmazzák már az IPv6-ot, de még nem vált elérhetővé a végfelhasználók számára globális szinten.
+</p>
+<p>A Globális IPv6 Rajt segít a piac meghatározó szereplői számára hogy felgyorsított ütemben elérhessék a protokoll támogatását. A jelentős internetszolgáltatók, hálózati eszköz gyártók és webes cégek IPv6 szolgáltatásának véglegesítése 2012. június 6.-án erősen fogja ösztönözni a piac többi résztvevőjét, hogy cselekedjenek és ők is mielőbb álljanak át IPv6-ra.
+</p>
+</div>
+
+<div class="question">
+Hogyan motiválja a változást a Globális IPv6 Rajt?
+</div>
+<div class="answer">
+<p>A Globális IPv6 Rajt egyfajta gyújtópontként viselkedik, segít az eddigi átállás-kezdeményezéseket és a szakma szereplőit összehozni a közös cél, az IPv6 globális bevezetésének érdekében.
+</p>
+</div>
+
+<div class="question">
+Mi szükséges ahhoz, hogy hatékonyan átálljon az egész szakma IPv6-ra?
+</div>
+<div class="answer">
+<p>A legnagyobb internetes piaci szereplőknek kell cselekedniük ahhoz, hogy sikeres legyen az átállás. IPv6-feletti kapcsolódási lehetőséget, IPv6-on szolgáltatott hálózatot kell biztosítaniuk és frissíteniük kell szoftvereiket és hardvereiket. Bár az IPv6 technológiai alapjai kidolgozottak és rendelkezésre állnak, még jelentős munkára van szükség az IPv6 globális kiépítéséhez.
+</p>
+</div>
+
+<div class="question">
+Hogyan csatlakozhatnak vállalatok a Globális IPv6 Rajt-hoz?
+</div>
+<div class="answer">
+<p>Üdvözöljük újabb résztvevők csatlakozását is. A részletekért látogass el a <a href="http://www.worldipv6launch.org">http://www.worldipv6launch.org</a> oldalra.
+</p>
+</div>
+
+<div class="question">
+Hogyan befolyásolja mindez a mindennapi internet használatomat?
+</div>
+<div class="answer">
+<p>A legtöbb internet felhasználót ez nem érinti. A felhasználók zavartalanul élvezhetik a szolgáltatást. Nagyon ritka esetben előfordulhat, hogy a résztvevő oldalak látogatói kapcsolódási problémát észlelnek. A felhasználók tesztelhetik az <a href="http://test-ipv6.hu">IPv6 teszt</a> oldalon, hogy a kapcsolatuk rendben lesz-e. Ha a teszt problémát jelez, letilthatják az IPv6-ot, vagy érdemes jelezni a problémát a szolgáltató felé. Elérhető egy még részletesebb <a href="http://netalyzer.icsi.berkeley.edu/">hálózat-kapcsolati teszt</a> is.
+</p>
+
+<p>
+Ha az otthoni hálózati eszköz támogatja és modern operációs rendszert használ a felhasználó, a szolgáltatók IPv6 indításánál az átállás automatikus lesz. Windows Vista, Windows 7, Mac OS X 10.7 és Linux, (Android, IOS, stb) operációs rendszerekkel az IPv6 alapból működik.
+</p>
+
+<p>Az otthoni router leírásában megtalálható, hogy ha támogatja az IPv6-ot, és az internetszolgáltatónál is lehet érdeklődni, szolgáltat-e IPv6 felett az adott területen.
+</p>
+
+<p>Fontos megjegyezni, hogy a résztvevő weboldalak továbbra is szolgáltatnak IPv4 felett. Nem kell aggódni, ha nem éri el IPv6-on az internetet. A Globális IPv6 Rajt a működő IPv4-el párhuzamosan vezeti be az IPv6-ot.
+</p>
+</div>
+
+<div class="question">
+Mit tehetnek a felhasználók, hogy felkészüljenek a Globális IPv6 Rajtra?
+</div>
+<div class="answer">
+Ha az otthoni router támogatja és modern operációs rendszert használ a felhasználó, a szolgáltatók IPv6 indításánál az átállás automatikus lesz. A felhasználók többsége semmit nem fog észrevenni az átállásból. Az IPv4 szolgáltatások ugyanúgy elérhetőek maradnak amikor véglegesítik az IPv6 feletti szolgáltatásokat.
+</div>
+
+<div class="question">
+Mit tehetnek a résztvevő cégek, hogy figyelmeztessék a felhasználóikat?
+</div>
+<div class="answer">
+<p>Múlt évben a legtöbb IPv6 Világnap résztvevő figyelmeztetést publikált (üzenetekkel a főőoldalukon) a felhasználók felé akiknél probléma adódhat. Egyelőre nem határoztunk meg konkrét részleteket, de nem hagyjuk a felhasználóinkat magukra.
+</p>
+</div>
+
+<div class="question">
+Magánszemélyként hogyan támogathatom a Globális IPv6 Rajtot?
+</div>
+<div class="answer">
+<p>Csatlakozz a kezdeményezéshez és hirdetsd az igét a Globális IPv6 Rajt bannerrel: <a href="http://www.worldipv6launch.org/downloads">http://www.worldipv6launch.org/downloads</a>
+</p>
+</div>
+
+
+</div>
+
+
+[% PROCESS "footer.inc" %]

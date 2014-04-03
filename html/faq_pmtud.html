@@ -1,0 +1,91 @@
+[% PROCESS "header.inc"  %]
+[% PROCESS "list-nav.inc" page = "PMTUD" %]
+
+<div id="content">
+  <div><h1 id="title">Path MTU Discovery</h1>
+  </div>
+  <div>
+  <em>[% "This will attempt to explain why you may have PMTUD problems when using test-ipv6.com; and possible solutions. Unfortunately, it is beyond the ability of this site to be able to clearly articulate *your* specific problem." | i18n %]</em></p>
+  </div>
+
+  <div class="question">
+    [% " Q: What is Path MTU Discovery (or PMTUD) " | i18n %]
+  </div>
+
+  <div class="answer">
+    <p>[% "PMTUD is a mechanism used on the Internet that tells your computer the maximum size of the packets that should be sent for a given destination. How this works: Your host will send a possibly large packet; with the packet marked \"Do Not Fragment\". When the packet reaches a router that can't forward this packet, due to size, it sends back a response saying \"Too big! Try this size instead.\"" | i18n %]</p>
+  </div>
+
+  <div class="question">
+    [% " Q: How does this relate to IPv6? " | i18n %]
+  </div>
+
+  <div class="answer">
+    <p>[% "With IPv6, all packets are by definition \"Do Not Fragment\". The responsibility of sending the correct sized packets no longer falls on the router; this is an expensive operation for the router to handle. Instead, the ability to do PMTUD is mandated by the IPv6 specification." | i18n %]</p>
+  </div>
+
+  <div class="question">
+    [% " Q: What does the firewall need to allow? " | i18n %]
+  </div>
+
+  <div class="answer">
+    <p>[% " IPv6 firewalls <b>need</b> to permit ICMPv6, type 2 (Packet Too Big) to work correctly with the public Internet. If you are implementing the IPv6 firewall for your web site, your enterprise, or other organization, please permit this specific ICMPv6 message, even if you by default block other types of ICMP. " | i18n %]</p>
+  </div>
+
+  <div class="question">
+    [% " Q: What else can cause PMTUD failures? " | i18n %]
+  </div>
+
+  <div class="answer">
+    <p>[% " Tunnels inside of tunnels.  One might be your own; the other, you may not see.  Internet service providers often use tunnels either to simplify their topology; to hide it; or to transport things in a more convenient way.  However, each tunnel used requires adding a bit of a header to the top of the packet - making the packet bigger. The problem lies in that routers have a maximum size packet they will route. " | i18n %]</p>
+    
+    <p>[% "This is what it looks like when you use 6to4, 6in4, Teredo, and other types of tunnels:" | i18n %]</p>
+    
+    <p><img src="/images/faq_pmtud_6in4.png" alt="6in4 diagram"/></p>
+    
+    <p>[% "Your router will automatically add an IPv4 header to the top of your packet. This same router will let your computer know if the packet is going to be too big; your computer will (as long as it gets the ICMPv6 \"Packet Too Big\" message) resend the packet, at a smaller size recommended by your router. A router near the web site, will automatically remove the IPv4 header, and forward the IPv6 peice." | i18n %]</p>
+    
+    <p>[% "This is like putting a letter in an envelope, inside another envelope for someone else to forward on.  There may be a maximum size or weight limit for your postage stamp.  Tunneling is conceptually the same." | i18n %]</p>
+    
+       
+    <p>[% "If any Internet service provider along the way adds their own tunnel, in effect stuffing your package into another envelope, the packet may become too big:" | i18n %]</p>
+    
+    <p><img src="/images/faq_pmtud_6in4in4.png" alt="6in4in4 diagram"/></p>
+    <p>[% "In the above case, the message is now so big, that it can't be forwarded.  A \"Packet Too Big\" message will be sent by that router - but it only sees the IPv4 address; not your IPv6 address.  Because of this, your computer will never retry with a smaller sized packet, one that might fit when using multiple envelopes." | i18n %]</p>
+    
+  </div>
+
+  <div class="question">
+    [% " What can I do? " | i18n %]
+  </div>
+
+  <div class="answer">
+    <p>[% "This is a complex question - there are many ways to get on the Internet." | i18n %]</p>
+    <p>[% " If you have \"native\" IPv6, meaning your ISP gave you your IPv6 connectivity, and you are still running into MTU problems, see if your router can advertise a smaller IPv6 MTU. Alternately, configure your <b>entire LAN</b> for a smaller MTU (not really advised!) " | i18n %]</p>
+    
+    <p>[% "If your router provides IPv6 for you, see if you can configure a smaller MTU to be advertising with (perhaps) RADVD." | i18n %]</p>
+    
+    
+    <ul>
+      <li>[% "Apple Airport routers: Automatically send ICMPv6 redirects to your hosts, telling them to reduce the path MTU to 1280." | i18n %]</li>
+
+      <li>[% "DD-WRT routers: Looks like you need to use \"AdvLinkMTU 1280;\" on your wireless side; and make sure the tun6to4 mtu is set to 1280." | i18n %]</li>
+
+      <li>[% "Routers based on Linux, BSD, and (presumably) Mac: Set your 6to4 interface to MTU 1280. Configure radvd.conf's interface config with \"AdvLinkMTU 1280\"." | i18n %]</li>
+    </ul>
+
+    <p>[% "If you run \"6to4\" on your computer instead (not the router):" | i18n %]</p>
+
+    <ul>
+      <li>[% "Linux, BSD, and (presumably) Mac: Set your 6to4 interface to MTU 1280. If you are running radvd, set \"AdvLinkMTU 1280\" in your interface radvd.conf ." | i18n %]</li>
+
+      <li>[% "Windows: If you figure this out, please share with jfesler@test-ipv6.com to add to this site. Presumably: control panel, network adapters, properties, 6" | i18n %]</li>
+    </ul>
+
+    <p>[% " <b>If you are not covered by the above, do a web search.</b>. As you learn what fixes your particular circumstances, please share with jfesler@test-ipv6.com to add to this site. Your contribution will be appreciated by others! " | i18n %]</p>
+  </div>
+</div>
+
+
+
+[% PROCESS "footer.inc" %]

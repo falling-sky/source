@@ -1,0 +1,100 @@
+[% PROCESS "header.inc"  %]
+[% PROCESS "list-nav.inc" page = "when" %]
+
+<div id="content">
+
+
+  <h1 id="title">test-ipv6.com - When is the World IPv6 Launch?</h1>
+
+
+<table summary="dates">
+ <tr>
+  <td>
+   <div class="question">
+    When is the World IPv6 Launch?
+   </div>
+  </td>
+  <td>
+   <div class="answer">
+    <span id="info_start">June 6th, 2012, Midnight, GMT</span>. 
+   </div>
+  </td>
+ </tr>
+ <tr>
+  <td>
+   <div class="question">
+    What time is it now?
+   </div>
+  </td>
+  <td>
+   <div class="answer">
+    <span id="clock"></span><br/>
+    (This information is from your browser)
+   </div>
+  </td>
+ </tr>
+</table>
+  
+
+
+
+  <script type="text/javascript">
+  function tand (d) {
+    var s = d.toLocaleDateString() + " " + d.toLocaleTimeString();
+    return s;
+  }
+  
+  
+  function show_clock() {
+    var s = tand(new Date());
+    $('#clock').html( s);
+    setTimeout(function() { show_clock();}, 1000);
+  }
+  
+  show_clock();
+  $('#info_start').html(tand(new Date("2012/6/6 00:00 GMT")));
+  </script>
+               
+               
+  <div class="question">
+     What time does World IPv6 Launch start, for other locations?
+        </div>
+        
+   
+
+  <div class="answer">  
+  <p>
+  All locations start at the same global time: <b>June 6th, 2012 at
+  Midnight, GMT.</b>  Local times are listed below.
+  </p>
+    
+    <table summary="when" id="when" class="tablesorter">
+      <thead>
+      <tr>
+        <th>region</th><th>location</th><th>start</th><th>time zone</th>
+      </tr>
+      </thead>
+      <tbody>
+      [% PROCESS "when.inc" %]
+      </tbody>
+    </table>
+  </div>
+  
+ <script type="text/javascript">
+  $(document).ready(function() 
+     { 
+             $("#when").tablesorter({
+             	headers: { 
+             	   0: { sorter:"text"},
+             	   1: { sorter:"text"},
+             	   2: { sorter:"text"},
+             	   3: { sorter:"text"}
+             	}
+             }); 
+      } 
+  );
+  </script>
+                 
+</div>
+
+[% PROCESS "footer.inc" %]

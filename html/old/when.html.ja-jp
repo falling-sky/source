@@ -1,0 +1,100 @@
+[% PROCESS "header.inc"  %]
+[% PROCESS "list-nav.inc" page = "when" %]
+
+<div id="content">
+
+
+  <h1 id="title">test-ipv6.com - World IPv6 Launch の開催時期は?</h1>
+
+
+<table summary="dates">
+ <tr>
+  <td>
+   <div class="question">
+    World IPv6 Launchの開催時期は?
+   </div>
+  </td>
+  <td>
+   <div class="answer">
+    <span id="info_start">June 6th, 2012, Midnight, GMT</span>. 
+   </div>
+  </td>
+ </tr>
+ <tr>
+  <td>
+   <div class="question">
+    現在の時間は?
+   </div>
+  </td>
+  <td>
+   <div class="answer">
+    <span id="clock"></span><br/>
+    (この情報はお使いのブラウザから取得しています)
+   </div>
+  </td>
+ </tr>
+</table>
+  
+
+
+
+  <script type="text/javascript">
+  function tand (d) {
+    var s = d.toLocaleDateString() + " " + d.toLocaleTimeString();
+    return s;
+  }
+  
+  
+  function show_clock() {
+    var s = tand(new Date());
+    $('#clock').html( s);
+    setTimeout(function() { show_clock();}, 1000);
+  }
+  
+  show_clock();
+  $('#info_start').html(tand(new Date("2012/6/6 00:00 GMT")));
+  </script>
+               
+               
+  <div class="question">
+     他の場所でWorld IPv6 Launchがスタートする時間は?
+        </div>
+        
+   
+
+  <div class="answer">  
+  <p>
+  全ての場所で世界同時に開始します: <b>2012年6月6日 深夜0時 世界標準時(GMT)</b>
+  各場所の時間は以下の通りです。
+  </p>
+    
+    <table summary="when" id="when" class="tablesorter">
+      <thead>
+      <tr>
+        <th>地域</th><th>場所</th><th>開始時間</th><th>タイムゾーン</th>
+      </tr>
+      </thead>
+      <tbody>
+      [% PROCESS "when.inc" %]
+      </tbody>
+    </table>
+  </div>
+  
+ <script type="text/javascript">
+  $(document).ready(function() 
+     { 
+             $("#when").tablesorter({
+             	headers: { 
+             	   0: { sorter:"text"},
+             	   1: { sorter:"text"},
+             	   2: { sorter:"text"},
+             	   3: { sorter:"text"}
+             	}
+             }); 
+      } 
+  );
+  </script>
+                 
+</div>
+
+[% PROCESS "footer.inc" %]

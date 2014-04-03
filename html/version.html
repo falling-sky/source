@@ -1,0 +1,18 @@
+[% PROCESS "header.inc"  %]
+[% PROCESS "list-nav.inc" page = "Version" %]
+
+<!-- You can create version.html.site 
+     and this less-specific version file 
+     will stop being used for creating the 
+     published version.html file. -->
+
+<div id="content">
+  <h1 id="title">version information</h1>
+
+<div id="version_information"><pre><code>
+URL: [% GET svn_URL %]
+Revision: [% GET svn_Revision %]
+Last Changed Date: [% GET svn_Last_Changed_Date %]
+</code></pre></div>
+</div>
+[% PROCESS "footer.inc" %]

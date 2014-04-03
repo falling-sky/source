@@ -1,0 +1,79 @@
+  
+<!-- Start of "simple dual stack test" by Jason Fesler <jfesler@gigo.com>, January 2011. -->
+<!-- Feel free to use the simple test on your own site, so long as you change the image urls.
+     Note JavaScript requires jQuery to be loaded.  If JavaScript is missing,
+     this page gracefully degrades (broken images instead of red box images).
+     
+     If you fail to change the image urls to your own resources, I reserve the right
+     to entertain myself and your viewers with http referer hacks.
+-->
+
+
+  <p>以下のテーブルは、3つの画像の読み込みを試行します.</p>
+
+<table summary="test images for ipv4, dual stack, and ipv6">
+
+<tr><th>通過?</th><th>方法</th><th>詳細な情報</th></tr>
+
+
+<tr> 
+<td><img  height=32 width=32 src="http://ipv4.test-ipv6.com/images/knob_valid_green.png" alt="?"/></td>
+<td><b>IPv4</b></td>
+<td>
+IPv4. ベーシックな伝統的インターネットです.
+</td></tr>
+
+<tr> 
+<td><img  height=32 width=32 src="http://ds.test-ipv6.com/images/knob_valid_green.png" alt="?"/></td>
+<td><b>IPv4 もしくは IPv6</b></td>
+<td>
+もし緑であれば、World IPv6 dayでも問題のないことが予想されます<br />
+もしこれが失敗する場合、IT 部門、ヘルプデスク、もしくはISP技術サポートに問い合わせてください<br />
+もし失敗する場合、より詳細な想定される失敗の原因を調べるために、IE, Firefox, Safari もしくは Chrome で、<a href="/">フルテスト</a>をご検討ください。
+</td></tr>
+
+<tr> 
+<td><img   height=32 width=32 src="http://ipv6.test-ipv6.com/images/knob_valid_green.png" alt="?"/></td>
+<td><b>IPv6</b></td>
+<td>
+<i>もし赤または黒でも、心配しないでください!</i>  現時点でIPv6をもっているのは、一部の人々に限られています;
+そして、これは2011年時点では致命的な問題ではありませんが、数年後には違ってくるでしょう。
+</td></tr>
+
+</table>
+
+
+<script type="text/javascript" src="/jquery.js"></script>
+<script type="text/javascript">
+// If JavaScript was found, jQuery should be here.
+// And if that is the case, we can change the broken
+// images, to the red "X" icon to provide visual
+// consistency.  IF this function does not actually
+// run, it is perhaps still OK.
+// Only operate on images where alt="?", to limit scope.
+function ChangeToRed () {
+    $('img').each(function() {
+        if((typeof this.naturalWidth != "undefined" &&
+            this.naturalWidth == 0 ) 
+            || this.readyState == 'uninitialized' ) {
+                if ($(this).attr("alt") === "?") {
+                    $(this).attr('src', '/images/knob_cancel.png');
+                    $(this).attr('alt','red');
+                } 
+        } else {
+            if ($(this).attr("alt") === "?") {
+                $(this).attr('alt','green');
+            }
+        }
+    });
+};
+
+jQuery(document).ready(function () {
+  $(window).bind('load', ChangeToRed);
+  setTimeout(ChangeToRed, 10000);
+});
+</script>
+
+<!-- end of simple dual stack test -->
+
+<p><i>A standalone copy of this test can be found <a href="/simple_test.html">here</a>.</i></p>

@@ -1,0 +1,60 @@
+[% PROCESS "header.inc"  %] [% PROCESS "list-nav.inc" page = "Broken!" %]
+
+<div id="content">
+  <h1 id="title">Hva du bør gjøre om du har problem...</h1>
+
+<p>
+Om du leser denne siden, betyr det at vi har har konkludert med at din
+datamaskin vil få problemer under World IPv6 Day. Enhvert nettsted som
+aktiverer IPv6 i tillegg til IPV4 vil bli utilgjengelig for deg.</p>
+
+<p>For å løse dette, må du først identifisere hva din IPv6-adresse er
+(om du har en), samt din IPv6 standard-rute (om du har en). Dette vil
+hjelpe til med å bestemme hvilket avsnitt du bør lese.</p>
+
+<p>Om du mener at ditt spesifikke problem ikke er godt beskrevet, eller om
+du har forslag til forbedringer, vennligst legg igjen en tilbekemlding ved å
+bruke <a href='#' onclick='return GIGO.tabnav("mail");'>skjemaet</a> (eller ta
+kontakt med <a href="mailto:jfesler@gigo.com">jfesler@test-ipv6.com</a>).</p>
+
+  <ul>
+    <li><a href="#findip">Finn ut din IP-adresse</a></li>
+    <li><a href="#tunnelbroker">Om du har satt opp en IPv6-tunnel</a></li>
+    <li><a href="#sixfour">Om du bruker 6to4 (IPv6-adressen starter med 2002)</a></li>
+    <li><a href="#ula">Om du har ULA (IPv6-adressen starter med FC or FD)</a></li>
+    <li><a href="#unexpected">Om du har en uventet IPv6-adresse</a></li>
+    <li><a href="#disable">Om alle andre forsøk ikke hjelper, deaktiver eller de-prioriter IPv6</a></li>
+  </ul>
+
+  <hr/>
+  <h2><a name="findip">Finn ut din IP-adresse</a></h2>
+  [% PROCESS "faq/find_ip.inc" %]
+
+
+  <hr/>
+  <h2><a name="tunnelbroker">Om du har satt opp en IPv6-tunnel</a></h2>
+  [% PROCESS "faq/broken_tunnelbroker.inc" %]
+
+  <hr/>
+  <h2><a name="sixfour">Om du bruker 6to4</a></h2>
+  <h3>(IPv6-adressen starter med 2002)</h3>
+  [% PROCESS "faq/broken_6to4.inc" %]
+  
+  <hr/>
+  <h2><a name="ula">Om du har ULA</a></h2>
+  <h3>(IPv6-adressen starter med FC or FD)</h3>
+  [% PROCESS "faq/broken_ula.inc" %]
+  
+  <hr/>
+  <h2><a name="unexpected">Om du har en uventet IPv6-adresse</a></h2>
+  <h3>(IPv6-adressen starter med noe annet enn FE80</h3>
+  [% PROCESS "faq/broken_unexpected.inc" %]
+  
+  
+  <hr/>
+  <h2><a name="disable">Om alle andre forsøk ikke hjelper</a></h2>
+  <h3>(Instruksjoner for å skru av eller de-prioritere IPv6)</h3>
+  [% PROCESS "faq/broken_disable.inc" %]
+
+
+</div>[% PROCESS "footer.inc" %]

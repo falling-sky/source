@@ -1,0 +1,201 @@
+# YAML format.  UTF8.  English provides a default for all messages.
+# Other langauge files are able to replace english messages.
+# "%1" and such may be used as placeholders in some of the strings.
+# If you don't know YAML:  indentation matters; follow the examples.
+
+#
+#  JAVASCRIPT
+#
+
+builtin:
+  v4is: Seu endereço IPv4 parece ser
+  v6is: Seu endereço IPv6 parece ser  
+  v6service: Seu serviço IPv6 parece ser
+  started: Iniciado
+  using: usando
+  test_rigged: (A pesquisa foi cancelada pois os dados para o teste foram modificados.)
+  test_posting: (Atualizando estatísticas de compatibilidade IPv6 no servidor)
+  test_posted: (Estatísticas de compatibilidade IPv6 atualizadas)
+  test_postfail: (Falha no envio da pesquisa. A informação acima está correta mas não foi registrada.) 
+  more_info: "[mais informações]"
+  readiness_scores: Sua pontuação de compatibilidade
+  readiness_score: Sua pontuação de compatibilidade
+  readiness_ipv4: para a sua estabilidade e compatibilidade IPv4, quando os serviços são oferecidos tanto em IPv4 quanto em IPv6
+  readiness_ipv6: para a sua estabilidade e compatibilidade IPv6, quando os serviços são oferecidos exclusivamente em IPv6
+  click_to_see: Clique para ver
+  test_data: dados do teste
+  your_faq: Sua FAQ
+  faq: Perguntas Frequentes
+  loading: carregando...
+  failed_to_load: falha ao carregar
+  go_back: "[voltar]"
+  permalink: "[permalink]"
+  versions: "%app: Você possui a versão %found. Recomendamos a versão %suggest ou mais recente."
+checkresults:
+  unknown_expansion: expansão desconhecida
+  rig_text: "parâmetro de teste incorreto. Deve ter 9 caracteres. o/s/b/t para abrir/lento/ruim/tempo esgotado. É necessário um por: a aaaa ds4 ds6 dsmtu ipv4 ipv6 v6mtu v6ns"
+  unknown_result_code: código de resultado desconhecido
+form:
+  solicit: Tenho interesse em discutir sua configuração com você pois foi detectado que sua <B>conectividade IPv6 está com problemas</b>, ou ao menos não foi completamente compreendida. Isso não é normal. Você gostaria de %share?
+  share: compartilhar seus resultados
+  retest: testar novamente
+  confused: Não entendemos muito bem estes resultados. Por favor, recarregue a página e %retest. Se os resultados forem os mesmos, por favor, %share comigo para que eu possa melhorar este teste.
+  result_code: Código de resultado
+  missing_contact: "Atenção: Eu não posso contactá-lo se os dados não estiverem preenchidos. Se você realmente quer ficar anônimo, clique em Enviar Resultados novamente."
+symptoms:
+  browser_blocked: Seu navegador bloqueou
+messages:
+  "No Direct IP": "O acesso a URLs contendo endereços IP parece estar bloqueado. Verifique se há algum filtro como o 'NoScript' ou o 'RequestPolicy' instalado em seu navegador, ou se há restrições em seu servidor proxy pois isso limita algumas funcionalidades deste site."
+  "No Direct IPv4": "Conexões IPv4 usando DNS funcionam. Endereços IP em URLs, não. Isso raramente é utilizado hoje em dia."
+  "No Direct IPv6": "Conexões IPv6 usando DNS funcionam. Endereços IP em URLs, não. Isso raramente é utilizado hoje em dia."
+  "6to4": "Parece que você está usando um gateway público do tipo 6to4 que é oferecido automaticamente pelo seu roteador. Esses gateways não oferecem garantias de qualidade e você poderá enfrentar problemas de performance. A melhor opção seria obter um endereço IPv6 a partir de seu provedor."
+  "teredo": "Aparentemente a sua conexão IPv6 está usando Teredo, que é um tipo de tradução IPv4/IPv6 que usa um gateway público. A qualidade desta solução pode não ser boa para acessar sites baseados em IPv6."
+  "teredo-minimum": "Aparentemente a sua conexão IPv6 está usando Teredo, que é um tipo de gateway IPv4/IPv6 que atualmente conecta-se apenas a IPs diretos. Seu navegador não será capaz de acessar sites IPv6 através de nomes e isso significa que a configuração atual não é útil para navegar por sites baseados em IPv6."
+  "teredo-v4pref": "Aparentemente a sua conexão IPv6 está usando Teredo, que é um tipo de gateway IPv4/IPv6. Em sua configuração a Teredo é utilizada apenas como último recurso. Ao visitar um site baseado tanto em IPv4 quanto em IPv6, IPv4 terá preferência."
+  "IPv6 MTU": "Perigo! IPv6 até funciona. Contudo, grandes pacotes parecem falhar, criando a aparência de um site com erros. Ao experimentar erros em sites baseados em IPv6, considere a ideia de questionar seu provedor sobre problemas envolvendo MTU e seu túnel."
+  "confused:ASK": "Os resultados dos testes foram inconclusivos e não atenderam às espectativas. Refaça o teste e, caso os resultados sejam os mesmos, por favor, preencha o formulário de contato."
+#  "ORIGINAL:dualstack:ipv4_preferred": "Parabéns! Tanto IPv4 quanto IPv6 parecem funcionar em sua conexão. Se uma entidade usa IPv6, seu navegador fará a conexão usando IPv6. Atenção: aparentemente o seu navegador prefere IPv4 a IPv6 quando é possível escolher. No futuro isso poderá afetar a precisão de sites que tentam identificar sua localização."
+#  "ORIGINAL:dualstack:ipv6_preferred": "Parabéns! Tanto IPv4 quanto IPv6 parecem funcionar em sua conexão. Se uma entidade usa IPv6, seu navegador fará a conexão usando IPv6. Seu navegador prefere IPv6 a IPv4 quando é possível escolher, e isto é o que se espera."
+  "dualstack:ipv4_preferred": "-"
+  "dualstack:ipv6_preferred": "-"
+  "dualstack:slow": "Por razões desconhecidas o seu navegador fica lento quando tem a opção de fazer conexões usando tanto IPv4 quanto IPv6. Refaça o teste e, caso os resultados sejam os mesmos, por favor, preencha o formulário de contato."
+  "ipv4_only": "Aparentemente você é capaz de navegar apenas em sites baseados em IPv4. Você não terá acesso a sites que utilizam exclusivamente IPv6."
+  "ipv4_only:ds_good": "Quando uma entidade oferece tanto IPv4 quanto IPv6, o seu navegador opta feliz e sem demora pelo site IPv4."
+  "ipv4_only:ds_slow": "Quando uma entidade oferece tanto IPv4 quanto IPv6, a velocidade de seu navegador cai consideravelmente quando camparada à verificada ao acessar um site baseado exclusivamente em IPv4. Você pode achar que o site está com problemas, mas talvez isso aconteça em função de sua configuração IPv6."
+  "ipv4_only:ds_timeout": "Quando uma entidade oferecer tanto IPv4 quanto IPv6, o seu navegador não conseguirá fazer a conexão em tempo hábil. Você pode achar que o site está fora do ar, mas talvez esse problema ocorra em função de sua configuração IPv6. Tente desabilitar o IPv6 ou procure ajuda."
+  "ipv4_slow": "Conexões utilizando IPv4 estão lentas, mas funcionam. Talvez você ou o seu provedor o tenha colocado em um dispositivo de compartilhamento de IP (NAT) que pode estar lento no momento."
+  "ipv6_only": "Aparentemente você só pode navegar utilizando IPv6. Você não tem acesso a serviços IPv4. Isso é bastante ousado!"
+  "ipv6_slow": "Conexões utilizando IPv6 estão lentas, mas funcionam. Talvez você esteja usando um túnel IPv6 público que está lento ou localizado longe de você."
+  "ipv6_timeout": "Conexões a sites baseados exclusivamente em IPv6 não estão sendo completadas em tempo hábil. Qualquer site baseado exclusivamente em IPv6 parecerá fora do ar para você."
+  "broken_ipv6": "Conexões a sites preparados para IPv6 estão caindo. Parece que você tem IPv6 configurado e seu computador acredita que isso está funcionando com uma rota. No entanto, nada está realmente funcionando e você não terá acesso a nenhum site que adote IPv6. Se você não for capaz de consertar seu roteamento e conectividade IPv6, procure ajuda. Se tudo o mais falhar, considere a possibilidade de desabilitar o IPv6."
+  "webfilter:blocked": "Não conseguimos testar o seu sistema. Aparentemente um firewall ou filtro em seu navegador está impedindo que o teste seja executado. Os testes mais importantes estão falhando. Tente desativar plugins, extensões e add-ons de seu navegador (tais como bloqueadores de anúncios) e recarregue a página. Se ainda assim não funcionar, deixe um comentário solicitando ajuda."
+  "webfilter:dsboth": "Não conseguimos testar o seu sistema. Aparentemente um firewall ou filtro em seu navegador está impedindo que o teste seja executado. Os testes de pilha dupla estão falhando. Tente desativar plugins, extensões e add-ons de seu navegador (tais como bloqueadores de anúncios) e recarregue a página. Se ainda assim não funcionar, deixe um comentário solicitando ajuda."
+  "webfilter:addons": "Seu navegador está bloqueando as URLs de teste. Tentaremos métodos alternativos mas que podem não mostrar seu endereço IP, afetando a qualidade das recomendações."
+  "webfilter:firefox": "A causa mais provável é o NoScript ou o AdBlock+. O NoScript pode ser configurado para permitir a execução de todos os scripts desta página, e talvez você precise fazer isso mais de uma vez. No mínimo, dê permissão às URLs listadas abaixo."
+  "NAT64": "Parabéns! Você parece ter IPv6. Atenção: seu acesso via IPv4 está limitado às conexões usando nomes cujas pesquisas são realizadas através do servidor DNS de seu provedor - sem acesso via IP direto. É provável que seu provedor tenha dispositivos para ajudá-lo a acessar pelo nome os sites baseados em IPv4 (NAT64+DNS64). Isso funcionará para a maioria dos casos."
+  "v6ns:ok": "Seu servidor DNS (provavelmente mantido em seu provedor) parece ter acesso à Internet IPv6."
+  "v6ns:bad": "Seu servidor DNS (provavelmente mantido em seu provedor) parece não ter acesso à Internet IPv6 ou não está configurado para usá-la. No futuro isso poderá restringir seu acesso a sites baseados exclusivamente em IPv6."
+  "ip_timeout:firefox": "Provavelmente seu Firefox possui um plugin que está interferindo nos testes baseados em IP. Exemplo: RequestPolicy. Por favor, desative-o(s) enquanto estiver neste site."
+  "confused:obbo": "Uma pesquisa por um nome baseado exclusivamente em IPv6 falhou. No entanto, foi possível utilizar IPv6 nessa configuração de pilha dupla. Parece ter alguma coisa errada nas pesquisas de DNS."
+  "apple:dnsbug_aaaa": "Uma pesquisa por um nome baseado exclusivamente em IPv6 falhou. No entanto, foi possível utilizar IPv6 nessa configuração de pilha dupla. A pesquisa utilizando exclusivamente IPv6 deveria ter funcionado. A Apple tem um problema que esporadicamente faz com que algumas pesquisas IPv6 falhem. Vimos evidências disso nesse teste. Você pode recarregar a página e refazer o teste. Para mais detalhes, veja <a href=\"http://openradar.appspot.com/7333104\">http://openradar.appspot.com/7333104</a>."
+  "apple:dnsbug_ds": "Uma pesquisa por um nome baseado em IPv4 e IPv6 falhou quando no mínimo deveria ter funcionado com IPv4. A Apple tem um problema que esporadicamente faz com que algumas pesquisas IPv6 falhem. Vimos evidências disto nesse teste. Você pode recarregar a página e refazer o teste. Para mais detalhes, veja <a href=\"http://openradar.appspot.com/7333104\">http://openradar.appspot.com/7333104</a>."
+  "ipv4:no_address": "Nenhum endereço IPv4 foi detectado"
+  "ipv6:no_address": "Nenhum endereço IPv6 foi detectado"
+  "no_address": "Endereço(s) IP não detectado(s) por conta de interferências causadas por add-ons em seu navegador."
+  "opera": "O navegador Opera frequentemente apresenta problemas com este site. <b>Se você tiver problemas, tente usar outro navegador</b>."
+  "opera:turbo": "<b>Desligue o turbo no Opera e tente novamente.</b> Esta função não é compatível com este site." 
+  "dualstack:safe": "O <a href=\"ipv6launch.html\">dia mundial de lançamento do IPv6</a> é 6 de junho de 2012. <b>Boa notícia!</b>. O navegador que você está usando neste momento e neste local deve continuar funcionando após a ativação do IPv6."
+  "dualstack:unsafe": "O <a href=\"ipv6launch.html\">dia mundial de lançamento do IPv6</a> é 6 de junho de 2012. <b>Nossos testes mostraram que você terá uma configuração IPv6 errada ou mal ajustada no momento em que os web sites ativarem o IPv6, e isso causará problemas.</b>"
+  "dualstack:mtu": "O <a href=\"ipv6launch.html\">dia mundial de lançamento do IPv6</a> é 6 de junho de 2012. <b>Nossos testes mostraram que você poderá ter problemas de MTU usando IPv6. Isso pode fazer com que os sites carreguem lentamente (ou nem carreguem) quando esses sites ativarem o IPv6.</b>"
+  "buggydns1": "Nós pesquisamos um endereço IPv6 mas seu servidor DNS (possivelmente seu roteador) desconfigurou a resposta e está tratando isso como um IPv4 defeituoso."
+  "proxy_via": "Detectamos que você está utilizando um proxy. Isso significa que estamos testando seu servidor proxy, e não o seu computador. Detalhes do proxy (conforme o cabeçalho 'Via'): %details"
+  "proxy_via_dumb": "Detectamos que você está utilizando um proxy. Isto significa que estamos testando seu servidor proxy, e não o seu computador."
+  "ipv6:nodns": "Conexões IPv6 funcionam, mas conexões usando DNS não utilizam IPv6. Por alguma razão seu navegador ou seu SO não está executando pesquisas 'AAAA' de DNS em IPv6."
+  "broken": "Temos sugestões para melhorar seu sistema."
+  
+# These are not just strings, but arrays,
+# #1: url
+# #2: link text to show (translate this!)
+# Between the first and second string, it must be a comma and a space.
+# ie:   "key":  ["url", "text"] 
+messages_popups:
+  "dualstack:safe": ["faq_ipv6day.html", "Dia do IPv6"]
+  "dualstack:unsafe":  ["faq_ipv6day.html", "Dia do IPv6"]
+  "dualstack:mtu": ["faq_pmtud.html", "faq: MTU"]
+  "IPv6 MTU": ["faq_pmtud.html", "faq: MTU"]
+  "ipv4:no_address": ["faq_ipv4_only.html", "faq: Sem IPv4"]
+  "ipv6:no_address": ["faq_no_ipv6.html", "faq: Sem IPv6"]
+  "6to4": ["faq_6to4.html", "faq: 6to4"]
+  "teredo-minimum": ["faq_teredo_minimum.html", "faq: Teredo Mínimo"]
+  "v6ns:bad": ["faq_v6ns_bad.html", "faq: v6ns Problemático"] 
+  "webfilter:blocked":  ["faq_browser_plugins.html", "faq: Plugins do Navegador"]
+  "webfilter:dsboth":   ["faq_browser_plugins.html", "faq: Plugins do Navegador"]
+  "webfilter:firefox":  ["faq_firefox_plugins.html", "faq: Add-Ons do Firefox"]
+  "webfilter:addons":   ["faq_browser_plugins.html", "faq: Plugins do Navegador"]
+  "ip_timeout:firefox": ["faq_firefox_plugins.html", "faq: Add-Ons do Firefox"]
+  "opera": ["faq_opera.html", "faq: Opera"]
+  "buggydns1": ["faq_buggydns1.html", "faq: DNS problemático"]
+  "broken": ["broken.html", "faq: Broken!"]
+  "ipv6:nodns": ["faq_broken_aaaa.html", "faq: Pesquisas de DNS problemáticas"]
+
+
+#
+#   HTML
+#
+
+html:
+  h1: Testar sua conectividade IPv6.
+  tabnav_index: Testar IPv6
+  tabnav_faq: FAQ
+  tabnav_ipv6day: Dia do IPv6
+  tabnav_stats: Estatísticas
+  tabnav_changes: Alterações/A Fazer
+  summary: Resumo
+  tests_run: Testes Executados
+  tech_info: Informação Técnica
+  share: Compartilhar Resultados / Contato
+  faq_for_you: FAQ para Você
+  help_popup: Popup de Ajuda
+  debug: Debug
+  click_to_see: Clique para ver
+  mirrors: Espelhos
+  disclaimer: Este site é um espelho do test-ipv6.com. O que está aqui pode ou não pode estar de acordo com o seu mantenedor.
+
+
+html_header:
+  title: Teste seu IPv6.
+  description: Esse teste verificará a adequação de seu navegador e de sua conexão ao IPv6 e mostrará seus endereços IPv4 e IPv6.
+
+
+html_mail:
+  comments_wanted:  <b>Temos particular interesse em sua configuração.</b> Estamos sempre nos esforçando para melhorar o test-ipv6.com. Você estaria disposto a contribuir nos fornecendo informações sobre seu navegador e configuração de seu computador? Com sua ajuda nós podemos ajudar outras pessoas a resolver problemas em seus sistemas.
+  comments_unwanted: Este formulário permitirá que você deixe comentários, externe preocupações ou faça perguntas. Os resultados de seu teste serão incluídos automaticamente.  
+  comments_faq: <span id="comments_faq_link"></span> Uma página de perguntas frequentes está disponível exatamente para o seu <b>seu</b> conjunto de resultados. Por favor, leia-a antes de deixar comentários pois muitas perguntas já foram respondidas lá. Se após isso você ainda tiver perguntas, comentários ou preocupações, sinta-se à vontade para usar este formulário.
+  comments_delayed: "<b>Talvez ocorra um atraso na resposta</b> em função de recentes comunicados sobre <a href=\"http://www.internetsociety.org/worldipv6day\">o dia mundial do IPv6</a>."
+  limit_info: Se você estiver comunicando um problema com o teste ou solicitando ajuda com seus resultados, por favor, preencha o formulário completamente e da melhor forma possível. Se você estiver fazendo um comentário geral, use o bom senso para decidir o que escrever.
+  thanks: Obrigado,
+  form_purpose: Finalidade do comentário
+  form_pickone: (Escolha um)
+  form_questions: Perguntas sobre resultados dos testes
+  form_bug: Comunique um problema com o diagnóstico
+  form_suggestion: Sugestão
+  form_cheersjeers: Aplausos ou Vaias
+  form_email: Seu e-mail, caso você me permita contactá-lo. <i>Isso é necessário caso você queira uma resposta.</i>
+  form_submit: Enviar resultados
+  help_anyinfo: Qualquer informação que você acredite ser útil (modelo de seu roteador, presença de firewall, tipo de proxy, etc.). Suas impressões gerais também são válidas.
+  help_plugins: Os testes baseados em javascript parecem ter falhado. Isso pode ter relação com algum plugin ou extensão de seu navegador. Por favor, indique quais plugins e extensões estão habilitadas nesse navegador.
+  help_generic: "Se você tem uma veia técnica, por favor, copie e cole a saída dos seguintes comandos:"
+  help_windows: "Se você tem uma veia técnica, por favor, abra uma janela do \"Prompt\" ou \"cmd\" e execute esses três comandos:"
+  help_output: Copie a saída dos comandos na caixa abaixo. Isso me ajudará a confirmar ou refutar teorias em relação à sua pergunta.
+  comments_english: "Se possível, por favor, faça seus comentários em Inglês."
+
+html_tech:
+  how_this_works: "Como esse teste funciona:"
+  how_general: Seu navegador será instruído a acessar uma série de URLs. A combinação de sucessos e falhas dirá o quão preparado você está para o momento em que as entidades começarem a publicar seus sites em IPv6.
+  pending: pendente
+  detail_a: Busca um objeto que tem apenas um registro A no DNS. É esperado o uso de IPv4. Usuários que utilizam apenas IPv6 ainda podem acessar isso se seus provedores empregarem alguma solução envolvendo NAT64/DNS64 ou um proxy.
+  detail_aaaa: Busca um objeto que tem apenas um registro AAAA no DNS. É esperado o uso de IPv6. Usuários que ainda não usam a Internet IPv6 provavelmente verão isso falhar. Enquanto falhar rapidamente, está tudo bem - para o momento.
+  detail_v6ns: Esse é um teste para o seu provedor e não para seu computador. Se esse teste funcionar, seu servidor DNS (frequentemente mantido em seu provedor) é capaz de acessar servidores DNS autoritativos baseados exclusivamente em IPv6. No momento não é essencial para você acessar sites via IPv6.
+  detail_ds: Esse é o teste mais importante. Ele verifica se seu navegador consegue acessar sites que possuem tanto um registro IPv4 quanto um IPv6. Computadores baseados exclusivamente em IPv4 devem fazer isso sem problemas (usando IPv4).
+  detail_ds_warning: Se esse teste falhar ou não for completado em tempo hábil, espere problemas quando entidades começarem a disponibilizar seus sites em IPv6.
+  detail_ipv4: Isso tentará uma conexão usando um endereço IPv4, o que deve funcionar para a maioria das pessoas, a menos que estejam usando exclusivamente IPv6. Se o primeiro teste funcionou mas este não, isso pode significar que seu provedor está usando NAT64/DNS64. Você apenas precisará tentar conectar usando nomes ao invés de endereços IP.
+  detail_ipv6: Isso tentará fazer uma conexão usando um endereço IPv6 hexadecimal. A ideia é fazer a separação de sua conectividade IPv6 de sua capacidade de utilizar DNS para isso e depois verificar se você está utilizando Teredo. Alguns sistemas só podem usar Teredo quando há um endereço IPv6 na URL.
+  detail_v6mtu: Verifica o funcionamento de requisições IPv6 usando pacotes grandes. Se esse teste não for concluído em tempo hábil mas outros testes IPv6 funcionarem, é provável que haja problemas com PMTUD, possivelmente envolvendo túneis IP.
+  detail_dsmtu: Verifica o funcionamento de conexões a um servidor de pilha dupla (como o teste ds) e se você pode enviar/receber pacotes grandes nessa conexão. Se esse teste não for completado em tempo hábil, isso indica que você terá problemas no dia mundial do IPv6.
+  summary1: Se o resumo dos resultados indicou problemas, você (ou seu suporte técnico) deve ser capaz de utilizar as informações acima para fazer os diagnósticos. Cada URL de teste e seus resultados aparecem no lado esquerdo. À direita você verá uma descrição do que aquela URL testa.
+  summary2: Depois que cada teste é executado. Se o resumo não faz sentido considerando os sintomas registrados acima ou se você precisa de assistência, por favor, sinta-se à vontade para nos contactar.
+  bonus: (bônus)
+  detail_buggydns1: Consultas por um registro AAAA malformado. Alguns roteadores os tratam inadequadamente como registros A e mantém apenas os primeiros 32 bits. Queremos que esse teste falhe.
+
+html_tests:
+  test_a: Testa com um registro DNS IPv4
+  test_aaaa: Testa com um registro DNS IPv6
+  test_ds: Testa com um registro DNS duplo
+  test_v6ns: Testa se o servidor DNS de seu provedor usa IPv6
+  test_ipv4: Testa IPv4 sem DNS
+  test_ipv6: Testa IPv6 sem DNS
+  test_v6mtu: Testa pacote IPv6 grande
+  test_buggydns1: Testa DNS problemático
+  test_dsmtu: Testa DNS duplo e pacote grande
+  bonus: (bônus)
+

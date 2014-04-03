@@ -1,0 +1,15 @@
+[% PROCESS "header.inc"  %] [% PROCESS "list-nav.inc" page = "Broken!" %]
+
+<div id="content">
+  
+<p>[% " Disabling IPv6 is the least preferred option.  For some people, however, it may be your only option.  This may be due to equipment limitations, or in limitations in technical support." | i18n %]</p>
+
+  [% PROCESS "broken_options.inc" %]
+
+  [% PROCESS "faq/broken_disable.inc" %]
+  
+
+
+</div>
+
+[% PROCESS "footer.inc" %]

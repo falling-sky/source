@@ -1,0 +1,9 @@
+# mod_ip - reports IP address.
+# arguments
+#
+#  callback=functionname
+#   fill=1600    to pad to 1600 bytes
+#   asn=1        to get ASN details of the IP address, including ISP name
+
+ SetHandler mod_ip
+

@@ -1,0 +1,213 @@
+# Translator: renq29 AT gmail dot com
+# Contributor: jianingy.yang AT gmail dot com
+# Contributer: tingle2008 AT gmail dot com
+
+
+# YAML format.  UTF8.  English provides a default for all messages.
+# Other langauge files are able to replace english messages.
+# "%1" and such may be used as placeholders in some of the strings.
+# If you don't know YAML:  indentation matters; follow the examples.
+
+
+
+#
+#  JAVASCRIPT
+#
+
+builtin:
+  v4is: 您在公网上的 IPv4 地址是
+  v6is: 您在公网上的 IPv6 地址是
+  v6service: 您的 IPv6 服务似乎是.
+  started: 开始
+  using: 使用
+  test_rigged: (检测发布已被跳过；测试是非法操作)
+  test_posting: (正在更新服务器上的IPv6统计信息)
+  test_posted: (服务器上的IPv6统计信息更新完毕)
+  test_postfail: (统计信息更新失败；以上信息虽然准确的但是没有被记录)
+  more_info: "[更多信息]"
+  readiness_scores: 网络得分
+  readiness_score: 网络得分
+  readiness_ipv4: 访问同时支持IPv4与IPv6的网站时，您的IPv4稳定性得分
+  readiness_ipv6: 访问仅支持IPv6的网站时，您的IPv6稳定性得分
+  click_to_see: 点击查看
+  test_data: 测试数据
+  your_faq: 您的常见问题
+  faq: 常见问题
+  loading: 载入中...
+  failed_to_load: 载入失败
+  go_back: "[返回]"
+  permalink: "[静态链接]"
+  versions: "%app: 你目前正在运行的版本 %found; 我们推荐 %suggest 或者更新."
+  ok: ok
+  bad: bad
+  slow: slow
+  timeout: 超时
+checkresults:
+  unknown_expansion: 未知扩展
+  rig_text: "测试参数错误. 应该是9个字符. o/s/b/t 表示 open/slow/bad/timeout.  Need one per: a aaaa ds4 ds6 dsmtu ipv4 ipv6 v6mtu v6ns"
+  unknown_result_code: 未知的返回码
+form:
+  solicit: 我们特别有兴趣与您讨论您的设置，因为<B>您的IPv6连接断开</B>, 或者至少是没有被完全理解。这是不正常的；您是否愿意 %share?
+  share: 分享您的测试结果
+  retest: 重新测试
+  confused: 我们不是很理解这个测试结果。请重新载入页面一次并且 %retest。如果仍然得到相同的结果，请跟我 %share ，我会改进这个测试的。
+  result_code: 结果代码
+  missing_contact: "注意: 如果联系信息为空，我们将无法联系您。如果您确定想要匿名提交，请再一次点击提交结果按钮。"
+symptoms:
+  browser_blocked: 您的浏览器屏蔽了
+messages:
+  "No Direct IP": "IP地址url的连接貌似被封锁了; 原因可能是您的浏览器上安装的网页过滤器，如'NoScript' 和 'RequestPolicy', 或者是您代理服务器的过滤。这限制了本测试网站的一些功能。"
+  "No Direct IPv4": "IPv4 Connections using DNS work; but literal IP addresses in urls do not.  These are rarely used on the web today."
+  "No Direct IPv6": "IPv6 Connections using DNS work; but literal IP addresses in urls do not. These are rarely used on the web today."
+  "6to4": "您似乎正在使用公共的6转4网关；您的路由器可能自动为您提供该功能。这种公共网关没有服务层协议；您在使用中可能会碰到性能问题。最好从您的ISP那里获取原生IPv6地址。"
+  "teredo": "您的IPv6连接似乎正在使用Teredo，一种使用公共网关的IPv4/IPv6转换器。由于您正在使用公共网关访问基于IPv6的站点，质量可能受到影响。"
+  "teredo-minimum": "您的IPv6连接似乎正在使用Teredo，一种使用公共网关的IPv4/IPv6转换器；它当前仅连接到直接IP。您的浏览器将不能通过名称访问IPv6站点。这意味着目前的配置对访问IPv6网站不起作用。"
+  "teredo-v4pref": "您的IPv6连接似乎正在使用Teredo，一种使用公共网关的IPv4/IPv6转换器。您的特定teredo配置只是不得已的协议。当访问同时提供IPv4和IPv6的站点时，IPv4将被优先考虑。"
+  "IPv6 MTU": "危险！IPv6几近成功——但鉴于已损坏的网站呈现，可知大包传输失败。如果发行人发行在IPv6上，您将会认为是他们的网站被损坏了。向您的ISP询问关于MTU的问题；可能与您的隧道有关。"
+  "confused:ASK": "测试结果尚无定论；它们与预期不符。请从新运行测试，如果结果还是一样，请填写联系表单。"
+#  "ORIGINAL:dualstack:ipv4_preferred": "恭喜！您的IPv4和IPv6互联网似乎都正常。如果发行人发布到IPv6上，您的浏览器将用IPv6连接。注：如果可以选择，比起IPv6来您的浏览器更倾向于IPv4。这将会影响站点对您所在位置检测的准确性。"
+#  "ORIGINAL:dualstack:ipv6_preferred": "恭喜！您的IPv4和IPv6互联网似乎都正常。如果发行人发布到IPv6。您的浏览器将用IPv6连接。如果可以选择，比起IPv4来您的浏览器更倾向于IPv6。（这是预期的结果）。"
+  "dualstack:ipv4_preferred": "-"
+  "dualstack:ipv6_preferred": "-"
+  "dualstack:slow": "因为未知原因，您的浏览器在可以选择连接IPv4或者IPv6时似乎操作变慢了。请重新运行测试，如果结果相同，请填写联系表单。"
+  "ipv4_only": "您只能浏览IPv4网络。您将不能访问纯IPv6站点。"
+  "ipv4_only:ds_good": "当发行人提供IPv4和IPv6，您的浏览器似乎会毫不迟疑地欣然使用IPv4站点。"
+  "ipv4_only:ds_slow": "当发行人提供IPv4和IPv6，您的浏览器似乎比i访问纯IPv4站点显著变慢。您甚至会认为目的网站被损坏。这可能是您的IPv6配置导致的。"
+  "ipv4_only:ds_timeout": "当发行人提供IPv4和IPv6，您的浏览器尝试连接将会超时。您可能会以为站点down了。这可能是您的IPv6配置导致的。禁用IPv6，或寻求帮助。"
+  "ipv4_slow": "IPv4连接缓慢，但功能正常。也许您或者您的ISP讲您置于一个目前运行缓慢的IP共享设备（NAT）后。"
+  "ipv6_only": "您只能浏览IPv6网络，而无法访问IPv4网络。您可真够给力的！"
+  "ipv6_slow": "IPv6连接缓慢，但功能正常。您可能正在使用一个公共IPv6隧道，这个隧道要么很慢，要么不再您附近。"
+  "ipv6_timeout": "连接纯IPv6站点超时。纯IPv6网站对您来说都好似down掉了。"
+  "broken_ipv6": "支持IPv6的网站连接挂起。看来你可能有IPv6配置；您的计算机认为您的IPv6正常。您的计算机认为您的IPv6路由正常。但实际上是完全失败的。任何添加IPv6的网站您都将不能访问。如果您不能修复您的IPv6路由或者连接，可寻求帮助。如果一切均失败，强烈建议在主机上禁用IPv6。"
+  "webfilter:blocked": "我们不能测试您的系统；防火墙或浏览器过滤器似乎阻止测试运行。关键测试失败。请尝试禁用浏览器插件、扩展或组件（如广告拦截器）；然后重载此页面。如果还是失败，您可以在评论中请求帮助。"
+  "webfilter:dsboth": "我们不能测试您的系统；防火墙或浏览器过滤器似乎阻止测试运行。双栈测试失败。请尝试禁用浏览器插件、扩展或组件（如广告拦截器）；然后重载此页面。如果还是失败，您可以在评论中请求帮助。"
+  "webfilter:addons": "您的浏览器屏蔽了我们的测试地址。我们将尝试替代方案进行测试，但该方案可能无法显示您的IP地址并且有可能会影响到我们的信息质量。"
+  "webfilter:firefox": "最可能的原因是NoScript和AdBlock+。NoScript可以被设置为允许此页面上的所有脚本。（您可能需要不止一次地这么做）。至少允许以下url。"
+  "NAT64": "恭喜！您似乎具备IPv6。注：您的IPv4仅限于通过在您ISP的DNS服务器上查找主机名来进行连接——不是原始IP地址。您的ISP可能有一个设备来帮助您通过名称访问 IPv4站点(NAT64+DNS64)。这将使用于大多数用途。"
+  "v6ns:ok": "您的DNS服务器(通常由您的网络服务商提供)已经可以接入IPv6互联网了。"
+  "v6ns:bad": "您的DNS服务器(通常由您的网络服务商提供)还不能接入IPv6互联网，异或是没有做好相应的设置。这将会使您访问不能访问纯IPv6站点。"
+  "ip_timeout:firefox": "您正在使用某个插件可能导致基于IP的测试失败。例如：RequestPolicy。当您使用本站时请禁用它们。"
+  "confused:obbo": "纯IPv6名称查找失败；尽管查找和双栈连接都是通过IPv6连接的。一些东西可能和DNS查找混淆了。"
+  "apple:dnsbug_aaaa": "纯IPv6名称查找失败；尽管查找和双栈连接都是通过IPv6连接的。纯IPv6查找本该成功的。Apple有一个bug偶尔会导致IPv6查找失败。这项测试印证了这一点。您可以重新载入页面并再次尝试测试。更多详细信息，请察看<a href=\"http://openradar.appspot.com/7333104\">http://openradar.appspot.com/7333104</a>."
+  "apple:dnsbug_ds": "查找双栈IPv4和IPv6名称失败(它至少应该通过IPv4连接)。Apple有一个bug偶尔会导致IPv6查找失败。这项测试印证了这一点。您可以重新载入页面并再次尝试测试。更多详细信息，请察看<a href=\"http://openradar.appspot.com/7333104\">http://openradar.appspot.com/7333104</a>."
+  "ipv4:no_address": "没有检测到您的 IPv4 地址"
+  "ipv6:no_address": "没有检测到您的 IPv6 地址"
+  "no_address": "由于浏览器插件干扰，无法检测到您的 IP 地址。"
+  "opera": "Opera浏览器在此站似乎经常崩溃。<b>如果您遇到问题，请使用其他浏览器</b>."
+  "opera:turbo": "<b>禁用Opera的turbo模式后重试。</b> Turbo模式和本站的需求不兼容。"
+  "dualstack:safe": "<a href=\"ipv6launch.html\">世界IPv6启动</a>之日是2012年六月六日。<b>好消息!</b>您当前位置当前电脑上的浏览器，预计将在IPv6启动之后继续正常运行。"
+  "dualstack:unsafe": "<a href=\"ipv6launch.html\">世界IPv6启动</a>之日是2012年六月六日。<b>我们的测试表明您的IPv6设置存在问题，这将导致您不能正确访问使用了IPv6技术的网站。</b>"
+  "dualstack:mtu": "<a href=\"ipv6launch.html\">世界IPv6启动</a>之日是2012年六月六日。<b>我们的测试显示您将可能遇到IPv6上的MTU问题；当网站启动IPv6时，这可能会导致网站加载慢（也可能不会）。</b>"
+  "buggydns1": "We looked up an IPv6 address, but your DNS server (possibly your home router) mangled the response, and is treating it as (broken) IPv4."
+  "proxy_via": "我们检测到您正在使用代理。这意味着您正在检测您的代理服务器，而非您的计算机。代理细节信息(as reported by your proxy 'Via' header): %details"
+  "proxy_via_dumb": "我们检测到您正在使用代理。这意味着您正在检测您的代理服务器，而非您的计算机。"
+  "ipv6:nodns": "IPv6连接正常，但使用DNS名称的连接没有使用IPv6，因为某些原因，您的浏览器或者您的操作系统没有进行IPv6 DNS 'AAAA' 检查。"
+  "broken": "我们有一些建议可以帮助您修复您的系统。"
+
+# These are not just strings, but arrays,
+# #1: url
+# #2: link text to show (translate this!)
+# Between the first and second string, it must be a comma and a space.
+# ie:   "key":  ["url", "text"]
+messages_popups:
+  "dualstack:safe": ["faq_ipv6launch.html", "全球 IPv6 启动"]
+  "dualstack:unsafe":  ["faq_ipv6launch.html", "全球 IPv6 启动"]
+  "dualstack:mtu": ["faq_pmtud.html", "faq: MTU"]
+  "IPv6 MTU": ["faq_pmtud.html", "faq: MTU"]
+  "ipv4:no_address": ["faq_ipv4_only.html", "faq: 无 IPv4 地址"]
+  "ipv6:no_address": ["faq_no_ipv6.html", "faq: 无 IPv6 地址"]
+  "6to4": ["faq_6to4.html", "faq: 6to4"]
+  "teredo-minimum": ["faq_teredo_minimum.html", "faq: Teredo Minimum"]
+  "v6ns:bad": ["faq_v6ns_bad.html", "faq: v6ns Bad"]
+  "webfilter:blocked":  ["faq_browser_plugins.html", "faq: 浏览器插件"]
+  "webfilter:dsboth":   ["faq_browser_plugins.html", "faq: 浏览器插件"]
+  "webfilter:firefox":  ["faq_firefox_plugins.html", "faq: 火狐扩展"]
+  "webfilter:addons":   ["faq_browser_plugins.html", "faq: 浏览器插件"]
+  "ip_timeout:firefox": ["faq_firefox_plugins.html", "faq: 火狐扩展"]
+  "opera": ["faq_opera.html", "faq: Opera"]
+  "buggydns1": ["faq_buggydns1.html", "faq: Buggy DNS"]
+  "broken": ["broken.html", "faq: Broken!"]
+  "ipv6:nodns": ["faq_broken_aaaa.html", "faq: Broken DNS Lookups"]
+
+
+#
+#   HTML
+#
+
+html:
+  h1: IPv6 连接测试
+  tabnav_index: 测试 IPv6
+  tabnav_faq: 常见问题
+  tabnav_ipv6day: IPv6 日
+  tabnav_ipv6launch: 世界 IPv6 启动
+  tabnav_stats: 统计
+  tabnav_changes: 变更/计划
+  summary: 摘要
+  tests_run: 测试项目
+  tech_info: 技术信息
+  share: 分享测试结果 / 联系我们
+  faq_for_you: FAQ for You
+  help_popup: Help Popup
+  debug: Debug
+  click_to_see: 点击察看
+  mirrors: 镜像
+  when: 本地时间
+  disclaimer: 免责声明：本站是 test-ipv6.com 之镜像站点。本站所包含任何观点可能反映也可能不反映本镜像站点所有人的观点。
+
+
+html_header:
+  title: IPv6 测试
+  description: 本站将测试您的浏览器以及网络连接是否已为 IPv6 做好准备。本站同时也将显示您当前的 IPv4 和 IPv6 地址信息。
+
+
+html_mail:
+  comments_wanted:  <b>您的特殊配置很有趣。</b>我们一直致力于优化test-ipv6.com的代码。您愿意提供关于您的浏览器和计算机设置的信息吗？有您的帮助，我们可以为别人记录下如何修复他们的系统。
+  comments_unwanted: 您可以在此表单中发表评论，表达关切，或提出问题。您的测试结果会自动被包含进去。
+  comments_faq: <span id="comments_faq_link"></span> (FAQ) page is available for <b>您的</b>exact set of results。在发表评论之前请阅读此页；许多问题已经得到解答。如果您仍然有问题、评论或关心的事，请随时使用这个表单。
+  comments_delayed: "<b>响应可能有延时</b>，由于最近发布的关于<a href=\"http://www.internetsociety.org/worldipv6day\">世界IPv6日</a>的报道。"
+  limit_info: 如果要报告有关测试的问题，或者针对您的结果请求帮助，请尽最大努力填写所有要求的信息。If leaving general comments, use your best judgement on how much to report.
+  thanks: 感谢，
+  form_purpose: 评论的目的
+  form_pickone: (选择一项)
+  form_questions: 有关测试结果的问题
+  form_bug: 报告错误及诊断
+  form_suggestion: 建议
+  form_cheersjeers: 欢呼或嘲笑
+  form_email: 如果您允许我们联系您，请填写邮件地址。<i>如果您想得到回复，则此项必填。</i>
+  form_submit: 发送结果
+  help_anyinfo: 任何您觉得对我们有用的信息（例如您使用的什么路由器或防火墙，或者您使用何种代理）。这包括一般的反馈。
+  help_plugins: 基于javascript的测试似乎已经失败。这可能与浏览器插件或扩展有关。请指明您的浏览器加载了什么插件和扩展。
+  help_generic: "如果您是技术控，请剪切/粘贴以下命定的输出："
+  help_windows: "如果您是技术控，请打开一个 \"Command Prompt\" 或者 \"cmd\" 窗口，运行这三条命令："
+  help_output:  将那些命令的输出复制到下面的框中。这将有助于我们确认/拒绝有关于您问题的理论。
+  comments_english: "如果可能的话，请使用英语留下您的评论。"
+
+html_tech:
+  how_this_works: "这项测试是如何进行的："
+  how_general: 您的浏览器将被指示去访问一系列URL。访问成功和失败的结果结合起来能显示出您对发行人开始提供基于IPv6的站点访问准备到何种程度。
+  pending: 待定
+  detail_a:  取得DNS中仅含一个A记录的对象。预计将使用IPv4。如果提供商采用NAT64/DNS64或代理解决方案，纯IPv6用户仍可以访问。
+  detail_aaaa: 取得DNS中仅含一个AAAA记录的对象。预计将使用IPv6。尚未使用IPv6互联网的用户很可能失败。如果这项测试很快失败，就目前而言不会有太大影响。
+  detail_v6ns: 这是一项针对您ISP的解析器的测试（取代针对您主机的测试）。如果这项测试通过，您的DNS服务器（通常由您的ISP运行）能够访问互联网上的纯IPv6权威DNS服务器。（目前）对您来说，通过IPv6访问站点并不是必须的。
+  detail_ds: 这是最重要的一项测试。它证实您的浏览器是否可以连接同时发布IPv4和IPv6记录的站点。纯IPv4主机应该能很顺畅地连接（使用IPv4）。
+  detail_ds_warning: 如果这项测试失败或超时，发行人开始提供基于IPv6的站点是主要问题之一。
+  detail_ipv4: This will try connecting with a literal IPv4 numeric address. This should work for most people, unless they are running IPv6-only. If the first test worked, but this fails, it likely confirms your provider is using NAT64/DNS64; you'll need to only try connecting using hostnames instead of numeric IP addresses.
+  detail_ipv6:  This will try connecting with a literal IPv6 hexadecimal address. The primary purpose of this test is to separate out your connectivity on IPv6 from your ability to fetch DNS for it.  A secondary purpose is to see if you have Teredo enabled; some systems may only use Teredo when an IPv6 address is in the URL.
+  detail_v6mtu: 验证大包IPv6请求正常。如果这项测试超时，但其他IPv6测试正常，这表明可能存在PMTUD问题；或涉及IP隧道。
+  detail_dsmtu: 验证您可以连接到双栈服务器（类似ds测试）；您可以通过该连接发送/接受大包。如果这项测试以任何原因超时，都意味着全球IPv6到来之日有麻烦。
+  summary1: 如果汇总结果指出问题，您（或您的技术支持）可以利用以上信息诊断问题。每个测试url和他们的结果都显示在左侧。在右侧您将看到关于url设计测试目的的描述。
+  summary2: 完成所有测试之后，试着在汇总页面查看结果。如果对于上面记录的症状，汇总结果并没有多大意义，或者您需要进一步的协助，请随时联系我们。
+  bonus: (This is bonus credit)
+  detail_buggydns1: 异常AAAA记录查询。有些路由器误将它们处理为A记录，只保留前32位。我们希望这个测试连接失败。
+
+html_tests:
+  test_a: 使用 IPv4 域名记录进行测试
+  test_aaaa: 使用 IPv6 域名记录进行测试
+  test_ds: 使用双栈域名记录进行测试
+  test_v6ns: 测试您 ISP 的域名服务器是否使用 IPv6
+  test_ipv4: 不使用域名的 IPv4 测试
+  test_ipv6: 不使用域名的 IPv6 测试
+  test_v6mtu: IPv6 大封包测试
+  test_buggydns1: Test for buggy DNS
+  test_dsmtu: 双栈域名和大封包测试
+  bonus: (本项目是加分项目)

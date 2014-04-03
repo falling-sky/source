@@ -1,0 +1,30 @@
+[% PROCESS "header.inc"  %]
+[% PROCESS "list-nav.inc" page = "6rd tunnel" %]
+
+<div id="content">
+
+[% PROCESS "tunnel.inc" %]
+
+<h1>Quels sont les spécificités d'un tunnel 6RD?</h1>
+
+<p>
+	Les tunnels 6RD ont été spécifiés par l'IETF en tant que
+	<a href="http://tools.ietf.org/html/rfc5969">RFC 5969</a> pour être déployés au travers du réseau d'accès
+	d'un FAI et par ce FAI lui-même afin de transporer des paquets IPv6 au dessus de son réseau d'accès
+	qui ne fournit que IPv4. Comme ce tunnel 6RD est confiné au sein d'un seul FAI, il est par conséquent
+	géré et offre des performances strictement équivalentes en IPv6 qu'en IPv4 (sauf peut-être
+	au niveau de la plus grande taille des paquets, c-à-d le MTU).
+</p>
+<p>
+	Pour faire court, un tunnel 6RD vous fourni une connectivité IPv6 native.
+</p>
+
+<h1>Comment avons-nous détecté un tunnel 6RD?</h1>
+<p>
+	Lors de ces tests, nous déterminons vos adresses IPv4 et IPv6. Si au moins 16 bits de votre
+	adresse IPv4 se retrouvent dans votre préfixe IPv6, nous supposons alors que vous utilisez
+	un tunnel 6RD.
+</p>
+</div>
+
+[% PROCESS "footer.inc" %]

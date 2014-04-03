@@ -1,0 +1,23 @@
+09:43 PST | jfesler@bender:~/falling-sky/source/transparent/ % dig @dns101.comcast.net ds.v6ns.test-ipv6-newcastle.comcast.net a
+
+; <<>> DiG 9.8.1-P1 <<>> @dns101.comcast.net ds.v6ns.test-ipv6-newcastle.comcast.net a
+; (2 servers found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 23496
+;; flags: qr rd; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+;; WARNING: recursion requested but not available
+
+;; QUESTION SECTION:
+;ds.v6ns.test-ipv6-newcastle.comcast.net. IN A
+
+;; AUTHORITY SECTION:
+v6ns.test-ipv6-newcastle.comcast.net. 300 IN NS	v6ns1.test-ipv6-newcastle.comcast.net.
+
+;; ADDITIONAL SECTION:
+v6ns1.test-ipv6-newcastle.comcast.net. 300 IN AAAA 2001:558:fe23:2:69:252:208:167
+
+;; Query time: 75 msec
+;; SERVER: 2001:558:fe23:8:69:252:250:103#53(2001:558:fe23:8:69:252:250:103)
+;; WHEN: Thu Mar  6 09:43:28 2014
+;; MSG SIZE  rcvd: 105

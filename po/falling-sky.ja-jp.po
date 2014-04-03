@@ -1,0 +1,923 @@
+
+
+"Project-Id-Version: PACKAGE VERSION\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"Last-Translator: Unspecified Translator <jfesler+unspecified-translator@test-ipv6.com>\n"
+"Language-Team: LANGUAGE <v6code@test-ipv6.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: messages.js
+msgid "bad"
+msgstr "問題あり"
+
+#: builtin.js
+msgid "Click to see"
+msgstr "クリックして表示"
+
+#: builtin.js
+msgid "failed to load"
+msgstr "読み込みに失敗"
+
+#: builtin.js
+msgid "Frequently Asked Questions"
+msgstr "よくある質問と回答(FAQ)"
+
+#: builtin.js
+msgid "[go back]"
+msgstr "[戻る]"
+
+#: builtin.js
+msgid "loading..."
+msgstr "読み込み中..."
+
+#: builtin.js
+msgid "[more info]"
+msgstr "[詳細]"
+
+#: builtin.js
+msgid "[permalink]"
+msgstr "[パーマネントリンク]"
+
+#: builtin.js
+msgid "proxied"
+msgstr "プロキシ環境下"
+
+#: builtin.js
+msgid "Proxied"
+msgstr "プロキシ環境下"
+
+#: builtin.js
+msgid "for your IPv4 stability and readiness, when publishers offer both IPv4 and IPv6"
+msgstr "コンテンツ側が IPv4 および IPv6 を提供した際の、あなたの IPv4 の安定性と準備状況"
+
+#: builtin.js
+msgid "for your IPv6 stability and readiness, when publishers are forced to go IPv6 only"
+msgstr "コンテンツ側が IPv6 のみになった際の、あなたの IPv6 の安定性と準備状況"
+
+#: builtin.js
+msgid "Your readiness score"
+msgstr "あなたの事前対応点"
+
+#: messages.js
+msgid "slow"
+msgstr "遅延"
+
+#: builtin.js
+msgid "Started"
+msgstr "開始した"
+
+#: builtin.js
+msgid "test data"
+msgstr "テストデータ"
+
+#: builtin.js
+msgid "(Updated server side IPv6 readiness stats)"
+msgstr "(サーバ側 IPv6 事前対応の統計を更新しました)"
+
+#: builtin.js
+msgid "(Survey posting failed; the above information is accurate, but not recorded.)"
+msgstr "(調査結果の投稿に失敗しました; 以上の情報は正確ですが、記録されていません)"
+
+#: builtin.js
+msgid "(Updating server side IPv6 readiness stats)"
+msgstr "(サーバ側 IPv6 事前対応の統計を更新中)"
+
+#: builtin.js
+msgid "(Survey posting skipped; test was rigged)"
+msgstr "(調査結果の投稿をスキップしました; テスト準備済み)"
+
+#: messages.js
+msgid "timeout"
+msgstr "タイムアウト"
+
+#: builtin.js
+msgid "using"
+msgstr "利用"
+
+#: builtin.js
+msgid "Your IPv4 address on the public Internet appears to be"
+msgstr "一般のインターネット上で見えるあなたの IPv4 アドレスは"
+
+#: builtin.js
+msgid "Your IPv6 address on the public Internet appears to be"
+msgstr "一般のインターネット上で見えるあなたの IPv6 アドレスは"
+
+#: builtin.js
+msgid "Your IPv6 service appears to be"
+msgstr "あなたがお使いの IPv6 サービス"
+
+#: versions.js
+msgid "%app: You are running version %found; we recommend %suggest or newer."
+msgstr "%app: バージョン %found をお使いです; 私たちは %suggest 以降のバージョンをお使いいただくことをお勧めします."
+
+#: builtin.js
+msgid "Your FAQ"
+msgstr "あなたの FAQ"
+
+#: checkresults.js
+msgid "test parameter wrong. should be 9 characters. o/s/b/t for open/slow/bad/timeout. Need one per: a aaaa ds4 ds6 dsmtu ipv4 ipv6 v6mtu v6ns"
+msgstr "テストパラメータが誤っています。9文字である必要があります。o/s/b/t は open/slow/bad/timeout を意味します。以下の一項目ごとに必要: a aaaa ds4 ds6 dsmtu ipv4 ipv6 v6mtu v6ns"
+
+#: checkresults.js
+msgid "unknown result code"
+msgstr "不明な結果コード"
+
+#: form.js
+msgid "Note: I can't contact you, if the contact info is blank. If you really want to submit this anonymously, hit Send Results again."
+msgstr "備考: 連絡先情報が空白の場合、こちらからご連絡することはできません。本当に匿名での投稿を希望される場合には、もう一度結果送信ボタンをクリックしてください。"
+
+#: form.js
+msgid "Result code"
+msgstr "結果点"
+
+#: form.js
+msgid "retest"
+msgstr "再テスト"
+
+#: form.js
+msgid "share your results"
+msgstr "あなたの結果を共有"
+
+#: form.js
+msgid "I am most interested in discussing your setup with you, because it was been determined that <B>your IPv6 connectivity is broken</b>, or at least not fully understood. This is not normal; would you be willing to %share?"
+msgstr "あなたの環境が興味深いため、お話を伺いたいと考えています。といいますのも、<B>お使いのIPv6接続が壊れている</B>、もしくは完全な判別ができなかったためです。これは特殊なケースであるため、%share しませんか?"
+
+#: main/tabnav.inc
+msgid "Debug"
+msgstr "デバッグ"
+
+#: disclaimer.inc
+msgid "This is a mirror of test-ipv6.com. The views expressed here may or may not reflect the views of the mirror owner."
+msgstr "このサイトは test-ipv6.com のミラーサイトです。ここで表明されている見解は、ミラーのオーナーの見方を反映する、もしくは反映しないものではありません。"
+
+#: main/tabnav.inc
+msgid "FAQ for You"
+msgstr "あなたの FAQ"
+
+#: index.html
+msgid "Test your IPv6 connectivity."
+msgstr "あなたの IPv6 接続性をテストしましょう。"
+
+#: main/tabnav.inc
+msgid "Help Popup"
+msgstr "ヘルプをポップアップ"
+
+#: list-nav.inc
+msgid "Mirrors"
+msgstr "ミラー"
+
+#: main/tabnav.inc
+msgid "Share Results / Contact"
+msgstr "結果を共有 / 連絡"
+
+#: main/tabnav.inc
+msgid "Other IPv6 Sites"
+msgstr "他の IPv6 サイト"
+
+#: main/tabnav.inc
+msgid "Summary"
+msgstr "サマリー"
+
+#: list-nav.inc
+msgid "Test IPv6"
+msgstr "IPv6 をテスト"
+
+#: messages.js
+msgid "World IPv6 Launch"
+msgstr "World IPv6 ローンチ"
+
+#: main/tests.inc
+msgid "Technical Info"
+msgstr "技術情報"
+
+#: main/tabnav.inc
+msgid "Tests Run"
+msgstr "テストラン"
+
+#: header.inc
+msgid "This will test your browser and connection for IPv6 readiness, as well as show you your current IPV4 and IPv6 address."
+msgstr "あなたのブラウザと接続の IPv6 の準備状況をテストし、あなたの現在の IPv4 および IPv6 アドレスを表示します。"
+
+#: header.inc
+msgid "Test your IPv6."
+msgstr "あなたの IPv6 をテストしましょう。"
+
+#: main/mail-language.inc
+msgid "Please leave your comments using English, if possible."
+msgstr "可能であれば、コメントをお寄せください(英語のみ)。"
+
+#: main/mail.inc
+msgid "<span id=\"comments_faq_link\"></span> (FAQ) page is available for <b>your</b> exact set of results. Please read it before leaving comments; many questions have already been answered. If you still have questions, comments, or concerns, feel freel to use this form."
+msgstr "<b>あなた</b> の結果と同一の結果が<span id=\"comments_faq_link\"></span>(FAQ) にあります。コメントを残す前に、こちらをお読みください; 多くの質問が既に回答されています。それでもまだ質問、コメント、もしくは関心事がある場合、このフォームをご自由にお使いください。"
+
+#: main/mail.inc
+msgid "This form will let you leave a comment, voice concerns, or ask questions. Your test results will be included automatically."
+msgstr "このフォームにコメント、懸念、もしくは質問を残せます(英語のみ)。あなたのテスト結果も同時に含まれます。"
+
+#: main/mail.inc
+msgid "<b>Your particular configuration is of interest.</b> We are always striving to make the test-ipv6.com code better. Would you be willing to contribute more information about your browser and computer setup? With your help, we can document for others how to repair their systems."
+msgstr "<b>あなたの特有の設定について教えてください</b>。私たちは常に test-ipv6.com コードの改善にむけて努力しています。あなたのブラウザととコンピュータの設定情報について提供いただけませんか. あなたのご協力で、私たちは他の方々にどのようにして彼らのシステムを修正できるかを文章化できます。"
+
+#: main/mail.inc
+msgid "Report a bug with diagnosis"
+msgstr "診断結果とともにバグを報告"
+
+#: main/mail.inc
+msgid "Cheers or Jeers"
+msgstr "拍手、もしくは冷やかし"
+
+#: main/mail.inc
+msgid "Email address if you'll permit me to contact you. <i>Required, if you wish a response.</i>"
+msgstr "あなたが私に連絡を許可する場合、電子メールアドレス。<i>もし返事を希望する場合、必須</i>"
+
+#: main/mail.inc
+msgid "Purpose for comment"
+msgstr "コメントの趣旨"
+
+#: main/mail.inc
+msgid "Questions about test results"
+msgstr "テスト結果についての質問"
+
+#: main/mail.inc
+msgid "Send results"
+msgstr "結果を送信"
+
+#: main/mail.inc
+msgid "Suggestion"
+msgstr "提案"
+
+#: main/mail.inc
+msgid "Any information you think I might find useful (what router you're using, or a firewall in the way, or type of proxy you use, etc). This includes general feedback."
+msgstr "私が知ると有用だと思われる情報(あなたがお使いのルータや、ファイアウォールの有無、利用しているプロキシーの種類など)。一般的なフィードバックを含みます。"
+
+#: main/mail.inc
+msgid "If you are technically minded please cut/paste the output of the following commands:"
+msgstr "もしあなたが技術志向の方でしたら、以下のコマンドの出力をカット/ペーストしてください:"
+
+#: main/mail.inc
+msgid "Copy the output from those commands, into the box below. This will help me confirm/deny any theories relating to your question."
+msgstr "これらのコマンドの出力をコピーし、次のボックスに入力してください。これは、あなたの質問に関連した理論・見解を確認、あるいは否認するのに役立ちます。"
+
+#: main/mail.inc
+msgid "The javascript based test appears to have failed. This may be browser plugin or extension related. Please indicate what browser plugins and extenions you have enabled in this browser."
+msgstr "JavaScript ベースのテストが失敗したようです。これはブラウザのプラグインや拡張に関連している可能性があります。このブラウザにおいて、どのようなブラウザプラグインや拡張が有効になっているか、明示してください。"
+
+#: main/mail.inc
+msgid "If you are technically minded, please open a \"Command Prompt\" or \"cmd\" window, and run these three commands:"
+msgstr "もしあなたが技術志向の方でしたら、\"コマンド プロンプト\" もしくは \"cmd\" ウィンドウを開き、以下の3つのコマンドを実行してください:"
+
+#: main/mail.inc
+msgid "If reporting a problem with the test, or requesting help with your results, please fill out all requested information to the best of your ability. If leaving general comments, use your best judgement on how much to report."
+msgstr "テストに問題があるとご連絡いただく場合、もしくはあなたの結果について支援をリクエストされる場合には、可能な限り必要な情報を全て入力してください. もし一般的なコメントを残す場合、あなたのレポートに対するベストな判断をしてください。"
+
+#: main/mail.inc
+msgid "Thanks,"
+msgstr "ありがとうございます、"
+
+#: main/tech.inc
+msgid "(This is bonus credit)"
+msgstr "(これはボーナス点です)"
+
+#: main/tech.inc
+msgid "Fetches an object that has just an A record in DNS. This is expected to use IPv4. IPv6-only users might still reach this, if their provider has employed a NAT64/DNS64 or proxy solution."
+msgstr "DNS において A レコードのみを持つオブジェクトを取得。これは IPv4 を利用すると予想されます。もしプロバイダが NAT64/DNS64 もしくはプロキシーソリューションを採用している場合、IPv6 のみのユーザも、これに到達できるでしょう。"
+
+#: main/tech.inc
+msgid "Fetches an object that has just an AAAA record in DNS. This is expected to use IPv6. Users not yet on the IPv6 Internet are likely to see this fail. As long as it fails quickly, it will be OK - for now."
+msgstr "DNS において AAAA レコードのみを持つオブジェクトを取得。これは IPv6 を利用すると予想されます。IPv6 インターネット上にまだいないユーザの場合には失敗となります。現時点では、すぐに失敗となる場合には大丈夫です - 今のところは。"
+
+#: main/tech.inc
+msgid "Queries for a malformed AAAA record. Some routers mishandle these as \"A\" records, and only keep the first 32 bits. We want this test to fail to connect."
+msgstr "不正な形式の AAAA レコードに対するクエリ。一部のルータはこれらを\"A\"レコードとして取り扱い、先頭の 32 ビットのみを保持します。私たちはこのテストが接続に失敗することを望んでいます。"
+
+#: main/tech.inc
+msgid "This is the most important test. This verifies your browser can connect to a site that has both IPv4 and IPv6 records published. IPv4 only hosts should connect fine (using IPv4)."
+msgstr "これが最も重要なテストです。これは、あなたのブラウザが IPv4 と IPv6 の両方のレコードが公開されているサイトに接続できることを確認します。IPv4 のみのホストは(IPv4を通じて)問題無く接続できるべきです。"
+
+#: main/tech.inc
+msgid "If this test fails or times out, you can expect major problems as publishers start offering their sites on IPv6."
+msgstr "このテストが失敗もしくはタイムアウトした場合、コンテンツ側が彼らのサイトを IPv6 対応にした場合、大きな問題に直面すると考えられます。"
+
+#: main/tech.inc
+msgid "Validates that you can connect to a dual-stack server (like the ds test); and that you can send/receive large packets on that connection. If this test times out for any reason, it indicates trouble for World IPv6 Day."
+msgstr "(ds テストのように) あなたがデュアルスタックのサーバに接続できるか検証します; そしてあなたがその接続上で大きなパケットを送受信できるかテストします。もしこのテストが何らかの理由によりタイムアウトする場合、World IPv6 Dayにおいて問題が生じることを示しています。"
+
+#: main/tech.inc
+msgid "This will try connecting with a literal IPv4 numeric address. This should work for most people, unless they are running IPv6-only. If the first test worked, but this fails, it likely confirms your provider is using NAT64/DNS64; you'll need to only try connecting using hostnames instead of numeric IP addresses."
+msgstr "これは数字のリテラル IPv4 アドレスで接続を試みます。これは、IPv6 のみを走らせている人たちを除く、ほとんどの人々において動作するはずです。もし最初のテストが動作するもののこのテストが失敗する場合、あなたのプロバイダが NAT64/DNS64 を動作させている裏付けとなるでしょう。あなたは、数字の IP アドレスではなくホスト名のみを使って接続する必要があります。"
+
+#: main/tech.inc
+msgid "This will try connecting with a literal IPv6 hexadecimal address. The primary purpose of this test is to separate out your connectivity on IPv6 from your ability to fetch DNS for it. A secondary purpose is to see if you have Teredo enabled; some systems may only use Teredo when an IPv6 address is in the URL."
+msgstr "これは十六進数のリテラル IPv6 アドレスで接続を試みます。このテストの第一の目的は、あなたの IPv6 接続性を DNS レコードを取得できるかどうかから切り分けることです。第二の目的は、あなたが Teredo を有効にしているかを判断するものです。いくつかのシステムでは、URL に IPv6 アドレスがある場合のみ Teredo を利用します。"
+
+#: main/tech.inc
+msgid "Validates that IPv6 requests with large packets work. If this test times out, but other IPv6 tests work, it suggests that there may be PMTUD issues; possibly involving IP tunnels."
+msgstr "ラージパケットでの IPv6 リクエストが動作することを検証します。他の IPv6 テストが動作するものの、このテストがタイムアウトする場合、おそらくパス MTU 探索(PMTUD) 問題を示しています。おそらく IP トンネルに関連している可能性があります。"
+
+#: main/tech.inc
+msgid "This is a test of your ISP's resolver (instead of a test of your host). If this test passes, your DNS server (often run by your ISP) is capable of reaching IPV6-only DNS authoritative servers on the Internet. This is not critical (at this time) for you to reach sites via IPv6."
+msgstr "これはあなたの ISP のリゾルバ用のテストです (あなたのホストのテストの代わりに)。もしテストをパスした場合、あなたの DNS (通常、あなたの ISP が運用している) はインターネット上の IPv6 のみの DNS 権威サーバに到達できる能力があります。この点は、(現時点では) IPv6 を通じてサイトに到達するにあたって決定的に重要ではありません。"
+
+#: main/tests.inc
+msgid "Your browser will be instructed to reach a series of URLs. The combination of successes and failures tells a story about how ready you are for when publishers start offering their web sites on IPv6."
+msgstr "あなたのブラウザは、(テスト用の) 一連の URL にアクセスするように誘導されます。成功と失敗の組み合わせに基づき、コンテンツ側が Web サイトを IPv6 対応にした際のあなたの準備状況をお伝えします。"
+
+#: main/tests.inc
+msgid "How this test works:"
+msgstr "このテストがどのように動作するか:"
+
+#: main/tests.inc
+msgid "pending"
+msgstr "保留"
+
+#: main/tech.inc
+msgid "If the summary results indicated problems, you (or your technical support) may be able to use the information above to diagnose the issues. Each of the test urls and their results is shown on the left side. To the right you'll see a description of what that URL was designed to test."
+msgstr "もしサマリーが問題を示している場合、あなた(もしくはあなたの技術サポート) は該当問題を診断するため、以上の情報を利用できます。それぞれのテスト URL とその結果は左側に表示されます。右には、その URL のテストの設計目的に対する説明が表示されます。"
+
+#: main/tech.inc
+msgid "After each test is ran. The summary page attempts to look at the results If the summary doesn't seem to make sense given the symptoms recorded above, or if you need further assistance, please feel free to contact us."
+msgstr "各テストの完了後、サマリーは以上で記録された症状をみて、つじつまがあっていない場合、サマリーページが結果を調べます。もしくはさらなる支援が必要な場合、我々にご連絡ください(英語のみ)。"
+
+#: main/tests.inc
+msgid "Test with IPv4 DNS record"
+msgstr "IPv4 DNS レコードのテスト"
+
+#: main/tests.inc
+msgid "Test with IPv6 DNS record"
+msgstr "IPv6 DNS レコードのテスト"
+
+#: main/tests.inc
+msgid "Test for buggy DNS"
+msgstr "バグあり DNS のテスト"
+
+#: main/tests.inc
+msgid "Test with Dual Stack DNS record"
+msgstr "デュアルスタック DNS レコードのテスト"
+
+#: main/tests.inc
+msgid "Test for Dual Stack DNS and large packet"
+msgstr "デュアルスタック DNS と大きなパケットのテスト"
+
+#: main/tests.inc
+msgid "Test IPv4 without DNS"
+msgstr "DNSを利用しないIPv4のテスト"
+
+#: main/tests.inc
+msgid "Test IPv6 without DNS"
+msgstr "DNSを利用しないIPv6のテスト"
+
+#: main/tests.inc
+msgid "Test IPv6 large packet"
+msgstr "IPv6 ラージパケットのテスト"
+
+#: main/tests.inc
+msgid "Test if your ISP's DNS server uses IPv6"
+msgstr "お使いのプロバイダのDNSサーバのIPv6の利用状況のテスト"
+
+#: messages.js
+msgid "You appear to be using a public 6to4 gateway; your router may be providing this to you automatically. Such public gateways have no service level agreements; you may see performance problems using such. Better would be to get a native IPv6 address from your ISP."
+msgstr "パブリック 6to4 ゲートウェイをお使いのようです ; お使いのルータがこの機能を自動的に提供している可能性があります。このようなパブリックゲートウェイには、サービスレベルアグリーメント(SLA)がないため、利用に伴い性能面などで問題に遭遇する可能性があります。お使いのISPからネイティブIPv6接続を入手する方がよいでしょう。"
+
+#: messages.js
+msgid "Danger! IPv6 sorta works - however, large packets appear to fail, giving the appearance of a broken website. If a publisher publishes to IPv6, you will believe their web site to be broken. Ask your ISP about MTU issues; possibly with your tunnel."
+msgstr "危険! IPv6 は部分的に動作します - しかしながら、大きなパケットは失敗するため、Webサイトが壊れたように表示されるでしょう。もしコンテンツ側がIPv6で公開した場合、Webサイトが壊れたようになります。お使いのISPにMTU問題に関してお問い合わせください。おそらくあなたのトンネルに問題があります。"
+
+#: messages.js
+msgid "Congratulations! You appear to have IPv6. Note: your IPv4 access is limited to connections by hostname looked up through your ISP's DNS server - not raw IP address. Your ISP probably has a device to help you reach IPv4 sites by name (NAT64+DNS64). This will work for most purposes."
+msgstr "おめでとうございます! あたなはIPv6対応のようです。注意: あなたの IPv4 アクセスはあなたの ISP の DNS サーバを通じて探索したホスト名への接続に限定されています - 生のIPアドレスではなく、おそらくあなたの ISP は、IPv4 サイトに名前で到達するのを助けるためのデバイス (NAT64+DNS64) を有しています。これはほとんどの目的で動作します。"
+
+#: messages.js
+msgid "Connections to urls with IP addresses appear to be blocked; perhaps by a web filter such as 'NoScript' or 'RequestPolicy' installed into your browser, or filtering in your proxy server. This limits some of the functionality of this test site."
+msgstr "IPアドレスを用いた URL による接続が遮断されたようです; おそらく、'NoScript' もしくは 'RequestPolicy' といった Web フィルタプログラムがブラウザにインストールされている、もしくはお使いのプロキシサーバにおいてフィルタリングされているようです。これらは、本テストサイトの機能を制限することになります。"
+
+#: messages.js
+msgid "IPv4 Connections using DNS work; but literal IP addresses in urls do not. These are rarely used on the web today."
+msgstr "DNS を利用した IPv4 接続は動作しましたが、URL 中のリテラル表記の IP アドレスは動作しませんでした。この表記方法は今日のWebで利用されることは稀です。"
+
+#: messages.js
+msgid "IPv6 Connections using DNS work; but literal IP addresses in urls do not. These are rarely used on the web today."
+msgstr "DNS を利用した IPv6 接続は動作しますが; 、URL 中のリテラル表記の IP アドレスは動作しませんでした。この表記方法は今日のWebで利用されることは稀です。"
+
+#: messages.js
+msgid "Your browser has real working IPv6 address - but is avoiding using it. We're concerned about this."
+msgstr "あなたのブラウザは動作するIPv6アドレスを持っています - しかし利用が回避されています。私たちはこの点を憂慮しています。"
+
+#: messages.js
+msgid "We have suggestions to help you fix your system."
+msgstr "あなたのシステムを修正するための提案があります。"
+
+#: messages.js
+msgid "Connections to IPv6-capable web sites hang. It appears that you may have IPv6 configured; and your computer believes that your IPv6 is working, with a route. It is however completely failing. Any web site that adds IPv6, will become unreachable to you. If you are unable to fix your IPv6 routing or connectivity, seek help. If all else fails, strongly consider disabling IP6 on host."
+msgstr "IPv6 対応Webサイトがハングアップします。あなたはIPv6対応の設定を行っているようです; そしてあなたのコンピュータには経路が有り、IPv6が動作しているように思われています。しかしながら、完全に失敗しています。あなたは IPv6 に対応した Web サイトに到達できなくなるでしょう。もし IPv6 経路もしくは接続の問題を修正できなければ、助けを求めてください。もし、それ以外が全て失敗する場合には、ホスト上での IPv6 無効化を検討することを強く推奨します。"
+
+#: messages.js
+msgid "We looked up an IPv6 address, but your DNS server (possibly your home router) mangled the response, and is treating it as (broken) IPv4."
+msgstr "私たちはIPv6アドレスを調査しましたが、あなたのDNSサーバ (おそらくお使いのホームルータ) が応答を破損し、応答を (壊れた) IPv4 として扱っています。"
+
+#: messages.js
+msgid "Test results inconclusive; they were not consistent with expectations. Please rerun the test, and if the results are the same, please fill out the contact form."
+msgstr "テスト結果は決定的ではありません; 予想と一貫性はありませんでした。テストを再度行い、もし結果が変わらないようであれば、連絡フォームにご記入ください。"
+
+#: messages.js
+msgid "A lookup for an IPv6-only name failed; yet the lookup and connect for dual-stack connected via IPv6. Something appears to be confused with the DNS lookups."
+msgstr "IPv6 のみの名前に対する探索が失敗しました; しかしながら、デュアルスタックの名前探索と接続は IPv6 接続で行われています。DNS の探索において混乱が生じているようです。"
+
+#: messages.js
+msgid "<b>Our tests show that you will may have MTU problems with IPv6; this can cause web sites to load slow (or not at all) when web sites enable IPv6.</b>"
+msgstr "<b>テスト結果によると、IPv6 で MTU 問題があるようです; このため、WebサイトがIPv6対応した際、Webサイトの読み込みが遅くなる(もしくは全く読み込めない)原因となる可能性があります。</b>"
+
+#: messages.js
+msgid "<b>Good news!</b> Your current configuration will continue to work as web sites enable IPv6."
+msgstr "<b>よいお知らせ!</b> ローンチ後も、現在お使いのブラウザ、このコンピュータ、そしてこの場所は問題無く動作し続けると思われます。"
+
+#: messages.js
+msgid "For unknown reasons, your browser appears to operate slower when given the option of connecting to both IPv4 and IPv6. Please rerun the test, and if the results are the same, please fill out the contact form."
+msgstr "不明な理由により、あなたのブラウザは IPv4 と IPv6 の両方に接続する選択肢よりも遅くなっています。再度テストを行い、もし結果が変わらないようであれば、連絡フォームにご記入ください。"
+
+#: messages.js
+msgid "<b>Our tests show that you will have a broken or misconfigured IPv6 setup, and this will cause problems as web sites enable IPv6.</b>"
+msgstr "<b>テスト結果によると、壊れた、もしくは正しくないIPv6設定になっており、WebサイトがIPv6対応を行った際に問題が生じる恐れがあります。"
+
+#: messages.js
+msgid "You are likely using a FireFox plugin that is causing IP based tests to fail. Examples: RequestPolicy. Please disable those while using this site."
+msgstr "あなたは IP ベースのテストを失敗させる原因となる FireFox プラグインをお使いのようです。例: RequestPolicy。このサイトをお使いの間、これらを無効化してください。"
+
+#: messages.js
+msgid "No IPv4 address detected"
+msgstr "IPv4 アドレスが検出されませんでした"
+
+#: messages.js
+msgid "You appear to be able to browse the IPv4 Internet only. You will not be able to reach IPv6-only sites."
+msgstr "あなたは IPv4 インターネットのみを閲覧できるようです。あなたは IPv6 のみのサイトに到達できません。"
+
+#: messages.js
+msgid "When a publisher offers both IPv4 and IPv6, your browser appears to be happy to take the IPv4 site without delay."
+msgstr "もしコンテンツ側が IPv4 および IPv6 の両方に対応したら、あなたのブラウザは IPv4 サイトを遅延なく表示できることが見込まれます。"
+
+#: messages.js
+msgid "When a publisher offers both IPv4 and IPv6, your browser appears to slow down signficantly compared to an IPv4-only site. You may even believe the destination web site to be broken. This may be due to your IPv6 configuration."
+msgstr "もしコンテンツ側が IPv4 および IPv6 の両方に対応したら、あなたのブラウザの表示は IPv4 のみのサイトと比較して、きわめて遅くなるでしょう。あなたが相手先 Web サイトが壊れているとさえ思うかもしれません。これはあなたの IPv6 設定に起因すると思われます。"
+
+#: messages.js
+msgid "When a publisher offers both IPv4 and IPv6, your browser will time out trying to connect. You may believe the site is down. This may be due to your IPv6 configuration. Consider disabling IPv6, or seeking help."
+msgstr "もしコンテンツ側が IPv4 および IPv6 の両方に対応したら、　あなたのブラウザは接続試行にタイムアウトします。あなたはサイトがダウンしていると考えるでしょう。これはあなたのIPv6 設定に起因すると考えられるため、IPv6 の無効化を検討するか、支援を求めてください。"
+
+#: messages.js
+msgid "Connections to IPv4 are slow, but functional. Perhaps you or your ISP put you behind an IP sharing device (NAT) that is currently slow."
+msgstr "IPv4 への接続は遅いものの、機能しています。おそらく、あなた、もしくはあなたの ISP が、現在遅くなっている IP 共有デバイス (NAT) の向こう側にいるためです。"
+
+#: messages.js
+msgid "No IPv6 address detected"
+msgstr "IPv6 アドレスが検出されませんでした"
+
+#: messages.js
+msgid "IPv6 connections work, but connections using DNS names do not use IPv6. For some reason, your browser or your OS is not doing IPv6 DNS 'AAAA' lookups."
+msgstr "IPv6接続は動作しますが、DNSを利用する接続ではIPv6が利用されていません。何らかの理由により、あなたのブラウザまたはOSが'AAAA' IPv6 DNS問い合わせを行っていません。"
+
+#: messages.js
+msgid "You appear to be able to browse the IPv6 Internet only. You have no access to IPv4. That's pretty bold!"
+msgstr "あなたは IPv6 インターネットのみをブラウズできるように見えます。あなたの IPv4 へのアクセスはありません。まじで漢ですね!"
+
+#: messages.js
+msgid "Connections to IPv6 are slow, but functional. Perhaps you are using a public IPv6 tunnel that is either slow, or not located near you."
+msgstr "IPv6 への接続は遅いものの、機能しています。おそらくは、あなたは遅い、もしくはあなたから遠いところにあるパブリック IPv6 トンネルを利用していると思われます。"
+
+#: messages.js
+msgid "Connections to IPv6-only sites are timing out. Any web site that is IPv6 only, will appear to be down to you."
+msgstr "IPv6 のみのサイトに対する接続がタイムアウトしました。IPv6 のみの Web サイトすべてが、あなたにはダウンしているように見えるでしょう。"
+
+#: messages.js
+msgid "Your IP address(es) could not be detected due to inteference from browser add-ons."
+msgstr "ブラウザのアドオンとの干渉により、あなたの IP アドレスを検出できませんでした。"
+
+#: messages.js
+msgid "The Opera web browser seems to be break on this site frequently. <b>If you have trouble, try another browser</b>."
+msgstr "<b>問題がある場合には、他のブラウザをお試しください</b>。"
+
+#: messages.js
+msgid "<b>Disable turbo mode on Opera, and try again.</b> Turbo mode is not compatible with the needs of this site."
+msgstr "<b>Operaのターボモードを無効にして、再度お試しください。</b>このサイトの必要条件とターボモードは互換性がありません。"
+
+#: messages.js
+msgid "We have detected that you are using a proxy. This means we are testing your proxy server, not your computer. Proxy details (as reported by your proxy 'Via' header): %details"
+msgstr "私たちはあなたがプロキシをお使いであることを検知しました。これが意味するところは、私たちはあなたのコンピュータではなく、あなたのプロキシサーバをテストしているということです。プロキシの詳細 (通常はあなたのプロキシの 'Via' ヘッダを通じてレポートされる): %details"
+
+#: messages.js
+msgid "We have detected that you are using a proxy. This means we are testing your proxy server, not your computer."
+msgstr "私たちはあなたがプロキシをお使いであることを検知しました。これが意味するところは、私たちはあなたのコンピュータではなく、あなたのプロキシサーバをテストしているということです。"
+
+#: messages.js
+msgid "Since you have IPv6, we are including a tab that shows how well you can reach other IPv6 sites. %sites"
+msgstr "あなたはIPv6接続に対応しているため、他のIPv6サイトへの到達性の状況を示すタブを表示します。 %sites"
+
+#: messages.js
+msgid "Your IPv6 connection appears to be using Teredo, a type of IPv4/IPv6 translation using a public gateway. The quality for this <i>may</i> suffer, as you are using a public gateway to reach IPv6 based sites."
+msgstr "あなたの IPv6 接続は、パブリックなゲートウェイを通じて IPv4/IPv6 変換を行う Teredo をお使いのようです。パブリックゲートウェイを通じて、IPv6 のサイトに接続する際、この品質の<i>影響を受ける</i>可能性があります。"
+
+#: messages.js
+msgid "Your IPv6 connection appears to be using Teredo, a type of IPv4/IPv6 gateway; currently it connects only to direct IP's. Your browser will not be able to go to IPv6 sites by name. This means the current configuration is not useful for browsing IPv6 web sites."
+msgstr "あなたの IPv6 接続は、IPv4/IPv6 ゲートウェイの一種である Teredo をお使いのようです; IPアドレスの直接指定の場合のみに接続します; あなたのブラウザは名前でIPv6サイトに接続できません。これは、現在の設定は IPv6 の Web サイトの閲覧には有用ではないことを示しています。"
+
+#: messages.js
+msgid "Your IPv6 connection appears to be using Teredo, a type of IPv4/IPv6 gateway. Your particular teredo configuration is only used as a protocol of last resort. When visiting a site with both IPv4 and IPv6, IPv4 will be preferred."
+msgstr "あなたの IPv6 接続は、IPv4/IPv6 ゲートウェイの一種である Teredo をお使いのようです。あなた個別の teredo 設定は最終手段のプロトコルとしてのみ利用可能です。IPv4 と IPv6 の両方に対応したサイトを訪問する際、IPv4 が優先されます。"
+
+#: messages.js
+msgid "Your DNS server (possibly run by your ISP) appears to have no access to the IPv6 Internet, or is not configured to use it. This may in the future restrict your ability to reach IPv6-only sites."
+msgstr "あなたの DNS サーバ (おそらくお使いのプロバイダが運用) は、IPv6 インターネットアクセスがない、もしくは利用しないように設定されているようです。このため、将来的に、IPv6 のみに対応したサイトへの到達できない恐れがあります。"
+
+#: messages.js
+msgid "Your DNS server (possibly run by your ISP) appears to have IPv6 Internet access."
+msgstr "あなたの DNS サーバ (おそらくお使いのプロバイダが運用) は、IPv6 インターネットアクセスがあるように思われます。"
+
+#: messages.js
+msgid "Your browser is blocking the test urls. We will try alternate methods, but they may fail to show your IP address; and may affect the quality of the advice given."
+msgstr "あなたのブラウザはテスト URL を遮断しています。我々は代替手段を指向しますが、この結果あなたの IP アドレスの表示に失敗するかもしれません; また、表示されるアドバイスの質に影響するかもしれません。"
+
+#: messages.js
+msgid "We are unable to test your system; it appears that a firewall or browser filter is preventing the test from running. Critical tests are failing. Try disabling any browser plugins, extensions, or add-ons (such as ad blockers); and reloading this page. If that still fails, you can leave a comment requesting help."
+msgstr "我々はあなたのシステムをテストできませんでした; ファイアウォール、もしくはブラウザフィルターがテストの動作を阻害しているようです。決定的に重要なテストが失敗しました。いかなるブラウザプラグイン、拡張、もしくはアドオン(例えば広告ブロックなど)を無効にして、このページを再読込してください。それでも失敗するようであれば、支援を求める書き込みをコメントに残してください(英語のみ)。"
+
+#: messages.js
+msgid "We are unable to test your system; it appears that a firewall or browser filter is preventing the test from running. The dual-stack tests are failing. Try disabling any browser plugins, extensions, or add-ons (such as ad blockers); and reloading this page. If that still fails, you can leave a comment requesting help."
+msgstr "我々はあなたのシステムをテストできませんでした; ファイアウォール、もしくはブラウザフィルターがテストの動作を阻害しているようです。決定的に重要なテストが失敗しました。いかなるブラウザプラグイン、拡張、もしくはアドオン(例えば広告ブロックなど)を無効にして、このページを再読込してください。それでも失敗するようであれば、支援を求める書き込みをコメントに残してください(英語のみ)。"
+
+#: messages.js
+msgid "The most likely cause is NoScript or AdBlock+. NoScript can be told to permit all scripts on this page (you may need to do this more than once). At minimum, permit the urls listed below."
+msgstr "よくある原因は NoScript もしくは AdBlock+ です。NoScript は、このページ上の全てのスクリプトを許可するように設定できます (一度以上、これをする必要があるかもしれません)。最低でも、以上の URL を許可してください。"
+
+#: messages.js
+msgid "faq: Avoiding IPv6?"
+msgstr "faq: IPv6回避とは?"
+
+#: messages.js
+msgid "faq: Broken!"
+msgstr "faq: 壊れた(Broken)!"
+
+#: messages.js
+msgid "faq: Buggy DNS"
+msgstr "faq: バグありDNS"
+
+#: messages.js
+msgid "faq: Firefox Add-Ons"
+msgstr "faq: Firefoxアドオン"
+
+#: messages.js
+msgid "faq: No IPv4"
+msgstr "faq: IPv4 なし"
+
+#: messages.js
+msgid "faq: No IPv6"
+msgstr "faq: IPv6 なし"
+
+#: messages.js
+msgid "faq: Broken DNS Lookups"
+msgstr "faq: 壊れたDNS解決"
+
+#: messages.js
+msgid "faq: Teredo Minimum"
+msgstr "faq: Teredoミニマム"
+
+#: messages.js
+msgid "faq: v6ns Bad"
+msgstr "faq: v6ns 不良"
+
+#: messages.js
+msgid "faq: Browser Plugins"
+msgstr "faq: ブラウザプラグイン"
+
+#: symptoms.js
+msgid "Your browser blocked"
+msgstr "ブラウザが遮断"
+
+
+#: faq.html
+msgid "test-ipv6.com FAQ"
+
+#: faq.html
+msgid "Q: How does this test work?"
+msgstr "Q: このテストはどのように動作しますか?"
+
+
+#: faq.html
+msgid "The test is entirely client-side javascript. To determine reachability, a series of ajax requests are made from the web server, using various DNS names that force the use of IPv6 only, or dual stack, or other such scenarios. The pass/fail of such fetches, as well as how long they take, are taken into account."
+msgstr "テストはもっぱらクライアントサイドのJavaScriptです。接続性を診断するために、IPv6 のみを強制的に利用する、もしくはデュアルスタック、あるいはその他のシナリオといったさまざまな DNS の名前を用いて Web サーバから一連の AJAX リクエストが生成されます。これらの取得の成否、またどの程度の時間が掛かったかを考慮します。"
+
+#: faq.html
+msgid "Q: Why is this web site reachable via IPv4 only?"
+msgstr "Q: なぜこのサイトは IPv4 からのみ接続可能なのでしょうか?"
+
+#: faq.html
+msgid "You're right, there are no AAAA records, intentionally. A percentage of users are unable to browse sites that are dual-stack. If the users can't connect, then they can't be told they have a problem. This is a big problem facing content providers today; of which, I work at one for my &#36;dayjob. As such, the main test page requires IPv4 (either native or translated)."
+msgstr "仰る通り、このサイトには意図的に AAAA レコードがありません。一定の割合のユーザはデュアルスタックのサイトを閲覧できません。もしユーザが接続できない場合、彼らは問題があることを申告できません。これはコンテンツプロバイダが今日直面している大きな問題です; そのうち、私は $dayjob のうちのひとつに勤務しております。そのようなものとして、メインテストページは(ネイティブにせよトランスレータ経由にせよ)IPv4を必要とします。"
+
+#: faq.html
+msgid "At some point, when the percentage of \"broken\" users has gone significantly down, I'll consider making test-ipv6.com dual-stack. At least check, May 2013, we still see 0.5% broken visiting test-ipv6.com. And we still want them to understand their situation."
+msgstr "いつか、壊れた \"broken\" ユーザの割合がきわめて低い状況になったら、test-ipv6.com をデュアルスタック化することを検討します。"
+
+#: faq.html
+msgid "Q: How do I test my IPv6-only host"
+msgstr "Q: どのように私の IPv6 のみのホストをテストできますか。"
+
+#: faq.html
+msgid "If you ask that question, chances are you don't need this site. However, if you really want to, visit <a href= \"http://ipv6.test-ipv6.com\">http://ipv6.test-ipv6.com</a> with your IPv6-only host."
+msgstr "その質問をするぐらいなら、おそらくこのサイトはいらないでしょう。でも、本当にやりたいなら、IPv6 ホストから<a href= \"http://aaaa.test-ipv6.com\">http://aaaa.test-ipv6.com</a>にアクセスしてください。"
+
+
+#: faq.html
+msgid "Q: What do you mean by broken?"
+msgstr "Q: 壊れている(broken)の意味するところは？"
+
+#: faq.html
+msgid "A percentage of users today have IPv6 enabled, but are either using a public tunnel that is currently giving poor performance; or otherwise have a route that is installed but broken or suboptimal. However, because they have a route at all, in many cases the address selection algorithm of RFC3484 will pick using it, and trying to use this broken route. It can take towards 75+ seconds before the browser gives up!"
+msgstr "今日のユーザの一部は、IPv6 が有効になっているものの、現時点で性能の低いパブリックトンネルを利用している、もしくは経路が存在するものの、壊れている、もしくは最適ではないといった場合があります。しかし、とにかく経路が存在することで、RFC3484のアドレス選択アルゴリズムによる選択対象となり、この壊れた経路を試行する要因となります。この結果、ブラウザが中断するまでに75秒以上を要する場合があります。(訳注: 日本では「フレッツ光プレミアム」や「フレッツ光NEXT」など、IPv6インターネットとは接続されていないIPv6ネットワークを持つサービスがあり、これらの経路が原因となり問題を引きおこす可能性があります。)"
+
+
+#: faq.html
+msgid "From the perspective of a user with these conditions, a web site offering both A and AAAA DNS records (ie, \"dual stack\") will appear to time out; and the user will move on to another site that offers a similar product. This is the quandary content providers have."
+msgstr "これらの条件のあるユーザの視点からは、Web サイトが A レコードと AAAA レコードの両方を持つ Web サイト (例: "デュアルスタック") はタイムアウトするように見えます. そしてユーザは似たようなプロダクトを持つ他のサイトに移動するでしょう。これはコンテンツプロバイダが持つ苦難です。"
+
+#: faq.html
+msgid "If we detect that you will have problems reaching dual-stack web sites, we recommend you see the <a href=\"broken.html\">Broken User FAQ</a>. It provides several steps to try and identify your root cause for being broken; and barring that, what you can do to disable IPv6 until your ISP offers native IPv6 connectivity."
+
+#: faq.html
+msgid "Q: Why did your stats say you already have IPv6-only users?"
+msgstr "Q: あなたの統計によると、あなたは既にIPv6のみのユーザがいるということですが。"
+
+#: faq.html
+msgid "They went to <a href=\"http://ipv6.test-ipv6.com\">http://ipv6.test-ipv6.com</a> ."
+msgstr "彼らは <a href="http://ipv6.test-ipv6.com">http://ipv6.test-ipv6.com</a> を利用しています。"
+
+
+#: faq.html
+msgid "Q: How valid are the stats?"
+msgstr "Q: (このサイトの)統計の正確性について教えてください"
+
+#: faq.html
+msgid "They do not represent the average web consumer. Visitors to this site are self-selecting. The intent of this site is to not provide stats, but instead to inform the user the level of readiness for the world to move to IPv6 (with or without'em!). As such, stats found here will be completely different from an average content provider."
+msgstr "このサイトの訪問者は、平均的なWebコンシューマーを代表していません。このサイトの訪問者は(訳注：アクセス解析用のタグなどで他のサイトに埋め込まれているわけではなく)、自分の選択で訪問しています。このサイトの意図としては、統計データを提供することではなく、ユーザに世界が IPv6 (その有無を問わず) に移行する準備状況のレベルをお伝えすることです。そのようなものとして、ここの統計は平均的なコンテンツプロバイダのそれと大きく異なります。"
+
+#: faq.html
+msgid "Q: How does your test differ, from what the content providers are doing?"
+msgstr "Q: コンテンツプロバイダが実施しているものと、このテストはどう違うのでしょうか？"
+
+#: faq.html
+msgid "Content providers are gathering metrics of broken vs non-broken users, in an aggregate form. They are not at this time actually giving the user feedback as to the user's current state. Those metrics will principally drive the business decision of when to start publishing sites over IPv6, versus remaining IPv4 only. IPv4 only for some content sites really is an option; it has a handful of downsides, but the expectation is that everyone will always be able to reach IPv4, in some fashion."
+msgstr "コンテンツプロバイダは、壊れているユーザと壊れていないユーザの計測指標を、総計として持っています。彼らは、現時点でユーザの現在の状況に基づくフィードバックを行っていません。これらの計測指標は、サイトをいつIPv6対応させるか、それともIPv6のみにとどめておくかの経営上の意思決定の判断材料とすることに重きが置かれています。いくつかのサイトを IPv4 のみに留め置くオプション; いくつかの少数の良くない点があります。しかし、皆が何らかの方法で常にIPv4に到達できると予想しております。"
+
+
+#: faq.html
+msgid "This site, on the other hand, is intended to help the user understand their current state, and what that state possibly means to them."
+msgstr "その一方で、このサイトはユーザがユーザ自身の現状と、その現状が意味するものを把握することを支援できることを意図しています。"
+
+#: faq.html
+msgid "Q: Your site shows the wrong IP address; how can I bypass my proxy server to find my public address?"
+msgstr "Q: あなたのサイトは、誤ったIPアドレスを表示しています; 私のパブリックアドレスを見つけるため、どのようにプロキシサーバを迂回できますか？"
+
+
+#: faq.html
+msgid "For ipv4/ipv6/dual stack, use one of these:"
+msgstr "IPv4/IPv6/デュアルスタックについては, これらのうちの一つをご利用ください:"
+
+#: faq.html
+msgid "for ipv4"
+msgstr "&nbsp;"
+
+#: faq.html
+msgid "for ipv6"
+msgstr "&nbsp;"
+
+#: faq.html
+msgid "for either"
+msgstr "&nbsp;"
+
+#: faq.html
+msgid "Note you _may_ need to specify other options to your telnet command, depending on your operating system. On my mac, for example, I need to use \"<code>telnet -6</code>\"."
+msgstr "あなたのオペレーティングシステムによっては、あなたのtelnetコマンドの他にオプションを指定する必要がある場合もありますのでご注意ください。例として、私の Mac では、\"<code>telnet -6</code>\"を利用する必要があります。"
+
+
+#: faq.html
+msgid "Q: Do you actually read the feedback?"
+msgstr "Q: フィードバック、本当に読んでますか？"
+
+
+#: faq.html
+msgid "Yes, I do. Thank you! Note that I can only follow up with you if you do leave contact information. While I am still grateful for feedback without contact information, I will be unable to reply with any answers if you asked for them."
+msgstr "はい、読んでます。ありがとうございます。ただ、連絡先情報をご記入いただいた場合のみ対応しております。連絡先情報なしでのフィードバックについては、お問い合わせいただいてもお返事はできませんが、感謝しております。"
+
+#: faq.html
+msgid "Q: How else can I contact you?"
+msgstr "どのように私（英語版の作者）にコンタクトできますか？"
+
+#: faq.html
+msgid "I would prefer you use the form, as it gives details of your connectivity, and bypasses any mail filters."
+msgstr "あなたの接続性の詳細を含めるため、またメールの遅延を迂回（こちら側のグレイリスティングを含む）するため、こちらのフォームをご利用いただければ幸いです。"
+
+
+#: faq.html
+msgid "That said, you are welcome to directly email <a href=\"mailto:jfesler@test-ipv6.com\">jfesler@test-ipv6.com</a>."
+msgstr "とはいうものの、メールや jabber で直接連絡したい場合には<a href="mailto:jfesler@test-ipv6.com">jfesler@test-ipv6.com</a>までお願いします（英語のみ）。FreeNode 上では、単に "jfesler" です。<br />（訳注：日本語版サイトと日本語訳を担当している白畑に連絡を希望される場合には、<a href="mailto:shin/atmark/tokyo6to4.net">shin/atmark/tokyo6to4.net(/atmark/を@に置き換えてください</a>でご連絡ください。"
+
+
+#: faq.html
+msgid "Q: Is this open source?"
+msgstr "Q: これはオープンソースですか？"
+
+
+#: faq.html
+msgid "Yes. See the <a href=\"source.html\">source page</a> for details."
+msgstr "はい。詳細については<a href=\"source.html\">ソースページ</a>をご覧ください。"
+
+
+#: faq_no_ipv6.html
+msgid "You appear to have no IPv6 at this time.."
+msgstr "あなたは現時点でIPv6がないようです..."
+
+#: faq_no_ipv6.html
+msgid "You appear to have no IPv6 address."
+msgstr "IPv6 アドレスがないようです."
+
+
+
+#: js_required.inc
+msgid "JavaScript Required"
+msgstr "JavaScript が必要です"
+
+#: js_required.inc
+msgid "This site requires JavaScript, as well as the ability to pull in cross-site scripts, in order to perform the testing."
+msgstr "このサイトを利用するには、テストを実施するため、クロスサイトスクリプトの読み込みも含めてJavaScriptが必要です"
+
+
+#: js_required.inc
+msgid "If this message does not go away, it means that JavaScript has been disabled, either by a plugin or extension in your browser, or by explicit browser setting."
+msgstr "もしこのメッセージが消えない場合、JavaScriptが無効になっている、もしくはブラウザのプラグインや拡張機能により無効になっている、あるいはブラウザの明示的な設定が原因の可能性があります"
+
+#: js_required.inc
+msgid "Do you use NoScript?"
+msgstr "NoScriptをお使いですか?"
+
+#: js_required.inc
+msgid "If you use this Firefox add-on, you'll need to \"Temporarily allow all this page\". You will need to do this <b>twice</b> for everything to work. Alternately, disable NoScript entirely until you are done with this site."
+msgstr "もしこのFirefoxアドオンをお使いの場合、 \"Temporarily allow all this page\"を実行する必要があります。 あなたは全て動作するため、これを<b>2度</b>行う必要があります。代替策として、このサイトの診断が完了 するまで、NoScriptを無効にする方法もあります"
+
+
+#: js_required.inc
+msgid "You can opt instead to view the <a href=\"simple_test.html\">simple test</a>, which will give you a quick pass/fail for IPv4, IPv4+IPv6, and IPv6. It will however offer little diagnostic information."
+msgstr "代わりに、IPv4, IPv4+IPv6, そしてIPv6の成功/失敗が簡単にわかる <a href=\"simple_test.html\">シンプル版テスト</a>を 使う方法もあります。ただし、これは少ない診断情報のみを提供します"
+
+
+
+#: mirrors.html
+msgid "test-ipv6.com mirrors"
+msgstr "test-ipv6.com ミラーサイト"
+
+#: mirrors.html
+msgid "These are the known publicly accessible mirrors for test-ipv6.com."
+msgstr "これらは、test-ipv6.com の公開ミラーです。"
+
+#: mirrors.html
+msgid "Thank you to all of these organizations, who have put in significant effort to provide this mirror sites. If you have problems with the site you are on now, try another mirror site; perhaps one closer to you."
+msgstr "このミラーサイトを提供するための努力された、これらの組織の方々に 感謝します。もし、あなたが現在お使いのサイトで問題がある場合、より 近いと考えられるサイトなど、他のミラーサイトもお試しください"
+
+#: mirrors.html
+msgid "Hints Columns are sortable (click the first row); <a href=\"#\" onclick=\"GIGO.test_sites(1); return false;\">click here</a> to re-check reachability from where you are to those mirrors."
+msgstr "ヒント 列はソートが可能です(1行目をクリック); <a href=\"#\" onclick=\"GIGO.test_sites(1); return false;\">ここをクリック</a> すると、あなたからこれらのミラーへの到達性を改めてチェックします。"
+
+
+#: mirrors.html
+msgid "(generated by javascript)"
+
+#: mirrors.html
+msgid "Interested in running a mirror?"
+msgstr "ミラーサイトの運営にご興味がありますか?"
+
+#: mirrors.html
+msgid "Mirrors are welcomed and appreciated, whether public or private. Please see <a href=\"http://code.google.com/p/falling-sky/wiki/MirrorOpportunities\">the wiki</a> for details."
+msgstr "公開・非公開を問わず、ミラーを歓迎します。 詳細については <a href=\"http://code.google.com/p/falling-sky/wiki/MirrorOpportunities\">wiki</a> をご参照ください。"
+
+
+#: mission.html
+msgid "test-ipv6.com - Our mission"
+msgstr "test-ipv6.com - 私たちのミッション"
+
+#: mission.html
+msgid "Our mission is thus:"
+msgstr "私たちのミッションのため、"
+
+#: mission.html
+msgid "Help people identify if they will have problems when publishers offer their web sites on IPv6;"
+msgstr "コンテンツ側がサイトをIPv6対応した際に、問題がある人々の切り分けを支援する"
+
+#: mission.html
+msgid "Help people fix their system configuration so that they are no longer affected."
+msgstr "人々が問題の影響を受けないよう、システムの設定を修正できるよう支援する"
+
+#: mission.html
+msgid "To do so in a brand neutral, ad-free way."
+msgstr "それをブランドに中立で、広告なしで行う"
+
+#: mission.html
+msgid "Why do we do this?"
+msgstr "なぜこういったことをしているのですか？"
+
+#: mission.html
+msgid "Because of 1 out of every 4000 users are \"broken\" based on industry measurements. This has delayed the web sites from publishing to IPv6."
+msgstr "なぜかといいますと、主要なコンテンツプロバイダなどによる計測結果に よりますと、4000ユーザあたり1ユーザが、「壊れている(broken)」ためです。 主要な Web サイトは、この「壊れている」割合が減らない限り、IPv6 対応を したがりません。"
+
+#: mission.html
+msgid "So, what is meant by \"broken\"?"
+msgstr "「壊れている(broken)」の意味するところは？"
+
+#: mission.html
+msgid "When you go to your favorite web site in a browser, and it hangs for several seconds or even minutes. If the publisher publishes to IPv6, and your computer has a *broken* IPv6 route (as compared to having no route), then your computer will attempt to use that broken route first, before falling back to the IPv4 Internet."
+msgstr "あなたがブラウザでお気に入りのWebサイトに行った際、数秒から 1分近くハングします。もしコンテンツ側がIPv6対応した際、あなたの コンピュータに「壊れた」IPv6経路(経路がない場合と比較して)が ある場合、あなたのコンピュータは最初に壊れた経路を試し、IPv4 インターネットにフォールバックします。"
+
+#: mission.html
+msgid "What causes these timeouts?"
+msgstr "これらのタイムアウトの原因は？"
+
+#: mission.html
+msgid "Newer operating systems have IPv6 enabled by default. Older ones, may have IPv6 enabled, as a result of user action (or specific applications). Enabling IPv6 does not automatically make you vulnerable."
+msgstr "新しいオペレーティングシステムでは、デフォルトの設定でIPv6が 有効になっています。一方古いものでは、IPv6が有効になっている 場合もありますが、設定変更(あるいは特定のアプリケーション)に 起因する可能性があります。IPv6を有効化することが自動的に あなたを問題の影響を受けうる状態にするわけではありません。"
+
+#: mission.html
+msgid "The problem lies when your system is convinced to try and use IPv6, when it is not working adequately. This may be because you're using a public service for your IPv6 gateway. Or, someone on your network, was advertising (to the network) IPv6 through Internet connection sharing; and they left. Last, your router may have IPv6 automatically configured to use public unmanaged gateways; and is telling your computer to use it."
+msgstr "この問題は、あなたのシステムがIPv6を試したり、利用するよう 確信しているものの、正常に機能しない場合に存在します。 これはあなたのIPv6ゲートウェイとしてパブリックサービスを 利用している、またはあなたのネットワーク上の何者かが (ネットワークに対して)インターネット接続の共有を広報をしている; などして残されています。最後に、あなたのルータが自動的に非管理 パブリックゲートウェイを利用するよう設定されており、あなたの コンピュータがそれを利用するよう設定されています"
+
+
+#: mission.html
+msgid "The simplest, yet near-sighted, solution, would be just to disable IPv6. However, over the next couple of years, this will start to cause you more troubles than not. It would be best to instead find the root of your actual problem, and fix that instead."
+msgstr "もっともシンプルで、さらに近視眼的な解決策は、単にIPv6を 無効化することです。しかし、今後数年後には、この方法はそれを しない場合よりも、問題を引き起こしはじめるでしょう。あなたの 実際の問題の根本を見つけ、それを解決するのがベストです。"
+
+#: mission.html
+msgid "The <a href=\"broken.html\">Broken User FAQ</a> has several suggestions for broken users to follow, to remediate their situation."
+
+#: mission.html
+msgid "How you can help"
+msgstr "どのようにサポートできますか。"
+
+
+
+
+#: simple_test.html
+msgid "This image based test is provided for those with browsers or browser plugins incompatible with the <a href=\"/\">main test</a>. This page provides only a subset of features, but should be enough for a simple pass/fail."
+msgstr "この画像ベースのテストは <a href="/">メインサイト</a>と互換性のない ブラウザやブラウザプラグインのために提供されています。このページは 一部機能のみを提供していますが、単純な成功/失敗を判断するには十分です"
+
+
+#: stats.html
+msgid "<span lookup=site.name>site</span> statistics"
+msgstr "<span lookup=site.name>site</span> 統計"
+
+#: stats.html
+msgid "Graphs are updated daily."
+msgstr "グラフは毎時ごとに更新されます。"
+
+
+#: stats.html
+msgid "60 days view"
+msgstr "2ヶ月表示"
+
+#: stats.html
+msgid "600 days view"
+msgstr "20ヶ月表示"
+
+#: stats.html
+msgid "Quick notes:"
+msgstr "簡単な注釈:"
+
+#: stats.html
+msgid "Browser Filter means that both the \"A\" and \"AAAA\" test failed. Browser (plugin/filter) shenanigans, likely with add-ons like ad blockers."
+msgstr "ブラウザフィルタは、\"A\"および\"AAAA\"のテストの両方が失敗したことを意味します。 ブラウザ(プラグイン/フィルタ)の問題は、広告ブロッカーのようなアドオンの問題であると 考えられます。"
+
+
+#: stats.html
+msgid "Brokeness goes down, when volume goes up. This is due to having a wider sample of average people (versus people explicitly testing a new IPv6 setup)."
+msgstr "ボリュームが増えた場合、壊れている割合は低下します。これは、私たちが、 壊れていると考えている人たち(あるいは新しく設定したトンネルをテストしている)ではなく、 サンプルとなる閲覧者を多数持っていることを意味しています。"
+
+
+#: stats.html
+msgid "These graphs show the last 60 days of activity at <span lookup=site.name>site</span>"
+msgstr "これらのグラフは、過去60日間の<span lookup=site.name>site</span>上の活動を示しています。"
+
+#: stats.html
+msgid "Graph: shows result summaries, stacked. Total height shows number of users who took the test on a given day."
+msgstr "グラフ: 結果のサマリを積み重ね表示しています。 高さの合計は、対象日にテストを受けたユーザ数を示しています。"
+
+#: stats.html
+msgid "Similiar graph, except this time showing percentages."
+msgstr "同様のグラフですが、今度は割合を表示しています。"
+
+#: stats.html
+msgid "The most interesting graph is the percentage of \"broken\" users. Our definition of a \"broken\" user is that the browser stalls or times out, while attempting to visit a web site published on both IPv4 and IPv6."
+msgstr "最も興味深いグラフは、壊れた("broken")ユーザの割合です。 私たちの壊れた("broken")ユーザの定義は、IPv4とIPv6の両方で公開されたWebサイトを訪問する際、 ブラウザが停止したり、タイムアウトするユーザです。"
+
+#: stats.html
+msgid "Line graph, not stacked, of results over time."
+
+#: stats.html
+msgid "These graphs show the last 600 days of activity at <span lookup=site.name>site</span>"
+msgstr "これらのグラフは、昨年の<span lookup=site.name>site</span>上の活動を示しています。"
+
+

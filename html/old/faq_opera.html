@@ -1,0 +1,51 @@
+[% PROCESS "header.inc"  %]
+[% PROCESS "list-nav.inc" page = "Opera" %]
+
+<div id="content">
+  
+<h1>About Opera</h1>
+
+<p>Our full test is not reliable for Opera users.  We provide an alternative below; otherwise please use another browser.
+</p>
+
+<h2>Alternative test for Opera users..</h2>
+
+<p>This image based test is provided as a workaround.
+It will give you a quick pass/fail test, to tell
+you if you should be worried for World IPv6 Day.
+</p>
+
+[% PROCESS "faq/simple_test.inc" %]
+
+<h2>If you have problems..</h2>
+
+<p>
+    If the second image (dual stack) fails to load for you, it can mean one of several things.  Make sure your version of Opera is <b>11.10</b> or newer.  If you are already using the latest version, you can visit our <a href="broken.html">"broken users"</a> FAQ, which has a checklist of things to try.
+</p>
+
+<h2>If you want to run the full test</h2>
+
+<p>
+      If you <b>really</b> want to try the newer test with Opera,
+<a href="index.html?opera=1">click here</a>.   Unfortunately, it is expected to fail.
+</p>
+
+<hr/>
+
+<h3>Technical details running the real test with Opera</h3>
+
+<p>jQuery and dynamic &lt;script&gt;  statements
+(jQuery.json).  In this case, the error handler is not always called.
+If the jQuery.jsonp query fails, Opera instead shows this on the debug console:
+<code>"Uncaught exception: TypeError: Cannot convert 'jQuery('#_jqjsp1')[0]' to
+object; Error thrown at line 1, column 0 in ...".</code>  This particular
+bug is spurious - it does not always happen.  But I can't seem to make it
+stop, either.</p>
+
+
+
+</div>
+
+      
+    
+[% PROCESS "footer.inc" %]

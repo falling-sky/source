@@ -1,0 +1,67 @@
+[% PROCESS "header.inc"  %]
+[% PROCESS "list-nav.inc" page = "v6ns bad" %]
+
+<div id="content">
+  
+<h1>A propos du test "v6ns"</h1>
+
+<p><i>Cette Foire Aux Questions (FAQ) a pour but d'expliquer ce que signifie l'&eacute;chec du test "V6ns" et comment
+y rem&eacute;dier.</i></p>
+
+<p>Ce test v&eacute;rifie si votre resolver DNS (en g&eacute;n&eacute;ral g&eacute;r&eacute; par 
+votre Fournisseur d'Acc&egrave;s Internet (FAI) ou le service informatique de votre
+soci&eacute;t&eacute;) est capable d'utiliser IPv6 pour effectuer des recherches DNS.
+Si vous avez explicitement configur&eacute; un serveur DNS diff&eacute;rent, par exemple
+OpenDNS ou les serveurs DNS publiques de Google, nous testons ces services.</p>
+
+<p><b>Si ce test &eacute;choue:</b>  
+cela signifie que votre resolver DNS a besoin d'IPv4 pour contacter les serveurs
+DNS autoritaires. Dans un future proche, tous les sites web resteront de toutes
+fa&ccedil;ons disponibles par ce moyen, donc, <b>il n'y a pas de probl&egrave;mes
+imm&eacute;diats.</b></p>
+
+<p><b>Si ce test r&eacute;ussi:</b> cela veut dire que votre resolver DNS
+est parfaitement capable de contacter des serveurs DNS via IPv6. Cela
+signifie que le gestionnaire de votre resolver a d&eacute;ploy&eacute; IPv6
+dans son r&eacute;seau. S'il ne vous a pas encore propos&eacute; IPv6,
+cela peut &ecirc;tre un signe qu'ils y travaillent.</p>
+
+<h2>Utilisez-vous OpenDNS?</h2>
+
+<p>OpenDNS propose maintenant des resolvers pr&eacute;vus pour IPv6, ceux-ci
+sont capables de faire des recherches DNS via IPv6. Donc, le test "v6ns"
+devrait r&eacute;ssir. Voir la
+<a target=_blank href="http://www.opendns.com/ipv6/">page d'information OpenDNS
+IPv6</a>.</p>
+
+<h2>Exploitez-vous vos propres r&eacute;solvers DNS?</h2>
+
+<p> Si vous g&eacute;rez vos propres resolvers DNS &agrave; la maison ou dans
+votre organisation, activer IPv6 sur vos serveurs DNS est facile.</p>
+
+<ul>
+<li>ISC BIND: V&eacute;rifiez qu'IPv6 est bien s&eacute;lectionn&eacute; quand vous
+ex&eacute;cutez
+<code>./configure</code>.  Il est activ&eacute; par d&eacute;fault. Si vous avez ajout&eacute;
+IPv6 r&eacute;cemment, red&eacute;marrer votre processus named comme d'habitude.</li>
+
+<li>PowerDNS: Activez <code>aaaa-additional-processing</code> et configurez
+<code>query-local-address6</code> dans votre <code>recursor.conf</code>. 
+Red&eacute;marrez powerdns.</li>
+
+<li>Windows Server 2003: Effectuez une mise &agrave; jour vers Windows Server
+2008 (ou plus r&eacute;cent). Windows 2003 peut faire des recherches pour des AAAA,
+supporte des clients IPv6 mais n'effectue pas des recherches via IPv6.</li>
+
+</ul>
+
+<p><b>V&eacute;rification:</b>  <code>dig aaaa aaaa.v6ns.test-ipv6.com</code>
+doit fournir un enregistrement AAAA sans erreur.</p>
+
+
+
+</div>
+
+      
+    
+[% PROCESS "footer.inc" %]

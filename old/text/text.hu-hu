@@ -1,0 +1,207 @@
+# YAML format.  UTF8.  English provides a default for all messages.
+# Other langauge files are able to replace english messages.
+# "%1" and such may be used as placeholders in some of the strings.
+# If you don't know YAML:  indentation matters; follow the examples.
+
+#
+#  JAVASCRIPT
+#
+
+builtin:
+  v4is: A publikus IPv4 címed
+  v6is: A publikus IPv6 címed
+  v6service: A te IPv6 szolgáltatásod
+  started: elindult
+  using: "kapcsolat:"
+  test_rigged: (Folyamat megszakítva; a teszt manipulált)
+  test_posting: (Szerver oldali IPv6 állapot frissítése)
+  test_posted: (Szerver oldali IPv6 állapot frissítve)
+  test_postfail: (A teszt sikertelen; a fenti információ pontos, de nem került rögzítésre) 
+  more_info: "[Bővebb informácó]"
+  readiness_scores: Felkészültségi szint
+  readiness_score: Felkészültségi szint
+  readiness_ipv4: IPv4 felkészültséged és stabilitásod, amikor a tartalomszolgáltatónál rendelkezésre áll IPv4 és IPv6 is
+  readiness_ipv6: IPv6 felkészültséged és stabilitásod, amikor a tartalomszolgáltatónál csak IPv6 használható
+  click_to_see: Kattints ide a
+  test_data: teszt adatokhoz
+  your_faq: GYIK
+  faq: Gyakran Ismételt Kérdések
+  loading: betöltés...
+  failed_to_load: betöltés sikertelen
+  go_back: "[vissza]"
+  permalink: "[direkt link]"
+  versions: "%app: A %found verziót futtatod; javasoljuk a %suggest vagy újabb verziót."
+  ok: rendben
+  bad: hibás
+  slow: lassú
+  timeout: időtúllépés
+checkresults:
+  unknown_expansion: ismeretlen kiterjesztés
+  rig_text: "hibás teszt paraméter. 9 karakternek kell lennie. o/s/b/t mint nyitott/lassú/hibás/időtúllépés Tesztenként egy: a aaaa ds4 ds6 dsmtu ipv4 ipv6 v6mtu v6ns"
+  unknown_result_code: ismeretlen eredménykód
+form:
+  solicit: Kíváncsiak lennénk a beállításaidra, mert az <b>IPv6 kapcsolatod hibásnak</b>, vagy legalábbis nem értelmezhetőnek tűnik. Ez nem normális; Kérlek %share velünk az eredményeid.
+  share: oszd meg
+  retest: ismételd meg
+  confused: Nem igazán értjük ezeket az eredményeket. Kérlek kattints a frissítésre a böngésződben és %retest a tesztet. Ha az eredmény változatlan %share velünk, hogy fejleszthessük a tesztet.
+  result_code: Eredmény kód
+  missing_contact: "Megjegyzés: Nem tudunk veled kapcsolatba lépni ha a kapcsolat infó üres. Ha tényleg névtelenül szeretnéd elküldeni, kattins az Eredmények küldésére mégegyszer."
+symptoms:
+  browser_blocked: A böngésződ blokkolva
+messages:
+  "No Direct IP": "Az IP címes url-ekhez kapcsolódás tiltottnak látszik; esetleg 'NoScript' vagy 'RequestPolicy' szűrő van telepítve a böngésződön, vagy a proxy szervered tiltja. Ez akadályozza ennek a teszt oldalnak néhány funkcionalitását."
+  "No Direct IPv4": "A DNS feloldással működik az IPv4 kapcsolat, de a számszerű IP címek az url-ben nem. Ezeket ritkábban használják a weben manapság."
+  "No Direct IPv6": "A DNS feloldással működik az IPv6 kapcsolat, de a számszerű IP címek az url-ben nem. Ezeket ritkábban használják a weben manapság."
+  "6to4": "Úgy látszik, hogy publikus 6to4 átjárót használsz; lehet hogy a routered automatikusan biztosítja ezt számodra. Az ilyen publikus átjárók nem rendelkeznek szolgáltatási szint szerződéssel (SLA), így probléma lehet a sávszélességgel és a rendelkezésre állással. Jobban jársz ha natív IPv6 címet igényelsz a szolgáltatódtól."
+  "teredo": "Az IPv6 kapcsolatod Teredo-t használ, egy IPv4/IPv6 címfordítót publikus átjárón keresztül. Ez valószínűleg, hogy a minőség rovására megy, mivel egy publikus átjárót használsz az IPv6 oldalak eléréséhez."
+  "teredo-minimum": "Az IPv6 kapcsolatod Teredo típusú IPv4/IPv6 átjárót használ; jelenleg csak direkt IP-khez tud csatlakozni. A böngésződ nem lesz képes IPv6 oldalakat elérni név alapján. Ez a beállítás nem alkalmas IPv6 oldalak böngészésére." 
+  "teredo-v4pref": "Az IPv6 kapcsolatod Teredo típusú IPv4/IPv6 átjárót használ; A Te teredo konfigurációd csak legutolsó lehetőségként használja a protokollt. Ha egy IPv4-en és IPv6-on is elérhető oldalt látogatsz meg, az IPV4 lesz előnyben részesítve."   
+  "IPv6 MTU": "Vigyázat! Az IPv6 ugyan működik, de a nagy csomagok elvesznek, ami hibásan megjelenő weboldalakat eredményez. Ha egy tartalomszolgáltató így érhető el IPv6-on, biztos lehetsz benne, hogy meg lesz törve a weboldala. Érdeklődj az internet szolgáltatódnál MTU problémákról, valószínűleg a tunneledben."
+  "confused:ASK": "A teszt eredmények nem meggyőzőek; nem konzisztensek az elvárásainkkal. Kérlek futtasd újra a tesztet és ha az eredmény változatlan, töltsd ki a kapcsolat űrlapot."
+  "ORIGINAL:dualstack:ipv4_preferred": "Gratulálunk! Mind az IPv4 és IPv6 elérésed működik. Ha egy tartalomszolgáltató IPv6-on szolgáltat, a böngésződ IPv6-on fog hozzá csatlakozni. Megjegyzés: Úgy tűnik, hogy a böngésződ az IPv4-et részesíti előnyben az IPv6-al szemben. Ez a későbbiekben hátráltathatja a földrajzi helyzetedet megítélő weboldalakat a pontosságukban." 
+  "ORIGINAL:dualstack:ipv6_preferred": "Gratulálunk! Mind az IPv4 és IPv6 elérésed megfelelően működik. Ha egy tartalomszolgáltató IPv6-on szolgáltat, a böngésződ IPv6-on fog hozzá csatlakozni. A böngésződ az IPv6-ot részesíti előnyben az IPv4-el szemben (ez az elvárt eredmény)."
+  "dualstack:ipv4_preferred": "-"
+  "dualstack:ipv6_preferred": "-"
+  "dualstack:slow": "Ismeretlen okok miatt a böngésződ lassabbnak tűnik amikor egyszerre kell kapcsolódnia IPv4 valamint IPv6-on. Kérlek futtasd újra a tesztet és ha az eredmény változatlan, töltsd ki a kapcsolat űrlapot."
+  "ipv4_only": "Úgy tűnik, csak az IPv4 Internetet tudod böngészni. A kizárólag IPv6-on szolgáltatott oldalakat nem fogod elérni."
+  "ipv4_only:ds_good": "Amikor egy tartalomszolgáltató IPv4-en és IPv6-on is szolgáltat, a böngésződ késlekedés nélkül csatlakozik az IPv4-hez."
+  "ipv4_only:ds_slow": "Amikor egy tartalomszolgáltató IPv4-en és IPv6-on is szolgáltat, a böngésződ jelentősen belassul egy csak IPv4-es oldalhoz képest. Elképzelhető, hogy hibásnak gondolod a weboldalt. Ez az IPv6 konfigurációd miatt lehet."
+  "ipv4_only:ds_timeout": "Amikor egy tartalomszolgáltató IPv4-en és IPv6-on is szolgáltat, a böngésződ túllépi a kapcsolódás maximális idejét, ezért úgy láthatod, hogy az oldal nem elérhető. Ez az IPv6 beállításaidtól függ, fontold meg az IPv6 letiltását, vagy kérj segítséget."
+  "ipv4_slow": "A IPv4 kapcsolatod lassú, de működik. Lehetséges, hogy te vagy az internetszolgáltatód IP megosztó módszert használ (NAT-ot) ami lassítja a kapcsolatod."
+  "ipv6_only": "Csak IPv6-on tudod böngészni az internetet. Nincsen IPv4 kapcsolatod. Ez kissé merész!"
+  "ipv6_slow": "Az IPv6 kapcsolatod lassú, de működik. Valószínűleg publikus IPv6 tunnelt használsz ami vagy lassú, vagy távol van tőled."
+  "ipv6_timeout": "Az kizárólag IPv6 felett működő oldalak időtúllépéssel szakadnak meg. Azok az oldalak amik csak IPv6 felett működnek nem lesznek számodra elérhetőek."
+  "broken_ipv6": "Az IPv6-képes oldalak felé a kapcsolat fennakad. Úgy látszik, hogy van IPv6-od konfigurálva; és a számítógéped azt hiszi hogy az IPv6-od működik egy route-on, ami azonban nem igaz. Bármilyen weboldal ami IPv6 felett is bögészhető, elérhetetlen lesz számodra. Ha nem sikerül beállítanod az IPv6 routing-odat, kérj segítséget. Ha sehogy nem jársz sikerrel, erősen ajánlott az IPv6 letiltásia a gépeden."
+  "webfilter:blocked": "Nem sikerült tesztelni a rendszered; úgy tűnik hogy egy tűzfal, vagy egy szűrő a böngésződben megakadályozza a futását. Kritikus tesztek nem sikerülnek. Próbáld meg a böngésződ blokkoló kiegészítőit/bővítményeit kikapcsolni, aztán frissíteni az oldalt. Ha ezek után sem jársz sikerrel, kérj segítséget tőlünk a kapcsolat űrlapon."
+  "webfilter:dsboth": "Nem sikerült tesztelni a rendszered; úgy tűnik hogy egy tűzfal, vagy egy szűrő a böngésződben megakadályozza a futását. A dual-stack tesztek meghiúsultak. Próbáld meg a böngésződ blokkoló kiegészítőit/bővítményeit kikapcsolni, aztán frissíteni az oldalt. Ha ezek után sem jársz sikerrel, kérj segítséget tőlünk a kapcsolat űrlapon."
+  "webfilter:addons": "A böngésződ blokkolja a teszt url-eket. Megpróbálkozunk alternatív metódusokkal, de lehet, hogy nem fog látszani az IP címed; ez befolyásolhatja a tanácsot amit a végén adunk."
+  "webfilter:firefox": "A legvalószínűbb oka NoScript vagy AdBlock+. A NoScript-nél beállíthatod hogy ezen az oldalon minden scriptet engedélyezzen (lehet többször is engedélyezni kell). Legalább az itt felsorolt url-eket engedélyezd."
+  "NAT64": "Gratulálunk! Úgy tűnik van élő IPv6 kapcsolatod. Megjegyzés: Az IPv4 kapcsolatod le van korlátozva az internet szolgáltatód DNS-e által feloldott hosztnevekre - nyers IP címek nélkül. Az internetszolgáltatód valószínűleg rendelkezik egy eszközzel, ami segít neked az IPv4 oldalakat név alapján elérni (NAT64+DNS64). Ez a legtöbb esetben jól működik."
+  "v6ns:ok": "Úgy tűnik, hogy a DNS kiszolgálód (valószínűleg az internetszolgáltatóé) rendelkezik IPv6 kapcsolattal."
+  "v6ns:bad": "Úgy tűnik, hogy a DNS kiszolgálód (valószínűleg az internetszolgáltatóé) nem rendelkezik IPv6 kapcsolattal, vagy nincs megfelelően konfigurálva. Ez a későbbiekben gátolhat abban, hogy a csak IPv6-on szolgáltatott oldalakat böngészd."
+  "ip_timeout:firefox": "Valószínűleg olyan Firefox kiterjesztést használsz, ami az IP alapú teszteket gátolja. Például: RequestPolicy. Kérlek kapcsold ki mialatt ezt az oldalt használod."
+  "confused:obbo": "Egy kizárólag IPv6-on indított névfeloldás nem sikerült; azonban a dual-stack névfeloldás és kapcsolat sikerült IPv6-ra. Valami probléma van a DNS névfeloldásaival."
+  "apple:dnsbug_aaaa": "Egy kizárólag IPv6-on indított névfeloldás nem sikerült; azonban a dual-stack névfeloldás és kapcsolat sikerült IPv6-ra. A csak IPv6-ra indított feloldásnak működnie kellene. Az Apple-nél van egy bug, ami néha megakadályozza az IPv6 feloldást. Volt már erre példa ennél a tesztnél. Frissítsd az oldalt és próbáld meg újra futtatni a tesztet. További részleteket itt találsz: <a href=\"http://openradar.appspot.com/7333104\">http://openradar.appspot.com/7333104</a>."
+  "apple:dnsbug_ds": "A dual-stack IPv4 és IPv6 névfeloldás nem sikerült (minimum IPv4-en kéne működnie). Az Apple-nél van egy bug, ami néha megakadályozza az IPv6 feloldást. Volt már erre példa ennél a tesztnél. Frissítsd az oldalt és próbáld meg újra futtatni a tesztet. További részleteket itt találsz: <a href=\"http://openradar.appspot.com/7333104\">http://openradar.appspot.com/7333104</a>."
+  "ipv4:no_address": "Nincsen IPv4 címed"
+  "ipv6:no_address": "Nincsen IPv6 címed"
+  "no_address": "Böngésző kiegészítők által okozott ütközés miatt az IP címe(i)d nem detektálhatóak."
+  "opera": "Az Opera böngésző gyakran problémás ennél az oldalnál. <b>Ha problémába ütközöl, próbálj ki egy másik böngészőt.</b>."
+  "opera:turbo": "<b>Kapcsold ki az Opera turbo módját, és próbáld újra.</b> A turbo mód nem kompatibilis ennek az oldalnak az igényeivel."
+  "dualstack:safe": "<a href=\"ipv6launch.html\">A Globális IPv6 Rajt</a> 2012. Június 6. Ezen a kapcsolaton, ezzel a böngészővel <b>nem lesz problémád az IPv6-os oldalak megjelenítésében</b>."
+  "dualstack:unsafe": "<a href=\"ipv6launch.html\">A Globális IPv6 Rajt</a> 2012. Június 6.<b>Valószínűleg problémás lesz ezen a napon megjelenítened</b> az IPv6-on szolgátatott oldalakat. Fontold meg az IPv6 kikapcsolását, vagy kérjsegítséget az internetszolgáltatódtól."
+  "dualstack:mtu": "<a href=\"ipv6launch.html\">A Globális IPv6 Rajt</a> 2012. Június 6.<b>Valószínűleg problémás lesz ezen a napon megjelenítened</b> az IPv6-on szolgátatott oldalakat. A probléma oka valószínűleg a PMTUD. Ha nem tudod megoldani a problémát, fontold meg az IPv6 lekapcsolását, vagy kérd az internetszolgáltatód segítségét."
+  "buggydns1": "Megprobáltunk egy IPv6-os címet feloldani, de a DNS kiszolgálód (valószínűleg az otthoni routered) rosszul kezelte és (hibás) IPv4 kérésként kezelte."
+  "proxy_via": "Detektáltuk, hogy proxy-t használsz. Ez azt jeletni hogy nem a te számítógépedet, hanem a proxy szervert teszteljük. Proxy részletek (a proxy 'Via' fejlécéből): %details"
+  "proxy_via_dumb": "Detektáltuk, hogy proxy-t használsz. Ez azt jeletni hogy nem a te számítógépedet, hanem a proxy szervert teszteljük."
+  "ipv6:nodns": "Az IPv6 kapcsolat működik, de a DNS által felépített kapcsolatok nem használnak IPv6-ot. Valamiért a böngésződ, vagy az operációs rendszered nem oldja fel az IPv6-os 'AAAA' rekordokat."
+  "broken": "Vannak javaslataink a rendszered javításával kapcsolatosan"
+  
+# These are not just strings, but arrays,
+# #1: url
+# #2: link text to show (translate this!)
+# Between the first and second string, it must be a comma and a space.
+# ie:   "key":  ["url", "text"] 
+messages_popups:
+  "dualstack:safe": ["faq_ipv6launch.html", "Globális IPv6 Rajt"]
+  "dualstack:unsafe":  ["faq_ipv6launch.html", "Globális IPv6 Rajt"]
+  "dualstack:mtu": ["faq_pmtud.html", "gyik: MTU"]
+  "IPv6 MTU": ["faq_pmtud.html", "gyik: MTU"]
+  "ipv4:no_address": ["faq_ipv4_only.html", "gyik: Nincs IPv4"]
+  "ipv6:no_address": ["faq_no_ipv6.html", "gyik: Nincs IPv6"]
+  "6to4": ["faq_6to4.html", "gyik: 6to4"]
+  "teredo-minimum": ["faq_teredo_minimum.html", "gyik: Teredo Minimum"]
+  "v6ns:bad": ["faq_v6ns_bad.html", "gyik: v6ns"] 
+  "webfilter:blocked":  ["faq_browser_plugins.html", "gyik: Böngésző Kiegészítők"]
+  "webfilter:dsboth":   ["faq_browser_plugins.html", "gyik: Böngésző Kiegészítők"]
+  "webfilter:firefox":  ["faq_firefox_plugins.html", "gyik: Firefox Kiegészítők"]
+  "webfilter:addons":   ["faq_browser_plugins.html", "gyik: Böngésző Kiegészítők"]
+  "ip_timeout:firefox": ["faq_firefox_plugins.html", "gyik: Firefox Kiegészítők"]
+  "opera": ["faq_opera.html", "gyik: Opera"]
+  "buggydns1": ["faq_buggydns1.html", "gyik: Bugos DNS"]
+  "broken": ["broken.html", "gyik: Hibás!"]
+  "ipv6:nodns": ["faq_broken_aaaa.html", "gyik: Hibás DNS névfeloldás"]
+
+
+#
+#   HTML
+#
+
+html:
+  h1: Teszteld az IPv6 kapcsolatod.
+  tabnav_index: IPv6 Teszt
+  tabnav_faq: GYIK
+  tabnav_ipv6day: IPv6 Nap
+  tabnav_ipv6launch: Globális IPv6 Rajt
+  tabnav_stats: Statisztikák
+  tabnav_changes: Változtatások/ToDo
+  summary: Összegzés
+  tests_run: Lefutott tesztek
+  tech_info: Technikai Info
+  share: Eredmények megosztása / Kapcsolat
+  faq_for_you: GYIK neked
+  help_popup: Segítség Popup
+  debug: Debug
+  click_to_see: Kattints ide
+  mirrors: Tükrök
+  when: Helyi idő
+  disclaimer: Ez a test-ipv6.com egyik tükör oldala. Az itt kifejtett vélemények lehet, de nem biztos, hogy a tulajdonos véleményét tükrözik.
+
+
+html_header:
+  title: Teszteld az IPv6 kapcsolatod.
+  description: Ez az oldal a böngésződ és a kapcsolatod IPv6 képességét teszteli, valamint megmutatja az aktuális IPV4 és IPV6 címedet.
+
+
+html_mail:
+  comments_wanted: <b>Érdekel minket a Te egyéni konfigurációd.</b> Folyamatosan próbáljuk jobbá tenni a test-ipv6.hu kódját. Hajlandó lennél bővebb információt megosztani a böngésződről és a számítógép konfigurációdról? A te segítségeddel dokumentálni tudjuk mások számára, hogy hogyan javítsák meg rendszereiket.
+  comments_unwanted: Ezen az űrlapon lehetőséged van üzenetet hagyni, szóvátenni bármit a témában, vagy kérdést feltenni. A teszt eredményeid automatikusan hozzá lesznek csatolva.  
+  comments_faq: <span id="comments_faq_link"></span> Elérhető (GYIK) oldal is a <b>Te</b> konkrét eredményeidhez. Kérlek olvasd el mielőtt üzenetet küldesz; rengeteg kérdésre megszületett már a válasz. Ha ezek ellenére szeretnéd velünk megosztani kérdésed, kérésed, véleményed, akkor használd ezt az űrlapot.
+  comments_delayed: "Az <a href=\"http://www.internetsociety.org/worldipv6day\">IPv6 világnapot</a> övező hirtelen sok sajtó publikáció miatt, <b>lehet kicsit késve válaszolunk</b>."
+  limit_info: Ha egy problémát jelentesz be a teszttel kapcsolatosan, vagy segítséget kérsz az eredményeidhez, kérlek add meg az összes szükséges információt a legjobb tudásod szerint.
+  thanks: Köszönjük,
+  form_purpose: Hozzászólás oka
+  form_pickone: (Válassz)
+  form_questions: Kérdés a teszt eredményekkel kapcsolatban
+  form_bug: Hiba bejelentése diagnózissal
+  form_suggestion: Javaslat
+  form_cheersjeers: Üdvözlet!
+  form_email: Email cím, ha hozzájárulsz hogy kapcsolatba lépjünk veled. <i>Szükséges, ha választ is szeretnél.</i>
+  form_submit: Eredmények elküldése
+  help_anyinfo: Bármely információ amit hasznosnak gondolsz (milyen routert használsz, milyen tűzfalat, proxy típusa, stb). Valamint általános visszajelzés.
+  help_plugins: A javascript alapú tesztek nem futottak le. Ez lehet egy böngésző kiegészítő miatt. Kérlek jelöld meg, milyen kiegészítők vannak engedélyezve a böngésződben.
+  help_generic: "Ha technikai beállítottságú vagy, kérlek másold be a kimenetét az alábbi parancsoknak:"
+  help_windows: "Ha technikai beállítottságú vagy, kérlek nyiss egy Parancssori ablakot (cmd), és futtasd ezt a három parancsot:"
+  help_output:  Másold be a parancsok kimenetelét a lenti dobozba. Ez segíteni fog nekünk megerősíteni/helyesbíteni a kérdésedben felmerülő teóriákat.
+  comments_english: "Kérlek magyar vagy angol nyelven írd az üzenetet."
+
+html_tech:
+  how_this_works: "Hogyan működik ez a teszt:"
+  how_general: A böngésződ utasítva lesz egy sorozatnyi URL elérésére. A sikeres és sikertelen elérésekből kiderül, hogy mennyire állsz készen az IPv6-ot szolgáltató tartalomszolgáltatók oldalainak megtekintésére.
+  pending: fuggőben
+  detail_a: Meghív egy objektumot aminek csak egy A rekordja van a DNS-ben. Ez IPv4-et kell hogy használjon. Csak-IPv6 (IPv4 nélkül) felett csatlakozva is el lehet érni, ha a szolgáltató beállított NAT64/DNS64 megoldást vagy proxy-t.
+  detail_aaaa: Meghív egy objektumot aminek csak egy AAAA rekordja van a DNS-ben. Ez IPv6-ot kell hogy használjon. Az IPv6-al nem rendelkező felhasználók számára ez sikertelen lesz. Ha gyorsan jön a hiba, akkor rendben van - egyelőre.
+  detail_v6ns: Ez az internetszolgáltató névfeloldását teszteli (a saját géped helyett). Ha ez a teszt sikeres, a DNS kiszolgálód (amit általában az internetszolgáltatód futtat) alkalmas Csak-IPv6 (IPv4 nélküli) autoratív DNS kiszolgálók elérésére. (Egyelőre) nem kritikus, hogy az oldalakat csak IPv6-on keresztül érd el.
+  detail_ds: Ez egy fontos teszt. Ez ellenőrzi, hogy a böngésződ képes-e olyan oldalhoz csatlakozni, ahol IPv4 és IPv6 rekordok egyaránt hirdetve vannak. Csak-IPv4 (IPv6 nélküli) hosztoknak simán csatlakozniuk kell.
+  detail_ds_warning: Ha ez a teszt sikertelen, vagy túllépi a megengedett időt, komoly problémákra számíthatsz amikor a tartalomszolgáltatók elkezdik az oldalaikat IPv6 felett szolgáltatni.
+  detail_ipv4: Ez a teszt megpróbál számszerű IPv4 címhez csatlakozni. Ez a legtöbb embernél működni fog, ha csak nem kizárólag IPv6-on csatlakoznak IPv4 nélkül. Ha az első teszt sikeres volt, ez pedig sikertelen, az internet szolgáltatód  valószínűleg NAT64/DNS64-et használ. Meg kell próbálnod csak hosztnevekhez csatlakozni numerikus IP címek nélkül.
+  detail_ipv6: Ez a teszt megpróbál egy hexadecimális numerikus IPv6 címhez csatlakozni. A célja, hogy külön válasszuk az IPv6-os kapcsolat képességét az IPv6 névfeloldás képességétől. Második célja, hogy lássuk, van-e teredo engefélyezve; néhány rendszer csak Teredo-t használ amikor IPv6 cím kerül az URL-be.
+  detail_v6mtu: Ellenőrzi, hogy működnek-e az IPv6 kérések nagy csomaggal. Ha ez a teszt túllépi a megengedett időt, de más IPv6 tesztek sikeresek, az valószínűleg PMTUD-vel kapcsolatos problémát jelent; valószínűleg az IP tunnelben.  
+  detail_dsmtu: Ellenőrzi, hogy képes vagy-e csatlakozni dual-stack kiszolgálóhoz (mint a ds teszt); és képes vagy-e küldeni/fogadni nagy csomagokat ezen a kapcsolaton. Ha ez a teszt túllépi a megengedett valamiért, az problémát jelenthet majd az IPv6 világnapon.
+  summary1: Ha az összefoglaló eredmény problémát jelez, úgy felhasználhatod (vagy a technikai segítséged felhasználhatja) a fenti információkat a diagnoztizáláshoz. Minden egyes teszt URL-je és a hozzá kapcsolódó eredmények megtalálhatóak a bal oldalon. Jobbra a leírást fogod látni, hogy az az URL mit hivatott tesztelni.
+  summary2: Miután minden teszt lefutott az összegző oldal megpróbálja megjeleníteni az eredményeket a fentiek alapján. Ha nem érted a tüneteket, vagy további segítségre van szükséged, kérlek lépj kapcsolatba velünk.
+  bonus: (Piros pont)
+  detail_buggydns1: Lekérések egy rosszul formázott AAAA rekordra. Néhány router hibásan kezeli ezeket mint "A" rekordokat, és csak az első 32 bitet tartja meg belőlük. Ezzel azt akarjuk látni hogy sikertelen-e a kapcsolat.
+
+html_tests:
+  test_a: Tesztelés IPv4 DNS rekorddal    
+  test_aaaa: Tesztelés IPv6 DNS rekorddal
+  test_ds: Tesztelés Dual Stack DNS rekorddal
+  test_v6ns: Az internetszolgáltató IPv6 DNS tesztje
+  test_ipv4: IPv4 teszt DNS nélkül
+  test_ipv6: IPv6 teszt DNS nélkül
+  test_v6mtu: Nagy IPv6 csomag tesztelése
+  test_buggydns1: Bugos DNS tesztelése
+  test_dsmtu: Dual Stack DNS és nagy csomag tesztelése
+  bonus: (Piros pont)
+

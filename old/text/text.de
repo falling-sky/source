@@ -1,0 +1,185 @@
+# YAML format.  UTF8.  English provides a default for all messages.
+# Other langauge files are able to replace english messages.
+# "%1" and such may be used as placeholders in some of the strings.
+# If you don't know YAML:  indentation matters; follow the examples.
+
+#
+#  JAVASCRIPT
+#
+
+builtin:
+  v4is: Ihre IPv4 Internet-Adresse ist höchstwahrscheinlich
+  v6is: Ihre IPv6 Internet-Adresse ist höchstwahrscheinlich
+  v6service: Ihr IPv6 Anbieter ist höchstwahrscheinlich
+  started: Begonnen
+  using: verwende
+  test_rigged: (Statistik wurde nicht eingesandt; Der Test wurde manipuliert)
+  test_posting: (Aktualisire serverseitige IPv6 Bereitschafts-Statisik)
+  test_posted: (Serverseitige IPv6 Bereitschafts-Statisik aktualisiert)
+  test_postfail: (Das Einsenden der Statistik ist fehlgeschlagen; Die oben aufgeführten Ergebnisse sind korrekt, wurden jedoch nicht eingesandt.) 
+  more_info: "[mehr Infos]"
+  readiness_scores: Ihre Bereitschafts Ergebnisse
+  readiness_score: Ihre Bereitschafts Ergebniss
+  readiness_ipv4: für Ihre IPv4 Stabilität und Bereitschaft, wenn Inhalte via IPv4 und IPv6 verfügbar sind
+  readiness_ipv6: für Ihre IPv6 Stabilität und Bereitschaft, wenn Inhalte nur via IPv6 verfügbar sind
+  click_to_see: Weiter zu
+  test_data: Testergebnisse
+  your_faq: Ihre FAQ
+  faq: Häufig gestellte Fragen
+  loading: lade...
+  failed_to_load: laden fehlgeschlagen
+  go_back: "[gehe zurück]"
+checkresults:
+  unknown_expansion: unbekannte Expansion
+  rig_text: "test parameter falsch.  Sollten 9 Zeichen sein. o/s/b/t for offen/langsam/schlecht/zeitüberschreitung. Jeweils ein Eintrag für: a aaaa ds4 ds6 dsmtu ipv4 ipv6 v6mtu v6ns"
+  unknown_result_code: unbekannter Rückgabewert
+form:
+  solicit: Wir würden gerne Ihre Konfiguration besprechen, da festgestellt wurde, dass <B>Ihre IPv6 Konnektivität nicht richtig funktioniert</B>. Das ist nicht normal. Wären Sie allenfalls bereit %share?
+  share: Ihre Ergebnisse einzusenden
+  retest: erneut testen
+  confused: Wir können diese Ergebnisse nicht interpretieren. Bitte Aktualisieren Sie aktuelle Seite im Browser um die Tests erneut durchzuführen. Falls die Ergebnisse die Selben sind, senden Sie diese bitte ein damit wir den Test verbessern können.
+  result_code: Rückgabewert
+  missing_contact: "Anmerkung: Wir können Sie nicht kontaktieren wenn Sie keine Kontakinformation angeben. Falls Sie die Ergebnisse trotzdem anonym einsenden möchten, klicken Sie nochmals auf den entsprechenden Link"
+symptoms:
+  browser_blocked: Ihr Browser blockiert
+messages:
+  "No Direct IP": "Verbindungen zu URLs welche IP Adressen behinhalten wurden blockiert; Evtl. von einem Webfilter wie 'NoScript' oder 'RequestPolicy' in Ihrem Browser oder durch einen Filter in ihrem Proxyserver. Dies schränkt die Funktionalität dieser Testseite ein."
+  "No Direct IPv4": "IPv4 Verbindungen unter Verwendung von DNS funktionieren; Verbindungen zu URLs welche IP addresses beinhalten funktioniern nicht. Diese URLs werden heute selten eingesetzt."
+  "No Direct IPv6": "IPv6 Verbindungen unter Verwendung von DNS funktionieren; Verbindungen zu URLs welche IP addresses beinhalten funktioniern nicht. Diese URLs werden heute selten eingesetzt."
+  "6to4": "Es scheint Sie benutzen einen öffentlichen 6to4 Gateway; Ihr Router stellt diese Funktion möglicherweise automatisch bereit. Diese öffentlichen Gateways bieten jedoch keine optimale Qualität und es kann sein dass Performanceprobleme auftauchen. Die beste Lösung wäre Native IPv6 Konnektivität von Ihrem ISP zu beziehen."
+  "teredo": "Es scheint Sie benutzen Teredo um eine IPv6 Verbindung herzustellen. Teredo ist eine Technik zur IPv4/IPv6 Übersetzung durch Benutzung eines öffentlichen Gateways. Die Verbindungsqualität <i>kann</i> eingeschränkt sein. Sie hängt von der Qualität des benutzten öffentlichen Gateways ab."
+  "teredo-minimum": "Es scheint Sie benutzen Teredo um eine IPv6 Verbindung herzustellen. Teredo ist eine Technik zur IPv4/IPv6 Übersetzung durch Benutzung eines öffentlichen Gateways. In der aktuellen Konfiguration verbindet sich Teredo jedoch nur direkt via IP Adressen. Ihr Browser ist nicht in der Lage IPv6 Seiten via Namen aufzurufen. Das bedeutet die aktuelle Konfiguration ist nicht nutzbar um IPv6 Webseiten aufzurufen."
+  "IPv6 MTU": "Achtung! IPv6 funktioniert mehr oder weniger - jedoch können keine grossen Pakete übertragen werden. Das führt dazu, dass Webseiten welche via IPv6 erreichbar sind, nicht richtig geladen werden können oder lange Wartezeiten entstehen. Fragen Sie bei Ihrem ISP betreffend MTU Probleme nach, evtl. bezüglich Ihres Tunnels."
+  "confused:ASK": "Testergebnisse lassen keine Rückschlüsse auf die Qualität Ihrer Internetverbindung zu. Die Testergebnisse entsprechen nicht den Erwartungen. Bitte führen Sie den Test erneut durch. Falls der Test zum selben Ergebnis führt, kontaktieren Sie bitte via das Kontaktformular."
+#  "ORIGINAL:dualstack:ipv4_preferred": "Gratulation! Es scheint, dass sowohl Ihre IPv4 wie auch Ihre IPv6 Verbindung funktioniert. Wenn ein Inhalt via IPv6 verfügbar ist, wird Ihr Browser eine IPv6 Verbindung aufbauen. Anmerkung: Ihr Webbrowser scheint IPv4 gegenüber IPv6 zu bevorzugen, was künftig zu Einschränkungen in der Standortbestimmung (Geolocation) führen kann."
+#  "ORIGINAL:dualstack:ipv6_preferred": "Gratulation! Es scheint, dass sowohl Ihre IPv4 wie auch Ihre IPv6 Verbindung funktioniert. Wenn ein Inhalt via IPv6 verfügbar ist, wird Ihr Browser eine IPv6 Verbindung aufbauen. Ihr Webbrowser scheint IPv6 gegenüber IPv4 zu bevorzugen, was dem erwarteten Ergebnis entspricht!"
+  "dualstack:ipv4_preferred": "-"
+  "dualstack:ipv6_preferred": "-"
+  "dualstack:slow": "Aus unbekannten Gründen scheint Ihr Webbrowser langsamer zu arbeiten wenn die Möglichkeit besteht eine Webseite sowohl via IPv4 als auch IPv6 zu laden. Bitte führen Sie den Test erneut durch. Falls der Test zum selben Ergebnis führt, kontaktieren Sie bitte via das Kontaktformular."
+  "ipv4_only": "Es scheint als hätten Sie nur eine IPv4 fähige Internetverbindung. Sie werden nicht in der Lage sein Webseiten welche nur via IPv6 verfügbar sind zu erreichen."
+  "ipv4_only:ds_good": "Wenn Inhalte sowohl via IPv4 als auch via IPv6 verfügbar sind, benutzt Ihr Webbrowser IPv4 ohne Einschränkungen in der Qualität."
+  "ipv4_only:ds_slow": "Wenn Inhalte sowohl via IPv4 als auch via IPv6 verfügbar sind, funktioniert Ihr Webbrowser wesentlich schlechter als bei Inhalten welche nur via IPv4 verfügbar sind. Es kann sogar sein das eine funktierende Webseite gar nicht erreicht werden kann. Dies deutet auf ein Problem Ihrer IPv6 Konfiguration hin."
+  "ipv4_only:ds_timeout": "Wenn Inhalte sowohl via IPv4 als auch via IPv6 verfügbar sind, kann Ihr Webbrowser die Inhalte nicht abrufen. Dies deutet auf ein Problem Ihrer IPv6 Konfiguration hin. Überlegen Sie sich IPv6 komplett zu deaktivieren oder Hilfe zu suchen."
+  "ipv4_slow": "Verbindungen via IPv4 funktionieren, sind jedoch langsam. Eventuell stell Ihr ISP Ihre IPv4 Verbindung über ein NAT zur Verfügung, welches zurzeit überlastet ist."
+  "ipv6_only": "Es scheint als könnten Sie nur IPv6 Internetverbindungen herstellen. Das ist durchaus mutig :-)"
+  "ipv6_slow": "IPv6 Verbindungen sind langsam, funktionieren jedoch. Evtl. benutzen Sie einen Tunneldienst welcher zurzeit langsam oder nicht in Ihrer Nähe terminiert ist."
+  "ipv6_timeout": "Verbindungen zu Inhalten welche nur via IPv6 erreichbar sind, resultieren in einer Zeitüberschreitung. Alle Webseiten welche nur via IPv6 erreichbar sind, werden daher nicht funktionieren."
+  "broken_ipv6": "Verbindungen zu IPv6 fähigen Webseiten funktionieren nicht. Es scheint als wäre eine IPv6 Konfiguration vorhanden und Ihr Computer glaubt diese Konfiguration funktioniert. Dies ist jedoch nicht der Fall. Alle IPv6 fähigen Webseiten werden für Sie unerreichbar sein. Falls Sie Ihre IPv6 Verbindung oder Ihr IPv6 Routing nicht reparieren können, suchen Sie sich Hilfe. Falls alle Lösungsversuche fehlschlagen sollten Sie IPv6 auf Ihrem Computer komplett deaktivieren."
+  "webfilter:blocked": "Wir können Ihr System nicht testen. Eine Firewall oder ein Filter in Ihrem Webbrowser scheint die Ausführung der Tests zu verhindern. Entscheidene Überprüfungen schlagen fehl. Versuchen Sie alle Browser AddIns und Erweiterungen (wie z.B. Werbeblocker) zu deaktivieren und die aktuelle Seite neu zu laden. Falls der Test immernoch fehlschlägt können Sie uns konktaktieren und um Hilfe fragen."
+  "webfilter:dsboth": "Wir können Ihr System nicht testen. Eine Firewall oder ein Filter in Ihrem Webbrowser scheint die Ausführung der Tests zu verhindern. Dual-Stack Prüfungen schlagen fehl. Versuchen Sie alle Browser AddIns und Erweiterungen (wie z.B. Werbeblocker) zu deaktivieren und die aktuelle Seite neu zu laden. Falls der Test immernoch fehlschlägt können Sie uns konktaktieren und um Hilfe fragen."
+  "webfilter:addons": "Ihr Webbrowser blockiert die Test Links. Wir versuchen alternative Methoden, diese können evtl. Ihre IP-Adresse nicht ermitteln und die Qualität der Ratschläge beeinflussen."
+  "webfilter:firefox": "Die wahrscheinlichste Ursache ist NoScript oder AdBlock+. NoScript kann so konfiguriert werden, dass alle Skripte dieser Seite ausgeführt werden dürfen (Sie müssen dies evtl. mehr als einmal konfigurieren). Mindestens sollte die unten aufgelisteten URLs erlaubt werden."
+  "NAT64": "Gratulation! Sie scheinen eine IPv6 Verbindung zu haben. Anmerkung: Ihr IPv4 Internetzugriff ist beschränkt auf Webseiten welche über den DNS Server ihres ISPs aufgelöst werden - IP Adressen ansich funktionieren nicht. Ihr ISP nutzt vermutlich ein Gerät welches IPv4 Websiten nur per Hostnamen erreicht (NAT64+DNS64). Dies sollte in den meisten Fällen funktionieren."
+  "v6ns:ok": "Ihr DNS Server (wahrscheinlich von Ihrem ISP betrieben) scheint über IPv6 Internetzugriff zu verfügen."
+  "v6ns:bad": "Ihr DNS Server (wahrscheinlich von Ihrem ISP betrieben) scheint entweder über keinen IPv6-Internetzugriff zu verfügen oder er ist nicht konfiguriert diesen zu benutzen. In Zukunft könnte dies das Erreichen von Webinhalten, welche nur via IPv6 abrufbar sind, einschränken."
+  "ip_timeout:firefox": "Sie benutzen vermutlich eine Firefox Erweiterung welche IP Adress basierende Prüfungen verhindert. Beispiele: RequestPolicy. Deaktivieren Sie diese Erweiterungen während Sie diese Seite benutzen."
+  "confused:obbo": "Die Namensauflösung eines Nur-IPv6 Namens ist fehlgeschlagen, dennoch ist die Namensauflösung und die Verbindung für Dual-Stack Seiten via IPv6 erfolgt. Dies deutet auf ein fehlerhaftes Verhalten Ihrer Namensauflösung hin."
+  "apple:dnsbug_aaaa": "Die Namensauflösung eines Nur-IPv6 Namens ist fehlgeschlagen, dennoch ist die Namesauflösung und die Verbindung für Dual-Stack Seiten via IPv6 erfolgt. Die Nur-IPv6 Namensauflösung müsste also funktionieren. Apple hat einen Bug welcher sporadisch IPv6 Namensauflösungen fehlschlagen lässt. Sie können die Seite neuladen und den Test erneut durchführen. Für mehr Informationen, siehe <a href=\"http://openradar.appspot.com/7333104\">http://openradar.appspot.com/7333104</a>."
+  "apple:dnsbug_ds": "Die Namensauflösung eines Dual-Stack IPv4- und IPv6-Namens ist fehlgeschlagen (mindenstens die IPv4-Verbindung hätte funktionieren müssen). Apple hat einen Bug welcher sporadisch Dual-Stack Namensauflösungen fehlschlagen lässt. Sie können die Seite neuladen und den Test erneut durchführen. Für mehr Informationen, siehe <a href=\"http://openradar.appspot.com/7333104\">http://openradar.appspot.com/7333104</a>."
+  "ipv4:no_address": "Keine IPv4 Adresse erkannt"
+  "ipv6:no_address": "Keine IPv6 Adresse erkannt"
+  "no_address": "Ihre IP Adresse(n) konnte nicht erkannt werden aufgrund störender Browsererweiterungen."
+  "opera": "Der Opera Webbrowser scheint regelmässig Probleme mit dieser Seite zu haben. <b>Falls bei Ihnen Probleme auftauchen, versuchen Sie den Tests mit einem anderen Webbrowser durchzuführen</b>."
+  "opera:turbo": "<b>Deaktivieren Sie Turbomodus in Opera und starten Sie den Test erneut</b> Der Turbomodus  ist mit den Anforderungen dieser Seite nicht kompatibel." 
+  "dualstack:safe": "<a href=\"ipv6launch.html\">World IPv6 Launch</a> Tag ist am 6. Juni 2012. <b>Gute Nachrichten!</b>Wir gehen davon aus, dass Ihr jetziger Browser auf diesem Computer an diesem Standort auch nach dem Launch funktionieren wird."
+  "dualstack:unsafe": "<a href=\"ipv6launch.html\">World IPv6 Launch</a> Tag ist am 6. Juni 2012. <b>Unsere Tests zeigen, dass Ihre IPv6 Konfiguration beschädigt oder fehlerhaft ist. Dies wird voraussichtlich zu Problemen führen wenn Webseiten-Betreiber IPv6 aktivieren"
+  "dualstack:mtu": "<a href=\"ipv6day.html\">World IPv6 Launch</a> Tag ist am 6. Juni 2012. <b>Unsere Tests zeigen, dass Sie MTU Probleme bei IPv6 Verbindungen haben. Dies kann dazu führen, dass Webseiten nur langsam (oder auch gar nicht) angezeigt werden, sobald diese via IPv6 erreichbar sind.</b>"
+
+
+# These are not just strings, but arrays,
+# #1: url
+# #2: link text to show (translate this!)
+# Between the first and second string, it must be a comma and a space.
+# ie:   "key":  ["url", "text"] 
+messages_popups:
+  "dualstack:safe": ["faq_ipv6launch.html", "World IPv6 Launch"]
+  "dualstack:unsafe":  ["faq_ipv6launch.html", "World IPv6 Launch"]
+  "dualstack:mtu": ["faq_pmtud.html", "faq: MTU"]
+  "IPv6 MTU": ["faq_pmtud.html", "faq: MTU"]
+  "ipv4:no_address": ["faq_ipv4_only.html", "faq: Kein IPv4"]
+  "ipv6:no_address": ["faq_no_ipv6.html", "faq: Kein IPv6"]
+  "6to4": ["faq_6to4.html", "faq: 6to4"]
+  "teredo-minimum": ["faq_teredo_minimum.html", "faq: Teredo Minimum"]
+  "v6ns:bad": ["faq_v6ns_bad.html", "faq: v6ns Schlecht"] 
+  "webfilter:blocked":  ["faq_browser_plugins.html", "faq: Browser Erweiterungen"]
+  "webfilter:dsboth":   ["faq_browser_plugins.html", "faq: Browser Erweiterungen"]
+  "webfilter:firefox":  ["faq_firefox_plugins.html", "faq: Firefox Add-Ons"]
+  "webfilter:addons":   ["faq_browser_plugins.html", "faq: Browser Erweiterungen"]
+  "ip_timeout:firefox": ["faq_firefox_plugins.html", "faq: Firefox Add-Ons"]
+  "opera": ["faq_opera.html", "faq: Opera"]
+
+
+#
+#   HTML
+#
+
+html:
+  h1: Testen Sie Ihre IPv6 Konnektivität.
+  tabnav_index: IPv6 testen
+  tabnav_faq: FAQ
+  tabnav_ipv6day: IPv6 Tag
+  tabnav_ipv6launch: World IPv6 Launch
+  tabnav_stats: Statistiken
+  tabnav_changes: Änderungen/ToDo
+  summary: Zusammenfassung
+  tests_run: Durchgeführte Tests
+  tech_info: Technische Informationen
+  share: Ergebnisse einschicken / Kontakt
+  faq_for_you: FAQ für Sie
+  help_popup: Hilfe Popup
+  debug: Fehlersuche
+  click_to_see: Hier Klicken
+  mirrors: Mirrors
+
+html_header:
+  title: Testen Sie Ihre IPv6 Konnektivität.
+  description: Dies wird Ihren Webbrowser und Ihre Internetverbindung auf IPv6 Tauglichkeit überprüfen und Ihre aktuelle IPv4 und IPv6 Adresse ermitteln.
+
+html_mail:
+  comments_wanted:  <b>Ihre besondere Konfiguration ist von Interesse.</b> Wir streben immer danach den test-ipv6 code zu verbessern. Wären Sie bereit mehr Informationen über Ihren Browser und Ihre Computerinstallation zur Verfügung zu stellen? Mit Ihrer Hilfe können wir unsere Dokumentation erweitern und dadurch anderen Leuten helfen Ihre Systeme zu reparieren.
+  comments_unwanted: Dieses Formular ermöglicht Ihnen Kommentare zu hinterlassen, Anregungen und Kritik anzubringen sowie Fragen zu stellen. Ihre Testergebnisse werden automatisch mitgesandt.  
+  comments_faq: <span id="comments_faq_link"></span>FAQs sind verfügbar für genau <b>Ihre</b> Testergebnisse. Bitte lesen Sie diese bevor Sie Kommentare hinterlassen. Viele Fragen wurden darin bereits beantwortet. Falls Sie immer noch Fragen, Kommentare oder Anregungen haben, können Sie gerne dieses Formular benutzen.
+  comments_delayed: "<b>Es kann zu Verzögerungen bei der Beantwortung kommen</b>, aufgrund der neulichen Pressemeldungen betreffend dem <a href=\"http://www.internetsociety.org/worldipv6day\">Welt IPv6 Tag</a>."
+  limit_info: Falls Sie ein Problem mit dem Test melden oder Hilfe mit Ihren Resultaten benötigen - Tragen Sie bitte alle angeforderten Information gemäss Ihren Möglichkeiten ein. Bei allgemeinen Kommentaren oder Anfragen entscheiden Sie selber welche Informationen nützlich sind.
+  thanks: Danke,
+  form_purpose: Grund für den Kontakt
+  form_pickone: (Bitte auswählen)
+  form_questions: Frage zu den Testergebnissen
+  form_bug: Fehler bei der Diagnose melden
+  form_suggestion: Anregungen
+  form_cheersjeers: Glückwünsche oder Kritik
+  form_email: E-Mail Adresse wenn Sie uns gestatten Sie zu kontaktieren. <i>Erforderlich, falls Sie eine Antwort wünschen.</i>
+  form_submit: Ergebnisse einsenden
+  help_anyinfo: Alle Informationen welche uns helfen könnte (welches Routermodell Sie benutzen, welche Firewall, Typ des Proxyservers, usw.). Dies umfasst auch allgemeines Feedback.
+  help_plugins: Die Javascript basierten Überprüfungen scheinen fehlgeschlagen zu sein. Dies könnte von einer Browser Erweiterung verursacht worden sein. Bitte geben Sie an welche Erweiterungen Sie in diesem Webbrowser aktiviert haben.
+  help_generic: "Falls Sie über genügend technisches Verständnis verfügen, fügen Sie bitte die Ausgabe folgender Kommandos ein:"
+  help_windows: "Falls Sie über genügend technisches Verständnis verfügen, öffnens Sie die \"Eingabeaufforderung\" oder \"cmd\" und führen diese drei Kommandos aus:"
+  help_output:  Kopieren Sie die Ausgabe dieser Kommandos in das untenstehende Feld ein. Dies kann uns helfen bei der Interpretation Ihrer Testergebnisse.
+  comments_english: Wenn es für Sie möglich ist, wären wir froh, wenn Sie Kommentare und Anmerkungen in Englisch verfassen könnten. Vielen Dank.
+
+html_tech:
+  how_this_works: "Wie dieser Test funktioniert:"
+  how_general: Ihr Webbrowser wird angewiesen eine Reihe von URLs aufzurufen. Aus der Auswertung der erfolgreichen und fehlgeschlagenen Aufrufen lässt sich ableiten wie bereit Sie sind, wenn Inhaltsanbieter beginnen Ihre Websiten via IPv6 verfügbar zu machen.
+  pending: anstehend
+  detail_a: Ruft ein Objekt auf welches nur über einen A record im DNS verfügt. Es wird eine IPv4 Verbindung erwartet. Nur-IPv6 Benutzer können unter Umständen auch eine Verbindung herstellen, nämlich dann wenn Ihr ISP eine NAT64/DNS64 oder eine andere Proxylösung zur Verfügung stellt.
+  detail_aaaa: Ruft ein Objekt auf welches nur über einen AAAA record im DNS verfügt. Es wird eine IPv6 Verbindung erwartet. Für Benutzer ohne IPv6-fähigen Internetzugang wird dieser Test fehlschlagen. Solang dies ohne grosse Verzögerung geschieht ist dies zurzeit noch in Ordnung.
+  detail_v6ns: Dies ist eine Überprüfung des DNS Servers Ihres ISPs. Falls dieser Test erfolgreich ist, bedeutet dies dass der DNS Server fähig ist, nur via IPv6 erreichbare, authorative DNS Server im Internet zu erreichen. Dies ist (zumindest im Moment) nicht unbedingt erforderlich um Webseiten über eine IPv6 Verbindung zu erreichen.
+  detail_ds: Dies ist der wichtigste Test. Es wird überprüft ob Ihr Browser Webseiten aufrufen können welche sowohl via IPv4, als auch IPv6 erreichbar sind. Systeme welche nur über IPv4 Konnektivität verfügen sollten solche Seiten problemlos erreichen können (via IPv4).
+  detail_ds_warning: Falls dieser Test fehlschlägt oder in einer Zeitüberschreitung resultiert, werden Sie schwerwiegende Probleme bekommen, wenn Inhaltsanbieter beginnen Ihre Webseiten via IPv6 verfügbar zu machen.
+  detail_ipv4: Dieser Test versucht eine Verbindung direkt zu einer IPv4 Adresse zu erstellen (ohne DNS). Dies sollte für die meisten Systeme keine Probleme darstellen, es sei denn Sie verfügen nur über einen IPv6 Internetzugang. Falls der erste Test funkioniert, dieser aber fehlschlägt, bestätigt dies dass der Provider NAT64/DNS64 einsetzt. In diesem Fall müssen Sie Webseiten über Ihren Namen aufrufen und nicht direkt über Ihre IP-Adresse.
+  detail_ipv6: Dieser Test versucht eine Verbindung direkt zu einer IPv6 Adresse zu erstellen (ohne DNS). Der Hauptgrund für diesen Test ist es Ihre IPv6 Konnektivität unabhängig von der IPv6 Namensauflösung zu testen. Ein weiterer Zweck ist zu prüfen ob Teredo aktiviert ist. Einige Systeme benutzen Teredo nur falls eine IPv6 Adresse im URL angeben wird.
+  detail_v6mtu: Stellt sicher das IPv6 Anfragen mit grossen Paketen funktionieren. Falls dieser Test in einer Zeitüberschreitung resultiert, andere IPv6 Tests jedoch funktionieren, liegt vermutlich ein Problem mit der PMTUD (Path MTU Detection) vor. Tritt oft im Zusammenhang mit IP Tunnels auf.
+  summary1: Falls aus der Ergebniszusammenfassung Probleme hervorgehen, können Sie (oder Ihr technischer Support) anhand der oben aufgeführten Information die Probleme diagnostizieren. Jeder Test URL and dessen Ergebnis wird jeweils links angezeit. Rechts sehen Sie eine Beschreibung was der entsprechende URL testen soll.
+  summary2: Falls die Ergebniszusmmenfassung nicht mit den obenaufgeführten Symptomen übereinstimmt, oder Sie weitereführende Hilfe benötigen dürfen Sie uns gerne kontaktieren.
+  bonus: (Dies gibt Zusatzpunkte) 
+  detail_dsmtu: Es wird überprüft ob Ihr Browser einen Dual Stack Server erreichen kann (wie beim Test mit Dual Stack DNS Eintrag) und ob große Pakete über die Verbindung gesendet und empfangen werden können. Falls dieser Test aus irgendeinem Grund mit Time-Out fehlschlägt, ist mit Problemen am World IPv6 Tag zu rechnen.
+
+html_tests:
+  test_a: Test mit IPv4 DNS Eintrag    
+  test_aaaa: Test mit IPv6 DNS Eintrag
+  test_ds: Test mit Dual Stack DNS Eintrag
+  test_v6ns: Test ob der DNS server des ISP IPv6 unterstützt
+  test_ipv4: Test IPv4 ohne DNS
+  test_ipv6: Test IPv6 ohne DNS
+  test_v6mtu: Test grosse IPv6 Pakete
+  test_dsmtu: Test mit Dual Stack und grosse Pakete
