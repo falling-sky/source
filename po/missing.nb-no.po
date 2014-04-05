@@ -1132,8 +1132,7 @@ msgstr ""
 msgid "Q: Is your code open source?"
 msgstr ""
 
-# not in template, but needed
-#: unsure
+#: source.html
 msgid "Yes. Use it however you want. I would appreciate your giving me credit, and contributing to the <a href=\"https://github.com/falling-sky\">falling-sky</a> project, but those are not requirements."
 msgstr ""
 

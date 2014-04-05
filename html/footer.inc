@@ -4,7 +4,7 @@
 
  <a href="mirrors.html">[% " Mirrors " | i18n %]</a> |
  <a href="mission.html">[% " Mission " | i18n %]</a> |
- <a href="source.html">[% " Source " | i18n %]</a> |
+ <a href="https://github.com/falling-sky/source/wiki">[% " Source " | i18n %]</a> |
  <a href="mailto:jfesler@test-ipv6.com?subject=test-ipv6.com">[% " Email " | i18n %]</a>
  - &nbsp; - 
 <a href="attributions.html">[% " Attributions " | i18n %]</a>
