@@ -1,2 +1,2 @@
-Redirect 307 /htrev/ /?htrev=[% GET svn_Revision %]
+Redirect 307 /htrev/ /?htrev=[% GET git_Revision %]
 

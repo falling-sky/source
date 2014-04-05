@@ -62,9 +62,12 @@ require( $argv{config} . ".local" ) if ( -f ( $argv{config} . ".local" ) );
 
 $VARS->{"subdomain"} ||= $VARS->{"domain"};    # When generating hostnames, use this specific domain instead.  Defaults to just the domain name.
 
-get_svn();
+#get_svn();
+get_git();
 
-$VARS->{"version"} = $VARS->{"svn_Revision"} . "-" . time;
+#$VARS->{"version"} = $VARS->{"svn_Revision"} . "-" . time;
+
+$VARS->{"version"} = `../dist_support/git-revision.sh`;
 
 $VARS->{"AddLanguage"} = get_addlanguage(@LANG);
 
@@ -374,7 +377,7 @@ sub fixup_apache {
         next unless (/./);
         $ctx->add($_) unless (/BUILDMD5HASH/);    # Ignore the lines that might be volatile
     }
-    $digest = join( "-", $VARS->{"svn_Revision"}, $ctx->hexdigest );
+    $digest = join( "-", $VARS->{"git_Revision"}, $ctx->hexdigest );
     print "digest 2 $digest\n";
     system( "perl", "-pi", "-e", "s/BUILDMD5HASH/$digest/g", @files );
 } ## end sub fixup_apache
@@ -519,6 +522,41 @@ sub get_svn {
         $VARS->{ "svn_" . $a } = $b;
     }
 }
+
+sub get_git {
+  my $remotes = `TZ=UTC git remote -v`;
+  my ($fetch,$push);
+  $DB::single=1;
+  if ($remotes =~ /origin\s+(\S+)\s+\(fetch\)/ms) {
+    $fetch=$1;
+  }
+  if ($remotes =~ /origin\s+(\S+)\s+\(push\)/ms) {
+    $push=$1;
+  }
+  my $revisioncount=`git log --oneline | wc -l`;
+  my $projectversion=`git describe --tags --long`;
+  my ($cleanversion) = split(/-/,$projectversion);
+  my $version = "$cleanversion.$revisioncount";
+  my $last = `TZ=UTC git log -1 --format=%cd`;
+  
+  chomp $fetch;
+  chomp $push;
+  chomp $revisioncount;
+  chomp $projectversion;
+  chomp $cleanversion;
+  chomp $version;
+  chomp $last;
+  
+  
+  $VARS->{git_URL} = $fetch||$push;
+  $VARS->{git_Revision} = $version;
+  $VARS->{git_Last_Changed_Date}=$last;
+  
+#echo "$projectversion-$revisioncount"
+#echo "$cleanversion.$revisioncount"
+  
+}
+
 
 sub get_addlanguage {
     my (@list) = @_;
