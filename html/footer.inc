@@ -1,6 +1,6 @@
 <hr/>
 <div id="about">
-<p>  Copyright (C) 2010, 2014 Jason Fesler. [% " All rights reserved. " | i18n %] -- r[% GET git_Revision %]<br/>
+<p>  Copyright (C) 2010, 2014 Jason Fesler. [% " All rights reserved. " | i18n %]  Version [% GET git_Revision %]<br/>
 
  <a href="mirrors.html">[% " Mirrors " | i18n %]</a> |
  <a href="mission.html">[% " Mission " | i18n %]</a> |
