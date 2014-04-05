@@ -1705,7 +1705,7 @@ msgid "Q: Is your code open source?"
 msgstr ""
 
 #: source.html
-msgid "Yes. Use it however you want. I would appreciate your giving me credit, and contributing to the <a href=\"http://code.google.com/p/falling-sky/\">falling-sky</a> project, but those are not requirements."
+msgid "Yes. Use it however you want. I would appreciate your giving me credit, and contributing to the <a href=\"https://github.com/falling-sky\">falling-sky</a> project, but those are not requirements."
 msgstr ""
 
 #: source.html
@@ -1761,10 +1761,6 @@ msgid "issues/bugs/todo"
 msgstr ""
 
 #: source.html
-msgid "changes made"
-msgstr ""
-
-#: source.html
 msgid "Q: How do I stay in touch?"
 msgstr ""
 
@@ -1774,10 +1770,6 @@ msgstr ""
 
 #: source.html
 msgid "Read the archives:"
-msgstr ""
-
-#: source.html
-msgid "Subscribe to a feed:"
 msgstr ""
 
 #: faq_6to4.html
