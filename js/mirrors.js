@@ -160,7 +160,7 @@ GIGO.mirrors = [{
     "site": "test-ipv6.co.za",
     "loc": "ZA",
     "provider": "Neology",
-    "hide": 1
+    "hide": 0
 }, {
     "site": "test-ipv6.vtt.net",
     "loc": "RU",
@@ -175,5 +175,10 @@ GIGO.mirrors = [{
     "site": "test-ipv6.go6.si",
     "loc": "SI",
     "provider": "Go6 Lab - Slovenian IPv6 Iniciative",
+    "hide": 0
+}, {
+    "site": "v6research.net",
+    "loc": "US",
+    "provider": "Bill Cerveny",
     "hide": 0
 }];
