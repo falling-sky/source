@@ -1,7 +1,0 @@
-<p>Si vous aimez la technologie, vous pouvez devenir un 'early adopter' d'IPv6, par exemple
-en apprenant plus &agrave; propos
-des fournisseurs <a href="#" onclick="return help_page('faq_6to4.html','6to4')">6to4</a> (service de tunnel 6to4 administr&eacute;s).  
-L'utilisation des tunnels publiques est <a href="#" onclick="return help_page('faq_6to4.html','6to4')">d&eacute;courag&eacute;e</a>.
-Les utilisateurs Windows peuvent aussi envisager d'utiliser
-<a href="#" onclick="return help_page('faq_teredo.html','Teredo')">Teredo</a>.
-</p>
