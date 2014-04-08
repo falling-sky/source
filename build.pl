@@ -24,7 +24,7 @@ use FSi18n::MultipleRead;
 
 use strict;
 
-@LANG = qw( en-us fr zh-cn cs de hu-hu  nb-no sv pt-br ja-jp ru nl hr );
+@LANG = get_lang("po/falling-sky.*.po");
 
 
 chdir $Bin or die "Could not chdir $Bin : $!";
@@ -195,7 +195,7 @@ $pm->wait_all_children;
 die "Errors with --lang value(s) @errors" if (@errors);
 
 foreach my $p (@PROCESS_APACHE) {
-    process_apache( $p, "en-us" );
+    process_apache( $p, "en_US" );
 }
 
 fixup_apache( "$INSTALL/.htaccess", "$INSTALL/vhost-long.conf.example" );
@@ -219,7 +219,7 @@ sub process {
     if ( $name =~ /html|js/ ) {
         $lname .= "." . $lang;    # For localized content.
     } else {
-        return unless ( $lang =~ /en-us/ );
+        return unless ( $lang =~ /en_US/ );
     }
 
     print "Processing: $lang\: $type/$name\n";
@@ -477,8 +477,8 @@ sub newest_mtime {
     if ( $file =~ /\.(html|js|css)/ ) {
         if ( -f "$file\.$lang" ) {
             $file = "$file\.$lang";
-        } elsif ( -f "$file.en-us" ) {
-            $file = "$file\.en-us";
+        } elsif ( -f "$file.en_US" ) {
+            $file = "$file\.en_US";
         }
     }
 
@@ -560,10 +560,14 @@ sub get_git {
 
 sub get_addlanguage {
     my (@list) = @_;
-    my ($string);
+    my ($string)="";
+    my %seen;
     foreach my $lang (@list) {
         next if ( $lang eq "pot" );
-        $string .= "AddLanguage $lang .$lang\n";
+        
+        my($a,$b) = split(/_/,$lang);
+        $string .= "AddLanguage $a .$lang\n" unless ($seen{$a}++);
+        $string .= "AddLanguage $a-$b .$lang\n";
     }
     return $string;
 }
@@ -608,3 +612,20 @@ sub filter_i18n_factory {
     }
 
 } ## end sub filter_i18n_factory
+
+
+sub get_lang {
+  my($glob) = @_;
+  my(@files) = glob($glob);
+  my @return = ("en_US");
+  foreach my $file (@files) {
+    print "file $file\n";
+    if ($file =~ /\.([^.]+)\.po/) {
+      next if ($1 eq "en_US");
+      push(@return,$1);
+    }
+  }
+  
+  print "Langauges: @return\n";
+  return @return;
+}
