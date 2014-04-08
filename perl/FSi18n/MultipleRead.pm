@@ -18,17 +18,17 @@ sub new {
     $template->read_file;
     $self->{template}=$template;
     
-    my $missing = FSi18n->new(basename=>"missing", locale=>$params[0]);
-    $self->{missing}=$missing;
+#    my $missing = FSi18n->new(basename=>"missing", locale=>$params[0]);
+#    $self->{missing}=$missing;
     
     my @try;
     foreach my $locale (@params) {
       my($atl,$atr) = split(/@/,$locale);
-      my($dl,$dr) = split(/-/,$atl);
+      my($dl,$dr) = split(/_/,$atl);
       push(@try,"$dl");
-      push(@try,"$dl-$dr") if ($dr);
+      push(@try,"$dl\_$dr") if ($dr);
       push(@try,"$dl\@$atr") if ($atr);
-      push(@try,"$dl-$dr\@$atr") if ($dr && $atr);
+      push(@try,"$dl\_$dr\@$atr") if ($dr && $atr);
     }
     
     # Try loading each of them
@@ -41,7 +41,7 @@ sub new {
         print STDERR "Found $filename\n";
         push(@found,$i18n);
       } else {
-        print STDERR "Missing $filename\n";
+#        print STDERR "Missing $filename\n";
       }
     }
     
@@ -68,6 +68,7 @@ sub find {
   # Crap.  Nothing.
   # Find it in the template, mostly so we can find the location.
 #  warn "Missing from templates and translations: $find\n";
+
   my $found = $self->{template}->find($find,$msgctxt);
   if (!$found) {
     # Wow, even missing in the template?
@@ -78,7 +79,7 @@ sub find {
     $found->msgctxt($msgctxt);
   }
   $found->msgstr("");
-  $self->{missing}->add($find,$msgctxt,$found);
+#  $self->{missing}->add($find,$msgctxt,$found);
   return $found;
 }
 
@@ -96,9 +97,9 @@ sub find_text {
 
 sub write_file {
   my $self = shift;
-  if ($self->{missing}) {
-   $self->{missing}->write_file();
-  }
+#  if ($self->{missing}) {
+#   $self->{missing}->write_file();
+#  }
 }
 
 

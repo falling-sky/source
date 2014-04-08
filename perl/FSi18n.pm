@@ -52,7 +52,7 @@ sub filename {
   if ($self->{filename}) {
    $filename =  $self->{filename};
   } else {
-   $filename = sprintf("%s.%s.po",$self->basename,$self->locale);
+   $filename = sprintf("%s/%s.%s.po",$self->locale,$self->basename,$self->locale);
   }
   if ($filename =~ m#^/#) {
     return $filename;

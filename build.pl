@@ -24,7 +24,7 @@ use FSi18n::MultipleRead;
 
 use strict;
 
-@LANG = get_lang("po/falling-sky.*.po");
+@LANG = get_lang("po/*/falling-sky.*.po");
 
 
 chdir $Bin or die "Could not chdir $Bin : $!";
@@ -142,8 +142,8 @@ $pm->run_on_finish(
 );
 
 
-sub run_lang  {
-  my $lang = shift;
+sub run_lang {
+    my $lang = shift;
     my $pid = $pm->start($lang) and return;
 
 #    if ( system( "./build-text.pl", $lang ) != 0 ) {
@@ -155,17 +155,18 @@ sub run_lang  {
 
     my $i18n;
     print "Preparing POT for $lang\n";
-        
+
     if ( $lang eq "pot" ) {
+
         # Create a new pot.
         $i18n = new FSi18n( lang => $lang );
         $i18n->filename("falling-sky.pot");
 
         # $i18n->read_file();  # Do we have an existing file?  # You know, I don't care.
         my $poheader = $i18n->poheader();
-        $i18n->add( "", undef,$poheader );
+        $i18n->add( "", undef, $poheader );
     } else {
-        $i18n = new FSi18n::MultipleRead("falling-sky.pot",$lang );
+        $i18n = new FSi18n::MultipleRead( "falling-sky.pot", $lang );
         die "unable to find any files for $lang" unless ($i18n);
     }
 
@@ -173,12 +174,10 @@ sub run_lang  {
         process( $p, $lang, $i18n );
     }
 
-
-        $i18n->write_file();
-       
+    $i18n->write_file();
 
     $pm->finish();
-}
+} ## end sub run_lang
 
 # Always run "pot". With force.
 { 
