@@ -412,10 +412,6 @@ msgstr ""
 msgid "Your Internet help desk may ask you for the information below."
 msgstr ""
 
-#: index.js
-msgid "crowdin translation check"
-msgstr ""
-
 #: header.inc
 msgid "Test your IPv6."
 msgstr ""
