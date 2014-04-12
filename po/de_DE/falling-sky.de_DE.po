@@ -1,6 +1,6 @@
 msgid ""
 msgstr "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2014-04-08 01:02-0400\n"
+"PO-Revision-Date: 2014-04-12 10:30-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: German\n"
 "MIME-Version: 1.0\n"
@@ -12,23 +12,23 @@ msgstr "Project-Id-Version: falling-sky\n"
 
 #: mirrorconfig.js
 msgid "This mirror is provided by"
-msgstr "This mirror is provided by"
+msgstr "Dieser Spiegel wird durch bereitgestellt"
 
 #: messages.js
 msgid "bad"
-msgstr "bad"
+msgstr "schlecht"
 
 #: messages.js
 msgid "ok"
-msgstr "ok"
+msgstr "Okay"
 
 #: messages.js
 msgid "slow"
-msgstr "slow"
+msgstr "langsam"
 
 #: messages.js
 msgid "timeout"
-msgstr "timeout"
+msgstr "Zeitüberschreitung"
 
 #: messages.js
 msgid "Connections to urls with IP addresses appear to be blocked; perhaps by a web filter such as 'NoScript' or 'RequestPolicy' installed into your browser, or filtering in your proxy server. This limits some of the functionality of this test site."
@@ -56,7 +56,7 @@ msgstr "Es scheint Sie benutzen Teredo um eine IPv6 Verbindung herzustellen. Ter
 
 #: messages.js
 msgid "Your IPv6 connection appears to be using Teredo, a type of IPv4/IPv6 gateway. Your particular teredo configuration is only used as a protocol of last resort. When visiting a site with both IPv4 and IPv6, IPv4 will be preferred."
-msgstr "Your IPv6 connection appears to be using Teredo, a type of IPv4/IPv6 gateway. Your particular teredo configuration is only used as a protocol of last resort. When visiting a site with both IPv4 and IPv6, IPv4 will be preferred."
+msgstr "Die IPv6-Verbindung verwendet Teredo, eine Art von IPv4/IPv6-Gateway. Ihre besondere Teredo-Konfiguration wird nur als letztes Ausweich-Protokoll verwendet. Beim Besuch einer Website mit IPv4 und IPv6, wird IPv4 bevorzugt."
 
 #: messages.js
 msgid "Danger! IPv6 sorta works - however, large packets appear to fail, giving the appearance of a broken website. If a publisher publishes to IPv6, you will believe their web site to be broken. Ask your ISP about MTU issues; possibly with your tunnel."
@@ -124,7 +124,7 @@ msgstr "Die wahrscheinlichste Ursache ist NoScript oder AdBlock+. NoScript kann 
 
 #: messages.js
 msgid "NAT64 detected. IPv6 works. IPv4 works for most purposes. Applications that are hard-coded for IPv4-only will fail. We are aware of at least one major voice-over-ip program that falls into this category. Your application's support staff may need a nudge to add proper IPv6 support."
-msgstr "NAT64 detected. IPv6 works. IPv4 works for most purposes. Applications that are hard-coded for IPv4-only will fail. We are aware of at least one major voice-over-ip program that falls into this category. Your application's support staff may need a nudge to add proper IPv6 support."
+msgstr "NAT64 erkannt. IPv6 funktioniert. IPv4 funktioniert für die meisten Zwecke. Anwendungen, die hartcodiert für IPv4-only sind scheitern. Wir kennen mindestens ein wichtiges voice-over-Ip-Programm, das in diese Kategorie fällt. Support-Mitarbeiter Ihrer Anwendung brauchen möglicherweise einen Schubs, um eine richtige IPv6-Unterstützung hinzuzufügen."
 
 #: messages.js
 msgid "Your DNS server (possibly run by your ISP) appears to have IPv6 Internet access."
@@ -144,7 +144,7 @@ msgstr "Die Namensauflösung eines Nur-IPv6 Namens ist fehlgeschlagen, dennoch i
 
 #: messages.js
 msgid "A lookup for an IPv6-only name failed; yet the lookup and connect for dual-stack connected via IPv6. The IPv6-only lookup should have worked. Apple has a bug that sporadically causes some IPv6 lookups to fail. We saw evidence of it on this test. You can reload the page and try the test again. For more details, see <a href=\"http://openradar.appspot.com/7333104\">http://openradar.appspot.com/7333104</a>."
-msgstr "A lookup for an IPv6-only name failed; yet the lookup and connect for dual-stack connected via IPv6. The IPv6-only lookup should have worked. Apple has a bug that sporadically causes some IPv6 lookups to fail. We saw evidence of it on this test. You can reload the page and try the test again. For more details, see <a href=\"http://openradar.appspot.com/7333104\">http://openradar.appspot.com/7333104</a>."
+msgstr "Eine DNS Suche für einen reinen IPv6-Namen ist fehlgeschlagen; Doch die DNS-Suche und ein verbinden mit Dual-Stack über IPv6 war erfolgreich. Die reinen IPv6-Suche sollte funktioniert haben. Apple hat einen Bug, der sporadisch einige IPv6-Abfragen fehlschlagen lässt. Mit diesen Test haben wir Beweise davon. Sie können die Seite neu laden und den Test wiederholen. Weitere Informationen finden Sie unter <a href=\"http://openradar.appspot.com/7333104\"> http://openradar.appspot.com/7333104</a>."
 
 #: messages.js
 msgid "A lookup for an dual-stack IPv4 and IPv6 name failed (at minimum it should have connected via IPv4). Apple has a bug that sporadically causes some IPv6 lookups to fail. We saw evidence of it on this test. You can reload the page and try the test again. For more details, see <a href=\"http://openradar.appspot.com/7333104\">http://openradar.appspot.com/7333104</a>."
@@ -500,7 +500,7 @@ msgstr "Fehlersuche"
 
 #: main/tabnav.inc
 msgid "Other IPv6 Sites"
-msgstr "Other IPv6 Sites"
+msgstr "Andere IPv6-Standorte"
 
 #: main/tests.inc
 msgid "How this test works:"
@@ -552,11 +552,11 @@ msgstr "Test ob der DNS server des ISP IPv6 unterstützt"
 
 #: main/tests.inc
 msgid "Find IPv4 Service Provider"
-msgstr "Find IPv4 Service Provider"
+msgstr "IPv4-Dienstleister finden"
 
 #: main/tests.inc
 msgid "Find IPv6 Service Provider"
-msgstr "Find IPv6 Service Provider"
+msgstr "IPv6-Dienstleister finden"
 
 #: main/tests.inc
 msgid "Test for buggy DNS"
