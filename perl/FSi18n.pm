@@ -3,16 +3,23 @@ package FSi18n;
 use Data::Dumper;
 use YAML::Syck;
 use strict;
-use Locale::PO ;
+#use Locale::PO ;
+use FSi18n::PO;
 
 
 sub new {
     my ( $class, @params ) = @_;
     my $self = bless { }, $class;    # returns blessed MyPlugin object
-    $self->{aref} = [];
-    $self->{href} = {};
-    $self->{basename}="falling-sky";
-    $self->{locale}="en-us";
+    $self->init(@params);
+    return $self;
+} 
+
+sub init {
+  my ($self,@params) = @_;
+    $self->{aref} ||= [];
+    $self->{href} ||= {};
+    $self->{basename}||="falling-sky";
+    $self->{locale}||="en_US";
     $self->{dir}="po";
     if (@params) {
       my %extra = @params;
@@ -77,13 +84,13 @@ sub read_file {
   my $self = shift;
   my $filename = $self->filename;
   $DB::single=1;
-  my $aref =  Locale::PO->load_file_asarray($filename);
+  my $aref =  FSi18n::PO->load_file_asarray($filename);
   if ($aref) {
     $self->{aref} = $aref;
     $self->scan_array();
     return $aref;
   } else {
-    warn "Could not read $filename: $!";
+    die "Could not read $filename: $!";
     return;
   }  
 }
@@ -129,6 +136,18 @@ sub find {
     }
 }
 
+sub find_text {
+ my $self = shift;
+ my $find = shift;
+  my $msgctxt = shift;
+ my $found = $self->find($find,$msgctxt);
+ if (($found) && ($found->msgstr)){
+   my $dq = $found->dequote($found->msgstr);
+   return $dq if ($dq);
+ }
+ return $find;
+}
+
 sub add {
     my $self    = shift;
     my $find    = shift;
@@ -147,7 +166,7 @@ sub add {
 sub poheader {
     my $self     = shift;
     my $locale   = $self->locale;
-    my $poheader = Locale::PO->new();
+    my $poheader = FSi18n::PO->new();
     $poheader->msgid("");
     $poheader->msgstr(   "Project-Id-Version: PACKAGE VERSION\\n"
                        . "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\\n"

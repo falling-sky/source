@@ -8,7 +8,7 @@ use Cwd;
 use FindBin qw($Bin);
 use lib "$Bin/perl";
 
-use vars qw( @LANG %COMPRESS  $RUN_YUIC_JS $RUN_YUIC_CSS @PROCESS @PROCESS_APACHE $VARS $INSTALL  %mtime_cache);
+use vars qw( @LOCALE %COMPRESS  $RUN_YUIC_JS $RUN_YUIC_CSS @PROCESS @PROCESS_APACHE $VARS $INSTALL  %mtime_cache);
 use Getopt::Long;
 use IO::File;
 use Digest::MD5 qw(md5 md5_hex);
@@ -18,13 +18,12 @@ use Template::Provider::Locale;
 use Template::Constants qw(:debug);
 use Template::Plugin::GT;
 use Parallel::ForkManager;
-use FSi18n::PO;
 use FSi18n;
-use FSi18n::MultipleRead;
+use FSi18n::PO;
 
 use strict;
 
-@LANG = get_lang("po/*/falling-sky.*.po");
+@LOCALE = get_locale("po/*/falling-sky.*.po");
 
 
 chdir $Bin or die "Could not chdir $Bin : $!";
@@ -37,7 +36,7 @@ my ( $usage, %argv, %input ) = "";
            "debug"     => "Produce debug output (no compression)",
            "install"   => "put files in install directory instead of compile directory",
            "config=s"  => "config file (default: config.inc + config.local)",
-           "lang=s"    => "build just one langauge (default: all known)",
+           "locale=s"    => "build just one locale (default: all known)",
            "type=s"    => "build just one type of file (default: all types; options: php html js)",
            "verbose"   => "be chatty about what's going on",
            "maxjobs=i" => "max jobs to run in parallel",
@@ -55,7 +54,7 @@ if ( ( !$result ) || ( $argv{h} ) ) {
 
 $argv{"config"} ||= "./config.inc";
 
-@LANG = split( /[\s,]+/, $argv{"lang"} ) if ( $argv{"lang"} );
+@LOCALE = split( /[\s,]+/, $argv{"locale"} ) if ( $argv{"locale"} );
 
 require( $argv{config} );
 require( $argv{config} . ".local" ) if ( -f ( $argv{config} . ".local" ) );
@@ -69,7 +68,7 @@ get_git();
 
 $VARS->{"version"} = `../dist_support/git-revision.sh`;
 
-$VARS->{"AddLanguage"} = get_addlanguage(@LANG);
+$VARS->{"AddLanguage"} = get_addlanguage(@LOCALE);
 
 # Text portion is seperate.
 
@@ -142,56 +141,50 @@ $pm->run_on_finish(
 );
 
 
-sub run_lang {
-    my $lang = shift;
-    my $pid = $pm->start($lang) and return;
-
-#    if ( system( "./build-text.pl", $lang ) != 0 ) {
-#        die "failed to run .built-text.pl $lang";
-#    }
-
-    # TODO either start new POT files
-    # or read PO files (in order of least specific to most specific)
+sub run_locale {
+    my $locale = shift;
+    my $pid = $pm->start($locale) and return;
 
     my $i18n;
-    print "Preparing POT for $lang\n";
+    print "Preparing locale for $locale\n";
 
-    if ( $lang eq "pot" ) {
+    if ( $locale eq "pot" ) {
 
         # Create a new pot.
-        $i18n = new FSi18n( lang => $lang );
+        $i18n = new FSi18n( locale => $locale );
         $i18n->filename("falling-sky.pot");
 
-        # $i18n->read_file();  # Do we have an existing file?  # You know, I don't care.
         my $poheader = $i18n->poheader();
         $i18n->add( "", undef, $poheader );
     } else {
-        $i18n = new FSi18n::MultipleRead( "falling-sky.pot", $lang );
-        die "unable to find any files for $lang" unless ($i18n);
+         $DB::single=1;
+         $i18n = new FSi18n( locale => $locale );
+         $i18n->filename("falling-sky.pot") if ($locale eq "en_US");
+         $i18n->read_file();  # Dies if missing.
     }
 
     foreach my $p (@PROCESS) {
-        process( $p, $lang, $i18n );
+        process( $p, $locale, $i18n );
     }
 
     $i18n->write_file();
 
     $pm->finish();
-} ## end sub run_lang
+} ## end sub run_locale
 
 # Always run "pot". With force.
 { 
  local $argv{"force"} = 1;
- run_lang("pot");
+ run_locale("pot");
 }
-foreach my $lang (@LANG) {
-  run_lang($lang) unless ($lang eq "pot");
-} ## end foreach my $lang (@LANG)
+foreach my $locale (@LOCALE) {
+  run_locale($locale) unless ($locale eq "pot");
+} ## end foreach my $locale (@LANG)
 
 
 
 $pm->wait_all_children;
-die "Errors with --lang value(s) @errors" if (@errors);
+die "Errors with --locale value(s) @errors" if (@errors);
 
 foreach my $p (@PROCESS_APACHE) {
     process_apache( $p, "en_US" );
@@ -209,19 +202,19 @@ sub prepdir_for_file {
 }
 
 sub process {
-    my ( $aref, $lang, $i18n ) = @_;
+    my ( $aref, $locale, $i18n ) = @_;
     my ( $type, $name ) = @{$aref};
     return if ( ( $argv{"type"} ) && ( $argv{"type"} ne $type ) );
     my $cwd = cwd;
 
     my $lname = $name;
     if ( $name =~ /html|js/ ) {
-        $lname .= "." . $lang;    # For localized content.
+        $lname .= "." . $locale;    # For localized content.
     } else {
-        return unless ( $lang =~ /en_US/ );
+        return unless ( $locale =~ /en_US/ );
     }
 
-    print "Processing: $lang\: $type/$name\n";
+    print "Processing: $locale\: $type/$name\n";
 
     my $new_mtime = ( stat("$INSTALL/$lname") )[9];
 
@@ -231,7 +224,7 @@ sub process {
 
     my %provider_config = ( INCLUDE_PATH => "." );
 
-    my $locale_handler = Template::Provider::Locale->new( { VARS => $VARS, LOCALE => $lang, VERBOSE => $argv{"verbose"} } );
+    my $locale_handler = Template::Provider::Locale->new( { VARS => $VARS, LOCALE => $locale, VERBOSE => $argv{"verbose"} } );
 
     my $template_config = {
         LOAD_PERL      => 1,                          # Locally defined plugins
@@ -251,7 +244,7 @@ sub process {
 #                            DEBUG => DEBUG_ALL,
     };
 
-    my $newest = newest_mtime( $name, $lang );
+    my $newest = newest_mtime( $name, $locale );
     if ( $name =~ /(index|version).html/ ) {
 
 #        $DB::single=1;
@@ -277,11 +270,11 @@ sub process {
     $VARS->{i18n} = $i18n;
     $VARS->{"date_utc"} = strftime( '%d-%b-%Y', gmtime time );
     $VARS->{"compiled"} = scalar localtime time;
-    $VARS->{"lang"}     = $lang;
+    $VARS->{"locale"}     = $locale;
 
-    # In HTML, the lang code should be xx-YY
-    $VARS->{"langUC"} = $lang;
-    $VARS->{"langUC"} =~ s/(-[a-z]+)/uc $1/ge;
+    # In HTML, the locale code should be xx-YY
+    $VARS->{"localeUC"} = $locale;
+    $VARS->{"localeUC"} =~ s/(-[a-z]+)/uc $1/ge;
 
     my $template = Template->new($template_config) or die "Could not create template object";
     my $success = $template->process( $name, $VARS ) || die( "crap!" . $template->error() );
@@ -298,7 +291,7 @@ sub process {
     mkdir $INSTALL unless ( -d $INSTALL );
     die "Missing directory: $INSTALL" unless ( -d $INSTALL );
 
-    if ( $lang ne "pot" ) {
+    if ( $locale ne "pot" ) {
     $DB::single=1;
         our_save( "$INSTALL/$lname", $output );
         our_yui( "$INSTALL/$lname", $type );
@@ -307,7 +300,7 @@ sub process {
 } ## end sub process
 
 sub process_apache {
-    my ( $aref, $lang )  = @_;
+    my ( $aref, $locale )  = @_;
     my ( $name, $lname ) = @{$aref};
     my $type = "apache";
 
@@ -322,7 +315,7 @@ sub process_apache {
 
     my %provider_config = ( INCLUDE_PATH => "." );
 
-    my $locale_handler = Template::Provider::Locale->new( { VARS => $VARS, LOCALE => $lang, VERBOSE => $argv{"verbose"} } );
+    my $locale_handler = Template::Provider::Locale->new( { VARS => $VARS, LOCALE => $locale, VERBOSE => $argv{"verbose"} } );
 
     my $template_config = {
         LOAD_PERL      => 1,                          # Locally defined plugins
@@ -469,13 +462,13 @@ sub showOptionsHelp {
 }
 
 sub newest_mtime {
-    my ( $file, $lang ) = @_;
+    my ( $file, $locale ) = @_;
     return unless ($file);
 
     # If this is a localizable file... localize it.
     if ( $file =~ /\.(html|js|css)/ ) {
-        if ( -f "$file\.$lang" ) {
-            $file = "$file\.$lang";
+        if ( -f "$file\.$locale" ) {
+            $file = "$file\.$locale";
         } elsif ( -f "$file.en_US" ) {
             $file = "$file\.en_US";
         }
@@ -494,7 +487,7 @@ sub newest_mtime {
                 my (@includes) = ( $_ =~ m#\[\%\s+PROCESS\s+"(.*?)"#g );
                 foreach my $inc (@includes) {
                     print "  (scanning $inc)\n" if ( $argv{"debug"} );
-                    my $m = newest_mtime( $inc, $lang );
+                    my $m = newest_mtime( $inc, $locale );
                     if ( ($m) && ( $m > $mtime ) ) {
                         $mtime = $m;
                     }
@@ -561,12 +554,12 @@ sub get_addlanguage {
     my (@list) = @_;
     my ($string)="";
     my %seen;
-    foreach my $lang (@list) {
-        next if ( $lang eq "pot" );
+    foreach my $locale (@list) {
+        next if ( $locale eq "pot" );
         
-        my($a,$b) = split(/_/,$lang);
-        $string .= "AddLanguage $a .$lang\n" unless ($seen{$a}++);
-        $string .= "AddLanguage $a-$b .$lang\n";
+        my($a,$b) = split(/_/,$locale);
+        $string .= "AddLanguage $a .$locale\n" unless ($seen{$a}++);
+        $string .= "AddLanguage $a-$b .$locale\n";
     }
     return $string;
 }
@@ -578,11 +571,11 @@ sub filter_i18n_factory {
 
     my $component_name = $context->stash->get("component")->name;
     my $modtime        = $context->stash->get("component")->modtime;
-    my $lang           = $context->stash->get("lang");
-    my $langUC         = $context->stash->get("langUC");
+    my $locale           = $context->stash->get("locale");
+    my $localeUC         = $context->stash->get("localeUC");
     my $i18n           = $context->stash->get("i18n");
 
-    if ( $lang eq "pot" ) {
+    if ( $locale eq "pot" ) {
         return sub {
             my $text = shift;
             my $lo   = FSi18n::PO->new();    # new() does not (today) actually take the msgid, reference args
@@ -605,6 +598,7 @@ sub filter_i18n_factory {
             $text =~ s/^\s+//;
             $text =~ s/\s+/ /g;  # Canonicalize any size whitespace to single space
             $text =~ s/\s+$//;
+            $DB::single=1;
             my $found = $i18n->find_text($text,$arg1);
             return $found;
         };
@@ -613,18 +607,15 @@ sub filter_i18n_factory {
 } ## end sub filter_i18n_factory
 
 
-sub get_lang {
+sub get_locale {
   my($glob) = @_;
   my(@files) = glob($glob);
   my @return = ("en_US");
   foreach my $file (@files) {
-    print "file $file\n";
     if ($file =~ /\.([^.]+)\.po/) {
       next if ($1 eq "en_US");
       push(@return,$1);
     }
   }
-  
-  print "Langauges: @return\n";
   return @return;
 }
