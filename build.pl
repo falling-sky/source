@@ -274,7 +274,11 @@ sub process {
 
     # In HTML, the locale code should be xx-YY
     $VARS->{"localeUC"} = $locale;
+    $VARS->{"localeUC"} =~ s/_/-/g;
     $VARS->{"localeUC"} =~ s/(-[a-z]+)/uc $1/ge;
+    ($VARS->{"lang"}) = split(/[-_]/,$locale);
+    $VARS->{"langUC"} = uc $VARS->{"lang"};
+    
 
     my $template = Template->new($template_config) or die "Could not create template object";
     my $success = $template->process( $name, $VARS ) || die( "crap!" . $template->error() );
