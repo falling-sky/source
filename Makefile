@@ -1,11 +1,13 @@
 
 
 all: dist-prep
+	cd po && crowdin-cli download
 	./build.pl --maxjobs 8
 	rsync -az work/. gigo.com:/var/www/beta.test-ipv6.com/. --exclude site --delete --progress 
 	- test -f /Applications/Safari.app/Contents/MacOS/Safari && open http://beta.test-ipv6.com/
 
 beta: dist-prep
+	cd po && crowdin-cli download
 	./build.pl --lang en-us --config beta.inc
 	rsync -az work/. gigo.com:/var/www/beta.test-ipv6.com/. --exclude site --delete --progress
 	- test -f /Applications/Safari.app/Contents/MacOS/Safari && open http://beta.test-ipv6.com/isp/
