@@ -217,10 +217,6 @@ msgid "Your browser has real working IPv6 address - but is avoiding using it. We
 msgstr ""
 
 #: messages.js
-msgid "key\": [\"url\", \"text"
-msgstr ""
-
-#: messages.js
 msgid "faq: MTU"
 msgstr ""
 

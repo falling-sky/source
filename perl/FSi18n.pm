@@ -19,8 +19,7 @@ sub init {
     $self->{aref} ||= [];
     $self->{href} ||= {};
     $self->{basename}||="falling-sky";
-    $self->{locale}||="en_US";
-    $self->{dir}="po";
+    $self->{dir}="po/dl";
     if (@params) {
       my %extra = @params;
       @$self{keys %extra}=values %extra;
@@ -35,13 +34,6 @@ sub basename {
   }
   return $self->{basename};
 }
-sub locale {
-  my $self = shift;
-  if (@_ ){
-    $self->{locale}=shift;
-  }
-  return $self->{locale};
-}
 sub dir {
   my $self = shift;
   if (@_) {
@@ -55,17 +47,7 @@ sub filename {
   if (@_) {
     $self->{filename} = shift;
   }
-  my $filename;
-  if ($self->{filename}) {
-   $filename =  $self->{filename};
-  } else {
-   $filename = sprintf("%s/%s.%s.po",$self->locale,$self->basename,$self->locale);
-  }
-  if ($filename =~ m#^/#) {
-    return $filename;
-  } else {
-    return sprintf("%s/%s",$self->dir,$filename);
-  }
+  return $self->{filename} || "unspecified.po";
 }
 
 sub scan_array {
@@ -165,7 +147,6 @@ sub add {
 
 sub poheader {
     my $self     = shift;
-    my $locale   = $self->locale;
     my $poheader = FSi18n::PO->new();
     $poheader->msgid("");
     $poheader->msgstr(   "Project-Id-Version: PACKAGE VERSION\\n"

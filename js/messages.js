@@ -69,8 +69,7 @@ GIGO.messages_popups = {
 // These are not just strings, but arrays,
 // #1: url
 // #2: link text to show (translate this!)
-// Between the first and second string, it must be a comma and a space.
-//  ie: "[% 'key":  ["url", "text' | i18n %]"] 
+// Between the first and second string, there must be a comma and a space.
     "dualstack:mtu": ["faq_pmtud.html", "[% 'faq: MTU' | i18n %]"],
     "IPv6 MTU": ["faq_pmtud.html", "[% 'faq: MTU' | i18n %]"],
     "ipv4:no_address": ["faq_ipv4_only.html", "[% 'faq: No IPv4' | i18n %]"],

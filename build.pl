@@ -23,7 +23,7 @@ use FSi18n::PO;
 
 use strict;
 
-@LOCALE = get_locale("po/*/falling-sky.*.po");
+@LOCALE = get_locale("po/dl/*/falling-sky.*.po");
 
 
 chdir $Bin or die "Could not chdir $Bin : $!";
@@ -152,13 +152,27 @@ sub run_locale {
 
         # Create a new pot.
         $i18n = new FSi18n( locale => $locale );
-        $i18n->filename("falling-sky.pot");
+        $i18n->filename("po/falling-sky.pot");
 
         my $poheader = $i18n->poheader();
         $i18n->add( "", undef, $poheader );
+    } elsif ($locale eq "en_US") {
+        $i18n = new FSi18n( locale => $locale );
+        $i18n->filename("po/falling-sky.pot");
+                 $i18n->read_file();  # Dies if missing.
+                            
     } else {
          $DB::single=1;
          $i18n = new FSi18n( locale => $locale );
+         my $pattern = "po/dl/*/falling-sky.$locale.po";
+         my ($found) = glob($pattern);
+         if ($found) {
+           $i18n->filename($found);
+         } else {
+           die "could not find $pattern\n";
+         }
+         
+         
          $i18n->filename("falling-sky.pot") if ($locale eq "en_US");
          $i18n->read_file();  # Dies if missing.
     }
