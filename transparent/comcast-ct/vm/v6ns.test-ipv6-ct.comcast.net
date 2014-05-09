@@ -1,0 +1,29 @@
+
+;################################################################
+;# ZONE: v6ns.test-ipv6-ct.comcast.net. 
+;# Put this on the VM operating your test-ipv6.com mirror.
+;# Do NOT put this on your main DNS server.
+;################################################################
+
+$TTL 300
+@	IN SOA v6ns1.test-ipv6-ct.comcast.net. domregtech.comcastonline.com. (
+  2014050901 ; Serial
+  86400 ; Refresh
+  7200  ; Retry
+  604800 ; Expire
+  172800) ; Minimum
+
+		NS	v6ns1.test-ipv6-ct.comcast.net.
+
+; Specific records for tests
+ipv4		A	96.119.0.221
+ipv6		AAAA	2001:558:fc00:100:f816:3eff:fe2b:6488
+ds		A	96.119.0.221
+ds		AAAA	2001:558:fc00:100:f816:3eff:fe2b:6488
+a		A	96.119.0.221
+aaaa		AAAA	2001:558:fc00:100:f816:3eff:fe2b:6488
+www4		A	96.119.0.221
+www6		AAAA	2001:558:fc00:100:f816:3eff:fe2b:6488
+v4		A	96.119.0.221
+v6		AAAA	2001:558:fc00:100:f816:3eff:fe2b:6488
+
