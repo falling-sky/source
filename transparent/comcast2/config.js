@@ -15,9 +15,9 @@ MirrorConfig =
   
   "footer": {
     "#logo": "",
-    "operator": "Jason Fesler",
-    "link": "http://gigo.com",
-    "#html": "/site/footer.html"
+    "#operator": "Jason Fesler",
+    "#link": "http://gigo.com",
+    "html": "/site/footer.html"
   },
   
   "options": {

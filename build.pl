@@ -77,6 +77,7 @@ $VARS->{"AddLanguage"} = get_addlanguage(@LOCALE);
     [ "css",  "index.css" ],
     [ "html", "index.html" ],
     [ "html", "neg.html" ],
+    [ "html", "comcast.html" ],
 
     [ "html", "faq_helpdesk.html" ],
     [ "html", "broken.html" ],
