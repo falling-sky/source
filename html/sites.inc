@@ -34,7 +34,7 @@ URLs are being used. " | i18n %]
 
   <div class="answer">
     [% "Full mirrors are welcomed and appreciated, whether public or private.
-    Please see <a href=\"http://code.google.com/p/falling-sky/wiki/MirrorOpportunities\">the wiki</a> for details. " | i18n %]
+    Please see <a href=\"https://github.com/falling-sky/source/wiki\">the wiki</a> for details. " | i18n %]
   </div>
 
   
