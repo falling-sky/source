@@ -1,0 +1,72 @@
+diff --git a/html/list-nav.inc b/html/list-nav.inc
+index aa82016..c3de7ee 100644
+--- a/html/list-nav.inc
++++ b/html/list-nav.inc
+@@ -1,17 +1,17 @@
+ <div id="navcontainer">
+ <ul id="navlist">
+ 
+-<li><a href="/" 
++<li><a href="/index.html.[% GET locale %]" 
+ [% IF page == "index" %] id="current" [% SET tabbed = 1 %] [% END %]>[% "Test IPv6" | i18n %]</a></li>
+ 
+ 
+ 
+-<li><a href="/faq.html" 
++<li><a href="/faq.html.[% GET locale %]" 
+ [% IF page == "faq" %] id="current" [% SET tabbed = 1 %] [% END %]>[% "FAQ" | i18n %]</a></li>
+ 
+ 
+ 
+-<li><a href="/mirrors.html" 
++<li><a href="/mirrors.html.[% GET locale %]" 
+ [% IF page == "mirrors" %] id="current" [% SET tabbed = 1 %] [% END %]>[% "Mirrors" | i18n %]</a></li>
+ 
+ 
+@@ -29,7 +29,7 @@ id="current">[% GET page %]</a></li>
+ [% END %]
+ 
+ 
+-  <li class=navright tabname=stats style="display:none"><a href="/stats.html" tabname=stats 
++  <li class=navright tabname=stats style="display:none"><a href="/stats.html.[% GET locale %]" tabname=stats 
+   [% IF page == "stats" %] id="current" [% SET tabbed = 1 %] [% END %]>[% "stats" | i18n %]</a></li>
+ 
+ 
+diff --git a/html/main/helpdesk.inc b/html/main/helpdesk.inc
+index 0aabcbf..6314011 100644
+--- a/html/main/helpdesk.inc
++++ b/html/main/helpdesk.inc
+@@ -15,7 +15,9 @@
+ <p>
+ <span style="font-size: x-small">
+ More information about this page, including how to bookmark it:
+-<a href="/faq_helpdesk.html">faq_helpdesk.html</a>.</span>
++
++ <a href='#' onclick='return help_page(\"faq_helpdesk.html\",\"Helpdesk FAQ\")'>Helpdesk FAQ</a>
++.</span>
+ </p>
+ 
+ 
+diff --git a/js/GIGO.js b/js/GIGO.js
+index b09df62..273532a 100644
+--- a/js/GIGO.js
++++ b/js/GIGO.js
+@@ -1,4 +1,5 @@
+ var GIGO = {}; // We will use this as a name space.
++GIGO.locale = "[% GET locale %]";
+ 
+ /*!
+  * Copyright 2010 Jason Fesler.  All rights reserved.
+diff --git a/js/builtin.js b/js/builtin.js
+index c73a629..a8a409c 100644
+--- a/js/builtin.js
++++ b/js/builtin.js
+@@ -522,7 +522,7 @@ GIGO.help_popup = function (file, tabname, popup) {
+         // hostname (instead of the 'current server');  This is to
+         // avoid cross-domain problems.
+         hostname = String(document.location.hostname);
+-        file = "http://" + hostname + "/" + file;
++        file = "http://" + hostname + "/" + file  + "." + GIGO.locale;
+ 
+         jQuery(handle).html("[% 'loading...' | i18n %]"); // Loading indicator.    
+         jQuery(handle).load(file + " #content", function (responseText, textStatus) {
