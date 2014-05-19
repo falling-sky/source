@@ -20,7 +20,7 @@ GIGO.mirrors = [{
     "site": "test-ipv6.at",
     "loc": "AT",
     "provider": "Silver Server GmbH",
-    "hide": 0
+    "hide": 1
 }, {
     "site": "test-ipv6.waia.asn.au",
     "loc": "AU",
@@ -30,7 +30,7 @@ GIGO.mirrors = [{
     "site": "test-ipv6.cz",
     "loc": "CZ",
     "provider": "nic.cz",
-    "hide": 0
+    "hide": 1
 }, {
     "site": "test-ipv6.monash.edu",
     "loc": "AU",
@@ -45,7 +45,7 @@ GIGO.mirrors = [{
     "site": "test-ipv6.internet.fo",
     "loc": "FO",
     "provider": "Faroese Telecom",
-    "hide": 0
+    "hide": 1
 }, {
     "site": "test-ipv6.sth.sze.hu",
     "loc": "HU",
@@ -86,7 +86,7 @@ GIGO.mirrors = [{
     "site": "test-ipv6.se",
     "loc": "SE",
     "provider": "Interlan Gefle AB",
-    "hide": 0
+    "hide": 1
 }, {
     "site": "test-ipv6.ams.vr.org",
     "loc": "NL",

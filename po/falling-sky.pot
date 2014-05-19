@@ -725,7 +725,7 @@ msgid "It is real easy to get added to this list for basic checks. Just provide 
 msgstr ""
 
 #: sites.inc
-msgid "Full mirrors are welcomed and appreciated, whether public or private. Please see <a href=\"http://code.google.com/p/falling-sky/wiki/MirrorOpportunities\">the wiki</a> for details."
+msgid "Full mirrors are welcomed and appreciated, whether public or private. Please see <a href=\"https://github.com/falling-sky/source/wiki\">the wiki</a> for details."
 msgstr ""
 
 #: footer.inc
@@ -1689,7 +1689,7 @@ msgid "Interested in running a mirror?"
 msgstr ""
 
 #: mirrors.html
-msgid "Mirrors are welcomed and appreciated, whether public or private. Please see <a href=\"http://code.google.com/p/falling-sky/wiki/MirrorOpportunities\">the wiki</a> for details."
+msgid "Mirrors are welcomed and appreciated, whether public or private. Please see <a href=\"https://github.com/falling-sky/source/wiki\">the wiki</a> for details."
 msgstr ""
 
 #: faq_6to4.html

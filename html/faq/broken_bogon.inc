@@ -11,9 +11,14 @@
         </td>
     </tr>
     <tr>
-        <td valign=top><p><b>2002:0A</b>xx: or <b>2002:A</b>xx<br/>
-            <b>2002:AC1</b>x<br/>
-            <b>2002:C0A8:</b></p>
+        <td valign=top><p><b>2002:0A</b>xx: or <b>2002:A</b>xx:<br/>
+            <b>2002:AC1</b>x:<br/>
+            <b>2002:C0A8:</b></br>
+            <b>2002:644</b>x:</br>
+            <b>2002:645</b>x:</br>
+            <b>2002:646</b>x:</br>
+            <b>2002:647</b>x:</br>
+            </p>
             
             </td>
         <td valign=top><p>[% " This is a router using 6to4, but using a private IPv4 address.  This will never work. " | i18n %]</p>
