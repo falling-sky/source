@@ -86,7 +86,7 @@ GIGO.mirrors = [{
     "site": "test-ipv6.se",
     "loc": "SE",
     "provider": "Interlan Gefle AB",
-    "hide": 1
+    "hide": 0
 }, {
     "site": "test-ipv6.ams.vr.org",
     "loc": "NL",
