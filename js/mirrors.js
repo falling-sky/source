@@ -65,7 +65,7 @@ GIGO.mirrors = [{
     "site": "test-ipv6.jp",
     "loc": "JP",
     "provider": "CLARA ONLINE, Inc",
-    "hide": 0
+    "hide": 1
 }, {
     "site": "test-ipv6.nl",
     "loc": "NL",
@@ -165,7 +165,7 @@ GIGO.mirrors = [{
     "site": "test-ipv6.vtt.net",
     "loc": "RU",
     "provider": "JSC \"Volgatranstelecom\"",
-    "hide": 0
+    "hide": 1
 }, {
     "site": "test-ipv6.vn.ua",
     "loc": "UA",
