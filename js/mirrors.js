@@ -30,7 +30,7 @@ GIGO.mirrors = [{
     "site": "test-ipv6.cz",
     "loc": "CZ",
     "provider": "nic.cz",
-    "hide": 1
+    "hide": 0
 }, {
     "site": "test-ipv6.monash.edu",
     "loc": "AU",
