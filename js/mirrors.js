@@ -117,7 +117,7 @@ GIGO.mirrors = [{
     "loc": "US WI",
     "provider": "Dale Hartung",
     "skipsites": 0,
-    "hide": 1
+    "hide": 0
 }, {
     "site": "test-ipv6.gremlin.ca",
     "loc": "CA",
