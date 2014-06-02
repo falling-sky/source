@@ -1,0 +1,26 @@
+[% PROCESS "header.inc"  %]
+[% PROCESS "list-nav.inc" page = "locale" %]
+
+<div id="content">
+
+
+  <h1 id="title">[% "Available Languages" | i18n %]</h1>
+
+  <div class="question">
+    [% " Pick one of the following to switch to that language." | i18n %]
+  </div>
+
+  <div class="answer">
+  
+[%  FOREACH name IN NAMES.keys.sort %]
+<a href="/index.html.[% name %]">[% name %] - [% NAMES.$name %]</a></br>
+[%  END %]
+
+
+  </div>
+
+  
+
+</div>
+
+[% PROCESS "footer.inc" %]

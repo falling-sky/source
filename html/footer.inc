@@ -13,6 +13,15 @@
   |  <a href="#" onclick=" GIGO.showdebug(); return false;">Debug</a> 
 </span>
 [% END %]
+
+
+  |
+
+<a href="#" onclick="return help_page('locale.html','Locale')">
+<img src="/images/Language-Icons/icon128px-exported-red.jpg" height=20 border=0>
+[[% locale %]]
+</a>
+
 <br/>
 [% PROCESS "disclaimer.inc" %]
 </p>

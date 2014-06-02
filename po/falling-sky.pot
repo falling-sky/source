@@ -752,6 +752,14 @@ msgstr ""
 msgid "This is a mirror of test-ipv6.com. The views expressed here may or may not reflect the views of the mirror owner."
 msgstr ""
 
+#: locale.html
+msgid "Available Languages"
+msgstr ""
+
+#: locale.html
+msgid "Pick one of the following to switch to that language."
+msgstr ""
+
 #: faq_helpdesk.html
 msgid "Help Desk Information"
 msgstr ""

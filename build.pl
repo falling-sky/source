@@ -56,6 +56,29 @@ $argv{"config"} ||= "./config.inc";
 
 @LOCALE = split( /[\s,]+/, $argv{"locale"} ) if ( $argv{"locale"} );
 
+my %NAMES = (
+'en_US'=>'English',
+'cs_CZ'=>'Čeština',
+'de_DE'=>'Deutcsh',
+'es_ES'=>'Español',
+'fr_FR'=>'Français',
+'hr_HR'=>'Hrvatski',
+'hu_HU'=>'Magyar',
+'ja_JP'=>'日本語',
+'nb_NO'=>'Norsk bokmål',
+'nl_NL'=>'Nederlands',
+'pt_BR'=>'Português (Brasil)',
+'ru_RU'=>'Pусский',
+'sv_SE'=>'Svenska',
+'zh_CN'=>'筒体中文',
+);
+foreach my $name (@LOCALE) {
+  $NAMES{$name} ||= '';
+}
+
+$VARS->{NAMES} = \%NAMES;
+
+
 require( $argv{config} );
 require( $argv{config} . ".local" ) if ( -f ( $argv{config} . ".local" ) );
 
@@ -79,6 +102,7 @@ $VARS->{"AddLanguage"} = get_addlanguage(@LOCALE);
     [ "html", "neg.html" ],
     [ "html", "comcast.html" ],
 
+    [ "html", "locale.html" ],
     [ "html", "faq_helpdesk.html" ],
     [ "html", "broken.html" ],
     [ "html", "faq_disable.html" ],

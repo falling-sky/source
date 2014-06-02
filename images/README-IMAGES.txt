@@ -93,3 +93,12 @@ jquery.tablesorter.js -  * TableSorter 2.0 - Client-side table sorting with ease
   Copyright (c) 2007 Christian Bach
   Dual license MIT, GPL
 
+---
+http://www.languageicon.org/Language-Icons.zip
+http://www.languageicon.org
+
+ Attribute to: A’ Design Award & Competition, Onur Müştak Çobanlı and Farhat
+ Datta with URL http://www.languageicon.org for non-internet usage. 
+
+
+
