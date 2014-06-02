@@ -503,7 +503,7 @@ GIGO.show_faq_link = function (tokens) {
 
 GIGO.help_popup = function (file, tabname, popup) {
 
-    var o, handle, t, hostname;
+    var o, handle, t, hostname, lfile;
     if (popup === undefined) {
         popup = 1;
     }
@@ -523,11 +523,13 @@ GIGO.help_popup = function (file, tabname, popup) {
         // avoid cross-domain problems.
         hostname = String(document.location.hostname);
         file = "http://" + hostname + "/" + file;
+        lfile = file + '.[% locale %]';
+        
 
         jQuery(handle).html("[% 'loading...' | i18n %]"); // Loading indicator.    
-        jQuery(handle).load(file + " #content", function (responseText, textStatus) {
+        jQuery(handle).load(lfile + " #content", function (responseText, textStatus) {
             if (textStatus !== 'success') {
-                jQuery(handle).html("[% 'failed to load' | i18n %]" + " " + file);
+                jQuery(handle).html("[% 'failed to load' | i18n %]" + " " + lfile);
             }
             t = "<p>";
             t = t + "<a href='#' onclick='return GIGO.goback()' class='goback'>";
