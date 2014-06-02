@@ -2,12 +2,12 @@
 
 all: dist-prep download
 	./build.pl --maxjobs 8
-	rsync -az work/. gigo.com:/var/www/beta.test-ipv6.com/. --exclude site --delete --progress 
+	rsync -az work/. /var/www/beta.test-ipv6.com/. --exclude site --delete --progress 
 	- test -f /Applications/Safari.app/Contents/MacOS/Safari && open http://beta.test-ipv6.com/
 
 beta: dist-prep download
 	./build.pl --locale en_US --config beta.inc
-	rsync -az work/. gigo.com:/var/www/beta.test-ipv6.com/. --exclude site --delete --progress
+	rsync -az work/. /var/www/beta.test-ipv6.com/. --exclude site --delete --progress
 	- test -f /Applications/Safari.app/Contents/MacOS/Safari && open http://beta.test-ipv6.com/isp/
 
 download:

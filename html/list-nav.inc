@@ -29,10 +29,21 @@ id="current">[% GET page %]</a></li>
 [% END %]
 
 
+
   <li class=navright tabname=stats style="display:none"><a href="/stats.html" tabname=stats 
   [% IF page == "stats" %] id="current" [% SET tabbed = 1 %] [% END %]>[% "stats" | i18n %]</a></li>
 
 
 
+
+
+
 </ul>
+
+<div class=navright>
+<a href="/locale.html">
+<img src="/images/Language-Icons/icon128px-exported-red.jpg" height=20 border=0>
+</a>
+</div>
+
 </div>
