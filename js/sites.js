@@ -187,6 +187,13 @@ GIGO.sites = [{
         "v6": "ipv6.test-ipv6.eurobilltracker.com/img/1x1.gif",
         "hide": 0
     }, {
+        "site": "duplimaster.com",
+        "loc": "FR",
+        "provider": "duplimaster.com",
+        "v4": "ipv4.duplimaster.com/public/images/logo-sombra.png",
+        "v6": "ipv6.duplimaster.com/public/images/logo-sombra.png",
+        "hide": 0
+    }, {
         "site": "campaya.co.uk",
         "loc": "UK",
         "provider": "Campaya",
