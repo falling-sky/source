@@ -188,7 +188,7 @@ GIGO.sites = [{
         "hide": 0
     }, {
         "site": "duplimaster.com",
-        "loc": "FR",
+        "loc": "ES",
         "provider": "duplimaster.com",
         "v4": "ipv4.duplimaster.com/public/images/logo-sombra.png",
         "v6": "ipv6.duplimaster.com/public/images/logo-sombra.png",
