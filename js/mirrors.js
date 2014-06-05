@@ -181,4 +181,9 @@ GIGO.mirrors = [{
     "loc": "US",
     "provider": "Bill Cerveny",
     "hide": 0
+}, {
+    "site": "test-ipv6.tld.sk",
+    "loc": "SK",
+    "provider": "Sk-nic",
+    "hide": 0
 }];
