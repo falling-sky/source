@@ -12,6 +12,9 @@
   <link rel="stylesheet" href="/index.css?version=[% GET version %]" type="text/css" />
   <link rel="apple-touch-icon" href="/images/knob_info.png"/> 
 
+
+  <meta property="og:image" content="http://test-ipv6.com/images/snapshot.png" />
+
    <script type="text/javascript"  src="/site/config.js?version=[% GET version %]"></script>
    <script type="text/javascript"  src="/index.js.[% GET locale %]?version=[% GET version %]"></script>
 
@@ -20,7 +23,6 @@
 BrowserName="IE6";
 </script>
 <![endif]-->
-
 
 
 <script type="text/javascript">
