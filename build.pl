@@ -231,6 +231,9 @@ foreach my $p (@PROCESS_APACHE) {
 
 fixup_apache( "$INSTALL/.htaccess", "$INSTALL/vhost-long.conf.example" );
 system( "rsync", "-av", "transparent", "$INSTALL" );
+system("cd $INSTALL && ln -s . isp");
+system("cd $INSTALL && ln -s . helpdesk");
+
 
 
 sub prepdir_for_file {
