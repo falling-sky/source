@@ -1,0 +1,2589 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: falling-sky\n"
+"PO-Revision-Date: 2014-05-18 16:54-0400\n"
+"Last-Translator: jfesler <jfesler@gigo.com>\n"
+"Language-Team: Norwegian Bokmal\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.net\n"
+"Language: nb_NO\n"
+
+#: mirrorconfig.js
+msgid "This mirror is provided by"
+msgstr "This mirror is provided by"
+
+#: messages.js
+msgid "bad"
+msgstr "bad"
+
+#: messages.js
+msgid "ok"
+msgstr "ok"
+
+#: messages.js
+msgid "slow"
+msgstr "slow"
+
+#: messages.js
+msgid "timeout"
+msgstr "timeout"
+
+#: messages.js
+msgid "Connections to urls with IP addresses appear to be blocked; perhaps by a web filter such as 'NoScript' or 'RequestPolicy' installed into your browser, or filtering in your proxy server. This limits some of the functionality of this test site."
+msgstr "Tilkoblinger til URL-er med IP-adresser ser ut til å være blokkerte; muligens av et filter som f.eks. 'NoScript' eller 'RequestPolicy' installert i din nettleser, eller et filter i din proxy-server. Dette begrenser noe av funksjonaliteten på denne test-siden."
+
+#: messages.js
+msgid "IPv4 Connections using DNS work; but literal IP addresses in urls do not. These are rarely used on the web today."
+msgstr "IPv4-tilkoblinger virker når DNS er brukt, men ikke direkte mot IP-adresser. Dette er skjeldent i bruk på internett i dag."
+
+#: messages.js
+msgid "IPv6 Connections using DNS work; but literal IP addresses in urls do not. These are rarely used on the web today."
+msgstr "IPv6-tilkoblinger virker når DNS er brukt, men ikke direkte mot IP-adresser. Dette er skjeldent i bruk på internett i dag."
+
+#: messages.js
+msgid "You appear to be using a public 6to4 gateway; your router may be providing this to you automatically. Such public gateways have no service level agreements; you may see performance problems using such. Better would be to get a native IPv6 address from your ISP."
+msgstr "Du ser ut til å bruke 6to4. Det er mulig din hjemme-ruter setter opp dette for deg automatisk. 6to4 har ingen garantier om tjenestekvalitet, og bruk av det kan føre til konnektivitestsproblemer. Det er bedre for deg å få ekte IPv6-adresser fra din ISP."
+
+#: messages.js
+msgid "Your IPv6 connection appears to be using Teredo, a type of IPv4/IPv6 translation using a public gateway. The quality for this <i>may</i> suffer, as you are using a public gateway to reach IPv6 based sites."
+msgstr "Din IPv6-konnektivitet ser ut til å være via Teredo, en offentlig IPv4/IPv6-oversettingstjeneste. Din tjenestekvalitet kan bli skadelidende på grunn av dette, da du ser ut til å bruke Teredo til å nå IPv6-aktiverte nettsteder."
+
+#: messages.js
+msgid "Your IPv6 connection appears to be using Teredo, a type of IPv4/IPv6 gateway; currently it connects only to direct IP's. Your browser will not be able to go to IPv6 sites by name. This means the current configuration is not useful for browsing IPv6 web sites."
+msgstr "Din IPv6-konnektivet ser ut til å være via Teredo, en offentlig IPv4/IPv6-oversettingstjeneste. Den ser ut til å kun virke ved direkte oppkoblinger til IP-adresser, og du kan ikke nå IPv6-nettsteder via navneoppslag. Dette betyr at din konfigurasjon ikke er brukbar for å surfe på nettsteder over IPv6."
+
+#: messages.js
+msgid "Your IPv6 connection appears to be using Teredo, a type of IPv4/IPv6 gateway. Your particular teredo configuration is only used as a protocol of last resort. When visiting a site with both IPv4 and IPv6, IPv4 will be preferred."
+msgstr "Din IPv6-konnektivitet ser ut til å være via Teredo, en offentlig IPv4/IPv6-oversettingstjeneste. Den ser ut til bli brukt kun om alle andre oppkoblingsforsøk feilet. Når du går til et nettsted som har både IPv4 og IPv6, vil IPv4 bli foretrukket."
+
+#: messages.js
+msgid "Danger! IPv6 sorta works - however, large packets appear to fail, giving the appearance of a broken website. If a publisher publishes to IPv6, you will believe their web site to be broken. Ask your ISP about MTU issues; possibly with your tunnel."
+msgstr "Advarsel! IPv6 fungerar på sett og vis - men store datapakker kommer ikke frem, noe som vil resultere i at nettsteder ser ut til å ikke fungere. Om en innholdsleverandør tilgjengeliggjør nettstedet sitt over IPv6, vil det for deg se ut til å ikke fungere lengre. Spør ISP-en din om MTU-problem, muligens med din tunnel."
+
+#: messages.js
+msgid "Test results inconclusive; they were not consistent with expectations. Please rerun the test, and if the results are the same, please fill out the contact form."
+msgstr "Test-resultat var ikke i henhold til våre forventninger. Vennligst ta testen på nytt, og om resultatet er det samme, vennligst send inn tilbakemeldings-skjemaet."
+
+#: messages.js
+msgid "For unknown reasons, your browser appears to operate slower when given the option of connecting to both IPv4 and IPv6. Please rerun the test, and if the results are the same, please fill out the contact form."
+msgstr "Din nettleser ser ut til å være tregere når den har valget mellom å koble seg opp med både IPv4 og IPv6. Grunnen til dette er ukjent. Vennligst kjør testen på nytt, og om resultatet er identisk, vennligst send inn tilbakemeldings-skjemaet."
+
+#: messages.js
+msgid "You appear to be able to browse the IPv4 Internet only. You will not be able to reach IPv6-only sites."
+msgstr "Du ser ut til å være i stand til å kun nå IPv4-internettet. Du vil ikke kunne nå nettsteder kun tilgjengelige over IPv6."
+
+#: messages.js
+msgid "When a publisher offers both IPv4 and IPv6, your browser appears to be happy to take the IPv4 site without delay."
+msgstr "Når en innholdsleverandør tilbyr både IPv4 og IPv6, ser din nettleser ut til å velge IPv4-alternativet uten noen forsinkelse."
+
+#: messages.js
+msgid "When a publisher offers both IPv4 and IPv6, your browser appears to slow down signficantly compared to an IPv4-only site. You may even believe the destination web site to be broken. This may be due to your IPv6 configuration."
+msgstr "Når en innholdsleverandør tilbyr både IPv4 og IPv6, ser din nettleser ut til å fungere markant tregere enn mot en nettside kun tilgjengelig over IPv6. Dette kan i verste fall oppleves som at nettsiden er nede. Dette kan være på grunn av ditt IPv6-oppsett."
+
+#: messages.js
+msgid "When a publisher offers both IPv4 and IPv6, your browser will time out trying to connect. You may believe the site is down. This may be due to your IPv6 configuration. Consider disabling IPv6, or seeking help."
+msgstr "Når en innholdsleverandør tilbyr både IPv4 og IPv6, vil din nettleser få tidsavbrudd når den prøver å koble seg opp. Dette kan oppleves som at nettsiden er nede. Vurder å skru av IPv6, eller få hjelp."
+
+#: messages.js
+msgid "Connections to IPv4 are slow, but functional. Perhaps you or your ISP put you behind an IP sharing device (NAT) that is currently slow."
+msgstr "Oppkoplinger mot IPv4 er trege, men fungerer. Det er mulig at du eller din internettleverandør har plassert deg bak en adressedelings-ruter (NAT) som for tiden er treg."
+
+#: messages.js
+msgid "You appear to be able to browse the IPv6 Internet only. You have no access to IPv4. That's pretty bold!"
+msgstr "Du ser kun ut til å være i stand til å nå IPv6-internettet. Du har ingen tilgang til IPv4. Det er temmelig tøft av deg!"
+
+#: messages.js
+msgid "Connections to IPv6 are slow, but functional. Perhaps you are using a public IPv6 tunnel that is either slow, or not located near you."
+msgstr "Oppkoplinger mot IPv6 er trege, men fungerer. Det er mulig at du bruker en automatisk IPv6-tunnel som er enten treg, eller ikke terminert i nærheten av deg."
+
+#: messages.js
+msgid "Connections to IPv6-only sites are timing out. Any web site that is IPv6 only, will appear to be down to you."
+msgstr "Oppkoblinger til nettsider kun tilgjengelig over IPv6 får tidsavbrutt. Slike nettsider vil for deg se ut til å være nede."
+
+#: messages.js
+msgid "Connections to IPv6-capable web sites hang. It appears that you may have IPv6 configured; and your computer believes that your IPv6 is working, with a route. It is however completely failing. Any web site that adds IPv6, will become unreachable to you. If you are unable to fix your IPv6 routing or connectivity, seek help. If all else fails, strongly consider disabling IP6 on host."
+msgstr "Oppkoblinger til IPv6-aktiverte nettsider henger. Det kan virke som du har IPv6 satt opp, og at din datamaskin tror denne konnektiviteten fungerer. Det feiler imidlertid fullstendig. En nettside som aktiverer IPv6, vil bli utilgjengelig for deg. Om du ikke er i stand til å reparere din IPv6-konnektivitet, søk hjelp. Om du ikke før løst problemet, vurder å deaktiver IPv6 på din datamaskin."
+
+#: messages.js
+msgid "We are unable to test your system; it appears that a firewall or browser filter is preventing the test from running. Critical tests are failing. Try disabling any browser plugins, extensions, or add-ons (such as ad blockers); and reloading this page. If that still fails, you can leave a comment requesting help."
+msgstr "Vi er ikke i stand til å teste ditt system, det kan se ut som en brannmur eller nettleser-filter hindrer testen fra å kjøre - essensielle tester fungerer ikke. Prøv å deaktivere programutvidelser eller moduer i nettleseren din (som f.eks. reklamefiltre), og last deretter siden inn på nytt igjen. Om det fortsatt ikke fungerer, kan du legge igjen en kommentar for å få hjelp."
+
+#: messages.js
+msgid "We are unable to test your system; it appears that a firewall or browser filter is preventing the test from running. The dual-stack tests are failing. Try disabling any browser plugins, extensions, or add-ons (such as ad blockers); and reloading this page. If that still fails, you can leave a comment requesting help."
+msgstr "Vi er ikke i stand til å teste ditt system, det kan se ut som en brannmur eller nettleser-filter hindrer testen fra å kjøre - dualstack-testene fungerer ikke. Prøv å deaktivere programutvidelser eller moduer i nettleseren din (som f.eks. reklamefiltre), og last deretter siden inn på nytt igjen. Om det fortsatt ikke fungerer, kan du legge igjen en kommentar for å få hjelp."
+
+#: messages.js
+msgid "Your browser is blocking the test urls. We will try alternate methods, but they may fail to show your IP address; and may affect the quality of the advice given."
+msgstr "Din nettleser blokkerer test-adressene. Vi vil prøve alternative metoder å teste på, men de vil muligens ikke klare å vise din IP-adresse, og kan potensielt redusere kvaliteten på rådene vi gir deg."
+
+#: messages.js
+msgid "The most likely cause is NoScript or AdBlock+. NoScript can be told to permit all scripts on this page (you may need to do this more than once). At minimum, permit the urls listed below."
+msgstr "Sannsynligvis er årsaken NoScript eller AdBlock+. NoScript kan konfigureres til å tillate alle skript på denne siden (det er mulig du må gjøre dette flere ganger). Du må i alle fall tillate URL-ene under."
+
+#: messages.js
+msgid "NAT64 detected. IPv6 works. IPv4 works for most purposes. Applications that are hard-coded for IPv4-only will fail. We are aware of at least one major voice-over-ip program that falls into this category. Your application's support staff may need a nudge to add proper IPv6 support."
+msgstr "NAT64 detected. IPv6 works. IPv4 works for most purposes. Applications that are hard-coded for IPv4-only will fail. We are aware of at least one major voice-over-ip program that falls into this category. Your application's support staff may need a nudge to add proper IPv6 support."
+
+#: messages.js
+msgid "Your DNS server (possibly run by your ISP) appears to have IPv6 Internet access."
+msgstr "Din DNS-tjener (muligens driftet av din ISP) ser ut til å ha tilgang til IPv6-internettet."
+
+#: messages.js
+msgid "Your DNS server (possibly run by your ISP) appears to have no access to the IPv6 Internet, or is not configured to use it. This may in the future restrict your ability to reach IPv6-only sites."
+msgstr "Din DNS-tjener (muligens driftet av din ISP) ser ikke ut til å ha tilgang til IPv6-internettet, eller er ikke satt opp til å bruke det. Dette kan i fremtiden begrense din tilgang til nettsteder kun tilgjengelig over IPv6."
+
+#: messages.js
+msgid "You are likely using a FireFox plugin that is causing IP based tests to fail. Examples: RequestPolicy. Please disable those while using this site."
+msgstr "Du bruker sannsynligvis en programutvidelse i Firefox som får IP-baserte tester til å feile. For eksempel: RequestPolicy. Vennligst deaktiver slike når du bruker dette nettstedet."
+
+#: messages.js
+msgid "A lookup for an IPv6-only name failed; yet the lookup and connect for dual-stack connected via IPv6. Something appears to be confused with the DNS lookups."
+msgstr "Et navneoppslag med kun IPv6-svar feilet, men likevel fikk du koblet til via IPv6. Noe merkelig ser ut til å skje med navneoppslagene."
+
+#: messages.js
+msgid "A lookup for an IPv6-only name failed; yet the lookup and connect for dual-stack connected via IPv6. The IPv6-only lookup should have worked. Apple has a bug that sporadically causes some IPv6 lookups to fail. We saw evidence of it on this test. You can reload the page and try the test again. For more details, see <a href=\"http://openradar.appspot.com/7333104\">http://openradar.appspot.com/7333104</a>."
+msgstr "A lookup for an IPv6-only name failed; yet the lookup and connect for dual-stack connected via IPv6. The IPv6-only lookup should have worked. Apple has a bug that sporadically causes some IPv6 lookups to fail. We saw evidence of it on this test. You can reload the page and try the test again. For more details, see <a href=\"http://openradar.appspot.com/7333104\">http://openradar.appspot.com/7333104</a>."
+
+#: messages.js
+msgid "A lookup for an dual-stack IPv4 and IPv6 name failed (at minimum it should have connected via IPv4). Apple has a bug that sporadically causes some IPv6 lookups to fail. We saw evidence of it on this test. You can reload the page and try the test again. For more details, see <a href=\"http://openradar.appspot.com/7333104\">http://openradar.appspot.com/7333104</a>."
+msgstr "A lookup for an dual-stack IPv4 and IPv6 name failed (at minimum it should have connected via IPv4). Apple has a bug that sporadically causes some IPv6 lookups to fail. We saw evidence of it on this test. You can reload the page and try the test again. For more details, see <a href=\"http://openradar.appspot.com/7333104\">http://openradar.appspot.com/7333104</a>."
+
+#: messages.js
+msgid "No IPv4 address detected"
+msgstr "Ingen IPv4-adresse oppdaget"
+
+#: messages.js
+msgid "No IPv6 address detected"
+msgstr "Ingen IPv6-adresse oppdaget"
+
+#: messages.js
+msgid "Your IP address(es) could not be detected due to inteference from browser add-ons."
+msgstr "Dine IP-adresse(r) kunne ikke oppdages pga. programutvidelser i nettleseren din."
+
+#: messages.js
+msgid "The Opera web browser seems to be break on this site frequently. <b>If you have trouble, try another browser</b>."
+msgstr "<b>Om du har problem, prøv en annen nettleser</b>."
+
+#: messages.js
+msgid "<b>Disable turbo mode on Opera, and try again.</b> Turbo mode is not compatible with the needs of this site."
+msgstr "<b>Deaktiver Opera Turbo, og prøv igjen.</b> Opera Turbo er ikke kompatibel med dette nettstedet."
+
+#: messages.js
+msgid "<b>Good news!</b> Your current configuration will continue to work as web sites enable IPv6."
+msgstr "<b>Ingen problemer er i vente for deg</b> med denne nettleseren fra denne lokasjonen."
+
+#: messages.js
+msgid "<b>Our tests show that you will have a broken or misconfigured IPv6 setup, and this will cause problems as web sites enable IPv6.</b>"
+msgstr "<b>Du ser ut til å få problemer den dagen</b> med å koble opp til nettsider som deltar. Vurder å skru av IPv6, eller be din internettleverandør om hjelp."
+
+#: messages.js
+msgid "<b>Our tests show that you will may have MTU problems with IPv6; this can cause web sites to load slow (or not at all) when web sites enable IPv6.</b>"
+msgstr "<b>Du ser ut til å få problemer den dagen</b> med å koble opp til nettsider som deltar. Sannsynligvis er PMTUD årsaken. Om du ikke er i stand til å løse dette på egen hånd, vurder å skru av IPv6, eller be din internettleverandør om hjelp."
+
+#: messages.js
+msgid "We looked up an IPv6 address, but your DNS server (possibly your home router) mangled the response, and is treating it as (broken) IPv4."
+msgstr "Vi gjorde et oppslag av en IPv6-adresse, men din DNS-server (muligens din hjemme-ruter) rotet til svaret, og behandler det som (defekt) IPv4."
+
+#: messages.js
+msgid "It appears that you use a tunnel mechanism for either IPv4 or IPv6."
+msgstr "It appears that you use a tunnel mechanism for either IPv4 or IPv6."
+
+#: messages.js
+msgid "It appears that you use a managed tunnel mechanism, 6RD, to transport IPv6 over IPv4."
+msgstr "It appears that you use a managed tunnel mechanism, 6RD, to transport IPv6 over IPv4."
+
+#: messages.js
+msgid "We have detected that you are using a proxy. This means we are testing your proxy server, not your computer. Proxy details (as reported by your proxy 'Via' header): %details"
+msgstr "Vi har oppdaget at du bruker en proxy. Dette betyr at vi tester din proxy-tjener, ikke din datamaskin. Detaljer om proxy-tjeneren din (oppgitt av 'Via'-hodet): %details"
+
+#: messages.js
+msgid "We have detected that you are using a proxy. This means we are testing your proxy server, not your computer."
+msgstr "Vi har oppdaget at du bruker en proxy. Dette betyr at vi tester din proxy-tjener, ikke din datamaskin."
+
+#: messages.js
+msgid "IPv6 connections work, but connections using DNS names do not use IPv6. For some reason, your browser or your OS is not doing IPv6 DNS 'AAAA' lookups."
+msgstr "IPv6 connections work, but connections using DNS names do not use IPv6. For some reason, your browser or your OS is not doing IPv6 DNS 'AAAA' lookups."
+
+#: messages.js
+msgid "We have suggestions to help you fix your system."
+msgstr "We have suggestions to help you fix your system."
+
+#: messages.js
+msgid "Since you have IPv6, we are including a tab that shows how well you can reach other IPv6 sites. %sites"
+msgstr "Since you have IPv6, we are including a tab that shows how well you can reach other IPv6 sites. %sites"
+
+#: messages.js
+msgid "Your browser has real working IPv6 address - but is avoiding using it. We're concerned about this."
+msgstr "Your browser has real working IPv6 address - but is avoiding using it. We're concerned about this."
+
+#: messages.js
+msgid "faq: MTU"
+msgstr "oss: MTU"
+
+#: messages.js
+msgid "faq: No IPv4"
+msgstr "oss: Ingen IPv4"
+
+#: messages.js
+msgid "faq: No IPv6"
+msgstr "oss: Ingen IPv6"
+
+#: messages.js
+msgid "faq: 6to4"
+msgstr "oss: 6to4"
+
+#: messages.js
+msgid "faq: Teredo Minimum"
+msgstr "oss: Minimal Teredo"
+
+#: messages.js
+msgid "faq: v6ns Bad"
+msgstr "oss: Dårlig IPv6-navnetjener"
+
+#: messages.js
+msgid "faq: Browser Plugins"
+msgstr "oss: Programtillegg i nettleser"
+
+#: messages.js
+msgid "faq: Firefox Add-Ons"
+msgstr "oss: Programutvidelser i Firefox"
+
+#: messages.js
+msgid "faq: Opera"
+msgstr "oss: Opera"
+
+#: messages.js
+msgid "faq: Buggy DNS"
+msgstr "oss: Buggy navnetjener"
+
+#: messages.js
+msgid "faq: Broken!"
+msgstr "faq: Broken!"
+
+#: messages.js
+msgid "faq: Broken DNS Lookups"
+msgstr "faq: Broken DNS Lookups"
+
+#: messages.js
+msgid "faq: Avoiding IPv6?"
+msgstr "faq: Avoiding IPv6?"
+
+#: builtin.js
+msgid "[more info]"
+msgstr "[mer informasjon]"
+
+#: builtin.js
+msgid "Your IPv4 address on the public Internet appears to be"
+msgstr "Din offentlige IPv4-adresse ser ut til å være"
+
+#: builtin.js
+msgid "Proxied"
+msgstr "Proxied"
+
+#: builtin.js
+msgid "Your IPv6 address on the public Internet appears to be"
+msgstr "Din offentlige IPv6-adresse ser ut til å være"
+
+#: builtin.js
+msgid "Your IPv6 service appears to be"
+msgstr "Din IPv6-tjeneste ser ut til å være"
+
+#: builtin.js
+msgid "Your Internet Service Provider (ISP) appears to be"
+msgstr "Your Internet Service Provider (ISP) appears to be"
+
+#: builtin.js
+msgid "Started"
+msgstr "Startet"
+
+#: builtin.js
+msgid "proxied"
+msgstr "proxied"
+
+#: builtin.js
+msgid "using"
+msgstr "bruker"
+
+#: builtin.js
+msgid "tests run"
+msgstr "tests run"
+
+#: builtin.js
+msgid "(Survey posting skipped; test was rigged)"
+msgstr "(Resultatet ble ikke sendt inn; testen var manipulert)"
+
+#: builtin.js
+msgid "(Updating server side IPv6 readiness stats)"
+msgstr "(Oppdaterer server-statistikk over IPv6-tilgjengelighet)"
+
+#: builtin.js
+msgid "(Updated server side IPv6 readiness stats)"
+msgstr "(Oppdaterer server-statistikk over IPv6-tilgjengelighet)"
+
+#: builtin.js
+msgid "(Survey posting failed; the above information is accurate, but not recorded.)"
+msgstr "(Innsending av resultat feilet; informasjonen over er korrekt, men ikke lagret.)"
+
+#: builtin.js
+msgid "Your readiness score"
+msgstr "Ditt test-resultat"
+
+#: builtin.js
+msgid "for your IPv4 stability and readiness, when publishers offer both IPv4 and IPv6"
+msgstr "for din IPv4-tilgang, når innholdsleverandører tilbyr både IPv4 og IPV6"
+
+#: builtin.js
+msgid "for your IPv6 stability and readiness, when publishers are forced to go IPv6 only"
+msgstr "for din IPv6-tilgang, når innholdsleverandører tilbyr kun IPv6"
+
+#: builtin.js
+msgid "Click to see"
+msgstr "Klikk for å se"
+
+#: builtin.js
+msgid "test data"
+msgstr "test-data"
+
+#: builtin.js
+msgid "Your FAQ"
+msgstr "Dine ofte stilte spørsmål"
+
+#: builtin.js
+msgid "Frequently Asked Questions"
+msgstr "Ofte stilte spørsmål"
+
+#: builtin.js
+msgid "loading..."
+msgstr "laster..."
+
+#: builtin.js
+msgid "failed to load"
+msgstr "klarte ikke å laste"
+
+#: builtin.js
+msgid "[go back]"
+msgstr "[gå tilbake]"
+
+#: builtin.js
+msgid "[permalink]"
+msgstr "[permalink]"
+
+#: versions.js
+msgid "%app: You are running version %found; we recommend %suggest or newer."
+msgstr "%app: You are running version %found; we recommend %suggest or newer."
+
+#: form.js
+msgid "share your results"
+msgstr "dele ditt resultat"
+
+#: form.js
+msgid "I am most interested in discussing your setup with you, because it was been determined that <B>your IPv6 connectivity is broken</b>, or at least not fully understood. This is not normal; would you be willing to %share?"
+msgstr "Jeg er svært interessert i å diskutere nettverksoppsettet ditt med deg, fordi det ser ut som at <B>din IPv6-konnektivet er defekt</b>, eller iallfall ikke fullt ut forstått. Dette er ikke normalt; er du villing til å %share?"
+
+#: form.js
+msgid "retest"
+msgstr "test igjen"
+
+#: form.js
+msgid "Result code"
+msgstr "Resultat-kode"
+
+#: form.js
+msgid "Note: I can't contact you, if the contact info is blank. If you really want to submit this anonymously, hit Send Results again."
+msgstr "Merk: Jeg kan ikke kontakte deg, om kontaktinfo-feltet er tomt. Om du virkelig ønsker å sende inn anonymt, klikk Send Resultater igjen."
+
+#: checkresults.js
+msgid "unknown expansion"
+msgstr "ukjent utvidelse"
+
+#: checkresults.js
+msgid "unknown result code"
+msgstr "ukjent resultat-kode"
+
+#: symptoms.js
+msgid "Your browser blocked"
+msgstr "Nettleseren din blokkerte"
+
+#: helpdesk.js
+msgid "Your Internet help desk may ask you for the information below."
+msgstr "Your Internet help desk may ask you for the information below."
+
+#: header.inc
+msgid "Test your IPv6."
+msgstr "Test din IPv6."
+
+#: header.inc
+msgid "This will test your browser and connection for IPv6 readiness, as well as show you your current IPV4 and IPv6 address."
+msgstr "Dette vil teste om din nettleser og internett-forbindelse er klar for IPv6, samt vise deg din nåværende IPv4- og IPv6-adresse."
+
+#: list-nav.inc
+msgid "Test IPv6"
+msgstr "Test IPv6"
+
+#: list-nav.inc
+msgid "FAQ"
+msgstr "Ofte Stilte Spørsmål"
+
+#: list-nav.inc
+msgid "Mirrors"
+msgstr "Speil"
+
+#: list-nav.inc
+msgid "stats"
+msgstr "stats"
+
+#: index.html
+msgid "Test your IPv6 connectivity."
+msgstr "Test din IPv6-konnektivitet"
+
+#: js_required.inc
+msgid "JavaScript Required"
+msgstr "JavaScript Required"
+
+#: js_required.inc
+msgid "This site requires JavaScript, as well as the ability to pull in cross-site scripts, in order to perform the testing."
+msgstr "This site requires JavaScript, as well as the ability to pull in cross-site scripts, in order to perform the testing."
+
+#: js_required.inc
+msgid "If this message does not go away, it means that JavaScript has been disabled, either by a plugin or extension in your browser, or by explicit browser setting."
+msgstr "If this message does not go away, it means that JavaScript has been disabled, either by a plugin or extension in your browser, or by explicit browser setting."
+
+#: js_required.inc
+msgid "Do you use NoScript?"
+msgstr "Do you use NoScript?"
+
+#: js_required.inc
+msgid "If you use this Firefox add-on, you'll need to \"Temporarily allow all this page\". You will need to do this <b>twice</b> for everything to work. Alternately, disable NoScript entirely until you are done with this site."
+msgstr "If you use this Firefox add-on, you'll need to \"Temporarily allow all this page\". You will need to do this <b>twice</b> for everything to work. Alternately, disable NoScript entirely until you are done with this site."
+
+#: js_required.inc
+msgid "You can opt instead to view the <a href=\"simple_test.html\">simple test</a>, which will give you a quick pass/fail for IPv4, IPv4+IPv6, and IPv6. It will however offer little diagnostic information."
+msgstr "You can opt instead to view the <a href=\"simple_test.html\">simple test</a>, which will give you a quick pass/fail for IPv4, IPv4+IPv6, and IPv6. It will however offer little diagnostic information."
+
+#: main/tabnav.inc
+msgid "For the Help Desk"
+msgstr "For the Help Desk"
+
+#: main/tabnav.inc
+msgid "Summary"
+msgstr "Oppsummering"
+
+#: main/tabnav.inc
+msgid "Tests Run"
+msgstr "Utførte tester"
+
+#: main/tabnav.inc
+msgid "Share Results / Contact"
+msgstr "Del resultater / kontakt"
+
+#: main/tabnav.inc
+msgid "FAQ for You"
+msgstr "Ofte stilte spørsmål relevant for deg"
+
+#: main/tabnav.inc
+msgid "Help Popup"
+msgstr "Hjelpevindu"
+
+#: main/tabnav.inc
+msgid "Debug"
+msgstr "Feilsøk"
+
+#: main/tabnav.inc
+msgid "Other IPv6 Sites"
+msgstr "Other IPv6 Sites"
+
+#: main/tests.inc
+msgid "How this test works:"
+msgstr "Hvordan denne testen fungerer:"
+
+#: main/tests.inc
+msgid "Your browser will be instructed to reach a series of URLs. The combination of successes and failures tells a story about how ready you are for when publishers start offering their web sites on IPv6."
+msgstr "Nettleseren din vil få beskjed om å aksessere en rekke URL-er. Kombinasjonen av vellykkede og feilede aksesser forteller oss hvor klar du er for når innholdsleverandører begynner å tilby nettsidene sine over IPv6."
+
+#: main/tests.inc
+msgid "Technical Info"
+msgstr "Teknisk informasjon"
+
+#: main/tests.inc
+msgid "Test with IPv4 DNS record"
+msgstr "Test med IPv4-innslag i DNS"
+
+#: main/tests.inc
+msgid "pending"
+msgstr "avventer"
+
+#: main/tests.inc
+msgid "Test with IPv6 DNS record"
+msgstr "Test med IPv6-innslag i DNS"
+
+#: main/tests.inc
+msgid "Test with Dual Stack DNS record"
+msgstr "Test med både IPv4- og IPv6-innslag i DNS"
+
+#: main/tests.inc
+msgid "Test for Dual Stack DNS and large packet"
+msgstr "Test for dual-stack DNS og store pakker"
+
+#: main/tests.inc
+msgid "Test IPv4 without DNS"
+msgstr "Test av IPv4 uten bruk av DNS"
+
+#: main/tests.inc
+msgid "Test IPv6 without DNS"
+msgstr "Test av IPv6 uten bruk av DNS"
+
+#: main/tests.inc
+msgid "Test IPv6 large packet"
+msgstr "Test av IPv6 med store pakker"
+
+#: main/tests.inc
+msgid "Test if your ISP's DNS server uses IPv6"
+msgstr "Test om din internettleverandør sin DNS-tjener bruker IPv6"
+
+#: main/tests.inc
+msgid "Find IPv4 Service Provider"
+msgstr "Find IPv4 Service Provider"
+
+#: main/tests.inc
+msgid "Find IPv6 Service Provider"
+msgstr "Find IPv6 Service Provider"
+
+#: main/tests.inc
+msgid "Test for buggy DNS"
+msgstr "Test av defekt DNS"
+
+#: main/tech.inc
+msgid "Fetches an object that has just an A record in DNS. This is expected to use IPv4. IPv6-only users might still reach this, if their provider has employed a NAT64/DNS64 or proxy solution."
+msgstr "Henter et objekt som kun har et A-innslag i DNS. Vi forventer en IPv4-oppkobling. Brukere som kun har IPv6 kan fortsatt nå disse, forutsatt at internettleverandøren tilbyr NAT64+DNS64 eller en proxy."
+
+#: main/tech.inc
+msgid "Fetches an object that has just an AAAA record in DNS. This is expected to use IPv6. Users not yet on the IPv6 Internet are likely to see this fail. As long as it fails quickly, it will be OK - for now."
+msgstr "Henter et objekt som kun har et AAAA-innslag i DNS. Vi forventer en IPv6-oppkobling. Brukere som ikke ennå har tilgang til IPv6 vil sannsynligvis feile denne testen. Så lenge den feiler raskt, er det OK - inntil videre."
+
+#: main/tech.inc
+msgid "This is the most important test. This verifies your browser can connect to a site that has both IPv4 and IPv6 records published. IPv4 only hosts should connect fine (using IPv4)."
+msgstr "Dette er den viktigste testen. Den sjekker at nettleseren din kan nå nettsteder som har både IPv4 og IPv6 aktivert. Brukere med kun IPv4 burde kunne koble seg opp (med IPv4) uten problemer."
+
+#: main/tech.inc
+msgid "If this test fails or times out, you can expect major problems as publishers start offering their sites on IPv6."
+msgstr "Om denne testen feiler eller får tidsavbrudd, kan du forvente store problemer når innholdsleverandører begynner å tilby IPv6-tilgang til sine nettsteder."
+
+#: main/tech.inc
+msgid "Validates that you can connect to a dual-stack server (like the ds test); and that you can send/receive large packets on that connection. If this test times out for any reason, it indicates trouble for World IPv6 Day."
+msgstr "Sjekker at du kan koble til ett nettsted med både IPv4 og IPv6 aktivert (som ds-testen), og at du kan motta/sende store pakker over den forbindelsen. Om denne testen av en eller annen grunn får tidsavbrudd, indikerer det at du får problem på World IPv6 Day."
+
+#: main/tech.inc
+msgid "This will try connecting with a literal IPv4 numeric address. This should work for most people, unless they are running IPv6-only. If the first test worked, but this fails, it likely confirms your provider is using NAT64/DNS64; you'll need to only try connecting using hostnames instead of numeric IP addresses."
+msgstr "Dette tester direkte-tilgang til IPv4-adresser. Dette burde fungere for de fleste, med mindre de kun har IPv6. Om den første testen var vellykket, men denne feilet, er det sannsynlig at din internettleverandør bruker NAT64/DNS64. Du må i så fall begrense deg til å bruke utelukkende navn-baserte internettadresser."
+
+#: main/tech.inc
+msgid "This will try connecting with a literal IPv6 hexadecimal address. The primary purpose of this test is to separate out your connectivity on IPv6 from your ability to fetch DNS for it. A secondary purpose is to see if you have Teredo enabled; some systems may only use Teredo when an IPv6 address is in the URL."
+msgstr "Dette tester direkte-tilgang til IPv6-adresser. Hovedformålet med denne testen er å kunne differensiere mellom din IPv6-konnektivitet og hvorvidt du kan slå opp IPv6-adresser i DNS. Sekundært vil det vise oss om du har Teredo aktivert - noen datamaskiner vil kun bruke Teredo når IPv6-adressen står direkte i URL-en."
+
+#: main/tech.inc
+msgid "Validates that IPv6 requests with large packets work. If this test times out, but other IPv6 tests work, it suggests that there may be PMTUD issues; possibly involving IP tunnels."
+msgstr "Sjekker at IPv6-forespørsler med store pakker virker. Om denne testen får tidsavbrudd, mens andre IPv6-tester fungere, tyder det på at du har PMTUD-problemer - muligens har tunnelering noe med dette å gjøre."
+
+#: main/tech.inc
+msgid "(This is bonus credit)"
+msgstr "(This er en bonus)"
+
+#: main/tech.inc
+msgid "This is a test of your ISP's resolver (instead of a test of your host). If this test passes, your DNS server (often run by your ISP) is capable of reaching IPV6-only DNS authoritative servers on the Internet. This is not critical (at this time) for you to reach sites via IPv6."
+msgstr "Dette er en test av din internettleverandør sin DNS-tjener (ikke en test av din datamaskin). Om testen er vellykket, er DNS-tjeneren du bruker i stand til å nå andre DNS-tjenere på internett som kun er tilgjengelig over IPv6. Dette er (for tiden) ikke påkrevd for at du skal kunne nå nettsider over IPv6."
+
+#: main/tech.inc
+msgid "Attempts to identify what Internet Service Provider you use for IPv4. This may be different from the marketing name you see in your local market; or may reflect a previous company name. The name shown reflects how it is known in the network operator community."
+msgstr "Attempts to identify what Internet Service Provider you use for IPv4. This may be different from the marketing name you see in your local market; or may reflect a previous company name. The name shown reflects how it is known in the network operator community."
+
+#: main/tech.inc
+msgid "Attempts to identify what Internet Service Provider you use for IPv6. When the IPv4 name and the IPv6 name don't match, it may suggest that you're using a tunnel; or some form of third party provider for IPv6."
+msgstr "Attempts to identify what Internet Service Provider you use for IPv6. When the IPv4 name and the IPv6 name don't match, it may suggest that you're using a tunnel; or some form of third party provider for IPv6."
+
+#: main/tech.inc
+msgid "Queries for a malformed AAAA record. Some routers mishandle these as \"A\" records, and only keep the first 32 bits. We want this test to fail to connect."
+msgstr "Sjekker etter omskrevet AAAA-innslag. Noen rutere håndterer disse ukorrekt som \"A\"-innslag, og beholder bare de første 32 bitsene. Denne testen er ment til å feile."
+
+#: main/tech.inc
+msgid "If the summary results indicated problems, you (or your technical support) may be able to use the information above to diagnose the issues. Each of the test urls and their results is shown on the left side. To the right you'll see a description of what that URL was designed to test."
+msgstr "Om sammendraget over indikerer problemer, kan muligens du (eller support hos din ISP/bedrift) bruke informasjonen til å stille en diagnose. Hver test-URL med tilhørende resultat er vist på venstre side. På høyre side ser du en beskrivelse av hva testen er ment å sjekke."
+
+#: main/tech.inc
+msgid "After each test is ran. The summary page attempts to look at the results If the summary doesn't seem to make sense given the symptoms recorded above, or if you need further assistance, please feel free to contact us."
+msgstr "Etter at testene er utført, prøver sammendrag-siden å vurdere resultatene. Om sammendraget ikke gir mening gitt symptomene vist over, eller du trenger mer hjelp, ikke nøl med å ta kontakt med oss."
+
+#: main/mail.inc
+msgid "<b>Your particular configuration is of interest.</b> We are always striving to make the test-ipv6.com code better. Would you be willing to contribute more information about your browser and computer setup? With your help, we can document for others how to repair their systems."
+msgstr "<b>Ditt spesifikke oppsett er interessant.</b> Vi prøver hele tiden å forbedre test-ipv6.com. Er du villig til å gi oss mer tilbakemeling om oppsettet av din nettleser og datamaskin? Med din hjelp, vil vi være i stand til å hjelpe andre til å løse problemer med sine systemer."
+
+#: main/mail.inc
+msgid "This form will let you leave a comment, voice concerns, or ask questions. Your test results will be included automatically."
+msgstr "Dette skjemaet vil la deg sende inn kommentarer, innspill, og spørsmål. Resultatet av testen din vil automatisk bli inkludert."
+
+#: main/mail.inc
+msgid "This includes your IP address, which is shared with the site administrator in order to answer your questions."
+msgstr "This includes your IP address, which is shared with the site administrator in order to answer your questions."
+
+#: main/mail.inc
+msgid "Use of this form implies consent."
+msgstr "Use of this form implies consent."
+
+#: main/mail.inc
+msgid "<span id=\"comments_faq_link\"></span> (FAQ) page is available for <b>your</b> exact set of results. Please read it before leaving comments; many questions have already been answered. If you still have questions, comments, or concerns, feel freel to use this form."
+msgstr "<b>ditt</b> resultat. Vennligst les dem før du legger igjen kommentarer - mange spørsmål har allerede blitt besvart. Om du fortsatt har spørsmål eller andre tilbakemeldinger, send gjerne inn skjemaet."
+
+#: main/mail-language.inc
+msgid "Please leave your comments using English, if possible."
+msgstr "Vennligst legg igjen dine kommentarer på engelsk, om mulig."
+
+#: main/mail.inc
+msgid "If reporting a problem with the test, or requesting help with your results, please fill out all requested information to the best of your ability. If leaving general comments, use your best judgement on how much to report."
+msgstr "Om du rapporterer et problem med testen, eller ønsker hjelp til å løse problemer med ditt oppsett, vennligst fyll ut alle felt så godt du kan. Om du bare ønsker å gi generell tilbakemelding, vurder selv hvor mye informasjon du ønsker å dele."
+
+#: main/mail.inc
+msgid "Thanks,"
+msgstr "Takk,"
+
+#: main/mail.inc
+msgid "Purpose for comment"
+msgstr "Formålet med tilbakemeldingen"
+
+#: main/mail.inc
+msgid "Questions about test results"
+msgstr "Spørsmål vedr. test-resultet"
+
+#: main/mail.inc
+msgid "Report a bug with diagnosis"
+msgstr "Rapportere en feil med diagnosen"
+
+#: main/mail.inc
+msgid "Suggestion"
+msgstr "Forslag"
+
+#: main/mail.inc
+msgid "Cheers or Jeers"
+msgstr "Ris eller ros"
+
+#: main/mail.inc
+msgid "Email address if you'll permit me to contact you. <i>Required, if you wish a response.</i>"
+msgstr "E-postadressen din. <i>Påkrevd om du ønsker svar.</i>"
+
+#: main/mail.inc
+msgid "Any information you think I might find useful (what router you're using, or a firewall in the way, or type of proxy you use, etc). This includes general feedback."
+msgstr "Annen informasjon du tror vi kan ha nytte av (hvilken ruter du har, om du har en brannmur, hvilken proxy du bruker, osv). Dette inkluder generelle kommentarer"
+
+#: main/mail.inc
+msgid "The javascript based test appears to have failed. This may be browser plugin or extension related. Please indicate what browser plugins and extenions you have enabled in this browser."
+msgstr "JavaScript-testene ser ut til å ha feilet. Dette kan være relatert til nettleser-utvidelser. Vennligst installert hvilke utvidelser og programtillegg du har aktivert i nettleseren din."
+
+#: main/mail.inc
+msgid "If you are technically minded please cut/paste the output of the following commands:"
+msgstr "Om du er en teknisk innstilt, vennligst klipp ut/lim in resultatet av de følgende kommandoene:"
+
+#: main/mail.inc
+msgid "Copy the output from those commands, into the box below. This will help me confirm/deny any theories relating to your question."
+msgstr "Kopier resultatet av kommandoene inn i feltet under. Det vil hjelpe oss til å bekrefte eller avkrefte eventuelle teorier relatert til ditt spørsmål."
+
+#: main/mail.inc
+msgid "If you are technically minded, please open a \"Command Prompt\" or \"cmd\" window, and run these three commands:"
+msgstr "Om du er teknisk innstilt, vennligst åpne et \"Kommandolinje\" eller \"cmd\"-vindu, og kjør disse tre kommandoene:"
+
+#: main/mail.inc
+msgid "Send results"
+msgstr "Send inn"
+
+#: main/helpdesk.inc
+msgid "Help desk information will follow once the test completes."
+msgstr "Help desk information will follow once the test completes."
+
+#: main/helpdesk.inc
+msgid "If your Internet help desk asks you to mail the 'results url', copy and paste the following URL."
+msgstr "If your Internet help desk asks you to mail the 'results url', copy and paste the following URL."
+
+#: main/helpdesk.inc
+msgid "Note that this will share your current numeric Internet Protocol address(es)."
+msgstr "Note that this will share your current numeric Internet Protocol address(es)."
+
+#: main/helpdesk.inc
+msgid "We do not recommend posting this link on public web sites such as forums."
+msgstr "We do not recommend posting this link on public web sites such as forums."
+
+#: main/helpdesk.inc
+msgid "On most computers, you can right-click the above URL, and select 'Copy'."
+msgstr "On most computers, you can right-click the above URL, and select 'Copy'."
+
+#: sites.inc
+msgid "<b>Because you have IPv6</b>, we've added this tab to show you whether or not you can reach other IPv6 web sites on the Internet. Consider notifying your ISP, if there are sites that show up as broken. If you are the ISP, you can click the Info link to see what test URLs are being used."
+msgstr "<b>Because you have IPv6</b>, we've added this tab to show you whether or not you can reach other IPv6 web sites on the Internet. Consider notifying your ISP, if there are sites that show up as broken. If you are the ISP, you can click the Info link to see what test URLs are being used."
+
+#: sites.inc
+msgid "<b>Hint</b>: Columns are sortable (click the first row); <a href=\"#\" onclick=\"GIGO.test_sites(2); return false;\">click here</a> to re-check reachability from where you are to those mirrors."
+msgstr "<b>Hint</b>: Columns are sortable (click the first row); <a href=\"#\" onclick=\"GIGO.test_sites(2); return false;\">click here</a> to re-check reachability from where you are to those mirrors."
+
+#: sites.inc
+msgid "It is real easy to get added to this list for basic checks. Just provide two image URLs (one IPv4-only; one IPv6-only), to Jason Fesler &lt;jfesler@gigo.com&gt;. Also send your general web site address and organization name."
+msgstr "It is real easy to get added to this list for basic checks. Just provide two image URLs (one IPv4-only; one IPv6-only), to Jason Fesler &lt;jfesler@gigo.com&gt;. Also send your general web site address and organization name."
+
+#: sites.inc
+msgid "Full mirrors are welcomed and appreciated, whether public or private. Please see <a href=\"http://code.google.com/p/falling-sky/wiki/MirrorOpportunities\">the wiki</a> for details."
+msgstr "Full mirrors are welcomed and appreciated, whether public or private. Please see <a href=\"http://code.google.com/p/falling-sky/wiki/MirrorOpportunities\">the wiki</a> for details."
+
+#: footer.inc
+msgid "All rights reserved."
+msgstr "Alle rettigheter forbeholdt."
+
+#: footer.inc
+msgid "Mission"
+msgstr "Mission"
+
+#: footer.inc
+msgid "Source"
+msgstr "Kilde"
+
+#: footer.inc
+msgid "Email"
+msgstr "E-post"
+
+#: footer.inc
+msgid "Attributions"
+msgstr "Attributions"
+
+#: disclaimer.inc
+msgid "This is a mirror of test-ipv6.com. The views expressed here may or may not reflect the views of the mirror owner."
+msgstr "Dette er et speil av test-ipv6.com."
+
+#: faq_helpdesk.html
+msgid "Help Desk Information"
+msgstr "Help Desk Information"
+
+#: faq_helpdesk.html
+msgid "Q: What is the Help Desk tab for?"
+msgstr "Q: What is the Help Desk tab for?"
+
+#: faq_helpdesk.html
+msgid "This tab is intended to help provide a brief, concise explanation of your connectivity. This can be read over the phone, if needed, to a service provider. This tab has less hand-holding; it is intended for a help desk to understand (as compared to an end user)."
+msgstr "This tab is intended to help provide a brief, concise explanation of your connectivity. This can be read over the phone, if needed, to a service provider. This tab has less hand-holding; it is intended for a help desk to understand (as compared to an end user)."
+
+#: faq_helpdesk.html
+msgid "This special instance shares in a very compact way:"
+msgstr "This special instance shares in a very compact way:"
+
+#: faq_helpdesk.html
+msgid "Status of each protocol"
+msgstr "Status of each protocol"
+
+#: faq_helpdesk.html
+msgid "Warn of slow/timeout"
+msgstr "Warn of slow/timeout"
+
+#: faq_helpdesk.html
+msgid "Warn of MTU"
+msgstr "Warn of MTU"
+
+#: faq_helpdesk.html
+msgid "Status of reachability to “other sites” (as compact as possible)"
+msgstr "Status of reachability to “other sites” (as compact as possible)"
+
+#: faq_helpdesk.html
+msgid "IP address shown, in case tech support needs it."
+msgstr "IP address shown, in case tech support needs it."
+
+#: faq_helpdesk.html
+msgid "List of unreachable sites, if any"
+msgstr "List of unreachable sites, if any"
+
+#: faq_helpdesk.html
+msgid "Q: What is the easiest way to send users to the Help Desk tab?"
+msgstr "Q: What is the easiest way to send users to the Help Desk tab?"
+
+#: faq_helpdesk.html
+msgid "There are several ways to do it. Some of these are more obvious than the others when reading; some of them may be easier when read over the phone. In all of these cases, the \"Help Desk\" tab is moved to be the first and default tab shown to the user, instead of exposing the more detailed user-facing page."
+msgstr "There are several ways to do it. Some of these are more obvious than the others when reading; some of them may be easier when read over the phone. In all of these cases, the \"Help Desk\" tab is moved to be the first and default tab shown to the user, instead of exposing the more detailed user-facing page."
+
+#: faq_helpdesk.html
+msgid "Mirror sites may not have all the fancy DNS names; they are more likely to be useful like this:"
+msgstr "Mirror sites may not have all the fancy DNS names; they are more likely to be useful like this:"
+
+#: faq_helpdesk.html
+msgid "Q: What are the Help Desk codes?"
+msgstr "Q: What are the Help Desk codes?"
+
+#: faq_helpdesk.html
+msgid "These are meant to offer a quick, short way for your customer to tell you the status of their Internet connectivity, as validated by this site. They are also meant to be easy to memorize."
+msgstr "These are meant to offer a quick, short way for your customer to tell you the status of their Internet connectivity, as validated by this site. They are also meant to be easy to memorize."
+
+#: faq_helpdesk.html
+msgid "Q: How can I recommend changes to the Help Desk tab?"
+msgstr "Q: How can I recommend changes to the Help Desk tab?"
+
+#: faq_helpdesk.html
+msgid "Suggestions are welcome; especially from those operating help desks. This tab is really for you - not for the consumer. Please keep in mind that we want to keep the tab brief, concise, and easy to read for the average user over the phone to your help desk team. Send suggestions to jfesler@test-ipv6.com ."
+msgstr "Suggestions are welcome; especially from those operating help desks. This tab is really for you - not for the consumer. Please keep in mind that we want to keep the tab brief, concise, and easy to read for the average user over the phone to your help desk team. Send suggestions to jfesler@test-ipv6.com ."
+
+#: broken.html
+msgid "What to do if you're broken..."
+msgstr "Hva du bør gjøre om du har problem..."
+
+#: broken.html
+msgid "If you are reading this page, it means that we've identified that your host will have problems on World IPv6 Day. Any web site that goes \"dual stack\" (meaning, both IPv4 and IPv6), will be unreachable to you."
+msgstr "Om du leser denne siden, betyr det at vi har har konkludert med at din datamaskin vil få problemer under World IPv6 Day. Enhvert nettsted som aktiverer IPv6 i tillegg til IPV4 vil bli utilgjengelig for deg."
+
+#: broken.html
+msgid "To resolve this, you'll first need to identify your IPv6 address (if you have one) and your IPv6 default route (if you have one). This will help identify which sections to read."
+msgstr "For å løse dette, må du først identifisere hva din IPv6-adresse er (om du har en), samt din IPv6 standard-rute (om du har en). Dette vil hjelpe til med å bestemme hvilket avsnitt du bør lese."
+
+#: broken.html
+msgid "If you find your particular problem is not well represented; or you have additional suggestions; please do leave feedback using the <a href='#' onclick='return GIGO.tabnav(\"mail\");'>form</a> (or contact <a href=\"mailto:jfesler@test-ipv6.com\">jfesler@test-ipv6.com</a>)."
+msgstr "Om du mener at ditt spesifikke problem ikke er godt beskrevet, eller om du har forslag til forbedringer, vennligst legg igjen en tilbekemlding ved å bruke <a href='#' onclick='return GIGO.tabnav(\"mail\"
+
+#: broken.html
+msgid "Make sure you are current"
+msgstr "Make sure you are current"
+
+#: broken.html
+msgid "Find your IP address"
+msgstr "Finn ut din IP-adresse"
+
+#: broken.html
+msgid "If you set up a tunnel broker"
+msgstr "Om du har satt opp en IPv6-tunnel"
+
+#: broken.html
+msgid "If you set up 6to4 (IPv6 address: starts with 2002)"
+msgstr "Om du bruker 6to4 (IPv6-adressen starter med 2002)"
+
+#: broken.html
+msgid "If you have an ULA (IPv6 address: starts with FC or FD)"
+msgstr "Om du har ULA (IPv6-adressen starter med FC or FD)"
+
+#: broken.html
+msgid "If you have an Bad or Inappropriate IPv6 Addresss (see table)"
+msgstr "Om du har en uventet IPv6-adresse"
+
+#: broken.html
+msgid "If you have an unexpected IPv6 address"
+msgstr "If you have an unexpected IPv6 address"
+
+#: broken.html
+msgid "Try the netalyzr"
+msgstr "Try the netalyzr"
+
+#: broken.html
+msgid "If all else fails, disable or deprioritize IPv6"
+msgstr "Om alle andre forsøk ikke hjelper, deaktiver eller de-prioriter IPv6"
+
+#: faq/staycurrent.inc
+msgid "Many OS and Hardware manufacturers are making updates to help improve the transition to IPv6. Some known \"gotchas\" are being addressed by workarounds by these vendors."
+msgstr "Many OS and Hardware manufacturers are making updates to help improve the transition to IPv6. Some known \"gotchas\" are being addressed by workarounds by these vendors."
+
+#: faq/staycurrent.inc
+msgid "You can do your part to make sure you are running the latest:"
+msgstr "You can do your part to make sure you are running the latest:"
+
+#: faq/staycurrent.inc
+msgid "OS - Make sure you have the latest."
+msgstr "OS - Make sure you have the latest."
+
+#: faq/staycurrent.inc
+msgid "Mac users: Apple OS X 10.6.7 is recommended for improved IPv6 support."
+msgstr "Mac users: Apple OS X 10.6.7 is recommended for improved IPv6 support."
+
+#: faq/staycurrent.inc
+msgid "Mac users on 10.4 or 10.5 may need to disable IPv6 if other troubleshooting steps fail."
+msgstr "Mac users on 10.4 or 10.5 may need to disable IPv6 if other troubleshooting steps fail."
+
+#: faq/staycurrent.inc
+msgid "Windows users: go to"
+msgstr "Windows users: go to"
+
+#: faq/staycurrent.inc
+msgid "iPhone/iPad users: No specific version advised at this time."
+msgstr "iPhone/iPad users: No specific version advised at this time."
+
+#: faq/staycurrent.inc
+msgid "Routers - Make sure you have the latest firmware installed. Some vendors have updated the defaults, or put in health checks before enabling IPv6."
+msgstr "Routers - Make sure you have the latest firmware installed. Some vendors have updated the defaults, or put in health checks before enabling IPv6."
+
+#: faq/staycurrent.inc
+msgid "If you are using an Apple router or Time Capsule, load the Airport Utility to check that your router is up to date."
+msgstr "If you are using an Apple router or Time Capsule, load the Airport Utility to check that your router is up to date."
+
+#: faq/staycurrent.inc
+msgid "Browsers - Some browsers have made updates to detect \"broken\" users, and to temporarily disable IPv6."
+msgstr "Browsers - Some browsers have made updates to detect \"broken\" users, and to temporarily disable IPv6."
+
+#: faq/staycurrent.inc
+msgid "Firefox 4.x now only tries IPv6, when an IPv6 address is configured. Firefox 3 users are encouraged to upgrade."
+msgstr "Firefox 4.x now only tries IPv6, when an IPv6 address is configured. Firefox 3 users are encouraged to upgrade."
+
+#: faq/staycurrent.inc
+msgid "Chrome: If a wrench icon appears on the browser toolbar, click it. Select \"Update Google Chrome\" then Restart."
+msgstr "Chrome: If a wrench icon appears on the browser toolbar, click it. Select \"Update Google Chrome\" then Restart."
+
+#: faq/staycurrent.inc
+msgid "Opera: Make sure you use at least 11.10."
+msgstr "Opera: Make sure you use at least 11.10."
+
+#: broken.html
+msgid "Finding your IP address"
+msgstr "Finding your IP address"
+
+#: faq/find_ip.inc
+msgid "Identify your IPv6 address, and your default router (if you have one)."
+msgstr "Identify your IPv6 address, and your default router (if you have one)."
+
+#: faq/find_ip.inc
+msgid "Finding your IPv6 address and default router can be a challenge if you are not familiar with your OS's network configuration. Instructions for your OS are below."
+msgstr "Finding your IPv6 address and default router can be a challenge if you are not familiar with your OS's network configuration. Instructions for your OS are below."
+
+#: faq/find_ip.inc
+msgid "When looking for your IPv6 address, skip any <code>fe80:</code> address. Everyone has them if their OS supports IPv6; this is regadless of whether or not your ISP supports IPv6 yet. Those are \"link local\" addresses; used just for communicating to other hosts in the same physical network as you."
+msgstr "When looking for your IPv6 address, skip any <code>fe80:</code> address. Everyone has them if their OS supports IPv6; this is regadless of whether or not your ISP supports IPv6 yet. Those are \"link local\" addresses; used just for communicating to other hosts in the same physical network as you."
+
+#: faq/find_ip.inc
+msgid "OS X users: To find your IP address using the GUI:"
+msgstr "OS X users: To find your IP address using the GUI:"
+
+#: faq/find_ip.inc
+msgid "Go to the \"Apple\" menu (top left corner)"
+msgstr "Go to the \"Apple\" menu (top left corner)"
+
+#: faq/find_ip.inc
+msgid "Go to System Preferences"
+msgstr "Go to System Preferences"
+
+#: faq/find_ip.inc
+msgid "Go to Network"
+msgstr "Go to Network"
+
+#: faq/find_ip.inc
+msgid "Click on your primary network (green icon) if you have more than one work."
+msgstr "Click on your primary network (green icon) if you have more than one work."
+
+#: faq/find_ip.inc
+msgid "Go to \"Advanced\""
+msgstr "Go to \"Advanced\""
+
+#: faq/find_ip.inc
+msgid "Look at the TCP/IP tab, uder \"Configure IPv6\"."
+msgstr "Look at the TCP/IP tab, uder \"Configure IPv6\"."
+
+#: faq/find_ip.inc
+msgid "Make a note of whether or not there is a router."
+msgstr "Make a note of whether or not there is a router."
+
+#: faq/find_ip.inc
+msgid "Make a note of the IPv6 address (if any)."
+msgstr "Make a note of the IPv6 address (if any)."
+
+#: faq/find_ip.inc
+msgid "OS X users: To find your IP address using the command line:"
+msgstr "OS X users: To find your IP address using the command line:"
+
+#: faq/find_ip.inc
+msgid "To open your terminal: Go to your Applications folder; go to Utilities; and double click Terminal."
+msgstr "To open your terminal: Go to your Applications folder; go to Utilities; and double click Terminal."
+
+#: faq/find_ip.inc
+msgid "To see your IP addresses: <code>ifconfig -f inet6</code>."
+msgstr "To see your IP addresses: <code>ifconfig -f inet6</code>."
+
+#: faq/find_ip.inc
+msgid "Ignore the <code>fe80:</code> addresses; look for any other address on your <code>en0</code> or <code>en1</code>."
+msgstr "Ignore the <code>fe80:</code> addresses; look for any other address on your <code>en0</code> or <code>en1</code>."
+
+#: faq/find_ip.inc
+msgid "To see if you have a default route: <code>netstat -nr -f inet6</code>."
+msgstr "To see if you have a default route: <code>netstat -nr -f inet6</code>."
+
+#: faq/find_ip.inc
+msgid "Look for a line that says \"default\"; probably pointing to a gateway starting with <code>fe80:</code>"
+msgstr "Look for a line that says \"default\"; probably pointing to a gateway starting with <code>fe80:</code>"
+
+#: faq/find_ip.inc
+msgid "iPhone and iPad users: No information is shown via Apple's preferences/setup. The \"IT Tools\" and the \"ip6config\" apps do show IPv6 address data; both cost."
+msgstr "iPhone and iPad users: No information is shown via Apple's preferences/setup. The \"IT Tools\" and the \"ip6config\" apps do show IPv6 address data; both cost."
+
+#: faq/find_ip.inc
+msgid "Linux users: To find your IPv6 address, open a terminal and.."
+msgstr "Linux users: To find your IPv6 address, open a terminal and.."
+
+#: faq/find_ip.inc
+msgid "Linux users: To find your IPv6 route, use:"
+msgstr "Linux users: To find your IPv6 route, use:"
+
+#: faq/find_ip.inc
+msgid "Generic unix instructions for determining your IPv6 address and default route:"
+msgstr "Generic unix instructions for determining your IPv6 address and default route:"
+
+#: faq/find_ip.inc
+msgid "Windows users: To find your IP address using cmd.exe:"
+msgstr "Windows users: To find your IP address using cmd.exe:"
+
+#: faq/find_ip.inc
+msgid "Go to your \"start\" menu"
+msgstr "Go to your \"start\" menu"
+
+#: faq/find_ip.inc
+msgid "If you have a \"Run\" menu option, select it. Otherwise go to the \"Search programs and files\" box."
+msgstr "If you have a \"Run\" menu option, select it. Otherwise go to the \"Search programs and files\" box."
+
+#: faq/find_ip.inc
+msgid "Type <code>cmd.exe</code>"
+msgstr "Type <code>cmd.exe</code>"
+
+#: faq/find_ip.inc
+msgid "In the cmd window, type <code>ipconfig</code> ."
+msgstr "In the cmd window, type <code>ipconfig</code> ."
+
+#: faq/find_ip.inc
+msgid "Windows 7 GUI users:"
+msgstr "Windows 7 GUI users:"
+
+#: faq/find_ip.inc
+msgid "Go to the start menu"
+msgstr "Go to the start menu"
+
+#: faq/find_ip.inc
+msgid "Go to the control panel"
+msgstr "Go to the control panel"
+
+#: faq/find_ip.inc
+msgid "Go to \"Network and Internet\""
+msgstr "Go to \"Network and Internet\""
+
+#: faq/find_ip.inc
+msgid "Go to \"View network status and tasks\""
+msgstr "Go to \"View network status and tasks\""
+
+#: faq/find_ip.inc
+msgid "Go to \"Change adapter settings\"."
+msgstr "Go to \"Change adapter settings\"."
+
+#: faq/find_ip.inc
+msgid "Go to your main Internet connection, double click"
+msgstr "Go to your main Internet connection, double click"
+
+#: faq/find_ip.inc
+msgid "Go to \"Details\""
+msgstr "Go to \"Details\""
+
+#: faq/find_ip.inc
+msgid "Look for \"IPv6 Address\" and \"IPv6 Default Gateway\""
+msgstr "Look for \"IPv6 Address\" and \"IPv6 Default Gateway\""
+
+#: faq/find_ip.inc
+msgid "Other Windows based OS's: Send jfesler@test-ipv6.com detailed instructions; and I'll add them to the site."
+msgstr "Other Windows based OS's: Send jfesler@test-ipv6.com detailed instructions; and I'll add them to the site."
+
+#: faq/broken_tunnelbroker.inc
+msgid "<b>If you set up a tunnelbroker tunnel</b>: The most common causes for tunnelbroker users to fail are:"
+msgstr "<b>If you set up a tunnelbroker tunnel</b>: The most common causes for tunnelbroker users to fail are:"
+
+#: faq/broken_tunnelbroker.inc
+msgid "Your IPv4 address may have changed; you need to tell the tunnelbroker server this happened."
+msgstr "Your IPv4 address may have changed; you need to tell the tunnelbroker server this happened."
+
+#: faq/broken_tunnelbroker.inc
+msgid "If you are using your router to do the 6in4 (sometimes called 6to4 with explicit provider):"
+msgstr "If you are using your router to do the 6in4 (sometimes called 6to4 with explicit provider):"
+
+#: faq/broken_tunnelbroker.inc
+msgid "Make sure tunnelbroker knows your current IPv4 address. Our site tells you your public IPv4 address."
+msgstr "Make sure tunnelbroker knows your current IPv4 address. Our site tells you your public IPv4 address."
+
+#: faq/broken_tunnelbroker.inc
+msgid "Make sure your router can ping the other side of the tunnel. Don't waste your time fixing computers until the router works!"
+msgstr "Make sure your router can ping the other side of the tunnel. Don't waste your time fixing computers until the router works!"
+
+#: faq/broken_tunnelbroker.inc
+msgid "If you are using your Linux, BSD, Mac, or Windows box to \"talk 6to4\" specifically:"
+msgstr "If you are using your Linux, BSD, Mac, or Windows box to \"talk 6to4\" specifically:"
+
+#: faq/broken_tunnelbroker.inc
+msgid "Make sure your router is passing \"protocol 41\" to you."
+msgstr "Make sure your router is passing \"protocol 41\" to you."
+
+#: faq/broken_tunnelbroker.inc
+msgid "Make sure any software firewall you are operating is passing \"protocol 41\" to you."
+msgstr "Make sure any software firewall you are operating is passing \"protocol 41\" to you."
+
+#: faq/broken_tunnelbroker.inc
+msgid "If everything worked before your reboot but fails now, check your firewall settings."
+msgstr "If everything worked before your reboot but fails now, check your firewall settings."
+
+#: faq/broken_tunnelbroker.inc
+msgid "Make sure the box \"doing 6to4\" can ping the other side of the tunnelbroker gateway before working on any other hosts."
+msgstr "Make sure the box \"doing 6to4\" can ping the other side of the tunnelbroker gateway before working on any other hosts."
+
+#: broken.html
+msgid "If you set up 6to4"
+msgstr "If you set up 6to4"
+
+#: broken.html
+msgid "(IPv6 address: starts with 2002)"
+msgstr "(IPv6 address: starts with 2002)"
+
+#: faq/broken_6to4.inc
+msgid "If you use 6to4</b> (without a tunnel broker; ie, using anonymous 6to4):"
+msgstr "If you use 6to4</b> (without a tunnel broker; ie, using anonymous 6to4):"
+
+#: faq/6to4_sucks.inc
+msgid "The use of \"automatic\" 6to4, or the use of 6to4 without explicit configuration of the gateways, is not recommended. For more information see <a href='#' onclick='return help_page(\"faq_6to4.html\",\"6to4\")'>6to4</a>."
+msgstr "The use of \"automatic\" 6to4, or the use of 6to4 without explicit configuration of the gateways, is not recommended. For more information see <a href='#' onclick='return help_page(\"faq_6to4.html\",\"6to4\")'>6to4</a>."
+
+#: faq/broken_6to4.inc
+msgid "If you want to continue trying to debug anonymous 6to4:"
+msgstr "If you want to continue trying to debug anonymous 6to4:"
+
+#: faq/broken_6to4.inc
+msgid "If you are using your router to do the 6to4:"
+msgstr "If you are using your router to do the 6to4:"
+
+#: faq/broken_6to4.inc
+msgid "Make sure your router has a public IPv4 address. Without this, 6to4 fails."
+msgstr "Make sure your router has a public IPv4 address. Without this, 6to4 fails."
+
+#: faq/broken_6to4.inc
+msgid "If your router permits you to log in, use \"ping\" or \"ping6\" and see if you can ping \"ipv6.test-ipv6.com\". Don't waste your time fixing computers until the router works!"
+msgstr "If your router permits you to log in, use \"ping\" or \"ping6\" and see if you can ping \"ipv6.test-ipv6.com\". Don't waste your time fixing computers until the router works!"
+
+#: faq/broken_6to4.inc
+msgid "Most home systems have private IPv4 addresses; this won't work with 6to4 (unless..)"
+msgstr "Most home systems have private IPv4 addresses; this won't work with 6to4 (unless..)"
+
+#: faq/broken_6to4.inc
+msgid "Make sure your 6to4 interface knows your public IPv4 address."
+msgstr "Make sure your 6to4 interface knows your public IPv4 address."
+
+#: faq/broken_6to4.inc
+msgid "Make sure that your router permits protocol 41 from any IP address - not just 192.88.99.1. This will allow web sites to operate their half of 6to4, even if they can not spoof the 192.88.99.1 anycast address."
+msgstr "Make sure that your router permits protocol 41 from any IP address - not just 192.88.99.1. This will allow web sites to operate their half of 6to4, even if they can not spoof the 192.88.99.1 anycast address."
+
+#: faq/broken_6to4.inc
+msgid "Linux users using iptables connection tracking: take heed of the previous note!"
+msgstr "Linux users using iptables connection tracking: take heed of the previous note!"
+
+#: faq/broken_6to4.inc
+msgid "Consider changing how you connect."
+msgstr "Consider changing how you connect."
+
+#: faq/broken_6to4.inc
+msgid "Ask your ISP if they offer any IPv6 connectivity (including possibly 6in4 tunnels, or tunnelbroker type tunnels)."
+msgstr "Ask your ISP if they offer any IPv6 connectivity (including possibly 6in4 tunnels, or tunnelbroker type tunnels)."
+
+#: faq/broken_6to4.inc
+msgid "See <a href=\"#\" onclick='return help_page(\"faq_6to4.html\",\"6to4\")'>6to4</a> for more information on why you would want to switch; and some options."
+msgstr "See <a href=\"#\" onclick='return help_page(\"faq_6to4.html\",\"6to4\")'>6to4</a> for more information on why you would want to switch; and some options."
+
+#: broken.html
+msgid "If you have an ULA"
+msgstr "If you have an ULA"
+
+#: broken.html
+msgid "(IPv6 address: starts with FC or FD)"
+msgstr "(IPv6 address: starts with FC or FD)"
+
+#: faq/broken_ula.inc
+msgid "If you have an IP address starting with <code>FC</code> or <code>FD</code>, you have what is effectively a private IPv6 address. It might be usable for talking to other devices within your home, or within your company. It also allows you to have a steady IPv6 address inside, even if your public IPv6 address changes regularly."
+msgstr "If you have an IP address starting with <code>FC</code> or <code>FD</code>, you have what is effectively a private IPv6 address. It might be usable for talking to other devices within your home, or within your company. It also allows you to have a steady IPv6 address inside, even if your public IPv6 address changes regularly."
+
+#: faq/broken_ula.inc
+msgid "The main problem with ULA is that certain home routers are now offering ULA, *and* giving you a default route. This route is offered regardless of whether or not your router actually has IPv6 connectivity. From your browser's point of view, it doesn't know that your default route goes nowhere; there is no feedback mechanism. Since IPv6 is (roughly speaking) preferred over IPv4, your browser will try using this broken route. It may take minutes before giving up."
+msgstr "The main problem with ULA is that certain home routers are now offering ULA, *and* giving you a default route. This route is offered regardless of whether or not your router actually has IPv6 connectivity. From your browser's point of view, it doesn't know that your default route goes nowhere; there is no feedback mechanism. Since IPv6 is (roughly speaking) preferred over IPv4, your browser will try using this broken route. It may take minutes before giving up."
+
+#: faq/broken_ula.inc
+msgid "Our advice: Enable ULA only if your router has full time IPv6 connectivity. Disable it, otherwise. If you do disable it on your router, you will likely need to reboot your router first, then reboot your host, before the symptoms go away."
+msgstr "Our advice: Enable ULA only if your router has full time IPv6 connectivity. Disable it, otherwise. If you do disable it on your router, you will likely need to reboot your router first, then reboot your host, before the symptoms go away."
+
+#: broken.html
+msgid "Bad or Inappropriate IPv6 Addresss"
+msgstr "Bad or Inappropriate IPv6 Addresss"
+
+#: broken.html
+msgid "(IPv6 address: see table below)"
+msgstr "(IPv6 address: see table below)"
+
+#: faq/broken_bogon.inc
+msgid "Bad or Inappropriate IPv6 Addresses (Bogons)"
+msgstr "Bad or Inappropriate IPv6 Addresses (Bogons)"
+
+#: faq/broken_bogon.inc
+msgid "If you IPv6 address starts with any of these, your router needs to be upgraded."
+msgstr "If you IPv6 address starts with any of these, your router needs to be upgraded."
+
+#: faq/broken_bogon.inc
+msgid "disable ULA."
+msgstr "disable ULA."
+
+#: faq/broken_bogon.inc
+msgid "Other routers: Try updating the firmware. If that fails, look for and disable \"ULA\" or \"Unique Local Addressing\"."
+msgstr "Other routers: Try updating the firmware. If that fails, look for and disable \"ULA\" or \"Unique Local Addressing\"."
+
+#: faq/broken_bogon.inc
+msgid "If that fails, disable IPv6 entirely on the router."
+msgstr "If that fails, disable IPv6 entirely on the router."
+
+#: faq/broken_bogon.inc
+msgid "This is a router using 6to4, but using a private IPv4 address. This will never work."
+msgstr "This is a router using 6to4, but using a private IPv4 address. This will never work."
+
+#: faq/broken_bogon.inc
+msgid "Apple routers: Update to the latest firmware; that has been corrected."
+msgstr "Apple routers: Update to the latest firmware; that has been corrected."
+
+#: faq/broken_bogon.inc
+msgid "Other routers: Try updating the firmware. If that fails, look for and disable \"6to4\" or any form of automatic IPv6 tunnel."
+msgstr "Other routers: Try updating the firmware. If that fails, look for and disable \"6to4\" or any form of automatic IPv6 tunnel."
+
+#: faq/broken_bogon.inc
+msgid "This router is using the official \"Documentation\" prefix - which is not routable on the IPv6 Internet."
+msgstr "This router is using the official \"Documentation\" prefix - which is not routable on the IPv6 Internet."
+
+#: faq/broken_bogon.inc
+msgid "Update to the latest firmware."
+msgstr "Update to the latest firmware."
+
+#: faq/broken_bogon.inc
+msgid "Other routers: Try updating the firmware."
+msgstr "Other routers: Try updating the firmware."
+
+#: faq/broken_bogon.inc
+msgid "Disable IPv6."
+msgstr "Disable IPv6."
+
+#: broken.html
+msgid "(IPv6 address: not starting with fe80)"
+msgstr "(IPv6 address: not starting with fe80)"
+
+#: faq/broken_unexpected.inc
+msgid "Unexpected IPv6 address?"
+msgstr "Unexpected IPv6 address?"
+
+#: faq/broken_unexpected.inc
+msgid "Modern operating systems all have IPv6 enabled. This feature is dormant until someone explicitly configures IPv6, <em><b>or</b></em> a device on the local network offers it. Autoconfigured IPv6 hosts learn their IPv6 address and their gateway through the use of IPv6 router announcements (RAs). The network you are on may intentionally offer IPv6; you'll automatically use it when your computer sees it."
+msgstr "Modern operating systems all have IPv6 enabled. This feature is dormant until someone explicitly configures IPv6, <em><b>or</b></em> a device on the local network offers it. Autoconfigured IPv6 hosts learn their IPv6 address and their gateway through the use of IPv6 router announcements (RAs). The network you are on may intentionally offer IPv6; you'll automatically use it when your computer sees it."
+
+#: faq/broken_unexpected.inc
+msgid "<b>Where this goes wrong:</b> Some people plug their router into the network (wired or wireless) and inadvertantly offer IPv6 services to everyone. Classic examples of this are where people add an early version of an Apple router (with 6to4 automatically enabled); another example is someone who has Windows Internet Connection Sharing enabled. In both cases, there is a chance they offer their services - and become your IPv6 router of choice, without any notification to you."
+msgstr "<b>Where this goes wrong:</b> Some people plug their router into the network (wired or wireless) and inadvertantly offer IPv6 services to everyone. Classic examples of this are where people add an early version of an Apple router (with 6to4 automatically enabled); another example is someone who has Windows Internet Connection Sharing enabled. In both cases, there is a chance they offer their services - and become your IPv6 router of choice, without any notification to you."
+
+#: faq/broken_unexpected.inc
+msgid "If these IPv6 routers don't work, you will fail to connect to any web site that offers services on both IPv4 and IPv6. Even if they do work, if the router in question is unplugged (the owner packs up, leaves the hotel/conference) your host never gets the notice; and it can be hours before it gives up."
+msgstr "If these IPv6 routers don't work, you will fail to connect to any web site that offers services on both IPv4 and IPv6. Even if they do work, if the router in question is unplugged (the owner packs up, leaves the hotel/conference) your host never gets the notice; and it can be hours before it gives up."
+
+#: faq/broken_unexpected.inc
+msgid "This is similiar to someone accidentially (or intentionally) running a rogue DHCP server."
+msgstr "This is similiar to someone accidentially (or intentionally) running a rogue DHCP server."
+
+#: faq/broken_unexpected.inc
+msgid "<b>If you are are not the network admin</b> - and have no access to fix the problem - consider disabling IPv6, at least for the location you are in. Another option might be to try turning off, and turning back on, your network interface (clearing the IP address), in case the source of the problem has left the network."
+msgstr "<b>If you are are not the network admin</b> - and have no access to fix the problem - consider disabling IPv6, at least for the location you are in. Another option might be to try turning off, and turning back on, your network interface (clearing the IP address), in case the source of the problem has left the network."
+
+#: faq/broken_unexpected.inc
+msgid "<b>If you are the network administrator</b>: You can use the default route information to identify the ethernet address; and then search for the owner of that ethernet address. Some network vendors have features that will suppress the advertisements of unauthorized RAs (router announcements); consider enabling those feaatures. More reactive measures involve finding (by ethernet address) the owner of the device; or possibly spoofing RA's from their device to indicate the device is going away."
+msgstr "<b>If you are the network administrator</b>: You can use the default route information to identify the ethernet address; and then search for the owner of that ethernet address. Some network vendors have features that will suppress the advertisements of unauthorized RAs (router announcements); consider enabling those feaatures. More reactive measures involve finding (by ethernet address) the owner of the device; or possibly spoofing RA's from their device to indicate the device is going away."
+
+#: faq/broken_netalyzr.inc
+msgid "Consider trying the \"netalyzr\". This is another site that runs a java applet (which can do more than my site can, in just javascript). I would find feedback about how you useful this site was for you."
+msgstr "Consider trying the \"netalyzr\". This is another site that runs a java applet (which can do more than my site can, in just javascript). I would find feedback about how you useful this site was for you."
+
+#: faq/broken_netalyzr.inc
+msgid "From the netalyzr staff:"
+msgstr "From the netalyzr staff:"
+
+#: broken.html
+msgid "If all else fails"
+msgstr "If all else fails"
+
+#: broken.html
+msgid "(Instructions for disabling or deprioritizing IPv6)"
+msgstr "(Instructions for disabling or deprioritizing IPv6)"
+
+#: faq/broken_disable.inc
+msgid "Disabling or Deprioritizing your IPv6 address"
+msgstr "Disabling or Deprioritizing your IPv6 address"
+
+#: faq/broken_disable.inc
+msgid "<b>To disable IPv6 entirely, until your ISP offers IPv6 to you:</b> see <b>Microsoft's \"fixit\" site</b> that gives clear instructions. We advocate considering \"Use IPv4 instead of IPv6 in prefix policies\", instead of completely disabling IPv6. Specific Windows features depend on IPv6 being enabled."
+msgstr "<b>To disable IPv6 entirely, until your ISP offers IPv6 to you:</b> see <b>Microsoft's \"fixit\" site</b> that gives clear instructions. We advocate considering \"Use IPv4 instead of IPv6 in prefix policies\", instead of completely disabling IPv6. Specific Windows features depend on IPv6 being enabled."
+
+#: faq/broken_disable.inc
+msgid "To completely disable IPv6 (Windows 7, Vista; XP should be similiar):"
+msgstr "To completely disable IPv6 (Windows 7, Vista; XP should be similiar):"
+
+#: faq/broken_disable.inc
+msgid "Go to \"Properties\""
+msgstr "Go to \"Properties\""
+
+#: faq/broken_disable.inc
+msgid "Uncheck \"Internet Protocol Version 6\""
+msgstr "Uncheck \"Internet Protocol Version 6\""
+
+#: faq/broken_disable.inc
+msgid "Hit \"ok\""
+msgstr "Hit \"ok\""
+
+#: faq/broken_disable.inc
+msgid "Shutdown/reboot."
+msgstr "Shutdown/reboot."
+
+#: faq/broken_disable.inc
+msgid "To disable IPv6 in Windows XP:"
+msgstr "To disable IPv6 in Windows XP:"
+
+#: faq/broken_disable.inc
+msgid "Taken from:"
+msgstr "Taken from:"
+
+#: faq/broken_disable.inc
+msgid "Make sure you are logged in as an Administrator."
+msgstr "Make sure you are logged in as an Administrator."
+
+#: faq/broken_disable.inc
+msgid "Click Start, click All Programs, click Accessories, and then click Command Prompt."
+msgstr "Click Start, click All Programs, click Accessories, and then click Command Prompt."
+
+#: faq/broken_disable.inc
+msgid "At the command prompt, type: netsh int ipv6 uninstall and press the Enter key on your keyboard."
+msgstr "At the command prompt, type: netsh int ipv6 uninstall and press the Enter key on your keyboard."
+
+#: faq/broken_disable.inc
+msgid "Close the Command Prompt window and restart the computer."
+msgstr "Close the Command Prompt window and restart the computer."
+
+#: faq/broken_disable.inc
+msgid "OS X users"
+msgstr "OS X users"
+
+#: faq/broken_disable.inc
+msgid "Before disabling IPv6, please be sure you are running the latest OS version. In particular, OS X 10.6.7 has several workarounds for being \"Broken\". This may solve your problems without resorting to completely disabling IPv6."
+msgstr "Before disabling IPv6, please be sure you are running the latest OS version. In particular, OS X 10.6.7 has several workarounds for being \"Broken\". This may solve your problems without resorting to completely disabling IPv6."
+
+#: faq/broken_disable.inc
+msgid "How to disable IPv6"
+msgstr "How to disable IPv6"
+
+#: faq/broken_disable.inc
+msgid "Disable IPv6"
+msgstr "Disable IPv6"
+
+#: faq/broken_disable.inc
+msgid "Apply changes"
+msgstr "Apply changes"
+
+#: faq/broken_disable.inc
+msgid "iPhone and iPad users"
+msgstr "iPhone and iPad users"
+
+#: faq/broken_disable.inc
+msgid "IPv6 is not configurable on the iPhone or iPad. Your only option is to switch to another network."
+msgstr "IPv6 is not configurable on the iPhone or iPad. Your only option is to switch to another network."
+
+#: faq/broken_disable.inc
+msgid "Linux users:"
+msgstr "Linux users:"
+
+#: faq/broken_disable.inc
+msgid "This is very distribution-specific. Do a web search using your favorite search engine."
+msgstr "This is very distribution-specific. Do a web search using your favorite search engine."
+
+#: faq/broken_disable.inc
+msgid "Example web search: <code>disable ipv6 on centos</code>"
+msgstr "Example web search: <code>disable ipv6 on centos</code>"
+
+#: faq/broken_disable.inc
+msgid "Generic unix instructions, to temporarily remove your IPv6 address."
+msgstr "Generic unix instructions, to temporarily remove your IPv6 address."
+
+#: faq/broken_disable.inc
+msgid "IP_ADDRESS"
+msgstr "IP_ADDRESS"
+
+#: faq/broken_disable.inc
+msgid "Be aware that if the router re-advertises it, you will relearn the default route."
+msgstr "Be aware that if the router re-advertises it, you will relearn the default route."
+
+#: faq/broken_disable.inc
+msgid "You can do a web search for your particular OS distribution. Example search would be <code>disable ipv6 on freebsd</code>."
+msgstr "You can do a web search for your particular OS distribution. Example search would be <code>disable ipv6 on freebsd</code>."
+
+#: broken.html
+msgid "See Also"
+msgstr "See Also"
+
+#: broken.html
+msgid "Other resources that may help"
+msgstr "Other resources that may help"
+
+#: faq_disable.html
+msgid "Disabling IPv6 is the least preferred option. For some people, however, it may be your only option. This may be due to equipment limitations, or in limitations in technical support."
+msgstr "Disabling IPv6 is the least preferred option. For some people, however, it may be your only option. This may be due to equipment limitations, or in limitations in technical support."
+
+#: faq.html
+msgid "test-ipv6.com FAQ"
+msgstr "test-ipv6.com FAQ"
+
+#: faq.html
+msgid "Q: How does this test work?"
+msgstr "Q: How does this test work?"
+
+#: faq.html
+msgid "The test is entirely client-side javascript. To determine reachability, a series of ajax requests are made from the web server, using various DNS names that force the use of IPv6 only, or dual stack, or other such scenarios. The pass/fail of such fetches, as well as how long they take, are taken into account."
+msgstr "The test is entirely client-side javascript. To determine reachability, a series of ajax requests are made from the web server, using various DNS names that force the use of IPv6 only, or dual stack, or other such scenarios. The pass/fail of such fetches, as well as how long they take, are taken into account."
+
+#: faq.html
+msgid "Q: Why is this web site reachable via IPv4 only?"
+msgstr "Q: Why is this web site reachable via IPv4 only?"
+
+#: faq.html
+msgid "You're right, there are no AAAA records, intentionally. A percentage of users are unable to browse sites that are dual-stack. If the users can't connect, then they can't be told they have a problem. This is a big problem facing content providers today; of which, I work at one for my &#36;dayjob. As such, the main test page requires IPv4 (either native or translated)."
+msgstr "You're right, there are no AAAA records, intentionally. A percentage of users are unable to browse sites that are dual-stack. If the users can't connect, then they can't be told they have a problem. This is a big problem facing content providers today; of which, I work at one for my &#36;dayjob. As such, the main test page requires IPv4 (either native or translated)."
+
+#: faq.html
+msgid "At some point, when the percentage of \"broken\" users has gone significantly down, I'll consider making test-ipv6.com dual-stack. At least check, May 2013, we still see 0.5% broken visiting test-ipv6.com. And we still want them to understand their situation."
+msgstr "At some point, when the percentage of \"broken\" users has gone significantly down, I'll consider making test-ipv6.com dual-stack. At least check, May 2013, we still see 0.5% broken visiting test-ipv6.com. And we still want them to understand their situation."
+
+#: faq.html
+msgid "Q: How do I test my IPv6-only host"
+msgstr "Q: How do I test my IPv6-only host"
+
+#: faq.html
+msgid "If you ask that question, chances are you don't need this site. However, if you really want to, visit <a href= \"http://ipv6.test-ipv6.com\">http://ipv6.test-ipv6.com</a> with your IPv6-only host."
+msgstr "If you ask that question, chances are you don't need this site. However, if you really want to, visit <a href= \"http://ipv6.test-ipv6.com\">http://ipv6.test-ipv6.com</a> with your IPv6-only host."
+
+#: faq.html
+msgid "Q: What do you mean by broken?"
+msgstr "Q: What do you mean by broken?"
+
+#: faq.html
+msgid "A percentage of users today have IPv6 enabled, but are either using a public tunnel that is currently giving poor performance; or otherwise have a route that is installed but broken or suboptimal. However, because they have a route at all, in many cases the address selection algorithm of RFC3484 will pick using it, and trying to use this broken route. It can take towards 75+ seconds before the browser gives up!"
+msgstr "A percentage of users today have IPv6 enabled, but are either using a public tunnel that is currently giving poor performance; or otherwise have a route that is installed but broken or suboptimal. However, because they have a route at all, in many cases the address selection algorithm of RFC3484 will pick using it, and trying to use this broken route. It can take towards 75+ seconds before the browser gives up!"
+
+#: faq.html
+msgid "From the perspective of a user with these conditions, a web site offering both A and AAAA DNS records (ie, \"dual stack\") will appear to time out; and the user will move on to another site that offers a similar product. This is the quandary content providers have."
+msgstr "From the perspective of a user with these conditions, a web site offering both A and AAAA DNS records (ie, \"dual stack\") will appear to time out; and the user will move on to another site that offers a similar product. This is the quandary content providers have."
+
+#: faq.html
+msgid "If we detect that you will have problems reaching dual-stack web sites, we recommend you see the <a href=\"broken.html\">Broken User FAQ</a>. It provides several steps to try and identify your root cause for being broken; and barring that, what you can do to disable IPv6 until your ISP offers native IPv6 connectivity."
+msgstr "If we detect that you will have problems reaching dual-stack web sites, we recommend you see the <a href=\"broken.html\">Broken User FAQ</a>. It provides several steps to try and identify your root cause for being broken; and barring that, what you can do to disable IPv6 until your ISP offers native IPv6 connectivity."
+
+#: faq.html
+msgid "Q: Why did your stats say you already have IPv6-only users?"
+msgstr "Q: Why did your stats say you already have IPv6-only users?"
+
+#: faq.html
+msgid "They went to <a href=\"http://ipv6.test-ipv6.com\">http://ipv6.test-ipv6.com</a> ."
+msgstr "They went to <a href=\"http://ipv6.test-ipv6.com\">http://ipv6.test-ipv6.com</a> ."
+
+#: faq.html
+msgid "Q: How valid are the stats?"
+msgstr "Q: How valid are the stats?"
+
+#: faq.html
+msgid "They do not represent the average web consumer. Visitors to this site are self-selecting. The intent of this site is to not provide stats, but instead to inform the user the level of readiness for the world to move to IPv6 (with or without'em!). As such, stats found here will be completely different from an average content provider."
+msgstr "They do not represent the average web consumer. Visitors to this site are self-selecting. The intent of this site is to not provide stats, but instead to inform the user the level of readiness for the world to move to IPv6 (with or without'em!). As such, stats found here will be completely different from an average content provider."
+
+#: faq.html
+msgid "Q: How does your test differ, from what the content providers are doing?"
+msgstr "Q: How does your test differ, from what the content providers are doing?"
+
+#: faq.html
+msgid "Content providers are gathering metrics of broken vs non-broken users, in an aggregate form. They are not at this time actually giving the user feedback as to the user's current state. Those metrics will principally drive the business decision of when to start publishing sites over IPv6, versus remaining IPv4 only. IPv4 only for some content sites really is an option; it has a handful of downsides, but the expectation is that everyone will always be able to reach IPv4, in some fashion."
+msgstr "Content providers are gathering metrics of broken vs non-broken users, in an aggregate form. They are not at this time actually giving the user feedback as to the user's current state. Those metrics will principally drive the business decision of when to start publishing sites over IPv6, versus remaining IPv4 only. IPv4 only for some content sites really is an option; it has a handful of downsides, but the expectation is that everyone will always be able to reach IPv4, in some fashion."
+
+#: faq.html
+msgid "This site, on the other hand, is intended to help the user understand their current state, and what that state possibly means to them."
+msgstr "This site, on the other hand, is intended to help the user understand their current state, and what that state possibly means to them."
+
+#: faq.html
+msgid "Q: Your site shows the wrong IP address; how can I bypass my proxy server to find my public address?"
+msgstr "Q: Your site shows the wrong IP address; how can I bypass my proxy server to find my public address?"
+
+#: faq.html
+msgid "For ipv4/ipv6/dual stack, use one of these:"
+msgstr "For ipv4/ipv6/dual stack, use one of these:"
+
+#: faq.html
+msgid "for ipv4"
+msgstr "for ipv4"
+
+#: faq.html
+msgid "for ipv6"
+msgstr "for ipv6"
+
+#: faq.html
+msgid "for either"
+msgstr "for either"
+
+#: faq.html
+msgid "Note you _may_ need to specify other options to your telnet command, depending on your operating system. On my mac, for example, I need to use \"<code>telnet -6</code>\"."
+msgstr "Note you _may_ need to specify other options to your telnet command, depending on your operating system. On my mac, for example, I need to use \"<code>telnet -6</code>\"."
+
+#: faq.html
+msgid "Q: Do you actually read the feedback?"
+msgstr "Q: Do you actually read the feedback?"
+
+#: faq.html
+msgid "Yes, I do. Thank you! Note that I can only follow up with you if you do leave contact information. While I am still grateful for feedback without contact information, I will be unable to reply with any answers if you asked for them."
+msgstr "Yes, I do. Thank you! Note that I can only follow up with you if you do leave contact information. While I am still grateful for feedback without contact information, I will be unable to reply with any answers if you asked for them."
+
+#: faq.html
+msgid "Q: How else can I contact you?"
+msgstr "Q: How else can I contact you?"
+
+#: faq.html
+msgid "I would prefer you use the form, as it gives details of your connectivity, and bypasses any mail filters."
+msgstr "I would prefer you use the form, as it gives details of your connectivity, and bypasses any mail filters."
+
+#: faq.html
+msgid "That said, you are welcome to directly email <a href=\"mailto:jfesler@test-ipv6.com\">jfesler@test-ipv6.com</a>."
+msgstr "That said, you are welcome to directly email <a href=\"mailto:jfesler@test-ipv6.com\">jfesler@test-ipv6.com</a>."
+
+#: faq.html
+msgid "Q: Is this open source?"
+msgstr "Q: Is this open source?"
+
+#: faq.html
+msgid "Yes. See the <a href=\"source.html\">source page</a> for details."
+msgstr "Yes. See the <a href=\"source.html\">source page</a> for details."
+
+#: stats.html
+msgid "<span lookup=site.name>site</span> statistics"
+msgstr "<span lookup=site.name>site</span> statistics"
+
+#: stats.html
+msgid "Graphs are updated daily."
+msgstr "Graphs are updated daily."
+
+#: stats.html
+msgid "60 days view"
+msgstr "60 days view"
+
+#: stats.html
+msgid "600 days view"
+msgstr "600 days view"
+
+#: stats.html
+msgid "Quick notes:"
+msgstr "Quick notes:"
+
+#: stats.html
+msgid "Browser Filter means that both the \"A\" and \"AAAA\" test failed. Browser (plugin/filter) shenanigans, likely with add-ons like ad blockers."
+msgstr "Browser Filter means that both the \"A\" and \"AAAA\" test failed. Browser (plugin/filter) shenanigans, likely with add-ons like ad blockers."
+
+#: stats.html
+msgid "Brokeness goes down, when volume goes up. This is due to having a wider sample of average people (versus people explicitly testing a new IPv6 setup)."
+msgstr "Brokeness goes down, when volume goes up. This is due to having a wider sample of average people (versus people explicitly testing a new IPv6 setup)."
+
+#: stats.html
+msgid "These graphs show the last 60 days of activity at <span lookup=site.name>site</span>"
+msgstr "These graphs show the last 60 days of activity at <span lookup=site.name>site</span>"
+
+#: stats.html
+msgid "Graph: shows result summaries, stacked. Total height shows number of users who took the test on a given day."
+msgstr "Graph: shows result summaries, stacked. Total height shows number of users who took the test on a given day."
+
+#: stats.html
+msgid "Similiar graph, except this time showing percentages."
+msgstr "Similiar graph, except this time showing percentages."
+
+#: stats.html
+msgid "The most interesting graph is the percentage of \"broken\" users. Our definition of a \"broken\" user is that the browser stalls or times out, while attempting to visit a web site published on both IPv4 and IPv6."
+msgstr "The most interesting graph is the percentage of \"broken\" users. Our definition of a \"broken\" user is that the browser stalls or times out, while attempting to visit a web site published on both IPv4 and IPv6."
+
+#: stats.html
+msgid "Line graph, not stacked, of results over time."
+msgstr "Line graph, not stacked, of results over time."
+
+#: stats.html
+msgid "These graphs show the last 600 days of activity at <span lookup=site.name>site</span>"
+msgstr "These graphs show the last 600 days of activity at <span lookup=site.name>site</span>"
+
+#: mission.html
+msgid "test-ipv6.com - Our mission"
+msgstr "test-ipv6.com - Our mission"
+
+#: mission.html
+msgid "Our mission is thus:"
+msgstr "Our mission is thus:"
+
+#: mission.html
+msgid "Help people identify if they will have problems when publishers offer their web sites on IPv6;"
+msgstr "Help people identify if they will have problems when publishers offer their web sites on IPv6;"
+
+#: mission.html
+msgid "Help people fix their system configuration so that they are no longer affected."
+msgstr "Help people fix their system configuration so that they are no longer affected."
+
+#: mission.html
+msgid "To do so in a brand neutral, ad-free way."
+msgstr "To do so in a brand neutral, ad-free way."
+
+#: mission.html
+msgid "Why do we do this?"
+msgstr "Why do we do this?"
+
+#: mission.html
+msgid "Because of 1 out of every 4000 users are \"broken\" based on industry measurements. This has delayed the web sites from publishing to IPv6."
+msgstr "Because of 1 out of every 4000 users are \"broken\" based on industry measurements. This has delayed the web sites from publishing to IPv6."
+
+#: mission.html
+msgid "So, what is meant by \"broken\"?"
+msgstr "So, what is meant by \"broken\"?"
+
+#: mission.html
+msgid "When you go to your favorite web site in a browser, and it hangs for several seconds or even minutes. If the publisher publishes to IPv6, and your computer has a *broken* IPv6 route (as compared to having no route), then your computer will attempt to use that broken route first, before falling back to the IPv4 Internet."
+msgstr "When you go to your favorite web site in a browser, and it hangs for several seconds or even minutes. If the publisher publishes to IPv6, and your computer has a *broken* IPv6 route (as compared to having no route), then your computer will attempt to use that broken route first, before falling back to the IPv4 Internet."
+
+#: mission.html
+msgid "What causes these timeouts?"
+msgstr "What causes these timeouts?"
+
+#: mission.html
+msgid "Newer operating systems have IPv6 enabled by default. Older ones, may have IPv6 enabled, as a result of user action (or specific applications). Enabling IPv6 does not automatically make you vulnerable."
+msgstr "Newer operating systems have IPv6 enabled by default. Older ones, may have IPv6 enabled, as a result of user action (or specific applications). Enabling IPv6 does not automatically make you vulnerable."
+
+#: mission.html
+msgid "The problem lies when your system is convinced to try and use IPv6, when it is not working adequately. This may be because you're using a public service for your IPv6 gateway. Or, someone on your network, was advertising (to the network) IPv6 through Internet connection sharing; and they left. Last, your router may have IPv6 automatically configured to use public unmanaged gateways; and is telling your computer to use it."
+msgstr "The problem lies when your system is convinced to try and use IPv6, when it is not working adequately. This may be because you're using a public service for your IPv6 gateway. Or, someone on your network, was advertising (to the network) IPv6 through Internet connection sharing; and they left. Last, your router may have IPv6 automatically configured to use public unmanaged gateways; and is telling your computer to use it."
+
+#: mission.html
+msgid "The simplest, yet near-sighted, solution, would be just to disable IPv6. However, over the next couple of years, this will start to cause you more troubles than not. It would be best to instead find the root of your actual problem, and fix that instead."
+msgstr "The simplest, yet near-sighted, solution, would be just to disable IPv6. However, over the next couple of years, this will start to cause you more troubles than not. It would be best to instead find the root of your actual problem, and fix that instead."
+
+#: mission.html
+msgid "The <a href=\"broken.html\">Broken User FAQ</a> has several suggestions for broken users to follow, to remediate their situation."
+msgstr "The <a href=\"broken.html\">Broken User FAQ</a> has several suggestions for broken users to follow, to remediate their situation."
+
+#: mission.html
+msgid "How you can help"
+msgstr "How you can help"
+
+#: mission.html
+msgid "This is an open-source project. I can certainly use your help in a variety of ways; please see the <a href=\"source.html\">source</a> page."
+msgstr "This is an open-source project. I can certainly use your help in a variety of ways; please see the <a href=\"source.html\">source</a> page."
+
+#: mirrors.html
+msgid "test-ipv6.com mirrors"
+msgstr "test-ipv6.com mirrors"
+
+#: mirrors.html
+msgid "These are the known publicly accessible mirrors for test-ipv6.com."
+msgstr "These are the known publicly accessible mirrors for test-ipv6.com."
+
+#: mirrors.html
+msgid "Thank you to all of these organizations, who have put in significant effort to provide this mirror sites. If you have problems with the site you are on now, try another mirror site; perhaps one closer to you."
+msgstr "Thank you to all of these organizations, who have put in significant effort to provide this mirror sites. If you have problems with the site you are on now, try another mirror site; perhaps one closer to you."
+
+#: mirrors.html
+msgid "Hints Columns are sortable (click the first row); <a href=\"#\" onclick=\"GIGO.test_sites(1); return false;\">click here</a> to re-check reachability from where you are to those mirrors."
+msgstr "Hints Columns are sortable (click the first row); <a href=\"#\" onclick=\"GIGO.test_sites(1); return false;\">click here</a> to re-check reachability from where you are to those mirrors."
+
+#: mirrors.html
+msgid "(generated by javascript)"
+msgstr "(generated by javascript)"
+
+#: mirrors.html
+msgid "Interested in running a mirror?"
+msgstr "Interested in running a mirror?"
+
+#: mirrors.html
+msgid "Mirrors are welcomed and appreciated, whether public or private. Please see <a href=\"http://code.google.com/p/falling-sky/wiki/MirrorOpportunities\">the wiki</a> for details."
+msgstr "Mirrors are welcomed and appreciated, whether public or private. Please see <a href=\"http://code.google.com/p/falling-sky/wiki/MirrorOpportunities\">the wiki</a> for details."
+
+#: faq_6to4.html
+msgid "test-ipv6.com views on 6to4"
+msgstr "test-ipv6.com sitt syn på 6to4"
+
+#: faq_6to4.html
+msgid "The ugly bits"
+msgstr "Ulempene"
+
+#: faq_6to4.html
+msgid "The good bits"
+msgstr "Fordelene"
+
+#: faq_6to4.html
+msgid "6to4 is a technology that allows you to use your existing Internet provider (with only IPv4), to access the IPV6 Internet. It does this by putting IPv6 packets inside IPv4 packets, and with the help of some friendly folks on the Internet. (The specification of this is in <a href=\"http://www.ietf.org/rfc/rfc3056.txt\">rfc3056</a>.)"
+msgstr "6to4 is a technology that allows you to use your existing Internet provider (with only IPv4), to access the IPV6 Internet. It does this by putting IPv6 packets inside IPv4 packets, and with the help of some friendly folks on the Internet. (The specification of this is in <a href=\"http://www.ietf.org/rfc/rfc3056.txt\">rfc3056</a>.)"
+
+#: faq_6to4.html
+msgid "Before covering my actual view on 6to4, lets discuss how it works."
+msgstr "Før vi går gjennom mitt syn på 6to4, la oss se på hvordan det faktisk fungerer."
+
+#: faq_6to4.html
+msgid "With traditional IPv4 Internet connections, traffic goes from you, to your ISP; to one or more ISPs; and finally to the end web site. Debugging issues with this is fairly easy. And, in the event of issues, your ISP has an obligation to fix things that they are associated with; the web site has a similiar contract with their ISP."
+msgstr "Med en tradisjonell IPv4-internettforbindelse går trafikken til deg, videre til din internett-leverendør, gjennom en eller flere andre internett-leverandører, før den til slutt ender opp hos nettsiden du ønsket å gå til. Feilsøking er relativt enkelt. Og, om det skulle være problem, har din internettleverandør en forpliktelse for å fikse problemene, og det samme gjelder for nettsiden sin internettleverandør."
+
+#: faq_6to4.html
+msgid "With unmanaged 6to4 connections (created \"automatically\" or without explicit gateway information) the process is a fair bit different. IPv6 is put into an IPv4 packet - much like sticking a letter in an envelope. This packet is sent to the \"nearest available\" gateway. Your ISP"
+msgstr "Med automatiske 6to4-forbindelser (opprettes uten noen eksplisitt ruter-konfiguresjon), ting henger sammen på en helt forskjellig måte. IPv6 blir puttet inni en IPv4-pakke - ikke ulikt det å putte et brev inni en konvolutt. Denne pakken blir så sent til den \"nærmeste\" ruteren. Internettleverandøren din <i>kan</i> ha en av disse, men de fleste har ikke. Sannsynligvis er den vedlikeholdt av en god samaritan som prøver å hjelpe til. Denne ruteren vil hente ut IPv6-trafikken fra innsiden av IPv4-pakkene, og videresende den ut på IPv6-internettet."
+
+#: faq_6to4.html
+msgid "Traffic from the web site takes a similiar path. That web site replies back to your automatic IPv6 address. This is routed to the nearest 6to4 relay to that web site. This is not deterministic from your part, at all. In fact, you won't even be able to tell where this relay is. That relay will take the IPv6 packet, stick it inside an IPv4 packet, and then send to your router."
+msgstr "Trafikk tilbake fra nettsiden til deg tar en lignende vei. Nettsiden svarer til din automatisk genererte IPv6-adresse, som blir sendt til den ruteren som er \"nærmest\" nettsiden. Dette er ikke forutsigbart fra din side i det hele tatt, du vil ikke ha noen mulighet til å se hvor denne ruteren befinner seg. Ruteren vil ta IPv6-trafikken, putte den inn i en IPv4-pakke, og sende den tilbake til deg."
+
+#: faq_6to4.html
+msgid "Q: What could possibly go wrong?"
+msgstr "Spm: Kva kan gå galt?"
+
+#: faq_6to4.html
+msgid "The main issues involve the lack of a service level agreement, the lack of predictability, and a lack in the protocol for your computer to realize that this method is not working."
+msgstr "Hovedproblemene at det ikke finnes noen som har ansvaret for at det virker, mangelen på forutsigbarhet, og at din datamaskin ikke har noen forutsetning for å innse det når systemet ikke virker."
+
+#: faq_6to4.html
+msgid "Service level agreement: 6to4 relays are put up, voluntarilly by some organizations. They use BGP (the Internet's way of saying \"I'm here!\") to advertise to the world the existence of the public gateway. Some of them are managed quite well. Some are not. AS long as the route is being advertised, and they are the \"closest\" (in a BGP network sense - not in your control), that particular relay is the one you MUST use. Same for the web site you're trying to use - they have the same constraints, but most likely using a different relay than you. If anything goes wrong, even if you or the web site can figure out which one it is, there is not a good way to get the problem fixed."
+msgstr "Ansvar for at det virker: Ruterene som pakker inn og ut IPv6 i IPv4 er drevet av noen frivillige organisasjoner. De bruker BGP (internett sin måte å si «jeg er her!» på) for å annonsere til verden at her finnes det en offentlig tilgjengelig ruter. Noen blir vedlikeholdt ganske bra. Andre blir det ikke. Så lenge de blir annonsert, og de er \"nærmest\" (i henhold til BGP - noe du ikke kan kontrollere), den ruteren er den du MÅ bruke. Det samme gjelder nettsiden du prøver å gå til - den har de samme begrensningene, men bruker sannsynligvis en annen ruter enn deg. Om noe går galt med en av ruterene, og selv om du eller nettstedet kan finne ut hvilken det er, finnes det ingen god måte å faktisk få løst problemet."
+
+#: faq_6to4.html
+msgid "Some ISPs are starting to offer 6to4 relays in their network; one such example is Comcast. But even if your ISP does this, that is only half the battle."
+msgstr "Noen internettleverandører har aktivert slike 6to4-rutere i sine nettverk, for eksempel Comcast. Men selv om din internettleverandør gjør dette, løser det bare halve problemet."
+
+#: faq_6to4.html
+msgid "Once you enable 6to4, your computer will go \"Ah-ha! IPv6 Internet!\". Any time you vist a web site, your web browser will prefer to try IPv6 (if the web site is offering it). When it works, great! But when it doesn't work, you'll see timeouts. Browsers can wait a very long time before giving up on IPv6, and going back to IPv4. And the browser won't remember it had to try IPv4 - so ever web graphic, every link you click, etc will be subject to what looks like \"web site slow\" or \"web site down\"."
+msgstr "Med en gang 6to4 blir aktivert, vil din datamaskin tenke \"Aha! Jeg har tilgang til IPv6-internettet!\". Hver gang du besøker et nettsted, vil nettleseren din foretrekke å prøve IPv6 (om nettstedet tilbyr det). Når det det fungerer er det kjempebra, men når det ikke fungerer vil du oppleve tidsavbrudd. Nettlesere kan vente svært lenge før de innser at IPv6 ikke fungerer, og bruker IPv4 i stedet. Videre vil ikke nettleseren huske at den ble nødt til å bruke IPv4 - så du får et tidsavbrudd for hvert enkelt bilde eller objekt på nettsiden, for hver gang du klikker på en lenke, og så videre. Dette vil oppleves som at nettstedet er nede eller svært tregt."
+
+#: faq_6to4.html
+msgid "6to4 worked for me, but the \"Big Packet\" or MTU test was slow/failed. What happened?"
+msgstr "6to4 fungerte for meg, men \"Stor Pakke\"- eller MTU-testen var treg/feilet. Hva skjedde?"
+
+#: faq_6to4.html
+msgid "When using 6to4, your IPv6 packet has to be pushed into an IPv4 packet. Internet protocol packets have a maximum size; and this can vary based on the Internet service provider, as well as the equipment used."
+msgstr "Når du bruker 6to4, må IPv6-pakkene dine dyttes inn i IPv4-pakker. Internett-pakker har en maksimumstørrelse, og denne kan variere avhengig av din internettleverandør, samt hvilket nettverksutstyr som blir brukt."
+
+#: faq_6to4.html
+msgid "Because of this maximum size, your IPv6 packets actually have to be made a bit smaller - so that they fit inside the IPv4 packet, and that the IPv4 packet is still small enough to leave your network."
+msgstr "På grunn av denne maksimumsstørrelsen, må IPv6-pakken dine reduseres litt i størrelse slik at de passer inn i IPv4-pakken, uten å samtidig gjøre IPv4-pakken for stor til å kunne forlate nettverket ditt."
+
+#: faq_6to4.html
+msgid "Further down the line, there may be another network with even tigher restrictions on the packet size. That network may itself be a tunnel - ISPs occasionally have to do that. This is where the problem often - lies. The IPv4 tunnel will send a message back towards you, - indicating that the packet was too big - but you don't get it. Even - if you do, your IPv6 packets don't get the message, so ultimately - you never reduce your packet size."
+msgstr "Lengre ute på internett kan det kanskje være et annet nettverk med en ennå større restriksjon på pakke-størrelsen. Dette nettverket kan være ennå en tunnel - internettleverandørene gjør av og til dette. Dette er hvor problemet ofte ligger. IPv4-tunnelen vil sende en kontrollbeskjed tilbake til deg som indikerer at pakken var for stor, men denne beskjeden kommer aldri fram. Og selv om den gjør det, vil ikkje IPv6-delen av forbindelsen få beskjed, så til slutt ender det opp med at du aldri reduserer pakkestørrelsen din."
+
+#: faq_6to4.html
+msgid "For some people, reducing the MTU size on IPv6 will help. 1280 is the minimum legal size. You can try values between 1400 to 1480 if you really want to find the one magic value that seems to work for you; but if you do touch MTU at all I'd recommend just doing 1280, and avoid later frustration."
+msgstr "For noen vil det hjelpe å redusere din IPv6 MTU. 1280 er den minste tillatte verdien. Du kan prøve verdier mellom 1400 og 1480 om du virkelig vil finne den absolutt optimale verdien som fungerer for deg, men om du først går til det skrittet å endre MTU vil jeg anbefale å bruke 1280, slik at du unngår eventuelle ytterligere problemer i fremtiden."
+
+#: faq_6to4.html
+msgid "Managed tunnels"
+msgstr "Manuelt vedlikeholdte tunneler"
+
+#: faq_6to4.html
+msgid "You sure sound like you don't like 6to4."
+msgstr "Det høres ut som du virkelig misliker IPv6-tunneler?"
+
+#: faq_6to4.html
+msgid "I don't like that it is *unmanaged*. 6to4 is basically 6in4 - an IPv6 packet wrapped with an IPv4 header. Managed 6in4 services can actualy be pretty good.."
+msgstr "Jeg misliker automatisk 6to4. IPv6-tunneler er i seg selv ikke så ille."
+
+#: faq_6to4.html
+msgid "test-ipv6.com's recommendation is that if you need IPv6 before your ISP can offer it, consider a managed 6in4 service. 6in4 is the same service as 6to4 on the wire, except with a managed tunnel endpoint (instead of an anonymous one). There are a few major options out there. They each offer great service; and they offer a <b>support</b> channel. These relays are <b>actively monitored</b> for service quality. Best of all, the <b>same relay is used both directions</b> - meaning the same staff manages both conversions. Consider these services:"
+msgstr "test-ipv6.com sin anbefaling er at om du skal bruke en IPv6-tunnel, bruk en manuelt vedlikeholdt tjeneste. Det er flere å velge i. Felles for de alle er at de tilbyr god service, og at tjenesten er <b>supportert</b>. Disse tunnel-ruteren er <b>aktivt overvåket</b> for å forsikre at systemet fungerer optimalt. Og til slutt, den samme reuteren er brukt i <b>begge retninger</b> - noe som betyr at de samme teknikerene ivaretar både ut- og innpakking av IPv6 i IPV4. Disse tjenestene er vert å vurdere:"
+
+#: faq_6to4.html
+msgid "Ran by Hurricane Electric. The author of test-ipv6.com has used their services for 2-3 years; and would notice latency problems (lots of interactive SSH use from home to the server). This service requires a static IPv4 address (or static enough - you can always go to the tunnelbroker.net site and update your IP). Lastly, tunnelbroker is fully automated - you can sign up, get your tunnel assignment immediately, and configure your end."
+msgstr "Driftet av Hurricane Electric. Jeg har brukt denne i 2-3 år, og ville ha lagt merke til latens-problemer (jeg bruker masse interaktiv SSH til hjemmet mitt). Denne tjenesten krever en statisk IPv4-adresse (eller statisk nok - du kan alltids gå til tunnelbroker.net-siden og oppdatere din IP). Til slutt, den er helautomatisert - du kan registrere deg, få delt ut din tunnel umiddelbart, og konfigrere det opp."
+
+#: faq_6to4.html
+msgid "is another popular service. I see many European users using this service significantly; though their footprint is global. They work with dynamic IPs with some custom software that they provide."
+msgstr "er en annen populær tjeneste. Mange europeiske brukerer bruker denne tjenesten i stor grad, selv om de har en global tilstedeværelse. Den fungerer med dynamiske IP-adresser med hjelp av spesiallaget programvare."
+
+#: faq_6to4.html
+msgid "aka freenet6. I don't have personal experience with this, but test-ipv6.com does see a number of connections via this service."
+msgstr "a.k.a. freenet6. Jeg har ikke personlig erfaringer med denne tjenesten, men test-ipv6.com ser en god del oppkoplinger fra den."
+
+#: faq_6to4.html
+msgid "may be a better solution, in China. This requires a custom client to be installed."
+msgstr "er muligens det beste valget for kinesiske brukere. Den trenger spesiallaget programvare."
+
+#: faq_6to4.html
+msgid "in Australia offers both free and paid-for (with SLA) tunnels."
+msgstr "in Australia offers both free and paid-for (with SLA) tunnels."
+
+#: faq_ipv4_only.html
+msgid "About your IPv4-only Internet service."
+msgstr "About your IPv4-only Internet service."
+
+#: faq_ipv4_only.html
+msgid "This FAQ has been produced to try and address the questions of IPv4 only users"
+msgstr "This FAQ has been produced to try and address the questions of IPv4 only users"
+
+#: faq/dontfeelbad.inc
+msgid "It looks like you have only IPv4 Internet service at this time. Don't feel bad - most people are in this position right now. Most Internet service providers are not quite yet ready to provide IPv6 Internet to residential customers."
+msgstr "It looks like you have only IPv4 Internet service at this time. Don't feel bad - most people are in this position right now. Most Internet service providers are not quite yet ready to provide IPv6 Internet to residential customers."
+
+#: faq/nothingwillbreak.inc
+msgid "The good news is, nothing will suddenly break."
+msgstr "The good news is, nothing will suddenly break."
+
+#: faq/nothingwillbreak.inc
+msgid "When web sites offer their content on both IPv4 and IPv6, you'll still reach them using your existing IPv4 Internet service."
+msgstr "When web sites offer their content on both IPv4 and IPv6, you'll still reach them using your existing IPv4 Internet service."
+
+#: faq/whyipv6.inc
+msgid "Many of the visitors to the site are new to what IPv6 is."
+msgstr "Many of the visitors to the site are new to what IPv6 is."
+
+#: faq/whyipv6.inc
+msgid "If you don't know why IPv6 matters, see the <a href=\"#\" onclick=\"return help_page('faq_whyipv6.html','Why IPv6')\">Why IPv6 FAQ</a>."
+msgstr "If you don't know why IPv6 matters, see the <a href=\"#\" onclick=\"return help_page('faq_whyipv6.html','Why IPv6')\">Why IPv6 FAQ</a>."
+
+#: faq/whyipv6.inc
+msgid "This will give you a bit of background of what to expect with IPv4 in the coming months and years; and perhaps some incentive to ask your ISP when they will offer IPv6."
+msgstr "This will give you a bit of background of what to expect with IPv4 in the coming months and years; and perhaps some incentive to ask your ISP when they will offer IPv6."
+
+#: faq/brokers.inc
+msgid "If you are savvy with technology, you can be an early adopter of IPv6, consider learning more about"
+msgstr "If you are savvy with technology, you can be an early adopter of IPv6, consider learning more about"
+
+#: faq/brokers.inc
+msgid "providers (managed 6to4 tunnel services)."
+msgstr "providers (managed 6to4 tunnel services)."
+
+#: faq/brokers.inc
+msgid "The use of automatic tunnels is discouraged"
+msgstr "The use of automatic tunnels is discouraged"
+
+#: faq_ipv4_only.html
+msgid "If you are not savvy with technology, here is more generic information:"
+msgstr "If you are not savvy with technology, here is more generic information:"
+
+#: faq/matrix_os.inc
+msgid "Windows Vista and Windows 7 are both IPv6 ready. Mac OS X 10.5 and higher is fine. FreeBSD and Linux, all recent versions, are also fine. When your Internet service provider offers IPv6 to you, these OSs are good. You may still need to replace your router (wireless or wired), if it is not aware of IPv6. You'll have to consult with your Internet service provider on when IPv6 will be offered."
+msgstr "Windows Vista and Windows 7 are both IPv6 ready. Mac OS X 10.5 and higher is fine. FreeBSD and Linux, all recent versions, are also fine. When your Internet service provider offers IPv6 to you, these OSs are good. You may still need to replace your router (wireless or wired), if it is not aware of IPv6. You'll have to consult with your Internet service provider on when IPv6 will be offered."
+
+#: faq/matrix_os.inc
+msgid "Windows XP users: My advice is to plan on upgrading before using IPv6. It is technically possible to use IPv6 with XP, to a minimal extent."
+msgstr "Windows XP users: My advice is to plan on upgrading before using IPv6. It is technically possible to use IPv6 with XP, to a minimal extent."
+
+#: faq/dontstress.inc
+msgid "Don't stress too much on having an IPv6 address in 2011."
+msgstr "Don't stress too much on having an IPv6 address in 2011."
+
+#: faq/dontstress.inc
+msgid "If you do buy a new router, make sure that it will be IPv6 ready (or upgradable) when your service provider does offer IPv6."
+msgstr "If you do buy a new router, make sure that it will be IPv6 ready (or upgradable) when your service provider does offer IPv6."
+
+#: faq_no_ipv6.html
+msgid "You appear to have no IPv6 at this time.."
+msgstr "You appear to have no IPv6 at this time.."
+
+#: faq_no_ipv6.html
+msgid "You appear to have no IPv6 address."
+msgstr "You appear to have no IPv6 address."
+
+#: faq/unable_to_see_ipv6.inc
+msgid "<b>If you strongly believe you have IPv6, but we were unable to detect it:</b> it means one of a couple of things. Either your organization is blocking the use of IPv6 to talk to the outside Internet through network policy; or perhaps what you see with IPv6 on your host is not a global address. Any address starting with \"::\", \"fc\", \"fd\", or \"fe\" are unable to work with the public IPv6 Internet."
+msgstr "<b>If you strongly believe you have IPv6, but we were unable to detect it:</b> it means one of a couple of things. Either your organization is blocking the use of IPv6 to talk to the outside Internet through network policy; or perhaps what you see with IPv6 on your host is not a global address. Any address starting with \"::\", \"fc\", \"fd\", or \"fe\" are unable to work with the public IPv6 Internet."
+
+#: faq_teredo_minimum.html
+msgid "More about your test results."
+msgstr "More about your test results."
+
+#: faq/teredo_iponly.inc
+msgid "You also appear to have Teredo enabled. You did successfully connect to an IPv6 site during this test - but only when forcing the connection by connecting to an IPv6 numeric address, instead of a web site name. This setting will not help or hurt you going forward to reach IPv6 web sites."
+msgstr "You also appear to have Teredo enabled. You did successfully connect to an IPv6 site during this test - but only when forcing the connection by connecting to an IPv6 numeric address, instead of a web site name. This setting will not help or hurt you going forward to reach IPv6 web sites."
+
+#: faq_teredo.html
+msgid "About Teredo"
+msgstr "About Teredo"
+
+#: faq_teredo.html
+msgid "This FAQ has been produced to tell you about Microsoft's Teredo service - a transition tool to help get early access to the IPv6 Internet."
+msgstr "This FAQ has been produced to tell you about Microsoft's Teredo service - a transition tool to help get early access to the IPv6 Internet."
+
+#: faq_teredo.html
+msgid "By default, Teredo is enabled on Vista and Windows 7. However, if Teredo is the only available IPv6 solution for you, it will default to only connecting to web sites by IPv6 address - not by name. More can be found <a href=\"http://technet.microsoft.com/en-us/library/bb727035.aspx\">here</a>. Once a global IP address has been assigned, Windows will do lookups. At this point, you probably wonder - why do I need Teredo?"
+msgstr "By default, Teredo is enabled on Vista and Windows 7. However, if Teredo is the only available IPv6 solution for you, it will default to only connecting to web sites by IPv6 address - not by name. More can be found <a href=\"http://technet.microsoft.com/en-us/library/bb727035.aspx\">here</a>. Once a global IP address has been assigned, Windows will do lookups. At this point, you probably wonder - why do I need Teredo?"
+
+#: faq_v6ns_bad.html
+msgid "About the \"v6ns\" test."
+msgstr "About the \"v6ns\" test."
+
+#: faq_v6ns_bad.html
+msgid "This FAQ has been produced to try and address what it means for the v6ns test to be \"bad\"."
+msgstr "This FAQ has been produced to try and address what it means for the v6ns test to be \"bad\"."
+
+#: faq_v6ns_bad.html
+msgid "This test specifically verifies that your DNS resolver (usually operated by your Internet service provider, or your corporate IT department) is capable of reaching IPv6 Internet sites for DNS lookups. If you explicitly configured the use of a different DNS server, such as OpenDNS or Google's Public DNS, you'll test those services instead."
+msgstr "This test specifically verifies that your DNS resolver (usually operated by your Internet service provider, or your corporate IT department) is capable of reaching IPv6 Internet sites for DNS lookups. If you explicitly configured the use of a different DNS server, such as OpenDNS or Google's Public DNS, you'll test those services instead."
+
+#: faq_v6ns_bad.html
+msgid "If this test fails:"
+msgstr "If this test fails:"
+
+#: faq_v6ns_bad.html
+msgid "it means that the DNS resolver you are using, requires IPv4 to reach the DNS authoritative servers of your favoriate web sites. In the near future, every web site of consequence will remain accessible in this form, so <b>there is no immediate danger.</b>"
+msgstr "it means that the DNS resolver you are using, requires IPv4 to reach the DNS authoritative servers of your favoriate web sites. In the near future, every web site of consequence will remain accessible in this form, so <b>there is no immediate danger.</b>"
+
+#: faq_v6ns_bad.html
+msgid "If this test succeeds:"
+msgstr "If this test succeeds:"
+
+#: faq_v6ns_bad.html
+msgid "it means that your DNS resolver is fully capable of reaching IPv6 DNS servers. This means that the operator of that DNS server has IPv6 within their network. If they do not already offer you IPv6, this may be a sign that they are actively working on trying to make it possible."
+msgstr "it means that your DNS resolver is fully capable of reaching IPv6 DNS servers. This means that the operator of that DNS server has IPv6 within their network. If they do not already offer you IPv6, this may be a sign that they are actively working on trying to make it possible."
+
+#: faq_v6ns_bad.html
+msgid "Do you use OpenDNS?"
+msgstr "Do you use OpenDNS?"
+
+#: faq_v6ns_bad.html
+msgid "OpenDNS is now offering IPv6-specific resolvers, that will be able to retrieve DNS over IPv6. This means the \"v6ns\" test operated here will pass. See the <a target=_blank href=\"http://www.opendns.com/ipv6/\">OpenDNS IPv6 information page</a>."
+msgstr "OpenDNS is now offering IPv6-specific resolvers, that will be able to retrieve DNS over IPv6. This means the \"v6ns\" test operated here will pass. See the <a target=_blank href=\"http://www.opendns.com/ipv6/\">OpenDNS IPv6 information page</a>."
+
+#: faq_v6ns_bad.html
+msgid "Do you operate your own DNS resolvers?"
+msgstr "Do you operate your own DNS resolvers?"
+
+#: faq_v6ns_bad.html
+msgid "If you operated the DNS resolvers in use at your home or organization, enabling IPv6 on your DNS server is easy."
+msgstr "If you operated the DNS resolvers in use at your home or organization, enabling IPv6 on your DNS server is easy."
+
+#: faq_v6ns_bad.html
+msgid "ISC BIND: Make sure that IPv6 support is compiled in when you ./configure it. It is enabled by default. If you recently added IPv6 to your server, simply restart your named process, as you normally would."
+msgstr "ISC BIND: Make sure that IPv6 support is compiled in when you ./configure it. It is enabled by default. If you recently added IPv6 to your server, simply restart your named process, as you normally would."
+
+#: faq_v6ns_bad.html
+msgid "PowerDNS: Enable <code>aaaa-additional-processing</code> and configure <code>query-local-address6</code> in your <code>recursor.conf</code>. Restart powerdns."
+msgstr "PowerDNS: Enable <code>aaaa-additional-processing</code> and configure <code>query-local-address6</code> in your <code>recursor.conf</code>. Restart powerdns."
+
+#: faq_v6ns_bad.html
+msgid "Windows Server 2003: Upgrade to Windows Server 2008 at a minimum. Windows 2003 will resolve AAAA records, and supports IPv6 clients, but does *not* do DNS resolution over IPv6."
+msgstr "Windows Server 2003: Upgrade to Windows Server 2008 at a minimum. Windows 2003 will resolve AAAA records, and supports IPv6 clients, but does *not* do DNS resolution over IPv6."
+
+#: faq_v6ns_bad.html
+msgid "Confirmation:"
+msgstr "Confirmation:"
+
+#: faq_v6ns_bad.html
+msgid "should return back an aaaa record without errors."
+msgstr "should return back an aaaa record without errors."
+
+#: faq_broken_aaaa.html
+msgid "Broken DNS AAAA Lookups"
+msgstr "Broken DNS AAAA Lookups"
+
+#: faq_broken_aaaa.html
+msgid "We detected that you are able to connect to IPv6 sites, by numerical address specifically. However, connections using DNS either failed, or preferred IPv4."
+msgstr "We detected that you are able to connect to IPv6 sites, by numerical address specifically. However, connections using DNS either failed, or preferred IPv4."
+
+#: faq_broken_aaaa.html
+msgid "What does this mean for you?"
+msgstr "What does this mean for you?"
+
+#: faq_broken_aaaa.html
+msgid "You should still be able to reach most sites fine, so long as they offer their services on IPv4. This means few near-term problems."
+msgstr "You should still be able to reach most sites fine, so long as they offer their services on IPv4. This means few near-term problems."
+
+#: faq_broken_aaaa.html
+msgid "Possible causes:"
+msgstr "Possible causes:"
+
+#: faq_broken_aaaa.html
+msgid "Firefox users may have IPv6 lookups disabled."
+msgstr "Firefox users may have IPv6 lookups disabled."
+
+#: faq_broken_aaaa.html
+msgid "Go to <a href=\"about:config\">about:config</a> in your browser."
+msgstr "Go to <a href=\"about:config\">about:config</a> in your browser."
+
+#: faq_broken_aaaa.html
+msgid "Look for <code>network.dns.disableIPv6</code>"
+msgstr "Look for <code>network.dns.disableIPv6</code>"
+
+#: faq_broken_aaaa.html
+msgid "Make sure this is set to <code>false</code>."
+msgstr "Make sure this is set to <code>false</code>."
+
+#: faq_broken_aaaa.html
+msgid "Your OS may be configured to not do AAAA lookups; that is, to prefer IPv4 only."
+msgstr "Your OS may be configured to not do AAAA lookups; that is, to prefer IPv4 only."
+
+#: faq_broken_aaaa.html
+msgid "Your DNS server may be filtering AAAA responses (or otherwise broken)."
+msgstr "Your DNS server may be filtering AAAA responses (or otherwise broken)."
+
+#: faq_broken_aaaa.html
+msgid "Some ISPs will intentionally filter AAAA records. For example, on World IPv6 Day, we expect many Japanese ISPs to filter AAAA records, to mitigate current IPv6 deployment issues unique to their environments."
+msgstr "Some ISPs will intentionally filter AAAA records. For example, on World IPv6 Day, we expect many Japanese ISPs to filter AAAA records, to mitigate current IPv6 deployment issues unique to their environments."
+
+#: faq_broken_aaaa.html
+msgid "You (or your techical support) can run <code>dig @DNSSERVER aaaa aaaa.test-ipv6.com</code> to confirm if the DNS server is working properly"
+msgstr "You (or your techical support) can run <code>dig @DNSSERVER aaaa aaaa.test-ipv6.com</code> to confirm if the DNS server is working properly"
+
+#: faq_firefox_plugins.html
+msgid "FAQ on Firefox Plugins"
+msgstr "FAQ on Firefox Plugins"
+
+#: faq_firefox_plugins.html
+msgid "This FAQ has been produced to try and address issues caused when using Firefox"
+msgstr "This FAQ has been produced to try and address issues caused when using Firefox"
+
+#: faq/intro_js.inc
+msgid "<b>How this site works:</b> This site tells your browser to try and load several remote javascript files. Each file is on a different server. After each one finishes, we look at which ones worked - and which ones failed. Depending on the pattern, we can guess at IPv4 and IPv6 compatibility, and sometimes suggest possible fixes."
+msgstr "<b>How this site works:</b> This site tells your browser to try and load several remote javascript files. Each file is on a different server. After each one finishes, we look at which ones worked - and which ones failed. Depending on the pattern, we can guess at IPv4 and IPv6 compatibility, and sometimes suggest possible fixes."
+
+#: faq/intro_js.inc
+msgid "Some browser plugins enforce policies that are compatible with the above behavior. They block connections that (to them) look like they might be 3rd party advertising or tracking. There is no good way to identify this plugins from inside javascript; nor any good way to work around it."
+msgstr "Some browser plugins enforce policies that are compatible with the above behavior. They block connections that (to them) look like they might be 3rd party advertising or tracking. There is no good way to identify this plugins from inside javascript; nor any good way to work around it."
+
+#: faq/plugins_firefox.inc
+msgid "In the case of Firefox, the most common plugins that cause problems are AdBlock and RequestPolicy. There are probably others - any which claims to prevent XSS, CSRF, or Cross Site Scripting can be a problem. Try disabling these plugins (either temporarilly via any menu they offer you, or via the Firefox add-ons menu)."
+msgstr "In the case of Firefox, the most common plugins that cause problems are AdBlock and RequestPolicy. There are probably others - any which claims to prevent XSS, CSRF, or Cross Site Scripting can be a problem. Try disabling these plugins (either temporarilly via any menu they offer you, or via the Firefox add-ons menu)."
+
+#: faq_firefox_plugins.html
+msgid "Alternative test for you.."
+msgstr "Alternative test for you.."
+
+#: faq_firefox_plugins.html
+msgid "This image based test is provided as a workaround. It will give you a quick pass/fail test, to tell you if you should be worried for World IPv6 Day."
+msgstr "This image based test is provided as a workaround. It will give you a quick pass/fail test, to tell you if you should be worried for World IPv6 Day."
+
+#: faq/simple_test.inc
+msgid "The following table will try and load 3 images."
+msgstr "The following table will try and load 3 images."
+
+#: faq/simple_test.inc
+msgid "test images for ipv4, dual stack, and ipv6"
+msgstr "test images for ipv4, dual stack, and ipv6"
+
+#: faq/simple_test.inc
+msgid "Pass?"
+msgstr "Pass?"
+
+#: faq/simple_test.inc
+msgid "Method"
+msgstr "Method"
+
+#: faq/simple_test.inc
+msgid "More Info"
+msgstr "More Info"
+
+#: faq/simple_test.inc
+msgid "IPv4. Basic traditional Internet."
+msgstr "IPv4. Basic traditional Internet."
+
+#: faq/simple_test.inc
+msgid "If green, you will have no problem on World IPv6 day."
+msgstr "If green, you will have no problem on World IPv6 day."
+
+#: faq/simple_test.inc
+msgid "If this fails, seek help from your IT department, helpdesk, or ISP tech support."
+msgstr "If this fails, seek help from your IT department, helpdesk, or ISP tech support."
+
+#: faq/simple_test.inc
+msgid "If this fails, consider using the <a href=\"/\">full test</a>, with IE, Firefox, Safari, or Chrome, to get more detailed information about possible failure reasons."
+msgstr "If this fails, consider using the <a href=\"/\">full test</a>, with IE, Firefox, Safari, or Chrome, to get more detailed information about possible failure reasons."
+
+#: faq/simple_test.inc
+msgid "<i>If red or blank, do not stress!</i> Few people already have IPv6 at this time; and it is not critical for 2011 but will be for the coming years."
+msgstr "<i>If red or blank, do not stress!</i> Few people already have IPv6 at this time; and it is not critical for 2011 but will be for the coming years."
+
+#: faq_browser_plugins.html
+msgid "FAQ on Plugins and Add-Ons"
+msgstr "FAQ on Plugins and Add-Ons"
+
+#: faq_browser_plugins.html
+msgid "This FAQ has been produced to try and address issues caused when using browser add-ons"
+msgstr "This FAQ has been produced to try and address issues caused when using browser add-ons"
+
+#: simple_test.html
+msgid "This image based test is provided for those with browsers or browser plugins incompatible with the <a href=\"/\">main test</a>. This page provides only a subset of features, but should be enough for a simple pass/fail."
+msgstr "This image based test is provided for those with browsers or browser plugins incompatible with the <a href=\"/\">main test</a>. This page provides only a subset of features, but should be enough for a simple pass/fail."
+
+#: faq_whyipv6.html
+msgid "Why IPv6?"
+msgstr "Why IPv6?"
+
+#: faq_whyipv6.html
+msgid "This is an interesting question. IPv6 buys you only a bit more than you already have today; and most of that is a promise. IPv6 will help you preserve the level of Internet connectivy between your home and other locations on the Internet, without interference, as you enjoyed in 2012."
+msgstr "This is an interesting question. IPv6 buys you only a bit more than you already have today; and most of that is a promise. IPv6 will help you preserve the level of Internet connectivy between your home and other locations on the Internet, without interference, as you enjoyed in 2012."
+
+#: faq_whyipv6.html
+msgid "The promise is the ability to give every device in your house a reachable network address. Each house will have practically unlimited network addresses (2<sup>64</sup> if you're curious - about 18 billion billions). Each house may potentially have more than that, particularly if they have the need for multiple networks within the home. Many ISPs will be able to easy give you 256 of those networks. <em>Running out of IPv6 address space will seem impossible for decades.</em>"
+msgstr "The promise is the ability to give every device in your house a reachable network address. Each house will have practically unlimited network addresses (2<sup>64</sup> if you're curious - about 18 billion billions). Each house may potentially have more than that, particularly if they have the need for multiple networks within the home. Many ISPs will be able to easy give you 256 of those networks. <em>Running out of IPv6 address space will seem impossible for decades.</em>"
+
+#: faq_whyipv6.html
+msgid "Applications to take advantage of this are just now being thought of. Imagine having all of your home electronics accessible from work or from your mobile phone. You could watch your TV recorder, or the security camera. You could check the fridge, perhaps start the oven timer. Maybe turn on the air conditioning or the heater when you know you're coming home early. All of these *can* be done today, but are cumbersome with IPv4 if you're using a single IPv4 address today. And, very difficult in the future, with where IPv4 is heading next."
+msgstr "Applications to take advantage of this are just now being thought of. Imagine having all of your home electronics accessible from work or from your mobile phone. You could watch your TV recorder, or the security camera. You could check the fridge, perhaps start the oven timer. Maybe turn on the air conditioning or the heater when you know you're coming home early. All of these *can* be done today, but are cumbersome with IPv4 if you're using a single IPv4 address today. And, very difficult in the future, with where IPv4 is heading next."
+
+#: faq_whyipv6.html
+msgid "What Is Wrong with IPv4"
+msgstr "What Is Wrong with IPv4"
+
+#: faq_whyipv6.html
+msgid "The traditional IPv4 Internet is running out of space. The IANA registry (at the global level) is either just about out, or totally out, depending on when you read this. They are expected to announce this depletion Janaury or February 2011."
+msgstr "The traditional IPv4 Internet is running out of space. The IANA registry (at the global level) is either just about out, or totally out, depending on when you read this. They are expected to announce this depletion Janaury or February 2011."
+
+#: faq_whyipv6.html
+msgid "As Internet service providers each run out of the space they have been allocated, they will have to find creative ways to help keep taking on new customers. Those customers will still need access to the IPv4 Internet."
+msgstr "As Internet service providers each run out of the space they have been allocated, they will have to find creative ways to help keep taking on new customers. Those customers will still need access to the IPv4 Internet."
+
+#: faq_whyipv6.html
+msgid "Q: I heard there are millions of addresses left. Take it back from the companies not using it! Use the Class E space! (etc)."
+msgstr "Q: I heard there are millions of addresses left. Take it back from the companies not using it! Use the Class E space! (etc)."
+
+#: faq_whyipv6.html
+msgid "Those have been looked at. The space is relatively small, given the rate that the world is consuming it now. Forcefully taking back space would require more time in the court systems than it would buy back. Other currently reserved space is too difficult to use - it would require replacing most of the routers in the world to do so."
+msgstr "Those have been looked at. The space is relatively small, given the rate that the world is consuming it now. Forcefully taking back space would require more time in the court systems than it would buy back. Other currently reserved space is too difficult to use - it would require replacing most of the routers in the world to do so."
+
+#: faq_whyipv6.html
+msgid "Q: What creative ways will ISPs keep IPv4 running?"
+msgstr "Q: What creative ways will ISPs keep IPv4 running?"
+
+#: faq_whyipv6.html
+msgid "Most commonly, some form of NAT. NAT is a form of address sharing; think of it as a party line from the earlier days of the telephone. You'll be able to make outgoing connections easy enough, as long as your shared IP address is not too busy."
+msgstr "Most commonly, some form of NAT. NAT is a form of address sharing; think of it as a party line from the earlier days of the telephone. You'll be able to make outgoing connections easy enough, as long as your shared IP address is not too busy."
+
+#: faq_whyipv6.html
+msgid "Note this is in addition to any NAT you do at home."
+msgstr "Note this is in addition to any NAT you do at home."
+
+#: faq_whyipv6.html
+msgid "Q: So, why worry? NAT will work, right? I use NAT at home today after all.."
+msgstr "Q: So, why worry? NAT will work, right? I use NAT at home today after all.."
+
+#: faq_whyipv6.html
+msgid "Sort of. Basic web browsing should be OK for most sites. Some map sites, the itunes store, and other sites that use a <em>huge</em> number of connections to rapidly load the page, may start showing blank images, depending on how many people share that public IP address."
+msgstr "Sort of. Basic web browsing should be OK for most sites. Some map sites, the itunes store, and other sites that use a <em>huge</em> number of connections to rapidly load the page, may start showing blank images, depending on how many people share that public IP address."
+
+#: faq_whyipv6.html
+msgid "Mail will still work, both traditional as well as web based."
+msgstr "Mail will still work, both traditional as well as web based."
+
+#: faq_whyipv6.html
+msgid "Q: What will break when ISPs NAT their customers?"
+msgstr "Q: What will break when ISPs NAT their customers?"
+
+#: faq_whyipv6.html
+msgid "When web sites have to block abusers, they often block the IP address the abuse came from. If you are sharing your IP address with 1000 other broadband customers, if *any* of them trigger a block, you will be blocked too. Your ISP is not likely to be able to assist in fixing this."
+msgstr "When web sites have to block abusers, they often block the IP address the abuse came from. If you are sharing your IP address with 1000 other broadband customers, if *any* of them trigger a block, you will be blocked too. Your ISP is not likely to be able to assist in fixing this."
+
+#: faq_whyipv6.html
+msgid "Running servers at home will break, unless you arrange to pay for a static IP address. Assuming the ISP is able to offer this at all, we expect the price for this to go up over the coming years. Some ISPs may be able to offer you a port forward on a static IP on an odd port number - but not the whole IP address"
+msgstr "Running servers at home will break, unless you arrange to pay for a static IP address. Assuming the ISP is able to offer this at all, we expect the price for this to go up over the coming years. Some ISPs may be able to offer you a port forward on a static IP on an odd port number - but not the whole IP address"
+
+#: faq_whyipv6.html
+msgid "Running p2p applications will likely break. <b>This includes things like voice and video chat, video games, and yes - even those legal BitTorrent clients.</b> Some ISPs may handle this better than others, and some applications may handle this better than others, but there will be a lot of road bumps over all on this."
+msgstr "Running p2p applications will likely break. <b>This includes things like voice and video chat, video games, and yes - even those legal BitTorrent clients.</b> Some ISPs may handle this better than others, and some applications may handle this better than others, but there will be a lot of road bumps over all on this."
+
+#: faq_whyipv6.html
+msgid "Web sites that today automatically show you your local weather, news, and movies may no longer be able to locate you using your IPv4 address; you'll have to tell the web sites where in the world you are"
+msgstr "Web sites that today automatically show you your local weather, news, and movies may no longer be able to locate you using your IPv4 address; you'll have to tell the web sites where in the world you are"
+
+#: faq_whyipv6.html
+msgid "Q: Do I have to give up IPv4, to go IPv6?"
+msgstr "Q: Do I have to give up IPv4, to go IPv6?"
+
+#: faq_whyipv6.html
+msgid "No. They can co-exist. Most ISPs will continue to offer some form of IPv4 (most NAT'd) while offering IPv6. So you can reach the web sites that are still IPv4 only."
+msgstr "No. They can co-exist. Most ISPs will continue to offer some form of IPv4 (most NAT'd) while offering IPv6. So you can reach the web sites that are still IPv4 only."
+
+#: faq_whyipv6.html
+msgid "Q: When is the cutoff date for switching?"
+msgstr "Q: When is the cutoff date for switching?"
+
+#: faq_whyipv6.html
+msgid "Most service providers will keep existing IPv4 users on the same service they have now. Only when they change services will they be forced to share a public address with other residences. Either way, you'll still have IPv4 available for years to come, in most markets."
+msgstr "Most service providers will keep existing IPv4 users on the same service they have now. Only when they change services will they be forced to share a public address with other residences. Either way, you'll still have IPv4 available for years to come, in most markets."
+
+#: faq_whyipv6.html
+msgid "As such, there is no hard cutoff date. Just be aware that IPv4 will start working less well over time."
+msgstr "As such, there is no hard cutoff date. Just be aware that IPv4 will start working less well over time."
+
+#: faq_whyipv6.html
+msgid "Q: Will I have to replace my OS?"
+msgstr "Q: Will I have to replace my OS?"
+
+#: faq_whyipv6.html
+msgid "Windows Vista, Windows 7: You're good to go. XP users: It can be made to work, but it really is time to consider upgrading. Win98 and Win2000 users have no path to IPv6."
+msgstr "Windows Vista, Windows 7: You're good to go. XP users: It can be made to work, but it really is time to consider upgrading. Win98 and Win2000 users have no path to IPv6."
+
+#: faq_whyipv6.html
+msgid "Mac OS X: All supported versions of OS X (since Tiger, 10.4) have IPv6."
+msgstr "Mac OS X: All supported versions of OS X (since Tiger, 10.4) have IPv6."
+
+#: faq_whyipv6.html
+msgid "Linux, BSD, and other unix like systems generally all have IPv6."
+msgstr "Linux, BSD, and other unix like systems generally all have IPv6."
+
+#: faq_whyipv6.html
+msgid "Q: Will I have to replace my hardware?"
+msgstr "Q: Will I have to replace my hardware?"
+
+#: faq_whyipv6.html
+msgid "Your PC: Only if the OS upgrade you do requires it."
+msgstr "Your PC: Only if the OS upgrade you do requires it."
+
+#: faq_whyipv6.html
+msgid "Your ethernet switch / hub: No. It is unaware of IP; it works at a lower level on the local network."
+msgstr "Your ethernet switch / hub: No. It is unaware of IP; it works at a lower level on the local network."
+
+#: faq_whyipv6.html
+msgid "Your router: Quite possibly. Many home routers have no upgrade path for IPv6. Do a web search for your router mode, with the keyword \"ipv6\" with it."
+msgstr "Your router: Quite possibly. Many home routers have no upgrade path for IPv6. Do a web search for your router mode, with the keyword \"ipv6\" with it."
+
+#: faq_whyipv6.html
+msgid "<b>What router to buy:</b> Wait until your ISP gives you guidance on what will work best with their system. If you must replace your router immediately, look for ones that are IPv6 capable. Apple Airport Express and Airport Extreme have built in tunneling capabilities. OpenWRT capable routers also do (when loaded with the OpenWRT firmware). If you do consider tunnels, see my <a href=\"#\" onclick=\"return help_page('faq_6to4.html','6to4')\">6to4 comments</a>."
+msgstr "<b>What router to buy:</b> Wait until your ISP gives you guidance on what will work best with their system. If you must replace your router immediately, look for ones that are IPv6 capable. Apple Airport Express and Airport Extreme have built in tunneling capabilities. OpenWRT capable routers also do (when loaded with the OpenWRT firmware). If you do consider tunnels, see my <a href=\"#\" onclick=\"return help_page('faq_6to4.html','6to4')\">6to4 comments</a>."
+
+#: faq_pmtud.html
+msgid "This will attempt to explain why you may have PMTUD problems when using test-ipv6.com; and possible solutions. Unfortunately, it is beyond the ability of this site to be able to clearly articulate *your* specific problem."
+msgstr "This will attempt to explain why you may have PMTUD problems when using test-ipv6.com; and possible solutions. Unfortunately, it is beyond the ability of this site to be able to clearly articulate *your* specific problem."
+
+#: faq_pmtud.html
+msgid "Q: What is Path MTU Discovery (or PMTUD)"
+msgstr "Q: What is Path MTU Discovery (or PMTUD)"
+
+#: faq_pmtud.html
+msgid "PMTUD is a mechanism used on the Internet that tells your computer the maximum size of the packets that should be sent for a given destination. How this works: Your host will send a possibly large packet; with the packet marked \"Do Not Fragment\". When the packet reaches a router that can't forward this packet, due to size, it sends back a response saying \"Too big! Try this size instead.\""
+msgstr "PMTUD is a mechanism used on the Internet that tells your computer the maximum size of the packets that should be sent for a given destination. How this works: Your host will send a possibly large packet; with the packet marked \"Do Not Fragment\". When the packet reaches a router that can't forward this packet, due to size, it sends back a response saying \"Too big! Try this size instead.\""
+
+#: faq_pmtud.html
+msgid "Q: How does this relate to IPv6?"
+msgstr "Q: How does this relate to IPv6?"
+
+#: faq_pmtud.html
+msgid "With IPv6, all packets are by definition \"Do Not Fragment\". The responsibility of sending the correct sized packets no longer falls on the router; this is an expensive operation for the router to handle. Instead, the ability to do PMTUD is mandated by the IPv6 specification."
+msgstr "With IPv6, all packets are by definition \"Do Not Fragment\". The responsibility of sending the correct sized packets no longer falls on the router; this is an expensive operation for the router to handle. Instead, the ability to do PMTUD is mandated by the IPv6 specification."
+
+#: faq_pmtud.html
+msgid "Q: What does the firewall need to allow?"
+msgstr "Q: What does the firewall need to allow?"
+
+#: faq_pmtud.html
+msgid "IPv6 firewalls <b>need</b> to permit ICMPv6, type 2 (Packet Too Big) to work correctly with the public Internet. If you are implementing the IPv6 firewall for your web site, your enterprise, or other organization, please permit this specific ICMPv6 message, even if you by default block other types of ICMP."
+msgstr "IPv6 firewalls <b>need</b> to permit ICMPv6, type 2 (Packet Too Big) to work correctly with the public Internet. If you are implementing the IPv6 firewall for your web site, your enterprise, or other organization, please permit this specific ICMPv6 message, even if you by default block other types of ICMP."
+
+#: faq_pmtud.html
+msgid "Q: What else can cause PMTUD failures?"
+msgstr "Q: What else can cause PMTUD failures?"
+
+#: faq_pmtud.html
+msgid "Tunnels inside of tunnels. One might be your own; the other, you may not see. Internet service providers often use tunnels either to simplify their topology; to hide it; or to transport things in a more convenient way. However, each tunnel used requires adding a bit of a header to the top of the packet - making the packet bigger. The problem lies in that routers have a maximum size packet they will route."
+msgstr "Tunnels inside of tunnels. One might be your own; the other, you may not see. Internet service providers often use tunnels either to simplify their topology; to hide it; or to transport things in a more convenient way. However, each tunnel used requires adding a bit of a header to the top of the packet - making the packet bigger. The problem lies in that routers have a maximum size packet they will route."
+
+#: faq_pmtud.html
+msgid "This is what it looks like when you use 6to4, 6in4, Teredo, and other types of tunnels:"
+msgstr "This is what it looks like when you use 6to4, 6in4, Teredo, and other types of tunnels:"
+
+#: faq_pmtud.html
+msgid "Your router will automatically add an IPv4 header to the top of your packet. This same router will let your computer know if the packet is going to be too big; your computer will (as long as it gets the ICMPv6 \"Packet Too Big\" message) resend the packet, at a smaller size recommended by your router. A router near the web site, will automatically remove the IPv4 header, and forward the IPv6 peice."
+msgstr "Your router will automatically add an IPv4 header to the top of your packet. This same router will let your computer know if the packet is going to be too big; your computer will (as long as it gets the ICMPv6 \"Packet Too Big\" message) resend the packet, at a smaller size recommended by your router. A router near the web site, will automatically remove the IPv4 header, and forward the IPv6 peice."
+
+#: faq_pmtud.html
+msgid "This is like putting a letter in an envelope, inside another envelope for someone else to forward on. There may be a maximum size or weight limit for your postage stamp. Tunneling is conceptually the same."
+msgstr "This is like putting a letter in an envelope, inside another envelope for someone else to forward on. There may be a maximum size or weight limit for your postage stamp. Tunneling is conceptually the same."
+
+#: faq_pmtud.html
+msgid "If any Internet service provider along the way adds their own tunnel, in effect stuffing your package into another envelope, the packet may become too big:"
+msgstr "If any Internet service provider along the way adds their own tunnel, in effect stuffing your package into another envelope, the packet may become too big:"
+
+#: faq_pmtud.html
+msgid "In the above case, the message is now so big, that it can't be forwarded. A \"Packet Too Big\" message will be sent by that router - but it only sees the IPv4 address; not your IPv6 address. Because of this, your computer will never retry with a smaller sized packet, one that might fit when using multiple envelopes."
+msgstr "In the above case, the message is now so big, that it can't be forwarded. A \"Packet Too Big\" message will be sent by that router - but it only sees the IPv4 address; not your IPv6 address. Because of this, your computer will never retry with a smaller sized packet, one that might fit when using multiple envelopes."
+
+#: faq_pmtud.html
+msgid "What can I do?"
+msgstr "What can I do?"
+
+#: faq_pmtud.html
+msgid "This is a complex question - there are many ways to get on the Internet."
+msgstr "This is a complex question - there are many ways to get on the Internet."
+
+#: faq_pmtud.html
+msgid "If you have \"native\" IPv6, meaning your ISP gave you your IPv6 connectivity, and you are still running into MTU problems, see if your router can advertise a smaller IPv6 MTU. Alternately, configure your <b>entire LAN</b> for a smaller MTU (not really advised!)"
+msgstr "If you have \"native\" IPv6, meaning your ISP gave you your IPv6 connectivity, and you are still running into MTU problems, see if your router can advertise a smaller IPv6 MTU. Alternately, configure your <b>entire LAN</b> for a smaller MTU (not really advised!)"
+
+#: faq_pmtud.html
+msgid "If your router provides IPv6 for you, see if you can configure a smaller MTU to be advertising with (perhaps) RADVD."
+msgstr "If your router provides IPv6 for you, see if you can configure a smaller MTU to be advertising with (perhaps) RADVD."
+
+#: faq_pmtud.html
+msgid "Apple Airport routers: Automatically send ICMPv6 redirects to your hosts, telling them to reduce the path MTU to 1280."
+msgstr "Apple Airport routers: Automatically send ICMPv6 redirects to your hosts, telling them to reduce the path MTU to 1280."
+
+#: faq_pmtud.html
+msgid "DD-WRT routers: Looks like you need to use \"AdvLinkMTU 1280;\" on your wireless side; and make sure the tun6to4 mtu is set to 1280."
+msgstr "DD-WRT routers: Looks like you need to use \"AdvLinkMTU 1280;\" on your wireless side; and make sure the tun6to4 mtu is set to 1280."
+
+#: faq_pmtud.html
+msgid "Routers based on Linux, BSD, and (presumably) Mac: Set your 6to4 interface to MTU 1280. Configure radvd.conf's interface config with \"AdvLinkMTU 1280\"."
+msgstr "Routers based on Linux, BSD, and (presumably) Mac: Set your 6to4 interface to MTU 1280. Configure radvd.conf's interface config with \"AdvLinkMTU 1280\"."
+
+#: faq_pmtud.html
+msgid "If you run \"6to4\" on your computer instead (not the router):"
+msgstr "If you run \"6to4\" on your computer instead (not the router):"
+
+#: faq_pmtud.html
+msgid "Linux, BSD, and (presumably) Mac: Set your 6to4 interface to MTU 1280. If you are running radvd, set \"AdvLinkMTU 1280\" in your interface radvd.conf ."
+msgstr "Linux, BSD, and (presumably) Mac: Set your 6to4 interface to MTU 1280. If you are running radvd, set \"AdvLinkMTU 1280\" in your interface radvd.conf ."
+
+#: faq_pmtud.html
+msgid "Windows: If you figure this out, please share with jfesler@test-ipv6.com to add to this site. Presumably: control panel, network adapters, properties, 6"
+msgstr "Windows: If you figure this out, please share with jfesler@test-ipv6.com to add to this site. Presumably: control panel, network adapters, properties, 6"
+
+#: faq_pmtud.html
+msgid "<b>If you are not covered by the above, do a web search.</b>. As you learn what fixes your particular circumstances, please share with jfesler@test-ipv6.com to add to this site. Your contribution will be appreciated by others!"
+msgstr "<b>If you are not covered by the above, do a web search.</b>. As you learn what fixes your particular circumstances, please share with jfesler@test-ipv6.com to add to this site. Your contribution will be appreciated by others!"
+
+#: attributions.html
+msgid "<!-- <p><em>falling-sky</em> is also a reference to <a href=\"http://en.wikipedia.org/wiki/The_Sky_Is_Falling_(fable)\">the story of Chicken Little.</p> -->"
+msgstr "<!-- <p><em>falling-sky</em> is also a reference to <a href=\"http://en.wikipedia.org/wiki/The_Sky_Is_Falling_(fable)\">the story of Chicken Little.</p> -->"
+
+#: attributions.html
+msgid "This site would not exist without the following components and resources."
+msgstr "This site would not exist without the following components and resources."
+
+#: faq_buggydns1.html
+msgid "FAQ on \"Buggy DNS\""
+msgstr "FAQ on \"Buggy DNS\""
+
+#: faq_buggydns1.html
+msgid "If you were referred to this page by test-ipv6.com, it means that we were able to detect a dangerous condition with your DNS server."
+msgstr "If you were referred to this page by test-ipv6.com, it means that we were able to detect a dangerous condition with your DNS server."
+
+#: faq_buggydns1.html
+msgid "First a description of the problem:"
+msgstr "First a description of the problem:"
+
+#: faq_buggydns1.html
+msgid "Your browser asked for a DNS lookup, both IPv4 and IPv6."
+msgstr "Your browser asked for a DNS lookup, both IPv4 and IPv6."
+
+#: faq_buggydns1.html
+msgid "The IPv6 response was returned first."
+msgstr "The IPv6 response was returned first."
+
+#: faq_buggydns1.html
+msgid "Your DNS server was confused by the result - it doesn't fully follow the DNS standards."
+msgstr "Your DNS server was confused by the result - it doesn't fully follow the DNS standards."
+
+#: faq_buggydns1.html
+msgid "Your DNS server took the first peice of the IPV6 address, and memorized it as the IPv4 address."
+msgstr "Your DNS server took the first peice of the IPV6 address, and memorized it as the IPv4 address."
+
+#: faq_buggydns1.html
+msgid "The browser fails the IPv6 lookup, but \"succeeds\" in getting a bogus IPv4 address."
+msgstr "The browser fails the IPv6 lookup, but \"succeeds\" in getting a bogus IPv4 address."
+
+#: faq_buggydns1.html
+msgid "It then tries to make a connecting, to the wrong address, with the wrong protocol."
+msgstr "It then tries to make a connecting, to the wrong address, with the wrong protocol."
+
+#: faq_buggydns1.html
+msgid "This is bad for several reasons:"
+msgstr "This is bad for several reasons:"
+
+#: faq_buggydns1.html
+msgid "You won't be able to connect to IPv6-only sites."
+msgstr "You won't be able to connect to IPv6-only sites."
+
+#: faq_buggydns1.html
+msgid "You may sporadically fail (or always fail) to connect to IPv6-enabled web sites. This is regardless of whether you are capable IPv6 or not - you may still be impacted."
+msgstr "You may sporadically fail (or always fail) to connect to IPv6-enabled web sites. This is regardless of whether you are capable IPv6 or not - you may still be impacted."
+
+#: faq_buggydns1.html
+msgid "So, what is actually affected?"
+msgstr "So, what is actually affected?"
+
+#: faq_buggydns1.html
+msgid "You'll need to determine what device is forwarding your DNS queries."
+msgstr "You'll need to determine what device is forwarding your DNS queries."
+
+#: faq_buggydns1.html
+msgid "With Windows, at the <code>cmd</code> prompt, you can type <code>ipconfig /all</code>. Look for \"<code>DNS Servers</code>\"."
+msgstr "With Windows, at the <code>cmd</code> prompt, you can type <code>ipconfig /all</code>. Look for \"<code>DNS Servers</code>\"."
+
+#: faq_buggydns1.html
+msgid "With Linux, BSD, and Mac OS X, you can do this in a terminal: <code>cat /etc/resolv.conf</code>."
+msgstr "With Linux, BSD, and Mac OS X, you can do this in a terminal: <code>cat /etc/resolv.conf</code>."
+
+#: faq_buggydns1.html
+msgid "Residential ISP customers: look to see if the DNS server is <b>192.168.0.1</b> or <b>192.168.1.1</b>. If so, chances are good that your home router is at fault. This is probably the blue box you have that connects the Internet."
+msgstr "Residential ISP customers: look to see if the DNS server is <b>192.168.0.1</b> or <b>192.168.1.1</b>. If so, chances are good that your home router is at fault. This is probably the blue box you have that connects the Internet."
+
+#: faq_buggydns1.html
+msgid "Business customers: Provide this information to your IT professional to investigate."
+msgstr "Business customers: Provide this information to your IT professional to investigate."
+
+#: faq_buggydns1.html
+msgid "IT professionals:"
+msgstr "IT professionals:"
+
+#: faq_buggydns1.html
+msgid "You can see an illustration of this, by doing:"
+msgstr "You can see an illustration of this, by doing:"
+
+#: faq_buggydns1.html
+msgid "Substitute the 192.168.1.1 with the resolver being used by the host. If the \"aaaa\" answer comes back with no answer, but the \"a\" answer does, this is a confirmation of a broken DNS cache or forwarder. The actual DNS information for buggydns1.test-ipv6.com has only an IPv6 record configured."
+msgstr "Substitute the 192.168.1.1 with the resolver being used by the host. If the \"aaaa\" answer comes back with no answer, but the \"a\" answer does, this is a confirmation of a broken DNS cache or forwarder. The actual DNS information for buggydns1.test-ipv6.com has only an IPv6 record configured."
+
+#: faq_avoids_ipv6.html
+msgid "Your browser is avoiding IPv6."
+msgstr "Your browser is avoiding IPv6."
+
+#: faq_avoids_ipv6.html
+msgid "What we found"
+msgstr "What we found"
+
+#: faq_avoids_ipv6.html
+msgid "What causes a preference for IPv4"
+msgstr "What causes a preference for IPv4"
+
+#: faq_avoids_ipv6.html
+msgid "Why this worries us"
+msgstr "Why this worries us"
+
+#: faq_avoids_ipv6.html
+msgid "This document explains why we worry when IPv4 is preferred over IPv6."
+msgstr "This document explains why we worry when IPv4 is preferred over IPv6."
+
+#: faq_avoids_ipv6.html
+msgid "This section applies only when we offered to show you this page from inside the test."
+msgstr "This section applies only when we offered to show you this page from inside the test."
+
+#: faq_avoids_ipv6.html
+msgid "First of all, we detected you had a working IPv6 connection. We also found that your IPv6 connection, was using a \"real\" IPv6 address; meaning not a Teredo or a 6to4 address."
+msgstr "First of all, we detected you had a working IPv6 connection. We also found that your IPv6 connection, was using a \"real\" IPv6 address; meaning not a Teredo or a 6to4 address."
+
+#: faq_avoids_ipv6.html
+msgid "Second, we detected that when given the choice, your browser decided it would prefer to use IPv4 instead of IPv6. This has some concerns for us."
+msgstr "Second, we detected that when given the choice, your browser decided it would prefer to use IPv4 instead of IPv6. This has some concerns for us."
+
+#: faq_avoids_ipv6.html
+msgid "Causes for preferring IPv4"
+msgstr "Causes for preferring IPv4"
+
+#: faq_avoids_ipv6.html
+msgid "There are several possible reasons why a browser might prefer IPv4 instead of IPv6."
+msgstr "There are several possible reasons why a browser might prefer IPv4 instead of IPv6."
+
+#: faq_avoids_ipv6.html
+msgid "Google's \"Chrome\" has a \"fast fallback\" mechanism. On the first try to a site, it will prefer IPv6. If connections take longer than a third of a second, IPv4 is attempted in parallel; and the better of the two will be used for that site."
+msgstr "Google's \"Chrome\" has a \"fast fallback\" mechanism. On the first try to a site, it will prefer IPv6. If connections take longer than a third of a second, IPv4 is attempted in parallel; and the better of the two will be used for that site."
+
+#: faq_avoids_ipv6.html
+msgid "(more info)"
+msgstr "(more info)"
+
+#: faq_avoids_ipv6.html
+msgid "Firefox (recent builds) does the same as Chrome."
+msgstr "Firefox (recent builds) does the same as Chrome."
+
+#: faq_avoids_ipv6.html
+msgid "The latest Windows 7 and Windows 8 updates will periodically test to see if IPv6 works. If the health check fails, then many applications (including Internet Explorer) will use IPv4, to insulate you from any local IPv6 misconfiguration."
+msgstr "The latest Windows 7 and Windows 8 updates will periodically test to see if IPv6 works. If the health check fails, then many applications (including Internet Explorer) will use IPv4, to insulate you from any local IPv6 misconfiguration."
+
+#: faq_avoids_ipv6.html
+msgid "Apple's latest Lion and Mountain Lion updates will prefer whichever is \"faster\" for a given destination."
+msgstr "Apple's latest Lion and Mountain Lion updates will prefer whichever is \"faster\" for a given destination."
+
+#: faq_avoids_ipv6.html
+msgid "When you use the Internet, a connection is made between your computer, and the service you're connecting to. To connect, you have to have the other side's IP - Internet Protocol - number. And, when you connect, they see yours, so they can send traffic back to you and your applications."
+msgstr "When you use the Internet, a connection is made between your computer, and the service you're connecting to. To connect, you have to have the other side's IP - Internet Protocol - number. And, when you connect, they see yours, so they can send traffic back to you and your applications."
+
+#: faq_avoids_ipv6.html
+msgid "The Internet protocol that we've been using for the 1990's and the 2000s, has run out of these unique numbers. We can keep going, but with some limitations, by sharing multiple machines with one number. Often times, we do this at home or at work."
+msgstr "The Internet protocol that we've been using for the 1990's and the 2000s, has run out of these unique numbers. We can keep going, but with some limitations, by sharing multiple machines with one number. Often times, we do this at home or at work."
+
+#: faq_avoids_ipv6.html
+msgid "What is changing is that the Internet Service Providers are all facing the fact that they will have to implement this type of address sharing, on a much larger scale. Some buzzwords you may hear: NAT, CGN, Carrier Grade NAT, LSN, Large Scale NAT. They all look something like this:"
+msgstr "What is changing is that the Internet Service Providers are all facing the fact that they will have to implement this type of address sharing, on a much larger scale. Some buzzwords you may hear: NAT, CGN, Carrier Grade NAT, LSN, Large Scale NAT. They all look something like this:"
+
+#: faq_avoids_ipv6.html
+msgid "The thing to watch for here: <b>Many</b> houses sharing one public address."
+msgstr "The thing to watch for here: <b>Many</b> houses sharing one public address."
+
+#: faq_avoids_ipv6.html
+msgid "What happens if one of those homes has a bored hacker, or (more likely) a compromised machine owned by someone who doesn't stay up to date, and doesn't run antivirus software? What happens when that machine starts to attack your favorite web sites? What about your banking site?"
+msgstr "What happens if one of those homes has a bored hacker, or (more likely) a compromised machine owned by someone who doesn't stay up to date, and doesn't run antivirus software? What happens when that machine starts to attack your favorite web sites? What about your banking site?"
+
+#: faq_avoids_ipv6.html
+msgid "Those sites will have to ultimately protect themselves, by blocking the traffic. Unfortuantely, they only see the shared address, so their blocking it looks like this:"
+msgstr "Those sites will have to ultimately protect themselves, by blocking the traffic. Unfortuantely, they only see the shared address, so their blocking it looks like this:"
+
+#: faq_avoids_ipv6.html
+msgid "This is not a good situation. And the main way to avoid it, is to make sure that your IPv6 is working; and to make sure that IPv6 is the preferred protocol."
+msgstr "This is not a good situation. And the main way to avoid it, is to make sure that your IPv6 is working; and to make sure that IPv6 is the preferred protocol."
+
+#: faq_avoids_ipv6.html
+msgid "Why else should I care about IPv4 being preferred instead of IPv6, when I have both available?"
+msgstr "Why else should I care about IPv4 being preferred instead of IPv6, when I have both available?"
+
+#: faq_avoids_ipv6.html
+msgid "Sites that determine your location automatically, will get this wrong more frequently when you share an IPv4 address with people in other cities."
+msgstr "Sites that determine your location automatically, will get this wrong more frequently when you share an IPv4 address with people in other cities."
+
+#: faq_avoids_ipv6.html
+msgid "The box that shares an address between you and the other hundreds of houses, may become performance constrained (cpu, network, TCP ports)"
+msgstr "The box that shares an address between you and the other hundreds of houses, may become performance constrained (cpu, network, TCP ports)"
+
+#: faq_avoids_ipv6.html
+msgid "The box is a potential central point of failure for your internet access"
+msgstr "The box is a potential central point of failure for your internet access"
+
+#: faq_avoids_ipv6.html
+msgid "Sharing IPv4 addresses is an extra expense for the ISP that they will be passing on to their customers"
+msgstr "Sharing IPv4 addresses is an extra expense for the ISP that they will be passing on to their customers"
+
+#: tunnel.inc
+msgid "What is a tunnel?"
+msgstr "What is a tunnel?"
+
+#: tunnel.inc
+msgid "A tunnel is a technique often used to transport one protocol over another one. For example, it is used by ADSL to transport PPP over ATM (a common technique for several Internet residential subscribers)."
+msgstr "A tunnel is a technique often used to transport one protocol over another one. For example, it is used by ADSL to transport PPP over ATM (a common technique for several Internet residential subscribers)."
+
+#: tunnel.inc
+msgid "In the realm of IPv6, tunnels are used to transport:"
+msgstr "In the realm of IPv6, tunnels are used to transport:"
+
+#: tunnel.inc
+msgid "IPv6 packets over IPv4 network: then IPv4-only Internet users can reach the IPv6 Internet;"
+msgstr "IPv6 packets over IPv4 network: then IPv4-only Internet users can reach the IPv6 Internet;"
+
+#: tunnel.inc
+msgid "IPv4 packets over IPv6 network: then IPv6-only Internet users can reach the IPv4 Internet."
+msgstr "IPv4 packets over IPv6 network: then IPv6-only Internet users can reach the IPv4 Internet."
+
+#: faq_tunnel.html
+msgid "How did the test detect a tunnel?"
+msgstr "How did the test detect a tunnel?"
+
+#: faq_tunnel.html
+msgid "For the technical-oriented readers, here is the explanation how we detect that you are probably using a tunnel. As the test collects your IPv4 and IPv6 addresses, it also collects (thanks to <a href=\"http://www.team-cymru.org/Services/ip-to-asn.html\">http://www.team-cymru.org/Services/ip-to-asn.html</a>) your Autonomous System Numbers (ASN) for IPv4 and IPv6. If your ISP is dual stack, then your IPv4 ASN and your IPv6 ASN should be identical as your IPv4 and IPv6 connectivity are provided by the same ISP."
+msgstr "For the technical-oriented readers, here is the explanation how we detect that you are probably using a tunnel. As the test collects your IPv4 and IPv6 addresses, it also collects (thanks to <a href=\"http://www.team-cymru.org/Services/ip-to-asn.html\">http://www.team-cymru.org/Services/ip-to-asn.html</a>) your Autonomous System Numbers (ASN) for IPv4 and IPv6. If your ISP is dual stack, then your IPv4 ASN and your IPv6 ASN should be identical as your IPv4 and IPv6 connectivity are provided by the same ISP."
+
+#: faq_tunnel.html
+msgid "If the ASN number is different, we highlight that fact - and call out that you are probably using a tunnel. If this is a tunnel you know about, great. If you did not know you were being tunneled, you might ask your network administrator about it."
+msgstr "If the ASN number is different, we highlight that fact - and call out that you are probably using a tunnel. If this is a tunnel you know about, great. If you did not know you were being tunneled, you might ask your network administrator about it."
+
+#: faq_tunnel.html
+msgid "Tunnels are not inherently bad; but (depending on circumstances) they may cause troubles that might not otherwise be seen with native IPv6 connectivity. Specifically, there may be issues of PMTUD (Path MTU Discovery) with some sites you visit - depending on the firewall configurations between you and those sites."
+msgstr "Tunnels are not inherently bad; but (depending on circumstances) they may cause troubles that might not otherwise be seen with native IPv6 connectivity. Specifically, there may be issues of PMTUD (Path MTU Discovery) with some sites you visit - depending on the firewall configurations between you and those sites."
+
+#: faq_tunnel_6rd.html
+msgid "What is specific to 6RD tunnels?"
+msgstr "What is specific to 6RD tunnels?"
+
+#: faq_tunnel_6rd.html
+msgid "6RD tunnels have been designed by the IETF as <a href=\"http://tools.ietf.org/html/rfc5969\">RFC 5969</a> to be deployed within an ISP access network and by the ISP itself to transport IPv6 over a legacy IPv4 access network. As the tunnel is confined with a single ISP, it is therefore managed in such a way to provide performances as good in IPv6 as in IPv4 (except perhaps for the largest packet size, a.k.a. MTU)."
+msgstr "6RD tunnels have been designed by the IETF as <a href=\"http://tools.ietf.org/html/rfc5969\">RFC 5969</a> to be deployed within an ISP access network and by the ISP itself to transport IPv6 over a legacy IPv4 access network. As the tunnel is confined with a single ISP, it is therefore managed in such a way to provide performances as good in IPv6 as in IPv4 (except perhaps for the largest packet size, a.k.a. MTU)."
+
+#: faq_tunnel_6rd.html
+msgid "In short, a 6RD tunnel provides you with native IPv6 connectivity."
+msgstr "In short, a 6RD tunnel provides you with native IPv6 connectivity."
+
+#: faq_tunnel_6rd.html
+msgid "How did we detect a 6RD tunnel?"
+msgstr "How did we detect a 6RD tunnel?"
+
+#: faq_tunnel_6rd.html
+msgid "During the tests, we collect your IPv4 and IPv6 addresses. If at least 16 bits of your IPv4 address are embedded in your IPv6 prefix, then we assume that you are using a 6RD tunnel."
+msgstr "During the tests, we collect your IPv4 and IPv6 addresses. If at least 16 bits of your IPv4 address are embedded in your IPv6 prefix, then we assume that you are using a 6RD tunnel."
+
