@@ -1,5 +1,4 @@
 
-
 all: dist-prep download
 	./build.pl --maxjobs 8
 	rsync -az work/. /var/www/beta.test-ipv6.com/. --exclude site --delete --progress 
