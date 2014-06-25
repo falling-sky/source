@@ -91,6 +91,7 @@ get_git();
 #$VARS->{"version"} = $VARS->{"svn_Revision"} . "-" . time;
 
 $VARS->{"version"} = `../dist_support/git-revision.sh`;
+chomp $VARS->{"version"} ;
 
 $VARS->{"AddLanguage"} = get_addlanguage(@LOCALE);
 

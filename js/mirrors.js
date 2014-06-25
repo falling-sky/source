@@ -189,6 +189,6 @@ GIGO.mirrors = [{
 }, {
     "site": "testipv6.de",
     "loc": "DE",
-    "provider": "COSIMO Vertriebs- und Beratungs GmbH",
+    "provider": "COSIMO Vertriebs -und Beratungs GmbH",
     "hide": 0
 }];
