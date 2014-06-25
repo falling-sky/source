@@ -186,4 +186,9 @@ GIGO.mirrors = [{
     "loc": "SK",
     "provider": "Sk-nic",
     "hide": 0
+}, {
+    "site": "testipv6.de",
+    "loc": "DE",
+    "provider": "COSIMO Vertriebs- und Beratungs GmbH",
+    "hide": 0
 }];
