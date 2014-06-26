@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2014-05-09 13:24-0400\n"
+"PO-Revision-Date: 2014-06-25 23:33-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Portuguese, Brazilian\n"
 "MIME-Version: 1.0\n"
@@ -13,23 +13,23 @@ msgstr ""
 
 #: mirrorconfig.js
 msgid "This mirror is provided by"
-msgstr "This mirror is provided by"
+msgstr "Este servidor é fornecido por"
 
 #: messages.js
 msgid "bad"
-msgstr "bad"
+msgstr "ruim"
 
 #: messages.js
 msgid "ok"
-msgstr "ok"
+msgstr "bom"
 
 #: messages.js
 msgid "slow"
-msgstr "slow"
+msgstr "lento"
 
 #: messages.js
 msgid "timeout"
-msgstr "timeout"
+msgstr "tempo esgotado"
 
 #: messages.js
 msgid "Connections to urls with IP addresses appear to be blocked; perhaps by a web filter such as 'NoScript' or 'RequestPolicy' installed into your browser, or filtering in your proxy server. This limits some of the functionality of this test site."
@@ -125,7 +125,7 @@ msgstr "A causa mais provável é o NoScript ou o AdBlock+. O NoScript pode ser 
 
 #: messages.js
 msgid "NAT64 detected. IPv6 works. IPv4 works for most purposes. Applications that are hard-coded for IPv4-only will fail. We are aware of at least one major voice-over-ip program that falls into this category. Your application's support staff may need a nudge to add proper IPv6 support."
-msgstr "NAT64 detected. IPv6 works. IPv4 works for most purposes. Applications that are hard-coded for IPv4-only will fail. We are aware of at least one major voice-over-ip program that falls into this category. Your application's support staff may need a nudge to add proper IPv6 support."
+msgstr "NAT64 detectado. IPv6 funciona corretamente. IPv4 funciona para a maioria dos fins. Aplicativos que são codificados para IPv4 irão falhar. Estamos cientes que pelo menos um grande programa de voz sobre ip irá falhar nesta categoria. A equipe de suporte do seu aplicativo pode precisar uma cutucada para adicionar o suporte apropriado ao IPv6."
 
 #: messages.js
 msgid "Your DNS server (possibly run by your ISP) appears to have IPv6 Internet access."
@@ -145,11 +145,11 @@ msgstr "Uma pesquisa por um nome baseado exclusivamente em IPv6 falhou. No entan
 
 #: messages.js
 msgid "A lookup for an IPv6-only name failed; yet the lookup and connect for dual-stack connected via IPv6. The IPv6-only lookup should have worked. Apple has a bug that sporadically causes some IPv6 lookups to fail. We saw evidence of it on this test. You can reload the page and try the test again. For more details, see <a href=\"http://openradar.appspot.com/7333104\">http://openradar.appspot.com/7333104</a>."
-msgstr "A lookup for an IPv6-only name failed; yet the lookup and connect for dual-stack connected via IPv6. The IPv6-only lookup should have worked. Apple has a bug that sporadically causes some IPv6 lookups to fail. We saw evidence of it on this test. You can reload the page and try the test again. For more details, see <a href=\"http://openradar.appspot.com/7333104\">http://openradar.appspot.com/7333104</a>."
+msgstr "Uma consulta para um nome IPv6 exclusivo falhou; no entanto, a pesquisa e conexão para pilha dupla conectou via IPv6. A pesquisa IPv6 exclusiva deveria ter funcionado. A Apple possui uma falha que, esporadicamente, faz com que algumas pesquisas de IPv6 falhem. Vimos evidências desta falha neste teste. Você pode recarregar a página e tentar o teste novamente. Para mais detalhes, consulte <a href=\"http://openradar.appspot.com/7333104\"> http://openradar.appspot.com/7333104</a>."
 
 #: messages.js
 msgid "A lookup for an dual-stack IPv4 and IPv6 name failed (at minimum it should have connected via IPv4). Apple has a bug that sporadically causes some IPv6 lookups to fail. We saw evidence of it on this test. You can reload the page and try the test again. For more details, see <a href=\"http://openradar.appspot.com/7333104\">http://openradar.appspot.com/7333104</a>."
-msgstr "A lookup for an dual-stack IPv4 and IPv6 name failed (at minimum it should have connected via IPv4). Apple has a bug that sporadically causes some IPv6 lookups to fail. We saw evidence of it on this test. You can reload the page and try the test again. For more details, see <a href=\"http://openradar.appspot.com/7333104\">http://openradar.appspot.com/7333104</a>."
+msgstr "Uma consulta para um nome de IPv4 e IPv6 de pilha dupla falhou (no mínimo deveria ter conectado via IPv4). A Apple possui uma falha que esporadicamente faz com que algumas pesquisas de IPv6 falhem. Vimos evidências desta falha neste teste. Você pode recarregar a página e tentar o teste novamente. Para mais detalhes, consulte <a href=\"http://openradar.appspot.com/7333104\"> http://openradar.appspot.com/7333104</a>."
 
 #: messages.js
 msgid "No IPv4 address detected"
@@ -189,11 +189,11 @@ msgstr "Nós pesquisamos um endereço IPv6 mas seu servidor DNS (possivelmente s
 
 #: messages.js
 msgid "It appears that you use a tunnel mechanism for either IPv4 or IPv6."
-msgstr "It appears that you use a tunnel mechanism for either IPv4 or IPv6."
+msgstr "Parece que você usa um mecanismo de túnel para IPv4 ou IPv6."
 
 #: messages.js
 msgid "It appears that you use a managed tunnel mechanism, 6RD, to transport IPv6 over IPv4."
-msgstr "It appears that you use a managed tunnel mechanism, 6RD, to transport IPv6 over IPv4."
+msgstr "Parece que você usa um mecanismo de túnel gerenciado, 6RD, para transporte IPv6 sobre IPv4."
 
 #: messages.js
 msgid "We have detected that you are using a proxy. This means we are testing your proxy server, not your computer. Proxy details (as reported by your proxy 'Via' header): %details"
@@ -213,15 +213,15 @@ msgstr "Temos sugestões para melhorar seu sistema."
 
 #: messages.js
 msgid "Since you have IPv6, we are including a tab that shows how well you can reach other IPv6 sites. %sites"
-msgstr "Since you have IPv6, we are including a tab that shows how well you can reach other IPv6 sites. %sites"
+msgstr "Como você possui IPv6, estamos incluindo uma guia que mostra o quão bem você pode alcançar outros sites IPv6. %sites"
 
 #: messages.js
 msgid "Your browser has real working IPv6 address - but is avoiding using it. We're concerned about this."
-msgstr "Your browser has real working IPv6 address - but is avoiding using it. We're concerned about this."
+msgstr "Seu navegador tem o endereço IPv6 real em funcionamento, mas está evitando usá-lo. Estamos preocupados com isso."
 
 #: messages.js
 msgid "faq: MTU"
-msgstr "faq: MTU"
+msgstr "FAQ: MTU"
 
 #: messages.js
 msgid "faq: No IPv4"
@@ -233,7 +233,7 @@ msgstr "faq: Sem IPv6"
 
 #: messages.js
 msgid "faq: 6to4"
-msgstr "faq: 6to4"
+msgstr "FAQ: 6to4"
 
 #: messages.js
 msgid "faq: Teredo Minimum"
@@ -253,7 +253,7 @@ msgstr "faq: Add-Ons do Firefox"
 
 #: messages.js
 msgid "faq: Opera"
-msgstr "faq: Opera"
+msgstr "FAQ: Opera"
 
 #: messages.js
 msgid "faq: Buggy DNS"
@@ -261,7 +261,7 @@ msgstr "faq: DNS problemático"
 
 #: messages.js
 msgid "faq: Broken!"
-msgstr "faq: Broken!"
+msgstr "FAQ: quebrado!"
 
 #: messages.js
 msgid "faq: Broken DNS Lookups"
@@ -269,7 +269,7 @@ msgstr "faq: Pesquisas de DNS problemáticas"
 
 #: messages.js
 msgid "faq: Avoiding IPv6?"
-msgstr "faq: Avoiding IPv6?"
+msgstr "FAQ: evitando IPv6?"
 
 #: builtin.js
 msgid "[more info]"
@@ -281,7 +281,7 @@ msgstr "Seu endereço IPv4 parece ser"
 
 #: builtin.js
 msgid "Proxied"
-msgstr "Proxied"
+msgstr "Com proxy"
 
 #: builtin.js
 msgid "Your IPv6 address on the public Internet appears to be"
@@ -293,7 +293,7 @@ msgstr "Seu serviço IPv6 parece ser"
 
 #: builtin.js
 msgid "Your Internet Service Provider (ISP) appears to be"
-msgstr "Your Internet Service Provider (ISP) appears to be"
+msgstr "Seu Provedor de Internet (ISP) parece ser"
 
 #: builtin.js
 msgid "Started"
@@ -301,7 +301,7 @@ msgstr "Iniciado"
 
 #: builtin.js
 msgid "proxied"
-msgstr "proxied"
+msgstr "com proxy"
 
 #: builtin.js
 msgid "using"
@@ -309,7 +309,7 @@ msgstr "usando"
 
 #: builtin.js
 msgid "tests run"
-msgstr "tests run"
+msgstr "Testes Executados"
 
 #: builtin.js
 msgid "(Survey posting skipped; test was rigged)"
@@ -409,7 +409,7 @@ msgstr "Seu navegador bloqueou"
 
 #: helpdesk.js
 msgid "Your Internet help desk may ask you for the information below."
-msgstr "Your Internet help desk may ask you for the information below."
+msgstr "A equipe de suporte do seu provedor de internet pode solicitar as informações abaixo."
 
 #: header.inc
 msgid "Test your IPv6."
@@ -425,7 +425,7 @@ msgstr "Testar IPv6"
 
 #: list-nav.inc
 msgid "FAQ"
-msgstr "FAQ"
+msgstr "Perguntas Freqüentes"
 
 #: list-nav.inc
 msgid "Mirrors"
@@ -433,7 +433,7 @@ msgstr "Espelhos"
 
 #: list-nav.inc
 msgid "stats"
-msgstr "stats"
+msgstr "Estatísticas"
 
 #: index.html
 msgid "Test your IPv6 connectivity."
@@ -441,19 +441,19 @@ msgstr "Testar sua conectividade IPv6."
 
 #: js_required.inc
 msgid "JavaScript Required"
-msgstr "JavaScript Required"
+msgstr "JavaScript necessário"
 
 #: js_required.inc
 msgid "This site requires JavaScript, as well as the ability to pull in cross-site scripts, in order to perform the testing."
-msgstr "This site requires JavaScript, as well as the ability to pull in cross-site scripts, in order to perform the testing."
+msgstr "Este site requer JavaScript, bem como a capacidade de utilizar scripts entre sites, a fim de realizar os testes."
 
 #: js_required.inc
 msgid "If this message does not go away, it means that JavaScript has been disabled, either by a plugin or extension in your browser, or by explicit browser setting."
-msgstr "If this message does not go away, it means that JavaScript has been disabled, either by a plugin or extension in your browser, or by explicit browser setting."
+msgstr "Se esta mensagem não desaparecer, significa que o JavaScript foi desativado por um plugin, extensão ou configuração explícita de seu navegador."
 
 #: js_required.inc
 msgid "Do you use NoScript?"
-msgstr "Do you use NoScript?"
+msgstr "Você usa o NoScript?"
 
 #: js_required.inc
 msgid "If you use this Firefox add-on, you'll need to \"Temporarily allow all this page\". You will need to do this <b>twice</b> for everything to work. Alternately, disable NoScript entirely until you are done with this site."
@@ -465,7 +465,7 @@ msgstr "You can opt instead to view the <a href=\"simple_test.html\">simple test
 
 #: main/tabnav.inc
 msgid "For the Help Desk"
-msgstr "For the Help Desk"
+msgstr "Para o suporte"
 
 #: main/tabnav.inc
 msgid "Summary"
@@ -493,7 +493,7 @@ msgstr "Debug"
 
 #: main/tabnav.inc
 msgid "Other IPv6 Sites"
-msgstr "Other IPv6 Sites"
+msgstr "Outros Sites IPv6"
 
 #: main/tests.inc
 msgid "How this test works:"
@@ -545,11 +545,11 @@ msgstr "Testa se o servidor DNS de seu provedor usa IPv6"
 
 #: main/tests.inc
 msgid "Find IPv4 Service Provider"
-msgstr "Find IPv4 Service Provider"
+msgstr "Encontrar provedor de serviços de IPv4"
 
 #: main/tests.inc
 msgid "Find IPv6 Service Provider"
-msgstr "Find IPv6 Service Provider"
+msgstr "Encontrar provedor de serviços de IPv6"
 
 #: main/tests.inc
 msgid "Test for buggy DNS"
@@ -629,7 +629,7 @@ msgstr "This includes your IP address, which is shared with the site administrat
 
 #: main/mail.inc
 msgid "Use of this form implies consent."
-msgstr "Use of this form implies consent."
+msgstr "A utilização deste formulário implica consentimento."
 
 #: main/mail.inc
 msgid "<span id=\"comments_faq_link\"></span> (FAQ) page is available for <b>your</b> exact set of results. Please read it before leaving comments; many questions have already been answered. If you still have questions, comments, or concerns, feel freel to use this form."
@@ -733,23 +733,23 @@ msgstr "Full mirrors are welcomed and appreciated, whether public or private. Pl
 
 #: footer.inc
 msgid "All rights reserved."
-msgstr "All rights reserved."
+msgstr "Todos os direitos reservados."
 
 #: footer.inc
 msgid "Mission"
-msgstr "Mission"
+msgstr "Missão"
 
 #: footer.inc
 msgid "Source"
-msgstr "Source"
+msgstr "Fonte"
 
 #: footer.inc
 msgid "Email"
-msgstr "Email"
+msgstr "E-mail"
 
 #: footer.inc
 msgid "Attributions"
-msgstr "Attributions"
+msgstr "Atribuições"
 
 #: disclaimer.inc
 msgid "This is a mirror of test-ipv6.com. The views expressed here may or may not reflect the views of the mirror owner."
@@ -757,43 +757,43 @@ msgstr "Este site é um espelho do test-ipv6.com. O que está aqui pode ou não 
 
 #: faq_helpdesk.html
 msgid "Help Desk Information"
-msgstr "Help Desk Information"
+msgstr "Informações de suporte"
 
 #: faq_helpdesk.html
 msgid "Q: What is the Help Desk tab for?"
-msgstr "Q: What is the Help Desk tab for?"
+msgstr "P: Para que serve a guia de suporte?"
 
 #: faq_helpdesk.html
 msgid "This tab is intended to help provide a brief, concise explanation of your connectivity. This can be read over the phone, if needed, to a service provider. This tab has less hand-holding; it is intended for a help desk to understand (as compared to an end user)."
-msgstr "This tab is intended to help provide a brief, concise explanation of your connectivity. This can be read over the phone, if needed, to a service provider. This tab has less hand-holding; it is intended for a help desk to understand (as compared to an end user)."
+msgstr "Este guia destina-se a ajudar a fornecer uma explicação breve e concisa sobre sua conectividade. Isto pode ser lido pelo telefone, se necessário, para um provedor de serviço. Esta guia é mais técnica, com informações destinadas por uma equipe de suporte (e não para o usuário final)."
 
 #: faq_helpdesk.html
 msgid "This special instance shares in a very compact way:"
-msgstr "This special instance shares in a very compact way:"
+msgstr "Esta instância especial compartilha de uma forma muito compacta:"
 
 #: faq_helpdesk.html
 msgid "Status of each protocol"
-msgstr "Status of each protocol"
+msgstr "Status de cada protocolo"
 
 #: faq_helpdesk.html
 msgid "Warn of slow/timeout"
-msgstr "Warn of slow/timeout"
+msgstr "Alerta de lentidão/tempo esgostado"
 
 #: faq_helpdesk.html
 msgid "Warn of MTU"
-msgstr "Warn of MTU"
+msgstr "Alerta de MTU"
 
 #: faq_helpdesk.html
 msgid "Status of reachability to “other sites” (as compact as possible)"
-msgstr "Status of reachability to “other sites” (as compact as possible)"
+msgstr "Status de alcançabilidade para \"outros sites\" (tão compacto quanto possível)"
 
 #: faq_helpdesk.html
 msgid "IP address shown, in case tech support needs it."
-msgstr "IP address shown, in case tech support needs it."
+msgstr "Endereço IP mostrado, no caso do suporte técnico precisar disso."
 
 #: faq_helpdesk.html
 msgid "List of unreachable sites, if any"
-msgstr "List of unreachable sites, if any"
+msgstr "Lista de sites inacessíveis, se houver"
 
 #: faq_helpdesk.html
 msgid "Q: What is the easiest way to send users to the Help Desk tab?"
@@ -869,7 +869,7 @@ msgstr "If you have an unexpected IPv6 address"
 
 #: broken.html
 msgid "Try the netalyzr"
-msgstr "Try the netalyzr"
+msgstr "Tente o netalyzr"
 
 #: broken.html
 msgid "If all else fails, disable or deprioritize IPv6"
