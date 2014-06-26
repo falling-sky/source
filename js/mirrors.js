@@ -191,4 +191,9 @@ GIGO.mirrors = [{
     "loc": "DE",
     "provider": "COSIMO Vertriebs -und Beratungs GmbH",
     "hide": 0
+}, {
+    "site": "test-ipv6.belwue.net",
+    "loc": "DE",
+    "provider": "BelWü",
+    "hide": 0
 }];
