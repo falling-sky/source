@@ -21,6 +21,8 @@ use Template::Plugin::GT;
 use Parallel::ForkManager;
 use FSi18n;
 use FSi18n::PO;
+use DateTime::Locale;
+use Encode;
 
 use strict;
 
@@ -57,26 +59,36 @@ $argv{"config"} ||= "./config.inc";
 
 @LOCALE = split( /[\s,]+/, $argv{"locale"} ) if ( $argv{"locale"} );
 
+# If we want to override, we can.  Otherwise, let
+# us make use of perl's available libraries.
 my %NAMES = (
-'en_US'=>'English',
-'cs_CZ'=>'Čeština',
-'de_DE'=>'Deutcsh',
-'es_ES'=>'Español',
-'fr_FR'=>'Français',
-'hr_HR'=>'Hrvatski',
-'hu_HU'=>'Magyar',
-'it_IT'=>'Italiano',
-'ja_JP'=>'日本語',
-'nb_NO'=>'Norsk bokmål',
-'nl_NL'=>'Nederlands',
-'pt_BR'=>'Português (Brasil)',
-'ru_RU'=>'Pусский',
-'sv_SE'=>'Svenska',
-'sk_SK'=>'Slovenčina',
-'zh_CN'=>'筒体中文',
+#'en_US'=>'English',
+#'cs_CZ'=>'Čeština',
+#'de_DE'=>'Deutcsh',
+#'es_ES'=>'Español',
+#'fr_FR'=>'Français',
+#'hr_HR'=>'Hrvatski',
+#'hu_HU'=>'Magyar',
+#'it_IT'=>'Italiano',
+#'ja_JP'=>'日本語',
+#'nb_NO'=>'Norsk bokmål',
+#'nl_NL'=>'Nederlands',
+#'pt_BR'=>'Português (Brasil)',
+#'ru_RU'=>'Pусский',
+#'sv_SE'=>'Svenska',
+#'sk_SK'=>'Slovenčina',
+#'zh_CN'=>'筒体中文',
 );
 foreach my $name (@LOCALE) {
-  $NAMES{$name} ||= '';
+  if (! exists $NAMES{$name}) {
+     my $loc = DateTime::Locale->load($name);
+     $NAMES{$name} ||= $loc->native_language;
+     $NAMES{$name} ||= "";
+     if ($NAMES{$name}) {
+      substr($NAMES{$name},0,1) = uc substr($NAMES{$name},0,1);
+      $NAMES{$name} = encode('UTF-8',$NAMES{$name});
+     }
+  }
 }
 
 $VARS->{NAMES} = \%NAMES;
@@ -458,6 +470,14 @@ sub our_yui {
 
 sub our_save {
     my ( $filename, $buffer ) = @_;
+    
+    local $SIG{__WARN__} = sub {
+        my @loc = caller(1);
+        print STDOUT "Warning generated writing $filename:\n", @_, "\n";
+        return 1;
+    };
+                
+                
     open( SAVEFILE, ">$filename.new" ) or die "Failed to create $filename.new: $!";
 #    binmode SAVEFILE, ":utf8";
     print SAVEFILE $buffer;
