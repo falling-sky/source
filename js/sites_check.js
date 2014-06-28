@@ -27,7 +27,7 @@ GIGO.url_to_hash = function(url) {
  hash = hash.replace(/[^a-zA-Z0-9]/g,'');
  hash = hash.substring(0,4);
  return hash;
-}
+};
 
 GIGO.fail_url = function(url) {
   var hash = GIGO.url_to_hash(url);
@@ -48,14 +48,14 @@ GIGO.fail_url = function(url) {
 GIGO.was_failed_url = function(url) {
   var hash = GIGO.url_to_hash(url);
   if (!GIGO.isdef(GIGO.failed_sites)) {
-    GIGO.failed_sites = GIGO.CGI["failed_sites"].split(",");
+    GIGO.failed_sites = GIGO.CGI.failed_sites.split(",");
   }
   return (GIGO.failed_sites.indexOf(hash) >= 0);
 };
 
 
 GIGO.is_replay = function() {
- return (GIGO.CGI["replay"]);
+ return (GIGO.CGI.replay);
 };
 
 
@@ -190,11 +190,11 @@ GIGO.sites_queue_entry = function (r) {
         return;
     }
 
-    if (!r["v4"]) {
-        r["v4"] = "ipv4." + r["site"] + "/images-nc/knob_valid_green.png";
+    if (!r.v4) {
+        r.v4 = "ipv4." + r.site + "/images-nc/knob_valid_green.png";
     }
-    if (!r["v6"]) {
-        r["v6"] = "ipv6." + r["site"] + "/images-nc/knob_valid_green.png";
+    if (!r.v6) {
+        r.v6 = "ipv6." + r.site + "/images-nc/knob_valid_green.png";
     }
     GIGO.sites_queue.push(r);
 };
@@ -234,7 +234,7 @@ GIGO.sites_prepare_helpdesk = function (mode) {
         GIGO.helpdesk.other_sites.count = GIGO.sites_queue.length;
     } 
 
-}
+};
 
 GIGO.other_sites_info = function () {
     var g, b, f, c, o, text;
@@ -273,7 +273,7 @@ GIGO.other_sites_failures = function () {
     div = jQuery("<div>");
     div.append(jQuery("<p><span style='color: red'>Site(s) with failed connectivity</p>"));
     table = jQuery("<table>");
-    table.append(jQuery("<tr><td>Site</td><td>Failed URL</td></tr>"))
+    table.append(jQuery("<tr><td>Site</td><td>Failed URL</td></tr>"));
     for (i = 0; i < GIGO.helpdesk.other_sites.bad.length ; i = i + 1) {
         table.append(GIGO.sites_display_bad_r_to_tr(GIGO.helpdesk.other_sites.bad[i]));
     }
@@ -301,7 +301,7 @@ GIGO.sites_display_bad_r_to_tr = function (r) {
     tr.append(jQuery("<td>").append(a));
     return tr;
     
-}
+};
 
 GIGO.sites_display_td_provider_div_update = function (r) {
     var i, td_provider_div;
@@ -443,7 +443,7 @@ GIGO.sites_update_helpdesk = function () {
     if (GIGO.helpdesk.other_sites.count) {
         GIGO.finish_helpdesk();
     }
-}
+};
 
 
 GIGO.sites_start_ipv6_take2 = function (r) {
