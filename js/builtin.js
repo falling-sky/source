@@ -49,6 +49,14 @@ GIGO.generate_share_link  = function() {
     url = url + GIGO.generate_share_link_entry("v6mtu","6");
     url = url + GIGO.generate_share_link_entry("v6ns","6");
     url = url + GIGO.generate_share_link_entry("dsmtu","6");
+    
+    
+    // Working/Failed sites
+    url = url + "&replay=1";
+    if (GIGO.isdef(GIGO.failed_sites)) {
+      url = url + "&failed_sites=" + GIGO.failed_sites.join(",");
+    }
+    
     return url;
 };
 

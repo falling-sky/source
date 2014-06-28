@@ -20,6 +20,26 @@ The icky part is the "if needed".
 
 GIGO.sites_image_size = 24;
 
+GIGO.url_to_hash = function(url) {
+ var hash;
+ url = url.replace(/\?nocache.*$/,"");
+ hash = jQuery.md5(url);
+ hash = hash.replace(/[^a-zA-Z0-9]/g,'');
+ hash = hash.substring(0,4);
+ return hash;
+}
+
+GIGO.fail_url = function(url) {
+  var hash = GIGO.url_to_hash(url);
+  if ( ! GIGO.isdef(GIGO.failed_sites)) {
+    GIGO.failed_sites = [];
+  }
+  if (GIGO.failed_sites.indexOf(hash) < 0) {
+        GIGO.failed_sites.push(hash);
+  }
+  GIGO.show_share_link();
+};
+
 
 GIGO.sites_table_init_1 = function (mode) {
     //  Create a table, replace #sitestablediv
@@ -441,6 +461,7 @@ GIGO.sites_start_ipv6_take2 = function (r) {
             error: function () {
                 if (img_pending) {
                     img_pending = 0;
+                    GIGO.fail_url(url);
                     GIGO.sites_display_failure(r);
                     GIGO.sites_next_in_queue();
                 }
@@ -451,6 +472,7 @@ GIGO.sites_start_ipv6_take2 = function (r) {
             // TODO show FAIL
             if (img_pending) {
                 img_pending = 0;
+                GIGO.fail_url(url);
                 GIGO.sites_display_failure(r);
                 GIGO.sites_next_in_queue();
             }
@@ -536,6 +558,7 @@ GIGO.sites_start_ipv4_take2 = function (r) {
             error: function () {
                 if (img_pending) {
                     img_pending = 0;
+                    GIGO.fail_url(url);
                     GIGO.sites_display_giveup(r);
                     GIGO.sites_next_in_queue();
                 }
@@ -545,6 +568,7 @@ GIGO.sites_start_ipv4_take2 = function (r) {
             // TODO show FAIL
             if (img_pending) {
                 img_pending = 0;
+                GIGO.fail_url(url);
                 GIGO.sites_display_giveup(r);
                 GIGO.sites_next_in_queue();
             }

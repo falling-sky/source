@@ -31,3 +31,7 @@ mootools-1.2.4-core.js - Used for browser feature testing (to detect IE)
   authors: The MooTools production team (http://mootools.net/developers/)
 
 
+jquery.md5.js - to carry status from helpdesk tab to replay url
+  Copyright 2010, Sebastian Tschan
+  https://blueimp.net, https://github.com/placemarker/jQuery-MD5
+  license: MIT-style license.
