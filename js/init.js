@@ -58,13 +58,13 @@ if (Browser.opera) {
     GIGO.max_time = 15 * 1000; // Hmm.
 }
 
-GIGO.helpdesk = {};  // Test results will pass data to the helpdesk page
+GIGO.helpdesk = {}; // Test results will pass data to the helpdesk page
 GIGO.helpdesk.other_sites = {};
 GIGO.helpdesk.other_sites.finished = 0;
 GIGO.helpdesk.other_sites.count = 0;
 GIGO.helpdesk.other_sites.good = [];
 GIGO.helpdesk.other_sites.bad = [];
-                    
+
 
 // http://mootools.net/docs/core/Core/Browser
 GIGO.slowcount_delay = 20; // How long (ms) to delay between backgrounding jsonp if use_queue==0

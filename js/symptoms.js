@@ -257,16 +257,16 @@ GIGO.identify_symptoms = function () {
             tunnel = 0;
         }
     }
-    GIGO.helpdesk.tunnel=tunnel;  // Save for later.
-    GIGO.helpdesk.teredo=teredo;  // save for later
-    GIGO.helpdesk.sixfour=sixfour; // save for later
-    
-    
+    GIGO.helpdesk.tunnel = tunnel; // Save for later.
+    GIGO.helpdesk.teredo = teredo; // save for later
+    GIGO.helpdesk.sixfour = sixfour; // save for later
+
+
 
 
     mini_primary = GIGO.ministates(["a", "aaaa", "ds4", "ds6"]);
     mini_secondary = GIGO.ministates(["ipv4", "ipv6", "v6mtu", "v6ns"]);
-    
+
     GIGO.helpdesk.mini_primary = mini_primary;
     GIGO.helpdesk.mini_secondary = mini_secondary;
 
@@ -402,7 +402,7 @@ GIGO.identify_symptoms = function () {
     }
     GIGO.helpdesk.failed_pmtud = failed_pmtud;
 
-    
+
     for (i = 0; i < res.length; i += 1) {
 
         if (failed_pmtud) {

@@ -18,6 +18,6 @@ GIGO.gettext = function (a, b) {
 /* global $gt(a,b) polution - for gettext */
 $gt = GIGO.gettext;
 
-$gt = function() { 
-  console.log("whoops still using \$gt");
-}
+$gt = function () {
+    console.log("whoops still using $gt");
+};

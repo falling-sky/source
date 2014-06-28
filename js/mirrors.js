@@ -2,7 +2,7 @@
 /*jslint browser: true */
 /*properties mirrors, site, loc, provider, url, hide */
 
-/* jslint complains about UTF8 characters in Cyrillic and Japanese.  I am ignoring that complaint.
+/* js lint complains about UTF8 characters in Cyrillic and Japanese.  I am ignoring that complaint.
 I have seen no feedback that says the text shows up incorrectly. */
 
 

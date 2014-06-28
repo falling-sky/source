@@ -3,7 +3,7 @@
 /*jslint regexp: true */
 
 
-GIGO.generate_share_link_entry = function(name, def) {
+GIGO.generate_share_link_entry = function (name, def) {
     var s, t, id, p;
     s = "";
     try {
@@ -27,53 +27,53 @@ GIGO.generate_share_link_entry = function(name, def) {
 
 
 
-GIGO.generate_share_link  = function() {
-  var url, hostname;
+GIGO.generate_share_link = function () {
+    var url, hostname;
     hostname = String(location.hostname);
     url = "http://" + hostname + "?";
     if (GIGO.results.ipv4.ip) {
-      url = url + "ip4=" + encodeURIComponent(GIGO.results.ipv4.ip);
+        url = url + "ip4=" + encodeURIComponent(GIGO.results.ipv4.ip);
     } else {
-      url = url + "ip4=";
+        url = url + "ip4=";
     }
     if (GIGO.results.ipv6.ip) {
-      url = url + "&ip6=" + encodeURIComponent(GIGO.results.ipv6.ip).replace(/%3a/ig,":");
+        url = url + "&ip6=" + encodeURIComponent(GIGO.results.ipv6.ip).replace(/%3a/ig, ":");
     } else {
-      url = url + "&ip6=";
+        url = url + "&ip6=";
     }
-    url = url + GIGO.generate_share_link_entry("a","4");
-    url = url + GIGO.generate_share_link_entry("aaaa","6");
-    url = url + GIGO.generate_share_link_entry("ds","6"); 
-    url = url + GIGO.generate_share_link_entry("ipv4","4");
-    url = url + GIGO.generate_share_link_entry("ipv6","6");
-    url = url + GIGO.generate_share_link_entry("v6mtu","6");
-    url = url + GIGO.generate_share_link_entry("v6ns","6");
-    url = url + GIGO.generate_share_link_entry("dsmtu","6");
-    
-    
+    url = url + GIGO.generate_share_link_entry("a", "4");
+    url = url + GIGO.generate_share_link_entry("aaaa", "6");
+    url = url + GIGO.generate_share_link_entry("ds", "6");
+    url = url + GIGO.generate_share_link_entry("ipv4", "4");
+    url = url + GIGO.generate_share_link_entry("ipv6", "6");
+    url = url + GIGO.generate_share_link_entry("v6mtu", "6");
+    url = url + GIGO.generate_share_link_entry("v6ns", "6");
+    url = url + GIGO.generate_share_link_entry("dsmtu", "6");
+
+
     // Working/Failed sites
     url = url + "&replay=1";
     if (GIGO.isdef(GIGO.failed_sites)) {
-      url = url + "&failed_sites=" + GIGO.failed_sites.join(",");
+        url = url + "&failed_sites=" + GIGO.failed_sites.join(",");
     }
-    
+
     return url;
 };
 
 
 GIGO.show_share_link = function () {
-    var url,a,t,te;
+    var url, a, t, te;
     url = GIGO.generate_share_link();
     a = jQuery("<a>");
 
     t = jQuery("<p>");
     t.text(url);
-    te=t.html();
-    te=te.replace(/&amp;/g,"<wbr>&amp;");    
+    te = t.html();
+    te = te.replace(/&amp;/g, "<wbr>&amp;");
     a.html(te);
     a.attr("href", url);
     a.attr("target", "_blank");
-    d=jQuery("<p id=replayurl>").append(a);
+    d = jQuery("<p id=replayurl>").append(a);
     jQuery("#replayurl").replaceWith(d);
 };
 
@@ -331,7 +331,7 @@ GIGO.send_survey = function (tokens) {
     } else {
         url += "&ip6=";
     }
- 
+
     url += "&ip6subtype=" + encodeURI(GIGO.results.ipv6.subtype);
     url += "&callback=?";
 
@@ -367,10 +367,10 @@ GIGO.gen_help_link = function (token) {
     return code;
 };
 
-GIGO.testing_ipv4 = function() {
-  var s;
-  s = String(location.hostname);
-  return (s.match(/ipv4/i));
+GIGO.testing_ipv4 = function () {
+    var s;
+    s = String(location.hostname);
+    return (s.match(/ipv4/i));
 };
 
 
@@ -532,7 +532,7 @@ GIGO.help_popup = function (file, tabname, popup) {
         hostname = String(document.location.hostname);
         file = "http://" + hostname + "/" + file;
         lfile = file + '.[% locale %]';
-        
+
 
         jQuery(handle).html("[% 'loading...' | i18n %]"); // Loading indicator.    
         jQuery(handle).load(lfile + " #content", function (responseText, textStatus) {

@@ -26,7 +26,7 @@ GIGO.zeropad = function (version) {
         }
         replace_re = new RegExp("\\b" + mymatched + "\\b");
         version = version.replace(replace_re, newstring);
-    };
+    }
     return version;
 };
 

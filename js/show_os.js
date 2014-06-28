@@ -84,4 +84,4 @@ GIGO.show_os_start = function () {
     } else {
         // Be aware we will show ALL platforms we know about.  
     }
-}
+};

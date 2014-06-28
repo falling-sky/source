@@ -1,4 +1,3 @@
-
 /*global GIGO, MirrorConfig, jQuery,  window,  alert,  Browser */
 /*jslint browser: true */
 /*jslint regexp: true */
@@ -77,9 +76,9 @@ GIGO.test_type_json = function (url, id) {
 
 
     if (GIGO.overrides && GIGO.overrides[id]) {
-      // oh, we're faking this one.  TODO
-      // we can take a lot of short cuts.
-        GIGO.override_id(id,url);
+        // oh, we're faking this one.  TODO
+        // we can take a lot of short cuts.
+        GIGO.override_id(id, url);
         GIGO.finish_test(id);
         GIGO.update_url(id);
         GIGO.show_debug();
@@ -103,7 +102,7 @@ GIGO.test_type_json = function (url, id) {
             delete ipinfo.full; // Don't need this polluting anything.
             this_test.ipinfo = ipinfo; // Record the IP address reported from this test
             if (GIGO.override) {
-              GIGO.override_id_ip(id);
+                GIGO.override_id_ip(id);
             }
             GIGO.update_ipaddress(this_test.ipinfo); // Make note of our IPv4 or IPv6 address based on the test
             GIGO.update_ip(id); // callback for presentation
@@ -116,7 +115,7 @@ GIGO.test_type_json = function (url, id) {
                 this_test.time_ms = delta;
             }
             this_test.status = (this_test.time_ms < GIGO.slow) ? "ok" : "slow";
-            
+
 
             // Look for dual stack
             if (id === "test_ds") {
@@ -210,9 +209,9 @@ GIGO.test_type_json_only = function (url, id) {
             url = url + "?random=" + Math.random();
         }
     }
-    
-    
-    
+
+
+
 
     tests = GIGO.results.tests; // Convenience    
     if (!(tests.hasOwnProperty(id))) {
@@ -228,34 +227,34 @@ GIGO.test_type_json_only = function (url, id) {
 
 
     if ((id === "test_asn4") && (GIGO.isdef(GIGO.CGI.ip4))) {
-      if ((GIGO.CGI.ip4) && (GIGO.CGI.ip4.match(/^[0-9abcdef.:]+$/))) {
-        url = "/ip/?callback=?&asn=1&testip=" + GIGO.CGI.ip4;  
-        this_test.url = url; // For later display of test urls
-        GIGO.update_url(id);
-      } else {
-        this_test.ipinfo={};
-        this_test.status="bad";
-        this_test.time_ms=1;
-        GIGO.finish_test(id);
-        GIGO.update_url(id);
-        GIGO.show_debug();
-        return;
-      }
+        if ((GIGO.CGI.ip4) && (GIGO.CGI.ip4.match(/^[0-9abcdef.:]+$/))) {
+            url = "/ip/?callback=?&asn=1&testip=" + GIGO.CGI.ip4;
+            this_test.url = url; // For later display of test urls
+            GIGO.update_url(id);
+        } else {
+            this_test.ipinfo = {};
+            this_test.status = "bad";
+            this_test.time_ms = 1;
+            GIGO.finish_test(id);
+            GIGO.update_url(id);
+            GIGO.show_debug();
+            return;
+        }
     }
     if ((id === "test_asn6") && (GIGO.isdef(GIGO.CGI.ip6))) {
-      if ((GIGO.CGI.ip6) && (GIGO.CGI.ip6.match(/^[0-9abcdef.:]+$/))) {
-        url = "/ip/?callback=?&asn=1&testip=" + GIGO.CGI.ip6;  
-        this_test.url = url; // For later display of test urls
-        GIGO.update_url(id);
-      } else {
-        this_test.ipinfo={};
-        this_test.status="bad";
-        this_test.time_ms=1;
-        GIGO.finish_test(id);
-        GIGO.update_url(id);
-        GIGO.show_debug();
-        return;
-      }
+        if ((GIGO.CGI.ip6) && (GIGO.CGI.ip6.match(/^[0-9abcdef.:]+$/))) {
+            url = "/ip/?callback=?&asn=1&testip=" + GIGO.CGI.ip6;
+            this_test.url = url; // For later display of test urls
+            GIGO.update_url(id);
+        } else {
+            this_test.ipinfo = {};
+            this_test.status = "bad";
+            this_test.time_ms = 1;
+            GIGO.finish_test(id);
+            GIGO.update_url(id);
+            GIGO.show_debug();
+            return;
+        }
     }
 
 
@@ -670,7 +669,7 @@ GIGO.fix_comment_form_and_tab = function () {
         jQuery("a.tabbutton_mail").hide();
     }
 
-}
+};
 
 
 GIGO.test_ipv6_gui = function (options) {

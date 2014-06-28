@@ -20,42 +20,42 @@ The icky part is the "if needed".
 
 GIGO.sites_image_size = 24;
 
-GIGO.url_to_hash = function(url) {
- var hash;
- url = url.replace(/\?nocache.*$/,"");
- hash = jQuery.md5(url);
- hash = hash.replace(/[^a-zA-Z0-9]/g,'');
- hash = hash.substring(0,4);
- return hash;
+GIGO.url_to_hash = function (url) {
+    var hash;
+    url = url.replace(/\?nocache.*$/, "");
+    hash = jQuery.md5(url);
+    hash = hash.replace(/[^a-zA-Z0-9]/g, '');
+    hash = hash.substring(0, 4);
+    return hash;
 };
 
-GIGO.fail_url = function(url) {
-  var hash = GIGO.url_to_hash(url);
-  
-  
-  // Create object, if needed.
-  if ( ! GIGO.isdef(GIGO.failed_sites)) {
-    GIGO.failed_sites = [];
-  }
-  
-  // Add hash, but only if not already found
-  if (GIGO.failed_sites.indexOf(hash) < 0) {
+GIGO.fail_url = function (url) {
+    var hash = GIGO.url_to_hash(url);
+
+
+    // Create object, if needed.
+    if (!GIGO.isdef(GIGO.failed_sites)) {
+        GIGO.failed_sites = [];
+    }
+
+    // Add hash, but only if not already found
+    if (GIGO.failed_sites.indexOf(hash) < 0) {
         GIGO.failed_sites.push(hash);
-  }
-  GIGO.show_share_link();
+    }
+    GIGO.show_share_link();
 };
 
-GIGO.was_failed_url = function(url) {
-  var hash = GIGO.url_to_hash(url);
-  if (!GIGO.isdef(GIGO.failed_sites)) {
-    GIGO.failed_sites = GIGO.CGI.failed_sites.split(",");
-  }
-  return (GIGO.failed_sites.indexOf(hash) >= 0);
+GIGO.was_failed_url = function (url) {
+    var hash = GIGO.url_to_hash(url);
+    if (!GIGO.isdef(GIGO.failed_sites)) {
+        GIGO.failed_sites = GIGO.CGI.failed_sites.split(",");
+    }
+    return (GIGO.failed_sites.indexOf(hash) >= 0);
 };
 
 
-GIGO.is_replay = function() {
- return (GIGO.CGI.replay);
+GIGO.is_replay = function () {
+    return (GIGO.CGI.replay);
 };
 
 
@@ -220,7 +220,7 @@ GIGO.sites_queue_all = function (mode) {
             GIGO.sites_queue_entry(r);
         }
     }
-    
+
 
 };
 
@@ -230,9 +230,9 @@ GIGO.sites_prepare_helpdesk = function (mode) {
     GIGO.helpdesk.other_sites.count = 0;
     GIGO.helpdesk.other_sites.good = [];
     GIGO.helpdesk.other_sites.bad = [];
-    if (mode > 1) {    
+    if (mode > 1) {
         GIGO.helpdesk.other_sites.count = GIGO.sites_queue.length;
-    } 
+    }
 
 };
 
@@ -243,24 +243,24 @@ GIGO.other_sites_info = function () {
     f = GIGO.helpdesk.other_sites.finished;
     c = GIGO.helpdesk.other_sites.count;
     o = g + b;
-    text="";
-    
+    text = "";
+
     if (!c) {
         return "";
     }
-    
+
     if (f != c) {
         text = "(Global IPv6 connectivity being tested; " + f + "/" + c + ")";
         // text = text + "b=" + b + " g=" + g + " f=" + f + " c=" + c + " o=" + o + "";
         return text;
     }
 
-    
+
     text = "OtherSites: " + g + "/" + o + " good";
     if (b) {
         text = text + ", " + b + "/" + o + " bad";
     }
-    
+
 
     return text;
 };
@@ -268,13 +268,13 @@ GIGO.other_sites_info = function () {
 GIGO.other_sites_failures = function () {
     var div, table, i;
     if (!GIGO.helpdesk.other_sites.bad.length) {
-        return jQuery("<div>");  // morally, "nothing to show"
+        return jQuery("<div>"); // morally, "nothing to show"
     }
     div = jQuery("<div>");
     div.append(jQuery("<p><span style='color: red'>Site(s) with failed connectivity</p>"));
     table = jQuery("<table>");
     table.append(jQuery("<tr><td>Site</td><td>Failed URL</td></tr>"));
-    for (i = 0; i < GIGO.helpdesk.other_sites.bad.length ; i = i + 1) {
+    for (i = 0; i < GIGO.helpdesk.other_sites.bad.length; i = i + 1) {
         table.append(GIGO.sites_display_bad_r_to_tr(GIGO.helpdesk.other_sites.bad[i]));
     }
     div.append(table);
@@ -292,15 +292,15 @@ GIGO.sites_display_bad_r_to_tr = function (r) {
     parts = r.v6.split("/");
 
     tr.append(jQuery("<td>").text(parts[0]));
-    
+
     a = jQuery("<a>");
     a.text("http://" + r.v6);
     a.attr("href", "http://" + r.v6);
     a.attr("target", "_blank");
-    
+
     tr.append(jQuery("<td>").append(a));
     return tr;
-    
+
 };
 
 GIGO.sites_display_td_provider_div_update = function (r) {
@@ -453,21 +453,21 @@ GIGO.sites_start_ipv6_take2 = function (r) {
         return;
     }
 
-        url = "http://" + r.v6 + "?nocache=" + Math.random();
+    url = "http://" + r.v6 + "?nocache=" + Math.random();
 
 
-        
-        if (GIGO.is_replay()) {
-          img_pending = 0;
-          if (GIGO.was_failed_url(url)) {
-             GIGO.fail_url(url);
-             GIGO.sites_display_failure(r);
-          } else {
-             GIGO.sites_display_success(r);
-          }
-          GIGO.sites_next_in_queue();
-          return;
+
+    if (GIGO.is_replay()) {
+        img_pending = 0;
+        if (GIGO.was_failed_url(url)) {
+            GIGO.fail_url(url);
+            GIGO.sites_display_failure(r);
+        } else {
+            GIGO.sites_display_success(r);
         }
+        GIGO.sites_next_in_queue();
+        return;
+    }
 
 
     setTimeout(function () {
@@ -526,8 +526,8 @@ GIGO.sites_start_ipv6 = function (r) {
     }
 
     if (GIGO.is_replay()) {
-       GIGO.sites_start_ipv6_take2(r);
-       return;
+        GIGO.sites_start_ipv6_take2(r);
+        return;
     }
 
 
@@ -555,7 +555,7 @@ GIGO.sites_start_ipv6 = function (r) {
         },
         error: function () {
             if (img_pending) {
-                img_pending = 0;                
+                img_pending = 0;
                 GIGO.sites_start_ipv6_take2(r);
             }
         }
@@ -580,20 +580,20 @@ GIGO.sites_start_ipv4_take2 = function (r) {
     }
 
 
-        url = "http://" + r.v4 + "?nocache=" + Math.random();
+    url = "http://" + r.v4 + "?nocache=" + Math.random();
 
 
-        if (GIGO.is_replay()) {
-                  img_pending = 0;
-                  if (GIGO.was_failed_url(url)) {
-                    GIGO.fail_url(url);
-                    GIGO.sites_display_giveup(r);
-                  } else {
-                    GIGO.sites_start_ipv6(r);
-                  }
-                  GIGO.sites_next_in_queue();
-                  return;
+    if (GIGO.is_replay()) {
+        img_pending = 0;
+        if (GIGO.was_failed_url(url)) {
+            GIGO.fail_url(url);
+            GIGO.sites_display_giveup(r);
+        } else {
+            GIGO.sites_start_ipv6(r);
         }
+        GIGO.sites_next_in_queue();
+        return;
+    }
 
 
 
@@ -607,7 +607,7 @@ GIGO.sites_start_ipv4_take2 = function (r) {
 
         img = jQuery('<img style="display:none" />');
         img_pending = 1;
-        
+
         jQuery(img).bind({
             load: function () {
                 img_pending = 0;
@@ -653,8 +653,8 @@ GIGO.sites_start_ipv4 = function (r) {
     }
 
     if (GIGO.is_replay()) {
-       GIGO.sites_start_ipv4_take2(r);
-       return;
+        GIGO.sites_start_ipv4_take2(r);
+        return;
     }
 
 
@@ -663,7 +663,7 @@ GIGO.sites_start_ipv4 = function (r) {
     url = "http://" + r.v4 + "?nocache=" + Math.random();
     img = jQuery('<img style="display:none" />');
     img_pending = 1;
-    
+
 
 
     jQuery(img).bind({
@@ -702,20 +702,20 @@ GIGO.sites_next_in_queue = function () {
 
 GIGO.sites_start_tests = function () {
     // 9 parallel runs, spaced a bit a part.
-    if ( 0 && GIGO.is_replay()) {
-      while(GIGO.sites_queue.length > 0) {
-        GIGO.sites_next_in_queue();
-      }
+    if (0 && GIGO.is_replay()) {
+        while (GIGO.sites_queue.length > 0) {
+            GIGO.sites_next_in_queue();
+        }
     } else {
-    setTimeout(GIGO.sites_next_in_queue, 1);
-    setTimeout(GIGO.sites_next_in_queue, 75);
-    setTimeout(GIGO.sites_next_in_queue, 150);
-    setTimeout(GIGO.sites_next_in_queue, 225);
-    setTimeout(GIGO.sites_next_in_queue, 300);
-    setTimeout(GIGO.sites_next_in_queue, 375);
-    setTimeout(GIGO.sites_next_in_queue, 450);
-    setTimeout(GIGO.sites_next_in_queue, 525);
-    setTimeout(GIGO.sites_next_in_queue, 600);
+        setTimeout(GIGO.sites_next_in_queue, 1);
+        setTimeout(GIGO.sites_next_in_queue, 75);
+        setTimeout(GIGO.sites_next_in_queue, 150);
+        setTimeout(GIGO.sites_next_in_queue, 225);
+        setTimeout(GIGO.sites_next_in_queue, 300);
+        setTimeout(GIGO.sites_next_in_queue, 375);
+        setTimeout(GIGO.sites_next_in_queue, 450);
+        setTimeout(GIGO.sites_next_in_queue, 525);
+        setTimeout(GIGO.sites_next_in_queue, 600);
     }
 };
 

@@ -157,7 +157,7 @@ GIGO.check_results = function () {
     // particularly if they just use the javascript and not the entire
     // test-ipv6.com site code
     // GIGO.results = {};
-    
+
     GIGO.results.tokens = tokens;
     GIGO.results.score_transition = score_transition;
     GIGO.results.score_strict = score_strict;
@@ -210,4 +210,4 @@ GIGO.twitter_tweet = function () {
         s.src = 'http://platform.twitter.com/widgets.js';
         s1.parentNode.insertBefore(s, s1);
     }
-}
+};
