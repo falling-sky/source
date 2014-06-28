@@ -11,16 +11,47 @@
   </div>
 
   <div class="answer">
+  <table id=locale_table class="tablesorter" 
+   style="width:300px;
+          white-space: nowrap">
   
-[%  FOREACH name IN NAMES.keys.sort %]
-<a href="/index.html.[% name %]">[% name %] - [% NAMES.$name %]</a></br>
-[%  END %]
+  <thead>
+  <tr><th>Locale Name <!-- ie en_US or zh_CN --></th><th>Language Name <!-- ie English or 中文--></th><tr>
+  </thead>
+  <tbody>
 
+[%  FOREACH name IN NAMES.keys.sort %]
+<tr>
+<td><a href="/index.html.[% name %]"><code>[% name %]</code></a></td>
+<td><a href="/index.html.[% name %]">[% NAMES.$name %]</a></td>
+</tr>
+[%  END %]
+</body>
+</table>
 
   </div>
 
   
 
 </div>
+
+<script type="text/javascript">
+
+$(document).ready(function() 
+    { 
+            $("#locale_table").tablesorter( {
+                     sortInitialOrder: "asc",
+                     textExtraction: "complex",
+                     headers: {
+                       0: { sorter: "text" },
+                       1: { sorter: "text" }
+                     },
+                     sortList: [[0,0], [1,0]]
+             } ); 
+                } 
+                );
+
+</script>
+                
 
 [% PROCESS "footer.inc" %]
