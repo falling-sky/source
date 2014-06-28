@@ -65,12 +65,14 @@ my %NAMES = (
 'fr_FR'=>'Français',
 'hr_HR'=>'Hrvatski',
 'hu_HU'=>'Magyar',
+'it_IT'=>'Italiano',
 'ja_JP'=>'日本語',
 'nb_NO'=>'Norsk bokmål',
 'nl_NL'=>'Nederlands',
 'pt_BR'=>'Português (Brasil)',
 'ru_RU'=>'Pусский',
 'sv_SE'=>'Svenska',
+'sk_SK'=>'Slovenčina',
 'zh_CN'=>'筒体中文',
 );
 foreach my $name (@LOCALE) {
