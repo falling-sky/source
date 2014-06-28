@@ -31,14 +31,33 @@ GIGO.url_to_hash = function(url) {
 
 GIGO.fail_url = function(url) {
   var hash = GIGO.url_to_hash(url);
+  
+  
+  // Create object, if needed.
   if ( ! GIGO.isdef(GIGO.failed_sites)) {
     GIGO.failed_sites = [];
   }
+  
+  // Add hash, but only if not already found
   if (GIGO.failed_sites.indexOf(hash) < 0) {
         GIGO.failed_sites.push(hash);
   }
   GIGO.show_share_link();
 };
+
+GIGO.was_failed_url = function(url) {
+  var hash = GIGO.url_to_hash(url);
+  if (!GIGO.isdef(GIGO.failed_sites)) {
+    GIGO.failed_sites = GIGO.CGI["failed_sites"].split(",");
+  }
+  return (GIGO.failed_sites.indexOf(hash) >= 0);
+};
+
+
+GIGO.is_replay = function() {
+ return (GIGO.CGI["replay"]);
+};
+
 
 
 GIGO.sites_table_init_1 = function (mode) {
@@ -434,6 +453,23 @@ GIGO.sites_start_ipv6_take2 = function (r) {
         return;
     }
 
+        url = "http://" + r.v6 + "?nocache=" + Math.random();
+
+
+        
+        if (GIGO.is_replay()) {
+          img_pending = 0;
+          if (GIGO.was_failed_url(url)) {
+             GIGO.fail_url(url);
+             GIGO.sites_display_failure(r);
+          } else {
+             GIGO.sites_display_success(r);
+          }
+          GIGO.sites_next_in_queue();
+          return;
+        }
+
+
     setTimeout(function () {
 
         // We have all the details we need to know.
@@ -442,7 +478,6 @@ GIGO.sites_start_ipv6_take2 = function (r) {
         // with handlers on it.
         // Finalize the URL.  
         // Include a random number to defeat the browser cache.
-        url = "http://" + r.v6 + "?nocache=" + Math.random();
 
         // Create the image object.
         // We will keep this "off screen".
@@ -489,6 +524,12 @@ GIGO.sites_start_ipv6 = function (r) {
     if (!r.v6) {
         return;
     }
+
+    if (GIGO.is_replay()) {
+       GIGO.sites_start_ipv6_take2(r);
+       return;
+    }
+
 
     // We have all the details we need to know.
     // We have a freshly incremented "id".
@@ -538,6 +579,25 @@ GIGO.sites_start_ipv4_take2 = function (r) {
         return;
     }
 
+
+        url = "http://" + r.v4 + "?nocache=" + Math.random();
+
+
+        if (GIGO.is_replay()) {
+                  img_pending = 0;
+                  if (GIGO.was_failed_url(url)) {
+                    GIGO.fail_url(url);
+                    GIGO.sites_display_giveup(r);
+                  } else {
+                    GIGO.sites_start_ipv6(r);
+                  }
+                  GIGO.sites_next_in_queue();
+                  return;
+        }
+
+
+
+
     // Intentionally delay by a second
     // This gives a chance for the DNS to eventually
     // resolve, in case that was the source of the error.
@@ -545,11 +605,9 @@ GIGO.sites_start_ipv4_take2 = function (r) {
 
         r.refs.td_status.find('img').css("opacity", "1.0").css("filter", "alpha(opacity=100)");
 
-        url = "http://" + r.v4 + "?nocache=" + Math.random();
         img = jQuery('<img style="display:none" />');
         img_pending = 1;
-
-
+        
         jQuery(img).bind({
             load: function () {
                 img_pending = 0;
@@ -594,11 +652,18 @@ GIGO.sites_start_ipv4 = function (r) {
         return;
     }
 
+    if (GIGO.is_replay()) {
+       GIGO.sites_start_ipv4_take2(r);
+       return;
+    }
+
+
     r.refs.td_status.find('img').css("opacity", "1.0").css("filter", "alpha(opacity=100)");
 
     url = "http://" + r.v4 + "?nocache=" + Math.random();
     img = jQuery('<img style="display:none" />');
     img_pending = 1;
+    
 
 
     jQuery(img).bind({
@@ -637,6 +702,11 @@ GIGO.sites_next_in_queue = function () {
 
 GIGO.sites_start_tests = function () {
     // 9 parallel runs, spaced a bit a part.
+    if ( 0 && GIGO.is_replay()) {
+      while(GIGO.sites_queue.length > 0) {
+        GIGO.sites_next_in_queue();
+      }
+    } else {
     setTimeout(GIGO.sites_next_in_queue, 1);
     setTimeout(GIGO.sites_next_in_queue, 75);
     setTimeout(GIGO.sites_next_in_queue, 150);
@@ -646,6 +716,7 @@ GIGO.sites_start_tests = function () {
     setTimeout(GIGO.sites_next_in_queue, 450);
     setTimeout(GIGO.sites_next_in_queue, 525);
     setTimeout(GIGO.sites_next_in_queue, 600);
+    }
 };
 
 GIGO.test_sites = function (mode) {
