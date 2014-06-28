@@ -89,13 +89,6 @@ GIGO.sites = [{
     "v6": "ip6.8n1.org/test.gif",
     "hide": 0
 }, {
-    "site": "broken.gigo.com",
-    "loc": "X",
-    "provider": "intentionally busted",
-    "v4": "ipv4.test-ipv6.com/images/knob_valid_green.pn",
-    "v6": "ipv6.test-ipv6.com/images/knob_valid_green.png",
-    "hide": 1
-}, {
     "site": "test-ipv6.netiter.dk",
     "loc": "DE",
     "provider": "Netiter ApS",
