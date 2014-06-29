@@ -42,7 +42,7 @@ id="current">[% GET page %]</a></li>
 
 <div class=navright>
 <a href="/locale.html">
-<img src="/images/Language-Icons/icon128px-exported-red.jpg" height=20 border=0>
+<img src="/images/icon_987_red.png" height=32 border=0>
 </a>
 </div>
 

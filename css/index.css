@@ -18,6 +18,16 @@ html {
   font-family: sans-serif;
 }
 
+#replay {
+  font-family: sans-serif;
+padding: 0px 0.5em; /* 3px was cute */
+margin-left: 3px;  
+border: 1px solid #778;
+background: #FDD;      
+text-decoration: none; 
+color: #000;
+}
+
 #debugtable {
   margin-left: 0%;
   margin-right: 0%;

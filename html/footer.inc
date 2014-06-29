@@ -18,7 +18,7 @@
   |
 
 <a href="#" onclick="return help_page('locale.html','Locale')">
-<img src="/images/Language-Icons/icon128px-exported-red.jpg" height=20 border=0>
+<img src="/images/icon_987_red.png" height=20 border=0>
 [[% locale %]]
 </a>
 
