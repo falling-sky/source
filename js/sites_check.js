@@ -48,14 +48,18 @@ GIGO.fail_url = function (url) {
 GIGO.was_failed_url = function (url) {
     var hash = GIGO.url_to_hash(url);
     if (!GIGO.isdef(GIGO.failed_sites)) {
-        GIGO.failed_sites = GIGO.CGI.failed_sites.split(",");
+        if (GIGO.isdef(GIGO.CGI.failed_sites)) {
+          GIGO.failed_sites = GIGO.CGI.failed_sites.split(",");
+        } else {
+          GIGO.failed_sites = [];
+        }
     }
     return (GIGO.failed_sites.indexOf(hash) >= 0);
 };
 
 
 GIGO.is_replay = function () {
-    return (GIGO.CGI.replay);
+    return (GIGO.CGI.ip4 || GIGO.CGI.ip6);
 };
 
 

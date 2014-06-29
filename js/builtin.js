@@ -28,9 +28,8 @@ GIGO.generate_share_link_entry = function (name, def) {
 
 
 GIGO.generate_share_link = function () {
-    var url, hostname;
-    hostname = String(location.hostname);
-    url = "http://" + hostname + "?";
+    var url;
+    url = location.href.replace(/[?].*$/,'') + "?";
     if (GIGO.results.ipv4.ip) {
         url = url + "ip4=" + encodeURIComponent(GIGO.results.ipv4.ip);
     } else {
@@ -52,7 +51,6 @@ GIGO.generate_share_link = function () {
 
 
     // Working/Failed sites
-    url = url + "&replay=1";
     if (GIGO.isdef(GIGO.failed_sites)) {
         url = url + "&failed_sites=" + GIGO.failed_sites.join(",");
     }
@@ -310,6 +308,9 @@ GIGO.send_survey = function (tokens) {
     }
 
 
+    if (GIGO.is_replay()) {
+       return;
+    }
 
     if (GIGO.override) {
         jQuery("#survey").html("[% '(Survey posting skipped; test was rigged)' | i18n %]");

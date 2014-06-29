@@ -684,6 +684,9 @@ GIGO.test_ipv6_gui = function (options) {
     jQuery(document).ready(function () {
         // Primitive hack to avoid the web bots from comment spamming
         jQuery("[name=nobots]").val("serious");
+        if (GIGO.is_replay()) {
+          jQuery("#replay").show();
+        }
 
         // Possibly, kill that tab instead.
         // GIGO.fix_comment_form_and_tab();

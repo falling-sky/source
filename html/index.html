@@ -1,7 +1,12 @@
 [% PROCESS "header.inc"  %]
 [% PROCESS "list-nav.inc" page = "index" %]
 
-<h1 id="title" style="margin-bottom:0;">[% "Test your IPv6 connectivity." | i18n %]</h1>
+<h1 id="title" style="margin-bottom:0;">
+  [% "Test your IPv6 connectivity." | i18n %]
+<span id="replay" class="replay" style="display:none">
+  [% "(Replay)" | i18n %]
+</span>
+</h1>
 
 <!-- Do I ever hate the ways that browsers break things with javascript disabled. Can't even count on noscript tags. !-->
 

@@ -193,11 +193,4 @@ GIGO.sites = [{
     "v4": "ipv4.campaya.co.uk/apple-touch-icon.png",
     "v6": "ipv6.campaya.co.uk/apple-touch-icon.png",
     "hide": 0
-}, {
-    "site": "broken.gigo.com",
-    "loc": "~",
-    "provider": "Debugging entry during development, ignore",
-    "v4": "broken4.gigo.com/",
-    "v6": "broken6.gigo.com/",
-    "hide": 0
 }];
