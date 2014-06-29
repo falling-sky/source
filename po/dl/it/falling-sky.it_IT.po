@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2014-06-28 14:00-0400\n"
+"PO-Revision-Date: 2014-06-29 06:15-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Italian\n"
 "MIME-Version: 1.0\n"
@@ -17,11 +17,11 @@ msgstr "Questo mirror è fornito da"
 
 #: messages.js
 msgid "bad"
-msgstr "bad"
+msgstr "fallito"
 
 #: messages.js
 msgid "ok"
-msgstr "Ok"
+msgstr "OK"
 
 #: messages.js
 msgid "slow"
@@ -29,7 +29,7 @@ msgstr "lento"
 
 #: messages.js
 msgid "timeout"
-msgstr "timeout"
+msgstr "tempo di attesa esaurito"
 
 #: messages.js
 msgid "Connections to urls with IP addresses appear to be blocked; perhaps by a web filter such as 'NoScript' or 'RequestPolicy' installed into your browser, or filtering in your proxy server. This limits some of the functionality of this test site."
@@ -37,11 +37,11 @@ msgstr "I collegamenti a URL con indirizzi IP sembrano essere bloccati; probabil
 
 #: messages.js
 msgid "IPv4 Connections using DNS work; but literal IP addresses in urls do not. These are rarely used on the web today."
-msgstr "IPv4 Connections using DNS work; but literal IP addresses in urls do not. These are rarely used on the web today."
+msgstr "Le connessioni IPv4 che utilizzano la risoluzione dei nomi con DNS funzionano mentre quelle tramite indirizzi IP numerici no. Questo tipologia di connessione è raramente utilizzata."
 
 #: messages.js
 msgid "IPv6 Connections using DNS work; but literal IP addresses in urls do not. These are rarely used on the web today."
-msgstr "IPv6 Connections using DNS work; but literal IP addresses in urls do not. These are rarely used on the web today."
+msgstr "Le connessioni IPv6 che utilizzano la risoluzione dei nomi con DNS funzionano mentre quelle tramite indirizzi IP numerici no. Questo tipologia di connessione è raramente utilizzata."
 
 #: messages.js
 msgid "You appear to be using a public 6to4 gateway; your router may be providing this to you automatically. Such public gateways have no service level agreements; you may see performance problems using such. Better would be to get a native IPv6 address from your ISP."
@@ -129,11 +129,11 @@ msgstr "NAT64 detected. IPv6 works. IPv4 works for most purposes. Applications t
 
 #: messages.js
 msgid "Your DNS server (possibly run by your ISP) appears to have IPv6 Internet access."
-msgstr "Your DNS server (possibly run by your ISP) appears to have IPv6 Internet access."
+msgstr "Il server DNS che stai utilizzando (di norma è quello del tuo gestore) sembrerebbe disporre di accesso a Internet tramite  IPv6."
 
 #: messages.js
 msgid "Your DNS server (possibly run by your ISP) appears to have no access to the IPv6 Internet, or is not configured to use it. This may in the future restrict your ability to reach IPv6-only sites."
-msgstr "Your DNS server (possibly run by your ISP) appears to have no access to the IPv6 Internet, or is not configured to use it. This may in the future restrict your ability to reach IPv6-only sites."
+msgstr "Il server DNS che stai utilizzando (di norma è quello del tuo gestore) sembrerebbe non disporre di accesso a Internet tramite  IPv6 o non è correttamente configurato per tale accesso. In futuro potresti avere difficoltà nel raggiungere siti internet disponibili esclusivamente tramite IPv6."
 
 #: messages.js
 msgid "You are likely using a FireFox plugin that is causing IP based tests to fail. Examples: RequestPolicy. Please disable those while using this site."
