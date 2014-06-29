@@ -436,6 +436,10 @@ msgstr ""
 msgid "Test your IPv6 connectivity."
 msgstr ""
 
+#: index.html
+msgid "(Replay)"
+msgstr ""
+
 #: js_required.inc
 msgid "JavaScript Required"
 msgstr ""
