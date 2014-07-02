@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2014-06-25 11:37-0400\n"
+"PO-Revision-Date: 2014-07-02 18:46-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: German\n"
 "MIME-Version: 1.0\n"
@@ -829,7 +829,7 @@ msgstr "What to do if you're broken..."
 
 #: broken.html
 msgid "If you are reading this page, it means that we've identified that your host will have problems on World IPv6 Day. Any web site that goes \"dual stack\" (meaning, both IPv4 and IPv6), will be unreachable to you."
-msgstr "If you are reading this page, it means that we've identified that your host will have problems on World IPv6 Day. Any web site that goes \"dual stack\" (meaning, both IPv4 and IPv6), will be unreachable to you."
+msgstr "Wenn Sie das lesen, heißt das, dass wir erkannt haben, dass ihre Maschine am World IPv6-Tag Probleme haben wird. Jede Webseite, die \"Dualstack\" (d.h. IPv4 als auch IPv6) nutzt, wird Sie nicht erreichen."
 
 #: broken.html
 msgid "To resolve this, you'll first need to identify your IPv6 address (if you have one) and your IPv6 default route (if you have one). This will help identify which sections to read."
@@ -849,7 +849,7 @@ msgstr "Finden Sie Ihre IP-Adresse"
 
 #: broken.html
 msgid "If you set up a tunnel broker"
-msgstr "If you set up a tunnel broker"
+msgstr "Wenn Sie einen Tunnel-Broker eingerichtet haben"
 
 #: broken.html
 msgid "If you set up 6to4 (IPv6 address: starts with 2002)"
@@ -865,7 +865,7 @@ msgstr "If you have an Bad or Inappropriate IPv6 Addresss (see table)"
 
 #: broken.html
 msgid "If you have an unexpected IPv6 address"
-msgstr "If you have an unexpected IPv6 address"
+msgstr "Wenn Sie eine unerwartete IPv6-Adresse haben"
 
 #: broken.html
 msgid "Try the netalyzr"
@@ -1013,7 +1013,7 @@ msgstr "Linux users: To find your IPv6 address, open a terminal and.."
 
 #: faq/find_ip.inc
 msgid "Linux users: To find your IPv6 route, use:"
-msgstr "Linux users: To find your IPv6 route, use:"
+msgstr "Linux-Nutzer: Um Ihre IPv6-Route herauszufinden, nutzen Sie:"
 
 #: faq/find_ip.inc
 msgid "Generic unix instructions for determining your IPv6 address and default route:"
@@ -1021,7 +1021,7 @@ msgstr "Generic unix instructions for determining your IPv6 address and default 
 
 #: faq/find_ip.inc
 msgid "Windows users: To find your IP address using cmd.exe:"
-msgstr "Windows users: To find your IP address using cmd.exe:"
+msgstr "Windows-Nutzer: Um Ihre IP-Adresse mit cmd.exe herauszufinden:"
 
 #: faq/find_ip.inc
 msgid "Go to your \"start\" menu"
@@ -1033,7 +1033,7 @@ msgstr "If you have a \"Run\" menu option, select it. Otherwise go to the \"Sear
 
 #: faq/find_ip.inc
 msgid "Type <code>cmd.exe</code>"
-msgstr "Type <code>cmd.exe</code>"
+msgstr "Geben Sie <code>cmd.exe</code> ein"
 
 #: faq/find_ip.inc
 msgid "In the cmd window, type <code>ipconfig</code> ."
@@ -1057,7 +1057,7 @@ msgstr "Gehen Sie zu \"Netzwerk und Internet\""
 
 #: faq/find_ip.inc
 msgid "Go to \"View network status and tasks\""
-msgstr "Go to \"View network status and tasks\""
+msgstr "Gehen Sie zu \"Ansicht - Netzwerkstatus und -Aufgaben\""
 
 #: faq/find_ip.inc
 msgid "Go to \"Change adapter settings\"."

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2014-06-29 17:11-0400\n"
+"PO-Revision-Date: 2014-07-02 11:15-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Italian\n"
 "MIME-Version: 1.0\n"
@@ -305,11 +305,11 @@ msgstr "proxied"
 
 #: builtin.js
 msgid "using"
-msgstr "using"
+msgstr "utilizzando"
 
 #: builtin.js
 msgid "tests run"
-msgstr "tests run"
+msgstr "verifiche effettuate"
 
 #: builtin.js
 msgid "(Survey posting skipped; test was rigged)"
@@ -365,7 +365,7 @@ msgstr "failed to load"
 
 #: builtin.js
 msgid "[go back]"
-msgstr "[go back]"
+msgstr "[indietro]"
 
 #: builtin.js
 msgid "[permalink]"
@@ -385,7 +385,7 @@ msgstr "I am most interested in discussing your setup with you, because it was b
 
 #: form.js
 msgid "retest"
-msgstr "retest"
+msgstr "ripetere il test"
 
 #: form.js
 msgid "Result code"
@@ -433,11 +433,11 @@ msgstr "Mirrors"
 
 #: list-nav.inc
 msgid "stats"
-msgstr "stats"
+msgstr "statistiche"
 
 #: index.html
 msgid "Test your IPv6 connectivity."
-msgstr "Test your IPv6 connectivity."
+msgstr "Verifica la tua connettività IPv6."
 
 #: js_required.inc
 msgid "JavaScript Required"
@@ -465,19 +465,19 @@ msgstr "You can opt instead to view the <a href=\"simple_test.html\">simple test
 
 #: main/tabnav.inc
 msgid "For the Help Desk"
-msgstr "For the Help Desk"
+msgstr "Per l'Help Desk"
 
 #: main/tabnav.inc
 msgid "Summary"
-msgstr "Summary"
+msgstr "Riepilogo"
 
 #: main/tabnav.inc
 msgid "Tests Run"
-msgstr "Tests Run"
+msgstr "Verifiche Effettuate"
 
 #: main/tabnav.inc
 msgid "Share Results / Contact"
-msgstr "Share Results / Contact"
+msgstr "Condividi i risultati/Contattaci"
 
 #: main/tabnav.inc
 msgid "FAQ for You"
@@ -501,7 +501,7 @@ msgstr "Come funziona questo test:"
 
 #: main/tests.inc
 msgid "Your browser will be instructed to reach a series of URLs. The combination of successes and failures tells a story about how ready you are for when publishers start offering their web sites on IPv6."
-msgstr "Your browser will be instructed to reach a series of URLs. The combination of successes and failures tells a story about how ready you are for when publishers start offering their web sites on IPv6."
+msgstr "Il tuo browser cercherà di raggiungere una serie di indirizzi URL. Questo permette di capire se la tua configurazione è in grado di supportare siti web su IPv6."
 
 #: main/tests.inc
 msgid "Technical Info"
@@ -545,11 +545,11 @@ msgstr "Test per verificare se il server DNS del tuo provider utilizza IPv6"
 
 #: main/tests.inc
 msgid "Find IPv4 Service Provider"
-msgstr "Find IPv4 Service Provider"
+msgstr "Ricerca del provider di servizi IPv4"
 
 #: main/tests.inc
 msgid "Find IPv6 Service Provider"
-msgstr "Find IPv6 Service Provider"
+msgstr "Ricerca del provider di servizi IPv6"
 
 #: main/tests.inc
 msgid "Test for buggy DNS"
@@ -749,7 +749,7 @@ msgstr "Email"
 
 #: footer.inc
 msgid "Attributions"
-msgstr "Attributions"
+msgstr "Attribuzioni"
 
 #: disclaimer.inc
 msgid "This is a mirror of test-ipv6.com. The views expressed here may or may not reflect the views of the mirror owner."
