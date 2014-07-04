@@ -197,7 +197,7 @@ GIGO.mirrors = [{
     "provider": "BelWü",
     "hide": 0
 }, {
-    "site": "test-ipv6.uni-rues.bg",
+    "site": "test-ipv6.uni-ruse.bg",
     "loc": "BG",
     "provider": "University of Ruse",
     "hide": 0
