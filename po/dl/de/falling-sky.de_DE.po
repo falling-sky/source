@@ -1,12 +1,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2014-07-02 18:46-0400\n"
+"PO-Revision-Date: 2014-07-18 10:55-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: German\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: crowdin.net\n"
 "Language: de_DE\n"
@@ -825,7 +826,7 @@ msgstr "Vorschläge sind willkommen; vor allem von operative Helpdesks. Diese Re
 
 #: broken.html
 msgid "What to do if you're broken..."
-msgstr "What to do if you're broken..."
+msgstr "Was zu tun ist, wenn es nicht funktioniert..."
 
 #: broken.html
 msgid "If you are reading this page, it means that we've identified that your host will have problems on World IPv6 Day. Any web site that goes \"dual stack\" (meaning, both IPv4 and IPv6), will be unreachable to you."
@@ -833,15 +834,15 @@ msgstr "Wenn Sie das lesen, heißt das, dass wir erkannt haben, dass ihre Maschi
 
 #: broken.html
 msgid "To resolve this, you'll first need to identify your IPv6 address (if you have one) and your IPv6 default route (if you have one). This will help identify which sections to read."
-msgstr "To resolve this, you'll first need to identify your IPv6 address (if you have one) and your IPv6 default route (if you have one). This will help identify which sections to read."
+msgstr "Um dieses Problem zu beheben, müssen Sie zuerst Ihre IPv6-Adresse (falls vorhanden) und Ihre IPv6-default-Route (falls vorhanden) herausfinden. Mit diesen Informationen können Sie herausfinden, welche Abschnitte Sie lesen müssen."
 
 #: broken.html
 msgid "If you find your particular problem is not well represented; or you have additional suggestions; please do leave feedback using the <a href='#' onclick='return GIGO.tabnav(\"mail\");'>form</a> (or contact <a href=\"mailto:jfesler@test-ipv6.com\">jfesler@test-ipv6.com</a>)."
-msgstr "If you find your particular problem is not well represented; or you have additional suggestions; please do leave feedback using the <a href='#' onclick='return GIGO.tabnav(\"mail\");'>form</a> (or contact <a href=\"mailto:jfesler@test-ipv6.com\">jfesler@test-ipv6.com</a>)."
+msgstr "Wenn Sie der Meinung sind, dass Ihr Problem nicht gut erklärt ist, oder Sie weitere Anregungen haben: Hinterlassen Sie bitte Feedback über das <a href='#' onclick='return GIGO.tabnav(\"mail\");'> Kontaktformular</a> (oder per E-Mail: <a href=\"mailto:jfesler@test-ipv6.com\"> jfesler@test-ipv6.com</a>)."
 
 #: broken.html
 msgid "Make sure you are current"
-msgstr "Make sure you are current"
+msgstr "Stellen Sie sicher, dass Sie auf dem Laufenden sind"
 
 #: broken.html
 msgid "Find your IP address"
@@ -853,15 +854,15 @@ msgstr "Wenn Sie einen Tunnel-Broker eingerichtet haben"
 
 #: broken.html
 msgid "If you set up 6to4 (IPv6 address: starts with 2002)"
-msgstr "If you set up 6to4 (IPv6 address: starts with 2002)"
+msgstr "Falls sie 6to4 benutzen (IPv6-Adresse beginnt mit 2002)"
 
 #: broken.html
 msgid "If you have an ULA (IPv6 address: starts with FC or FD)"
-msgstr "If you have an ULA (IPv6 address: starts with FC or FD)"
+msgstr "Falls sie eine ULA benutzen (IPv6-Adresse beginnt mit FC oder FD)"
 
 #: broken.html
 msgid "If you have an Bad or Inappropriate IPv6 Addresss (see table)"
-msgstr "If you have an Bad or Inappropriate IPv6 Addresss (see table)"
+msgstr "Falls sie eine ungültige oder unpassende IPv6-Adresse haben (siehe Tabelle)"
 
 #: broken.html
 msgid "If you have an unexpected IPv6 address"
@@ -1005,11 +1006,11 @@ msgstr "Suchen Sie nach einer Zeile mit \"default\"; möglicherweise auf ein Gat
 
 #: faq/find_ip.inc
 msgid "iPhone and iPad users: No information is shown via Apple's preferences/setup. The \"IT Tools\" and the \"ip6config\" apps do show IPv6 address data; both cost."
-msgstr "iPhone and iPad users: No information is shown via Apple's preferences/setup. The \"IT Tools\" and the \"ip6config\" apps do show IPv6 address data; both cost."
+msgstr "iPhone und iPad-Nutzer: Apples \"Einstellungen\" zeigen keine Informationen. \"Es-Tools\" und die \"ip6config\"-Apps zeigen IPv6-Adressen an. Beide Apps sind kostenpflichtig."
 
 #: faq/find_ip.inc
 msgid "Linux users: To find your IPv6 address, open a terminal and.."
-msgstr "Linux users: To find your IPv6 address, open a terminal and.."
+msgstr "Linux Benutzer: Um Ihre IPv6-Adresse herauszufinden, öffnen Sie ein Terminal und..."
 
 #: faq/find_ip.inc
 msgid "Linux users: To find your IPv6 route, use:"
@@ -1017,7 +1018,7 @@ msgstr "Linux-Nutzer: Um Ihre IPv6-Route herauszufinden, nutzen Sie:"
 
 #: faq/find_ip.inc
 msgid "Generic unix instructions for determining your IPv6 address and default route:"
-msgstr "Generic unix instructions for determining your IPv6 address and default route:"
+msgstr "Generische Unix-Anleitungen, um die IPv6-Adresse und default-Route herauszufinden:"
 
 #: faq/find_ip.inc
 msgid "Windows users: To find your IP address using cmd.exe:"
@@ -1029,7 +1030,7 @@ msgstr "Gehen Sie ins Startmenü"
 
 #: faq/find_ip.inc
 msgid "If you have a \"Run\" menu option, select it. Otherwise go to the \"Search programs and files\" box."
-msgstr "If you have a \"Run\" menu option, select it. Otherwise go to the \"Search programs and files\" box."
+msgstr "Falls Sie eine Menüoption \"Ausführen\" haben, wählen Sie diese aus. Andernfalls können Sie das Feld \"Programme/Dateien durchsuchen\" verwenden."
 
 #: faq/find_ip.inc
 msgid "Type <code>cmd.exe</code>"
@@ -1061,11 +1062,11 @@ msgstr "Gehen Sie zu \"Ansicht - Netzwerkstatus und -Aufgaben\""
 
 #: faq/find_ip.inc
 msgid "Go to \"Change adapter settings\"."
-msgstr "Go to \"Change adapter settings\"."
+msgstr "Gehen Sie zu \"Adaptereinstellungen ändern\"."
 
 #: faq/find_ip.inc
 msgid "Go to your main Internet connection, double click"
-msgstr "Go to your main Internet connection, double click"
+msgstr "Klicken Sie doppelt auf ihre Internetverbindung"
 
 #: faq/find_ip.inc
 msgid "Go to \"Details\""
@@ -1073,7 +1074,7 @@ msgstr "Gehen Sie auf \"Details\""
 
 #: faq/find_ip.inc
 msgid "Look for \"IPv6 Address\" and \"IPv6 Default Gateway\""
-msgstr "Look for \"IPv6 Address\" and \"IPv6 Default Gateway\""
+msgstr "Suchen Sie \"IPv6 IP-Adresse\" und \"IPv6 Standardgateway\""
 
 #: faq/find_ip.inc
 msgid "Other Windows based OS's: Send jfesler@test-ipv6.com detailed instructions; and I'll add them to the site."
@@ -1081,103 +1082,103 @@ msgstr "Andere Windows-basierte Betriebssysteme: Sende mir unter jfesler@test-ip
 
 #: faq/broken_tunnelbroker.inc
 msgid "<b>If you set up a tunnelbroker tunnel</b>: The most common causes for tunnelbroker users to fail are:"
-msgstr "<b>If you set up a tunnelbroker tunnel</b>: The most common causes for tunnelbroker users to fail are:"
+msgstr "<b>Wenn Sie einen Tunnelbroker-Tunnel eingerichtet haben:</b> die häufigsten Fehler bei Tunnelbroker-Benutzern sind:"
 
 #: faq/broken_tunnelbroker.inc
 msgid "Your IPv4 address may have changed; you need to tell the tunnelbroker server this happened."
-msgstr "Your IPv4 address may have changed; you need to tell the tunnelbroker server this happened."
+msgstr "Ihre IPv4-Adresse hat sich geändert. Geben Sie dem Tunnelbroker-Server Bescheid, dass das passiert ist."
 
 #: faq/broken_tunnelbroker.inc
 msgid "If you are using your router to do the 6in4 (sometimes called 6to4 with explicit provider):"
-msgstr "If you are using your router to do the 6in4 (sometimes called 6to4 with explicit provider):"
+msgstr "Bei Verwendung des Routers um 6in4 zu machen (manchmal auch 6to4 mit explizitem Anbieter genannt):"
 
 #: faq/broken_tunnelbroker.inc
 msgid "Make sure tunnelbroker knows your current IPv4 address. Our site tells you your public IPv4 address."
-msgstr "Make sure tunnelbroker knows your current IPv4 address. Our site tells you your public IPv4 address."
+msgstr "Stellen Sie sicher, dass der Tunnelbroker Ihre aktuellen IPv4-Adresse kennt. Unsere Website informiert zeigt Ihnen Ihre öffentliche IPv4-Adresse an."
 
 #: faq/broken_tunnelbroker.inc
 msgid "Make sure your router can ping the other side of the tunnel. Don't waste your time fixing computers until the router works!"
-msgstr "Make sure your router can ping the other side of the tunnel. Don't waste your time fixing computers until the router works!"
+msgstr "Stellen Sie sicher, dass Ihr Router die andere Seite des Tunnels anpingen kann. Verschwenden Sie Ihre Zeit nicht damit, den Computer zu reparieren, bis der Router funktioniert!"
 
 #: faq/broken_tunnelbroker.inc
 msgid "If you are using your Linux, BSD, Mac, or Windows box to \"talk 6to4\" specifically:"
-msgstr "If you are using your Linux, BSD, Mac, or Windows box to \"talk 6to4\" specifically:"
+msgstr "Falls Sie ihr Linux, BSD, Mac oder ein Windows-System verwenden, um \"6to4 zu sprechen\":"
 
 #: faq/broken_tunnelbroker.inc
 msgid "Make sure your router is passing \"protocol 41\" to you."
-msgstr "Make sure your router is passing \"protocol 41\" to you."
+msgstr "Stellen Sie sicher, dass Ihr Router \"Protokoll 41\" für Sie weiterleitet."
 
 #: faq/broken_tunnelbroker.inc
 msgid "Make sure any software firewall you are operating is passing \"protocol 41\" to you."
-msgstr "Make sure any software firewall you are operating is passing \"protocol 41\" to you."
+msgstr "Stellen Sie sicher, dass Software-Firewall, die Sie verwenden \"Protokoll 41\" für Sie durchlässt."
 
 #: faq/broken_tunnelbroker.inc
 msgid "If everything worked before your reboot but fails now, check your firewall settings."
-msgstr "If everything worked before your reboot but fails now, check your firewall settings."
+msgstr "Wenn vor dem Neustart des Computers alles funktioniert hat, jetzt aber nicht mehr, prüfen Sie die Einstellungen Ihrer Firewall."
 
 #: faq/broken_tunnelbroker.inc
 msgid "Make sure the box \"doing 6to4\" can ping the other side of the tunnelbroker gateway before working on any other hosts."
-msgstr "Make sure the box \"doing 6to4\" can ping the other side of the tunnelbroker gateway before working on any other hosts."
+msgstr "Stellen Sie sicher, dass das Gerät welches \"6to4\" macht, die andere Seite des Tunnelbroker-Gateway anpingen kann, bevor Sie sich um andere Hosts kümmern."
 
 #: broken.html
 msgid "If you set up 6to4"
-msgstr "If you set up 6to4"
+msgstr "Falls sie 6to4 eingerichtet haben"
 
 #: broken.html
 msgid "(IPv6 address: starts with 2002)"
-msgstr "(IPv6 address: starts with 2002)"
+msgstr "(IPv6-Adresse beginnt mit 2002)"
 
 #: faq/broken_6to4.inc
 msgid "If you use 6to4</b> (without a tunnel broker; ie, using anonymous 6to4):"
-msgstr "If you use 6to4</b> (without a tunnel broker; ie, using anonymous 6to4):"
+msgstr "Falls Sie 6to4 verwenden</b> (ohne einen Tunnelbroker; zum Beispiel mit Hilfe von anonymem 6to4):"
 
 #: faq/6to4_sucks.inc
 msgid "The use of \"automatic\" 6to4, or the use of 6to4 without explicit configuration of the gateways, is not recommended. For more information see <a href='#' onclick='return help_page(\"faq_6to4.html\",\"6to4\")'>6to4</a>."
-msgstr "The use of \"automatic\" 6to4, or the use of 6to4 without explicit configuration of the gateways, is not recommended. For more information see <a href='#' onclick='return help_page(\"faq_6to4.html\",\"6to4\")'>6to4</a>."
+msgstr "Die Verwendung von \"automatischem\" 6to4, oder die Verwendung von 6to4 ohne explizite Konfiguration des Gateways ist nicht empfohlen. Weitere Informationen finden Sie unter <a href='#' onclick='return help_page(\"faq_6to4.html\",\"6to4\")'> 6to4</a>."
 
 #: faq/broken_6to4.inc
 msgid "If you want to continue trying to debug anonymous 6to4:"
-msgstr "If you want to continue trying to debug anonymous 6to4:"
+msgstr "Falls Sie weiter versuchen möchten, das anonyme 6to4 zu debuggen:"
 
 #: faq/broken_6to4.inc
 msgid "If you are using your router to do the 6to4:"
-msgstr "If you are using your router to do the 6to4:"
+msgstr "Falls Sie Ihren Router 6to4 machen lassen:"
 
 #: faq/broken_6to4.inc
 msgid "Make sure your router has a public IPv4 address. Without this, 6to4 fails."
-msgstr "Make sure your router has a public IPv4 address. Without this, 6to4 fails."
+msgstr "Stellen Sie sicher, dass Ihr Router über eine öffentliche IPv4-Adresse verfügt. Ohne diese funktioniert 6to4 nicht."
 
 #: faq/broken_6to4.inc
 msgid "If your router permits you to log in, use \"ping\" or \"ping6\" and see if you can ping \"ipv6.test-ipv6.com\". Don't waste your time fixing computers until the router works!"
-msgstr "If your router permits you to log in, use \"ping\" or \"ping6\" and see if you can ping \"ipv6.test-ipv6.com\". Don't waste your time fixing computers until the router works!"
+msgstr "Wenn Sie sich auf Ihrem Router einloggen können, verwenden Sie \"ping\" oder \"ping6\" und prüfen Sie, ob Sie \"ipv6.test-ipv6.com\" anpingen können. Verschwenden Sie nicht Ihre Zeit, Computer reparieren, bis der Router funktioniert!"
 
 #: faq/broken_6to4.inc
 msgid "Most home systems have private IPv4 addresses; this won't work with 6to4 (unless..)"
-msgstr "Most home systems have private IPv4 addresses; this won't work with 6to4 (unless..)"
+msgstr "Die meisten Heim-Systeme haben private IPv4-Adressen; Dies funktioniert nicht mit 6to4 (es sei denn...)"
 
 #: faq/broken_6to4.inc
 msgid "Make sure your 6to4 interface knows your public IPv4 address."
-msgstr "Make sure your 6to4 interface knows your public IPv4 address."
+msgstr "Stellen Sie sicher, dass Ihre 6to4-Schnittstelle Ihre öffentliche IPv4-Adresse kennt."
 
 #: faq/broken_6to4.inc
 msgid "Make sure that your router permits protocol 41 from any IP address - not just 192.88.99.1. This will allow web sites to operate their half of 6to4, even if they can not spoof the 192.88.99.1 anycast address."
-msgstr "Make sure that your router permits protocol 41 from any IP address - not just 192.88.99.1. This will allow web sites to operate their half of 6to4, even if they can not spoof the 192.88.99.1 anycast address."
+msgstr "Stellen Sie sicher, dass Ihr Router Protokoll 41 von einer beliebigen IP-Adresse - nicht nur 192.88.99.1 - erlaubt. Dies ermöglicht Websites, ihren Teil von 6to4 zu betreiben, auch wenn sie die Anycast-Adresse 192.88.99.1 nicht spoofen können."
 
 #: faq/broken_6to4.inc
 msgid "Linux users using iptables connection tracking: take heed of the previous note!"
-msgstr "Linux users using iptables connection tracking: take heed of the previous note!"
+msgstr "Linux-Anwender, die Iptables Connection Tracking verwenden: Beachten Sie die obige Anmerkung!"
 
 #: faq/broken_6to4.inc
 msgid "Consider changing how you connect."
-msgstr "Consider changing how you connect."
+msgstr "Überlegen Sie sich, ihre Internetverbindung zu ändern."
 
 #: faq/broken_6to4.inc
 msgid "Ask your ISP if they offer any IPv6 connectivity (including possibly 6in4 tunnels, or tunnelbroker type tunnels)."
-msgstr "Ask your ISP if they offer any IPv6 connectivity (including possibly 6in4 tunnels, or tunnelbroker type tunnels)."
+msgstr "Fragen Sie ihren ISP, ob er IPv6-Konnektivität (möglicherweise auch 6in4-Tunnel, oder Tunnel von Tunnelbrokern) anbietet."
 
 #: faq/broken_6to4.inc
 msgid "See <a href=\"#\" onclick='return help_page(\"faq_6to4.html\",\"6to4\")'>6to4</a> for more information on why you would want to switch; and some options."
-msgstr "See <a href=\"#\" onclick='return help_page(\"faq_6to4.html\",\"6to4\")'>6to4</a> for more information on why you would want to switch; and some options."
+msgstr "Weitere Informationen, warum Sie wechseln sollten und einige Optionen finden Sie unter <a href=\"#\" onclick='return help_page(\"faq_6to4.html\",\"6to4\")'> 6to4</a>."
 
 #: broken.html
 msgid "If you have an ULA"
@@ -1189,59 +1190,59 @@ msgstr "(IPv6-Adresse: beginnt mit FC oder FD)"
 
 #: faq/broken_ula.inc
 msgid "If you have an IP address starting with <code>FC</code> or <code>FD</code>, you have what is effectively a private IPv6 address. It might be usable for talking to other devices within your home, or within your company. It also allows you to have a steady IPv6 address inside, even if your public IPv6 address changes regularly."
-msgstr "If you have an IP address starting with <code>FC</code> or <code>FD</code>, you have what is effectively a private IPv6 address. It might be usable for talking to other devices within your home, or within your company. It also allows you to have a steady IPv6 address inside, even if your public IPv6 address changes regularly."
+msgstr "Wenn Sie eine IP-Adresse beginnend mit <code>FC</code> oder <code>FD</code> haben, haben Sie effektiv eine private IPv6-Adresse. Diese könnte für die Kommunikation mit anderen Geräten in Ihrem Hause oder in Ihrem Unternehmen verwendet werden. Es bietet ebenfalls eine verlässliche interne IPv6-Adresse, auch wenn sich Ihre öffentliche IPv6-Adresse regelmäßig ändert."
 
 #: faq/broken_ula.inc
 msgid "The main problem with ULA is that certain home routers are now offering ULA, *and* giving you a default route. This route is offered regardless of whether or not your router actually has IPv6 connectivity. From your browser's point of view, it doesn't know that your default route goes nowhere; there is no feedback mechanism. Since IPv6 is (roughly speaking) preferred over IPv4, your browser will try using this broken route. It may take minutes before giving up."
-msgstr "The main problem with ULA is that certain home routers are now offering ULA, *and* giving you a default route. This route is offered regardless of whether or not your router actually has IPv6 connectivity. From your browser's point of view, it doesn't know that your default route goes nowhere; there is no feedback mechanism. Since IPv6 is (roughly speaking) preferred over IPv4, your browser will try using this broken route. It may take minutes before giving up."
+msgstr "Das Hauptproblem bei ULA ist, dass manche Heim-Router nun ULA *und* eine default-Route anbieten. Diese Route wird angeboten, unabhängig davon, ob Ihr Router IPv6-Konnektivität hat. Aus Sicht des Browsers weiß dieser nicht, dass die Standardroute nirgends hinführt; Es gibt keine Feedback-Mechanismus. Weil IPv6 (grob gesagt) gegenüber IPv4 bevorzugt wird, versucht Ihr Browser diese unsinnige Route benutzen. Es kann mehrere Minuten dauern, bis der Versuch aufgegeben wird."
 
 #: faq/broken_ula.inc
 msgid "Our advice: Enable ULA only if your router has full time IPv6 connectivity. Disable it, otherwise. If you do disable it on your router, you will likely need to reboot your router first, then reboot your host, before the symptoms go away."
-msgstr "Our advice: Enable ULA only if your router has full time IPv6 connectivity. Disable it, otherwise. If you do disable it on your router, you will likely need to reboot your router first, then reboot your host, before the symptoms go away."
+msgstr "Unser Tipp: aktivieren Sie ULA nur, wenn Ihr Router immer IPv6-Konnektivität hat. Deaktivieren Sie es ansonsten. Wenn Sie ULA auf Ihrem Router deaktivieren, müssen Sie ihn wahrscheinlich zuerst neustarten und danach Ihren Rechner neustarten, bevor die Symptome verschwinden."
 
 #: broken.html
 msgid "Bad or Inappropriate IPv6 Addresss"
-msgstr "Bad or Inappropriate IPv6 Addresss"
+msgstr "Ungültige oder unpassende IPv6-Adresse"
 
 #: broken.html
 msgid "(IPv6 address: see table below)"
-msgstr "(IPv6 address: see table below)"
+msgstr "(IPv6-Adresse: siehe Tabelle, unten)"
 
 #: faq/broken_bogon.inc
 msgid "Bad or Inappropriate IPv6 Addresses (Bogons)"
-msgstr "Bad or Inappropriate IPv6 Addresses (Bogons)"
+msgstr "Ungültige oder unpassende IPv6-Adresse (Bogons)"
 
 #: faq/broken_bogon.inc
 msgid "If you IPv6 address starts with any of these, your router needs to be upgraded."
-msgstr "If you IPv6 address starts with any of these, your router needs to be upgraded."
+msgstr "Wenn Ihre IPv6-Adresse mit einer von diesen beginnt, muss Ihren Router aktualisiert oder erneuert werden."
 
 #: faq/broken_bogon.inc
 msgid "disable ULA."
-msgstr "disable ULA."
+msgstr "ULA abschalten."
 
 #: faq/broken_bogon.inc
 msgid "Other routers: Try updating the firmware. If that fails, look for and disable \"ULA\" or \"Unique Local Addressing\"."
-msgstr "Other routers: Try updating the firmware. If that fails, look for and disable \"ULA\" or \"Unique Local Addressing\"."
+msgstr "Andere Router: versuchen Sie die Firmware zu aktualisieren. Wenn dies fehlschlägt, suchen und deaktivieren Sie \"ULA\" oder \"Unique Local Addressing\"."
 
 #: faq/broken_bogon.inc
 msgid "If that fails, disable IPv6 entirely on the router."
-msgstr "If that fails, disable IPv6 entirely on the router."
+msgstr "Falls dies fehlschlägt, deaktivieren Sie IPv6 vollständig auf dem Router."
 
 #: faq/broken_bogon.inc
 msgid "This is a router using 6to4, but using a private IPv4 address. This will never work."
-msgstr "This is a router using 6to4, but using a private IPv4 address. This will never work."
+msgstr "Dies ist ein Router, der 6to4 benutzt, aber einer privaten IPv4-Adresse. Das wird nicht funktionieren."
 
 #: faq/broken_bogon.inc
 msgid "Apple routers: Update to the latest firmware; that has been corrected."
-msgstr "Apple routers: Update to the latest firmware; that has been corrected."
+msgstr "Apple Router: Update auf die neueste Firmware; wurde bereits korrigiert."
 
 #: faq/broken_bogon.inc
 msgid "Other routers: Try updating the firmware. If that fails, look for and disable \"6to4\" or any form of automatic IPv6 tunnel."
-msgstr "Other routers: Try updating the firmware. If that fails, look for and disable \"6to4\" or any form of automatic IPv6 tunnel."
+msgstr "Andere Router: versuchen Sie die Firmware zu aktualisieren. Wenn dies fehlschlägt, suchen und deaktivieren Sie \"6to4\" oder irgendeine Form von automatischem IPv6-Tunnel."
 
 #: faq/broken_bogon.inc
 msgid "This router is using the official \"Documentation\" prefix - which is not routable on the IPv6 Internet."
-msgstr "This router is using the official \"Documentation\" prefix - which is not routable on the IPv6 Internet."
+msgstr "Dieser Router benutzt das offizielle Präfix für Dokumentationszwecke - welches im IPv6-Internet nicht geroutet wird."
 
 #: faq/broken_bogon.inc
 msgid "Update to the latest firmware."
@@ -1257,7 +1258,7 @@ msgstr "IPv6 abschalten."
 
 #: broken.html
 msgid "(IPv6 address: not starting with fe80)"
-msgstr "(IPv6 address: not starting with fe80)"
+msgstr "(IPv6-Adresse: beginnt nicht mit fe80)"
 
 #: faq/broken_unexpected.inc
 msgid "Unexpected IPv6 address?"
@@ -1265,55 +1266,55 @@ msgstr "Unerwartete IPv6-Adresse?"
 
 #: faq/broken_unexpected.inc
 msgid "Modern operating systems all have IPv6 enabled. This feature is dormant until someone explicitly configures IPv6, <em><b>or</b></em> a device on the local network offers it. Autoconfigured IPv6 hosts learn their IPv6 address and their gateway through the use of IPv6 router announcements (RAs). The network you are on may intentionally offer IPv6; you'll automatically use it when your computer sees it."
-msgstr "Modern operating systems all have IPv6 enabled. This feature is dormant until someone explicitly configures IPv6, <em><b>or</b></em> a device on the local network offers it. Autoconfigured IPv6 hosts learn their IPv6 address and their gateway through the use of IPv6 router announcements (RAs). The network you are on may intentionally offer IPv6; you'll automatically use it when your computer sees it."
+msgstr "Moderne Betriebssysteme haben IPv6 aktiviert. Das Feature ist nicht in Benutzung, bis jemand explizit IPv6 konfiguriert, <em><b>oder</b></em> es von einem Gerät im lokalen Netzwerk angeboten wird. Automatisch konfigurierte IPv6-Hosts lernen ihre IPv6-Adresse und Gateway durch den Einsatz von IPv6-Router-Announcements (RAs). Das Netzwerk, in dem Sie sich befinden bietet möglicherweise absichtlich IPv6 an; wenn Ihr Computer es sieht, wird es automatisch verwendet."
 
 #: faq/broken_unexpected.inc
 msgid "<b>Where this goes wrong:</b> Some people plug their router into the network (wired or wireless) and inadvertantly offer IPv6 services to everyone. Classic examples of this are where people add an early version of an Apple router (with 6to4 automatically enabled); another example is someone who has Windows Internet Connection Sharing enabled. In both cases, there is a chance they offer their services - and become your IPv6 router of choice, without any notification to you."
-msgstr "<b>Where this goes wrong:</b> Some people plug their router into the network (wired or wireless) and inadvertantly offer IPv6 services to everyone. Classic examples of this are where people add an early version of an Apple router (with 6to4 automatically enabled); another example is someone who has Windows Internet Connection Sharing enabled. In both cases, there is a chance they offer their services - and become your IPv6 router of choice, without any notification to you."
+msgstr "<b>Wo das schief geht:</b> Manche fügen Router in Ihrem Netzwerk hinzu (verkabelt oder drahtlos), die versehentlich IPv6-Dienste für jedermann zur Verfügung stellen. Ein klassisches Beispiel ist eine frühe Version eines Apple-Routers (mit 6to4 automatisch aktiviert). Ein weiteres Beispiel sind Fälle, in denen Windows Internet Connection Sharing aktiviert ist. In beiden Fällen besteht die Möglichkeit, dass sie diese Dienste anbieten – und der IPv6-Router der Wahl werden, ohne Benachrichtigung für Sie."
 
 #: faq/broken_unexpected.inc
 msgid "If these IPv6 routers don't work, you will fail to connect to any web site that offers services on both IPv4 and IPv6. Even if they do work, if the router in question is unplugged (the owner packs up, leaves the hotel/conference) your host never gets the notice; and it can be hours before it gives up."
-msgstr "If these IPv6 routers don't work, you will fail to connect to any web site that offers services on both IPv4 and IPv6. Even if they do work, if the router in question is unplugged (the owner packs up, leaves the hotel/conference) your host never gets the notice; and it can be hours before it gives up."
+msgstr "Wenn diese IPv6-Router nicht funktionieren, werden Sie sich nicht mit Websites verbinden können, die Dienste sowohl per IPv4, als auch per IPv6 zur Verfügung stellen. Selbst wenn sie funktionieren, wenn der betreffende Router ausgesteckt wird (der Besitzer packt seine Sachen und verlässt das Hotel/Konferenz) wird ihr Computer nie eine Benachrichtigung bekommen; und es kann Stunden dauern, bis er aufgibt."
 
 #: faq/broken_unexpected.inc
 msgid "This is similiar to someone accidentially (or intentionally) running a rogue DHCP server."
-msgstr "This is similiar to someone accidentially (or intentionally) running a rogue DHCP server."
+msgstr "Dies ist ähnlich, wie wenn jemand versehentlich (oder absichtlich) einen Rogue-DHCP-Server betreibt."
 
 #: faq/broken_unexpected.inc
 msgid "<b>If you are are not the network admin</b> - and have no access to fix the problem - consider disabling IPv6, at least for the location you are in. Another option might be to try turning off, and turning back on, your network interface (clearing the IP address), in case the source of the problem has left the network."
-msgstr "<b>If you are are not the network admin</b> - and have no access to fix the problem - consider disabling IPv6, at least for the location you are in. Another option might be to try turning off, and turning back on, your network interface (clearing the IP address), in case the source of the problem has left the network."
+msgstr "<b>Wenn Sie nicht der Netzwerk-Admin sind</b> - und nicht die nötigen Zugänge haben, um das Problem zu beheben - ziehen Sie in Betracht, IPv6 zu deaktivieren, zumindest für den aktuellen Standort. Eine weitere Option wäre zu versuchen, das Netzwerk-Interface auszuschalten und und wieder einzuschalten (Zurücksetzen der IP-Adresse), für den Fall, dass die Ursache des Problems das Netzwerk verlassen hat."
 
 #: faq/broken_unexpected.inc
 msgid "<b>If you are the network administrator</b>: You can use the default route information to identify the ethernet address; and then search for the owner of that ethernet address. Some network vendors have features that will suppress the advertisements of unauthorized RAs (router announcements); consider enabling those feaatures. More reactive measures involve finding (by ethernet address) the owner of the device; or possibly spoofing RA's from their device to indicate the device is going away."
-msgstr "<b>If you are the network administrator</b>: You can use the default route information to identify the ethernet address; and then search for the owner of that ethernet address. Some network vendors have features that will suppress the advertisements of unauthorized RAs (router announcements); consider enabling those feaatures. More reactive measures involve finding (by ethernet address) the owner of the device; or possibly spoofing RA's from their device to indicate the device is going away."
+msgstr "<b>Wenn Sie der Netzwerkadministrator sind:</b> Sie können die Informationen über die default-Route verwenden, um die Ethernet-Adresse zu bekommen; und dann den Besitzer der Ethernet-Adresse finden. Einige Hersteller von Netzwerkgeräten implementieren Funktionen, die RAs (Router-Announcements) von unberechtigten Hosts unterdrücken. Erwägen Sie die Aktivierung dieser Funktionen. Eher reaktive Maßnahmen sind das Finden (durch die Ethernet-Adresse) des Besitzers des Geräts, oder möglicherweise das Spoofing der RAs des Geräts, sodass es aussieht, als würde das Gerät das Netzwerk verlassen."
 
 #: faq/broken_netalyzr.inc
 msgid "Consider trying the \"netalyzr\". This is another site that runs a java applet (which can do more than my site can, in just javascript). I would find feedback about how you useful this site was for you."
-msgstr "Consider trying the \"netalyzr\". This is another site that runs a java applet (which can do more than my site can, in just javascript). I would find feedback about how you useful this site was for you."
+msgstr "Überlegen Sie sich, \"netalyzr\" auszuprobieren. Dies ist eine weitere Website, die ein Java-Applet ausführt (welches mehr Funktionen ausführen kann, als meine Website, mit nur Javascript). Ich fände Feedback darüber, wie Sie nützlich diese Website für Sie war, hilfreich."
 
 #: faq/broken_netalyzr.inc
 msgid "From the netalyzr staff:"
-msgstr "From the netalyzr staff:"
+msgstr "Vom netalyzr Team:"
 
 #: broken.html
 msgid "If all else fails"
-msgstr "If all else fails"
+msgstr "Wenn alles Andere fehlschlägt"
 
 #: broken.html
 msgid "(Instructions for disabling or deprioritizing IPv6)"
-msgstr "(Instructions for disabling or deprioritizing IPv6)"
+msgstr "(Anleitung, um IPv6 zu deaktivieren, oder die Priorität zu senken)"
 
 #: faq/broken_disable.inc
 msgid "Disabling or Deprioritizing your IPv6 address"
-msgstr "Disabling or Deprioritizing your IPv6 address"
+msgstr "IPv6 deaktivieren, oder die Priorität senken"
 
 #: faq/broken_disable.inc
 msgid "<b>To disable IPv6 entirely, until your ISP offers IPv6 to you:</b> see <b>Microsoft's \"fixit\" site</b> that gives clear instructions. We advocate considering \"Use IPv4 instead of IPv6 in prefix policies\", instead of completely disabling IPv6. Specific Windows features depend on IPv6 being enabled."
-msgstr "<b>To disable IPv6 entirely, until your ISP offers IPv6 to you:</b> see <b>Microsoft's \"fixit\" site</b> that gives clear instructions. We advocate considering \"Use IPv4 instead of IPv6 in prefix policies\", instead of completely disabling IPv6. Specific Windows features depend on IPv6 being enabled."
+msgstr "<b>Um IPv6 vollständig zu deaktivieren, bis Ihr ISP IPv6 anbietet:</b> <b>Die Website von Microsoft \"Fixit\"</b> bietet Ihnen genaue Anweisungen. Wir befürworten es, sich Gedanken über eine \"benutze IPv4 statt IPv6 Präfix-Policy\" zu machen, anstatt IPv6 komplett zu deaktivieren. Bestimmte Windows-Funktionen davon ab, dass IPv6 aktiviert ist."
 
 #: faq/broken_disable.inc
 msgid "To completely disable IPv6 (Windows 7, Vista; XP should be similiar):"
-msgstr "To completely disable IPv6 (Windows 7, Vista; XP should be similiar):"
+msgstr "Um IPv6 komplett zu deaktivieren (Windows 7, Vista; XP sollte ähnlich sein):"
 
 #: faq/broken_disable.inc
 msgid "Go to \"Properties\""
@@ -1341,19 +1342,19 @@ msgstr "Entnommen von:"
 
 #: faq/broken_disable.inc
 msgid "Make sure you are logged in as an Administrator."
-msgstr "Make sure you are logged in as an Administrator."
+msgstr "Stellen Sie sicher, dass Sie als Administrator angemeldet sind."
 
 #: faq/broken_disable.inc
 msgid "Click Start, click All Programs, click Accessories, and then click Command Prompt."
-msgstr "Click Start, click All Programs, click Accessories, and then click Command Prompt."
+msgstr "Klicken Sie auf Start, \"alle Programme\", Zubehör, und klicken Sie dann auf Eingabeaufforderung."
 
 #: faq/broken_disable.inc
 msgid "At the command prompt, type: netsh int ipv6 uninstall and press the Enter key on your keyboard."
-msgstr "At the command prompt, type: netsh int ipv6 uninstall and press the Enter key on your keyboard."
+msgstr "Tippen Sie folgendes in der Eingabeaufforderung ein: \"netsh int ipv6 uninstall\" und drücken Sie die Enter-Taste auf Ihrer Tastatur."
 
 #: faq/broken_disable.inc
 msgid "Close the Command Prompt window and restart the computer."
-msgstr "Close the Command Prompt window and restart the computer."
+msgstr "Schließen Sie das Eingabeaufforderungsfenster, und starten Sie den Computer neu."
 
 #: faq/broken_disable.inc
 msgid "OS X users"
@@ -1361,27 +1362,27 @@ msgstr "OS X-Benutzer"
 
 #: faq/broken_disable.inc
 msgid "Before disabling IPv6, please be sure you are running the latest OS version. In particular, OS X 10.6.7 has several workarounds for being \"Broken\". This may solve your problems without resorting to completely disabling IPv6."
-msgstr "Before disabling IPv6, please be sure you are running the latest OS version. In particular, OS X 10.6.7 has several workarounds for being \"Broken\". This may solve your problems without resorting to completely disabling IPv6."
+msgstr "Stellen Sie sicher, dass sie die neuste Betriebssystemversion verwenden, bevor Sie IPv6 deaktivieren. Besonders für OS X 10.6.7 gibt es verschiedene Workarounds, wenn es \"kaputt\" ist. Damit können Sie die Probleme lösen, ohne IPv6 komplett abschalten zu müssen."
 
 #: faq/broken_disable.inc
 msgid "How to disable IPv6"
-msgstr "How to disable IPv6"
+msgstr "Wie man IPv6 deaktiviert"
 
 #: faq/broken_disable.inc
 msgid "Disable IPv6"
-msgstr "Disable IPv6"
+msgstr "IPv6 deaktivieren"
 
 #: faq/broken_disable.inc
 msgid "Apply changes"
-msgstr "Apply changes"
+msgstr "Änderungen übernehmen"
 
 #: faq/broken_disable.inc
 msgid "iPhone and iPad users"
-msgstr "iPhone and iPad users"
+msgstr "iPhone und iPad-Benutzer"
 
 #: faq/broken_disable.inc
 msgid "IPv6 is not configurable on the iPhone or iPad. Your only option is to switch to another network."
-msgstr "IPv6 is not configurable on the iPhone or iPad. Your only option is to switch to another network."
+msgstr "IPv6 kann nicht auf dem iPhone oder iPad konfiguriert werden. Ihre einzige Option ist es, zu einem anderen Netzwerk zu wechseln."
 
 #: faq/broken_disable.inc
 msgid "Linux users:"
@@ -1389,19 +1390,19 @@ msgstr "Linux-Anwender:"
 
 #: faq/broken_disable.inc
 msgid "This is very distribution-specific. Do a web search using your favorite search engine."
-msgstr "This is very distribution-specific. Do a web search using your favorite search engine."
+msgstr "Dies ist sehr Distributions-spezifisch. Eine Suche im Internet mit Ihrer Lieblings-Suchmaschine könnte weiterhelfen."
 
 #: faq/broken_disable.inc
 msgid "Example web search: <code>disable ipv6 on centos</code>"
-msgstr "Example web search: <code>disable ipv6 on centos</code>"
+msgstr "Beispiel-Web-Suche: <code>Deaktivieren von ipv6 auf Centos</code>"
 
 #: faq/broken_disable.inc
 msgid "Generic unix instructions, to temporarily remove your IPv6 address."
-msgstr "Generic unix instructions, to temporarily remove your IPv6 address."
+msgstr "Allgemeinen Unix-Anweisungen, um Ihre IPv6-Adresse vorübergehend zu entfernen."
 
 #: faq/broken_disable.inc
 msgid "IP_ADDRESS"
-msgstr "IP_ADDRESS"
+msgstr "IP-ADRESSE"
 
 #: faq/broken_disable.inc
 msgid "Be aware that if the router re-advertises it, you will relearn the default route."
@@ -1409,7 +1410,7 @@ msgstr "Beachten Sie, wenn der Router sie wieder erneut verteilt, werden Sie die
 
 #: faq/broken_disable.inc
 msgid "You can do a web search for your particular OS distribution. Example search would be <code>disable ipv6 on freebsd</code>."
-msgstr "You can do a web search for your particular OS distribution. Example search would be <code>disable ipv6 on freebsd</code>."
+msgstr "Sie können im Internet nach Anweisungen für Ihre OS-Distribution suchen. Eine Beispielsuche wäre <code>Deaktivieren von ipv6 auf Freebsd</code>."
 
 #: broken.html
 msgid "See Also"
@@ -1461,43 +1462,43 @@ msgstr "F: Was bedeutet \"defekt\"?"
 
 #: faq.html
 msgid "A percentage of users today have IPv6 enabled, but are either using a public tunnel that is currently giving poor performance; or otherwise have a route that is installed but broken or suboptimal. However, because they have a route at all, in many cases the address selection algorithm of RFC3484 will pick using it, and trying to use this broken route. It can take towards 75+ seconds before the browser gives up!"
-msgstr "A percentage of users today have IPv6 enabled, but are either using a public tunnel that is currently giving poor performance; or otherwise have a route that is installed but broken or suboptimal. However, because they have a route at all, in many cases the address selection algorithm of RFC3484 will pick using it, and trying to use this broken route. It can take towards 75+ seconds before the browser gives up!"
+msgstr "Ein Teil der Benutzer haben IPv6 aktiviert, aber verwenden entweder einen öffentlichen Tunnel, der derzeit schlechte Performance liefert, oder haben eine Route, die zwar installiert, aber kaputt oder suboptimal ist. Weil sie jedoch eine Route haben, wird der Adressauswahl-Algorithmus nach RFC3484 in vielen Fällen diese Route auswählen, und versuchen, diese kaputte Route zu verwenden. Es kann 75+ Sekunden dauern, bevor der Browser den Versuch aufgibt!"
 
 #: faq.html
 msgid "From the perspective of a user with these conditions, a web site offering both A and AAAA DNS records (ie, \"dual stack\") will appear to time out; and the user will move on to another site that offers a similar product. This is the quandary content providers have."
-msgstr "From the perspective of a user with these conditions, a web site offering both A and AAAA DNS records (ie, \"dual stack\") will appear to time out; and the user will move on to another site that offers a similar product. This is the quandary content providers have."
+msgstr "Aus der Perspektive der Benutzer mit diesen Bedingungen wird eine Website, die A und AAAA-DNS-Einträge besitzt (d.h. \"dual-Stack\") einen Timeout liefern. Der Benutzer geht dann weiter zu einer anderen Website, die ein ähnliches Produkt anbietet. Das ist das Dilemma, das die Anbieter haben."
 
 #: faq.html
 msgid "If we detect that you will have problems reaching dual-stack web sites, we recommend you see the <a href=\"broken.html\">Broken User FAQ</a>. It provides several steps to try and identify your root cause for being broken; and barring that, what you can do to disable IPv6 until your ISP offers native IPv6 connectivity."
-msgstr "If we detect that you will have problems reaching dual-stack web sites, we recommend you see the <a href=\"broken.html\">Broken User FAQ</a>. It provides several steps to try and identify your root cause for being broken; and barring that, what you can do to disable IPv6 until your ISP offers native IPv6 connectivity."
+msgstr "Wenn wir feststellen, dass Sie Probleme haben, Dual-Stack-Webstes zu erreichen, empfehlen wir Ihnen sich das <a href=\"broken.html\">Nutzerprobleme FAQ</a> anzusehen. Es bietet mehrere Schritte, um die Ursache zu finden und auch Hilfe dabei, IPv6 zu deaktivieren, bis Ihr ISP native IPv6-Konnektivität anbietet."
 
 #: faq.html
 msgid "Q: Why did your stats say you already have IPv6-only users?"
-msgstr "Q: Why did your stats say you already have IPv6-only users?"
+msgstr "F: Warum sagen Ihre Statistiken, dass Sie bereits native IPv6-Benutzer haben?"
 
 #: faq.html
 msgid "They went to <a href=\"http://ipv6.test-ipv6.com\">http://ipv6.test-ipv6.com</a> ."
-msgstr "They went to <a href=\"http://ipv6.test-ipv6.com\">http://ipv6.test-ipv6.com</a> ."
+msgstr "Sie haben <a href=\"http://ipv6.test-ipv6.com\">http://ipv6.test-ipv6.com</a> benutzt."
 
 #: faq.html
 msgid "Q: How valid are the stats?"
-msgstr "Q: How valid are the stats?"
+msgstr "F: sind wie aussagekräftig sind die Statistiken?"
 
 #: faq.html
 msgid "They do not represent the average web consumer. Visitors to this site are self-selecting. The intent of this site is to not provide stats, but instead to inform the user the level of readiness for the world to move to IPv6 (with or without'em!). As such, stats found here will be completely different from an average content provider."
-msgstr "They do not represent the average web consumer. Visitors to this site are self-selecting. The intent of this site is to not provide stats, but instead to inform the user the level of readiness for the world to move to IPv6 (with or without'em!). As such, stats found here will be completely different from an average content provider."
+msgstr "Sie repräsentieren nicht die durchschnittlichen Web-Nutzer. Besucher dieser Website sind selbstauswählend. Die Absicht dieser Webseite ist es nicht, Statistiken bereitzustellen, sondern um den Benutzer über das Niveau der Bereitschaft für die Welt, zu IPv6 zu wechseln zu informieren (mit oder ohne sie!). Die Statistiken, die hier zu finden sind, werden sich komplett von Statistiken der Inhalteanbieter unterscheiden."
 
 #: faq.html
 msgid "Q: How does your test differ, from what the content providers are doing?"
-msgstr "Q: How does your test differ, from what the content providers are doing?"
+msgstr "F: Wie unterscheidet der Test sich von dem, was die Inhalteanbieter machen?"
 
 #: faq.html
 msgid "Content providers are gathering metrics of broken vs non-broken users, in an aggregate form. They are not at this time actually giving the user feedback as to the user's current state. Those metrics will principally drive the business decision of when to start publishing sites over IPv6, versus remaining IPv4 only. IPv4 only for some content sites really is an option; it has a handful of downsides, but the expectation is that everyone will always be able to reach IPv4, in some fashion."
-msgstr "Content providers are gathering metrics of broken vs non-broken users, in an aggregate form. They are not at this time actually giving the user feedback as to the user's current state. Those metrics will principally drive the business decision of when to start publishing sites over IPv6, versus remaining IPv4 only. IPv4 only for some content sites really is an option; it has a handful of downsides, but the expectation is that everyone will always be able to reach IPv4, in some fashion."
+msgstr "Inhalteanbieter sammeln Metriken über funktionierende und nicht funktionierende Anschlüsse in zusammengefasster Form. Sie geben dem Benutzer selbst momentan aber kein Feedback über seinen Status. Die Messdaten werden hauptsächlich die unternehmerische Entscheidung verwendet, wann Websites über IPv6 veröffentlicht werden, oder bei nur IPv4 bleiben. Reines IPv4 ist für einige Content-Websites wirklich eine Option; Es hat ein paar Nachteile, aber es wird erwartet, dass jeder immer IPv4 in irgendeiner Weise erreichen können wird."
 
 #: faq.html
 msgid "This site, on the other hand, is intended to help the user understand their current state, and what that state possibly means to them."
-msgstr "This site, on the other hand, is intended to help the user understand their current state, and what that state possibly means to them."
+msgstr "Auf der anderen Seite soll diese Website dem Anwender helfen zu verstehen, wie sein aktueller Status ist und was das für ihn bedeutet."
 
 #: faq.html
 msgid "Q: Your site shows the wrong IP address; how can I bypass my proxy server to find my public address?"
@@ -1549,11 +1550,11 @@ msgstr "F: ist dieses Software Open Source?"
 
 #: faq.html
 msgid "Yes. See the <a href=\"source.html\">source page</a> for details."
-msgstr "Yes. See the <a href=\"source.html\">source page</a> for details."
+msgstr "Ja. Besuchen Sie die <a href=\"source.html\">Quelltext-Seite</a> für mehr Details."
 
 #: stats.html
 msgid "<span lookup=site.name>site</span> statistics"
-msgstr "<span lookup=site.name>site</span> statistics"
+msgstr "<span lookup=site.name>site</span> Statistiken"
 
 #: stats.html
 msgid "Graphs are updated daily."
@@ -1573,35 +1574,35 @@ msgstr "Kurze Informationen:"
 
 #: stats.html
 msgid "Browser Filter means that both the \"A\" and \"AAAA\" test failed. Browser (plugin/filter) shenanigans, likely with add-ons like ad blockers."
-msgstr "Browser Filter means that both the \"A\" and \"AAAA\" test failed. Browser (plugin/filter) shenanigans, likely with add-ons like ad blockers."
+msgstr "Browser Filter bedeutet, dass sowohl der \"A\", als auch der \"AAAA\"-Test fehlgeschlagen ist. Browser (Plugin/Filter)-Spielchen, wahrscheinlich mit Add-ons wie Ad-Blocker."
 
 #: stats.html
 msgid "Brokeness goes down, when volume goes up. This is due to having a wider sample of average people (versus people explicitly testing a new IPv6 setup)."
-msgstr "Brokeness goes down, when volume goes up. This is due to having a wider sample of average people (versus people explicitly testing a new IPv6 setup)."
+msgstr "Der Anteil der kaputten Setups sinkt, wenn das Volumen steigt. Das liegt daran, dass man eine höhere Anzahl an durchschnitlichen Benutzern hat (im Gegensatz zu Leuten, die extra ein neues IPv6-Setup testen)."
 
 #: stats.html
 msgid "These graphs show the last 60 days of activity at <span lookup=site.name>site</span>"
-msgstr "These graphs show the last 60 days of activity at <span lookup=site.name>site</span>"
+msgstr "Diese Graphen zeigen die letzten 60 Tage der Aktivität auf <span lookup=site.name>site</span>"
 
 #: stats.html
 msgid "Graph: shows result summaries, stacked. Total height shows number of users who took the test on a given day."
-msgstr "Graph: shows result summaries, stacked. Total height shows number of users who took the test on a given day."
+msgstr "Grafik: zeigt die Zusammenfassung der Ergebnisse, gestapelt. Gesamthöhe zeigt Anzahl der Benutzer, die den Test an einem bestimmten Tag durchgeführt haben."
 
 #: stats.html
 msgid "Similiar graph, except this time showing percentages."
-msgstr "Similiar graph, except this time showing percentages."
+msgstr "Ähnliche Grafik, diesmal jedoch in Prozentsätzen."
 
 #: stats.html
 msgid "The most interesting graph is the percentage of \"broken\" users. Our definition of a \"broken\" user is that the browser stalls or times out, while attempting to visit a web site published on both IPv4 and IPv6."
-msgstr "The most interesting graph is the percentage of \"broken\" users. Our definition of a \"broken\" user is that the browser stalls or times out, while attempting to visit a web site published on both IPv4 and IPv6."
+msgstr "Der interessanteste Graph ist der Prozentsatz der Benutzer mit Problemen. Unsere Definition davon ist, dass der Browser stehenbleibt, oder ein Timeout auftritt, wenn er Versucht, eine Website zu besuchen, die sowohl IPv4, als auch IPv6 verwendet."
 
 #: stats.html
 msgid "Line graph, not stacked, of results over time."
-msgstr "Line graph, not stacked, of results over time."
+msgstr "Liniendiagramm, nicht aufgestapelt, der Ergebnisse über die Zeit."
 
 #: stats.html
 msgid "These graphs show the last 600 days of activity at <span lookup=site.name>site</span>"
-msgstr "These graphs show the last 600 days of activity at <span lookup=site.name>site</span>"
+msgstr "Diese Graphen zeigen die letzten 600 Tage der Aktivität auf <span lookup=site.name>site</span>"
 
 #: mission.html
 msgid "test-ipv6.com - Our mission"
@@ -1609,19 +1610,19 @@ msgstr "test-ipv6.com - Unsere Mission"
 
 #: mission.html
 msgid "Our mission is thus:"
-msgstr "Our mission is thus:"
+msgstr "Das ist unsere Mission:"
 
 #: mission.html
 msgid "Help people identify if they will have problems when publishers offer their web sites on IPv6;"
-msgstr "Help people identify if they will have problems when publishers offer their web sites on IPv6;"
+msgstr "Helfen Sie Anderen herauszufinden, ob sie Probleme haben werden, wenn Anbieter ihre Websites mit IPv6 anbieten;"
 
 #: mission.html
 msgid "Help people fix their system configuration so that they are no longer affected."
-msgstr "Help people fix their system configuration so that they are no longer affected."
+msgstr "Helfen Sie Anderen, Fehler in ihrer Systemkonfiguration zu beheben, sodass sie nicht mehr betroffen sind."
 
 #: mission.html
 msgid "To do so in a brand neutral, ad-free way."
-msgstr "To do so in a brand neutral, ad-free way."
+msgstr "Dies auf eine Markenneutrale, Werbefreie Art zu tun."
 
 #: mission.html
 msgid "Why do we do this?"
@@ -1629,7 +1630,7 @@ msgstr "Warum machen wir das?"
 
 #: mission.html
 msgid "Because of 1 out of every 4000 users are \"broken\" based on industry measurements. This has delayed the web sites from publishing to IPv6."
-msgstr "Because of 1 out of every 4000 users are \"broken\" based on industry measurements. This has delayed the web sites from publishing to IPv6."
+msgstr "Weil einer von 4000 Nutzern Fehler hat, basierend auf Messungen der Industrie. Das hat Websites davon abgehalten, IPv6 zu verwenden."
 
 #: mission.html
 msgid "So, what is meant by \"broken\"?"
@@ -1637,27 +1638,27 @@ msgstr "Also, was heißt \"defekt\" (\"broken\")?"
 
 #: mission.html
 msgid "When you go to your favorite web site in a browser, and it hangs for several seconds or even minutes. If the publisher publishes to IPv6, and your computer has a *broken* IPv6 route (as compared to having no route), then your computer will attempt to use that broken route first, before falling back to the IPv4 Internet."
-msgstr "When you go to your favorite web site in a browser, and it hangs for several seconds or even minutes. If the publisher publishes to IPv6, and your computer has a *broken* IPv6 route (as compared to having no route), then your computer will attempt to use that broken route first, before falling back to the IPv4 Internet."
+msgstr "Wenn Sie Ihre Lieblings-Website in einem Browser öffnen, und es hängt für einige Sekunden oder sogar Minuten. Wenn der Anbieter  IPv6 verwendet, und Ihr Computer eine *kaputte* IPv6-Route (anstatt garkeine Route) hat, wird Ihr Computer versuchen, diese kaputte Route zu verwenden, bevor er auf IPv4-Internet zurückgreift."
 
 #: mission.html
 msgid "What causes these timeouts?"
-msgstr "What causes these timeouts?"
+msgstr "Was sind die Ursachen dieser Timeouts?"
 
 #: mission.html
 msgid "Newer operating systems have IPv6 enabled by default. Older ones, may have IPv6 enabled, as a result of user action (or specific applications). Enabling IPv6 does not automatically make you vulnerable."
-msgstr "Newer operating systems have IPv6 enabled by default. Older ones, may have IPv6 enabled, as a result of user action (or specific applications). Enabling IPv6 does not automatically make you vulnerable."
+msgstr "Neuere Betriebssysteme haben IPv6 standardmäßig aktiviert. Bei Älteren Betriebssystemen ist IPv6 manchmal vom Benutzer (oder bestimmten Anwendungen) aktiviert worden. Aktivieren von IPv6 macht Sie nicht automatisch angreifbar."
 
 #: mission.html
 msgid "The problem lies when your system is convinced to try and use IPv6, when it is not working adequately. This may be because you're using a public service for your IPv6 gateway. Or, someone on your network, was advertising (to the network) IPv6 through Internet connection sharing; and they left. Last, your router may have IPv6 automatically configured to use public unmanaged gateways; and is telling your computer to use it."
-msgstr "The problem lies when your system is convinced to try and use IPv6, when it is not working adequately. This may be because you're using a public service for your IPv6 gateway. Or, someone on your network, was advertising (to the network) IPv6 through Internet connection sharing; and they left. Last, your router may have IPv6 automatically configured to use public unmanaged gateways; and is telling your computer to use it."
+msgstr "Das Problem ist, dass Ihr System versucht, IPv6 verwenden, obwohl es nicht ausreichend funktioniert. Der Grund dafür kann sein, dass Sie ein öffentliches IPv6-Gateway verwenden. Oder jemand in Ihrem Netzwerk teilte seine IPv6-Internetverbindung mit Ihnen und hat das lokale Netz verlassen. Eine weitere Möglichkeit ist, dass Ihr Router dafür konfiguriert ist, für IPv6 ein öffentliches Gateway zu benutzen und Ihrem Computer anbietet, dieses zu verwenden."
 
 #: mission.html
 msgid "The simplest, yet near-sighted, solution, would be just to disable IPv6. However, over the next couple of years, this will start to cause you more troubles than not. It would be best to instead find the root of your actual problem, and fix that instead."
-msgstr "The simplest, yet near-sighted, solution, would be just to disable IPv6. However, over the next couple of years, this will start to cause you more troubles than not. It would be best to instead find the root of your actual problem, and fix that instead."
+msgstr "Die einfachste, aber kurzsichtige, Lösung wäre IPv6 zu deaktivieren. In den nächsten Jahren wird das für Sie jedoch mehr Probleme verursachen, als zu lösen. Es wäre am besten, stattdessen die Wurzel Ihres eigentlichen Problems zu finden und zu beheben."
 
 #: mission.html
 msgid "The <a href=\"broken.html\">Broken User FAQ</a> has several suggestions for broken users to follow, to remediate their situation."
-msgstr "The <a href=\"broken.html\">Broken User FAQ</a> has several suggestions for broken users to follow, to remediate their situation."
+msgstr "Das <a href=\"broken.html\">Nutzerprobleme FAQ</a> hat verschiedene Vorschläge für Benutzer, um Fehler zu beheben."
 
 #: mission.html
 msgid "How you can help"
@@ -1665,7 +1666,7 @@ msgstr "Wie Sie helfen können"
 
 #: mission.html
 msgid "This is an open-source project. I can certainly use your help in a variety of ways; please see the <a href=\"source.html\">source</a> page."
-msgstr "This is an open-source project. I can certainly use your help in a variety of ways; please see the <a href=\"source.html\">source</a> page."
+msgstr "Dies ist ein Open-Source-Projekt. Ich kann Ihre Hilfe in vielfältiger Weise gebrauchen; werfen Sie einen Blick auf den <a href=\"source.html\">Quelltext</a>."
 
 #: mirrors.html
 msgid "test-ipv6.com mirrors"
@@ -1673,15 +1674,15 @@ msgstr "Test-ipv6.com-Spiegelserver"
 
 #: mirrors.html
 msgid "These are the known publicly accessible mirrors for test-ipv6.com."
-msgstr "These are the known publicly accessible mirrors for test-ipv6.com."
+msgstr "Dies sind die bekannten öffentlich zugänglichen Mirror für test-ipv6.com."
 
 #: mirrors.html
 msgid "Thank you to all of these organizations, who have put in significant effort to provide this mirror sites. If you have problems with the site you are on now, try another mirror site; perhaps one closer to you."
-msgstr "Thank you to all of these organizations, who have put in significant effort to provide this mirror sites. If you have problems with the site you are on now, try another mirror site; perhaps one closer to you."
+msgstr "Vielen Dank an alle von diesen Organisationen, die mit erheblichen Aufwand diese Mirror-Sites zur Verfügung stellen.Wenn Sie Probleme mit dieser Seite haben, probieren Sie einen anderen Mirror; vielleicht einen, der näher bei Ihnen ist."
 
 #: mirrors.html
 msgid "Hints Columns are sortable (click the first row); <a href=\"#\" onclick=\"GIGO.test_sites(1); return false;\">click here</a> to re-check reachability from where you are to those mirrors."
-msgstr "Hints Columns are sortable (click the first row); <a href=\"#\" onclick=\"GIGO.test_sites(1); return false;\">click here</a> to re-check reachability from where you are to those mirrors."
+msgstr "Spalten sind sortierbar (Klicken Sie auf die jeweilige Spalte in der Überschriftenzeile der Tabelle); <a href=\"#\" onclick=\"GIGO.test_sites(2); return false;\">Klicken Sie hier</a>, um nocheinmal die Erreichbarkeit der Spiegelserver von Ihrem Standort zu überprüfen."
 
 #: mirrors.html
 msgid "(generated by javascript)"
@@ -1717,15 +1718,15 @@ msgstr "Bevor wir zu meiner tatsächlichen Sicht auf 6to4 kommen, schauen wir un
 
 #: faq_6to4.html
 msgid "With traditional IPv4 Internet connections, traffic goes from you, to your ISP; to one or more ISPs; and finally to the end web site. Debugging issues with this is fairly easy. And, in the event of issues, your ISP has an obligation to fix things that they are associated with; the web site has a similiar contract with their ISP."
-msgstr "With traditional IPv4 Internet connections, traffic goes from you, to your ISP; to one or more ISPs; and finally to the end web site. Debugging issues with this is fairly easy. And, in the event of issues, your ISP has an obligation to fix things that they are associated with; the web site has a similiar contract with their ISP."
+msgstr "Mit herkömmlichen IPv4 Internetverbindungen fließt Verkehr von Ihnen zu Ihrem ISP; von diesem zu einem oder mehreren weiteren ISPs und schließlich zur Website. Probleme zu debuggen ist damit ziemlich einfach. Falls es Probleme gibt, mit denen Ihr ISP zu tun hat, ist er in der Pflicht, diese zu Lösen. Der Webseitenbetreiber hat einen ähnlichen Vertrag mit seinem ISP."
 
 #: faq_6to4.html
 msgid "With unmanaged 6to4 connections (created \"automatically\" or without explicit gateway information) the process is a fair bit different. IPv6 is put into an IPv4 packet - much like sticking a letter in an envelope. This packet is sent to the \"nearest available\" gateway. Your ISP"
-msgstr "With unmanaged 6to4 connections (created \"automatically\" or without explicit gateway information) the process is a fair bit different. IPv6 is put into an IPv4 packet - much like sticking a letter in an envelope. This packet is sent to the \"nearest available\" gateway. Your ISP"
+msgstr "Mit nicht verwalteten 6to4-Verbindungen (die \"automatisch\" oder ohne explizites Gateway erstellt wurden) ist der Prozess etwas anders. IPv6 wird in ein IPv4-Paket eingepackt - ähnlich wie einen Brief in einen Umschlag stecken. Dieses Paket wird an das \"nächste verfügbare\"-Gateway gesendet. Ihr ISP"
 
 #: faq_6to4.html
 msgid "Traffic from the web site takes a similiar path. That web site replies back to your automatic IPv6 address. This is routed to the nearest 6to4 relay to that web site. This is not deterministic from your part, at all. In fact, you won't even be able to tell where this relay is. That relay will take the IPv6 packet, stick it inside an IPv4 packet, and then send to your router."
-msgstr "Traffic from the web site takes a similiar path. That web site replies back to your automatic IPv6 address. This is routed to the nearest 6to4 relay to that web site. This is not deterministic from your part, at all. In fact, you won't even be able to tell where this relay is. That relay will take the IPv6 packet, stick it inside an IPv4 packet, and then send to your router."
+msgstr "Verkehr von der Website nimmt einen ähnlichen Weg. Diese Websites Antworten an Ihre automatisch erzeugte IPv6-Adresse. Dies wird an das nächste 6to4-Relay der Website weitergeleitet. Dies passiert von Ihrer Seite nicht deterministisch. Tatsächlich werden Sie nicht einmal in der Lage sein, zu sagen, wo dieses Relay ist. Das Relay wird das IPv6-Paket nehmen, in ein IPv4-Paket einpacken und dann an Ihren Router senden."
 
 #: faq_6to4.html
 msgid "Q: What could possibly go wrong?"
@@ -1733,7 +1734,7 @@ msgstr "F: Was könnte dabei schiefgehen?"
 
 #: faq_6to4.html
 msgid "The main issues involve the lack of a service level agreement, the lack of predictability, and a lack in the protocol for your computer to realize that this method is not working."
-msgstr "The main issues involve the lack of a service level agreement, the lack of predictability, and a lack in the protocol for your computer to realize that this method is not working."
+msgstr "Die größten Probleme betreffen den Mangel an Service-Level-Agreements, die mangelnde Vorhersagbarkeit und die fehlende Erkennung im Protokoll in Ihrem Computer, ob diese Methode funktioniert."
 
 #: faq_6to4.html
 msgid "Service level agreement: 6to4 relays are put up, voluntarilly by some organizations. They use BGP (the Internet's way of saying \"I'm here!\") to advertise to the world the existence of the public gateway. Some of them are managed quite well. Some are not. AS long as the route is being advertised, and they are the \"closest\" (in a BGP network sense - not in your control), that particular relay is the one you MUST use. Same for the web site you're trying to use - they have the same constraints, but most likely using a different relay than you. If anything goes wrong, even if you or the web site can figure out which one it is, there is not a good way to get the problem fixed."

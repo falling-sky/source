@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2014-06-04 11:25-0400\n"
+"PO-Revision-Date: 2014-07-15 01:00-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Dutch\n"
 "MIME-Version: 1.0\n"
@@ -729,27 +729,27 @@ msgstr "It is real easy to get added to this list for basic checks. Just provide
 
 #: sites.inc
 msgid "Full mirrors are welcomed and appreciated, whether public or private. Please see <a href=\"http://code.google.com/p/falling-sky/wiki/MirrorOpportunities\">the wiki</a> for details."
-msgstr "Full mirrors are welcomed and appreciated, whether public or private. Please see <a href=\"http://code.google.com/p/falling-sky/wiki/MirrorOpportunities\">the wiki</a> for details."
+msgstr "Volledige mirrors zijn welkom en worden zeer geapprecieerd, of deze publiek of privé zijn. Neem een kijkje op <a href=\"http://code.google.com/p/falling-sky/wiki/MirrorOpportunities\">de wiki</a> voor meer details."
 
 #: footer.inc
 msgid "All rights reserved."
-msgstr "All rights reserved."
+msgstr "Alle rechten voorbehouden."
 
 #: footer.inc
 msgid "Mission"
-msgstr "Mission"
+msgstr "Missie"
 
 #: footer.inc
 msgid "Source"
-msgstr "Source"
+msgstr "Bron"
 
 #: footer.inc
 msgid "Email"
-msgstr "Email"
+msgstr "E-mail"
 
 #: footer.inc
 msgid "Attributions"
-msgstr "Attributions"
+msgstr "Werkwijze"
 
 #: disclaimer.inc
 msgid "This is a mirror of test-ipv6.com. The views expressed here may or may not reflect the views of the mirror owner."
@@ -777,11 +777,11 @@ msgstr "Status van elk protocol"
 
 #: faq_helpdesk.html
 msgid "Warn of slow/timeout"
-msgstr "Warn of slow/timeout"
+msgstr "Waarschuwen bij trage verbinding of een timeout"
 
 #: faq_helpdesk.html
 msgid "Warn of MTU"
-msgstr "Warn of MTU"
+msgstr "Waarschuwen bij MTE"
 
 #: faq_helpdesk.html
 msgid "Status of reachability to “other sites” (as compact as possible)"
@@ -897,11 +897,11 @@ msgstr "Mac users on 10.4 or 10.5 may need to disable IPv6 if other troubleshoot
 
 #: faq/staycurrent.inc
 msgid "Windows users: go to"
-msgstr "Windows users: go to"
+msgstr "Windows-gebruikers: Ga naar"
 
 #: faq/staycurrent.inc
 msgid "iPhone/iPad users: No specific version advised at this time."
-msgstr "iPhone/iPad users: No specific version advised at this time."
+msgstr "iPhone/iPad gebruikers: geen specifieke versie geadviseerd op dit moment."
 
 #: faq/staycurrent.inc
 msgid "Routers - Make sure you have the latest firmware installed. Some vendors have updated the defaults, or put in health checks before enabling IPv6."
@@ -925,7 +925,7 @@ msgstr "Chrome: If a wrench icon appears on the browser toolbar, click it. Selec
 
 #: faq/staycurrent.inc
 msgid "Opera: Make sure you use at least 11.10."
-msgstr "Opera: Make sure you use at least 11.10."
+msgstr "Opera: Zorg ervoor dat u ten minste 11.10 gebruikt."
 
 #: broken.html
 msgid "Finding your IP address"
@@ -981,31 +981,31 @@ msgstr "Make a note of the IPv6 address (if any)."
 
 #: faq/find_ip.inc
 msgid "OS X users: To find your IP address using the command line:"
-msgstr "OS X users: To find your IP address using the command line:"
+msgstr "OS X-gebruikers: uw IP-adres kan u vinden door deze opdrachtregel uit te voeren:"
 
 #: faq/find_ip.inc
 msgid "To open your terminal: Go to your Applications folder; go to Utilities; and double click Terminal."
-msgstr "To open your terminal: Go to your Applications folder; go to Utilities; and double click Terminal."
+msgstr "Om de terminal te openen: Ga naar de map Applicaties; Gereedschappen; en dubbelklik op Terminal."
 
 #: faq/find_ip.inc
 msgid "To see your IP addresses: <code>ifconfig -f inet6</code>."
-msgstr "To see your IP addresses: <code>ifconfig -f inet6</code>."
+msgstr "Om uw IP adressen te bekijken: <code>ifconfig -f inet6</code>."
 
 #: faq/find_ip.inc
 msgid "Ignore the <code>fe80:</code> addresses; look for any other address on your <code>en0</code> or <code>en1</code>."
-msgstr "Ignore the <code>fe80:</code> addresses; look for any other address on your <code>en0</code> or <code>en1</code>."
+msgstr "Negeer de <code>fe80:</code> adressen; Zoek naar een ander adres op uw <code>en0</code> of <code>en1</code>."
 
 #: faq/find_ip.inc
 msgid "To see if you have a default route: <code>netstat -nr -f inet6</code>."
-msgstr "To see if you have a default route: <code>netstat -nr -f inet6</code>."
+msgstr "Om te zien of u een standaardroute hebt: <code>netstat -nr-f inet6</code>."
 
 #: faq/find_ip.inc
 msgid "Look for a line that says \"default\"; probably pointing to a gateway starting with <code>fe80:</code>"
-msgstr "Look for a line that says \"default\"; probably pointing to a gateway starting with <code>fe80:</code>"
+msgstr "Zoek naar een regel die \"standaard\" aanduidt; waarschijnlijk wordt de gateway aangeduid door een code die start me <code>fe80:</code>"
 
 #: faq/find_ip.inc
 msgid "iPhone and iPad users: No information is shown via Apple's preferences/setup. The \"IT Tools\" and the \"ip6config\" apps do show IPv6 address data; both cost."
-msgstr "iPhone and iPad users: No information is shown via Apple's preferences/setup. The \"IT Tools\" and the \"ip6config\" apps do show IPv6 address data; both cost."
+msgstr "iPhone en iPad gebruikers: in de instellingen van Apple toestellen wordt hier geen extra informatie over gegeven. De \"IT Tools\" en de \"ip6config\" apps geven wel een IPv6 adres weer; beide met bijkomende kosten."
 
 #: faq/find_ip.inc
 msgid "Linux users: To find your IPv6 address, open a terminal and.."

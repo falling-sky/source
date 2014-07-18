@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2014-05-09 13:24-0400\n"
+"PO-Revision-Date: 2014-07-03 17:15-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: French\n"
 "MIME-Version: 1.0\n"
@@ -125,7 +125,7 @@ msgstr "La cause la plus probable est NoScript ou AdBlock+. NoScript peut être 
 
 #: messages.js
 msgid "NAT64 detected. IPv6 works. IPv4 works for most purposes. Applications that are hard-coded for IPv4-only will fail. We are aware of at least one major voice-over-ip program that falls into this category. Your application's support staff may need a nudge to add proper IPv6 support."
-msgstr "NAT64 detected. IPv6 works. IPv4 works for most purposes. Applications that are hard-coded for IPv4-only will fail. We are aware of at least one major voice-over-ip program that falls into this category. Your application's support staff may need a nudge to add proper IPv6 support."
+msgstr "NAT64 gedetecteerd. IPv6 werkt. IPv4 werkt voor de meeste doeleinden. Toepassingen die enkel IPv4 ondersteunen zullen niet werken. We kennen minstens één bekend voice-over-ip programma dat in deze categorie valt. De helpdesk van de fabrikant zal wellicht een duwtje in de rug nodig hebben om IPv6-ondersteuning toe te voegen."
 
 #: messages.js
 msgid "Your DNS server (possibly run by your ISP) appears to have IPv6 Internet access."
