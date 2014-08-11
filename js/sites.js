@@ -157,7 +157,7 @@ GIGO.sites = [{
     "provider": "Algar Telecom / CTBC",
     "v4": "ipv4only.ctbc.net.br/ctbc/pixel.gif",
     "v6": "ipv6only.ctbc.net.br/ctbc/pixel.gif",
-    "hide": 0
+    "hide": 1
 }, {
     "site": "www.cyberis.co.uk",
     "loc": "UK",
