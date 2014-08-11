@@ -1,12 +1,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2014-05-09 13:24-0400\n"
+"PO-Revision-Date: 2014-08-02 13:30-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Croatian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: crowdin.net\n"
 "Language: hr_HR\n"
@@ -441,19 +442,19 @@ msgstr "Provjera IPv6 veze"
 
 #: js_required.inc
 msgid "JavaScript Required"
-msgstr "JavaScript Required"
+msgstr "JavaScript potreban"
 
 #: js_required.inc
 msgid "This site requires JavaScript, as well as the ability to pull in cross-site scripts, in order to perform the testing."
-msgstr "This site requires JavaScript, as well as the ability to pull in cross-site scripts, in order to perform the testing."
+msgstr "Ova stranica zahtijeva JavaScript, kao i mogućnost povlačenja cross-site skripti radi obavljanja testiranja."
 
 #: js_required.inc
 msgid "If this message does not go away, it means that JavaScript has been disabled, either by a plugin or extension in your browser, or by explicit browser setting."
-msgstr "If this message does not go away, it means that JavaScript has been disabled, either by a plugin or extension in your browser, or by explicit browser setting."
+msgstr "Ako ova poruka ne nestane, znači da je JavaScript onemogućen, bilo zbog plugin-a ili ekstenzije u Vašem pregledniku, ili zbog izričitih postavki preglednika."
 
 #: js_required.inc
 msgid "Do you use NoScript?"
-msgstr "Do you use NoScript?"
+msgstr "Koristite li NoScript?"
 
 #: js_required.inc
 msgid "If you use this Firefox add-on, you'll need to \"Temporarily allow all this page\". You will need to do this <b>twice</b> for everything to work. Alternately, disable NoScript entirely until you are done with this site."
@@ -733,7 +734,7 @@ msgstr "Potpune kopije ove stranice se cijene i dobrodošle su, neovisno jesu li
 
 #: footer.inc
 msgid "All rights reserved."
-msgstr "All rights reserved."
+msgstr "Sva prava pridržana."
 
 #: footer.inc
 msgid "Mission"
@@ -1609,7 +1610,7 @@ msgstr "test-ipv6.com - Our mission"
 
 #: mission.html
 msgid "Our mission is thus:"
-msgstr "Our mission is thus:"
+msgstr "Naša je misija sljedeća:"
 
 #: mission.html
 msgid "Help people identify if they will have problems when publishers offer their web sites on IPv6;"
@@ -1929,7 +1930,7 @@ msgstr "it means that your DNS resolver is fully capable of reaching IPv6 DNS se
 
 #: faq_v6ns_bad.html
 msgid "Do you use OpenDNS?"
-msgstr "Do you use OpenDNS?"
+msgstr "Koristite li OpenDNS?"
 
 #: faq_v6ns_bad.html
 msgid "OpenDNS is now offering IPv6-specific resolvers, that will be able to retrieve DNS over IPv6. This means the \"v6ns\" test operated here will pass. See the <a target=_blank href=\"http://www.opendns.com/ipv6/\">OpenDNS IPv6 information page</a>."
@@ -2057,7 +2058,7 @@ msgstr "Pass?"
 
 #: faq/simple_test.inc
 msgid "Method"
-msgstr "Method"
+msgstr "Metoda"
 
 #: faq/simple_test.inc
 msgid "More Info"
@@ -2097,7 +2098,7 @@ msgstr "This image based test is provided for those with browsers or browser plu
 
 #: faq_whyipv6.html
 msgid "Why IPv6?"
-msgstr "Why IPv6?"
+msgstr "Zašto IPv6?"
 
 #: faq_whyipv6.html
 msgid "This is an interesting question. IPv6 buys you only a bit more than you already have today; and most of that is a promise. IPv6 will help you preserve the level of Internet connectivy between your home and other locations on the Internet, without interference, as you enjoyed in 2012."
@@ -2177,7 +2178,7 @@ msgstr "Web sites that today automatically show you your local weather, news, an
 
 #: faq_whyipv6.html
 msgid "Q: Do I have to give up IPv4, to go IPv6?"
-msgstr "Q: Do I have to give up IPv4, to go IPv6?"
+msgstr "P: Moram li odustati od IPv4 kako bi koristio IPv6?"
 
 #: faq_whyipv6.html
 msgid "No. They can co-exist. Most ISPs will continue to offer some form of IPv4 (most NAT'd) while offering IPv6. So you can reach the web sites that are still IPv4 only."
@@ -2201,11 +2202,11 @@ msgstr "Q: Will I have to replace my OS?"
 
 #: faq_whyipv6.html
 msgid "Windows Vista, Windows 7: You're good to go. XP users: It can be made to work, but it really is time to consider upgrading. Win98 and Win2000 users have no path to IPv6."
-msgstr "Windows Vista, Windows 7: You're good to go. XP users: It can be made to work, but it really is time to consider upgrading. Win98 and Win2000 users have no path to IPv6."
+msgstr "Windows Vista, Windows 7: Podržano. XP korisnik: Moguće je, ali stvarno je vrijeme da razmislite o nadogradnji. Win98 i Win2000 korisnici nemaju pristup IPv6-u."
 
 #: faq_whyipv6.html
 msgid "Mac OS X: All supported versions of OS X (since Tiger, 10.4) have IPv6."
-msgstr "Mac OS X: All supported versions of OS X (since Tiger, 10.4) have IPv6."
+msgstr "Mac OS X: Sve podržane verzije OS X-a (od verzije Tiger, 10.4) imaju IPv6."
 
 #: faq_whyipv6.html
 msgid "Linux, BSD, and other unix like systems generally all have IPv6."
@@ -2289,7 +2290,7 @@ msgstr "In the above case, the message is now so big, that it can't be forwarded
 
 #: faq_pmtud.html
 msgid "What can I do?"
-msgstr "What can I do?"
+msgstr "Što mogu učiniti?"
 
 #: faq_pmtud.html
 msgid "This is a complex question - there are many ways to get on the Internet."
@@ -2465,7 +2466,7 @@ msgstr "There are several possible reasons why a browser might prefer IPv4 inste
 
 #: faq_avoids_ipv6.html
 msgid "Google's \"Chrome\" has a \"fast fallback\" mechanism. On the first try to a site, it will prefer IPv6. If connections take longer than a third of a second, IPv4 is attempted in parallel; and the better of the two will be used for that site."
-msgstr "Google's \"Chrome\" has a \"fast fallback\" mechanism. On the first try to a site, it will prefer IPv6. If connections take longer than a third of a second, IPv4 is attempted in parallel; and the better of the two will be used for that site."
+msgstr "Googleov \"Chrome\" sadrži \"brz fallback\" mehanizam. Pri prvom pokušaju pristupanja stranici, IPv6 će imati prednost. Ako povezivanje traje dulje od jedne trećine sekunde, pokušava se IPv4 paralelno; i bolji od ta dva će se koristiti za to web-mjesto."
 
 #: faq_avoids_ipv6.html
 msgid "(more info)"
