@@ -187,6 +187,13 @@ GIGO.sites = [{
     "v6": "ipv6.duplimaster.com/public/images/logo-sombra.png",
     "hide": 0
 }, {
+    "site": "zeop.re",
+    "loc": "RE",
+    "provider": "ZEOP",
+    "v4": "test-ipv4.zeop.re/ipv4/ipv4.png",
+    "v6": "test-ipv6.zeop.re/ipv6/ipv6.png",
+    "hide": 0
+}, {
     "site": "campaya.co.uk",
     "loc": "UK",
     "provider": "Campaya",

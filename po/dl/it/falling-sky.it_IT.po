@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2014-08-12 15:00-0400\n"
+"PO-Revision-Date: 2014-08-13 10:34-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Italian\n"
 "MIME-Version: 1.0\n"
@@ -454,7 +454,7 @@ msgstr "If this message does not go away, it means that JavaScript has been disa
 
 #: js_required.inc
 msgid "Do you use NoScript?"
-msgstr "Do you use NoScript?"
+msgstr "Utilizzi “NoScript”?"
 
 #: js_required.inc
 msgid "If you use this Firefox add-on, you'll need to \"Temporarily allow all this page\". You will need to do this <b>twice</b> for everything to work. Alternately, disable NoScript entirely until you are done with this site."
@@ -650,7 +650,7 @@ msgstr "Grazie,"
 
 #: main/mail.inc
 msgid "Purpose for comment"
-msgstr "Purpose for comment"
+msgstr "Scopo di questo commento"
 
 #: main/mail.inc
 msgid "Questions about test results"
@@ -658,7 +658,7 @@ msgstr "Domande sui risultati dei test"
 
 #: main/mail.inc
 msgid "Report a bug with diagnosis"
-msgstr "Report a bug with diagnosis"
+msgstr "Segnala un bug con diagnosi"
 
 #: main/mail.inc
 msgid "Suggestion"
@@ -714,15 +714,15 @@ msgstr "We do not recommend posting this link on public web sites such as forums
 
 #: main/helpdesk.inc
 msgid "On most computers, you can right-click the above URL, and select 'Copy'."
-msgstr "On most computers, you can right-click the above URL, and select 'Copy'."
+msgstr "Sulla maggior parte dei computer, potrai fare un click destro sull'URL qua sopra e selezionare “Copia”."
 
 #: sites.inc
 msgid "<b>Because you have IPv6</b>, we've added this tab to show you whether or not you can reach other IPv6 web sites on the Internet. Consider notifying your ISP, if there are sites that show up as broken. If you are the ISP, you can click the Info link to see what test URLs are being used."
-msgstr "<b>Because you have IPv6</b>, we've added this tab to show you whether or not you can reach other IPv6 web sites on the Internet. Consider notifying your ISP, if there are sites that show up as broken. If you are the ISP, you can click the Info link to see what test URLs are being used."
+msgstr "<b>Dato che utilizzi IPv6</b> puoi utilizzare questa scheda per verificare la raggiungibilità di alcuni siti web IPv6. Se alcuni siti non sono raggiungibili, potresti voler notificare il tuo ISP a riguardo. Se lavori per l'ISP, puoi utilizzare il link “Info” per verificare gli URL esatti utilizzati."
 
 #: sites.inc
 msgid "<b>Hint</b>: Columns are sortable (click the first row); <a href=\"#\" onclick=\"GIGO.test_sites(2); return false;\">click here</a> to re-check reachability from where you are to those mirrors."
-msgstr "<b>Hint</b>: Columns are sortable (click the first row); <a href=\"#\" onclick=\"GIGO.test_sites(2); return false;\">click here</a> to re-check reachability from where you are to those mirrors."
+msgstr "<b>Suggerimento</b>: le colonne possono essere ordinate con un click sulla prima riga; <a href=\"#\" onclick=\"GIGO.test_sites(2); return false;\">un click qua</a> per verificare nuovamente la raggiungibilità dalla tua macchina ai siti elencati."
 
 #: sites.inc
 msgid "It is real easy to get added to this list for basic checks. Just provide two image URLs (one IPv4-only; one IPv6-only), to Jason Fesler &lt;jfesler@gigo.com&gt;. Also send your general web site address and organization name."
