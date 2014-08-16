@@ -6,7 +6,7 @@
 
 $TTL 300
 @	IN SOA v6ns1.test-ipv6-ct.comcast.net. domregtech.comcastonline.com. (
-  2014081601 ; Serial
+  2014050901 ; Serial
   86400 ; Refresh
   7200  ; Retry
   604800 ; Expire

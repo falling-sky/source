@@ -9,7 +9,7 @@ On your main name servers:
 
 $TTL 300
 @	IN SOA ns1.example.com. domregtech.comcastonline.com. (
-  2014081601 ; Serial
+  2014050901 ; Serial
   86400 ; Refresh
   7200  ; Retry
   604800 ; Expire
