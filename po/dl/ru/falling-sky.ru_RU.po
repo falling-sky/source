@@ -1,14 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2014-06-11 08:15-0400\n"
+"PO-Revision-Date: 2014-08-29 11:34-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Russian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: crowdin.net\n"
+"X-Generator: crowdin.com\n"
 "Language: ru_RU\n"
 
 #: mirrorconfig.js
@@ -433,7 +434,7 @@ msgstr "Зеркала"
 
 #: list-nav.inc
 msgid "stats"
-msgstr "stats"
+msgstr "статистика"
 
 #: index.html
 msgid "Test your IPv6 connectivity."
@@ -825,7 +826,7 @@ msgstr "Suggestions are welcome; especially from those operating help desks. Thi
 
 #: broken.html
 msgid "What to do if you're broken..."
-msgstr "What to do if you're broken..."
+msgstr "Что делать, если не работает..."
 
 #: broken.html
 msgid "If you are reading this page, it means that we've identified that your host will have problems on World IPv6 Day. Any web site that goes \"dual stack\" (meaning, both IPv4 and IPv6), will be unreachable to you."
@@ -845,7 +846,7 @@ msgstr "Make sure you are current"
 
 #: broken.html
 msgid "Find your IP address"
-msgstr "Find your IP address"
+msgstr "Поиск вашего IP адреса"
 
 #: broken.html
 msgid "If you set up a tunnel broker"
@@ -929,7 +930,7 @@ msgstr "Opera: Make sure you use at least 11.10."
 
 #: broken.html
 msgid "Finding your IP address"
-msgstr "Finding your IP address"
+msgstr "Поиск Вашего IP-адреса"
 
 #: faq/find_ip.inc
 msgid "Identify your IPv6 address, and your default router (if you have one)."
@@ -1253,7 +1254,7 @@ msgstr "Other routers: Try updating the firmware."
 
 #: faq/broken_bogon.inc
 msgid "Disable IPv6."
-msgstr "Disable IPv6."
+msgstr "Отключите IPv6."
 
 #: broken.html
 msgid "(IPv6 address: not starting with fe80)"
@@ -1325,7 +1326,7 @@ msgstr "Uncheck \"Internet Protocol Version 6\""
 
 #: faq/broken_disable.inc
 msgid "Hit \"ok\""
-msgstr "Hit \"ok\""
+msgstr "Нажмите «ОК»"
 
 #: faq/broken_disable.inc
 msgid "Shutdown/reboot."
@@ -1401,7 +1402,7 @@ msgstr "Generic unix instructions, to temporarily remove your IPv6 address."
 
 #: faq/broken_disable.inc
 msgid "IP_ADDRESS"
-msgstr "IP_ADDRESS"
+msgstr "IP_АДРЕС"
 
 #: faq/broken_disable.inc
 msgid "Be aware that if the router re-advertises it, you will relearn the default route."
@@ -1661,7 +1662,7 @@ msgstr "The <a href=\"broken.html\">Broken User FAQ</a> has several suggestions 
 
 #: mission.html
 msgid "How you can help"
-msgstr "How you can help"
+msgstr "Как вы можете помочь"
 
 #: mission.html
 msgid "This is an open-source project. I can certainly use your help in a variety of ways; please see the <a href=\"source.html\">source</a> page."

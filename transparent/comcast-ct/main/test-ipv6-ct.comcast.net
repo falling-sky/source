@@ -1,6 +1,4 @@
 
-On your main name servers:
-
 ;################################################################
 ;# ZONE: test-ipv6-ct.comcast.net. 
 ;# Put this on your real name servers.  Fix the SOA and NS
