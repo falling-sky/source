@@ -1,14 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2014-07-15 01:00-0400\n"
+"PO-Revision-Date: 2014-09-08 14:15-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Dutch\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: crowdin.net\n"
+"X-Generator: crowdin.com\n"
 "Language: nl_NL\n"
 
 #: mirrorconfig.js
@@ -901,7 +902,7 @@ msgstr "Windows-gebruikers: Ga naar"
 
 #: faq/staycurrent.inc
 msgid "iPhone/iPad users: No specific version advised at this time."
-msgstr "iPhone/iPad gebruikers: geen specifieke versie geadviseerd op dit moment."
+msgstr "iPhone/iPad-gebruikers: geen specifieke versie geadviseerd op dit moment."
 
 #: faq/staycurrent.inc
 msgid "Routers - Make sure you have the latest firmware installed. Some vendors have updated the defaults, or put in health checks before enabling IPv6."
@@ -1005,7 +1006,7 @@ msgstr "Zoek naar een regel die \"standaard\" aanduidt; waarschijnlijk wordt de 
 
 #: faq/find_ip.inc
 msgid "iPhone and iPad users: No information is shown via Apple's preferences/setup. The \"IT Tools\" and the \"ip6config\" apps do show IPv6 address data; both cost."
-msgstr "iPhone en iPad gebruikers: in de instellingen van Apple toestellen wordt hier geen extra informatie over gegeven. De \"IT Tools\" en de \"ip6config\" apps geven wel een IPv6 adres weer; beide met bijkomende kosten."
+msgstr "iPhone- en iPad-gebruikers: in de instellingen van Apple toestellen wordt hier geen extra informatie over gegeven. De \"IT Tools\" en de \"ip6config\" apps geven wel een IPv6 adres weer; beide met bijkomende kosten."
 
 #: faq/find_ip.inc
 msgid "Linux users: To find your IPv6 address, open a terminal and.."
@@ -1025,7 +1026,7 @@ msgstr "Windows users: To find your IP address using cmd.exe:"
 
 #: faq/find_ip.inc
 msgid "Go to your \"start\" menu"
-msgstr "Go to your \"start\" menu"
+msgstr "Ga naar uw \"start\"-menu"
 
 #: faq/find_ip.inc
 msgid "If you have a \"Run\" menu option, select it. Otherwise go to the \"Search programs and files\" box."
@@ -1033,7 +1034,7 @@ msgstr "If you have a \"Run\" menu option, select it. Otherwise go to the \"Sear
 
 #: faq/find_ip.inc
 msgid "Type <code>cmd.exe</code>"
-msgstr "Type <code>cmd.exe</code>"
+msgstr "Typ <code>cmd.exe</code>"
 
 #: faq/find_ip.inc
 msgid "In the cmd window, type <code>ipconfig</code> ."
@@ -1041,27 +1042,27 @@ msgstr "In the cmd window, type <code>ipconfig</code> ."
 
 #: faq/find_ip.inc
 msgid "Windows 7 GUI users:"
-msgstr "Windows 7 GUI users:"
+msgstr "Windows 7 GUI-gebruikers:"
 
 #: faq/find_ip.inc
 msgid "Go to the start menu"
-msgstr "Go to the start menu"
+msgstr "Ga naar het startmenu"
 
 #: faq/find_ip.inc
 msgid "Go to the control panel"
-msgstr "Go to the control panel"
+msgstr "Ga naar het configuratiescherm"
 
 #: faq/find_ip.inc
 msgid "Go to \"Network and Internet\""
-msgstr "Go to \"Network and Internet\""
+msgstr "Ga naar \"Netwerk en internet\""
 
 #: faq/find_ip.inc
 msgid "Go to \"View network status and tasks\""
-msgstr "Go to \"View network status and tasks\""
+msgstr "Ga naar \"Netwerkstatus en -taken weergeven\""
 
 #: faq/find_ip.inc
 msgid "Go to \"Change adapter settings\"."
-msgstr "Go to \"Change adapter settings\"."
+msgstr "Ga naar \"Adapterinstellingen wijzigen\"."
 
 #: faq/find_ip.inc
 msgid "Go to your main Internet connection, double click"
@@ -1069,7 +1070,7 @@ msgstr "Go to your main Internet connection, double click"
 
 #: faq/find_ip.inc
 msgid "Go to \"Details\""
-msgstr "Go to \"Details\""
+msgstr "Ga naar \"Details\""
 
 #: faq/find_ip.inc
 msgid "Look for \"IPv6 Address\" and \"IPv6 Default Gateway\""
@@ -1357,7 +1358,7 @@ msgstr "Close the Command Prompt window and restart the computer."
 
 #: faq/broken_disable.inc
 msgid "OS X users"
-msgstr "OS X users"
+msgstr "OS X-gebruikers"
 
 #: faq/broken_disable.inc
 msgid "Before disabling IPv6, please be sure you are running the latest OS version. In particular, OS X 10.6.7 has several workarounds for being \"Broken\". This may solve your problems without resorting to completely disabling IPv6."
@@ -1369,15 +1370,15 @@ msgstr "How to disable IPv6"
 
 #: faq/broken_disable.inc
 msgid "Disable IPv6"
-msgstr "Disable IPv6"
+msgstr "IPv6 uitschakelen"
 
 #: faq/broken_disable.inc
 msgid "Apply changes"
-msgstr "Apply changes"
+msgstr "Wijzigingen toepassen"
 
 #: faq/broken_disable.inc
 msgid "iPhone and iPad users"
-msgstr "iPhone and iPad users"
+msgstr "iPhone- en iPad-gebruikers"
 
 #: faq/broken_disable.inc
 msgid "IPv6 is not configurable on the iPhone or iPad. Your only option is to switch to another network."
@@ -1385,7 +1386,7 @@ msgstr "IPv6 is not configurable on the iPhone or iPad. Your only option is to s
 
 #: faq/broken_disable.inc
 msgid "Linux users:"
-msgstr "Linux users:"
+msgstr "Linux-gebruikers:"
 
 #: faq/broken_disable.inc
 msgid "This is very distribution-specific. Do a web search using your favorite search engine."
@@ -1401,7 +1402,7 @@ msgstr "Generic unix instructions, to temporarily remove your IPv6 address."
 
 #: faq/broken_disable.inc
 msgid "IP_ADDRESS"
-msgstr "IP_ADDRESS"
+msgstr "IP_ADRES"
 
 #: faq/broken_disable.inc
 msgid "Be aware that if the router re-advertises it, you will relearn the default route."
@@ -1413,7 +1414,7 @@ msgstr "You can do a web search for your particular OS distribution. Example sea
 
 #: broken.html
 msgid "See Also"
-msgstr "See Also"
+msgstr "Zie ook"
 
 #: broken.html
 msgid "Other resources that may help"
@@ -1425,11 +1426,11 @@ msgstr "Disabling IPv6 is the least preferred option. For some people, however, 
 
 #: faq.html
 msgid "test-ipv6.com FAQ"
-msgstr "test-ipv6.com FAQ"
+msgstr "test-ipv6.com veelgestelde vragen"
 
 #: faq.html
 msgid "Q: How does this test work?"
-msgstr "Q: How does this test work?"
+msgstr "V: Hoe werkt deze test?"
 
 #: faq.html
 msgid "The test is entirely client-side javascript. To determine reachability, a series of ajax requests are made from the web server, using various DNS names that force the use of IPv6 only, or dual stack, or other such scenarios. The pass/fail of such fetches, as well as how long they take, are taken into account."
@@ -1509,15 +1510,15 @@ msgstr "For ipv4/ipv6/dual stack, use one of these:"
 
 #: faq.html
 msgid "for ipv4"
-msgstr "for ipv4"
+msgstr "voor ipv4"
 
 #: faq.html
 msgid "for ipv6"
-msgstr "for ipv6"
+msgstr "voor ipv6"
 
 #: faq.html
 msgid "for either"
-msgstr "for either"
+msgstr "voor beide"
 
 #: faq.html
 msgid "Note you _may_ need to specify other options to your telnet command, depending on your operating system. On my mac, for example, I need to use \"<code>telnet -6</code>\"."
@@ -1545,7 +1546,7 @@ msgstr "That said, you are welcome to directly email <a href=\"mailto:jfesler@te
 
 #: faq.html
 msgid "Q: Is this open source?"
-msgstr "Q: Is this open source?"
+msgstr "Q: Is dit open source?"
 
 #: faq.html
 msgid "Yes. See the <a href=\"source.html\">source page</a> for details."
@@ -1561,15 +1562,15 @@ msgstr "Graphs are updated daily."
 
 #: stats.html
 msgid "60 days view"
-msgstr "60 days view"
+msgstr "60 dagen zicht"
 
 #: stats.html
 msgid "600 days view"
-msgstr "600 days view"
+msgstr "600 dagen zicht"
 
 #: stats.html
 msgid "Quick notes:"
-msgstr "Quick notes:"
+msgstr "Snelle notities:"
 
 #: stats.html
 msgid "Browser Filter means that both the \"A\" and \"AAAA\" test failed. Browser (plugin/filter) shenanigans, likely with add-ons like ad blockers."
@@ -1605,7 +1606,7 @@ msgstr "These graphs show the last 600 days of activity at <span lookup=site.nam
 
 #: mission.html
 msgid "test-ipv6.com - Our mission"
-msgstr "test-ipv6.com - Our mission"
+msgstr "test-ipv6.com - Onze missie"
 
 #: mission.html
 msgid "Our mission is thus:"
@@ -1625,7 +1626,7 @@ msgstr "To do so in a brand neutral, ad-free way."
 
 #: mission.html
 msgid "Why do we do this?"
-msgstr "Why do we do this?"
+msgstr "Waarom doen we dit?"
 
 #: mission.html
 msgid "Because of 1 out of every 4000 users are \"broken\" based on industry measurements. This has delayed the web sites from publishing to IPv6."
@@ -1633,7 +1634,7 @@ msgstr "Because of 1 out of every 4000 users are \"broken\" based on industry me
 
 #: mission.html
 msgid "So, what is meant by \"broken\"?"
-msgstr "So, what is meant by \"broken\"?"
+msgstr "Dus, wat wordt bedoelt met \"defect\"?"
 
 #: mission.html
 msgid "When you go to your favorite web site in a browser, and it hangs for several seconds or even minutes. If the publisher publishes to IPv6, and your computer has a *broken* IPv6 route (as compared to having no route), then your computer will attempt to use that broken route first, before falling back to the IPv4 Internet."
@@ -1661,7 +1662,7 @@ msgstr "The <a href=\"broken.html\">Broken User FAQ</a> has several suggestions 
 
 #: mission.html
 msgid "How you can help"
-msgstr "How you can help"
+msgstr "Hoe u kan helpen"
 
 #: mission.html
 msgid "This is an open-source project. I can certainly use your help in a variety of ways; please see the <a href=\"source.html\">source</a> page."
@@ -1685,11 +1686,11 @@ msgstr "Hints Columns are sortable (click the first row); <a href=\"#\" onclick=
 
 #: mirrors.html
 msgid "(generated by javascript)"
-msgstr "(generated by javascript)"
+msgstr "(gegenereerd door javascript)"
 
 #: mirrors.html
 msgid "Interested in running a mirror?"
-msgstr "Interested in running a mirror?"
+msgstr "Geïnteresseerd in het draaien van een mirror?"
 
 #: mirrors.html
 msgid "Mirrors are welcomed and appreciated, whether public or private. Please see <a href=\"http://code.google.com/p/falling-sky/wiki/MirrorOpportunities\">the wiki</a> for details."
@@ -1889,7 +1890,7 @@ msgstr "You also appear to have Teredo enabled. You did successfully connect to 
 
 #: faq_teredo.html
 msgid "About Teredo"
-msgstr "About Teredo"
+msgstr "Over Teredo"
 
 #: faq_teredo.html
 msgid "This FAQ has been produced to tell you about Microsoft's Teredo service - a transition tool to help get early access to the IPv6 Internet."
@@ -1901,7 +1902,7 @@ msgstr "By default, Teredo is enabled on Vista and Windows 7. However, if Teredo
 
 #: faq_v6ns_bad.html
 msgid "About the \"v6ns\" test."
-msgstr "About the \"v6ns\" test."
+msgstr "Over de \"v6ns\" test."
 
 #: faq_v6ns_bad.html
 msgid "This FAQ has been produced to try and address what it means for the v6ns test to be \"bad\"."
@@ -1981,7 +1982,7 @@ msgstr "You should still be able to reach most sites fine, so long as they offer
 
 #: faq_broken_aaaa.html
 msgid "Possible causes:"
-msgstr "Possible causes:"
+msgstr "Mogelijke oorzaken:"
 
 #: faq_broken_aaaa.html
 msgid "Firefox users may have IPv6 lookups disabled."
@@ -1989,7 +1990,7 @@ msgstr "Firefox users may have IPv6 lookups disabled."
 
 #: faq_broken_aaaa.html
 msgid "Go to <a href=\"about:config\">about:config</a> in your browser."
-msgstr "Go to <a href=\"about:config\">about:config</a> in your browser."
+msgstr "Ga naar <a href=\"about:config\">about:config</a> in uw browser."
 
 #: faq_broken_aaaa.html
 msgid "Look for <code>network.dns.disableIPv6</code>"
@@ -2057,11 +2058,11 @@ msgstr "Pass?"
 
 #: faq/simple_test.inc
 msgid "Method"
-msgstr "Method"
+msgstr "Methode"
 
 #: faq/simple_test.inc
 msgid "More Info"
-msgstr "More Info"
+msgstr "Meer info"
 
 #: faq/simple_test.inc
 msgid "IPv4. Basic traditional Internet."
@@ -2097,7 +2098,7 @@ msgstr "This image based test is provided for those with browsers or browser plu
 
 #: faq_whyipv6.html
 msgid "Why IPv6?"
-msgstr "Why IPv6?"
+msgstr "Waarom IPv6?"
 
 #: faq_whyipv6.html
 msgid "This is an interesting question. IPv6 buys you only a bit more than you already have today; and most of that is a promise. IPv6 will help you preserve the level of Internet connectivy between your home and other locations on the Internet, without interference, as you enjoyed in 2012."
@@ -2289,7 +2290,7 @@ msgstr "In the above case, the message is now so big, that it can't be forwarded
 
 #: faq_pmtud.html
 msgid "What can I do?"
-msgstr "What can I do?"
+msgstr "Wat kan ik doen?"
 
 #: faq_pmtud.html
 msgid "This is a complex question - there are many ways to get on the Internet."
@@ -2469,7 +2470,7 @@ msgstr "Google's \"Chrome\" has a \"fast fallback\" mechanism. On the first try 
 
 #: faq_avoids_ipv6.html
 msgid "(more info)"
-msgstr "(more info)"
+msgstr "(meer info)"
 
 #: faq_avoids_ipv6.html
 msgid "Firefox (recent builds) does the same as Chrome."
