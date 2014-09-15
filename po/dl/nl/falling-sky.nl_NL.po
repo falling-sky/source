@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2014-09-08 14:15-0400\n"
+"PO-Revision-Date: 2014-09-15 12:00-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Dutch\n"
 "MIME-Version: 1.0\n"
@@ -790,7 +790,7 @@ msgstr "Status of reachability to “other sites” (as compact as possible)"
 
 #: faq_helpdesk.html
 msgid "IP address shown, in case tech support needs it."
-msgstr "IP address shown, in case tech support needs it."
+msgstr "IP adress laten zien, voor het geval tech support het nodig heeft."
 
 #: faq_helpdesk.html
 msgid "List of unreachable sites, if any"
@@ -826,7 +826,7 @@ msgstr "Suggestions are welcome; especially from those operating help desks. Thi
 
 #: broken.html
 msgid "What to do if you're broken..."
-msgstr "What to do if you're broken..."
+msgstr "Wat doe je als je kapot bent."
 
 #: broken.html
 msgid "If you are reading this page, it means that we've identified that your host will have problems on World IPv6 Day. Any web site that goes \"dual stack\" (meaning, both IPv4 and IPv6), will be unreachable to you."
@@ -834,7 +834,7 @@ msgstr "If you are reading this page, it means that we've identified that your h
 
 #: broken.html
 msgid "To resolve this, you'll first need to identify your IPv6 address (if you have one) and your IPv6 default route (if you have one). This will help identify which sections to read."
-msgstr "To resolve this, you'll first need to identify your IPv6 address (if you have one) and your IPv6 default route (if you have one). This will help identify which sections to read."
+msgstr "Om dit op te lossen, moet je eerst je IPv6 adress en je IPv6 default route identificeren. (Als je die hebt) dit zal helpen te bepalen welke secties je moet lezen."
 
 #: broken.html
 msgid "If you find your particular problem is not well represented; or you have additional suggestions; please do leave feedback using the <a href='#' onclick='return GIGO.tabnav(\"mail\");'>form</a> (or contact <a href=\"mailto:jfesler@test-ipv6.com\">jfesler@test-ipv6.com</a>)."
