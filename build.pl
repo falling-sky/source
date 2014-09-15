@@ -500,7 +500,7 @@ sub our_gzip {
     my $cmd = "cat $file | gzip -f -9 -Sgz > $newname";
 
     if ( $file =~ /html/ ) {
-        $cmd = "cat $file | perl -pi -e 's#/index.js#/index.js.gz#' |  gzip -f -9 -Sgz > $newname";
+        $cmd = "cat $file | perl -p -e 's#/index.js#/index.js.gz#' |  gzip -f -9 -Sgz > $newname";
     }
 
     print "% $cmd\n" if ( $argv{"debug"} );
