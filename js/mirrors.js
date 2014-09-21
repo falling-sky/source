@@ -201,4 +201,9 @@ GIGO.mirrors = [{
     "loc": "BG",
     "provider": "University of Ruse",
     "hide": 0
+}, {
+    "site": "sixte.st",
+    "loc": "SG",
+    "provider": "Delan Azabani",
+    "hide": 0
 }];
