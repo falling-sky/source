@@ -1,12 +1,5 @@
 msgid ""
-msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
-"Last-Translator: Unspecified Translator <jfesler+unspecified-translator@test-ipv6.com>\n"
-"Language-Team: LANGUAGE <v6code@test-ipv6.com>\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\\nPO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\\nLast-Translator: Unspecified Translator <jfesler+unspecified-translator@test-ipv6.com>\\nLanguage-Team: LANGUAGE <v6code@test-ipv6.com>\\nMIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\\nContent-Transfer-Encoding: 8bit\\n"
 
 #: mirrorconfig.js
 msgid "This mirror is provided by"
