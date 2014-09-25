@@ -165,7 +165,7 @@ GIGO.mirrors = [{
     "site": "test-ipv6.vtt.net",
     "loc": "RU",
     "provider": "JSC \"Volgatranstelecom\"",
-    "hide": 1
+    "hide": 0
 }, {
     "site": "test-ipv6.vn.ua",
     "loc": "UA",
