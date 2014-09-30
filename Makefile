@@ -25,4 +25,6 @@ dist-test: work
 
 dist-stable: work
 	 ../dist_support/make-dist.pl --base content --branch stable
-
+	 
+dist:
+	cd ../dist_support && make dist-stable-content

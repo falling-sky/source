@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2014-09-26 10:00-0400\n"
+"PO-Revision-Date: 2014-09-29 20:38-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Portuguese, Brazilian\n"
 "MIME-Version: 1.0\n"
@@ -1502,195 +1502,195 @@ msgstr "This site, on the other hand, is intended to help the user understand th
 
 #: faq.html
 msgid "Q: Your site shows the wrong IP address; how can I bypass my proxy server to find my public address?"
-msgstr "Q: Your site shows the wrong IP address; how can I bypass my proxy server to find my public address?"
+msgstr "P: Seu site mostra o endereço IP errado. Como eu posso contornar meu servidor proxy para descobrir meu endereço público?"
 
 #: faq.html
 msgid "For ipv4/ipv6/dual stack, use one of these:"
-msgstr "For ipv4/ipv6/dual stack, use one of these:"
+msgstr "Para IPv4/IPv6/Pilha dupla, utilize um destes:"
 
 #: faq.html
 msgid "for ipv4"
-msgstr "for ipv4"
+msgstr "para IPv4"
 
 #: faq.html
 msgid "for ipv6"
-msgstr "for ipv6"
+msgstr "para IPv6"
 
 #: faq.html
 msgid "for either"
-msgstr "for either"
+msgstr "para qualquer um dos dois"
 
 #: faq.html
 msgid "Note you _may_ need to specify other options to your telnet command, depending on your operating system. On my mac, for example, I need to use \"<code>telnet -6</code>\"."
-msgstr "Note you _may_ need to specify other options to your telnet command, depending on your operating system. On my mac, for example, I need to use \"<code>telnet -6</code>\"."
+msgstr "Observe que você _pode_ precisar especificar outras opções no seu comando telnet, dependendo do seu sistema operacional. No meu Mac, por exemplo, preciso de usar \"<code>telnet -6</code>\"."
 
 #: faq.html
 msgid "Q: Do you actually read the feedback?"
-msgstr "Q: Do you actually read the feedback?"
+msgstr "P: Você realmente lê os feedbacks?"
 
 #: faq.html
 msgid "Yes, I do. Thank you! Note that I can only follow up with you if you do leave contact information. While I am still grateful for feedback without contact information, I will be unable to reply with any answers if you asked for them."
-msgstr "Yes, I do. Thank you! Note that I can only follow up with you if you do leave contact information. While I am still grateful for feedback without contact information, I will be unable to reply with any answers if you asked for them."
+msgstr "Sim, eu leio. Obrigado! Observe que eu só consigo entrar em contato com você se você deixar informações de contato. Eu ainda sou muito grato por feedbacks sem informações de contato, mas não vou conseguir responder suas perguntas, se você fez alguma."
 
 #: faq.html
 msgid "Q: How else can I contact you?"
-msgstr "Q: How else can I contact you?"
+msgstr "P: De que outra forma eu consigo te contactar?"
 
 #: faq.html
 msgid "I would prefer you use the form, as it gives details of your connectivity, and bypasses any mail filters."
-msgstr "I would prefer you use the form, as it gives details of your connectivity, and bypasses any mail filters."
+msgstr "Eu preferiria que você utilizasse o formulário, pois ele me dá detalhes da sua conectividade e não passa por nenhum filtro de e-mail."
 
 #: faq.html
 msgid "That said, you are welcome to directly email <a href=\"mailto:jfesler@test-ipv6.com\">jfesler@test-ipv6.com</a>."
-msgstr "That said, you are welcome to directly email <a href=\"mailto:jfesler@test-ipv6.com\">jfesler@test-ipv6.com</a>."
+msgstr "Dito isto, você é bem vindo a me enviar um e-mail diretamente em <a href=\"mailto:jfesler@test-ipv6.com\">jfesler@test-ipv6.com</a>."
 
 #: faq.html
 msgid "Q: Is this open source?"
-msgstr "Q: Is this open source?"
+msgstr "P: Isto é open source?"
 
 #: faq.html
 msgid "Yes. See the <a href=\"source.html\">source page</a> for details."
-msgstr "Yes. See the <a href=\"source.html\">source page</a> for details."
+msgstr "Sim. Veja <a href=\"source.html\">source page </a> para detalhes."
 
 #: stats.html
 msgid "<span lookup=site.name>site</span> statistics"
-msgstr "<span lookup=site.name>site</span> statistics"
+msgstr "estatísticas do<span lookup=site.name>site</span>"
 
 #: stats.html
 msgid "Graphs are updated daily."
-msgstr "Graphs are updated daily."
+msgstr "Gráficos são atualizados diariamente."
 
 #: stats.html
 msgid "60 days view"
-msgstr "60 days view"
+msgstr "60 dias"
 
 #: stats.html
 msgid "600 days view"
-msgstr "600 days view"
+msgstr "600 dias"
 
 #: stats.html
 msgid "Quick notes:"
-msgstr "Quick notes:"
+msgstr "Notas rápidas:"
 
 #: stats.html
 msgid "Browser Filter means that both the \"A\" and \"AAAA\" test failed. Browser (plugin/filter) shenanigans, likely with add-ons like ad blockers."
-msgstr "Browser Filter means that both the \"A\" and \"AAAA\" test failed. Browser (plugin/filter) shenanigans, likely with add-ons like ad blockers."
+msgstr "Filtro de navegador significa que tanto o teste \"A\" e \"AAAA\" falharam. Possivelmente graças a add-ons e ad-blockers."
 
 #: stats.html
 msgid "Brokeness goes down, when volume goes up. This is due to having a wider sample of average people (versus people explicitly testing a new IPv6 setup)."
-msgstr "Brokeness goes down, when volume goes up. This is due to having a wider sample of average people (versus people explicitly testing a new IPv6 setup)."
+msgstr "Nível de conexões ruins diminui quando o volume aumenta. Isto acontece devido ao aumento da amostra de pessoas comuns (ao invés de pessoas testando explicitamente uma nova configuração IPv6)."
 
 #: stats.html
 msgid "These graphs show the last 60 days of activity at <span lookup=site.name>site</span>"
-msgstr "These graphs show the last 60 days of activity at <span lookup=site.name>site</span>"
+msgstr "Estes gráficos mostram as atividades dos últimos 60 dias no <span lookup=site.name>site</span>"
 
 #: stats.html
 msgid "Graph: shows result summaries, stacked. Total height shows number of users who took the test on a given day."
-msgstr "Graph: shows result summaries, stacked. Total height shows number of users who took the test on a given day."
+msgstr "Gráfico: mostra resumos dos resultados, empilhados. A altura total mostra o número de usuários que fizeram o teste em um dia específico."
 
 #: stats.html
 msgid "Similiar graph, except this time showing percentages."
-msgstr "Similiar graph, except this time showing percentages."
+msgstr "Gráfico similar, exceto que aqui são mostradas porcentagens."
 
 #: stats.html
 msgid "The most interesting graph is the percentage of \"broken\" users. Our definition of a \"broken\" user is that the browser stalls or times out, while attempting to visit a web site published on both IPv4 and IPv6."
-msgstr "The most interesting graph is the percentage of \"broken\" users. Our definition of a \"broken\" user is that the browser stalls or times out, while attempting to visit a web site published on both IPv4 and IPv6."
+msgstr "O gráfico mais interessante é a porcentagem de usuários com problemas. Nossa definição de problema é um usuário que o navegador trava ou dá timeout, enquanto tenta visitar um site publicado tanto em IPv4 e IPv6."
 
 #: stats.html
 msgid "Line graph, not stacked, of results over time."
-msgstr "Line graph, not stacked, of results over time."
+msgstr "Gráfico em linha, não empilhado. Resultados ao longo do tempo."
 
 #: stats.html
 msgid "These graphs show the last 600 days of activity at <span lookup=site.name>site</span>"
-msgstr "These graphs show the last 600 days of activity at <span lookup=site.name>site</span>"
+msgstr "Estes gráficos mostram as atividades dos últimos 600 dias no <span lookup=site.name>site</span>"
 
 #: mission.html
 msgid "test-ipv6.com - Our mission"
-msgstr "test-ipv6.com - Our mission"
+msgstr "test-ipv6.com - Nossa missão"
 
 #: mission.html
 msgid "Our mission is thus:"
-msgstr "Our mission is thus:"
+msgstr "Nossa missão é a seguinte:"
 
 #: mission.html
 msgid "Help people identify if they will have problems when publishers offer their web sites on IPv6;"
-msgstr "Help people identify if they will have problems when publishers offer their web sites on IPv6;"
+msgstr "Ajudar pessoas a identificar se elas terão problemas quando sites oferecerem seus conteúdos em IPv6;"
 
 #: mission.html
 msgid "Help people fix their system configuration so that they are no longer affected."
-msgstr "Help people fix their system configuration so that they are no longer affected."
+msgstr "Ajudar pessoas a consertar suas configurações de forma que eles não sejam mais afetados."
 
 #: mission.html
 msgid "To do so in a brand neutral, ad-free way."
-msgstr "To do so in a brand neutral, ad-free way."
+msgstr "Fazer isto de uma maneira independente de marcas, sem propagandas."
 
 #: mission.html
 msgid "Why do we do this?"
-msgstr "Why do we do this?"
+msgstr "Porque nós fazemos isso?"
 
 #: mission.html
 msgid "Because of 1 out of every 4000 users are \"broken\" based on industry measurements. This has delayed the web sites from publishing to IPv6."
-msgstr "Because of 1 out of every 4000 users are \"broken\" based on industry measurements. This has delayed the web sites from publishing to IPv6."
+msgstr "Porque de cada 1 em 4000 usuários estão com problemas, baseados em medidas das indústrias. Isto atrasou a publicação de sites IPv6."
 
 #: mission.html
 msgid "So, what is meant by \"broken\"?"
-msgstr "So, what is meant by \"broken\"?"
+msgstr "Então, o que significa \"problema\"?"
 
 #: mission.html
 msgid "When you go to your favorite web site in a browser, and it hangs for several seconds or even minutes. If the publisher publishes to IPv6, and your computer has a *broken* IPv6 route (as compared to having no route), then your computer will attempt to use that broken route first, before falling back to the IPv4 Internet."
-msgstr "When you go to your favorite web site in a browser, and it hangs for several seconds or even minutes. If the publisher publishes to IPv6, and your computer has a *broken* IPv6 route (as compared to having no route), then your computer will attempt to use that broken route first, before falling back to the IPv4 Internet."
+msgstr "Quando você vai no seu site favorito no seu navegador e ele fica travado por vários segundos ou minutos. Se o dono do site utiliza IPv6 e seu computador tem uma rota IPv6 *com problema* (ao invés de não ter nenhuma rota), seu computador vai tentar usar esta rota com problema antes de tentar através do IPv4."
 
 #: mission.html
 msgid "What causes these timeouts?"
-msgstr "What causes these timeouts?"
+msgstr "O que causa estes timeouts?"
 
 #: mission.html
 msgid "Newer operating systems have IPv6 enabled by default. Older ones, may have IPv6 enabled, as a result of user action (or specific applications). Enabling IPv6 does not automatically make you vulnerable."
-msgstr "Newer operating systems have IPv6 enabled by default. Older ones, may have IPv6 enabled, as a result of user action (or specific applications). Enabling IPv6 does not automatically make you vulnerable."
+msgstr "Sistemas operacionais novos têm IPv6 habilitado por padrão. Sistemas operacionais mais velhos podem ter IPv6 habilitados como resultado de ação de usuários (ou aplicações). Habilitar o IPv6 não te deixa vulnerável imediatamente."
 
 #: mission.html
 msgid "The problem lies when your system is convinced to try and use IPv6, when it is not working adequately. This may be because you're using a public service for your IPv6 gateway. Or, someone on your network, was advertising (to the network) IPv6 through Internet connection sharing; and they left. Last, your router may have IPv6 automatically configured to use public unmanaged gateways; and is telling your computer to use it."
-msgstr "The problem lies when your system is convinced to try and use IPv6, when it is not working adequately. This may be because you're using a public service for your IPv6 gateway. Or, someone on your network, was advertising (to the network) IPv6 through Internet connection sharing; and they left. Last, your router may have IPv6 automatically configured to use public unmanaged gateways; and is telling your computer to use it."
+msgstr "O problema acontece quando seu sistema está tentando utilizar o IPv6 quando ele não está funcionando adequadamente. Isto pode acontecer porque você está usando um serviço público pro seu gateway IPv6 ou alguém na sua rede estava provendo IPv6 para a rede através de uma conexão compartilhada mas deixou a rede. Por último, seu roteador pode ter sido configurado para utilizar gateways públicos não gerenciados e está falando para o seu computador usar."
 
 #: mission.html
 msgid "The simplest, yet near-sighted, solution, would be just to disable IPv6. However, over the next couple of years, this will start to cause you more troubles than not. It would be best to instead find the root of your actual problem, and fix that instead."
-msgstr "The simplest, yet near-sighted, solution, would be just to disable IPv6. However, over the next couple of years, this will start to cause you more troubles than not. It would be best to instead find the root of your actual problem, and fix that instead."
+msgstr "A solução mais simples, porém não mais esperta, seria simplesmente desabilitar o IPv6. Entretanto, nos próximos anos, isto vai começar a criar mais problemas do que resolver. O melhor seria, ao invés de desabilitar, encontrar a causa raiz do seu problema e solucionar."
 
 #: mission.html
 msgid "The <a href=\"broken.html\">Broken User FAQ</a> has several suggestions for broken users to follow, to remediate their situation."
-msgstr "The <a href=\"broken.html\">Broken User FAQ</a> has several suggestions for broken users to follow, to remediate their situation."
+msgstr "A <a href=\"broken.html\">FAQ para usuários com problemas</a> tem diversas sugestões para remediar sua situação."
 
 #: mission.html
 msgid "How you can help"
-msgstr "How you can help"
+msgstr "Como você pode ajudar"
 
 #: mission.html
 msgid "This is an open-source project. I can certainly use your help in a variety of ways; please see the <a href=\"source.html\">source</a> page."
-msgstr "This is an open-source project. I can certainly use your help in a variety of ways; please see the <a href=\"source.html\">source</a> page."
+msgstr "Este é um projeto open-source. Eu certamente poderia usar sua ajuda de vários jeitos. Por favor veja a página <a href=\"source.html\">com os fontes</a>."
 
 #: mirrors.html
 msgid "test-ipv6.com mirrors"
-msgstr "test-ipv6.com mirrors"
+msgstr "mirrors test-ipv6.com"
 
 #: mirrors.html
 msgid "These are the known publicly accessible mirrors for test-ipv6.com."
-msgstr "These are the known publicly accessible mirrors for test-ipv6.com."
+msgstr "Estes são mirrors publicamente acessíveis do test-ipv6.com."
 
 #: mirrors.html
 msgid "Thank you to all of these organizations, who have put in significant effort to provide this mirror sites. If you have problems with the site you are on now, try another mirror site; perhaps one closer to you."
-msgstr "Thank you to all of these organizations, who have put in significant effort to provide this mirror sites. If you have problems with the site you are on now, try another mirror site; perhaps one closer to you."
+msgstr "Obrigado a todas organizações que tiveram um esforço significativo para fornecer estes mirrors. Se você tiver problema com o site que você está agora, tente outro mirror, talvez um mais próximo a você."
 
 #: mirrors.html
 msgid "Hints Columns are sortable (click the first row); <a href=\"#\" onclick=\"GIGO.test_sites(1); return false;\">click here</a> to re-check reachability from where you are to those mirrors."
-msgstr "Hints Columns are sortable (click the first row); <a href=\"#\" onclick=\"GIGO.test_sites(1); return false;\">click here</a> to re-check reachability from where you are to those mirrors."
+msgstr "<b>Dica</b>: Colunas são ordenáveis (clique na primeira linha); <a href=\"#\" onclick=\"GIGO.test_sites(2); return false;\">clique aqui</a> para verificar novamente o acesso de onde você está até os mirrors."
 
 #: mirrors.html
 msgid "(generated by javascript)"
-msgstr "(generated by javascript)"
+msgstr "(gerado por javascript)"
 
 #: mirrors.html
 msgid "Interested in running a mirror?"
-msgstr "Interested in running a mirror?"
+msgstr "Interessado em fornecer um mirror?"
 
 #: mirrors.html
 msgid "Mirrors are welcomed and appreciated, whether public or private. Please see <a href=\"http://code.google.com/p/falling-sky/wiki/MirrorOpportunities\">the wiki</a> for details."
