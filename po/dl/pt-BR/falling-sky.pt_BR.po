@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2014-09-29 20:38-0400\n"
+"PO-Revision-Date: 2014-10-06 18:30-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Portuguese, Brazilian\n"
 "MIME-Version: 1.0\n"
@@ -1494,11 +1494,11 @@ msgstr "P: Como seu teste é diferente do teste que provedores de conteúdo est�
 
 #: faq.html
 msgid "Content providers are gathering metrics of broken vs non-broken users, in an aggregate form. They are not at this time actually giving the user feedback as to the user's current state. Those metrics will principally drive the business decision of when to start publishing sites over IPv6, versus remaining IPv4 only. IPv4 only for some content sites really is an option; it has a handful of downsides, but the expectation is that everyone will always be able to reach IPv4, in some fashion."
-msgstr "Content providers are gathering metrics of broken vs non-broken users, in an aggregate form. They are not at this time actually giving the user feedback as to the user's current state. Those metrics will principally drive the business decision of when to start publishing sites over IPv6, versus remaining IPv4 only. IPv4 only for some content sites really is an option; it has a handful of downsides, but the expectation is that everyone will always be able to reach IPv4, in some fashion."
+msgstr "Provedores de conteúdo estão coletando métricas de usuários com problemas vs usuários sem problemas, de uma maneira agregada. Eles não estão, neste momento, realmente dando feedback ao usuário sobre seu estado atual. Estas métricas vão conduzir as decisões de negócios sobre quando começar a publicar sites em IPv6, ao invés de continuar em IPv4 apenas. Sites apenas em IPv4 é realmente uma opção para alguns provedores de conteúdo e, apesar de ter várias desvantagens, tem a certeza que todo mundo sempre vai conseguir alcançar, de alguma maneira."
 
 #: faq.html
 msgid "This site, on the other hand, is intended to help the user understand their current state, and what that state possibly means to them."
-msgstr "This site, on the other hand, is intended to help the user understand their current state, and what that state possibly means to them."
+msgstr "Este site, por outro lado, destina-se a ajudar o usuário a entender sua situação atual e o que esta situação significa para eles."
 
 #: faq.html
 msgid "Q: Your site shows the wrong IP address; how can I bypass my proxy server to find my public address?"
@@ -1694,71 +1694,71 @@ msgstr "Interessado em fornecer um mirror?"
 
 #: mirrors.html
 msgid "Mirrors are welcomed and appreciated, whether public or private. Please see <a href=\"http://code.google.com/p/falling-sky/wiki/MirrorOpportunities\">the wiki</a> for details."
-msgstr "Mirrors are welcomed and appreciated, whether public or private. Please see <a href=\"http://code.google.com/p/falling-sky/wiki/MirrorOpportunities\">the wiki</a> for details."
+msgstr "Mirrors são bem vindos e desejados, tanto públicos como privados. Por favor veja <a href=\"http://code.google.com/p/falling-sky/wiki/MirrorOpportunities\">a wiki</a> para detalhes."
 
 #: faq_6to4.html
 msgid "test-ipv6.com views on 6to4"
-msgstr "test-ipv6.com views on 6to4"
+msgstr "Visitas ao test-ipv6.com em túneis 6to4"
 
 #: faq_6to4.html
 msgid "The ugly bits"
-msgstr "The ugly bits"
+msgstr "A parte ruim"
 
 #: faq_6to4.html
 msgid "The good bits"
-msgstr "The good bits"
+msgstr "A parte boa"
 
 #: faq_6to4.html
 msgid "6to4 is a technology that allows you to use your existing Internet provider (with only IPv4), to access the IPV6 Internet. It does this by putting IPv6 packets inside IPv4 packets, and with the help of some friendly folks on the Internet. (The specification of this is in <a href=\"http://www.ietf.org/rfc/rfc3056.txt\">rfc3056</a>.)"
-msgstr "6to4 is a technology that allows you to use your existing Internet provider (with only IPv4), to access the IPV6 Internet. It does this by putting IPv6 packets inside IPv4 packets, and with the help of some friendly folks on the Internet. (The specification of this is in <a href=\"http://www.ietf.org/rfc/rfc3056.txt\">rfc3056</a>.)"
+msgstr "6t04 é uma tecnologia que permite que você utilize seu Provedor de Serviços atual (que usa apenas IPv4) para acessar a Internet IPv6. Ele faz isso ao colocar pacotes IPv6 dentro de pacotes IPv4 e com a ajuda de alguns amigos na Internet. (A especificação deste túnel está na <a href=\"http://www.ietf.org/rfc/rfc3056.txt\">rfc3056</a>.)"
 
 #: faq_6to4.html
 msgid "Before covering my actual view on 6to4, lets discuss how it works."
-msgstr "Before covering my actual view on 6to4, lets discuss how it works."
+msgstr "Antes de mostrar minha opinião sobre 6t04, vamos discutir como ele funciona."
 
 #: faq_6to4.html
 msgid "With traditional IPv4 Internet connections, traffic goes from you, to your ISP; to one or more ISPs; and finally to the end web site. Debugging issues with this is fairly easy. And, in the event of issues, your ISP has an obligation to fix things that they are associated with; the web site has a similiar contract with their ISP."
-msgstr "With traditional IPv4 Internet connections, traffic goes from you, to your ISP; to one or more ISPs; and finally to the end web site. Debugging issues with this is fairly easy. And, in the event of issues, your ISP has an obligation to fix things that they are associated with; the web site has a similiar contract with their ISP."
+msgstr "Com conexões IPv4 tradicionais, o tráfego vai de você ao seu Provedor de Serviços e em seguida a um ou mais provedores até alcançar o site desejado. Localizar e resolver problemas assim é bem fácil, e no caso de problemas, seu Provedor tem uma obrigação de consertar tudo a que eles estão associados. O site destino tem um contrato similar com o seu próprio provedor."
 
 #: faq_6to4.html
 msgid "With unmanaged 6to4 connections (created \"automatically\" or without explicit gateway information) the process is a fair bit different. IPv6 is put into an IPv4 packet - much like sticking a letter in an envelope. This packet is sent to the \"nearest available\" gateway. Your ISP"
-msgstr "With unmanaged 6to4 connections (created \"automatically\" or without explicit gateway information) the process is a fair bit different. IPv6 is put into an IPv4 packet - much like sticking a letter in an envelope. This packet is sent to the \"nearest available\" gateway. Your ISP"
+msgstr "Com conexões 6t04 não gerenciadas (criadas \"automaticamente\" ou sem informação explícita de gateway) o processo é um pouco diferente. IPv6 é colocado em um pacote IPv4, bem parecido com colocar uma carta em um envelope. Este pacote é enviado então ao \"gateway disponível mais próximo\". Seu provedor"
 
 #: faq_6to4.html
 msgid "Traffic from the web site takes a similiar path. That web site replies back to your automatic IPv6 address. This is routed to the nearest 6to4 relay to that web site. This is not deterministic from your part, at all. In fact, you won't even be able to tell where this relay is. That relay will take the IPv6 packet, stick it inside an IPv4 packet, and then send to your router."
-msgstr "Traffic from the web site takes a similiar path. That web site replies back to your automatic IPv6 address. This is routed to the nearest 6to4 relay to that web site. This is not deterministic from your part, at all. In fact, you won't even be able to tell where this relay is. That relay will take the IPv6 packet, stick it inside an IPv4 packet, and then send to your router."
+msgstr "Tráfego do site acessado tem um caminho semelhante. O site responde de volta pra você usando seu endereço IPv6 automático. Esta resposta é encaminhada ao gateway 6to4 mais próximo ao site. Isto não é determinístico da sua parte, nem um pouco! Na verdade, você não sabe nem onde este gateway está. O gateway vai pegar o pacote IPv6, colocar dentro de um pacote IPv4 e enviar ao seu roteador."
 
 #: faq_6to4.html
 msgid "Q: What could possibly go wrong?"
-msgstr "Q: What could possibly go wrong?"
+msgstr "P: O que poderia dar errado?"
 
 #: faq_6to4.html
 msgid "The main issues involve the lack of a service level agreement, the lack of predictability, and a lack in the protocol for your computer to realize that this method is not working."
-msgstr "The main issues involve the lack of a service level agreement, the lack of predictability, and a lack in the protocol for your computer to realize that this method is not working."
+msgstr "Os maiores problemas envolvem a falta de um SLA (acordo de nível de serviço), a falta de previsibilidade e a falta de um protocolo para seu computador perceber que este método não está funcionando."
 
 #: faq_6to4.html
 msgid "Service level agreement: 6to4 relays are put up, voluntarilly by some organizations. They use BGP (the Internet's way of saying \"I'm here!\") to advertise to the world the existence of the public gateway. Some of them are managed quite well. Some are not. AS long as the route is being advertised, and they are the \"closest\" (in a BGP network sense - not in your control), that particular relay is the one you MUST use. Same for the web site you're trying to use - they have the same constraints, but most likely using a different relay than you. If anything goes wrong, even if you or the web site can figure out which one it is, there is not a good way to get the problem fixed."
-msgstr "Service level agreement: 6to4 relays are put up, voluntarilly by some organizations. They use BGP (the Internet's way of saying \"I'm here!\") to advertise to the world the existence of the public gateway. Some of them are managed quite well. Some are not. AS long as the route is being advertised, and they are the \"closest\" (in a BGP network sense - not in your control), that particular relay is the one you MUST use. Same for the web site you're trying to use - they have the same constraints, but most likely using a different relay than you. If anything goes wrong, even if you or the web site can figure out which one it is, there is not a good way to get the problem fixed."
+msgstr "Acordo de nível de serviço: Gateways 6to4 são criados voluntariamente por algumas organizações. Eles utilizam BGP (o jeito da Internet de dizer \"estou aqui!\") para anunciar ao mundo a existencia do gateway público. Alguns deles são gerenciados muito bem. Alguns não são. Enquanto a rota estiver sendo anunciada e eles forem o mais \"próximo\" (na visão do BGP, fora do seu controle), este gateway em particular é o que você DEVE usar. A mesma coisa para o site que você está tentando acessar: eles têm as mesmas limitações que você, mas muito provavelmente utilizando outro gateway diferente. Se alguma coisa sair errado, mesmo que você ou o site consiga descobrir quem está errado, não existe um jeito fácil de corrigir o problema."
 
 #: faq_6to4.html
 msgid "Some ISPs are starting to offer 6to4 relays in their network; one such example is Comcast. But even if your ISP does this, that is only half the battle."
-msgstr "Some ISPs are starting to offer 6to4 relays in their network; one such example is Comcast. But even if your ISP does this, that is only half the battle."
+msgstr "Alguns Provedores de Serviço estão começando a oferecer gateways 6to4 na sua rede, como por exemplo a Comcast (EUA). Mas mesmo que seu provedor faça isso, é apenas metade da batalha."
 
 #: faq_6to4.html
 msgid "Once you enable 6to4, your computer will go \"Ah-ha! IPv6 Internet!\". Any time you vist a web site, your web browser will prefer to try IPv6 (if the web site is offering it). When it works, great! But when it doesn't work, you'll see timeouts. Browsers can wait a very long time before giving up on IPv6, and going back to IPv4. And the browser won't remember it had to try IPv4 - so ever web graphic, every link you click, etc will be subject to what looks like \"web site slow\" or \"web site down\"."
-msgstr "Once you enable 6to4, your computer will go \"Ah-ha! IPv6 Internet!\". Any time you vist a web site, your web browser will prefer to try IPv6 (if the web site is offering it). When it works, great! But when it doesn't work, you'll see timeouts. Browsers can wait a very long time before giving up on IPv6, and going back to IPv4. And the browser won't remember it had to try IPv4 - so ever web graphic, every link you click, etc will be subject to what looks like \"web site slow\" or \"web site down\"."
+msgstr "Uma vez que você habilitou o 6to4, seu computador vai pensar \"OBA! Internet IPv6!\". Sempre que você visitar um site, seu navegador vai preferir tentar IPv6 (se o site oferecer). Quando funciona, ótimo! Mas quando não funciona, você vai ver timeouts. Navegadores normalmente esperam um longo tempo antes de desistir do IPv6 e tentar com o IPv4 e o navegador não vai se lembrar que ele tem que usar IPv4 então cada imagem, cada página que você clicar, você vai estar sujeito ao que parece uma página muito lenta ou fora do ar."
 
 #: faq_6to4.html
 msgid "6to4 worked for me, but the \"Big Packet\" or MTU test was slow/failed. What happened?"
-msgstr "6to4 worked for me, but the \"Big Packet\" or MTU test was slow/failed. What happened?"
+msgstr "6to4 funcionava pra mim, mas o teste de \"Pacotes grandes\" ou MTU estavam lentos ou falharam. O que aconteceu?"
 
 #: faq_6to4.html
 msgid "When using 6to4, your IPv6 packet has to be pushed into an IPv4 packet. Internet protocol packets have a maximum size; and this can vary based on the Internet service provider, as well as the equipment used."
-msgstr "When using 6to4, your IPv6 packet has to be pushed into an IPv4 packet. Internet protocol packets have a maximum size; and this can vary based on the Internet service provider, as well as the equipment used."
+msgstr "Quando você estiver usando 6to4, seu pacote IPv6 tem que ser guardado dentro de um pacote IPv4. Pacotes IP têm um tamanho máximo, que pode variar dependendo tanto do seu Provedor de Serviços quanto dos equipamentos utilizados."
 
 #: faq_6to4.html
 msgid "Because of this maximum size, your IPv6 packets actually have to be made a bit smaller - so that they fit inside the IPv4 packet, and that the IPv4 packet is still small enough to leave your network."
-msgstr "Because of this maximum size, your IPv6 packets actually have to be made a bit smaller - so that they fit inside the IPv4 packet, and that the IPv4 packet is still small enough to leave your network."
+msgstr "Por causa deste tamanho máximo, seus pacotes IPv6 na verdade têm que ser menores ainda, para que eles consigam ser guardados dentro de um pacote IPv4 e este pacote IPv4 ainda seja pequeno o suficiente para sair da sua rede."
 
 #: faq_6to4.html
 msgid "Further down the line, there may be another network with even tigher restrictions on the packet size. That network may itself be a tunnel - ISPs occasionally have to do that. This is where the problem often - lies. The IPv4 tunnel will send a message back towards you, - indicating that the packet was too big - but you don't get it. Even - if you do, your IPv6 packets don't get the message, so ultimately - you never reduce your packet size."
