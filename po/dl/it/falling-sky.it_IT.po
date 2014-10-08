@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2014-08-13 10:34-0400\n"
+"PO-Revision-Date: 2014-10-08 09:45-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Italian\n"
 "MIME-Version: 1.0\n"
@@ -2534,7 +2534,7 @@ msgstr "Sharing IPv4 addresses is an extra expense for the ISP that they will be
 
 #: tunnel.inc
 msgid "What is a tunnel?"
-msgstr "What is a tunnel?"
+msgstr "Che cosa è un tunnel?"
 
 #: tunnel.inc
 msgid "A tunnel is a technique often used to transport one protocol over another one. For example, it is used by ADSL to transport PPP over ATM (a common technique for several Internet residential subscribers)."
