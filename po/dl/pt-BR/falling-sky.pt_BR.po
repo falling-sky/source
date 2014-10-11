@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2014-10-07 20:00-0400\n"
+"PO-Revision-Date: 2014-10-09 09:30-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Portuguese, Brazilian\n"
 "MIME-Version: 1.0\n"
@@ -718,11 +718,11 @@ msgstr "Na maioria dos computadores, você pode clicar com o botão direito na U
 
 #: sites.inc
 msgid "<b>Because you have IPv6</b>, we've added this tab to show you whether or not you can reach other IPv6 web sites on the Internet. Consider notifying your ISP, if there are sites that show up as broken. If you are the ISP, you can click the Info link to see what test URLs are being used."
-msgstr "<b>Porque você tem IPv6</b>, adicionamos esta aba para mostrar a você se você pode ou não alcançar outros sites IPv6 na Internet. Considere notificar seu Provedor de Serviços caso algum dos sites que não estão funcionando. Se você for o Provedor de Serviços, você pode clicar no link de informações para ver quais URLs de teste estão sendo utilizadas."
+msgstr "<b>Porque você tem IPv6</b>, adicionamos esta aba para mostrar a você se você consegue ou não alcançar outros sites IPv6 na Internet. Considere notificar seu Provedor de Serviços caso algum dos sites não esteja funcionando. Se você for o Provedor de Serviços, você pode clicar no link de informações para ver quais URLs de teste estão sendo utilizadas."
 
 #: sites.inc
 msgid "<b>Hint</b>: Columns are sortable (click the first row); <a href=\"#\" onclick=\"GIGO.test_sites(2); return false;\">click here</a> to re-check reachability from where you are to those mirrors."
-msgstr "<b>Dica</b>: Colunas são ordenáveis (clique na primeira linha); <a href=\"#\" onclick=\"GIGO.test_sites(2); return false;\">clique aqui</a> para verificar novamente o acesso de onde você está até os mirrors."
+msgstr "<b>Dica</b>: Você pode ordenar as colunas (clique na primeira linha); <a href=\"#\" onclick=\"GIGO.test_sites(2); return false;\">clique aqui</a> para verificar novamente seu acesso até os mirrors."
 
 #: sites.inc
 msgid "It is real easy to get added to this list for basic checks. Just provide two image URLs (one IPv4-only; one IPv6-only), to Jason Fesler &lt;jfesler@gigo.com&gt;. Also send your general web site address and organization name."
@@ -1434,7 +1434,7 @@ msgstr "P: Como este teste funciona?"
 
 #: faq.html
 msgid "The test is entirely client-side javascript. To determine reachability, a series of ajax requests are made from the web server, using various DNS names that force the use of IPv6 only, or dual stack, or other such scenarios. The pass/fail of such fetches, as well as how long they take, are taken into account."
-msgstr "O teste é feito completamente de javascript. Para determinar a conectividade, uma série de requisições ajax são feitas do servidor web, utilizando vários nomes de DNS que forçam o uso apenas de IPv6, pilha dupla, ou outros cenários semelhantes. O sucesso/falha de tais buscas e também o tempo que demoram são levados em conta para exibição do resultado."
+msgstr "O teste é feito completamente em javascript. Para determinar a conectividade, uma série de requisições ajax são feitas do servidor web, utilizando vários nomes de DNS que forçam o uso apenas de IPv6, pilha dupla, ou outros cenários semelhantes. O sucesso/falha destas buscas e também o tempo que elas demoram são levados em conta."
 
 #: faq.html
 msgid "Q: Why is this web site reachable via IPv4 only?"
@@ -1442,7 +1442,7 @@ msgstr "P: Porque este site é acessível apenas através de IPv4?"
 
 #: faq.html
 msgid "You're right, there are no AAAA records, intentionally. A percentage of users are unable to browse sites that are dual-stack. If the users can't connect, then they can't be told they have a problem. This is a big problem facing content providers today; of which, I work at one for my &#36;dayjob. As such, the main test page requires IPv4 (either native or translated)."
-msgstr "Você está certo, não existem registros AAAA, de propósito. Uma grande porcentagem de usuários não conseguem navegar em sites que utilizam pilha dupla. Se os usuários não conseguem conectar, eles podem não saber que têm um problema. Isto é um grande problema para provedores de conteúdo hoje (eu &#36;trabalho para um deles). Assim, a página principal do teste requer IPv4, nativo ou tunelado."
+msgstr "Você está certo, não existem registros AAAA, e é de propósito. Uma grande porcentagem de usuários não conseguem navegar em sites que utilizam pilha dupla. Se eles não conseguem conectar, eles podem não saber que têm um problema. Isto é um problema sério para provedores de conteúdo hoje (eu &#36;trabalho para um deles). Assim, a página principal do teste requer IPv4, nativo ou tunelado."
 
 #: faq.html
 msgid "At some point, when the percentage of \"broken\" users has gone significantly down, I'll consider making test-ipv6.com dual-stack. At least check, May 2013, we still see 0.5% broken visiting test-ipv6.com. And we still want them to understand their situation."
@@ -1454,7 +1454,7 @@ msgstr "P: Como eu testo minha máquina que tem apenas IPv6?"
 
 #: faq.html
 msgid "If you ask that question, chances are you don't need this site. However, if you really want to, visit <a href= \"http://ipv6.test-ipv6.com\">http://ipv6.test-ipv6.com</a> with your IPv6-only host."
-msgstr "Se você está fazendo esta pergunta, a chance de você não precisar deste site é grande. No entanto, se você realmente quer saber, visite <a href= \"http://ipv6.test-ipv6.com\">http://ipv6.test-ipv6.com</a> com sua máquina IPv6-only."
+msgstr "Se você está perguntando isto, a chance de você não precisar deste site é grande. No entanto, se você quer mesmo saber, visite <a href= \"http://ipv6.test-ipv6.com\">http://ipv6.test-ipv6.com</a> com sua máquina que tem só IPv6."
 
 #: faq.html
 msgid "Q: What do you mean by broken?"
@@ -1494,7 +1494,7 @@ msgstr "P: Como seu teste é diferente do teste que provedores de conteúdo est�
 
 #: faq.html
 msgid "Content providers are gathering metrics of broken vs non-broken users, in an aggregate form. They are not at this time actually giving the user feedback as to the user's current state. Those metrics will principally drive the business decision of when to start publishing sites over IPv6, versus remaining IPv4 only. IPv4 only for some content sites really is an option; it has a handful of downsides, but the expectation is that everyone will always be able to reach IPv4, in some fashion."
-msgstr "Provedores de conteúdo estão coletando métricas de usuários com problemas vs usuários sem problemas, de uma maneira agregada. Eles não estão, neste momento, realmente dando feedback ao usuário sobre seu estado atual. Estas métricas vão conduzir as decisões de negócios sobre quando começar a publicar sites em IPv6, ao invés de continuar em IPv4 apenas. Sites apenas em IPv4 é realmente uma opção para alguns provedores de conteúdo e, apesar de ter várias desvantagens, tem a certeza que todo mundo sempre vai conseguir alcançar, de alguma maneira."
+msgstr "Provedores de conteúdo estão coletando métricas de usuários com problemas VS usuários sem problemas, de uma maneira geral. Eles não estão, neste momento, realmente dando feedback ao usuário sobre seu estado atual. Estas métricas vão conduzir as decisões de negócios sobre quando começar a publicar sites em IPv6, ao invés de continuar em IPv4 apenas. Sites apenas em IPv4 é realmente uma opção para alguns provedores de conteúdo e, apesar de ter várias desvantagens, tem a certeza que todo mundo sempre vai conseguir alcançar, de alguma maneira."
 
 #: faq.html
 msgid "This site, on the other hand, is intended to help the user understand their current state, and what that state possibly means to them."
@@ -1522,7 +1522,7 @@ msgstr "para qualquer um dos dois"
 
 #: faq.html
 msgid "Note you _may_ need to specify other options to your telnet command, depending on your operating system. On my mac, for example, I need to use \"<code>telnet -6</code>\"."
-msgstr "Observe que você _pode_ precisar especificar outras opções no seu comando telnet, dependendo do seu sistema operacional. No meu Mac, por exemplo, preciso de usar \"<code>telnet -6</code>\"."
+msgstr "Observe que você _pode_ precisar especificar outras opções no seu comando telnet, dependendo do seu sistema operacional. No meu Mac, por exemplo, preciso usar \"<code>telnet -6</code>\"."
 
 #: faq.html
 msgid "Q: Do you actually read the feedback?"
@@ -1530,7 +1530,7 @@ msgstr "P: Você realmente lê os feedbacks?"
 
 #: faq.html
 msgid "Yes, I do. Thank you! Note that I can only follow up with you if you do leave contact information. While I am still grateful for feedback without contact information, I will be unable to reply with any answers if you asked for them."
-msgstr "Sim, eu leio. Obrigado! Observe que eu só consigo entrar em contato com você se você deixar informações de contato. Eu ainda sou muito grato por feedbacks sem informações de contato, mas não vou conseguir responder suas perguntas, se você fez alguma."
+msgstr "Sim, eu leio. Obrigado! Mas veja que eu só vou conseguir entrar em contato com você se você deixar suas informações de contato. Eu também sou muito grato por feedbacks sem informações de contato, mas não vou conseguir responder suas perguntas, se você fez alguma."
 
 #: faq.html
 msgid "Q: How else can I contact you?"
@@ -1682,7 +1682,7 @@ msgstr "Obrigado a todas organizações que tiveram um esforço significativo pa
 
 #: mirrors.html
 msgid "Hints Columns are sortable (click the first row); <a href=\"#\" onclick=\"GIGO.test_sites(1); return false;\">click here</a> to re-check reachability from where you are to those mirrors."
-msgstr "<b>Dica</b>: Colunas são ordenáveis (clique na primeira linha); <a href=\"#\" onclick=\"GIGO.test_sites(2); return false;\">clique aqui</a> para verificar novamente o acesso de onde você está até os mirrors."
+msgstr "<b>Dica</b>: Você pode ordenar as colunas (clique na primeira linha); <a href=\"#\" onclick=\"GIGO.test_sites(2); return false;\">clique aqui</a> para verificar novamente seu acesso até os mirrors."
 
 #: mirrors.html
 msgid "(generated by javascript)"
