@@ -206,4 +206,9 @@ GIGO.mirrors = [{
     "loc": "SG",
     "provider": "Delan Azabani",
     "hide": 0
+}, {
+    "site": "test-ipv6.alpinedc.ch",
+    "loc": "CH",
+    "provider": "AlpineDC",
+    "hide": 0
 }];
