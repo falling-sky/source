@@ -22,19 +22,19 @@ foreach my $key (keys %$ref) {
 }
 
 
-open(FILE,">sites_parsed.js");
+open(FILE,">../js/sites_parsed.js");
 #binmode FILE, ":utf8";
 print FILE "GIGO.sites_parsed=";
 print FILE JSON::XS->new->pretty(1)->canonical(1)->encode($ref);
 print FILE ";";
 close FILE;
 
-open(FILE,">sites_parsed_raw.js");
+open(FILE,">../js/sites_parsed_raw.js");
 #binmode FILE, ":utf8";
 print FILE JSON::XS->new->pretty(1)->canonical(1)->encode($ref);
 close FILE;
 
-open(FILE,">sites_parsed_raw.yaml");
+open(FILE,">../js/sites_parsed_raw.yaml");
 #binmode FILE, ":utf8";
 print FILE Dump($ref);
 close FILE;
