@@ -190,10 +190,6 @@ GIGO.sites_init = function () {
 };
 
 GIGO.sites_queue_entry = function (r) {
-    if (r.hide) {
-        return;
-    }
-
     if (!r.v4) {
         r.v4 = "ipv4." + r.site + "/images-nc/knob_valid_green.png";
     }
@@ -204,28 +200,21 @@ GIGO.sites_queue_entry = function (r) {
 };
 
 GIGO.sites_queue_all = function (mode) {
-    var i, r;
-    if ((mode === 1) || (mode === 2)) {
-        for (i = 0; i < GIGO.mirrors.length; i = i + 1) {
-            r = GIGO.mirrors[i];
-            r.is_mirror = 1;
-            r.is_site = 0;
-            if ((mode === 2) && (r.skipsites)) continue;
-            GIGO.sites_queue_entry(r);
-        }
+    var r, siteName;
+    
+    // mirrors only if mode=1
+    // all sites if mode=2 
+    debugger;
+    
+    for (siteName in GIGO.sites_parsed) {
+      r = GIGO.sites_parsed[siteName];
+      if (mode === 1) {
+        if (! r.mirror) continue;
+        if (! parseInt(r.mirror)) continue;
+      }
+      GIGO.sites_queue_entry(r);
     }
-
-    // Mirrors(1)  skip this.  OtherSites(2) get this.
-    if ((mode === 2)) {
-        for (i = 0; i < GIGO.sites.length; i = i + 1) {
-            r = GIGO.sites[i];
-            r.is_mirror = 0;
-            r.is_site = 1;
-            GIGO.sites_queue_entry(r);
-        }
-    }
-
-
+    
 };
 
 GIGO.sites_prepare_helpdesk = function (mode) {
@@ -298,8 +287,8 @@ GIGO.sites_display_bad_r_to_tr = function (r) {
     tr.append(jQuery("<td>").text(parts[0]));
 
     a = jQuery("<a>");
-    a.text("http://" + r.v6);
-    a.attr("href", "http://" + r.v6);
+    a.text(r.v6);
+    a.attr("href", r.v6);
     a.attr("target", "_blank");
 
     tr.append(jQuery("<td>").append(a));
@@ -352,16 +341,16 @@ GIGO.sites_display_add_record = function (r, mode) {
     td_info.click(function () {
         GIGO.sites_display_td_provider_div_update(r, $("<a>", {
             text: r.v4,
-            href: "http://" + r.v4,
+            href: r.v4,
             target: "_blank"
         }), $("<a>", {
             text: r.v6,
-            href: "http://" + r.v6,
+            href: r.v6,
             target: "_blank"
         }));
     });
 
-    if ((mode === 2) && (r.is_mirror)) {
+    if ((mode === 2) && (r.mirror) && (parseInt(r.mirror))) {
 
         // This should be done with jquery to avoid any potential abuse in mirrors.js, but
         // I can't find the right incantation.
@@ -457,7 +446,7 @@ GIGO.sites_start_ipv6_take2 = function (r) {
         return;
     }
 
-    url = "http://" + r.v6 + "?nocache=" + Math.random();
+    url = r.v6 + "?nocache=" + Math.random();
 
 
 
@@ -541,7 +530,7 @@ GIGO.sites_start_ipv6 = function (r) {
     // with handlers on it.
     // Finalize the URL.  
     // Include a random number to defeat the browser cache.
-    url = "http://" + r.v6 + "?nocache=" + Math.random();
+    url = r.v6 + "?nocache=" + Math.random();
 
     // Create the image object.
     // We will keep this "off screen".
@@ -584,7 +573,7 @@ GIGO.sites_start_ipv4_take2 = function (r) {
     }
 
 
-    url = "http://" + r.v4 + "?nocache=" + Math.random();
+    url = r.v4 + "?nocache=" + Math.random();
 
 
     if (GIGO.is_replay()) {
@@ -664,7 +653,7 @@ GIGO.sites_start_ipv4 = function (r) {
 
     r.refs.td_status.find('img').css("opacity", "1.0").css("filter", "alpha(opacity=100)");
 
-    url = "http://" + r.v4 + "?nocache=" + Math.random();
+    url = r.v4 + "?nocache=" + Math.random();
     img = jQuery('<img style="display:none" />');
     img_pending = 1;
 

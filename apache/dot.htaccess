@@ -29,6 +29,7 @@ ForceLanguagePriority prefer fallback
 AddType "text/html;charset=UTF-8" .html
 AddType "text/javascript;charset=UTF-8" .js
 AddType "text/css;charset=UTF-8" .css
+AddType "text/plain;charset=UTF-8" .yaml
 RemoveType .gz
 AddEncoding x-gzip .gz
 

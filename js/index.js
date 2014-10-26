@@ -31,8 +31,7 @@
 [% PROCESS   "checkresults.js"             %]
 [% PROCESS   "symptoms.js"                 %]
 [% PROCESS   "show_os.js"                  %]
-[% PROCESS   "mirrors.js"		   %]
-[% PROCESS   "sites.js"		           %]
+[% PROCESS   "sites_parsed.js"		   %]
 [% PROCESS   "sites_check.js"		   %]
 [% PROCESS   "helpdesk.js"                     %]
 

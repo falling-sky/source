@@ -9,6 +9,11 @@ beta: dist-prep download
 	rsync -az work/. /var/www/beta.test-ipv6.com/. --exclude site --delete --progress
 	- test -f /Applications/Safari.app/Contents/MacOS/Safari && open http://beta.test-ipv6.com/isp/
 
+raw: dist-prep download
+	./build.pl --locale en_US --config raw.inc
+	rsync -az work/. /var/www/beta.test-ipv6.com/. --exclude site --delete --progress
+	- test -f /Applications/Safari.app/Contents/MacOS/Safari && open http://beta.test-ipv6.com/isp/
+
 download:
 	cd po && ./download.pl
 
@@ -19,6 +24,7 @@ dist-prep: work
 	mkdir -p work/images-nc
 	rsync -a images/. work/images/.
 	rsync -a images/. work/images-nc/.
+	cd js && ./parse-sites-yaml.pl
 
 dist-test: work
 	 ../dist_support/make-dist.pl --base content --branch test

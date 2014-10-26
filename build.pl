@@ -117,7 +117,9 @@ $VARS->{"AddLanguage"} = get_addlanguage(@LOCALE);
     [ "html", "index.html" ],
     [ "html", "neg.html" ],
     [ "html", "comcast.html" ],
-
+    [ "js",  "sites_parsed.js" ],
+    [ "js",  "sites_parsed_raw.js" ],
+    [ "js",  "sites_parsed_raw.yaml" ],
     [ "html", "locale.html" ],
     [ "html", "faq_helpdesk.html" ],
     [ "html", "broken.html" ],
@@ -442,6 +444,8 @@ sub our_yui {
     my $run = $COMPRESS{$type} if ( exists $COMPRESS{$type} );
     return unless ($run);
     return if ( $argv{"debug"} );
+    return if ($file =~ /.yaml$/);
+    return if ($file =~ /\braw\b/);
 
     my $cwd = cwd;
     $file =~ s#$INSTALL/*##;
