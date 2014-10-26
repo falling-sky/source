@@ -205,7 +205,6 @@ sub run_locale {
                  $i18n->read_file();  # Dies if missing.
                             
     } else {
-         $DB::single=1;
          $i18n = new FSi18n( locale => $locale );
          my $pattern = "po/dl/*/falling-sky.$locale.po";
          my ($found) = glob($pattern);
@@ -356,7 +355,6 @@ sub process {
     die "Missing directory: $INSTALL" unless ( -d $INSTALL );
 
     if ( $locale ne "pot" ) {
-    $DB::single=1;
         our_save( "$INSTALL/$lname", $output );
         our_yui( "$INSTALL/$lname", $type );
         our_gzip("$INSTALL/$lname");
@@ -442,10 +440,12 @@ sub our_yui {
     my ( $file, $type ) = @_;
 
     my $run = $COMPRESS{$type} if ( exists $COMPRESS{$type} );
+    $DB::single=1;
+    
     return unless ($run);
     return if ( $argv{"debug"} );
     return if ($file =~ /.yaml$/);
-    return if ($file =~ /\braw\b/);
+    return if ($file =~ /_raw/);
 
     my $cwd = cwd;
     $file =~ s#$INSTALL/*##;
@@ -672,7 +672,6 @@ sub filter_i18n_factory {
             $text =~ s/^\s+//;
             $text =~ s/\s+/ /g;  # Canonicalize any size whitespace to single space
             $text =~ s/\s+$//;
-            $DB::single=1;
             my $found = $i18n->find_text($text,$arg1);
             return $found;
         };
