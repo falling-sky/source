@@ -1,14 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2014-05-09 13:24-0400\n"
+"PO-Revision-Date: 2014-10-21 02:30-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Czech\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: crowdin.net\n"
+"X-Generator: crowdin.com\n"
 "Language: cs_CZ\n"
 
 #: mirrorconfig.js
@@ -29,7 +30,7 @@ msgstr "pomalé"
 
 #: messages.js
 msgid "timeout"
-msgstr "timeout"
+msgstr "časový limit"
 
 #: messages.js
 msgid "Connections to urls with IP addresses appear to be blocked; perhaps by a web filter such as 'NoScript' or 'RequestPolicy' installed into your browser, or filtering in your proxy server. This limits some of the functionality of this test site."
@@ -57,7 +58,7 @@ msgstr "Zdá se, že Vaše IPv6 spojení funguje přes Teredo, což je způsob p
 
 #: messages.js
 msgid "Your IPv6 connection appears to be using Teredo, a type of IPv4/IPv6 gateway. Your particular teredo configuration is only used as a protocol of last resort. When visiting a site with both IPv4 and IPv6, IPv4 will be preferred."
-msgstr "Your IPv6 connection appears to be using Teredo, a type of IPv4/IPv6 gateway. Your particular teredo configuration is only used as a protocol of last resort. When visiting a site with both IPv4 and IPv6, IPv4 will be preferred."
+msgstr "Vaše IPv6 připojení používá Teredo což je typ IPv4/IPv6 brány. Vaše konfigurace teredo slouží pouze jako protokol poslední instance. Pokud navštívíte web s podporou IPv4 a IPv6, Váš počítač dá přednost IPv4."
 
 #: messages.js
 msgid "Danger! IPv6 sorta works - however, large packets appear to fail, giving the appearance of a broken website. If a publisher publishes to IPv6, you will believe their web site to be broken. Ask your ISP about MTU issues; possibly with your tunnel."
@@ -65,7 +66,7 @@ msgstr "Pozor, nebezpečí! IPv6 vám sice funguje, ale selhává doručování 
 
 #: messages.js
 msgid "Test results inconclusive; they were not consistent with expectations. Please rerun the test, and if the results are the same, please fill out the contact form."
-msgstr "Test results inconclusive; they were not consistent with expectations. Please rerun the test, and if the results are the same, please fill out the contact form."
+msgstr "Výsledek testu není jednoznačný. Spusťte test znovu a pokud jsou výsledky stejné prosím napište přes kontaktní formulář."
 
 #: messages.js
 msgid "For unknown reasons, your browser appears to operate slower when given the option of connecting to both IPv4 and IPv6. Please rerun the test, and if the results are the same, please fill out the contact form."
@@ -233,7 +234,7 @@ msgstr "faq: Bez IPv6"
 
 #: messages.js
 msgid "faq: 6to4"
-msgstr "faq: 6to4"
+msgstr "FAQ: 6to4"
 
 #: messages.js
 msgid "faq: Teredo Minimum"
@@ -253,7 +254,7 @@ msgstr "faq: Firefox Add-Ons"
 
 #: messages.js
 msgid "faq: Opera"
-msgstr "faq: Opera"
+msgstr "FAQ: Opera"
 
 #: messages.js
 msgid "faq: Buggy DNS"
@@ -465,7 +466,7 @@ msgstr "You can opt instead to view the <a href=\"simple_test.html\">simple test
 
 #: main/tabnav.inc
 msgid "For the Help Desk"
-msgstr "For the Help Desk"
+msgstr "Pro help desk"
 
 #: main/tabnav.inc
 msgid "Summary"
@@ -489,7 +490,7 @@ msgstr "Pomoc"
 
 #: main/tabnav.inc
 msgid "Debug"
-msgstr "Debug"
+msgstr "Ladění"
 
 #: main/tabnav.inc
 msgid "Other IPv6 Sites"
@@ -733,15 +734,15 @@ msgstr "Full mirrors are welcomed and appreciated, whether public or private. Pl
 
 #: footer.inc
 msgid "All rights reserved."
-msgstr "All rights reserved."
+msgstr "Všechna práva vyhrazena."
 
 #: footer.inc
 msgid "Mission"
-msgstr "Mission"
+msgstr "Cíl"
 
 #: footer.inc
 msgid "Source"
-msgstr "Source"
+msgstr "Zdroj"
 
 #: footer.inc
 msgid "Email"
@@ -2017,7 +2018,7 @@ msgstr "You (or your techical support) can run <code>dig @DNSSERVER aaaa aaaa.te
 
 #: faq_firefox_plugins.html
 msgid "FAQ on Firefox Plugins"
-msgstr "FAQ on Firefox Plugins"
+msgstr "FAQ na Firefox Pluginy"
 
 #: faq_firefox_plugins.html
 msgid "This FAQ has been produced to try and address issues caused when using Firefox"
@@ -2037,7 +2038,7 @@ msgstr "In the case of Firefox, the most common plugins that cause problems are 
 
 #: faq_firefox_plugins.html
 msgid "Alternative test for you.."
-msgstr "Alternative test for you.."
+msgstr "Alternativní test pro vás..."
 
 #: faq_firefox_plugins.html
 msgid "This image based test is provided as a workaround. It will give you a quick pass/fail test, to tell you if you should be worried for World IPv6 Day."
@@ -2053,27 +2054,27 @@ msgstr "test images for ipv4, dual stack, and ipv6"
 
 #: faq/simple_test.inc
 msgid "Pass?"
-msgstr "Pass?"
+msgstr "Přeskočit?"
 
 #: faq/simple_test.inc
 msgid "Method"
-msgstr "Method"
+msgstr "Postup"
 
 #: faq/simple_test.inc
 msgid "More Info"
-msgstr "More Info"
+msgstr "Více informací"
 
 #: faq/simple_test.inc
 msgid "IPv4. Basic traditional Internet."
-msgstr "IPv4. Basic traditional Internet."
+msgstr "IPv4. Základní tradiční Internet."
 
 #: faq/simple_test.inc
 msgid "If green, you will have no problem on World IPv6 day."
-msgstr "If green, you will have no problem on World IPv6 day."
+msgstr "Je-li to zelené, nebudete mít žádný problém při světovém dni IPv6."
 
 #: faq/simple_test.inc
 msgid "If this fails, seek help from your IT department, helpdesk, or ISP tech support."
-msgstr "If this fails, seek help from your IT department, helpdesk, or ISP tech support."
+msgstr "Pokud se to nedaří, vyhledejte pomoc od IT oddělení, helpdesku nebo technické podpory ISP."
 
 #: faq/simple_test.inc
 msgid "If this fails, consider using the <a href=\"/\">full test</a>, with IE, Firefox, Safari, or Chrome, to get more detailed information about possible failure reasons."
@@ -2113,7 +2114,7 @@ msgstr "Applications to take advantage of this are just now being thought of. Im
 
 #: faq_whyipv6.html
 msgid "What Is Wrong with IPv4"
-msgstr "What Is Wrong with IPv4"
+msgstr "Co je špatného na IPv4"
 
 #: faq_whyipv6.html
 msgid "The traditional IPv4 Internet is running out of space. The IANA registry (at the global level) is either just about out, or totally out, depending on when you read this. They are expected to announce this depletion Janaury or February 2011."

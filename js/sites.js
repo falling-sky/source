@@ -52,7 +52,7 @@ GIGO.sites = [{
     "provider": "RIPE NCC / AS3333",
     "v4": "test-ipv6-com.r4.td.wdm.sg.ripe.net/1x1.gif",
     "v6": "test-ipv6-com.r6.td.wdm.sg.ripe.net/1x1.gif",
-    "hide": 0
+    "hide": 1
 }, {
     "site": "aa.net.uk",
     "loc": "UK",
@@ -101,13 +101,6 @@ GIGO.sites = [{
     "provider": "RCS & RDS",
     "v4": "ipv4.rcs-rds.ro/1x1.gif",
     "v6": "ipv6.rcs-rds.ro/1x1.gif",
-    "hide": 0
-}, {
-    "site": "www.comcast.net",
-    "loc": "US",
-    "provider": "Comcast",
-    "v4": "ipv4only.comcast6.net/images/knob_valid_green.png",
-    "v6": "ipv6only.comcast6.net/images/knob_valid_green.png",
     "hide": 0
 }, {
     "site": "nsx.de",
@@ -192,6 +185,13 @@ GIGO.sites = [{
     "provider": "ZEOP",
     "v4": "test-ipv4.zeop.re/ipv4/ipv4.png",
     "v6": "test-ipv6.zeop.re/ipv6/ipv6.png",
+    "hide": 1
+}, {
+    "site": "www.comcast.net",
+    "loc": "US",
+    "provider": "Comcast",
+    "v4": "ipv4.test-ipv6-ct.comcast.net/images-nc/knob_green.png",
+    "v6": "ipv6.test-ipv6-ct.comcast.net/images-nc/knob_green.png",
     "hide": 0
 }, {
     "site": "campaya.co.uk",
@@ -199,5 +199,5 @@ GIGO.sites = [{
     "provider": "Campaya",
     "v4": "ipv4.campaya.co.uk/apple-touch-icon.png",
     "v6": "ipv6.campaya.co.uk/apple-touch-icon.png",
-    "hide": 0
+    "hide": 1
 }];

@@ -40,7 +40,7 @@ GIGO.mirrors = [{
     "site": "test-ipv6.ceengine.eu",
     "loc": "RO",
     "provider": "Central and Eastern European Networking Engine",
-    "hide": 0
+    "hide": 1
 }, {
     "site": "test-ipv6.internet.fo",
     "loc": "FO",
@@ -111,7 +111,7 @@ GIGO.mirrors = [{
     "site": "test-ipv6.ceengine.eu",
     "loc": "RO",
     "provider": "Central and Eastern European Networking Engine",
-    "hide": 0
+    "hide": 1
 }, {
     "site": "test-ipv6.chiveworthy.com",
     "loc": "US WI",
@@ -160,7 +160,7 @@ GIGO.mirrors = [{
     "site": "test-ipv6.co.za",
     "loc": "ZA",
     "provider": "Neology",
-    "hide": 0
+    "hide": 1
 }, {
     "site": "test-ipv6.vtt.net",
     "loc": "RU",
