@@ -72,7 +72,7 @@ GIGO.messages_popups = {
 // Between the first and second string, there must be a comma and a space.
     "dualstack:mtu": ["faq_pmtud.html", "[% 'faq: MTU' | i18n %]"],
     "IPv6 MTU": ["faq_pmtud.html", "[% 'faq: MTU' | i18n %]"],
-    "ipv4:no_address": ["faq_ipv4_only.html", "[% 'faq: No IPv4' | i18n %]"],
+//    "ipv4:no_address": ["faq_ipv4_only.html", "[% 'faq: No IPv4' | i18n %]"],
     "ipv6:no_address": ["faq_no_ipv6.html", "[% 'faq: No IPv6' | i18n %]"],
     "6to4": ["faq_6to4.html", "[% 'faq: 6to4' | i18n %]"],
     "teredo-minimum": ["faq_teredo_minimum.html", "[% 'faq: Teredo Minimum' | i18n %]"],
