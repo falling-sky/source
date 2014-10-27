@@ -144,7 +144,7 @@ test-ipv6.carnet.hr:
   v6: http://ipv6.test-ipv6.carnet.hr/images-nc/knob_green.png
   monitor: 'CARNet <sysadm@carnet.hr>'
 test-ipv6.ceengine.eu: 
-  hide: 1
+  hide: 0
   loc: RO
   mirror: 1
   provider: Central and Eastern European Networking Engine
@@ -167,7 +167,7 @@ test-ipv6.chiveworthy.com:
   v6: http://ipv6.test-ipv6.chiveworthy.com/images-nc/knob_green.png
   monitor: 'Dale Hartung <dale@dghartung.com>'
 test-ipv6.co.za: 
-  hide: 1
+  hide: 0
   loc: ZA
   mirror: 1
   provider: Neology

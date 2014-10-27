@@ -164,6 +164,16 @@ GIGO.sites_parsed={
       "v4" : "http://ipv4.test-ipv6.carnet.hr/images-nc/knob_green.png",
       "v6" : "http://ipv6.test-ipv6.carnet.hr/images-nc/knob_green.png"
    },
+   "test-ipv6.ceengine.eu" : {
+      "hide" : "0",
+      "loc" : "RO",
+      "mirror" : "1",
+      "monitor" : "NOC @ CEENGINE <valeriu@roedu.net>",
+      "provider" : "Central and Eastern European Networking Engine",
+      "site" : "test-ipv6.ceengine.eu",
+      "v4" : "http://ipv4.test-ipv6.ceengine.eu/images-nc/knob_green.png",
+      "v6" : "http://ipv6.test-ipv6.ceengine.eu/images-nc/knob_green.png"
+   },
    "test-ipv6.chi.vr.org" : {
       "hide" : "0",
       "loc" : "US IL",
@@ -182,6 +192,16 @@ GIGO.sites_parsed={
       "site" : "test-ipv6.chiveworthy.com",
       "v4" : "http://ipv4.test-ipv6.chiveworthy.com/images-nc/knob_green.png",
       "v6" : "http://ipv6.test-ipv6.chiveworthy.com/images-nc/knob_green.png"
+   },
+   "test-ipv6.co.za" : {
+      "hide" : "0",
+      "loc" : "ZA",
+      "mirror" : "1",
+      "monitor" : "Neology Support <support@neology.co.za>",
+      "provider" : "Neology",
+      "site" : "test-ipv6.co.za",
+      "v4" : "http://ipv4.test-ipv6.co.za/images-nc/knob_green.png",
+      "v6" : "http://ipv6.test-ipv6.co.za/images-nc/knob_green.png"
    },
    "test-ipv6.com" : {
       "hide" : "0",
