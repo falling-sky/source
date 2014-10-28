@@ -1,13 +1,15 @@
 msgid ""
-msgstr "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2014-07-04 03:09-0400\n"
+msgstr ""
+"Project-Id-Version: falling-sky\n"
+"PO-Revision-Date: 2014-10-28 10:45-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Spanish\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: crowdin.net\n"
+"X-Generator: crowdin.com\n"
 "Language: es_ES\n"
 
 #: mirrorconfig.js
@@ -144,11 +146,11 @@ msgstr "Una búsqueda de un nombre sólo IPv6 falló; Sin embargo, la búsqueda 
 
 #: messages.js
 msgid "A lookup for an IPv6-only name failed; yet the lookup and connect for dual-stack connected via IPv6. The IPv6-only lookup should have worked. Apple has a bug that sporadically causes some IPv6 lookups to fail. We saw evidence of it on this test. You can reload the page and try the test again. For more details, see <a href=\"http://openradar.appspot.com/7333104\">http://openradar.appspot.com/7333104</a>."
-msgstr "A lookup for an IPv6-only name failed; yet the lookup and connect for dual-stack connected via IPv6. The IPv6-only lookup should have worked. Apple has a bug that sporadically causes some IPv6 lookups to fail. We saw evidence of it on this test. You can reload the page and try the test again. For more details, see <a href=\"http://openradar.appspot.com/7333104\">http://openradar.appspot.com/7333104</a>."
+msgstr "La búsqueda de un nombre sólo IPv6 falló; sin embargo, la búsqueda y conexión dual-stack  a través de IPv6 ha funcionado. La búsqueda sólo IPv6 debería haber funcionado. Apple tiene un bug que provoca esporádicamente que algunas búsquedas de IPv6 fallen. Encontramos síntomas de ello en esta prueba. Puedes recargar la página y reintntar la prueba. Para más detalles, consulta <a href=\"http://openradar.appspot.com/7333104\"> http://openradar.appspot.com/7333104</a>."
 
 #: messages.js
 msgid "A lookup for an dual-stack IPv4 and IPv6 name failed (at minimum it should have connected via IPv4). Apple has a bug that sporadically causes some IPv6 lookups to fail. We saw evidence of it on this test. You can reload the page and try the test again. For more details, see <a href=\"http://openradar.appspot.com/7333104\">http://openradar.appspot.com/7333104</a>."
-msgstr "A lookup for an dual-stack IPv4 and IPv6 name failed (at minimum it should have connected via IPv4). Apple has a bug that sporadically causes some IPv6 lookups to fail. We saw evidence of it on this test. You can reload the page and try the test again. For more details, see <a href=\"http://openradar.appspot.com/7333104\">http://openradar.appspot.com/7333104</a>."
+msgstr "La búsqueda de un nombre dual-stack IPv4 y IPv6 falló (Debería haber, como mínimo, funcionado en IPv4). Apple tiene un bug que provoca esporádicamente que algunas búsquedas de IPv6 fallen. Encontramos síntomas de ello en esta prueba. Puedes recargar la página y reintntar la prueba. Para más detalles, consulta <a href=\"http://openradar.appspot.com/7333104\"> http://openradar.appspot.com/7333104</a>."
 
 #: messages.js
 msgid "No IPv4 address detected"
@@ -160,23 +162,23 @@ msgstr "Sin dirección IPv6 detectada"
 
 #: messages.js
 msgid "Your IP address(es) could not be detected due to inteference from browser add-ons."
-msgstr "Your IP address(es) could not be detected due to inteference from browser add-ons."
+msgstr "No se pudo detectar tu dirección IP debido a interferencia de complementos de tu navegador de internet."
 
 #: messages.js
 msgid "The Opera web browser seems to be break on this site frequently. <b>If you have trouble, try another browser</b>."
-msgstr "The Opera web browser seems to be break on this site frequently. <b>If you have trouble, try another browser</b>."
+msgstr "El navegador Opera suele fallar frecuentemente visitando este sitio. <b>Si tienes problemas, intenta con otro navegador</b>."
 
 #: messages.js
 msgid "<b>Disable turbo mode on Opera, and try again.</b> Turbo mode is not compatible with the needs of this site."
-msgstr "<b>Disable turbo mode on Opera, and try again.</b> Turbo mode is not compatible with the needs of this site."
+msgstr "<b>Deshabilta el modo  en Opera, e inténtalo de nuevo.</b> El modo turbo no es compatible con las necesidades de éste sitio."
 
 #: messages.js
 msgid "<b>Good news!</b> Your current configuration will continue to work as web sites enable IPv6."
-msgstr "<b>Good news!</b> Your current configuration will continue to work as web sites enable IPv6."
+msgstr "<b>Buena noticia!</b> Tu configuración actual segruirá funcionando cuando los sitios web activen IPv6."
 
 #: messages.js
 msgid "<b>Our tests show that you will have a broken or misconfigured IPv6 setup, and this will cause problems as web sites enable IPv6.</b>"
-msgstr "<b>Our tests show that you will have a broken or misconfigured IPv6 setup, and this will cause problems as web sites enable IPv6.</b>"
+msgstr "<b>Las pruebas indican que tienes una problema de configuración IPv6, ésto causará problemas cuando los  sitios web habiliten IPv6.</b>"
 
 #: messages.js
 msgid "<b>Our tests show that you will may have MTU problems with IPv6; this can cause web sites to load slow (or not at all) when web sites enable IPv6.</b>"
