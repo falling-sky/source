@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2014-10-10 11:46-0400\n"
+"PO-Revision-Date: 2014-10-29 10:15-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Italian\n"
 "MIME-Version: 1.0\n"
@@ -782,7 +782,7 @@ msgstr "Warn of slow/timeout"
 
 #: faq_helpdesk.html
 msgid "Warn of MTU"
-msgstr "Warn of MTU"
+msgstr "Avviso di MTU"
 
 #: faq_helpdesk.html
 msgid "Status of reachability to “other sites” (as compact as possible)"
@@ -790,7 +790,7 @@ msgstr "Status di raggiungibilità degli \"altri siti\" (più corto possibile)"
 
 #: faq_helpdesk.html
 msgid "IP address shown, in case tech support needs it."
-msgstr "IP address shown, in case tech support needs it."
+msgstr "Indirizzo IP mostrato, nel caso in cui il supporto tecnico ne avesse bisogno."
 
 #: faq_helpdesk.html
 msgid "List of unreachable sites, if any"
@@ -802,11 +802,11 @@ msgstr "D: Qual è la strada più comoda per raggiungere il tab dell'Help Desk?"
 
 #: faq_helpdesk.html
 msgid "There are several ways to do it. Some of these are more obvious than the others when reading; some of them may be easier when read over the phone. In all of these cases, the \"Help Desk\" tab is moved to be the first and default tab shown to the user, instead of exposing the more detailed user-facing page."
-msgstr "There are several ways to do it. Some of these are more obvious than the others when reading; some of them may be easier when read over the phone. In all of these cases, the \"Help Desk\" tab is moved to be the first and default tab shown to the user, instead of exposing the more detailed user-facing page."
+msgstr "Ci sono diversi modi per farlo. Alcune di queste sono più ovvie rispetto ad altre durante la lettura; alcune potrebbero essere più facili quando viene letto al telefono. In tutti i casi, il tab \"Help Desk\" viene spostato per essere il primo tab mostrato all'utente, invece di mostrare la pagina utente più dettagliata."
 
 #: faq_helpdesk.html
 msgid "Mirror sites may not have all the fancy DNS names; they are more likely to be useful like this:"
-msgstr "Mirror sites may not have all the fancy DNS names; they are more likely to be useful like this:"
+msgstr "I siti mirror potrebbe non avere tutti i nomi DNS di fantasia; essi sono più utili come questo:"
 
 #: faq_helpdesk.html
 msgid "Q: What are the Help Desk codes?"
@@ -826,23 +826,23 @@ msgstr "Suggestions are welcome; especially from those operating help desks. Thi
 
 #: broken.html
 msgid "What to do if you're broken..."
-msgstr "What to do if you're broken..."
+msgstr "Cosa fare se riscontri un problema..."
 
 #: broken.html
 msgid "If you are reading this page, it means that we've identified that your host will have problems on World IPv6 Day. Any web site that goes \"dual stack\" (meaning, both IPv4 and IPv6), will be unreachable to you."
-msgstr "If you are reading this page, it means that we've identified that your host will have problems on World IPv6 Day. Any web site that goes \"dual stack\" (meaning, both IPv4 and IPv6), will be unreachable to you."
+msgstr "Se stai leggendo questa pagina, significa che abbiamo rilevato che il tuo host avrà dei problemi al World IPv6 Day. Qualsiasi sito web che usa il \"dual stack\" (significa sia IPv4 che IPv6), sarà irraggiungibile per te."
 
 #: broken.html
 msgid "To resolve this, you'll first need to identify your IPv6 address (if you have one) and your IPv6 default route (if you have one). This will help identify which sections to read."
-msgstr "To resolve this, you'll first need to identify your IPv6 address (if you have one) and your IPv6 default route (if you have one). This will help identify which sections to read."
+msgstr "Per risolvere, questo problema, è necessario innanzitutto identificare l' indirizzo IPv6 (se ne hai uno) e la route di default (se ne hai una). Questo ti aiuterà a capire quali sezioni leggere."
 
 #: broken.html
 msgid "If you find your particular problem is not well represented; or you have additional suggestions; please do leave feedback using the <a href='#' onclick='return GIGO.tabnav(\"mail\");'>form</a> (or contact <a href=\"mailto:jfesler@test-ipv6.com\">jfesler@test-ipv6.com</a>)."
-msgstr "If you find your particular problem is not well represented; or you have additional suggestions; please do leave feedback using the <a href='#' onclick='return GIGO.tabnav(\"mail\");'>form</a> (or contact <a href=\"mailto:jfesler@test-ipv6.com\">jfesler@test-ipv6.com</a>)."
+msgstr "Se trovi che il tuo particolare problema non è ben rappresentato; o hai suggerimenti aggiuntivi; si prega di lasciare dei commenti usando il <a href='#' onclick='return GIGO.tabnav(\"mail\");'>form</a> (o contatta <a href=\"mailto:jfesler@test-ipv6.com\">jfesler@test-ipv6.com</a>)."
 
 #: broken.html
 msgid "Make sure you are current"
-msgstr "Make sure you are current"
+msgstr "Assicurarsi che siano in corso"
 
 #: broken.html
 msgid "Find your IP address"
@@ -882,19 +882,19 @@ msgstr "Molti produttori di Hardware e OS stanno facendo degli aggiornamenti per
 
 #: faq/staycurrent.inc
 msgid "You can do your part to make sure you are running the latest:"
-msgstr "You can do your part to make sure you are running the latest:"
+msgstr "Puoi fare la tua parte assicurandoti che stai eseguendo l'ultima:"
 
 #: faq/staycurrent.inc
 msgid "OS - Make sure you have the latest."
-msgstr "OS - Make sure you have the latest."
+msgstr "OS - Assicurarsi di avere l'ultima versione."
 
 #: faq/staycurrent.inc
 msgid "Mac users: Apple OS X 10.6.7 is recommended for improved IPv6 support."
-msgstr "Mac users: Apple OS X 10.6.7 is recommended for improved IPv6 support."
+msgstr "Utenti Mac: Apple OS X 10.6.7 è raccomandato per il migliore supporto all' IPv6."
 
 #: faq/staycurrent.inc
 msgid "Mac users on 10.4 or 10.5 may need to disable IPv6 if other troubleshooting steps fail."
-msgstr "Mac users on 10.4 or 10.5 may need to disable IPv6 if other troubleshooting steps fail."
+msgstr "Utenti Mac con la versione 10.4 o 10.5 potrebbero dover disabilitare l' IPv6 se altre procedure di risoluzione falliscono."
 
 #: faq/staycurrent.inc
 msgid "Windows users: go to"
@@ -906,7 +906,7 @@ msgstr "Utenti iPhone/iPad: al momento non è possibile suggerire nessuna versio
 
 #: faq/staycurrent.inc
 msgid "Routers - Make sure you have the latest firmware installed. Some vendors have updated the defaults, or put in health checks before enabling IPv6."
-msgstr "Routers - Make sure you have the latest firmware installed. Some vendors have updated the defaults, or put in health checks before enabling IPv6."
+msgstr "Routers - Assicurarsi di avere l'ultima versione firmware installata. Alcuni venditori hanno aggiornato le impostazioni predefinite, o hanno fatto i controlli prima di abilitare l' IPv6."
 
 #: faq/staycurrent.inc
 msgid "If you are using an Apple router or Time Capsule, load the Airport Utility to check that your router is up to date."
@@ -2406,67 +2406,67 @@ msgstr "With Linux, BSD, and Mac OS X, you can do this in a terminal: <code>cat 
 
 #: faq_buggydns1.html
 msgid "Residential ISP customers: look to see if the DNS server is <b>192.168.0.1</b> or <b>192.168.1.1</b>. If so, chances are good that your home router is at fault. This is probably the blue box you have that connects the Internet."
-msgstr "Residential ISP customers: look to see if the DNS server is <b>192.168.0.1</b> or <b>192.168.1.1</b>. If so, chances are good that your home router is at fault. This is probably the blue box you have that connects the Internet."
+msgstr "Clienti ISP residenziali: controllare se il DNS server è <b>192.168.0.1</b> oppure <b>192.168.1.1</b>. Se è così, ci sono buone possibilità che la causa sia il router di casa. Questa è probabilmente la scatola blu che hai per connetterti a internet."
 
 #: faq_buggydns1.html
 msgid "Business customers: Provide this information to your IT professional to investigate."
-msgstr "Business customers: Provide this information to your IT professional to investigate."
+msgstr "Clienti business: fornire questa informazione all'esperto IT per indagare."
 
 #: faq_buggydns1.html
 msgid "IT professionals:"
-msgstr "IT professionals:"
+msgstr "Esperti IT:"
 
 #: faq_buggydns1.html
 msgid "You can see an illustration of this, by doing:"
-msgstr "You can see an illustration of this, by doing:"
+msgstr "Si può vedere un' illustrazione di tutto questo, facendo:"
 
 #: faq_buggydns1.html
 msgid "Substitute the 192.168.1.1 with the resolver being used by the host. If the \"aaaa\" answer comes back with no answer, but the \"a\" answer does, this is a confirmation of a broken DNS cache or forwarder. The actual DNS information for buggydns1.test-ipv6.com has only an IPv6 record configured."
-msgstr "Substitute the 192.168.1.1 with the resolver being used by the host. If the \"aaaa\" answer comes back with no answer, but the \"a\" answer does, this is a confirmation of a broken DNS cache or forwarder. The actual DNS information for buggydns1.test-ipv6.com has only an IPv6 record configured."
+msgstr "Sostituire 192.168.1.1 con il resolver utilizzato dall' host. Se la risposta \"aaaa\" torna indietro senza una risposta, ma una risposta \"a\" arriva, significa che è presente un problema con la cache del DNS o il forwarder. Le informazioni DNS attuali per buggydns1.test-ipv6.com contengono un solo record IPv6 configurato."
 
 #: faq_avoids_ipv6.html
 msgid "Your browser is avoiding IPv6."
-msgstr "Your browser is avoiding IPv6."
+msgstr "Il tuo browser sta evitando l' IPv6."
 
 #: faq_avoids_ipv6.html
 msgid "What we found"
-msgstr "What we found"
+msgstr "Quello che abbiamo trovato"
 
 #: faq_avoids_ipv6.html
 msgid "What causes a preference for IPv4"
-msgstr "What causes a preference for IPv4"
+msgstr "Quello che causa la scelta dell' IPv4"
 
 #: faq_avoids_ipv6.html
 msgid "Why this worries us"
-msgstr "Why this worries us"
+msgstr "Perchè questo ci preoccupa"
 
 #: faq_avoids_ipv6.html
 msgid "This document explains why we worry when IPv4 is preferred over IPv6."
-msgstr "This document explains why we worry when IPv4 is preferred over IPv6."
+msgstr "Questo documento spiega perchè siamo preoccupati quando l' IPv4 viene preferito all' IPv6."
 
 #: faq_avoids_ipv6.html
 msgid "This section applies only when we offered to show you this page from inside the test."
-msgstr "This section applies only when we offered to show you this page from inside the test."
+msgstr "Questa sezione si applica solo quando noi abbiamo scelto di mostrarti questa pagina dall'interno del test."
 
 #: faq_avoids_ipv6.html
 msgid "First of all, we detected you had a working IPv6 connection. We also found that your IPv6 connection, was using a \"real\" IPv6 address; meaning not a Teredo or a 6to4 address."
-msgstr "First of all, we detected you had a working IPv6 connection. We also found that your IPv6 connection, was using a \"real\" IPv6 address; meaning not a Teredo or a 6to4 address."
+msgstr "Prima di tutto, abbiamo rilevato che si sta usando una connessione IPv6. Inoltre abbiamo verificato che si stia utilizzando un indirizzo IPv6 \"reale\"; e non un Teredo o un indirizzo 6to4."
 
 #: faq_avoids_ipv6.html
 msgid "Second, we detected that when given the choice, your browser decided it would prefer to use IPv4 instead of IPv6. This has some concerns for us."
-msgstr "Second, we detected that when given the choice, your browser decided it would prefer to use IPv4 instead of IPv6. This has some concerns for us."
+msgstr "Secondo, abbiamo rilevato che quando viene data la scelta, il tuo browser preferisce usare IPv4 e non IPv6. Questo ci fa preoccupare."
 
 #: faq_avoids_ipv6.html
 msgid "Causes for preferring IPv4"
-msgstr "Causes for preferring IPv4"
+msgstr "Causa che forzano la scelta dell' IPv4"
 
 #: faq_avoids_ipv6.html
 msgid "There are several possible reasons why a browser might prefer IPv4 instead of IPv6."
-msgstr "There are several possible reasons why a browser might prefer IPv4 instead of IPv6."
+msgstr "Ci sono diverse ragioni per le quali un browser preferisce l' IPv4 all' IPv6."
 
 #: faq_avoids_ipv6.html
 msgid "Google's \"Chrome\" has a \"fast fallback\" mechanism. On the first try to a site, it will prefer IPv6. If connections take longer than a third of a second, IPv4 is attempted in parallel; and the better of the two will be used for that site."
-msgstr "Google's \"Chrome\" has a \"fast fallback\" mechanism. On the first try to a site, it will prefer IPv6. If connections take longer than a third of a second, IPv4 is attempted in parallel; and the better of the two will be used for that site."
+msgstr "Google \"Chrome\" ha un meccanismo di \"fallback veloce\". Al primo tentativo preferirà l' IPv6. Se le connessioni impiegano più di un terzo di secondo, viene tentata in parallelo la configurazione IPv4; la migliore connessione risultante tra le due sarà utilizzata per il sito."
 
 #: faq_avoids_ipv6.html
 msgid "(more info)"
@@ -2474,63 +2474,63 @@ msgstr "(maggiori informazioni)"
 
 #: faq_avoids_ipv6.html
 msgid "Firefox (recent builds) does the same as Chrome."
-msgstr "Firefox (recent builds) does the same as Chrome."
+msgstr "Firefox (recenti versioni) opera allo stesso modo di Chrome."
 
 #: faq_avoids_ipv6.html
 msgid "The latest Windows 7 and Windows 8 updates will periodically test to see if IPv6 works. If the health check fails, then many applications (including Internet Explorer) will use IPv4, to insulate you from any local IPv6 misconfiguration."
-msgstr "The latest Windows 7 and Windows 8 updates will periodically test to see if IPv6 works. If the health check fails, then many applications (including Internet Explorer) will use IPv4, to insulate you from any local IPv6 misconfiguration."
+msgstr "Gli ultimi aggiornamenti di Windows 7 e Windows 8 testeranno periodicamente se l' IPv6 funziona. Se il test sullo stato fallisce, molto applicazioni (Internet Explorer incluso) useranno l' IPv4, per isolarti da eventuali errori di configurazione IPv6 locale."
 
 #: faq_avoids_ipv6.html
 msgid "Apple's latest Lion and Mountain Lion updates will prefer whichever is \"faster\" for a given destination."
-msgstr "Apple's latest Lion and Mountain Lion updates will prefer whichever is \"faster\" for a given destination."
+msgstr "Gli aggiornamenti Apple per Lion e Mountain Lion preferiscono qualsiasi cosa sia \"veloce\" per la destinazione richiesta."
 
 #: faq_avoids_ipv6.html
 msgid "When you use the Internet, a connection is made between your computer, and the service you're connecting to. To connect, you have to have the other side's IP - Internet Protocol - number. And, when you connect, they see yours, so they can send traffic back to you and your applications."
-msgstr "When you use the Internet, a connection is made between your computer, and the service you're connecting to. To connect, you have to have the other side's IP - Internet Protocol - number. And, when you connect, they see yours, so they can send traffic back to you and your applications."
+msgstr "Quando si utilizza internet, una connessione viene effettuata tra il tuo computer, e il servizio al quale ti stai connettendo. Per connettersi, si deve conoscere il numero IP - Internet Protocol - dell'altra parte. E, quando ci si connette, l'altra parte vede il tuo numero, cosicchè possa inviare traffico di risposta a te a alle tue applicazioni."
 
 #: faq_avoids_ipv6.html
 msgid "The Internet protocol that we've been using for the 1990's and the 2000s, has run out of these unique numbers. We can keep going, but with some limitations, by sharing multiple machines with one number. Often times, we do this at home or at work."
-msgstr "The Internet protocol that we've been using for the 1990's and the 2000s, has run out of these unique numbers. We can keep going, but with some limitations, by sharing multiple machines with one number. Often times, we do this at home or at work."
+msgstr "Il protocollo internet utilizzato negli anni 90 e 2000, ha esaurito i numeri unici. Può ancora funzionare, ma con alcune limitazioni, condividendo un numero per più macchine. Spesso, questa tecnica viene utilizzata a casa o a lavoro."
 
 #: faq_avoids_ipv6.html
 msgid "What is changing is that the Internet Service Providers are all facing the fact that they will have to implement this type of address sharing, on a much larger scale. Some buzzwords you may hear: NAT, CGN, Carrier Grade NAT, LSN, Large Scale NAT. They all look something like this:"
-msgstr "What is changing is that the Internet Service Providers are all facing the fact that they will have to implement this type of address sharing, on a much larger scale. Some buzzwords you may hear: NAT, CGN, Carrier Grade NAT, LSN, Large Scale NAT. They all look something like this:"
+msgstr "Quello che sta cambiando è che tutti i providers di servizi Internet sono di fronte al fatto che dovranno implementare questo tipo di indirizzo di condivisione, su una scala molto più ampia. Alcune parole d'ordine che si possono sentire: NAT, CGN, Carrier Grade NAT, LSN, Large Scale NAT. Somigliano tutti a qualcosa tipo questo:"
 
 #: faq_avoids_ipv6.html
 msgid "The thing to watch for here: <b>Many</b> houses sharing one public address."
-msgstr "The thing to watch for here: <b>Many</b> houses sharing one public address."
+msgstr "La cosa da notare qui: <b>Molte</b> case condividono un unico indirizzo pubblico."
 
 #: faq_avoids_ipv6.html
 msgid "What happens if one of those homes has a bored hacker, or (more likely) a compromised machine owned by someone who doesn't stay up to date, and doesn't run antivirus software? What happens when that machine starts to attack your favorite web sites? What about your banking site?"
-msgstr "What happens if one of those homes has a bored hacker, or (more likely) a compromised machine owned by someone who doesn't stay up to date, and doesn't run antivirus software? What happens when that machine starts to attack your favorite web sites? What about your banking site?"
+msgstr "Cosa succede se una di queste case ha un hacker annoiato, o (più probabilmente) una macchina compromessa, di proprietà di qualcuno che non è aggiornata, e non utilizza un software antivirus? Cosa succede quando quella macchina comincia ad attaccare i tuoi siti web preferiti? E quando attacca il sito della tua banca?"
 
 #: faq_avoids_ipv6.html
 msgid "Those sites will have to ultimately protect themselves, by blocking the traffic. Unfortuantely, they only see the shared address, so their blocking it looks like this:"
-msgstr "Those sites will have to ultimately protect themselves, by blocking the traffic. Unfortuantely, they only see the shared address, so their blocking it looks like this:"
+msgstr "Questi siti al fine di proteggersi, dovranno bloccare il traffico. Sfortunatamente, loro vedono solo gli indirizzi condivisi, così l'azione di bloccaggio traffico somiglierà a questo:"
 
 #: faq_avoids_ipv6.html
 msgid "This is not a good situation. And the main way to avoid it, is to make sure that your IPv6 is working; and to make sure that IPv6 is the preferred protocol."
-msgstr "This is not a good situation. And the main way to avoid it, is to make sure that your IPv6 is working; and to make sure that IPv6 is the preferred protocol."
+msgstr "Questa non è una buona situazione. E il principale modo per evitarlo, è assicurarsi che la connessione IPv6 stia funzionando; e anche assicurarsi che l'IPv6 sia il protocollo preferito."
 
 #: faq_avoids_ipv6.html
 msgid "Why else should I care about IPv4 being preferred instead of IPv6, when I have both available?"
-msgstr "Why else should I care about IPv4 being preferred instead of IPv6, when I have both available?"
+msgstr "Perchè dovrebbe importarmi se l'IPv4 viene preferito all' IPv6, quando ce li ho entrambi disponibili?"
 
 #: faq_avoids_ipv6.html
 msgid "Sites that determine your location automatically, will get this wrong more frequently when you share an IPv4 address with people in other cities."
-msgstr "Sites that determine your location automatically, will get this wrong more frequently when you share an IPv4 address with people in other cities."
+msgstr "I siti che determinano la tua posizione automaticamente, rileveranno spesso una locazione errata quando si sta condividendo un indirizzo IPv4 con persone in altre città."
 
 #: faq_avoids_ipv6.html
 msgid "The box that shares an address between you and the other hundreds of houses, may become performance constrained (cpu, network, TCP ports)"
-msgstr "The box that shares an address between you and the other hundreds of houses, may become performance constrained (cpu, network, TCP ports)"
+msgstr "La scatola che condivide un indirizzo tra te e le altre centinaia di case, può avere prestazioni limitate (cpu, network, TCP ports)"
 
 #: faq_avoids_ipv6.html
 msgid "The box is a potential central point of failure for your internet access"
-msgstr "The box is a potential central point of failure for your internet access"
+msgstr "La scatola è un potenziale punto centrale di errore per l'accesso a internet"
 
 #: faq_avoids_ipv6.html
 msgid "Sharing IPv4 addresses is an extra expense for the ISP that they will be passing on to their customers"
-msgstr "Sharing IPv4 addresses is an extra expense for the ISP that they will be passing on to their customers"
+msgstr "La condivisione di indirizzi IPv4 è una spesa extra per l'ISP che scaricherà sui propri clienti"
 
 #: tunnel.inc
 msgid "What is a tunnel?"
@@ -2582,9 +2582,9 @@ msgstr "In short, a 6RD tunnel provides you with native IPv6 connectivity."
 
 #: faq_tunnel_6rd.html
 msgid "How did we detect a 6RD tunnel?"
-msgstr "How did we detect a 6RD tunnel?"
+msgstr "Come rileviamo un tunnel 6RD?"
 
 #: faq_tunnel_6rd.html
 msgid "During the tests, we collect your IPv4 and IPv6 addresses. If at least 16 bits of your IPv4 address are embedded in your IPv6 prefix, then we assume that you are using a 6RD tunnel."
-msgstr "During the tests, we collect your IPv4 and IPv6 addresses. If at least 16 bits of your IPv4 address are embedded in your IPv6 prefix, then we assume that you are using a 6RD tunnel."
+msgstr "Durante i tests, collezioniamo il tuo indirizzo IPv4 e quello IPv6. Se almeno 16 bit del tuo indirizzo IPv4 sono incorporati nel prefisso IPv6, assumiamo che stai usando un tunnel 6RD."
 

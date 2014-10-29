@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2014-10-28 10:45-0400\n"
+"PO-Revision-Date: 2014-10-28 12:00-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Spanish\n"
 "MIME-Version: 1.0\n"
@@ -178,11 +178,11 @@ msgstr "<b>Buena noticia!</b> Tu configuración actual segruirá funcionando cua
 
 #: messages.js
 msgid "<b>Our tests show that you will have a broken or misconfigured IPv6 setup, and this will cause problems as web sites enable IPv6.</b>"
-msgstr "<b>Las pruebas indican que tienes una problema de configuración IPv6, ésto causará problemas cuando los  sitios web habiliten IPv6.</b>"
+msgstr "<b>Las pruebas indican que tienes un problema de configuración IPv6, ésto causará problemas cuando los  sitios web habiliten IPv6.</b>"
 
 #: messages.js
 msgid "<b>Our tests show that you will may have MTU problems with IPv6; this can cause web sites to load slow (or not at all) when web sites enable IPv6.</b>"
-msgstr "<b>Our tests show that you will may have MTU problems with IPv6; this can cause web sites to load slow (or not at all) when web sites enable IPv6.</b>"
+msgstr "<b>Las pruebas indican que tienes problemas de MTU con IPv6, ésto causará que los sitios web carguen muy lento (o aún, que no carguen) cuando habiliten IPv6.</b>"
 
 #: messages.js
 msgid "We looked up an IPv6 address, but your DNS server (possibly your home router) mangled the response, and is treating it as (broken) IPv4."
@@ -354,15 +354,15 @@ msgstr "Your FAQ"
 
 #: builtin.js
 msgid "Frequently Asked Questions"
-msgstr "Frequently Asked Questions"
+msgstr "Preguntas frecuentes (FAQ)"
 
 #: builtin.js
 msgid "loading..."
-msgstr "loading..."
+msgstr "cargando..."
 
 #: builtin.js
 msgid "failed to load"
-msgstr "failed to load"
+msgstr "error al cargar"
 
 #: builtin.js
 msgid "[go back]"
@@ -374,11 +374,11 @@ msgstr "[permalink]"
 
 #: versions.js
 msgid "%app: You are running version %found; we recommend %suggest or newer."
-msgstr "%app: You are running version %found; we recommend %suggest or newer."
+msgstr "%app: Estás utilizando la  versión %found; se recomienda la versión %suggest o superior."
 
 #: form.js
 msgid "share your results"
-msgstr "share your results"
+msgstr "compartir sus resultados"
 
 #: form.js
 msgid "I am most interested in discussing your setup with you, because it was been determined that <B>your IPv6 connectivity is broken</b>, or at least not fully understood. This is not normal; would you be willing to %share?"
