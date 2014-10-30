@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2014-10-29 10:15-0400\n"
+"PO-Revision-Date: 2014-10-29 12:15-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Italian\n"
 "MIME-Version: 1.0\n"
@@ -910,15 +910,15 @@ msgstr "Routers - Assicurarsi di avere l'ultima versione firmware installata. Al
 
 #: faq/staycurrent.inc
 msgid "If you are using an Apple router or Time Capsule, load the Airport Utility to check that your router is up to date."
-msgstr "If you are using an Apple router or Time Capsule, load the Airport Utility to check that your router is up to date."
+msgstr "Se si sta usando un router Apple o Time Capsule. caricare l' Utility Airport per contollare che il tuo router sia aggiornato."
 
 #: faq/staycurrent.inc
 msgid "Browsers - Some browsers have made updates to detect \"broken\" users, and to temporarily disable IPv6."
-msgstr "Browsers - Some browsers have made updates to detect \"broken\" users, and to temporarily disable IPv6."
+msgstr "Browsers - Alcuni browsers hanno fatto degli aggiornamenti per rilevare gli utenti \"broken\", e per disabilitare temporaneamente l' IPv6."
 
 #: faq/staycurrent.inc
 msgid "Firefox 4.x now only tries IPv6, when an IPv6 address is configured. Firefox 3 users are encouraged to upgrade."
-msgstr "Firefox 4.x now only tries IPv6, when an IPv6 address is configured. Firefox 3 users are encouraged to upgrade."
+msgstr "Firefox 4.x adesso prova solo l' IPv6, quando un indirizzo IPv6 è configurato. Gli utenti di Firefox 3 sono incoraggiati a eseguire l'aggiornamento."
 
 #: faq/staycurrent.inc
 msgid "Chrome: If a wrench icon appears on the browser toolbar, click it. Select \"Update Google Chrome\" then Restart."
@@ -930,35 +930,35 @@ msgstr "Opera: Make sure you use at least 11.10."
 
 #: broken.html
 msgid "Finding your IP address"
-msgstr "Finding your IP address"
+msgstr "Rilevando il tuo indirizzo IP"
 
 #: faq/find_ip.inc
 msgid "Identify your IPv6 address, and your default router (if you have one)."
-msgstr "Identify your IPv6 address, and your default router (if you have one)."
+msgstr "Identificare l'indirizzo IPv6, e il router predefinito (se ne hai uno)."
 
 #: faq/find_ip.inc
 msgid "Finding your IPv6 address and default router can be a challenge if you are not familiar with your OS's network configuration. Instructions for your OS are below."
-msgstr "Finding your IPv6 address and default router can be a challenge if you are not familiar with your OS's network configuration. Instructions for your OS are below."
+msgstr "Cercare l' indirizzo IPv6 e il router predefinito può essere una sfida se non si ha familiarità con la configurazione di rete del sistema operativo. Le istruzioni per il tuo OS sono sottostanti."
 
 #: faq/find_ip.inc
 msgid "When looking for your IPv6 address, skip any <code>fe80:</code> address. Everyone has them if their OS supports IPv6; this is regadless of whether or not your ISP supports IPv6 yet. Those are \"link local\" addresses; used just for communicating to other hosts in the same physical network as you."
-msgstr "When looking for your IPv6 address, skip any <code>fe80:</code> address. Everyone has them if their OS supports IPv6; this is regadless of whether or not your ISP supports IPv6 yet. Those are \"link local\" addresses; used just for communicating to other hosts in the same physical network as you."
+msgstr "Quando si cerca l'indirizzo IPv6, ignorare qualsiasi indirizzo <code>fe80:</code>.  Tutti dispongono di questi se il loro OS supporta IPv6; questo a prescindere se il tuo ISP supporta o no l' IPv6. Questi sono indirizzi \"link local\"; usati solo per comunicare ad altri hosts nella stessa rete fisica come te."
 
 #: faq/find_ip.inc
 msgid "OS X users: To find your IP address using the GUI:"
-msgstr "OS X users: To find your IP address using the GUI:"
+msgstr "Utenti OS X: Cercare l'indirizzo IP usando la GUI:"
 
 #: faq/find_ip.inc
 msgid "Go to the \"Apple\" menu (top left corner)"
-msgstr "Go to the \"Apple\" menu (top left corner)"
+msgstr "Andare al menu \"Apple\" (angolo superiore sinistro)"
 
 #: faq/find_ip.inc
 msgid "Go to System Preferences"
-msgstr "Go to System Preferences"
+msgstr "Andare a Preferenza di Sistema"
 
 #: faq/find_ip.inc
 msgid "Go to Network"
-msgstr "Go to Network"
+msgstr "Andare a Network"
 
 #: faq/find_ip.inc
 msgid "Click on your primary network (green icon) if you have more than one work."
@@ -966,7 +966,7 @@ msgstr "Click on your primary network (green icon) if you have more than one wor
 
 #: faq/find_ip.inc
 msgid "Go to \"Advanced\""
-msgstr "Go to \"Advanced\""
+msgstr "Andare su \"Avanzate\""
 
 #: faq/find_ip.inc
 msgid "Look at the TCP/IP tab, uder \"Configure IPv6\"."
@@ -990,111 +990,111 @@ msgstr "To open your terminal: Go to your Applications folder; go to Utilities; 
 
 #: faq/find_ip.inc
 msgid "To see your IP addresses: <code>ifconfig -f inet6</code>."
-msgstr "To see your IP addresses: <code>ifconfig -f inet6</code>."
+msgstr "Per vedere il tuo indirizzo IP: <code>ifconfig -f inet6</code>."
 
 #: faq/find_ip.inc
 msgid "Ignore the <code>fe80:</code> addresses; look for any other address on your <code>en0</code> or <code>en1</code>."
-msgstr "Ignore the <code>fe80:</code> addresses; look for any other address on your <code>en0</code> or <code>en1</code>."
+msgstr "Ignora gli indirizzi <code>fe80:</code>; cercare altri indirizzi sulla <code>en0</code> o <code>en1</code>."
 
 #: faq/find_ip.inc
 msgid "To see if you have a default route: <code>netstat -nr -f inet6</code>."
-msgstr "To see if you have a default route: <code>netstat -nr -f inet6</code>."
+msgstr "Per vedere se si dispone di una route predefinita: <code>netstat -nr -f inet6</code>."
 
 #: faq/find_ip.inc
 msgid "Look for a line that says \"default\"; probably pointing to a gateway starting with <code>fe80:</code>"
-msgstr "Look for a line that says \"default\"; probably pointing to a gateway starting with <code>fe80:</code>"
+msgstr "Cerca una linea che dice \"default\"; probabilmente puntando a un gateway che comincia con <code>fe80:</code>"
 
 #: faq/find_ip.inc
 msgid "iPhone and iPad users: No information is shown via Apple's preferences/setup. The \"IT Tools\" and the \"ip6config\" apps do show IPv6 address data; both cost."
-msgstr "iPhone and iPad users: No information is shown via Apple's preferences/setup. The \"IT Tools\" and the \"ip6config\" apps do show IPv6 address data; both cost."
+msgstr "Utenti iPhone e iPad: Nessuna informazione è mostrata tramite le preferenze/setup di Apple. Le applicazioni \"IT Tools\" e \"ip6config\" mostrano i dati relativi agli indirizzi IPv6; both cost."
 
 #: faq/find_ip.inc
 msgid "Linux users: To find your IPv6 address, open a terminal and.."
-msgstr "Linux users: To find your IPv6 address, open a terminal and.."
+msgstr "Utenti Linux: Per trovare l'indirizzo IPv6, aprire un terminale e.."
 
 #: faq/find_ip.inc
 msgid "Linux users: To find your IPv6 route, use:"
-msgstr "Linux users: To find your IPv6 route, use:"
+msgstr "Utenti Linux: Per trovare l' IPv6 route, utilizzare:"
 
 #: faq/find_ip.inc
 msgid "Generic unix instructions for determining your IPv6 address and default route:"
-msgstr "Generic unix instructions for determining your IPv6 address and default route:"
+msgstr "Istruzioni generiche unix per determinare l'indirizzo IPv6 e la route di default:"
 
 #: faq/find_ip.inc
 msgid "Windows users: To find your IP address using cmd.exe:"
-msgstr "Windows users: To find your IP address using cmd.exe:"
+msgstr "Utenti Windows: Per trovare l'indirizzo IP utilizzando cmd.exe:"
 
 #: faq/find_ip.inc
 msgid "Go to your \"start\" menu"
-msgstr "Go to your \"start\" menu"
+msgstr "Vai al menu \"start\""
 
 #: faq/find_ip.inc
 msgid "If you have a \"Run\" menu option, select it. Otherwise go to the \"Search programs and files\" box."
-msgstr "If you have a \"Run\" menu option, select it. Otherwise go to the \"Search programs and files\" box."
+msgstr "Se si dispone di un menu \"Esegui\", selezionarlo. Altrimenti andare nella casella \"Cerca programmi e files\"."
 
 #: faq/find_ip.inc
 msgid "Type <code>cmd.exe</code>"
-msgstr "Type <code>cmd.exe</code>"
+msgstr "Digitare <code>cmd.exe</code>"
 
 #: faq/find_ip.inc
 msgid "In the cmd window, type <code>ipconfig</code> ."
-msgstr "In the cmd window, type <code>ipconfig</code> ."
+msgstr "Nella finestra cmd, digita <code>ipconfig</code>."
 
 #: faq/find_ip.inc
 msgid "Windows 7 GUI users:"
-msgstr "Windows 7 GUI users:"
+msgstr "Utenti Windows 7 GUI:"
 
 #: faq/find_ip.inc
 msgid "Go to the start menu"
-msgstr "Go to the start menu"
+msgstr "Andare al menu di avvio"
 
 #: faq/find_ip.inc
 msgid "Go to the control panel"
-msgstr "Go to the control panel"
+msgstr "Andare al pannello di controllo"
 
 #: faq/find_ip.inc
 msgid "Go to \"Network and Internet\""
-msgstr "Go to \"Network and Internet\""
+msgstr "Andare su \"Rete e Internet\""
 
 #: faq/find_ip.inc
 msgid "Go to \"View network status and tasks\""
-msgstr "Go to \"View network status and tasks\""
+msgstr "Vai su \"Visualizza stato della rete e attività\""
 
 #: faq/find_ip.inc
 msgid "Go to \"Change adapter settings\"."
-msgstr "Go to \"Change adapter settings\"."
+msgstr "Andare su \"Modifica impostazioni scheda\"."
 
 #: faq/find_ip.inc
 msgid "Go to your main Internet connection, double click"
-msgstr "Go to your main Internet connection, double click"
+msgstr "Andare sulla connessione internet principale, fare doppio clic"
 
 #: faq/find_ip.inc
 msgid "Go to \"Details\""
-msgstr "Go to \"Details\""
+msgstr "Cliccare su \"Dettagli\""
 
 #: faq/find_ip.inc
 msgid "Look for \"IPv6 Address\" and \"IPv6 Default Gateway\""
-msgstr "Look for \"IPv6 Address\" and \"IPv6 Default Gateway\""
+msgstr "Cercare \"Indirizzo IPv6\" e \"Gateway predefinito IPv6\""
 
 #: faq/find_ip.inc
 msgid "Other Windows based OS's: Send jfesler@test-ipv6.com detailed instructions; and I'll add them to the site."
-msgstr "Other Windows based OS's: Send jfesler@test-ipv6.com detailed instructions; and I'll add them to the site."
+msgstr "Altri OS basati su Windows: inviare istruzioni dettagliate a jfesler@test-ipv6.com; e verranno aggiunti al sito."
 
 #: faq/broken_tunnelbroker.inc
 msgid "<b>If you set up a tunnelbroker tunnel</b>: The most common causes for tunnelbroker users to fail are:"
-msgstr "<b>If you set up a tunnelbroker tunnel</b>: The most common causes for tunnelbroker users to fail are:"
+msgstr "<b>Se si imposta un tunnel tramite tunnelbroker</b>: le cause più comuni di fallimento per gli utenti di tunnelbroker sono:"
 
 #: faq/broken_tunnelbroker.inc
 msgid "Your IPv4 address may have changed; you need to tell the tunnelbroker server this happened."
-msgstr "Your IPv4 address may have changed; you need to tell the tunnelbroker server this happened."
+msgstr "L'indirizzo IPv4 potrebbe essere stato cambiato; è necessario comunicarlo al server tunnelbroker se questo è accaduto."
 
 #: faq/broken_tunnelbroker.inc
 msgid "If you are using your router to do the 6in4 (sometimes called 6to4 with explicit provider):"
-msgstr "If you are using your router to do the 6in4 (sometimes called 6to4 with explicit provider):"
+msgstr "Se si sta usando il router per fare il 6in4 (a volte chiamato 6to4 con provider espliciti):"
 
 #: faq/broken_tunnelbroker.inc
 msgid "Make sure tunnelbroker knows your current IPv4 address. Our site tells you your public IPv4 address."
-msgstr "Make sure tunnelbroker knows your current IPv4 address. Our site tells you your public IPv4 address."
+msgstr "Assicurarsi che tunnelbroker conosca il tuo indirizzo IPv4 attuale. Il nostro sito ti dice qual è il tuo indirizzo IPv4 pubblico."
 
 #: faq/broken_tunnelbroker.inc
 msgid "Make sure your router can ping the other side of the tunnel. Don't waste your time fixing computers until the router works!"
@@ -1182,11 +1182,11 @@ msgstr "See <a href=\"#\" onclick='return help_page(\"faq_6to4.html\",\"6to4\")'
 
 #: broken.html
 msgid "If you have an ULA"
-msgstr "If you have an ULA"
+msgstr "Se si dispone di un ULA"
 
 #: broken.html
 msgid "(IPv6 address: starts with FC or FD)"
-msgstr "(IPv6 address: starts with FC or FD)"
+msgstr "(indirizzo IPv6: comincia con FC o FD)"
 
 #: faq/broken_ula.inc
 msgid "If you have an IP address starting with <code>FC</code> or <code>FD</code>, you have what is effectively a private IPv6 address. It might be usable for talking to other devices within your home, or within your company. It also allows you to have a steady IPv6 address inside, even if your public IPv6 address changes regularly."
@@ -1358,7 +1358,7 @@ msgstr "Close the Command Prompt window and restart the computer."
 
 #: faq/broken_disable.inc
 msgid "OS X users"
-msgstr "OS X users"
+msgstr "Utenti OS X"
 
 #: faq/broken_disable.inc
 msgid "Before disabling IPv6, please be sure you are running the latest OS version. In particular, OS X 10.6.7 has several workarounds for being \"Broken\". This may solve your problems without resorting to completely disabling IPv6."
@@ -1482,7 +1482,7 @@ msgstr "They went to <a href=\"http://ipv6.test-ipv6.com\">http://ipv6.test-ipv6
 
 #: faq.html
 msgid "Q: How valid are the stats?"
-msgstr "Q: How valid are the stats?"
+msgstr "D: Quanto sono valide le statistiche?"
 
 #: faq.html
 msgid "They do not represent the average web consumer. Visitors to this site are self-selecting. The intent of this site is to not provide stats, but instead to inform the user the level of readiness for the world to move to IPv6 (with or without'em!). As such, stats found here will be completely different from an average content provider."
@@ -1554,23 +1554,23 @@ msgstr "Yes. See the <a href=\"source.html\">source page</a> for details."
 
 #: stats.html
 msgid "<span lookup=site.name>site</span> statistics"
-msgstr "<span lookup=site.name>site</span> statistics"
+msgstr "statistiche del <span lookup=site.name>sito</span>"
 
 #: stats.html
 msgid "Graphs are updated daily."
-msgstr "Graphs are updated daily."
+msgstr "I grafici sono aggiornati quotidianamente."
 
 #: stats.html
 msgid "60 days view"
-msgstr "60 days view"
+msgstr "Vista 60 giorni"
 
 #: stats.html
 msgid "600 days view"
-msgstr "600 days view"
+msgstr "Vista 600 giorni"
 
 #: stats.html
 msgid "Quick notes:"
-msgstr "Quick notes:"
+msgstr "Note veloci:"
 
 #: stats.html
 msgid "Browser Filter means that both the \"A\" and \"AAAA\" test failed. Browser (plugin/filter) shenanigans, likely with add-ons like ad blockers."
