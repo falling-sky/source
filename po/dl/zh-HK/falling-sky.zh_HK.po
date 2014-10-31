@@ -3,38 +3,38 @@ msgstr ""
 "Project-Id-Version: falling-sky\n"
 "PO-Revision-Date: 2014-10-31 03:00-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
-"Language-Team: Chinese Simplified\n"
+"Language-Team: Chinese Traditional, Hong Kong\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: crowdin.com\n"
-"Language: zh_CN\n"
+"Language: zh_HK\n"
 
 #: mirrorconfig.js
 msgid "This mirror is provided by"
-msgstr "这个镜像提供者是"
+msgstr "This mirror is provided by"
 
 #: messages.js
 msgid "bad"
-msgstr "失败"
+msgstr "bad"
 
 #: messages.js
 msgid "ok"
-msgstr "成功"
+msgstr "ok"
 
 #: messages.js
 msgid "slow"
-msgstr "慢"
+msgstr "slow"
 
 #: messages.js
 msgid "timeout"
-msgstr "超时"
+msgstr "timeout"
 
 #: messages.js
 msgid "Connections to urls with IP addresses appear to be blocked; perhaps by a web filter such as 'NoScript' or 'RequestPolicy' installed into your browser, or filtering in your proxy server. This limits some of the functionality of this test site."
-msgstr "IP地址url的连接貌似被封锁了; 原因可能是您的浏览器上安装的网页过滤器，如'NoScript' 和 'RequestPolicy', 或者是您代理服务器的过滤。这限制了本测试网站的一些功能。"
+msgstr "Connections to urls with IP addresses appear to be blocked; perhaps by a web filter such as 'NoScript' or 'RequestPolicy' installed into your browser, or filtering in your proxy server. This limits some of the functionality of this test site."
 
 #: messages.js
 msgid "IPv4 Connections using DNS work; but literal IP addresses in urls do not. These are rarely used on the web today."
@@ -46,83 +46,83 @@ msgstr "IPv6 Connections using DNS work; but literal IP addresses in urls do not
 
 #: messages.js
 msgid "You appear to be using a public 6to4 gateway; your router may be providing this to you automatically. Such public gateways have no service level agreements; you may see performance problems using such. Better would be to get a native IPv6 address from your ISP."
-msgstr "您似乎正在使用公共的6转4网关；您的路由器可能自动为您提供该功能。这种公共网关没有服务层协议；您在使用中可能会碰到性能问题。最好从您的ISP那里获取原生IPv6地址。"
+msgstr "You appear to be using a public 6to4 gateway; your router may be providing this to you automatically. Such public gateways have no service level agreements; you may see performance problems using such. Better would be to get a native IPv6 address from your ISP."
 
 #: messages.js
 msgid "Your IPv6 connection appears to be using Teredo, a type of IPv4/IPv6 translation using a public gateway. The quality for this <i>may</i> suffer, as you are using a public gateway to reach IPv6 based sites."
-msgstr "您的IPv6连接似乎正在使用Teredo，一种使用公共网关的IPv4/IPv6转换器。由于您正在使用公共网关访问基于IPv6的站点，质量可能受到影响。"
+msgstr "Your IPv6 connection appears to be using Teredo, a type of IPv4/IPv6 translation using a public gateway. The quality for this <i>may</i> suffer, as you are using a public gateway to reach IPv6 based sites."
 
 #: messages.js
 msgid "Your IPv6 connection appears to be using Teredo, a type of IPv4/IPv6 gateway; currently it connects only to direct IP's. Your browser will not be able to go to IPv6 sites by name. This means the current configuration is not useful for browsing IPv6 web sites."
-msgstr "您的IPv6连接似乎正在使用Teredo，一种使用公共网关的IPv4/IPv6转换器；它当前仅连接到直接IP。您的浏览器将不能通过名称访问IPv6站点。这意味着目前的配置对访问IPv6网站不起作用。"
+msgstr "Your IPv6 connection appears to be using Teredo, a type of IPv4/IPv6 gateway; currently it connects only to direct IP's. Your browser will not be able to go to IPv6 sites by name. This means the current configuration is not useful for browsing IPv6 web sites."
 
 #: messages.js
 msgid "Your IPv6 connection appears to be using Teredo, a type of IPv4/IPv6 gateway. Your particular teredo configuration is only used as a protocol of last resort. When visiting a site with both IPv4 and IPv6, IPv4 will be preferred."
-msgstr "您的IPv6连接似乎正在使用Teredo，一种使用公共网关的IPv4/IPv6转换器。您的特定teredo配置只是不得已的协议。当访问同时提供IPv4和IPv6的站点时，IPv4将被优先考虑。"
+msgstr "Your IPv6 connection appears to be using Teredo, a type of IPv4/IPv6 gateway. Your particular teredo configuration is only used as a protocol of last resort. When visiting a site with both IPv4 and IPv6, IPv4 will be preferred."
 
 #: messages.js
 msgid "Danger! IPv6 sorta works - however, large packets appear to fail, giving the appearance of a broken website. If a publisher publishes to IPv6, you will believe their web site to be broken. Ask your ISP about MTU issues; possibly with your tunnel."
-msgstr "危险！IPv6几近成功——但鉴于已损坏的网站呈现，可知大包传输失败。如果发行人发行在IPv6上，您将会认为是他们的网站被损坏了。向您的ISP询问关于MTU的问题；可能与您的隧道有关。"
+msgstr "Danger! IPv6 sorta works - however, large packets appear to fail, giving the appearance of a broken website. If a publisher publishes to IPv6, you will believe their web site to be broken. Ask your ISP about MTU issues; possibly with your tunnel."
 
 #: messages.js
 msgid "Test results inconclusive; they were not consistent with expectations. Please rerun the test, and if the results are the same, please fill out the contact form."
-msgstr "测试结果尚无定论；它们与预期不符。请从新运行测试，如果结果还是一样，请填写联系表单。"
+msgstr "Test results inconclusive; they were not consistent with expectations. Please rerun the test, and if the results are the same, please fill out the contact form."
 
 #: messages.js
 msgid "For unknown reasons, your browser appears to operate slower when given the option of connecting to both IPv4 and IPv6. Please rerun the test, and if the results are the same, please fill out the contact form."
-msgstr "因为未知原因，您的浏览器在可以选择连接IPv4或者IPv6时似乎操作变慢了。请重新运行测试，如果结果相同，请填写联系表单。"
+msgstr "For unknown reasons, your browser appears to operate slower when given the option of connecting to both IPv4 and IPv6. Please rerun the test, and if the results are the same, please fill out the contact form."
 
 #: messages.js
 msgid "You appear to be able to browse the IPv4 Internet only. You will not be able to reach IPv6-only sites."
-msgstr "您只能浏览IPv4网络。您将不能访问纯IPv6站点。"
+msgstr "You appear to be able to browse the IPv4 Internet only. You will not be able to reach IPv6-only sites."
 
 #: messages.js
 msgid "When a publisher offers both IPv4 and IPv6, your browser appears to be happy to take the IPv4 site without delay."
-msgstr "当发行人提供IPv4和IPv6，您的浏览器似乎会毫不迟疑地欣然使用IPv4站点。"
+msgstr "When a publisher offers both IPv4 and IPv6, your browser appears to be happy to take the IPv4 site without delay."
 
 #: messages.js
 msgid "When a publisher offers both IPv4 and IPv6, your browser appears to slow down signficantly compared to an IPv4-only site. You may even believe the destination web site to be broken. This may be due to your IPv6 configuration."
-msgstr "当发行人提供IPv4和IPv6，您的浏览器似乎比i访问纯IPv4站点显著变慢。您甚至会认为目的网站被损坏。这可能是您的IPv6配置导致的。"
+msgstr "When a publisher offers both IPv4 and IPv6, your browser appears to slow down signficantly compared to an IPv4-only site. You may even believe the destination web site to be broken. This may be due to your IPv6 configuration."
 
 #: messages.js
 msgid "When a publisher offers both IPv4 and IPv6, your browser will time out trying to connect. You may believe the site is down. This may be due to your IPv6 configuration. Consider disabling IPv6, or seeking help."
-msgstr "当发行人提供IPv4和IPv6，您的浏览器尝试连接将会超时。您可能会以为站点down了。这可能是您的IPv6配置导致的。禁用IPv6，或寻求帮助。"
+msgstr "When a publisher offers both IPv4 and IPv6, your browser will time out trying to connect. You may believe the site is down. This may be due to your IPv6 configuration. Consider disabling IPv6, or seeking help."
 
 #: messages.js
 msgid "Connections to IPv4 are slow, but functional. Perhaps you or your ISP put you behind an IP sharing device (NAT) that is currently slow."
-msgstr "IPv4连接缓慢，但功能正常。也许您或者您的ISP讲您置于一个目前运行缓慢的IP共享设备（NAT）后。"
+msgstr "Connections to IPv4 are slow, but functional. Perhaps you or your ISP put you behind an IP sharing device (NAT) that is currently slow."
 
 #: messages.js
 msgid "You appear to be able to browse the IPv6 Internet only. You have no access to IPv4. That's pretty bold!"
-msgstr "您只能浏览IPv6网络，而无法访问IPv4网络。您可真够给力的！"
+msgstr "You appear to be able to browse the IPv6 Internet only. You have no access to IPv4. That's pretty bold!"
 
 #: messages.js
 msgid "Connections to IPv6 are slow, but functional. Perhaps you are using a public IPv6 tunnel that is either slow, or not located near you."
-msgstr "IPv6连接缓慢，但功能正常。您可能正在使用一个公共IPv6隧道，这个隧道要么很慢，要么不再您附近。"
+msgstr "Connections to IPv6 are slow, but functional. Perhaps you are using a public IPv6 tunnel that is either slow, or not located near you."
 
 #: messages.js
 msgid "Connections to IPv6-only sites are timing out. Any web site that is IPv6 only, will appear to be down to you."
-msgstr "连接纯IPv6站点超时。纯IPv6网站对您来说都好似down掉了。"
+msgstr "Connections to IPv6-only sites are timing out. Any web site that is IPv6 only, will appear to be down to you."
 
 #: messages.js
 msgid "Connections to IPv6-capable web sites hang. It appears that you may have IPv6 configured; and your computer believes that your IPv6 is working, with a route. It is however completely failing. Any web site that adds IPv6, will become unreachable to you. If you are unable to fix your IPv6 routing or connectivity, seek help. If all else fails, strongly consider disabling IP6 on host."
-msgstr "支持IPv6的网站连接挂起。看来你可能有IPv6配置；您的计算机认为您的IPv6正常。您的计算机认为您的IPv6路由正常。但实际上是完全失败的。任何添加IPv6的网站您都将不能访问。如果您不能修复您的IPv6路由或者连接，可寻求帮助。如果一切均失败，强烈建议在主机上禁用IPv6。"
+msgstr "Connections to IPv6-capable web sites hang. It appears that you may have IPv6 configured; and your computer believes that your IPv6 is working, with a route. It is however completely failing. Any web site that adds IPv6, will become unreachable to you. If you are unable to fix your IPv6 routing or connectivity, seek help. If all else fails, strongly consider disabling IP6 on host."
 
 #: messages.js
 msgid "We are unable to test your system; it appears that a firewall or browser filter is preventing the test from running. Critical tests are failing. Try disabling any browser plugins, extensions, or add-ons (such as ad blockers); and reloading this page. If that still fails, you can leave a comment requesting help."
-msgstr "我们不能测试您的系统；防火墙或浏览器过滤器似乎阻止测试运行。关键测试失败。请尝试禁用浏览器插件、扩展或组件（如广告拦截器）；然后重载此页面。如果还是失败，您可以在评论中请求帮助。"
+msgstr "We are unable to test your system; it appears that a firewall or browser filter is preventing the test from running. Critical tests are failing. Try disabling any browser plugins, extensions, or add-ons (such as ad blockers); and reloading this page. If that still fails, you can leave a comment requesting help."
 
 #: messages.js
 msgid "We are unable to test your system; it appears that a firewall or browser filter is preventing the test from running. The dual-stack tests are failing. Try disabling any browser plugins, extensions, or add-ons (such as ad blockers); and reloading this page. If that still fails, you can leave a comment requesting help."
-msgstr "我们不能测试您的系统；防火墙或浏览器过滤器似乎阻止测试运行。双栈测试失败。请尝试禁用浏览器插件、扩展或组件（如广告拦截器）；然后重载此页面。如果还是失败，您可以在评论中请求帮助。"
+msgstr "We are unable to test your system; it appears that a firewall or browser filter is preventing the test from running. The dual-stack tests are failing. Try disabling any browser plugins, extensions, or add-ons (such as ad blockers); and reloading this page. If that still fails, you can leave a comment requesting help."
 
 #: messages.js
 msgid "Your browser is blocking the test urls. We will try alternate methods, but they may fail to show your IP address; and may affect the quality of the advice given."
-msgstr "您的浏览器屏蔽了我们的测试地址。我们将尝试替代方案进行测试，但该方案可能无法显示您的IP地址并且有可能会影响到我们的信息质量。"
+msgstr "Your browser is blocking the test urls. We will try alternate methods, but they may fail to show your IP address; and may affect the quality of the advice given."
 
 #: messages.js
 msgid "The most likely cause is NoScript or AdBlock+. NoScript can be told to permit all scripts on this page (you may need to do this more than once). At minimum, permit the urls listed below."
-msgstr "最可能的原因是NoScript和AdBlock+。NoScript可以被设置为允许此页面上的所有脚本。（您可能需要不止一次地这么做）。至少允许以下url。"
+msgstr "The most likely cause is NoScript or AdBlock+. NoScript can be told to permit all scripts on this page (you may need to do this more than once). At minimum, permit the urls listed below."
 
 #: messages.js
 msgid "NAT64 detected. IPv6 works. IPv4 works for most purposes. Applications that are hard-coded for IPv4-only will fail. We are aware of at least one major voice-over-ip program that falls into this category. Your application's support staff may need a nudge to add proper IPv6 support."
@@ -130,19 +130,19 @@ msgstr "NAT64 detected. IPv6 works. IPv4 works for most purposes. Applications t
 
 #: messages.js
 msgid "Your DNS server (possibly run by your ISP) appears to have IPv6 Internet access."
-msgstr "您的DNS服务器(通常由您的网络服务商提供)已经可以接入IPv6互联网了。"
+msgstr "Your DNS server (possibly run by your ISP) appears to have IPv6 Internet access."
 
 #: messages.js
 msgid "Your DNS server (possibly run by your ISP) appears to have no access to the IPv6 Internet, or is not configured to use it. This may in the future restrict your ability to reach IPv6-only sites."
-msgstr "您的DNS服务器(通常由您的网络服务商提供)还不能接入IPv6互联网，异或是没有做好相应的设置。这将会使您访问不能访问纯IPv6站点。"
+msgstr "Your DNS server (possibly run by your ISP) appears to have no access to the IPv6 Internet, or is not configured to use it. This may in the future restrict your ability to reach IPv6-only sites."
 
 #: messages.js
 msgid "You are likely using a FireFox plugin that is causing IP based tests to fail. Examples: RequestPolicy. Please disable those while using this site."
-msgstr "您正在使用某个插件可能导致基于IP的测试失败。例如：RequestPolicy。当您使用本站时请禁用它们。"
+msgstr "You are likely using a FireFox plugin that is causing IP based tests to fail. Examples: RequestPolicy. Please disable those while using this site."
 
 #: messages.js
 msgid "A lookup for an IPv6-only name failed; yet the lookup and connect for dual-stack connected via IPv6. Something appears to be confused with the DNS lookups."
-msgstr "纯IPv6名称查找失败；尽管查找和双栈连接都是通过IPv6连接的。一些东西可能和DNS查找混淆了。"
+msgstr "A lookup for an IPv6-only name failed; yet the lookup and connect for dual-stack connected via IPv6. Something appears to be confused with the DNS lookups."
 
 #: messages.js
 msgid "A lookup for an IPv6-only name failed; yet the lookup and connect for dual-stack connected via IPv6. The IPv6-only lookup should have worked. Apple has a bug that sporadically causes some IPv6 lookups to fail. We saw evidence of it on this test. You can reload the page and try the test again. For more details, see <a href=\"http://openradar.appspot.com/7333104\">http://openradar.appspot.com/7333104</a>."
@@ -154,35 +154,35 @@ msgstr "A lookup for an dual-stack IPv4 and IPv6 name failed (at minimum it shou
 
 #: messages.js
 msgid "No IPv4 address detected"
-msgstr "没有检测到您的 IPv4 地址"
+msgstr "No IPv4 address detected"
 
 #: messages.js
 msgid "No IPv6 address detected"
-msgstr "没有检测到您的 IPv6 地址"
+msgstr "No IPv6 address detected"
 
 #: messages.js
 msgid "Your IP address(es) could not be detected due to inteference from browser add-ons."
-msgstr "由于浏览器插件干扰，无法检测到您的 IP 地址。"
+msgstr "Your IP address(es) could not be detected due to inteference from browser add-ons."
 
 #: messages.js
 msgid "The Opera web browser seems to be break on this site frequently. <b>If you have trouble, try another browser</b>."
-msgstr "<b>如果您遇到问题，请使用其他浏览器</b>."
+msgstr "The Opera web browser seems to be break on this site frequently. <b>If you have trouble, try another browser</b>."
 
 #: messages.js
 msgid "<b>Disable turbo mode on Opera, and try again.</b> Turbo mode is not compatible with the needs of this site."
-msgstr "<b>禁用Opera的turbo模式后重试。</b> Turbo模式和本站的需求不兼容。"
+msgstr "<b>Disable turbo mode on Opera, and try again.</b> Turbo mode is not compatible with the needs of this site."
 
 #: messages.js
 msgid "<b>Good news!</b> Your current configuration will continue to work as web sites enable IPv6."
-msgstr "<b>好消息!</b>您当前位置当前电脑上的浏览器，预计将在IPv6启动之后继续正常运行。"
+msgstr "<b>Good news!</b> Your current configuration will continue to work as web sites enable IPv6."
 
 #: messages.js
 msgid "<b>Our tests show that you will have a broken or misconfigured IPv6 setup, and this will cause problems as web sites enable IPv6.</b>"
-msgstr "<b>我们的测试表明您的IPv6设置存在问题，这将导致您不能正确访问使用了IPv6技术的网站。</b>"
+msgstr "<b>Our tests show that you will have a broken or misconfigured IPv6 setup, and this will cause problems as web sites enable IPv6.</b>"
 
 #: messages.js
 msgid "<b>Our tests show that you will may have MTU problems with IPv6; this can cause web sites to load slow (or not at all) when web sites enable IPv6.</b>"
-msgstr "<b>我们的测试显示您将可能遇到IPv6上的MTU问题；当网站启动IPv6时，这可能会导致网站加载慢（也可能不会）。</b>"
+msgstr "<b>Our tests show that you will may have MTU problems with IPv6; this can cause web sites to load slow (or not at all) when web sites enable IPv6.</b>"
 
 #: messages.js
 msgid "We looked up an IPv6 address, but your DNS server (possibly your home router) mangled the response, and is treating it as (broken) IPv4."
@@ -198,19 +198,19 @@ msgstr "It appears that you use a managed tunnel mechanism, 6RD, to transport IP
 
 #: messages.js
 msgid "We have detected that you are using a proxy. This means we are testing your proxy server, not your computer. Proxy details (as reported by your proxy 'Via' header): %details"
-msgstr "我们检测到您正在使用代理。这意味着您正在检测您的代理服务器，而非您的计算机。代理细节信息(as reported by your proxy 'Via' header): %details"
+msgstr "We have detected that you are using a proxy. This means we are testing your proxy server, not your computer. Proxy details (as reported by your proxy 'Via' header): %details"
 
 #: messages.js
 msgid "We have detected that you are using a proxy. This means we are testing your proxy server, not your computer."
-msgstr "我们检测到您正在使用代理。这意味着您正在检测您的代理服务器，而非您的计算机。"
+msgstr "We have detected that you are using a proxy. This means we are testing your proxy server, not your computer."
 
 #: messages.js
 msgid "IPv6 connections work, but connections using DNS names do not use IPv6. For some reason, your browser or your OS is not doing IPv6 DNS 'AAAA' lookups."
-msgstr "IPv6连接正常，但使用DNS名称的连接没有使用IPv6，因为某些原因，您的浏览器或者您的操作系统没有进行IPv6 DNS 'AAAA' 检查。"
+msgstr "IPv6 connections work, but connections using DNS names do not use IPv6. For some reason, your browser or your OS is not doing IPv6 DNS 'AAAA' lookups."
 
 #: messages.js
 msgid "We have suggestions to help you fix your system."
-msgstr "我们有一些建议可以帮助您修复您的系统。"
+msgstr "We have suggestions to help you fix your system."
 
 #: messages.js
 msgid "Since you have IPv6, we are including a tab that shows how well you can reach other IPv6 sites. %sites"
@@ -226,11 +226,11 @@ msgstr "faq: MTU"
 
 #: messages.js
 msgid "faq: No IPv4"
-msgstr "faq: 无 IPv4 地址"
+msgstr "faq: No IPv4"
 
 #: messages.js
 msgid "faq: No IPv6"
-msgstr "faq: 无 IPv6 地址"
+msgstr "faq: No IPv6"
 
 #: messages.js
 msgid "faq: 6to4"
@@ -246,11 +246,11 @@ msgstr "faq: v6ns Bad"
 
 #: messages.js
 msgid "faq: Browser Plugins"
-msgstr "faq: 浏览器插件"
+msgstr "faq: Browser Plugins"
 
 #: messages.js
 msgid "faq: Firefox Add-Ons"
-msgstr "faq: 火狐扩展"
+msgstr "faq: Firefox Add-Ons"
 
 #: messages.js
 msgid "faq: Opera"
@@ -274,11 +274,11 @@ msgstr "faq: Avoiding IPv6?"
 
 #: builtin.js
 msgid "[more info]"
-msgstr "[更多信息]"
+msgstr "[more info]"
 
 #: builtin.js
 msgid "Your IPv4 address on the public Internet appears to be"
-msgstr "您在公网上的 IPv4 地址是"
+msgstr "Your IPv4 address on the public Internet appears to be"
 
 #: builtin.js
 msgid "Proxied"
@@ -286,11 +286,11 @@ msgstr "Proxied"
 
 #: builtin.js
 msgid "Your IPv6 address on the public Internet appears to be"
-msgstr "您在公网上的 IPv6 地址是"
+msgstr "Your IPv6 address on the public Internet appears to be"
 
 #: builtin.js
 msgid "Your IPv6 service appears to be"
-msgstr "您的 IPv6 服务似乎是."
+msgstr "Your IPv6 service appears to be"
 
 #: builtin.js
 msgid "Your Internet Service Provider (ISP) appears to be"
@@ -298,7 +298,7 @@ msgstr "Your Internet Service Provider (ISP) appears to be"
 
 #: builtin.js
 msgid "Started"
-msgstr "开始"
+msgstr "Started"
 
 #: builtin.js
 msgid "proxied"
@@ -306,7 +306,7 @@ msgstr "proxied"
 
 #: builtin.js
 msgid "using"
-msgstr "使用"
+msgstr "using"
 
 #: builtin.js
 msgid "tests run"
@@ -314,99 +314,99 @@ msgstr "tests run"
 
 #: builtin.js
 msgid "(Survey posting skipped; test was rigged)"
-msgstr "(检测发布已被跳过；测试是非法操作)"
+msgstr "(Survey posting skipped; test was rigged)"
 
 #: builtin.js
 msgid "(Updating server side IPv6 readiness stats)"
-msgstr "(正在更新服务器上的IPv6统计信息)"
+msgstr "(Updating server side IPv6 readiness stats)"
 
 #: builtin.js
 msgid "(Updated server side IPv6 readiness stats)"
-msgstr "(服务器上的IPv6统计信息更新完毕)"
+msgstr "(Updated server side IPv6 readiness stats)"
 
 #: builtin.js
 msgid "(Survey posting failed; the above information is accurate, but not recorded.)"
-msgstr "(统计信息更新失败；以上信息虽然准确的但是没有被记录)"
+msgstr "(Survey posting failed; the above information is accurate, but not recorded.)"
 
 #: builtin.js
 msgid "Your readiness score"
-msgstr "网络得分"
+msgstr "Your readiness score"
 
 #: builtin.js
 msgid "for your IPv4 stability and readiness, when publishers offer both IPv4 and IPv6"
-msgstr "访问同时支持IPv4与IPv6的网站时，您的IPv4稳定性得分"
+msgstr "for your IPv4 stability and readiness, when publishers offer both IPv4 and IPv6"
 
 #: builtin.js
 msgid "for your IPv6 stability and readiness, when publishers are forced to go IPv6 only"
-msgstr "访问仅支持IPv6的网站时，您的IPv6稳定性得分"
+msgstr "for your IPv6 stability and readiness, when publishers are forced to go IPv6 only"
 
 #: builtin.js
 msgid "Click to see"
-msgstr "点击察看"
+msgstr "Click to see"
 
 #: builtin.js
 msgid "test data"
-msgstr "测试数据"
+msgstr "test data"
 
 #: builtin.js
 msgid "Your FAQ"
-msgstr "您的常见问题"
+msgstr "Your FAQ"
 
 #: builtin.js
 msgid "Frequently Asked Questions"
-msgstr "常见问题"
+msgstr "Frequently Asked Questions"
 
 #: builtin.js
 msgid "loading..."
-msgstr "载入中..."
+msgstr "loading..."
 
 #: builtin.js
 msgid "failed to load"
-msgstr "载入失败"
+msgstr "failed to load"
 
 #: builtin.js
 msgid "[go back]"
-msgstr "[返回]"
+msgstr "[go back]"
 
 #: builtin.js
 msgid "[permalink]"
-msgstr "[静态链接]"
+msgstr "[permalink]"
 
 #: versions.js
 msgid "%app: You are running version %found; we recommend %suggest or newer."
-msgstr "%app: 你目前正在运行的版本 %found; 我们推荐 %suggest 或者更新."
+msgstr "%app: You are running version %found; we recommend %suggest or newer."
 
 #: form.js
 msgid "share your results"
-msgstr "分享您的测试结果"
+msgstr "share your results"
 
 #: form.js
 msgid "I am most interested in discussing your setup with you, because it was been determined that <B>your IPv6 connectivity is broken</b>, or at least not fully understood. This is not normal; would you be willing to %share?"
-msgstr "我们特别有兴趣与您讨论您的设置，因为<B>您的IPv6连接断开</B>, 或者至少是没有被完全理解。这是不正常的；您是否愿意 %share?"
+msgstr "I am most interested in discussing your setup with you, because it was been determined that <B>your IPv6 connectivity is broken</b>, or at least not fully understood. This is not normal; would you be willing to %share?"
 
 #: form.js
 msgid "retest"
-msgstr "重新测试"
+msgstr "retest"
 
 #: form.js
 msgid "Result code"
-msgstr "结果代码"
+msgstr "Result code"
 
 #: form.js
 msgid "Note: I can't contact you, if the contact info is blank. If you really want to submit this anonymously, hit Send Results again."
-msgstr "注意: 如果联系信息为空，我们将无法联系您。如果您确定想要匿名提交，请再一次点击提交结果按钮。"
+msgstr "Note: I can't contact you, if the contact info is blank. If you really want to submit this anonymously, hit Send Results again."
 
 #: checkresults.js
 msgid "unknown expansion"
-msgstr "未知扩展"
+msgstr "unknown expansion"
 
 #: checkresults.js
 msgid "unknown result code"
-msgstr "未知的返回码"
+msgstr "unknown result code"
 
 #: symptoms.js
 msgid "Your browser blocked"
-msgstr "您的浏览器屏蔽了"
+msgstr "Your browser blocked"
 
 #: helpdesk.js
 msgid "Your Internet help desk may ask you for the information below."
@@ -414,23 +414,23 @@ msgstr "Your Internet help desk may ask you for the information below."
 
 #: header.inc
 msgid "Test your IPv6."
-msgstr "IPv6 测试"
+msgstr "Test your IPv6."
 
 #: header.inc
 msgid "This will test your browser and connection for IPv6 readiness, as well as show you your current IPV4 and IPv6 address."
-msgstr "本站将测试您的浏览器以及网络连接是否已为 IPv6 做好准备。本站同时也将显示您当前的 IPv4 和 IPv6 地址信息。"
+msgstr "This will test your browser and connection for IPv6 readiness, as well as show you your current IPV4 and IPv6 address."
 
 #: list-nav.inc
 msgid "Test IPv6"
-msgstr "测试 IPv6"
+msgstr "Test IPv6"
 
 #: list-nav.inc
 msgid "FAQ"
-msgstr "常见问题"
+msgstr "FAQ"
 
 #: list-nav.inc
 msgid "Mirrors"
-msgstr "镜像"
+msgstr "Mirrors"
 
 #: list-nav.inc
 msgid "stats"
@@ -438,7 +438,7 @@ msgstr "stats"
 
 #: index.html
 msgid "Test your IPv6 connectivity."
-msgstr "IPv6 连接测试"
+msgstr "Test your IPv6 connectivity."
 
 #: js_required.inc
 msgid "JavaScript Required"
@@ -470,15 +470,15 @@ msgstr "For the Help Desk"
 
 #: main/tabnav.inc
 msgid "Summary"
-msgstr "摘要"
+msgstr "Summary"
 
 #: main/tabnav.inc
 msgid "Tests Run"
-msgstr "测试项目"
+msgstr "Tests Run"
 
 #: main/tabnav.inc
 msgid "Share Results / Contact"
-msgstr "分享测试结果 / 联系我们"
+msgstr "Share Results / Contact"
 
 #: main/tabnav.inc
 msgid "FAQ for You"
@@ -498,51 +498,51 @@ msgstr "Other IPv6 Sites"
 
 #: main/tests.inc
 msgid "How this test works:"
-msgstr "这项测试是如何进行的："
+msgstr "How this test works:"
 
 #: main/tests.inc
 msgid "Your browser will be instructed to reach a series of URLs. The combination of successes and failures tells a story about how ready you are for when publishers start offering their web sites on IPv6."
-msgstr "您的浏览器将被指示去访问一系列URL。访问成功和失败的结果结合起来能显示出您对发行人开始提供基于IPv6的站点访问准备到何种程度。"
+msgstr "Your browser will be instructed to reach a series of URLs. The combination of successes and failures tells a story about how ready you are for when publishers start offering their web sites on IPv6."
 
 #: main/tests.inc
 msgid "Technical Info"
-msgstr "技术信息"
+msgstr "Technical Info"
 
 #: main/tests.inc
 msgid "Test with IPv4 DNS record"
-msgstr "使用 IPv4 域名记录进行测试"
+msgstr "Test with IPv4 DNS record"
 
 #: main/tests.inc
 msgid "pending"
-msgstr "待定"
+msgstr "pending"
 
 #: main/tests.inc
 msgid "Test with IPv6 DNS record"
-msgstr "使用 IPv6 域名记录进行测试"
+msgstr "Test with IPv6 DNS record"
 
 #: main/tests.inc
 msgid "Test with Dual Stack DNS record"
-msgstr "使用双栈域名记录进行测试"
+msgstr "Test with Dual Stack DNS record"
 
 #: main/tests.inc
 msgid "Test for Dual Stack DNS and large packet"
-msgstr "双栈域名和大封包测试"
+msgstr "Test for Dual Stack DNS and large packet"
 
 #: main/tests.inc
 msgid "Test IPv4 without DNS"
-msgstr "不使用域名的 IPv4 测试"
+msgstr "Test IPv4 without DNS"
 
 #: main/tests.inc
 msgid "Test IPv6 without DNS"
-msgstr "不使用域名的 IPv6 测试"
+msgstr "Test IPv6 without DNS"
 
 #: main/tests.inc
 msgid "Test IPv6 large packet"
-msgstr "IPv6 大封包测试"
+msgstr "Test IPv6 large packet"
 
 #: main/tests.inc
 msgid "Test if your ISP's DNS server uses IPv6"
-msgstr "测试您 ISP 的域名服务器是否使用 IPv6"
+msgstr "Test if your ISP's DNS server uses IPv6"
 
 #: main/tests.inc
 msgid "Find IPv4 Service Provider"
@@ -558,23 +558,23 @@ msgstr "Test for buggy DNS"
 
 #: main/tech.inc
 msgid "Fetches an object that has just an A record in DNS. This is expected to use IPv4. IPv6-only users might still reach this, if their provider has employed a NAT64/DNS64 or proxy solution."
-msgstr "取得DNS中仅含一个A记录的对象。预计将使用IPv4。如果提供商采用NAT64/DNS64或代理解决方案，纯IPv6用户仍可以访问。"
+msgstr "Fetches an object that has just an A record in DNS. This is expected to use IPv4. IPv6-only users might still reach this, if their provider has employed a NAT64/DNS64 or proxy solution."
 
 #: main/tech.inc
 msgid "Fetches an object that has just an AAAA record in DNS. This is expected to use IPv6. Users not yet on the IPv6 Internet are likely to see this fail. As long as it fails quickly, it will be OK - for now."
-msgstr "取得DNS中仅含一个AAAA记录的对象。预计将使用IPv6。尚未使用IPv6互联网的用户很可能失败。如果这项测试很快失败，就目前而言不会有太大影响。"
+msgstr "Fetches an object that has just an AAAA record in DNS. This is expected to use IPv6. Users not yet on the IPv6 Internet are likely to see this fail. As long as it fails quickly, it will be OK - for now."
 
 #: main/tech.inc
 msgid "This is the most important test. This verifies your browser can connect to a site that has both IPv4 and IPv6 records published. IPv4 only hosts should connect fine (using IPv4)."
-msgstr "这是最重要的一项测试。它证实您的浏览器是否可以连接同时发布IPv4和IPv6记录的站点。纯IPv4主机应该能很顺畅地连接（使用IPv4）。"
+msgstr "This is the most important test. This verifies your browser can connect to a site that has both IPv4 and IPv6 records published. IPv4 only hosts should connect fine (using IPv4)."
 
 #: main/tech.inc
 msgid "If this test fails or times out, you can expect major problems as publishers start offering their sites on IPv6."
-msgstr "如果这项测试失败或超时，发行人开始提供基于IPv6的站点是主要问题之一。"
+msgstr "If this test fails or times out, you can expect major problems as publishers start offering their sites on IPv6."
 
 #: main/tech.inc
 msgid "Validates that you can connect to a dual-stack server (like the ds test); and that you can send/receive large packets on that connection. If this test times out for any reason, it indicates trouble for World IPv6 Day."
-msgstr "验证您可以连接到双栈服务器（类似ds测试）；您可以通过该连接发送/接受大包。如果这项测试以任何原因超时，都意味着全球IPv6到来之日有麻烦。"
+msgstr "Validates that you can connect to a dual-stack server (like the ds test); and that you can send/receive large packets on that connection. If this test times out for any reason, it indicates trouble for World IPv6 Day."
 
 #: main/tech.inc
 msgid "This will try connecting with a literal IPv4 numeric address. This should work for most people, unless they are running IPv6-only. If the first test worked, but this fails, it likely confirms your provider is using NAT64/DNS64; you'll need to only try connecting using hostnames instead of numeric IP addresses."
@@ -586,15 +586,15 @@ msgstr "This will try connecting with a literal IPv6 hexadecimal address. The pr
 
 #: main/tech.inc
 msgid "Validates that IPv6 requests with large packets work. If this test times out, but other IPv6 tests work, it suggests that there may be PMTUD issues; possibly involving IP tunnels."
-msgstr "验证大包IPv6请求正常。如果这项测试超时，但其他IPv6测试正常，这表明可能存在PMTUD问题；或涉及IP隧道。"
+msgstr "Validates that IPv6 requests with large packets work. If this test times out, but other IPv6 tests work, it suggests that there may be PMTUD issues; possibly involving IP tunnels."
 
 #: main/tech.inc
 msgid "(This is bonus credit)"
-msgstr "(本项目是加分项目)"
+msgstr "(This is bonus credit)"
 
 #: main/tech.inc
 msgid "This is a test of your ISP's resolver (instead of a test of your host). If this test passes, your DNS server (often run by your ISP) is capable of reaching IPV6-only DNS authoritative servers on the Internet. This is not critical (at this time) for you to reach sites via IPv6."
-msgstr "这是一项针对您ISP的解析器的测试（取代针对您主机的测试）。如果这项测试通过，您的DNS服务器（通常由您的ISP运行）能够访问互联网上的纯IPv6权威DNS服务器。（目前）对您来说，通过IPv6访问站点并不是必须的。"
+msgstr "This is a test of your ISP's resolver (instead of a test of your host). If this test passes, your DNS server (often run by your ISP) is capable of reaching IPV6-only DNS authoritative servers on the Internet. This is not critical (at this time) for you to reach sites via IPv6."
 
 #: main/tech.inc
 msgid "Attempts to identify what Internet Service Provider you use for IPv4. This may be different from the marketing name you see in your local market; or may reflect a previous company name. The name shown reflects how it is known in the network operator community."
@@ -606,23 +606,23 @@ msgstr "Attempts to identify what Internet Service Provider you use for IPv6. Wh
 
 #: main/tech.inc
 msgid "Queries for a malformed AAAA record. Some routers mishandle these as \"A\" records, and only keep the first 32 bits. We want this test to fail to connect."
-msgstr "异常AAAA记录查询。有些路由器误将它们处理为A记录，只保留前32位。我们希望这个测试连接失败。"
+msgstr "Queries for a malformed AAAA record. Some routers mishandle these as \"A\" records, and only keep the first 32 bits. We want this test to fail to connect."
 
 #: main/tech.inc
 msgid "If the summary results indicated problems, you (or your technical support) may be able to use the information above to diagnose the issues. Each of the test urls and their results is shown on the left side. To the right you'll see a description of what that URL was designed to test."
-msgstr "如果汇总结果指出问题，您（或您的技术支持）可以利用以上信息诊断问题。每个测试url和他们的结果都显示在左侧。在右侧您将看到关于url设计测试目的的描述。"
+msgstr "If the summary results indicated problems, you (or your technical support) may be able to use the information above to diagnose the issues. Each of the test urls and their results is shown on the left side. To the right you'll see a description of what that URL was designed to test."
 
 #: main/tech.inc
 msgid "After each test is ran. The summary page attempts to look at the results If the summary doesn't seem to make sense given the symptoms recorded above, or if you need further assistance, please feel free to contact us."
-msgstr "完成所有测试之后，试着在汇总页面查看结果。如果对于上面记录的症状，汇总结果并没有多大意义，或者您需要进一步的协助，请随时联系我们。"
+msgstr "After each test is ran. The summary page attempts to look at the results If the summary doesn't seem to make sense given the symptoms recorded above, or if you need further assistance, please feel free to contact us."
 
 #: main/mail.inc
 msgid "<b>Your particular configuration is of interest.</b> We are always striving to make the test-ipv6.com code better. Would you be willing to contribute more information about your browser and computer setup? With your help, we can document for others how to repair their systems."
-msgstr "<b>您的特殊配置很有趣。</b>我们一直致力于优化test-ipv6.com的代码。您愿意提供关于您的浏览器和计算机设置的信息吗？有您的帮助，我们可以为别人记录下如何修复他们的系统。"
+msgstr "<b>Your particular configuration is of interest.</b> We are always striving to make the test-ipv6.com code better. Would you be willing to contribute more information about your browser and computer setup? With your help, we can document for others how to repair their systems."
 
 #: main/mail.inc
 msgid "This form will let you leave a comment, voice concerns, or ask questions. Your test results will be included automatically."
-msgstr "您可以在此表单中发表评论，表达关切，或提出问题。您的测试结果会自动被包含进去。"
+msgstr "This form will let you leave a comment, voice concerns, or ask questions. Your test results will be included automatically."
 
 #: main/mail.inc
 msgid "This includes your IP address, which is shared with the site administrator in order to answer your questions."
@@ -634,67 +634,67 @@ msgstr "Use of this form implies consent."
 
 #: main/mail.inc
 msgid "<span id=\"comments_faq_link\"></span> (FAQ) page is available for <b>your</b> exact set of results. Please read it before leaving comments; many questions have already been answered. If you still have questions, comments, or concerns, feel freel to use this form."
-msgstr "<b>您的</b>exact set of results。在发表评论之前请阅读此页；许多问题已经得到解答。如果您仍然有问题、评论或关心的事，请随时使用这个表单。"
+msgstr "<span id=\"comments_faq_link\"></span> (FAQ) page is available for <b>your</b> exact set of results. Please read it before leaving comments; many questions have already been answered. If you still have questions, comments, or concerns, feel freel to use this form."
 
 #: main/mail-language.inc
 msgid "Please leave your comments using English, if possible."
-msgstr "如果可能的话，请使用英语留下您的评论。"
+msgstr "Please leave your comments using English, if possible."
 
 #: main/mail.inc
 msgid "If reporting a problem with the test, or requesting help with your results, please fill out all requested information to the best of your ability. If leaving general comments, use your best judgement on how much to report."
-msgstr "如果要报告有关测试的问题，或者针对您的结果请求帮助，请尽最大努力填写所有要求的信息。If leaving general comments, use your best judgement on how much to report."
+msgstr "If reporting a problem with the test, or requesting help with your results, please fill out all requested information to the best of your ability. If leaving general comments, use your best judgement on how much to report."
 
 #: main/mail.inc
 msgid "Thanks,"
-msgstr "感谢，"
+msgstr "Thanks,"
 
 #: main/mail.inc
 msgid "Purpose for comment"
-msgstr "评论的目的"
+msgstr "Purpose for comment"
 
 #: main/mail.inc
 msgid "Questions about test results"
-msgstr "有关测试结果的问题"
+msgstr "Questions about test results"
 
 #: main/mail.inc
 msgid "Report a bug with diagnosis"
-msgstr "报告错误及诊断"
+msgstr "Report a bug with diagnosis"
 
 #: main/mail.inc
 msgid "Suggestion"
-msgstr "建议"
+msgstr "Suggestion"
 
 #: main/mail.inc
 msgid "Cheers or Jeers"
-msgstr "欢呼或嘲笑"
+msgstr "Cheers or Jeers"
 
 #: main/mail.inc
 msgid "Email address if you'll permit me to contact you. <i>Required, if you wish a response.</i>"
-msgstr "如果您允许我们联系您，请填写邮件地址。<i>如果您想得到回复，则此项必填。</i>"
+msgstr "Email address if you'll permit me to contact you. <i>Required, if you wish a response.</i>"
 
 #: main/mail.inc
 msgid "Any information you think I might find useful (what router you're using, or a firewall in the way, or type of proxy you use, etc). This includes general feedback."
-msgstr "任何您觉得对我们有用的信息（例如您使用的什么路由器或防火墙，或者您使用何种代理）。这包括一般的反馈。"
+msgstr "Any information you think I might find useful (what router you're using, or a firewall in the way, or type of proxy you use, etc). This includes general feedback."
 
 #: main/mail.inc
 msgid "The javascript based test appears to have failed. This may be browser plugin or extension related. Please indicate what browser plugins and extenions you have enabled in this browser."
-msgstr "基于javascript的测试似乎已经失败。这可能与浏览器插件或扩展有关。请指明您的浏览器加载了什么插件和扩展。"
+msgstr "The javascript based test appears to have failed. This may be browser plugin or extension related. Please indicate what browser plugins and extenions you have enabled in this browser."
 
 #: main/mail.inc
 msgid "If you are technically minded please cut/paste the output of the following commands:"
-msgstr "如果您是技术控，请剪切/粘贴以下命定的输出："
+msgstr "If you are technically minded please cut/paste the output of the following commands:"
 
 #: main/mail.inc
 msgid "Copy the output from those commands, into the box below. This will help me confirm/deny any theories relating to your question."
-msgstr "将那些命令的输出复制到下面的框中。这将有助于我们确认/拒绝有关于您问题的理论。"
+msgstr "Copy the output from those commands, into the box below. This will help me confirm/deny any theories relating to your question."
 
 #: main/mail.inc
 msgid "If you are technically minded, please open a \"Command Prompt\" or \"cmd\" window, and run these three commands:"
-msgstr "如果您是技术控，请打开一个 \"Command Prompt\" 或者 \"cmd\" 窗口，运行这三条命令："
+msgstr "If you are technically minded, please open a \"Command Prompt\" or \"cmd\" window, and run these three commands:"
 
 #: main/mail.inc
 msgid "Send results"
-msgstr "发送结果"
+msgstr "Send results"
 
 #: main/helpdesk.inc
 msgid "Help desk information will follow once the test completes."
@@ -754,7 +754,7 @@ msgstr "Attributions"
 
 #: disclaimer.inc
 msgid "This is a mirror of test-ipv6.com. The views expressed here may or may not reflect the views of the mirror owner."
-msgstr "免责声明：本站是 test-ipv6.com 之镜像站点。本站所包含任何观点可能反映也可能不反映本镜像站点所有人的观点。"
+msgstr "This is a mirror of test-ipv6.com. The views expressed here may or may not reflect the views of the mirror owner."
 
 #: faq_helpdesk.html
 msgid "Help Desk Information"
