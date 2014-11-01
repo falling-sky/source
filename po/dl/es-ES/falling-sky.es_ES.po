@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2014-10-28 12:00-0400\n"
+"PO-Revision-Date: 2014-10-31 23:16-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Spanish\n"
 "MIME-Version: 1.0\n"
@@ -190,19 +190,19 @@ msgstr "We looked up an IPv6 address, but your DNS server (possibly your home ro
 
 #: messages.js
 msgid "It appears that you use a tunnel mechanism for either IPv4 or IPv6."
-msgstr "It appears that you use a tunnel mechanism for either IPv4 or IPv6."
+msgstr "Aparentemente, utilizas un mecanismo de túnel para IPv4 o IPv6."
 
 #: messages.js
 msgid "It appears that you use a managed tunnel mechanism, 6RD, to transport IPv6 over IPv4."
-msgstr "It appears that you use a managed tunnel mechanism, 6RD, to transport IPv6 over IPv4."
+msgstr "Aparentemente, utilizas un mecanismo de túnel, 6RD, para transportar IPv6 sobre IPv4."
 
 #: messages.js
 msgid "We have detected that you are using a proxy. This means we are testing your proxy server, not your computer. Proxy details (as reported by your proxy 'Via' header): %details"
-msgstr "We have detected that you are using a proxy. This means we are testing your proxy server, not your computer. Proxy details (as reported by your proxy 'Via' header): %details"
+msgstr "Hemos detectado que está utilizando un proxy. Esto significa que estamos probando el servidor proxy, y no su propio  equipo. Detalles del proxy (según lo informado por los encabezados 'via' de su proxy): %detalles"
 
 #: messages.js
 msgid "We have detected that you are using a proxy. This means we are testing your proxy server, not your computer."
-msgstr "We have detected that you are using a proxy. This means we are testing your proxy server, not your computer."
+msgstr "Hemos detectado que está utilizando un proxy. Esto significa que estamos probando el servidor proxy, y no su computadora."
 
 #: messages.js
 msgid "IPv6 connections work, but connections using DNS names do not use IPv6. For some reason, your browser or your OS is not doing IPv6 DNS 'AAAA' lookups."
