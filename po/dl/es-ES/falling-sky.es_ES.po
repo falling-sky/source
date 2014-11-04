@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2014-10-31 23:16-0400\n"
+"PO-Revision-Date: 2014-11-04 00:06-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Spanish\n"
 "MIME-Version: 1.0\n"
@@ -186,7 +186,7 @@ msgstr "<b>Las pruebas indican que tienes problemas de MTU con IPv6, ésto causa
 
 #: messages.js
 msgid "We looked up an IPv6 address, but your DNS server (possibly your home router) mangled the response, and is treating it as (broken) IPv4."
-msgstr "We looked up an IPv6 address, but your DNS server (possibly your home router) mangled the response, and is treating it as (broken) IPv4."
+msgstr "Hemos buscado una dirección IPv6, pero su DNS server (quizas su router) estropeo la respuesta y lo trató como una respuesta IPv4 rota."
 
 #: messages.js
 msgid "It appears that you use a tunnel mechanism for either IPv4 or IPv6."
@@ -214,11 +214,11 @@ msgstr "We have suggestions to help you fix your system."
 
 #: messages.js
 msgid "Since you have IPv6, we are including a tab that shows how well you can reach other IPv6 sites. %sites"
-msgstr "Since you have IPv6, we are including a tab that shows how well you can reach other IPv6 sites. %sites"
+msgstr "Puesto que tienes IPv6, estamos incluyendo una ficha que muestra otros sitios IPv6 y cuán bien puede alcanzarlos. %sites"
 
 #: messages.js
 msgid "Your browser has real working IPv6 address - but is avoiding using it. We're concerned about this."
-msgstr "Your browser has real working IPv6 address - but is avoiding using it. We're concerned about this."
+msgstr "Su navegador parece tener dirección IPv6 reale - pero evita usarlo. Estamos preocupados por esto."
 
 #: messages.js
 msgid "faq: MTU"
@@ -234,7 +234,7 @@ msgstr "FAQ: Sin IPv6"
 
 #: messages.js
 msgid "faq: 6to4"
-msgstr "faq: 6to4"
+msgstr "FAQ: 6to4"
 
 #: messages.js
 msgid "faq: Teredo Minimum"
@@ -242,35 +242,35 @@ msgstr "faq: Teredo Minimum"
 
 #: messages.js
 msgid "faq: v6ns Bad"
-msgstr "faq: v6ns Bad"
+msgstr "FAQ: malo v6ns"
 
 #: messages.js
 msgid "faq: Browser Plugins"
-msgstr "faq: Browser Plugins"
+msgstr "FAQ: Plugins de navegador"
 
 #: messages.js
 msgid "faq: Firefox Add-Ons"
-msgstr "faq: Firefox Add-Ons"
+msgstr "FAQ: Complementos Firefox"
 
 #: messages.js
 msgid "faq: Opera"
-msgstr "faq: Opera"
+msgstr "FAQ: Opera"
 
 #: messages.js
 msgid "faq: Buggy DNS"
-msgstr "faq: Buggy DNS"
+msgstr "FAQ: DNS con errores"
 
 #: messages.js
 msgid "faq: Broken!"
-msgstr "faq: Broken!"
+msgstr "FAQ: Roto!"
 
 #: messages.js
 msgid "faq: Broken DNS Lookups"
-msgstr "faq: Broken DNS Lookups"
+msgstr "FAQ: Búsquedas DNS con errores"
 
 #: messages.js
 msgid "faq: Avoiding IPv6?"
-msgstr "faq: Avoiding IPv6?"
+msgstr "FAQ: Evitando IPv6?"
 
 #: builtin.js
 msgid "[more info]"
@@ -278,23 +278,23 @@ msgstr "[más información]"
 
 #: builtin.js
 msgid "Your IPv4 address on the public Internet appears to be"
-msgstr "Your IPv4 address on the public Internet appears to be"
+msgstr "Su dirección IPv4 en la Internet parece ser"
 
 #: builtin.js
 msgid "Proxied"
-msgstr "Proxied"
+msgstr "Con proxy"
 
 #: builtin.js
 msgid "Your IPv6 address on the public Internet appears to be"
-msgstr "Your IPv6 address on the public Internet appears to be"
+msgstr "Su dirección IPv6 en la Internet parece ser"
 
 #: builtin.js
 msgid "Your IPv6 service appears to be"
-msgstr "Your IPv6 service appears to be"
+msgstr "Su servicio IPv6 parece ser"
 
 #: builtin.js
 msgid "Your Internet Service Provider (ISP) appears to be"
-msgstr "Your Internet Service Provider (ISP) appears to be"
+msgstr "Su Proveedor de Internet (ISP) parece ser"
 
 #: builtin.js
 msgid "Started"
@@ -302,7 +302,7 @@ msgstr "Empezado"
 
 #: builtin.js
 msgid "proxied"
-msgstr "proxied"
+msgstr "Con proxy"
 
 #: builtin.js
 msgid "using"
