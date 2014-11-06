@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2014-11-04 00:06-0500\n"
+"PO-Revision-Date: 2014-11-06 05:15-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Spanish\n"
 "MIME-Version: 1.0\n"
@@ -346,11 +346,11 @@ msgstr "Click para ver"
 
 #: builtin.js
 msgid "test data"
-msgstr "test data"
+msgstr "datos de prueba"
 
 #: builtin.js
 msgid "Your FAQ"
-msgstr "Your FAQ"
+msgstr "Su FAQ"
 
 #: builtin.js
 msgid "Frequently Asked Questions"
@@ -386,7 +386,7 @@ msgstr "I am most interested in discussing your setup with you, because it was b
 
 #: form.js
 msgid "retest"
-msgstr "retest"
+msgstr "prueba nuevamente"
 
 #: form.js
 msgid "Result code"
@@ -402,11 +402,11 @@ msgstr "expansión desconocida"
 
 #: checkresults.js
 msgid "unknown result code"
-msgstr "unknown result code"
+msgstr "código de resultado desconocido"
 
 #: symptoms.js
 msgid "Your browser blocked"
-msgstr "Your browser blocked"
+msgstr "Su navegador bloqueó"
 
 #: helpdesk.js
 msgid "Your Internet help desk may ask you for the information below."
@@ -486,7 +486,7 @@ msgstr "FAQ para ti"
 
 #: main/tabnav.inc
 msgid "Help Popup"
-msgstr "Help Popup"
+msgstr "Popup de ayuda"
 
 #: main/tabnav.inc
 msgid "Debug"
@@ -498,7 +498,7 @@ msgstr "Otros Sitios IPv6"
 
 #: main/tests.inc
 msgid "How this test works:"
-msgstr "How this test works:"
+msgstr "Cómo funciona esta prueba:"
 
 #: main/tests.inc
 msgid "Your browser will be instructed to reach a series of URLs. The combination of successes and failures tells a story about how ready you are for when publishers start offering their web sites on IPv6."
