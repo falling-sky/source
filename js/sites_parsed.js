@@ -232,16 +232,6 @@ GIGO.sites_parsed={
       "v4" : "http://ipv4.test-ipv6.edu.cn/images-nc/knob_green.png",
       "v6" : "http://ipv6.test-ipv6.edu.cn/images-nc/knob_green.png"
    },
-   "test-ipv6.go6.si" : {
-      "hide" : "0",
-      "loc" : "SI",
-      "mirror" : "1",
-      "monitor" : "Jan Zorz <jan@go6.si>",
-      "provider" : "Go6 Lab - Slovenian IPv6 Iniciative",
-      "site" : "test-ipv6.go6.si",
-      "v4" : "http://ipv4.test-ipv6.go6.si/images-nc/knob_green.png",
-      "v6" : "http://ipv6.test-ipv6.go6.si/images-nc/knob_green.png"
-   },
    "test-ipv6.gremlin.ca" : {
       "hide" : "0",
       "loc" : "CA",
@@ -359,16 +349,6 @@ GIGO.sites_parsed={
       "site" : "test-ipv6.showmyip.ca",
       "v4" : "http://ipv4.test-ipv6.showmyip.ca/images-nc/knob_green.png",
       "v6" : "http://ipv6.test-ipv6.showmyip.ca/images-nc/knob_green.png"
-   },
-   "test-ipv6.si" : {
-      "hide" : "0",
-      "loc" : "SI",
-      "mirror" : "1",
-      "monitor" : "Damjan Sirnik <damjan@sirnik.si>",
-      "provider" : "Damjan Sirnik",
-      "site" : "test-ipv6.si",
-      "v4" : "http://ipv4.test-ipv6.si/images-nc/knob_green.png",
-      "v6" : "http://ipv6.test-ipv6.si/images-nc/knob_green.png"
    },
    "test-ipv6.sjc.vr.org" : {
       "hide" : "0",

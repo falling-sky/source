@@ -54,6 +54,10 @@ msgid "Danger! IPv6 sorta works - however, large packets appear to fail, giving 
 msgstr ""
 
 #: messages.js
+msgid "Check your firewall to make sure that ICMPv6 messages are allowed (in particular, Type 2 or Packet Too Big)."
+msgstr ""
+
+#: messages.js
 msgid "Test results inconclusive; they were not consistent with expectations. Please rerun the test, and if the results are the same, please fill out the contact form."
 msgstr ""
 
@@ -579,6 +583,10 @@ msgstr ""
 
 #: main/tech.inc
 msgid "Validates that IPv6 requests with large packets work. If this test times out, but other IPv6 tests work, it suggests that there may be PMTUD issues; possibly involving IP tunnels."
+msgstr ""
+
+#: main/tech.inc
+msgid "Double check to make sure that ICMPv6 Type 2 (\"Packet Too Big\") messages are not filtered by your firewall."
 msgstr ""
 
 #: main/tech.inc

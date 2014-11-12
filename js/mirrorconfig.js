@@ -5,7 +5,10 @@
 GIGO.mirrorconfig = function (key1, key2, fallback) {
     var ret;
     try {
-        ret = MirrorConfig[key1][key2];
+        ret = MirrorConfig[key1][key2]; 
+        if (typeof ret === "undefined") {
+          ret = fallback;
+        }
     } catch (e) {
         ret = fallback;
     }

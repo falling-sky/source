@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2014-11-06 10:05-0500\n"
+"PO-Revision-Date: 2014-11-09 18:05-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Polish\n"
 "MIME-Version: 1.0\n"
@@ -214,11 +214,11 @@ msgstr "We have suggestions to help you fix your system."
 
 #: messages.js
 msgid "Since you have IPv6, we are including a tab that shows how well you can reach other IPv6 sites. %sites"
-msgstr "Korzystasz z IPv6, w związku z tym została dołączona zakładka prezentująca strony do których jesteś w stanie się połączyć z wykorzystaniem tego protokołu. %sites"
+msgstr "Korzystasz z IPv6, tak więc dołączyliśmy zakładkę, w której testujemy osiągalność wybranych stron IPv6. %sites"
 
 #: messages.js
 msgid "Your browser has real working IPv6 address - but is avoiding using it. We're concerned about this."
-msgstr "Your browser has real working IPv6 address - but is avoiding using it. We're concerned about this."
+msgstr "Twoja przeglądarka ma do dyspozycji poprawnie działający adres IPv6 ale unika korzystania z niego. Takie zachowanie jest niepokojące."
 
 #: messages.js
 msgid "faq: MTU"
@@ -266,7 +266,7 @@ msgstr "faq: Zepsuty!"
 
 #: messages.js
 msgid "faq: Broken DNS Lookups"
-msgstr "faq: Broken DNS Lookups"
+msgstr "faq: Niepoprawnie rozwiązane zapytania DNS"
 
 #: messages.js
 msgid "faq: Avoiding IPv6?"
@@ -282,7 +282,7 @@ msgstr "Twój publicznie widoczny adres IPv4 to"
 
 #: builtin.js
 msgid "Proxied"
-msgstr "Proxied"
+msgstr "Serwer pośredniczący"
 
 #: builtin.js
 msgid "Your IPv6 address on the public Internet appears to be"
@@ -290,7 +290,7 @@ msgstr "Twój publicznie widoczny adres IPv6 to"
 
 #: builtin.js
 msgid "Your IPv6 service appears to be"
-msgstr "Your IPv6 service appears to be"
+msgstr "Usługa IPv6 z której korzystasz"
 
 #: builtin.js
 msgid "Your Internet Service Provider (ISP) appears to be"
@@ -298,19 +298,19 @@ msgstr "Twój dostawca usług internetowych (ang. ISP) to"
 
 #: builtin.js
 msgid "Started"
-msgstr "Started"
+msgstr "Uruchomione"
 
 #: builtin.js
 msgid "proxied"
-msgstr "proxied"
+msgstr "serwer pośredniczący"
 
 #: builtin.js
 msgid "using"
-msgstr "using"
+msgstr "z wykorzystaniem"
 
 #: builtin.js
 msgid "tests run"
-msgstr "tests run"
+msgstr "testy przeprowadzone"
 
 #: builtin.js
 msgid "(Survey posting skipped; test was rigged)"
@@ -354,19 +354,19 @@ msgstr "Your FAQ"
 
 #: builtin.js
 msgid "Frequently Asked Questions"
-msgstr "Frequently Asked Questions"
+msgstr "Najczęściej zadawane pytania (FAQ)"
 
 #: builtin.js
 msgid "loading..."
-msgstr "loading..."
+msgstr "ładowanie..."
 
 #: builtin.js
 msgid "failed to load"
-msgstr "failed to load"
+msgstr "nie udało się załadować"
 
 #: builtin.js
 msgid "[go back]"
-msgstr "[go back]"
+msgstr "[wstecz]"
 
 #: builtin.js
 msgid "[permalink]"
@@ -378,7 +378,7 @@ msgstr "%app: You are running version %found; we recommend %suggest or newer."
 
 #: form.js
 msgid "share your results"
-msgstr "share your results"
+msgstr "podziel się wynikami"
 
 #: form.js
 msgid "I am most interested in discussing your setup with you, because it was been determined that <B>your IPv6 connectivity is broken</b>, or at least not fully understood. This is not normal; would you be willing to %share?"
@@ -386,15 +386,15 @@ msgstr "I am most interested in discussing your setup with you, because it was b
 
 #: form.js
 msgid "retest"
-msgstr "retest"
+msgstr "testuj ponownie"
 
 #: form.js
 msgid "Result code"
-msgstr "Result code"
+msgstr "Kod rezultatu"
 
 #: form.js
 msgid "Note: I can't contact you, if the contact info is blank. If you really want to submit this anonymously, hit Send Results again."
-msgstr "Note: I can't contact you, if the contact info is blank. If you really want to submit this anonymously, hit Send Results again."
+msgstr "Uwaga: Nie będę w stanie odpowiedzieć jeśli pozostawisz puste pole z danymi kontaktowymi. Jeśli jesteś zdecydowany na przesyłkę anonimową naciśnij jeszcze 'wyślij rezultat'."
 
 #: checkresults.js
 msgid "unknown expansion"
@@ -510,7 +510,7 @@ msgstr "szczegóły techniczne"
 
 #: main/tests.inc
 msgid "Test with IPv4 DNS record"
-msgstr "Testuj z wykorzystaniem wpisu DNS IPv4"
+msgstr "Test zapytań DNS odnośnie IPv4"
 
 #: main/tests.inc
 msgid "pending"
@@ -518,59 +518,59 @@ msgstr "oczekujące"
 
 #: main/tests.inc
 msgid "Test with IPv6 DNS record"
-msgstr "Testuj z wykorzystaniem wpisu DNS IPv6"
+msgstr "Test zapytań DNS odnośnie IPv6"
 
 #: main/tests.inc
 msgid "Test with Dual Stack DNS record"
-msgstr "Test with Dual Stack DNS record"
+msgstr "Test z wykorzystaniem IPv4+IPv6 i DNS"
 
 #: main/tests.inc
 msgid "Test for Dual Stack DNS and large packet"
-msgstr "Testuj dwuprotokołowy DNS dla dużych pakietów"
+msgstr "Test z wykorzystaniem IPv4+IPv6, DNS i dużymi pakietami"
 
 #: main/tests.inc
 msgid "Test IPv4 without DNS"
-msgstr "Testuj IPv4 bez korzystania z DNS"
+msgstr "Test IPv4 bez DNS"
 
 #: main/tests.inc
 msgid "Test IPv6 without DNS"
-msgstr "Testuj IPv6 bez wykorzystania DNS"
+msgstr "Test IPv6 bez DNS"
 
 #: main/tests.inc
 msgid "Test IPv6 large packet"
-msgstr "Test IPv6 large packet"
+msgstr "Test IPv6 z dużymi pakietami"
 
 #: main/tests.inc
 msgid "Test if your ISP's DNS server uses IPv6"
-msgstr "Test if your ISP's DNS server uses IPv6"
+msgstr "Test czy serwer DNS twojego providera korzysta z IPv6"
 
 #: main/tests.inc
 msgid "Find IPv4 Service Provider"
-msgstr "Find IPv4 Service Provider"
+msgstr "Wyszukiwanie informacji o dostawcy usługi IPv4"
 
 #: main/tests.inc
 msgid "Find IPv6 Service Provider"
-msgstr "Find IPv6 Service Provider"
+msgstr "Wyszukiwanie informacji o dostawcy usługi IPv6"
 
 #: main/tests.inc
 msgid "Test for buggy DNS"
-msgstr "Test for buggy DNS"
+msgstr "Test w poszukiwaniu błędów obsługi DNS"
 
 #: main/tech.inc
 msgid "Fetches an object that has just an A record in DNS. This is expected to use IPv4. IPv6-only users might still reach this, if their provider has employed a NAT64/DNS64 or proxy solution."
-msgstr "Fetches an object that has just an A record in DNS. This is expected to use IPv4. IPv6-only users might still reach this, if their provider has employed a NAT64/DNS64 or proxy solution."
+msgstr "Pobiera z DNS obiekt który ma tylko wpis typu A. W tym przypadku spodziewamy się użycia do tego celu IPv4. W niektórych przypadkach klienci korzystający wyłącznie z IPv6 mogą być w stanie pobrać ten obiekt, jeśli ich dostawca wdrożył NAT64/DNS64 lub inne rozwiązanie pośredniczące."
 
 #: main/tech.inc
 msgid "Fetches an object that has just an AAAA record in DNS. This is expected to use IPv6. Users not yet on the IPv6 Internet are likely to see this fail. As long as it fails quickly, it will be OK - for now."
-msgstr "Fetches an object that has just an AAAA record in DNS. This is expected to use IPv6. Users not yet on the IPv6 Internet are likely to see this fail. As long as it fails quickly, it will be OK - for now."
+msgstr "Pobiera z DNS obiekt który ma tylko wpis typu AAAA. W tym przypadku spodziewamy się użycia do tego celu IPv6. Dla użytkowników bez obsługi IPv6 spodziewany rezultat to porażka. Taki rezultat powinien być akceptowalny na razie o ile porażka pojawia się relatywnie szybko."
 
 #: main/tech.inc
 msgid "This is the most important test. This verifies your browser can connect to a site that has both IPv4 and IPv6 records published. IPv4 only hosts should connect fine (using IPv4)."
-msgstr "This is the most important test. This verifies your browser can connect to a site that has both IPv4 and IPv6 records published. IPv4 only hosts should connect fine (using IPv4)."
+msgstr "To jest najważniejszy test. Sprawdza on czy przeglądarka jest w stanie pobrać witrynę, która opublikowała wpisy dla IPv4 i IPv6. Użytkownicy korzystający tylko z IPv4 powinni być w stanie się połączyć (używając IPv4)."
 
 #: main/tech.inc
 msgid "If this test fails or times out, you can expect major problems as publishers start offering their sites on IPv6."
-msgstr "If this test fails or times out, you can expect major problems as publishers start offering their sites on IPv6."
+msgstr "Jeśli ten test zostanie przerwany poprzez przekroczenie czasu operacji, to oznacza w przyszłości problemy, gdy witryny zaczną uruchamiać IPv6."
 
 #: main/tech.inc
 msgid "Validates that you can connect to a dual-stack server (like the ds test); and that you can send/receive large packets on that connection. If this test times out for any reason, it indicates trouble for World IPv6 Day."
@@ -638,7 +638,7 @@ msgstr "<span id=\"comments_faq_link\"></span> (FAQ) page is available for <b>yo
 
 #: main/mail-language.inc
 msgid "Please leave your comments using English, if possible."
-msgstr "Please leave your comments using English, if possible."
+msgstr "Prosimy przesłanie komentarzy w języku angielskim jeśli to możliwe."
 
 #: main/mail.inc
 msgid "If reporting a problem with the test, or requesting help with your results, please fill out all requested information to the best of your ability. If leaving general comments, use your best judgement on how much to report."
@@ -646,35 +646,35 @@ msgstr "If reporting a problem with the test, or requesting help with your resul
 
 #: main/mail.inc
 msgid "Thanks,"
-msgstr "Thanks,"
+msgstr "Dziękuję,"
 
 #: main/mail.inc
 msgid "Purpose for comment"
-msgstr "Purpose for comment"
+msgstr "Cel wysyłki komentarza"
 
 #: main/mail.inc
 msgid "Questions about test results"
-msgstr "Questions about test results"
+msgstr "Pytania odnośnie rezultatów z testu"
 
 #: main/mail.inc
 msgid "Report a bug with diagnosis"
-msgstr "Report a bug with diagnosis"
+msgstr "Zgłoszenie błędu w teście"
 
 #: main/mail.inc
 msgid "Suggestion"
-msgstr "Suggestion"
+msgstr "Sugestia"
 
 #: main/mail.inc
 msgid "Cheers or Jeers"
-msgstr "Cheers or Jeers"
+msgstr "Wyrazy sympatii lub ich brak"
 
 #: main/mail.inc
 msgid "Email address if you'll permit me to contact you. <i>Required, if you wish a response.</i>"
-msgstr "Email address if you'll permit me to contact you. <i>Required, if you wish a response.</i>"
+msgstr "Adres email pod warunkiem, że zgadzasz się na otrzymywanie maili ode mnie. <i>Wymagany, jeśli spodziewasz się odpowiedzi.</i>"
 
 #: main/mail.inc
 msgid "Any information you think I might find useful (what router you're using, or a firewall in the way, or type of proxy you use, etc). This includes general feedback."
-msgstr "Any information you think I might find useful (what router you're using, or a firewall in the way, or type of proxy you use, etc). This includes general feedback."
+msgstr "Każda informacja, która wydaje Ci się użyteczna (jakiego używasz routera lub jaki firewall jest po drodze, serwer pośredniczący itp.). Tutaj umieść też ogólne informacje zwrotne."
 
 #: main/mail.inc
 msgid "The javascript based test appears to have failed. This may be browser plugin or extension related. Please indicate what browser plugins and extenions you have enabled in this browser."
@@ -694,7 +694,7 @@ msgstr "If you are technically minded, please open a \"Command Prompt\" or \"cmd
 
 #: main/mail.inc
 msgid "Send results"
-msgstr "Send results"
+msgstr "Wyślij rezultat"
 
 #: main/helpdesk.inc
 msgid "Help desk information will follow once the test completes."
@@ -2050,7 +2050,7 @@ msgstr "The following table will try and load 3 images."
 
 #: faq/simple_test.inc
 msgid "test images for ipv4, dual stack, and ipv6"
-msgstr "test images for ipv4, dual stack, and ipv6"
+msgstr "testowe obrazy dla IPv4, IPv6 i IPv4+IPv6"
 
 #: faq/simple_test.inc
 msgid "Pass?"
@@ -2078,7 +2078,7 @@ msgstr "If this fails, seek help from your IT department, helpdesk, or ISP tech 
 
 #: faq/simple_test.inc
 msgid "If this fails, consider using the <a href=\"/\">full test</a>, with IE, Firefox, Safari, or Chrome, to get more detailed information about possible failure reasons."
-msgstr "If this fails, consider using the <a href=\"/\">full test</a>, with IE, Firefox, Safari, or Chrome, to get more detailed information about possible failure reasons."
+msgstr "Jeśli to się nie powiedzie, rozważ przeprowadzenie <a href\"/\">pełnego testu</a> korzystając z IE, Firefox, Safari albo Chrome. Otrzymasz wtedy bardziej szczegółowe informacja odnośnie możliwych przyczyn niepowodzenia."
 
 #: faq/simple_test.inc
 msgid "<i>If red or blank, do not stress!</i> Few people already have IPv6 at this time; and it is not critical for 2011 but will be for the coming years."

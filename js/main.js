@@ -615,6 +615,9 @@ GIGO.set_default_options = function (options) {
     options.img_uri = "/images-nc/bg.gif";
     options.img_uri_big = "/images-nc/knob_valid_green.png";
     options.img_bad_uri = "/images-nc/knob_cancel.png";
+    
+    // Determine if we can use an alternate v6mtu defined by the site config (options -> v6mtu)
+    options.v6mtu = GIGO.mirrorconfig("options","v6mtu","ipv6." + options.subdomain);
 
 
 
@@ -625,7 +628,7 @@ GIGO.set_default_options = function (options) {
     options.url.test_ipv4 = "http://" + options.ipv4 + options.uri;
     options.url.test_ipv6 = "http://[" + options.ipv6 + "]:80" + options.uri;
     options.url.test_v6ns = "http://ds.v6ns." + options.subdomain + options.uri;
-    options.url.test_v6mtu = "http://ipv6." + options.subdomain + options.uri + "&size=1600&fill=" + GIGO.fill(1600, "x");
+    options.url.test_v6mtu = "http://" + options.v6mtu + options.uri + "&size=1600&fill=" + GIGO.fill(1600, "x");
     options.url.test_dsmtu = "http://ds." + options.subdomain + options.uri + "&size=1600&fill=" + GIGO.fill(1600, "x");
     options.url.test_buggydns1 = "http://buggydns1." + options.subdomain + options.uri;
 
@@ -639,7 +642,7 @@ GIGO.set_default_options = function (options) {
     options.url.test_ipv4_img = "http://" + options.ipv4 + options.img_uri;
     options.url.test_ipv6_img = "http://[" + options.ipv6 + "]:80" + options.img_uri;
     options.url.test_v6ns_img = "http://ds.v6ns." + options.subdomain + options.img_uri;
-    options.url.test_v6mtu_img = "http://ipv6." + options.subdomain + options.img_uri_big;
+    options.url.test_v6mtu_img = "http://" + options.v6mtu + options.img_uri_big;
     options.url.test_dsmtu_img = "http://ds." + options.subdomain + options.img_uri_big;
     options.url.test_buggydns1_img = "http://buggydns1." + options.subdomain + options.img_uri;
 

@@ -198,7 +198,7 @@ test-ipv6.edu.cn:
   v6: http://ipv6.test-ipv6.edu.cn/images-nc/knob_green.png
   monitor: 'zhang <zhang@cernet.edu.cn>'
 test-ipv6.go6.si: 
-  hide: 0
+  hide: 1
   loc: SI
   mirror: 1
   provider: Go6 Lab - Slovenian IPv6 Iniciative
@@ -300,7 +300,7 @@ test-ipv6.showmyip.ca:
   v6: http://ipv6.test-ipv6.showmyip.ca/images-nc/knob_green.png
   monitor: 'Christopher Munz-Michielin <christopher@showmyip.ca>'
 test-ipv6.si: 
-  hide: 0
+  hide: 1
   loc: SI
   mirror: 1
   provider: Damjan Sirnik
