@@ -1,13 +1,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2014-11-04 12:15-0500\n"
+"PO-Revision-Date: 2014-11-11 19:30-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Italian\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"\n"
+"MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\\n\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: crowdin.com\n"
 "Language: it_IT\n"
@@ -63,6 +61,10 @@ msgstr "La connessione IPv6 sembra essere utilizzando Teredo, un tipo di gateway
 #: messages.js
 msgid "Danger! IPv6 sorta works - however, large packets appear to fail, giving the appearance of a broken website. If a publisher publishes to IPv6, you will believe their web site to be broken. Ask your ISP about MTU issues; possibly with your tunnel."
 msgstr "Pericolo! IPv6 funziona solo parzialmente - i pacchetti grandi sembrano fallire, questo potrebbe farti visualizzare alcuni siti web in modalità corrotta. Un sito IPv6 potrebbe sembrare essere visualizzato solo in parte a causa di questo problema. Chiedi al tuo provider Internet informazione sui problemi di MTU; probabilmente legati al tunnel che stai utilizzando."
+
+#: messages.js
+msgid "Check your firewall to make sure that ICMPv6 messages are allowed (in particular, Type 2 or Packet Too Big)."
+msgstr "Check your firewall to make sure that ICMPv6 messages are allowed (in particular, Type 2 or Packet Too Big)."
 
 #: messages.js
 msgid "Test results inconclusive; they were not consistent with expectations. Please rerun the test, and if the results are the same, please fill out the contact form."
@@ -440,6 +442,10 @@ msgstr "statistiche"
 msgid "Test your IPv6 connectivity."
 msgstr "Verifica la tua connettività IPv6."
 
+#: index.html
+msgid "(Replay)"
+msgstr "(Replay)"
+
 #: js_required.inc
 msgid "JavaScript Required"
 msgstr "E' richiesto l'utilizzo di JavaScript"
@@ -589,6 +595,10 @@ msgid "Validates that IPv6 requests with large packets work. If this test times 
 msgstr "Valida che le richieste IPv6 con pacchetti di grande dimensioni funzioni. Se il test va in time out, ma altri test IPv6 funzionano, suggerisce che potrebbero esserci dei problemi PMTUD; che forse coinvolgono dei tunnels IP."
 
 #: main/tech.inc
+msgid "Double check to make sure that ICMPv6 Type 2 (\"Packet Too Big\") messages are not filtered by your firewall."
+msgstr "Double check to make sure that ICMPv6 Type 2 (\"Packet Too Big\") messages are not filtered by your firewall."
+
+#: main/tech.inc
 msgid "(This is bonus credit)"
 msgstr "(Questo è credito bonus)"
 
@@ -729,8 +739,8 @@ msgid "It is real easy to get added to this list for basic checks. Just provide 
 msgstr "E' molto semplice essere aggiunti a questa lista per controlli di base. Basta fornire due immagini URLS (una IPv4-only; una IPv6-only), a Jason Fesler &lt;jfesler@gigo.com&gt;. Si prega di inviare anche l'indirizzo del sito web generale e il nome della compagnia."
 
 #: sites.inc
-msgid "Full mirrors are welcomed and appreciated, whether public or private. Please see <a href=\"http://code.google.com/p/falling-sky/wiki/MirrorOpportunities\">the wiki</a> for details."
-msgstr "Full mirrors sono accolti e apprezzati, sia pubblici che privati. Vedere <a href=\"http://code.google.com/p/falling-sky/wiki/MirrorOpportunities\">il wiki</a> per dettagli."
+msgid "Full mirrors are welcomed and appreciated, whether public or private. Please see <a href=\"https://github.com/falling-sky/source/wiki\">the wiki</a> for details."
+msgstr "Full mirrors are welcomed and appreciated, whether public or private. Please see <a href=\"https://github.com/falling-sky/source/wiki\">the wiki</a> for details."
 
 #: footer.inc
 msgid "All rights reserved."
@@ -756,6 +766,14 @@ msgstr "Attribuzioni"
 msgid "This is a mirror of test-ipv6.com. The views expressed here may or may not reflect the views of the mirror owner."
 msgstr "Questo è un mirror di test-ipv6.com. Le opinioni qui espresse possono non riflettere le opinioni di chi ospita il mirror."
 
+#: locale.html
+msgid "Available Languages"
+msgstr "Available Languages"
+
+#: locale.html
+msgid "Pick one of the following to switch to that language."
+msgstr "Pick one of the following to switch to that language."
+
 #: faq_helpdesk.html
 msgid "Help Desk Information"
 msgstr "Informazioni per l'Help Desk"
@@ -767,7 +785,7 @@ msgstr "D: Qual è il tab dell'Help Desk?"
 #: faq_helpdesk.html
 msgid "This tab is intended to help provide a brief, concise explanation of your connectivity. This can be read over the phone, if needed, to a service provider. This tab has less hand-holding; it is intended for a help desk to understand (as compared to an end user)."
 msgstr "Questo tab ha lo scopo di fornire una breve, concisa spiegazione della tua connettività.\n"
-"Può essere letta al telefono, se necessario, al fornitore di servizi. Questo tab ha un minore hand-holding; è inteso per far capire l'help desk (rispetto ad un utente finale) ."
+"Può essere letta al telefono, se necessario, al fornitore di servizi. Questo tab ha un minore hand-holding; è inteso per far capire l'help desk (rispetto ad un utente finale) ."
 
 #: faq_helpdesk.html
 msgid "This special instance shares in a very compact way:"
@@ -1694,8 +1712,8 @@ msgid "Interested in running a mirror?"
 msgstr "Interested in running a mirror?"
 
 #: mirrors.html
-msgid "Mirrors are welcomed and appreciated, whether public or private. Please see <a href=\"http://code.google.com/p/falling-sky/wiki/MirrorOpportunities\">the wiki</a> for details."
-msgstr "Mirrors are welcomed and appreciated, whether public or private. Please see <a href=\"http://code.google.com/p/falling-sky/wiki/MirrorOpportunities\">the wiki</a> for details."
+msgid "Mirrors are welcomed and appreciated, whether public or private. Please see <a href=\"https://github.com/falling-sky/source/wiki\">the wiki</a> for details."
+msgstr "Mirrors are welcomed and appreciated, whether public or private. Please see <a href=\"https://github.com/falling-sky/source/wiki\">the wiki</a> for details."
 
 #: faq_6to4.html
 msgid "test-ipv6.com views on 6to4"

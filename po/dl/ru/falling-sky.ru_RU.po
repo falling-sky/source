@@ -1,13 +1,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2014-08-29 11:34-0400\n"
+"PO-Revision-Date: 2014-11-11 19:30-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Russian\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"\n"
+"MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\\n\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: crowdin.com\n"
 "Language: ru_RU\n"
@@ -63,6 +61,10 @@ msgstr "Похоже, ваше IPv6 соединение использует Te
 #: messages.js
 msgid "Danger! IPv6 sorta works - however, large packets appear to fail, giving the appearance of a broken website. If a publisher publishes to IPv6, you will believe their web site to be broken. Ask your ISP about MTU issues; possibly with your tunnel."
 msgstr "Внимание! IPv6 работает, но большие пакеты, видимо, теряются. Это даже может выглядеть так, как будто сайт сломан. Если сайт будет в IPv6, для вас будет выглядеть, как будто сайт сломан. Узнайте у вашего провайдера о проблемах с MTU. Возможно, проблема в вашем туннеле."
+
+#: messages.js
+msgid "Check your firewall to make sure that ICMPv6 messages are allowed (in particular, Type 2 or Packet Too Big)."
+msgstr "Check your firewall to make sure that ICMPv6 messages are allowed (in particular, Type 2 or Packet Too Big)."
 
 #: messages.js
 msgid "Test results inconclusive; they were not consistent with expectations. Please rerun the test, and if the results are the same, please fill out the contact form."
@@ -440,6 +442,10 @@ msgstr "статистика"
 msgid "Test your IPv6 connectivity."
 msgstr "Проверьте ваше IPv6 подключение."
 
+#: index.html
+msgid "(Replay)"
+msgstr "(Replay)"
+
 #: js_required.inc
 msgid "JavaScript Required"
 msgstr "JavaScript Required"
@@ -589,6 +595,10 @@ msgid "Validates that IPv6 requests with large packets work. If this test times 
 msgstr "Этот тест определяет, корректно ли работают IPv6 запросы с большими пакетами. Если тест отрабатывает по таймауту, но другие IPv6 тесты проходят нормально - это указывает на то, что могут быть проблемы с PMTUD; возможна проблема с IP туннелями."
 
 #: main/tech.inc
+msgid "Double check to make sure that ICMPv6 Type 2 (\"Packet Too Big\") messages are not filtered by your firewall."
+msgstr "Double check to make sure that ICMPv6 Type 2 (\"Packet Too Big\") messages are not filtered by your firewall."
+
+#: main/tech.inc
 msgid "(This is bonus credit)"
 msgstr "(Это бонусный тест)"
 
@@ -729,8 +739,8 @@ msgid "It is real easy to get added to this list for basic checks. Just provide 
 msgstr "It is real easy to get added to this list for basic checks. Just provide two image URLs (one IPv4-only; one IPv6-only), to Jason Fesler &lt;jfesler@gigo.com&gt;. Also send your general web site address and organization name."
 
 #: sites.inc
-msgid "Full mirrors are welcomed and appreciated, whether public or private. Please see <a href=\"http://code.google.com/p/falling-sky/wiki/MirrorOpportunities\">the wiki</a> for details."
-msgstr "Full mirrors are welcomed and appreciated, whether public or private. Please see <a href=\"http://code.google.com/p/falling-sky/wiki/MirrorOpportunities\">the wiki</a> for details."
+msgid "Full mirrors are welcomed and appreciated, whether public or private. Please see <a href=\"https://github.com/falling-sky/source/wiki\">the wiki</a> for details."
+msgstr "Full mirrors are welcomed and appreciated, whether public or private. Please see <a href=\"https://github.com/falling-sky/source/wiki\">the wiki</a> for details."
 
 #: footer.inc
 msgid "All rights reserved."
@@ -755,6 +765,14 @@ msgstr "Attributions"
 #: disclaimer.inc
 msgid "This is a mirror of test-ipv6.com. The views expressed here may or may not reflect the views of the mirror owner."
 msgstr "Это зеркало test-ipv6.com. Мнения, высказанные здесь, могут отражать сугубо точку зрения владельца зеркала."
+
+#: locale.html
+msgid "Available Languages"
+msgstr "Available Languages"
+
+#: locale.html
+msgid "Pick one of the following to switch to that language."
+msgstr "Pick one of the following to switch to that language."
 
 #: faq_helpdesk.html
 msgid "Help Desk Information"
@@ -1693,8 +1711,8 @@ msgid "Interested in running a mirror?"
 msgstr "Interested in running a mirror?"
 
 #: mirrors.html
-msgid "Mirrors are welcomed and appreciated, whether public or private. Please see <a href=\"http://code.google.com/p/falling-sky/wiki/MirrorOpportunities\">the wiki</a> for details."
-msgstr "Mirrors are welcomed and appreciated, whether public or private. Please see <a href=\"http://code.google.com/p/falling-sky/wiki/MirrorOpportunities\">the wiki</a> for details."
+msgid "Mirrors are welcomed and appreciated, whether public or private. Please see <a href=\"https://github.com/falling-sky/source/wiki\">the wiki</a> for details."
+msgstr "Mirrors are welcomed and appreciated, whether public or private. Please see <a href=\"https://github.com/falling-sky/source/wiki\">the wiki</a> for details."
 
 #: faq_6to4.html
 msgid "test-ipv6.com views on 6to4"
