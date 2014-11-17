@@ -17,15 +17,6 @@ GIGO.sites_parsed={
       "v4" : "http://ipv4.campaya.co.uk/apple-touch-icon.png",
       "v6" : "http://ipv6.campaya.co.uk/apple-touch-icon.png"
    },
-   "commcorp.com.br" : {
-      "hide" : "0",
-      "loc" : "BR",
-      "monitor" : "Luis Balbinot <lbalbinot@commcorp.com.br>",
-      "provider" : "Commcorp Telecom",
-      "site" : "commcorp.com.br",
-      "v4" : "http://v4.commcorp.net.br/pixel.gif",
-      "v6" : "http://v6.commcorp.net.br/pixel.gif"
-   },
    "duplimaster.com" : {
       "hide" : "0",
       "loc" : "ES",

@@ -1,11 +1,13 @@
 
 all: dist-prep sites  download
 	./build.pl --maxjobs 8
+	cd po && crowdin-cli upload sources --auto-update
 	rsync -az work/. /var/www/beta.test-ipv6.com/. --exclude site --delete --progress 
 	- test -f /Applications/Safari.app/Contents/MacOS/Safari && open http://beta.test-ipv6.com/
 
 beta: dist-prep sites  download
 	./build.pl --locale en_US --config beta.inc
+	cd po && crowdin-cli upload sources --auto-update
 	rsync -az work/. /var/www/beta.test-ipv6.com/. --exclude site --delete --progress
 	- test -f /Applications/Safari.app/Contents/MacOS/Safari && open http://beta.test-ipv6.com/isp/
 

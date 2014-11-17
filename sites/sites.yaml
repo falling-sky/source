@@ -21,7 +21,7 @@ campaya.co.uk:
   v6: http://ipv6.campaya.co.uk/apple-touch-icon.png
   monitor: 'Claus Pedersen <clausp@campaya.com>'
 commcorp.com.br:
-  hide: 0
+  hide: 1
   loc: BR
   provider: Commcorp Telecom
   v4: http://v4.commcorp.net.br/pixel.gif
