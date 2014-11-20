@@ -103,6 +103,24 @@ stdio.be:
   site: stdio.be
   v4: http://ipv4.stdio.be/images/knob_valid_green.png
   v6: http://ipv6.stdio.be/images/knob_valid_green.png
+test-ipv6-ct.comcast.net: 
+  hide: 0
+  loc: US
+  mirror: 1
+  monitor: Comcast IPv6 Team <comcast-ipv6@cable.comcast.com>
+  provider: Comcast
+  site: test-ipv6-ct.comcast.net
+  v4: http://ipv4.test-ipv6-ct.comcast.net/images-nc/knob_green.png
+  v6: http://ipv6.test-ipv6-ct.comcast.net/images-nc/knob_green.png
+test-ipv6-pa.comcast.net: 
+  hide: 0
+  loc: US
+  mirror: 1
+  monitor: Comcast IPv6 Team <comcast-ipv6@cable.comcast.com>
+  provider: Comcast
+  site: test-ipv6-pa.comcast.net
+  v4: http://ipv4.test-ipv6-pa.comcast.net/images-nc/knob_green.png
+  v6: http://ipv6.test-ipv6-pa.comcast.net/images-nc/knob_green.png
 test-ipv6.alpinedc.ch: 
   hide: 0
   loc: CH
@@ -384,14 +402,6 @@ www.bsc-telecom.com:
   site: www.bsc-telecom.com
   v4: http://ipv4.bsc-telecom.com/phone.gif
   v6: http://ipv6.bsc-telecom.com/phone.gif
-www.comcast.net: 
-  hide: 0
-  loc: US
-  monitor: Comcast IPv6 Team <comcast-ipv6@cable.comcast.com>
-  provider: Comcast
-  site: www.comcast.net
-  v4: http://ipv4.test-ipv6-ct.comcast.net/images-nc/knob_green.png
-  v6: http://ipv6.test-ipv6-ct.comcast.net/images-nc/knob_green.png
 www.cyberis.co.uk: 
   hide: 0
   loc: UK

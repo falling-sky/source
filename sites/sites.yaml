@@ -394,11 +394,27 @@ www.bsc-telecom.com:
   v6: http://ipv6.bsc-telecom.com/phone.gif
   monitor: 'Ken Booth <ken@booths.org.uk>'
 www.comcast.net: 
-  hide: 0
+  hide: 1
   loc: US
   provider: Comcast
   v4: http://ipv4.test-ipv6-ct.comcast.net/images-nc/knob_green.png
   v6: http://ipv6.test-ipv6-ct.comcast.net/images-nc/knob_green.png
+  monitor: 'Comcast IPv6 Team <comcast-ipv6@cable.comcast.com>'
+test-ipv6-ct.comcast.net:
+  hide: 0
+  loc: US
+  mirror: 1
+  provider: Comcast
+  v4: http://ipv4.test-ipv6-ct.comcast.net/images-nc/knob_green.png
+  v6: http://ipv6.test-ipv6-ct.comcast.net/images-nc/knob_green.png
+  monitor: 'Comcast IPv6 Team <comcast-ipv6@cable.comcast.com>'
+test-ipv6-pa.comcast.net:
+  hide: 0
+  loc: US
+  mirror: 1
+  provider: Comcast
+  v4: http://ipv4.test-ipv6-pa.comcast.net/images-nc/knob_green.png
+  v6: http://ipv6.test-ipv6-pa.comcast.net/images-nc/knob_green.png
   monitor: 'Comcast IPv6 Team <comcast-ipv6@cable.comcast.com>'
 www.ctbc.com.br: 
   hide: 1
