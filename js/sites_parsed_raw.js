@@ -99,15 +99,6 @@
       "v4" : "http://ipv4.sixte.st/images-nc/knob_green.png",
       "v6" : "http://ipv6.sixte.st/images-nc/knob_green.png"
    },
-   "snozzages.com" : {
-      "hide" : "0",
-      "loc" : "US (VA)",
-      "monitor" : "Warren Kumari <warren@kumari.net>",
-      "provider" : "Warren Kumari",
-      "site" : "snozzages.com",
-      "v4" : "http://ipv4.v6test.snozzages.com/1x1.gif",
-      "v6" : "http://ipv6.v6test.snozzages.com/1x1.gif"
-   },
    "stdio.be" : {
       "hide" : "0",
       "loc" : "DE",
@@ -203,16 +194,6 @@
       "site" : "test-ipv6.chiveworthy.com",
       "v4" : "http://ipv4.test-ipv6.chiveworthy.com/images-nc/knob_green.png",
       "v6" : "http://ipv6.test-ipv6.chiveworthy.com/images-nc/knob_green.png"
-   },
-   "test-ipv6.co.za" : {
-      "hide" : "0",
-      "loc" : "ZA",
-      "mirror" : "1",
-      "monitor" : "Neology Support <support@neology.co.za>",
-      "provider" : "Neology",
-      "site" : "test-ipv6.co.za",
-      "v4" : "http://ipv4.test-ipv6.co.za/images-nc/knob_green.png",
-      "v6" : "http://ipv6.test-ipv6.co.za/images-nc/knob_green.png"
    },
    "test-ipv6.com" : {
       "hide" : "0",
@@ -380,16 +361,6 @@
       "v4" : "http://ipv4.test-ipv6.tld.sk/images-nc/knob_green.png",
       "v6" : "http://ipv6.test-ipv6.tld.sk/images-nc/knob_green.png"
    },
-   "test-ipv6.uni-ruse.bg" : {
-      "hide" : "0",
-      "loc" : "BG",
-      "mirror" : "1",
-      "monitor" : "Support team <mirrors@uni-ruse.bg>",
-      "provider" : "University of Ruse",
-      "site" : "test-ipv6.uni-ruse.bg",
-      "v4" : "http://ipv4.test-ipv6.uni-ruse.bg/images-nc/knob_green.png",
-      "v6" : "http://ipv6.test-ipv6.uni-ruse.bg/images-nc/knob_green.png"
-   },
    "test-ipv6.vn.ua" : {
       "hide" : "0",
       "loc" : "UA",
@@ -429,16 +400,6 @@
       "site" : "testipv6.de",
       "v4" : "http://ipv4.testipv6.de/images-nc/knob_green.png",
       "v6" : "http://ipv6.testipv6.de/images-nc/knob_green.png"
-   },
-   "v6research.net" : {
-      "hide" : "0",
-      "loc" : "US",
-      "mirror" : "1",
-      "monitor" : "Bill Cerveny <admin@v6research.net>",
-      "provider" : "Bill Cerveny",
-      "site" : "v6research.net",
-      "v4" : "http://ipv4.v6research.net/images-nc/knob_green.png",
-      "v6" : "http://ipv6.v6research.net/images-nc/knob_green.png"
    },
    "www.bsc-telecom.com" : {
       "hide" : "0",

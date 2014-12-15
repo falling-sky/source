@@ -1,13 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2014-11-11 19:30-0500\n"
+"PO-Revision-Date: 2014-12-14 20:45-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Chinese Traditional, Hong Kong\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\\n\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: crowdin.com\n"
+"X-Crowdin-Project: falling-sky\n"
+"X-Crowdin-File: falling-sky.pot\n"
 "Language: zh_HK\n"
 
 #: mirrorconfig.js
@@ -273,6 +275,10 @@ msgstr "faq: Broken DNS Lookups"
 #: messages.js
 msgid "faq: Avoiding IPv6?"
 msgstr "faq: Avoiding IPv6?"
+
+#: messages.js
+msgid "faq: 6RD tunnel"
+msgstr "faq: 6RD tunnel"
 
 #: builtin.js
 msgid "[more info]"

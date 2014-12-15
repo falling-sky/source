@@ -87,5 +87,5 @@ GIGO.messages_popups = {
     "broken": ["broken.html", "[% 'faq: Broken!' | i18n %]"],
     "ipv6:nodns": ["faq_broken_aaaa.html", "[% 'faq: Broken DNS Lookups' | i18n %]"],
     "avoids_ipv6": ["faq_avoids_ipv6.html", "[% 'faq: Avoiding IPv6?' | i18n %]"],
-    "tunnel_6rd_dumb": ["faq_tunnel_6rd.html", "[% 'faq: 6RD tunnel' %]"]
+    "tunnel_6rd_dumb": ["faq_tunnel_6rd.html", "[% 'faq: 6RD tunnel' | i18n %]"]
 };

@@ -1,13 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2014-11-11 19:30-0500\n"
+"PO-Revision-Date: 2014-12-09 10:45-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Portuguese, Brazilian\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\\n\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: crowdin.com\n"
+"X-Crowdin-Project: falling-sky\n"
+"X-Crowdin-File: falling-sky.pot\n"
 "Language: pt_BR\n"
 
 #: mirrorconfig.js
@@ -64,7 +66,7 @@ msgstr "Perigo! IPv6 até funciona. Contudo, grandes pacotes parecem falhar, cri
 
 #: messages.js
 msgid "Check your firewall to make sure that ICMPv6 messages are allowed (in particular, Type 2 or Packet Too Big)."
-msgstr "Check your firewall to make sure that ICMPv6 messages are allowed (in particular, Type 2 or Packet Too Big)."
+msgstr "Verifique no seu firewall se as mensagens ICMPv6 estão sendo permitidas, particularmente Tipo 2 ou Pacote Grande Demais."
 
 #: messages.js
 msgid "Test results inconclusive; they were not consistent with expectations. Please rerun the test, and if the results are the same, please fill out the contact form."
@@ -274,6 +276,10 @@ msgstr "faq: Pesquisas de DNS problemáticas"
 msgid "faq: Avoiding IPv6?"
 msgstr "FAQ: evitando IPv6?"
 
+#: messages.js
+msgid "faq: 6RD tunnel"
+msgstr "faq: 6RD tunnel"
+
 #: builtin.js
 msgid "[more info]"
 msgstr "[mais informações]"
@@ -444,7 +450,7 @@ msgstr "Testar sua conectividade IPv6."
 
 #: index.html
 msgid "(Replay)"
-msgstr "(Replay)"
+msgstr "(Testar novamente)"
 
 #: js_required.inc
 msgid "JavaScript Required"
@@ -596,7 +602,7 @@ msgstr "Verifica o funcionamento de requisições IPv6 usando pacotes grandes. S
 
 #: main/tech.inc
 msgid "Double check to make sure that ICMPv6 Type 2 (\"Packet Too Big\") messages are not filtered by your firewall."
-msgstr "Double check to make sure that ICMPv6 Type 2 (\"Packet Too Big\") messages are not filtered by your firewall."
+msgstr "Verifique novamente se as mensagens ICMPv6 Tipo 2 (Pacote grande demais) não estão sendo filtradas pelo seu firewall."
 
 #: main/tech.inc
 msgid "(This is bonus credit)"
@@ -740,7 +746,7 @@ msgstr "É muito fácil ser adicionado a esta lista para verificações básicas
 
 #: sites.inc
 msgid "Full mirrors are welcomed and appreciated, whether public or private. Please see <a href=\"https://github.com/falling-sky/source/wiki\">the wiki</a> for details."
-msgstr "Full mirrors are welcomed and appreciated, whether public or private. Please see <a href=\"https://github.com/falling-sky/source/wiki\">the wiki</a> for details."
+msgstr "Mirros completos são muito bem vindos, sendo públicos ou privados. Por favor veja <a href=\"https://github.com/falling-sky/source/wiki\">a wiki</a> para detalhes."
 
 #: footer.inc
 msgid "All rights reserved."
@@ -768,11 +774,11 @@ msgstr "Este site é um espelho do test-ipv6.com. O que está aqui pode ou não 
 
 #: locale.html
 msgid "Available Languages"
-msgstr "Available Languages"
+msgstr "Idiomas disponíveis"
 
 #: locale.html
 msgid "Pick one of the following to switch to that language."
-msgstr "Pick one of the following to switch to that language."
+msgstr "Escolha um para mudar para este idioma."
 
 #: faq_helpdesk.html
 msgid "Help Desk Information"
@@ -1712,7 +1718,7 @@ msgstr "Interessado em fornecer um mirror?"
 
 #: mirrors.html
 msgid "Mirrors are welcomed and appreciated, whether public or private. Please see <a href=\"https://github.com/falling-sky/source/wiki\">the wiki</a> for details."
-msgstr "Mirrors are welcomed and appreciated, whether public or private. Please see <a href=\"https://github.com/falling-sky/source/wiki\">the wiki</a> for details."
+msgstr "Mirrors são muito bem vindos, sejam públicos ou privados. Por favor veja <a href=\"https://github.com/falling-sky/source/wiki\">a wiki</a> para mais detalhes."
 
 #: faq_6to4.html
 msgid "test-ipv6.com views on 6to4"

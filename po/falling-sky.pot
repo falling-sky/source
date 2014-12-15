@@ -265,6 +265,10 @@ msgstr ""
 msgid "faq: Avoiding IPv6?"
 msgstr ""
 
+#: messages.js
+msgid "faq: 6RD tunnel"
+msgstr ""
+
 #: builtin.js
 msgid "[more info]"
 msgstr ""

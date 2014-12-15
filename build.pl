@@ -657,6 +657,12 @@ sub filter_i18n_factory {
             $text =~ s/^\s+//;
             $text =~ s/\s+/ /g;  # Canonicalize any size whitespace to single space
             $text =~ s/\s+$//;
+            
+            
+            if ($text =~ m#[\\]#) {
+              warn "text: $text\n";
+            }
+            
             $lo->msgid($text);
             $lo->msgstr("");
             $lo->reference($component_name);

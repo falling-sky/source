@@ -1,13 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2014-11-11 19:30-0500\n"
+"PO-Revision-Date: 2014-12-14 20:45-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: French\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\\n\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: crowdin.com\n"
+"X-Crowdin-Project: falling-sky\n"
+"X-Crowdin-File: falling-sky.pot\n"
 "Language: fr_FR\n"
 
 #: mirrorconfig.js
@@ -20,7 +22,7 @@ msgstr "échec"
 
 #: messages.js
 msgid "ok"
-msgstr "ok"
+msgstr "OK"
 
 #: messages.js
 msgid "slow"
@@ -64,7 +66,7 @@ msgstr "Attention! IPv6 fonctionne &agrave; moitié - mais, les grands paquets o
 
 #: messages.js
 msgid "Check your firewall to make sure that ICMPv6 messages are allowed (in particular, Type 2 or Packet Too Big)."
-msgstr "Check your firewall to make sure that ICMPv6 messages are allowed (in particular, Type 2 or Packet Too Big)."
+msgstr "Vérifiez votre pare-feu pour s'assurer que les messages ICMPv6 sont autorisés (en particulier, Type 2 ou Packet Too Big)."
 
 #: messages.js
 msgid "Test results inconclusive; they were not consistent with expectations. Please rerun the test, and if the results are the same, please fill out the contact form."
@@ -273,6 +275,10 @@ msgstr "faq: recherche DNS impossible"
 #: messages.js
 msgid "faq: Avoiding IPv6?"
 msgstr "faq: refus d'IPv6?"
+
+#: messages.js
+msgid "faq: 6RD tunnel"
+msgstr "faq: 6RD tunnel"
 
 #: builtin.js
 msgid "[more info]"
