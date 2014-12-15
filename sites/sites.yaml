@@ -498,7 +498,7 @@ zeop.re:
   v6: http://test-ipv6.zeop.re/ipv6/ipv6.png
   monitor: 'PAYET Fabien <fabienpayet@zeop.re>'
 chelloo.com:
-  hide: 1
+  hide: 0
   loc: NL
   provider: Chelloo
   v4: http://ipv4.chelloo.com/images/pixel.gif

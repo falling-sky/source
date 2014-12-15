@@ -302,6 +302,16 @@ GIGO.sites_parsed={
       "v4" : "http://ipv4.test-ipv6.no/images-nc/knob_green.png",
       "v6" : "http://ipv6.test-ipv6.no/images-nc/knob_green.png"
    },
+   "test-ipv6.polkam.go.id" : {
+      "hide" : "0",
+      "loc" : "ID",
+      "mirror" : "1",
+      "monitor" : "vicky@polkam.go.id",
+      "provider" : "Coordinating Ministry For Political, Legal, and Security Affairs of Indonesia",
+      "site" : "test-ipv6.polkam.go.id",
+      "v4" : "http://ipv4.test-ipv6.polkam.go.id/images-nc/knob_green.png",
+      "v6" : "http://ipv6.test-ipv6.polkam.go.id/images-nc/knob_green.png"
+   },
    "test-ipv6.ro" : {
       "hide" : "0",
       "loc" : "RO",
