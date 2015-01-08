@@ -17,6 +17,15 @@
       "v4" : "http://ipv4.campaya.co.uk/apple-touch-icon.png",
       "v6" : "http://ipv6.campaya.co.uk/apple-touch-icon.png"
    },
+   "chelloo.com" : {
+      "hide" : "0",
+      "loc" : "NL",
+      "monitor" : "Rene Kemp <rene.kemp@outlook.com>",
+      "provider" : "Chelloo",
+      "site" : "chelloo.com",
+      "v4" : "http://ipv4.chelloo.com/images/pixel.gif",
+      "v6" : "http://ipv6.chelloo.com/images/pixel.gif"
+   },
    "duplimaster.com" : {
       "hide" : "0",
       "loc" : "ES",
@@ -61,16 +70,6 @@
       "v4" : "http://ipv4.tunnelbroker.net/images/helogo.gif",
       "v6" : "http://ipv6.tunnelbroker.net/images/helogo.gif"
    },
-   "ipv6-test.co.uk" : {
-      "hide" : "0",
-      "loc" : "UK",
-      "mirror" : "1",
-      "monitor" : "Ken Booth <ken@ipv6-test.co.uk>",
-      "provider" : "BSC-Telecom",
-      "site" : "ipv6-test.co.uk",
-      "v4" : "http://ipv4.ipv6-test.co.uk/images-nc/knob_green.png",
-      "v6" : "http://ipv6.ipv6-test.co.uk/images-nc/knob_green.png"
-   },
    "nic.br" : {
       "hide" : "0",
       "loc" : "BR",
@@ -98,6 +97,15 @@
       "site" : "sixte.st",
       "v4" : "http://ipv4.sixte.st/images-nc/knob_green.png",
       "v6" : "http://ipv6.sixte.st/images-nc/knob_green.png"
+   },
+   "snozzages.com" : {
+      "hide" : "0",
+      "loc" : "US (VA)",
+      "monitor" : "Warren Kumari <warren@kumari.net>",
+      "provider" : "Warren Kumari",
+      "site" : "snozzages.com",
+      "v4" : "http://ipv4.v6test.snozzages.com/1x1.gif",
+      "v6" : "http://ipv6.v6test.snozzages.com/1x1.gif"
    },
    "stdio.be" : {
       "hide" : "0",
@@ -282,16 +290,6 @@
       "v4" : "http://test-ipv6.com.i42.test-ipv6.easyv6.net/ipv6-test.png",
       "v6" : "http://test-ipv6.com.i32.test-ipv6.easyv6.net/ipv6-test.png"
    },
-   "test-ipv6.nl" : {
-      "hide" : "0",
-      "loc" : "NL",
-      "mirror" : "1",
-      "monitor" : "Teun Vink <teun@bit.nl>",
-      "provider" : "BIT BV",
-      "site" : "test-ipv6.nl",
-      "v4" : "http://ipv4.test-ipv6.nl/images-nc/knob_green.png",
-      "v6" : "http://ipv6.test-ipv6.nl/images-nc/knob_green.png"
-   },
    "test-ipv6.no" : {
       "hide" : "0",
       "loc" : "NO",
@@ -410,15 +408,6 @@
       "site" : "testipv6.de",
       "v4" : "http://ipv4.testipv6.de/images-nc/knob_green.png",
       "v6" : "http://ipv6.testipv6.de/images-nc/knob_green.png"
-   },
-   "www.bsc-telecom.com" : {
-      "hide" : "0",
-      "loc" : "UK",
-      "monitor" : "Ken Booth <ken@booths.org.uk>",
-      "provider" : "BSC-Telecom",
-      "site" : "www.bsc-telecom.com",
-      "v4" : "http://ipv4.bsc-telecom.com/phone.gif",
-      "v6" : "http://ipv6.bsc-telecom.com/phone.gif"
    },
    "www.cyberis.co.uk" : {
       "hide" : "0",

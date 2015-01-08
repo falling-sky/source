@@ -1,12 +1,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2014-12-09 10:45-0500\n"
+"PO-Revision-Date: 2015-01-08 11:34-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: German\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\\n\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Content-Transfer-Encoding: 8bit\\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: crowdin.com\n"
 "X-Crowdin-Project: falling-sky\n"
 "X-Crowdin-File: falling-sky.pot\n"
@@ -450,7 +449,7 @@ msgstr "Testen Sie Ihre IPv6 Konnektivität."
 
 #: index.html
 msgid "(Replay)"
-msgstr "(Replay)"
+msgstr "(Wiederholen)"
 
 #: js_required.inc
 msgid "JavaScript Required"
@@ -614,7 +613,7 @@ msgstr "Dies ist eine Überprüfung des DNS Servers Ihres ISPs. Falls dieser Tes
 
 #: main/tech.inc
 msgid "Attempts to identify what Internet Service Provider you use for IPv4. This may be different from the marketing name you see in your local market; or may reflect a previous company name. The name shown reflects how it is known in the network operator community."
-msgstr "Versucht, zu erkennen, welcher Internet-Service-Provider für IPv4 verwendet wird. Dies kann von dem Markennamen der Firma abweichen, mit der Sie einen Vertrag haben oder eine alte Firmenbezeichnung sein. Der gezeigte Name spiegelt wider, wie Ihr ISP in der Netzbetreiber-Community bekannt ist."
+msgstr "Versucht, zu erkennen, welcher Internet-Service-Provider für IPv4 verwendet wird. Dies kann von dem Markennamen der Firma abweichen, mit der Sie einen Vertrag haben oder eine alte Firmenbezeichnung sein. Der gezeigte Name spiegelt wieder, wie Ihr ISP in der Netzbetreiber-Community bekannt ist."
 
 #: main/tech.inc
 msgid "Attempts to identify what Internet Service Provider you use for IPv6. When the IPv4 name and the IPv6 name don't match, it may suggest that you're using a tunnel; or some form of third party provider for IPv6."
@@ -718,7 +717,7 @@ msgstr "Die Help Desk Informationen werden erstellt sobald der Test abgeschlosse
 
 #: main/helpdesk.inc
 msgid "If your Internet help desk asks you to mail the 'results url', copy and paste the following URL."
-msgstr "Wenn der Support Ihres Internetanbieter Sie um die URL mit dem Testergebniss bittet kopieren Sie bitte diese URL."
+msgstr "Wenn der Support Ihres Internetanbieter Sie um die URL mit dem Testergebniss bittet, kopieren Sie bitte diese URL."
 
 #: main/helpdesk.inc
 msgid "Note that this will share your current numeric Internet Protocol address(es)."
@@ -738,7 +737,7 @@ msgstr "<b>Weil Sie IPv6 haben</b>, haben wir diese Registerkarte ergänzt , um 
 
 #: sites.inc
 msgid "<b>Hint</b>: Columns are sortable (click the first row); <a href=\"#\" onclick=\"GIGO.test_sites(2); return false;\">click here</a> to re-check reachability from where you are to those mirrors."
-msgstr "<b>Tipp</b>: Spalten sind sortierbar (Klicken Sie auf die jeweilige Spalte in der Überschriftenzeile der Tabelle); <a href=\"#\" onclick=\"GIGO.test_sites(2); return false;\"> Klicken Sie hier</a>, um nocheinmal die Erreichbarkeit der Spiegelserver von Ihrem Standort zu überprüfen."
+msgstr "<b>Tipp</b>: Spalten sind sortierbar (Klicken Sie auf die jeweilige Spalte in der Überschriftenzeile der Tabelle); <a href=\"#\" onclick=\"GIGO.test_sites(2); return false;\"> Klicken Sie hier</a>, um die Erreichbarkeit der Mirrorserver von Ihrem Standort aus erneut zu überprüfen."
 
 #: sites.inc
 msgid "It is real easy to get added to this list for basic checks. Just provide two image URLs (one IPv4-only; one IPv6-only), to Jason Fesler &lt;jfesler@gigo.com&gt;. Also send your general web site address and organization name."
@@ -746,7 +745,7 @@ msgstr "Es ist wirklich einfach zu dieser Liste für grundlegende Überprüfunge
 
 #: sites.inc
 msgid "Full mirrors are welcomed and appreciated, whether public or private. Please see <a href=\"https://github.com/falling-sky/source/wiki\">the wiki</a> for details."
-msgstr "Vollständige Spiegel werden begrüßt und sind wilkommen, seien es öffentliche oder private. Bitte besuchen Sie <a href=\"https://github.com/falling-sky/source/wiki\">das Wiki</a> für mehr Details."
+msgstr "Vollständige Mirrors werden begrüßt und sind willkommen, seien es öffentliche oder private. Bitte besuchen Sie <a href=\"https://github.com/falling-sky/source/wiki\">das Wiki</a> für mehr Details."
 
 #: footer.inc
 msgid "All rights reserved."
@@ -878,15 +877,15 @@ msgstr "Wenn Sie einen Tunnel-Broker eingerichtet haben"
 
 #: broken.html
 msgid "If you set up 6to4 (IPv6 address: starts with 2002)"
-msgstr "Falls sie 6to4 benutzen (IPv6-Adresse beginnt mit 2002)"
+msgstr "Falls Sie 6to4 benutzen (IPv6-Adresse beginnt mit 2002)"
 
 #: broken.html
 msgid "If you have an ULA (IPv6 address: starts with FC or FD)"
-msgstr "Falls sie eine ULA benutzen (IPv6-Adresse beginnt mit FC oder FD)"
+msgstr "Falls Sie eine ULA benutzen (IPv6-Adresse beginnt mit FC oder FD)"
 
 #: broken.html
 msgid "If you have an Bad or Inappropriate IPv6 Addresss (see table)"
-msgstr "Falls sie eine ungültige oder unpassende IPv6-Adresse haben (siehe Tabelle)"
+msgstr "Falls Sie eine ungültige oder unpassende IPv6-Adresse haben (siehe Tabelle)"
 
 #: broken.html
 msgid "If you have an unexpected IPv6 address"
@@ -1694,7 +1693,7 @@ msgstr "Dies ist ein Open-Source-Projekt. Ich kann Ihre Hilfe in vielfältiger W
 
 #: mirrors.html
 msgid "test-ipv6.com mirrors"
-msgstr "Test-ipv6.com-Spiegelserver"
+msgstr "Test-ipv6.com-Mirror-Server"
 
 #: mirrors.html
 msgid "These are the known publicly accessible mirrors for test-ipv6.com."
@@ -1706,7 +1705,7 @@ msgstr "Vielen Dank an alle von diesen Organisationen, die mit erheblichen Aufwa
 
 #: mirrors.html
 msgid "Hints Columns are sortable (click the first row); <a href=\"#\" onclick=\"GIGO.test_sites(1); return false;\">click here</a> to re-check reachability from where you are to those mirrors."
-msgstr "Spalten sind sortierbar (Klicken Sie auf die jeweilige Spalte in der Überschriftenzeile der Tabelle); <a href=\"#\" onclick=\"GIGO.test_sites(2); return false;\">Klicken Sie hier</a>, um nocheinmal die Erreichbarkeit der Spiegelserver von Ihrem Standort zu überprüfen."
+msgstr "Spalten sind sortierbar (Klicken Sie auf die jeweilige Spalte in der Überschriftenzeile der Tabelle); <a href=\"#\" onclick=\"GIGO.test_sites(2); return false;\">Klicken Sie hier</a>, um die Erreichbarkeit der Mirrorserver von Ihrem Standort aus erneut zu überprüfen."
 
 #: mirrors.html
 msgid "(generated by javascript)"
@@ -1714,7 +1713,7 @@ msgstr "(durch Javascript generiert)"
 
 #: mirrors.html
 msgid "Interested in running a mirror?"
-msgstr "Sind Sie daran interessiert, einen Spiegelserver laufen zu lassen?"
+msgstr "Sind Sie daran interessiert, einen Mirrorserver laufen zu lassen?"
 
 #: mirrors.html
 msgid "Mirrors are welcomed and appreciated, whether public or private. Please see <a href=\"https://github.com/falling-sky/source/wiki\">the wiki</a> for details."

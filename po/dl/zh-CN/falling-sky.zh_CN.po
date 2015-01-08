@@ -1,12 +1,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2014-12-09 10:45-0500\n"
+"PO-Revision-Date: 2015-01-08 11:34-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Chinese Simplified\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\\n\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Content-Transfer-Encoding: 8bit\\nPlural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: crowdin.com\n"
 "X-Crowdin-Project: falling-sky\n"
 "X-Crowdin-File: falling-sky.pot\n"
@@ -38,11 +37,11 @@ msgstr "IP地址url的连接貌似被封锁了; 原因可能是您的浏览器�
 
 #: messages.js
 msgid "IPv4 Connections using DNS work; but literal IP addresses in urls do not. These are rarely used on the web today."
-msgstr "IPv4 Connections using DNS work; but literal IP addresses in urls do not. These are rarely used on the web today."
+msgstr "用DNS的IPv4连接正常工作；但直接写IP地址的URL不能正常工作。虽然这在今日的网络上很少使用。"
 
 #: messages.js
 msgid "IPv6 Connections using DNS work; but literal IP addresses in urls do not. These are rarely used on the web today."
-msgstr "IPv6 Connections using DNS work; but literal IP addresses in urls do not. These are rarely used on the web today."
+msgstr "用DNS的IPv6连接正常工作；但直接写IP地址的URL不能正常工作。虽然这在今日的网络上很少使用。"
 
 #: messages.js
 msgid "You appear to be using a public 6to4 gateway; your router may be providing this to you automatically. Such public gateways have no service level agreements; you may see performance problems using such. Better would be to get a native IPv6 address from your ISP."
@@ -66,7 +65,7 @@ msgstr "危险！IPv6几近成功——但鉴于已损坏的网站呈现，可�
 
 #: messages.js
 msgid "Check your firewall to make sure that ICMPv6 messages are allowed (in particular, Type 2 or Packet Too Big)."
-msgstr "Check your firewall to make sure that ICMPv6 messages are allowed (in particular, Type 2 or Packet Too Big)."
+msgstr "请检查您的防火墙以确保ICMPv6消息被允许（尤其是“类型2”或者“数据包过大”）。"
 
 #: messages.js
 msgid "Test results inconclusive; they were not consistent with expectations. Please rerun the test, and if the results are the same, please fill out the contact form."
@@ -130,7 +129,7 @@ msgstr "最可能的原因是NoScript和AdBlock+。NoScript可以被设置为允
 
 #: messages.js
 msgid "NAT64 detected. IPv6 works. IPv4 works for most purposes. Applications that are hard-coded for IPv4-only will fail. We are aware of at least one major voice-over-ip program that falls into this category. Your application's support staff may need a nudge to add proper IPv6 support."
-msgstr "NAT64 detected. IPv6 works. IPv4 works for most purposes. Applications that are hard-coded for IPv4-only will fail. We are aware of at least one major voice-over-ip program that falls into this category. Your application's support staff may need a nudge to add proper IPv6 support."
+msgstr "检测到NAT64。IPv6工作。IPv4在大多数目的下工作。应用程序被硬编码为仅IPv4将失败。我们知道有至少一种常用的IP语音应用程序属于此类。您的应用程序的支持人员可能需要微调，适当增加对IPv6的支持。"
 
 #: messages.js
 msgid "Your DNS server (possibly run by your ISP) appears to have IPv6 Internet access."
@@ -218,11 +217,11 @@ msgstr "我们有一些建议可以帮助您修复您的系统。"
 
 #: messages.js
 msgid "Since you have IPv6, we are including a tab that shows how well you can reach other IPv6 sites. %sites"
-msgstr "Since you have IPv6, we are including a tab that shows how well you can reach other IPv6 sites. %sites"
+msgstr "既然你有IPv6，我们就显示一个选项卡，显示您可以前往的其他IPv6网站。%sites"
 
 #: messages.js
 msgid "Your browser has real working IPv6 address - but is avoiding using it. We're concerned about this."
-msgstr "Your browser has real working IPv6 address - but is avoiding using it. We're concerned about this."
+msgstr "您的浏览器有一个真正能用的IPv6地址 - 但它在避免使用它。我们对此表示关注。"
 
 #: messages.js
 msgid "faq: MTU"
@@ -242,11 +241,11 @@ msgstr "faq: 6to4"
 
 #: messages.js
 msgid "faq: Teredo Minimum"
-msgstr "faq: Teredo Minimum"
+msgstr "faq: Teredo最低"
 
 #: messages.js
 msgid "faq: v6ns Bad"
-msgstr "faq: v6ns Bad"
+msgstr "faq: v6ns失败"
 
 #: messages.js
 msgid "faq: Browser Plugins"
@@ -262,23 +261,23 @@ msgstr "faq: Opera"
 
 #: messages.js
 msgid "faq: Buggy DNS"
-msgstr "faq: Buggy DNS"
+msgstr "faq: 有问题的DNS"
 
 #: messages.js
 msgid "faq: Broken!"
-msgstr "faq: Broken!"
+msgstr "faq: 破损！"
 
 #: messages.js
 msgid "faq: Broken DNS Lookups"
-msgstr "faq: Broken DNS Lookups"
+msgstr "faq: 故障的DNS查询"
 
 #: messages.js
 msgid "faq: Avoiding IPv6?"
-msgstr "faq: Avoiding IPv6?"
+msgstr "faq: 要避免IPv6？"
 
 #: messages.js
 msgid "faq: 6RD tunnel"
-msgstr "faq: 6RD tunnel"
+msgstr "faq: 6RD隧道"
 
 #: builtin.js
 msgid "[more info]"
@@ -290,7 +289,7 @@ msgstr "您在公网上的 IPv4 地址是"
 
 #: builtin.js
 msgid "Proxied"
-msgstr "Proxied"
+msgstr "通过代理"
 
 #: builtin.js
 msgid "Your IPv6 address on the public Internet appears to be"
@@ -302,7 +301,7 @@ msgstr "您的 IPv6 服务似乎是."
 
 #: builtin.js
 msgid "Your Internet Service Provider (ISP) appears to be"
-msgstr "Your Internet Service Provider (ISP) appears to be"
+msgstr "您的互联网服务提供商（ISP）看起来是"
 
 #: builtin.js
 msgid "Started"
@@ -310,7 +309,7 @@ msgstr "开始"
 
 #: builtin.js
 msgid "proxied"
-msgstr "proxied"
+msgstr "通过代理"
 
 #: builtin.js
 msgid "using"
@@ -318,7 +317,7 @@ msgstr "使用"
 
 #: builtin.js
 msgid "tests run"
-msgstr "tests run"
+msgstr "测试项目"
 
 #: builtin.js
 msgid "(Survey posting skipped; test was rigged)"
@@ -418,7 +417,7 @@ msgstr "您的浏览器屏蔽了"
 
 #: helpdesk.js
 msgid "Your Internet help desk may ask you for the information below."
-msgstr "Your Internet help desk may ask you for the information below."
+msgstr "您的互联网服务台可能向您询问下列信息。"
 
 #: header.inc
 msgid "Test your IPv6."
@@ -442,7 +441,7 @@ msgstr "镜像"
 
 #: list-nav.inc
 msgid "stats"
-msgstr "stats"
+msgstr "统计"
 
 #: index.html
 msgid "Test your IPv6 connectivity."
@@ -450,35 +449,35 @@ msgstr "IPv6 连接测试"
 
 #: index.html
 msgid "(Replay)"
-msgstr "(Replay)"
+msgstr "(重新进行)"
 
 #: js_required.inc
 msgid "JavaScript Required"
-msgstr "JavaScript Required"
+msgstr "需要JavaScript"
 
 #: js_required.inc
 msgid "This site requires JavaScript, as well as the ability to pull in cross-site scripts, in order to perform the testing."
-msgstr "This site requires JavaScript, as well as the ability to pull in cross-site scripts, in order to perform the testing."
+msgstr "本网站需要JavaScript以实现跨网站拉取脚本、执行测试的能力。"
 
 #: js_required.inc
 msgid "If this message does not go away, it means that JavaScript has been disabled, either by a plugin or extension in your browser, or by explicit browser setting."
-msgstr "If this message does not go away, it means that JavaScript has been disabled, either by a plugin or extension in your browser, or by explicit browser setting."
+msgstr "如果此消息不会消失，它意味着JavaScript已被禁用。这可能是由于您的浏览器中的一个插件或者扩展，或者在浏览器本身的设置。"
 
 #: js_required.inc
 msgid "Do you use NoScript?"
-msgstr "Do you use NoScript?"
+msgstr "您在使用NoScript吗？"
 
 #: js_required.inc
 msgid "If you use this Firefox add-on, you'll need to \"Temporarily allow all this page\". You will need to do this <b>twice</b> for everything to work. Alternately, disable NoScript entirely until you are done with this site."
-msgstr "If you use this Firefox add-on, you'll need to \"Temporarily allow all this page\". You will need to do this <b>twice</b> for everything to work. Alternately, disable NoScript entirely until you are done with this site."
+msgstr "如果您在使用这个 Firefox 附加组件，您需要“临时允许此页面全部”。您需要这样做<b>两次</b>才能让一切正常运作。或者，完全禁用NoScript，直到您完成在本网站上要做的测试。"
 
 #: js_required.inc
 msgid "You can opt instead to view the <a href=\"simple_test.html\">simple test</a>, which will give you a quick pass/fail for IPv4, IPv4+IPv6, and IPv6. It will however offer little diagnostic information."
-msgstr "You can opt instead to view the <a href=\"simple_test.html\">simple test</a>, which will give you a quick pass/fail for IPv4, IPv4+IPv6, and IPv6. It will however offer little diagnostic information."
+msgstr "您也可以选择查看<a href=\"simple_test.html\">简单的测试</a>，它将给您一个快速的对于IPv4、IPv4+IPv6和纯IPv6的测试成功/失败。然而，它所提供的诊断信息较少。"
 
 #: main/tabnav.inc
 msgid "For the Help Desk"
-msgstr "For the Help Desk"
+msgstr "有关服务台"
 
 #: main/tabnav.inc
 msgid "Summary"
@@ -494,19 +493,19 @@ msgstr "分享测试结果 / 联系我们"
 
 #: main/tabnav.inc
 msgid "FAQ for You"
-msgstr "FAQ for You"
+msgstr "你的常见问题"
 
 #: main/tabnav.inc
 msgid "Help Popup"
-msgstr "Help Popup"
+msgstr "帮助菜单"
 
 #: main/tabnav.inc
 msgid "Debug"
-msgstr "Debug"
+msgstr "调试"
 
 #: main/tabnav.inc
 msgid "Other IPv6 Sites"
-msgstr "Other IPv6 Sites"
+msgstr "其他IPv6网站"
 
 #: main/tests.inc
 msgid "How this test works:"
@@ -558,15 +557,15 @@ msgstr "测试您 ISP 的域名服务器是否使用 IPv6"
 
 #: main/tests.inc
 msgid "Find IPv4 Service Provider"
-msgstr "Find IPv4 Service Provider"
+msgstr "查找IPv4服务提供商"
 
 #: main/tests.inc
 msgid "Find IPv6 Service Provider"
-msgstr "Find IPv6 Service Provider"
+msgstr "查找IPv6服务提供商"
 
 #: main/tests.inc
 msgid "Test for buggy DNS"
-msgstr "Test for buggy DNS"
+msgstr "测试有问题的DNS"
 
 #: main/tech.inc
 msgid "Fetches an object that has just an A record in DNS. This is expected to use IPv4. IPv6-only users might still reach this, if their provider has employed a NAT64/DNS64 or proxy solution."
@@ -602,7 +601,7 @@ msgstr "验证大包IPv6请求正常。如果这项测试超时，但其他IPv6�
 
 #: main/tech.inc
 msgid "Double check to make sure that ICMPv6 Type 2 (\"Packet Too Big\") messages are not filtered by your firewall."
-msgstr "Double check to make sure that ICMPv6 Type 2 (\"Packet Too Big\") messages are not filtered by your firewall."
+msgstr "双击以确保ICMPv6类型2（“数据包过大”）消息不会被您的防火墙过滤。"
 
 #: main/tech.inc
 msgid "(This is bonus credit)"
@@ -718,7 +717,7 @@ msgstr "Help desk information will follow once the test completes."
 
 #: main/helpdesk.inc
 msgid "If your Internet help desk asks you to mail the 'results url', copy and paste the following URL."
-msgstr "If your Internet help desk asks you to mail the 'results url', copy and paste the following URL."
+msgstr "如果您的互联网服务台让您寄回测试结果，复制并粘贴下列网址。"
 
 #: main/helpdesk.inc
 msgid "Note that this will share your current numeric Internet Protocol address(es)."
@@ -750,23 +749,23 @@ msgstr "Full mirrors are welcomed and appreciated, whether public or private. Pl
 
 #: footer.inc
 msgid "All rights reserved."
-msgstr "All rights reserved."
+msgstr "保留所有权利。"
 
 #: footer.inc
 msgid "Mission"
-msgstr "Mission"
+msgstr "使命"
 
 #: footer.inc
 msgid "Source"
-msgstr "Source"
+msgstr "源代码"
 
 #: footer.inc
 msgid "Email"
-msgstr "Email"
+msgstr "电子邮件"
 
 #: footer.inc
 msgid "Attributions"
-msgstr "Attributions"
+msgstr "归属"
 
 #: disclaimer.inc
 msgid "This is a mirror of test-ipv6.com. The views expressed here may or may not reflect the views of the mirror owner."
@@ -774,23 +773,23 @@ msgstr "免责声明：本站是 test-ipv6.com 之镜像站点。本站所包含
 
 #: locale.html
 msgid "Available Languages"
-msgstr "Available Languages"
+msgstr "可用语言"
 
 #: locale.html
 msgid "Pick one of the following to switch to that language."
-msgstr "Pick one of the following to switch to that language."
+msgstr "您可以选择切换到下列语言。"
 
 #: faq_helpdesk.html
 msgid "Help Desk Information"
-msgstr "Help Desk Information"
+msgstr "服务台信息"
 
 #: faq_helpdesk.html
 msgid "Q: What is the Help Desk tab for?"
-msgstr "Q: What is the Help Desk tab for?"
+msgstr "问：什么是服务台选项卡？"
 
 #: faq_helpdesk.html
 msgid "This tab is intended to help provide a brief, concise explanation of your connectivity. This can be read over the phone, if needed, to a service provider. This tab has less hand-holding; it is intended for a help desk to understand (as compared to an end user)."
-msgstr "This tab is intended to help provide a brief, concise explanation of your connectivity. This can be read over the phone, if needed, to a service provider. This tab has less hand-holding; it is intended for a help desk to understand (as compared to an end user)."
+msgstr "此选项卡的目的是为您的连接状况提供一个简明的解释。如果需要，这可以通过电话传递给服务提供商。此选项卡并非手把手的描述，它主要用于让服务台理解（而非最终用户）。"
 
 #: faq_helpdesk.html
 msgid "This special instance shares in a very compact way:"
@@ -798,15 +797,15 @@ msgstr "This special instance shares in a very compact way:"
 
 #: faq_helpdesk.html
 msgid "Status of each protocol"
-msgstr "Status of each protocol"
+msgstr "每个协议的状态"
 
 #: faq_helpdesk.html
 msgid "Warn of slow/timeout"
-msgstr "Warn of slow/timeout"
+msgstr "慢/超时的警告"
 
 #: faq_helpdesk.html
 msgid "Warn of MTU"
-msgstr "Warn of MTU"
+msgstr "MTU警告"
 
 #: faq_helpdesk.html
 msgid "Status of reachability to “other sites” (as compact as possible)"
@@ -814,15 +813,15 @@ msgstr "Status of reachability to “other sites” (as compact as possible)"
 
 #: faq_helpdesk.html
 msgid "IP address shown, in case tech support needs it."
-msgstr "IP address shown, in case tech support needs it."
+msgstr "IP地址已显示，以供技术支持所需。"
 
 #: faq_helpdesk.html
 msgid "List of unreachable sites, if any"
-msgstr "List of unreachable sites, if any"
+msgstr "不可达网站列表，如有"
 
 #: faq_helpdesk.html
 msgid "Q: What is the easiest way to send users to the Help Desk tab?"
-msgstr "Q: What is the easiest way to send users to the Help Desk tab?"
+msgstr "问：最简单的发送用户到服务台选项卡的方法是？"
 
 #: faq_helpdesk.html
 msgid "There are several ways to do it. Some of these are more obvious than the others when reading; some of them may be easier when read over the phone. In all of these cases, the \"Help Desk\" tab is moved to be the first and default tab shown to the user, instead of exposing the more detailed user-facing page."
@@ -834,7 +833,7 @@ msgstr "Mirror sites may not have all the fancy DNS names; they are more likely 
 
 #: faq_helpdesk.html
 msgid "Q: What are the Help Desk codes?"
-msgstr "Q: What are the Help Desk codes?"
+msgstr "问：什么是服务台代码？"
 
 #: faq_helpdesk.html
 msgid "These are meant to offer a quick, short way for your customer to tell you the status of their Internet connectivity, as validated by this site. They are also meant to be easy to memorize."
@@ -1354,7 +1353,7 @@ msgstr "Hit \"ok\""
 
 #: faq/broken_disable.inc
 msgid "Shutdown/reboot."
-msgstr "Shutdown/reboot."
+msgstr "关机/重新启动。"
 
 #: faq/broken_disable.inc
 msgid "To disable IPv6 in Windows XP:"
@@ -2366,87 +2365,87 @@ msgstr "This site would not exist without the following components and resources
 
 #: faq_buggydns1.html
 msgid "FAQ on \"Buggy DNS\""
-msgstr "FAQ on \"Buggy DNS\""
+msgstr "有关“有问题的DNS”的常见问题"
 
 #: faq_buggydns1.html
 msgid "If you were referred to this page by test-ipv6.com, it means that we were able to detect a dangerous condition with your DNS server."
-msgstr "If you were referred to this page by test-ipv6.com, it means that we were able to detect a dangerous condition with your DNS server."
+msgstr "如果您通过test-ipv6.com到达了此页面，这意味着我们检测到您的DNS服务器有一个危险的情况。"
 
 #: faq_buggydns1.html
 msgid "First a description of the problem:"
-msgstr "First a description of the problem:"
+msgstr "该问题的第一个描述："
 
 #: faq_buggydns1.html
 msgid "Your browser asked for a DNS lookup, both IPv4 and IPv6."
-msgstr "Your browser asked for a DNS lookup, both IPv4 and IPv6."
+msgstr "您的浏览器进行一次DNS查询，询问IPv4和IPv6地址。"
 
 #: faq_buggydns1.html
 msgid "The IPv6 response was returned first."
-msgstr "The IPv6 response was returned first."
+msgstr "首先返回了IPv6地址的响应。"
 
 #: faq_buggydns1.html
 msgid "Your DNS server was confused by the result - it doesn't fully follow the DNS standards."
-msgstr "Your DNS server was confused by the result - it doesn't fully follow the DNS standards."
+msgstr "您的DNS服务器被结果所迷惑 - 它未完全遵循DNS标准。"
 
 #: faq_buggydns1.html
 msgid "Your DNS server took the first peice of the IPV6 address, and memorized it as the IPv4 address."
-msgstr "Your DNS server took the first peice of the IPV6 address, and memorized it as the IPv4 address."
+msgstr "您的DNS服务器采用了首先拿到的IPV6地址，并将它存储为IPv4地址。"
 
 #: faq_buggydns1.html
 msgid "The browser fails the IPv6 lookup, but \"succeeds\" in getting a bogus IPv4 address."
-msgstr "The browser fails the IPv6 lookup, but \"succeeds\" in getting a bogus IPv4 address."
+msgstr "浏览器进行的IPv6查询失败，但它随即获得了一个假的IPv4地址。"
 
 #: faq_buggydns1.html
 msgid "It then tries to make a connecting, to the wrong address, with the wrong protocol."
-msgstr "It then tries to make a connecting, to the wrong address, with the wrong protocol."
+msgstr "然后，它尝试连接到错误的地址，用错误的协议。"
 
 #: faq_buggydns1.html
 msgid "This is bad for several reasons:"
-msgstr "This is bad for several reasons:"
+msgstr "出现这种错误有几种原因："
 
 #: faq_buggydns1.html
 msgid "You won't be able to connect to IPv6-only sites."
-msgstr "You won't be able to connect to IPv6-only sites."
+msgstr "您将无法连接到纯IPv6网站。"
 
 #: faq_buggydns1.html
 msgid "You may sporadically fail (or always fail) to connect to IPv6-enabled web sites. This is regardless of whether you are capable IPv6 or not - you may still be impacted."
-msgstr "You may sporadically fail (or always fail) to connect to IPv6-enabled web sites. This is regardless of whether you are capable IPv6 or not - you may still be impacted."
+msgstr "您可能偶尔（或始终）在连接到启用了IPv6的网站时失败。无论您是否有IPv6能力 - 您都可能受到影响。"
 
 #: faq_buggydns1.html
 msgid "So, what is actually affected?"
-msgstr "So, what is actually affected?"
+msgstr "所以，实际会受到什么影响？"
 
 #: faq_buggydns1.html
 msgid "You'll need to determine what device is forwarding your DNS queries."
-msgstr "You'll need to determine what device is forwarding your DNS queries."
+msgstr "您需要确定是哪台设备在转发您的DNS查询。"
 
 #: faq_buggydns1.html
 msgid "With Windows, at the <code>cmd</code> prompt, you can type <code>ipconfig /all</code>. Look for \"<code>DNS Servers</code>\"."
-msgstr "With Windows, at the <code>cmd</code> prompt, you can type <code>ipconfig /all</code>. Look for \"<code>DNS Servers</code>\"."
+msgstr "在使用Windows时，在<code>cmd</code>命令提示符下，您可以输入<code>ipconfig /all</code>。找到\"<code>DNS Servers</code>\"。"
 
 #: faq_buggydns1.html
 msgid "With Linux, BSD, and Mac OS X, you can do this in a terminal: <code>cat /etc/resolv.conf</code>."
-msgstr "With Linux, BSD, and Mac OS X, you can do this in a terminal: <code>cat /etc/resolv.conf</code>."
+msgstr "在使用Linux、BSD或Mac OS X时，您可以在一个终端中执行：<code>cat /etc/resolv.conf</code>。"
 
 #: faq_buggydns1.html
 msgid "Residential ISP customers: look to see if the DNS server is <b>192.168.0.1</b> or <b>192.168.1.1</b>. If so, chances are good that your home router is at fault. This is probably the blue box you have that connects the Internet."
-msgstr "Residential ISP customers: look to see if the DNS server is <b>192.168.0.1</b> or <b>192.168.1.1</b>. If so, chances are good that your home router is at fault. This is probably the blue box you have that connects the Internet."
+msgstr "住宅ISP客户：看看你的DNS服务器是否是<b>192.168.0.1</b>或<b>192.168.1.1</b>。如果是，有可能是你的家庭路由器存在故障。这可能是一台蓝色的设备，您在用它连接互联网。"
 
 #: faq_buggydns1.html
 msgid "Business customers: Provide this information to your IT professional to investigate."
-msgstr "Business customers: Provide this information to your IT professional to investigate."
+msgstr "商业客户：将此信息提供给您的IT人员进行调查。"
 
 #: faq_buggydns1.html
 msgid "IT professionals:"
-msgstr "IT professionals:"
+msgstr "IT专业人员："
 
 #: faq_buggydns1.html
 msgid "You can see an illustration of this, by doing:"
-msgstr "You can see an illustration of this, by doing:"
+msgstr "您可以看到一个例证，只需这样做："
 
 #: faq_buggydns1.html
 msgid "Substitute the 192.168.1.1 with the resolver being used by the host. If the \"aaaa\" answer comes back with no answer, but the \"a\" answer does, this is a confirmation of a broken DNS cache or forwarder. The actual DNS information for buggydns1.test-ipv6.com has only an IPv6 record configured."
-msgstr "Substitute the 192.168.1.1 with the resolver being used by the host. If the \"aaaa\" answer comes back with no answer, but the \"a\" answer does, this is a confirmation of a broken DNS cache or forwarder. The actual DNS information for buggydns1.test-ipv6.com has only an IPv6 record configured."
+msgstr "用主机正在使用的解析器替换192.168.1.1。如果“aaaa”没有返回回答，但“a”返回了回答，就能确认这是一个故障的DNS缓存或转发。buggydns1.test-ipv6.com实际配置的DNS信息只有一个IPv6记录。"
 
 #: faq_avoids_ipv6.html
 msgid "Your browser is avoiding IPv6."

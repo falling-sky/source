@@ -1,12 +1,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2014-12-09 10:45-0500\n"
+"PO-Revision-Date: 2015-01-08 11:34-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Dutch\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\\n\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Content-Transfer-Encoding: 8bit\\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: crowdin.com\n"
 "X-Crowdin-Project: falling-sky\n"
 "X-Crowdin-File: falling-sky.pot\n"
@@ -982,7 +981,7 @@ msgstr "Go to System Preferences"
 
 #: faq/find_ip.inc
 msgid "Go to Network"
-msgstr "Go to Network"
+msgstr "Ga naar Netwerk"
 
 #: faq/find_ip.inc
 msgid "Click on your primary network (green icon) if you have more than one work."
@@ -990,7 +989,7 @@ msgstr "Click on your primary network (green icon) if you have more than one wor
 
 #: faq/find_ip.inc
 msgid "Go to \"Advanced\""
-msgstr "Go to \"Advanced\""
+msgstr "Ga naar \"Geadvanceerd\""
 
 #: faq/find_ip.inc
 msgid "Look at the TCP/IP tab, uder \"Configure IPv6\"."
@@ -1278,7 +1277,7 @@ msgstr "Other routers: Try updating the firmware."
 
 #: faq/broken_bogon.inc
 msgid "Disable IPv6."
-msgstr "Disable IPv6."
+msgstr "IPv6 uitschakelen."
 
 #: broken.html
 msgid "(IPv6 address: not starting with fe80)"
@@ -1342,7 +1341,7 @@ msgstr "To completely disable IPv6 (Windows 7, Vista; XP should be similiar):"
 
 #: faq/broken_disable.inc
 msgid "Go to \"Properties\""
-msgstr "Go to \"Properties\""
+msgstr "Ga naar \"Eigenschappen\""
 
 #: faq/broken_disable.inc
 msgid "Uncheck \"Internet Protocol Version 6\""
@@ -1582,7 +1581,7 @@ msgstr "<span lookup=site.name>site</span> statistics"
 
 #: stats.html
 msgid "Graphs are updated daily."
-msgstr "Graphs are updated daily."
+msgstr "Grafieken worden dagelijks bijgewerkt."
 
 #: stats.html
 msgid "60 days view"
@@ -1754,7 +1753,7 @@ msgstr "Traffic from the web site takes a similiar path. That web site replies b
 
 #: faq_6to4.html
 msgid "Q: What could possibly go wrong?"
-msgstr "Q: What could possibly go wrong?"
+msgstr "V: Wat kan er eventueel misgaan?"
 
 #: faq_6to4.html
 msgid "The main issues involve the lack of a service level agreement, the lack of predictability, and a lack in the protocol for your computer to realize that this method is not working."
@@ -1954,7 +1953,7 @@ msgstr "it means that your DNS resolver is fully capable of reaching IPv6 DNS se
 
 #: faq_v6ns_bad.html
 msgid "Do you use OpenDNS?"
-msgstr "Do you use OpenDNS?"
+msgstr "Maakt u gebruik van OpenDNS?"
 
 #: faq_v6ns_bad.html
 msgid "OpenDNS is now offering IPv6-specific resolvers, that will be able to retrieve DNS over IPv6. This means the \"v6ns\" test operated here will pass. See the <a target=_blank href=\"http://www.opendns.com/ipv6/\">OpenDNS IPv6 information page</a>."
@@ -1982,7 +1981,7 @@ msgstr "Windows Server 2003: Upgrade to Windows Server 2008 at a minimum. Window
 
 #: faq_v6ns_bad.html
 msgid "Confirmation:"
-msgstr "Confirmation:"
+msgstr "Bevestiging:"
 
 #: faq_v6ns_bad.html
 msgid "should return back an aaaa record without errors."
@@ -2438,7 +2437,7 @@ msgstr "Business customers: Provide this information to your IT professional to 
 
 #: faq_buggydns1.html
 msgid "IT professionals:"
-msgstr "IT professionals:"
+msgstr "IT-professionals:"
 
 #: faq_buggydns1.html
 msgid "You can see an illustration of this, by doing:"
@@ -2558,7 +2557,7 @@ msgstr "Sharing IPv4 addresses is an extra expense for the ISP that they will be
 
 #: tunnel.inc
 msgid "What is a tunnel?"
-msgstr "What is a tunnel?"
+msgstr "Wat is een tunnel?"
 
 #: tunnel.inc
 msgid "A tunnel is a technique often used to transport one protocol over another one. For example, it is used by ADSL to transport PPP over ATM (a common technique for several Internet residential subscribers)."

@@ -62,7 +62,7 @@ he.net:
   v6: http://ipv6.tunnelbroker.net/images/helogo.gif
   monitor: 'Mike Tindle <mtindle@he.net>'
 ipv6-test.co.uk: 
-  hide: 0
+  hide: 1
   loc: UK
   mirror: 1
   provider: BSC-Telecom
@@ -92,13 +92,12 @@ sixte.st:
   v6: http://ipv6.sixte.st/images-nc/knob_green.png
   monitor: 'Delan Azabani <delan@azabani.com>'
 snozzages.com: 
-  hide: 1
+  hide: 0
   loc: US (VA)
   provider: Warren Kumari
   v4: http://ipv4.v6test.snozzages.com/1x1.gif
   v6: http://ipv6.v6test.snozzages.com/1x1.gif
   monitor: 'Warren Kumari <warren@kumari.net>'
-  broken: 'disabled due to cogent'
 stdio.be: 
   hide: 0
   loc: DE
@@ -388,7 +387,7 @@ v6research.net:
   v6: http://ipv6.v6research.net/images-nc/knob_green.png
   monitor: 'Bill Cerveny <admin@v6research.net>'
 www.bsc-telecom.com: 
-  hide: 0
+  hide: 1
   loc: UK
   provider: BSC-Telecom
   v4: http://ipv4.bsc-telecom.com/phone.gif
