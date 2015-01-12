@@ -290,6 +290,16 @@ GIGO.sites_parsed={
       "v4" : "http://test-ipv6.com.i42.test-ipv6.easyv6.net/ipv6-test.png",
       "v6" : "http://test-ipv6.com.i32.test-ipv6.easyv6.net/ipv6-test.png"
    },
+   "test-ipv6.nl" : {
+      "hide" : "0",
+      "loc" : "NL",
+      "mirror" : "1",
+      "monitor" : "Teun Vink <teun@bit.nl>",
+      "provider" : "BIT BV",
+      "site" : "test-ipv6.nl",
+      "v4" : "http://ipv4.test-ipv6.nl/images-nc/knob_green.png",
+      "v6" : "http://ipv6.test-ipv6.nl/images-nc/knob_green.png"
+   },
    "test-ipv6.no" : {
       "hide" : "0",
       "loc" : "NO",
