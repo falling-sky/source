@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-01-12 03:30-0500\n"
+"PO-Revision-Date: 2015-02-03 16:30-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Spanish\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -373,11 +373,11 @@ msgstr "error al cargar"
 
 #: builtin.js
 msgid "[go back]"
-msgstr "[go back]"
+msgstr "[volver]"
 
 #: builtin.js
 msgid "[permalink]"
-msgstr "[permalink]"
+msgstr "[enlace permanente]"
 
 #: versions.js
 msgid "%app: You are running version %found; we recommend %suggest or newer."
@@ -449,7 +449,7 @@ msgstr "Probar tu conectividad IPv6."
 
 #: index.html
 msgid "(Replay)"
-msgstr "(Replay)"
+msgstr "(Prueba de nuevo)"
 
 #: js_required.inc
 msgid "JavaScript Required"
@@ -477,7 +477,7 @@ msgstr "You can opt instead to view the <a href=\"simple_test.html\">simple test
 
 #: main/tabnav.inc
 msgid "For the Help Desk"
-msgstr "For the Help Desk"
+msgstr "Para el servicio de assistencia"
 
 #: main/tabnav.inc
 msgid "Summary"
@@ -661,7 +661,7 @@ msgstr "If reporting a problem with the test, or requesting help with your resul
 
 #: main/mail.inc
 msgid "Thanks,"
-msgstr "Thanks,"
+msgstr "Gracias,"
 
 #: main/mail.inc
 msgid "Purpose for comment"
@@ -669,7 +669,7 @@ msgstr "Purpose for comment"
 
 #: main/mail.inc
 msgid "Questions about test results"
-msgstr "Questions about test results"
+msgstr "Preguntas sobre los resultados"
 
 #: main/mail.inc
 msgid "Report a bug with diagnosis"
@@ -677,7 +677,7 @@ msgstr "Report a bug with diagnosis"
 
 #: main/mail.inc
 msgid "Suggestion"
-msgstr "Suggestion"
+msgstr "Sugerencia"
 
 #: main/mail.inc
 msgid "Cheers or Jeers"
@@ -773,7 +773,7 @@ msgstr "This is a mirror of test-ipv6.com. The views expressed here may or may n
 
 #: locale.html
 msgid "Available Languages"
-msgstr "Available Languages"
+msgstr "Idiomas disponibles"
 
 #: locale.html
 msgid "Pick one of the following to switch to that language."
@@ -781,7 +781,7 @@ msgstr "Pick one of the following to switch to that language."
 
 #: faq_helpdesk.html
 msgid "Help Desk Information"
-msgstr "Help Desk Information"
+msgstr "Información para el servicio de assistencia"
 
 #: faq_helpdesk.html
 msgid "Q: What is the Help Desk tab for?"
@@ -865,7 +865,7 @@ msgstr "If you find your particular problem is not well represented; or you have
 
 #: broken.html
 msgid "Make sure you are current"
-msgstr "Make sure you are current"
+msgstr "Asegúrese de que usted es actual"
 
 #: broken.html
 msgid "Find your IP address"
@@ -873,19 +873,19 @@ msgstr "Encuentra tu dirección IP"
 
 #: broken.html
 msgid "If you set up a tunnel broker"
-msgstr "If you set up a tunnel broker"
+msgstr "Si ha configurado un túnel"
 
 #: broken.html
 msgid "If you set up 6to4 (IPv6 address: starts with 2002)"
-msgstr "If you set up 6to4 (IPv6 address: starts with 2002)"
+msgstr "Si ha configurado 6to4 (dirección IPv6 empieza con 2002)"
 
 #: broken.html
 msgid "If you have an ULA (IPv6 address: starts with FC or FD)"
-msgstr "If you have an ULA (IPv6 address: starts with FC or FD)"
+msgstr "Si tienes un ULA (dirección IPv6 empieza con FC o FD)"
 
 #: broken.html
 msgid "If you have an Bad or Inappropriate IPv6 Addresss (see table)"
-msgstr "If you have an Bad or Inappropriate IPv6 Addresss (see table)"
+msgstr "Si tienes una mala o inadecuada dirección IPv6 (ver tabla)"
 
 #: broken.html
 msgid "If you have an unexpected IPv6 address"
@@ -893,11 +893,11 @@ msgstr "Si tienes una dirección IPv6 inesperada"
 
 #: broken.html
 msgid "Try the netalyzr"
-msgstr "Try the netalyzr"
+msgstr "Pruebe el netalyzr"
 
 #: broken.html
 msgid "If all else fails, disable or deprioritize IPv6"
-msgstr "If all else fails, disable or deprioritize IPv6"
+msgstr "Si todo lo demás falla, desactiva o suprime la prioridad de IPv6"
 
 #: faq/staycurrent.inc
 msgid "Many OS and Hardware manufacturers are making updates to help improve the transition to IPv6. Some known \"gotchas\" are being addressed by workarounds by these vendors."
@@ -921,7 +921,7 @@ msgstr "Mac users on 10.4 or 10.5 may need to disable IPv6 if other troubleshoot
 
 #: faq/staycurrent.inc
 msgid "Windows users: go to"
-msgstr "Windows users: go to"
+msgstr "Usuarios de Windows: ir a"
 
 #: faq/staycurrent.inc
 msgid "iPhone/iPad users: No specific version advised at this time."
@@ -981,15 +981,15 @@ msgstr "Go to System Preferences"
 
 #: faq/find_ip.inc
 msgid "Go to Network"
-msgstr "Go to Network"
+msgstr "Ir a la Red"
 
 #: faq/find_ip.inc
 msgid "Click on your primary network (green icon) if you have more than one work."
-msgstr "Click on your primary network (green icon) if you have more than one work."
+msgstr "Haga clic en su red principal (icono verde) si tienes más de una."
 
 #: faq/find_ip.inc
 msgid "Go to \"Advanced\""
-msgstr "Go to \"Advanced\""
+msgstr "Ir a \"Avanzado\""
 
 #: faq/find_ip.inc
 msgid "Look at the TCP/IP tab, uder \"Configure IPv6\"."
@@ -1093,7 +1093,7 @@ msgstr "Go to your main Internet connection, double click"
 
 #: faq/find_ip.inc
 msgid "Go to \"Details\""
-msgstr "Go to \"Details\""
+msgstr "Ir a \"Detalles\""
 
 #: faq/find_ip.inc
 msgid "Look for \"IPv6 Address\" and \"IPv6 Default Gateway\""

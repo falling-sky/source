@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-01-12 03:30-0500\n"
+"PO-Revision-Date: 2015-02-03 16:30-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: German\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -277,7 +277,7 @@ msgstr "FAQ: Sollte IPv6 vermieden werden?"
 
 #: messages.js
 msgid "faq: 6RD tunnel"
-msgstr "faq: 6RD tunnel"
+msgstr "FAQ: 6rd Tunnel"
 
 #: builtin.js
 msgid "[more info]"
@@ -1785,7 +1785,7 @@ msgstr "Wegen dieser maximale Größe müssen Ihre IPv6-Pakete müssen diese Pak
 
 #: faq_6to4.html
 msgid "Further down the line, there may be another network with even tigher restrictions on the packet size. That network may itself be a tunnel - ISPs occasionally have to do that. This is where the problem often - lies. The IPv4 tunnel will send a message back towards you, - indicating that the packet was too big - but you don't get it. Even - if you do, your IPv6 packets don't get the message, so ultimately - you never reduce your packet size."
-msgstr "Further down the line, there may be another network with even tigher restrictions on the packet size. That network may itself be a tunnel - ISPs occasionally have to do that. This is where the problem often - lies. The IPv4 tunnel will send a message back towards you, - indicating that the packet was too big - but you don't get it. Even - if you do, your IPv6 packets don't get the message, so ultimately - you never reduce your packet size."
+msgstr "An einer anderen Stelle in der Verbindung kann es ein Netzwerk geben dass wesentlich striktere Anforderungen an die Paketgröße stellt. Das Netzwerk selbst könnte auch wieder ein Tunnel sein - einige Internet Provider müssen das machen. Der IPV4 wird dann eine Nachricht schicken das das Paket zu groß ist, aber meistens erhalten Sie die Nachricht nicht.Selbst wenn Sie die Nachricht bekommen, bekommt ihr IPV6 Stack nichts davon mit und schickt die Pakete weiter mit der falschen Größe."
 
 #: faq_6to4.html
 msgid "For some people, reducing the MTU size on IPv6 will help. 1280 is the minimum legal size. You can try values between 1400 to 1480 if you really want to find the one magic value that seems to work for you; but if you do touch MTU at all I'd recommend just doing 1280, and avoid later frustration."
@@ -1813,7 +1813,7 @@ msgstr "Ran by Hurricane Electric. The author of test-ipv6.com has used their se
 
 #: faq_6to4.html
 msgid "is another popular service. I see many European users using this service significantly; though their footprint is global. They work with dynamic IPs with some custom software that they provide."
-msgstr "is another popular service. I see many European users using this service significantly; though their footprint is global. They work with dynamic IPs with some custom software that they provide."
+msgstr "ist ein verbreiteter Service. In Europa ist dies einer der meistgenutzen Angeboten aber der Service ist weltweit verfügbar. Der Service nutzt dynamische IPs und es existieren einige Software Lösungen die dort aufgelistet sind."
 
 #: faq_6to4.html
 msgid "aka freenet6. I don't have personal experience with this, but test-ipv6.com does see a number of connections via this service."

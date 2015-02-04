@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-01-12 03:30-0500\n"
+"PO-Revision-Date: 2015-02-03 06:30-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Portuguese, Brazilian\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -277,7 +277,7 @@ msgstr "FAQ: evitando IPv6?"
 
 #: messages.js
 msgid "faq: 6RD tunnel"
-msgstr "faq: 6RD tunnel"
+msgstr "FAQ: Túnel 6RD"
 
 #: builtin.js
 msgid "[more info]"
