@@ -167,7 +167,7 @@ test-ipv6.chiveworthy.com:
   v6: http://ipv6.test-ipv6.chiveworthy.com/images-nc/knob_green.png
   monitor: 'Dale Hartung <dale@dghartung.com>'
 test-ipv6.co.za: 
-  hide: 1
+  hide: 0
   loc: ZA
   mirror: 1
   provider: Neology
