@@ -222,3 +222,12 @@ a.permalink, a.goback, a.help_popup {
    font-weight: bold;
    color: #0000ff;
 }
+
+.terminal {
+  white-space: pre-wrap;
+  font-family: monospace;
+  font-style: normal;
+  font-size: 100%;
+  color: #000000;
+}
+

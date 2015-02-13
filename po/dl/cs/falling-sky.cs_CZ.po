@@ -1,11 +1,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-02-01 12:45-0500\n"
+"PO-Revision-Date: 2015-02-13 12:20-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Czech\n"
-"MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\\nPlural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"MIME-Version: 1.0\\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: crowdin.com\n"
 "X-Crowdin-Project: falling-sky\n"
 "X-Crowdin-File: falling-sky.pot\n"
@@ -2312,12 +2314,36 @@ msgid "In the above case, the message is now so big, that it can't be forwarded.
 msgstr "In the above case, the message is now so big, that it can't be forwarded. A \"Packet Too Big\" message will be sent by that router - but it only sees the IPv4 address; not your IPv6 address. Because of this, your computer will never retry with a smaller sized packet, one that might fit when using multiple envelopes."
 
 #: faq_pmtud.html
+msgid "What does this look like on the network?"
+msgstr "What does this look like on the network?"
+
+#: faq_pmtud.html
+msgid "(What does tcpdump show?)"
+msgstr "(What does tcpdump show?)"
+
+#: faq_pmtud.html
+msgid "This is what tcpdump will show.."
+msgstr "This is what tcpdump will show.."
+
+#: faq_pmtud.html
+msgid "This is what I ran to generate the packets."
+msgstr "This is what I ran to generate the packets."
+
+#: faq_pmtud.html
 msgid "What can I do?"
 msgstr "What can I do?"
 
 #: faq_pmtud.html
 msgid "This is a complex question - there are many ways to get on the Internet."
 msgstr "This is a complex question - there are many ways to get on the Internet."
+
+#: faq_pmtud.html
+msgid "The preferred fix is to permit ICMPv6 Type 2 Packet Too Big messages."
+msgstr "The preferred fix is to permit ICMPv6 Type 2 Packet Too Big messages."
+
+#: faq_pmtud.html
+msgid "Your router or firewall may be blocking these."
+msgstr "Your router or firewall may be blocking these."
 
 #: faq_pmtud.html
 msgid "If you have \"native\" IPv6, meaning your ISP gave you your IPv6 connectivity, and you are still running into MTU problems, see if your router can advertise a smaller IPv6 MTU. Alternately, configure your <b>entire LAN</b> for a smaller MTU (not really advised!)"

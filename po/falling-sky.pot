@@ -2302,11 +2302,35 @@ msgid "In the above case, the message is now so big, that it can't be forwarded.
 msgstr ""
 
 #: faq_pmtud.html
+msgid "What does this look like on the network?"
+msgstr ""
+
+#: faq_pmtud.html
+msgid "(What does tcpdump show?)"
+msgstr ""
+
+#: faq_pmtud.html
+msgid "This is what tcpdump will show.."
+msgstr ""
+
+#: faq_pmtud.html
+msgid "This is what I ran to generate the packets."
+msgstr ""
+
+#: faq_pmtud.html
 msgid "What can I do?"
 msgstr ""
 
 #: faq_pmtud.html
 msgid "This is a complex question - there are many ways to get on the Internet."
+msgstr ""
+
+#: faq_pmtud.html
+msgid "The preferred fix is to permit ICMPv6 Type 2 Packet Too Big messages."
+msgstr ""
+
+#: faq_pmtud.html
+msgid "Your router or firewall may be blocking these."
 msgstr ""
 
 #: faq_pmtud.html

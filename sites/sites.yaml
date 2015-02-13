@@ -379,7 +379,7 @@ testipv6.de:
   v6: http://ipv6.testipv6.de/images-nc/knob_green.png
   monitor: 'COSIMO WebTeam <kontakt@testipv6.de>'
 v6research.net: 
-  hide: 1
+  hide: 0
   loc: US
   mirror: 1
   provider: Bill Cerveny
