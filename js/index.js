@@ -34,7 +34,7 @@
 [% PROCESS   "sites_parsed.js"		   %]
 [% PROCESS   "sites_check.js"		   %]
 [% PROCESS   "helpdesk.js"                     %]
-
+[% PROCESS   "pulse.js"                    %]
 [% PROCESS   "fake.js" %]
 [% PROCESS   "main.js"                     %]
 

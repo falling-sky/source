@@ -419,6 +419,16 @@
       "v4" : "http://ipv4.testipv6.de/images-nc/knob_green.png",
       "v6" : "http://ipv6.testipv6.de/images-nc/knob_green.png"
    },
+   "v6research.net" : {
+      "hide" : "0",
+      "loc" : "US",
+      "mirror" : "1",
+      "monitor" : "Bill Cerveny <admin@v6research.net>",
+      "provider" : "Bill Cerveny",
+      "site" : "v6research.net",
+      "v4" : "http://ipv4.v6research.net/images-nc/knob_green.png",
+      "v6" : "http://ipv6.v6research.net/images-nc/knob_green.png"
+   },
    "www.cyberis.co.uk" : {
       "hide" : "0",
       "loc" : "UK",
