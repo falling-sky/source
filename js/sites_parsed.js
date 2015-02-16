@@ -203,6 +203,16 @@ GIGO.sites_parsed={
       "v4" : "http://ipv4.test-ipv6.chiveworthy.com/images-nc/knob_green.png",
       "v6" : "http://ipv6.test-ipv6.chiveworthy.com/images-nc/knob_green.png"
    },
+   "test-ipv6.co.za" : {
+      "hide" : "0",
+      "loc" : "ZA",
+      "mirror" : "1",
+      "monitor" : "Neology Support <support@neology.co.za>",
+      "provider" : "Neology",
+      "site" : "test-ipv6.co.za",
+      "v4" : "http://ipv4.test-ipv6.co.za/images-nc/knob_green.png",
+      "v6" : "http://ipv6.test-ipv6.co.za/images-nc/knob_green.png"
+   },
    "test-ipv6.com" : {
       "hide" : "0",
       "loc" : "US CA",

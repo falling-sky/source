@@ -1,13 +1,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-02-13 12:20-0500\n"
+"PO-Revision-Date: 2015-02-15 22:40-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Chinese Simplified\n"
-"MIME-Version: 1.0\\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\\nPlural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: crowdin.com\n"
 "X-Crowdin-Project: falling-sky\n"
 "X-Crowdin-File: falling-sky.pot\n"
@@ -1771,7 +1769,7 @@ msgstr "一些ISP已经开始在其网络中提供6to4中继。一个例子就�
 
 #: faq_6to4.html
 msgid "Once you enable 6to4, your computer will go \"Ah-ha! IPv6 Internet!\". Any time you vist a web site, your web browser will prefer to try IPv6 (if the web site is offering it). When it works, great! But when it doesn't work, you'll see timeouts. Browsers can wait a very long time before giving up on IPv6, and going back to IPv4. And the browser won't remember it had to try IPv4 - so ever web graphic, every link you click, etc will be subject to what looks like \"web site slow\" or \"web site down\"."
-msgstr "Once you enable 6to4, your computer will go \"Ah-ha! IPv6 Internet!\". Any time you vist a web site, your web browser will prefer to try IPv6 (if the web site is offering it). When it works, great! But when it doesn't work, you'll see timeouts. Browsers can wait a very long time before giving up on IPv6, and going back to IPv4. And the browser won't remember it had to try IPv4 - so ever web graphic, every link you click, etc will be subject to what looks like \"web site slow\" or \"web site down\"."
+msgstr "一旦您启用6to4，您的计算机就会去“啊哈！IPv6的互联网！”。每当您访问一个网站的时候，您的网页浏览器会更喜欢尝试的IPv6（如果该网站提供的话）。如果它工作，太棒了！但是，如果它不工作，您将会看到超时。浏览器可能会等待很长一段时间才放弃对IPv6的尝试和退回IPv4。而浏览器不会记住它不得不尝试IPv4的情况——所以网络的情况就是，每一次您点击的时候，你都会看到像是“网站缓慢”或者“网站不在线”的情况。"
 
 #: faq_6to4.html
 msgid "6to4 worked for me, but the \"Big Packet\" or MTU test was slow/failed. What happened?"
@@ -1791,7 +1789,7 @@ msgstr "Further down the line, there may be another network with even tigher res
 
 #: faq_6to4.html
 msgid "For some people, reducing the MTU size on IPv6 will help. 1280 is the minimum legal size. You can try values between 1400 to 1480 if you really want to find the one magic value that seems to work for you; but if you do touch MTU at all I'd recommend just doing 1280, and avoid later frustration."
-msgstr "For some people, reducing the MTU size on IPv6 will help. 1280 is the minimum legal size. You can try values between 1400 to 1480 if you really want to find the one magic value that seems to work for you; but if you do touch MTU at all I'd recommend just doing 1280, and avoid later frustration."
+msgstr "对于一些人来说，减少对IPv6的MTU大小会有所帮助。1280是最小的合法大小。如果您真的想找到一个对您工作的魔法值，您可以尝试1400至1480之间的值；但如果您触碰所有的MTU，我建议您做1280，避免以后的挫折。"
 
 #: faq_6to4.html
 msgid "Managed tunnels"
@@ -1879,7 +1877,7 @@ msgstr "如果您并不是精通技术的人，这里是比较通用的信息：
 
 #: faq/matrix_os.inc
 msgid "Windows Vista and Windows 7 are both IPv6 ready. Mac OS X 10.5 and higher is fine. FreeBSD and Linux, all recent versions, are also fine. When your Internet service provider offers IPv6 to you, these OSs are good. You may still need to replace your router (wireless or wired), if it is not aware of IPv6. You'll have to consult with your Internet service provider on when IPv6 will be offered."
-msgstr "Windows Vista and Windows 7 are both IPv6 ready. Mac OS X 10.5 and higher is fine. FreeBSD and Linux, all recent versions, are also fine. When your Internet service provider offers IPv6 to you, these OSs are good. You may still need to replace your router (wireless or wired), if it is not aware of IPv6. You'll have to consult with your Internet service provider on when IPv6 will be offered."
+msgstr "Windows Vista 和 Windows 7 都对 IPv6 准备好了。Mac OS X 10.5 及更高版本也是不错。FreeBSD 和 Linux 近期的所有版本也都没问题。在您的互联网服务提供商为您提供 IPv6 时，这些操作系统都没问题。如果仍无法获得 IPv6，您可能还需要更换您的路由器（无线或有线）。在 IPv6 将被提供时，您有必要咨询您的互联网服务提供商。"
 
 #: faq/matrix_os.inc
 msgid "Windows XP users: My advice is to plan on upgrading before using IPv6. It is technically possible to use IPv6 with XP, to a minimal extent."
@@ -1903,7 +1901,7 @@ msgstr "您看起来没有IPv6地址。"
 
 #: faq/unable_to_see_ipv6.inc
 msgid "<b>If you strongly believe you have IPv6, but we were unable to detect it:</b> it means one of a couple of things. Either your organization is blocking the use of IPv6 to talk to the outside Internet through network policy; or perhaps what you see with IPv6 on your host is not a global address. Any address starting with \"::\", \"fc\", \"fd\", or \"fe\" are unable to work with the public IPv6 Internet."
-msgstr "<b>If you strongly believe you have IPv6, but we were unable to detect it:</b> it means one of a couple of things. Either your organization is blocking the use of IPv6 to talk to the outside Internet through network policy; or perhaps what you see with IPv6 on your host is not a global address. Any address starting with \"::\", \"fc\", \"fd\", or \"fe\" are unable to work with the public IPv6 Internet."
+msgstr "<b>如果您坚信您有 IPv6，但我们无法检测到它：</b>这可能意味着两种情况。有可能是您的组织通过网络策略阻止使用 IPv6 与外网通信，也可能您看到的您的主机使用的 IPv6 不是一个全局地址。任何开头为“::”、“fc”、“fd”或者“fe”的地址都无法连通 IPv6 公共互联网。"
 
 #: faq_teredo_minimum.html
 msgid "More about your test results."
@@ -1935,7 +1933,7 @@ msgstr "本常见问题已经制成了尝试和处理为什么v6ns测试显示�
 
 #: faq_v6ns_bad.html
 msgid "This test specifically verifies that your DNS resolver (usually operated by your Internet service provider, or your corporate IT department) is capable of reaching IPv6 Internet sites for DNS lookups. If you explicitly configured the use of a different DNS server, such as OpenDNS or Google's Public DNS, you'll test those services instead."
-msgstr "This test specifically verifies that your DNS resolver (usually operated by your Internet service provider, or your corporate IT department) is capable of reaching IPv6 Internet sites for DNS lookups. If you explicitly configured the use of a different DNS server, such as OpenDNS or Google's Public DNS, you'll test those services instead."
+msgstr "此测试专门验证您的 DNS 服务器的 DNS 查询能否接触到 IPv6 互联网网站。DNS 服务器通常由您的互联网服务提供商或者您的企业的IT部门运营。如果您明确配置了使用其他 DNS 服务器，例如 OpenDNS 或者 Google 公共 DNS，您将测试的是这些服务。"
 
 #: faq_v6ns_bad.html
 msgid "If this test fails:"
@@ -1943,7 +1941,7 @@ msgstr "如果此测试失败："
 
 #: faq_v6ns_bad.html
 msgid "it means that the DNS resolver you are using, requires IPv4 to reach the DNS authoritative servers of your favoriate web sites. In the near future, every web site of consequence will remain accessible in this form, so <b>there is no immediate danger.</b>"
-msgstr "it means that the DNS resolver you are using, requires IPv4 to reach the DNS authoritative servers of your favoriate web sites. In the near future, every web site of consequence will remain accessible in this form, so <b>there is no immediate danger.</b>"
+msgstr "这意味着您使用的 DNS 服务器需要 IPv4 来到达您喜欢的网站的 DNS 权威服务器。在目前来说，基本每个网站都仍可以用此种形式访问，因此此情况<b>目前没有风险</b>。"
 
 #: faq_v6ns_bad.html
 msgid "If this test succeeds:"
@@ -1951,7 +1949,7 @@ msgstr "如果此测试成功："
 
 #: faq_v6ns_bad.html
 msgid "it means that your DNS resolver is fully capable of reaching IPv6 DNS servers. This means that the operator of that DNS server has IPv6 within their network. If they do not already offer you IPv6, this may be a sign that they are actively working on trying to make it possible."
-msgstr "it means that your DNS resolver is fully capable of reaching IPv6 DNS servers. This means that the operator of that DNS server has IPv6 within their network. If they do not already offer you IPv6, this may be a sign that they are actively working on trying to make it possible."
+msgstr "这意味着您使用的 DNS 服务器完全能够直达 IPv6 DNS 服务器。这意味着该 DNS 服务器的操作者在其网络中有 IPv6。如果他们还没有为您提供 IPv6，这可能是一个迹象，表明他们正在朝着这个方向积极努力。"
 
 #: faq_v6ns_bad.html
 msgid "Do you use OpenDNS?"
@@ -2559,23 +2557,23 @@ msgstr "Those sites will have to ultimately protect themselves, by blocking the 
 
 #: faq_avoids_ipv6.html
 msgid "This is not a good situation. And the main way to avoid it, is to make sure that your IPv6 is working; and to make sure that IPv6 is the preferred protocol."
-msgstr "This is not a good situation. And the main way to avoid it, is to make sure that your IPv6 is working; and to make sure that IPv6 is the preferred protocol."
+msgstr "这不是一个好情况。并且应该着力避免它，确保您的 IPv6 工作；并且确保 IPv6 是优选的协议。"
 
 #: faq_avoids_ipv6.html
 msgid "Why else should I care about IPv4 being preferred instead of IPv6, when I have both available?"
-msgstr "在我两者都可用时，为什么我要关注更偏爱IPv4而不是IPv6的问题？"
+msgstr "在我两者都可用时，为什么我要关注“更偏爱IPv4而不是IPv6”的这个问题？"
 
 #: faq_avoids_ipv6.html
 msgid "Sites that determine your location automatically, will get this wrong more frequently when you share an IPv4 address with people in other cities."
-msgstr "Sites that determine your location automatically, will get this wrong more frequently when you share an IPv4 address with people in other cities."
+msgstr "网站会自动测定您的位置。在您与其他城市的人共享一个 IPv4地址时，这个错误将更加频繁。"
 
 #: faq_avoids_ipv6.html
 msgid "The box that shares an address between you and the other hundreds of houses, may become performance constrained (cpu, network, TCP ports)"
-msgstr "The box that shares an address between you and the other hundreds of houses, may become performance constrained (cpu, network, TCP ports)"
+msgstr "您与其他数百间房屋共享一个地址可能导致性能制约（CPU、网络、TCP 端口）"
 
 #: faq_avoids_ipv6.html
 msgid "The box is a potential central point of failure for your internet access"
-msgstr "The box is a potential central point of failure for your internet access"
+msgstr "这会导致您的互联网访问存在一个潜在的中心点故障隐患"
 
 #: faq_avoids_ipv6.html
 msgid "Sharing IPv4 addresses is an extra expense for the ISP that they will be passing on to their customers"
@@ -2587,7 +2585,7 @@ msgstr "什么是隧道？"
 
 #: tunnel.inc
 msgid "A tunnel is a technique often used to transport one protocol over another one. For example, it is used by ADSL to transport PPP over ATM (a common technique for several Internet residential subscribers)."
-msgstr "A tunnel is a technique often used to transport one protocol over another one. For example, it is used by ADSL to transport PPP over ATM (a common technique for several Internet residential subscribers)."
+msgstr "隧道是一种经常用来从一个协议传送到另一个协议的技术。举例来说，ADSL 就使用了通过 ATM 传输 PPP 的方式。"
 
 #: tunnel.inc
 msgid "In the realm of IPv6, tunnels are used to transport:"
