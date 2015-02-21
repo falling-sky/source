@@ -119,6 +119,7 @@ test-ipv6.ams.vr.org:
   provider: vr.org
   v4: http://ipv4.test-ipv6.ams.vr.org/images-nc/knob_green.png
   v6: http://ipv6.test-ipv6.ams.vr.org/images-nc/knob_green.png
+  monitor: jfesler@gigo.com
 test-ipv6.at: 
   hide: 1
   loc: AT
@@ -158,6 +159,7 @@ test-ipv6.chi.vr.org:
   provider: vr.org
   v4: http://ipv4.test-ipv6.chi.vr.org/images-nc/knob_green.png
   v6: http://ipv6.test-ipv6.chi.vr.org/images-nc/knob_green.png
+  monitor: jfesler@gigo.com
 test-ipv6.chiveworthy.com: 
   hide: 0
   loc: US WI
@@ -228,6 +230,7 @@ test-ipv6.iad.vr.org:
   provider: vr.org
   v4: http://ipv4.test-ipv6.iad.vr.org/images-nc/knob_green.png
   v6: http://ipv6.test-ipv6.iad.vr.org/images-nc/knob_green.png
+  monitor: jfesler@gigo.com
 test-ipv6.jp: 
   hide: 0
   loc: JP
@@ -314,6 +317,7 @@ test-ipv6.sjc.vr.org:
   provider: vr.org
   v4: http://ipv4.test-ipv6.sjc.vr.org/images-nc/knob_green.png
   v6: http://ipv6.test-ipv6.sjc.vr.org/images-nc/knob_green.png
+  monitor: jfesler@gigo.com
 test-ipv6.sth.sze.hu: 
   hide: 1
   loc: HU

@@ -18,18 +18,18 @@ MirrorConfig =
     "#logo": "/site/logo.png",
     "#operator": "Operated by Jason Fesler",
     "#link": "http://test-ipv6.com",
-    "#html": "/site/footer.html",
+    "#html": "/site/footer.html"
   },
   
   "options": {
     "show_stats": "/stats.html",
     "survey": "/survey.php",
     "comment": "/comment.php",
-    "ip": "/ip/",
+    "ip": "/ip/"
   },
   
   "facebook": {
-    "enable": 0,
+    "enable": 0
   },
   "twitter": {
     "enable": 0,
