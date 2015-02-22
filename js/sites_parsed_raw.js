@@ -373,6 +373,16 @@
       "v4" : "http://ipv4.test-ipv6.showmyip.ca/images-nc/knob_green.png",
       "v6" : "http://ipv6.test-ipv6.showmyip.ca/images-nc/knob_green.png"
    },
+   "test-ipv6.si" : {
+      "hide" : "0",
+      "loc" : "SI",
+      "mirror" : "1",
+      "monitor" : "Damjan Sirnik <damjan@sirnik.si>",
+      "provider" : "Damjan Sirnik",
+      "site" : "test-ipv6.si",
+      "v4" : "http://ipv4.test-ipv6.si/images-nc/knob_green.png",
+      "v6" : "http://ipv6.test-ipv6.si/images-nc/knob_green.png"
+   },
    "test-ipv6.sjc.vr.org" : {
       "hide" : "0",
       "loc" : "US CA",
