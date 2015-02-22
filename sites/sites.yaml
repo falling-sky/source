@@ -303,7 +303,7 @@ test-ipv6.showmyip.ca:
   v6: http://ipv6.test-ipv6.showmyip.ca/images-nc/knob_green.png
   monitor: 'Christopher Munz-Michielin <christopher@showmyip.ca>'
 test-ipv6.si: 
-  hide: 1
+  hide: 0
   loc: SI
   mirror: 1
   provider: Damjan Sirnik
