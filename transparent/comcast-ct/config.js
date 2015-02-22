@@ -26,6 +26,7 @@ MirrorConfig =
     "comment": "/comment.php",
     "ip": "/ip/",
     "comment_html": 1,
+    "v6mtu": "mtu1280.master.test-ipv6.com",
     "userdata": "master.test-ipv6.com"
   },
   

@@ -133,6 +133,7 @@ test-ipv6.ams.vr.org:
   hide: 0
   loc: NL
   mirror: 1
+  monitor: jfesler@gigo.com
   provider: vr.org
   site: test-ipv6.ams.vr.org
   v4: http://ipv4.test-ipv6.ams.vr.org/images-nc/knob_green.png
@@ -168,6 +169,7 @@ test-ipv6.chi.vr.org:
   hide: 0
   loc: US IL
   mirror: 1
+  monitor: jfesler@gigo.com
   provider: vr.org
   site: test-ipv6.chi.vr.org
   v4: http://ipv4.test-ipv6.chi.vr.org/images-nc/knob_green.png
@@ -238,6 +240,7 @@ test-ipv6.iad.vr.org:
   hide: 0
   loc: US VA
   mirror: 1
+  monitor: jfesler@gigo.com
   provider: vr.org
   site: test-ipv6.iad.vr.org
   v4: http://ipv4.test-ipv6.iad.vr.org/images-nc/knob_green.png
@@ -335,6 +338,7 @@ test-ipv6.sjc.vr.org:
   hide: 0
   loc: US CA
   mirror: 1
+  monitor: jfesler@gigo.com
   provider: vr.org
   site: test-ipv6.sjc.vr.org
   v4: http://ipv4.test-ipv6.sjc.vr.org/images-nc/knob_green.png
