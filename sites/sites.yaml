@@ -200,7 +200,7 @@ test-ipv6.edu.cn:
   v6: http://ipv6.test-ipv6.edu.cn/images-nc/knob_green.png
   monitor: 'zhang <zhang@cernet.edu.cn>'
 test-ipv6.go6.si: 
-  hide: 1
+  hide: 0
   loc: SI
   mirror: 1
   provider: Go6 Lab - Slovenian IPv6 Iniciative

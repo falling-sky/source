@@ -218,6 +218,15 @@ test-ipv6.edu.cn:
   site: test-ipv6.edu.cn
   v4: http://ipv4.test-ipv6.edu.cn/images-nc/knob_green.png
   v6: http://ipv6.test-ipv6.edu.cn/images-nc/knob_green.png
+test-ipv6.go6.si: 
+  hide: 0
+  loc: SI
+  mirror: 1
+  monitor: Jan Zorz <jan@go6.si>
+  provider: Go6 Lab - Slovenian IPv6 Iniciative
+  site: test-ipv6.go6.si
+  v4: http://ipv4.test-ipv6.go6.si/images-nc/knob_green.png
+  v6: http://ipv6.test-ipv6.go6.si/images-nc/knob_green.png
 test-ipv6.gremlin.ca: 
   hide: 0
   loc: CA
