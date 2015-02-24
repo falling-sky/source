@@ -184,11 +184,7 @@ GIGO.test_type_json = function (url, id) {
 
 
             // Fallback to image test, if the primary tests fail.  Just in case some filter blocked the script fetches.
-            if (id !== "test_v6mtu") {
-              // Don't fall back for v6mtu
-              GIGO.queue.push(["test_type_img", GIGO.options.url[id + "_img"], id + "_img"]);
-            }
-            GIGO.finish_test(id);
+            GIGO.queue.push(["test_type_img", GIGO.options.url[id + "_img"], id + "_img"]);
         }
     });
 
@@ -616,7 +612,7 @@ GIGO.set_default_options = function (options) {
     options.ipv6 = GIGO.mirrorconfig("load", "ipv6", null);
     options.uri = GIGO.mirrorconfig("options", "ip", "/ip/") + "?callback=?";
     options.img_uri = "/images-nc/bg.gif";
-    options.img_uri_big = "/images-nc/knob_valid_green.png";
+    options.img_uri_big = "/images-nc/knob_valid_green.png?&fill=" + GIGO.fill(1600, "x");
     options.img_bad_uri = "/images-nc/knob_cancel.png";
     
     // Determine if we can use an alternate v6mtu defined by the site config (options -> v6mtu)
