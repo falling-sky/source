@@ -204,8 +204,6 @@ GIGO.sites_queue_all = function (mode) {
     
     // mirrors only if mode=1
     // all sites if mode=2 
-    debugger;
-    
     for (siteName in GIGO.sites_parsed) {
       r = GIGO.sites_parsed[siteName];
       if (mode === 1) {
