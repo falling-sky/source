@@ -184,6 +184,7 @@ GIGO.test_type_json = function (url, id) {
 
 
             // Fallback to image test, if the primary tests fail.  Just in case some filter blocked the script fetches.
+            GIGO.finish_test(id);
             GIGO.queue.push(["test_type_img", GIGO.options.url[id + "_img"], id + "_img"]);
         }
     });
