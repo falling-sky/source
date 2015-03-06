@@ -518,6 +518,7 @@ test-ipv6.polkam.go.id:
 test-ipv6.fratec.net:
   hide: 0
   loc: CR
+  mirror: 1
   provider: Sistemas Fratec S.A.
   v4: http://ipv4.test-ipv6.fratec.net/images-nc/knob_green.png
   v6: http://ipv6.test-ipv6.fratec.net/images-nc/knob_green.png

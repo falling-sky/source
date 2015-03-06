@@ -237,6 +237,7 @@ GIGO.sites_parsed={
    "test-ipv6.fratec.net" : {
       "hide" : "0",
       "loc" : "CR",
+      "mirror" : "1",
       "provider" : "Sistemas Fratec S.A.",
       "site" : "test-ipv6.fratec.net",
       "v4" : "http://ipv4.test-ipv6.fratec.net/images-nc/knob_green.png",
