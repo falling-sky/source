@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-02-20 02:15-0500\n"
+"PO-Revision-Date: 2015-02-27 14:30-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Portuguese, Brazilian\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -2317,15 +2317,15 @@ msgstr "What does this look like on the network?"
 
 #: faq_pmtud.html
 msgid "(What does tcpdump show?)"
-msgstr "(What does tcpdump show?)"
+msgstr "(O que mostra o tcpdump?)"
 
 #: faq_pmtud.html
 msgid "This is what tcpdump will show.."
-msgstr "This is what tcpdump will show.."
+msgstr "Isto é o que o tcpdump irá mostrar.."
 
 #: faq_pmtud.html
 msgid "This is what I ran to generate the packets."
-msgstr "This is what I ran to generate the packets."
+msgstr "Isto é o que eu executei para gerar os pacotes."
 
 #: faq_pmtud.html
 msgid "What can I do?"
@@ -2337,7 +2337,7 @@ msgstr "Esta é uma pergunta complexa: existem vários jeitos de entrar na Inter
 
 #: faq_pmtud.html
 msgid "The preferred fix is to permit ICMPv6 Type 2 Packet Too Big messages."
-msgstr "The preferred fix is to permit ICMPv6 Type 2 Packet Too Big messages."
+msgstr "A melhor maneira para corrigir é permitir as mensagens \"ICMPv6 Type 2 Packet Too Big\"."
 
 #: faq_pmtud.html
 msgid "Your router or firewall may be blocking these."

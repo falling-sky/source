@@ -169,7 +169,7 @@ test-ipv6.chiveworthy.com:
   v6: http://ipv6.test-ipv6.chiveworthy.com/images-nc/knob_green.png
   monitor: 'Dale Hartung <dale@dghartung.com>'
 test-ipv6.co.za: 
-  hide: 0
+  hide: 1
   loc: ZA
   mirror: 1
   provider: Neology
@@ -515,3 +515,10 @@ test-ipv6.polkam.go.id:
   v4: http://ipv4.test-ipv6.polkam.go.id/images-nc/knob_green.png
   v6: http://ipv6.test-ipv6.polkam.go.id/images-nc/knob_green.png
   monitor: 'vicky@polkam.go.id'
+test-ipv6.fratec.net:
+  hide: 0
+  loc: CR
+  provider: Sistemas Fratec S.A.
+  v4: http://ipv4.test-ipv6.fratec.net/images-nc/knob_green.png
+  v6: http://ipv6.test-ipv6.fratec.net/images-nc/knob_green.png
+

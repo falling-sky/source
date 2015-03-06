@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-02-20 02:15-0500\n"
+"PO-Revision-Date: 2015-02-27 14:30-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Russian\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -317,7 +317,7 @@ msgstr "используя"
 
 #: builtin.js
 msgid "tests run"
-msgstr "tests run"
+msgstr "Пройденные тесты"
 
 #: builtin.js
 msgid "(Survey posting skipped; test was rigged)"
@@ -449,11 +449,11 @@ msgstr "Проверьте ваше IPv6 подключение."
 
 #: index.html
 msgid "(Replay)"
-msgstr "(Replay)"
+msgstr "(Повтор)"
 
 #: js_required.inc
 msgid "JavaScript Required"
-msgstr "JavaScript Required"
+msgstr "Требуется JavaScript"
 
 #: js_required.inc
 msgid "This site requires JavaScript, as well as the ability to pull in cross-site scripts, in order to perform the testing."
@@ -465,7 +465,7 @@ msgstr "If this message does not go away, it means that JavaScript has been disa
 
 #: js_required.inc
 msgid "Do you use NoScript?"
-msgstr "Do you use NoScript?"
+msgstr "Используете ли вы NoScript?"
 
 #: js_required.inc
 msgid "If you use this Firefox add-on, you'll need to \"Temporarily allow all this page\". You will need to do this <b>twice</b> for everything to work. Alternately, disable NoScript entirely until you are done with this site."
@@ -477,7 +477,7 @@ msgstr "You can opt instead to view the <a href=\"simple_test.html\">simple test
 
 #: main/tabnav.inc
 msgid "For the Help Desk"
-msgstr "For the Help Desk"
+msgstr "Для Help Desk"
 
 #: main/tabnav.inc
 msgid "Summary"
@@ -757,7 +757,7 @@ msgstr "Mission"
 
 #: footer.inc
 msgid "Source"
-msgstr "Source"
+msgstr "Источник"
 
 #: footer.inc
 msgid "Email"
@@ -773,7 +773,7 @@ msgstr "Это зеркало test-ipv6.com. Мнения, высказанны�
 
 #: locale.html
 msgid "Available Languages"
-msgstr "Available Languages"
+msgstr "Доступные языки"
 
 #: locale.html
 msgid "Pick one of the following to switch to that language."
@@ -981,7 +981,7 @@ msgstr "Go to System Preferences"
 
 #: faq/find_ip.inc
 msgid "Go to Network"
-msgstr "Go to Network"
+msgstr "Перейти к сети"
 
 #: faq/find_ip.inc
 msgid "Click on your primary network (green icon) if you have more than one work."
@@ -1049,7 +1049,7 @@ msgstr "Windows users: To find your IP address using cmd.exe:"
 
 #: faq/find_ip.inc
 msgid "Go to your \"start\" menu"
-msgstr "Go to your \"start\" menu"
+msgstr "Перейдите в меню \"Пуск\""
 
 #: faq/find_ip.inc
 msgid "If you have a \"Run\" menu option, select it. Otherwise go to the \"Search programs and files\" box."
