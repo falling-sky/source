@@ -27,6 +27,8 @@ use Encode;
 use strict;
 
 @LOCALE = get_locale("po/dl/*/falling-sky.*.po");
+@LOCALE = grep(! /^(zh_HK|zh_TW)/, @LOCALE);
+
 
 
 chdir $Bin or die "Could not chdir $Bin : $!";
