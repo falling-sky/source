@@ -2,6 +2,17 @@
 
 require "common.php";
 
+
+global $survey_ip;
+$survey_ip=0;
+if (isset($mirrorconfig)) {
+ if (isset($mirrorconfig["options"])) {
+   if (isset($mirrorconfig["options"]["survey_ip"])) {
+     $survey_ip = $mirrorconfig["options"]["survey_ip"];
+   }
+ }
+}
+
 make_db_handle();
 
 
@@ -43,8 +54,10 @@ function fetch_status ($name) {
 }
 
 function fetch_addr ($name) {
+  global $survey_ip;
   $t = param_val($name,"/^[a-fA-F0-9:.]*\$/");
   if (!isset($t)) return "";
+  if ($survey_ip) return $t;
   return "a29";
 #  return $t;
 }
@@ -131,18 +144,13 @@ function store_data() {
       mysql_real_escape_string($tokens,$dbhandle),
       mysql_real_escape_string($ua_id,$dbhandle),
 
-[% IF hash_survey %]
-      mysql_real_escape_string(makehash($cookie),$dbhandle),
-      mysql_real_escape_string(makehash(remote_addr()),$dbhandle),
-      mysql_real_escape_string(makehash(fetch_addr("ip4")),$dbhandle),
-      mysql_real_escape_string(makehash(fetch_addr("ip6")),$dbhandle)
-[% ELSE %]
+
       mysql_real_escape_string($cookie,$dbhandle),
       mysql_real_escape_string(remote_addr(),$dbhandle),
       mysql_real_escape_string(fetch_addr("ip4"),$dbhandle),
       mysql_real_escape_string(fetch_addr("ip6"),$dbhandle)
 
-[% END %]
+
     
 
 
