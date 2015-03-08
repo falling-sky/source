@@ -54,11 +54,11 @@ GIGO.showform = function () {
     jQuery("#contact_form").show();
     jQuery("[name=purpose]").val("bug");
 
-    share_text = "[% 'share your results' | i18n %]";
+    share_text = "[% 'share your results' | i18n | escape_quotes %]";
     share_link = "<a href='#' onclick='return GIGO.tabnav(\"mail\");'>%1</a>";
     share_link = share_link.replace(/%1/, share_text);
 
-    msgs = "[%'I am most interested in discussing your setup with you, because it was been determined that <B>your IPv6 connectivity is broken</b>, or at least not fully understood.  This is not normal; would you be willing to %share?' | i18n %]";
+    msgs = "[%'I am most interested in discussing your setup with you, because it was been determined that <B>your IPv6 connectivity is broken</b>, or at least not fully understood.  This is not normal; would you be willing to %share?' | i18n | escape_quotes %]";
     msgs = msgs.replace(/%share/, share_link);
 
     msgs = "<div><p><span id='highlighter'>" + msgs + "</span></p></div>";
@@ -77,21 +77,21 @@ GIGO.showconfused = function (s) {
     GIGO.contact_wanted = 1;
     jQuery("#comments_wanted").show();
     jQuery("#comments_unwanted").hide();
-    share_text = "[% 'share your results' | i18n %]";
+    share_text = "[% 'share your results' | i18n | escape_quotes %]";
     share_link = "<a href='#' onclick='return GIGO.tabnav(\"mail\");'>%1</a>";
     share_link = share_link.replace(/%1/, share_text);
 
-    retest_text = "[% 'retest' | i18n %]";
+    retest_text = "[% 'retest' | i18n | escape_quotes %]";
     retest_link = "<a href='#' onclick='return GIGO.retest();'>%1</a>";
     retest_link = retest_link.replace(/%1/, retest_text);
 
 
-    msgs = "[% 'I am most interested in discussing your setup with you, because it was been determined that <B>your IPv6 connectivity is broken</b>, or at least not fully understood.  This is not normal; would you be willing to %share?' | i18n %]";
+    msgs = "[% 'I am most interested in discussing your setup with you, because it was been determined that <B>your IPv6 connectivity is broken</b>, or at least not fully understood.  This is not normal; would you be willing to %share?' | i18n | escape_quotes %]";
     msgs = msgs.replace(/%share/, share_link);
     msgs = msgs.replace(/%retest/, retest_link);
     msgs = "<div><p><span id='highlighter'>" + msgs + "</span></p></div>";
 
-    msgs = msgs + "<div><p>" + "[% 'Result code' | i18n %]" + " " + s + "</p></div>";
+    msgs = msgs + "<div><p>" + "[% 'Result code' | i18n | escape_quotes %]" + " " + s + "</p></div>";
 
 
     jQuery("#results_eof").before(msgs);
@@ -117,7 +117,7 @@ GIGO.validate_form = function (thisform) {
     if ((thisform.contact.value === null) || (thisform.contact.value === "")) {
         if (!GIGO.validate_form.asked) {
             GIGO.validate_form.asked = 1;
-            alert("[% 'Note: I can\'t contact you, if the contact info is blank.  If you really want to submit this anonymously, hit Send Results again.' | i18n %]");
+            alert("[% 'Note: I can\'t contact you, if the contact info is blank.  If you really want to submit this anonymously, hit Send Results again.' | i18n | escape_quotes %]");
             thisform.contact.focus();
             return false;
         }

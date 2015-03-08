@@ -193,7 +193,7 @@ GIGO.finish_helpdesk = function () {
 
     //  div.append("<div class=beta>BETA  -This tab is a work in progress.</div>");
 
-    div.append(jQuery("<p>").append("[% 'Your Internet help desk may ask you for the information below.' | i18n %]"));
+    div.append(jQuery("<p>").append("[% 'Your Internet help desk may ask you for the information below.' | i18n | escape_quotes %]"));
 
     if ((code) && (code.qcode)) {
         div.append(jQuery("<p>").append(jQuery("<span class=helpdeskcode>").text("Help desk code: " + code.qcode)));

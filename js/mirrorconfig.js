@@ -32,7 +32,7 @@ GIGO.fix_logo_generic = function () {
             }));
         }
         if (MirrorConfig.footer.operator) {
-            jQuery("#logo_operator").append("[% 'This mirror is provided by' | i18n %]" + " ");
+            jQuery("#logo_operator").append("[% 'This mirror is provided by' | i18n | escape_quotes %]" + " ");
             if (MirrorConfig.footer.link) {
                 jQuery("#logo_operator").append(jQuery("<a>", {
                     text: MirrorConfig.footer.operator,

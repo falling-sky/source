@@ -42,7 +42,7 @@ GIGO.check_version = function (appname, current, suggested) {
         suggested_compare = GIGO.zeropad(suggested);
 
         if (current_compare < suggested_compare) {
-            t = "[% '%app: You are running version %found; we recommend %suggest or newer.' | i18n %]";
+            t = "[% '%app: You are running version %found; we recommend %suggest or newer.' | i18n | escape_quotes %]";
             t = t.replace(/%app/, appname);
             t = t.replace(/%found/, current);
             t = t.replace(/%suggest/, suggested);

@@ -41,7 +41,7 @@ GIGO.expand_abbreviation = function (c) {
     if (c === "s") {
         return "slow";
     }
-    return "[" + "[% 'unknown expansion' | i18n %]" + " " + c + "]";
+    return "[" + "[% 'unknown expansion' | i18n | escape_quotes %]" + " " + c + "]";
 };
 
 
@@ -130,7 +130,7 @@ GIGO.check_results = function () {
             token_expanded.color = "YELLOW";
             token_expanded.score_ipv4 = 10;
             token_expanded.score_ipv6 = 10;
-            token_expanded.text = "(" + "[% 'unknown result code' | i18n %]" + ": " + token + ")";
+            token_expanded.text = "(" + "[% 'unknown result code' | i18n | escape_quotes %]" + ": " + token + ")";
             tokens_expanded.push(token_expanded);
             msgs = msgs + "<div><p>" + token_expanded.text + "</p></div>";
             messages_plaintext.push(token_expanded.text);

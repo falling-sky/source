@@ -63,7 +63,7 @@ GIGO.find_evidence_of_noscript = function (tests, res) {
                     res.push("webfilter:test_" + key);
                     blocked = blocked.replace(/fill=xxxx*/, "fill=xxx...xxx"); // Obscene to show a nearly 2k url
                     // Fake the gettext portion.  We need to insert text into that dynamically based on local conditions.
-                    GIGO.messages["webfilter:test_" + key] = "[% 'Your browser blocked' | i18n %]" + " " + blocked;
+                    GIGO.messages["webfilter:test_" + key] = "[% 'Your browser blocked' | i18n | escape_quotes %]" + " " + blocked;
 
                     GIGO.scores["webfilter:test_" + key] = [10, 10, "ORANGE"];
 

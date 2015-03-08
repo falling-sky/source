@@ -299,7 +299,9 @@ sub process {
         RELATIVE       => 1,
         ENCODING       => 'UTF-8',
         FILTERS        => {
-                     i18n => [ \&filter_i18n_factory, 1 ]
+                     i18n => [ \&filter_i18n_factory, 1 ],
+                     escape_quotes => [\&filter_escape_quotes_factory, 1],
+                     escape_quote => [\&filter_escape_quotes_factory, 1],
                    },
 
 #                            DEBUG => DEBUG_ALL,
@@ -442,7 +444,6 @@ sub our_yui {
     my ( $file, $type ) = @_;
 
     my $run = $COMPRESS{$type} if ( exists $COMPRESS{$type} );
-    $DB::single=1;
     
     return unless ($run);
     return if ( $argv{"debug"} );
@@ -594,7 +595,6 @@ sub get_svn {
 sub get_git {
   my $remotes = `TZ=UTC git remote -v`;
   my ($fetch,$push);
-  $DB::single=1;
   if ($remotes =~ /origin\s+(\S+)\s+\(fetch\)/ms) {
     $fetch=$1;
   }
@@ -638,6 +638,31 @@ sub get_addlanguage {
         $string .= "AddLanguage $a-$b .$locale\n";
     }
     return $string;
+}
+
+sub filter_escape_quotes_factory {
+  my ($context,$arg1) = @_;
+  my $locale           = $context->stash->get("locale");
+  if ( $locale eq "pot" ) {
+    return sub {
+      my $text = shift;
+      return $text;
+    }
+  } else {
+    return sub {
+      my $text = shift;
+      my $old = $text;
+      $DB::single=1 if ($text =~ m#http://openradar.appspot.com/7333104#);
+      
+      $text =~ s/(?<![\\])"/\\"/g;
+      $text =~ s/(?<![\\])'/\\'/g;
+      if ($old ne $text) {
+        print "***** Fixed quotes on $old\n";
+        print "***** New text is $text\n";
+      }
+      return $text;
+    }
+  }
 }
 
 sub filter_i18n_factory {

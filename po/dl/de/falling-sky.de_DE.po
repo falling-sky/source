@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-03-06 11:00-0500\n"
+"PO-Revision-Date: 2015-03-08 17:15-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: German\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -34,7 +34,7 @@ msgstr "Zeitüberschreitung"
 
 #: messages.js
 msgid "Connections to urls with IP addresses appear to be blocked; perhaps by a web filter such as 'NoScript' or 'RequestPolicy' installed into your browser, or filtering in your proxy server. This limits some of the functionality of this test site."
-msgstr "Verbindungen zu URLs welche IP Adressen behinhalten wurden blockiert; Evtl. von einem Webfilter wie 'NoScript' oder 'RequestPolicy' in Ihrem Browser oder durch einen Filter in ihrem Proxyserver. Dies schränkt die Funktionalität dieser Testseite ein."
+msgstr "Verbindungen zu URLs, welche IP Adressen beinhalten, wurden blockiert, evtl. von einem Webfilter wie 'NoScript' oder 'RequestPolicy' in Ihrem Browser oder durch einen Filter in ihrem Proxyserver. Dies schränkt die Funktionalität dieser Testseite ein."
 
 #: messages.js
 msgid "IPv4 Connections using DNS work; but literal IP addresses in urls do not. These are rarely used on the web today."
@@ -66,7 +66,7 @@ msgstr "Achtung! IPv6 funktioniert mehr oder weniger - jedoch können keine gros
 
 #: messages.js
 msgid "Check your firewall to make sure that ICMPv6 messages are allowed (in particular, Type 2 or Packet Too Big)."
-msgstr "Überprüfen Sie Ihre Firewall, um sicherzustellen, dass ICMPv6-Nachrichten (insbesondere 'Typ 2' oder 'Packet Too Big') zulässig sind."
+msgstr "Überprüfen Sie Ihre Firewall, um sicherzustellen, dass ICMPv6-Nachrichten (insbesondere \"Typ 2\" oder \"Packet Too Big\") zulässig sind."
 
 #: messages.js
 msgid "Test results inconclusive; they were not consistent with expectations. Please rerun the test, and if the results are the same, please fill out the contact form."

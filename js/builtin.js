@@ -132,8 +132,8 @@ GIGO.start_sites = function () {
     var t, moreinfo, link, table;
     jQuery("#siteslink").show();
     GIGO.test_sites(2);
-    t = "[% 'Since you have IPv6, we are including a tab that shows how well you can reach other IPv6 sites.  %sites' | i18n %]";
-    moreinfo = "[% '[more info]' | i18n %]";
+    t = "[% 'Since you have IPv6, we are including a tab that shows how well you can reach other IPv6 sites.  %sites' | i18n | escape_quotes %]";
+    moreinfo = "[% '[more info]' | i18n | escape_quotes %]";
 
     link = '<a href="#" class="help_popup" onclick="return GIGO.tabnav(\'sites\');">' + moreinfo + '</a>';
 
@@ -152,12 +152,12 @@ GIGO.update_ip = function (id) {
 
     GIGO.show_debug();
     if (GIGO.results.ipv4.ip !== "") {
-        s = "[% 'Your IPv4 address on the public Internet appears to be' | i18n %]" + " " + GIGO.results.ipv4.ip;
+        s = "[% 'Your IPv4 address on the public Internet appears to be' | i18n | escape_quotes %]" + " " + GIGO.results.ipv4.ip;
         if (GIGO.results.ipv4.subtype) {
             s = s + " (" + GIGO.results.ipv4.subtype + ")";
         }
         if (GIGO.results.ipv4.via) {
-            s = s + "<br/>" + "[% 'Proxied' | i18n %]" + ", <code>" + jQuery('<div/>').text("Via: " + GIGO.results.ipv4.via).html() + "</code>";
+            s = s + "<br/>" + "[% 'Proxied' | i18n | escape_quotes %]" + ", <code>" + jQuery('<div/>').text("Via: " + GIGO.results.ipv4.via).html() + "</code>";
         }
 
         if ((GIGO.results.ipv4.asn_name) && (GIGO.results.ipv6.asn_name) && (GIGO.results.ipv4.asn_name !== GIGO.results.ipv6.asn_name)) {
@@ -170,12 +170,12 @@ GIGO.update_ip = function (id) {
         jQuery("#your_ipv4").html(s);
     }
     if (GIGO.results.ipv6.ip !== "") {
-        s = "[% 'Your IPv6 address on the public Internet appears to be' | i18n %]" + " " + GIGO.results.ipv6.ip;
+        s = "[% 'Your IPv6 address on the public Internet appears to be' | i18n | escape_quotes %]" + " " + GIGO.results.ipv6.ip;
         if (GIGO.results.ipv6.subtype) {
-            s = s + "<br/>" + "[% 'Your IPv6 service appears to be' | i18n %]" + ": " + GIGO.results.ipv6.subtype;
+            s = s + "<br/>" + "[% 'Your IPv6 service appears to be' | i18n | escape_quotes %]" + ": " + GIGO.results.ipv6.subtype;
         }
         if (GIGO.results.ipv6.via) {
-            s = s + "<br/>" + "[% 'Proxied' | i18n %]" + ", <code>" + jQuery('<div/>').text("Via: " + GIGO.results.ipv6.via).html() + "</code>";
+            s = s + "<br/>" + "[% 'Proxied' | i18n | escape_quotes %]" + ", <code>" + jQuery('<div/>').text("Via: " + GIGO.results.ipv6.via).html() + "</code>";
         }
         if ((GIGO.results.ipv4.asn_name) && (GIGO.results.ipv6.asn_name) && (GIGO.results.ipv4.asn_name !== GIGO.results.ipv6.asn_name)) {
             escaped = jQuery('<div/>').text(GIGO.results.ipv6.asn_name).html();
@@ -191,7 +191,7 @@ GIGO.update_ip = function (id) {
     ) {
         name = GIGO.results.ipv4.asn_name || GIGO.results.ipv6.asn_name;
         escaped = jQuery('<div/>').text(name).html();
-        s = "[% 'Your Internet Service Provider (ISP) appears to be' | i18n %]" + " " + escaped;
+        s = "[% 'Your Internet Service Provider (ISP) appears to be' | i18n | escape_quotes %]" + " " + escaped;
         s = GIGO.results_table_wrapper("blue", s);
         jQuery("#your_isp").html(s);
     }
@@ -215,18 +215,18 @@ GIGO.update_status = function (id) {
     url = GIGO.results.tests[id].url;
 
     if (!time_ms) {
-        content = "[% 'Started' | i18n %]";
+        content = "[% 'Started' | i18n | escape_quotes %]";
 
     } else if (GIGO.isdef(ipinfo)) {
         // TODO: Localize number formats
         proxied = "";
         if (ipinfo.via) {
-            proxied = " " + "[% 'proxied' | i18n %]" + " ";
+            proxied = " " + "[% 'proxied' | i18n | escape_quotes %]" + " ";
         }
 
 
 
-        content = "<span class=status_" + status + ">" + status_translated + "</span> " + "(" + (time_ms / 1000.0).toFixed(3) + "s) " + "[% 'using' | i18n %]" + " " + proxied + ipinfo.type;
+        content = "<span class=status_" + status + ">" + status_translated + "</span> " + "(" + (time_ms / 1000.0).toFixed(3) + "s) " + "[% 'using' | i18n | escape_quotes %]" + " " + proxied + ipinfo.type;
         if (ipinfo.subtype) {
             content = content + " " + ipinfo.subtype;
         }
@@ -284,7 +284,7 @@ GIGO.update_progress = function (G) {
         jQuery(".progress_bar").hide();
     } else {
         jQuery(".progress_bar").show();
-        jQuery(".pb1_text").html(" " + sofar + "/" + outof + " " + "[% 'tests run' | i18n %]");
+        jQuery(".pb1_text").html(" " + sofar + "/" + outof + " " + "[% 'tests run' | i18n | escape_quotes %]");
     }
 
 };
@@ -313,7 +313,7 @@ GIGO.send_survey = function (tokens) {
     }
 
     if (GIGO.override) {
-        jQuery("#survey").html("[% '(Survey posting skipped; test was rigged)' | i18n %]");
+        jQuery("#survey").html("[% '(Survey posting skipped; test was rigged)' | i18n | escape_quotes %]");
         return;
     }
 
@@ -337,7 +337,7 @@ GIGO.send_survey = function (tokens) {
     url += "&callback=?";
 
 
-    jQuery("#survey").html("[% '(Updating server side IPv6 readiness stats)' | i18n %]");
+    jQuery("#survey").html("[% '(Updating server side IPv6 readiness stats)' | i18n | escape_quotes %]");
 
 
     jQuery.jsonp({
@@ -347,10 +347,10 @@ GIGO.send_survey = function (tokens) {
         "timeout": GIGO.max_time,
 
         "success": function (stuff) {
-            jQuery("#survey").html("[% '(Updated server side IPv6 readiness stats)' | i18n %]");
+            jQuery("#survey").html("[% '(Updated server side IPv6 readiness stats)' | i18n | escape_quotes %]");
         },
         "error": function (d, msg) {
-            jQuery("#survey").html("[% '(Survey posting failed; the above information is accurate, but not recorded.)' | i18n %]" + " " + url);
+            jQuery("#survey").html("[% '(Survey posting failed; the above information is accurate, but not recorded.)' | i18n | escape_quotes %]" + " " + url);
         }
     });
 
@@ -363,7 +363,7 @@ GIGO.gen_help_link = function (token) {
     if (GIGO.messages_popups.hasOwnProperty(token)) {
         page = GIGO.messages_popups[token][0];
         title = GIGO.messages_popups[token][1];
-        code = "<a href=\"#\" onclick=\"GIGO.help_popup('" + page + "','" + title + "'); return false;\" class=\"help_popup\">" + "[% '[more info]' | i18n %]" + "</a>";
+        code = "<a href=\"#\" onclick=\"GIGO.help_popup('" + page + "','" + title + "'); return false;\" class=\"help_popup\">" + "[% '[more info]' | i18n | escape_quotes %]" + "</a>";
     }
     return code;
 };
@@ -436,13 +436,13 @@ GIGO.show_results = function () {
         sid6 = "score0";
     }
 
-    table = "<div id=\"debugtable\"><table width=100%><tr><th colspan=2>" + "[% 'Your readiness score' | i18n %]" + "</th></tr>";
+    table = "<div id=\"debugtable\"><table width=100%><tr><th colspan=2>" + "[% 'Your readiness score' | i18n | escape_quotes %]" + "</th></tr>";
     if (GIGO.testing_ipv4(GIGO.results.score_transition)) {
-        table += "<tr><td><span id=" + sid4 + ">" + s4 + "</span></td><td>" + "[% 'for your IPv4 stability and readiness, when publishers offer both IPv4 and IPv6' | i18n %]" + "</td></tr>";
+        table += "<tr><td><span id=" + sid4 + ">" + s4 + "</span></td><td>" + "[% 'for your IPv4 stability and readiness, when publishers offer both IPv4 and IPv6' | i18n | escape_quotes %]" + "</td></tr>";
     }
-    table += "<tr><td><span id=" + sid6 + ">" + s6 + "</span></td><td>" + "[% 'for your IPv6 stability and readiness, when publishers are forced to go IPv6 only' | i18n %]" + "</td></tr>";
+    table += "<tr><td><span id=" + sid6 + ">" + s6 + "</span></td><td>" + "[% 'for your IPv6 stability and readiness, when publishers are forced to go IPv6 only' | i18n | escape_quotes %]" + "</td></tr>";
     table += "</table></div>";
-    table += "<div class='next'><p>" + "[% 'Click to see' | i18n %]" + " <a href=\"#\" class=\"tabbutton_tests\"  onclick='return GIGO.tabnav(\"tests\")'>" + "[% 'test data' | i18n %]" + "</a></p></div>";
+    table += "<div class='next'><p>" + "[% 'Click to see' | i18n | escape_quotes %]" + " <a href=\"#\" class=\"tabbutton_tests\"  onclick='return GIGO.tabnav(\"tests\")'>" + "[% 'test data' | i18n | escape_quotes %]" + "</a></p></div>";
     jQuery("#results_eof").before(table);
 
 
@@ -495,8 +495,8 @@ GIGO.show_faq_link = function (tokens) {
         jQuery("#comments_faq").show();
 
         page = faqs[tokens];
-        title = "[% 'Your FAQ' | i18n %]";
-        linktext = "[% 'Frequently Asked Questions' | i18n %]";
+        title = "[% 'Your FAQ' | i18n | escape_quotes %]";
+        linktext = "[% 'Frequently Asked Questions' | i18n | escape_quotes %]";
 
         //        handle = GIGO.help_popup(page, title, 0); // Don't auto-switch to this
         html = '<a href="#" onclick="return GIGO.help_popup(\'' + page + '\', \'' + title + '\');">' + linktext + '</a>';
@@ -535,16 +535,16 @@ GIGO.help_popup = function (file, tabname, popup) {
         lfile = file + '.[% locale %]';
 
 
-        jQuery(handle).html("[% 'loading...' | i18n %]"); // Loading indicator.    
+        jQuery(handle).html("[% 'loading...' | i18n | escape_quotes %]"); // Loading indicator.    
         jQuery(handle).load(lfile + " #content", function (responseText, textStatus) {
             if (textStatus !== 'success') {
-                jQuery(handle).html("[% 'failed to load' | i18n %]" + " " + lfile);
+                jQuery(handle).html("[% 'failed to load' | i18n | escape_quotes %]" + " " + lfile);
             }
             t = "<p>";
             t = t + "<a href='#' onclick='return GIGO.goback()' class='goback'>";
-            t = t + "[% '[go back]' | i18n %]" + "</a> ";
+            t = t + "[% '[go back]' | i18n | escape_quotes %]" + "</a> ";
             t = t + "<a target='_blank' href='" + file + "' class='permalink'>";
-            t = t + "[% '[permalink]' | i18n %]" + "</a> ";
+            t = t + "[% '[permalink]' | i18n | escape_quotes %]" + "</a> ";
             t = t + "</p>";
 
             jQuery(handle).append(t);
