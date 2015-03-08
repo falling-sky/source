@@ -319,19 +319,33 @@ GIGO.send_survey = function (tokens) {
 
 
     tokens = tokens.join(",");
-    url += "?x&" + GIGO.cgistats("a") + GIGO.cgistats("aaaa") + GIGO.cgistats("ds4") + GIGO.cgistats("ds6") + GIGO.cgistats("ipv4") + GIGO.cgistats("ipv6") + GIGO.cgistats("v6ns") + GIGO.cgistats("dsmtu") + "&tokens=" + encodeURI(tokens) + "&rand=" + Math.floor(Math.random() * 2000000000);
+    url += "?x&" + GIGO.cgistats("a") + GIGO.cgistats("aaaa") + GIGO.cgistats("ds4") + GIGO.cgistats("ds6") + GIGO.cgistats("ipv4") + GIGO.cgistats("ipv6") + GIGO.cgistats("v6ns") + GIGO.cgistats("dsmtu") + GIGO.cgistats("v6mtu") + "&tokens=" + encodeURI(tokens) + "&rand=" + Math.floor(Math.random() * 2000000000);
 
-    if (GIGO.results.ipv4.ip) {
-        url += "&ip4=a29";
+    if (MirrorConfig.options.survey_ip) {
+        if (GIGO.results.ipv4.ip) {
+            url += "&ip4="+GIGO.results.ipv4.ip;
+        } else {
+            url += "&ip4=";
+        }
+        if (GIGO.results.ipv6.ip) {
+            url += "&ip6="+GIGO.results.ipv6.ip;
+        } else {
+            url += "&ip6=";
+        }
     } else {
-        url += "&ip4=";
+        if (GIGO.results.ipv4.ip) {
+            url += "&ip4=a29";
+        } else {
+            url += "&ip4=";
+        }
+
+        if (GIGO.results.ipv6.ip) {
+            url += "&ip6=a29";
+        } else {
+            url += "&ip6=";
+        }
     }
 
-    if (GIGO.results.ipv6.ip) {
-        url += "&ip6=a29";
-    } else {
-        url += "&ip6=";
-    }
 
     url += "&ip6subtype=" + encodeURI(GIGO.results.ipv6.subtype);
     url += "&callback=?";
