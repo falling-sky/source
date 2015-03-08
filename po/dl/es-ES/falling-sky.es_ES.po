@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-03-08 17:15-0400\n"
+"PO-Revision-Date: 2015-03-08 17:26-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Spanish\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -342,11 +342,11 @@ msgstr "Tu puntuación de preparación"
 
 #: builtin.js
 msgid "for your IPv4 stability and readiness, when publishers offer both IPv4 and IPv6"
-msgstr "para su estabilidad de IPv4 y preparación, cuando los editores ofrecen IPv4 e IPv6"
+msgstr "para su estabilidad y preparación de IPv4, cuando los editores ofrecen tanto IPv4 como IPv6"
 
 #: builtin.js
 msgid "for your IPv6 stability and readiness, when publishers are forced to go IPv6 only"
-msgstr "para su estabilidad de IPv6 y preparación, cuando editores están obligados a ir sólo IPv6"
+msgstr "para su estabilidad y preparación de IPv6, cuando editores estén obligados a usar sólo IPv6"
 
 #: builtin.js
 msgid "Click to see"
@@ -1526,7 +1526,7 @@ msgstr "Este sitio, por otro lado, pretende ayudar al usuario a comprender su es
 
 #: faq.html
 msgid "Q: Your site shows the wrong IP address; how can I bypass my proxy server to find my public address?"
-msgstr "P: su sitio muestra la dirección IP incorrecta; ¿Cómo puedo eludir mi servidor proxy para encontrar mi dirección pública?"
+msgstr "P: Su sitio muestra la dirección IP incorrecta; ¿Cómo puedo eludir mi servidor proxy para encontrar mi dirección pública?"
 
 #: faq.html
 msgid "For ipv4/ipv6/dual stack, use one of these:"
@@ -1550,7 +1550,7 @@ msgstr "Tenga en cuenta que quizás necesite especificar otras opciones para el 
 
 #: faq.html
 msgid "Q: Do you actually read the feedback?"
-msgstr "P: ¿realmente lee los comentarios?"
+msgstr "P: ¿Realmente lee los comentarios?"
 
 #: faq.html
 msgid "Yes, I do. Thank you! Note that I can only follow up with you if you do leave contact information. While I am still grateful for feedback without contact information, I will be unable to reply with any answers if you asked for them."
@@ -1570,7 +1570,7 @@ msgstr "Dicho esto, eres bienvenido a enviarme directamente un correo electróni
 
 #: faq.html
 msgid "Q: Is this open source?"
-msgstr "P: ¿es esto código abierto?"
+msgstr "P: ¿Es esto código abierto?"
 
 #: faq.html
 msgid "Yes. See the <a href=\"source.html\">source page</a> for details."
