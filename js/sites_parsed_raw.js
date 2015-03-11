@@ -224,16 +224,6 @@
       "v4" : "http://ipv4.test-ipv6.cz/images-nc/knob_green.png",
       "v6" : "http://ipv6.test-ipv6.cz/images-nc/knob_green.png"
    },
-   "test-ipv6.edu.cn" : {
-      "hide" : "0",
-      "loc" : "CN",
-      "mirror" : "1",
-      "monitor" : "zhang <zhang@cernet.edu.cn>",
-      "provider" : "CERNET",
-      "site" : "test-ipv6.edu.cn",
-      "v4" : "http://ipv4.test-ipv6.edu.cn/images-nc/knob_green.png",
-      "v6" : "http://ipv6.test-ipv6.edu.cn/images-nc/knob_green.png"
-   },
    "test-ipv6.fratec.net" : {
       "hide" : "0",
       "loc" : "CR",

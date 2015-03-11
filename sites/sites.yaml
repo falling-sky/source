@@ -192,7 +192,7 @@ test-ipv6.cz:
   v6: http://ipv6.test-ipv6.cz/images-nc/knob_green.png
   monitor: 'NOC NIC <noc@nic.cz>'
 test-ipv6.edu.cn: 
-  hide: 0
+  hide: 1
   loc: CN
   mirror: 1
   provider: CERNET
