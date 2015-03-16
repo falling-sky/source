@@ -160,16 +160,16 @@ test-ipv6.chi.vr.org:
   v4: http://ipv4.test-ipv6.chi.vr.org/images-nc/knob_green.png
   v6: http://ipv6.test-ipv6.chi.vr.org/images-nc/knob_green.png
   monitor: jfesler@gigo.com
-test-ipv6.chiveworthy.com: 
+test-ipv6.lazypaddle.com:
   hide: 0
   loc: US WI
   mirror: 1
   provider: Dale Hartung
-  v4: http://ipv4.test-ipv6.chiveworthy.com/images-nc/knob_green.png
-  v6: http://ipv6.test-ipv6.chiveworthy.com/images-nc/knob_green.png
+  v4: http://ipv4.test-ipv6.lazypaddle.com/images-nc/knob_green.png
+  v6: http://ipv6.test-ipv6.lazypaddle.com/images-nc/knob_green.png
   monitor: 'Dale Hartung <dale@dghartung.com>'
 test-ipv6.co.za: 
-  hide: 1
+  hide: 0
   loc: ZA
   mirror: 1
   provider: Neology

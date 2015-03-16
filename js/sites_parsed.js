@@ -195,15 +195,15 @@ GIGO.sites_parsed={
       "v4" : "http://ipv4.test-ipv6.chi.vr.org/images-nc/knob_green.png",
       "v6" : "http://ipv6.test-ipv6.chi.vr.org/images-nc/knob_green.png"
    },
-   "test-ipv6.chiveworthy.com" : {
+   "test-ipv6.co.za" : {
       "hide" : "0",
-      "loc" : "US WI",
+      "loc" : "ZA",
       "mirror" : "1",
-      "monitor" : "Dale Hartung <dale@dghartung.com>",
-      "provider" : "Dale Hartung",
-      "site" : "test-ipv6.chiveworthy.com",
-      "v4" : "http://ipv4.test-ipv6.chiveworthy.com/images-nc/knob_green.png",
-      "v6" : "http://ipv6.test-ipv6.chiveworthy.com/images-nc/knob_green.png"
+      "monitor" : "Neology Support <support@neology.co.za>",
+      "provider" : "Neology",
+      "site" : "test-ipv6.co.za",
+      "v4" : "http://ipv4.test-ipv6.co.za/images-nc/knob_green.png",
+      "v6" : "http://ipv6.test-ipv6.co.za/images-nc/knob_green.png"
    },
    "test-ipv6.com" : {
       "hide" : "0",
@@ -282,6 +282,16 @@ GIGO.sites_parsed={
       "site" : "test-ipv6.jp",
       "v4" : "http://ipv4.test-ipv6.jp/images-nc/knob_green.png",
       "v6" : "http://ipv6.test-ipv6.jp/images-nc/knob_green.png"
+   },
+   "test-ipv6.lazypaddle.com" : {
+      "hide" : "0",
+      "loc" : "US WI",
+      "mirror" : "1",
+      "monitor" : "Dale Hartung <dale@dghartung.com>",
+      "provider" : "Dale Hartung",
+      "site" : "test-ipv6.lazypaddle.com",
+      "v4" : "http://ipv4.test-ipv6.lazypaddle.com/images-nc/knob_green.png",
+      "v6" : "http://ipv6.test-ipv6.lazypaddle.com/images-nc/knob_green.png"
    },
    "test-ipv6.monash.edu" : {
       "hide" : "0",
