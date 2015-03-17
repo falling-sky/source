@@ -172,10 +172,10 @@ test-ipv6.co.za:
   hide: 0
   loc: ZA
   mirror: 1
-  provider: Neology
+  provider: Multisource Telecoms
   v4: http://ipv4.test-ipv6.co.za/images-nc/knob_green.png
   v6: http://ipv6.test-ipv6.co.za/images-nc/knob_green.png
-  monitor: 'Neology Support <support@neology.co.za>'
+  monitor: 'Multisource Support <support@multisource.co.za>'
 test-ipv6.com: 
   hide: 0
   loc: US CA
