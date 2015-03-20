@@ -434,7 +434,7 @@ www.cyberis.co.uk:
   v6: http://ipv6labs.cyberis.co.uk/logo.png
   monitor: 'geoff.jones@cyberis.co.uk <geoff.jones@cyberis.co.uk>'
 www.delong.com: 
-  hide: 1
+  hide: 0
   loc: US
   provider: Owen DeLong (personal)
   v4: http://ohno.delong.com/cgi-bin/trainwreck.cgi
