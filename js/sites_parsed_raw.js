@@ -471,15 +471,6 @@
       "v4" : "http://ipv4labs.cyberis.co.uk/logo.png",
       "v6" : "http://ipv6labs.cyberis.co.uk/logo.png"
    },
-   "www.delong.com" : {
-      "hide" : "0",
-      "loc" : "US",
-      "monitor" : "Owen DeLong <owen@delong.com>",
-      "provider" : "Owen DeLong (personal)",
-      "site" : "www.delong.com",
-      "v4" : "http://ohno.delong.com/cgi-bin/trainwreck.cgi",
-      "v6" : "http://thegoodlife.delong.com/cgi-bin/beaches.cgi"
-   },
    "www.excathedra.co" : {
       "hide" : "0",
       "loc" : "UK",
