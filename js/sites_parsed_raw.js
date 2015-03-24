@@ -165,16 +165,6 @@
       "v4" : "http://ipv4.test-ipv6.belwue.net/images-nc/knob_green.png",
       "v6" : "http://ipv6.test-ipv6.belwue.net/images-nc/knob_green.png"
    },
-   "test-ipv6.carnet.hr" : {
-      "hide" : "0",
-      "loc" : "HR",
-      "mirror" : "1",
-      "monitor" : "CARNet <sysadm@carnet.hr>",
-      "provider" : "Croatian Academic and Research Network",
-      "site" : "test-ipv6.carnet.hr",
-      "v4" : "http://ipv4.test-ipv6.carnet.hr/images-nc/knob_green.png",
-      "v6" : "http://ipv6.test-ipv6.carnet.hr/images-nc/knob_green.png"
-   },
    "test-ipv6.ceengine.eu" : {
       "hide" : "0",
       "loc" : "RO",
@@ -243,16 +233,6 @@
       "v4" : "http://ipv4.test-ipv6.go6.si/images-nc/knob_green.png",
       "v6" : "http://ipv6.test-ipv6.go6.si/images-nc/knob_green.png"
    },
-   "test-ipv6.gremlin.ca" : {
-      "hide" : "0",
-      "loc" : "CA",
-      "mirror" : "1",
-      "monitor" : "Scott Logan <admin@gremlin.ca>",
-      "provider" : "Scott Logan",
-      "site" : "test-ipv6.gremlin.ca",
-      "v4" : "http://ipv4.test-ipv6.gremlin.ca/images-nc/knob_green.png",
-      "v6" : "http://ipv6.test-ipv6.gremlin.ca/images-nc/knob_green.png"
-   },
    "test-ipv6.hu" : {
       "hide" : "0",
       "loc" : "HU",
@@ -272,16 +252,6 @@
       "site" : "test-ipv6.iad.vr.org",
       "v4" : "http://ipv4.test-ipv6.iad.vr.org/images-nc/knob_green.png",
       "v6" : "http://ipv6.test-ipv6.iad.vr.org/images-nc/knob_green.png"
-   },
-   "test-ipv6.jp" : {
-      "hide" : "0",
-      "loc" : "JP",
-      "mirror" : "1",
-      "monitor" : "Shin Shirahata <inquiry@test-ipv6.jp>",
-      "provider" : "CLARA ONLINE, Inc",
-      "site" : "test-ipv6.jp",
-      "v4" : "http://ipv4.test-ipv6.jp/images-nc/knob_green.png",
-      "v6" : "http://ipv6.test-ipv6.jp/images-nc/knob_green.png"
    },
    "test-ipv6.lazypaddle.com" : {
       "hide" : "0",
@@ -341,16 +311,6 @@
       "site" : "test-ipv6.polkam.go.id",
       "v4" : "http://ipv4.test-ipv6.polkam.go.id/images-nc/knob_green.png",
       "v6" : "http://ipv6.test-ipv6.polkam.go.id/images-nc/knob_green.png"
-   },
-   "test-ipv6.ro" : {
-      "hide" : "0",
-      "loc" : "RO",
-      "mirror" : "1",
-      "monitor" : "RCS & RDS <webadmin@test-ipv6.ro>",
-      "provider" : "RCS & RDS",
-      "site" : "test-ipv6.ro",
-      "v4" : "http://ipv4.test-ipv6.ro/images-nc/knob_green.png",
-      "v6" : "http://ipv6.test-ipv6.ro/images-nc/knob_green.png"
    },
    "test-ipv6.roedu.net" : {
       "hide" : "0",
@@ -412,16 +372,6 @@
       "v4" : "http://ipv4.test-ipv6.tld.sk/images-nc/knob_green.png",
       "v6" : "http://ipv6.test-ipv6.tld.sk/images-nc/knob_green.png"
    },
-   "test-ipv6.vn.ua" : {
-      "hide" : "0",
-      "loc" : "UA",
-      "mirror" : "1",
-      "monitor" : "IP-Connect LLC <ipv6@ip-connect.vn.ua>",
-      "provider" : "IP-Connect LLC",
-      "site" : "test-ipv6.vn.ua",
-      "v4" : "http://ipv4.test-ipv6.vn.ua/images-nc/knob_green.png",
-      "v6" : "http://ipv6.test-ipv6.vn.ua/images-nc/knob_green.png"
-   },
    "test-ipv6.vtt.net" : {
       "hide" : "0",
       "loc" : "RU",
@@ -451,16 +401,6 @@
       "site" : "testipv6.de",
       "v4" : "http://ipv4.testipv6.de/images-nc/knob_green.png",
       "v6" : "http://ipv6.testipv6.de/images-nc/knob_green.png"
-   },
-   "v6research.net" : {
-      "hide" : "0",
-      "loc" : "US",
-      "mirror" : "1",
-      "monitor" : "Bill Cerveny <admin@v6research.net>",
-      "provider" : "Bill Cerveny",
-      "site" : "v6research.net",
-      "v4" : "http://ipv4.v6research.net/images-nc/knob_green.png",
-      "v6" : "http://ipv6.v6research.net/images-nc/knob_green.png"
    },
    "www.cyberis.co.uk" : {
       "hide" : "0",

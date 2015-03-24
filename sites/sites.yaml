@@ -137,7 +137,7 @@ test-ipv6.belwue.net:
   v6: http://ipv6.test-ipv6.belwue.net/images-nc/knob_green.png
   monitor: 'BelWue NOC <ip@belwue.de>'
 test-ipv6.carnet.hr: 
-  hide: 0
+  hide: 1
   loc: HR
   mirror: 1
   provider: Croatian Academic and Research Network
@@ -208,7 +208,7 @@ test-ipv6.go6.si:
   v6: http://ipv6.test-ipv6.go6.si/images-nc/knob_green.png
   monitor: 'Jan Zorz <jan@go6.si>'
 test-ipv6.gremlin.ca: 
-  hide: 0
+  hide: 1
   loc: CA
   mirror: 1
   provider: Scott Logan
@@ -232,7 +232,7 @@ test-ipv6.iad.vr.org:
   v6: http://ipv6.test-ipv6.iad.vr.org/images-nc/knob_green.png
   monitor: jfesler@gigo.com
 test-ipv6.jp: 
-  hide: 0
+  hide: 1
   loc: JP
   mirror: 1
   provider: CLARA ONLINE, Inc
@@ -271,7 +271,7 @@ test-ipv6.no:
   v6: http://ipv6.test-ipv6.no/images-nc/knob_green.png
   monitor: 'Brynjar Eide <test-ipv6@availo.no>'
 test-ipv6.ro: 
-  hide: 0
+  hide: 1
   loc: RO
   mirror: 1
   provider: RCS & RDS
@@ -343,7 +343,7 @@ test-ipv6.uni-ruse.bg:
   v6: http://ipv6.test-ipv6.uni-ruse.bg/images-nc/knob_green.png
   monitor: 'Support team <mirrors@uni-ruse.bg>'
 test-ipv6.vn.ua: 
-  hide: 0
+  hide: 1
   loc: UA
   mirror: 1
   provider: IP-Connect LLC
@@ -383,7 +383,7 @@ testipv6.de:
   v6: http://ipv6.testipv6.de/images-nc/knob_green.png
   monitor: 'COSIMO WebTeam <kontakt@testipv6.de>'
 v6research.net: 
-  hide: 0
+  hide: 1
   loc: US
   mirror: 1
   provider: Bill Cerveny
