@@ -56,13 +56,17 @@ GIGO.test_type_json = function (url, id) {
     var tests, this_test;
 
 
-    if (Browser.opera) {
-        if (url.search(/\?/)) {
-            url = url + "&random=" + Math.random();
-        } else {
-            url = url + "?random=" + Math.random();
-        }
+
+    // Let us also add in some hints for mirror operators
+    if (url.search(/\?/) < 0) {
+      url = url + "?";
     }
+    url = url + "&testdomain=" + GIGO.options.domain;
+    url = url + "&testname=" + id;
+    if (Browser.opera) {
+            url = url + "&random=" + Math.random();
+    }
+
 
     tests = GIGO.results.tests; // Convenience    
     if (!(tests.hasOwnProperty(id))) {
@@ -202,12 +206,13 @@ GIGO.test_type_json_only = function (url, id) {
     var tests, this_test;
 
 
+    if (url.search(/\?/) < 0) {
+      url = url + "?";
+    }
+    url = url + "&testdomain=" + GIGO.options.domain;
+    url = url + "&testname=" + id;
     if (Browser.opera) {
-        if (url.search(/\?/)) {
             url = url + "&random=" + Math.random();
-        } else {
-            url = url + "?random=" + Math.random();
-        }
     }
 
 
@@ -229,6 +234,8 @@ GIGO.test_type_json_only = function (url, id) {
     if ((id === "test_asn4") && (GIGO.isdef(GIGO.CGI.ip4))) {
         if ((GIGO.CGI.ip4) && (GIGO.CGI.ip4.match(/^[0-9abcdef.:]+$/))) {
             url = "/ip/?callback=?&asn=1&testip=" + GIGO.CGI.ip4;
+            url = url + "&testdomain=" + GIGO.options.domain;
+            url = url + "&testname=" + id;
             this_test.url = url; // For later display of test urls
             GIGO.update_url(id);
         } else {
@@ -244,6 +251,8 @@ GIGO.test_type_json_only = function (url, id) {
     if ((id === "test_asn6") && (GIGO.isdef(GIGO.CGI.ip6))) {
         if ((GIGO.CGI.ip6) && (GIGO.CGI.ip6.match(/^[0-9abcdef.:]+$/))) {
             url = "/ip/?callback=?&asn=1&testip=" + GIGO.CGI.ip6;
+            url = url + "&testdomain=" + GIGO.options.domain;
+            url = url + "&testname=" + id;
             this_test.url = url; // For later display of test urls
             GIGO.update_url(id);
         } else {
@@ -323,12 +332,13 @@ GIGO.test_buggydns1 = function (url, id) {
     jQuery(".optional_buggydns1").show();
 
     max_time = (GIGO.max_time > 5000) ? 5000 : GIGO.max_time; // Shorten this test. 
+    if (url.search(/\?/) < 0) {
+          url = url + "?";
+    }
+    url = url + "&testdomain=" + GIGO.options.domain;
+    url = url + "&testname=" + id;
     if (Browser.opera) {
-        if (url.search(/\?/) >= 0) {
             url = url + "&random=" + Math.random();
-        } else {
-            url = url + "?random=" + Math.random();
-        }
     }
 
 
@@ -426,14 +436,14 @@ GIGO.test_type_img = function (url, id) {
     // id = which <div> to update
     var tests, this_test, img, img_pending;
 
-    if (Browser.opera) {
-        if (url.search(/\?/) >= 0) {
-            url = url + "&random=" + Math.random();
-        } else {
-            url = url + "?random=" + Math.random();
-        }
+    if (url.search(/\?/) < 0) {
+          url = url + "?";
     }
-
+    url = url + "&testdomain=" + GIGO.options.domain;
+    url = url + "&testname=" + id;
+    if (Browser.opera) {
+            url = url + "&random=" + Math.random();
+    }
 
     tests = GIGO.results.tests; // Convenience    
     if (!(tests.hasOwnProperty(id))) {

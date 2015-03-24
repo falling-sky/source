@@ -246,6 +246,8 @@ GIGO.update_url = function (id) {
     var url, showurl, res;
     url = GIGO.results.tests[id].url;
     showurl = url.replace(/fill=xxxx*/, "fill=xxx...xxx"); // Obscene to show a nearly 2k url
+    showurl = showurl.replace(/&testdomain=[^&]+&testname=[^&]+/,""); // Also remove the test name and test domain
+    showurl = showurl.replace(/(gif|png|jpg)\?$/i,"$1"); // hmm
     res = id.replace(/test_/, "results_"); // Deterine which span to show this in
     jQuery("#" + res).html("<a id=url href='" + url + "'>" + showurl + " </a>");
 };

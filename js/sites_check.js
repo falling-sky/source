@@ -196,6 +196,21 @@ GIGO.sites_queue_entry = function (r) {
     if (!r.v6) {
         r.v6 = "ipv6." + r.site + "/images-nc/knob_valid_green.png";
     }
+    
+    // Mark up r.v4 for site analytics
+    if (r.v4.search(/\?/)<0) {
+      r.v4 = r.v4 + "?";
+    }
+    r.v4 = r.v4 + "&testdomain=" + GIGO.options.domain;
+    r.v4 = r.v4 + "&testname=sites";
+
+    // Mark up r.v6 for site analytics
+    if (r.v6.search(/\?/)<0) {
+      r.v6 = r.v6 + "?";
+    }
+    r.v6 = r.v6 + "&testdomain=" + GIGO.options.domain;
+    r.v6 = r.v6 + "&testname=sites";
+    
     GIGO.sites_queue.push(r);
 };
 
