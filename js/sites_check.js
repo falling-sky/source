@@ -211,7 +211,8 @@ GIGO.sites_queue_entry = function (r) {
       r.v4 = r.v4 + "&testdomain=" + GIGO.options.domain;
       r.v6 = r.v6 + "&testdomain=" + GIGO.options.domain;
     } catch (e) {
-      0; // no-op
+      r.v4 = r.v4 + "&testdomain=" + document.location.hostname;
+      r.v6 = r.v6 + "&testdomain=" + document.location.hostname;
     };
     r.v4 = r.v4 + "&testname=sites";
     r.v6 = r.v6 + "&testname=sites";
