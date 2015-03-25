@@ -372,6 +372,15 @@
       "v4" : "http://ipv4.test-ipv6.tld.sk/images-nc/knob_green.png",
       "v6" : "http://ipv6.test-ipv6.tld.sk/images-nc/knob_green.png"
    },
+   "test-ipv6.tokyo.gigo.com" : {
+      "hide" : "0",
+      "loc" : "JP",
+      "mirror" : "1",
+      "provider" : "Jason Fesler (@linode Tokyo)",
+      "site" : "test-ipv6.tokyo.gigo.com",
+      "v4" : "http://ipv4.test-ipv6.tokyo.gigo.com/images-nc/knob_green.png",
+      "v6" : "http://ipv6.test-ipv6.tokyo.gigo.com/images-nc/knob_green.png"
+   },
    "test-ipv6.vtt.net" : {
       "hide" : "0",
       "loc" : "RU",

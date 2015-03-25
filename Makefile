@@ -30,13 +30,13 @@ dist-prep: work sites
 	rsync -a images/. work/images-nc/.
 
 dist-test: work sites
-	test -f work/comment.php
+	test -f work/nat.html.zh_CN
 	 ../dist_support/make-dist.pl --base content --branch test
 
 dist-stable: work sites
-	test -f work/comment.php
+	test -f work/nat.html.zh_CN
 	 ../dist_support/make-dist.pl --base content --branch stable
 	 
 dist:
-	test -f work/comment.php
+	test -f work/nat.html.zh_CN
 	cd ../dist_support && make dist-stable-content

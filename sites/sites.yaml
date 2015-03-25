@@ -522,4 +522,10 @@ test-ipv6.fratec.net:
   provider: Sistemas Fratec S.A.
   v4: http://ipv4.test-ipv6.fratec.net/images-nc/knob_green.png
   v6: http://ipv6.test-ipv6.fratec.net/images-nc/knob_green.png
-
+test-ipv6.tokyo.gigo.com:
+  hide: 0
+  loc: JP
+  mirror: 1
+  provider: Jason Fesler (@linode Tokyo)
+  v4: http://ipv4.test-ipv6.tokyo.gigo.com/images-nc/knob_green.png
+  v6: http://ipv6.test-ipv6.tokyo.gigo.com/images-nc/knob_green.png
