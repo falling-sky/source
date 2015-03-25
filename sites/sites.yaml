@@ -271,13 +271,13 @@ test-ipv6.no:
   v6: http://ipv6.test-ipv6.no/images-nc/knob_green.png
   monitor: 'Brynjar Eide <test-ipv6@availo.no>'
 test-ipv6.ro: 
-  hide: 1
+  hide: 0
   loc: RO
   mirror: 1
   provider: RCS & RDS
   v4: http://ipv4.test-ipv6.ro/images-nc/knob_green.png
   v6: http://ipv6.test-ipv6.ro/images-nc/knob_green.png
-  monitor: 'RCS & RDS <webadmin@test-ipv6.ro>'
+  monitor: 'Liviu Pislaru <liviu.pislaru@rcs-rds.ro>'
 test-ipv6.roedu.net: 
   hide: 0
   loc: RO

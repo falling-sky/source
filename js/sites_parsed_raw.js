@@ -312,6 +312,16 @@
       "v4" : "http://ipv4.test-ipv6.polkam.go.id/images-nc/knob_green.png",
       "v6" : "http://ipv6.test-ipv6.polkam.go.id/images-nc/knob_green.png"
    },
+   "test-ipv6.ro" : {
+      "hide" : "0",
+      "loc" : "RO",
+      "mirror" : "1",
+      "monitor" : "Liviu Pislaru <liviu.pislaru@rcs-rds.ro>",
+      "provider" : "RCS & RDS",
+      "site" : "test-ipv6.ro",
+      "v4" : "http://ipv4.test-ipv6.ro/images-nc/knob_green.png",
+      "v6" : "http://ipv6.test-ipv6.ro/images-nc/knob_green.png"
+   },
    "test-ipv6.roedu.net" : {
       "hide" : "0",
       "loc" : "RO",
