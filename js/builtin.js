@@ -387,7 +387,7 @@ GIGO.gen_help_link = function (token) {
 GIGO.testing_ipv4 = function () {
     var s;
     s = String(location.hostname);
-    return (s.match(/ipv4/i));
+    return (s.match(/ipv4/i) || s.match(/testv4/i) || s.match(/test-v4/i));
 };
 
 

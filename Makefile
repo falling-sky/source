@@ -37,6 +37,4 @@ dist-stable: work sites
 	test -f work/nat.html.zh_CN
 	 ../dist_support/make-dist.pl --base content --branch stable
 	 
-dist:
-	test -f work/nat.html.zh_CN
-	cd ../dist_support && make dist-stable-content
+dist:	all dist-stable
