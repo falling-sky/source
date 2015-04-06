@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-03-29 05:00-0400\n"
+"PO-Revision-Date: 2015-04-06 11:30-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: French\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -110,7 +110,7 @@ msgstr "Les connexions vers des sites disponibles qu'en IPv6 échouent pour caus
 
 #: messages.js
 msgid "Connections to IPv6-capable web sites hang. It appears that you may have IPv6 configured; and your computer believes that your IPv6 is working, with a route. It is however completely failing. Any web site that adds IPv6, will become unreachable to you. If you are unable to fix your IPv6 routing or connectivity, seek help. If all else fails, strongly consider disabling IP6 on host."
-msgstr "Connections to IPv6-capable web sites hang. It appears that you may have IPv6 configured; and your computer believes that your IPv6 is working, with a route. It is however completely failing. Any web site that adds IPv6, will become unreachable to you. If you are unable to fix your IPv6 routing or connectivity, seek help. If all else fails, strongly consider disabling IP6 on host."
+msgstr "Connexions à des sites web compatibles IPv6 accrochent. Il semble que vous pourriez avoir IPv6 configurés ; et votre ordinateur est d'avis que votre IPv6 fonctionne, avec une route. Il est cependant complètement défaut. N'importe quel site web qui ajoute IPv6, deviendra inaccessible pour vous. Si vous ne parvenez pas à fixer votre connectivité ou routage IPv6, demander de l'aide. Si tout cela échoue, envisagez sérieusement de désactivation IP6 sur l'hôte."
 
 #: messages.js
 msgid "We are unable to test your system; it appears that a firewall or browser filter is preventing the test from running. Critical tests are failing. Try disabling any browser plugins, extensions, or add-ons (such as ad blockers); and reloading this page. If that still fails, you can leave a comment requesting help."
@@ -146,7 +146,7 @@ msgstr "Vous utilisez probablement un plugin FireFox qui empêche les tests bas�
 
 #: messages.js
 msgid "A lookup for an IPv6-only name failed; yet the lookup and connect for dual-stack connected via IPv6. Something appears to be confused with the DNS lookups."
-msgstr "A lookup for an IPv6-only name failed; yet the lookup and connect for dual-stack connected via IPv6. Something appears to be confused with the DNS lookups."
+msgstr "Une recherche pour un nom IPv6 uniquement a échoué ; Pourtant, la recherche et se connecter pour double pile connectée via IPv6. Quelque chose semble confondre avec les recherches DNS."
 
 #: messages.js
 msgid "A lookup for an IPv6-only name failed; yet the lookup and connect for dual-stack connected via IPv6. The IPv6-only lookup should have worked. Apple has a bug that sporadically causes some IPv6 lookups to fail. We saw evidence of it on this test. You can reload the page and try the test again. For more details, see <a href=\"http://openradar.appspot.com/7333104\">http://openradar.appspot.com/7333104</a>."
@@ -242,7 +242,7 @@ msgstr "faq: 6to4"
 
 #: messages.js
 msgid "faq: Teredo Minimum"
-msgstr "faq: Teredo Minimum"
+msgstr "faq: Minimum de Teredo"
 
 #: messages.js
 msgid "faq: v6ns Bad"
@@ -254,7 +254,7 @@ msgstr "faq: Browser Plugins"
 
 #: messages.js
 msgid "faq: Firefox Add-Ons"
-msgstr "faq: Firefox Add-Ons"
+msgstr "faq: Firefox Add-ons"
 
 #: messages.js
 msgid "faq: Opera"
@@ -278,7 +278,7 @@ msgstr "faq: refus d'IPv6?"
 
 #: messages.js
 msgid "faq: 6RD tunnel"
-msgstr "faq: 6RD tunnel"
+msgstr "faq: tunnel 6RD"
 
 #: builtin.js
 msgid "[more info]"
@@ -298,7 +298,7 @@ msgstr "Votre adresse IPv6 sur l'Internet semble être"
 
 #: builtin.js
 msgid "Your IPv6 service appears to be"
-msgstr "Your IPv6 service appears to be"
+msgstr "Votre service IPv6 semble etait"
 
 #: builtin.js
 msgid "Your Internet Service Provider (ISP) appears to be"
@@ -418,7 +418,7 @@ msgstr "Votre navigateur a bloqué"
 
 #: helpdesk.js
 msgid "Your Internet help desk may ask you for the information below."
-msgstr "Your Internet help desk may ask you for the information below."
+msgstr "Votre service d'assistance Internet peut vous demander les informations ci-dessous."
 
 #: header.inc
 msgid "Test your IPv6."
@@ -430,7 +430,7 @@ msgstr "Cela va tester votre navigateur et votre connexion pour la préparation 
 
 #: list-nav.inc
 msgid "Test IPv6"
-msgstr "Test IPv6"
+msgstr "Testér IPv6"
 
 #: list-nav.inc
 msgid "FAQ"
@@ -478,7 +478,7 @@ msgstr "Vous pouvez aussi essayer ce <a href=\"simple_test.html\">test simple</a
 
 #: main/tabnav.inc
 msgid "For the Help Desk"
-msgstr "For the Help Desk"
+msgstr "Pour le support technique"
 
 #: main/tabnav.inc
 msgid "Summary"
@@ -502,7 +502,7 @@ msgstr "Popup d'aide"
 
 #: main/tabnav.inc
 msgid "Debug"
-msgstr "Debug"
+msgstr "Débogage"
 
 #: main/tabnav.inc
 msgid "Other IPv6 Sites"
@@ -602,7 +602,7 @@ msgstr "Vérifie que les requêtes IPv6 avec des grands paquets fonctionnent. Si
 
 #: main/tech.inc
 msgid "Double check to make sure that ICMPv6 Type 2 (\"Packet Too Big\") messages are not filtered by your firewall."
-msgstr "Double check to make sure that ICMPv6 Type 2 (\"Packet Too Big\") messages are not filtered by your firewall."
+msgstr "Double Vérifiez pour vous assurer que ICMPv6 Type 2 (\"Packet Too Big\") les messages ne sont pas filtrés par votre pare-feu."
 
 #: main/tech.inc
 msgid "(This is bonus credit)"
@@ -642,7 +642,7 @@ msgstr "Ce formulaire vous permet de laisser un commentaire, faire entendre vos 
 
 #: main/mail.inc
 msgid "This includes your IP address, which is shared with the site administrator in order to answer your questions."
-msgstr "This includes your IP address, which is shared with the site administrator in order to answer your questions."
+msgstr "Ceci inclut votre adresse IP, qui est partagé avec l'administrateur du site afin de répondre à vos questions."
 
 #: main/mail.inc
 msgid "Use of this form implies consent."
@@ -718,7 +718,7 @@ msgstr "Help desk information will follow once the test completes."
 
 #: main/helpdesk.inc
 msgid "If your Internet help desk asks you to mail the 'results url', copy and paste the following URL."
-msgstr "If your Internet help desk asks you to mail the 'results url', copy and paste the following URL."
+msgstr "Si votre service d'assistance Internet vous demande d'envoyer l'url « résultats », copiez et collez l'URL suivante."
 
 #: main/helpdesk.inc
 msgid "Note that this will share your current numeric Internet Protocol address(es)."
