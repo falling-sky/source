@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-04-06 11:15-0400\n"
+"PO-Revision-Date: 2015-04-06 12:15-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Russian\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -66,7 +66,7 @@ msgstr "Внимание! IPv6 работает, но большие пакет�
 
 #: messages.js
 msgid "Check your firewall to make sure that ICMPv6 messages are allowed (in particular, Type 2 or Packet Too Big)."
-msgstr "Check your firewall to make sure that ICMPv6 messages are allowed (in particular, Type 2 or Packet Too Big)."
+msgstr "Проверьте ваш брандмауэр, чтобы убедиться, что сообщения ICMPv6 разрешены (в частности, тип 2 или Packet Too Big)."
 
 #: messages.js
 msgid "Test results inconclusive; they were not consistent with expectations. Please rerun the test, and if the results are the same, please fill out the contact form."
@@ -130,7 +130,7 @@ msgstr "Наиболее вероятной причиной могут явля
 
 #: messages.js
 msgid "NAT64 detected. IPv6 works. IPv4 works for most purposes. Applications that are hard-coded for IPv4-only will fail. We are aware of at least one major voice-over-ip program that falls into this category. Your application's support staff may need a nudge to add proper IPv6 support."
-msgstr "NAT64 detected. IPv6 works. IPv4 works for most purposes. Applications that are hard-coded for IPv4-only will fail. We are aware of at least one major voice-over-ip program that falls into this category. Your application's support staff may need a nudge to add proper IPv6 support."
+msgstr "NAT64 обнаружена. IPv6 работает. IPv4 работает при необходимости. Приложения, которые нацелены на использование только IPv4 не будут работать. Нам известна по крайней мере одна основная voice-over-ip программа, которая попадает под эту категорию. Вспомогательному персоналу вашего приложения придется осуществить поддержку IPv6."
 
 #: messages.js
 msgid "Your DNS server (possibly run by your ISP) appears to have IPv6 Internet access."

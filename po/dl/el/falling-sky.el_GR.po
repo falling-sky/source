@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-04-06 11:30-0400\n"
+"PO-Revision-Date: 2015-04-06 12:15-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Greek\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -34,23 +34,23 @@ msgstr "timeout"
 
 #: messages.js
 msgid "Connections to urls with IP addresses appear to be blocked; perhaps by a web filter such as 'NoScript' or 'RequestPolicy' installed into your browser, or filtering in your proxy server. This limits some of the functionality of this test site."
-msgstr "Connections to urls with IP addresses appear to be blocked; perhaps by a web filter such as 'NoScript' or 'RequestPolicy' installed into your browser, or filtering in your proxy server. This limits some of the functionality of this test site."
+msgstr "Συνδέσεις σε διευθύνσεις URL με διευθύνσεις IP φαίνεται ότι αποτυχαίνουν: μάλλον από ένα διαδικτυακό φίλτρο όπως το 'NoScript' ή το 'RequestPolicy', το οποίο είναι εγκατεστημένο στον περιηγητή σας ή απο το φιλτράρισμα του διακομιστή διαμεσολάβησής σας. Αυτό περιορίζει ορισμένες λειτουργίες αυτού του ιστοτόπου δοκιμής."
 
 #: messages.js
 msgid "IPv4 Connections using DNS work; but literal IP addresses in urls do not. These are rarely used on the web today."
-msgstr "IPv4 Connections using DNS work; but literal IP addresses in urls do not. These are rarely used on the web today."
+msgstr "Συνδέσεις IPv4 με χρήση DNS λειτουργούν: αλλά διευθύνσεις IP, στις διευθύνσεις URL δεν λειτουργούν. Αυτές χρησιμοποιούνται σπάνια στο διαδίκτυο σήμερα."
 
 #: messages.js
 msgid "IPv6 Connections using DNS work; but literal IP addresses in urls do not. These are rarely used on the web today."
-msgstr "IPv6 Connections using DNS work; but literal IP addresses in urls do not. These are rarely used on the web today."
+msgstr "Συνδέσεις IPv6 με χρήση DNS λειτουργούν: αλλά διευθύνσεις IP, στις διευθύνσεις URL δεν λειτουργούν. Αυτές χρησιμοποιούνται σπάνια στο διαδίκτυο σήμερα."
 
 #: messages.js
 msgid "You appear to be using a public 6to4 gateway; your router may be providing this to you automatically. Such public gateways have no service level agreements; you may see performance problems using such. Better would be to get a native IPv6 address from your ISP."
-msgstr "You appear to be using a public 6to4 gateway; your router may be providing this to you automatically. Such public gateways have no service level agreements; you may see performance problems using such. Better would be to get a native IPv6 address from your ISP."
+msgstr "Φαίνεται ότι χρησιμοποιήτε μία δημόσια πύλη 6to4: ο δρομολογητής σας μπορεί να παρέχει να σας την παρέχει αυτόματα. Τέτοιες δημόσια πύλες δεν έχουν συμφωνίες επιπέδου εξυπηρέτησης: μπορεί να αντιμετωπίσετε προβλήματα απόδοσης χρησιμοποιώντας τες. Καλύτερο θα ήταν να πάρετε μια διεύθυνση IPv6 από τον ISP σας."
 
 #: messages.js
 msgid "Your IPv6 connection appears to be using Teredo, a type of IPv4/IPv6 translation using a public gateway. The quality for this <i>may</i> suffer, as you are using a public gateway to reach IPv6 based sites."
-msgstr "Your IPv6 connection appears to be using Teredo, a type of IPv4/IPv6 translation using a public gateway. The quality for this <i>may</i> suffer, as you are using a public gateway to reach IPv6 based sites."
+msgstr "Η σύνδεση IPv6 σας φαίνεται ότι χρησιμοποιεί Teredo, έναν τύπο μετάφρασης IPv4/IPv6 χρησιμοποιώντας μια δημόσια πύλη. Η ποιότητα της σύνδεσης <i>μπορεί</i> να υποφέρει, επειδή χρησιμοποιείτε μια δημόσια πύλη για να επισκεφθείτε ιστότοπους που χρησιμοποιούν IPv6."
 
 #: messages.js
 msgid "Your IPv6 connection appears to be using Teredo, a type of IPv4/IPv6 gateway; currently it connects only to direct IP's. Your browser will not be able to go to IPv6 sites by name. This means the current configuration is not useful for browsing IPv6 web sites."
@@ -338,43 +338,43 @@ msgstr "(Survey posting failed; the above information is accurate, but not recor
 
 #: builtin.js
 msgid "Your readiness score"
-msgstr "Your readiness score"
+msgstr "Το σκορ ετοιμότητας"
 
 #: builtin.js
 msgid "for your IPv4 stability and readiness, when publishers offer both IPv4 and IPv6"
-msgstr "for your IPv4 stability and readiness, when publishers offer both IPv4 and IPv6"
+msgstr "για την σταθερότητα και ετοιμότητα του IPv4, όταν οι εκδότες θα προσφέρουν IPv4 και IPv6"
 
 #: builtin.js
 msgid "for your IPv6 stability and readiness, when publishers are forced to go IPv6 only"
-msgstr "for your IPv6 stability and readiness, when publishers are forced to go IPv6 only"
+msgstr "για την σταθερότητα και ετοιμότητα του IPv6, όταν οι εκδότες αναγκαστούν να παρέχουν μόνο IPv6"
 
 #: builtin.js
 msgid "Click to see"
-msgstr "Click to see"
+msgstr "Κάντε κλικ για να δείτε"
 
 #: builtin.js
 msgid "test data"
-msgstr "test data"
+msgstr "δεδομένα δοκίμης"
 
 #: builtin.js
 msgid "Your FAQ"
-msgstr "Your FAQ"
+msgstr "Οι Συχνές Ερωτήσεις σας"
 
 #: builtin.js
 msgid "Frequently Asked Questions"
-msgstr "Frequently Asked Questions"
+msgstr "Συχνές ερωτήσεις"
 
 #: builtin.js
 msgid "loading..."
-msgstr "loading..."
+msgstr "φόρτωση..."
 
 #: builtin.js
 msgid "failed to load"
-msgstr "failed to load"
+msgstr "Αποτυχία φόρτωσης"
 
 #: builtin.js
 msgid "[go back]"
-msgstr "[go back]"
+msgstr "[επιστροφή]"
 
 #: builtin.js
 msgid "[permalink]"
@@ -382,11 +382,11 @@ msgstr "[permalink]"
 
 #: versions.js
 msgid "%app: You are running version %found; we recommend %suggest or newer."
-msgstr "%app: You are running version %found; we recommend %suggest or newer."
+msgstr "%app: Εκτελείτε την έκδοση %found; προτείνουμε %suggest ή νεότερη."
 
 #: form.js
 msgid "share your results"
-msgstr "share your results"
+msgstr "Μοιραστείτε τα αποτελέσματά σας"
 
 #: form.js
 msgid "I am most interested in discussing your setup with you, because it was been determined that <B>your IPv6 connectivity is broken</b>, or at least not fully understood. This is not normal; would you be willing to %share?"
@@ -394,59 +394,59 @@ msgstr "I am most interested in discussing your setup with you, because it was b
 
 #: form.js
 msgid "retest"
-msgstr "retest"
+msgstr "νέα δοκιμή"
 
 #: form.js
 msgid "Result code"
-msgstr "Result code"
+msgstr "Κωδικός αποτελέσματος"
 
 #: form.js
 msgid "Note: I can't contact you, if the contact info is blank. If you really want to submit this anonymously, hit Send Results again."
-msgstr "Note: I can't contact you, if the contact info is blank. If you really want to submit this anonymously, hit Send Results again."
+msgstr "Σημείωση: Δεν μπορώ να επικοινωνήσω μαζί σας, αν τα στοιχεία επικοινωνίας είναι κενά. Αν θέλετε πραγματικά να υποβάλετε τις πληροφορίες αυτές ανώνυμα, πατήστε Στείλτε Τα Αποτελέσματα ξανά."
 
 #: checkresults.js
 msgid "unknown expansion"
-msgstr "unknown expansion"
+msgstr "άγνωστη επέκταση"
 
 #: checkresults.js
 msgid "unknown result code"
-msgstr "unknown result code"
+msgstr "άγνωστος κωδικός αποτελέσματος"
 
 #: symptoms.js
 msgid "Your browser blocked"
-msgstr "Your browser blocked"
+msgstr "Το πρόγραμμα περιήγησής σας μπλόκαρε"
 
 #: helpdesk.js
 msgid "Your Internet help desk may ask you for the information below."
-msgstr "Your Internet help desk may ask you for the information below."
+msgstr "Η τεχνική υποστήριξη Διαδικτύου σας, μπορεί να σας ρωτήσει τις πληροφορίες παρακάτω."
 
 #: header.inc
 msgid "Test your IPv6."
-msgstr "Test your IPv6."
+msgstr "Δοκιμάστε το IPv6 σας."
 
 #: header.inc
 msgid "This will test your browser and connection for IPv6 readiness, as well as show you your current IPV4 and IPv6 address."
-msgstr "This will test your browser and connection for IPv6 readiness, as well as show you your current IPV4 and IPv6 address."
+msgstr "Αυτό θα δοκιμάσει τον περιήγητη και την σύνδεσή σας για την ετοιμότητα του IPv6, καθώς και για να σας δείξει τις τρέχουσες διευθύνσεις σας IPv4 και IPv6."
 
 #: list-nav.inc
 msgid "Test IPv6"
-msgstr "Test IPv6"
+msgstr "Δοκιμή IPv6"
 
 #: list-nav.inc
 msgid "FAQ"
-msgstr "FAQ"
+msgstr "Συχνές Ερωτήσεις"
 
 #: list-nav.inc
 msgid "Mirrors"
-msgstr "Mirrors"
+msgstr "Καθρέφτες"
 
 #: list-nav.inc
 msgid "stats"
-msgstr "stats"
+msgstr "στατιστικά"
 
 #: index.html
 msgid "Test your IPv6 connectivity."
-msgstr "Test your IPv6 connectivity."
+msgstr "Δοκιμάστε την IPv6 συνδεσιμότητά σας."
 
 #: index.html
 msgid "(Replay)"
@@ -566,7 +566,7 @@ msgstr "Find IPv6 Service Provider"
 
 #: main/tests.inc
 msgid "Test for buggy DNS"
-msgstr "Test for buggy DNS"
+msgstr "Δοκιμή για ελατωματικό DNS"
 
 #: main/tech.inc
 msgid "Fetches an object that has just an A record in DNS. This is expected to use IPv4. IPv6-only users might still reach this, if their provider has employed a NAT64/DNS64 or proxy solution."
