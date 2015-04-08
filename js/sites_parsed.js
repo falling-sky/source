@@ -165,6 +165,16 @@ GIGO.sites_parsed={
       "v4" : "http://ipv4.test-ipv6.belwue.net/images-nc/knob_green.png",
       "v6" : "http://ipv6.test-ipv6.belwue.net/images-nc/knob_green.png"
    },
+   "test-ipv6.carnet.hr" : {
+      "hide" : "0",
+      "loc" : "HR",
+      "mirror" : "1",
+      "monitor" : "CARNet <sysadm@carnet.hr>",
+      "provider" : "Croatian Academic and Research Network",
+      "site" : "test-ipv6.carnet.hr",
+      "v4" : "http://ipv4.test-ipv6.carnet.hr/images-nc/knob_green.png",
+      "v6" : "http://ipv6.test-ipv6.carnet.hr/images-nc/knob_green.png"
+   },
    "test-ipv6.ceengine.eu" : {
       "hide" : "0",
       "loc" : "RO",

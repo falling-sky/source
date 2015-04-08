@@ -137,7 +137,7 @@ test-ipv6.belwue.net:
   v6: http://ipv6.test-ipv6.belwue.net/images-nc/knob_green.png
   monitor: 'BelWue NOC <ip@belwue.de>'
 test-ipv6.carnet.hr: 
-  hide: 1
+  hide: 0
   loc: HR
   mirror: 1
   provider: Croatian Academic and Research Network
