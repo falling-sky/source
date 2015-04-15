@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-04-06 12:15-0400\n"
+"PO-Revision-Date: 2015-04-15 13:35-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Russian\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -14,7 +14,7 @@ msgstr ""
 
 #: mirrorconfig.js
 msgid "This mirror is provided by"
-msgstr "This mirror is provided by"
+msgstr "Это зеркало предоставлено"
 
 #: messages.js
 msgid "bad"
@@ -302,7 +302,7 @@ msgstr "Вероятно, ваш IPv6 провайдер"
 
 #: builtin.js
 msgid "Your Internet Service Provider (ISP) appears to be"
-msgstr "Your Internet Service Provider (ISP) appears to be"
+msgstr "Вероятно ваш поставщик интернет услуг (ISP)"
 
 #: builtin.js
 msgid "Started"
@@ -750,7 +750,7 @@ msgstr "Full mirrors are welcomed and appreciated, whether public or private. Pl
 
 #: footer.inc
 msgid "All rights reserved."
-msgstr "All rights reserved."
+msgstr "Все права защищены."
 
 #: footer.inc
 msgid "Mission"
@@ -894,7 +894,7 @@ msgstr "If you have an unexpected IPv6 address"
 
 #: broken.html
 msgid "Try the netalyzr"
-msgstr "Try the netalyzr"
+msgstr "Попробуйте netalyzr"
 
 #: broken.html
 msgid "If all else fails, disable or deprioritize IPv6"
@@ -1994,7 +1994,7 @@ msgstr "Broken DNS AAAA Lookups"
 
 #: faq_broken_aaaa.html
 msgid "We detected that you are able to connect to IPv6 sites, by numerical address specifically. However, connections using DNS either failed, or preferred IPv4."
-msgstr "We detected that you are able to connect to IPv6 sites, by numerical address specifically. However, connections using DNS either failed, or preferred IPv4."
+msgstr "Мы обнаружили, что вы можете подключиться к IPv6 сайтам только используя их числовой адрес. Соединения через DNS или невозможны, или используют IPv4."
 
 #: faq_broken_aaaa.html
 msgid "What does this mean for you?"
@@ -2138,11 +2138,11 @@ msgstr "Applications to take advantage of this are just now being thought of. Im
 
 #: faq_whyipv6.html
 msgid "What Is Wrong with IPv4"
-msgstr "What Is Wrong with IPv4"
+msgstr "Что не так с IPv4"
 
 #: faq_whyipv6.html
 msgid "The traditional IPv4 Internet is running out of space. The IANA registry (at the global level) is either just about out, or totally out, depending on when you read this. They are expected to announce this depletion Janaury or February 2011."
-msgstr "The traditional IPv4 Internet is running out of space. The IANA registry (at the global level) is either just about out, or totally out, depending on when you read this. They are expected to announce this depletion Janaury or February 2011."
+msgstr "Традиционные IPv4 адреса уже закончились. Реестр IANA (на глобальном уровне) уже почти полностью пуст. Об истощении было объявлено 3 февраля 2011 года."
 
 #: faq_whyipv6.html
 msgid "As Internet service providers each run out of the space they have been allocated, they will have to find creative ways to help keep taking on new customers. Those customers will still need access to the IPv4 Internet."
@@ -2150,7 +2150,7 @@ msgstr "As Internet service providers each run out of the space they have been a
 
 #: faq_whyipv6.html
 msgid "Q: I heard there are millions of addresses left. Take it back from the companies not using it! Use the Class E space! (etc)."
-msgstr "Q: I heard there are millions of addresses left. Take it back from the companies not using it! Use the Class E space! (etc)."
+msgstr "Q: Я слышал, что осталось ещё достаточно много адресов. Отберите лишние у компаний, не использующих их! Используйте пространство E класса! (и т.д)."
 
 #: faq_whyipv6.html
 msgid "Those have been looked at. The space is relatively small, given the rate that the world is consuming it now. Forcefully taking back space would require more time in the court systems than it would buy back. Other currently reserved space is too difficult to use - it would require replacing most of the routers in the world to do so."
@@ -2222,35 +2222,35 @@ msgstr "As such, there is no hard cutoff date. Just be aware that IPv4 will star
 
 #: faq_whyipv6.html
 msgid "Q: Will I have to replace my OS?"
-msgstr "Q: Will I have to replace my OS?"
+msgstr "Q: Придётся ли мне сменить свою операционную систему?"
 
 #: faq_whyipv6.html
 msgid "Windows Vista, Windows 7: You're good to go. XP users: It can be made to work, but it really is time to consider upgrading. Win98 and Win2000 users have no path to IPv6."
-msgstr "Windows Vista, Windows 7: You're good to go. XP users: It can be made to work, but it really is time to consider upgrading. Win98 and Win2000 users have no path to IPv6."
+msgstr "Windows Vista, Windows 7 и новее: ничего обновлять не нужно. Windows XP: можно работать без обновления, хотя лучше бы и обновить. Windows 98 и 2000: придётся обновиться."
 
 #: faq_whyipv6.html
 msgid "Mac OS X: All supported versions of OS X (since Tiger, 10.4) have IPv6."
-msgstr "Mac OS X: All supported versions of OS X (since Tiger, 10.4) have IPv6."
+msgstr "Mac OS X: Все поддерживаемые версии OS X (начиная от Tiger, 10.4) имеют поддержку IPv6."
 
 #: faq_whyipv6.html
 msgid "Linux, BSD, and other unix like systems generally all have IPv6."
-msgstr "Linux, BSD, and other unix like systems generally all have IPv6."
+msgstr "Linux, BSD и прочие Unix-системы, как правило, поддерживают IPv6."
 
 #: faq_whyipv6.html
 msgid "Q: Will I have to replace my hardware?"
-msgstr "Q: Will I have to replace my hardware?"
+msgstr "Q: А оборудование надо менять?"
 
 #: faq_whyipv6.html
 msgid "Your PC: Only if the OS upgrade you do requires it."
-msgstr "Your PC: Only if the OS upgrade you do requires it."
+msgstr "Компьютер: только если этого требует обновление операционной системы."
 
 #: faq_whyipv6.html
 msgid "Your ethernet switch / hub: No. It is unaware of IP; it works at a lower level on the local network."
-msgstr "Your ethernet switch / hub: No. It is unaware of IP; it works at a lower level on the local network."
+msgstr "Свитч/хаб: нет, так как они работают на более низком уровне в локальной сети."
 
 #: faq_whyipv6.html
 msgid "Your router: Quite possibly. Many home routers have no upgrade path for IPv6. Do a web search for your router mode, with the keyword \"ipv6\" with it."
-msgstr "Your router: Quite possibly. Many home routers have no upgrade path for IPv6. Do a web search for your router mode, with the keyword \"ipv6\" with it."
+msgstr "Роутер: скорее всего да. Много домашних роутеров не имеют возможность обновиться до IPv6. Поищите в интернете информацию о поддержке IPv6 вашим роутером."
 
 #: faq_whyipv6.html
 msgid "<b>What router to buy:</b> Wait until your ISP gives you guidance on what will work best with their system. If you must replace your router immediately, look for ones that are IPv6 capable. Apple Airport Express and Airport Extreme have built in tunneling capabilities. OpenWRT capable routers also do (when loaded with the OpenWRT firmware). If you do consider tunnels, see my <a href=\"#\" onclick=\"return help_page('faq_6to4.html','6to4')\">6to4 comments</a>."

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-04-06 11:38-0400\n"
+"PO-Revision-Date: 2015-04-11 10:00-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Romanian\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -66,7 +66,7 @@ msgstr "Danger! IPv6 sorta works - however, large packets appear to fail, giving
 
 #: messages.js
 msgid "Check your firewall to make sure that ICMPv6 messages are allowed (in particular, Type 2 or Packet Too Big)."
-msgstr "Check your firewall to make sure that ICMPv6 messages are allowed (in particular, Type 2 or Packet Too Big)."
+msgstr "Verifică paravanul de protecție pentru a te asigura că mesajele ICMPv6 sunt permise (în special Type 2 sau Pachet prea mare)."
 
 #: messages.js
 msgid "Test results inconclusive; they were not consistent with expectations. Please rerun the test, and if the results are the same, please fill out the contact form."
@@ -166,7 +166,7 @@ msgstr "Nicio adresă IPv6 detectată"
 
 #: messages.js
 msgid "Your IP address(es) could not be detected due to inteference from browser add-ons."
-msgstr "Your IP address(es) could not be detected due to inteference from browser add-ons."
+msgstr "Adresa (adresele) ta IP nu a putut fi detectată datorită interferențelor de la extensiile din navigator."
 
 #: messages.js
 msgid "The Opera web browser seems to be break on this site frequently. <b>If you have trouble, try another browser</b>."
@@ -182,7 +182,7 @@ msgstr "<b>Vești bune!</b> Configurația ta curentă va continua să funcțione
 
 #: messages.js
 msgid "<b>Our tests show that you will have a broken or misconfigured IPv6 setup, and this will cause problems as web sites enable IPv6.</b>"
-msgstr "<b>Our tests show that you will have a broken or misconfigured IPv6 setup, and this will cause problems as web sites enable IPv6.</b>"
+msgstr "<b>Testele noastre arată că vei avea o configurație IPv6 incompletă sau greșită și asta va cauza probleme pe parcurs când saiturile web activează IPv6.</b>"
 
 #: messages.js
 msgid "<b>Our tests show that you will may have MTU problems with IPv6; this can cause web sites to load slow (or not at all) when web sites enable IPv6.</b>"
@@ -218,7 +218,7 @@ msgstr "We have suggestions to help you fix your system."
 
 #: messages.js
 msgid "Since you have IPv6, we are including a tab that shows how well you can reach other IPv6 sites. %sites"
-msgstr "Since you have IPv6, we are including a tab that shows how well you can reach other IPv6 sites. %sites"
+msgstr "Deoarece ai IPv6 includem și o filă care arată cât de bine te poți conecta la alte saituri IPv6. %sites"
 
 #: messages.js
 msgid "Your browser has real working IPv6 address - but is avoiding using it. We're concerned about this."
@@ -286,7 +286,7 @@ msgstr "[more info]"
 
 #: builtin.js
 msgid "Your IPv4 address on the public Internet appears to be"
-msgstr "Your IPv4 address on the public Internet appears to be"
+msgstr "Adresa ta IPv4 în internetul public pare să fie"
 
 #: builtin.js
 msgid "Proxied"
@@ -294,7 +294,7 @@ msgstr "Proxied"
 
 #: builtin.js
 msgid "Your IPv6 address on the public Internet appears to be"
-msgstr "Your IPv6 address on the public Internet appears to be"
+msgstr "Adresa ta IPv6 în internetul public pare să fie"
 
 #: builtin.js
 msgid "Your IPv6 service appears to be"
@@ -302,7 +302,7 @@ msgstr "Your IPv6 service appears to be"
 
 #: builtin.js
 msgid "Your Internet Service Provider (ISP) appears to be"
-msgstr "Your Internet Service Provider (ISP) appears to be"
+msgstr "Furnizorul tău de internet (ISP) pare să fie"
 
 #: builtin.js
 msgid "Started"
@@ -318,7 +318,7 @@ msgstr "using"
 
 #: builtin.js
 msgid "tests run"
-msgstr "tests run"
+msgstr "teste rulate"
 
 #: builtin.js
 msgid "(Survey posting skipped; test was rigged)"
@@ -326,11 +326,11 @@ msgstr "(Survey posting skipped; test was rigged)"
 
 #: builtin.js
 msgid "(Updating server side IPv6 readiness stats)"
-msgstr "(Updating server side IPv6 readiness stats)"
+msgstr "(Se actualizează statisticile pentru disponibilitatea IPv6 la nivelul serverului)"
 
 #: builtin.js
 msgid "(Updated server side IPv6 readiness stats)"
-msgstr "(Updated server side IPv6 readiness stats)"
+msgstr "(S-au actualizat statisticile pentru disponibilitatea IPv6 la nivelul serverului)"
 
 #: builtin.js
 msgid "(Survey posting failed; the above information is accurate, but not recorded.)"
@@ -350,11 +350,11 @@ msgstr "for your IPv6 stability and readiness, when publishers are forced to go 
 
 #: builtin.js
 msgid "Click to see"
-msgstr "Click to see"
+msgstr "Clic pentru a vizualiza"
 
 #: builtin.js
 msgid "test data"
-msgstr "test data"
+msgstr "datele de test"
 
 #: builtin.js
 msgid "Your FAQ"
@@ -362,7 +362,7 @@ msgstr "Your FAQ"
 
 #: builtin.js
 msgid "Frequently Asked Questions"
-msgstr "Frequently Asked Questions"
+msgstr "Întrebări frecvente"
 
 #: builtin.js
 msgid "loading..."
@@ -386,7 +386,7 @@ msgstr "%app: You are running version %found; we recommend %suggest or newer."
 
 #: form.js
 msgid "share your results"
-msgstr "share your results"
+msgstr "distribuie rezultatele tale"
 
 #: form.js
 msgid "I am most interested in discussing your setup with you, because it was been determined that <B>your IPv6 connectivity is broken</b>, or at least not fully understood. This is not normal; would you be willing to %share?"
@@ -414,7 +414,7 @@ msgstr "unknown result code"
 
 #: symptoms.js
 msgid "Your browser blocked"
-msgstr "Your browser blocked"
+msgstr "Navigatorul tău a blocat"
 
 #: helpdesk.js
 msgid "Your Internet help desk may ask you for the information below."
@@ -422,7 +422,7 @@ msgstr "Your Internet help desk may ask you for the information below."
 
 #: header.inc
 msgid "Test your IPv6."
-msgstr "Test your IPv6."
+msgstr "Testează IPv6."
 
 #: header.inc
 msgid "This will test your browser and connection for IPv6 readiness, as well as show you your current IPV4 and IPv6 address."
@@ -434,19 +434,19 @@ msgstr "Test IPv6"
 
 #: list-nav.inc
 msgid "FAQ"
-msgstr "FAQ"
+msgstr "Întrebări frecvente"
 
 #: list-nav.inc
 msgid "Mirrors"
-msgstr "Mirrors"
+msgstr "Oglinzi"
 
 #: list-nav.inc
 msgid "stats"
-msgstr "stats"
+msgstr "statistici"
 
 #: index.html
 msgid "Test your IPv6 connectivity."
-msgstr "Test your IPv6 connectivity."
+msgstr "Testează conectivitatea ta IPv6."
 
 #: index.html
 msgid "(Replay)"
@@ -478,23 +478,23 @@ msgstr "You can opt instead to view the <a href=\"simple_test.html\">simple test
 
 #: main/tabnav.inc
 msgid "For the Help Desk"
-msgstr "For the Help Desk"
+msgstr "Pentru serviciul de asistență"
 
 #: main/tabnav.inc
 msgid "Summary"
-msgstr "Summary"
+msgstr "Rezumat"
 
 #: main/tabnav.inc
 msgid "Tests Run"
-msgstr "Tests Run"
+msgstr "Teste rulate"
 
 #: main/tabnav.inc
 msgid "Share Results / Contact"
-msgstr "Share Results / Contact"
+msgstr "Distribuie rezultatele / Contact"
 
 #: main/tabnav.inc
 msgid "FAQ for You"
-msgstr "FAQ for You"
+msgstr "Întrebări frecvente pentru tine"
 
 #: main/tabnav.inc
 msgid "Help Popup"
@@ -502,11 +502,11 @@ msgstr "Help Popup"
 
 #: main/tabnav.inc
 msgid "Debug"
-msgstr "Debug"
+msgstr "Depanare"
 
 #: main/tabnav.inc
 msgid "Other IPv6 Sites"
-msgstr "Other IPv6 Sites"
+msgstr "Alte saituri IPv6"
 
 #: main/tests.inc
 msgid "How this test works:"
@@ -518,11 +518,11 @@ msgstr "Your browser will be instructed to reach a series of URLs. The combinati
 
 #: main/tests.inc
 msgid "Technical Info"
-msgstr "Technical Info"
+msgstr "Informații tehnice"
 
 #: main/tests.inc
 msgid "Test with IPv4 DNS record"
-msgstr "Test with IPv4 DNS record"
+msgstr "Test cu înregistrare DNS IPv4"
 
 #: main/tests.inc
 msgid "pending"
@@ -530,7 +530,7 @@ msgstr "pending"
 
 #: main/tests.inc
 msgid "Test with IPv6 DNS record"
-msgstr "Test with IPv6 DNS record"
+msgstr "Test cu înregistrare DNS IPv6"
 
 #: main/tests.inc
 msgid "Test with Dual Stack DNS record"
@@ -542,11 +542,11 @@ msgstr "Test for Dual Stack DNS and large packet"
 
 #: main/tests.inc
 msgid "Test IPv4 without DNS"
-msgstr "Test IPv4 without DNS"
+msgstr "Test IPv4 fără DNS"
 
 #: main/tests.inc
 msgid "Test IPv6 without DNS"
-msgstr "Test IPv6 without DNS"
+msgstr "Test IPv6 fără DNS"
 
 #: main/tests.inc
 msgid "Test IPv6 large packet"
@@ -566,7 +566,7 @@ msgstr "Find IPv6 Service Provider"
 
 #: main/tests.inc
 msgid "Test for buggy DNS"
-msgstr "Test for buggy DNS"
+msgstr "Testează pentru DNS problematic"
 
 #: main/tech.inc
 msgid "Fetches an object that has just an A record in DNS. This is expected to use IPv4. IPv6-only users might still reach this, if their provider has employed a NAT64/DNS64 or proxy solution."
@@ -578,7 +578,7 @@ msgstr "Fetches an object that has just an AAAA record in DNS. This is expected 
 
 #: main/tech.inc
 msgid "This is the most important test. This verifies your browser can connect to a site that has both IPv4 and IPv6 records published. IPv4 only hosts should connect fine (using IPv4)."
-msgstr "This is the most important test. This verifies your browser can connect to a site that has both IPv4 and IPv6 records published. IPv4 only hosts should connect fine (using IPv4)."
+msgstr "Acesta este cel mai important test. Verifică dacă navigatorul tău se poate conecta la un sait care are publicate atât înregistrări IPv4 cât și IPv6. Gazdele doar cu IPv4 ar trebuie să se conecteze fără probleme (folosind IPv4)."
 
 #: main/tech.inc
 msgid "If this test fails or times out, you can expect major problems as publishers start offering their sites on IPv6."
@@ -666,23 +666,23 @@ msgstr "Thanks,"
 
 #: main/mail.inc
 msgid "Purpose for comment"
-msgstr "Purpose for comment"
+msgstr "Scopul comentariului"
 
 #: main/mail.inc
 msgid "Questions about test results"
-msgstr "Questions about test results"
+msgstr "Întrebări despre rezultatele testului"
 
 #: main/mail.inc
 msgid "Report a bug with diagnosis"
-msgstr "Report a bug with diagnosis"
+msgstr "Raportează o hibă cu diagnosticare"
 
 #: main/mail.inc
 msgid "Suggestion"
-msgstr "Suggestion"
+msgstr "Sugestie"
 
 #: main/mail.inc
 msgid "Cheers or Jeers"
-msgstr "Cheers or Jeers"
+msgstr "Felicitări sau dezaprobări"
 
 #: main/mail.inc
 msgid "Email address if you'll permit me to contact you. <i>Required, if you wish a response.</i>"
@@ -746,7 +746,7 @@ msgstr "It is real easy to get added to this list for basic checks. Just provide
 
 #: sites.inc
 msgid "Full mirrors are welcomed and appreciated, whether public or private. Please see <a href=\"https://github.com/falling-sky/source/wiki\">the wiki</a> for details."
-msgstr "Full mirrors are welcomed and appreciated, whether public or private. Please see <a href=\"https://github.com/falling-sky/source/wiki\">the wiki</a> for details."
+msgstr "Oglinzile complete sunt bine-venite și apreciate, publice sau private. Vizitează te rog <a href=\"https://github.com/falling-sky/source/wiki\">pagina wiki</a> pentru detalii."
 
 #: footer.inc
 msgid "All rights reserved."
@@ -758,7 +758,7 @@ msgstr "Mission"
 
 #: footer.inc
 msgid "Source"
-msgstr "Source"
+msgstr "Sursă"
 
 #: footer.inc
 msgid "Email"
@@ -766,11 +766,11 @@ msgstr "Email"
 
 #: footer.inc
 msgid "Attributions"
-msgstr "Attributions"
+msgstr "Atribuiri"
 
 #: disclaimer.inc
 msgid "This is a mirror of test-ipv6.com. The views expressed here may or may not reflect the views of the mirror owner."
-msgstr "This is a mirror of test-ipv6.com. The views expressed here may or may not reflect the views of the mirror owner."
+msgstr "Aceasta este o oglindă a test-ipv6.com. Opiniile exprimate aici ar putea sau nu să reflectele opiniile proprietarului oglinzii."
 
 #: locale.html
 msgid "Available Languages"
@@ -782,7 +782,7 @@ msgstr "Pick one of the following to switch to that language."
 
 #: faq_helpdesk.html
 msgid "Help Desk Information"
-msgstr "Help Desk Information"
+msgstr "Informații centrul de asistență"
 
 #: faq_helpdesk.html
 msgid "Q: What is the Help Desk tab for?"
@@ -818,7 +818,7 @@ msgstr "IP address shown, in case tech support needs it."
 
 #: faq_helpdesk.html
 msgid "List of unreachable sites, if any"
-msgstr "List of unreachable sites, if any"
+msgstr "Lista saiturilor inaccesibile, dacă există"
 
 #: faq_helpdesk.html
 msgid "Q: What is the easiest way to send users to the Help Desk tab?"
@@ -1450,11 +1450,11 @@ msgstr "Disabling IPv6 is the least preferred option. For some people, however, 
 
 #: faq.html
 msgid "test-ipv6.com FAQ"
-msgstr "test-ipv6.com FAQ"
+msgstr "Întrebări frecvente test-ipv6.com"
 
 #: faq.html
 msgid "Q: How does this test work?"
-msgstr "Q: How does this test work?"
+msgstr "Î: Cum funcționează acest test?"
 
 #: faq.html
 msgid "The test is entirely client-side javascript. To determine reachability, a series of ajax requests are made from the web server, using various DNS names that force the use of IPv6 only, or dual stack, or other such scenarios. The pass/fail of such fetches, as well as how long they take, are taken into account."
@@ -1462,7 +1462,7 @@ msgstr "The test is entirely client-side javascript. To determine reachability, 
 
 #: faq.html
 msgid "Q: Why is this web site reachable via IPv4 only?"
-msgstr "Q: Why is this web site reachable via IPv4 only?"
+msgstr "Î: De ce acest site web este accesibil doar prin IPv4?"
 
 #: faq.html
 msgid "You're right, there are no AAAA records, intentionally. A percentage of users are unable to browse sites that are dual-stack. If the users can't connect, then they can't be told they have a problem. This is a big problem facing content providers today; of which, I work at one for my &#36;dayjob. As such, the main test page requires IPv4 (either native or translated)."
@@ -1474,7 +1474,7 @@ msgstr "At some point, when the percentage of \"broken\" users has gone signific
 
 #: faq.html
 msgid "Q: How do I test my IPv6-only host"
-msgstr "Q: How do I test my IPv6-only host"
+msgstr "Î: Cum testez gazda mea ce are doar IPv6"
 
 #: faq.html
 msgid "If you ask that question, chances are you don't need this site. However, if you really want to, visit <a href= \"http://ipv6.test-ipv6.com\">http://ipv6.test-ipv6.com</a> with your IPv6-only host."
@@ -1506,7 +1506,7 @@ msgstr "They went to <a href=\"http://ipv6.test-ipv6.com\">http://ipv6.test-ipv6
 
 #: faq.html
 msgid "Q: How valid are the stats?"
-msgstr "Q: How valid are the stats?"
+msgstr "Î: Cât de valide sunt statisticile?"
 
 #: faq.html
 msgid "They do not represent the average web consumer. Visitors to this site are self-selecting. The intent of this site is to not provide stats, but instead to inform the user the level of readiness for the world to move to IPv6 (with or without'em!). As such, stats found here will be completely different from an average content provider."
@@ -1550,7 +1550,7 @@ msgstr "Note you _may_ need to specify other options to your telnet command, dep
 
 #: faq.html
 msgid "Q: Do you actually read the feedback?"
-msgstr "Q: Do you actually read the feedback?"
+msgstr "Î: Chiar citești comentariile?"
 
 #: faq.html
 msgid "Yes, I do. Thank you! Note that I can only follow up with you if you do leave contact information. While I am still grateful for feedback without contact information, I will be unable to reply with any answers if you asked for them."
@@ -1566,11 +1566,11 @@ msgstr "I would prefer you use the form, as it gives details of your connectivit
 
 #: faq.html
 msgid "That said, you are welcome to directly email <a href=\"mailto:jfesler@test-ipv6.com\">jfesler@test-ipv6.com</a>."
-msgstr "That said, you are welcome to directly email <a href=\"mailto:jfesler@test-ipv6.com\">jfesler@test-ipv6.com</a>."
+msgstr "Acestea fiind spuse ești binevenit să scrii un email direct către <a href=\"mailto:jfesler@test-ipv6.com\">jfesler@test-ipv6.com</a>."
 
 #: faq.html
 msgid "Q: Is this open source?"
-msgstr "Q: Is this open source?"
+msgstr "Î: Este cu sursă deschisă?"
 
 #: faq.html
 msgid "Yes. See the <a href=\"source.html\">source page</a> for details."
@@ -1582,19 +1582,19 @@ msgstr "<span lookup=site.name>site</span> statistics"
 
 #: stats.html
 msgid "Graphs are updated daily."
-msgstr "Graphs are updated daily."
+msgstr "Graficele sunt actualizate zilnic."
 
 #: stats.html
 msgid "60 days view"
-msgstr "60 days view"
+msgstr "Vizualizare pentru 60 de zile"
 
 #: stats.html
 msgid "600 days view"
-msgstr "600 days view"
+msgstr "Vizualizare pentru 600 de zile"
 
 #: stats.html
 msgid "Quick notes:"
-msgstr "Quick notes:"
+msgstr "Note rapide:"
 
 #: stats.html
 msgid "Browser Filter means that both the \"A\" and \"AAAA\" test failed. Browser (plugin/filter) shenanigans, likely with add-ons like ad blockers."
@@ -1690,15 +1690,15 @@ msgstr "How you can help"
 
 #: mission.html
 msgid "This is an open-source project. I can certainly use your help in a variety of ways; please see the <a href=\"source.html\">source</a> page."
-msgstr "This is an open-source project. I can certainly use your help in a variety of ways; please see the <a href=\"source.html\">source</a> page."
+msgstr "Acesta este un proiect cu sursă deschisă. În mod sigur aș putea folosi ajutorul tău în diverse moduri; vizitează te rog pagina cu <a href=\"source.html\">sursa</a>."
 
 #: mirrors.html
 msgid "test-ipv6.com mirrors"
-msgstr "test-ipv6.com mirrors"
+msgstr "oglinzi test-ipv6.com"
 
 #: mirrors.html
 msgid "These are the known publicly accessible mirrors for test-ipv6.com."
-msgstr "These are the known publicly accessible mirrors for test-ipv6.com."
+msgstr "Aceste sunt oglinzile cunoscute accesibile public  pentru test-ipv6.com."
 
 #: mirrors.html
 msgid "Thank you to all of these organizations, who have put in significant effort to provide this mirror sites. If you have problems with the site you are on now, try another mirror site; perhaps one closer to you."
@@ -1710,11 +1710,11 @@ msgstr "Hints Columns are sortable (click the first row); <a href=\"#\" onclick=
 
 #: mirrors.html
 msgid "(generated by javascript)"
-msgstr "(generated by javascript)"
+msgstr "(generat de javascript)"
 
 #: mirrors.html
 msgid "Interested in running a mirror?"
-msgstr "Interested in running a mirror?"
+msgstr "Ești interesat să rulezi o oglindă?"
 
 #: mirrors.html
 msgid "Mirrors are welcomed and appreciated, whether public or private. Please see <a href=\"https://github.com/falling-sky/source/wiki\">the wiki</a> for details."
@@ -1906,7 +1906,7 @@ msgstr "<b>If you strongly believe you have IPv6, but we were unable to detect i
 
 #: faq_teredo_minimum.html
 msgid "More about your test results."
-msgstr "More about your test results."
+msgstr "Mai multe despre rezultatele tale la test."
 
 #: faq/teredo_iponly.inc
 msgid "You also appear to have Teredo enabled. You did successfully connect to an IPv6 site during this test - but only when forcing the connection by connecting to an IPv6 numeric address, instead of a web site name. This setting will not help or hurt you going forward to reach IPv6 web sites."
@@ -2222,7 +2222,7 @@ msgstr "As such, there is no hard cutoff date. Just be aware that IPv4 will star
 
 #: faq_whyipv6.html
 msgid "Q: Will I have to replace my OS?"
-msgstr "Q: Will I have to replace my OS?"
+msgstr "Î: Va trebui să îmi înlocuiesc sistemul de operare (SO)?"
 
 #: faq_whyipv6.html
 msgid "Windows Vista, Windows 7: You're good to go. XP users: It can be made to work, but it really is time to consider upgrading. Win98 and Win2000 users have no path to IPv6."
@@ -2270,7 +2270,7 @@ msgstr "PMTUD is a mechanism used on the Internet that tells your computer the m
 
 #: faq_pmtud.html
 msgid "Q: How does this relate to IPv6?"
-msgstr "Q: How does this relate to IPv6?"
+msgstr "Î: Cum este asta relaționat de IPv6?"
 
 #: faq_pmtud.html
 msgid "With IPv6, all packets are by definition \"Do Not Fragment\". The responsibility of sending the correct sized packets no longer falls on the router; this is an expensive operation for the router to handle. Instead, the ability to do PMTUD is mandated by the IPv6 specification."
@@ -2278,7 +2278,7 @@ msgstr "With IPv6, all packets are by definition \"Do Not Fragment\". The respon
 
 #: faq_pmtud.html
 msgid "Q: What does the firewall need to allow?"
-msgstr "Q: What does the firewall need to allow?"
+msgstr "Î: Ce trebuie să permită paravanul de protecție?"
 
 #: faq_pmtud.html
 msgid "IPv6 firewalls <b>need</b> to permit ICMPv6, type 2 (Packet Too Big) to work correctly with the public Internet. If you are implementing the IPv6 firewall for your web site, your enterprise, or other organization, please permit this specific ICMPv6 message, even if you by default block other types of ICMP."
@@ -2398,7 +2398,7 @@ msgstr "If you were referred to this page by test-ipv6.com, it means that we wer
 
 #: faq_buggydns1.html
 msgid "First a description of the problem:"
-msgstr "First a description of the problem:"
+msgstr "Mai întâi o descriere a problemei:"
 
 #: faq_buggydns1.html
 msgid "Your browser asked for a DNS lookup, both IPv4 and IPv6."
@@ -2406,7 +2406,7 @@ msgstr "Your browser asked for a DNS lookup, both IPv4 and IPv6."
 
 #: faq_buggydns1.html
 msgid "The IPv6 response was returned first."
-msgstr "The IPv6 response was returned first."
+msgstr "Răspunsul IPv6 a fost primul returnat."
 
 #: faq_buggydns1.html
 msgid "Your DNS server was confused by the result - it doesn't fully follow the DNS standards."
@@ -2426,7 +2426,7 @@ msgstr "It then tries to make a connecting, to the wrong address, with the wrong
 
 #: faq_buggydns1.html
 msgid "This is bad for several reasons:"
-msgstr "This is bad for several reasons:"
+msgstr "Asta este rău din mai multe motive:"
 
 #: faq_buggydns1.html
 msgid "You won't be able to connect to IPv6-only sites."
@@ -2438,7 +2438,7 @@ msgstr "You may sporadically fail (or always fail) to connect to IPv6-enabled we
 
 #: faq_buggydns1.html
 msgid "So, what is actually affected?"
-msgstr "So, what is actually affected?"
+msgstr "Deci, ce este afectat de fapt?"
 
 #: faq_buggydns1.html
 msgid "You'll need to determine what device is forwarding your DNS queries."
@@ -2462,7 +2462,7 @@ msgstr "Business customers: Provide this information to your IT professional to 
 
 #: faq_buggydns1.html
 msgid "IT professionals:"
-msgstr "IT professionals:"
+msgstr "Profesioniști IT:"
 
 #: faq_buggydns1.html
 msgid "You can see an illustration of this, by doing:"

@@ -155,6 +155,16 @@ GIGO.sites_parsed={
       "v4" : "http://ipv4.test-ipv6.ams.vr.org/images-nc/knob_green.png",
       "v6" : "http://ipv6.test-ipv6.ams.vr.org/images-nc/knob_green.png"
    },
+   "test-ipv6.arbor.net" : {
+      "hide" : "0",
+      "loc" : "US",
+      "mirror" : "1",
+      "monitor" : "Bill Cerveny <admin@v6research.net>",
+      "provider" : "Arbor Networks",
+      "site" : "test-ipv6.arbor.net",
+      "v4" : "http://ipv4.test-ipv6.arbor.net/images-nc/knob_green.png",
+      "v6" : "http://ipv6.test-ipv6.arbor.net/images-nc/knob_green.png"
+   },
    "test-ipv6.belwue.net" : {
       "hide" : "0",
       "loc" : "DE",
@@ -509,6 +519,15 @@ GIGO.sites_parsed={
       "site" : "www.yahoo.com",
       "v4" : "http://v4test.yahoo.com/eng/test/eye-test.png",
       "v6" : "http://v6test.yahoo.com/eng/test/eye-test.png"
+   },
+   "zeop.re" : {
+      "hide" : "0",
+      "loc" : "RE",
+      "monitor" : "PAYET Fabien <fabienpayet@zeop.re>",
+      "provider" : "ZEOP",
+      "site" : "zeop.re",
+      "v4" : "http://test-ipv4.zeop.re/ipv4/ipv4.png",
+      "v6" : "http://test-ipv6.zeop.re/ipv6/ipv6.png"
    }
 }
 ;

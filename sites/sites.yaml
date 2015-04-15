@@ -382,13 +382,13 @@ testipv6.de:
   v4: http://ipv4.testipv6.de/images-nc/knob_green.png
   v6: http://ipv6.testipv6.de/images-nc/knob_green.png
   monitor: 'COSIMO WebTeam <kontakt@testipv6.de>'
-v6research.net: 
-  hide: 1
+test-ipv6.arbor.net: 
+  hide: 0
   loc: US
   mirror: 1
-  provider: Bill Cerveny
-  v4: http://ipv4.v6research.net/images-nc/knob_green.png
-  v6: http://ipv6.v6research.net/images-nc/knob_green.png
+  provider: Arbor Networks
+  v4: http://ipv4.test-ipv6.arbor.net/images-nc/knob_green.png
+  v6: http://ipv6.test-ipv6.arbor.net/images-nc/knob_green.png
   monitor: 'Bill Cerveny <admin@v6research.net>'
 www.bsc-telecom.com: 
   hide: 1
@@ -494,7 +494,7 @@ www.yahoo.com:
   v4: http://v4test.yahoo.com/eng/test/eye-test.png
   v6: http://v6test.yahoo.com/eng/test/eye-test.png
 zeop.re: 
-  hide: 1
+  hide: 0
   loc: RE
   provider: ZEOP
   v4: http://test-ipv4.zeop.re/ipv4/ipv4.png
