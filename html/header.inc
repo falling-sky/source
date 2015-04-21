@@ -5,7 +5,9 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <title>[% "Test your IPv6." | i18n %]</title>
+[% IF ( basename.match('index')) %]
   <meta name="description" content='[% "This will test your browser and connection for IPv6 readiness, as well as show you your current IPV4 and IPv6 address." | i18n %]' />
+[% END %]
   <meta name="keywords" content="test,ipv4,ipv6,isp" />
   <meta name="y_key" content="6a3ded130c3ff129" />
   <link rel="SHORTCUT ICON" href="http://test-ipv6.com/images/favicon.ico" />
