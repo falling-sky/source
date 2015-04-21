@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-04-10 12:15-0400\n"
+"PO-Revision-Date: 2015-04-21 12:30-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Czech\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -66,7 +66,7 @@ msgstr "Pozor, nebezpečí! IPv6 vám sice funguje, ale selhává doručování 
 
 #: messages.js
 msgid "Check your firewall to make sure that ICMPv6 messages are allowed (in particular, Type 2 or Packet Too Big)."
-msgstr "Check your firewall to make sure that ICMPv6 messages are allowed (in particular, Type 2 or Packet Too Big)."
+msgstr "Zkontrolujte, že v nastavení brány firewallu jsou povolené ICMPv6 zprávy, zejména Typ 2, Příliš velký paket (Packet Too Big)."
 
 #: messages.js
 msgid "Test results inconclusive; they were not consistent with expectations. Please rerun the test, and if the results are the same, please fill out the contact form."
@@ -130,7 +130,7 @@ msgstr "Pravděpodobná příčina jsou doplňky NoScript nebo AdBlock+. V dopl�
 
 #: messages.js
 msgid "NAT64 detected. IPv6 works. IPv4 works for most purposes. Applications that are hard-coded for IPv4-only will fail. We are aware of at least one major voice-over-ip program that falls into this category. Your application's support staff may need a nudge to add proper IPv6 support."
-msgstr "NAT64 detected. IPv6 works. IPv4 works for most purposes. Applications that are hard-coded for IPv4-only will fail. We are aware of at least one major voice-over-ip program that falls into this category. Your application's support staff may need a nudge to add proper IPv6 support."
+msgstr "Byl detekován NAT64. IPv6 funguje. IPv4 funguje ve většině případů. Aplikace, které počítají pouze s IPv4, selžou. Víme nejméně o jednom důležitém voice-over-ip programu, který spadá do této kategorie. Dodavatel vaší aplikace může potřebovat podnět, aby přidal skutečnou podporu IPv6."
 
 #: messages.js
 msgid "Your DNS server (possibly run by your ISP) appears to have IPv6 Internet access."
@@ -302,7 +302,7 @@ msgstr "Vaše IPv6 služba je:"
 
 #: builtin.js
 msgid "Your Internet Service Provider (ISP) appears to be"
-msgstr "Your Internet Service Provider (ISP) appears to be"
+msgstr "Váš poskytovatel připojení k Internetu (ISP) bude nejspíš"
 
 #: builtin.js
 msgid "Started"
@@ -354,7 +354,7 @@ msgstr "Klikněte pro"
 
 #: builtin.js
 msgid "test data"
-msgstr "testovacích dat"
+msgstr "testovací data"
 
 #: builtin.js
 msgid "Your FAQ"
@@ -418,7 +418,7 @@ msgstr "Váš prohlížeč zablokoval"
 
 #: helpdesk.js
 msgid "Your Internet help desk may ask you for the information below."
-msgstr "Your Internet help desk may ask you for the information below."
+msgstr "Technická podpora vašeho poskytovatele připojení může chtít níže uvedené informace."
 
 #: header.inc
 msgid "Test your IPv6."
@@ -454,7 +454,7 @@ msgstr "(Replay)"
 
 #: js_required.inc
 msgid "JavaScript Required"
-msgstr "JavaScript Required"
+msgstr "Je vyžadován JavaScript"
 
 #: js_required.inc
 msgid "This site requires JavaScript, as well as the ability to pull in cross-site scripts, in order to perform the testing."
@@ -462,11 +462,11 @@ msgstr "This site requires JavaScript, as well as the ability to pull in cross-s
 
 #: js_required.inc
 msgid "If this message does not go away, it means that JavaScript has been disabled, either by a plugin or extension in your browser, or by explicit browser setting."
-msgstr "If this message does not go away, it means that JavaScript has been disabled, either by a plugin or extension in your browser, or by explicit browser setting."
+msgstr "Pokud tato zpráva nezmizí, máte zakázaný Javascript, ať už doplňkem či rozšířením v prohlížeči, nebo přímo v jeho nastavení."
 
 #: js_required.inc
 msgid "Do you use NoScript?"
-msgstr "Do you use NoScript?"
+msgstr "Používáte NoScript?"
 
 #: js_required.inc
 msgid "If you use this Firefox add-on, you'll need to \"Temporarily allow all this page\". You will need to do this <b>twice</b> for everything to work. Alternately, disable NoScript entirely until you are done with this site."
@@ -602,7 +602,7 @@ msgstr "Testuje, zdali fungují IPv6 žádosti s velkými pakety. Pokud tento te
 
 #: main/tech.inc
 msgid "Double check to make sure that ICMPv6 Type 2 (\"Packet Too Big\") messages are not filtered by your firewall."
-msgstr "Double check to make sure that ICMPv6 Type 2 (\"Packet Too Big\") messages are not filtered by your firewall."
+msgstr "Pečlivě zkontrolujte, že zprávy ICMPv6 typ 2, (Příliš velký paket, \"Packet Too Big\"), nejsou filtrovány vaší bránou firewallu."
 
 #: main/tech.inc
 msgid "(This is bonus credit)"
@@ -774,15 +774,15 @@ msgstr "Toto je mirror stránek test-ipv6.com. Výsledky prezentované zde můž
 
 #: locale.html
 msgid "Available Languages"
-msgstr "Available Languages"
+msgstr "Dostupné jazyky"
 
 #: locale.html
 msgid "Pick one of the following to switch to that language."
-msgstr "Pick one of the following to switch to that language."
+msgstr "Vyberte jeden z následujících pro přepnutí na daný jazyk."
 
 #: faq_helpdesk.html
 msgid "Help Desk Information"
-msgstr "Help Desk Information"
+msgstr "Informace pro technickou podporu"
 
 #: faq_helpdesk.html
 msgid "Q: What is the Help Desk tab for?"
@@ -818,7 +818,7 @@ msgstr "IP address shown, in case tech support needs it."
 
 #: faq_helpdesk.html
 msgid "List of unreachable sites, if any"
-msgstr "List of unreachable sites, if any"
+msgstr "Seznam případných nedostupných serverů"
 
 #: faq_helpdesk.html
 msgid "Q: What is the easiest way to send users to the Help Desk tab?"
@@ -870,7 +870,7 @@ msgstr "Make sure you are current"
 
 #: broken.html
 msgid "Find your IP address"
-msgstr "Find your IP address"
+msgstr "Zjistěte svou IP adresu"
 
 #: broken.html
 msgid "If you set up a tunnel broker"
@@ -894,7 +894,7 @@ msgstr "If you have an unexpected IPv6 address"
 
 #: broken.html
 msgid "Try the netalyzr"
-msgstr "Try the netalyzr"
+msgstr "Vyzkoušejte netalyzr"
 
 #: broken.html
 msgid "If all else fails, disable or deprioritize IPv6"
@@ -914,7 +914,7 @@ msgstr "OS - Make sure you have the latest."
 
 #: faq/staycurrent.inc
 msgid "Mac users: Apple OS X 10.6.7 is recommended for improved IPv6 support."
-msgstr "Mac users: Apple OS X 10.6.7 is recommended for improved IPv6 support."
+msgstr "Uživatelé Macu: pro zlepšenou podporu IPv6 se doporučuje Apple OS X 10.6.7."
 
 #: faq/staycurrent.inc
 msgid "Mac users on 10.4 or 10.5 may need to disable IPv6 if other troubleshooting steps fail."
@@ -922,7 +922,7 @@ msgstr "Mac users on 10.4 or 10.5 may need to disable IPv6 if other troubleshoot
 
 #: faq/staycurrent.inc
 msgid "Windows users: go to"
-msgstr "Windows users: go to"
+msgstr "Uživatelé Windows: přejděte na"
 
 #: faq/staycurrent.inc
 msgid "iPhone/iPad users: No specific version advised at this time."
@@ -1034,15 +1034,15 @@ msgstr "iPhone and iPad users: No information is shown via Apple's preferences/s
 
 #: faq/find_ip.inc
 msgid "Linux users: To find your IPv6 address, open a terminal and.."
-msgstr "Linux users: To find your IPv6 address, open a terminal and.."
+msgstr "Uživatelé Linuxu: Pro zjištění vaší IPv6 adresy otevřete terminál a.."
 
 #: faq/find_ip.inc
 msgid "Linux users: To find your IPv6 route, use:"
-msgstr "Linux users: To find your IPv6 route, use:"
+msgstr "Uživatelé Linuxu: Pro zjištění, kam směrujete IPv6, použijte:"
 
 #: faq/find_ip.inc
 msgid "Generic unix instructions for determining your IPv6 address and default route:"
-msgstr "Generic unix instructions for determining your IPv6 address and default route:"
+msgstr "Obecné unixové instrukce pro zjištění vaší IPv6 adresy a default route:"
 
 #: faq/find_ip.inc
 msgid "Windows users: To find your IP address using cmd.exe:"
@@ -1058,7 +1058,7 @@ msgstr "If you have a \"Run\" menu option, select it. Otherwise go to the \"Sear
 
 #: faq/find_ip.inc
 msgid "Type <code>cmd.exe</code>"
-msgstr "Type <code>cmd.exe</code>"
+msgstr "Napište <code>cmd.exe</code>"
 
 #: faq/find_ip.inc
 msgid "In the cmd window, type <code>ipconfig</code> ."
@@ -1066,7 +1066,7 @@ msgstr "In the cmd window, type <code>ipconfig</code> ."
 
 #: faq/find_ip.inc
 msgid "Windows 7 GUI users:"
-msgstr "Windows 7 GUI users:"
+msgstr "Uživatelé grafického prostředí  Windows 7:"
 
 #: faq/find_ip.inc
 msgid "Go to the start menu"
@@ -1074,7 +1074,7 @@ msgstr "Go to the start menu"
 
 #: faq/find_ip.inc
 msgid "Go to the control panel"
-msgstr "Go to the control panel"
+msgstr "Otevřete Panel nástrojů"
 
 #: faq/find_ip.inc
 msgid "Go to \"Network and Internet\""
@@ -1150,7 +1150,7 @@ msgstr "If you set up 6to4"
 
 #: broken.html
 msgid "(IPv6 address: starts with 2002)"
-msgstr "(IPv6 address: starts with 2002)"
+msgstr "(IPv6 adresa: na začátku má 2002)"
 
 #: faq/broken_6to4.inc
 msgid "If you use 6to4</b> (without a tunnel broker; ie, using anonymous 6to4):"
@@ -1194,7 +1194,7 @@ msgstr "Linux users using iptables connection tracking: take heed of the previou
 
 #: faq/broken_6to4.inc
 msgid "Consider changing how you connect."
-msgstr "Consider changing how you connect."
+msgstr "Zvažte změnu toho, jak se připojujete."
 
 #: faq/broken_6to4.inc
 msgid "Ask your ISP if they offer any IPv6 connectivity (including possibly 6in4 tunnels, or tunnelbroker type tunnels)."
@@ -1210,7 +1210,7 @@ msgstr "If you have an ULA"
 
 #: broken.html
 msgid "(IPv6 address: starts with FC or FD)"
-msgstr "(IPv6 address: starts with FC or FD)"
+msgstr "(IPv6 adresa: na začátku má FC nebo FD)"
 
 #: faq/broken_ula.inc
 msgid "If you have an IP address starting with <code>FC</code> or <code>FD</code>, you have what is effectively a private IPv6 address. It might be usable for talking to other devices within your home, or within your company. It also allows you to have a steady IPv6 address inside, even if your public IPv6 address changes regularly."
@@ -1230,7 +1230,7 @@ msgstr "Bad or Inappropriate IPv6 Addresss"
 
 #: broken.html
 msgid "(IPv6 address: see table below)"
-msgstr "(IPv6 address: see table below)"
+msgstr "(IPv6 adresa: viz tabulka níže)"
 
 #: faq/broken_bogon.inc
 msgid "Bad or Inappropriate IPv6 Addresses (Bogons)"
@@ -1270,7 +1270,7 @@ msgstr "This router is using the official \"Documentation\" prefix - which is no
 
 #: faq/broken_bogon.inc
 msgid "Update to the latest firmware."
-msgstr "Update to the latest firmware."
+msgstr "Aktualizujte na nejnovější verzi firmware."
 
 #: faq/broken_bogon.inc
 msgid "Other routers: Try updating the firmware."
@@ -1322,7 +1322,7 @@ msgstr "From the netalyzr staff:"
 
 #: broken.html
 msgid "If all else fails"
-msgstr "If all else fails"
+msgstr "Pokud vše ostatní selže"
 
 #: broken.html
 msgid "(Instructions for disabling or deprioritizing IPv6)"
@@ -1350,7 +1350,7 @@ msgstr "Uncheck \"Internet Protocol Version 6\""
 
 #: faq/broken_disable.inc
 msgid "Hit \"ok\""
-msgstr "Hit \"ok\""
+msgstr "Poklepejte na \"ok\""
 
 #: faq/broken_disable.inc
 msgid "Shutdown/reboot."
@@ -1362,7 +1362,7 @@ msgstr "To disable IPv6 in Windows XP:"
 
 #: faq/broken_disable.inc
 msgid "Taken from:"
-msgstr "Taken from:"
+msgstr "Převzato z:"
 
 #: faq/broken_disable.inc
 msgid "Make sure you are logged in as an Administrator."
@@ -1382,7 +1382,7 @@ msgstr "Close the Command Prompt window and restart the computer."
 
 #: faq/broken_disable.inc
 msgid "OS X users"
-msgstr "OS X users"
+msgstr "Uživatelé OS X"
 
 #: faq/broken_disable.inc
 msgid "Before disabling IPv6, please be sure you are running the latest OS version. In particular, OS X 10.6.7 has several workarounds for being \"Broken\". This may solve your problems without resorting to completely disabling IPv6."
@@ -1390,11 +1390,11 @@ msgstr "Before disabling IPv6, please be sure you are running the latest OS vers
 
 #: faq/broken_disable.inc
 msgid "How to disable IPv6"
-msgstr "How to disable IPv6"
+msgstr "Jak zakázat IPv6"
 
 #: faq/broken_disable.inc
 msgid "Disable IPv6"
-msgstr "Disable IPv6"
+msgstr "Zakažte IPv6"
 
 #: faq/broken_disable.inc
 msgid "Apply changes"
@@ -1402,7 +1402,7 @@ msgstr "Apply changes"
 
 #: faq/broken_disable.inc
 msgid "iPhone and iPad users"
-msgstr "iPhone and iPad users"
+msgstr "Uživatelé iPhone a iPad"
 
 #: faq/broken_disable.inc
 msgid "IPv6 is not configurable on the iPhone or iPad. Your only option is to switch to another network."
@@ -1410,11 +1410,11 @@ msgstr "IPv6 is not configurable on the iPhone or iPad. Your only option is to s
 
 #: faq/broken_disable.inc
 msgid "Linux users:"
-msgstr "Linux users:"
+msgstr "Uživatelé Linuxu:"
 
 #: faq/broken_disable.inc
 msgid "This is very distribution-specific. Do a web search using your favorite search engine."
-msgstr "This is very distribution-specific. Do a web search using your favorite search engine."
+msgstr "Toto je velmi specifické pro každou distribuci. Použijte svůj oblíbený internetový vyhledávač."
 
 #: faq/broken_disable.inc
 msgid "Example web search: <code>disable ipv6 on centos</code>"
@@ -1422,7 +1422,7 @@ msgstr "Example web search: <code>disable ipv6 on centos</code>"
 
 #: faq/broken_disable.inc
 msgid "Generic unix instructions, to temporarily remove your IPv6 address."
-msgstr "Generic unix instructions, to temporarily remove your IPv6 address."
+msgstr "Obecné unixové instrukce pro dočasné odstranění IPv6 adresy."
 
 #: faq/broken_disable.inc
 msgid "IP_ADDRESS"
@@ -1438,11 +1438,11 @@ msgstr "You can do a web search for your particular OS distribution. Example sea
 
 #: broken.html
 msgid "See Also"
-msgstr "See Also"
+msgstr "Viz také"
 
 #: broken.html
 msgid "Other resources that may help"
-msgstr "Other resources that may help"
+msgstr "Další zdroje, které mohou pomoci"
 
 #: faq_disable.html
 msgid "Disabling IPv6 is the least preferred option. For some people, however, it may be your only option. This may be due to equipment limitations, or in limitations in technical support."
@@ -1582,7 +1582,7 @@ msgstr "<span lookup=site.name>site</span> statistics"
 
 #: stats.html
 msgid "Graphs are updated daily."
-msgstr "Graphs are updated daily."
+msgstr "Grafy se aktualizují denně."
 
 #: stats.html
 msgid "60 days view"
@@ -1650,7 +1650,7 @@ msgstr "To do so in a brand neutral, ad-free way."
 
 #: mission.html
 msgid "Why do we do this?"
-msgstr "Why do we do this?"
+msgstr "Proč to děláme?"
 
 #: mission.html
 msgid "Because of 1 out of every 4000 users are \"broken\" based on industry measurements. This has delayed the web sites from publishing to IPv6."
@@ -1686,15 +1686,15 @@ msgstr "The <a href=\"broken.html\">Broken User FAQ</a> has several suggestions 
 
 #: mission.html
 msgid "How you can help"
-msgstr "How you can help"
+msgstr "Jak můžete pomoct"
 
 #: mission.html
 msgid "This is an open-source project. I can certainly use your help in a variety of ways; please see the <a href=\"source.html\">source</a> page."
-msgstr "This is an open-source project. I can certainly use your help in a variety of ways; please see the <a href=\"source.html\">source</a> page."
+msgstr "Toto je open-source projekt. Pomoct mi můžete mnoha způsoby; podívejte se na stránku <a href=\"source.html\">source</a>."
 
 #: mirrors.html
 msgid "test-ipv6.com mirrors"
-msgstr "test-ipv6.com mirrors"
+msgstr "Zrcadla test-ipv6.com"
 
 #: mirrors.html
 msgid "These are the known publicly accessible mirrors for test-ipv6.com."
@@ -1710,11 +1710,11 @@ msgstr "Hints Columns are sortable (click the first row); <a href=\"#\" onclick=
 
 #: mirrors.html
 msgid "(generated by javascript)"
-msgstr "(generated by javascript)"
+msgstr "(vygenerováno javascriptem)"
 
 #: mirrors.html
 msgid "Interested in running a mirror?"
-msgstr "Interested in running a mirror?"
+msgstr "Máte zájem o provozování zrcadla serveru?"
 
 #: mirrors.html
 msgid "Mirrors are welcomed and appreciated, whether public or private. Please see <a href=\"https://github.com/falling-sky/source/wiki\">the wiki</a> for details."
@@ -1998,7 +1998,7 @@ msgstr "We detected that you are able to connect to IPv6 sites, by numerical add
 
 #: faq_broken_aaaa.html
 msgid "What does this mean for you?"
-msgstr "What does this mean for you?"
+msgstr "Co to pro vás znamená?"
 
 #: faq_broken_aaaa.html
 msgid "You should still be able to reach most sites fine, so long as they offer their services on IPv4. This means few near-term problems."
@@ -2006,7 +2006,7 @@ msgstr "You should still be able to reach most sites fine, so long as they offer
 
 #: faq_broken_aaaa.html
 msgid "Possible causes:"
-msgstr "Possible causes:"
+msgstr "Možné příčiny:"
 
 #: faq_broken_aaaa.html
 msgid "Firefox users may have IPv6 lookups disabled."
@@ -2122,7 +2122,7 @@ msgstr "This image based test is provided for those with browsers or browser plu
 
 #: faq_whyipv6.html
 msgid "Why IPv6?"
-msgstr "Why IPv6?"
+msgstr "Proč IPv6?"
 
 #: faq_whyipv6.html
 msgid "This is an interesting question. IPv6 buys you only a bit more than you already have today; and most of that is a promise. IPv6 will help you preserve the level of Internet connectivy between your home and other locations on the Internet, without interference, as you enjoyed in 2012."
@@ -2318,23 +2318,23 @@ msgstr "What does this look like on the network?"
 
 #: faq_pmtud.html
 msgid "(What does tcpdump show?)"
-msgstr "(What does tcpdump show?)"
+msgstr "(Co ukáže tcpdump?)"
 
 #: faq_pmtud.html
 msgid "This is what tcpdump will show.."
-msgstr "This is what tcpdump will show.."
+msgstr "Toto ukáže tcpdump.."
 
 #: faq_pmtud.html
 msgid "This is what I ran to generate the packets."
-msgstr "This is what I ran to generate the packets."
+msgstr "Toto jsem spustil, abych tyto pakety vytvořil."
 
 #: faq_pmtud.html
 msgid "What can I do?"
-msgstr "What can I do?"
+msgstr "Co můžu dělat?"
 
 #: faq_pmtud.html
 msgid "This is a complex question - there are many ways to get on the Internet."
-msgstr "This is a complex question - there are many ways to get on the Internet."
+msgstr "To je složitá otázka - je mnoho způsobů, jak se připojit k Internetu."
 
 #: faq_pmtud.html
 msgid "The preferred fix is to permit ICMPv6 Type 2 Packet Too Big messages."
@@ -2450,7 +2450,7 @@ msgstr "With Windows, at the <code>cmd</code> prompt, you can type <code>ipconfi
 
 #: faq_buggydns1.html
 msgid "With Linux, BSD, and Mac OS X, you can do this in a terminal: <code>cat /etc/resolv.conf</code>."
-msgstr "With Linux, BSD, and Mac OS X, you can do this in a terminal: <code>cat /etc/resolv.conf</code>."
+msgstr "Na Linuxu, BSD and Mac OS X, můžete v terminálu napsat: <code>cat /etc/resolv.conf</code>."
 
 #: faq_buggydns1.html
 msgid "Residential ISP customers: look to see if the DNS server is <b>192.168.0.1</b> or <b>192.168.1.1</b>. If so, chances are good that your home router is at fault. This is probably the blue box you have that connects the Internet."
@@ -2462,7 +2462,7 @@ msgstr "Business customers: Provide this information to your IT professional to 
 
 #: faq_buggydns1.html
 msgid "IT professionals:"
-msgstr "IT professionals:"
+msgstr "IT profesionálové:"
 
 #: faq_buggydns1.html
 msgid "You can see an illustration of this, by doing:"
@@ -2474,43 +2474,43 @@ msgstr "Substitute the 192.168.1.1 with the resolver being used by the host. If 
 
 #: faq_avoids_ipv6.html
 msgid "Your browser is avoiding IPv6."
-msgstr "Your browser is avoiding IPv6."
+msgstr "Váš prohlížeč se vyhýbá IPv6."
 
 #: faq_avoids_ipv6.html
 msgid "What we found"
-msgstr "What we found"
+msgstr "Co jsme zjistili"
 
 #: faq_avoids_ipv6.html
 msgid "What causes a preference for IPv4"
-msgstr "What causes a preference for IPv4"
+msgstr "Co způsobuje upřednostňování IPv4"
 
 #: faq_avoids_ipv6.html
 msgid "Why this worries us"
-msgstr "Why this worries us"
+msgstr "Proč nám to dělá starosti"
 
 #: faq_avoids_ipv6.html
 msgid "This document explains why we worry when IPv4 is preferred over IPv6."
-msgstr "This document explains why we worry when IPv4 is preferred over IPv6."
+msgstr "Tento dokument vysvětluje, co nám dělá starosti na upřednostňování IPv4 před IPv6."
 
 #: faq_avoids_ipv6.html
 msgid "This section applies only when we offered to show you this page from inside the test."
-msgstr "This section applies only when we offered to show you this page from inside the test."
+msgstr "Tato část se vás týká pouze pokud jsme vám nabídli otevřít tuto stránku přímo z testu."
 
 #: faq_avoids_ipv6.html
 msgid "First of all, we detected you had a working IPv6 connection. We also found that your IPv6 connection, was using a \"real\" IPv6 address; meaning not a Teredo or a 6to4 address."
-msgstr "First of all, we detected you had a working IPv6 connection. We also found that your IPv6 connection, was using a \"real\" IPv6 address; meaning not a Teredo or a 6to4 address."
+msgstr "Zaprvé, detekovali jsme, že máte funkční IPv6 připojení. Také jsme zjistili, že vaše IPv6 připojení používá \"skutečnou\" IPv6 adresu; tedy nikoli Teredo nebo 6to4 adresu."
 
 #: faq_avoids_ipv6.html
 msgid "Second, we detected that when given the choice, your browser decided it would prefer to use IPv4 instead of IPv6. This has some concerns for us."
-msgstr "Second, we detected that when given the choice, your browser decided it would prefer to use IPv4 instead of IPv6. This has some concerns for us."
+msgstr "Zadruhé jsme detekovali, že váš prohlížeč, má-li na vybranou, dává přednost IPv4 před IPv6. To nám dělá trochu starosti."
 
 #: faq_avoids_ipv6.html
 msgid "Causes for preferring IPv4"
-msgstr "Causes for preferring IPv4"
+msgstr "Důvody pro upřednostňování IPv4"
 
 #: faq_avoids_ipv6.html
 msgid "There are several possible reasons why a browser might prefer IPv4 instead of IPv6."
-msgstr "There are several possible reasons why a browser might prefer IPv4 instead of IPv6."
+msgstr "Proč prohlížeč dává přednost IPv4 před IPv6 může mít různé příčiny."
 
 #: faq_avoids_ipv6.html
 msgid "Google's \"Chrome\" has a \"fast fallback\" mechanism. On the first try to a site, it will prefer IPv6. If connections take longer than a third of a second, IPv4 is attempted in parallel; and the better of the two will be used for that site."
@@ -2518,7 +2518,7 @@ msgstr "Google's \"Chrome\" has a \"fast fallback\" mechanism. On the first try 
 
 #: faq_avoids_ipv6.html
 msgid "(more info)"
-msgstr "(more info)"
+msgstr "(více informací)"
 
 #: faq_avoids_ipv6.html
 msgid "Firefox (recent builds) does the same as Chrome."
@@ -2558,15 +2558,15 @@ msgstr "Those sites will have to ultimately protect themselves, by blocking the 
 
 #: faq_avoids_ipv6.html
 msgid "This is not a good situation. And the main way to avoid it, is to make sure that your IPv6 is working; and to make sure that IPv6 is the preferred protocol."
-msgstr "This is not a good situation. And the main way to avoid it, is to make sure that your IPv6 is working; and to make sure that IPv6 is the preferred protocol."
+msgstr "Toto není pěkná situace. A hlavní způsob, jak se jí vyhnout, je zajistit, aby vám IPv6 fungoval; a také zajistit, aby IPv6 byl preferovaný protokol."
 
 #: faq_avoids_ipv6.html
 msgid "Why else should I care about IPv4 being preferred instead of IPv6, when I have both available?"
-msgstr "Why else should I care about IPv4 being preferred instead of IPv6, when I have both available?"
+msgstr "Proč bych se ještě měl starat, že je upřednostňovaný IPv4 před IPv6, když já mám dostupné oba dva?"
 
 #: faq_avoids_ipv6.html
 msgid "Sites that determine your location automatically, will get this wrong more frequently when you share an IPv4 address with people in other cities."
-msgstr "Sites that determine your location automatically, will get this wrong more frequently when you share an IPv4 address with people in other cities."
+msgstr "Servery, které určují vaši polohu automaticky, se častěji spletou, pokud svou IPv4 adresu sdílíte s někým z jiného města."
 
 #: faq_avoids_ipv6.html
 msgid "The box that shares an address between you and the other hundreds of houses, may become performance constrained (cpu, network, TCP ports)"
@@ -2582,7 +2582,7 @@ msgstr "Sharing IPv4 addresses is an extra expense for the ISP that they will be
 
 #: tunnel.inc
 msgid "What is a tunnel?"
-msgstr "What is a tunnel?"
+msgstr "Co je to tunel?"
 
 #: tunnel.inc
 msgid "A tunnel is a technique often used to transport one protocol over another one. For example, it is used by ADSL to transport PPP over ATM (a common technique for several Internet residential subscribers)."
@@ -2602,7 +2602,7 @@ msgstr "IPv4 packets over IPv6 network: then IPv6-only Internet users can reach 
 
 #: faq_tunnel.html
 msgid "How did the test detect a tunnel?"
-msgstr "How did the test detect a tunnel?"
+msgstr "Jakým způsobem test detekoval tunel?"
 
 #: faq_tunnel.html
 msgid "For the technical-oriented readers, here is the explanation how we detect that you are probably using a tunnel. As the test collects your IPv4 and IPv6 addresses, it also collects (thanks to <a href=\"http://www.team-cymru.org/Services/ip-to-asn.html\">http://www.team-cymru.org/Services/ip-to-asn.html</a>) your Autonomous System Numbers (ASN) for IPv4 and IPv6. If your ISP is dual stack, then your IPv4 ASN and your IPv6 ASN should be identical as your IPv4 and IPv6 connectivity are provided by the same ISP."
@@ -2618,7 +2618,7 @@ msgstr "Tunnels are not inherently bad; but (depending on circumstances) they ma
 
 #: faq_tunnel_6rd.html
 msgid "What is specific to 6RD tunnels?"
-msgstr "What is specific to 6RD tunnels?"
+msgstr "Čím jsou 6RD tunely specifické?"
 
 #: faq_tunnel_6rd.html
 msgid "6RD tunnels have been designed by the IETF as <a href=\"http://tools.ietf.org/html/rfc5969\">RFC 5969</a> to be deployed within an ISP access network and by the ISP itself to transport IPv6 over a legacy IPv4 access network. As the tunnel is confined with a single ISP, it is therefore managed in such a way to provide performances as good in IPv6 as in IPv4 (except perhaps for the largest packet size, a.k.a. MTU)."
@@ -2630,7 +2630,7 @@ msgstr "In short, a 6RD tunnel provides you with native IPv6 connectivity."
 
 #: faq_tunnel_6rd.html
 msgid "How did we detect a 6RD tunnel?"
-msgstr "How did we detect a 6RD tunnel?"
+msgstr "Jak jsme detekovali 6RD tunel?"
 
 #: faq_tunnel_6rd.html
 msgid "During the tests, we collect your IPv4 and IPv6 addresses. If at least 16 bits of your IPv4 address are embedded in your IPv6 prefix, then we assume that you are using a 6RD tunnel."
