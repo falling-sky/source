@@ -81,6 +81,7 @@ my %NAMES = (
 #'sk_SK'=>'Slovenčina',
 #'zh_CN'=>'筒体中文',
 );
+
 foreach my $name (@LOCALE) {
   if (! exists $NAMES{$name}) {
      my $loc = DateTime::Locale->load($name);
@@ -94,7 +95,6 @@ foreach my $name (@LOCALE) {
 }
 
 $VARS->{NAMES} = \%NAMES;
-
 
 require( $argv{config} );
 require( $argv{config} . ".local" ) if ( -f ( $argv{config} . ".local" ) );
@@ -341,6 +341,10 @@ sub process {
     $VARS->{"localeUC"} =~ s/(-[a-z]+)/uc $1/ge;
     ($VARS->{"lang"}) = split(/[-_]/,$locale);
     $VARS->{"langUC"} = uc $VARS->{"lang"};
+    $VARS->{"basename"} = $name;
+    
+    $VARS->{"hreflang"} = make_google_hreflang($name);
+    
     
 
     my $template = Template->new($template_config) or die "Could not create template object";
@@ -364,6 +368,38 @@ sub process {
         our_gzip("$INSTALL/$lname");
     }
 } ## end sub process
+
+sub make_google_hreflang {
+  my($name) = @_;
+  print "make_google_hreflang name=$name\n";
+  
+  my $return;
+  foreach my $key (sort keys %NAMES) {
+    my $dashed = $key;
+    $dashed =~ s/_/-/g;
+    $return .= <<"EOF";
+<link rel="alternate" href="$name.$key" hreflang="$dashed" />
+EOF
+  }
+  my %seen;
+  foreach my $key (sort keys %NAMES) {
+    my ($lang) = split(/[_-]/,$key);
+    next if ($seen{$key}++);
+    $return .= <<"EOF";
+<link rel="alternate" href="$name.$key" hreflang="$lang" />
+EOF
+  }
+      $return .= <<"EOF";
+<link rel="alternate" href="$name" hreflang="x-default" />        
+EOF
+
+  
+  return "\n$return\n";
+  
+  
+  
+  
+}
 
 sub process_apache {
     my ( $aref, $locale )  = @_;
@@ -656,10 +692,10 @@ sub filter_escape_quotes_factory {
       
       $text =~ s/(?<![\\])"/\\"/g;
       $text =~ s/(?<![\\])'/\\'/g;
-      if ($old ne $text) {
-        print "***** Fixed quotes on $old\n";
-        print "***** New text is $text\n";
-      }
+#      if ($old ne $text) {
+#        print "***** Fixed quotes on $old\n";
+#        print "***** New text is $text\n";
+#      }
       return $text;
     }
   }
