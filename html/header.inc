@@ -13,9 +13,6 @@
   <link rel="SHORTCUT ICON" href="http://test-ipv6.com/images/favicon.ico" />
   <link rel="stylesheet" href="/index.css?version=[% GET version %]" type="text/css" />
   <link rel="apple-touch-icon" href="/images/knob_info.png"/> 
-
-  [% hreflang %]
-
   <meta property="og:image" content="http://test-ipv6.com/images/snapshot.png" />
 
    <script type="text/javascript"  src="/site/config.js?version=[% GET version %]"></script>

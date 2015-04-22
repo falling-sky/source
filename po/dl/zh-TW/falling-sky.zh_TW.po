@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-04-21 08:00-0400\n"
+"PO-Revision-Date: 2015-04-22 08:30-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Chinese Traditional\n"
 "MIME-Version: 1.0\\n"
@@ -252,7 +252,7 @@ msgstr "faq: v6ns Bad"
 
 #: messages.js
 msgid "faq: Browser Plugins"
-msgstr "faq: Browser Plugins"
+msgstr "FAQ：瀏覽器外掛程式"
 
 #: messages.js
 msgid "faq: Firefox Add-Ons"
