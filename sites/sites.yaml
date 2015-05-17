@@ -529,3 +529,10 @@ test-ipv6.tokyo.gigo.com:
   provider: Jason Fesler (@linode Tokyo)
   v4: http://ipv4.test-ipv6.tokyo.gigo.com/images-nc/knob_green.png
   v6: http://ipv6.test-ipv6.tokyo.gigo.com/images-nc/knob_green.png
+ipv6-test.pl:
+  hide: 0
+  loc: PL
+  mirror: 1
+  provider: Net-Admin
+  v4: http://ipv4.ipv6-test.pl/images-nc/knob_green.png
+  v6: http://ipv6.ipv6-test.pl/images-nc/knob_green.png
