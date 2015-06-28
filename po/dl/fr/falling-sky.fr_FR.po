@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-04-26 12:00-0400\n"
+"PO-Revision-Date: 2015-06-23 07:00-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: French\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -250,7 +250,7 @@ msgstr "faq: v6ns Bad"
 
 #: messages.js
 msgid "faq: Browser Plugins"
-msgstr "faq: Browser Plugins"
+msgstr "FAQ: Plugins du navigateur"
 
 #: messages.js
 msgid "faq: Firefox Add-Ons"
@@ -450,7 +450,7 @@ msgstr "Testez votre connectivité IPv6."
 
 #: index.html
 msgid "(Replay)"
-msgstr "(Replay)"
+msgstr "(Recommencer)"
 
 #: js_required.inc
 msgid "JavaScript Required"
@@ -714,7 +714,7 @@ msgstr "Envoyer les résultats"
 
 #: main/helpdesk.inc
 msgid "Help desk information will follow once the test completes."
-msgstr "Help desk information will follow once the test completes."
+msgstr "Les informations de l'assistance arriveront une fois le test terminé."
 
 #: main/helpdesk.inc
 msgid "If your Internet help desk asks you to mail the 'results url', copy and paste the following URL."
@@ -722,15 +722,15 @@ msgstr "Si votre service d'assistance Internet vous demande d'envoyer l'url « r
 
 #: main/helpdesk.inc
 msgid "Note that this will share your current numeric Internet Protocol address(es)."
-msgstr "Note that this will share your current numeric Internet Protocol address(es)."
+msgstr "Notez que cela diffusera votre adresse IP numérique actuelle."
 
 #: main/helpdesk.inc
 msgid "We do not recommend posting this link on public web sites such as forums."
-msgstr "We do not recommend posting this link on public web sites such as forums."
+msgstr "Nous vous recommandons de ne pas poster ce lien sur des sites web accessibles publiquement, tels que les forums."
 
 #: main/helpdesk.inc
 msgid "On most computers, you can right-click the above URL, and select 'Copy'."
-msgstr "On most computers, you can right-click the above URL, and select 'Copy'."
+msgstr "Sur la plupart des ordinateurs, vous pouvez faire un clic droit sur l'URL ci-dessus et sélectionner « Copier »."
 
 #: sites.inc
 msgid "<b>Because you have IPv6</b>, we've added this tab to show you whether or not you can reach other IPv6 web sites on the Internet. Consider notifying your ISP, if there are sites that show up as broken. If you are the ISP, you can click the Info link to see what test URLs are being used."
@@ -746,7 +746,7 @@ msgstr "C'est vraiment simple d'être ajouté &agrave; cette list de tests simpl
 
 #: sites.inc
 msgid "Full mirrors are welcomed and appreciated, whether public or private. Please see <a href=\"https://github.com/falling-sky/source/wiki\">the wiki</a> for details."
-msgstr "Full mirrors are welcomed and appreciated, whether public or private. Please see <a href=\"https://github.com/falling-sky/source/wiki\">the wiki</a> for details."
+msgstr "Des sites miroirs complets sont accueillis et appréciés, publics ou privés. Veuillez consulter <a href=\"https://github.com/falling-sky/source/wiki\"> le wiki</a> pour plus de détails."
 
 #: footer.inc
 msgid "All rights reserved."
@@ -762,7 +762,7 @@ msgstr "Source"
 
 #: footer.inc
 msgid "Email"
-msgstr "Email"
+msgstr "E-mail"
 
 #: footer.inc
 msgid "Attributions"
@@ -774,147 +774,147 @@ msgstr "Ce site est un miroir de test-ipv6.com. Le contenu peut ou ne peut pas r
 
 #: locale.html
 msgid "Available Languages"
-msgstr "Available Languages"
+msgstr "Langues disponibles"
 
 #: locale.html
 msgid "Pick one of the following to switch to that language."
-msgstr "Pick one of the following to switch to that language."
+msgstr "Choisissez une des valeurs suivantes pour passer à cette langue."
 
 #: faq_helpdesk.html
 msgid "Help Desk Information"
-msgstr "Help Desk Information"
+msgstr "Informations de l'assistance"
 
 #: faq_helpdesk.html
 msgid "Q: What is the Help Desk tab for?"
-msgstr "Q: What is the Help Desk tab for?"
+msgstr "Q: À quoi sert l'onglet Assistance ?"
 
 #: faq_helpdesk.html
 msgid "This tab is intended to help provide a brief, concise explanation of your connectivity. This can be read over the phone, if needed, to a service provider. This tab has less hand-holding; it is intended for a help desk to understand (as compared to an end user)."
-msgstr "This tab is intended to help provide a brief, concise explanation of your connectivity. This can be read over the phone, if needed, to a service provider. This tab has less hand-holding; it is intended for a help desk to understand (as compared to an end user)."
+msgstr "Cet onglet est destiné à aider à fournir une explication brève et concise de votre connectivité. Il peut être lu par téléphone, si nécessaire, à un fournisseur de services. Cet onglet est moins compréhensible ; Il est destiné à un service d'assistance qui saura le comprendre (par rapport à un utilisateur final)."
 
 #: faq_helpdesk.html
 msgid "This special instance shares in a very compact way:"
-msgstr "This special instance shares in a very compact way:"
+msgstr "Cette instance spéciale partage de façon très compacte :"
 
 #: faq_helpdesk.html
 msgid "Status of each protocol"
-msgstr "Status of each protocol"
+msgstr "Statut de chaque protocole"
 
 #: faq_helpdesk.html
 msgid "Warn of slow/timeout"
-msgstr "Warn of slow/timeout"
+msgstr "Avertissez d'une lenteur/temps d'attente expiré"
 
 #: faq_helpdesk.html
 msgid "Warn of MTU"
-msgstr "Warn of MTU"
+msgstr "Signalez un problème de MTU"
 
 #: faq_helpdesk.html
 msgid "Status of reachability to “other sites” (as compact as possible)"
-msgstr "Status of reachability to “other sites” (as compact as possible)"
+msgstr "Statut d'accessibilité aux « autres sites » (aussi compact que possible)"
 
 #: faq_helpdesk.html
 msgid "IP address shown, in case tech support needs it."
-msgstr "IP address shown, in case tech support needs it."
+msgstr "L'adresse IP est indiquée, au cas où le support technique en aurait besoin."
 
 #: faq_helpdesk.html
 msgid "List of unreachable sites, if any"
-msgstr "List of unreachable sites, if any"
+msgstr "Liste des sites inaccessibles, le cas échéant"
 
 #: faq_helpdesk.html
 msgid "Q: What is the easiest way to send users to the Help Desk tab?"
-msgstr "Q: What is the easiest way to send users to the Help Desk tab?"
+msgstr "Q: Quelle est la meilleure façon d'envoyer les utilisateurs à l'onglet Assistance ?"
 
 #: faq_helpdesk.html
 msgid "There are several ways to do it. Some of these are more obvious than the others when reading; some of them may be easier when read over the phone. In all of these cases, the \"Help Desk\" tab is moved to be the first and default tab shown to the user, instead of exposing the more detailed user-facing page."
-msgstr "There are several ways to do it. Some of these are more obvious than the others when reading; some of them may be easier when read over the phone. In all of these cases, the \"Help Desk\" tab is moved to be the first and default tab shown to the user, instead of exposing the more detailed user-facing page."
+msgstr "Il y a plusieurs façons de le faire. Certaines sont plus évidentes que d'autres en lisant; certaines peuvent être plus pratiques à êtres transmises par téléphone. Dans tous ces cas, l'onglet « Assistance » est déplacé pour être le premier et l'onglet par défaut affiché pour l'utilisateur, plutôt que d'exposer la page destinée aux utilisateurs, plus détaillée."
 
 #: faq_helpdesk.html
 msgid "Mirror sites may not have all the fancy DNS names; they are more likely to be useful like this:"
-msgstr "Mirror sites may not have all the fancy DNS names; they are more likely to be useful like this:"
+msgstr "Les sites miroirs peuvent ne pas avoir tous les noms DNS atypiques ; ils sont plus susceptibles d'être comme ceci :"
 
 #: faq_helpdesk.html
 msgid "Q: What are the Help Desk codes?"
-msgstr "Q: What are the Help Desk codes?"
+msgstr "Q: Que sont les codes Assistance ?"
 
 #: faq_helpdesk.html
 msgid "These are meant to offer a quick, short way for your customer to tell you the status of their Internet connectivity, as validated by this site. They are also meant to be easy to memorize."
-msgstr "These are meant to offer a quick, short way for your customer to tell you the status of their Internet connectivity, as validated by this site. They are also meant to be easy to memorize."
+msgstr "Ils visent à offrir un moyen rapide et bref pour votre client de vous dire l'état de sa connectivité Internet, car il est validé par ce site. Ils sont aussi destinés à être facile à mémoriser."
 
 #: faq_helpdesk.html
 msgid "Q: How can I recommend changes to the Help Desk tab?"
-msgstr "Q: How can I recommend changes to the Help Desk tab?"
+msgstr "Q: Comment puis-je suggérer des changements à l'onglet Assistance ?"
 
 #: faq_helpdesk.html
 msgid "Suggestions are welcome; especially from those operating help desks. This tab is really for you - not for the consumer. Please keep in mind that we want to keep the tab brief, concise, and easy to read for the average user over the phone to your help desk team. Send suggestions to jfesler@test-ipv6.com ."
-msgstr "Suggestions are welcome; especially from those operating help desks. This tab is really for you - not for the consumer. Please keep in mind that we want to keep the tab brief, concise, and easy to read for the average user over the phone to your help desk team. Send suggestions to jfesler@test-ipv6.com ."
+msgstr "Les suggestions sont les bienvenues ; en particulier de ceux qui opèrent des centres d'assistance. Cet onglet est vraiment pour vous - pas tellement pour le consommateur. Mais gardez à l'esprit que nous voulons garder l'onglet bref, concis et facile à lire pour l'utilisateur moyen qui communiquera les informations par téléphone à votre équipe d'assistance. Envoyez des suggestions à jfesler@test-ipv6.com."
 
 #: broken.html
 msgid "What to do if you're broken..."
-msgstr "What to do if you're broken..."
+msgstr "Que faire si vous avez un problème..."
 
 #: broken.html
 msgid "If you are reading this page, it means that we've identified that your host will have problems on World IPv6 Day. Any web site that goes \"dual stack\" (meaning, both IPv4 and IPv6), will be unreachable to you."
-msgstr "If you are reading this page, it means that we've identified that your host will have problems on World IPv6 Day. Any web site that goes \"dual stack\" (meaning, both IPv4 and IPv6), will be unreachable to you."
+msgstr "Si vous lisez cette page, cela signifie que nous avons identifié que votre nom d'hôte aura des problèmes sur la journée mondiale de l'IPv6. N'importe quel site web qui va être disponible en « double pile » (c'est-à-dire, via les protocoles IPv4 et IPv6 sur le même nom d'hôte), sera inaccessible pour vous."
 
 #: broken.html
 msgid "To resolve this, you'll first need to identify your IPv6 address (if you have one) and your IPv6 default route (if you have one). This will help identify which sections to read."
-msgstr "To resolve this, you'll first need to identify your IPv6 address (if you have one) and your IPv6 default route (if you have one). This will help identify which sections to read."
+msgstr "Pour résoudre ce problème, vous devrez tout d'abord d'identifier votre adresse IPv6 (si vous en avez une) et votre route IPv6 par défaut (si vous en avez une). Cela permettra d'identifier quelles rubriques vous aurez à lire."
 
 #: broken.html
 msgid "If you find your particular problem is not well represented; or you have additional suggestions; please do leave feedback using the <a href='#' onclick='return GIGO.tabnav(\"mail\");'>form</a> (or contact <a href=\"mailto:jfesler@test-ipv6.com\">jfesler@test-ipv6.com</a>)."
-msgstr "If you find your particular problem is not well represented; or you have additional suggestions; please do leave feedback using the <a href='#' onclick='return GIGO.tabnav(\"mail\");'>form</a> (or contact <a href=\"mailto:jfesler@test-ipv6.com\">jfesler@test-ipv6.com</a>)."
+msgstr "Si vous trouvez que votre problème spécifique n'est pas bien représenté ; ou si vous avez des suggestions supplémentaires ; merci de laisser vos commentaires en utilisant le <a href='#' onclick='return GIGO.tabnav(\"mail\");'>formulaire de contact</a> (ou contactez <a href=\"mailto:jfesler@test-ipv6.com\"> jfesler@test-ipv6.com</a>)."
 
 #: broken.html
 msgid "Make sure you are current"
-msgstr "Make sure you are current"
+msgstr "Assurez-vous que vous êtes à jour"
 
 #: broken.html
 msgid "Find your IP address"
-msgstr "Find your IP address"
+msgstr "Trouvez votre adresse IP"
 
 #: broken.html
 msgid "If you set up a tunnel broker"
-msgstr "If you set up a tunnel broker"
+msgstr "Si vous configurez un fournisseur de tunnel"
 
 #: broken.html
 msgid "If you set up 6to4 (IPv6 address: starts with 2002)"
-msgstr "If you set up 6to4 (IPv6 address: starts with 2002)"
+msgstr "Si vous configurez 6to4 (adresse IPv6 : commence par 2002)"
 
 #: broken.html
 msgid "If you have an ULA (IPv6 address: starts with FC or FD)"
-msgstr "If you have an ULA (IPv6 address: starts with FC or FD)"
+msgstr "Si vous avez une ULA (adresse IPv6 : commence par FC ou FD)"
 
 #: broken.html
 msgid "If you have an Bad or Inappropriate IPv6 Addresss (see table)"
-msgstr "If you have an Bad or Inappropriate IPv6 Addresss (see table)"
+msgstr "Si vous avez une mauvaise adresse IPv6 ou une adresse inappropriée (voir tableau)"
 
 #: broken.html
 msgid "If you have an unexpected IPv6 address"
-msgstr "If you have an unexpected IPv6 address"
+msgstr "Si vous avez une adresse IPv6 inattendue"
 
 #: broken.html
 msgid "Try the netalyzr"
-msgstr "Try the netalyzr"
+msgstr "Essayez le netalyzr"
 
 #: broken.html
 msgid "If all else fails, disable or deprioritize IPv6"
-msgstr "If all else fails, disable or deprioritize IPv6"
+msgstr "Si tout cela échoue, désactiver ou dépriorisez l'IPv6"
 
 #: faq/staycurrent.inc
 msgid "Many OS and Hardware manufacturers are making updates to help improve the transition to IPv6. Some known \"gotchas\" are being addressed by workarounds by these vendors."
-msgstr "Many OS and Hardware manufacturers are making updates to help improve the transition to IPv6. Some known \"gotchas\" are being addressed by workarounds by these vendors."
+msgstr "De nombreux fabricants de matériel et de système d'exploitation font des mises à jour afin d'améliorer la transition vers l'IPv6. Certains « pièges » bien connus sont traités par des solutions de contournement de ces fournisseurs."
 
 #: faq/staycurrent.inc
 msgid "You can do your part to make sure you are running the latest:"
-msgstr "You can do your part to make sure you are running the latest:"
+msgstr "Vous pouvez faire votre part pour vous assurer d'être à jour :"
 
 #: faq/staycurrent.inc
 msgid "OS - Make sure you have the latest."
-msgstr "OS - Make sure you have the latest."
+msgstr "Système d'exploitation : Assurez-vous d'avoir la version la plus récente."
 
 #: faq/staycurrent.inc
 msgid "Mac users: Apple OS X 10.6.7 is recommended for improved IPv6 support."
-msgstr "Mac users: Apple OS X 10.6.7 is recommended for improved IPv6 support."
+msgstr "Utilisateurs de Mac : Apple OS X 10.6.7 est recommandé pour une meilleure prise en charge IPv6."
 
 #: faq/staycurrent.inc
 msgid "Mac users on 10.4 or 10.5 may need to disable IPv6 if other troubleshooting steps fail."

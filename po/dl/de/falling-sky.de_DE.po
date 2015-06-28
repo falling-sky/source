@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-04-28 14:45-0400\n"
+"PO-Revision-Date: 2015-06-23 08:00-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: German\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -14,7 +14,7 @@ msgstr ""
 
 #: mirrorconfig.js
 msgid "This mirror is provided by"
-msgstr "Dieser Spiegel wird bereitgestellt durch "
+msgstr "Dieser Mirror wird bereitgestellt von"
 
 #: messages.js
 msgid "bad"
@@ -1930,11 +1930,11 @@ msgstr "Über den \"v6ns\" Test."
 
 #: faq_v6ns_bad.html
 msgid "This FAQ has been produced to try and address what it means for the v6ns test to be \"bad\"."
-msgstr "Dieses FAQ wurde geschrieben um zu sagen, was es für den v6ns-Test bedeutet, \"schlecht\" zu sein."
+msgstr "Dieses FAQ wurde geschrieben, um darzustellen, was es für den v6ns-Test bedeutet, \"schlecht\" zu sein."
 
 #: faq_v6ns_bad.html
 msgid "This test specifically verifies that your DNS resolver (usually operated by your Internet service provider, or your corporate IT department) is capable of reaching IPv6 Internet sites for DNS lookups. If you explicitly configured the use of a different DNS server, such as OpenDNS or Google's Public DNS, you'll test those services instead."
-msgstr "This test specifically verifies that your DNS resolver (usually operated by your Internet service provider, or your corporate IT department) is capable of reaching IPv6 Internet sites for DNS lookups. If you explicitly configured the use of a different DNS server, such as OpenDNS or Google's Public DNS, you'll test those services instead."
+msgstr "Dieser Test überprüft insbesondere, dass Ihr DNS-Resolver (in der Regel von Ihrem Internet Service Provider oder durch Ihre corporate IT-Abteilung betrieben) IPv6-Webseiten für DNS-Lookups erreichen kann. Wenn Sie ausdrücklich die Verwendung eines anderen DNS-Servers, wie OpenDNS oder Google Public DNS konfiguriert haben, werden Sie stattdessen diese Dienste testen."
 
 #: faq_v6ns_bad.html
 msgid "If this test fails:"
@@ -1942,7 +1942,7 @@ msgstr "Wenn dieser Test fehlschlägt:"
 
 #: faq_v6ns_bad.html
 msgid "it means that the DNS resolver you are using, requires IPv4 to reach the DNS authoritative servers of your favoriate web sites. In the near future, every web site of consequence will remain accessible in this form, so <b>there is no immediate danger.</b>"
-msgstr "it means that the DNS resolver you are using, requires IPv4 to reach the DNS authoritative servers of your favoriate web sites. In the near future, every web site of consequence will remain accessible in this form, so <b>there is no immediate danger.</b>"
+msgstr "Es bedeutet, dass der DNS-Resolver, den Sie verwenden, IPv4 erfordert um die autorisierenden DNS-Server für Ihre Websites zu erreichen. In naher Zukunft wird jede Website von Bedeutung in dieser Form zugänglich bleiben, also <b>gibt es keine unmittelbare Gefahr dadurch.</b>"
 
 #: faq_v6ns_bad.html
 msgid "If this test succeeds:"
@@ -1950,7 +1950,7 @@ msgstr "Wenn dieser Test erfolgreich ist:"
 
 #: faq_v6ns_bad.html
 msgid "it means that your DNS resolver is fully capable of reaching IPv6 DNS servers. This means that the operator of that DNS server has IPv6 within their network. If they do not already offer you IPv6, this may be a sign that they are actively working on trying to make it possible."
-msgstr "it means that your DNS resolver is fully capable of reaching IPv6 DNS servers. This means that the operator of that DNS server has IPv6 within their network. If they do not already offer you IPv6, this may be a sign that they are actively working on trying to make it possible."
+msgstr "Es bedeutet, dass Ihr DNS-Resolver direkt die IPv6-DNS-Server erreicht. Das bedeutet, dass der Betreiber dieses DNS-Servers in ihrem Netzwerk IPv6 hat. Wenn sie Ihnen IPv6 noch nicht anbieten, kann dies ein Zeichen dafür sein, dass sie aktiv daran arbeiten, es möglich zu machen."
 
 #: faq_v6ns_bad.html
 msgid "Do you use OpenDNS?"
@@ -1958,7 +1958,7 @@ msgstr "Verwenden Sie OpenDNS?"
 
 #: faq_v6ns_bad.html
 msgid "OpenDNS is now offering IPv6-specific resolvers, that will be able to retrieve DNS over IPv6. This means the \"v6ns\" test operated here will pass. See the <a target=_blank href=\"http://www.opendns.com/ipv6/\">OpenDNS IPv6 information page</a>."
-msgstr "OpenDNS is now offering IPv6-specific resolvers, that will be able to retrieve DNS over IPv6. This means the \"v6ns\" test operated here will pass. See the <a target=_blank href=\"http://www.opendns.com/ipv6/\">OpenDNS IPv6 information page</a>."
+msgstr "OpenDNS bietet jetzt IPv6-spezifische Resolver, die über IPv6 abgerufen werden können. Das bedeutet, der \"v6ns\"-Test funktionieren wird. Mehr auf der <a target=_blank href=\"http://www.opendns.com/ipv6/\"> OpenDNS IPv6-Informationsseite</a>."
 
 #: faq_v6ns_bad.html
 msgid "Do you operate your own DNS resolvers?"
@@ -1966,19 +1966,19 @@ msgstr "Betreiben Sie Ihren eigenen DNS-Resolver?"
 
 #: faq_v6ns_bad.html
 msgid "If you operated the DNS resolvers in use at your home or organization, enabling IPv6 on your DNS server is easy."
-msgstr "If you operated the DNS resolvers in use at your home or organization, enabling IPv6 on your DNS server is easy."
+msgstr "Wenn Sie den DNS-Resolver in Ihrem Heimnetz oder Ihrem Organisationsnetzwerk betreiben, ist die Aktivierung von IPv6 auf Ihrem DNS-Server einfach."
 
 #: faq_v6ns_bad.html
 msgid "ISC BIND: Make sure that IPv6 support is compiled in when you ./configure it. It is enabled by default. If you recently added IPv6 to your server, simply restart your named process, as you normally would."
-msgstr "ISC BIND: Make sure that IPv6 support is compiled in when you ./configure it. It is enabled by default. If you recently added IPv6 to your server, simply restart your named process, as you normally would."
+msgstr "ISC BIND: Stellen Sie sicher, dass IPv6-Unterstützung konfiguriert ist, wenn Sie ./configure ausführen. Es ist standardmäßig aktiviert. Wenn Sie Ihrem Server vor kurzem IPv6 hinzugefügt haben, starten Sie wie gewohnt Ihren \"named\" Prozess."
 
 #: faq_v6ns_bad.html
 msgid "PowerDNS: Enable <code>aaaa-additional-processing</code> and configure <code>query-local-address6</code> in your <code>recursor.conf</code>. Restart powerdns."
-msgstr "PowerDNS: Enable <code>aaaa-additional-processing</code> and configure <code>query-local-address6</code> in your <code>recursor.conf</code>. Restart powerdns."
+msgstr "PowerDNS: <code>aaaa-additional-processing</code> aktivieren und Konfigurieren von <code>query-local-address6</code> in Ihrer <code>recursor.conf</code>. Powerdns danach neu starten."
 
 #: faq_v6ns_bad.html
 msgid "Windows Server 2003: Upgrade to Windows Server 2008 at a minimum. Windows 2003 will resolve AAAA records, and supports IPv6 clients, but does *not* do DNS resolution over IPv6."
-msgstr "Windows Server 2003: Upgrade to Windows Server 2008 at a minimum. Windows 2003 will resolve AAAA records, and supports IPv6 clients, but does *not* do DNS resolution over IPv6."
+msgstr "Windows Server 2003: Mindestens auf Windows Server 2008 upgraden. Windows Server 2003 löst AAAA-Einträge auf und unterstützt IPv6-Clients, führt jedoch *keine* DNS-Auflösung über IPv6 aus."
 
 #: faq_v6ns_bad.html
 msgid "Confirmation:"
@@ -1986,7 +1986,7 @@ msgstr "Bestätigung:"
 
 #: faq_v6ns_bad.html
 msgid "should return back an aaaa record without errors."
-msgstr "should return back an aaaa record without errors."
+msgstr "sollte wieder einen AAAA-Eintrag ohne Fehler zurückgeben."
 
 #: faq_broken_aaaa.html
 msgid "Broken DNS AAAA Lookups"
@@ -2034,11 +2034,11 @@ msgstr "Ihr DNS-Server könnte AAAA-Antworten filtern (oder anderweitig defekt s
 
 #: faq_broken_aaaa.html
 msgid "Some ISPs will intentionally filter AAAA records. For example, on World IPv6 Day, we expect many Japanese ISPs to filter AAAA records, to mitigate current IPv6 deployment issues unique to their environments."
-msgstr "Some ISPs will intentionally filter AAAA records. For example, on World IPv6 Day, we expect many Japanese ISPs to filter AAAA records, to mitigate current IPv6 deployment issues unique to their environments."
+msgstr "Einige ISPs werden absichtlich AAAA-Einträge filtern. Zum Beispiel erwarten wir am World IPv6 Tag viele japanische ISPs, die AAAA-Einträge filtern, um aktuelle IPv6-Bereitstellungsprobleme, die einzigartig in ihrer Umgebung sind, zu verringern."
 
 #: faq_broken_aaaa.html
 msgid "You (or your techical support) can run <code>dig @DNSSERVER aaaa aaaa.test-ipv6.com</code> to confirm if the DNS server is working properly"
-msgstr "You (or your techical support) can run <code>dig @DNSSERVER aaaa aaaa.test-ipv6.com</code> to confirm if the DNS server is working properly"
+msgstr "Sie (oder Ihr technischer Support) können mit <code>dig @DNSSERVER AAAA aaaa.test-ipv6.com</code> testen, um festzustellen, ob der DNS-Server richtig funktioniert"
 
 #: faq_firefox_plugins.html
 msgid "FAQ on Firefox Plugins"
@@ -2050,11 +2050,11 @@ msgstr "Diese FAQ wurde erstellt, um bei Adress-Problemen verursacht durch Nutzu
 
 #: faq/intro_js.inc
 msgid "<b>How this site works:</b> This site tells your browser to try and load several remote javascript files. Each file is on a different server. After each one finishes, we look at which ones worked - and which ones failed. Depending on the pattern, we can guess at IPv4 and IPv6 compatibility, and sometimes suggest possible fixes."
-msgstr "<b>How this site works:</b> This site tells your browser to try and load several remote javascript files. Each file is on a different server. After each one finishes, we look at which ones worked - and which ones failed. Depending on the pattern, we can guess at IPv4 and IPv6 compatibility, and sometimes suggest possible fixes."
+msgstr "<b>Wie diese Seite funktioniert:</b> Diese Website weist ihren Browser an, mehrere entfernte JavaScript-Dateien zu laden. Jede Datei ist auf einem anderen Server. Nach Abschluss jedes Tests schauen wir uns an, welche funktioniert haben und welche nicht. Je nach Muster können wir feststellen, welche IPv4- und IPv6-Kompatibilität gegeben ist, und manchmal mögliche Korrekturen vorschlagen."
 
 #: faq/intro_js.inc
 msgid "Some browser plugins enforce policies that are compatible with the above behavior. They block connections that (to them) look like they might be 3rd party advertising or tracking. There is no good way to identify this plugins from inside javascript; nor any good way to work around it."
-msgstr "Some browser plugins enforce policies that are compatible with the above behavior. They block connections that (to them) look like they might be 3rd party advertising or tracking. There is no good way to identify this plugins from inside javascript; nor any good way to work around it."
+msgstr "Einige Browser-Plugins setzen Richtlinien, die mit dem oben genannten Verhalten kompatibel sind. Sie blockieren Verbindungen die (sie) für Werbung Dritter oder Benutzertracking halten. Es gibt keine gute Möglichkeit, diese Plugins via JavaScript zu identifizieren; noch gute Möglichkeiten um sie zu umgehen."
 
 #: faq/plugins_firefox.inc
 msgid "In the case of Firefox, the most common plugins that cause problems are AdBlock and RequestPolicy. There are probably others - any which claims to prevent XSS, CSRF, or Cross Site Scripting can be a problem. Try disabling these plugins (either temporarilly via any menu they offer you, or via the Firefox add-ons menu)."
@@ -2066,11 +2066,11 @@ msgstr "Alternativer Test für Sie.."
 
 #: faq_firefox_plugins.html
 msgid "This image based test is provided as a workaround. It will give you a quick pass/fail test, to tell you if you should be worried for World IPv6 Day."
-msgstr "This image based test is provided as a workaround. It will give you a quick pass/fail test, to tell you if you should be worried for World IPv6 Day."
+msgstr "Dieser Bild-basierte Test wird als Alternativlösung bereitgestellt. Er gibt Ihnen einen schnellen Erfolg/Misserfolg-Test um zu sagen, ob du für den Welt-IPv6-Tag bereit bist."
 
 #: faq/simple_test.inc
 msgid "The following table will try and load 3 images."
-msgstr "The following table will try and load 3 images."
+msgstr "Die folgende Tabelle wird versuchen 3 Bilder zu laden."
 
 #: faq/simple_test.inc
 msgid "test images for ipv4, dual stack, and ipv6"

@@ -70,6 +70,15 @@
       "v4" : "http://ipv4.tunnelbroker.net/images/helogo.gif",
       "v6" : "http://ipv6.tunnelbroker.net/images/helogo.gif"
    },
+   "ipv6-test.pl" : {
+      "hide" : "0",
+      "loc" : "PL",
+      "mirror" : "1",
+      "provider" : "Net-Admin",
+      "site" : "ipv6-test.pl",
+      "v4" : "http://ipv4.ipv6-test.pl/images-nc/knob_green.png",
+      "v6" : "http://ipv6.ipv6-test.pl/images-nc/knob_green.png"
+   },
    "nic.br" : {
       "hide" : "0",
       "loc" : "BR",

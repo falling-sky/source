@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-04-26 12:00-0400\n"
+"PO-Revision-Date: 2015-06-02 04:30-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Chinese Simplified\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -1806,7 +1806,7 @@ msgstr "我不喜欢它是“不受管理”的这点。6to4基本上就是6in4�
 
 #: faq_6to4.html
 msgid "test-ipv6.com's recommendation is that if you need IPv6 before your ISP can offer it, consider a managed 6in4 service. 6in4 is the same service as 6to4 on the wire, except with a managed tunnel endpoint (instead of an anonymous one). There are a few major options out there. They each offer great service; and they offer a <b>support</b> channel. These relays are <b>actively monitored</b> for service quality. Best of all, the <b>same relay is used both directions</b> - meaning the same staff manages both conversions. Consider these services:"
-msgstr "test-ipv6.com's recommendation is that if you need IPv6 before your ISP can offer it, consider a managed 6in4 service. 6in4 is the same service as 6to4 on the wire, except with a managed tunnel endpoint (instead of an anonymous one). There are a few major options out there. They each offer great service; and they offer a <b>support</b> channel. These relays are <b>actively monitored</b> for service quality. Best of all, the <b>same relay is used both directions</b> - meaning the same staff manages both conversions. Consider these services:"
+msgstr "test-ipv6.com的建议是，如果你在你的ISP能够提供IPv6之前需要它，可以考虑使用一个6in4的服务。6in4和6to4使用的是相同的服务，除了一个确定的隧道节点（而非一个匿名的）。有一些主要的选项，他们都提供优质的服务，同时也提供<b>技术支持</b>。这些中继工具都对服务质量有着<b>样额的监控</b>。最好的是，<b>双向使用的都是同一个中继</b>，这意味着可以双向管理会话。考虑这些服务："
 
 #: faq_6to4.html
 msgid "Ran by Hurricane Electric. The author of test-ipv6.com has used their services for 2-3 years; and would notice latency problems (lots of interactive SSH use from home to the server). This service requires a static IPv4 address (or static enough - you can always go to the tunnelbroker.net site and update your IP). Lastly, tunnelbroker is fully automated - you can sign up, get your tunnel assignment immediately, and configure your end."
