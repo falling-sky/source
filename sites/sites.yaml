@@ -536,10 +536,10 @@ ipv6-test.pl:
   provider: Net-Admin
   v4: http://ipv4.ipv6-test.pl/images-nc/knob_green.png
   v6: http://ipv6.ipv6-test.pl/images-nc/knob_green.png
-ipv6-test.com.au:
+test-ipv6.com.au:
   hide: 0
   loc: AU
   mirror: 1
   provider: Futzle Industries
-  v4: http://ipv4.ipv6-test.com.au/images-nc/knob_green.png
-  v6: http://ipv6.ipv6-test.com.au/images-nc/knob_green.png
+  v4: http://ipv4.test-ipv6.com.au/images-nc/knob_green.png
+  v6: http://ipv6.test-ipv6.com.au/images-nc/knob_green.png
