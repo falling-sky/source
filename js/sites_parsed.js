@@ -70,6 +70,15 @@ GIGO.sites_parsed={
       "v4" : "http://ipv4.tunnelbroker.net/images/helogo.gif",
       "v6" : "http://ipv6.tunnelbroker.net/images/helogo.gif"
    },
+   "ipv6-test.com.au" : {
+      "hide" : "0",
+      "loc" : "AU",
+      "mirror" : "1",
+      "provider" : "Futzle Industries",
+      "site" : "ipv6-test.com.au",
+      "v4" : "http://ipv4.ipv6-test.com.au/images-nc/knob_green.png",
+      "v6" : "http://ipv6.ipv6-test.com.au/images-nc/knob_green.png"
+   },
    "ipv6-test.pl" : {
       "hide" : "0",
       "loc" : "PL",
