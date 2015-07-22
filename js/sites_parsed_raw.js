@@ -70,15 +70,6 @@
       "v4" : "http://ipv4.tunnelbroker.net/images/helogo.gif",
       "v6" : "http://ipv6.tunnelbroker.net/images/helogo.gif"
    },
-   "ipv6-test.com.au" : {
-      "hide" : "0",
-      "loc" : "AU",
-      "mirror" : "1",
-      "provider" : "Futzle Industries",
-      "site" : "ipv6-test.com.au",
-      "v4" : "http://ipv4.ipv6-test.com.au/images-nc/knob_green.png",
-      "v6" : "http://ipv6.ipv6-test.com.au/images-nc/knob_green.png"
-   },
    "ipv6-test.pl" : {
       "hide" : "0",
       "loc" : "PL",
@@ -241,6 +232,15 @@
       "site" : "test-ipv6.com",
       "v4" : "http://ipv4.test-ipv6.com/images-nc/knob_green.png",
       "v6" : "http://ipv6.test-ipv6.com/images-nc/knob_green.png"
+   },
+   "test-ipv6.com.au" : {
+      "hide" : "0",
+      "loc" : "AU",
+      "mirror" : "1",
+      "provider" : "Futzle Industries",
+      "site" : "test-ipv6.com.au",
+      "v4" : "http://ipv4.test-ipv6.com.au/images-nc/knob_green.png",
+      "v6" : "http://ipv6.test-ipv6.com.au/images-nc/knob_green.png"
    },
    "test-ipv6.cz" : {
       "hide" : "0",

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-07-11 01:42-0400\n"
+"PO-Revision-Date: 2015-07-22 19:00-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Greek\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -54,11 +54,11 @@ msgstr "Η σύνδεση IPv6 σας φαίνεται ότι χρησιμοπο
 
 #: messages.js
 msgid "Your IPv6 connection appears to be using Teredo, a type of IPv4/IPv6 gateway; currently it connects only to direct IP's. Your browser will not be able to go to IPv6 sites by name. This means the current configuration is not useful for browsing IPv6 web sites."
-msgstr "Your IPv6 connection appears to be using Teredo, a type of IPv4/IPv6 gateway; currently it connects only to direct IP's. Your browser will not be able to go to IPv6 sites by name. This means the current configuration is not useful for browsing IPv6 web sites."
+msgstr "Η IPv6 σύνδεσή σας φαίνεται να χρησιμοποιεί Teredo, ένα είδος IPv4/IPv6 πύλης. Αυτή τη στιγμή η σύνδεση είναι εφικτή μόνο μέσω IP. Ο φυλλομετρητής σας δεν είναι σε θέση να προσπελάσει ονομαστικά τις IPv6 σελίδες. Αυτό σημαίνει ότι το οι τρέχον ρυθμίσεις είναι ανεπαρκείς για την περιήγηση σε IPv6 σελίδες."
 
 #: messages.js
 msgid "Your IPv6 connection appears to be using Teredo, a type of IPv4/IPv6 gateway. Your particular teredo configuration is only used as a protocol of last resort. When visiting a site with both IPv4 and IPv6, IPv4 will be preferred."
-msgstr "Your IPv6 connection appears to be using Teredo, a type of IPv4/IPv6 gateway. Your particular teredo configuration is only used as a protocol of last resort. When visiting a site with both IPv4 and IPv6, IPv4 will be preferred."
+msgstr "Η IPv6 σύνδεσή σας φαίνεται να χρησιμοποιεί Teredo, ένα είδος IPv4/IPv6 πύλης. Οι τρέχουσες ρυθμίσεις σας για το Teredo μπορούν να χρησιμοποιηθούν μόνο ως έσχατη λύση. Όταν επισκεφτείτε μια σελίδα προσβάσιμη σε IPv4 και IPv6, το IPv4 θα προτιμηθεί."
 
 #: messages.js
 msgid "Danger! IPv6 sorta works - however, large packets appear to fail, giving the appearance of a broken website. If a publisher publishes to IPv6, you will believe their web site to be broken. Ask your ISP about MTU issues; possibly with your tunnel."
@@ -198,11 +198,11 @@ msgstr "It appears that you use a tunnel mechanism for either IPv4 or IPv6."
 
 #: messages.js
 msgid "It appears that you use a managed tunnel mechanism, 6RD, to transport IPv6 over IPv4."
-msgstr "It appears that you use a managed tunnel mechanism, 6RD, to transport IPv6 over IPv4."
+msgstr "Φαίνεται ότι χρησιμοποιείτε ένα διαχειρίσιμο μηχανισμό tunnel, 6RD, για τη μεταφορά IPv6 κίνησης πάνω σε IPv4."
 
 #: messages.js
 msgid "We have detected that you are using a proxy. This means we are testing your proxy server, not your computer. Proxy details (as reported by your proxy 'Via' header): %details"
-msgstr "We have detected that you are using a proxy. This means we are testing your proxy server, not your computer. Proxy details (as reported by your proxy 'Via' header): %details"
+msgstr "Εντοπίστηκε η χρήση ενός proxy, το οποίο σημαίνει ότι οι δοκιμές αφορούν τον proxy server και όχι τον υπολογιστή σας. Proxy χαρακτηριστικά (όπως αναφέρονται στην επικεφαλίδα 'Via'): %details"
 
 #: messages.js
 msgid "We have detected that you are using a proxy. This means we are testing your proxy server, not your computer."

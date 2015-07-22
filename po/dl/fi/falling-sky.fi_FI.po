@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-07-11 01:42-0400\n"
+"PO-Revision-Date: 2015-07-22 19:00-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Finnish\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -358,7 +358,7 @@ msgstr "testitulokset"
 
 #: builtin.js
 msgid "Your FAQ"
-msgstr "Your FAQ"
+msgstr "Sinun UKK"
 
 #: builtin.js
 msgid "Frequently Asked Questions"
@@ -386,7 +386,7 @@ msgstr "%app: You are running version %found; we recommend %suggest or newer."
 
 #: form.js
 msgid "share your results"
-msgstr "share your results"
+msgstr "jaa tuloksesi"
 
 #: form.js
 msgid "I am most interested in discussing your setup with you, because it was been determined that <B>your IPv6 connectivity is broken</b>, or at least not fully understood. This is not normal; would you be willing to %share?"
@@ -394,7 +394,7 @@ msgstr "I am most interested in discussing your setup with you, because it was b
 
 #: form.js
 msgid "retest"
-msgstr "retest"
+msgstr "testaa uudelleen"
 
 #: form.js
 msgid "Result code"
@@ -402,7 +402,7 @@ msgstr "Result code"
 
 #: form.js
 msgid "Note: I can't contact you, if the contact info is blank. If you really want to submit this anonymously, hit Send Results again."
-msgstr "Note: I can't contact you, if the contact info is blank. If you really want to submit this anonymously, hit Send Results again."
+msgstr "Huomio: En voi ottaa sinuun yhteyttä, jos kontakti-info on tyhjä. Jos todella haluat lähettää tämän anonyymisti, paina Lähetä Tulokset uudelleen."
 
 #: checkresults.js
 msgid "unknown expansion"
@@ -422,7 +422,7 @@ msgstr "Internet-tukipalvelusi voi kysyä alla olevia lisätietoja."
 
 #: header.inc
 msgid "Test your IPv6."
-msgstr "Test your IPv6."
+msgstr "Testaa sinun IPv6."
 
 #: header.inc
 msgid "This will test your browser and connection for IPv6 readiness, as well as show you your current IPV4 and IPv6 address."
@@ -442,7 +442,7 @@ msgstr "Mirrors"
 
 #: list-nav.inc
 msgid "stats"
-msgstr "stats"
+msgstr "tilastot"
 
 #: index.html
 msgid "Test your IPv6 connectivity."

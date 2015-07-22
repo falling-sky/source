@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-07-11 01:42-0400\n"
+"PO-Revision-Date: 2015-07-22 19:00-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: German\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -2118,7 +2118,7 @@ msgstr "Das FAQ wurde erstellt Probleme die durch Browser-Erweiterungen verursac
 
 #: simple_test.html
 msgid "This image based test is provided for those with browsers or browser plugins incompatible with the <a href=\"/\">main test</a>. This page provides only a subset of features, but should be enough for a simple pass/fail."
-msgstr "This image based test is provided for those with browsers or browser plugins incompatible with the <a href=\"/\">main test</a>. This page provides only a subset of features, but should be enough for a simple pass/fail."
+msgstr "<a href=\"/\"></a>"
 
 #: faq_whyipv6.html
 msgid "Why IPv6?"
@@ -2130,7 +2130,7 @@ msgstr "This is an interesting question. IPv6 buys you only a bit more than you 
 
 #: faq_whyipv6.html
 msgid "The promise is the ability to give every device in your house a reachable network address. Each house will have practically unlimited network addresses (2<sup>64</sup> if you're curious - about 18 billion billions). Each house may potentially have more than that, particularly if they have the need for multiple networks within the home. Many ISPs will be able to easy give you 256 of those networks. <em>Running out of IPv6 address space will seem impossible for decades.</em>"
-msgstr "The promise is the ability to give every device in your house a reachable network address. Each house will have practically unlimited network addresses (2<sup>64</sup> if you're curious - about 18 billion billions). Each house may potentially have more than that, particularly if they have the need for multiple networks within the home. Many ISPs will be able to easy give you 256 of those networks. <em>Running out of IPv6 address space will seem impossible for decades.</em>"
+msgstr "<em></em>"
 
 #: faq_whyipv6.html
 msgid "Applications to take advantage of this are just now being thought of. Imagine having all of your home electronics accessible from work or from your mobile phone. You could watch your TV recorder, or the security camera. You could check the fridge, perhaps start the oven timer. Maybe turn on the air conditioning or the heater when you know you're coming home early. All of these *can* be done today, but are cumbersome with IPv4 if you're using a single IPv4 address today. And, very difficult in the future, with where IPv4 is heading next."

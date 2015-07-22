@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-07-11 01:42-0400\n"
+"PO-Revision-Date: 2015-07-22 19:00-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Portuguese, Brazilian\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -2314,7 +2314,7 @@ msgstr "No caso acima, a mensagem agora é tão grande que não pode ser encamin
 
 #: faq_pmtud.html
 msgid "What does this look like on the network?"
-msgstr "What does this look like on the network?"
+msgstr "O que isto parece na rede?"
 
 #: faq_pmtud.html
 msgid "(What does tcpdump show?)"
@@ -2342,7 +2342,7 @@ msgstr "A melhor maneira para corrigir é permitir as mensagens \"ICMPv6 Type 2 
 
 #: faq_pmtud.html
 msgid "Your router or firewall may be blocking these."
-msgstr "Your router or firewall may be blocking these."
+msgstr "Seu roteador ou firewall pode estar bloqueando estes."
 
 #: faq_pmtud.html
 msgid "If you have \"native\" IPv6, meaning your ISP gave you your IPv6 connectivity, and you are still running into MTU problems, see if your router can advertise a smaller IPv6 MTU. Alternately, configure your <b>entire LAN</b> for a smaller MTU (not really advised!)"
