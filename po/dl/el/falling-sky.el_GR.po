@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-07-22 19:45-0400\n"
+"PO-Revision-Date: 2015-07-23 11:21-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Greek\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -66,7 +66,7 @@ msgstr "Danger! IPv6 sorta works - however, large packets appear to fail, giving
 
 #: messages.js
 msgid "Check your firewall to make sure that ICMPv6 messages are allowed (in particular, Type 2 or Packet Too Big)."
-msgstr "Check your firewall to make sure that ICMPv6 messages are allowed (in particular, Type 2 or Packet Too Big)."
+msgstr "Ελέγξτε το firewall σας και βεβαιωθείτε ότι επιτρέπεται η χρήση των ICMPv6 μηνυμάτων (ιδίως τα Type 2 ή Packet Too Big)."
 
 #: messages.js
 msgid "Test results inconclusive; they were not consistent with expectations. Please rerun the test, and if the results are the same, please fill out the contact form."
@@ -74,11 +74,11 @@ msgstr "Test results inconclusive; they were not consistent with expectations. P
 
 #: messages.js
 msgid "For unknown reasons, your browser appears to operate slower when given the option of connecting to both IPv4 and IPv6. Please rerun the test, and if the results are the same, please fill out the contact form."
-msgstr "For unknown reasons, your browser appears to operate slower when given the option of connecting to both IPv4 and IPv6. Please rerun the test, and if the results are the same, please fill out the contact form."
+msgstr "Για άγνωστους λόγους, ο φυλλομετρητής σας φαίνεται να λειτουργεί βραδύτερα όταν ρυθμιστεί η επιλογή σύνδεσης αμφότερα με IPv4 και IPv6. Επαναλάβετε τη δοκιμή και, αν τα αποτελέσματα είναι ίδια, συμπληρώστε τη φόρμα επικοινωνίας."
 
 #: messages.js
 msgid "You appear to be able to browse the IPv4 Internet only. You will not be able to reach IPv6-only sites."
-msgstr "You appear to be able to browse the IPv4 Internet only. You will not be able to reach IPv6-only sites."
+msgstr "Φαίνεται πως μπορείτε να περιηγηθείτε στο Internet μόνο μέσω IPv4. Δεν θα μπορείτε να επισκεφτείτε σελίδες προσβάσιμες μόνο μέσω IPv6."
 
 #: messages.js
 msgid "When a publisher offers both IPv4 and IPv6, your browser appears to be happy to take the IPv4 site without delay."
@@ -282,11 +282,11 @@ msgstr "faq: 6RD tunnel"
 
 #: builtin.js
 msgid "[more info]"
-msgstr "[more info]"
+msgstr "[περισσότερες πληροφορίες]"
 
 #: builtin.js
 msgid "Your IPv4 address on the public Internet appears to be"
-msgstr "Your IPv4 address on the public Internet appears to be"
+msgstr "Η IPv4 διεύθυνσή σας στο Internet φαίνεται να είναι η"
 
 #: builtin.js
 msgid "Proxied"
@@ -294,7 +294,7 @@ msgstr "Proxied"
 
 #: builtin.js
 msgid "Your IPv6 address on the public Internet appears to be"
-msgstr "Your IPv6 address on the public Internet appears to be"
+msgstr "Η IPv6 διεύθυνσή σας στο Internet φαίνεται να είναι η"
 
 #: builtin.js
 msgid "Your IPv6 service appears to be"
@@ -302,7 +302,7 @@ msgstr "Your IPv6 service appears to be"
 
 #: builtin.js
 msgid "Your Internet Service Provider (ISP) appears to be"
-msgstr "Your Internet Service Provider (ISP) appears to be"
+msgstr "Ο ISP πάροχός σας φαίνεται να είναι ο"
 
 #: builtin.js
 msgid "Started"
@@ -314,7 +314,7 @@ msgstr "proxied"
 
 #: builtin.js
 msgid "using"
-msgstr "using"
+msgstr "χρησιμοποιώντας"
 
 #: builtin.js
 msgid "tests run"
@@ -450,11 +450,11 @@ msgstr "Δοκιμάστε την IPv6 συνδεσιμότητά σας."
 
 #: index.html
 msgid "(Replay)"
-msgstr "(Replay)"
+msgstr "(Επανάληψη)"
 
 #: js_required.inc
 msgid "JavaScript Required"
-msgstr "JavaScript Required"
+msgstr "Απαιτείται JavaScript"
 
 #: js_required.inc
 msgid "This site requires JavaScript, as well as the ability to pull in cross-site scripts, in order to perform the testing."
@@ -466,7 +466,7 @@ msgstr "If this message does not go away, it means that JavaScript has been disa
 
 #: js_required.inc
 msgid "Do you use NoScript?"
-msgstr "Do you use NoScript?"
+msgstr "Χρησιμοποιείτε NoScript?"
 
 #: js_required.inc
 msgid "If you use this Firefox add-on, you'll need to \"Temporarily allow all this page\". You will need to do this <b>twice</b> for everything to work. Alternately, disable NoScript entirely until you are done with this site."
@@ -478,11 +478,11 @@ msgstr "You can opt instead to view the <a href=\"simple_test.html\">simple test
 
 #: main/tabnav.inc
 msgid "For the Help Desk"
-msgstr "For the Help Desk"
+msgstr "Για το Γραφείο Αρωγής Χρηστών"
 
 #: main/tabnav.inc
 msgid "Summary"
-msgstr "Summary"
+msgstr "Περίληψη"
 
 #: main/tabnav.inc
 msgid "Tests Run"
@@ -490,7 +490,7 @@ msgstr "Tests Run"
 
 #: main/tabnav.inc
 msgid "Share Results / Contact"
-msgstr "Share Results / Contact"
+msgstr "Διαμοιρασμός Αποτελεσμάτων / Επικοινωνία"
 
 #: main/tabnav.inc
 msgid "FAQ for You"
@@ -502,15 +502,15 @@ msgstr "Help Popup"
 
 #: main/tabnav.inc
 msgid "Debug"
-msgstr "Debug"
+msgstr "Αποσφαλμάτωση"
 
 #: main/tabnav.inc
 msgid "Other IPv6 Sites"
-msgstr "Other IPv6 Sites"
+msgstr "Άλλες IPv6 Τοποθεσίες"
 
 #: main/tests.inc
 msgid "How this test works:"
-msgstr "How this test works:"
+msgstr "Πώς λειτουργεί αυτή η δοκιμή:"
 
 #: main/tests.inc
 msgid "Your browser will be instructed to reach a series of URLs. The combination of successes and failures tells a story about how ready you are for when publishers start offering their web sites on IPv6."
@@ -518,7 +518,7 @@ msgstr "Your browser will be instructed to reach a series of URLs. The combinati
 
 #: main/tests.inc
 msgid "Technical Info"
-msgstr "Technical Info"
+msgstr "Τεχνικές Πληροφορίες"
 
 #: main/tests.inc
 msgid "Test with IPv4 DNS record"
@@ -526,7 +526,7 @@ msgstr "Test with IPv4 DNS record"
 
 #: main/tests.inc
 msgid "pending"
-msgstr "pending"
+msgstr "εκκρεμές"
 
 #: main/tests.inc
 msgid "Test with IPv6 DNS record"
@@ -558,11 +558,11 @@ msgstr "Test if your ISP's DNS server uses IPv6"
 
 #: main/tests.inc
 msgid "Find IPv4 Service Provider"
-msgstr "Find IPv4 Service Provider"
+msgstr "Βρείτε Πάροχο Υπηρεσιών IPv4"
 
 #: main/tests.inc
 msgid "Find IPv6 Service Provider"
-msgstr "Find IPv6 Service Provider"
+msgstr "Βρείτε Πάροχο Υπηρεσιών IPv6"
 
 #: main/tests.inc
 msgid "Test for buggy DNS"
@@ -670,7 +670,7 @@ msgstr "Purpose for comment"
 
 #: main/mail.inc
 msgid "Questions about test results"
-msgstr "Questions about test results"
+msgstr "Ερωτήσεις σχετικά με τα αποτελέσματα της δοκιμής"
 
 #: main/mail.inc
 msgid "Report a bug with diagnosis"
@@ -678,7 +678,7 @@ msgstr "Report a bug with diagnosis"
 
 #: main/mail.inc
 msgid "Suggestion"
-msgstr "Suggestion"
+msgstr "Πρόταση"
 
 #: main/mail.inc
 msgid "Cheers or Jeers"
@@ -710,11 +710,11 @@ msgstr "If you are technically minded, please open a \"Command Prompt\" or \"cmd
 
 #: main/mail.inc
 msgid "Send results"
-msgstr "Send results"
+msgstr "Αποστολή αποτελεσμάτων"
 
 #: main/helpdesk.inc
 msgid "Help desk information will follow once the test completes."
-msgstr "Help desk information will follow once the test completes."
+msgstr "Η ενημέρωση του Γραφείου Αρωγής θα ακολουθήσει αφού ολοκληρωθεί η δοκιμή."
 
 #: main/helpdesk.inc
 msgid "If your Internet help desk asks you to mail the 'results url', copy and paste the following URL."
@@ -754,11 +754,11 @@ msgstr "All rights reserved."
 
 #: footer.inc
 msgid "Mission"
-msgstr "Mission"
+msgstr "Αποστολή"
 
 #: footer.inc
 msgid "Source"
-msgstr "Source"
+msgstr "Πηγή"
 
 #: footer.inc
 msgid "Email"
@@ -774,7 +774,7 @@ msgstr "This is a mirror of test-ipv6.com. The views expressed here may or may n
 
 #: locale.html
 msgid "Available Languages"
-msgstr "Available Languages"
+msgstr "Διαθέσιμες Γλώσσες"
 
 #: locale.html
 msgid "Pick one of the following to switch to that language."
@@ -1894,11 +1894,11 @@ msgstr "If you do buy a new router, make sure that it will be IPv6 ready (or upg
 
 #: faq_no_ipv6.html
 msgid "You appear to have no IPv6 at this time.."
-msgstr "You appear to have no IPv6 at this time.."
+msgstr "Φαίνεται να μην έχετε IPv6 αυτή τη στιγμή..."
 
 #: faq_no_ipv6.html
 msgid "You appear to have no IPv6 address."
-msgstr "You appear to have no IPv6 address."
+msgstr "Φαίνεται να μην έχετε IPv6 διεύθυνση."
 
 #: faq/unable_to_see_ipv6.inc
 msgid "<b>If you strongly believe you have IPv6, but we were unable to detect it:</b> it means one of a couple of things. Either your organization is blocking the use of IPv6 to talk to the outside Internet through network policy; or perhaps what you see with IPv6 on your host is not a global address. Any address starting with \"::\", \"fc\", \"fd\", or \"fe\" are unable to work with the public IPv6 Internet."
@@ -1982,7 +1982,7 @@ msgstr "Windows Server 2003: Upgrade to Windows Server 2008 at a minimum. Window
 
 #: faq_v6ns_bad.html
 msgid "Confirmation:"
-msgstr "Confirmation:"
+msgstr "Επιβεβαίωση:"
 
 #: faq_v6ns_bad.html
 msgid "should return back an aaaa record without errors."

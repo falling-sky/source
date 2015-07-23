@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-07-22 20:30-0400\n"
+"PO-Revision-Date: 2015-07-23 11:21-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Albanian\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -78,7 +78,7 @@ msgstr "For unknown reasons, your browser appears to operate slower when given t
 
 #: messages.js
 msgid "You appear to be able to browse the IPv4 Internet only. You will not be able to reach IPv6-only sites."
-msgstr "You appear to be able to browse the IPv4 Internet only. You will not be able to reach IPv6-only sites."
+msgstr "Duket se mundeni të aksesoni Internetin vetëm duke përdorur IPv4. Nuk do mundeni të aksesoni faqe të cilat ofrohen vetëm nëpërmjet protokollit IPv6."
 
 #: messages.js
 msgid "When a publisher offers both IPv4 and IPv6, your browser appears to be happy to take the IPv4 site without delay."
@@ -370,11 +370,11 @@ msgstr "loading..."
 
 #: builtin.js
 msgid "failed to load"
-msgstr "failed to load"
+msgstr "shkarkimi dështoi"
 
 #: builtin.js
 msgid "[go back]"
-msgstr "[go back]"
+msgstr "[shko prapa]"
 
 #: builtin.js
 msgid "[permalink]"
@@ -442,11 +442,11 @@ msgstr "Mirrors"
 
 #: list-nav.inc
 msgid "stats"
-msgstr "stats"
+msgstr "statistika"
 
 #: index.html
 msgid "Test your IPv6 connectivity."
-msgstr "Test your IPv6 connectivity."
+msgstr "Testoni lidhjen IPv6."
 
 #: index.html
 msgid "(Replay)"
@@ -454,15 +454,15 @@ msgstr "(Replay)"
 
 #: js_required.inc
 msgid "JavaScript Required"
-msgstr "JavaScript Required"
+msgstr "JavaScript e Nevojshme"
 
 #: js_required.inc
 msgid "This site requires JavaScript, as well as the ability to pull in cross-site scripts, in order to perform the testing."
-msgstr "This site requires JavaScript, as well as the ability to pull in cross-site scripts, in order to perform the testing."
+msgstr "JavaScript dhe mundësia e shkarkimit cross-site scripts është e nevojshme që ky site të mundet të realizojë testimin."
 
 #: js_required.inc
 msgid "If this message does not go away, it means that JavaScript has been disabled, either by a plugin or extension in your browser, or by explicit browser setting."
-msgstr "If this message does not go away, it means that JavaScript has been disabled, either by a plugin or extension in your browser, or by explicit browser setting."
+msgstr "Ekzistenca e këtij mesazhi nënkupton se JavaScript është ç'aktivizuar nga ndonjë plugin ose extension i browser-it ose nga vetë përdoruesi i tij."
 
 #: js_required.inc
 msgid "Do you use NoScript?"
@@ -490,7 +490,7 @@ msgstr "Tests Run"
 
 #: main/tabnav.inc
 msgid "Share Results / Contact"
-msgstr "Share Results / Contact"
+msgstr "Shpërndani Rezultatet / Kontaktin"
 
 #: main/tabnav.inc
 msgid "FAQ for You"
@@ -502,7 +502,7 @@ msgstr "Help Popup"
 
 #: main/tabnav.inc
 msgid "Debug"
-msgstr "Debug"
+msgstr "Korrigjo"
 
 #: main/tabnav.inc
 msgid "Other IPv6 Sites"
@@ -662,7 +662,7 @@ msgstr "If reporting a problem with the test, or requesting help with your resul
 
 #: main/mail.inc
 msgid "Thanks,"
-msgstr "Thanks,"
+msgstr "Faleminderit,"
 
 #: main/mail.inc
 msgid "Purpose for comment"
@@ -678,7 +678,7 @@ msgstr "Report a bug with diagnosis"
 
 #: main/mail.inc
 msgid "Suggestion"
-msgstr "Suggestion"
+msgstr "Sugjerim"
 
 #: main/mail.inc
 msgid "Cheers or Jeers"
@@ -710,11 +710,11 @@ msgstr "If you are technically minded, please open a \"Command Prompt\" or \"cmd
 
 #: main/mail.inc
 msgid "Send results"
-msgstr "Send results"
+msgstr "Dërgoni rezultatet"
 
 #: main/helpdesk.inc
 msgid "Help desk information will follow once the test completes."
-msgstr "Help desk information will follow once the test completes."
+msgstr "Informimi nga Helpdesk do të vijojë pasi të jetë kompletuar testimi."
 
 #: main/helpdesk.inc
 msgid "If your Internet help desk asks you to mail the 'results url', copy and paste the following URL."
@@ -798,7 +798,7 @@ msgstr "This special instance shares in a very compact way:"
 
 #: faq_helpdesk.html
 msgid "Status of each protocol"
-msgstr "Status of each protocol"
+msgstr "Statusi i çdo protokolli"
 
 #: faq_helpdesk.html
 msgid "Warn of slow/timeout"
@@ -854,7 +854,7 @@ msgstr "What to do if you're broken..."
 
 #: broken.html
 msgid "If you are reading this page, it means that we've identified that your host will have problems on World IPv6 Day. Any web site that goes \"dual stack\" (meaning, both IPv4 and IPv6), will be unreachable to you."
-msgstr "If you are reading this page, it means that we've identified that your host will have problems on World IPv6 Day. Any web site that goes \"dual stack\" (meaning, both IPv4 and IPv6), will be unreachable to you."
+msgstr "Fakti që lexoni këtë faqe do të thotë se kompjuteri juaj do të ketë probleme gjatë ditës World IPv6 Day. Çdo  \"dual stack\" site (i aksesueshëm njëkohësisht me IPv4 dhe IPv6) do të jetë i pa-aksesueshëm prej jush."
 
 #: broken.html
 msgid "To resolve this, you'll first need to identify your IPv6 address (if you have one) and your IPv6 default route (if you have one). This will help identify which sections to read."
@@ -870,19 +870,19 @@ msgstr "Make sure you are current"
 
 #: broken.html
 msgid "Find your IP address"
-msgstr "Find your IP address"
+msgstr "Gjeni adresën tuaj IP"
 
 #: broken.html
 msgid "If you set up a tunnel broker"
-msgstr "If you set up a tunnel broker"
+msgstr "Në qoftë se konfiguroni një tunnel broker"
 
 #: broken.html
 msgid "If you set up 6to4 (IPv6 address: starts with 2002)"
-msgstr "If you set up 6to4 (IPv6 address: starts with 2002)"
+msgstr "Në qoftëse konfiguroni 6to4 (adresa IPv6: fillon me 2002)"
 
 #: broken.html
 msgid "If you have an ULA (IPv6 address: starts with FC or FD)"
-msgstr "If you have an ULA (IPv6 address: starts with FC or FD)"
+msgstr "Në qoftë se keni një ULA (adresa IPv6: fillon me FC ose FD)"
 
 #: broken.html
 msgid "If you have an Bad or Inappropriate IPv6 Addresss (see table)"
