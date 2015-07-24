@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-07-23 11:21-0400\n"
+"PO-Revision-Date: 2015-07-24 07:00-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Greek\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -94,7 +94,7 @@ msgstr "When a publisher offers both IPv4 and IPv6, your browser will time out t
 
 #: messages.js
 msgid "Connections to IPv4 are slow, but functional. Perhaps you or your ISP put you behind an IP sharing device (NAT) that is currently slow."
-msgstr "Connections to IPv4 are slow, but functional. Perhaps you or your ISP put you behind an IP sharing device (NAT) that is currently slow."
+msgstr "Η σύνδεση μέσω IPv4 είναι αργή, ωστόσο λειτουργική. Ίσως βρίσκεστε ή η ISP σάς έχει τοποθετήσει πίσω από κάποια NAT συσκευή η οποία αυτή τη στιγμή τρέχει αργά."
 
 #: messages.js
 msgid "You appear to be able to browse the IPv6 Internet only. You have no access to IPv4. That's pretty bold!"
@@ -490,7 +490,7 @@ msgstr "Tests Run"
 
 #: main/tabnav.inc
 msgid "Share Results / Contact"
-msgstr "Διαμοιρασμός Αποτελεσμάτων / Επικοινωνία"
+msgstr "Αποστολή Αποτελεσμάτων / Επικοινωνία"
 
 #: main/tabnav.inc
 msgid "FAQ for You"

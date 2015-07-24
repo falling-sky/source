@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-07-23 11:21-0400\n"
+"PO-Revision-Date: 2015-07-24 06:15-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Albanian\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -30,7 +30,7 @@ msgstr "ngadalë"
 
 #: messages.js
 msgid "timeout"
-msgstr "përfundim kohe"
+msgstr "timeout"
 
 #: messages.js
 msgid "Connections to urls with IP addresses appear to be blocked; perhaps by a web filter such as 'NoScript' or 'RequestPolicy' installed into your browser, or filtering in your proxy server. This limits some of the functionality of this test site."
@@ -74,7 +74,7 @@ msgstr "Test results inconclusive; they were not consistent with expectations. P
 
 #: messages.js
 msgid "For unknown reasons, your browser appears to operate slower when given the option of connecting to both IPv4 and IPv6. Please rerun the test, and if the results are the same, please fill out the contact form."
-msgstr "For unknown reasons, your browser appears to operate slower when given the option of connecting to both IPv4 and IPv6. Please rerun the test, and if the results are the same, please fill out the contact form."
+msgstr "Për arsye të panjohura, browser-i juaj duket se funksionon më ngadalë kur konfigurohet për lidhje me IPv4 dhe IPv6, njëkohësisht. Ju lutemi, testoni sërish dhe, në qoftë se rezultati është i njëjtë, plotësoni formën e kontaktit."
 
 #: messages.js
 msgid "You appear to be able to browse the IPv4 Internet only. You will not be able to reach IPv6-only sites."
@@ -350,7 +350,7 @@ msgstr "for your IPv6 stability and readiness, when publishers are forced to go 
 
 #: builtin.js
 msgid "Click to see"
-msgstr "Click to see"
+msgstr "Kliko për"
 
 #: builtin.js
 msgid "test data"
@@ -374,7 +374,7 @@ msgstr "shkarkimi dështoi"
 
 #: builtin.js
 msgid "[go back]"
-msgstr "[shko prapa]"
+msgstr "[kthehu prapa]"
 
 #: builtin.js
 msgid "[permalink]"
@@ -386,7 +386,7 @@ msgstr "%app: Jeni duke përdorur versionin %found; ju rekomandojmë %suggest os
 
 #: form.js
 msgid "share your results"
-msgstr "shpërndani resultatet"
+msgstr "dërgo rezultatet"
 
 #: form.js
 msgid "I am most interested in discussing your setup with you, because it was been determined that <B>your IPv6 connectivity is broken</b>, or at least not fully understood. This is not normal; would you be willing to %share?"
@@ -398,7 +398,7 @@ msgstr "testoni sërish"
 
 #: form.js
 msgid "Result code"
-msgstr "Kodi i rezultuar"
+msgstr "Kodi i Rezultatit"
 
 #: form.js
 msgid "Note: I can't contact you, if the contact info is blank. If you really want to submit this anonymously, hit Send Results again."
@@ -490,7 +490,7 @@ msgstr "Tests Run"
 
 #: main/tabnav.inc
 msgid "Share Results / Contact"
-msgstr "Shpërndani Rezultatet / Kontaktin"
+msgstr "Dërgo Rezultatet / Kontakt"
 
 #: main/tabnav.inc
 msgid "FAQ for You"
@@ -514,11 +514,11 @@ msgstr "Si funksionon ky test:"
 
 #: main/tests.inc
 msgid "Your browser will be instructed to reach a series of URLs. The combination of successes and failures tells a story about how ready you are for when publishers start offering their web sites on IPv6."
-msgstr "Your browser will be instructed to reach a series of URLs. The combination of successes and failures tells a story about how ready you are for when publishers start offering their web sites on IPv6."
+msgstr "Browser-i juaj do të aksesojë disa URLs. Kombinimi i aksesimeve të suksesshme dhe të dështuara do të tregojë se sa të gatshëm jeni për momentin kur faqet do të ofrohen nëpërmjet protokollit IPv6."
 
 #: main/tests.inc
 msgid "Technical Info"
-msgstr "Informacion Teknik"
+msgstr "Informacione Teknike"
 
 #: main/tests.inc
 msgid "Test with IPv4 DNS record"
@@ -526,43 +526,43 @@ msgstr "Test with IPv4 DNS record"
 
 #: main/tests.inc
 msgid "pending"
-msgstr "pezull"
+msgstr "në pritje"
 
 #: main/tests.inc
 msgid "Test with IPv6 DNS record"
-msgstr "Test with IPv6 DNS record"
+msgstr "Testim me IPv6 DNS"
 
 #: main/tests.inc
 msgid "Test with Dual Stack DNS record"
-msgstr "Test with Dual Stack DNS record"
+msgstr "Testim me Dual Stack DNS"
 
 #: main/tests.inc
 msgid "Test for Dual Stack DNS and large packet"
-msgstr "Test for Dual Stack DNS and large packet"
+msgstr "Testim për Dual Stack DNS dhe paketë të madhe"
 
 #: main/tests.inc
 msgid "Test IPv4 without DNS"
-msgstr "Test IPv4 without DNS"
+msgstr "Testim IPv4 pa DNS"
 
 #: main/tests.inc
 msgid "Test IPv6 without DNS"
-msgstr "Test IPv6 without DNS"
+msgstr "Testim IPv6 pa DNS"
 
 #: main/tests.inc
 msgid "Test IPv6 large packet"
-msgstr "Test IPv6 large packet"
+msgstr "Testim për paketë të madhe IPv6"
 
 #: main/tests.inc
 msgid "Test if your ISP's DNS server uses IPv6"
-msgstr "Test if your ISP's DNS server uses IPv6"
+msgstr "Testim nëse serveri DNS i ISP-së tuaj përdor IPv6"
 
 #: main/tests.inc
 msgid "Find IPv4 Service Provider"
-msgstr "Find IPv4 Service Provider"
+msgstr "Gjeni Ofruesin e Shërbimit IPv4"
 
 #: main/tests.inc
 msgid "Find IPv6 Service Provider"
-msgstr "Find IPv6 Service Provider"
+msgstr "Gjeni Ofruesin e Shërbimit IPv6"
 
 #: main/tests.inc
 msgid "Test for buggy DNS"
@@ -578,11 +578,11 @@ msgstr "Fetches an object that has just an AAAA record in DNS. This is expected 
 
 #: main/tech.inc
 msgid "This is the most important test. This verifies your browser can connect to a site that has both IPv4 and IPv6 records published. IPv4 only hosts should connect fine (using IPv4)."
-msgstr "This is the most important test. This verifies your browser can connect to a site that has both IPv4 and IPv6 records published. IPv4 only hosts should connect fine (using IPv4)."
+msgstr "Ky është testi më i rëndësishëm i cili verifikon se browseri juaj mund të aksesojë një site i cili ofrohet me IPv4 dhe IPv6, njëkohësisht. Edhe pa IPv6, aksesimi duhet të jetë i mundur (nëpërmjet IPv4)."
 
 #: main/tech.inc
 msgid "If this test fails or times out, you can expect major problems as publishers start offering their sites on IPv6."
-msgstr "If this test fails or times out, you can expect major problems as publishers start offering their sites on IPv6."
+msgstr "Në qoftë se ky test dështon ose afati i tij skadon, ju do të hasni probleme nga momenti që faqet do të ofrohen në IPv6."
 
 #: main/tech.inc
 msgid "Validates that you can connect to a dual-stack server (like the ds test); and that you can send/receive large packets on that connection. If this test times out for any reason, it indicates trouble for World IPv6 Day."
