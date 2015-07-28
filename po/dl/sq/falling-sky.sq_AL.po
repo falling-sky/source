@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-07-24 06:15-0400\n"
+"PO-Revision-Date: 2015-07-27 21:18-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Albanian\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -14,7 +14,7 @@ msgstr ""
 
 #: mirrorconfig.js
 msgid "This mirror is provided by"
-msgstr "This mirror is provided by"
+msgstr "Kjo kopje ofrohet nga"
 
 #: messages.js
 msgid "bad"
@@ -54,11 +54,11 @@ msgstr "Lidhja juaj IPv6 duket se përdor Toredo, një metodë IPv4/IPv6 që pë
 
 #: messages.js
 msgid "Your IPv6 connection appears to be using Teredo, a type of IPv4/IPv6 gateway; currently it connects only to direct IP's. Your browser will not be able to go to IPv6 sites by name. This means the current configuration is not useful for browsing IPv6 web sites."
-msgstr "Your IPv6 connection appears to be using Teredo, a type of IPv4/IPv6 gateway; currently it connects only to direct IP's. Your browser will not be able to go to IPv6 sites by name. This means the current configuration is not useful for browsing IPv6 web sites."
+msgstr "Lidhja juaj IPv6 duket se përdor Teredo, një tip IPv4/IPv6 gateway. Për momentin lidhja është e mundur vetëm me IP. Browseri juaj nuk do mundet të aksesojë faqet IPv6 emërisht. Kjo domethënë se konfigurimi i tanishëm nuk është i dobishëm për shfletimin e faqeve IPv6."
 
 #: messages.js
 msgid "Your IPv6 connection appears to be using Teredo, a type of IPv4/IPv6 gateway. Your particular teredo configuration is only used as a protocol of last resort. When visiting a site with both IPv4 and IPv6, IPv4 will be preferred."
-msgstr "Your IPv6 connection appears to be using Teredo, a type of IPv4/IPv6 gateway. Your particular teredo configuration is only used as a protocol of last resort. When visiting a site with both IPv4 and IPv6, IPv4 will be preferred."
+msgstr "Lidhja juaj IPv6 duket se përdor Teredo, një tip IPv4/IPv6 gateway. Konfigurimi që dispononi momentalisht do të përdoret si një zgjidhje e fundit. Kur të vizitoni një site që ofrohet edhe me IPv4 edhe me IPv6, do të preferohet lidhja me IPv4."
 
 #: messages.js
 msgid "Danger! IPv6 sorta works - however, large packets appear to fail, giving the appearance of a broken website. If a publisher publishes to IPv6, you will believe their web site to be broken. Ask your ISP about MTU issues; possibly with your tunnel."
@@ -82,19 +82,19 @@ msgstr "Duket se mundeni të aksesoni Internetin vetëm duke përdorur IPv4. Nuk
 
 #: messages.js
 msgid "When a publisher offers both IPv4 and IPv6, your browser appears to be happy to take the IPv4 site without delay."
-msgstr "When a publisher offers both IPv4 and IPv6, your browser appears to be happy to take the IPv4 site without delay."
+msgstr "Kur një site ofrohet nëpërmjet IPv4 dhe IPv6 njëkohësisht, browseri juaj duket se preferon menjëherë lidhjen IPv4."
 
 #: messages.js
 msgid "When a publisher offers both IPv4 and IPv6, your browser appears to slow down signficantly compared to an IPv4-only site. You may even believe the destination web site to be broken. This may be due to your IPv6 configuration."
-msgstr "When a publisher offers both IPv4 and IPv6, your browser appears to slow down signficantly compared to an IPv4-only site. You may even believe the destination web site to be broken. This may be due to your IPv6 configuration."
+msgstr "Kur nje faqe ofrohet nëpërmjet IPv4 dhe IPv6 njëkohësisht, browseri juaj duket se ngadalësohet konsiderueshëm në krahasim me aksesimin vetëm nëpërmjet IPv4; madje mund t'u duket se faqja nuk funksionon. Arsyeja mund të jetë konfigurimi IPv6."
 
 #: messages.js
 msgid "When a publisher offers both IPv4 and IPv6, your browser will time out trying to connect. You may believe the site is down. This may be due to your IPv6 configuration. Consider disabling IPv6, or seeking help."
-msgstr "When a publisher offers both IPv4 and IPv6, your browser will time out trying to connect. You may believe the site is down. This may be due to your IPv6 configuration. Consider disabling IPv6, or seeking help."
+msgstr "Kur një faqe ofrohet nëpërmjet IPv4 dhe IPv6 njëkohësisht, browseri juaj do të skadojë periudhën timeout të lidhjes. Do mendoni se, ndoshta, faqja nuk funksionon. Arsyeja ndoshta është konfigurimi IPv6. Konsideroni të ç'aktivizoni IPv6 ose kërkoni ndihmë."
 
 #: messages.js
 msgid "Connections to IPv4 are slow, but functional. Perhaps you or your ISP put you behind an IP sharing device (NAT) that is currently slow."
-msgstr "Connections to IPv4 are slow, but functional. Perhaps you or your ISP put you behind an IP sharing device (NAT) that is currently slow."
+msgstr "Lidhja nëpërmjet IPv4 është e ngadaltë, por funksionale. Ndoshta ndodheni ose ISP-ja ju ka vendosur prapa një pajisjeje NAT e cila momentalisht punon ngadalë."
 
 #: messages.js
 msgid "You appear to be able to browse the IPv6 Internet only. You have no access to IPv4. That's pretty bold!"
@@ -102,7 +102,7 @@ msgstr "You appear to be able to browse the IPv6 Internet only. You have no acce
 
 #: messages.js
 msgid "Connections to IPv6 are slow, but functional. Perhaps you are using a public IPv6 tunnel that is either slow, or not located near you."
-msgstr "Connections to IPv6 are slow, but functional. Perhaps you are using a public IPv6 tunnel that is either slow, or not located near you."
+msgstr "Lidhja me IPv6 është e ngadaltë, por funksionale. Ndoshta jeni duke përdorur një IPv6 tunel që është i ngadaltë ose që ndodhet larg jush."
 
 #: messages.js
 msgid "Connections to IPv6-only sites are timing out. Any web site that is IPv6 only, will appear to be down to you."
@@ -134,11 +134,11 @@ msgstr "NAT64 detected. IPv6 works. IPv4 works for most purposes. Applications t
 
 #: messages.js
 msgid "Your DNS server (possibly run by your ISP) appears to have IPv6 Internet access."
-msgstr "Your DNS server (possibly run by your ISP) appears to have IPv6 Internet access."
+msgstr "Serveri juaj DNS (ose ai i ISP-së suaj) duket i aksesueshëm nëpërmjet IPv6."
 
 #: messages.js
 msgid "Your DNS server (possibly run by your ISP) appears to have no access to the IPv6 Internet, or is not configured to use it. This may in the future restrict your ability to reach IPv6-only sites."
-msgstr "Your DNS server (possibly run by your ISP) appears to have no access to the IPv6 Internet, or is not configured to use it. This may in the future restrict your ability to reach IPv6-only sites."
+msgstr "Serveri juaj DNS (ose ai i ISP-së suaj) nuk duket i aksesueshëm nëpërmjet IPv6, ose nuk është konfiguruar të jetë i tillë. Kjo mund t'ju limitojë në të ardhmen të aksesoni faqe të ofruara vetëm në IPv6."
 
 #: messages.js
 msgid "You are likely using a FireFox plugin that is causing IP based tests to fail. Examples: RequestPolicy. Please disable those while using this site."
@@ -166,7 +166,7 @@ msgstr "Nuk u gjend adresë IPv6"
 
 #: messages.js
 msgid "Your IP address(es) could not be detected due to inteference from browser add-ons."
-msgstr "Your IP address(es) could not be detected due to inteference from browser add-ons."
+msgstr "Përcaktimi i adresës(ave) IP dështoi për shkak të pengesës nga browser add-ons."
 
 #: messages.js
 msgid "The Opera web browser seems to be break on this site frequently. <b>If you have trouble, try another browser</b>."
@@ -578,7 +578,7 @@ msgstr "Fetches an object that has just an AAAA record in DNS. This is expected 
 
 #: main/tech.inc
 msgid "This is the most important test. This verifies your browser can connect to a site that has both IPv4 and IPv6 records published. IPv4 only hosts should connect fine (using IPv4)."
-msgstr "Ky është testi më i rëndësishëm i cili verifikon se browseri juaj mund të aksesojë një site i cili ofrohet me IPv4 dhe IPv6, njëkohësisht. Edhe pa IPv6, aksesimi duhet të jetë i mundur (nëpërmjet IPv4)."
+msgstr "Ky është testi më i rëndësishëm, i cili verifikon se browseri juaj mund të aksesojë një site që ofrohet me IPv4 dhe IPv6, njëkohësisht. Një kompjuter pa IPv6, duhet të lidhet susksesshëm (nëpërmjet IPv4)."
 
 #: main/tech.inc
 msgid "If this test fails or times out, you can expect major problems as publishers start offering their sites on IPv6."
