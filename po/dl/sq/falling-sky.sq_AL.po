@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-07-27 21:18-0400\n"
+"PO-Revision-Date: 2015-07-28 20:15-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Albanian\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -70,7 +70,7 @@ msgstr "Kontrolloni firewall-in tuaj dhe sigurohuni se mesazhet ICMPv6 lejohen (
 
 #: messages.js
 msgid "Test results inconclusive; they were not consistent with expectations. Please rerun the test, and if the results are the same, please fill out the contact form."
-msgstr "Test results inconclusive; they were not consistent with expectations. Please rerun the test, and if the results are the same, please fill out the contact form."
+msgstr "Rezultatet e testimit nuk janë bindëse, as në përputhje me çka pritej. Luteni të testoni sërish dhe, në qoftë se rezultatet janë të njëjta, plotësoni formën e kontaktit."
 
 #: messages.js
 msgid "For unknown reasons, your browser appears to operate slower when given the option of connecting to both IPv4 and IPv6. Please rerun the test, and if the results are the same, please fill out the contact form."
@@ -98,7 +98,7 @@ msgstr "Lidhja nëpërmjet IPv4 është e ngadaltë, por funksionale. Ndoshta nd
 
 #: messages.js
 msgid "You appear to be able to browse the IPv6 Internet only. You have no access to IPv4. That's pretty bold!"
-msgstr "You appear to be able to browse the IPv6 Internet only. You have no access to IPv4. That's pretty bold!"
+msgstr "Duket se mund të aksesoni Internetin vetëm nëpërmjet IPv6 dhe jo nëpërmjet IPv4... diçka tepër kurajoze!"
 
 #: messages.js
 msgid "Connections to IPv6 are slow, but functional. Perhaps you are using a public IPv6 tunnel that is either slow, or not located near you."
@@ -106,7 +106,7 @@ msgstr "Lidhja me IPv6 është e ngadaltë, por funksionale. Ndoshta jeni duke p
 
 #: messages.js
 msgid "Connections to IPv6-only sites are timing out. Any web site that is IPv6 only, will appear to be down to you."
-msgstr "Connections to IPv6-only sites are timing out. Any web site that is IPv6 only, will appear to be down to you."
+msgstr "Lidhjet me faqe që ofrohen vetëm me IPv6 skadojnë periudhën timeout. Çdo faqe e tillë do t'ju duket se nuk funksionon."
 
 #: messages.js
 msgid "Connections to IPv6-capable web sites hang. It appears that you may have IPv6 configured; and your computer believes that your IPv6 is working, with a route. It is however completely failing. Any web site that adds IPv6, will become unreachable to you. If you are unable to fix your IPv6 routing or connectivity, seek help. If all else fails, strongly consider disabling IP6 on host."
@@ -118,7 +118,7 @@ msgstr "Testimi i sitemit tuaj nuk është i mundur. Duket se bllokimi vjen prej
 
 #: messages.js
 msgid "We are unable to test your system; it appears that a firewall or browser filter is preventing the test from running. The dual-stack tests are failing. Try disabling any browser plugins, extensions, or add-ons (such as ad blockers); and reloading this page. If that still fails, you can leave a comment requesting help."
-msgstr "We are unable to test your system; it appears that a firewall or browser filter is preventing the test from running. The dual-stack tests are failing. Try disabling any browser plugins, extensions, or add-ons (such as ad blockers); and reloading this page. If that still fails, you can leave a comment requesting help."
+msgstr "Testimi i sitemit tuaj nuk është i mundur. Duket se bllokimi vjen prej firewall-it apo filtrave të instaluara në browser. Testet dual-stack po dështojnë. Ç'aktivizoni çdo plugins, extensions, ose add-ons bllokues dhe ri-shkarkoni faqen. Nqs. përsëri testet dështojnë, kërkoni ndihmë duke dërguar një mesazh."
 
 #: messages.js
 msgid "Your browser is blocking the test urls. We will try alternate methods, but they may fail to show your IP address; and may affect the quality of the advice given."
@@ -178,11 +178,11 @@ msgstr "<b>Disable turbo mode on Opera, and try again.</b> Turbo mode is not com
 
 #: messages.js
 msgid "<b>Good news!</b> Your current configuration will continue to work as web sites enable IPv6."
-msgstr "<b>Good news!</b> Your current configuration will continue to work as web sites enable IPv6."
+msgstr "<b>Lajme të mira!</b> Konfigurimi i tanishëm do të vazhdojë të funksionojë kur faqet të ofrohen nëpërmjet IPv6."
 
 #: messages.js
 msgid "<b>Our tests show that you will have a broken or misconfigured IPv6 setup, and this will cause problems as web sites enable IPv6.</b>"
-msgstr "<b>Our tests show that you will have a broken or misconfigured IPv6 setup, and this will cause problems as web sites enable IPv6.</b>"
+msgstr "<b>Testimi ynë tregon se do të keni një konfigurim IPv6 jo të saktë dhe se kjo do të shkaktojë probleme kur faqet të ofrohen nëpërmjet IPv6.</b>"
 
 #: messages.js
 msgid "<b>Our tests show that you will may have MTU problems with IPv6; this can cause web sites to load slow (or not at all) when web sites enable IPv6.</b>"
@@ -414,15 +414,15 @@ msgstr "unknown result code"
 
 #: symptoms.js
 msgid "Your browser blocked"
-msgstr "Your browser blocked"
+msgstr "Browseri juaj u bllokua"
 
 #: helpdesk.js
 msgid "Your Internet help desk may ask you for the information below."
-msgstr "Your Internet help desk may ask you for the information below."
+msgstr "Shërbimi Helpdesk për Internetin ndoshta ju pyet për informacionin e mëposhtëm."
 
 #: header.inc
 msgid "Test your IPv6."
-msgstr "Test your IPv6."
+msgstr "Testoni IPv6."
 
 #: header.inc
 msgid "This will test your browser and connection for IPv6 readiness, as well as show you your current IPV4 and IPv6 address."
@@ -522,7 +522,7 @@ msgstr "Informacione Teknike"
 
 #: main/tests.inc
 msgid "Test with IPv4 DNS record"
-msgstr "Test with IPv4 DNS record"
+msgstr "Testim me IPv4 DNS"
 
 #: main/tests.inc
 msgid "pending"
@@ -646,7 +646,7 @@ msgstr "This includes your IP address, which is shared with the site administrat
 
 #: main/mail.inc
 msgid "Use of this form implies consent."
-msgstr "Use of this form implies consent."
+msgstr "Përdorimi i kësaj forme nënkupton miratim."
 
 #: main/mail.inc
 msgid "<span id=\"comments_faq_link\"></span> (FAQ) page is available for <b>your</b> exact set of results. Please read it before leaving comments; many questions have already been answered. If you still have questions, comments, or concerns, feel freel to use this form."
@@ -670,7 +670,7 @@ msgstr "Purpose for comment"
 
 #: main/mail.inc
 msgid "Questions about test results"
-msgstr "Questions about test results"
+msgstr "Pyetje për rezultatet e testeve"
 
 #: main/mail.inc
 msgid "Report a bug with diagnosis"

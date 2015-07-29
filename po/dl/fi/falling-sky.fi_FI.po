@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-07-26 14:45-0400\n"
+"PO-Revision-Date: 2015-07-28 20:15-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Finnish\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -438,7 +438,7 @@ msgstr "Usein kysytyt kysymykset"
 
 #: list-nav.inc
 msgid "Mirrors"
-msgstr "Mirrors"
+msgstr "Peilit"
 
 #: list-nav.inc
 msgid "stats"
@@ -466,7 +466,7 @@ msgstr "If this message does not go away, it means that JavaScript has been disa
 
 #: js_required.inc
 msgid "Do you use NoScript?"
-msgstr "Do you use NoScript?"
+msgstr "Käytätkö NoScript?"
 
 #: js_required.inc
 msgid "If you use this Firefox add-on, you'll need to \"Temporarily allow all this page\". You will need to do this <b>twice</b> for everything to work. Alternately, disable NoScript entirely until you are done with this site."
@@ -662,7 +662,7 @@ msgstr "If reporting a problem with the test, or requesting help with your resul
 
 #: main/mail.inc
 msgid "Thanks,"
-msgstr "Thanks,"
+msgstr "Kiitos,"
 
 #: main/mail.inc
 msgid "Purpose for comment"
@@ -710,7 +710,7 @@ msgstr "If you are technically minded, please open a \"Command Prompt\" or \"cmd
 
 #: main/mail.inc
 msgid "Send results"
-msgstr "Send results"
+msgstr "Lähetä tulokset"
 
 #: main/helpdesk.inc
 msgid "Help desk information will follow once the test completes."
@@ -758,11 +758,11 @@ msgstr "Mission"
 
 #: footer.inc
 msgid "Source"
-msgstr "Source"
+msgstr "Lähde"
 
 #: footer.inc
 msgid "Email"
-msgstr "Email"
+msgstr "Sähköposti"
 
 #: footer.inc
 msgid "Attributions"
@@ -774,7 +774,7 @@ msgstr "This is a mirror of test-ipv6.com. The views expressed here may or may n
 
 #: locale.html
 msgid "Available Languages"
-msgstr "Available Languages"
+msgstr "Saatavilla olevat kielet"
 
 #: locale.html
 msgid "Pick one of the following to switch to that language."
@@ -950,7 +950,7 @@ msgstr "Chrome: If a wrench icon appears on the browser toolbar, click it. Selec
 
 #: faq/staycurrent.inc
 msgid "Opera: Make sure you use at least 11.10."
-msgstr "Opera: Make sure you use at least 11.10."
+msgstr "Opera: Varmista, että käytät versiota 11.10 tai uudempaa."
 
 #: broken.html
 msgid "Finding your IP address"
