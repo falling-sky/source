@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-07-28 20:15-0400\n"
+"PO-Revision-Date: 2015-07-30 07:30-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Albanian\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -126,7 +126,7 @@ msgstr "Browser-i juaj bllokon URL-et e testit. Ne do të provojmë metoda alter
 
 #: messages.js
 msgid "The most likely cause is NoScript or AdBlock+. NoScript can be told to permit all scripts on this page (you may need to do this more than once). At minimum, permit the urls listed below."
-msgstr "The most likely cause is NoScript or AdBlock+. NoScript can be told to permit all scripts on this page (you may need to do this more than once). At minimum, permit the urls listed below."
+msgstr "Shkaku më i mundshëm është NoScript ose AdBlock+. NoScript mund të rregjistrohet të lejojë të gjitha script-et në këtë faqe (ndoshta do duhet ta përsërisni këtë më tepër se njëherë). Së pakti lejoni listën e mëposhtme të urls."
 
 #: messages.js
 msgid "NAT64 detected. IPv6 works. IPv4 works for most purposes. Applications that are hard-coded for IPv4-only will fail. We are aware of at least one major voice-over-ip program that falls into this category. Your application's support staff may need a nudge to add proper IPv6 support."
@@ -142,7 +142,7 @@ msgstr "Serveri juaj DNS (ose ai i ISP-së suaj) nuk duket i aksesueshëm nëpë
 
 #: messages.js
 msgid "You are likely using a FireFox plugin that is causing IP based tests to fail. Examples: RequestPolicy. Please disable those while using this site."
-msgstr "You are likely using a FireFox plugin that is causing IP based tests to fail. Examples: RequestPolicy. Please disable those while using this site."
+msgstr "Ndoshta një FireFox plugin, që shkakton dështimin e testimeve të bazuara në IP, është në përdorim. Psh: RequestPolicy. Luteni të ç'aktivizoni këto plugins ndërsa përdorni këtë site."
 
 #: messages.js
 msgid "A lookup for an IPv6-only name failed; yet the lookup and connect for dual-stack connected via IPv6. Something appears to be confused with the DNS lookups."
@@ -302,11 +302,11 @@ msgstr "Servisi IPv6 që përdorni duket se është"
 
 #: builtin.js
 msgid "Your Internet Service Provider (ISP) appears to be"
-msgstr "Your Internet Service Provider (ISP) appears to be"
+msgstr "Ofruesi i Shërbimit të Internetit (ISP) duket se është"
 
 #: builtin.js
 msgid "Started"
-msgstr "Started"
+msgstr "Filloi"
 
 #: builtin.js
 msgid "proxied"
@@ -426,11 +426,11 @@ msgstr "Testoni IPv6."
 
 #: header.inc
 msgid "This will test your browser and connection for IPv6 readiness, as well as show you your current IPV4 and IPv6 address."
-msgstr "This will test your browser and connection for IPv6 readiness, as well as show you your current IPV4 and IPv6 address."
+msgstr "Kjo do testojë browser-in dhe lidhjen tuaj sa i përket gatishmërisë për IPv6 dhe to t'ju tregojë gjithashtu adresat IPv4 dhe IPv6 që momentalisht keni."
 
 #: list-nav.inc
 msgid "Test IPv6"
-msgstr "Test IPv6"
+msgstr "Testim IPv6"
 
 #: list-nav.inc
 msgid "FAQ"
@@ -450,7 +450,7 @@ msgstr "Testoni lidhjen IPv6."
 
 #: index.html
 msgid "(Replay)"
-msgstr "(Replay)"
+msgstr "(Përsëritje)"
 
 #: js_required.inc
 msgid "JavaScript Required"
@@ -474,7 +474,7 @@ msgstr "Në qoftë se përdorni këtë Firefox add-on, atëherë duhet të \"Tem
 
 #: js_required.inc
 msgid "You can opt instead to view the <a href=\"simple_test.html\">simple test</a>, which will give you a quick pass/fail for IPv4, IPv4+IPv6, and IPv6. It will however offer little diagnostic information."
-msgstr "You can opt instead to view the <a href=\"simple_test.html\">simple test</a>, which will give you a quick pass/fail for IPv4, IPv4+IPv6, and IPv6. It will however offer little diagnostic information."
+msgstr "Si alternative mund të zgjidhni <a href=\"simple_test.html\">testin e thjeshtë</a>, i cili do t'ju paraqesë një përmbledhje suksesi/dështimi për IPv4, IPv4+IPv6 dhe IPv6. Megjithatë, ky informacion nuk do të jetë shumë diagnostikues."
 
 #: main/tabnav.inc
 msgid "For the Help Desk"
@@ -486,7 +486,7 @@ msgstr "Përmbledhje"
 
 #: main/tabnav.inc
 msgid "Tests Run"
-msgstr "Tests Run"
+msgstr "Rezultatet e Testimeve"
 
 #: main/tabnav.inc
 msgid "Share Results / Contact"
@@ -586,7 +586,7 @@ msgstr "Në qoftë se ky test dështon ose afati i tij skadon, ju do të hasni p
 
 #: main/tech.inc
 msgid "Validates that you can connect to a dual-stack server (like the ds test); and that you can send/receive large packets on that connection. If this test times out for any reason, it indicates trouble for World IPv6 Day."
-msgstr "Validates that you can connect to a dual-stack server (like the ds test); and that you can send/receive large packets on that connection. If this test times out for any reason, it indicates trouble for World IPv6 Day."
+msgstr "Verifikon se mundeni të lidheni me një dual-stack server (si testi dns) dhe se mund të dërgoni/merrni paketa të mëdha nëpërmjet kësaj lidhjeje. Skadimi i periudhës timeout nga ky test paralajmëron për probleme gjatë World IPv6 Day."
 
 #: main/tech.inc
 msgid "This will try connecting with a literal IPv4 numeric address. This should work for most people, unless they are running IPv6-only. If the first test worked, but this fails, it likely confirms your provider is using NAT64/DNS64; you'll need to only try connecting using hostnames instead of numeric IP addresses."
@@ -686,7 +686,7 @@ msgstr "Cheers or Jeers"
 
 #: main/mail.inc
 msgid "Email address if you'll permit me to contact you. <i>Required, if you wish a response.</i>"
-msgstr "Email address if you'll permit me to contact you. <i>Required, if you wish a response.</i>"
+msgstr "Adresa Email ku mund t'ju kontaktojmë. <i>E detyrueshme, në qoftë se dëshironi përgjigje.</i>"
 
 #: main/mail.inc
 msgid "Any information you think I might find useful (what router you're using, or a firewall in the way, or type of proxy you use, etc). This includes general feedback."
@@ -694,11 +694,11 @@ msgstr "Any information you think I might find useful (what router you're using,
 
 #: main/mail.inc
 msgid "The javascript based test appears to have failed. This may be browser plugin or extension related. Please indicate what browser plugins and extenions you have enabled in this browser."
-msgstr "The javascript based test appears to have failed. This may be browser plugin or extension related. Please indicate what browser plugins and extenions you have enabled in this browser."
+msgstr "Testimet JavaScript duket se kanë dështuar. Shkaku mund të jetë ndonjë browser plugin ose extension. Luteni të kontrolloni çfarë plugins dhe extensions keni aktivizuar në browser."
 
 #: main/mail.inc
 msgid "If you are technically minded please cut/paste the output of the following commands:"
-msgstr "If you are technically minded please cut/paste the output of the following commands:"
+msgstr "Të interesuarit teknikisht luten të dërgojnë (cut/paste) rezultatin e komandave të mëposhtme:"
 
 #: main/mail.inc
 msgid "Copy the output from those commands, into the box below. This will help me confirm/deny any theories relating to your question."

@@ -450,6 +450,12 @@ www.mozilla.org:
   site: www.mozilla.org
   v4: http://ipv4.mozilla.org/firefox.png
   v6: http://ipv6.mozilla.org/World_IPv6_launch_logo_128.png
+www.rascom.ru: 
+  loc: RU
+  provider: RASCOM
+  site: www.rascom.ru
+  v4: http://wood.rascom.ru/ipv4.jpg
+  v6: http://wood6.rascom.ru/logo2.png
 www.rcs-rds.ro: 
   hide: 0
   loc: RO

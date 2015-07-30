@@ -543,3 +543,8 @@ test-ipv6.com.au:
   provider: Futzle Industries
   v4: http://ipv4.test-ipv6.com.au/images-nc/knob_green.png
   v6: http://ipv6.test-ipv6.com.au/images-nc/knob_green.png
+www.rascom.ru:
+  loc: RU
+  provider: RASCOM
+  v4: http://wood.rascom.ru/ipv4.jpg
+  v6: http://wood6.rascom.ru/logo2.png
