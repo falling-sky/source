@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-07-30 07:30-0400\n"
+"PO-Revision-Date: 2015-07-31 17:45-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Albanian\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -754,11 +754,11 @@ msgstr "All rights reserved."
 
 #: footer.inc
 msgid "Mission"
-msgstr "Mission"
+msgstr "Synimi"
 
 #: footer.inc
 msgid "Source"
-msgstr "Source"
+msgstr "Burimi"
 
 #: footer.inc
 msgid "Email"
@@ -774,15 +774,15 @@ msgstr "This is a mirror of test-ipv6.com. The views expressed here may or may n
 
 #: locale.html
 msgid "Available Languages"
-msgstr "Available Languages"
+msgstr "Gjuhë të Disponueshme"
 
 #: locale.html
 msgid "Pick one of the following to switch to that language."
-msgstr "Pick one of the following to switch to that language."
+msgstr "Zgjdhni një nga gjuhët e mëposhtme."
 
 #: faq_helpdesk.html
 msgid "Help Desk Information"
-msgstr "Help Desk Information"
+msgstr "Informacion për Help Desk"
 
 #: faq_helpdesk.html
 msgid "Q: What is the Help Desk tab for?"
@@ -950,23 +950,23 @@ msgstr "Chrome: If a wrench icon appears on the browser toolbar, click it. Selec
 
 #: faq/staycurrent.inc
 msgid "Opera: Make sure you use at least 11.10."
-msgstr "Opera: Make sure you use at least 11.10."
+msgstr "Opera: Sigurohuni se përdorni të paktën versionin 11.10."
 
 #: broken.html
 msgid "Finding your IP address"
-msgstr "Finding your IP address"
+msgstr "Në kërkim të adresës suaj IP"
 
 #: faq/find_ip.inc
 msgid "Identify your IPv6 address, and your default router (if you have one)."
-msgstr "Identify your IPv6 address, and your default router (if you have one)."
+msgstr "Identifikoni adresën tuaj IPv6 dhe default router (në qoftë se keni)."
 
 #: faq/find_ip.inc
 msgid "Finding your IPv6 address and default router can be a challenge if you are not familiar with your OS's network configuration. Instructions for your OS are below."
-msgstr "Finding your IPv6 address and default router can be a challenge if you are not familiar with your OS's network configuration. Instructions for your OS are below."
+msgstr "Gjetja e adresës IPv6 dhe e default router mund të rezultojë e vështirë, në qoftë se nuk jeni të familiarizuar me konfigurim e rrjetit në sistemit operativ. Më poshtë vijojnë udhëzime për sistemin tuaj operativ."
 
 #: faq/find_ip.inc
 msgid "When looking for your IPv6 address, skip any <code>fe80:</code> address. Everyone has them if their OS supports IPv6; this is regadless of whether or not your ISP supports IPv6 yet. Those are \"link local\" addresses; used just for communicating to other hosts in the same physical network as you."
-msgstr "When looking for your IPv6 address, skip any <code>fe80:</code> address. Everyone has them if their OS supports IPv6; this is regadless of whether or not your ISP supports IPv6 yet. Those are \"link local\" addresses; used just for communicating to other hosts in the same physical network as you."
+msgstr "Kur të kërkoni për adresën tuaj IPv6, mos kosideroni adresa të tipit <code>fe80:</code>. Kushdo ka të tilla adresa, në qoftë se sistemi operativ mbështet IPv6. Kjo s'ka lidhje me mundësinë apo jo të ofrimit IPv6 nga ISP-ja juaj. Bëhet fjalë për \"link local\" adresa që përdoren për të komunikuar me kompjutera të tjerë që gjenden në të njëjtin rrjet me ju."
 
 #: faq/find_ip.inc
 msgid "OS X users: To find your IP address using the GUI:"
@@ -1038,19 +1038,19 @@ msgstr "Linux users: To find your IPv6 address, open a terminal and.."
 
 #: faq/find_ip.inc
 msgid "Linux users: To find your IPv6 route, use:"
-msgstr "Linux users: To find your IPv6 route, use:"
+msgstr "Linux users: Që të gjeni IPv6 route, përdorni:"
 
 #: faq/find_ip.inc
 msgid "Generic unix instructions for determining your IPv6 address and default route:"
-msgstr "Generic unix instructions for determining your IPv6 address and default route:"
+msgstr "Udhëzime të përgjithshme në unix për gjetjen e adresës IPv6 dhe default route:"
 
 #: faq/find_ip.inc
 msgid "Windows users: To find your IP address using cmd.exe:"
-msgstr "Windows users: To find your IP address using cmd.exe:"
+msgstr "Windos user: Që të gjeni adresën IP duke përdorur cmd.exe:"
 
 #: faq/find_ip.inc
 msgid "Go to your \"start\" menu"
-msgstr "Go to your \"start\" menu"
+msgstr "Shko në \"start\" menu"
 
 #: faq/find_ip.inc
 msgid "If you have a \"Run\" menu option, select it. Otherwise go to the \"Search programs and files\" box."
