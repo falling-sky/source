@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-07-31 17:00-0400\n"
+"PO-Revision-Date: 2015-08-04 10:00-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Greek\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -126,7 +126,7 @@ msgstr "Ο φυλλομετρητής σας δεν επιτρέπει την π
 
 #: messages.js
 msgid "The most likely cause is NoScript or AdBlock+. NoScript can be told to permit all scripts on this page (you may need to do this more than once). At minimum, permit the urls listed below."
-msgstr "The most likely cause is NoScript or AdBlock+. NoScript can be told to permit all scripts on this page (you may need to do this more than once). At minimum, permit the urls listed below."
+msgstr "Η πιθανότερη αιτία είναι το NoScript ή το AdBlock+. Το NoScript μπορεί να ρυθμιστεί ώστε να επιτρέπει όλα τα scripts σε αυτή την σελίδα (κάτι το οποίο ίσως χρειαστεί να γίνει πολλές φορές). Τουλάχιστον τα παρακάτω urls θα πρέπει να επιτραπούν."
 
 #: messages.js
 msgid "NAT64 detected. IPv6 works. IPv4 works for most purposes. Applications that are hard-coded for IPv4-only will fail. We are aware of at least one major voice-over-ip program that falls into this category. Your application's support staff may need a nudge to add proper IPv6 support."
@@ -142,7 +142,7 @@ msgstr "Ο DNS εξυπηρετητής σας (πιθανότατα εκείν�
 
 #: messages.js
 msgid "You are likely using a FireFox plugin that is causing IP based tests to fail. Examples: RequestPolicy. Please disable those while using this site."
-msgstr "You are likely using a FireFox plugin that is causing IP based tests to fail. Examples: RequestPolicy. Please disable those while using this site."
+msgstr "Πιθανώς να χρησιμοποιείτε κάποιο FireFox plugin το οποίο ευθύνεται για την αποτυχία των IP δοκιμών. Για παράδειγμα: RequestPolicy. Παρακαλείσθε για την απενεργοποίηση αυτών των plugins καθώς χρησιμοποιείτε αυτή τη σελίδα."
 
 #: messages.js
 msgid "A lookup for an IPv6-only name failed; yet the lookup and connect for dual-stack connected via IPv6. Something appears to be confused with the DNS lookups."
@@ -170,7 +170,7 @@ msgstr "Ο εντοπισμός διεύθυνσης(σεων) IP απέτυχε
 
 #: messages.js
 msgid "The Opera web browser seems to be break on this site frequently. <b>If you have trouble, try another browser</b>."
-msgstr "The Opera web browser seems to be break on this site frequently. <b>If you have trouble, try another browser</b>."
+msgstr "Ο φυλλομετρητής Opera φαίνεται να μην είναι ο καταλληλότερος για αυτή τη σελίδα. <b>Αν αντιμετωπίζετε προβλήματα, δοκιμάστε κάποιο άλλο φυλλομετρητή</b>."
 
 #: messages.js
 msgid "<b>Disable turbo mode on Opera, and try again.</b> Turbo mode is not compatible with the needs of this site."
@@ -194,7 +194,7 @@ msgstr "We looked up an IPv6 address, but your DNS server (possibly your home ro
 
 #: messages.js
 msgid "It appears that you use a tunnel mechanism for either IPv4 or IPv6."
-msgstr "It appears that you use a tunnel mechanism for either IPv4 or IPv6."
+msgstr "Φαίνεται ότι χρησιμοποιείτε κάποιο μηχανισμό tunnelling για IPv4 ή IPv6."
 
 #: messages.js
 msgid "It appears that you use a managed tunnel mechanism, 6RD, to transport IPv6 over IPv4."
@@ -206,15 +206,15 @@ msgstr "Εντοπίστηκε η χρήση ενός proxy, το οποίο σ�
 
 #: messages.js
 msgid "We have detected that you are using a proxy. This means we are testing your proxy server, not your computer."
-msgstr "We have detected that you are using a proxy. This means we are testing your proxy server, not your computer."
+msgstr "Έχουμε εντοπίσει ότι χρησιμοποιείτε κάποιο proxy. Αυτό σημαίνει ότι οι δοκιμές αφορούν τον proxy server και όχι τον υπολογιστή σας."
 
 #: messages.js
 msgid "IPv6 connections work, but connections using DNS names do not use IPv6. For some reason, your browser or your OS is not doing IPv6 DNS 'AAAA' lookups."
-msgstr "IPv6 connections work, but connections using DNS names do not use IPv6. For some reason, your browser or your OS is not doing IPv6 DNS 'AAAA' lookups."
+msgstr "Η σύνδεση IPv6 είναι λειτουργική, χωρίς όμως να γίνει χρήση του DNS. Για κάποιο λόγο, ο φυλλομετρητής ή το λειτουργικό σας σύστημα δεν πραγματοποιεί IPv6 DNS 'AAAA' lookups."
 
 #: messages.js
 msgid "We have suggestions to help you fix your system."
-msgstr "We have suggestions to help you fix your system."
+msgstr "Έχουμε προτάσεις που θα σας βοηθήσουν στην διόρθωση του συστήματός σας."
 
 #: messages.js
 msgid "Since you have IPv6, we are including a tab that shows how well you can reach other IPv6 sites. %sites"
@@ -458,7 +458,7 @@ msgstr "Απαιτείται JavaScript"
 
 #: js_required.inc
 msgid "This site requires JavaScript, as well as the ability to pull in cross-site scripts, in order to perform the testing."
-msgstr "This site requires JavaScript, as well as the ability to pull in cross-site scripts, in order to perform the testing."
+msgstr "Η JavaScript και η χρήση cross-site scripts είναι προαπαιτούμενα για την πραγματοποίηση δοκιμών από αυτή τη σελίδα."
 
 #: js_required.inc
 msgid "If this message does not go away, it means that JavaScript has been disabled, either by a plugin or extension in your browser, or by explicit browser setting."
@@ -470,11 +470,11 @@ msgstr "Χρησιμοποιείτε NoScript?"
 
 #: js_required.inc
 msgid "If you use this Firefox add-on, you'll need to \"Temporarily allow all this page\". You will need to do this <b>twice</b> for everything to work. Alternately, disable NoScript entirely until you are done with this site."
-msgstr "If you use this Firefox add-on, you'll need to \"Temporarily allow all this page\". You will need to do this <b>twice</b> for everything to work. Alternately, disable NoScript entirely until you are done with this site."
+msgstr "Αν χρησιμοποιείτε αυτό το FireFox add-on, τότε θα πρέπει να προβείτε στο \"Temporarily allow all this page\". Θα πρέπει να το επαναλάβετε αυτό <b>δύο φορές</b> ώστε όλα να λειτουργούν σωστά. Εναλλακτικά, απενεργοποιείστε ολοκληρωτικά το NoScript ώσπου να ολοκληρώσετε τη δουλειά σας σε αυτή τη σελίδα."
 
 #: js_required.inc
 msgid "You can opt instead to view the <a href=\"simple_test.html\">simple test</a>, which will give you a quick pass/fail for IPv4, IPv4+IPv6, and IPv6. It will however offer little diagnostic information."
-msgstr "You can opt instead to view the <a href=\"simple_test.html\">simple test</a>, which will give you a quick pass/fail for IPv4, IPv4+IPv6, and IPv6. It will however offer little diagnostic information."
+msgstr "Εναλλακτικά μπορείτε να επιλέξετε να δείτε την <a href=\"simple_test.html\">απλή δοκιμή</a>, η οποία παρουσιάζει εν συντομία επιτυχίες/αποτυχίες για το IPv4, IPv4+IPv6 και IPv6. Ωστόσο αυτές οι πληροφορίες δεν θα είναι πολύ διαγνωστικές."
 
 #: main/tabnav.inc
 msgid "For the Help Desk"
@@ -570,11 +570,11 @@ msgstr "Δοκιμή για ελατωματικό DNS"
 
 #: main/tech.inc
 msgid "Fetches an object that has just an A record in DNS. This is expected to use IPv4. IPv6-only users might still reach this, if their provider has employed a NAT64/DNS64 or proxy solution."
-msgstr "Fetches an object that has just an A record in DNS. This is expected to use IPv4. IPv6-only users might still reach this, if their provider has employed a NAT64/DNS64 or proxy solution."
+msgstr "Φέρει ένα αντικείμενο το οποίο έχει απλώς μια Α εγγραφή στο DNS. Αυτό αναμένεται να χρησιμοποιεί IPv4. Χρήστες που χρησιμοποιούν μόνο IPv6 θα μπορούσαν να κάνουν χρήση αυτού, αν ο πάροχός τους προσφέρει μια NAT64/DNS64 ή proxy λύση."
 
 #: main/tech.inc
 msgid "Fetches an object that has just an AAAA record in DNS. This is expected to use IPv6. Users not yet on the IPv6 Internet are likely to see this fail. As long as it fails quickly, it will be OK - for now."
-msgstr "Fetches an object that has just an AAAA record in DNS. This is expected to use IPv6. Users not yet on the IPv6 Internet are likely to see this fail. As long as it fails quickly, it will be OK - for now."
+msgstr "Φέρει ένα αντικείμενο το οποίο έχει απλώς μια AAAA εγγραφή στο DNS. Αυτό αναμένεται να χρησιμοποιεί IPv6. Χρήστες χωρίς IPv6 θα δουν να αποτύχει. Όσο αποτυγχάνει γρήγορα θα είναι εντάξει - για την ώρα."
 
 #: main/tech.inc
 msgid "This is the most important test. This verifies your browser can connect to a site that has both IPv4 and IPv6 records published. IPv4 only hosts should connect fine (using IPv4)."
@@ -582,7 +582,7 @@ msgstr "Αυτή είναι η πιο σημαντική δοκιμή, η οπο
 
 #: main/tech.inc
 msgid "If this test fails or times out, you can expect major problems as publishers start offering their sites on IPv6."
-msgstr "If this test fails or times out, you can expect major problems as publishers start offering their sites on IPv6."
+msgstr "Αν αυτή η δοκιμή αποτύχει ή λήξει την περίοδο timeout, θα αντιμετωπίσετε προβλήματα τη στιγμή που οι σελίδες προσφερθούν μέσω IPv6."
 
 #: main/tech.inc
 msgid "Validates that you can connect to a dual-stack server (like the ds test); and that you can send/receive large packets on that connection. If this test times out for any reason, it indicates trouble for World IPv6 Day."
@@ -590,11 +590,11 @@ msgstr "Validates that you can connect to a dual-stack server (like the ds test)
 
 #: main/tech.inc
 msgid "This will try connecting with a literal IPv4 numeric address. This should work for most people, unless they are running IPv6-only. If the first test worked, but this fails, it likely confirms your provider is using NAT64/DNS64; you'll need to only try connecting using hostnames instead of numeric IP addresses."
-msgstr "This will try connecting with a literal IPv4 numeric address. This should work for most people, unless they are running IPv6-only. If the first test worked, but this fails, it likely confirms your provider is using NAT64/DNS64; you'll need to only try connecting using hostnames instead of numeric IP addresses."
+msgstr "Θα γίνει προσπάθεια σύνδεσης μέσω της ίδιας της IPv4 διεύθυνσης. Αυτό θα πρέπει να λειτουργεί για τους περισσότερους, εκτός όσων χρησιμοποιούν μόνο IPv6. Αν η πρώτη δοκιμή πέτυχε και η εν λόγω αποτύχει, ενδεικνύεται ότι ο πάροχός σας χρησιμοποιεί NAT64/DNS64· θα πρέπει να χρησιμοποιείτε hostnames αντί IP διευθύνσεων."
 
 #: main/tech.inc
 msgid "This will try connecting with a literal IPv6 hexadecimal address. The primary purpose of this test is to separate out your connectivity on IPv6 from your ability to fetch DNS for it. A secondary purpose is to see if you have Teredo enabled; some systems may only use Teredo when an IPv6 address is in the URL."
-msgstr "This will try connecting with a literal IPv6 hexadecimal address. The primary purpose of this test is to separate out your connectivity on IPv6 from your ability to fetch DNS for it. A secondary purpose is to see if you have Teredo enabled; some systems may only use Teredo when an IPv6 address is in the URL."
+msgstr "Θα γίνει προσπάθεια σύνδεσης μέσω της ίδιας της IPv6 διεύθυνσης. Σκοπός είναι ο διαχωρισμός συνδεσιμότητας μέσω IPv6, χώρια της δυνατότητας απόκτησης μέσω DNS. Ένας άλλος σκοπός είναι ο έλεγχος αν έχετε ενεργοποιήσει το Teredo· μερικά συστήματα δύνανται μόνο Teredo να χρησιμοποιήσουν, όταν η IPv6 διεύθυνση χρησιμοποιείται στο URL."
 
 #: main/tech.inc
 msgid "Validates that IPv6 requests with large packets work. If this test times out, but other IPv6 tests work, it suggests that there may be PMTUD issues; possibly involving IP tunnels."

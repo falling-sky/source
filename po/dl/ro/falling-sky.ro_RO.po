@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-07-31 17:00-0400\n"
+"PO-Revision-Date: 2015-08-05 06:30-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Romanian\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -30,11 +30,11 @@ msgstr "încet"
 
 #: messages.js
 msgid "timeout"
-msgstr "timeout"
+msgstr "Cererea a expirat"
 
 #: messages.js
 msgid "Connections to urls with IP addresses appear to be blocked; perhaps by a web filter such as 'NoScript' or 'RequestPolicy' installed into your browser, or filtering in your proxy server. This limits some of the functionality of this test site."
-msgstr "Conexiunile la URL-uri cu adrese IP par să fie blocate; probabil de un filtru web cum ar fi 'NoScript' sau 'RequestPolicy' instalat în navigatorul tău sau prin filtrare în serverul tău proxy. Aceasta limitează parțial funcționalitatea acestui sait de testare."
+msgstr "Conexiunile la URL-uri cu adrese IP par să fie blocate; probabil de un filtru web cum ar fii 'NoScript' sau 'RequestPolicy' instalat în navigatorul tău sau de filtrele din serverul proxy. Aceasta limitează parțial funcționalitatea acestui site."
 
 #: messages.js
 msgid "IPv4 Connections using DNS work; but literal IP addresses in urls do not. These are rarely used on the web today."
@@ -46,23 +46,23 @@ msgstr "Conexiunile IPv6 care folosesc DNS funcționează dar nu și adresele IP
 
 #: messages.js
 msgid "You appear to be using a public 6to4 gateway; your router may be providing this to you automatically. Such public gateways have no service level agreements; you may see performance problems using such. Better would be to get a native IPv6 address from your ISP."
-msgstr "You appear to be using a public 6to4 gateway; your router may be providing this to you automatically. Such public gateways have no service level agreements; you may see performance problems using such. Better would be to get a native IPv6 address from your ISP."
+msgstr "Se pare ca folosesti un gateway public de la IPv6 la IPv4(o tehnologie folosita pentru a accesa serverele IPv4(tehnologie invechita) din reteaua noua IPv6, router-ul tau poate furniza acest lucru automat pentru tine. Aceste gateway-uri nu furnizeaza acorduri la nivel de serviciu, s-ar putea sa intampini probleme folosind astfel de tehnologii. Cel mai bine ar fii sa iti obtii o adresa IPv6 nativa de la provider-ul dumneavoastra de Internet(ISP)."
 
 #: messages.js
 msgid "Your IPv6 connection appears to be using Teredo, a type of IPv4/IPv6 translation using a public gateway. The quality for this <i>may</i> suffer, as you are using a public gateway to reach IPv6 based sites."
-msgstr "Your IPv6 connection appears to be using Teredo, a type of IPv4/IPv6 translation using a public gateway. The quality for this <i>may</i> suffer, as you are using a public gateway to reach IPv6 based sites."
+msgstr "Conexiunea ta IPv6 se pare ca foloseste serviciul Teredo, un tip de traducere a adreselor IPv4 catre adresele IPv6, folosind gateway-uri publice. Calitatea acestor servicii <i>poate</i> scadea, daca folositi astfel de gateway-uri publice pentru a accesa site-uri IPv6 native."
 
 #: messages.js
 msgid "Your IPv6 connection appears to be using Teredo, a type of IPv4/IPv6 gateway; currently it connects only to direct IP's. Your browser will not be able to go to IPv6 sites by name. This means the current configuration is not useful for browsing IPv6 web sites."
-msgstr "Your IPv6 connection appears to be using Teredo, a type of IPv4/IPv6 gateway; currently it connects only to direct IP's. Your browser will not be able to go to IPv6 sites by name. This means the current configuration is not useful for browsing IPv6 web sites."
+msgstr "Conexiunea ta IPv6 pare sa foloseasca serviciul Teredo, un tip de gateway de la IPv4 la IPv6; in acest moment te poti conecta doar catre adresele IP directe. Browser-ul dumneavoastra nu poate sa se conecteze la site-urile IPv6 dupa nume, ci doar dupa adresa directa IP. Configuratia dumneavoastra din acest moment nu este utila pentru a accesa site-urile web IPv6."
 
 #: messages.js
 msgid "Your IPv6 connection appears to be using Teredo, a type of IPv4/IPv6 gateway. Your particular teredo configuration is only used as a protocol of last resort. When visiting a site with both IPv4 and IPv6, IPv4 will be preferred."
-msgstr "Your IPv6 connection appears to be using Teredo, a type of IPv4/IPv6 gateway. Your particular teredo configuration is only used as a protocol of last resort. When visiting a site with both IPv4 and IPv6, IPv4 will be preferred."
+msgstr "Conexiunea ta IPv6 se pare ca foloseste serviciul Teredo, un tip de gateway IPv4 catre IPv6. Configuratia ta Teredo este folosita doar in ultima instanta. Cand vizitezi un site care foloseste ambele protocoale IPv6 si IPv4, IPv4 o sa fie preferat."
 
 #: messages.js
 msgid "Danger! IPv6 sorta works - however, large packets appear to fail, giving the appearance of a broken website. If a publisher publishes to IPv6, you will believe their web site to be broken. Ask your ISP about MTU issues; possibly with your tunnel."
-msgstr "Danger! IPv6 sorta works - however, large packets appear to fail, giving the appearance of a broken website. If a publisher publishes to IPv6, you will believe their web site to be broken. Ask your ISP about MTU issues; possibly with your tunnel."
+msgstr "Atentie! Protocolul IPv6 se pare ca functioneaza - totusi, pachetele mari se pare ca esueaza, dand aspectul unui site web deteriorat. Daca un autor publica catre site-urile care folosesc acest protocol, o sa-ti dea impresia ca site-ul este deteriorat. Intreaba-ti provider-ul de Internet(ISP) despre problemele MTU posibile la conexiunea ta."
 
 #: messages.js
 msgid "Check your firewall to make sure that ICMPv6 messages are allowed (in particular, Type 2 or Packet Too Big)."
@@ -70,55 +70,55 @@ msgstr "Verifică paravanul de protecție pentru a te asigura că mesajele ICMPv
 
 #: messages.js
 msgid "Test results inconclusive; they were not consistent with expectations. Please rerun the test, and if the results are the same, please fill out the contact form."
-msgstr "Test results inconclusive; they were not consistent with expectations. Please rerun the test, and if the results are the same, please fill out the contact form."
+msgstr "Rezultatele testelor sunt neconcludente; ele nu sunt in concordanta cu asteptarile. Te rugam sa mai faci testul inca o data, daca rezultatul este acelasi, te rugam sa completezi forumularul de contact."
 
 #: messages.js
 msgid "For unknown reasons, your browser appears to operate slower when given the option of connecting to both IPv4 and IPv6. Please rerun the test, and if the results are the same, please fill out the contact form."
-msgstr "For unknown reasons, your browser appears to operate slower when given the option of connecting to both IPv4 and IPv6. Please rerun the test, and if the results are the same, please fill out the contact form."
+msgstr "Din motive necunoscute, browser-ul dumneavoastra se pare ca se misca greu cand i s-a dat optiunea de a se connecta la unul dintre protocoalele IPv4/IPv6. Te rugam sa mai faci testul inca o data, si daca rezultatul este acelasi, te rugam sa completezi formularul de contact."
 
 #: messages.js
 msgid "You appear to be able to browse the IPv4 Internet only. You will not be able to reach IPv6-only sites."
-msgstr "You appear to be able to browse the IPv4 Internet only. You will not be able to reach IPv6-only sites."
+msgstr "Se pare ca poti sa accesezi site-urile care folosesc doar protocolul IPv4. Nu o sa poti sa accesezi site-urile native IPv6."
 
 #: messages.js
 msgid "When a publisher offers both IPv4 and IPv6, your browser appears to be happy to take the IPv4 site without delay."
-msgstr "When a publisher offers both IPv4 and IPv6, your browser appears to be happy to take the IPv4 site without delay."
+msgstr "Cand un site iti ofera posibilitatea de a alege intre protocolul IPv4/IPv6, browser-ul tau se pare ca prefera sa aleaga IPv4 fara intarziere."
 
 #: messages.js
 msgid "When a publisher offers both IPv4 and IPv6, your browser appears to slow down signficantly compared to an IPv4-only site. You may even believe the destination web site to be broken. This may be due to your IPv6 configuration."
-msgstr "When a publisher offers both IPv4 and IPv6, your browser appears to slow down signficantly compared to an IPv4-only site. You may even believe the destination web site to be broken. This may be due to your IPv6 configuration."
+msgstr "Cand un site iti ofera posibilitatea de a alege intre protocolul IPv4/IPv6, browser-ul tau se pare ca se misca destul de incet comparativ cu un site care suporta doar IPv4. S-ar putea sa crezi ca site-ul este deteriorat, aceasta problema este cauzata de configuratia IPv6."
 
 #: messages.js
 msgid "When a publisher offers both IPv4 and IPv6, your browser will time out trying to connect. You may believe the site is down. This may be due to your IPv6 configuration. Consider disabling IPv6, or seeking help."
-msgstr "When a publisher offers both IPv4 and IPv6, your browser will time out trying to connect. You may believe the site is down. This may be due to your IPv6 configuration. Consider disabling IPv6, or seeking help."
+msgstr "Cand un site iti ofera posibilitatea de a alege intre protocolul IPv4/IPv6, cererea de connectare a browser-ului tau va expira, dandu-ti senzatia ca site-ul este nefunctional. Aceasta este datorata configuratiei IPv6. Luati in considerare sa dezactivati protocolul IPv6, sau sa cereti ajutor."
 
 #: messages.js
 msgid "Connections to IPv4 are slow, but functional. Perhaps you or your ISP put you behind an IP sharing device (NAT) that is currently slow."
-msgstr "Connections to IPv4 are slow, but functional. Perhaps you or your ISP put you behind an IP sharing device (NAT) that is currently slow."
+msgstr "Conexiunile catre IPv4 sunt lente, dar functionale. Aceasta este datorata faptului ca folosesti un router(NAT) lent sau din cauza provider-ului de Internet."
 
 #: messages.js
 msgid "You appear to be able to browse the IPv6 Internet only. You have no access to IPv4. That's pretty bold!"
-msgstr "You appear to be able to browse the IPv6 Internet only. You have no access to IPv4. That's pretty bold!"
+msgstr "Se pare ca poti accesa doar catre site-urile IPv6. Nu ai access catre reteaua veche IPv4. Aceasta este destul de indraznet!"
 
 #: messages.js
 msgid "Connections to IPv6 are slow, but functional. Perhaps you are using a public IPv6 tunnel that is either slow, or not located near you."
-msgstr "Connections to IPv6 are slow, but functional. Perhaps you are using a public IPv6 tunnel that is either slow, or not located near you."
+msgstr "Conexiunile catre IPv6 sunt lente, dar functionale. Poate folosesti un tunel IPv6 care este lent, sau nu este in apropierea ta."
 
 #: messages.js
 msgid "Connections to IPv6-only sites are timing out. Any web site that is IPv6 only, will appear to be down to you."
-msgstr "Connections to IPv6-only sites are timing out. Any web site that is IPv6 only, will appear to be down to you."
+msgstr "Cererile de conexiunile catre site-urile IPv6 native expira. Toate site-urile care folosesc doar protocolul IPv6 vor parea ca sunt nefunctionale la tine."
 
 #: messages.js
 msgid "Connections to IPv6-capable web sites hang. It appears that you may have IPv6 configured; and your computer believes that your IPv6 is working, with a route. It is however completely failing. Any web site that adds IPv6, will become unreachable to you. If you are unable to fix your IPv6 routing or connectivity, seek help. If all else fails, strongly consider disabling IP6 on host."
-msgstr "Connections to IPv6-capable web sites hang. It appears that you may have IPv6 configured; and your computer believes that your IPv6 is working, with a route. It is however completely failing. Any web site that adds IPv6, will become unreachable to you. If you are unable to fix your IPv6 routing or connectivity, seek help. If all else fails, strongly consider disabling IP6 on host."
+msgstr "Conexiunile catre site-urile IPv6 sunt inchise pe neasteptate. Se pare ca ai protocolul IPv6 configurat, si calculatorul dumneavoastra crede ca acest protocol functioneaza in parametrii normali, dar de cele mai multe ori esueaza. Orice site web care isi adauga protocolul IPv6, o sa devina inaccesibili de catre tine. Daca nu puteti sa remediati rutarea IPv6 sau conexiunea, ar fii indicat sa cereti ajutor. Daca toate acestea esueaza, considera sa dezactivezi protocolul IPv6 pe calculatorul gazda."
 
 #: messages.js
 msgid "We are unable to test your system; it appears that a firewall or browser filter is preventing the test from running. Critical tests are failing. Try disabling any browser plugins, extensions, or add-ons (such as ad blockers); and reloading this page. If that still fails, you can leave a comment requesting help."
-msgstr "We are unable to test your system; it appears that a firewall or browser filter is preventing the test from running. Critical tests are failing. Try disabling any browser plugins, extensions, or add-ons (such as ad blockers); and reloading this page. If that still fails, you can leave a comment requesting help."
+msgstr "Nu putem sa rulam testul pe sistemul dumneavoastra, se pare un firewall sau un filtru al browser-ului impiedica buna functionare a testului. Testele critice esueaza. Incearca sa dezactivezi orice plugin sau extensie (ca AdBlock), si te rugam sa reincarci aceasta pagina. Daca problema persista, te rugam sa ne lasi un mesaj in care cereti ajutor."
 
 #: messages.js
 msgid "We are unable to test your system; it appears that a firewall or browser filter is preventing the test from running. The dual-stack tests are failing. Try disabling any browser plugins, extensions, or add-ons (such as ad blockers); and reloading this page. If that still fails, you can leave a comment requesting help."
-msgstr "We are unable to test your system; it appears that a firewall or browser filter is preventing the test from running. The dual-stack tests are failing. Try disabling any browser plugins, extensions, or add-ons (such as ad blockers); and reloading this page. If that still fails, you can leave a comment requesting help."
+msgstr "Nu putem sa rulam testul pe sistemul dumneavoastra, se pare un firewall sau un filtru al browser-ului impiedica buna functionare a testului. Testele dual-stack esueaza. Incearca sa dezactivezi orice plugin sau extensie (ca AdBlock), si te rugam sa reincarci aceasta pagina. Daca problema persista, te rugam sa ne lasi un mesaj in care cereti ajutor."
 
 #: messages.js
 msgid "Your browser is blocking the test urls. We will try alternate methods, but they may fail to show your IP address; and may affect the quality of the advice given."
@@ -130,7 +130,7 @@ msgstr "Cea mai probabilă cauză este NoScript sau AdBlock+. NoScript poate per
 
 #: messages.js
 msgid "NAT64 detected. IPv6 works. IPv4 works for most purposes. Applications that are hard-coded for IPv4-only will fail. We are aware of at least one major voice-over-ip program that falls into this category. Your application's support staff may need a nudge to add proper IPv6 support."
-msgstr "NAT64 detected. IPv6 works. IPv4 works for most purposes. Applications that are hard-coded for IPv4-only will fail. We are aware of at least one major voice-over-ip program that falls into this category. Your application's support staff may need a nudge to add proper IPv6 support."
+msgstr "Router traducator IPv6 catre IPv4 detectat. Protocolul IPv6 functioneaza corespunzator, dar protocolul IPv4 doar in unele cazuri. Aplicatiile complexe care folosesc doar protocolul IPv4 o sa esueze. Suntem constienti ca unul dintre cele mai folosite servicii de telefonie prin Internet(VoIP) o sa fie afectat de acest lucru. Personalul de sprijin al aplicatiei s-ar putea sa intampine probleme la adaugarea suportului IPv6 nativ."
 
 #: messages.js
 msgid "Your DNS server (possibly run by your ISP) appears to have IPv6 Internet access."
@@ -142,7 +142,7 @@ msgstr "Serverul tău DNS (probabil rulează la distribuitorul tău de internet)
 
 #: messages.js
 msgid "You are likely using a FireFox plugin that is causing IP based tests to fail. Examples: RequestPolicy. Please disable those while using this site."
-msgstr "You are likely using a FireFox plugin that is causing IP based tests to fail. Examples: RequestPolicy. Please disable those while using this site."
+msgstr "Cel mai probabil folosesti un plugin din browser-ul Firefox care cauzeaza probleme la efectuarea testului. De exemplu pluginul: RequestPolicy. Te rugam sa dezactivezi aceste pluginuri cand folosesti acest site."
 
 #: messages.js
 msgid "A lookup for an IPv6-only name failed; yet the lookup and connect for dual-stack connected via IPv6. Something appears to be confused with the DNS lookups."
@@ -170,11 +170,11 @@ msgstr "Adresa (adresele) ta IP nu a putut fi detectată datorită interferențe
 
 #: messages.js
 msgid "The Opera web browser seems to be break on this site frequently. <b>If you have trouble, try another browser</b>."
-msgstr "The Opera web browser seems to be break on this site frequently. <b>If you have trouble, try another browser</b>."
+msgstr "Browser-ul Opera pare sa nu fie compatibil in totalitate cu acest site. <b>Daca intampini probleme</b>, incearca cu alt browser."
 
 #: messages.js
 msgid "<b>Disable turbo mode on Opera, and try again.</b> Turbo mode is not compatible with the needs of this site."
-msgstr "<b>Disable turbo mode on Opera, and try again.</b> Turbo mode is not compatible with the needs of this site."
+msgstr "<b>Dezactiveaza modul turbo in browser-ul Opea, si incercati din nou</b>. Modul turbo nu este combatibil cu acest site."
 
 #: messages.js
 msgid "<b>Good news!</b> Your current configuration will continue to work as web sites enable IPv6."
@@ -186,7 +186,7 @@ msgstr "<b>Testele noastre arată că vei avea o configurație IPv6 incompletă 
 
 #: messages.js
 msgid "<b>Our tests show that you will may have MTU problems with IPv6; this can cause web sites to load slow (or not at all) when web sites enable IPv6.</b>"
-msgstr "<b>Our tests show that you will may have MTU problems with IPv6; this can cause web sites to load slow (or not at all) when web sites enable IPv6.</b>"
+msgstr "<b>Testele noastre ne arata ca intampini probleme MTU folosind protocolul IPv6; aceasta este cauzata din cauza site-ului web care se incarca foarte greu(sau chiar deloc) cand site-ul web permite IPv6.</b>"
 
 #: messages.js
 msgid "We looked up an IPv6 address, but your DNS server (possibly your home router) mangled the response, and is treating it as (broken) IPv4."
@@ -198,11 +198,11 @@ msgstr "Se pare că folosești un tunel pentru IPv4 sau IPv6."
 
 #: messages.js
 msgid "It appears that you use a managed tunnel mechanism, 6RD, to transport IPv6 over IPv4."
-msgstr "It appears that you use a managed tunnel mechanism, 6RD, to transport IPv6 over IPv4."
+msgstr "Se pare ca folositi un mecanism de gestionare a tunelului: 6RD, pentru a transmite pachete IPv6 prin reteaua IPv4."
 
 #: messages.js
 msgid "We have detected that you are using a proxy. This means we are testing your proxy server, not your computer. Proxy details (as reported by your proxy 'Via' header): %details"
-msgstr "We have detected that you are using a proxy. This means we are testing your proxy server, not your computer. Proxy details (as reported by your proxy 'Via' header): %details"
+msgstr "Am detectat ca folositi un proxy. Aceasta inseamna ca testam serverul proxy, nu calculatorul dumneavoastra. Detaliile proxy (asa cum sunt raportate de proxy 'prin' antet): %details"
 
 #: messages.js
 msgid "We have detected that you are using a proxy. This means we are testing your proxy server, not your computer."
@@ -214,7 +214,7 @@ msgstr "Conexiunile IPv6 funcționează dar conexiunile la nume DNS nu folosesc 
 
 #: messages.js
 msgid "We have suggestions to help you fix your system."
-msgstr "We have suggestions to help you fix your system."
+msgstr "Avem o sugestie pentru a va ajuta sa va remediati problemele sistemului dumneavoastra."
 
 #: messages.js
 msgid "Since you have IPv6, we are including a tab that shows how well you can reach other IPv6 sites. %sites"
@@ -222,7 +222,7 @@ msgstr "Deoarece ai IPv6 includem și o filă care arată cât de bine te poți 
 
 #: messages.js
 msgid "Your browser has real working IPv6 address - but is avoiding using it. We're concerned about this."
-msgstr "Your browser has real working IPv6 address - but is avoiding using it. We're concerned about this."
+msgstr "Browser-ul tau se pare ca foloseste o adresa functionala IPv6 - dar incearca sa eviti folosirea acesteia. Suntem constienti de acest lucru."
 
 #: messages.js
 msgid "faq: MTU"
@@ -230,11 +230,11 @@ msgstr "faq: MTU"
 
 #: messages.js
 msgid "faq: No IPv4"
-msgstr "faq: No IPv4"
+msgstr "faq: Nu aveti o adresa IPv4"
 
 #: messages.js
 msgid "faq: No IPv6"
-msgstr "faq: No IPv6"
+msgstr "faq: Nu aveti o adresa IPv6"
 
 #: messages.js
 msgid "faq: 6to4"
@@ -246,15 +246,15 @@ msgstr "faq: Teredo Minimum"
 
 #: messages.js
 msgid "faq: v6ns Bad"
-msgstr "faq: v6ns Bad"
+msgstr "faq: v6ns Stricat"
 
 #: messages.js
 msgid "faq: Browser Plugins"
-msgstr "faq: Browser Plugins"
+msgstr "faq: Addon-uri browser"
 
 #: messages.js
 msgid "faq: Firefox Add-Ons"
-msgstr "faq: Firefox Add-Ons"
+msgstr "faq: Addon-uri Firefox"
 
 #: messages.js
 msgid "faq: Opera"
@@ -262,11 +262,11 @@ msgstr "faq: Opera"
 
 #: messages.js
 msgid "faq: Buggy DNS"
-msgstr "faq: Buggy DNS"
+msgstr "faq: DNS cu probleme"
 
 #: messages.js
 msgid "faq: Broken!"
-msgstr "faq: Broken!"
+msgstr "faq: Deteriorat!"
 
 #: messages.js
 msgid "faq: Broken DNS Lookups"
@@ -274,15 +274,15 @@ msgstr "faq: Broken DNS Lookups"
 
 #: messages.js
 msgid "faq: Avoiding IPv6?"
-msgstr "faq: Avoiding IPv6?"
+msgstr "faq: Evitarea IPv6?"
 
 #: messages.js
 msgid "faq: 6RD tunnel"
-msgstr "faq: 6RD tunnel"
+msgstr "faq: tunel 6RD"
 
 #: builtin.js
 msgid "[more info]"
-msgstr "[more info]"
+msgstr "[mai multe informatii]"
 
 #: builtin.js
 msgid "Your IPv4 address on the public Internet appears to be"
@@ -290,7 +290,7 @@ msgstr "Adresa ta IPv4 în internetul public pare să fie"
 
 #: builtin.js
 msgid "Proxied"
-msgstr "Proxied"
+msgstr "Trafic transmis"
 
 #: builtin.js
 msgid "Your IPv6 address on the public Internet appears to be"
@@ -298,7 +298,7 @@ msgstr "Adresa ta IPv6 în internetul public pare să fie"
 
 #: builtin.js
 msgid "Your IPv6 service appears to be"
-msgstr "Your IPv6 service appears to be"
+msgstr "Provider-ul dumneavoastra de Internet IPv6 pare a fii"
 
 #: builtin.js
 msgid "Your Internet Service Provider (ISP) appears to be"
@@ -306,15 +306,15 @@ msgstr "Furnizorul tău de internet (ISP) pare să fie"
 
 #: builtin.js
 msgid "Started"
-msgstr "Started"
+msgstr "Inceput"
 
 #: builtin.js
 msgid "proxied"
-msgstr "proxied"
+msgstr "trafic transmis"
 
 #: builtin.js
 msgid "using"
-msgstr "using"
+msgstr "folosind"
 
 #: builtin.js
 msgid "tests run"
@@ -358,7 +358,7 @@ msgstr "datele de test"
 
 #: builtin.js
 msgid "Your FAQ"
-msgstr "Your FAQ"
+msgstr "Intrebarile dumneavoastra frecvente"
 
 #: builtin.js
 msgid "Frequently Asked Questions"
@@ -366,15 +366,15 @@ msgstr "Întrebări frecvente"
 
 #: builtin.js
 msgid "loading..."
-msgstr "loading..."
+msgstr "se incarca..."
 
 #: builtin.js
 msgid "failed to load"
-msgstr "failed to load"
+msgstr "nu a reușit să se încarce"
 
 #: builtin.js
 msgid "[go back]"
-msgstr "[go back]"
+msgstr "[du-te inapoi]"
 
 #: builtin.js
 msgid "[permalink]"
@@ -382,7 +382,7 @@ msgstr "[permalink]"
 
 #: versions.js
 msgid "%app: You are running version %found; we recommend %suggest or newer."
-msgstr "%app: You are running version %found; we recommend %suggest or newer."
+msgstr "%app: In acest moment folositi o versiune %found; va recomandam %suggest sau mai noua."
 
 #: form.js
 msgid "share your results"
@@ -394,23 +394,23 @@ msgstr "I am most interested in discussing your setup with you, because it was b
 
 #: form.js
 msgid "retest"
-msgstr "retest"
+msgstr "fa testul din nou"
 
 #: form.js
 msgid "Result code"
-msgstr "Result code"
+msgstr "Codul rezultatului"
 
 #: form.js
 msgid "Note: I can't contact you, if the contact info is blank. If you really want to submit this anonymously, hit Send Results again."
-msgstr "Note: I can't contact you, if the contact info is blank. If you really want to submit this anonymously, hit Send Results again."
+msgstr "Nota: Nu pot sa te contactez, daca datele de contact nu sunt completate. Daca chiar vrei sa trimiti aceasta cerere anonima, te rugam sa dai click din nou pe butonul de Trimitere rezultate."
 
 #: checkresults.js
 msgid "unknown expansion"
-msgstr "unknown expansion"
+msgstr "expansiune necunoscuta"
 
 #: checkresults.js
 msgid "unknown result code"
-msgstr "unknown result code"
+msgstr "rezultatul testului necunoscut"
 
 #: symptoms.js
 msgid "Your browser blocked"
@@ -418,7 +418,7 @@ msgstr "Navigatorul tău a blocat"
 
 #: helpdesk.js
 msgid "Your Internet help desk may ask you for the information below."
-msgstr "Your Internet help desk may ask you for the information below."
+msgstr "Ghiseul de ajutor al providerul dumneavoastra de Internet s-ar putea sa va ceara informatiile de mai jos."
 
 #: header.inc
 msgid "Test your IPv6."
@@ -426,11 +426,11 @@ msgstr "Testează IPv6."
 
 #: header.inc
 msgid "This will test your browser and connection for IPv6 readiness, as well as show you your current IPV4 and IPv6 address."
-msgstr "This will test your browser and connection for IPv6 readiness, as well as show you your current IPV4 and IPv6 address."
+msgstr "Aceasta o sa va testeze browser-ul dumneavoastra si promptitudinea conexiunii IPv6, de asemenea si adresa IPv4 si IPv6 curenta."
 
 #: list-nav.inc
 msgid "Test IPv6"
-msgstr "Test IPv6"
+msgstr "Testeaza conexiunea IPv6"
 
 #: list-nav.inc
 msgid "FAQ"
@@ -450,27 +450,27 @@ msgstr "Testează conectivitatea ta IPv6."
 
 #: index.html
 msgid "(Replay)"
-msgstr "(Replay)"
+msgstr "(Reluare)"
 
 #: js_required.inc
 msgid "JavaScript Required"
-msgstr "JavaScript Required"
+msgstr "Aveti nevoie de JavaScript"
 
 #: js_required.inc
 msgid "This site requires JavaScript, as well as the ability to pull in cross-site scripts, in order to perform the testing."
-msgstr "This site requires JavaScript, as well as the ability to pull in cross-site scripts, in order to perform the testing."
+msgstr "Acest site foloseste JavaScript, de asemenea si de abilitatea de a trimite date prin intermediul scripturilor folosite de acest site, pentru o buna functionare a testelor."
 
 #: js_required.inc
 msgid "If this message does not go away, it means that JavaScript has been disabled, either by a plugin or extension in your browser, or by explicit browser setting."
-msgstr "If this message does not go away, it means that JavaScript has been disabled, either by a plugin or extension in your browser, or by explicit browser setting."
+msgstr "Daca acest mesaj nu dispare, inseamna ca JavaScript-ul este dezactivat, fie de un plugin sau o extensie din browser-ul dumneavoastra, fie din setarile browser-ului dumneavoastra."
 
 #: js_required.inc
 msgid "Do you use NoScript?"
-msgstr "Do you use NoScript?"
+msgstr "Browser-ul tau nu suporta Javascript sau folositi vreun plugin care impiedica acest lucru? De exemplu: NoScript"
 
 #: js_required.inc
 msgid "If you use this Firefox add-on, you'll need to \"Temporarily allow all this page\". You will need to do this <b>twice</b> for everything to work. Alternately, disable NoScript entirely until you are done with this site."
-msgstr "If you use this Firefox add-on, you'll need to \"Temporarily allow all this page\". You will need to do this <b>twice</b> for everything to work. Alternately, disable NoScript entirely until you are done with this site."
+msgstr "Daca folositi vreun plugin in Firefox, o sa fiti nevoiti sa dati click pe: \"Temporar permiteti toata pagina\"(Temporarily allow all this page). O sa fiti nevoiti sa faceti acest lucru de <b>doua ori</b> pentru a functiona corect. O varianta alternativa ar fii sa dezactivati pluginul NoScript complet, pana cand efectuati testul."
 
 #: js_required.inc
 msgid "You can opt instead to view the <a href=\"simple_test.html\">simple test</a>, which will give you a quick pass/fail for IPv4, IPv4+IPv6, and IPv6. It will however offer little diagnostic information."
@@ -526,7 +526,7 @@ msgstr "Test cu înregistrare DNS IPv4"
 
 #: main/tests.inc
 msgid "pending"
-msgstr "pending"
+msgstr "in asteptare"
 
 #: main/tests.inc
 msgid "Test with IPv6 DNS record"
@@ -550,19 +550,19 @@ msgstr "Test IPv6 fără DNS"
 
 #: main/tests.inc
 msgid "Test IPv6 large packet"
-msgstr "Test IPv6 large packet"
+msgstr "Incercati cu un pachet IPv6 mare"
 
 #: main/tests.inc
 msgid "Test if your ISP's DNS server uses IPv6"
-msgstr "Test if your ISP's DNS server uses IPv6"
+msgstr "Incercati sa vedeti daca DNS-ul providerului dumneavoastra de Internet foloseste IPv6"
 
 #: main/tests.inc
 msgid "Find IPv4 Service Provider"
-msgstr "Find IPv4 Service Provider"
+msgstr "Gasiti un provider de Internet IPv4"
 
 #: main/tests.inc
 msgid "Find IPv6 Service Provider"
-msgstr "Find IPv6 Service Provider"
+msgstr "Gasiti un provider de Internet IPv6"
 
 #: main/tests.inc
 msgid "Test for buggy DNS"
@@ -662,7 +662,7 @@ msgstr "If reporting a problem with the test, or requesting help with your resul
 
 #: main/mail.inc
 msgid "Thanks,"
-msgstr "Thanks,"
+msgstr "Multumim,"
 
 #: main/mail.inc
 msgid "Purpose for comment"
