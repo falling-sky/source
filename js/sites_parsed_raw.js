@@ -26,15 +26,6 @@
       "v4" : "http://ipv4.chelloo.com/images/pixel.gif",
       "v6" : "http://ipv6.chelloo.com/images/pixel.gif"
    },
-   "duplimaster.com" : {
-      "hide" : "0",
-      "loc" : "ES",
-      "monitor" : "Jesus Vara <jvara@e-impresion.es>",
-      "provider" : "duplimaster.com",
-      "site" : "duplimaster.com",
-      "v4" : "http://ipv4.duplimaster.com/public/images/logo-sombra.png",
-      "v6" : "http://ipv6.duplimaster.com/public/images/logo-sombra.png"
-   },
    "eurobilltracker.com" : {
       "hide" : "0",
       "loc" : "FI",
@@ -43,15 +34,6 @@
       "site" : "eurobilltracker.com",
       "v4" : "http://ipv4.test-ipv6.eurobilltracker.com/img/1x1.gif",
       "v6" : "http://ipv6.test-ipv6.eurobilltracker.com/img/1x1.gif"
-   },
-   "go6.vn" : {
-      "hide" : "0",
-      "loc" : "VN",
-      "monitor" : "Do Ngoc Phuong <phuong.dn@netnam.vn>",
-      "provider" : "NetNam Corporation",
-      "site" : "go6.vn",
-      "v4" : "http://ipv4lab.netnam.vn/netnam_ipv4.jpg",
-      "v6" : "http://ipv6lab.netnam.vn/netnam_ipv6.jpg"
    },
    "google.com" : {
       "hide" : "0",
@@ -106,15 +88,6 @@
       "site" : "sixte.st",
       "v4" : "http://ipv4.sixte.st/images-nc/knob_green.png",
       "v6" : "http://ipv6.sixte.st/images-nc/knob_green.png"
-   },
-   "snozzages.com" : {
-      "hide" : "0",
-      "loc" : "US (VA)",
-      "monitor" : "Warren Kumari <warren@kumari.net>",
-      "provider" : "Warren Kumari",
-      "site" : "snozzages.com",
-      "v4" : "http://ipv4.v6test.snozzages.com/1x1.gif",
-      "v6" : "http://ipv6.v6test.snozzages.com/1x1.gif"
    },
    "stdio.be" : {
       "hide" : "0",
@@ -260,16 +233,6 @@
       "site" : "test-ipv6.fratec.net",
       "v4" : "http://ipv4.test-ipv6.fratec.net/images-nc/knob_green.png",
       "v6" : "http://ipv6.test-ipv6.fratec.net/images-nc/knob_green.png"
-   },
-   "test-ipv6.go6.si" : {
-      "hide" : "0",
-      "loc" : "SI",
-      "mirror" : "1",
-      "monitor" : "Jan Zorz <jan@go6.si>",
-      "provider" : "Go6 Lab - Slovenian IPv6 Iniciative",
-      "site" : "test-ipv6.go6.si",
-      "v4" : "http://ipv4.test-ipv6.go6.si/images-nc/knob_green.png",
-      "v6" : "http://ipv6.test-ipv6.go6.si/images-nc/knob_green.png"
    },
    "test-ipv6.hu" : {
       "hide" : "0",
@@ -458,15 +421,6 @@
       "site" : "testipv6.de",
       "v4" : "http://ipv4.testipv6.de/images-nc/knob_green.png",
       "v6" : "http://ipv6.testipv6.de/images-nc/knob_green.png"
-   },
-   "www.cyberis.co.uk" : {
-      "hide" : "0",
-      "loc" : "UK",
-      "monitor" : "geoff.jones@cyberis.co.uk <geoff.jones@cyberis.co.uk>",
-      "provider" : "Cyberis Limited",
-      "site" : "www.cyberis.co.uk",
-      "v4" : "http://ipv4labs.cyberis.co.uk/logo.png",
-      "v6" : "http://ipv6labs.cyberis.co.uk/logo.png"
    },
    "www.delong.com" : {
       "hide" : "0",

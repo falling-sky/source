@@ -38,3 +38,8 @@ dist-stable: work sites
 	 ../dist_support/make-dist.pl --base content --branch stable
 	 
 dist:	all dist-stable
+
+crowdin:
+	make all
+	git commit  -m "latest translations" po
+	make dist-stable
