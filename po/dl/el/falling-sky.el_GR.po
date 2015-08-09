@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-08-04 10:00-0400\n"
+"PO-Revision-Date: 2015-08-08 14:00-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Greek\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -598,11 +598,11 @@ msgstr "Θα γίνει προσπάθεια σύνδεσης μέσω της ί
 
 #: main/tech.inc
 msgid "Validates that IPv6 requests with large packets work. If this test times out, but other IPv6 tests work, it suggests that there may be PMTUD issues; possibly involving IP tunnels."
-msgstr "Validates that IPv6 requests with large packets work. If this test times out, but other IPv6 tests work, it suggests that there may be PMTUD issues; possibly involving IP tunnels."
+msgstr "Επαληθεύει τη λειτουργία αιτημάτων IPv6 για μεγάλα πακέτα. Αν αυτή η δοκιμή παρουσιάσει timeout, ενώ οι άλλες IPv6 δοκιμές ολοκληρωθούν επιτυχώς, τότε ίσως να πρόκειται για PMTUD θέματα, με πιθανή συμμετοχή των IP tunnels."
 
 #: main/tech.inc
 msgid "Double check to make sure that ICMPv6 Type 2 (\"Packet Too Big\") messages are not filtered by your firewall."
-msgstr "Double check to make sure that ICMPv6 Type 2 (\"Packet Too Big\") messages are not filtered by your firewall."
+msgstr "Ξανά ελέγξτε και βεβαιωθείτε ότι τα ICMPv6 Type 2 (\"Packet Too Big\") μηνύματα επιτρέπονται από το firewall σας."
 
 #: main/tech.inc
 msgid "(This is bonus credit)"
@@ -610,7 +610,7 @@ msgstr "(This is bonus credit)"
 
 #: main/tech.inc
 msgid "This is a test of your ISP's resolver (instead of a test of your host). If this test passes, your DNS server (often run by your ISP) is capable of reaching IPV6-only DNS authoritative servers on the Internet. This is not critical (at this time) for you to reach sites via IPv6."
-msgstr "This is a test of your ISP's resolver (instead of a test of your host). If this test passes, your DNS server (often run by your ISP) is capable of reaching IPV6-only DNS authoritative servers on the Internet. This is not critical (at this time) for you to reach sites via IPv6."
+msgstr "Αυτή η δοκιμή είναι για τον resolver του ISP σας (όχι για τον υπολογιστή σας). Η επιτυχία αυτής της δοκιμής σημαίνει ότι ο DNS εξυπηρετητής (συνήθως προσφερόμενος από τον ISP σας) δύναται να προσπελάσει IPv6-only DNS authoritative servers στον Internet. Κάτι το οποίο δεν θεωρείται κρίσιμο (για την ώρα) για την προσπέλαση σελίδων μέσω IPv6."
 
 #: main/tech.inc
 msgid "Attempts to identify what Internet Service Provider you use for IPv4. This may be different from the marketing name you see in your local market; or may reflect a previous company name. The name shown reflects how it is known in the network operator community."
@@ -662,7 +662,7 @@ msgstr "If reporting a problem with the test, or requesting help with your resul
 
 #: main/mail.inc
 msgid "Thanks,"
-msgstr "Thanks,"
+msgstr "Ευχαριστώ,"
 
 #: main/mail.inc
 msgid "Purpose for comment"
@@ -686,7 +686,7 @@ msgstr "Cheers or Jeers"
 
 #: main/mail.inc
 msgid "Email address if you'll permit me to contact you. <i>Required, if you wish a response.</i>"
-msgstr "Email address if you'll permit me to contact you. <i>Required, if you wish a response.</i>"
+msgstr "Το Email σας για να επικοινωνήσουμε. <i>Απαραίτητο αν επιθυμείτε κάποια απάντηση.</i>"
 
 #: main/mail.inc
 msgid "Any information you think I might find useful (what router you're using, or a firewall in the way, or type of proxy you use, etc). This includes general feedback."
@@ -870,7 +870,7 @@ msgstr "Make sure you are current"
 
 #: broken.html
 msgid "Find your IP address"
-msgstr "Find your IP address"
+msgstr "Βρείτε την IP διεύθυνσή σας"
 
 #: broken.html
 msgid "If you set up a tunnel broker"
@@ -1138,7 +1138,7 @@ msgstr "Make sure any software firewall you are operating is passing \"protocol 
 
 #: faq/broken_tunnelbroker.inc
 msgid "If everything worked before your reboot but fails now, check your firewall settings."
-msgstr "If everything worked before your reboot but fails now, check your firewall settings."
+msgstr "Αν όλα λειτουργούσαν πριν την επανεκκίνηση, αλλά αποτυγχάνουν τώρα, ελέγξτε τις ρυθμίσεις του firewall σας."
 
 #: faq/broken_tunnelbroker.inc
 msgid "Make sure the box \"doing 6to4\" can ping the other side of the tunnelbroker gateway before working on any other hosts."
