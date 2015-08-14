@@ -26,6 +26,15 @@ GIGO.sites_parsed={
       "v4" : "http://ipv4.chelloo.com/images/pixel.gif",
       "v6" : "http://ipv6.chelloo.com/images/pixel.gif"
    },
+   "duplimaster.com" : {
+      "hide" : "0",
+      "loc" : "ES",
+      "monitor" : "Jesus Vara <jvara@e-impresion.es>",
+      "provider" : "duplimaster.com",
+      "site" : "duplimaster.com",
+      "v4" : "http://ipv4.duplimaster.com/public/images/logo-sombra.png",
+      "v6" : "http://ipv6.duplimaster.com/public/images/logo-sombra.png"
+   },
    "eurobilltracker.com" : {
       "hide" : "0",
       "loc" : "FI",
@@ -88,6 +97,15 @@ GIGO.sites_parsed={
       "site" : "sixte.st",
       "v4" : "http://ipv4.sixte.st/images-nc/knob_green.png",
       "v6" : "http://ipv6.sixte.st/images-nc/knob_green.png"
+   },
+   "snozzages.com" : {
+      "hide" : "0",
+      "loc" : "US (VA)",
+      "monitor" : "Warren Kumari <warren@kumari.net>",
+      "provider" : "Warren Kumari",
+      "site" : "snozzages.com",
+      "v4" : "http://ipv4.v6test.snozzages.com/1x1.gif",
+      "v6" : "http://ipv6.v6test.snozzages.com/1x1.gif"
    },
    "stdio.be" : {
       "hide" : "0",
