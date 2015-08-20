@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-08-14 03:30-0400\n"
+"PO-Revision-Date: 2015-08-20 02:45-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Albanian\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -62,7 +62,7 @@ msgstr "Lidhja juaj IPv6 duket se përdor Teredo, një tip IPv4/IPv6 gateway. Ko
 
 #: messages.js
 msgid "Danger! IPv6 sorta works - however, large packets appear to fail, giving the appearance of a broken website. If a publisher publishes to IPv6, you will believe their web site to be broken. Ask your ISP about MTU issues; possibly with your tunnel."
-msgstr "Danger! IPv6 sorta works - however, large packets appear to fail, giving the appearance of a broken website. If a publisher publishes to IPv6, you will believe their web site to be broken. Ask your ISP about MTU issues; possibly with your tunnel."
+msgstr "Kujdes! IPv6 funksionon - por, në lidhje me paketa të mëdha, duket se dështon dhe lë përshtypjen se faqet nuk janë të aksesueshme nëpërmjet IPv6. Pyesni ISP-në tuaj sa i përket çëshjeve në lidhje me MTU dhe tunelin tuaj."
 
 #: messages.js
 msgid "Check your firewall to make sure that ICMPv6 messages are allowed (in particular, Type 2 or Packet Too Big)."
@@ -170,11 +170,11 @@ msgstr "Përcaktimi i adresës(ave) IP dështoi për shkak të pengesës nga bro
 
 #: messages.js
 msgid "The Opera web browser seems to be break on this site frequently. <b>If you have trouble, try another browser</b>."
-msgstr "The Opera web browser seems to be break on this site frequently. <b>If you have trouble, try another browser</b>."
+msgstr "Browseri Opera duket se shpeshherë nuk funksionon mirë me ketë site.<b>Në qoftë se keni probleme provoni me një browser tjetër</b>."
 
 #: messages.js
 msgid "<b>Disable turbo mode on Opera, and try again.</b> Turbo mode is not compatible with the needs of this site."
-msgstr "<b>Disable turbo mode on Opera, and try again.</b> Turbo mode is not compatible with the needs of this site."
+msgstr "<b>Ç'aktivizoni turbo mode në Opera dhe provoni sërish.</b> Turbo mode nuk përputhet me nevojat e kësaj faqeje."
 
 #: messages.js
 msgid "<b>Good news!</b> Your current configuration will continue to work as web sites enable IPv6."
@@ -338,15 +338,15 @@ msgstr "(Survey posting failed; the above information is accurate, but not recor
 
 #: builtin.js
 msgid "Your readiness score"
-msgstr "Your readiness score"
+msgstr "Rezultati i gatishmërisë suaj"
 
 #: builtin.js
 msgid "for your IPv4 stability and readiness, when publishers offer both IPv4 and IPv6"
-msgstr "for your IPv4 stability and readiness, when publishers offer both IPv4 and IPv6"
+msgstr "për qëndrueshmërinë dhe gatishmërinë e IPv4, kur materiali ofrohet me IPv4 dhe IPv6"
 
 #: builtin.js
 msgid "for your IPv6 stability and readiness, when publishers are forced to go IPv6 only"
-msgstr "for your IPv6 stability and readiness, when publishers are forced to go IPv6 only"
+msgstr "për qëndrueshmërinë dhe gatishmërinë e IPv6, kur materiali detyrimisht ofrohet vetëm me IPv6"
 
 #: builtin.js
 msgid "Click to see"
@@ -674,7 +674,7 @@ msgstr "Pyetje për rezultatet e testeve"
 
 #: main/mail.inc
 msgid "Report a bug with diagnosis"
-msgstr "Report a bug with diagnosis"
+msgstr "Raporto problemin me shkaqe"
 
 #: main/mail.inc
 msgid "Suggestion"
@@ -730,7 +730,7 @@ msgstr "We do not recommend posting this link on public web sites such as forums
 
 #: main/helpdesk.inc
 msgid "On most computers, you can right-click the above URL, and select 'Copy'."
-msgstr "On most computers, you can right-click the above URL, and select 'Copy'."
+msgstr "Pothuajse në çdo kompjuter, mund të kryeni right-click në URL-in e mësipërm dhe të selektoni 'Copy'."
 
 #: sites.inc
 msgid "<b>Because you have IPv6</b>, we've added this tab to show you whether or not you can reach other IPv6 web sites on the Internet. Consider notifying your ISP, if there are sites that show up as broken. If you are the ISP, you can click the Info link to see what test URLs are being used."

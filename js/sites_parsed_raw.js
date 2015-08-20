@@ -8,6 +8,15 @@
       "v4" : "http://ip4.8n1.org/test.gif",
       "v6" : "http://ip6.8n1.org/test.gif"
    },
+   "aa.net.uk" : {
+      "hide" : "0",
+      "loc" : "UK",
+      "monitor" : "Adrian Kennard <a@k.gg>",
+      "provider" : "AAISP (UK IPv6 ISP)",
+      "site" : "aa.net.uk",
+      "v4" : "http://ip4.aa.net.uk/images/aaisp_logo.png",
+      "v6" : "http://ip6.aa.net.uk/images/aaisp_logo.png"
+   },
    "campaya.co.uk" : {
       "hide" : "0",
       "loc" : "UK",
@@ -252,6 +261,16 @@
       "v4" : "http://ipv4.test-ipv6.fratec.net/images-nc/knob_green.png",
       "v6" : "http://ipv6.test-ipv6.fratec.net/images-nc/knob_green.png"
    },
+   "test-ipv6.go6.si" : {
+      "hide" : "0",
+      "loc" : "SI",
+      "mirror" : "1",
+      "monitor" : "Jan Zorz <jan@go6.si>",
+      "provider" : "Go6 Lab - Slovenian IPv6 Iniciative",
+      "site" : "test-ipv6.go6.si",
+      "v4" : "http://ipv4.test-ipv6.go6.si/images-nc/knob_green.png",
+      "v6" : "http://ipv6.test-ipv6.go6.si/images-nc/knob_green.png"
+   },
    "test-ipv6.hu" : {
       "hide" : "0",
       "loc" : "HU",
@@ -439,6 +458,23 @@
       "site" : "testipv6.de",
       "v4" : "http://ipv4.testipv6.de/images-nc/knob_green.png",
       "v6" : "http://ipv6.testipv6.de/images-nc/knob_green.png"
+   },
+   "www.bsc-telecom.com" : {
+      "hide" : "0",
+      "loc" : "UK",
+      "monitor" : "Ken Booth <ken@booths.org.uk>",
+      "provider" : "BSC-Telecom",
+      "site" : "www.bsc-telecom.com",
+      "v4" : "http://ipv4.bsc-telecom.com/phone.gif",
+      "v6" : "http://ipv6.bsc-telecom.com/phone.gif"
+   },
+   "www.ctbc.com.br" : {
+      "hide" : "0",
+      "loc" : "BR",
+      "provider" : "Algar Telecom / CTBC",
+      "site" : "www.ctbc.com.br",
+      "v4" : "http://ipv4only.ctbc.net.br/ctbc/pixel.gif",
+      "v6" : "http://ipv6only.ctbc.net.br/ctbc/pixel.gif"
    },
    "www.delong.com" : {
       "hide" : "0",
