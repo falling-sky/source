@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-08-20 02:45-0400\n"
+"PO-Revision-Date: 2015-08-23 11:23-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Albanian\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -514,7 +514,7 @@ msgstr "Si funksionon ky test:"
 
 #: main/tests.inc
 msgid "Your browser will be instructed to reach a series of URLs. The combination of successes and failures tells a story about how ready you are for when publishers start offering their web sites on IPv6."
-msgstr "Browser-i juaj do të aksesojë disa URLs. Kombinimi i aksesimeve të suksesshme dhe të dështuara do të tregojë se sa të gatshëm jeni për momentin kur faqet do të ofrohen nëpërmjet protokollit IPv6."
+msgstr "Browseri juaj do të aksesojë disa URLs. Kombinimi i aksesimeve të suksesshme dhe të dështuara tregon se sa të gatshëm jeni për momentin kur faqet do të ofrohen nëpërmjet IPv6."
 
 #: main/tests.inc
 msgid "Technical Info"
@@ -1454,19 +1454,19 @@ msgstr "test-ipv6.com FAQ"
 
 #: faq.html
 msgid "Q: How does this test work?"
-msgstr "Q: How does this test work?"
+msgstr "Q: Si funksionon ky test?"
 
 #: faq.html
 msgid "The test is entirely client-side javascript. To determine reachability, a series of ajax requests are made from the web server, using various DNS names that force the use of IPv6 only, or dual stack, or other such scenarios. The pass/fail of such fetches, as well as how long they take, are taken into account."
-msgstr "The test is entirely client-side javascript. To determine reachability, a series of ajax requests are made from the web server, using various DNS names that force the use of IPv6 only, or dual stack, or other such scenarios. The pass/fail of such fetches, as well as how long they take, are taken into account."
+msgstr "Ky test është një javascript që ekzekutohet në browser-in e përdoruesit. Përcaktimi i aksesueshmërisë realizohet nga një sërë ajax requests në web server, duke përdorur DNS names të ndryshëm që detyrojnë në përdorimin vetëm të IPv6, të dual stack, ose të skenare të tjera si këto. Suksesi/Dështimi i këtyre testeve, si edhe kohëzgjatja e tyre, merren parasysh dhe konsiderohen."
 
 #: faq.html
 msgid "Q: Why is this web site reachable via IPv4 only?"
-msgstr "Q: Why is this web site reachable via IPv4 only?"
+msgstr "Q: Pse kjo faqe është e aksesueshme vetëm nëpërmjet IPv4?"
 
 #: faq.html
 msgid "You're right, there are no AAAA records, intentionally. A percentage of users are unable to browse sites that are dual-stack. If the users can't connect, then they can't be told they have a problem. This is a big problem facing content providers today; of which, I work at one for my &#36;dayjob. As such, the main test page requires IPv4 (either native or translated)."
-msgstr "You're right, there are no AAAA records, intentionally. A percentage of users are unable to browse sites that are dual-stack. If the users can't connect, then they can't be told they have a problem. This is a big problem facing content providers today; of which, I work at one for my &#36;dayjob. As such, the main test page requires IPv4 (either native or translated)."
+msgstr "E saktë, nuk ekzistojnë AAAA records, por qëllimisht. Një pjesë e përdoruesve nuk munden të aksesojnë faqe që janë dual-stack dhe, në pamundësi aksesimi, është e pamundur t'u tregohet se kanë problem. Ky është një problem i madh që hasin ofruesit e materialit sot; tek njëri nga të cilët jam i punësuar. Si rrjedhojë, faqja kryesore e testimit duhet në IPv4 (native ose translated)."
 
 #: faq.html
 msgid "At some point, when the percentage of \"broken\" users has gone significantly down, I'll consider making test-ipv6.com dual-stack. At least check, May 2013, we still see 0.5% broken visiting test-ipv6.com. And we still want them to understand their situation."
@@ -1474,19 +1474,19 @@ msgstr "At some point, when the percentage of \"broken\" users has gone signific
 
 #: faq.html
 msgid "Q: How do I test my IPv6-only host"
-msgstr "Q: How do I test my IPv6-only host"
+msgstr "Q: Si të testoj komjuterin tim, i cili përdor vetëm IPv6"
 
 #: faq.html
 msgid "If you ask that question, chances are you don't need this site. However, if you really want to, visit <a href= \"http://ipv6.test-ipv6.com\">http://ipv6.test-ipv6.com</a> with your IPv6-only host."
-msgstr "If you ask that question, chances are you don't need this site. However, if you really want to, visit <a href= \"http://ipv6.test-ipv6.com\">http://ipv6.test-ipv6.com</a> with your IPv6-only host."
+msgstr "Në qoftë se shtroni këtë pyetje, më e mundshmja është se nuk keni nevojë për këtë site. Por, në qoftë se megjithatë dëshironi, vizitoni <a href=\"http://ipv6.test-ipv6.com\">http://ipv6.test-ipv6.com</a>."
 
 #: faq.html
 msgid "Q: What do you mean by broken?"
-msgstr "Q: What do you mean by broken?"
+msgstr "Q: Çfarë nënkuptoni me dështim?"
 
 #: faq.html
 msgid "A percentage of users today have IPv6 enabled, but are either using a public tunnel that is currently giving poor performance; or otherwise have a route that is installed but broken or suboptimal. However, because they have a route at all, in many cases the address selection algorithm of RFC3484 will pick using it, and trying to use this broken route. It can take towards 75+ seconds before the browser gives up!"
-msgstr "A percentage of users today have IPv6 enabled, but are either using a public tunnel that is currently giving poor performance; or otherwise have a route that is installed but broken or suboptimal. However, because they have a route at all, in many cases the address selection algorithm of RFC3484 will pick using it, and trying to use this broken route. It can take towards 75+ seconds before the browser gives up!"
+msgstr "Një pjesë e përdoruesve sot kanë aktivizuar IPv6 por, ose përdorin një public tunnel që momentalisht është i një performance të dobët, ose kanë instaluar një route i cili dështon apo nuk është optimal. Por, meqënëse ekziston një route i tillë, në shumë raste do të përdoret nga algoritmi i RFC3484 për selektimin e adresave; domethënë do tentohet të përdoret një route i cili dështon. Kjo mund të zgjasë më tepër se 75 sekonda, para se browseri të ndërpresë përpjekjen!"
 
 #: faq.html
 msgid "From the perspective of a user with these conditions, a web site offering both A and AAAA DNS records (ie, \"dual stack\") will appear to time out; and the user will move on to another site that offers a similar product. This is the quandary content providers have."
@@ -1498,27 +1498,27 @@ msgstr "If we detect that you will have problems reaching dual-stack web sites, 
 
 #: faq.html
 msgid "Q: Why did your stats say you already have IPv6-only users?"
-msgstr "Q: Why did your stats say you already have IPv6-only users?"
+msgstr "Q: Pse statistikat thoshnin se tashmë keni vetëm përdorues IPv6?"
 
 #: faq.html
 msgid "They went to <a href=\"http://ipv6.test-ipv6.com\">http://ipv6.test-ipv6.com</a> ."
-msgstr "They went to <a href=\"http://ipv6.test-ipv6.com\">http://ipv6.test-ipv6.com</a> ."
+msgstr "Tashmë gjenden në <a href=\"http://ipv6.test-ipv6.com\">http://ipv6.test-ipv6.com</a>."
 
 #: faq.html
 msgid "Q: How valid are the stats?"
-msgstr "Q: How valid are the stats?"
+msgstr "Q: Sa të sakta janë statistikat?"
 
 #: faq.html
 msgid "They do not represent the average web consumer. Visitors to this site are self-selecting. The intent of this site is to not provide stats, but instead to inform the user the level of readiness for the world to move to IPv6 (with or without'em!). As such, stats found here will be completely different from an average content provider."
-msgstr "They do not represent the average web consumer. Visitors to this site are self-selecting. The intent of this site is to not provide stats, but instead to inform the user the level of readiness for the world to move to IPv6 (with or without'em!). As such, stats found here will be completely different from an average content provider."
+msgstr "Statistikat nuk përfaqsojnë përdoruesin e zakonshëm të web-it. Vizitorët në këtë site janë të vetë-selektuar. Synimi i këtij site-i nuk është të ofrojë statistika por, përkundrazi, të informojë përdoruesit për nivelin e gatishmërisë të botës sa i përket kalimit në IPv6 (me ose pa ata!). Si rrjedhojë, statistikat e këtushme do të jenë komplet ndryshe nga ato që ofron një botues i materialit."
 
 #: faq.html
 msgid "Q: How does your test differ, from what the content providers are doing?"
-msgstr "Q: How does your test differ, from what the content providers are doing?"
+msgstr "Q: Si diferencohet testimi juaj, nga ato çfarë ofrojnë botuesit e materialeve?"
 
 #: faq.html
 msgid "Content providers are gathering metrics of broken vs non-broken users, in an aggregate form. They are not at this time actually giving the user feedback as to the user's current state. Those metrics will principally drive the business decision of when to start publishing sites over IPv6, versus remaining IPv4 only. IPv4 only for some content sites really is an option; it has a handful of downsides, but the expectation is that everyone will always be able to reach IPv4, in some fashion."
-msgstr "Content providers are gathering metrics of broken vs non-broken users, in an aggregate form. They are not at this time actually giving the user feedback as to the user's current state. Those metrics will principally drive the business decision of when to start publishing sites over IPv6, versus remaining IPv4 only. IPv4 only for some content sites really is an option; it has a handful of downsides, but the expectation is that everyone will always be able to reach IPv4, in some fashion."
+msgstr "Botuesit e materialit kryejnë matje përmbledhëse të përdoruesve të suksesshëm/dështuar, por, momentalisht, nuk u ofrojnë përdoruesve komunikim/ndihmë në lidhje me statusin e tyre aktual. Këto matje synojnë kryesisht në marrjen e vendimeve biznesi, sa i përket fillimit të botimit të materialit në IPv6, në krahasim me vazhdimin e botimit të tij vetëm nëpërmjet IPv4. Ky i fundit, për disa sites është një zgjidhje e mirë; panvarësisht disa dobësive, pritet se gjithkush do mundet në një farë mënyre gjithmonë të akseojë me IPv4."
 
 #: faq.html
 msgid "This site, on the other hand, is intended to help the user understand their current state, and what that state possibly means to them."
@@ -1526,11 +1526,11 @@ msgstr "This site, on the other hand, is intended to help the user understand th
 
 #: faq.html
 msgid "Q: Your site shows the wrong IP address; how can I bypass my proxy server to find my public address?"
-msgstr "Q: Your site shows the wrong IP address; how can I bypass my proxy server to find my public address?"
+msgstr "Q: Faqja nuk tregon saktë IP-në time; si mund të shmang proxy server dhe të gjej adresën time publike?"
 
 #: faq.html
 msgid "For ipv4/ipv6/dual stack, use one of these:"
-msgstr "For ipv4/ipv6/dual stack, use one of these:"
+msgstr "Për ipv4/ipv6/dual stack, ekzekutoni një nga komandat e mëposhtme:"
 
 #: faq.html
 msgid "for ipv4"
@@ -1550,19 +1550,19 @@ msgstr "Note you _may_ need to specify other options to your telnet command, dep
 
 #: faq.html
 msgid "Q: Do you actually read the feedback?"
-msgstr "Q: Do you actually read the feedback?"
+msgstr "Q: Lexoni vërtet komentet tona?"
 
 #: faq.html
 msgid "Yes, I do. Thank you! Note that I can only follow up with you if you do leave contact information. While I am still grateful for feedback without contact information, I will be unable to reply with any answers if you asked for them."
-msgstr "Yes, I do. Thank you! Note that I can only follow up with you if you do leave contact information. While I am still grateful for feedback without contact information, I will be unable to reply with any answers if you asked for them."
+msgstr "Sigurisht që po. Faleminderit! Por kini parasysh se do mundem t'ju përgjigjem vetëm në qoftë se më ofroni informacion kontakti. Megjithëse është kënaqësi për mua edhe komentimi pa informacion kontakti, nuk do mundem t'u përgjigjem pyetjeve që mund të keni shtruar aty."
 
 #: faq.html
 msgid "Q: How else can I contact you?"
-msgstr "Q: How else can I contact you?"
+msgstr "Q: Si ndryshe mund t'ju kontaktoj?"
 
 #: faq.html
 msgid "I would prefer you use the form, as it gives details of your connectivity, and bypasses any mail filters."
-msgstr "I would prefer you use the form, as it gives details of your connectivity, and bypasses any mail filters."
+msgstr "Do preferoja të përdorni formën e komunikimit, e cila paraqet detaje për lidhjen tuaj dhe shmang çdo mail filtër."
 
 #: faq.html
 msgid "That said, you are welcome to directly email <a href=\"mailto:jfesler@test-ipv6.com\">jfesler@test-ipv6.com</a>."
@@ -1570,11 +1570,11 @@ msgstr "That said, you are welcome to directly email <a href=\"mailto:jfesler@te
 
 #: faq.html
 msgid "Q: Is this open source?"
-msgstr "Q: Is this open source?"
+msgstr "Q: Është ky site open source?"
 
 #: faq.html
 msgid "Yes. See the <a href=\"source.html\">source page</a> for details."
-msgstr "Yes. See the <a href=\"source.html\">source page</a> for details."
+msgstr "Po. Kliko <a href=\"source.html\">source page</a> për detaje."
 
 #: stats.html
 msgid "<span lookup=site.name>site</span> statistics"
@@ -1658,7 +1658,7 @@ msgstr "Because of 1 out of every 4000 users are \"broken\" based on industry me
 
 #: mission.html
 msgid "So, what is meant by \"broken\"?"
-msgstr "So, what is meant by \"broken\"?"
+msgstr "Atëherë, çfarë domethënë \"dështim\"?"
 
 #: mission.html
 msgid "When you go to your favorite web site in a browser, and it hangs for several seconds or even minutes. If the publisher publishes to IPv6, and your computer has a *broken* IPv6 route (as compared to having no route), then your computer will attempt to use that broken route first, before falling back to the IPv4 Internet."
@@ -1994,7 +1994,7 @@ msgstr "Broken DNS AAAA Lookups"
 
 #: faq_broken_aaaa.html
 msgid "We detected that you are able to connect to IPv6 sites, by numerical address specifically. However, connections using DNS either failed, or preferred IPv4."
-msgstr "We detected that you are able to connect to IPv6 sites, by numerical address specifically. However, connections using DNS either failed, or preferred IPv4."
+msgstr "Kemi konkluduar se mundeni te aksesoni faqe IPv6, por duke përdorur adresë numerike. Ndërsa aksesimi duke përdorur DNS, ose dështoi ose funksionoi me IPv4."
 
 #: faq_broken_aaaa.html
 msgid "What does this mean for you?"

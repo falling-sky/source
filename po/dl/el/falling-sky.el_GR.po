@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-08-20 02:45-0400\n"
+"PO-Revision-Date: 2015-08-22 19:00-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Greek\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -486,7 +486,7 @@ msgstr "Περίληψη"
 
 #: main/tabnav.inc
 msgid "Tests Run"
-msgstr "Tests Run"
+msgstr "Αποτελέσματα Δοκιμών"
 
 #: main/tabnav.inc
 msgid "Share Results / Contact"
@@ -1454,7 +1454,7 @@ msgstr "test-ipv6.com FAQ"
 
 #: faq.html
 msgid "Q: How does this test work?"
-msgstr "Q: How does this test work?"
+msgstr "Q: Πώς λειτουργεί αυτή η δοκιμή;"
 
 #: faq.html
 msgid "The test is entirely client-side javascript. To determine reachability, a series of ajax requests are made from the web server, using various DNS names that force the use of IPv6 only, or dual stack, or other such scenarios. The pass/fail of such fetches, as well as how long they take, are taken into account."
@@ -1462,7 +1462,7 @@ msgstr "The test is entirely client-side javascript. To determine reachability, 
 
 #: faq.html
 msgid "Q: Why is this web site reachable via IPv4 only?"
-msgstr "Q: Why is this web site reachable via IPv4 only?"
+msgstr "Q: Γιατί αυτή η σελίδα είναι προσβάσιμη μόνο μέσω IPv4;"
 
 #: faq.html
 msgid "You're right, there are no AAAA records, intentionally. A percentage of users are unable to browse sites that are dual-stack. If the users can't connect, then they can't be told they have a problem. This is a big problem facing content providers today; of which, I work at one for my &#36;dayjob. As such, the main test page requires IPv4 (either native or translated)."
@@ -1474,7 +1474,7 @@ msgstr "At some point, when the percentage of \"broken\" users has gone signific
 
 #: faq.html
 msgid "Q: How do I test my IPv6-only host"
-msgstr "Q: How do I test my IPv6-only host"
+msgstr "Q: Πώς να ελέγξω τον υπολογιστή μου, που χρησιμοποιεί μόνο IPv6"
 
 #: faq.html
 msgid "If you ask that question, chances are you don't need this site. However, if you really want to, visit <a href= \"http://ipv6.test-ipv6.com\">http://ipv6.test-ipv6.com</a> with your IPv6-only host."
@@ -1498,7 +1498,7 @@ msgstr "If we detect that you will have problems reaching dual-stack web sites, 
 
 #: faq.html
 msgid "Q: Why did your stats say you already have IPv6-only users?"
-msgstr "Q: Why did your stats say you already have IPv6-only users?"
+msgstr "Q: Γιατί τα στατιστικά σας έλεγαν ότι ήδη έχετε μόνο IPv6 χρήστες;"
 
 #: faq.html
 msgid "They went to <a href=\"http://ipv6.test-ipv6.com\">http://ipv6.test-ipv6.com</a> ."
@@ -1506,7 +1506,7 @@ msgstr "They went to <a href=\"http://ipv6.test-ipv6.com\">http://ipv6.test-ipv6
 
 #: faq.html
 msgid "Q: How valid are the stats?"
-msgstr "Q: How valid are the stats?"
+msgstr "Q: Πόσο έγκυρα είναι τα στατιστικά;"
 
 #: faq.html
 msgid "They do not represent the average web consumer. Visitors to this site are self-selecting. The intent of this site is to not provide stats, but instead to inform the user the level of readiness for the world to move to IPv6 (with or without'em!). As such, stats found here will be completely different from an average content provider."
@@ -1514,7 +1514,7 @@ msgstr "They do not represent the average web consumer. Visitors to this site ar
 
 #: faq.html
 msgid "Q: How does your test differ, from what the content providers are doing?"
-msgstr "Q: How does your test differ, from what the content providers are doing?"
+msgstr "Q: Πώς οι δοκιμές σας διαφέρουν από όσα παρέχουν οι πάροχοι περιεχομένου;"
 
 #: faq.html
 msgid "Content providers are gathering metrics of broken vs non-broken users, in an aggregate form. They are not at this time actually giving the user feedback as to the user's current state. Those metrics will principally drive the business decision of when to start publishing sites over IPv6, versus remaining IPv4 only. IPv4 only for some content sites really is an option; it has a handful of downsides, but the expectation is that everyone will always be able to reach IPv4, in some fashion."
@@ -1526,7 +1526,7 @@ msgstr "This site, on the other hand, is intended to help the user understand th
 
 #: faq.html
 msgid "Q: Your site shows the wrong IP address; how can I bypass my proxy server to find my public address?"
-msgstr "Q: Your site shows the wrong IP address; how can I bypass my proxy server to find my public address?"
+msgstr "Q: Η σελίδα σας δείχνει λανθασμένη IP· πώς μπορώ να παρακάμπτω τον proxy server ώστε να βρω την public διεύθυνσή μου;"
 
 #: faq.html
 msgid "For ipv4/ipv6/dual stack, use one of these:"
@@ -1550,7 +1550,7 @@ msgstr "Note you _may_ need to specify other options to your telnet command, dep
 
 #: faq.html
 msgid "Q: Do you actually read the feedback?"
-msgstr "Q: Do you actually read the feedback?"
+msgstr "Q: Διαβάζετε πράγματι τα σχόλια μας;"
 
 #: faq.html
 msgid "Yes, I do. Thank you! Note that I can only follow up with you if you do leave contact information. While I am still grateful for feedback without contact information, I will be unable to reply with any answers if you asked for them."
@@ -1558,7 +1558,7 @@ msgstr "Yes, I do. Thank you! Note that I can only follow up with you if you do 
 
 #: faq.html
 msgid "Q: How else can I contact you?"
-msgstr "Q: How else can I contact you?"
+msgstr "Q: Πώς αλλιώς θα μπορούσα να επικοινωνήσω με εσάς;"
 
 #: faq.html
 msgid "I would prefer you use the form, as it gives details of your connectivity, and bypasses any mail filters."
@@ -1570,7 +1570,7 @@ msgstr "That said, you are welcome to directly email <a href=\"mailto:jfesler@te
 
 #: faq.html
 msgid "Q: Is this open source?"
-msgstr "Q: Is this open source?"
+msgstr "Q: Είναι αυτή η σελίδα open source;"
 
 #: faq.html
 msgid "Yes. See the <a href=\"source.html\">source page</a> for details."
