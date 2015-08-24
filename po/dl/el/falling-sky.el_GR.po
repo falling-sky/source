@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-08-22 19:00-0400\n"
+"PO-Revision-Date: 2015-08-23 14:00-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Greek\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -1458,7 +1458,7 @@ msgstr "Q: Πώς λειτουργεί αυτή η δοκιμή;"
 
 #: faq.html
 msgid "The test is entirely client-side javascript. To determine reachability, a series of ajax requests are made from the web server, using various DNS names that force the use of IPv6 only, or dual stack, or other such scenarios. The pass/fail of such fetches, as well as how long they take, are taken into account."
-msgstr "The test is entirely client-side javascript. To determine reachability, a series of ajax requests are made from the web server, using various DNS names that force the use of IPv6 only, or dual stack, or other such scenarios. The pass/fail of such fetches, as well as how long they take, are taken into account."
+msgstr "Πρόκειται για ένα εξ ολοκλήρου client-side javascript. Για τον προσδιορισμό της προσβασιμότητας, μια σειρά από ajax αιτήματα στέλνονται στο web server χρησιμοποιώντας διάφορους DNS names, που υποχρεώνουν τη πραγμάτωση μόνο μέσω IPv6, μέσω dual stack, ή άλλων παρόμοιων σεναριών. Η επιτυχία/αποτυχία αυτών των αιτημάτων, καθώς και η διάρκεια εξυπηρέτησής τους, λαμβάνονται υπόψη."
 
 #: faq.html
 msgid "Q: Why is this web site reachable via IPv4 only?"
@@ -1466,7 +1466,7 @@ msgstr "Q: Γιατί αυτή η σελίδα είναι προσβάσιμη �
 
 #: faq.html
 msgid "You're right, there are no AAAA records, intentionally. A percentage of users are unable to browse sites that are dual-stack. If the users can't connect, then they can't be told they have a problem. This is a big problem facing content providers today; of which, I work at one for my &#36;dayjob. As such, the main test page requires IPv4 (either native or translated)."
-msgstr "You're right, there are no AAAA records, intentionally. A percentage of users are unable to browse sites that are dual-stack. If the users can't connect, then they can't be told they have a problem. This is a big problem facing content providers today; of which, I work at one for my &#36;dayjob. As such, the main test page requires IPv4 (either native or translated)."
+msgstr "Σωστά, δεν υπάρχουν ΑΑΑΑ εγγραφές, ωστόσο εκ προθέσεως. Ένα ποσοστό χρηστών αδυνατούν να προσπελάσουν dual-stack σελίδες, επομένως, μη μπορώντας να συνδεθούν, είναι αδύνατο να καταλάβουν ότι έχουν πρόβλημα. Αυτό είναι ένα μεγάλο θέμα που αντιμετωπίζουν σήμερα οι πάροχοι περιεχομένου· σε έναν εκ των οποίων ο ίδιος απασχολούμαι. Συνεπώς, η κύρια σελίδα δοκιμών απαιτεί IPv4 (native ή translated)."
 
 #: faq.html
 msgid "At some point, when the percentage of \"broken\" users has gone significantly down, I'll consider making test-ipv6.com dual-stack. At least check, May 2013, we still see 0.5% broken visiting test-ipv6.com. And we still want them to understand their situation."
@@ -1478,15 +1478,15 @@ msgstr "Q: Πώς να ελέγξω τον υπολογιστή μου, που �
 
 #: faq.html
 msgid "If you ask that question, chances are you don't need this site. However, if you really want to, visit <a href= \"http://ipv6.test-ipv6.com\">http://ipv6.test-ipv6.com</a> with your IPv6-only host."
-msgstr "If you ask that question, chances are you don't need this site. However, if you really want to, visit <a href= \"http://ipv6.test-ipv6.com\">http://ipv6.test-ipv6.com</a> with your IPv6-only host."
+msgstr "Απ' τη στιγμή που ρωτάτε κάτι τέτοιο, το πιθανότερο είναι να μη χρειάζεστε αυτή τη σελίδα. Αν παρά ταύτα επιθυμείτε, επισκεφτείτε το <a href=\"ipv6.test-ipv6.com\">http://ipv6.test-ipv6.com</a>."
 
 #: faq.html
 msgid "Q: What do you mean by broken?"
-msgstr "Q: What do you mean by broken?"
+msgstr "Τι εννοείται ως αποτυχία;"
 
 #: faq.html
 msgid "A percentage of users today have IPv6 enabled, but are either using a public tunnel that is currently giving poor performance; or otherwise have a route that is installed but broken or suboptimal. However, because they have a route at all, in many cases the address selection algorithm of RFC3484 will pick using it, and trying to use this broken route. It can take towards 75+ seconds before the browser gives up!"
-msgstr "A percentage of users today have IPv6 enabled, but are either using a public tunnel that is currently giving poor performance; or otherwise have a route that is installed but broken or suboptimal. However, because they have a route at all, in many cases the address selection algorithm of RFC3484 will pick using it, and trying to use this broken route. It can take towards 75+ seconds before the browser gives up!"
+msgstr "Ένα ποσοστό χρηστών σήμερα έχουν ενεργοποιημένο το IPv6, ωστόσο είτε χρησιμοποιούν κάποιο public tunnel που, προς το παρόν, δεν έχει καλή απόδοση, είτε έχουν εγκαταστήσει κάποιο route που αποτυγχάνει ή υπολειτουργεί. Ωστόσο η ύπαρξή του, σε πολλές περιπτώσεις, θα προκαλέσει τον αλγόριθμο περισυλλογής διεύθυνσης του RFC3484 να τον επιλέξει, συνεπώς θα γίνει προσπάθεια χρήσης ενός route που αποτυγχάνει. Αυτό μπορεί να διαρκέσει έως και πάνω από 75 δευτερόλεπτα, πριν ο φυλλομετρητής παραιτηθεί της προσπάθειας!"
 
 #: faq.html
 msgid "From the perspective of a user with these conditions, a web site offering both A and AAAA DNS records (ie, \"dual stack\") will appear to time out; and the user will move on to another site that offers a similar product. This is the quandary content providers have."
@@ -1502,7 +1502,7 @@ msgstr "Q: Γιατί τα στατιστικά σας έλεγαν ότι ήδ�
 
 #: faq.html
 msgid "They went to <a href=\"http://ipv6.test-ipv6.com\">http://ipv6.test-ipv6.com</a> ."
-msgstr "They went to <a href=\"http://ipv6.test-ipv6.com\">http://ipv6.test-ipv6.com</a> ."
+msgstr "Πλέον βρίσκονται στο <a href=\"http://ipv6.test-ipv6.com\">http://ipv6.test-ipv6.com</a>."
 
 #: faq.html
 msgid "Q: How valid are the stats?"
@@ -1510,7 +1510,7 @@ msgstr "Q: Πόσο έγκυρα είναι τα στατιστικά;"
 
 #: faq.html
 msgid "They do not represent the average web consumer. Visitors to this site are self-selecting. The intent of this site is to not provide stats, but instead to inform the user the level of readiness for the world to move to IPv6 (with or without'em!). As such, stats found here will be completely different from an average content provider."
-msgstr "They do not represent the average web consumer. Visitors to this site are self-selecting. The intent of this site is to not provide stats, but instead to inform the user the level of readiness for the world to move to IPv6 (with or without'em!). As such, stats found here will be completely different from an average content provider."
+msgstr "Τα στατιστικά δεν αντιπροσωπεύουν τον μέσο χρήστη. Οι επισκέπτες σε αυτό το site είναι self-selecting. Ο σκοπός αυτού του site δεν είναι η παροχή στατιστικών, αλλά η ενημέρωση των χρηστών σχετικά με την ετοιμότητα του κόσμου ως προς τη μεταφορά του στο IPv6 (με ή χωρίς αυτούς). Επομένως, τα εδώ στατιστικά θα είναι τελείως διαφορετικά από αυτά του μέσου παρόχου περιεχομένου."
 
 #: faq.html
 msgid "Q: How does your test differ, from what the content providers are doing?"
@@ -1518,7 +1518,7 @@ msgstr "Q: Πώς οι δοκιμές σας διαφέρουν από όσα π
 
 #: faq.html
 msgid "Content providers are gathering metrics of broken vs non-broken users, in an aggregate form. They are not at this time actually giving the user feedback as to the user's current state. Those metrics will principally drive the business decision of when to start publishing sites over IPv6, versus remaining IPv4 only. IPv4 only for some content sites really is an option; it has a handful of downsides, but the expectation is that everyone will always be able to reach IPv4, in some fashion."
-msgstr "Content providers are gathering metrics of broken vs non-broken users, in an aggregate form. They are not at this time actually giving the user feedback as to the user's current state. Those metrics will principally drive the business decision of when to start publishing sites over IPv6, versus remaining IPv4 only. IPv4 only for some content sites really is an option; it has a handful of downsides, but the expectation is that everyone will always be able to reach IPv4, in some fashion."
+msgstr "Οι πάροχοι περιεχομένου συγκεντρώνουν μετρήσεις για επιτυχόντες/αποτυχόντες χρήστες. Ωστόσο δεν παρέχουν, μέχρι στιγμής, βοήθεια στους χρήστες για την τρέχουσα κατάστασή τους. Αυτές οι μετρήσεις αφορούν κυρίως στη λήψη επιχειρηματικών αποφάσεων για το πότε να ξεκινήσουν την παροχή των sites μέσω IPv6, απ' το να συνεχίζουν μόνο μέσω IPv4. Το IPv4, για κάποια sites περιεχομένου, είναι πράγματι μια επιλογή· παρά τις όποιες αδυναμίες του, αναμένεται ότι οποιοσδήποτε θα μπορέσει πάντα να έχει πρόσβαση με κάποιο τρόπο μέσω IPv4."
 
 #: faq.html
 msgid "This site, on the other hand, is intended to help the user understand their current state, and what that state possibly means to them."
@@ -1530,7 +1530,7 @@ msgstr "Q: Η σελίδα σας δείχνει λανθασμένη IP· πώ�
 
 #: faq.html
 msgid "For ipv4/ipv6/dual stack, use one of these:"
-msgstr "For ipv4/ipv6/dual stack, use one of these:"
+msgstr "Για ipv4/ipv6/dual stack, χρησιμοποιείστε ένα από τα ακόλουθα:"
 
 #: faq.html
 msgid "for ipv4"
@@ -1554,7 +1554,7 @@ msgstr "Q: Διαβάζετε πράγματι τα σχόλια μας;"
 
 #: faq.html
 msgid "Yes, I do. Thank you! Note that I can only follow up with you if you do leave contact information. While I am still grateful for feedback without contact information, I will be unable to reply with any answers if you asked for them."
-msgstr "Yes, I do. Thank you! Note that I can only follow up with you if you do leave contact information. While I am still grateful for feedback without contact information, I will be unable to reply with any answers if you asked for them."
+msgstr "Ασφαλώς ναι. Ευχαριστώ! Σημειώστε ότι θα μπορέσω να σας απαντήσω μόνο αν μου παρέχεται στοιχεία επικοινωνίας. Ενώ μου είναι ευχάριστο να λαμβάνω σχόλια και χωρίς στοιχεία επικοινωνίας, εντούτοις δεν θα μπορέσω να απαντήσω σε τυχών ερωτήσεις που αυτά φέρουν."
 
 #: faq.html
 msgid "Q: How else can I contact you?"
@@ -1562,7 +1562,7 @@ msgstr "Q: Πώς αλλιώς θα μπορούσα να επικοινωνήσ
 
 #: faq.html
 msgid "I would prefer you use the form, as it gives details of your connectivity, and bypasses any mail filters."
-msgstr "I would prefer you use the form, as it gives details of your connectivity, and bypasses any mail filters."
+msgstr "Θα προτιμούσα να χρησιμοποιείτε τη φόρμα, καθώς δίνει λεπτομέρειες για τη συνδεσιμότητά σας και παρακάμπτει τα mail φίλτρα."
 
 #: faq.html
 msgid "That said, you are welcome to directly email <a href=\"mailto:jfesler@test-ipv6.com\">jfesler@test-ipv6.com</a>."
@@ -1574,7 +1574,7 @@ msgstr "Q: Είναι αυτή η σελίδα open source;"
 
 #: faq.html
 msgid "Yes. See the <a href=\"source.html\">source page</a> for details."
-msgstr "Yes. See the <a href=\"source.html\">source page</a> for details."
+msgstr "Ναι. Πηγαίνετε στο <a href=\"source.html\">source page</a> για περισσότερα."
 
 #: stats.html
 msgid "<span lookup=site.name>site</span> statistics"

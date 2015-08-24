@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-08-23 11:23-0400\n"
+"PO-Revision-Date: 2015-08-24 18:15-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Albanian\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -78,7 +78,7 @@ msgstr "Për arsye të panjohura, browser-i juaj duket se funksionon më ngadal�
 
 #: messages.js
 msgid "You appear to be able to browse the IPv4 Internet only. You will not be able to reach IPv6-only sites."
-msgstr "Duket se mundeni të aksesoni Internetin vetëm duke përdorur IPv4. Nuk do mundeni të aksesoni faqe të cilat ofrohen vetëm nëpërmjet protokollit IPv6."
+msgstr "Duket se mundeni të aksesoni Internetin vetëm duke përdorur IPv4. Nuk do mundeni të aksesoni faqe të cilat ofrohen vetëm nëpërmjet IPv6."
 
 #: messages.js
 msgid "When a publisher offers both IPv4 and IPv6, your browser appears to be happy to take the IPv4 site without delay."
@@ -570,11 +570,11 @@ msgstr "Testim për DNS problematik"
 
 #: main/tech.inc
 msgid "Fetches an object that has just an A record in DNS. This is expected to use IPv4. IPv6-only users might still reach this, if their provider has employed a NAT64/DNS64 or proxy solution."
-msgstr "Fetches an object that has just an A record in DNS. This is expected to use IPv4. IPv6-only users might still reach this, if their provider has employed a NAT64/DNS64 or proxy solution."
+msgstr "Sjell një objekt që ka vetëm A record në DNS dhe që pritet të përdorë IPv4. Përdoruesit që përdorin vetëm IPv6 do të munden në qoftë se ofruesi i tyre funksionon një mekanizëm NAT64/DNS64 ose proxy."
 
 #: main/tech.inc
 msgid "Fetches an object that has just an AAAA record in DNS. This is expected to use IPv6. Users not yet on the IPv6 Internet are likely to see this fail. As long as it fails quickly, it will be OK - for now."
-msgstr "Fetches an object that has just an AAAA record in DNS. This is expected to use IPv6. Users not yet on the IPv6 Internet are likely to see this fail. As long as it fails quickly, it will be OK - for now."
+msgstr "Sjell një objekt që ka vetëm AAAA record në DNS dhe që pritet të përdorë IPv6. Përdoruesit që nuk përdorin akoma IPv6 do dështojnë. Në qoftë se dështimi ndodh shpejt, nuk përbën problem - për momentin."
 
 #: main/tech.inc
 msgid "This is the most important test. This verifies your browser can connect to a site that has both IPv4 and IPv6 records published. IPv4 only hosts should connect fine (using IPv4)."
@@ -586,7 +586,7 @@ msgstr "Në qoftë se ky test dështon ose afati i tij skadon, ju do të hasni p
 
 #: main/tech.inc
 msgid "Validates that you can connect to a dual-stack server (like the ds test); and that you can send/receive large packets on that connection. If this test times out for any reason, it indicates trouble for World IPv6 Day."
-msgstr "Verifikon se mundeni të lidheni me një dual-stack server (si testi dns) dhe se mund të dërgoni/merrni paketa të mëdha nëpërmjet kësaj lidhjeje. Skadimi i periudhës timeout nga ky test paralajmëron për probleme gjatë World IPv6 Day."
+msgstr "Verifikon se mundeni të lidheni me një dual-stack server (si testi ds) dhe se mund të dërgoni/merrni paketa të mëdha nëpërmjet kësaj lidhjeje."
 
 #: main/tech.inc
 msgid "This will try connecting with a literal IPv4 numeric address. This should work for most people, unless they are running IPv6-only. If the first test worked, but this fails, it likely confirms your provider is using NAT64/DNS64; you'll need to only try connecting using hostnames instead of numeric IP addresses."
@@ -626,11 +626,11 @@ msgstr "Queries for a malformed AAAA record. Some routers mishandle these as \"A
 
 #: main/tech.inc
 msgid "If the summary results indicated problems, you (or your technical support) may be able to use the information above to diagnose the issues. Each of the test urls and their results is shown on the left side. To the right you'll see a description of what that URL was designed to test."
-msgstr "If the summary results indicated problems, you (or your technical support) may be able to use the information above to diagnose the issues. Each of the test urls and their results is shown on the left side. To the right you'll see a description of what that URL was designed to test."
+msgstr "Në qoftë se rezultati përmbledhës tregon probleme, ju (ose suportuesi juaj teknik) mund të përdorë informacionin e mësipërm për diagnostikimin e tyre. Në të majtë paraqitet url-i dhe rezultati i çdo testi, ndërsa në të djathtë paraqitet përshkrimi përkatës."
 
 #: main/tech.inc
 msgid "After each test is ran. The summary page attempts to look at the results If the summary doesn't seem to make sense given the symptoms recorded above, or if you need further assistance, please feel free to contact us."
-msgstr "After each test is ran. The summary page attempts to look at the results If the summary doesn't seem to make sense given the symptoms recorded above, or if you need further assistance, please feel free to contact us."
+msgstr "Pasi çdo test të jetë ekzekutuar, faqja e përmbledhjes shqyrton rezultatet. Në qoftë se përmbledhja duket pa sens, duke patur parasysh simptomat e mësipërme, ose në qoftë se keni nevojë për më tepër ndihmë, ju lutemi kontaktoni me ne."
 
 #: main/mail.inc
 msgid "<b>Your particular configuration is of interest.</b> We are always striving to make the test-ipv6.com code better. Would you be willing to contribute more information about your browser and computer setup? With your help, we can document for others how to repair their systems."
@@ -1486,7 +1486,7 @@ msgstr "Q: Çfarë nënkuptoni me dështim?"
 
 #: faq.html
 msgid "A percentage of users today have IPv6 enabled, but are either using a public tunnel that is currently giving poor performance; or otherwise have a route that is installed but broken or suboptimal. However, because they have a route at all, in many cases the address selection algorithm of RFC3484 will pick using it, and trying to use this broken route. It can take towards 75+ seconds before the browser gives up!"
-msgstr "Një pjesë e përdoruesve sot kanë aktivizuar IPv6 por, ose përdorin një public tunnel që momentalisht është i një performance të dobët, ose kanë instaluar një route i cili dështon apo nuk është optimal. Por, meqënëse ekziston një route i tillë, në shumë raste do të përdoret nga algoritmi i RFC3484 për selektimin e adresave; domethënë do tentohet të përdoret një route i cili dështon. Kjo mund të zgjasë më tepër se 75 sekonda, para se browseri të ndërpresë përpjekjen!"
+msgstr "Një pjesë e përdoruesve sot kanë aktivizuar IPv6 por, ose përdorin një public tunnel që momentalisht është i një performance të dobët, ose kanë instaluar një route i cili dështon apo nuk është optimal. Ekzistenca e një route-i të tillë, në shumë raste do të shkaktojë zgjedhjen e tij nga algoritmi (i RFC3484) selektues i adresës; domethënë do tentohet të përdoret një route i cili dështon. Kjo mund të zgjasë më tepër se 75 sekonda, para se browseri të ndërpresë përpjekjen!"
 
 #: faq.html
 msgid "From the perspective of a user with these conditions, a web site offering both A and AAAA DNS records (ie, \"dual stack\") will appear to time out; and the user will move on to another site that offers a similar product. This is the quandary content providers have."
