@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-08-23 14:00-0400\n"
+"PO-Revision-Date: 2015-08-27 11:30-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Greek\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -586,7 +586,7 @@ msgstr "Αν αυτή η δοκιμή αποτύχει ή λήξει την πε
 
 #: main/tech.inc
 msgid "Validates that you can connect to a dual-stack server (like the ds test); and that you can send/receive large packets on that connection. If this test times out for any reason, it indicates trouble for World IPv6 Day."
-msgstr "Validates that you can connect to a dual-stack server (like the ds test); and that you can send/receive large packets on that connection. If this test times out for any reason, it indicates trouble for World IPv6 Day."
+msgstr "Επιβεβαιώνει ότι μπορείτε να συνδεθείτε σε ένα dual-stack server (όπως η ds δοκιμή) και ότι μπορείτε να στέλνετε/λαμβάνετε μεγάλα πακέτα δια της σύνδεσης αυτής."
 
 #: main/tech.inc
 msgid "This will try connecting with a literal IPv4 numeric address. This should work for most people, unless they are running IPv6-only. If the first test worked, but this fails, it likely confirms your provider is using NAT64/DNS64; you'll need to only try connecting using hostnames instead of numeric IP addresses."
@@ -614,11 +614,11 @@ msgstr "Αυτή η δοκιμή είναι για τον resolver του ISP σ
 
 #: main/tech.inc
 msgid "Attempts to identify what Internet Service Provider you use for IPv4. This may be different from the marketing name you see in your local market; or may reflect a previous company name. The name shown reflects how it is known in the network operator community."
-msgstr "Attempts to identify what Internet Service Provider you use for IPv4. This may be different from the marketing name you see in your local market; or may reflect a previous company name. The name shown reflects how it is known in the network operator community."
+msgstr "Επιχειρεί να προσδιορίσει τον πάροχο της IPv4 σύνδεσής σας στο Internet. Μπορεί να τον εμφανίσει με διαφορετική επωνυμία από εκείνη που χρησιμοποιεί στην εγχώρια αγορά· ή να αναφέρει μια προηγούμενη επωνυμία που ο πάροχος χρησιμοποιούσε. Η επωνυμία που παρατίθεται εδώ είναι εκείνη με την οποία ο πάροχος είναι γνωστός στην κοινότητα των διαχειριστών δικτύου."
 
 #: main/tech.inc
 msgid "Attempts to identify what Internet Service Provider you use for IPv6. When the IPv4 name and the IPv6 name don't match, it may suggest that you're using a tunnel; or some form of third party provider for IPv6."
-msgstr "Attempts to identify what Internet Service Provider you use for IPv6. When the IPv4 name and the IPv6 name don't match, it may suggest that you're using a tunnel; or some form of third party provider for IPv6."
+msgstr "Επιχειρεί να προσδιορίσει τον πάροχο της IPv6 σύνδεσής σας στο Internet. Αν η επωνυμία αυτή δεν ταιριάζει με εκείνη της IPv4 σύνδεσης, τότε πιθανόν χρησιμοποιείτε κάποιο tunnel, ή κάποιον άλλο πάροχο για το IPv6."
 
 #: main/tech.inc
 msgid "Queries for a malformed AAAA record. Some routers mishandle these as \"A\" records, and only keep the first 32 bits. We want this test to fail to connect."

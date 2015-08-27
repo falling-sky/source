@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-08-24 18:15-0400\n"
+"PO-Revision-Date: 2015-08-24 20:45-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Albanian\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -310,15 +310,15 @@ msgstr "Filloi"
 
 #: builtin.js
 msgid "proxied"
-msgstr "proxied"
+msgstr "i ndërmjetësuar"
 
 #: builtin.js
 msgid "using"
-msgstr "using"
+msgstr "duke përdorur"
 
 #: builtin.js
 msgid "tests run"
-msgstr "tests run"
+msgstr "testime të kryera"
 
 #: builtin.js
 msgid "(Survey posting skipped; test was rigged)"
@@ -354,19 +354,19 @@ msgstr "Kliko për"
 
 #: builtin.js
 msgid "test data"
-msgstr "test data"
+msgstr "të dhëna testimi"
 
 #: builtin.js
 msgid "Your FAQ"
-msgstr "Your FAQ"
+msgstr "Pyetjet Tuaja të Shpeshta"
 
 #: builtin.js
 msgid "Frequently Asked Questions"
-msgstr "Frequently Asked Questions"
+msgstr "Pyetje të Shpeshta"
 
 #: builtin.js
 msgid "loading..."
-msgstr "loading..."
+msgstr "ngarkohet..."
 
 #: builtin.js
 msgid "failed to load"
@@ -410,7 +410,7 @@ msgstr "unknown expansion"
 
 #: checkresults.js
 msgid "unknown result code"
-msgstr "unknown result code"
+msgstr "kod rezultati i panjohur"
 
 #: symptoms.js
 msgid "Your browser blocked"
@@ -434,11 +434,11 @@ msgstr "Testim IPv6"
 
 #: list-nav.inc
 msgid "FAQ"
-msgstr "FAQ"
+msgstr "Pyetje të Shpeshta"
 
 #: list-nav.inc
 msgid "Mirrors"
-msgstr "Mirrors"
+msgstr "Shabllone"
 
 #: list-nav.inc
 msgid "stats"
@@ -498,7 +498,7 @@ msgstr "FAQ për Ty"
 
 #: main/tabnav.inc
 msgid "Help Popup"
-msgstr "Help Popup"
+msgstr "Shfaqje Ndihme"
 
 #: main/tabnav.inc
 msgid "Debug"
@@ -590,15 +590,15 @@ msgstr "Verifikon se mundeni të lidheni me një dual-stack server (si testi ds)
 
 #: main/tech.inc
 msgid "This will try connecting with a literal IPv4 numeric address. This should work for most people, unless they are running IPv6-only. If the first test worked, but this fails, it likely confirms your provider is using NAT64/DNS64; you'll need to only try connecting using hostnames instead of numeric IP addresses."
-msgstr "This will try connecting with a literal IPv4 numeric address. This should work for most people, unless they are running IPv6-only. If the first test worked, but this fails, it likely confirms your provider is using NAT64/DNS64; you'll need to only try connecting using hostnames instead of numeric IP addresses."
+msgstr "Provon të lidhet me një IPv4 numerike. Pritet të funksionojë, përveç atyre që përdorin vetëm IPv6. Fakti se testi i parë ishte i suksesshëm, ndërsa ky dështoi, dëshmon se ofruesi juaj përdor mekanizëm NAT64/DNS64; ateherë, duhet të përdorni vetëm hostname dhe jo IP numerike."
 
 #: main/tech.inc
 msgid "This will try connecting with a literal IPv6 hexadecimal address. The primary purpose of this test is to separate out your connectivity on IPv6 from your ability to fetch DNS for it. A secondary purpose is to see if you have Teredo enabled; some systems may only use Teredo when an IPv6 address is in the URL."
-msgstr "This will try connecting with a literal IPv6 hexadecimal address. The primary purpose of this test is to separate out your connectivity on IPv6 from your ability to fetch DNS for it. A secondary purpose is to see if you have Teredo enabled; some systems may only use Teredo when an IPv6 address is in the URL."
+msgstr "Provon të lidhet me një IPv6 numerike heksadesimale. Qëllimi kryesor i këtij testi është dallimi midis lidhjes tuaj në IPv6 dhe mundësisë që të merrni DNS për atë. Qëllimi dytësor është verifikimi nëse keni aktivizuar Teredo; disa sisteme mund të përdorin vetëm Teredo kur një adresë IPv6 ndodhet në URL."
 
 #: main/tech.inc
 msgid "Validates that IPv6 requests with large packets work. If this test times out, but other IPv6 tests work, it suggests that there may be PMTUD issues; possibly involving IP tunnels."
-msgstr "Validates that IPv6 requests with large packets work. If this test times out, but other IPv6 tests work, it suggests that there may be PMTUD issues; possibly involving IP tunnels."
+msgstr "Verifikon se kërkesat IPv6 me paketa të mëdha funksionojnë. Fakti se ky test skadon, por testime të tjera me IPv6 funksionojnë, nënkupton se ndoshta ekzistojnë probleme PMTUD; përfshi ndoshta IP tunnels."
 
 #: main/tech.inc
 msgid "Double check to make sure that ICMPv6 Type 2 (\"Packet Too Big\") messages are not filtered by your firewall."
@@ -610,15 +610,15 @@ msgstr "(This is bonus credit)"
 
 #: main/tech.inc
 msgid "This is a test of your ISP's resolver (instead of a test of your host). If this test passes, your DNS server (often run by your ISP) is capable of reaching IPV6-only DNS authoritative servers on the Internet. This is not critical (at this time) for you to reach sites via IPv6."
-msgstr "This is a test of your ISP's resolver (instead of a test of your host). If this test passes, your DNS server (often run by your ISP) is capable of reaching IPV6-only DNS authoritative servers on the Internet. This is not critical (at this time) for you to reach sites via IPv6."
+msgstr "Teston resolver-in e ISP-së (dhe jo kompjuterin) tuaj. Në qoftë se testi është i suksesshëm, serveri juaj DNS (shpesh ofrohet nga ISP) mundet të komunikojë me DNS authoritative servers që përdorin vetëm IPv6 në Internet. Kjo nuk është mëse e domosdoshme (për momentin) që të aksesoni faqe nëpërmjet IPv6."
 
 #: main/tech.inc
 msgid "Attempts to identify what Internet Service Provider you use for IPv4. This may be different from the marketing name you see in your local market; or may reflect a previous company name. The name shown reflects how it is known in the network operator community."
-msgstr "Attempts to identify what Internet Service Provider you use for IPv4. This may be different from the marketing name you see in your local market; or may reflect a previous company name. The name shown reflects how it is known in the network operator community."
+msgstr "Përpiqet të identifikojë Ofruesin e Shërbimit të Internetit (ISP) që përdorni për IPv4. Mund të shfaqet një emër i ndryshëm nga ai me të cilin njihet në tregun lokal; ose emri i një kompanie të mëparshme. Gjithësesi, emri që paraqitet këtu është ai me të cilin njihet në komunitetin e operatorëve të rrjeteve."
 
 #: main/tech.inc
 msgid "Attempts to identify what Internet Service Provider you use for IPv6. When the IPv4 name and the IPv6 name don't match, it may suggest that you're using a tunnel; or some form of third party provider for IPv6."
-msgstr "Attempts to identify what Internet Service Provider you use for IPv6. When the IPv4 name and the IPv6 name don't match, it may suggest that you're using a tunnel; or some form of third party provider for IPv6."
+msgstr "Përpiqet të identifikojë Ofruesin e Shërbimit të Internetit (ISP) që përdorni për IPv6. Fakti se emrat për IPv4 dhe IPv6 janë të ndryshëm, nënkupton se ndoshta përdorni ndonjë tunnel; ose ndonjë ofrues tjetër për IPv6."
 
 #: main/tech.inc
 msgid "Queries for a malformed AAAA record. Some routers mishandle these as \"A\" records, and only keep the first 32 bits. We want this test to fail to connect."
@@ -718,7 +718,7 @@ msgstr "Informimi nga Helpdesk do të vijojë pasi të jetë kompletuar testimi.
 
 #: main/helpdesk.inc
 msgid "If your Internet help desk asks you to mail the 'results url', copy and paste the following URL."
-msgstr "If your Internet help desk asks you to mail the 'results url', copy and paste the following URL."
+msgstr "Në qoftë se help desk i Internetit ju kërkon t'i dërgoni me email 'url-in e rezultateve', copy paste URL-in e mëposhtëm."
 
 #: main/helpdesk.inc
 msgid "Note that this will share your current numeric Internet Protocol address(es)."
@@ -786,7 +786,7 @@ msgstr "Informacion për Help Desk"
 
 #: faq_helpdesk.html
 msgid "Q: What is the Help Desk tab for?"
-msgstr "Q: What is the Help Desk tab for?"
+msgstr "Përse përdoret kartela Help Desk?"
 
 #: faq_helpdesk.html
 msgid "This tab is intended to help provide a brief, concise explanation of your connectivity. This can be read over the phone, if needed, to a service provider. This tab has less hand-holding; it is intended for a help desk to understand (as compared to an end user)."
@@ -802,11 +802,11 @@ msgstr "Statusi i çdo protokolli"
 
 #: faq_helpdesk.html
 msgid "Warn of slow/timeout"
-msgstr "Warn of slow/timeout"
+msgstr "Paralajmërim ngadalësie/timeout"
 
 #: faq_helpdesk.html
 msgid "Warn of MTU"
-msgstr "Warn of MTU"
+msgstr "Paralajmërim problemi MTU"
 
 #: faq_helpdesk.html
 msgid "Status of reachability to “other sites” (as compact as possible)"
@@ -818,7 +818,7 @@ msgstr "IP address shown, in case tech support needs it."
 
 #: faq_helpdesk.html
 msgid "List of unreachable sites, if any"
-msgstr "List of unreachable sites, if any"
+msgstr "Lista e faqeve të pa-aksesueshme, nëse ekzistojnë"
 
 #: faq_helpdesk.html
 msgid "Q: What is the easiest way to send users to the Help Desk tab?"
@@ -834,7 +834,7 @@ msgstr "Mirror sites may not have all the fancy DNS names; they are more likely 
 
 #: faq_helpdesk.html
 msgid "Q: What are the Help Desk codes?"
-msgstr "Q: What are the Help Desk codes?"
+msgstr "Çfarë janë kodet Help Desk?"
 
 #: faq_helpdesk.html
 msgid "These are meant to offer a quick, short way for your customer to tell you the status of their Internet connectivity, as validated by this site. They are also meant to be easy to memorize."
