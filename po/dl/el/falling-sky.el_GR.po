@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-08-27 11:30-0400\n"
+"PO-Revision-Date: 2015-08-27 12:30-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Greek\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -626,11 +626,11 @@ msgstr "Queries for a malformed AAAA record. Some routers mishandle these as \"A
 
 #: main/tech.inc
 msgid "If the summary results indicated problems, you (or your technical support) may be able to use the information above to diagnose the issues. Each of the test urls and their results is shown on the left side. To the right you'll see a description of what that URL was designed to test."
-msgstr "If the summary results indicated problems, you (or your technical support) may be able to use the information above to diagnose the issues. Each of the test urls and their results is shown on the left side. To the right you'll see a description of what that URL was designed to test."
+msgstr "Αν η περίληψη παρουσιάζει προβλήματα, μπορείτε (εσείς ή η τεχνική σας υποστήριξη) να χρησιμοποιείτε τις παραπάνω πληροφορίες για τη διάγνωσή τους. Αριστερά φαίνονται τα urls των δοκιμών και τα αποτελέσματά τους, ενώ δεξιά παρατίθεται η σχετική περιγραφή του τι εξετάζεται."
 
 #: main/tech.inc
 msgid "After each test is ran. The summary page attempts to look at the results If the summary doesn't seem to make sense given the symptoms recorded above, or if you need further assistance, please feel free to contact us."
-msgstr "After each test is ran. The summary page attempts to look at the results If the summary doesn't seem to make sense given the symptoms recorded above, or if you need further assistance, please feel free to contact us."
+msgstr "Μετά την εκτέλεση των δοκιμών, η σελίδα της περίληψης προβαίνει στην εξέταση των αποτελεσμάτων. Αν η περίληψη μοιάζει να μη έχει νόημα (λαμβάνοντας υπόψιν τα συμπτώματα που αναφέρονται παραπάνω), ή χρειάζεστε περισσότερη βοήθεια, μη διστάσετε να επικοινωνήσετε μαζί μας."
 
 #: main/mail.inc
 msgid "<b>Your particular configuration is of interest.</b> We are always striving to make the test-ipv6.com code better. Would you be willing to contribute more information about your browser and computer setup? With your help, we can document for others how to repair their systems."
@@ -674,7 +674,7 @@ msgstr "Ερωτήσεις σχετικά με τα αποτελέσματα τ�
 
 #: main/mail.inc
 msgid "Report a bug with diagnosis"
-msgstr "Report a bug with diagnosis"
+msgstr "Αναφορά σφάλματος και διαγνώσεων"
 
 #: main/mail.inc
 msgid "Suggestion"
@@ -750,7 +750,7 @@ msgstr "Full mirrors are welcomed and appreciated, whether public or private. Pl
 
 #: footer.inc
 msgid "All rights reserved."
-msgstr "All rights reserved."
+msgstr "Με επιφύλαξη παντός δικαιώματος."
 
 #: footer.inc
 msgid "Mission"
@@ -818,7 +818,7 @@ msgstr "IP address shown, in case tech support needs it."
 
 #: faq_helpdesk.html
 msgid "List of unreachable sites, if any"
-msgstr "List of unreachable sites, if any"
+msgstr "Λίστα απροσπέλαστων σελίδων, αν υπάρχουν"
 
 #: faq_helpdesk.html
 msgid "Q: What is the easiest way to send users to the Help Desk tab?"
@@ -850,7 +850,7 @@ msgstr "Suggestions are welcome; especially from those operating help desks. Thi
 
 #: broken.html
 msgid "What to do if you're broken..."
-msgstr "What to do if you're broken..."
+msgstr "Τι να κάνετε όταν εμφανιστεί πρόβλημα..."
 
 #: broken.html
 msgid "If you are reading this page, it means that we've identified that your host will have problems on World IPv6 Day. Any web site that goes \"dual stack\" (meaning, both IPv4 and IPv6), will be unreachable to you."
@@ -874,7 +874,7 @@ msgstr "Βρείτε την IP διεύθυνσή σας"
 
 #: broken.html
 msgid "If you set up a tunnel broker"
-msgstr "If you set up a tunnel broker"
+msgstr "Αν εγκαθιστάτε κάποιο tunnel broker"
 
 #: broken.html
 msgid "If you set up 6to4 (IPv6 address: starts with 2002)"
@@ -922,7 +922,7 @@ msgstr "Mac users on 10.4 or 10.5 may need to disable IPv6 if other troubleshoot
 
 #: faq/staycurrent.inc
 msgid "Windows users: go to"
-msgstr "Windows users: go to"
+msgstr "Χρήστες των Windows: πηγαίνετε στο"
 
 #: faq/staycurrent.inc
 msgid "iPhone/iPad users: No specific version advised at this time."
@@ -954,11 +954,11 @@ msgstr "Opera: Make sure you use at least 11.10."
 
 #: broken.html
 msgid "Finding your IP address"
-msgstr "Finding your IP address"
+msgstr "Εύρεση της διεύθυνσης IP"
 
 #: faq/find_ip.inc
 msgid "Identify your IPv6 address, and your default router (if you have one)."
-msgstr "Identify your IPv6 address, and your default router (if you have one)."
+msgstr "Προσδιορισμός της IPv6 διεύθυνσης και του προεπιλεγμένου δρομολογητή σας (εάν υπάρχει)."
 
 #: faq/find_ip.inc
 msgid "Finding your IPv6 address and default router can be a challenge if you are not familiar with your OS's network configuration. Instructions for your OS are below."
