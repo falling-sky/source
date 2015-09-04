@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-08-27 11:45-0400\n"
+"PO-Revision-Date: 2015-09-04 08:45-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Albanian\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -602,7 +602,7 @@ msgstr "Verifikon se kërkesat IPv6 me paketa të mëdha funksionojnë. Fakti se
 
 #: main/tech.inc
 msgid "Double check to make sure that ICMPv6 Type 2 (\"Packet Too Big\") messages are not filtered by your firewall."
-msgstr "Double check to make sure that ICMPv6 Type 2 (\"Packet Too Big\") messages are not filtered by your firewall."
+msgstr "Kontrolloni dhe sigurohuni se mesazhet ICMPv6 Type 2 (\"Packet Too Big\") nuk bllokohen nga firewalli juaj."
 
 #: main/tech.inc
 msgid "(This is bonus credit)"
@@ -650,15 +650,15 @@ msgstr "Përdorimi i kësaj forme nënkupton miratim."
 
 #: main/mail.inc
 msgid "<span id=\"comments_faq_link\"></span> (FAQ) page is available for <b>your</b> exact set of results. Please read it before leaving comments; many questions have already been answered. If you still have questions, comments, or concerns, feel freel to use this form."
-msgstr "<span id=\"comments_faq_link\"></span> (FAQ) page is available for <b>your</b> exact set of results. Please read it before leaving comments; many questions have already been answered. If you still have questions, comments, or concerns, feel freel to use this form."
+msgstr "Faqja <span id=\"comments_faq_link\"></span> (FAQ) disponohet posaçërisht për setin <b>tuaj</b> të rezultateve. Luteni ta lexoni para se të pyesni; për shumë pyetje do të gjeni atje një përgjigje. Nëse akoma keni pyetje ose komente, mos nguroni të përdorni formën e mëposhtme."
 
 #: main/mail-language.inc
 msgid "Please leave your comments using English, if possible."
-msgstr "Please leave your comments using English, if possible."
+msgstr "Luteni, mundësisht, të shkruani komentet në Anglisht."
 
 #: main/mail.inc
 msgid "If reporting a problem with the test, or requesting help with your results, please fill out all requested information to the best of your ability. If leaving general comments, use your best judgement on how much to report."
-msgstr "If reporting a problem with the test, or requesting help with your results, please fill out all requested information to the best of your ability. If leaving general comments, use your best judgement on how much to report."
+msgstr "Nëse raportoni një problem në lidhje me testin, ose kërkoni ndihmë sa i përket rezultateve, luteni të plotësoni sa më saktë të gjithë informacionin e duhur. Nëse thjesht dërgoni një koment, kini mirësinë të konsideroni sasinë e nevojshme të komentit tuaj."
 
 #: main/mail.inc
 msgid "Thanks,"
@@ -666,7 +666,7 @@ msgstr "Faleminderit,"
 
 #: main/mail.inc
 msgid "Purpose for comment"
-msgstr "Purpose for comment"
+msgstr "Qëllimi i komentit"
 
 #: main/mail.inc
 msgid "Questions about test results"
@@ -674,7 +674,7 @@ msgstr "Pyetje për rezultatet e testeve"
 
 #: main/mail.inc
 msgid "Report a bug with diagnosis"
-msgstr "Raporto problemin me shkaqe"
+msgstr "Raporto bug me diagnostika"
 
 #: main/mail.inc
 msgid "Suggestion"
@@ -682,7 +682,7 @@ msgstr "Sugjerim"
 
 #: main/mail.inc
 msgid "Cheers or Jeers"
-msgstr "Cheers or Jeers"
+msgstr "Përgëzime ose Mospëlqime"
 
 #: main/mail.inc
 msgid "Email address if you'll permit me to contact you. <i>Required, if you wish a response.</i>"
@@ -690,7 +690,7 @@ msgstr "Adresa Email ku mund t'ju kontaktojmë. <i>E detyrueshme, në qoftë se 
 
 #: main/mail.inc
 msgid "Any information you think I might find useful (what router you're using, or a firewall in the way, or type of proxy you use, etc). This includes general feedback."
-msgstr "Any information you think I might find useful (what router you're using, or a firewall in the way, or type of proxy you use, etc). This includes general feedback."
+msgstr "Informacion që mendoni se mund të më jetë i dobishëm (çfarë router përdorni, firewalli që keni instaluar, tipi i proxy-it, etj). Mund të përfshini feedback të përgjithshëm."
 
 #: main/mail.inc
 msgid "The javascript based test appears to have failed. This may be browser plugin or extension related. Please indicate what browser plugins and extenions you have enabled in this browser."
@@ -702,7 +702,7 @@ msgstr "Të interesuarit teknikisht luten të dërgojnë (cut/paste) rezultatin 
 
 #: main/mail.inc
 msgid "Copy the output from those commands, into the box below. This will help me confirm/deny any theories relating to your question."
-msgstr "Copy the output from those commands, into the box below. This will help me confirm/deny any theories relating to your question."
+msgstr "(Kopjoni) Vendosni rezultatin e komandave më sipër. Kjo do të më ndihmojë në konfirmimin/përjashtimin e situatave ose shkaqeve sa i përket pyetjes tuaj."
 
 #: main/mail.inc
 msgid "If you are technically minded, please open a \"Command Prompt\" or \"cmd\" window, and run these three commands:"
