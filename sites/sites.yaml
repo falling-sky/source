@@ -383,7 +383,7 @@ test-ipv6.arbor.net:
   v6: http://ipv6.test-ipv6.arbor.net/images-nc/knob_green.png
   monitor: 'Bill Cerveny <admin@v6research.net>'
 www.bsc-telecom.com: 
-  hide: 0
+  hide: 1
   loc: UK
   provider: BSC-Telecom
   v4: http://ipv4.bsc-telecom.com/phone.gif
