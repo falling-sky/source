@@ -1,11 +1,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-09-04 10:15-0400\n"
+"PO-Revision-Date: 2015-09-04 18:00-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Greek\n"
-"MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: crowdin.com\n"
 "X-Crowdin-Project: falling-sky\n"
 "X-Crowdin-Language: el\n"
@@ -130,7 +132,7 @@ msgstr "Η πιθανότερη αιτία είναι το NoScript ή το AdBl
 
 #: messages.js
 msgid "NAT64 detected. IPv6 works. IPv4 works for most purposes. Applications that are hard-coded for IPv4-only will fail. We are aware of at least one major voice-over-ip program that falls into this category. Your application's support staff may need a nudge to add proper IPv6 support."
-msgstr "NAT64 detected. IPv6 works. IPv4 works for most purposes. Applications that are hard-coded for IPv4-only will fail. We are aware of at least one major voice-over-ip program that falls into this category. Your application's support staff may need a nudge to add proper IPv6 support."
+msgstr "Εντοπίστηκε NAT64. Το IPv6 λειτουργεί. Το IPv4 λειτουργεί για τις περισσότερες περιπτώσεις. Οι hard-coded IPv4-only εφαρμογές θα αποτυγχάνουν. Γνωρίζουμε ότι υπάρχει τουλάχιστον μία τέτοια, πολύ γνωστή voice-over-ip εφαρμογή, που ανήκει σε αυτή την κατηγορία. Το προσωπικό υποστήριξης εφαρμογών σας ίσως χρειάζεται μια κάποια ώθηση στην παροχή της κατάλληλης υποστήριξης του IPv6."
 
 #: messages.js
 msgid "Your DNS server (possibly run by your ISP) appears to have IPv6 Internet access."
@@ -218,7 +220,7 @@ msgstr "Έχουμε προτάσεις που θα σας βοηθήσουν σ
 
 #: messages.js
 msgid "Since you have IPv6, we are including a tab that shows how well you can reach other IPv6 sites. %sites"
-msgstr "Since you have IPv6, we are including a tab that shows how well you can reach other IPv6 sites. %sites"
+msgstr "Δεδομένου ότι έχετε IPv6, έχουμε συμπεριλάβει μια καρτέλα που δείχνει την ποιότητα προσπέλασης άλλων IPv6 σελίδων. %sites"
 
 #: messages.js
 msgid "Your browser has real working IPv6 address - but is avoiding using it. We're concerned about this."
@@ -262,23 +264,23 @@ msgstr "faq: Opera"
 
 #: messages.js
 msgid "faq: Buggy DNS"
-msgstr "faq: Buggy DNS"
+msgstr "faq: Προβληματικό DNS"
 
 #: messages.js
 msgid "faq: Broken!"
-msgstr "faq: Broken!"
+msgstr "faq: Αποτυχία!"
 
 #: messages.js
 msgid "faq: Broken DNS Lookups"
-msgstr "faq: Broken DNS Lookups"
+msgstr "faq: Αποτυχία DNS Lookups"
 
 #: messages.js
 msgid "faq: Avoiding IPv6?"
-msgstr "faq: Avoiding IPv6?"
+msgstr "faq: Αποφυγή του IPv6;"
 
 #: messages.js
 msgid "faq: 6RD tunnel"
-msgstr "faq: 6RD tunnel"
+msgstr "faq: 6RD tunel"
 
 #: builtin.js
 msgid "[more info]"
@@ -318,7 +320,7 @@ msgstr "χρησιμοποιώντας"
 
 #: builtin.js
 msgid "tests run"
-msgstr "tests run"
+msgstr "δοκιμές ολοκληρώθηκαν"
 
 #: builtin.js
 msgid "(Survey posting skipped; test was rigged)"
@@ -390,7 +392,7 @@ msgstr "Μοιραστείτε τα αποτελέσματά σας"
 
 #: form.js
 msgid "I am most interested in discussing your setup with you, because it was been determined that <B>your IPv6 connectivity is broken</b>, or at least not fully understood. This is not normal; would you be willing to %share?"
-msgstr "I am most interested in discussing your setup with you, because it was been determined that <B>your IPv6 connectivity is broken</b>, or at least not fully understood. This is not normal; would you be willing to %share?"
+msgstr "Ενδιαφέρομαι να συζητήσουμε για τις ρυθμίσεις σας, καθώς εντοπίστηκε ότι <B>η IPv6 συνδεσιμότητά σας δεν λειτουργεί</b>, ή τουλάχιστον δεν είναι πλήρως κατανοητή. Αυτό δεν είναι λογικό· θα θέλατε να %share;"
 
 #: form.js
 msgid "retest"
@@ -646,7 +648,7 @@ msgstr "This includes your IP address, which is shared with the site administrat
 
 #: main/mail.inc
 msgid "Use of this form implies consent."
-msgstr "Use of this form implies consent."
+msgstr "Η χρήση αυτής της φόρμας συνεπάγεται συγκατάθεση."
 
 #: main/mail.inc
 msgid "<span id=\"comments_faq_link\"></span> (FAQ) page is available for <b>your</b> exact set of results. Please read it before leaving comments; many questions have already been answered. If you still have questions, comments, or concerns, feel freel to use this form."
@@ -694,7 +696,7 @@ msgstr "Πληροφορίες που θεωρείτε ότι θα μου είν
 
 #: main/mail.inc
 msgid "The javascript based test appears to have failed. This may be browser plugin or extension related. Please indicate what browser plugins and extenions you have enabled in this browser."
-msgstr "The javascript based test appears to have failed. This may be browser plugin or extension related. Please indicate what browser plugins and extenions you have enabled in this browser."
+msgstr "Η, σε Javascript βασισμένη, δοκιμή φαίνεται να απέτυχε. Αυτό μπορεί να οφείλεται σε κάποιο plugin ή extension του φυλλομετρητή σας. Παρακαλούμε προσδιορίστε τα plugins ή extensions που έχετε ενεργοποιήσει σε αυτόν τον φυλλομετρητή."
 
 #: main/mail.inc
 msgid "If you are technically minded please cut/paste the output of the following commands:"
@@ -718,7 +720,7 @@ msgstr "Η ενημέρωση του Γραφείου Αρωγής θα ακολ
 
 #: main/helpdesk.inc
 msgid "If your Internet help desk asks you to mail the 'results url', copy and paste the following URL."
-msgstr "If your Internet help desk asks you to mail the 'results url', copy and paste the following URL."
+msgstr "Αν το γραφείο αρωγής για το Internet σας ζητά την αποστολή του 'συνδέσμου των αποτελεσμάτων', αντιγράψτε και επικολλήστε το ακόλουθο URL."
 
 #: main/helpdesk.inc
 msgid "Note that this will share your current numeric Internet Protocol address(es)."
@@ -726,11 +728,11 @@ msgstr "Note that this will share your current numeric Internet Protocol address
 
 #: main/helpdesk.inc
 msgid "We do not recommend posting this link on public web sites such as forums."
-msgstr "We do not recommend posting this link on public web sites such as forums."
+msgstr "Δεν συνιστούμε τη δημοσίευση αυτού του συνδέσμου σε δημόσιες ιστοσελίδες όπως τα φόρουμ."
 
 #: main/helpdesk.inc
 msgid "On most computers, you can right-click the above URL, and select 'Copy'."
-msgstr "On most computers, you can right-click the above URL, and select 'Copy'."
+msgstr "Στους περισσότερους υπολογιστές, μπορείτε να κάντε δεξί κλικ στο παραπάνω URL και να επιλέξτε 'Αντιγραφή'."
 
 #: sites.inc
 msgid "<b>Because you have IPv6</b>, we've added this tab to show you whether or not you can reach other IPv6 web sites on the Internet. Consider notifying your ISP, if there are sites that show up as broken. If you are the ISP, you can click the Info link to see what test URLs are being used."
@@ -782,11 +784,11 @@ msgstr "Pick one of the following to switch to that language."
 
 #: faq_helpdesk.html
 msgid "Help Desk Information"
-msgstr "Help Desk Information"
+msgstr "Πληροφορίες για το Γραφείο Αρωγής Χρηστών"
 
 #: faq_helpdesk.html
 msgid "Q: What is the Help Desk tab for?"
-msgstr "Q: What is the Help Desk tab for?"
+msgstr "Q: Ποια είναι η χρήση της καρτέλας Γραφείο Αρωγής Χρηστών;"
 
 #: faq_helpdesk.html
 msgid "This tab is intended to help provide a brief, concise explanation of your connectivity. This can be read over the phone, if needed, to a service provider. This tab has less hand-holding; it is intended for a help desk to understand (as compared to an end user)."
@@ -1938,7 +1940,7 @@ msgstr "This test specifically verifies that your DNS resolver (usually operated
 
 #: faq_v6ns_bad.html
 msgid "If this test fails:"
-msgstr "If this test fails:"
+msgstr "Αν αυτή η δοκιμή αποτυγχάνει:"
 
 #: faq_v6ns_bad.html
 msgid "it means that the DNS resolver you are using, requires IPv4 to reach the DNS authoritative servers of your favoriate web sites. In the near future, every web site of consequence will remain accessible in this form, so <b>there is no immediate danger.</b>"
@@ -1946,7 +1948,7 @@ msgstr "it means that the DNS resolver you are using, requires IPv4 to reach the
 
 #: faq_v6ns_bad.html
 msgid "If this test succeeds:"
-msgstr "If this test succeeds:"
+msgstr "Aν αυτή η δοκιμή επιτυγχάνει:"
 
 #: faq_v6ns_bad.html
 msgid "it means that your DNS resolver is fully capable of reaching IPv6 DNS servers. This means that the operator of that DNS server has IPv6 within their network. If they do not already offer you IPv6, this may be a sign that they are actively working on trying to make it possible."
@@ -1954,7 +1956,7 @@ msgstr "it means that your DNS resolver is fully capable of reaching IPv6 DNS se
 
 #: faq_v6ns_bad.html
 msgid "Do you use OpenDNS?"
-msgstr "Do you use OpenDNS?"
+msgstr "Χρησιμοποιείτε OpenDNS;"
 
 #: faq_v6ns_bad.html
 msgid "OpenDNS is now offering IPv6-specific resolvers, that will be able to retrieve DNS over IPv6. This means the \"v6ns\" test operated here will pass. See the <a target=_blank href=\"http://www.opendns.com/ipv6/\">OpenDNS IPv6 information page</a>."

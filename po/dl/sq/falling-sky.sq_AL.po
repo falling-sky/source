@@ -1,11 +1,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-09-04 08:45-0400\n"
+"PO-Revision-Date: 2015-09-04 12:30-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Albanian\n"
-"MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: crowdin.com\n"
 "X-Crowdin-Project: falling-sky\n"
 "X-Crowdin-Language: sq\n"
@@ -694,7 +696,7 @@ msgstr "Informacion që mendoni se mund të më jetë i dobishëm (çfarë route
 
 #: main/mail.inc
 msgid "The javascript based test appears to have failed. This may be browser plugin or extension related. Please indicate what browser plugins and extenions you have enabled in this browser."
-msgstr "Testimet JavaScript duket se kanë dështuar. Shkaku mund të jetë ndonjë browser plugin ose extension. Luteni të kontrolloni çfarë plugins dhe extensions keni aktivizuar në browser."
+msgstr "Testimi, i cili bazohet në JavaScript, duket se ka dështuar. Shkaku mund të jetë ndonjë browser plugin ose extension. Luteni të përcaktoni çfarë plugins dhe extensions keni aktivizuar në këtë browser."
 
 #: main/mail.inc
 msgid "If you are technically minded please cut/paste the output of the following commands:"
