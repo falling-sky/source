@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-09-04 11:45-0400\n"
+"PO-Revision-Date: 2015-09-18 10:40-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: German\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -178,7 +178,8 @@ msgstr "<b>Deaktivieren Sie Turbomodus in Opera und starten Sie den Test erneut<
 
 #: messages.js
 msgid "<b>Good news!</b> Your current configuration will continue to work as web sites enable IPv6."
-msgstr "<b>Gute Nachrichten!</b>Wir gehen davon aus, dass Ihr jetziger Browser auf diesem Computer an diesem Standort auch nach dem Launch funktionieren wird."
+msgstr "<b>Gute Nachrichten!</b> Ihre Konfiguration wird auch weiterhin funktionieren, wenn andere Webseiten\n"
+"IPv6 aktivieren."
 
 #: messages.js
 msgid "<b>Our tests show that you will have a broken or misconfigured IPv6 setup, and this will cause problems as web sites enable IPv6.</b>"
@@ -2178,7 +2179,7 @@ msgstr "Sort of. Basic web browsing should be OK for most sites. Some map sites,
 
 #: faq_whyipv6.html
 msgid "Mail will still work, both traditional as well as web based."
-msgstr "Mail will still work, both traditional as well as web based."
+msgstr "E-Mails sind weiterhin funktionsfähig, sowohl klassisch als auch webbasiert."
 
 #: faq_whyipv6.html
 msgid "Q: What will break when ISPs NAT their customers?"
@@ -2286,7 +2287,7 @@ msgstr "IPv6 firewalls <b>need</b> to permit ICMPv6, type 2 (Packet Too Big) to 
 
 #: faq_pmtud.html
 msgid "Q: What else can cause PMTUD failures?"
-msgstr "Q: What else can cause PMTUD failures?"
+msgstr "Q: Was noch kann PMTUD Fehler verursachen?"
 
 #: faq_pmtud.html
 msgid "Tunnels inside of tunnels. One might be your own; the other, you may not see. Internet service providers often use tunnels either to simplify their topology; to hide it; or to transport things in a more convenient way. However, each tunnel used requires adding a bit of a header to the top of the packet - making the packet bigger. The problem lies in that routers have a maximum size packet they will route."
@@ -2322,11 +2323,11 @@ msgstr "(Was zeigt tcpdump an?)"
 
 #: faq_pmtud.html
 msgid "This is what tcpdump will show.."
-msgstr "This is what tcpdump will show.."
+msgstr "Das wird tcpdump anzeigen.."
 
 #: faq_pmtud.html
 msgid "This is what I ran to generate the packets."
-msgstr "This is what I ran to generate the packets."
+msgstr "Dies ließ ich laufen, um die Pakete zu generieren."
 
 #: faq_pmtud.html
 msgid "What can I do?"
@@ -2334,15 +2335,15 @@ msgstr "Was kann ich tun?"
 
 #: faq_pmtud.html
 msgid "This is a complex question - there are many ways to get on the Internet."
-msgstr "This is a complex question - there are many ways to get on the Internet."
+msgstr "Dies ist eine komplexe Frage - Es gibt im Internet viele Möglichkeiten."
 
 #: faq_pmtud.html
 msgid "The preferred fix is to permit ICMPv6 Type 2 Packet Too Big messages."
-msgstr "The preferred fix is to permit ICMPv6 Type 2 Packet Too Big messages."
+msgstr "Der bevorzugte Fix gestattet ICMPv6 Typ 2 Paket Zu Groß Meldungen."
 
 #: faq_pmtud.html
 msgid "Your router or firewall may be blocking these."
-msgstr "Your router or firewall may be blocking these."
+msgstr "Ihr Router oder Firewall blockiert dies möglicherweise."
 
 #: faq_pmtud.html
 msgid "If you have \"native\" IPv6, meaning your ISP gave you your IPv6 connectivity, and you are still running into MTU problems, see if your router can advertise a smaller IPv6 MTU. Alternately, configure your <b>entire LAN</b> for a smaller MTU (not really advised!)"
@@ -2354,7 +2355,7 @@ msgstr "If your router provides IPv6 for you, see if you can configure a smaller
 
 #: faq_pmtud.html
 msgid "Apple Airport routers: Automatically send ICMPv6 redirects to your hosts, telling them to reduce the path MTU to 1280."
-msgstr "Apple Airport routers: Automatically send ICMPv6 redirects to your hosts, telling them to reduce the path MTU to 1280."
+msgstr "Apple Airport Router: Sende automatisch ICMPv6 Weiterleitungen zu ihrem Provider, mit der Anweisung den MUT auf 1280 zu reduzieren."
 
 #: faq_pmtud.html
 msgid "DD-WRT routers: Looks like you need to use \"AdvLinkMTU 1280;\" on your wireless side; and make sure the tun6to4 mtu is set to 1280."
@@ -2382,7 +2383,7 @@ msgstr "<b>If you are not covered by the above, do a web search.</b>. As you lea
 
 #: attributions.html
 msgid "<!-- <p><em>falling-sky</em> is also a reference to <a href=\"http://en.wikipedia.org/wiki/The_Sky_Is_Falling_(fable)\">the story of Chicken Little.</p> -->"
-msgstr "<!-- <p><em>falling-sky</em> is also a reference to <a href=\"http://en.wikipedia.org/wiki/The_Sky_Is_Falling_(fable)\">the story of Chicken Little.</p> -->"
+msgstr "<!--<p><em>falling-sky</em> ist auch ein Verweis auf <a href=\"http://en.wikipedia.org/wiki/The_Sky_Is_Falling_(fable)\"> die Geschichte von Chicken Little.</p>-->"
 
 #: attributions.html
 msgid "This site would not exist without the following components and resources."
@@ -2402,7 +2403,7 @@ msgstr "Zuerst eine Beschreibung des Problems:"
 
 #: faq_buggydns1.html
 msgid "Your browser asked for a DNS lookup, both IPv4 and IPv6."
-msgstr "Your browser asked for a DNS lookup, both IPv4 and IPv6."
+msgstr "Ihr Browser bat um ein DNS-Lookup, IPv4 und IPv6."
 
 #: faq_buggydns1.html
 msgid "The IPv6 response was returned first."
@@ -2414,7 +2415,7 @@ msgstr "Ihr DNS-Server wurde durch das Ergebnis verwirrt - er folgt nicht vollst
 
 #: faq_buggydns1.html
 msgid "Your DNS server took the first peice of the IPV6 address, and memorized it as the IPv4 address."
-msgstr "Your DNS server took the first peice of the IPV6 address, and memorized it as the IPv4 address."
+msgstr "Ihr DNS-Server nahm das erste Stück der IPV6-Adresse, und speicherte es als IPv4-Adresse."
 
 #: faq_buggydns1.html
 msgid "The browser fails the IPv6 lookup, but \"succeeds\" in getting a bogus IPv4 address."
@@ -2442,7 +2443,7 @@ msgstr "Nun, was ist eigentlich betroffen?"
 
 #: faq_buggydns1.html
 msgid "You'll need to determine what device is forwarding your DNS queries."
-msgstr "You'll need to determine what device is forwarding your DNS queries."
+msgstr "Sie müssen ermitteln welches Gerät Ihre DNS-Abfragen weiterleitet."
 
 #: faq_buggydns1.html
 msgid "With Windows, at the <code>cmd</code> prompt, you can type <code>ipconfig /all</code>. Look for \"<code>DNS Servers</code>\"."
