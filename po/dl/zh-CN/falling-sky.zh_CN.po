@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-09-17 17:30-0400\n"
+"PO-Revision-Date: 2015-09-20 08:45-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Chinese Simplified\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -1850,7 +1850,7 @@ msgstr "在网站同时为IPv4和IPv6提供内容时，您仍会使用现有的I
 
 #: faq/whyipv6.inc
 msgid "Many of the visitors to the site are new to what IPv6 is."
-msgstr "Many of the visitors to the site are new to what IPv6 is."
+msgstr "许多本站访问者对IPv6都是新手。"
 
 #: faq/whyipv6.inc
 msgid "If you don't know why IPv6 matters, see the <a href=\"#\" onclick=\"return help_page('faq_whyipv6.html','Why IPv6')\">Why IPv6 FAQ</a>."
@@ -1858,7 +1858,7 @@ msgstr "如果您不知道IPv6因何存在，请参阅<a href=\"#\" onclick=\"re
 
 #: faq/whyipv6.inc
 msgid "This will give you a bit of background of what to expect with IPv4 in the coming months and years; and perhaps some incentive to ask your ISP when they will offer IPv6."
-msgstr "This will give you a bit of background of what to expect with IPv4 in the coming months and years; and perhaps some incentive to ask your ISP when they will offer IPv6."
+msgstr "这会告诉你一些IPv4在未来的的一些前景，以及，或许会给你找ISP要求提供IPv6的冲动。"
 
 #: faq/brokers.inc
 msgid "If you are savvy with technology, you can be an early adopter of IPv6, consider learning more about"
@@ -2050,7 +2050,7 @@ msgstr "本常见问题已经制成了尝试和处理Firefox导致的问题的�
 
 #: faq/intro_js.inc
 msgid "<b>How this site works:</b> This site tells your browser to try and load several remote javascript files. Each file is on a different server. After each one finishes, we look at which ones worked - and which ones failed. Depending on the pattern, we can guess at IPv4 and IPv6 compatibility, and sometimes suggest possible fixes."
-msgstr "<b>How this site works:</b> This site tells your browser to try and load several remote javascript files. Each file is on a different server. After each one finishes, we look at which ones worked - and which ones failed. Depending on the pattern, we can guess at IPv4 and IPv6 compatibility, and sometimes suggest possible fixes."
+msgstr "<b>这个网站怎么工作:</b>这个网站会告诉你的浏览器，去加载几个远程 javascript 文件。每个文件位于不同的服务器上。这些完成后，我们看看其中哪些能工作-和哪些不能。通过这种方式，我们可以猜测你的设备对 IPv4 和 IPv6 兼容性，有时也会建议可能的修复方法。"
 
 #: faq/intro_js.inc
 msgid "Some browser plugins enforce policies that are compatible with the above behavior. They block connections that (to them) look like they might be 3rd party advertising or tracking. There is no good way to identify this plugins from inside javascript; nor any good way to work around it."
