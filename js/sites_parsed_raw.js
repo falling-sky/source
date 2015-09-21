@@ -291,6 +291,16 @@
       "v4" : "http://ipv4.test-ipv6.iad.vr.org/images-nc/knob_green.png",
       "v6" : "http://ipv6.test-ipv6.iad.vr.org/images-nc/knob_green.png"
    },
+   "test-ipv6.jp" : {
+      "hide" : "0",
+      "loc" : "JP",
+      "mirror" : "1",
+      "monitor" : "Shin Shirahata <inquiry@test-ipv6.jp>",
+      "provider" : "BIGLOBE, Inc/Fullroute Pte. Ltd",
+      "site" : "test-ipv6.jp",
+      "v4" : "http://ipv4.test-ipv6.jp/images-nc/knob_green.png",
+      "v6" : "http://ipv6.test-ipv6.jp/images-nc/knob_green.png"
+   },
    "test-ipv6.lazypaddle.com" : {
       "hide" : "0",
       "loc" : "US WI",
@@ -458,15 +468,6 @@
       "site" : "testipv6.de",
       "v4" : "http://ipv4.testipv6.de/images-nc/knob_green.png",
       "v6" : "http://ipv6.testipv6.de/images-nc/knob_green.png"
-   },
-   "www.bsc-telecom.com" : {
-      "hide" : "0",
-      "loc" : "UK",
-      "monitor" : "Ken Booth <ken@booths.org.uk>",
-      "provider" : "BSC-Telecom",
-      "site" : "www.bsc-telecom.com",
-      "v4" : "http://ipv4.bsc-telecom.com/phone.gif",
-      "v6" : "http://ipv6.bsc-telecom.com/phone.gif"
    },
    "www.ctbc.com.br" : {
       "hide" : "0",

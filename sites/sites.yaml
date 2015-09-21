@@ -224,10 +224,10 @@ test-ipv6.iad.vr.org:
   v6: http://ipv6.test-ipv6.iad.vr.org/images-nc/knob_green.png
   monitor: jfesler@gigo.com
 test-ipv6.jp: 
-  hide: 1
+  hide: 0
   loc: JP
   mirror: 1
-  provider: CLARA ONLINE, Inc
+  provider: 'BIGLOBE, Inc/Fullroute Pte. Ltd'
   v4: http://ipv4.test-ipv6.jp/images-nc/knob_green.png
   v6: http://ipv6.test-ipv6.jp/images-nc/knob_green.png
   monitor: 'Shin Shirahata <inquiry@test-ipv6.jp>'
