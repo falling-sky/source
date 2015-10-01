@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-09-20 05:45-0400\n"
+"PO-Revision-Date: 2015-09-30 06:15-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Albanian\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -110,7 +110,7 @@ msgstr "Lidhjet me faqe që ofrohen vetëm me IPv6 skadojnë periudhën timeout.
 
 #: messages.js
 msgid "Connections to IPv6-capable web sites hang. It appears that you may have IPv6 configured; and your computer believes that your IPv6 is working, with a route. It is however completely failing. Any web site that adds IPv6, will become unreachable to you. If you are unable to fix your IPv6 routing or connectivity, seek help. If all else fails, strongly consider disabling IP6 on host."
-msgstr "Connections to IPv6-capable web sites hang. It appears that you may have IPv6 configured; and your computer believes that your IPv6 is working, with a route. It is however completely failing. Any web site that adds IPv6, will become unreachable to you. If you are unable to fix your IPv6 routing or connectivity, seek help. If all else fails, strongly consider disabling IP6 on host."
+msgstr "Lidhjet me faqe IPv6 nuk realizohen. Me sa duket, keni konfiguruar IPv6 dhe kompjuteri juaj beson se IPv6 funksionon, por në fakt lidhjet dështojnë. Çdo faqe që do të ofrohet edhe me IPv6 do të bëhet e pa aksesueshme prej jush. Në qoftë se nuk mundeni të riparoni problemet me routing dhe lidhjen IPv6, kërkoni ndihmë, përkundrazi konsideroni ç'aktivizimin e IPv6 në kompjuterin tuaj."
 
 #: messages.js
 msgid "We are unable to test your system; it appears that a firewall or browser filter is preventing the test from running. Critical tests are failing. Try disabling any browser plugins, extensions, or add-ons (such as ad blockers); and reloading this page. If that still fails, you can leave a comment requesting help."
@@ -190,7 +190,7 @@ msgstr "<b>Testet tona tregojnë se ndoshta do keni probleme MTU në përdorimin
 
 #: messages.js
 msgid "We looked up an IPv6 address, but your DNS server (possibly your home router) mangled the response, and is treating it as (broken) IPv4."
-msgstr "We looked up an IPv6 address, but your DNS server (possibly your home router) mangled the response, and is treating it as (broken) IPv4."
+msgstr "Kryem lookup për një adresë IPv6, por serveri juaj DNS (ndoshta në routerin tuaj) ndryshoi përgjigjen duke e kosideruar si një (jo funksionale) adresë IPv4."
 
 #: messages.js
 msgid "It appears that you use a tunnel mechanism for either IPv4 or IPv6."
@@ -222,7 +222,7 @@ msgstr "Meqenëse keni IPv6, ju ofrojmë një kartelë e cila tregon cilësinë 
 
 #: messages.js
 msgid "Your browser has real working IPv6 address - but is avoiding using it. We're concerned about this."
-msgstr "Your browser has real working IPv6 address - but is avoiding using it. We're concerned about this."
+msgstr "Browseri juaj ka adresë IPv6 funksionale - por nuk e përdor. Jemi të shqetësuar për këtë."
 
 #: messages.js
 msgid "faq: MTU"
@@ -322,19 +322,19 @@ msgstr "testime të kryera"
 
 #: builtin.js
 msgid "(Survey posting skipped; test was rigged)"
-msgstr "(Survey posting skipped; test was rigged)"
+msgstr "(Postimi analizues u anashkalua; testi ishte i pasaktë)"
 
 #: builtin.js
 msgid "(Updating server side IPv6 readiness stats)"
-msgstr "(Updating server side IPv6 readiness stats)"
+msgstr "(Po përditësohen në server statistikat e gatishmërisë IPv6)"
 
 #: builtin.js
 msgid "(Updated server side IPv6 readiness stats)"
-msgstr "(Updated server side IPv6 readiness stats)"
+msgstr "(U përditësuan në server statistikat e gatishmërisë IPv6)"
 
 #: builtin.js
 msgid "(Survey posting failed; the above information is accurate, but not recorded.)"
-msgstr "(Survey posting failed; the above information is accurate, but not recorded.)"
+msgstr "(Postimi analizues dështoi; informacioni i mësipërm është i saktë, por nuk u rregjistrua.)"
 
 #: builtin.js
 msgid "Your readiness score"
@@ -406,7 +406,7 @@ msgstr "Shënim: Nuk mundem t'ju kontaktoj nëse kontakti nuk ekziston. Në qoft
 
 #: checkresults.js
 msgid "unknown expansion"
-msgstr "unknown expansion"
+msgstr "zgjerim i panjohur"
 
 #: checkresults.js
 msgid "unknown result code"
@@ -606,7 +606,7 @@ msgstr "Kontrolloni dhe sigurohuni se mesazhet ICMPv6 Type 2 (\"Packet Too Big\"
 
 #: main/tech.inc
 msgid "(This is bonus credit)"
-msgstr "(This is bonus credit)"
+msgstr "(Ky është bonus)"
 
 #: main/tech.inc
 msgid "This is a test of your ISP's resolver (instead of a test of your host). If this test passes, your DNS server (often run by your ISP) is capable of reaching IPV6-only DNS authoritative servers on the Internet. This is not critical (at this time) for you to reach sites via IPv6."
@@ -622,7 +622,7 @@ msgstr "Përpiqet të identifikojë Ofruesin e Shërbimit të Internetit (ISP) q
 
 #: main/tech.inc
 msgid "Queries for a malformed AAAA record. Some routers mishandle these as \"A\" records, and only keep the first 32 bits. We want this test to fail to connect."
-msgstr "Queries for a malformed AAAA record. Some routers mishandle these as \"A\" records, and only keep the first 32 bits. We want this test to fail to connect."
+msgstr "Test për rekorde AAAA me sintaksë të gabuar. Disa routera gabimisht i konsiderojnë këto sikur të ishin rekorde \"A\" dhe përdorin vetëm 32 bits e para. Normalisht ky test duhet të dështojë të lidhet."
 
 #: main/tech.inc
 msgid "If the summary results indicated problems, you (or your technical support) may be able to use the information above to diagnose the issues. Each of the test urls and their results is shown on the left side. To the right you'll see a description of what that URL was designed to test."
@@ -638,11 +638,11 @@ msgstr "<b>Your particular configuration is of interest.</b> We are always striv
 
 #: main/mail.inc
 msgid "This form will let you leave a comment, voice concerns, or ask questions. Your test results will be included automatically."
-msgstr "This form will let you leave a comment, voice concerns, or ask questions. Your test results will be included automatically."
+msgstr "Nëpërmjet kësaj forme mund të lini një koment, të shpreni shqetësime, ose të drejtoni pyetje. Rezultatet e testimeve tuaja do të bashkangjiten automatikisht."
 
 #: main/mail.inc
 msgid "This includes your IP address, which is shared with the site administrator in order to answer your questions."
-msgstr "This includes your IP address, which is shared with the site administrator in order to answer your questions."
+msgstr "Përmban adresën tuaj IP, e cila komunikohet tek administratori i faqes që t'i përgjigjet pyetjes tuaj."
 
 #: main/mail.inc
 msgid "Use of this form implies consent."
@@ -726,7 +726,7 @@ msgstr "Note that this will share your current numeric Internet Protocol address
 
 #: main/helpdesk.inc
 msgid "We do not recommend posting this link on public web sites such as forums."
-msgstr "We do not recommend posting this link on public web sites such as forums."
+msgstr "Nuk rekomandohet postimi i këtij linku në faqe publike, siç janë forumet."
 
 #: main/helpdesk.inc
 msgid "On most computers, you can right-click the above URL, and select 'Copy'."
@@ -734,7 +734,7 @@ msgstr "Pothuajse në çdo kompjuter, mund të kryeni right-click në URL-in e m
 
 #: sites.inc
 msgid "<b>Because you have IPv6</b>, we've added this tab to show you whether or not you can reach other IPv6 web sites on the Internet. Consider notifying your ISP, if there are sites that show up as broken. If you are the ISP, you can click the Info link to see what test URLs are being used."
-msgstr "<b>Because you have IPv6</b>, we've added this tab to show you whether or not you can reach other IPv6 web sites on the Internet. Consider notifying your ISP, if there are sites that show up as broken. If you are the ISP, you can click the Info link to see what test URLs are being used."
+msgstr "<b>Meqenëse keni IPv6</b>, shtuam këtë kartelë t'ju tregojmë nëse mundeni të aksesoni faqe të tjera IPv6 në Internet. Nëse shikoni faqe, aksesimi i të cilave dështon, njoftoni ISP-në tuaj. Nëse ju jeni ISP, klikoni Info link të shihni cilat URLs përdoren si teste."
 
 #: sites.inc
 msgid "<b>Hint</b>: Columns are sortable (click the first row); <a href=\"#\" onclick=\"GIGO.test_sites(2); return false;\">click here</a> to re-check reachability from where you are to those mirrors."
