@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-10-01 18:01-0400\n"
+"PO-Revision-Date: 2015-10-02 17:00-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Russian\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -506,7 +506,7 @@ msgstr "Отладка"
 
 #: main/tabnav.inc
 msgid "Other IPv6 Sites"
-msgstr "Other IPv6 Sites"
+msgstr "Другие IPv6 сайты"
 
 #: main/tests.inc
 msgid "How this test works:"
@@ -558,11 +558,11 @@ msgstr "Тест использования IPv6 DNS сервером вашег
 
 #: main/tests.inc
 msgid "Find IPv4 Service Provider"
-msgstr "Find IPv4 Service Provider"
+msgstr "Найти провайдера IPv4"
 
 #: main/tests.inc
 msgid "Find IPv6 Service Provider"
-msgstr "Find IPv6 Service Provider"
+msgstr "Найти провайдера IPv6"
 
 #: main/tests.inc
 msgid "Test for buggy DNS"
