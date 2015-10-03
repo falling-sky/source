@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-10-02 17:30-0400\n"
+"PO-Revision-Date: 2015-10-03 08:00-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Russian\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -1086,7 +1086,7 @@ msgstr "Go to \"View network status and tasks\""
 
 #: faq/find_ip.inc
 msgid "Go to \"Change adapter settings\"."
-msgstr "Go to \"Change adapter settings\"."
+msgstr "Перейдите к «Изменение параметров адаптера»."
 
 #: faq/find_ip.inc
 msgid "Go to your main Internet connection, double click"
@@ -1094,11 +1094,11 @@ msgstr "Go to your main Internet connection, double click"
 
 #: faq/find_ip.inc
 msgid "Go to \"Details\""
-msgstr "Go to \"Details\""
+msgstr "Перейдите к «Сведения»"
 
 #: faq/find_ip.inc
 msgid "Look for \"IPv6 Address\" and \"IPv6 Default Gateway\""
-msgstr "Look for \"IPv6 Address\" and \"IPv6 Default Gateway\""
+msgstr "Ищите «IPv6-адрес» и «Шлюз по умолчанию IPv6»"
 
 #: faq/find_ip.inc
 msgid "Other Windows based OS's: Send jfesler@test-ipv6.com detailed instructions; and I'll add them to the site."
@@ -1230,7 +1230,7 @@ msgstr "Bad or Inappropriate IPv6 Addresss"
 
 #: broken.html
 msgid "(IPv6 address: see table below)"
-msgstr "(IPv6 address: see table below)"
+msgstr "(Адрес IPv6: см. таблицу ниже)"
 
 #: faq/broken_bogon.inc
 msgid "Bad or Inappropriate IPv6 Addresses (Bogons)"
@@ -1270,11 +1270,11 @@ msgstr "This router is using the official \"Documentation\" prefix - which is no
 
 #: faq/broken_bogon.inc
 msgid "Update to the latest firmware."
-msgstr "Update to the latest firmware."
+msgstr "Обновите до последней прошивки."
 
 #: faq/broken_bogon.inc
 msgid "Other routers: Try updating the firmware."
-msgstr "Other routers: Try updating the firmware."
+msgstr "Другие маршрутизаторы: попробуйте обновить прошивку."
 
 #: faq/broken_bogon.inc
 msgid "Disable IPv6."
@@ -1282,7 +1282,7 @@ msgstr "Отключите IPv6."
 
 #: broken.html
 msgid "(IPv6 address: not starting with fe80)"
-msgstr "(IPv6 address: not starting with fe80)"
+msgstr "(IPv6-адрес: не начинается с fe80)"
 
 #: faq/broken_unexpected.inc
 msgid "Unexpected IPv6 address?"
@@ -1322,7 +1322,7 @@ msgstr "From the netalyzr staff:"
 
 #: broken.html
 msgid "If all else fails"
-msgstr "If all else fails"
+msgstr "если ничего не помогает"
 
 #: broken.html
 msgid "(Instructions for disabling or deprioritizing IPv6)"
@@ -1586,11 +1586,11 @@ msgstr "Графики обновляются ежедневно."
 
 #: stats.html
 msgid "60 days view"
-msgstr "60 days view"
+msgstr "Просмотр 60 дней"
 
 #: stats.html
 msgid "600 days view"
-msgstr "600 days view"
+msgstr "Просмотр 600 дней"
 
 #: stats.html
 msgid "Quick notes:"
@@ -1606,7 +1606,7 @@ msgstr "Brokeness goes down, when volume goes up. This is due to having a wider 
 
 #: stats.html
 msgid "These graphs show the last 60 days of activity at <span lookup=site.name>site</span>"
-msgstr "These graphs show the last 60 days of activity at <span lookup=site.name>site</span>"
+msgstr "Эти графики показывают последние 60 дней активности на <span lookup=site.name>сайте</span>"
 
 #: stats.html
 msgid "Graph: shows result summaries, stacked. Total height shows number of users who took the test on a given day."
@@ -1626,7 +1626,7 @@ msgstr "Line graph, not stacked, of results over time."
 
 #: stats.html
 msgid "These graphs show the last 600 days of activity at <span lookup=site.name>site</span>"
-msgstr "These graphs show the last 600 days of activity at <span lookup=site.name>site</span>"
+msgstr "Эти графики показывают последние 600 дней активности на <span lookup=site.name>сайте</span>"
 
 #: mission.html
 msgid "test-ipv6.com - Our mission"
