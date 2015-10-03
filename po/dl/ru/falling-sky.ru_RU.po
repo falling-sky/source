@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-10-02 17:00-0400\n"
+"PO-Revision-Date: 2015-10-02 17:30-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Russian\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -558,11 +558,11 @@ msgstr "Тест использования IPv6 DNS сервером вашег
 
 #: main/tests.inc
 msgid "Find IPv4 Service Provider"
-msgstr "Найти провайдера IPv4"
+msgstr "Поиск провайдера IPv4"
 
 #: main/tests.inc
 msgid "Find IPv6 Service Provider"
-msgstr "Найти провайдера IPv6"
+msgstr "Поиск провайдера IPv6"
 
 #: main/tests.inc
 msgid "Test for buggy DNS"
@@ -602,7 +602,7 @@ msgstr "Этот тест определяет, корректно ли рабо
 
 #: main/tech.inc
 msgid "Double check to make sure that ICMPv6 Type 2 (\"Packet Too Big\") messages are not filtered by your firewall."
-msgstr "Double check to make sure that ICMPv6 Type 2 (\"Packet Too Big\") messages are not filtered by your firewall."
+msgstr "Дважды проверьте чтобы убедиться, что сообщения ICMPv6 Type 2 («Packet Too Big») не фильтруются вашим брандмауэром."
 
 #: main/tech.inc
 msgid "(This is bonus credit)"
@@ -778,7 +778,7 @@ msgstr "Доступные языки"
 
 #: locale.html
 msgid "Pick one of the following to switch to that language."
-msgstr "Pick one of the following to switch to that language."
+msgstr "Выберите один ниже, чтобы переключиться на этот язык."
 
 #: faq_helpdesk.html
 msgid "Help Desk Information"
@@ -970,7 +970,7 @@ msgstr "When looking for your IPv6 address, skip any <code>fe80:</code> address.
 
 #: faq/find_ip.inc
 msgid "OS X users: To find your IP address using the GUI:"
-msgstr "OS X users: To find your IP address using the GUI:"
+msgstr "Пользователям OS X: поиск своего IP-адреса с помощью графического интерфейса:"
 
 #: faq/find_ip.inc
 msgid "Go to the \"Apple\" menu (top left corner)"
@@ -1006,7 +1006,7 @@ msgstr "Make a note of the IPv6 address (if any)."
 
 #: faq/find_ip.inc
 msgid "OS X users: To find your IP address using the command line:"
-msgstr "OS X users: To find your IP address using the command line:"
+msgstr "Пользователям OS X: поиск своего IP-адреса с помощью командной строки:"
 
 #: faq/find_ip.inc
 msgid "To open your terminal: Go to your Applications folder; go to Utilities; and double click Terminal."
@@ -1014,11 +1014,11 @@ msgstr "To open your terminal: Go to your Applications folder; go to Utilities; 
 
 #: faq/find_ip.inc
 msgid "To see your IP addresses: <code>ifconfig -f inet6</code>."
-msgstr "To see your IP addresses: <code>ifconfig -f inet6</code>."
+msgstr "Чтобы увидеть ваши IP адреса: <code>ifconfig -f inet6</code>."
 
 #: faq/find_ip.inc
 msgid "Ignore the <code>fe80:</code> addresses; look for any other address on your <code>en0</code> or <code>en1</code>."
-msgstr "Ignore the <code>fe80:</code> addresses; look for any other address on your <code>en0</code> or <code>en1</code>."
+msgstr "Игнорируйте <code>fe80:</code> адреса; ищите любой другой адрес на вашем <code>en0</code> или <code>en1</code>."
 
 #: faq/find_ip.inc
 msgid "To see if you have a default route: <code>netstat -nr -f inet6</code>."
@@ -1046,7 +1046,7 @@ msgstr "Generic unix instructions for determining your IPv6 address and default 
 
 #: faq/find_ip.inc
 msgid "Windows users: To find your IP address using cmd.exe:"
-msgstr "Windows users: To find your IP address using cmd.exe:"
+msgstr "Пользователям Windows: поиск своего IP-адреса используя cmd.exe:"
 
 #: faq/find_ip.inc
 msgid "Go to your \"start\" menu"
@@ -1058,11 +1058,11 @@ msgstr "If you have a \"Run\" menu option, select it. Otherwise go to the \"Sear
 
 #: faq/find_ip.inc
 msgid "Type <code>cmd.exe</code>"
-msgstr "Type <code>cmd.exe</code>"
+msgstr "Напечатайте <code>cmd.exe</code>"
 
 #: faq/find_ip.inc
 msgid "In the cmd window, type <code>ipconfig</code> ."
-msgstr "In the cmd window, type <code>ipconfig</code> ."
+msgstr "В cmd-окне введите <code>ipconfig</code>."
 
 #: faq/find_ip.inc
 msgid "Windows 7 GUI users:"
