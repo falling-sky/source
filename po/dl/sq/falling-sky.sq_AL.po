@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-10-08 09:15-0400\n"
+"PO-Revision-Date: 2015-10-12 16:45-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Albanian\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -130,7 +130,7 @@ msgstr "Shkaku më i mundshëm është NoScript ose AdBlock+. NoScript mund të 
 
 #: messages.js
 msgid "NAT64 detected. IPv6 works. IPv4 works for most purposes. Applications that are hard-coded for IPv4-only will fail. We are aware of at least one major voice-over-ip program that falls into this category. Your application's support staff may need a nudge to add proper IPv6 support."
-msgstr "NAT64 detected. IPv6 works. IPv4 works for most purposes. Applications that are hard-coded for IPv4-only will fail. We are aware of at least one major voice-over-ip program that falls into this category. Your application's support staff may need a nudge to add proper IPv6 support."
+msgstr "U gjend NAT64. IPv6 funksionon. IPv4 funksionon në më të shumtat e rasteve. Aplikacionet që janë hard-coded vetëm për IPv4 do të dështojnë. Jemi në dijeni se në këtë kategori ekziston të paktën një program voice-over-ip shumë i njohur. Stafi juaj suportues i aplikacioneve ndoshta ka nevojë për një nxitje sa i përket suportimit përkatës të IPv6."
 
 #: messages.js
 msgid "Your DNS server (possibly run by your ISP) appears to have IPv6 Internet access."
@@ -146,7 +146,7 @@ msgstr "Ndoshta një FireFox plugin, që shkakton dështimin e testimeve të baz
 
 #: messages.js
 msgid "A lookup for an IPv6-only name failed; yet the lookup and connect for dual-stack connected via IPv6. Something appears to be confused with the DNS lookups."
-msgstr "A lookup for an IPv6-only name failed; yet the lookup and connect for dual-stack connected via IPv6. Something appears to be confused with the DNS lookups."
+msgstr "Një lookup vetëm për IPv6 dështoi; njëkohësisht lookup dhe lidhja për dual-stack nëpërmjet IPv6. Situata duket problematike sa i përket DNS lookups."
 
 #: messages.js
 msgid "A lookup for an IPv6-only name failed; yet the lookup and connect for dual-stack connected via IPv6. The IPv6-only lookup should have worked. Apple has a bug that sporadically causes some IPv6 lookups to fail. We saw evidence of it on this test. You can reload the page and try the test again. For more details, see <a href=\"http://openradar.appspot.com/7333104\">http://openradar.appspot.com/7333104</a>."
@@ -634,7 +634,7 @@ msgstr "Pasi çdo test të jetë ekzekutuar, faqja e përmbledhjes shqyrton rezu
 
 #: main/mail.inc
 msgid "<b>Your particular configuration is of interest.</b> We are always striving to make the test-ipv6.com code better. Would you be willing to contribute more information about your browser and computer setup? With your help, we can document for others how to repair their systems."
-msgstr "<b>Your particular configuration is of interest.</b> We are always striving to make the test-ipv6.com code better. Would you be willing to contribute more information about your browser and computer setup? With your help, we can document for others how to repair their systems."
+msgstr "<b>Konfigurimi juaj është me interes të veçantë.</b>Ne jemi gjithmonë duke u përpjekur të përmirësojmë kodin e test-ipv6.com. Do dëshironit të kontibutonit më tepër informacion për browserin dhe kompjuterin tuaj? Me ndihmën tuaj mund të dokumentojmë për të tjerët se si të riparojnë sistemin e tyre."
 
 #: main/mail.inc
 msgid "This form will let you leave a comment, voice concerns, or ask questions. Your test results will be included automatically."
@@ -706,7 +706,7 @@ msgstr "(Kopjoni) Vendosni rezultatin e komandave më sipër. Kjo do të më ndi
 
 #: main/mail.inc
 msgid "If you are technically minded, please open a \"Command Prompt\" or \"cmd\" window, and run these three commands:"
-msgstr "If you are technically minded, please open a \"Command Prompt\" or \"cmd\" window, and run these three commands:"
+msgstr "Nëse jeni teknikisht të interesuar, hapni një \"Command Prompt\" ose \"cmd\" window dhe ekzekutoni këto tre komanda:"
 
 #: main/mail.inc
 msgid "Send results"
@@ -722,7 +722,7 @@ msgstr "Në qoftë se help desk i Internetit ju kërkon t'i dërgoni me email 'u
 
 #: main/helpdesk.inc
 msgid "Note that this will share your current numeric Internet Protocol address(es)."
-msgstr "Note that this will share your current numeric Internet Protocol address(es)."
+msgstr "Kini parasysh se kjo do të përhapë adresën ose adresat tuaja numerike IP."
 
 #: main/helpdesk.inc
 msgid "We do not recommend posting this link on public web sites such as forums."
@@ -738,7 +738,7 @@ msgstr "<b>Meqenëse keni IPv6</b>, shtuam këtë kartelë t'ju tregojmë nëse 
 
 #: sites.inc
 msgid "<b>Hint</b>: Columns are sortable (click the first row); <a href=\"#\" onclick=\"GIGO.test_sites(2); return false;\">click here</a> to re-check reachability from where you are to those mirrors."
-msgstr "<b>Hint</b>: Columns are sortable (click the first row); <a href=\"#\" onclick=\"GIGO.test_sites(2); return false;\">click here</a> to re-check reachability from where you are to those mirrors."
+msgstr "<b>Sugjerim</b>: Kolonat janë të klasifikueshme (kliko rreshtin e parë); <a href=\"#\" onclick=\"GIGO.test_sites(2); return false;\">kliko këtu</a> për ri-kontrollimin e aksesimit të këtyre shablloneve që prej aty ku ju ndodheni."
 
 #: sites.inc
 msgid "It is real easy to get added to this list for basic checks. Just provide two image URLs (one IPv4-only; one IPv6-only), to Jason Fesler &lt;jfesler@gigo.com&gt;. Also send your general web site address and organization name."
@@ -750,7 +750,7 @@ msgstr "Full mirrors are welcomed and appreciated, whether public or private. Pl
 
 #: footer.inc
 msgid "All rights reserved."
-msgstr "All rights reserved."
+msgstr "Të gjitha të drejtat e rezervuara."
 
 #: footer.inc
 msgid "Mission"
@@ -810,7 +810,7 @@ msgstr "Paralajmërim problemi MTU"
 
 #: faq_helpdesk.html
 msgid "Status of reachability to “other sites” (as compact as possible)"
-msgstr "Status of reachability to “other sites” (as compact as possible)"
+msgstr "Statusi i aksesimit tek \"faqe të tjera\" (sa më kompakt i mundur)"
 
 #: faq_helpdesk.html
 msgid "IP address shown, in case tech support needs it."
@@ -826,7 +826,7 @@ msgstr "Q: What is the easiest way to send users to the Help Desk tab?"
 
 #: faq_helpdesk.html
 msgid "There are several ways to do it. Some of these are more obvious than the others when reading; some of them may be easier when read over the phone. In all of these cases, the \"Help Desk\" tab is moved to be the first and default tab shown to the user, instead of exposing the more detailed user-facing page."
-msgstr "There are several ways to do it. Some of these are more obvious than the others when reading; some of them may be easier when read over the phone. In all of these cases, the \"Help Desk\" tab is moved to be the first and default tab shown to the user, instead of exposing the more detailed user-facing page."
+msgstr "Kjo mund të bëhet me disa mënyra. Disa nga këto mund të jenë më të qarta se të tjera kur lexohen; disa mund të jenë më të kollajshme kur lexohen në telefon. Në të gjitha këto raste, kartela \"Help Desk\" zhvendoset në mënyrë që të jetë e para dhe e parazgjedhura që i shfaqet përdoruesit, në vend të shfaqjes së faqes me informacione më të detajuara."
 
 #: faq_helpdesk.html
 msgid "Mirror sites may not have all the fancy DNS names; they are more likely to be useful like this:"
@@ -838,19 +838,19 @@ msgstr "Çfarë janë kodet Help Desk?"
 
 #: faq_helpdesk.html
 msgid "These are meant to offer a quick, short way for your customer to tell you the status of their Internet connectivity, as validated by this site. They are also meant to be easy to memorize."
-msgstr "These are meant to offer a quick, short way for your customer to tell you the status of their Internet connectivity, as validated by this site. They are also meant to be easy to memorize."
+msgstr "Këto kanë si qëllim t'i ofrojnë klientit tuaj një mënyrë të thjeshtë e të shpejtë që tju tregojë statusin e tij të lidhjes së Internetit, siç ai u përcaktua nga ky site. Një tjetër qëllim është që këto të memorizohen lehtë."
 
 #: faq_helpdesk.html
 msgid "Q: How can I recommend changes to the Help Desk tab?"
-msgstr "Q: How can I recommend changes to the Help Desk tab?"
+msgstr "Q: Si mundem të rekomandoj ndryshime për kartelën Help Desk?"
 
 #: faq_helpdesk.html
 msgid "Suggestions are welcome; especially from those operating help desks. This tab is really for you - not for the consumer. Please keep in mind that we want to keep the tab brief, concise, and easy to read for the average user over the phone to your help desk team. Send suggestions to jfesler@test-ipv6.com ."
-msgstr "Suggestions are welcome; especially from those operating help desks. This tab is really for you - not for the consumer. Please keep in mind that we want to keep the tab brief, concise, and easy to read for the average user over the phone to your help desk team. Send suggestions to jfesler@test-ipv6.com ."
+msgstr "Sugjerimet janë të mirëpritura; sidomos prej atyre që operojnë help desks. Kjo kartelë është, në fakt, për ju - jo për klientat. Luteni të kini parasysh se dëshirojmë që kjo kartelë të jetë e shkurtër, pëmbledhëse dhe të lexohet lehtë nga përdoruesi i zakonshëm në telefon kundrejt stafit help desk. Sugjerimet mund t'i dërgoni në adresën jfesler@test-ipv6.com ."
 
 #: broken.html
 msgid "What to do if you're broken..."
-msgstr "What to do if you're broken..."
+msgstr "Çfarë të bëni nëse hasni problem..."
 
 #: broken.html
 msgid "If you are reading this page, it means that we've identified that your host will have problems on World IPv6 Day. Any web site that goes \"dual stack\" (meaning, both IPv4 and IPv6), will be unreachable to you."
@@ -858,7 +858,7 @@ msgstr "Fakti që lexoni këtë faqe do të thotë se kompjuteri juaj do të ket
 
 #: broken.html
 msgid "To resolve this, you'll first need to identify your IPv6 address (if you have one) and your IPv6 default route (if you have one). This will help identify which sections to read."
-msgstr "To resolve this, you'll first need to identify your IPv6 address (if you have one) and your IPv6 default route (if you have one). This will help identify which sections to read."
+msgstr "Fillimisht duhet të identifikoni adresën tuaj IPv6 (nëse keni) dhe IPv6 default route (nëse keni). Kjo ndihmon për të identifikuar cilat seksione të lexoni."
 
 #: broken.html
 msgid "If you find your particular problem is not well represented; or you have additional suggestions; please do leave feedback using the <a href='#' onclick='return GIGO.tabnav(\"mail\");'>form</a> (or contact <a href=\"mailto:jfesler@test-ipv6.com\">jfesler@test-ipv6.com</a>)."
