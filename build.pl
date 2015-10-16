@@ -27,7 +27,11 @@ use Encode;
 use strict;
 
 @LOCALE = get_locale("po/dl/*/falling-sky.*.po");
-@LOCALE = grep(! /^(zh_HK|zh_TW)/, @LOCALE);
+my $pwd = `pwd`;
+if ($pwd =~ /i18n/) {
+} else {
+  @LOCALE = grep(! /^(fa_IR|zh_HK|zh_TW)/, @LOCALE);
+}
 
 
 
