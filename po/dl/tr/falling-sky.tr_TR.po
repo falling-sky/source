@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-10-12 14:30-0400\n"
+"PO-Revision-Date: 2015-10-16 18:00-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Turkish\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -187,43 +187,43 @@ msgstr "<b>Testlerimiz IPv6 kurulumunuzun bozuk veya yanlış yapılandırılmı
 
 #: messages.js
 msgid "<b>Our tests show that you will may have MTU problems with IPv6; this can cause web sites to load slow (or not at all) when web sites enable IPv6.</b>"
-msgstr "<b>Our tests show that you will may have MTU problems with IPv6; this can cause web sites to load slow (or not at all) when web sites enable IPv6.</b>"
+msgstr "<b>Testimiz IPv6 ile MTU sorunları yaşama ihtimaliniz olduğunu gösteriyor; bu IPv6 etkinleştirildiğinde internet sitelerinin yavaş yüklenmesine (veya hiç yüklenmemesine) sebep olabilir.</b>"
 
 #: messages.js
 msgid "We looked up an IPv6 address, but your DNS server (possibly your home router) mangled the response, and is treating it as (broken) IPv4."
-msgstr "We looked up an IPv6 address, but your DNS server (possibly your home router) mangled the response, and is treating it as (broken) IPv4."
+msgstr "IPv6 adreslerini aradık, ama DNS sunucunuz (muhtemelen ana yönlendiriciniz) yanıtı karıştırdı ve IPv6'ya (bozuk) bir IPv4 olarak davranıyor."
 
 #: messages.js
 msgid "It appears that you use a tunnel mechanism for either IPv4 or IPv6."
-msgstr "It appears that you use a tunnel mechanism for either IPv4 or IPv6."
+msgstr "Görünüşe göre IPv4 veya IPv6 için bir tünel mekanizması kullanıyorsunuz."
 
 #: messages.js
 msgid "It appears that you use a managed tunnel mechanism, 6RD, to transport IPv6 over IPv4."
-msgstr "It appears that you use a managed tunnel mechanism, 6RD, to transport IPv6 over IPv4."
+msgstr "Görünüşe göre, IPv4 üzerinden IPv6 aktarmak/iletmek için yönetimli bir tünel mekanizması olan 6RD'ı kullanıyorsunuz."
 
 #: messages.js
 msgid "We have detected that you are using a proxy. This means we are testing your proxy server, not your computer. Proxy details (as reported by your proxy 'Via' header): %details"
-msgstr "We have detected that you are using a proxy. This means we are testing your proxy server, not your computer. Proxy details (as reported by your proxy 'Via' header): %details"
+msgstr "Vekil sunucu kullandığınızı tespit ettik. Bu bilgisayarınızı değil vekil sunucunuzu test ettiğimiz anlamına geliyor. Vekil sunucu bilgileri (vekil sunucunuzun yayınladığı bilgilerden alındığı şekliyle): %details"
 
 #: messages.js
 msgid "We have detected that you are using a proxy. This means we are testing your proxy server, not your computer."
-msgstr "We have detected that you are using a proxy. This means we are testing your proxy server, not your computer."
+msgstr "Vekil sunucu kullandığınızı tespit ettik. Bu, bilgisayarınızı değil vekil sunucunuzu test ettiğimiz anlamına geliyor."
 
 #: messages.js
 msgid "IPv6 connections work, but connections using DNS names do not use IPv6. For some reason, your browser or your OS is not doing IPv6 DNS 'AAAA' lookups."
-msgstr "IPv6 connections work, but connections using DNS names do not use IPv6. For some reason, your browser or your OS is not doing IPv6 DNS 'AAAA' lookups."
+msgstr "IPv6 bağlantılarınız çalışıyor; ancak DNS adları kullanan bağlantılar IPv6 kullanmaz. Bazı nedenlerden dolayı, tarayıcınız veya işletim sisteminiz IPv6 DNS 'AAAA' araması yapmıyor."
 
 #: messages.js
 msgid "We have suggestions to help you fix your system."
-msgstr "We have suggestions to help you fix your system."
+msgstr "Sisteminizi düzeltmenize yardımcı olacak önerilerimiz var."
 
 #: messages.js
 msgid "Since you have IPv6, we are including a tab that shows how well you can reach other IPv6 sites. %sites"
-msgstr "Since you have IPv6, we are including a tab that shows how well you can reach other IPv6 sites. %sites"
+msgstr "IPv6 özelliğine sahip olduğunuz için diğer IPv6 sitelerine nasıl daha iyi ulaşabileceğinizi gösteren bir sekme ekledik. %sites"
 
 #: messages.js
 msgid "Your browser has real working IPv6 address - but is avoiding using it. We're concerned about this."
-msgstr "Your browser has real working IPv6 address - but is avoiding using it. We're concerned about this."
+msgstr "Tarayıcınız gerçekten çalışan bir IPv6 adresine sahip, ama bunu kullanmıyor. Bizce bir sorun var."
 
 #: messages.js
 msgid "faq: MTU"
@@ -247,7 +247,7 @@ msgstr "SSS: Teredo Minimum"
 
 #: messages.js
 msgid "faq: v6ns Bad"
-msgstr "faq: v6ns Bad"
+msgstr "sss: v6ns Kötü"
 
 #: messages.js
 msgid "faq: Browser Plugins"
@@ -263,7 +263,7 @@ msgstr "SSS: Opera"
 
 #: messages.js
 msgid "faq: Buggy DNS"
-msgstr "faq: Buggy DNS"
+msgstr "SSS: Hatalı DNS"
 
 #: messages.js
 msgid "faq: Broken!"
@@ -275,11 +275,11 @@ msgstr "SSS: Bozuk DNS Aramaları"
 
 #: messages.js
 msgid "faq: Avoiding IPv6?"
-msgstr "faq: Avoiding IPv6?"
+msgstr "SSS: IPv6 kullanmaktan sakınma"
 
 #: messages.js
 msgid "faq: 6RD tunnel"
-msgstr "faq: 6RD tunnel"
+msgstr "SSS: 6RD tüneli"
 
 #: builtin.js
 msgid "[more info]"
@@ -287,23 +287,23 @@ msgstr "[daha fazla bilgi]"
 
 #: builtin.js
 msgid "Your IPv4 address on the public Internet appears to be"
-msgstr "Your IPv4 address on the public Internet appears to be"
+msgstr "Görünüşe göre genel Internet üzerindeki IPv4 adresiniz"
 
 #: builtin.js
 msgid "Proxied"
-msgstr "Proxied"
+msgstr "Vekil sunucu üzerinden"
 
 #: builtin.js
 msgid "Your IPv6 address on the public Internet appears to be"
-msgstr "Your IPv6 address on the public Internet appears to be"
+msgstr "Görünüşe göre genel Internet üzerindeki IPv6 adresiniz"
 
 #: builtin.js
 msgid "Your IPv6 service appears to be"
-msgstr "Your IPv6 service appears to be"
+msgstr "Görünüşe göre IPv6 hizmetiniz"
 
 #: builtin.js
 msgid "Your Internet Service Provider (ISP) appears to be"
-msgstr "Your Internet Service Provider (ISP) appears to be"
+msgstr "Görünüşe göre İnternet Servis Sağlayıcınız (ISS)"
 
 #: builtin.js
 msgid "Started"
@@ -323,19 +323,19 @@ msgstr "testler"
 
 #: builtin.js
 msgid "(Survey posting skipped; test was rigged)"
-msgstr "(Survey posting skipped; test was rigged)"
+msgstr "(İnceleme sonucu atlandı; test yapılırken sorun çıktı)"
 
 #: builtin.js
 msgid "(Updating server side IPv6 readiness stats)"
-msgstr "(Updating server side IPv6 readiness stats)"
+msgstr "(Sunucu tarafındaki IPv6 hazırlık durumu istatistikleri güncelleştiriliyor)"
 
 #: builtin.js
 msgid "(Updated server side IPv6 readiness stats)"
-msgstr "(Updated server side IPv6 readiness stats)"
+msgstr "(Sunucu tarafındaki IPv6 hazırlık durumu istatistikleri güncelleştirildi)"
 
 #: builtin.js
 msgid "(Survey posting failed; the above information is accurate, but not recorded.)"
-msgstr "(Survey posting failed; the above information is accurate, but not recorded.)"
+msgstr "(İnceleme sonucu başarısız oldu; yukarıdaki bilgiler doğru, ama kaydedilmedi.)"
 
 #: builtin.js
 msgid "Your readiness score"
@@ -343,11 +343,11 @@ msgstr "Hazırlık dereceniz"
 
 #: builtin.js
 msgid "for your IPv4 stability and readiness, when publishers offer both IPv4 and IPv6"
-msgstr "for your IPv4 stability and readiness, when publishers offer both IPv4 and IPv6"
+msgstr "IPv4'ünüzün kararlılığı ve hazırlık durumu için, yayıncılar hem IPv4 hem de IPv6 sunduğunda"
 
 #: builtin.js
 msgid "for your IPv6 stability and readiness, when publishers are forced to go IPv6 only"
-msgstr "for your IPv6 stability and readiness, when publishers are forced to go IPv6 only"
+msgstr "IPv6'nızın kararlılığı ve hazırlığı için, yayıncılar sadece IPv6 kullanmak zorunda kaldığında"
 
 #: builtin.js
 msgid "Click to see"
@@ -383,7 +383,7 @@ msgstr "[permalink]"
 
 #: versions.js
 msgid "%app: You are running version %found; we recommend %suggest or newer."
-msgstr "%app: You are running version %found; we recommend %suggest or newer."
+msgstr "%app: %found sürümünü kullanıyorsunuz; %suggest veya daha yenisini öneriyoruz."
 
 #: form.js
 msgid "share your results"
@@ -491,7 +491,7 @@ msgstr "Yürütülen Testler"
 
 #: main/tabnav.inc
 msgid "Share Results / Contact"
-msgstr "Share Results / Contact"
+msgstr "Sonuçları Paylaşın / İletişime Geçin"
 
 #: main/tabnav.inc
 msgid "FAQ for You"
@@ -499,7 +499,7 @@ msgstr "Sizin için SSS"
 
 #: main/tabnav.inc
 msgid "Help Popup"
-msgstr "Help Popup"
+msgstr "Yardım Açılır Menüsü"
 
 #: main/tabnav.inc
 msgid "Debug"
@@ -555,7 +555,7 @@ msgstr "Test IPv6 large packet"
 
 #: main/tests.inc
 msgid "Test if your ISP's DNS server uses IPv6"
-msgstr "Test if your ISP's DNS server uses IPv6"
+msgstr "ISS'nizin DNS sunucusu IPv6 kullanıyor mu diye test edin"
 
 #: main/tests.inc
 msgid "Find IPv4 Service Provider"
@@ -567,7 +567,7 @@ msgstr "IPv6 Servis Sağlayıcısını bulun"
 
 #: main/tests.inc
 msgid "Test for buggy DNS"
-msgstr "Test for buggy DNS"
+msgstr "Bozuk DNS testi"
 
 #: main/tech.inc
 msgid "Fetches an object that has just an A record in DNS. This is expected to use IPv4. IPv6-only users might still reach this, if their provider has employed a NAT64/DNS64 or proxy solution."
@@ -1003,11 +1003,11 @@ msgstr "Make a note of whether or not there is a router."
 
 #: faq/find_ip.inc
 msgid "Make a note of the IPv6 address (if any)."
-msgstr "Make a note of the IPv6 address (if any)."
+msgstr "(varsa) IPv6 adresini kaydedin."
 
 #: faq/find_ip.inc
 msgid "OS X users: To find your IP address using the command line:"
-msgstr "OS X users: To find your IP address using the command line:"
+msgstr "OS X kullanıcıları: komut satırını kullanarak IP adresini bulmak için:"
 
 #: faq/find_ip.inc
 msgid "To open your terminal: Go to your Applications folder; go to Utilities; and double click Terminal."
@@ -1015,11 +1015,11 @@ msgstr "To open your terminal: Go to your Applications folder; go to Utilities; 
 
 #: faq/find_ip.inc
 msgid "To see your IP addresses: <code>ifconfig -f inet6</code>."
-msgstr "To see your IP addresses: <code>ifconfig -f inet6</code>."
+msgstr "IP adreslerinizi görüntülemek için: <code>ifconfig -f inet6</code>."
 
 #: faq/find_ip.inc
 msgid "Ignore the <code>fe80:</code> addresses; look for any other address on your <code>en0</code> or <code>en1</code>."
-msgstr "Ignore the <code>fe80:</code> addresses; look for any other address on your <code>en0</code> or <code>en1</code>."
+msgstr "<code>fe80:</code> adreslerini görmezden gelin; <code>en0</code> veya <code>en1</code>'da bulunan diğer adreslere bakın."
 
 #: faq/find_ip.inc
 msgid "To see if you have a default route: <code>netstat -nr -f inet6</code>."
