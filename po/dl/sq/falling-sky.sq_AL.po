@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-10-22 08:15-0400\n"
+"PO-Revision-Date: 2015-10-27 12:18-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Albanian\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -1070,31 +1070,31 @@ msgstr "Windows 7 GUI users:"
 
 #: faq/find_ip.inc
 msgid "Go to the start menu"
-msgstr "Go to the start menu"
+msgstr "Shko tek start menu"
 
 #: faq/find_ip.inc
 msgid "Go to the control panel"
-msgstr "Go to the control panel"
+msgstr "Shko tek control panel"
 
 #: faq/find_ip.inc
 msgid "Go to \"Network and Internet\""
-msgstr "Go to \"Network and Internet\""
+msgstr "Shko tek \"Network and Internet\""
 
 #: faq/find_ip.inc
 msgid "Go to \"View network status and tasks\""
-msgstr "Go to \"View network status and tasks\""
+msgstr "Shko tek \"View network status and tasks\""
 
 #: faq/find_ip.inc
 msgid "Go to \"Change adapter settings\"."
-msgstr "Go to \"Change adapter settings\"."
+msgstr "Shko tek \"Change adapter settings\"."
 
 #: faq/find_ip.inc
 msgid "Go to your main Internet connection, double click"
-msgstr "Go to your main Internet connection, double click"
+msgstr "Shko tek Internet connection, double click"
 
 #: faq/find_ip.inc
 msgid "Go to \"Details\""
-msgstr "Go to \"Details\""
+msgstr "Shko tek \"Details\""
 
 #: faq/find_ip.inc
 msgid "Look for \"IPv6 Address\" and \"IPv6 Default Gateway\""
@@ -1106,23 +1106,23 @@ msgstr "Other Windows based OS's: Send jfesler@test-ipv6.com detailed instructio
 
 #: faq/broken_tunnelbroker.inc
 msgid "<b>If you set up a tunnelbroker tunnel</b>: The most common causes for tunnelbroker users to fail are:"
-msgstr "<b>If you set up a tunnelbroker tunnel</b>: The most common causes for tunnelbroker users to fail are:"
+msgstr "<b>Nëse krijoni një tunnelbroker tunnel</b>: Arsyet më të mundshme të dështimit për përdoruesit e tunnelbroker janë:"
 
 #: faq/broken_tunnelbroker.inc
 msgid "Your IPv4 address may have changed; you need to tell the tunnelbroker server this happened."
-msgstr "Your IPv4 address may have changed; you need to tell the tunnelbroker server this happened."
+msgstr "Adresa juaj IPv4 ndoshta ka ndryshuar; serveri tunnelbroker duhet të vihet në dijeni të këtij ndryshimi."
 
 #: faq/broken_tunnelbroker.inc
 msgid "If you are using your router to do the 6in4 (sometimes called 6to4 with explicit provider):"
-msgstr "If you are using your router to do the 6in4 (sometimes called 6to4 with explicit provider):"
+msgstr "Nëse përdorni routerin tuaj që të kryeni 6in4 (i njohur ndryshe si 6to4 with explicit provider):"
 
 #: faq/broken_tunnelbroker.inc
 msgid "Make sure tunnelbroker knows your current IPv4 address. Our site tells you your public IPv4 address."
-msgstr "Make sure tunnelbroker knows your current IPv4 address. Our site tells you your public IPv4 address."
+msgstr "Sigurohuni se tunnelbroker është në dijeni të adresës suaj të tanishme IPv4. Adresa juaj publike IPv4 duket në site-in tonë."
 
 #: faq/broken_tunnelbroker.inc
 msgid "Make sure your router can ping the other side of the tunnel. Don't waste your time fixing computers until the router works!"
-msgstr "Make sure your router can ping the other side of the tunnel. Don't waste your time fixing computers until the router works!"
+msgstr "Sigurohuni se routeri juaj ping-on skajin tjetër të tunelit. Mos shpërdoroni kohën tuaj duke rregulluar kompjuterat deri sa routeri të funksionojë!"
 
 #: faq/broken_tunnelbroker.inc
 msgid "If you are using your Linux, BSD, Mac, or Windows box to \"talk 6to4\" specifically:"
@@ -1138,7 +1138,7 @@ msgstr "Make sure any software firewall you are operating is passing \"protocol 
 
 #: faq/broken_tunnelbroker.inc
 msgid "If everything worked before your reboot but fails now, check your firewall settings."
-msgstr "If everything worked before your reboot but fails now, check your firewall settings."
+msgstr "Nëse gjithçka punonte, por dështon pasi kryet reboot, kontrolloni rregjistrimet në firewall."
 
 #: faq/broken_tunnelbroker.inc
 msgid "Make sure the box \"doing 6to4\" can ping the other side of the tunnelbroker gateway before working on any other hosts."
@@ -1322,15 +1322,15 @@ msgstr "From the netalyzr staff:"
 
 #: broken.html
 msgid "If all else fails"
-msgstr "If all else fails"
+msgstr "Nëse gjithçka tjetër dështon"
 
 #: broken.html
 msgid "(Instructions for disabling or deprioritizing IPv6)"
-msgstr "(Instructions for disabling or deprioritizing IPv6)"
+msgstr "(Udhëzime për ç'aktivizimin ose ç'prioritizimin e IPv6)"
 
 #: faq/broken_disable.inc
 msgid "Disabling or Deprioritizing your IPv6 address"
-msgstr "Disabling or Deprioritizing your IPv6 address"
+msgstr "Ç'aktivizim or Ç'prioritizim i adresës suaj IPv6"
 
 #: faq/broken_disable.inc
 msgid "<b>To disable IPv6 entirely, until your ISP offers IPv6 to you:</b> see <b>Microsoft's \"fixit\" site</b> that gives clear instructions. We advocate considering \"Use IPv4 instead of IPv6 in prefix policies\", instead of completely disabling IPv6. Specific Windows features depend on IPv6 being enabled."
@@ -1854,11 +1854,11 @@ msgstr "Many of the visitors to the site are new to what IPv6 is."
 
 #: faq/whyipv6.inc
 msgid "If you don't know why IPv6 matters, see the <a href=\"#\" onclick=\"return help_page('faq_whyipv6.html','Why IPv6')\">Why IPv6 FAQ</a>."
-msgstr "If you don't know why IPv6 matters, see the <a href=\"#\" onclick=\"return help_page('faq_whyipv6.html','Why IPv6')\">Why IPv6 FAQ</a>."
+msgstr "Nëse nuk dini pse IPv6 është i rëndësishëm, lexoni <a href=\"#\" onclick=\"return help_page('faq_whyipv6.html','Why IPv6')\">Pse IPv6 FAQ</a>."
 
 #: faq/whyipv6.inc
 msgid "This will give you a bit of background of what to expect with IPv4 in the coming months and years; and perhaps some incentive to ask your ISP when they will offer IPv6."
-msgstr "This will give you a bit of background of what to expect with IPv4 in the coming months and years; and perhaps some incentive to ask your ISP when they will offer IPv6."
+msgstr "Kjo do t'ju tregojë se çfarë pritet të ndodhë me IPv4 në muajt dhe vitet e ardhshëm; dhe ndoshta përbën një motivim për ju të pyesni ISP-në tuaj se kur ata do të ofrojnë IPv6."
 
 #: faq/brokers.inc
 msgid "If you are savvy with technology, you can be an early adopter of IPv6, consider learning more about"
@@ -1938,7 +1938,7 @@ msgstr "This test specifically verifies that your DNS resolver (usually operated
 
 #: faq_v6ns_bad.html
 msgid "If this test fails:"
-msgstr "If this test fails:"
+msgstr "Nëse ky test dështon:"
 
 #: faq_v6ns_bad.html
 msgid "it means that the DNS resolver you are using, requires IPv4 to reach the DNS authoritative servers of your favoriate web sites. In the near future, every web site of consequence will remain accessible in this form, so <b>there is no immediate danger.</b>"
@@ -1946,7 +1946,7 @@ msgstr "it means that the DNS resolver you are using, requires IPv4 to reach the
 
 #: faq_v6ns_bad.html
 msgid "If this test succeeds:"
-msgstr "If this test succeeds:"
+msgstr "Nëse ky test është i suksesshëm:"
 
 #: faq_v6ns_bad.html
 msgid "it means that your DNS resolver is fully capable of reaching IPv6 DNS servers. This means that the operator of that DNS server has IPv6 within their network. If they do not already offer you IPv6, this may be a sign that they are actively working on trying to make it possible."
@@ -1954,7 +1954,7 @@ msgstr "it means that your DNS resolver is fully capable of reaching IPv6 DNS se
 
 #: faq_v6ns_bad.html
 msgid "Do you use OpenDNS?"
-msgstr "Do you use OpenDNS?"
+msgstr "Përdorni OpenDNS?"
 
 #: faq_v6ns_bad.html
 msgid "OpenDNS is now offering IPv6-specific resolvers, that will be able to retrieve DNS over IPv6. This means the \"v6ns\" test operated here will pass. See the <a target=_blank href=\"http://www.opendns.com/ipv6/\">OpenDNS IPv6 information page</a>."
