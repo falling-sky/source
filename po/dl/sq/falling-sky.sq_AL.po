@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-10-27 12:18-0400\n"
+"PO-Revision-Date: 2015-10-28 08:15-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Albanian\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -1098,11 +1098,11 @@ msgstr "Shko tek \"Details\""
 
 #: faq/find_ip.inc
 msgid "Look for \"IPv6 Address\" and \"IPv6 Default Gateway\""
-msgstr "Look for \"IPv6 Address\" and \"IPv6 Default Gateway\""
+msgstr "Shiko për \"Adresë IPv6\" dhe \"IPv6 Default Gateway\""
 
 #: faq/find_ip.inc
 msgid "Other Windows based OS's: Send jfesler@test-ipv6.com detailed instructions; and I'll add them to the site."
-msgstr "Other Windows based OS's: Send jfesler@test-ipv6.com detailed instructions; and I'll add them to the site."
+msgstr "Për të tjera sisteme operative të bazuara në Windows: Dërgoni udhëzime të detajuara tek jfesler@test-ipv6.com dhe unë do t'i shtoj në site."
 
 #: faq/broken_tunnelbroker.inc
 msgid "<b>If you set up a tunnelbroker tunnel</b>: The most common causes for tunnelbroker users to fail are:"
@@ -1142,43 +1142,43 @@ msgstr "Nëse gjithçka punonte, por dështon pasi kryet reboot, kontrolloni rre
 
 #: faq/broken_tunnelbroker.inc
 msgid "Make sure the box \"doing 6to4\" can ping the other side of the tunnelbroker gateway before working on any other hosts."
-msgstr "Make sure the box \"doing 6to4\" can ping the other side of the tunnelbroker gateway before working on any other hosts."
+msgstr "Sigurohuni se pajisja \"që implementon 6to4\" mundet të ping-gojë skajin tjetër të tunnelbroker gateway, para se të merreni me komjuterat e tjerë."
 
 #: broken.html
 msgid "If you set up 6to4"
-msgstr "If you set up 6to4"
+msgstr "Nëse konfiguroni 6to4"
 
 #: broken.html
 msgid "(IPv6 address: starts with 2002)"
-msgstr "(IPv6 address: starts with 2002)"
+msgstr "(Adresa IPv6: fillon me 2002)"
 
 #: faq/broken_6to4.inc
 msgid "If you use 6to4</b> (without a tunnel broker; ie, using anonymous 6to4):"
-msgstr "If you use 6to4</b> (without a tunnel broker; ie, using anonymous 6to4):"
+msgstr "Nëse përdorni 6yo4</b> (pa tunnel broker; dmth përdorni 6to4 anonim):"
 
 #: faq/6to4_sucks.inc
 msgid "The use of \"automatic\" 6to4, or the use of 6to4 without explicit configuration of the gateways, is not recommended. For more information see <a href='#' onclick='return help_page(\"faq_6to4.html\",\"6to4\")'>6to4</a>."
-msgstr "The use of \"automatic\" 6to4, or the use of 6to4 without explicit configuration of the gateways, is not recommended. For more information see <a href='#' onclick='return help_page(\"faq_6to4.html\",\"6to4\")'>6to4</a>."
+msgstr "Përdorimi \"automatikisht\" i 6to4, ose përdorimi i 6to4 pa përcaktuar konkretisht konfigurimin e gateways, nuk rekomandohet. Për më tepër informacion shiko <a href='#' onclick='return help_page(\"faq_6to4.html\",\"6to4\")'>6to4</a>."
 
 #: faq/broken_6to4.inc
 msgid "If you want to continue trying to debug anonymous 6to4:"
-msgstr "If you want to continue trying to debug anonymous 6to4:"
+msgstr "Nëse dëshironi të vazhdoni me diagnostikimin e 6to4 anonim:"
 
 #: faq/broken_6to4.inc
 msgid "If you are using your router to do the 6to4:"
-msgstr "If you are using your router to do the 6to4:"
+msgstr "Nëse përdorni routerin për të kryer 6to4:"
 
 #: faq/broken_6to4.inc
 msgid "Make sure your router has a public IPv4 address. Without this, 6to4 fails."
-msgstr "Make sure your router has a public IPv4 address. Without this, 6to4 fails."
+msgstr "Sigurohuni se routeri juaj ka adresë IPv4 publike. Pa këtë, 6to4 dështon."
 
 #: faq/broken_6to4.inc
 msgid "If your router permits you to log in, use \"ping\" or \"ping6\" and see if you can ping \"ipv6.test-ipv6.com\". Don't waste your time fixing computers until the router works!"
-msgstr "If your router permits you to log in, use \"ping\" or \"ping6\" and see if you can ping \"ipv6.test-ipv6.com\". Don't waste your time fixing computers until the router works!"
+msgstr "Nëse mundeni të lidheni në routerin tuaj, përdorni \"ping\" ose \"ping6\" që të shikoni nëse mundeni të ping-goni \"ipv6.test-ipv6.com\". Mos shpërdoroni kohën duke u marrë me komjuterat derisa routeri të jetë funksional!"
 
 #: faq/broken_6to4.inc
 msgid "Most home systems have private IPv4 addresses; this won't work with 6to4 (unless..)"
-msgstr "Most home systems have private IPv4 addresses; this won't work with 6to4 (unless..)"
+msgstr "Më të shumtët e kompjuterave shtëpiakë kanë adresë IPv4 private; kjo nuk funksionon me 6to4 (përveç se...)"
 
 #: faq/broken_6to4.inc
 msgid "Make sure your 6to4 interface knows your public IPv4 address."
@@ -1390,19 +1390,19 @@ msgstr "Before disabling IPv6, please be sure you are running the latest OS vers
 
 #: faq/broken_disable.inc
 msgid "How to disable IPv6"
-msgstr "How to disable IPv6"
+msgstr "Si të ç'aktivizoni IPv6"
 
 #: faq/broken_disable.inc
 msgid "Disable IPv6"
-msgstr "Disable IPv6"
+msgstr "Ç'aktivizoni IPv6"
 
 #: faq/broken_disable.inc
 msgid "Apply changes"
-msgstr "Apply changes"
+msgstr "Ruaj ndryshimet"
 
 #: faq/broken_disable.inc
 msgid "iPhone and iPad users"
-msgstr "iPhone and iPad users"
+msgstr "Përdorues të iPhone dhe iPad"
 
 #: faq/broken_disable.inc
 msgid "IPv6 is not configurable on the iPhone or iPad. Your only option is to switch to another network."
@@ -1410,15 +1410,15 @@ msgstr "IPv6 is not configurable on the iPhone or iPad. Your only option is to s
 
 #: faq/broken_disable.inc
 msgid "Linux users:"
-msgstr "Linux users:"
+msgstr "Përdorues të Linux:"
 
 #: faq/broken_disable.inc
 msgid "This is very distribution-specific. Do a web search using your favorite search engine."
-msgstr "This is very distribution-specific. Do a web search using your favorite search engine."
+msgstr "Kjo është specifike për distribution. Kërkoni në web."
 
 #: faq/broken_disable.inc
 msgid "Example web search: <code>disable ipv6 on centos</code>"
-msgstr "Example web search: <code>disable ipv6 on centos</code>"
+msgstr "Shembull kërkimi në web: <code>disalbe ipv6 on centos</code>"
 
 #: faq/broken_disable.inc
 msgid "Generic unix instructions, to temporarily remove your IPv6 address."
@@ -1438,11 +1438,11 @@ msgstr "You can do a web search for your particular OS distribution. Example sea
 
 #: broken.html
 msgid "See Also"
-msgstr "See Also"
+msgstr "Shiko gjithashtu"
 
 #: broken.html
 msgid "Other resources that may help"
-msgstr "Other resources that may help"
+msgstr "Materiale të tjera që mund të ndihmojnë"
 
 #: faq_disable.html
 msgid "Disabling IPv6 is the least preferred option. For some people, however, it may be your only option. This may be due to equipment limitations, or in limitations in technical support."
@@ -1534,15 +1534,15 @@ msgstr "Për ipv4/ipv6/dual stack, ekzekutoni një nga komandat e mëposhtme:"
 
 #: faq.html
 msgid "for ipv4"
-msgstr "for ipv4"
+msgstr "për ipv4"
 
 #: faq.html
 msgid "for ipv6"
-msgstr "for ipv6"
+msgstr "për ipv6"
 
 #: faq.html
 msgid "for either"
-msgstr "for either"
+msgstr "për secilën"
 
 #: faq.html
 msgid "Note you _may_ need to specify other options to your telnet command, depending on your operating system. On my mac, for example, I need to use \"<code>telnet -6</code>\"."
@@ -1582,7 +1582,7 @@ msgstr "<span lookup=site.name>site</span> statistics"
 
 #: stats.html
 msgid "Graphs are updated daily."
-msgstr "Graphs are updated daily."
+msgstr "Grafikët përditësohen çdo ditë."
 
 #: stats.html
 msgid "60 days view"
@@ -1594,7 +1594,7 @@ msgstr "600 days view"
 
 #: stats.html
 msgid "Quick notes:"
-msgstr "Quick notes:"
+msgstr "Shënime të shpejta:"
 
 #: stats.html
 msgid "Browser Filter means that both the \"A\" and \"AAAA\" test failed. Browser (plugin/filter) shenanigans, likely with add-ons like ad blockers."
@@ -1650,7 +1650,7 @@ msgstr "To do so in a brand neutral, ad-free way."
 
 #: mission.html
 msgid "Why do we do this?"
-msgstr "Why do we do this?"
+msgstr "Për se e bëjmë këtë?"
 
 #: mission.html
 msgid "Because of 1 out of every 4000 users are \"broken\" based on industry measurements. This has delayed the web sites from publishing to IPv6."
@@ -1926,11 +1926,11 @@ msgstr "By default, Teredo is enabled on Vista and Windows 7. However, if Teredo
 
 #: faq_v6ns_bad.html
 msgid "About the \"v6ns\" test."
-msgstr "About the \"v6ns\" test."
+msgstr "Në lidhje me testin \"v6ns\"."
 
 #: faq_v6ns_bad.html
 msgid "This FAQ has been produced to try and address what it means for the v6ns test to be \"bad\"."
-msgstr "This FAQ has been produced to try and address what it means for the v6ns test to be \"bad\"."
+msgstr "Kjo FAQ është krijuar të përpiqet dhe të adresojë se çfarë domethënë për testin v6ns të jetë i \"keq\"."
 
 #: faq_v6ns_bad.html
 msgid "This test specifically verifies that your DNS resolver (usually operated by your Internet service provider, or your corporate IT department) is capable of reaching IPv6 Internet sites for DNS lookups. If you explicitly configured the use of a different DNS server, such as OpenDNS or Google's Public DNS, you'll test those services instead."
