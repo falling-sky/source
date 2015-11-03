@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-10-12 14:30-0400\n"
+"PO-Revision-Date: 2015-10-31 13:45-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Swedish\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -66,7 +66,7 @@ msgstr "Problem! IPv6 fungerar men stora paket stoppas och då får du problem m
 
 #: messages.js
 msgid "Check your firewall to make sure that ICMPv6 messages are allowed (in particular, Type 2 or Packet Too Big)."
-msgstr "Check your firewall to make sure that ICMPv6 messages are allowed (in particular, Type 2 or Packet Too Big)."
+msgstr "Kontrollera din brandvägg för att se till att ICMPv6-meddelanden tillåts (i synnerhet typ 2 eller Packet Too Big)."
 
 #: messages.js
 msgid "Test results inconclusive; they were not consistent with expectations. Please rerun the test, and if the results are the same, please fill out the contact form."
@@ -278,7 +278,7 @@ msgstr "faq: Undviker IPv6?"
 
 #: messages.js
 msgid "faq: 6RD tunnel"
-msgstr "faq: 6RD tunnel"
+msgstr "faq: 6RD-tunnel"
 
 #: builtin.js
 msgid "[more info]"
@@ -434,7 +434,7 @@ msgstr "Testa IPv6"
 
 #: list-nav.inc
 msgid "FAQ"
-msgstr "FAQ"
+msgstr "Vanliga frågor"
 
 #: list-nav.inc
 msgid "Mirrors"
@@ -442,7 +442,7 @@ msgstr "Spegelsidor"
 
 #: list-nav.inc
 msgid "stats"
-msgstr "stats"
+msgstr "statistik"
 
 #: index.html
 msgid "Test your IPv6 connectivity."
@@ -454,7 +454,7 @@ msgstr "(Replay)"
 
 #: js_required.inc
 msgid "JavaScript Required"
-msgstr "JavaScript Required"
+msgstr "JavaScript krävs"
 
 #: js_required.inc
 msgid "This site requires JavaScript, as well as the ability to pull in cross-site scripts, in order to perform the testing."
@@ -466,7 +466,7 @@ msgstr "If this message does not go away, it means that JavaScript has been disa
 
 #: js_required.inc
 msgid "Do you use NoScript?"
-msgstr "Do you use NoScript?"
+msgstr "Använder du NoScript?"
 
 #: js_required.inc
 msgid "If you use this Firefox add-on, you'll need to \"Temporarily allow all this page\". You will need to do this <b>twice</b> for everything to work. Alternately, disable NoScript entirely until you are done with this site."
@@ -774,11 +774,11 @@ msgstr "Det här är en spegelsida av test-ipv6.com. Åsikter uttryckta här kan
 
 #: locale.html
 msgid "Available Languages"
-msgstr "Available Languages"
+msgstr "Tillgängliga språk"
 
 #: locale.html
 msgid "Pick one of the following to switch to that language."
-msgstr "Pick one of the following to switch to that language."
+msgstr "Välj en av följande för att växla till det språket."
 
 #: faq_helpdesk.html
 msgid "Help Desk Information"

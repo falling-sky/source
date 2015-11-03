@@ -1,6 +1,5 @@
 #! /usr/bin/perl -w
 
-
 package main;
 
 use Template;
@@ -28,12 +27,10 @@ use strict;
 
 @LOCALE = get_locale("po/dl/*/falling-sky.*.po");
 my $pwd = `pwd`;
-if ($pwd =~ /i18n/) {
+if ( $pwd =~ /i18n/ ) {
 } else {
-  @LOCALE = grep(! /^(fa_IR|zh_HK|zh_TW)/, @LOCALE);
+    @LOCALE = grep( !/^(bg_BG|fa_IR|zh_HK|zh_TW)/, @LOCALE );
 }
-
-
 
 chdir $Bin or die "Could not chdir $Bin : $!";
 
@@ -45,7 +42,7 @@ my ( $usage, %argv, %input ) = "";
            "debug"     => "Produce debug output (no compression)",
            "install"   => "put files in install directory instead of compile directory",
            "config=s"  => "config file (default: config.inc + config.local)",
-           "locale=s"    => "build just one locale (default: all known)",
+           "locale=s"  => "build just one locale (default: all known)",
            "type=s"    => "build just one type of file (default: all types; options: php html js)",
            "verbose"   => "be chatty about what's going on",
            "maxjobs=i" => "max jobs to run in parallel",
@@ -55,7 +52,7 @@ my ( $usage, %argv, %input ) = "";
 my $result = GetOptions( \%argv, keys %input );
 $argv{"v"} ||= $argv{"n"};
 $argv{"maxjobs"} ||= 0;
-$argv{"maxjobs"} = 0 if (defined &DB::DB) ;
+$argv{"maxjobs"} = 0 if ( defined &DB::DB );
 if ( ( !$result ) || ( $argv{h} ) ) {
     &showOptionsHelp;
     exit 0;
@@ -68,6 +65,7 @@ $argv{"config"} ||= "./config.inc";
 # If we want to override, we can.  Otherwise, let
 # us make use of perl's available libraries.
 my %NAMES = (
+
 #'en_US'=>'English',
 #'cs_CZ'=>'Čeština',
 #'de_DE'=>'Deutcsh',
@@ -87,23 +85,25 @@ my %NAMES = (
 );
 
 foreach my $name (@LOCALE) {
-  if (! exists $NAMES{$name}) {
-     my $loc = DateTime::Locale->load($name);
-     $NAMES{$name} ||= $loc->native_language;
-     $NAMES{$name} ||= "";
-     if ($NAMES{$name}) {
-      substr($NAMES{$name},0,1) = uc substr($NAMES{$name},0,1);
-      $NAMES{$name} = encode('UTF-8',$NAMES{$name});
-     }
-  }
+    if ( !exists $NAMES{$name} ) {
+        my $loc = DateTime::Locale->load($name);
+        $NAMES{$name} ||= $loc->native_language;
+        $NAMES{$name} ||= "";
+        if ( $NAMES{$name} ) {
+            substr( $NAMES{$name}, 0, 1 ) = uc substr( $NAMES{$name}, 0, 1 );
+            $NAMES{$name} = encode( 'UTF-8', $NAMES{$name} );
+        }
+    }
 }
 
-$VARS->{NAMES} = \%NAMES;
+$VARS->{NAMES}      = \%NAMES;
+$VARS->{TRANSLATED} = {};
 
 require( $argv{config} );
 require( $argv{config} . ".local" ) if ( -f ( $argv{config} . ".local" ) );
 
-$VARS->{"subdomain"} ||= $VARS->{"domain"};    # When generating hostnames, use this specific domain instead.  Defaults to just the domain name.
+$VARS->{"subdomain"} ||=
+  $VARS->{"domain"};   # When generating hostnames, use this specific domain instead.  Defaults to just the domain name.
 
 #get_svn();
 get_git();
@@ -111,7 +111,7 @@ get_git();
 #$VARS->{"version"} = $VARS->{"svn_Revision"} . "-" . time;
 
 $VARS->{"version"} = `../dist_support/git-revision.sh`;
-chomp $VARS->{"version"} ;
+chomp $VARS->{"version"};
 
 $VARS->{"AddLanguage"} = get_addlanguage(@LOCALE);
 
@@ -123,9 +123,9 @@ $VARS->{"AddLanguage"} = get_addlanguage(@LOCALE);
     [ "html", "index.html" ],
     [ "html", "neg.html" ],
     [ "html", "comcast.html" ],
-    [ "js",  "sites_parsed.js" ],
-    [ "js",  "sites_parsed_raw.js" ],
-    [ "js",  "sites_parsed_raw.yaml" ],
+    [ "js",   "sites_parsed.js" ],
+    [ "js",   "sites_parsed_raw.js" ],
+    [ "js",   "sites_parsed_raw.yaml" ],
     [ "html", "locale.html" ],
     [ "html", "faq_helpdesk.html" ],
     [ "html", "broken.html" ],
@@ -178,7 +178,12 @@ $VARS->{"AddLanguage"} = get_addlanguage(@LOCALE);
 
 my @errors;
 
-my $pm = new Parallel::ForkManager( $argv{"maxjobs"} );
+my $pm;
+if ( $argv{"debug"} ) {
+    $pm = new Parallel::ForkManager(0);
+} else {
+    $pm = new Parallel::ForkManager( $argv{"maxjobs"} );
+}
 
 $pm->run_on_finish(
     sub {
@@ -189,61 +194,96 @@ $pm->run_on_finish(
     }
 );
 
+my %fsi18n;
 
-sub run_locale {
+sub start_locale {
     my $locale = shift;
-    my $pid = $pm->start($locale) and return;
+    my $i18n;
+    print "Preparing locale for $locale\n";
+
+    if ( $locale eq "en_US" ) {
+        $i18n = new FSi18n( locale => $locale );
+        $i18n->filename("po/falling-sky.pot");
+        $i18n->read_file();    # Dies if missing.
+
+    } else {
+        $i18n = new FSi18n( locale => $locale );
+        my $pattern = "po/dl/*/falling-sky.$locale.po";
+        my ($found) = glob($pattern);
+        if ($found) {
+            $i18n->filename($found);
+        } else {
+            die "could not find $pattern\n";
+        }
+
+        $i18n->filename("falling-sky.pot") if ( $locale eq "en_US" );
+        $i18n->read_file();    # Dies if missing.
+    }
+    $fsi18n{$locale} = $i18n;
+    return $i18n;
+} ## end sub start_locale
+
+sub scan_locale {
+    my ($locale) = shift;
+    my $pot      = $fsi18n{"pot"};
+    my $i18n     = $fsi18n{$locale};
+    my ( $percent, $changed, $outof ) = $i18n->translated();
+    $VARS->{TRANSLATED}{$locale} = $percent;
+    print "Locale $locale translated: $percent\%\n";
+
+}
+
+sub run_pot {
+    my $locale = shift;
 
     my $i18n;
     print "Preparing locale for $locale\n";
 
-    if ( $locale eq "pot" ) {
+    # Create a new pot.
+    $i18n = new FSi18n( locale => $locale );
+    $i18n->filename("po/falling-sky.pot");
 
-        # Create a new pot.
-        $i18n = new FSi18n( locale => $locale );
-        $i18n->filename("po/falling-sky.pot");
-
-        my $poheader = $i18n->poheader();
-        $i18n->add( "", undef, $poheader );
-    } elsif ($locale eq "en_US") {
-        $i18n = new FSi18n( locale => $locale );
-        $i18n->filename("po/falling-sky.pot");
-                 $i18n->read_file();  # Dies if missing.
-                            
-    } else {
-         $i18n = new FSi18n( locale => $locale );
-         my $pattern = "po/dl/*/falling-sky.$locale.po";
-         my ($found) = glob($pattern);
-         if ($found) {
-           $i18n->filename($found);
-         } else {
-           die "could not find $pattern\n";
-         }
-         
-         
-         $i18n->filename("falling-sky.pot") if ($locale eq "en_US");
-         $i18n->read_file();  # Dies if missing.
-    }
+    my $poheader = $i18n->poheader();
+    $i18n->add( "", undef, $poheader );
 
     foreach my $p (@PROCESS) {
         process( $p, $locale, $i18n );
     }
 
     $i18n->write_file();
-
     $pm->finish();
-} ## end sub run_locale
+} ## end sub run_pot
+
+sub run_locale {
+    my $locale = shift;
+    return if ( $locale eq "pot" );
+    my $pid = $pm->start($locale) and return;
+
+    my $i18n;
+    print "Preparing locale for $locale\n";
+
+    $i18n = $fsi18n{$locale} or die "wait what";
+    foreach my $p (@PROCESS) {
+        process( $p, $locale, $i18n );
+    }
+    $i18n->write_file();
+    $pm->finish();
+}
 
 # Always run "pot". With force.
-{ 
- local $argv{"force"} = 1;
- run_locale("pot");
+{
+    local $argv{"force"} = 1;
+    run_pot("pot");
+}
+
+# Load the various langauges, scan for completeness
+foreach my $locale (@LOCALE) {
+    start_locale($locale);
+    scan_locale($locale);
 }
 foreach my $locale (@LOCALE) {
-  run_locale($locale) unless ($locale eq "pot");
-} ## end foreach my $locale (@LANG)
-
-
+    run_locale($locale);
+}
 
 $pm->wait_all_children;
 die "Errors with --locale value(s) @errors" if (@errors);
@@ -256,8 +296,6 @@ fixup_apache( "$INSTALL/.htaccess", "$INSTALL/vhost-long.conf.example" );
 system( "rsync", "-av", "transparent", "$INSTALL" );
 system("cd $INSTALL && ln -s . isp");
 system("cd $INSTALL && ln -s . helpdesk");
-
-
 
 sub prepdir_for_file {
     my ($filename) = @_;
@@ -289,7 +327,8 @@ sub process {
 
     my %provider_config = ( INCLUDE_PATH => "." );
 
-    my $locale_handler = Template::Provider::Locale->new( { VARS => $VARS, LOCALE => $locale, VERBOSE => $argv{"verbose"} } );
+    my $locale_handler =
+      Template::Provider::Locale->new( { VARS => $VARS, LOCALE => $locale, VERBOSE => $argv{"verbose"} } );
 
     my $template_config = {
         LOAD_PERL      => 1,                          # Locally defined plugins
@@ -303,9 +342,9 @@ sub process {
         RELATIVE       => 1,
         ENCODING       => 'UTF-8',
         FILTERS        => {
-                     i18n => [ \&filter_i18n_factory, 1 ],
-                     escape_quotes => [\&filter_escape_quotes_factory, 1],
-                     escape_quote => [\&filter_escape_quotes_factory, 1],
+                     i18n          => [ \&filter_i18n_factory,          1 ],
+                     escape_quotes => [ \&filter_escape_quotes_factory, 1 ],
+                     escape_quote  => [ \&filter_escape_quotes_factory, 1 ],
                    },
 
 #                            DEBUG => DEBUG_ALL,
@@ -337,19 +376,17 @@ sub process {
     $VARS->{i18n} = $i18n;
     $VARS->{"date_utc"} = strftime( '%d-%b-%Y', gmtime time );
     $VARS->{"compiled"} = scalar localtime time;
-    $VARS->{"locale"}     = $locale;
+    $VARS->{"locale"}   = $locale;
 
     # In HTML, the locale code should be xx-YY
     $VARS->{"localeUC"} = $locale;
     $VARS->{"localeUC"} =~ s/_/-/g;
     $VARS->{"localeUC"} =~ s/(-[a-z]+)/uc $1/ge;
-    ($VARS->{"lang"}) = split(/[-_]/,$locale);
-    $VARS->{"langUC"} = uc $VARS->{"lang"};
+    ( $VARS->{"lang"} ) = split( /[-_]/, $locale );
+    $VARS->{"langUC"}   = uc $VARS->{"lang"};
     $VARS->{"basename"} = $name;
-    
-    $VARS->{"hreflang"} = make_google_hreflang($name);
-    
-    
+
+#    $VARS->{"hreflang"} = make_google_hreflang($name);
 
     my $template = Template->new($template_config) or die "Could not create template object";
     my $success = $template->process( $name, $VARS ) || die( "crap!" . $template->error() );
@@ -373,6 +410,7 @@ sub process {
     }
 } ## end sub process
 
+=pod 
 sub make_google_hreflang {
   my($name) = @_;
   print "make_google_hreflang name=$name\n";
@@ -404,10 +442,11 @@ EOF
   
   
 }
+=cut
 
 sub process_apache {
-    my ( $aref, $locale )  = @_;
-    my ( $name, $lname ) = @{$aref};
+    my ( $aref, $locale ) = @_;
+    my ( $name, $lname )  = @{$aref};
     my $type = "apache";
 
     my $cwd = cwd;
@@ -421,7 +460,8 @@ sub process_apache {
 
     my %provider_config = ( INCLUDE_PATH => "." );
 
-    my $locale_handler = Template::Provider::Locale->new( { VARS => $VARS, LOCALE => $locale, VERBOSE => $argv{"verbose"} } );
+    my $locale_handler =
+      Template::Provider::Locale->new( { VARS => $VARS, LOCALE => $locale, VERBOSE => $argv{"verbose"} } );
 
     my $template_config = {
         LOAD_PERL      => 1,                          # Locally defined plugins
@@ -484,11 +524,11 @@ sub our_yui {
     my ( $file, $type ) = @_;
 
     my $run = $COMPRESS{$type} if ( exists $COMPRESS{$type} );
-    
+
     return unless ($run);
     return if ( $argv{"debug"} );
-    return if ($file =~ /.yaml$/);
-    return if ($file =~ /_raw/);
+    return if ( $file =~ /.yaml$/ );
+    return if ( $file =~ /_raw/ );
 
     my $cwd = cwd;
     $file =~ s#$INSTALL/*##;
@@ -517,15 +557,15 @@ sub our_yui {
 
 sub our_save {
     my ( $filename, $buffer ) = @_;
-    
+
     local $SIG{__WARN__} = sub {
         my @loc = caller(1);
         print STDOUT "Warning generated writing $filename:\n", @_, "\n";
         return 1;
     };
-                
-                
+
     open( SAVEFILE, ">$filename.new" ) or die "Failed to create $filename.new: $!";
+
 #    binmode SAVEFILE, ":utf8";
     print SAVEFILE $buffer;
     close SAVEFILE;
@@ -633,77 +673,76 @@ sub get_svn {
 }
 
 sub get_git {
-  my $remotes = `TZ=UTC git remote -v`;
-  my ($fetch,$push);
-  if ($remotes =~ /origin\s+(\S+)\s+\(fetch\)/ms) {
-    $fetch=$1;
-  }
-  if ($remotes =~ /origin\s+(\S+)\s+\(push\)/ms) {
-    $push=$1;
-  }
-  my $revisioncount=`git log --oneline | wc -l`;
-  my $projectversion=`git describe --tags --long`;
-  my ($cleanversion) = split(/-/,$projectversion);
-  my $version = "$cleanversion.$revisioncount";
-  my $last = `TZ=UTC git log -1 --format=%cd`;
-  
-  chomp $fetch;
-  chomp $push;
-  chomp $revisioncount;
-  chomp $projectversion;
-  chomp $cleanversion;
-  chomp $version;
-  chomp $last;
-  
-  
-  $VARS->{git_URL} = $fetch||$push;
-  $VARS->{git_Revision} = $version;
-  $VARS->{git_Last_Changed_Date}=$last;
-  
+    my $remotes = `TZ=UTC git remote -v`;
+    my ( $fetch, $push );
+    if ( $remotes =~ /origin\s+(\S+)\s+\(fetch\)/ms ) {
+        $fetch = $1;
+    }
+    if ( $remotes =~ /origin\s+(\S+)\s+\(push\)/ms ) {
+        $push = $1;
+    }
+    my $revisioncount  = `git log --oneline | wc -l`;
+    my $projectversion = `git describe --tags --long`;
+    my ($cleanversion) = split( /-/, $projectversion );
+    my $version        = "$cleanversion.$revisioncount";
+    my $last           = `TZ=UTC git log -1 --format=%cd`;
+
+    chomp $fetch;
+    chomp $push;
+    chomp $revisioncount;
+    chomp $projectversion;
+    chomp $cleanversion;
+    chomp $version;
+    chomp $last;
+
+    $VARS->{git_URL}               = $fetch || $push;
+    $VARS->{git_Revision}          = $version;
+    $VARS->{git_Last_Changed_Date} = $last;
+
 #echo "$projectversion-$revisioncount"
 #echo "$cleanversion.$revisioncount"
-  
-}
 
+} ## end sub get_git
 
 sub get_addlanguage {
-    my (@list) = @_;
-    my ($string)="";
+    my (@list)   = @_;
+    my ($string) = "";
     my %seen;
     foreach my $locale (@list) {
         next if ( $locale eq "pot" );
-        
-        my($a,$b) = split(/_/,$locale);
-        $string .= "AddLanguage $a .$locale\n" unless ($seen{$a}++);
+
+        my ( $a, $b ) = split( /_/, $locale );
+        $string .= "AddLanguage $a .$locale\n" unless ( $seen{$a}++ );
         $string .= "AddLanguage $a-$b .$locale\n";
     }
     return $string;
 }
 
 sub filter_escape_quotes_factory {
-  my ($context,$arg1) = @_;
-  my $locale           = $context->stash->get("locale");
-  if ( $locale eq "pot" ) {
-    return sub {
-      my $text = shift;
-      return $text;
-    }
-  } else {
-    return sub {
-      my $text = shift;
-      my $old = $text;
-      $DB::single=1 if ($text =~ m#http://openradar.appspot.com/7333104#);
-      
-      $text =~ s/(?<![\\])"/\\"/g;
-      $text =~ s/(?<![\\])'/\\'/g;
+    my ( $context, $arg1 ) = @_;
+    my $locale = $context->stash->get("locale");
+    if ( $locale eq "pot" ) {
+        return sub {
+            my $text = shift;
+            return $text;
+          }
+    } else {
+        return sub {
+            my $text = shift;
+            my $old  = $text;
+            $DB::single = 1 if ( $text =~ m#http://openradar.appspot.com/7333104# );
+
+            $text =~ s/(?<![\\])"/\\"/g;
+            $text =~ s/(?<![\\])'/\\'/g;
+
 #      if ($old ne $text) {
 #        print "***** Fixed quotes on $old\n";
 #        print "***** New text is $text\n";
 #      }
-      return $text;
+            return $text;
+          }
     }
-  }
-}
+} ## end sub filter_escape_quotes_factory
 
 sub filter_i18n_factory {
     my ( $context, $arg1 ) = @_;
@@ -712,29 +751,28 @@ sub filter_i18n_factory {
 
     my $component_name = $context->stash->get("component")->name;
     my $modtime        = $context->stash->get("component")->modtime;
-    my $locale           = $context->stash->get("locale");
-    my $localeUC         = $context->stash->get("localeUC");
+    my $locale         = $context->stash->get("locale");
+    my $localeUC       = $context->stash->get("localeUC");
     my $i18n           = $context->stash->get("i18n");
 
     if ( $locale eq "pot" ) {
         return sub {
             my $text = shift;
             my $lo   = FSi18n::PO->new();    # new() does not (today) actually take the msgid, reference args
-            
+
             $text =~ s/^\s+//;
-            $text =~ s/\s+/ /g;  # Canonicalize any size whitespace to single space
+            $text =~ s/\s+/ /g;              # Canonicalize any size whitespace to single space
             $text =~ s/\s+$//;
-            
-            
-            if ($text =~ m#[\\]#) {
-              warn "text: $text\n";
+
+            if ( $text =~ m#[\\]# ) {
+                warn "text: $text\n";
             }
-            
+
             $lo->msgid($text);
             $lo->msgstr("");
             $lo->reference($component_name);
             $lo->msgctxt($arg1) if ($arg1);
-            $i18n->add( $text, $arg1,$lo );
+            $i18n->add( $text, $arg1, $lo );
             return $text;
         };
     } else {
@@ -743,25 +781,24 @@ sub filter_i18n_factory {
         return sub {
             my $text = shift;
             $text =~ s/^\s+//;
-            $text =~ s/\s+/ /g;  # Canonicalize any size whitespace to single space
+            $text =~ s/\s+/ /g;    # Canonicalize any size whitespace to single space
             $text =~ s/\s+$//;
-            my $found = $i18n->find_text($text,$arg1);
+            my $found = $i18n->find_text( $text, $arg1 );
             return $found;
         };
     }
 
 } ## end sub filter_i18n_factory
 
-
 sub get_locale {
-  my($glob) = @_;
-  my(@files) = glob($glob);
-  my @return = ("en_US");
-  foreach my $file (@files) {
-    if ($file =~ /\.([^.]+)\.po/) {
-      next if ($1 eq "en_US");
-      push(@return,$1);
+    my ($glob)  = @_;
+    my (@files) = glob($glob);
+    my @return  = ("en_US");
+    foreach my $file (@files) {
+        if ( $file =~ /\.([^.]+)\.po/ ) {
+            next if ( $1 eq "en_US" );
+            push( @return, $1 );
+        }
     }
-  }
-  return @return;
+    return @return;
 }

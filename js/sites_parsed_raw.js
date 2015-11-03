@@ -85,8 +85,8 @@
       "monitor" : "Antonio M. Moreiras <moreiras@nic.br>",
       "provider" : "NIC.br",
       "site" : "nic.br",
-      "v4" : "http://v4.ipv6.br/pixel.gif",
-      "v6" : "http://v6.ipv6.br/pixel.gif"
+      "v4" : "http://v4.ipv6.br/img/logo-ipv6.png",
+      "v6" : "http://v6.ipv6.br/img/logo-ipv6.png"
    },
    "nsx.de" : {
       "hide" : "0",
@@ -476,15 +476,6 @@
       "site" : "www.ctbc.com.br",
       "v4" : "http://ipv4only.ctbc.net.br/ctbc/pixel.gif",
       "v6" : "http://ipv6only.ctbc.net.br/ctbc/pixel.gif"
-   },
-   "www.delong.com" : {
-      "hide" : "0",
-      "loc" : "US",
-      "monitor" : "Owen DeLong <owen@delong.com>",
-      "provider" : "Owen DeLong (personal)",
-      "site" : "www.delong.com",
-      "v4" : "http://ohno.delong.com/cgi-bin/trainwreck.cgi",
-      "v6" : "http://thegoodlife.delong.com/cgi-bin/beaches.cgi"
    },
    "www.excathedra.co" : {
       "hide" : "0",

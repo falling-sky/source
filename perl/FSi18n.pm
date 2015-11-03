@@ -50,6 +50,24 @@ sub filename {
   return $self->{filename} || "unspecified.po";
 }
 
+sub translated {
+    my $self = shift;
+    my $aref = $self->{aref};
+    $DB::single = 1;
+    my $changed=0;
+    my $total=0;
+    foreach my $po (@$aref) {
+        my $msgid   = $po->dequote( $po->msgid );
+        my $msgctxt = $po->dequote( $po->msgctxt );
+        my $msgstr = $po->dequote($po->msgstr);
+        $total++;
+        $changed++ if ($msgid ne $msgstr);
+    }
+    $total++ unless ($total);
+    my $percent = sprintf("%.1f",$changed * 100 / $total);
+    return wantarray ? ($percent,$changed,$total) : $percent;
+}
+
 sub scan_array {
  my $self = shift;
  my $aref = $self->{aref};
@@ -65,7 +83,6 @@ sub scan_array {
 sub read_file {
   my $self = shift;
   my $filename = $self->filename;
-  $DB::single=1;
   my $aref =  FSi18n::PO->load_file_asarray($filename);
   if ($aref) {
     $self->{aref} = $aref;

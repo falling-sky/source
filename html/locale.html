@@ -16,7 +16,7 @@
           white-space: nowrap">
   
   <thead>
-  <tr><th>Locale Name <!-- ie en_US or zh_CN --></th><th>Language Name <!-- ie English or 中文--></th><tr>
+  <tr><th>Locale Name <!-- ie en_US or zh_CN --></th><th>Language Name</th><th>Percent   Translated</th></tr>
   </thead>
   <tbody>
 
@@ -24,6 +24,7 @@
 <tr>
 <td><a href="/index.html.[% name %]"><code>[% name %]</code></a></td>
 <td><a href="/index.html.[% name %]">[% NAMES.$name %]</a></td>
+<td>[% TRANSLATED.$name %]%</td>
 </tr>
 [%  END %]
 </body>
@@ -35,6 +36,12 @@
 
 </div>
 
+[% "Translators and proof readers welcome." | i18n %]
+[% "See <a href='https://github.com/falling-sky/source/wiki/LocalizationPlan'>Info</a>; and our <a href='https://crowdin.net/project/falling-sky'>'CrowdIn'</a> project page." | i18n %]
+
+
+
+
 <script type="text/javascript">
 
 $(document).ready(function() 
@@ -44,9 +51,10 @@ $(document).ready(function()
                      textExtraction: "complex",
                      headers: {
                        0: { sorter: "text" },
-                       1: { sorter: "text" }
+                       1: { sorter: "text" },
+                       2: { sorter: "float" }
                      },
-                     sortList: [[0,0], [1,0]]
+                     sortList: [[0,0], [1,0], [0,0]]
              } ); 
                 } 
                 );

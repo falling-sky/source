@@ -65,8 +65,8 @@ nic.br:
   hide: 0
   loc: BR
   provider: NIC.br
-  v4: http://v4.ipv6.br/pixel.gif
-  v6: http://v6.ipv6.br/pixel.gif
+  v4: http://v4.ipv6.br/img/logo-ipv6.png
+  v6: http://v6.ipv6.br/img/logo-ipv6.png
   monitor: 'Antonio M. Moreiras <moreiras@nic.br>'
 nsx.de: 
   hide: 0
@@ -412,7 +412,7 @@ www.ctbc.com.br:
   v4: http://ipv4only.ctbc.net.br/ctbc/pixel.gif
   v6: http://ipv6only.ctbc.net.br/ctbc/pixel.gif
 www.delong.com: 
-  hide: 0
+  hide: 1
   loc: US
   provider: Owen DeLong (personal)
   v4: http://ohno.delong.com/cgi-bin/trainwreck.cgi

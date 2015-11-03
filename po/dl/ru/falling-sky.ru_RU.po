@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-10-12 14:30-0400\n"
+"PO-Revision-Date: 2015-10-31 13:45-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Russian\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -1986,7 +1986,7 @@ msgstr "Подтверждение:"
 
 #: faq_v6ns_bad.html
 msgid "should return back an aaaa record without errors."
-msgstr "should return back an aaaa record without errors."
+msgstr "должен возвращать aaaa запись без ошибок."
 
 #: faq_broken_aaaa.html
 msgid "Broken DNS AAAA Lookups"
