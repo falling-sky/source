@@ -30,7 +30,7 @@ use strict;
 my $pwd = `pwd`;
 if ($pwd =~ /i18n/) {
 } else {
-  @LOCALE = grep(! /^(fa_IR|zh_HK|zh_TW)/, @LOCALE);
+  @LOCALE = grep(! /^(bg_BG|fa_IR|zh_HK|zh_TW)/, @LOCALE);
 }
 
 
@@ -99,6 +99,7 @@ foreach my $name (@LOCALE) {
 }
 
 $VARS->{NAMES} = \%NAMES;
+$VARS->{TRANSLATED} = {};
 
 require( $argv{config} );
 require( $argv{config} . ".local" ) if ( -f ( $argv{config} . ".local" ) );
@@ -178,7 +179,12 @@ $VARS->{"AddLanguage"} = get_addlanguage(@LOCALE);
 
 my @errors;
 
-my $pm = new Parallel::ForkManager( $argv{"maxjobs"} );
+my $pm;
+if ($argv{"debug"}) {
+ $pm = new Parallel::ForkManager( 0 );
+} else {
+ $pm = new Parallel::ForkManager( $argv{"maxjobs"} );
+}
 
 $pm->run_on_finish(
     sub {
@@ -190,22 +196,15 @@ $pm->run_on_finish(
 );
 
 
-sub run_locale {
-    my $locale = shift;
-    my $pid = $pm->start($locale) and return;
+my %fsi18n;
 
+
+sub start_locale {
+  my $locale = shift;
     my $i18n;
     print "Preparing locale for $locale\n";
 
-    if ( $locale eq "pot" ) {
-
-        # Create a new pot.
-        $i18n = new FSi18n( locale => $locale );
-        $i18n->filename("po/falling-sky.pot");
-
-        my $poheader = $i18n->poheader();
-        $i18n->add( "", undef, $poheader );
-    } elsif ($locale eq "en_US") {
+    if ($locale eq "en_US") {
         $i18n = new FSi18n( locale => $locale );
         $i18n->filename("po/falling-sky.pot");
                  $i18n->read_file();  # Dies if missing.
@@ -224,24 +223,72 @@ sub run_locale {
          $i18n->filename("falling-sky.pot") if ($locale eq "en_US");
          $i18n->read_file();  # Dies if missing.
     }
+    $fsi18n{$locale}=$i18n;
+    return $i18n;
+}
+
+sub scan_locale {
+ my($locale)=shift;
+ my $pot=$fsi18n{"pot"};
+ my $i18n=$fsi18n{$locale};
+ my ($percent,$changed,$outof) = $i18n->translated();
+ $VARS->{TRANSLATED}{$locale} = $percent;
+ print "Locale $locale translated: $percent\%\n";
+ 
+}
+
+
+sub run_pot {
+    my $locale = shift;
+
+    my $i18n;
+    print "Preparing locale for $locale\n";
+
+    # Create a new pot.
+    $i18n = new FSi18n( locale => $locale );
+    $i18n->filename("po/falling-sky.pot");
+
+    my $poheader = $i18n->poheader();
+    $i18n->add( "", undef, $poheader );
 
     foreach my $p (@PROCESS) {
         process( $p, $locale, $i18n );
     }
 
     $i18n->write_file();
+    $pm->finish();
+} 
 
+
+sub run_locale {
+    my $locale = shift;
+    return if ($locale eq "pot");
+    my $pid = $pm->start($locale) and return;
+
+    my $i18n;
+    print "Preparing locale for $locale\n";
+    
+    $i18n = $fsi18n{$locale} or die "wait what";
+    foreach my $p (@PROCESS) {
+        process( $p, $locale, $i18n );
+    }
+    $i18n->write_file();
     $pm->finish();
 } ## end sub run_locale
 
 # Always run "pot". With force.
 { 
  local $argv{"force"} = 1;
- run_locale("pot");
+ run_pot("pot");
+}
+# Load the various langauges, scan for completeness
+foreach my $locale (@LOCALE) {
+  start_locale($locale);
+  scan_locale($locale);
 }
 foreach my $locale (@LOCALE) {
-  run_locale($locale) unless ($locale eq "pot");
-} ## end foreach my $locale (@LANG)
+  run_locale($locale);
+}
 
 
 
@@ -347,7 +394,7 @@ sub process {
     $VARS->{"langUC"} = uc $VARS->{"lang"};
     $VARS->{"basename"} = $name;
     
-    $VARS->{"hreflang"} = make_google_hreflang($name);
+#    $VARS->{"hreflang"} = make_google_hreflang($name);
     
     
 
@@ -373,6 +420,7 @@ sub process {
     }
 } ## end sub process
 
+=pod 
 sub make_google_hreflang {
   my($name) = @_;
   print "make_google_hreflang name=$name\n";
@@ -404,6 +452,8 @@ EOF
   
   
 }
+=cut
+
 
 sub process_apache {
     my ( $aref, $locale )  = @_;
