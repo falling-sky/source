@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-10-31 13:45-0400\n"
+"PO-Revision-Date: 2015-11-03 02:35-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Chinese Simplified\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -779,6 +779,14 @@ msgstr "可用语言"
 #: locale.html
 msgid "Pick one of the following to switch to that language."
 msgstr "您可以选择切换到下列语言。"
+
+#: locale.html
+msgid "Translators and proof readers welcome."
+msgstr "欢迎翻译和校对人员参与。"
+
+#: locale.html
+msgid "See <a href='https://github.com/falling-sky/source/wiki/LocalizationPlan'>Info</a>; and our <a href='https://crowdin.net/project/falling-sky'>'CrowdIn'</a> project page."
+msgstr "查看<a href='https://github.com/falling-sky/source/wiki/LocalizationPlan'>相关信息</a>；以及我们的<a href='https://crowdin.net/project/falling-sky'>'CrowdIn'</a>项目页面。"
 
 #: faq_helpdesk.html
 msgid "Help Desk Information"
@@ -1810,23 +1818,23 @@ msgstr "test-ipv6.com的建议是，如果你在你的ISP能够提供IPv6之前�
 
 #: faq_6to4.html
 msgid "Ran by Hurricane Electric. The author of test-ipv6.com has used their services for 2-3 years; and would notice latency problems (lots of interactive SSH use from home to the server). This service requires a static IPv4 address (or static enough - you can always go to the tunnelbroker.net site and update your IP). Lastly, tunnelbroker is fully automated - you can sign up, get your tunnel assignment immediately, and configure your end."
-msgstr "Ran by Hurricane Electric. The author of test-ipv6.com has used their services for 2-3 years; and would notice latency problems (lots of interactive SSH use from home to the server). This service requires a static IPv4 address (or static enough - you can always go to the tunnelbroker.net site and update your IP). Lastly, tunnelbroker is fully automated - you can sign up, get your tunnel assignment immediately, and configure your end."
+msgstr "由Hurricane Electric运行。test-ipv6的作者已经使用了他们的服务2-3年了；也会注意到延迟的问题（从家到服务器的大量的SSH互动链接）。这项服务需要一个固定的IPv4地址（或者相对固定的地址——你总是可以去tunnelbroker.net网站上更新你的IP），最后tunnelbroker是全自动的——你可以注册，立即获得你的可用隧道，并配置你的终端。"
 
 #: faq_6to4.html
 msgid "is another popular service. I see many European users using this service significantly; though their footprint is global. They work with dynamic IPs with some custom software that they provide."
-msgstr "is another popular service. I see many European users using this service significantly; though their footprint is global. They work with dynamic IPs with some custom software that they provide."
+msgstr "是另一种受欢迎的服务。我看到许多欧洲用户经常使用这个服务，虽然它们的足迹是全球性的。他们使用动态IP地址和一些他们提供的自定义软件。"
 
 #: faq_6to4.html
 msgid "aka freenet6. I don't have personal experience with this, but test-ipv6.com does see a number of connections via this service."
-msgstr "aka freenet6. I don't have personal experience with this, but test-ipv6.com does see a number of connections via this service."
+msgstr "aka freenet6。我没有关于这个的个人经验，但是test-ipv6.com已经发现了不少通过这个服务而来的连接。"
 
 #: faq_6to4.html
 msgid "may be a better solution, in China. This requires a custom client to be installed."
-msgstr "may be a better solution, in China. This requires a custom client to be installed."
+msgstr "也许是一种更好的服务。在中国，这需要安装一个自定义的客户端。"
 
 #: faq_6to4.html
 msgid "in Australia offers both free and paid-for (with SLA) tunnels."
-msgstr "in Australia offers both free and paid-for (with SLA) tunnels."
+msgstr "在澳大利亚同时提供免费和付费（含SLA）的隧道"
 
 #: faq_ipv4_only.html
 msgid "About your IPv4-only Internet service."
@@ -1834,11 +1842,11 @@ msgstr "关于您的仅IPv4互联网服务。"
 
 #: faq_ipv4_only.html
 msgid "This FAQ has been produced to try and address the questions of IPv4 only users"
-msgstr "This FAQ has been produced to try and address the questions of IPv4 only users"
+msgstr "我们提供这个帮助用来尝试解决只有IPv4地址的用户的问题。"
 
 #: faq/dontfeelbad.inc
 msgid "It looks like you have only IPv4 Internet service at this time. Don't feel bad - most people are in this position right now. Most Internet service providers are not quite yet ready to provide IPv6 Internet to residential customers."
-msgstr "It looks like you have only IPv4 Internet service at this time. Don't feel bad - most people are in this position right now. Most Internet service providers are not quite yet ready to provide IPv6 Internet to residential customers."
+msgstr "看上去你现在只有IPv4的互联网服务。不要沮丧——大多数人现在都是这样子的。大多数互联网服务提供商还没有准备好为普通居民用户提供IPv6连接。"
 
 #: faq/nothingwillbreak.inc
 msgid "The good news is, nothing will suddenly break."
@@ -2054,7 +2062,7 @@ msgstr "<b>这个网站怎么工作:</b>这个网站会告诉你的浏览器，�
 
 #: faq/intro_js.inc
 msgid "Some browser plugins enforce policies that are compatible with the above behavior. They block connections that (to them) look like they might be 3rd party advertising or tracking. There is no good way to identify this plugins from inside javascript; nor any good way to work around it."
-msgstr "Some browser plugins enforce policies that are compatible with the above behavior. They block connections that (to them) look like they might be 3rd party advertising or tracking. There is no good way to identify this plugins from inside javascript; nor any good way to work around it."
+msgstr "一些浏览器插件执行符合上述行为的政策。他们会阻止那些(对他们来说) 看起来可能像是第三方广告或跟踪的连接。目前没有好的方法通过内置javascript来识别这样的插件；也没有什么好办法可以绕过它。"
 
 #: faq/plugins_firefox.inc
 msgid "In the case of Firefox, the most common plugins that cause problems are AdBlock and RequestPolicy. There are probably others - any which claims to prevent XSS, CSRF, or Cross Site Scripting can be a problem. Try disabling these plugins (either temporarilly via any menu they offer you, or via the Firefox add-ons menu)."
@@ -2534,11 +2542,11 @@ msgstr "Apple的最新版Lion和Mountain Lion更新将对指定的目标取其�
 
 #: faq_avoids_ipv6.html
 msgid "When you use the Internet, a connection is made between your computer, and the service you're connecting to. To connect, you have to have the other side's IP - Internet Protocol - number. And, when you connect, they see yours, so they can send traffic back to you and your applications."
-msgstr "When you use the Internet, a connection is made between your computer, and the service you're connecting to. To connect, you have to have the other side's IP - Internet Protocol - number. And, when you connect, they see yours, so they can send traffic back to you and your applications."
+msgstr "当您使用互联网时，在您的计算机与您要连接到的服务之间，会产生一个连接。若要建立连接的话，您一定要有对方的 IP——即互联网协议号码。并且当您连接时，他们也会看到你的IP。所以他们可以将消息发送回给您和您的应用程序。"
 
 #: faq_avoids_ipv6.html
 msgid "The Internet protocol that we've been using for the 1990's and the 2000s, has run out of these unique numbers. We can keep going, but with some limitations, by sharing multiple machines with one number. Often times, we do this at home or at work."
-msgstr "The Internet protocol that we've been using for the 1990's and the 2000s, has run out of these unique numbers. We can keep going, but with some limitations, by sharing multiple machines with one number. Often times, we do this at home or at work."
+msgstr "我们在20世纪90年代和21世纪正在使用的IP协议，已经用完了它的地址。我们可以继续这样子，但是必须依赖某些限制，也就是通过让众多的机器分享一个IP地址。我们经常在家或者在单位这么做。"
 
 #: faq_avoids_ipv6.html
 msgid "What is changing is that the Internet Service Providers are all facing the fact that they will have to implement this type of address sharing, on a much larger scale. Some buzzwords you may hear: NAT, CGN, Carrier Grade NAT, LSN, Large Scale NAT. They all look something like this:"

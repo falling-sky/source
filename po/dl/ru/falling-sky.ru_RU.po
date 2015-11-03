@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-10-31 13:45-0400\n"
+"PO-Revision-Date: 2015-11-03 02:15-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Russian\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -779,6 +779,14 @@ msgstr "Доступные языки"
 #: locale.html
 msgid "Pick one of the following to switch to that language."
 msgstr "Выберите один ниже, чтобы переключиться на этот язык."
+
+#: locale.html
+msgid "Translators and proof readers welcome."
+msgstr "Translators and proof readers welcome."
+
+#: locale.html
+msgid "See <a href='https://github.com/falling-sky/source/wiki/LocalizationPlan'>Info</a>; and our <a href='https://crowdin.net/project/falling-sky'>'CrowdIn'</a> project page."
+msgstr "See <a href='https://github.com/falling-sky/source/wiki/LocalizationPlan'>Info</a>; and our <a href='https://crowdin.net/project/falling-sky'>'CrowdIn'</a> project page."
 
 #: faq_helpdesk.html
 msgid "Help Desk Information"
