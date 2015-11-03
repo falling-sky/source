@@ -769,6 +769,14 @@ msgstr ""
 msgid "Pick one of the following to switch to that language."
 msgstr ""
 
+#: locale.html
+msgid "Translators and proof readers welcome."
+msgstr ""
+
+#: locale.html
+msgid "See <a href='https://github.com/falling-sky/source/wiki/LocalizationPlan'>Info</a>; and our <a href='https://crowdin.net/project/falling-sky'>'CrowdIn'</a> project page."
+msgstr ""
+
 #: faq_helpdesk.html
 msgid "Help Desk Information"
 msgstr ""

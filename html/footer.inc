@@ -21,6 +21,7 @@
 <img src="/images/icon_987_red.png" height=20 border=0>
 [[% locale %]]
 </a>
+([% TRANSLATED.$locale %] %)
 
 <br/>
 [% PROCESS "disclaimer.inc" %]
