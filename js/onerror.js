@@ -3,15 +3,17 @@
 window.onerror = function(message, url, linenumber) {
  var eurl;
  // Use an Image hack to effectively pass errors to errors.php
-// if ((BrowserName) && (BrowserName==="IE6"))
-//   return;
-// }
- if ((BrowserName) && (BrowserName === "IE6")) {
-   if ((linenumber) && (parseInt(linenumber) < 100)) {
-     // Hard to trust this. IE6 sucks.
-     return;
-   }
- }
+
+  // IE6 you suck.
+  // Yes this code tests the UA.  Not the feature.
+  // I'm ignoring your rant right now.
+  if (/\bMSIE 6/.test(navigator.userAgent) && !window.opera) {
+     if ((linenumber) && (parseInt(linenumber) < 100)) {
+       // Hard to trust this. IE6 sucks.
+       return;
+     }
+  }
+  
 
 
  if ((url) && (linenumber)) {
