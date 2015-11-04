@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-11-03 02:15-0500\n"
+"PO-Revision-Date: 2015-11-03 08:45-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: German\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -2531,15 +2531,15 @@ msgstr "(mehr Infos)"
 
 #: faq_avoids_ipv6.html
 msgid "Firefox (recent builds) does the same as Chrome."
-msgstr "Firefox (recent builds) does the same as Chrome."
+msgstr "Firefox (aktuelle Versionen) verhält sich wie Chrome."
 
 #: faq_avoids_ipv6.html
 msgid "The latest Windows 7 and Windows 8 updates will periodically test to see if IPv6 works. If the health check fails, then many applications (including Internet Explorer) will use IPv4, to insulate you from any local IPv6 misconfiguration."
-msgstr "The latest Windows 7 and Windows 8 updates will periodically test to see if IPv6 works. If the health check fails, then many applications (including Internet Explorer) will use IPv4, to insulate you from any local IPv6 misconfiguration."
+msgstr "Die neuesten Updates für Windows 7 und Windows 8 werden regelmäßig testen, ob IPv6 funktioniert. Wenn dieser Test fehlschlägt. werden viele Anwendungen (einschließlich dem Internet Explorer) IPv4 benutzen, um Sie vor einer lokalen IPv6 Fehlkonfiguration zu schützen."
 
 #: faq_avoids_ipv6.html
 msgid "Apple's latest Lion and Mountain Lion updates will prefer whichever is \"faster\" for a given destination."
-msgstr "Apple's latest Lion and Mountain Lion updates will prefer whichever is \"faster\" for a given destination."
+msgstr "Apples neueste Updates für Lion und Mountain Lion bevorzugen immer die Methode welche am schnellsten zum Ziel führt."
 
 #: faq_avoids_ipv6.html
 msgid "When you use the Internet, a connection is made between your computer, and the service you're connecting to. To connect, you have to have the other side's IP - Internet Protocol - number. And, when you connect, they see yours, so they can send traffic back to you and your applications."

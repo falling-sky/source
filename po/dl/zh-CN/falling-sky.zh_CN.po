@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-11-03 02:35-0500\n"
+"PO-Revision-Date: 2015-11-03 02:45-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Chinese Simplified\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -2506,11 +2506,11 @@ msgstr "本节仅适用于我们在测试内部为您提供显示此页。"
 
 #: faq_avoids_ipv6.html
 msgid "First of all, we detected you had a working IPv6 connection. We also found that your IPv6 connection, was using a \"real\" IPv6 address; meaning not a Teredo or a 6to4 address."
-msgstr "First of all, we detected you had a working IPv6 connection. We also found that your IPv6 connection, was using a \"real\" IPv6 address; meaning not a Teredo or a 6to4 address."
+msgstr "首先，我们检测到您有可用的 IPv6 连接。我们还发现，您的 IPv6 连接，使用了\"真实\"的 IPv6 地址；意思是那不是一个 Teredo 或一个 6to4 地址。"
 
 #: faq_avoids_ipv6.html
 msgid "Second, we detected that when given the choice, your browser decided it would prefer to use IPv4 instead of IPv6. This has some concerns for us."
-msgstr "Second, we detected that when given the choice, your browser decided it would prefer to use IPv4 instead of IPv6. This has some concerns for us."
+msgstr "第二点，我们检测到，当您的浏览器做出选择的时候，它更愿意使用 IPv4 而不是 IPv6 。这让我们有点担心。"
 
 #: faq_avoids_ipv6.html
 msgid "Causes for preferring IPv4"
@@ -2550,7 +2550,7 @@ msgstr "我们在20世纪90年代和21世纪正在使用的IP协议，已经用�
 
 #: faq_avoids_ipv6.html
 msgid "What is changing is that the Internet Service Providers are all facing the fact that they will have to implement this type of address sharing, on a much larger scale. Some buzzwords you may hear: NAT, CGN, Carrier Grade NAT, LSN, Large Scale NAT. They all look something like this:"
-msgstr "What is changing is that the Internet Service Providers are all facing the fact that they will have to implement this type of address sharing, on a much larger scale. Some buzzwords you may hear: NAT, CGN, Carrier Grade NAT, LSN, Large Scale NAT. They all look something like this:"
+msgstr "发生变化的是，互联网服务提供商都在面临这样一个事实：他们将不得不在更大的规模上采取这种类型共享。你可能会听到一些流行语: NAT，CGN，航母级 NAT、 LSN，大范围 NAT。他们都看起来像这样:"
 
 #: faq_avoids_ipv6.html
 msgid "The thing to watch for here: <b>Many</b> houses sharing one public address."

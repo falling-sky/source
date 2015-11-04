@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-11-03 02:15-0500\n"
+"PO-Revision-Date: 2015-11-03 15:30-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Czech\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -1538,23 +1538,23 @@ msgstr "Q: Your site shows the wrong IP address; how can I bypass my proxy serve
 
 #: faq.html
 msgid "For ipv4/ipv6/dual stack, use one of these:"
-msgstr "For ipv4/ipv6/dual stack, use one of these:"
+msgstr "Pro ipv4/ipv6/dual stack použijte jeden z následujících:"
 
 #: faq.html
 msgid "for ipv4"
-msgstr "for ipv4"
+msgstr "pro ipv4"
 
 #: faq.html
 msgid "for ipv6"
-msgstr "for ipv6"
+msgstr "pro ipv6"
 
 #: faq.html
 msgid "for either"
-msgstr "for either"
+msgstr "pro oba"
 
 #: faq.html
 msgid "Note you _may_ need to specify other options to your telnet command, depending on your operating system. On my mac, for example, I need to use \"<code>telnet -6</code>\"."
-msgstr "Note you _may_ need to specify other options to your telnet command, depending on your operating system. On my mac, for example, I need to use \"<code>telnet -6</code>\"."
+msgstr "_Možná_ budete muset příkazu telnet přidat ještě další volby v závislosti na použitém operačním systému. Například na mém macu musím spouštět \"<code>telnet -6</code>\"."
 
 #: faq.html
 msgid "Q: Do you actually read the feedback?"
@@ -1566,7 +1566,7 @@ msgstr "Yes, I do. Thank you! Note that I can only follow up with you if you do 
 
 #: faq.html
 msgid "Q: How else can I contact you?"
-msgstr "Q: How else can I contact you?"
+msgstr "Otázka: jak jinak vás můžu kontaktovat?"
 
 #: faq.html
 msgid "I would prefer you use the form, as it gives details of your connectivity, and bypasses any mail filters."
@@ -1578,11 +1578,11 @@ msgstr "That said, you are welcome to directly email <a href=\"mailto:jfesler@te
 
 #: faq.html
 msgid "Q: Is this open source?"
-msgstr "Q: Is this open source?"
+msgstr "Otázka: je to open source?"
 
 #: faq.html
 msgid "Yes. See the <a href=\"source.html\">source page</a> for details."
-msgstr "Yes. See the <a href=\"source.html\">source page</a> for details."
+msgstr "Ano. Vizte <a href=\"source.html\">stránku o zdrojovém kódu</a> s podrobnostmi."
 
 #: stats.html
 msgid "<span lookup=site.name>site</span> statistics"
@@ -1602,7 +1602,7 @@ msgstr "600 days view"
 
 #: stats.html
 msgid "Quick notes:"
-msgstr "Quick notes:"
+msgstr "Stručné poznámky:"
 
 #: stats.html
 msgid "Browser Filter means that both the \"A\" and \"AAAA\" test failed. Browser (plugin/filter) shenanigans, likely with add-ons like ad blockers."
@@ -1638,23 +1638,23 @@ msgstr "These graphs show the last 600 days of activity at <span lookup=site.nam
 
 #: mission.html
 msgid "test-ipv6.com - Our mission"
-msgstr "test-ipv6.com - Our mission"
+msgstr "test-ipv6.com - Naše poslání"
 
 #: mission.html
 msgid "Our mission is thus:"
-msgstr "Our mission is thus:"
+msgstr "Toto je naše poslání:"
 
 #: mission.html
 msgid "Help people identify if they will have problems when publishers offer their web sites on IPv6;"
-msgstr "Help people identify if they will have problems when publishers offer their web sites on IPv6;"
+msgstr "Pomoci lidem určit, zda budou mít problémy až se bude obsah poskytovat přes IPv6;"
 
 #: mission.html
 msgid "Help people fix their system configuration so that they are no longer affected."
-msgstr "Help people fix their system configuration so that they are no longer affected."
+msgstr "Pomoci lidem nastavit jejich systémy aby nebyli změnou postiženi."
 
 #: mission.html
 msgid "To do so in a brand neutral, ad-free way."
-msgstr "To do so in a brand neutral, ad-free way."
+msgstr "Docílit toho nezávisle na konkrétních výrobcích a bez reklam."
 
 #: mission.html
 msgid "Why do we do this?"
@@ -1962,35 +1962,35 @@ msgstr "it means that your DNS resolver is fully capable of reaching IPv6 DNS se
 
 #: faq_v6ns_bad.html
 msgid "Do you use OpenDNS?"
-msgstr "Do you use OpenDNS?"
+msgstr "Používáte OpenDNS?"
 
 #: faq_v6ns_bad.html
 msgid "OpenDNS is now offering IPv6-specific resolvers, that will be able to retrieve DNS over IPv6. This means the \"v6ns\" test operated here will pass. See the <a target=_blank href=\"http://www.opendns.com/ipv6/\">OpenDNS IPv6 information page</a>."
-msgstr "OpenDNS is now offering IPv6-specific resolvers, that will be able to retrieve DNS over IPv6. This means the \"v6ns\" test operated here will pass. See the <a target=_blank href=\"http://www.opendns.com/ipv6/\">OpenDNS IPv6 information page</a>."
+msgstr "OpenDNS nyní nabízí resolvery určené pro IPv6, které jsou schopné získat DNS přes IPv6. To znamená, že testovací provoz \"v6ns\" bude ukončen. Viz <a target=_blank href=\"http://www.opendns.com/ipv6/\">OpenDNS IPv6 information page</a>."
 
 #: faq_v6ns_bad.html
 msgid "Do you operate your own DNS resolvers?"
-msgstr "Do you operate your own DNS resolvers?"
+msgstr "Provozujete vlastní DNS servery?"
 
 #: faq_v6ns_bad.html
 msgid "If you operated the DNS resolvers in use at your home or organization, enabling IPv6 on your DNS server is easy."
-msgstr "If you operated the DNS resolvers in use at your home or organization, enabling IPv6 on your DNS server is easy."
+msgstr "Pokud provozujete DNS servery, ať už pro vlastní potřebu, nebo pro svého zaměstnavatele, zapnutí podpory IPv6 na serveru je jednoduché."
 
 #: faq_v6ns_bad.html
 msgid "ISC BIND: Make sure that IPv6 support is compiled in when you ./configure it. It is enabled by default. If you recently added IPv6 to your server, simply restart your named process, as you normally would."
-msgstr "ISC BIND: Make sure that IPv6 support is compiled in when you ./configure it. It is enabled by default. If you recently added IPv6 to your server, simply restart your named process, as you normally would."
+msgstr "ISC BIND: Když spouštíte ./configure, ujistěte se, že podpora IPv6 je povolena. Ve výchozím nastavení tomu tak je. Pokud máte BIND s IPv6 nainstalovaný na serveru, jednoduše restartujte named proces jako normálně."
 
 #: faq_v6ns_bad.html
 msgid "PowerDNS: Enable <code>aaaa-additional-processing</code> and configure <code>query-local-address6</code> in your <code>recursor.conf</code>. Restart powerdns."
-msgstr "PowerDNS: Enable <code>aaaa-additional-processing</code> and configure <code>query-local-address6</code> in your <code>recursor.conf</code>. Restart powerdns."
+msgstr "PowerDNS: Povolte <code>aaaa-additional-processing</code> a nastavte <code>query-local-address6</code> v <code>recursor.conf</code>. Restartujte powerdns."
 
 #: faq_v6ns_bad.html
 msgid "Windows Server 2003: Upgrade to Windows Server 2008 at a minimum. Windows 2003 will resolve AAAA records, and supports IPv6 clients, but does *not* do DNS resolution over IPv6."
-msgstr "Windows Server 2003: Upgrade to Windows Server 2008 at a minimum. Windows 2003 will resolve AAAA records, and supports IPv6 clients, but does *not* do DNS resolution over IPv6."
+msgstr "Windows Server 2003: Aktualizujte minimálně na Windows Server 2008. Windows 2003 sice umí překládat AAAA záznamy a podporuje IPv6 klienty, ale *neumí* se dotazovat po IPv6."
 
 #: faq_v6ns_bad.html
 msgid "Confirmation:"
-msgstr "Confirmation:"
+msgstr "Potvrzení:"
 
 #: faq_v6ns_bad.html
 msgid "should return back an aaaa record without errors."
@@ -2230,39 +2230,39 @@ msgstr "As such, there is no hard cutoff date. Just be aware that IPv4 will star
 
 #: faq_whyipv6.html
 msgid "Q: Will I have to replace my OS?"
-msgstr "Q: Will I have to replace my OS?"
+msgstr "Otázka: Budu muset změnit operační systém?"
 
 #: faq_whyipv6.html
 msgid "Windows Vista, Windows 7: You're good to go. XP users: It can be made to work, but it really is time to consider upgrading. Win98 and Win2000 users have no path to IPv6."
-msgstr "Windows Vista, Windows 7: You're good to go. XP users: It can be made to work, but it really is time to consider upgrading. Win98 and Win2000 users have no path to IPv6."
+msgstr "Windows Vista, Windows 7: Jste připraven. Uživatelé Windows XP: Je možné to zprovoznit, ale opravdu je už nejvyšší čas aktualizovat. Uživatelé Win98 a Win2000 možnost IPv6 nemají."
 
 #: faq_whyipv6.html
 msgid "Mac OS X: All supported versions of OS X (since Tiger, 10.4) have IPv6."
-msgstr "Mac OS X: All supported versions of OS X (since Tiger, 10.4) have IPv6."
+msgstr "Mac OS X: Všechny podporované verze OS X (od verze Tiger, 10.4) podporují IPv6."
 
 #: faq_whyipv6.html
 msgid "Linux, BSD, and other unix like systems generally all have IPv6."
-msgstr "Linux, BSD, and other unix like systems generally all have IPv6."
+msgstr "Linux, BSD a ostatní unixové systémy většinou IPv6 podporují."
 
 #: faq_whyipv6.html
 msgid "Q: Will I have to replace my hardware?"
-msgstr "Q: Will I have to replace my hardware?"
+msgstr "Otázka: Budu muset vyměnit hardware?"
 
 #: faq_whyipv6.html
 msgid "Your PC: Only if the OS upgrade you do requires it."
-msgstr "Your PC: Only if the OS upgrade you do requires it."
+msgstr "Vaše PC: Pouze pokud to vyžaduje aktualizace operačního systému."
 
 #: faq_whyipv6.html
 msgid "Your ethernet switch / hub: No. It is unaware of IP; it works at a lower level on the local network."
-msgstr "Your ethernet switch / hub: No. It is unaware of IP; it works at a lower level on the local network."
+msgstr "Váš eternetový přepínač (switch) / opakovač (hub): Ne. Pracují na nižších úrovni a o IP nevědí."
 
 #: faq_whyipv6.html
 msgid "Your router: Quite possibly. Many home routers have no upgrade path for IPv6. Do a web search for your router mode, with the keyword \"ipv6\" with it."
-msgstr "Your router: Quite possibly. Many home routers have no upgrade path for IPv6. Do a web search for your router mode, with the keyword \"ipv6\" with it."
+msgstr "Váš směrovač (router): Dost možná. Pro mnoho domácích routerů žádná podpora IPv6 neexistuje. Zkuste hledat na webu model vašeho routeru s klíčovým slovem IPv6."
 
 #: faq_whyipv6.html
 msgid "<b>What router to buy:</b> Wait until your ISP gives you guidance on what will work best with their system. If you must replace your router immediately, look for ones that are IPv6 capable. Apple Airport Express and Airport Extreme have built in tunneling capabilities. OpenWRT capable routers also do (when loaded with the OpenWRT firmware). If you do consider tunnels, see my <a href=\"#\" onclick=\"return help_page('faq_6to4.html','6to4')\">6to4 comments</a>."
-msgstr "<b>What router to buy:</b> Wait until your ISP gives you guidance on what will work best with their system. If you must replace your router immediately, look for ones that are IPv6 capable. Apple Airport Express and Airport Extreme have built in tunneling capabilities. OpenWRT capable routers also do (when loaded with the OpenWRT firmware). If you do consider tunnels, see my <a href=\"#\" onclick=\"return help_page('faq_6to4.html','6to4')\">6to4 comments</a>."
+msgstr "<b>Jaký router koupit:</b> Počkejte, zda vám neporadí váš ISP, který router bude dobře fungovat s jeho systémy. Pokud musíte router vyměnit hned, vybírejte takový, který umí IPv6. Apple Airport Express a Airport Extreme mají zabudovanou podporu tunelování. Routery podporované OpenWRT také (s nainstalovaným OpenWRT firmwarem). Pokud uvažujete o tunelu, přečtěte si <a href=\"#\" onclick=\"return help_page('faq_6to4.html','6to4')\">poznámky o 6to4</a>."
 
 #: faq_pmtud.html
 msgid "This will attempt to explain why you may have PMTUD problems when using test-ipv6.com; and possible solutions. Unfortunately, it is beyond the ability of this site to be able to clearly articulate *your* specific problem."
@@ -2278,11 +2278,11 @@ msgstr "PMTUD is a mechanism used on the Internet that tells your computer the m
 
 #: faq_pmtud.html
 msgid "Q: How does this relate to IPv6?"
-msgstr "Q: How does this relate to IPv6?"
+msgstr "Otázka: Jak se to týká IPv6?"
 
 #: faq_pmtud.html
 msgid "With IPv6, all packets are by definition \"Do Not Fragment\". The responsibility of sending the correct sized packets no longer falls on the router; this is an expensive operation for the router to handle. Instead, the ability to do PMTUD is mandated by the IPv6 specification."
-msgstr "With IPv6, all packets are by definition \"Do Not Fragment\". The responsibility of sending the correct sized packets no longer falls on the router; this is an expensive operation for the router to handle. Instead, the ability to do PMTUD is mandated by the IPv6 specification."
+msgstr "Na IPv6 jsou už z definice všechny pakety typu \"Do Not Fragment\" (\"Nefragmentovat\"). Zodpovědnost za posílání paketů správné velikosti už nemá router, protože je to pro něj zbytečně náročná práce. Místo toho je schopnost provádět PMTUD vyžadována specifikací IPv6."
 
 #: faq_pmtud.html
 msgid "Q: What does the firewall need to allow?"
@@ -2294,15 +2294,15 @@ msgstr "IPv6 firewalls <b>need</b> to permit ICMPv6, type 2 (Packet Too Big) to 
 
 #: faq_pmtud.html
 msgid "Q: What else can cause PMTUD failures?"
-msgstr "Q: What else can cause PMTUD failures?"
+msgstr "Otázka: Co dalšího může způsobit chybu při PMTUD?"
 
 #: faq_pmtud.html
 msgid "Tunnels inside of tunnels. One might be your own; the other, you may not see. Internet service providers often use tunnels either to simplify their topology; to hide it; or to transport things in a more convenient way. However, each tunnel used requires adding a bit of a header to the top of the packet - making the packet bigger. The problem lies in that routers have a maximum size packet they will route."
-msgstr "Tunnels inside of tunnels. One might be your own; the other, you may not see. Internet service providers often use tunnels either to simplify their topology; to hide it; or to transport things in a more convenient way. However, each tunnel used requires adding a bit of a header to the top of the packet - making the packet bigger. The problem lies in that routers have a maximum size packet they will route."
+msgstr "Tunely uvnitř tunelů. Jeden je možná váš, o druhém snad ani nevíte. Poskytovatelé internetu často používají tunely, buď aby zjednodušili topologii své sítě, aby ji skryli nebo aby přenášeli data výhodnějším způsobem. Každý tunel ale vyžaduje přidat k paketu malou hlavičku, což paket zvětšuje. Problém spočívá v tom, že routery mívají určitou maximální velikost paketů, které jsou schopné směrovat."
 
 #: faq_pmtud.html
 msgid "This is what it looks like when you use 6to4, 6in4, Teredo, and other types of tunnels:"
-msgstr "This is what it looks like when you use 6to4, 6in4, Teredo, and other types of tunnels:"
+msgstr "Takhle to vypadá, když používáte 6to4, 6in4, Teredo nebo jiné typy tunelů:"
 
 #: faq_pmtud.html
 msgid "Your router will automatically add an IPv4 header to the top of your packet. This same router will let your computer know if the packet is going to be too big; your computer will (as long as it gets the ICMPv6 \"Packet Too Big\" message) resend the packet, at a smaller size recommended by your router. A router near the web site, will automatically remove the IPv4 header, and forward the IPv6 peice."
@@ -2434,7 +2434,7 @@ msgstr "It then tries to make a connecting, to the wrong address, with the wrong
 
 #: faq_buggydns1.html
 msgid "This is bad for several reasons:"
-msgstr "This is bad for several reasons:"
+msgstr "To je špatně z několika důvodů:"
 
 #: faq_buggydns1.html
 msgid "You won't be able to connect to IPv6-only sites."
@@ -2522,7 +2522,7 @@ msgstr "Proč prohlížeč dává přednost IPv4 před IPv6 může mít různé 
 
 #: faq_avoids_ipv6.html
 msgid "Google's \"Chrome\" has a \"fast fallback\" mechanism. On the first try to a site, it will prefer IPv6. If connections take longer than a third of a second, IPv4 is attempted in parallel; and the better of the two will be used for that site."
-msgstr "Google's \"Chrome\" has a \"fast fallback\" mechanism. On the first try to a site, it will prefer IPv6. If connections take longer than a third of a second, IPv4 is attempted in parallel; and the better of the two will be used for that site."
+msgstr "Google \"Chrome\" používá tzv. \"fast-fallback\" mechanismus. Při prvním pokusu o přístup ke stránkám dá přednost IPv6. Pokud spojení trvá déle než třetinu sekundy, zkusí současně s tím IPv4. Lepší z nich potom bude pro tento server používat."
 
 #: faq_avoids_ipv6.html
 msgid "(more info)"
@@ -2530,7 +2530,7 @@ msgstr "(více informací)"
 
 #: faq_avoids_ipv6.html
 msgid "Firefox (recent builds) does the same as Chrome."
-msgstr "Firefox (recent builds) does the same as Chrome."
+msgstr "Firefox se v novějších verzích chová stejně jako Chrome."
 
 #: faq_avoids_ipv6.html
 msgid "The latest Windows 7 and Windows 8 updates will periodically test to see if IPv6 works. If the health check fails, then many applications (including Internet Explorer) will use IPv4, to insulate you from any local IPv6 misconfiguration."
@@ -2538,7 +2538,7 @@ msgstr "The latest Windows 7 and Windows 8 updates will periodically test to see
 
 #: faq_avoids_ipv6.html
 msgid "Apple's latest Lion and Mountain Lion updates will prefer whichever is \"faster\" for a given destination."
-msgstr "Apple's latest Lion and Mountain Lion updates will prefer whichever is \"faster\" for a given destination."
+msgstr "Aktuální aktualizace pro Lion a Mountain Lion od Apple upřednostňují ten \"rychlejší\" pro danou adresu."
 
 #: faq_avoids_ipv6.html
 msgid "When you use the Internet, a connection is made between your computer, and the service you're connecting to. To connect, you have to have the other side's IP - Internet Protocol - number. And, when you connect, they see yours, so they can send traffic back to you and your applications."
