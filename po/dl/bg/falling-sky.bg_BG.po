@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-11-05 03:51-0500\n"
+"PO-Revision-Date: 2015-11-05 04:15-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Bulgarian\n"
 "MIME-Version: 1.0\\n"

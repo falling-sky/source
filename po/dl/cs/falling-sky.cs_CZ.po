@@ -1,13 +1,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-11-05 03:51-0500\n"
+"PO-Revision-Date: 2015-11-05 04:15-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Czech\n"
-"MIME-Version: 1.0\\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\\nPlural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: crowdin.com\n"
 "X-Crowdin-Project: falling-sky\n"
 "X-Crowdin-Language: cs\n"
@@ -16,7 +14,7 @@ msgstr ""
 
 #: mirrorconfig.js
 msgid "This mirror is provided by"
-msgstr "This mirror is provided by"
+msgstr "Toto zrcadlo poskytuje"
 
 #: messages.js
 msgid "bad"
@@ -1368,7 +1366,7 @@ msgstr "Shutdown/reboot."
 
 #: faq/broken_disable.inc
 msgid "To disable IPv6 in Windows XP:"
-msgstr "To disable IPv6 in Windows XP:"
+msgstr "Jak vypnout IPv6 ve Windows XP:"
 
 #: faq/broken_disable.inc
 msgid "Taken from:"
@@ -1436,7 +1434,7 @@ msgstr "Obecné unixové instrukce pro dočasné odstranění IPv6 adresy."
 
 #: faq/broken_disable.inc
 msgid "IP_ADDRESS"
-msgstr "IP_ADDRESS"
+msgstr "IP_ADRESA"
 
 #: faq/broken_disable.inc
 msgid "Be aware that if the router re-advertises it, you will relearn the default route."
@@ -2400,7 +2398,7 @@ msgstr "<!-- <p><em>falling-sky</em> is also a reference to <a href=\"http://en.
 
 #: attributions.html
 msgid "This site would not exist without the following components and resources."
-msgstr "This site would not exist without the following components and resources."
+msgstr "Tento web by nemohl existovat bez následujících součástí a zdrojů."
 
 #: faq_buggydns1.html
 msgid "FAQ on \"Buggy DNS\""
