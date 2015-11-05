@@ -153,7 +153,7 @@ test-ipv6.chi.vr.org:
   v6: http://ipv6.test-ipv6.chi.vr.org/images-nc/knob_green.png
   monitor: jfesler@gigo.com
 test-ipv6.lazypaddle.com:
-  hide: 0
+  hide: 1
   loc: US WI
   mirror: 1
   provider: Dale Hartung
@@ -161,7 +161,7 @@ test-ipv6.lazypaddle.com:
   v6: http://ipv6.test-ipv6.lazypaddle.com/images-nc/knob_green.png
   monitor: 'Dale Hartung <dale@dghartung.com>'
 test-ipv6.co.za: 
-  hide: 0
+  hide: 1
   loc: ZA
   mirror: 1
   provider: Multisource Telecoms
@@ -263,7 +263,7 @@ test-ipv6.no:
   v6: http://ipv6.test-ipv6.no/images-nc/knob_green.png
   monitor: 'Brynjar Eide <test-ipv6@availo.no>'
 test-ipv6.ro: 
-  hide: 0
+  hide: 1
   loc: RO
   mirror: 1
   provider: RCS & RDS
