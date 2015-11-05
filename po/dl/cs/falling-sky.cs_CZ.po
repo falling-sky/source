@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-11-05 03:45-0500\n"
+"PO-Revision-Date: 2015-11-05 03:51-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Czech\n"
 "MIME-Version: 1.0\\n"
@@ -185,10 +185,6 @@ msgstr "<b>Dobrá zpráva!</b> Po celosvětovém spuštění IPv6 bude váš pro
 #: messages.js
 msgid "<b>Our tests show that you will have a broken or misconfigured IPv6 setup, and this will cause problems as web sites enable IPv6.</b>"
 msgstr "<b>Naše testy ukazují, že máte rozbitou nebo špatně nastavenou konfiguraci IPv6. Kvůli tomu budete mít problémy se připojit na stránky, které zapnou IPv6.</b> Pokud nejste schopni problém odstranit sami, zvažte vypnutí IPv6 konfigurace nebo požádejte svého poskytovatele připojení o pomoc."
-
-#: messages.js
-msgid "<b>Our tests show that you will may have MTU problems with IPv6; this can cause web sites to load slow (or not at all) when web sites enable IPv6.</b>"
-msgstr "<b>Naše testy ukazují, že možná máte problém s MTU (Maximal Transfer Unit) při používání IPv6. Kvůli tomu se vám stránky, které zapnou IPv6, budou natahovat pomalu (nebo vůbec).</b> Pokud nejste schopni problém odstranit sami, zvažte vypnutí IPv6 konfigurace nebo požádejte svého poskytovatele připojení o pomoc."
 
 #: messages.js
 msgid "<b>Our tests show that you may have MTU problems with IPv6; this can cause web sites to load slow (or not at all) when web sites enable IPv6.</b>"

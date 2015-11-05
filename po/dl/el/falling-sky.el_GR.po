@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-11-05 03:45-0500\n"
+"PO-Revision-Date: 2015-11-05 03:51-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Greek\n"
 "MIME-Version: 1.0\\n"
@@ -185,10 +185,6 @@ msgstr "<b>Καλά νέα!</b> Οι τρέχουσες ρυθμίσεις σα�
 #: messages.js
 msgid "<b>Our tests show that you will have a broken or misconfigured IPv6 setup, and this will cause problems as web sites enable IPv6.</b>"
 msgstr "<b>Οι δοκιμές μας δείχνουν ότι οι IPv6 ρυθμίσεις σας δεν θα ανταποκριθούν και αυτό θα προκαλέσει προβλήματα όταν οι σελίδες προσφερθούν μέσω IPv6.</b>"
-
-#: messages.js
-msgid "<b>Our tests show that you will may have MTU problems with IPv6; this can cause web sites to load slow (or not at all) when web sites enable IPv6.</b>"
-msgstr "<b>Οι δοκιμές μας δείχνουν ότι ίσως να έχετε προβλήματα σχετικά με το MTU στο IPv6. Αυτό μπορεί να προκαλέσει καθυστέρηση (ή και αποτυχία) της φόρτωσης σελίδων όταν οι σελίδες προσφερθούν μέσω IPv6.</b>"
 
 #: messages.js
 msgid "<b>Our tests show that you may have MTU problems with IPv6; this can cause web sites to load slow (or not at all) when web sites enable IPv6.</b>"
