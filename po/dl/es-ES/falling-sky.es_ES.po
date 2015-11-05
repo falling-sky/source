@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-11-03 02:45-0500\n"
+"PO-Revision-Date: 2015-11-04 21:00-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Spanish\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -782,11 +782,12 @@ msgstr "Elige una de las siguientes opciones para cambiar a ese idioma."
 
 #: locale.html
 msgid "Translators and proof readers welcome."
-msgstr "Translators and proof readers welcome."
+msgstr "Se aceptan traductores y correctores de texto, Serán bienvenidos!"
 
 #: locale.html
 msgid "See <a href='https://github.com/falling-sky/source/wiki/LocalizationPlan'>Info</a>; and our <a href='https://crowdin.net/project/falling-sky'>'CrowdIn'</a> project page."
-msgstr "See <a href='https://github.com/falling-sky/source/wiki/LocalizationPlan'>Info</a>; and our <a href='https://crowdin.net/project/falling-sky'>'CrowdIn'</a> project page."
+msgstr "Ver Información en:  <a href='https://github.com/falling-sky/source/wiki/LocalizationPlan'>\n"
+"Y visiten nuestra página del proyecto en Crowdin:  <a href='https://crowdin.net/project/falling-sky'>"
 
 #: faq_helpdesk.html
 msgid "Help Desk Information"
@@ -2258,6 +2259,10 @@ msgstr "El switch ethernet / hub: no. No es consciente del IP; funciona en un ni
 
 #: faq_whyipv6.html
 msgid "Your router: Quite possibly. Many home routers have no upgrade path for IPv6. Do a web search for your router mode, with the keyword \"ipv6\" with it."
+msgstr "Enrutador: posiblemente. Muchos enrutadores caseros no tienen ninguna vía de actualización para IPv6. Haga una búsqueda web para su enrutador, con la palabra clave \"ipv6\" con él."
+
+#: faq_whyipv6.html
+msgid "Your router: Quite possibly. Many home routers have no upgrade path for IPv6. Do a web search for your router model, with the keyword \"ipv6\" with it."
 msgstr "Enrutador: posiblemente. Muchos enrutadores caseros no tienen ninguna vía de actualización para IPv6. Haga una búsqueda web para su enrutador, con la palabra clave \"ipv6\" con él."
 
 #: faq_whyipv6.html

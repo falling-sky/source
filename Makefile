@@ -18,6 +18,12 @@ raw: dist-prep sites  download
 
 download:
 	cd po && ./download.pl
+	
+download-snapshot:	download
+	rsync -av po/. po-snapshot/.
+	
+download-diff:
+	diff -cr po-snapshot/. po/.
 
 sites::
 	cd sites && ./parse-sites-yaml.pl

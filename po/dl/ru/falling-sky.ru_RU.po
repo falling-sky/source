@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-11-03 02:45-0500\n"
+"PO-Revision-Date: 2015-11-04 21:15-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Russian\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -2258,6 +2258,10 @@ msgstr "Свитч/хаб: нет, так как они работают на б
 
 #: faq_whyipv6.html
 msgid "Your router: Quite possibly. Many home routers have no upgrade path for IPv6. Do a web search for your router mode, with the keyword \"ipv6\" with it."
+msgstr "Роутер: скорее всего да. Много домашних роутеров не имеют возможность обновиться до IPv6. Поищите в интернете информацию о поддержке IPv6 вашим роутером."
+
+#: faq_whyipv6.html
+msgid "Your router: Quite possibly. Many home routers have no upgrade path for IPv6. Do a web search for your router model, with the keyword \"ipv6\" with it."
 msgstr "Роутер: скорее всего да. Много домашних роутеров не имеют возможность обновиться до IPv6. Поищите в интернете информацию о поддержке IPv6 вашим роутером."
 
 #: faq_whyipv6.html

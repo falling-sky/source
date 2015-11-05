@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-11-03 10:30-0500\n"
+"PO-Revision-Date: 2015-11-04 21:15-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Portuguese, Brazilian\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -2258,6 +2258,10 @@ msgstr "Seu switch/hub: Não. Ele não tem conhecimento do IP pois trabalha em u
 
 #: faq_whyipv6.html
 msgid "Your router: Quite possibly. Many home routers have no upgrade path for IPv6. Do a web search for your router mode, with the keyword \"ipv6\" with it."
+msgstr "Seu roteador: Possivelmente. Muitos roteadores domésticos não têm uma opção de upgrade para IPv6. Faça uma pesquisa na web para seu modelo de roteador com a palavra chave \"ipv6\"."
+
+#: faq_whyipv6.html
+msgid "Your router: Quite possibly. Many home routers have no upgrade path for IPv6. Do a web search for your router model, with the keyword \"ipv6\" with it."
 msgstr "Seu roteador: Possivelmente. Muitos roteadores domésticos não têm uma opção de upgrade para IPv6. Faça uma pesquisa na web para seu modelo de roteador com a palavra chave \"ipv6\"."
 
 #: faq_whyipv6.html

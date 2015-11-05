@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-11-03 15:30-0500\n"
+"PO-Revision-Date: 2015-11-04 21:00-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Czech\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -470,7 +470,7 @@ msgstr "Používáte NoScript?"
 
 #: js_required.inc
 msgid "If you use this Firefox add-on, you'll need to \"Temporarily allow all this page\". You will need to do this <b>twice</b> for everything to work. Alternately, disable NoScript entirely until you are done with this site."
-msgstr "If you use this Firefox add-on, you'll need to \"Temporarily allow all this page\". You will need to do this <b>twice</b> for everything to work. Alternately, disable NoScript entirely until you are done with this site."
+msgstr "Pokud používáte Firefox s tímto doplňkem, budete muset <b>dvakrát</b> provést \"Temporarily allow all this page\", aby všechno fungovalo. Nebo můžete během používání těchto stránek vypnout NoScript úplně."
 
 #: js_required.inc
 msgid "You can opt instead to view the <a href=\"simple_test.html\">simple test</a>, which will give you a quick pass/fail for IPv4, IPv4+IPv6, and IPv6. It will however offer little diagnostic information."
@@ -558,11 +558,11 @@ msgstr "Test zda DNS server vašeho ISP používá IPv6"
 
 #: main/tests.inc
 msgid "Find IPv4 Service Provider"
-msgstr "Find IPv4 Service Provider"
+msgstr "Zjistit poskytovatele IPv4 připojení"
 
 #: main/tests.inc
 msgid "Find IPv6 Service Provider"
-msgstr "Find IPv6 Service Provider"
+msgstr "Zjistit poskytovatele IPv6 připojení"
 
 #: main/tests.inc
 msgid "Test for buggy DNS"
@@ -614,11 +614,11 @@ msgstr "Toto je test DNS resolveru vašeho poskytovatele (nejde o test vašeho p
 
 #: main/tech.inc
 msgid "Attempts to identify what Internet Service Provider you use for IPv4. This may be different from the marketing name you see in your local market; or may reflect a previous company name. The name shown reflects how it is known in the network operator community."
-msgstr "Attempts to identify what Internet Service Provider you use for IPv4. This may be different from the marketing name you see in your local market; or may reflect a previous company name. The name shown reflects how it is known in the network operator community."
+msgstr "Pokouší se určit, jakého používáte poskytovatele IPv4 připojení k Internetu. Výsledek se může lišit od obchodní značky používané na vašem lokálním trhu, případně může odrážet předchozí jméno firmy. Zobrazené jméno je to, pod kterým je známý v komunitě provozovatelů sítí."
 
 #: main/tech.inc
 msgid "Attempts to identify what Internet Service Provider you use for IPv6. When the IPv4 name and the IPv6 name don't match, it may suggest that you're using a tunnel; or some form of third party provider for IPv6."
-msgstr "Attempts to identify what Internet Service Provider you use for IPv6. When the IPv4 name and the IPv6 name don't match, it may suggest that you're using a tunnel; or some form of third party provider for IPv6."
+msgstr "Pokouší se určit, jakého používáte poskytovatele IPv6 připojení k Internetu. Pokud se jména pro IPv4 a IPv6 liší, možná používáte tunel nebo nějaký druh poskytovatele třetí strany pro IPv6."
 
 #: main/tech.inc
 msgid "Queries for a malformed AAAA record. Some routers mishandle these as \"A\" records, and only keep the first 32 bits. We want this test to fail to connect."
@@ -642,11 +642,11 @@ msgstr "Formulář Vám umožní vložit komentář nebo se na něco zeptat. Aut
 
 #: main/mail.inc
 msgid "This includes your IP address, which is shared with the site administrator in order to answer your questions."
-msgstr "This includes your IP address, which is shared with the site administrator in order to answer your questions."
+msgstr "To zahrnuje vaši IP adresu, kterou potřebuje provozovatel serveru znát, aby mohl vaše dotazy zodpovědět."
 
 #: main/mail.inc
 msgid "Use of this form implies consent."
-msgstr "Use of this form implies consent."
+msgstr "Použití tohoto formuláře předpokládá souhlas."
 
 #: main/mail.inc
 msgid "<span id=\"comments_faq_link\"></span> (FAQ) page is available for <b>your</b> exact set of results. Please read it before leaving comments; many questions have already been answered. If you still have questions, comments, or concerns, feel freel to use this form."
@@ -782,11 +782,11 @@ msgstr "Vyberte jeden z následujících pro přepnutí na daný jazyk."
 
 #: locale.html
 msgid "Translators and proof readers welcome."
-msgstr "Translators and proof readers welcome."
+msgstr "Překladatelé a korektoři pravopisu jsou vítáni."
 
 #: locale.html
 msgid "See <a href='https://github.com/falling-sky/source/wiki/LocalizationPlan'>Info</a>; and our <a href='https://crowdin.net/project/falling-sky'>'CrowdIn'</a> project page."
-msgstr "See <a href='https://github.com/falling-sky/source/wiki/LocalizationPlan'>Info</a>; and our <a href='https://crowdin.net/project/falling-sky'>'CrowdIn'</a> project page."
+msgstr "Viz <a href='https://github.com/falling-sky/source/wiki/LocalizationPlan'>informace</a> a stránky našeho projektu na <a href='https://crowdin.net/project/falling-sky'>serveru 'CrowdIn'</a>."
 
 #: faq_helpdesk.html
 msgid "Help Desk Information"
@@ -962,7 +962,7 @@ msgstr "Opera: Make sure you use at least 11.10."
 
 #: broken.html
 msgid "Finding your IP address"
-msgstr "Finding your IP address"
+msgstr "Zjištění vaší IP adresy"
 
 #: faq/find_ip.inc
 msgid "Identify your IPv6 address, and your default router (if you have one)."
@@ -1462,19 +1462,19 @@ msgstr "test-ipv6.com FAQ"
 
 #: faq.html
 msgid "Q: How does this test work?"
-msgstr "Q: How does this test work?"
+msgstr "Otázka: jak tento test funguje?"
 
 #: faq.html
 msgid "The test is entirely client-side javascript. To determine reachability, a series of ajax requests are made from the web server, using various DNS names that force the use of IPv6 only, or dual stack, or other such scenarios. The pass/fail of such fetches, as well as how long they take, are taken into account."
-msgstr "The test is entirely client-side javascript. To determine reachability, a series of ajax requests are made from the web server, using various DNS names that force the use of IPv6 only, or dual stack, or other such scenarios. The pass/fail of such fetches, as well as how long they take, are taken into account."
+msgstr "Test je kompletně implementovaný v javascriptu spouštěném na straně uživatele. Pro určení dostupnosti se vykoná řada Ajax dotazů na server s použitím různých DNS jmen, která vynutí použití IPv6, dual-stacku, nebo jiné scénáře. V potaz se bere nejen úspěch či selhání těchto dotazů, ale i jak dlouho trvaly."
 
 #: faq.html
 msgid "Q: Why is this web site reachable via IPv4 only?"
-msgstr "Q: Why is this web site reachable via IPv4 only?"
+msgstr "Otázka: Proč jsou tyto stránky dostupné pouze po IPv4?"
 
 #: faq.html
 msgid "You're right, there are no AAAA records, intentionally. A percentage of users are unable to browse sites that are dual-stack. If the users can't connect, then they can't be told they have a problem. This is a big problem facing content providers today; of which, I work at one for my &#36;dayjob. As such, the main test page requires IPv4 (either native or translated)."
-msgstr "You're right, there are no AAAA records, intentionally. A percentage of users are unable to browse sites that are dual-stack. If the users can't connect, then they can't be told they have a problem. This is a big problem facing content providers today; of which, I work at one for my &#36;dayjob. As such, the main test page requires IPv4 (either native or translated)."
+msgstr "Máte pravdu, tyto stránky nemají AAAA záznam, a to zcela záměrně. Určité procento uživatelů nedokáže prohlížet stránky na dual-stack serverech. Pokud se uživatelé nemůžou připojit, není ani možné jim říct, v čem je chyba. To je zásadní problém, se kterým se dnes poskytovatelé obsahu potýkají; pro jednoho z nich ostatně pracuji. Z těchto důvodů hlavní stránka vyžaduje IPv4 (ať už nativní nebo překládané)."
 
 #: faq.html
 msgid "At some point, when the percentage of \"broken\" users has gone significantly down, I'll consider making test-ipv6.com dual-stack. At least check, May 2013, we still see 0.5% broken visiting test-ipv6.com. And we still want them to understand their situation."
@@ -2158,43 +2158,43 @@ msgstr "As Internet service providers each run out of the space they have been a
 
 #: faq_whyipv6.html
 msgid "Q: I heard there are millions of addresses left. Take it back from the companies not using it! Use the Class E space! (etc)."
-msgstr "Q: I heard there are millions of addresses left. Take it back from the companies not using it! Use the Class E space! (etc)."
+msgstr "Otázka: slyšel jsem, že zbývají ještě milióny adres. Odejměte je firmám, které je nevyužívají! Využijte adresy třídy E! (atd)."
 
 #: faq_whyipv6.html
 msgid "Those have been looked at. The space is relatively small, given the rate that the world is consuming it now. Forcefully taking back space would require more time in the court systems than it would buy back. Other currently reserved space is too difficult to use - it would require replacing most of the routers in the world to do so."
-msgstr "Those have been looked at. The space is relatively small, given the rate that the world is consuming it now. Forcefully taking back space would require more time in the court systems than it would buy back. Other currently reserved space is too difficult to use - it would require replacing most of the routers in the world to do so."
+msgstr "Tato možnost se zkoumala. Těchto adres je relativně málo vzhledem k rychlosti, s jakou svět nyní adresy spotřebovává. Soudní systém by na jejich nucené odejmutí spotřeboval víc času, než bychom ho získali zpět. Ostatní nyní rezervované adresy je obtížné použít - bylo by kvůli tomu třeba vyměnit většinu směrovačů na světě."
 
 #: faq_whyipv6.html
 msgid "Q: What creative ways will ISPs keep IPv4 running?"
-msgstr "Q: What creative ways will ISPs keep IPv4 running?"
+msgstr "Otázka: jakými vychytralými způsoby udržují ISP v chodu IPv4?"
 
 #: faq_whyipv6.html
 msgid "Most commonly, some form of NAT. NAT is a form of address sharing; think of it as a party line from the earlier days of the telephone. You'll be able to make outgoing connections easy enough, as long as your shared IP address is not too busy."
-msgstr "Most commonly, some form of NAT. NAT is a form of address sharing; think of it as a party line from the earlier days of the telephone. You'll be able to make outgoing connections easy enough, as long as your shared IP address is not too busy."
+msgstr "Většinou nějakou formou NATu. NAT je způsob sdílení adres; představte si to jako skupinové přípojky z dřevních dob telefonování. Navazovat nová spojení můžete snadno, tedy alespoň dokud vaše sdílená IP adresa nebude příliš využitá."
 
 #: faq_whyipv6.html
 msgid "Note this is in addition to any NAT you do at home."
-msgstr "Note this is in addition to any NAT you do at home."
+msgstr "Uvědomte si, že tohle je navíc k tomu NATu, co máte doma."
 
 #: faq_whyipv6.html
 msgid "Q: So, why worry? NAT will work, right? I use NAT at home today after all.."
-msgstr "Q: So, why worry? NAT will work, right? I use NAT at home today after all.."
+msgstr "Otázka: Tak proč se bát? NAT bude fungovat, ne? Už teď ho ostatně používám doma.."
 
 #: faq_whyipv6.html
 msgid "Sort of. Basic web browsing should be OK for most sites. Some map sites, the itunes store, and other sites that use a <em>huge</em> number of connections to rapidly load the page, may start showing blank images, depending on how many people share that public IP address."
-msgstr "Sort of. Basic web browsing should be OK for most sites. Some map sites, the itunes store, and other sites that use a <em>huge</em> number of connections to rapidly load the page, may start showing blank images, depending on how many people share that public IP address."
+msgstr "Dejme tomu. Obyčejné prohlížení webu by mělo na většině stránek fungovat. Avšak některé servery s mapami, itunes a další weby navazující kvůli nahrání stránek <em>velké</em> množství spojení, můžou začít ukazovat prázdné obrázky, v závislosti na počtu uživatelů sdílejících tu veřejnou adresu."
 
 #: faq_whyipv6.html
 msgid "Mail will still work, both traditional as well as web based."
-msgstr "Mail will still work, both traditional as well as web based."
+msgstr "Email bude i nadále fungovat, ať už tradiční nebo přes webmail."
 
 #: faq_whyipv6.html
 msgid "Q: What will break when ISPs NAT their customers?"
-msgstr "Q: What will break when ISPs NAT their customers?"
+msgstr "Otázka: Co se rozbije, když ISP dají své zákazníky za NAT?"
 
 #: faq_whyipv6.html
 msgid "When web sites have to block abusers, they often block the IP address the abuse came from. If you are sharing your IP address with 1000 other broadband customers, if *any* of them trigger a block, you will be blocked too. Your ISP is not likely to be able to assist in fixing this."
-msgstr "When web sites have to block abusers, they often block the IP address the abuse came from. If you are sharing your IP address with 1000 other broadband customers, if *any* of them trigger a block, you will be blocked too. Your ISP is not likely to be able to assist in fixing this."
+msgstr "Když weby potřebují zablokovat přístup obtěžujícím uživatelům, často zablokují IP adresu ze které uživatel přistupuje. Pokud sdílíte IP adresu s tisícem dalších uživatelů, stačí aby *kterýkoli* z nich způsobil zablokování a budete zablokován také. A ISP nejspíš nebude schopen vám pomoct to vyřešit."
 
 #: faq_whyipv6.html
 msgid "Running servers at home will break, unless you arrange to pay for a static IP address. Assuming the ISP is able to offer this at all, we expect the price for this to go up over the coming years. Some ISPs may be able to offer you a port forward on a static IP on an odd port number - but not the whole IP address"
@@ -2258,6 +2258,10 @@ msgstr "Váš eternetový přepínač (switch) / opakovač (hub): Ne. Pracují n
 
 #: faq_whyipv6.html
 msgid "Your router: Quite possibly. Many home routers have no upgrade path for IPv6. Do a web search for your router mode, with the keyword \"ipv6\" with it."
+msgstr "Váš směrovač (router): Dost možná. Pro mnoho domácích routerů žádná podpora IPv6 neexistuje. Zkuste hledat na webu model vašeho routeru s klíčovým slovem IPv6."
+
+#: faq_whyipv6.html
+msgid "Your router: Quite possibly. Many home routers have no upgrade path for IPv6. Do a web search for your router model, with the keyword \"ipv6\" with it."
 msgstr "Váš směrovač (router): Dost možná. Pro mnoho domácích routerů žádná podpora IPv6 neexistuje. Zkuste hledat na webu model vašeho routeru s klíčovým slovem IPv6."
 
 #: faq_whyipv6.html

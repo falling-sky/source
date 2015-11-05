@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-11-03 08:45-0500\n"
+"PO-Revision-Date: 2015-11-04 21:15-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: German\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -2259,6 +2259,10 @@ msgstr "Ihre Ethernet-Switch / Hub: Nein. Er versteht nichts von IP; er funktion
 
 #: faq_whyipv6.html
 msgid "Your router: Quite possibly. Many home routers have no upgrade path for IPv6. Do a web search for your router mode, with the keyword \"ipv6\" with it."
+msgstr "Ihr Router: Sehr wahrscheinlich. Viele Router für den Hausgebrauch haben keine Möglichkeit \"IPv6\" Unerstützung nachträglich hinzuzufügen. Suchen mit im Internet nach Ihrem Router zusammen mit dem Schlüsselwort \"IPv6\"."
+
+#: faq_whyipv6.html
+msgid "Your router: Quite possibly. Many home routers have no upgrade path for IPv6. Do a web search for your router model, with the keyword \"ipv6\" with it."
 msgstr "Ihr Router: Sehr wahrscheinlich. Viele Router für den Hausgebrauch haben keine Möglichkeit \"IPv6\" Unerstützung nachträglich hinzuzufügen. Suchen mit im Internet nach Ihrem Router zusammen mit dem Schlüsselwort \"IPv6\"."
 
 #: faq_whyipv6.html
