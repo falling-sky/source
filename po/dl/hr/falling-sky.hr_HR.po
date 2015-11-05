@@ -1,11 +1,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-11-04 21:00-0500\n"
+"PO-Revision-Date: 2015-11-05 03:45-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Croatian\n"
-"MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: crowdin.com\n"
 "X-Crowdin-Project: falling-sky\n"
 "X-Crowdin-Language: hr\n"
@@ -186,6 +188,10 @@ msgstr "<b>Provjere ukazuju na neispravnu IPv6 konfiguraciju i to će uzrokovati
 
 #: messages.js
 msgid "<b>Our tests show that you will may have MTU problems with IPv6; this can cause web sites to load slow (or not at all) when web sites enable IPv6.</b>"
+msgstr "<b>Provjere ukazuju na MTU probleme kod IPv6 pristupa što može uzrokovati da se web stranice učitavaju sporo (ili se uopće ne učitaju) kad se na njima aktivira IPv6.</b>"
+
+#: messages.js
+msgid "<b>Our tests show that you may have MTU problems with IPv6; this can cause web sites to load slow (or not at all) when web sites enable IPv6.</b>"
 msgstr "<b>Provjere ukazuju na MTU probleme kod IPv6 pristupa što može uzrokovati da se web stranice učitavaju sporo (ili se uopće ne učitaju) kad se na njima aktivira IPv6.</b>"
 
 #: messages.js

@@ -1,12 +1,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-11-04 21:00-0500\n"
+"PO-Revision-Date: 2015-11-05 03:47-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Turkish\n"
-"MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
-"\n"
+"MIME-Version: 1.0\\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n\n"
 "X-Generator: crowdin.com\n"
 "X-Crowdin-Project: falling-sky\n"
 "X-Crowdin-Language: tr\n"
@@ -187,6 +188,10 @@ msgstr "<b>Testlerimiz IPv6 kurulumunuzun bozuk veya yanlış yapılandırılmı
 
 #: messages.js
 msgid "<b>Our tests show that you will may have MTU problems with IPv6; this can cause web sites to load slow (or not at all) when web sites enable IPv6.</b>"
+msgstr "<b>Testimiz IPv6 ile MTU sorunları yaşama ihtimaliniz olduğunu gösteriyor; bu IPv6 etkinleştirildiğinde internet sitelerinin yavaş yüklenmesine (veya hiç yüklenmemesine) sebep olabilir.</b>"
+
+#: messages.js
+msgid "<b>Our tests show that you may have MTU problems with IPv6; this can cause web sites to load slow (or not at all) when web sites enable IPv6.</b>"
 msgstr "<b>Testimiz IPv6 ile MTU sorunları yaşama ihtimaliniz olduğunu gösteriyor; bu IPv6 etkinleştirildiğinde internet sitelerinin yavaş yüklenmesine (veya hiç yüklenmemesine) sebep olabilir.</b>"
 
 #: messages.js

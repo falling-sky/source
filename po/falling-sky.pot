@@ -174,7 +174,7 @@ msgid "<b>Our tests show that you will have a broken or misconfigured IPv6 setup
 msgstr ""
 
 #: messages.js
-msgid "<b>Our tests show that you will may have MTU problems with IPv6; this can cause web sites to load slow (or not at all) when web sites enable IPv6.</b>"
+msgid "<b>Our tests show that you may have MTU problems with IPv6; this can cause web sites to load slow (or not at all) when web sites enable IPv6.</b>"
 msgstr ""
 
 #: messages.js
