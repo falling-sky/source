@@ -439,7 +439,7 @@ www.mozilla.org:
   v4: http://ipv4.mozilla.org/firefox.png
   v6: http://ipv6.mozilla.org/World_IPv6_launch_logo_128.png
 www.rcs-rds.ro: 
-  hide: 0
+  hide: 1
   loc: RO
   provider: RCS & RDS
   v4: http://ipv4.rcs-rds.ro/1x1.gif
