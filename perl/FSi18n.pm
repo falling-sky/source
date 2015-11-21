@@ -61,7 +61,7 @@ sub translated {
         my $msgctxt = $po->dequote( $po->msgctxt );
         my $msgstr = $po->dequote($po->msgstr);
         $total++;
-        $changed++ if ($msgid ne $msgstr);
+        $changed++ if (($msgid ne $msgstr) && ('' ne $msgstr));
     }
     $total++ unless ($total);
     my $percent = sprintf("%.1f",$changed * 100 / $total);
