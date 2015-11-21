@@ -153,7 +153,7 @@ test-ipv6.chi.vr.org:
   v6: http://ipv6.test-ipv6.chi.vr.org/images-nc/knob_green.png
   monitor: jfesler@gigo.com
 test-ipv6.lazypaddle.com:
-  hide: 1
+  hide: 0
   loc: US WI
   mirror: 1
   provider: Dale Hartung
@@ -161,7 +161,7 @@ test-ipv6.lazypaddle.com:
   v6: http://ipv6.test-ipv6.lazypaddle.com/images-nc/knob_green.png
   monitor: 'Dale Hartung <dale@dghartung.com>'
 test-ipv6.co.za: 
-  hide: 1
+  hide: 0
   loc: ZA
   mirror: 1
   provider: Multisource Telecoms
@@ -520,3 +520,9 @@ www.rascom.ru:
   provider: RASCOM
   v4: http://wood.rascom.ru/ipv4.jpg
   v6: http://wood6.rascom.ru/logo2.png
+test-ipv6.ernet.in:
+  loc: IN
+  provider: IPv6 Division of ERNET India
+  v4: http://ipv4.test-ipv6.ernet.in/images-nc/knob_green.png
+  v6: http://ipv6.test-ipv6.ernet.in/images-nc/knob_green.png
+  monitor: 'Praveen Misra <praveen@ipv6.ernet.in>'

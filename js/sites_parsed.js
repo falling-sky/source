@@ -252,6 +252,14 @@ GIGO.sites_parsed={
       "v4" : "http://ipv4.test-ipv6.cz/images-nc/knob_green.png",
       "v6" : "http://ipv6.test-ipv6.cz/images-nc/knob_green.png"
    },
+   "test-ipv6.ernet.in" : {
+      "loc" : "IN",
+      "monitor" : "Praveen Misra <praveen@ipv6.ernet.in>",
+      "provider" : "IPv6 Division of ERNET India",
+      "site" : "test-ipv6.ernet.in",
+      "v4" : "http://ipv4.test-ipv6.ernet.in/images-nc/knob_green.png",
+      "v6" : "http://ipv6.test-ipv6.ernet.in/images-nc/knob_green.png"
+   },
    "test-ipv6.fratec.net" : {
       "hide" : "0",
       "loc" : "CR",
@@ -359,16 +367,6 @@ GIGO.sites_parsed={
       "site" : "test-ipv6.polkam.go.id",
       "v4" : "http://ipv4.test-ipv6.polkam.go.id/images-nc/knob_green.png",
       "v6" : "http://ipv6.test-ipv6.polkam.go.id/images-nc/knob_green.png"
-   },
-   "test-ipv6.ro" : {
-      "hide" : "0",
-      "loc" : "RO",
-      "mirror" : "1",
-      "monitor" : "Liviu Pislaru <liviu.pislaru@rcs-rds.ro>",
-      "provider" : "RCS & RDS",
-      "site" : "test-ipv6.ro",
-      "v4" : "http://ipv4.test-ipv6.ro/images-nc/knob_green.png",
-      "v6" : "http://ipv6.test-ipv6.ro/images-nc/knob_green.png"
    },
    "test-ipv6.roedu.net" : {
       "hide" : "0",
