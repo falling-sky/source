@@ -254,6 +254,7 @@
    },
    "test-ipv6.ernet.in" : {
       "loc" : "IN",
+      "mirror" : "1",
       "monitor" : "Praveen Misra <praveen@ipv6.ernet.in>",
       "provider" : "IPv6 Division of ERNET India",
       "site" : "test-ipv6.ernet.in",
@@ -507,15 +508,6 @@
       "site" : "www.rascom.ru",
       "v4" : "http://wood.rascom.ru/ipv4.jpg",
       "v6" : "http://wood6.rascom.ru/logo2.png"
-   },
-   "www.rcs-rds.ro" : {
-      "hide" : "0",
-      "loc" : "RO",
-      "monitor" : "Liviu Pislaru <liviu.pislaru@rcs-rds.ro>",
-      "provider" : "RCS & RDS",
-      "site" : "www.rcs-rds.ro",
-      "v4" : "http://ipv4.rcs-rds.ro/1x1.gif",
-      "v6" : "http://ipv6.rcs-rds.ro/1x1.gif"
    },
    "www.steffann.nl" : {
       "hide" : "0",

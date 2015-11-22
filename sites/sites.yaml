@@ -263,7 +263,7 @@ test-ipv6.no:
   v6: http://ipv6.test-ipv6.no/images-nc/knob_green.png
   monitor: 'Brynjar Eide <test-ipv6@availo.no>'
 test-ipv6.ro: 
-  hide: 1
+  hide: 0
   loc: RO
   mirror: 1
   provider: RCS & RDS
@@ -439,7 +439,7 @@ www.mozilla.org:
   v4: http://ipv4.mozilla.org/firefox.png
   v6: http://ipv6.mozilla.org/World_IPv6_launch_logo_128.png
 www.rcs-rds.ro: 
-  hide: 1
+  hide: 0
   loc: RO
   provider: RCS & RDS
   v4: http://ipv4.rcs-rds.ro/1x1.gif
@@ -522,6 +522,7 @@ www.rascom.ru:
   v6: http://wood6.rascom.ru/logo2.png
 test-ipv6.ernet.in:
   loc: IN
+  mirror: 1
   provider: IPv6 Division of ERNET India
   v4: http://ipv4.test-ipv6.ernet.in/images-nc/knob_green.png
   v6: http://ipv6.test-ipv6.ernet.in/images-nc/knob_green.png
