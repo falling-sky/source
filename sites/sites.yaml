@@ -527,3 +527,10 @@ test-ipv6.ernet.in:
   v4: http://ipv4.test-ipv6.ernet.in/images-nc/knob_green.png
   v6: http://ipv6.test-ipv6.ernet.in/images-nc/knob_green.png
   monitor: 'Praveen Misra <praveen@ipv6.ernet.in>'
+www.duiadns.net:
+  loc: NL
+  mirror: 0
+  provider: Duiadns
+  v4: http://ipv4.duiadns.net/1x1.gif
+  v6: http://ipv6.duiadns.net/1x1.gif
+  monitor: 'Liviu Pislaru <liviu.pislaru@duiadns.net>'

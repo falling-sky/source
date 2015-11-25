@@ -369,6 +369,16 @@
       "v4" : "http://ipv4.test-ipv6.polkam.go.id/images-nc/knob_green.png",
       "v6" : "http://ipv6.test-ipv6.polkam.go.id/images-nc/knob_green.png"
    },
+   "test-ipv6.ro" : {
+      "hide" : "0",
+      "loc" : "RO",
+      "mirror" : "1",
+      "monitor" : "Liviu Pislaru <liviu.pislaru@rcs-rds.ro>",
+      "provider" : "RCS & RDS",
+      "site" : "test-ipv6.ro",
+      "v4" : "http://ipv4.test-ipv6.ro/images-nc/knob_green.png",
+      "v6" : "http://ipv6.test-ipv6.ro/images-nc/knob_green.png"
+   },
    "test-ipv6.roedu.net" : {
       "hide" : "0",
       "loc" : "RO",
@@ -476,6 +486,15 @@
       "v4" : "http://ipv4only.ctbc.net.br/ctbc/pixel.gif",
       "v6" : "http://ipv6only.ctbc.net.br/ctbc/pixel.gif"
    },
+   "www.duiadns.net" : {
+      "loc" : "NL",
+      "mirror" : "0",
+      "monitor" : "Liviu Pislaru <liviu.pislaru@duiadns.net>",
+      "provider" : "Duiadns",
+      "site" : "www.duiadns.net",
+      "v4" : "http://ipv4.duiadns.net/1x1.gif",
+      "v6" : "http://ipv6.duiadns.net/1x1.gif"
+   },
    "www.excathedra.co" : {
       "hide" : "0",
       "loc" : "UK",
@@ -508,6 +527,15 @@
       "site" : "www.rascom.ru",
       "v4" : "http://wood.rascom.ru/ipv4.jpg",
       "v6" : "http://wood6.rascom.ru/logo2.png"
+   },
+   "www.rcs-rds.ro" : {
+      "hide" : "0",
+      "loc" : "RO",
+      "monitor" : "Liviu Pislaru <liviu.pislaru@rcs-rds.ro>",
+      "provider" : "RCS & RDS",
+      "site" : "www.rcs-rds.ro",
+      "v4" : "http://ipv4.rcs-rds.ro/1x1.gif",
+      "v6" : "http://ipv6.rcs-rds.ro/1x1.gif"
    },
    "www.steffann.nl" : {
       "hide" : "0",
