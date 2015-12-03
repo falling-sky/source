@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-11-21 05:30-0500\n"
+"PO-Revision-Date: 2015-12-03 04:30-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -14,7 +14,7 @@ msgstr ""
 
 #: mirrorconfig.js
 msgid "This mirror is provided by"
-msgstr ""
+msgstr "このミラーの提供者："
 
 #: messages.js
 msgid "bad"
@@ -22,7 +22,7 @@ msgstr "問題あり"
 
 #: messages.js
 msgid "ok"
-msgstr ""
+msgstr "OK"
 
 #: messages.js
 msgid "slow"
@@ -66,7 +66,7 @@ msgstr "危険! IPv6 は部分的に動作します - しかしながら、大�
 
 #: messages.js
 msgid "Check your firewall to make sure that ICMPv6 messages are allowed (in particular, Type 2 or Packet Too Big)."
-msgstr ""
+msgstr "ICMPv6メッセージ（特にタイプ2 パケットサイズが大きすぎます）をファイアウォールで許可しているか確認してください。"
 
 #: messages.js
 msgid "Test results inconclusive; they were not consistent with expectations. Please rerun the test, and if the results are the same, please fill out the contact form."
@@ -130,7 +130,7 @@ msgstr "よくある原因は NoScript もしくは AdBlock+ です。NoScript �
 
 #: messages.js
 msgid "NAT64 detected. IPv6 works. IPv4 works for most purposes. Applications that are hard-coded for IPv4-only will fail. We are aware of at least one major voice-over-ip program that falls into this category. Your application's support staff may need a nudge to add proper IPv6 support."
-msgstr ""
+msgstr "NAT64を検出しました。IPv6は動作可能です。IPv4もほとんどの場合動作します。IPv4のみをハードコードしているアプリケーションは動作に失敗することがあります。特に、ある有名なVoIP（IP電話）アプリケーションがこの部類に当てはまることを確認しています。あなたの使っているアプリケーションの開発者も、適切なIPv6サポートを追加していく必要があります。"
 
 #: messages.js
 msgid "Your DNS server (possibly run by your ISP) appears to have IPv6 Internet access."
@@ -186,7 +186,7 @@ msgstr "<b>テスト結果によると、壊れた、もしくは正しくない
 
 #: messages.js
 msgid "<b>Our tests show that you may have MTU problems with IPv6; this can cause web sites to load slow (or not at all) when web sites enable IPv6.</b>"
-msgstr "<b>テスト結果によると、IPv6 で MTU 問題があるようです; このため、WebサイトがIPv6対応した際、Webサイトの読み込みが遅くなる(もしくは全く読み込めない)原因となる可能性があります。</b>"
+msgstr "<b>IPv6 で MTU 設定に問題があるようです。このため、WebサイトがIPv6対応した際、Webサイトの読み込みが遅くなるか、全く読み込めない可能性があります。</b>"
 
 #: messages.js
 msgid "We looked up an IPv6 address, but your DNS server (possibly your home router) mangled the response, and is treating it as (broken) IPv4."
