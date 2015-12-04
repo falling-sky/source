@@ -433,11 +433,12 @@ www.heise.de:
   v6: http://www.six.heise.de/icons/ho/heise.gif
   monitor: "Johannes Endres, c't <je@heise.de>"
 www.mozilla.org: 
-  hide: 0
+  hide: 1
   loc: US (AZ)
   provider: Mozilla Foundation
   v4: http://ipv4.mozilla.org/firefox.png
   v6: http://ipv6.mozilla.org/World_IPv6_launch_logo_128.png
+  reason: https://bugzilla.mozilla.org/show_bug.cgi?id=1229837
 www.rcs-rds.ro: 
   hide: 0
   loc: RO
