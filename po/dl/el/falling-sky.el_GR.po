@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-12-02 12:45-0500\n"
+"PO-Revision-Date: 2015-12-06 02:45-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Greek\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -18,7 +18,7 @@ msgstr "Αυτός ο καθρέφτης παρέχεται από"
 
 #: messages.js
 msgid "bad"
-msgstr ""
+msgstr "Κακό"
 
 #: messages.js
 msgid "ok"
@@ -62,7 +62,7 @@ msgstr "Η IPv6 σύνδεσή σας φαίνεται να χρησιμοποι
 
 #: messages.js
 msgid "Danger! IPv6 sorta works - however, large packets appear to fail, giving the appearance of a broken website. If a publisher publishes to IPv6, you will believe their web site to be broken. Ask your ISP about MTU issues; possibly with your tunnel."
-msgstr ""
+msgstr "Κίνδυνος! Η IPv6 λειτουργεί sorta - ωστόσο, τα μεγάλα πακέτα φαίνεται να απορρίπτονται, δίνοντας την εντύπωση μιας χαλασμένης ιστοσελίδας. Αν ένας εκδότης, εκδίδει σε IPv6, θα σας δίνει την εντύπωση πως η ιστοσελίδα του είναι χαλασμένη. Ρωτήστε τον πάροχο σας σχετικά με προβλήματα MTU, πιθανότατα με το δικό σας tunel."
 
 #: messages.js
 msgid "Check your firewall to make sure that ICMPv6 messages are allowed (in particular, Type 2 or Packet Too Big)."
