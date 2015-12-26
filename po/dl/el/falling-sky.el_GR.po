@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-12-06 02:45-0500\n"
+"PO-Revision-Date: 2015-12-24 10:15-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Greek\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -70,7 +70,7 @@ msgstr "Ελέγξτε το firewall σας και βεβαιωθείτε ότι
 
 #: messages.js
 msgid "Test results inconclusive; they were not consistent with expectations. Please rerun the test, and if the results are the same, please fill out the contact form."
-msgstr ""
+msgstr "Τα αποτελέσματα των δοκιμών δεν έχουν αποδειχτεί επαρκή, σύμφωνα με τις προσδοκίες. Κάντε ξανά την δοκιμή, και αν τα αποτελέσματα είναι τα ίδια, παρακαλώ συμπληρώστε την φόρμα επικοινωνίας."
 
 #: messages.js
 msgid "For unknown reasons, your browser appears to operate slower when given the option of connecting to both IPv4 and IPv6. Please rerun the test, and if the results are the same, please fill out the contact form."
