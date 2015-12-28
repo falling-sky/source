@@ -131,6 +131,7 @@
       "monitor" : "Comcast IPv6 Team <comcast-ipv6@cable.comcast.com>",
       "provider" : "Comcast",
       "site" : "test-ipv6-ct.comcast.net",
+      "transparent" : "1",
       "v4" : "http://ipv4.test-ipv6-ct.comcast.net/images-nc/knob_green.png",
       "v6" : "http://ipv6.test-ipv6-ct.comcast.net/images-nc/knob_green.png"
    },
@@ -141,6 +142,7 @@
       "monitor" : "Comcast IPv6 Team <comcast-ipv6@cable.comcast.com>",
       "provider" : "Comcast",
       "site" : "test-ipv6-pa.comcast.net",
+      "transparent" : "1",
       "v4" : "http://ipv4.test-ipv6-pa.comcast.net/images-nc/knob_green.png",
       "v6" : "http://ipv6.test-ipv6-pa.comcast.net/images-nc/knob_green.png"
    },
@@ -512,14 +514,6 @@
       "site" : "www.heise.de",
       "v4" : "http://www.four.heise.de/icons/ho/heise.gif",
       "v6" : "http://www.six.heise.de/icons/ho/heise.gif"
-   },
-   "www.mozilla.org" : {
-      "hide" : "0",
-      "loc" : "US (AZ)",
-      "provider" : "Mozilla Foundation",
-      "site" : "www.mozilla.org",
-      "v4" : "http://ipv4.mozilla.org/firefox.png",
-      "v6" : "http://ipv6.mozilla.org/World_IPv6_launch_logo_128.png"
    },
    "www.rascom.ru" : {
       "loc" : "RU",

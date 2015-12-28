@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-12-27 19:48-0500\n"
+"PO-Revision-Date: 2015-12-27 20:15-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Swedish\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -474,7 +474,7 @@ msgstr "Om du använder det här Firefox-tillägget behöver du \"Temporärt til
 
 #: js_required.inc
 msgid "You can opt instead to view the <a href=\"simple_test.html\">simple test</a>, which will give you a quick pass/fail for IPv4, IPv4+IPv6, and IPv6. It will however offer little diagnostic information."
-msgstr ""
+msgstr "Du kan istället välja att visa <a href=\"simple_test.html\">enkelt test</a> som ger dig en snabb pass/fail för IPv4, IPv4 + IPv6 och IPv6. Den erbjuder lite diagnostikinformation."
 
 #: main/tabnav.inc
 msgid "For the Help Desk"
@@ -866,11 +866,11 @@ msgstr ""
 
 #: broken.html
 msgid "To resolve this, you'll first need to identify your IPv6 address (if you have one) and your IPv6 default route (if you have one). This will help identify which sections to read."
-msgstr ""
+msgstr "För att lösa detta, måste du först identifiera din IPv6-adress (om du har en) och din IPv6-standardrutt (om du har en). Detta hjälper att identifiera vilka delar att läsa."
 
 #: broken.html
 msgid "If you find your particular problem is not well represented; or you have additional suggestions; please do leave feedback using the <a href='#' onclick='return GIGO.tabnav(\"mail\");'>form</a> (or contact <a href=\"mailto:jfesler@test-ipv6.com\">jfesler@test-ipv6.com</a>)."
-msgstr ""
+msgstr "Om du finner att ditt unika problem är inte väl beskrivet; eller om du har ytterligare förslag; Vänligen lämna feedback med hjälp av <a href='#' onclick='return GIGO.tabnav(\"mail\");'>formuläret</a> (eller kontakta <a href=\"mailto:jfesler@test-ipv6.com\">jfesler@test-ipv6.com</a>)."
 
 #: broken.html
 msgid "Make sure you are current"
@@ -954,7 +954,7 @@ msgstr "Firefox 4.x försöker endast via IPv6, när en IPv6-adress har konfigur
 
 #: faq/staycurrent.inc
 msgid "Chrome: If a wrench icon appears on the browser toolbar, click it. Select \"Update Google Chrome\" then Restart."
-msgstr ""
+msgstr "Chrome: Om en skiftnyckelikon visas i webbläsarens verktygsfält, klicka på den. Välj \"Uppdatera Google Chrome\". Starta sedan om webbläsaren."
 
 #: faq/staycurrent.inc
 msgid "Opera: Make sure you use at least 11.10."
@@ -970,7 +970,7 @@ msgstr "Identifiera din IPv6-adress och din standardrouter (om du har en)."
 
 #: faq/find_ip.inc
 msgid "Finding your IPv6 address and default router can be a challenge if you are not familiar with your OS's network configuration. Instructions for your OS are below."
-msgstr ""
+msgstr "Hitta din IPv6-adress och standardrutt vara utmanande om du inte är bekant med ditt operativsystems nätverkskonfiguration. Anvisningarna för ditt operativsystem finns nedan."
 
 #: faq/find_ip.inc
 msgid "When looking for your IPv6 address, skip any <code>fe80:</code> address. Everyone has them if their OS supports IPv6; this is regadless of whether or not your ISP supports IPv6 yet. Those are \"link local\" addresses; used just for communicating to other hosts in the same physical network as you."
@@ -1166,7 +1166,7 @@ msgstr "Om du använder 6to4</b> (utan en tunnelbroker, dvs med anonym 6to4):"
 
 #: faq/6to4_sucks.inc
 msgid "The use of \"automatic\" 6to4, or the use of 6to4 without explicit configuration of the gateways, is not recommended. For more information see <a href='#' onclick='return help_page(\"faq_6to4.html\",\"6to4\")'>6to4</a>."
-msgstr ""
+msgstr "Användningen av \"automatiskt\" 6to4, eller användning av 6to4 utan explicit konfiguration utav gatewayen, rekommenderas inte. För mer information se <a href='#' onclick='return help_page(\"faq_6to4.html\",\"6to4\")'>6to4</a>."
 
 #: faq/broken_6to4.inc
 msgid "If you want to continue trying to debug anonymous 6to4:"
@@ -1194,7 +1194,7 @@ msgstr "Kontrollera att ditt 6to4-gränssnitt känner till din publika IPv4-adre
 
 #: faq/broken_6to4.inc
 msgid "Make sure that your router permits protocol 41 from any IP address - not just 192.88.99.1. This will allow web sites to operate their half of 6to4, even if they can not spoof the 192.88.99.1 anycast address."
-msgstr ""
+msgstr "Säkerställ att din router tillåter protokoll 41 från vilken IP-adress som helst - inte bara 192.88.99.1. Detta gör att webbplatser kan bedriva deras hälft av 6to4, även om de inte kan spoofa 192.88.99.1 anycast-adressen."
 
 #: faq/broken_6to4.inc
 msgid "Linux users using iptables connection tracking: take heed of the previous note!"
@@ -1310,7 +1310,7 @@ msgstr ""
 
 #: faq/broken_unexpected.inc
 msgid "This is similiar to someone accidentially (or intentionally) running a rogue DHCP server."
-msgstr ""
+msgstr "Detta liknar när någon oavsiktligt (eller avsiktligt) kör en falsk DHCP server."
 
 #: faq/broken_unexpected.inc
 msgid "<b>If you are are not the network admin</b> - and have no access to fix the problem - consider disabling IPv6, at least for the location you are in. Another option might be to try turning off, and turning back on, your network interface (clearing the IP address), in case the source of the problem has left the network."
@@ -1470,7 +1470,7 @@ msgstr ""
 
 #: faq.html
 msgid "Q: Why is this web site reachable via IPv4 only?"
-msgstr ""
+msgstr "Q: Varför kan denna webbplats nås via IPv4 endast?"
 
 #: faq.html
 msgid "You're right, there are no AAAA records, intentionally. A percentage of users are unable to browse sites that are dual-stack. If the users can't connect, then they can't be told they have a problem. This is a big problem facing content providers today; of which, I work at one for my &#36;dayjob. As such, the main test page requires IPv4 (either native or translated)."
@@ -1490,7 +1490,7 @@ msgstr ""
 
 #: faq.html
 msgid "Q: What do you mean by broken?"
-msgstr ""
+msgstr "Q: Vad menar du med trasig?"
 
 #: faq.html
 msgid "A percentage of users today have IPv6 enabled, but are either using a public tunnel that is currently giving poor performance; or otherwise have a route that is installed but broken or suboptimal. However, because they have a route at all, in many cases the address selection algorithm of RFC3484 will pick using it, and trying to use this broken route. It can take towards 75+ seconds before the browser gives up!"
@@ -1510,7 +1510,7 @@ msgstr "Q: Varför visade statistik att du redan har endast-IPv6-användare?"
 
 #: faq.html
 msgid "They went to <a href=\"http://ipv6.test-ipv6.com\">http://ipv6.test-ipv6.com</a> ."
-msgstr ""
+msgstr "De gick till <a href=\"http://ipv6.test-ipv6.com\">http://ipv6.test-ipv6.com</a>."
 
 #: faq.html
 msgid "Q: How valid are the stats?"
@@ -1690,7 +1690,7 @@ msgstr "Den enklaste, men trångsynta, lösningen, vore bara att inaktivera IPv6
 
 #: mission.html
 msgid "The <a href=\"broken.html\">Broken User FAQ</a> has several suggestions for broken users to follow, to remediate their situation."
-msgstr ""
+msgstr "<a href=\"broken.html\">Trasiga användare FAQ</a> har flera förslag för trasiga användare att följa, för att fixa sin situation."
 
 #: mission.html
 msgid "How you can help"
@@ -2378,7 +2378,7 @@ msgstr ""
 
 #: faq_pmtud.html
 msgid "If you run \"6to4\" on your computer instead (not the router):"
-msgstr ""
+msgstr "Om du istället kör \"6to4\" på datorn (inte på routern):"
 
 #: faq_pmtud.html
 msgid "Linux, BSD, and (presumably) Mac: Set your 6to4 interface to MTU 1280. If you are running radvd, set \"AdvLinkMTU 1280\" in your interface radvd.conf ."
@@ -2406,7 +2406,7 @@ msgstr ""
 
 #: faq_buggydns1.html
 msgid "If you were referred to this page by test-ipv6.com, it means that we were able to detect a dangerous condition with your DNS server."
-msgstr ""
+msgstr "Om du hänvisades till denna sida av test-ipv6.com, innebär det att vi kunde upptäcka ett farligt tillstånd med din DNS-server."
 
 #: faq_buggydns1.html
 msgid "First a description of the problem:"
@@ -2430,7 +2430,7 @@ msgstr "DNS-servern tog det första delen av IPv6-adressen, och memorerade den s
 
 #: faq_buggydns1.html
 msgid "The browser fails the IPv6 lookup, but \"succeeds\" in getting a bogus IPv4 address."
-msgstr ""
+msgstr "Webbläsaren klarade inte IPv6-sökning, men \"lyckades\" att få en fiktiv IPv4-adress."
 
 #: faq_buggydns1.html
 msgid "It then tries to make a connecting, to the wrong address, with the wrong protocol."
@@ -2606,7 +2606,7 @@ msgstr ""
 
 #: tunnel.inc
 msgid "IPv6 packets over IPv4 network: then IPv4-only Internet users can reach the IPv6 Internet;"
-msgstr ""
+msgstr "IPv6-paket över IPv4-nätverk: endast-IPv4-Internetanvändare kan nå IPv6-Internet."
 
 #: tunnel.inc
 msgid "IPv4 packets over IPv6 network: then IPv6-only Internet users can reach the IPv4 Internet."
