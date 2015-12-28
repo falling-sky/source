@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-12-24 22:45-0500\n"
+"PO-Revision-Date: 2015-12-27 19:48-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Swedish\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -1506,7 +1506,7 @@ msgstr ""
 
 #: faq.html
 msgid "Q: Why did your stats say you already have IPv6-only users?"
-msgstr ""
+msgstr "Q: Varför visade statistik att du redan har endast-IPv6-användare?"
 
 #: faq.html
 msgid "They went to <a href=\"http://ipv6.test-ipv6.com\">http://ipv6.test-ipv6.com</a> ."
@@ -1518,11 +1518,11 @@ msgstr "Q: Hur giltig är statistiken?"
 
 #: faq.html
 msgid "They do not represent the average web consumer. Visitors to this site are self-selecting. The intent of this site is to not provide stats, but instead to inform the user the level of readiness for the world to move to IPv6 (with or without'em!). As such, stats found here will be completely different from an average content provider."
-msgstr ""
+msgstr "De representerar inte den genomsnittliga webbkonsumenten. Besökare på den här webbplatsen väljer själva att besöka sidan. Avsikten med denna webbplats är att inte att ge statistik, men istället för att informera användaren om nivån av beredskap för världen att gå över till IPv6 (med eller utan dem!). Statistik som du kan finna här kommer att vara helt annorlunda än hos genomsnittliga innehållsleverantör."
 
 #: faq.html
 msgid "Q: How does your test differ, from what the content providers are doing?"
-msgstr ""
+msgstr "Q: Hur skiljer sig ditt test, från det som innehållsleverantörer gör?"
 
 #: faq.html
 msgid "Content providers are gathering metrics of broken vs non-broken users, in an aggregate form. They are not at this time actually giving the user feedback as to the user's current state. Those metrics will principally drive the business decision of when to start publishing sites over IPv6, versus remaining IPv4 only. IPv4 only for some content sites really is an option; it has a handful of downsides, but the expectation is that everyone will always be able to reach IPv4, in some fashion."
@@ -1530,7 +1530,7 @@ msgstr ""
 
 #: faq.html
 msgid "This site, on the other hand, is intended to help the user understand their current state, and what that state possibly means to them."
-msgstr ""
+msgstr "Denna webbplats, å andra sidan, är avsett att hjälpa användaren att förstå deras nuvarande tillstånd, och vad detta tillstånd möjligen betyder för dem."
 
 #: faq.html
 msgid "Q: Your site shows the wrong IP address; how can I bypass my proxy server to find my public address?"
@@ -1538,7 +1538,7 @@ msgstr "Q: Din webbplats visar fel IP-adress; hur kan jag kringgå proxyservern 
 
 #: faq.html
 msgid "For ipv4/ipv6/dual stack, use one of these:"
-msgstr ""
+msgstr "För IPv4/IPv6/Dual Stack, använd en av dessa:"
 
 #: faq.html
 msgid "for ipv4"
@@ -1554,7 +1554,7 @@ msgstr "för antingen"
 
 #: faq.html
 msgid "Note you _may_ need to specify other options to your telnet command, depending on your operating system. On my mac, for example, I need to use \"<code>telnet -6</code>\"."
-msgstr ""
+msgstr "Observera, du _kan_ behöva ange andra alternativ till ditt telnet-kommando, beroende på operativsystem. På min Mac, till exempel, måste jag använda \"<code>telnet -6</code>\"."
 
 #: faq.html
 msgid "Q: Do you actually read the feedback?"
@@ -1602,15 +1602,15 @@ msgstr "600 dagars vy"
 
 #: stats.html
 msgid "Quick notes:"
-msgstr ""
+msgstr "Noteringar:"
 
 #: stats.html
 msgid "Browser Filter means that both the \"A\" and \"AAAA\" test failed. Browser (plugin/filter) shenanigans, likely with add-ons like ad blockers."
-msgstr ""
+msgstr "Webbläsarfilter innebär att både \"A\"- och \"AAAA\"-testerna misslyckades. Webbläsarfiffel (tillägg/filter), sannolikt med tillägg som adblockerare."
 
 #: stats.html
 msgid "Brokeness goes down, when volume goes up. This is due to having a wider sample of average people (versus people explicitly testing a new IPv6 setup)."
-msgstr ""
+msgstr "Trasigheten går ner, när volymen går upp. Detta beror på att ha ett bredare urval av vanliga människor (kontra människor uttryckligen testar en ny IPv6-inställning)."
 
 #: stats.html
 msgid "These graphs show the last 60 days of activity at <span lookup=site.name>site</span>"
@@ -1618,7 +1618,7 @@ msgstr "Dessa diagram visar de senaste 60 dagarna av aktivitet på <span lookup=
 
 #: stats.html
 msgid "Graph: shows result summaries, stacked. Total height shows number of users who took the test on a given day."
-msgstr ""
+msgstr "Graf: visar resultatsammanfattningar, staplade. Total höjd visar antalet användare som deltog i testet på en viss dag."
 
 #: stats.html
 msgid "Similiar graph, except this time showing percentages."
@@ -1626,7 +1626,7 @@ msgstr "Liknande graf, men visar nu procentsatser."
 
 #: stats.html
 msgid "The most interesting graph is the percentage of \"broken\" users. Our definition of a \"broken\" user is that the browser stalls or times out, while attempting to visit a web site published on both IPv4 and IPv6."
-msgstr ""
+msgstr "Mest intressant är andelen \"trasiga\" användare. Vår definition av en \"trasig\" användare är att webbläsaren hänger sig eller drabbas av timeout, när man försöker besöka en webbplats som publicerats via både IPv4 och IPv6."
 
 #: stats.html
 msgid "Line graph, not stacked, of results over time."
@@ -1646,7 +1646,7 @@ msgstr "Vårt uppdrag är således:"
 
 #: mission.html
 msgid "Help people identify if they will have problems when publishers offer their web sites on IPv6;"
-msgstr ""
+msgstr "Hjälp människor att identifiera om de kommer att få problem när webbplatser erbjuds via IPv6;"
 
 #: mission.html
 msgid "Help people fix their system configuration so that they are no longer affected."
@@ -1662,31 +1662,31 @@ msgstr "Varför gör vi detta?"
 
 #: mission.html
 msgid "Because of 1 out of every 4000 users are \"broken\" based on industry measurements. This has delayed the web sites from publishing to IPv6."
-msgstr ""
+msgstr "På grund av 1 av 4000 användare är \"trasiga\" baserade på mätningar gjorde av industrin. Detta har försenat webbplatser från att publicera via IPv6."
 
 #: mission.html
 msgid "So, what is meant by \"broken\"?"
-msgstr ""
+msgstr "Så, vad menas med \"trasig\"?"
 
 #: mission.html
 msgid "When you go to your favorite web site in a browser, and it hangs for several seconds or even minutes. If the publisher publishes to IPv6, and your computer has a *broken* IPv6 route (as compared to having no route), then your computer will attempt to use that broken route first, before falling back to the IPv4 Internet."
-msgstr ""
+msgstr "När du gå till en webbplats med en webbläsare, och det hänger sig i flera sekunder eller till och med flera minuter. Om webbsidan publiceras med IPv6, och din dator har en trasig IPv6-rutt (jämfört med att inte ha någon rutt), då kommer datorn att försöka använda den trasiga rutten först, innan den faller tillbaka till IPv4-Internet."
 
 #: mission.html
 msgid "What causes these timeouts?"
-msgstr ""
+msgstr "Vad orsakar dessa timeouts?"
 
 #: mission.html
 msgid "Newer operating systems have IPv6 enabled by default. Older ones, may have IPv6 enabled, as a result of user action (or specific applications). Enabling IPv6 does not automatically make you vulnerable."
-msgstr ""
+msgstr "Nyare operativsystem har IPv6 aktiverat som standard. Äldre, kan ha IPv6 aktiverat, till följd av åtgärder från användaren (eller specifika program). Att aktivera IPv6 gör dig inte automatiskt sårbar."
 
 #: mission.html
 msgid "The problem lies when your system is convinced to try and use IPv6, when it is not working adequately. This may be because you're using a public service for your IPv6 gateway. Or, someone on your network, was advertising (to the network) IPv6 through Internet connection sharing; and they left. Last, your router may have IPv6 automatically configured to use public unmanaged gateways; and is telling your computer to use it."
-msgstr ""
+msgstr "Problemet ligger när systemet är övertygad om att försöka använda IPv6, när det inte fungerar på ett tillfredsställande sätt. Detta kan vara att du använder en publik tjänst för din IPv6-gateway. Eller någon i nätverk, delar (till nätverket) IPv6 via Internetanslutningsdelning; och därefter slutade dela ut IPv6. Till sist, din router kan ha IPv6 automatiskt konfigurerad för att använda publika ohanterade gateways; och talar om för datorn att använda den."
 
 #: mission.html
 msgid "The simplest, yet near-sighted, solution, would be just to disable IPv6. However, over the next couple of years, this will start to cause you more troubles than not. It would be best to instead find the root of your actual problem, and fix that instead."
-msgstr ""
+msgstr "Den enklaste, men trångsynta, lösningen, vore bara att inaktivera IPv6. Dock under de närmaste åren, kommer detta börjar orsaka mer problem. Det vore bäst att istället hitta roten till ditt faktiska problem, och fixa det istället."
 
 #: mission.html
 msgid "The <a href=\"broken.html\">Broken User FAQ</a> has several suggestions for broken users to follow, to remediate their situation."
@@ -1706,7 +1706,7 @@ msgstr "test-ipv6.com speglar"
 
 #: mirrors.html
 msgid "These are the known publicly accessible mirrors for test-ipv6.com."
-msgstr ""
+msgstr "Dessa är de publikt kända och tillgängliga speglarna för test-ipv6.com."
 
 #: mirrors.html
 msgid "Thank you to all of these organizations, who have put in significant effort to provide this mirror sites. If you have problems with the site you are on now, try another mirror site; perhaps one closer to you."
@@ -1714,7 +1714,7 @@ msgstr ""
 
 #: mirrors.html
 msgid "Hints Columns are sortable (click the first row); <a href=\"#\" onclick=\"GIGO.test_sites(1); return false;\">click here</a> to re-check reachability from where you are to those mirrors."
-msgstr ""
+msgstr "Ledtråd: Kolumner är sorterbara (Klicka på den första raden); <a href=\"#\" onclick=\"GIGO.test_sites(1); return false;\">Klicka här</a> för att åter kontrollera nåbarhet från där du är till dessa speglar."
 
 #: mirrors.html
 msgid "(generated by javascript)"
@@ -1742,11 +1742,11 @@ msgstr "De bra sidorna"
 
 #: faq_6to4.html
 msgid "6to4 is a technology that allows you to use your existing Internet provider (with only IPv4), to access the IPV6 Internet. It does this by putting IPv6 packets inside IPv4 packets, and with the help of some friendly folks on the Internet. (The specification of this is in <a href=\"http://www.ietf.org/rfc/rfc3056.txt\">rfc3056</a>.)"
-msgstr ""
+msgstr "6to4 är en teknik som tillåter dig att använda din befintliga Internetleverantör (med endast IPv4), för att få tillgång till IPv6-Internet. Det gör detta genom att sätta IPv6-paket i IPv4-paket, och med hjälp av vänliga personer på Internet. (Specifikation av detta är i <a href=\"http://www.ietf.org/rfc/rfc3056.txt\">rfc3056</a>.)"
 
 #: faq_6to4.html
 msgid "Before covering my actual view on 6to4, lets discuss how it works."
-msgstr ""
+msgstr "Innan jag berättar min faktiska syn på 6to4, kan vi diskutera hur det fungerar."
 
 #: faq_6to4.html
 msgid "With traditional IPv4 Internet connections, traffic goes from you, to your ISP; to one or more ISPs; and finally to the end web site. Debugging issues with this is fairly easy. And, in the event of issues, your ISP has an obligation to fix things that they are associated with; the web site has a similiar contract with their ISP."
@@ -1838,11 +1838,11 @@ msgstr ""
 
 #: faq_ipv4_only.html
 msgid "About your IPv4-only Internet service."
-msgstr ""
+msgstr "Om din endast-IPv4-Internettjänst."
 
 #: faq_ipv4_only.html
 msgid "This FAQ has been produced to try and address the questions of IPv4 only users"
-msgstr ""
+msgstr "Denna FAQ har tagits fram för att försöka besvara frågor för endast-IPv4-användare"
 
 #: faq/dontfeelbad.inc
 msgid "It looks like you have only IPv4 Internet service at this time. Don't feel bad - most people are in this position right now. Most Internet service providers are not quite yet ready to provide IPv6 Internet to residential customers."
@@ -1850,11 +1850,11 @@ msgstr ""
 
 #: faq/nothingwillbreak.inc
 msgid "The good news is, nothing will suddenly break."
-msgstr ""
+msgstr "Den goda nyheten är, inget kommer plötsligt gå sönder."
 
 #: faq/nothingwillbreak.inc
 msgid "When web sites offer their content on both IPv4 and IPv6, you'll still reach them using your existing IPv4 Internet service."
-msgstr ""
+msgstr "När webbplatser erbjuder sitt innehåll via både IPv4 och IPv6, kommer du fortfarande nå dem med din befintliga IPv4-Internettjänst."
 
 #: faq/whyipv6.inc
 msgid "Many of the visitors to the site are new to what IPv6 is."
@@ -2018,7 +2018,7 @@ msgstr "Möjliga orsaker:"
 
 #: faq_broken_aaaa.html
 msgid "Firefox users may have IPv6 lookups disabled."
-msgstr ""
+msgstr "Firefoxanvändare kan ha IPv6-sökningar avaktiverat."
 
 #: faq_broken_aaaa.html
 msgid "Go to <a href=\"about:config\">about:config</a> in your browser."
@@ -2030,7 +2030,7 @@ msgstr ""
 
 #: faq_broken_aaaa.html
 msgid "Make sure this is set to <code>false</code>."
-msgstr ""
+msgstr "Säkerställ att detta är inställt på <code>false</code>."
 
 #: faq_broken_aaaa.html
 msgid "Your OS may be configured to not do AAAA lookups; that is, to prefer IPv4 only."
@@ -2386,15 +2386,15 @@ msgstr ""
 
 #: faq_pmtud.html
 msgid "Windows: If you figure this out, please share with jfesler@test-ipv6.com to add to this site. Presumably: control panel, network adapters, properties, 6"
-msgstr ""
+msgstr "Windows: Om du kan lista ut det här, vänligen dela med dig till jfesler@test-ipv6.com så vi kan lägga till informationen på denna webbplats. Förmodligen: Kontrollpanelen, nätverkskort, egenskaper, 6"
 
 #: faq_pmtud.html
 msgid "<b>If you are not covered by the above, do a web search.</b>. As you learn what fixes your particular circumstances, please share with jfesler@test-ipv6.com to add to this site. Your contribution will be appreciated by others!"
-msgstr ""
+msgstr "<b>Om du inte omfattas av ovanstående, gör en webbsökning.</b>. Allteftersom du lär dig hur du fixar din särskilda omständighet, vänligen dela med tilljfesler@test-ipv6.com så vi kan lägga till informationen på denna webbplats. Ditt bidrag kommer att uppskattas av andra!"
 
 #: attributions.html
 msgid "<!-- <p><em>falling-sky</em> is also a reference to <a href=\"http://en.wikipedia.org/wiki/The_Sky_Is_Falling_(fable)\">the story of Chicken Little.</p> -->"
-msgstr ""
+msgstr "<!--<p><em>falling-sky</em> är också en hänvisning till <a href=\"http://en.wikipedia.org/wiki/The_Sky_Is_Falling_(fable)\"> berättelsen om lilla kycklingen (Chicken Little).</p>-->"
 
 #: attributions.html
 msgid "This site would not exist without the following components and resources."
@@ -2410,23 +2410,23 @@ msgstr ""
 
 #: faq_buggydns1.html
 msgid "First a description of the problem:"
-msgstr ""
+msgstr "Först en beskrivning av problemet:"
 
 #: faq_buggydns1.html
 msgid "Your browser asked for a DNS lookup, both IPv4 and IPv6."
-msgstr ""
+msgstr "Din webbläsare bad om en DNS-sökning, både IPv4 och IPv6."
 
 #: faq_buggydns1.html
 msgid "The IPv6 response was returned first."
-msgstr ""
+msgstr "IPv6-svaret returnerades först."
 
 #: faq_buggydns1.html
 msgid "Your DNS server was confused by the result - it doesn't fully follow the DNS standards."
-msgstr ""
+msgstr "DNS-servern var förvirrad av resultatet - det följer inte DNS-standarden fullt ut."
 
 #: faq_buggydns1.html
 msgid "Your DNS server took the first peice of the IPV6 address, and memorized it as the IPv4 address."
-msgstr ""
+msgstr "DNS-servern tog det första delen av IPv6-adressen, och memorerade den som IPv4-adressen."
 
 #: faq_buggydns1.html
 msgid "The browser fails the IPv6 lookup, but \"succeeds\" in getting a bogus IPv4 address."
@@ -2434,7 +2434,7 @@ msgstr ""
 
 #: faq_buggydns1.html
 msgid "It then tries to make a connecting, to the wrong address, with the wrong protocol."
-msgstr ""
+msgstr "Den försöker sedan göra en anslutning till fel adress, med fel protokoll."
 
 #: faq_buggydns1.html
 msgid "This is bad for several reasons:"
@@ -2442,7 +2442,7 @@ msgstr "Detta är dåligt av flera skäl:"
 
 #: faq_buggydns1.html
 msgid "You won't be able to connect to IPv6-only sites."
-msgstr ""
+msgstr "Du kommer inte att kunna ansluta till endast-IPv6-webbplatser."
 
 #: faq_buggydns1.html
 msgid "You may sporadically fail (or always fail) to connect to IPv6-enabled web sites. This is regardless of whether you are capable IPv6 or not - you may still be impacted."
