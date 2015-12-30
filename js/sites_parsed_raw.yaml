@@ -461,6 +461,14 @@ www.heise.de:
   site: www.heise.de
   v4: http://www.four.heise.de/icons/ho/heise.gif
   v6: http://www.six.heise.de/icons/ho/heise.gif
+www.radioradicale.it: 
+  loc: IT
+  mirror: 0
+  monitor: Dario Centofanti <dario@popinga.net>
+  provider: Centro di Produzione Spa - AS57329
+  site: www.radioradicale.it
+  v4: http://ipv4.radioradicale.it/sites/www.radioradicale.it/files/pagine/2015/12/ipv6.png
+  v6: http://ipv6.radioradicale.it/sites/www.radioradicale.it/files/pagine/2015/12/ipv6.png
 www.rascom.ru: 
   loc: RU
   provider: RASCOM

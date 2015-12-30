@@ -537,3 +537,10 @@ www.duiadns.net:
   v4: http://ipv4.duiadns.net/1x1.gif
   v6: http://ipv6.duiadns.net/1x1.gif
   monitor: 'Liviu Pislaru <liviu.pislaru@duiadns.net>'
+www.radioradicale.it:
+  loc: IT
+  mirror: 0
+  provider: Centro di Produzione Spa - AS57329
+  v4: http://ipv4.radioradicale.it/sites/www.radioradicale.it/files/pagine/2015/12/ipv6.png
+  v6: http://ipv6.radioradicale.it/sites/www.radioradicale.it/files/pagine/2015/12/ipv6.png
+  monitor: 'Dario Centofanti <dario@popinga.net>'

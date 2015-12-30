@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-12-27 20:00-0500\n"
+"PO-Revision-Date: 2015-12-30 16:15-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Spanish\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -186,7 +186,7 @@ msgstr "<b>Las pruebas indican que tienes un problema de configuración IPv6, é
 
 #: messages.js
 msgid "<b>Our tests show that you may have MTU problems with IPv6; this can cause web sites to load slow (or not at all) when web sites enable IPv6.</b>"
-msgstr "<b>Las pruebas indican que tienes problemas de MTU con IPv6, ésto causará que los sitios web carguen muy lento (o aún, que no carguen) cuando habiliten IPv6.</b>"
+msgstr "<b>Las pruebas indican que tienes problemas de MTU con IPv6, ésto causará que los sitios web carguen muy lento (o incluso, que no carguen) cuando estos habiliten IPv6.</b>"
 
 #: messages.js
 msgid "We looked up an IPv6 address, but your DNS server (possibly your home router) mangled the response, and is treating it as (broken) IPv4."
@@ -782,12 +782,11 @@ msgstr "Elige una de las siguientes opciones para cambiar a ese idioma."
 
 #: locale.html
 msgid "Translators and proof readers welcome."
-msgstr "Se aceptan traductores y correctores de texto, Serán bienvenidos!"
+msgstr "Traductores y correctores de texto son bienvenidos."
 
 #: locale.html
 msgid "See <a href='https://github.com/falling-sky/source/wiki/LocalizationPlan'>Info</a>; and our <a href='https://crowdin.net/project/falling-sky'>'CrowdIn'</a> project page."
-msgstr "Ver Información en:  <a href='https://github.com/falling-sky/source/wiki/LocalizationPlan'>\n"
-"Y visiten nuestra página del proyecto en Crowdin:  <a href='https://crowdin.net/project/falling-sky'>"
+msgstr "Visita la página de <a href='https://github.com/falling-sky/source/wiki/LocalizationPlan'>información</a>; y nuestra página del proyecto en <a href='https://crowdin.net/project/falling-sky'>Crowdin</a>."
 
 #: faq_helpdesk.html
 msgid "Help Desk Information"
