@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-12-30 15:30-0500\n"
+"PO-Revision-Date: 2015-12-30 16:55-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Norwegian Bokmal\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -1753,8 +1753,8 @@ msgid "With traditional IPv4 Internet connections, traffic goes from you, to you
 msgstr "Med en tradisjonell IPv4-internettforbindelse går trafikken til deg, videre til din internett-leverendør, gjennom en eller flere andre internett-leverandører, før den til slutt ender opp hos nettsiden du ønsket å gå til. Feilsøking er relativt enkelt. Og, om det skulle være problem, har din internettleverandør en forpliktelse for å fikse problemene, og det samme gjelder for nettsiden sin internettleverandør."
 
 #: faq_6to4.html
-msgid "With unmanaged 6to4 connections (created \"automatically\" or without explicit gateway information) the process is a fair bit different. IPv6 is put into an IPv4 packet - much like sticking a letter in an envelope. This packet is sent to the \"nearest available\" gateway. Your ISP"
-msgstr "Med automatiske 6to4-forbindelser (opprettes uten noen eksplisitt ruter-konfiguresjon), ting henger sammen på en helt forskjellig måte. IPv6 blir puttet inni en IPv4-pakke - ikke ulikt det å putte et brev inni en konvolutt. Denne pakken blir så sent til den \"nærmeste\" ruteren. Internettleverandøren din <i>kan</i> ha en av disse, men de fleste har ikke. Sannsynligvis er den vedlikeholdt av en god samaritan som prøver å hjelpe til. Denne ruteren vil hente ut IPv6-trafikken fra innsiden av IPv4-pakkene, og videresende den ut på IPv6-internettet."
+msgid "With unmanaged 6to4 connections (created \"automatically\" or without explicit gateway information) the process is a fair bit different. IPv6 is put into an IPv4 packet - much like sticking a letter in an envelope. This packet is sent to the \"nearest available\" gateway. Your ISP<i>may</i> run one of these; most do not. Chances are the one you use, will be run by a good samaritan who's trying to contribute to the community. This relay will take the IPV6 from inside your IPv4 packet, and then forward it over the IPV6 Internet."
+msgstr ""
 
 #: faq_6to4.html
 msgid "Traffic from the web site takes a similiar path. That web site replies back to your automatic IPv6 address. This is routed to the nearest 6to4 relay to that web site. This is not deterministic from your part, at all. In fact, you won't even be able to tell where this relay is. That relay will take the IPv6 packet, stick it inside an IPv4 packet, and then send to your router."
