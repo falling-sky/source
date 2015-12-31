@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-12-30 16:55-0500\n"
+"PO-Revision-Date: 2015-12-30 19:00-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Swedish\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -846,7 +846,7 @@ msgstr "Q: Vad är Helpdesk-koderna?"
 
 #: faq_helpdesk.html
 msgid "These are meant to offer a quick, short way for your customer to tell you the status of their Internet connectivity, as validated by this site. They are also meant to be easy to memorize."
-msgstr ""
+msgstr "Dessa är avsedda att erbjuda en snabb gänväg för din kund att berätta status för sin Internetanslutning, som validerats av denna webbplats. De är också avsedda att vara lätt att memorera."
 
 #: faq_helpdesk.html
 msgid "Q: How can I recommend changes to the Help Desk tab?"
@@ -874,7 +874,7 @@ msgstr "Om du finner att ditt unika problem är inte väl beskrivet; eller om du
 
 #: broken.html
 msgid "Make sure you are current"
-msgstr ""
+msgstr "Säkerställ att du använder senaste"
 
 #: broken.html
 msgid "Find your IP address"
@@ -922,11 +922,11 @@ msgstr "OS - Se till att du har den senaste."
 
 #: faq/staycurrent.inc
 msgid "Mac users: Apple OS X 10.6.7 is recommended for improved IPv6 support."
-msgstr ""
+msgstr "Mac-användare: Apple OS X 10.6.7 rekommenderas för förbättrat stöd för IPv6."
 
 #: faq/staycurrent.inc
 msgid "Mac users on 10.4 or 10.5 may need to disable IPv6 if other troubleshooting steps fail."
-msgstr ""
+msgstr "Mac-användare på 10.4 och 10.5 kan behöva inaktivera IPv6 om annan felavhjälpning misslyckas."
 
 #: faq/staycurrent.inc
 msgid "Windows users: go to"
@@ -934,7 +934,7 @@ msgstr "Windows-användare: gå till"
 
 #: faq/staycurrent.inc
 msgid "iPhone/iPad users: No specific version advised at this time."
-msgstr ""
+msgstr "iPhone/iPad-användare: Ingen specifik version kan rekommenderas vid denna tidpunkt."
 
 #: faq/staycurrent.inc
 msgid "Routers - Make sure you have the latest firmware installed. Some vendors have updated the defaults, or put in health checks before enabling IPv6."
@@ -942,11 +942,11 @@ msgstr "Routrar - Säkerställ att du har den senaste firmwaren installerad. Vis
 
 #: faq/staycurrent.inc
 msgid "If you are using an Apple router or Time Capsule, load the Airport Utility to check that your router is up to date."
-msgstr ""
+msgstr "Starta Airport-verktyget för att kontrollera att routern är uppdaterad om du använder en Applerouter eller Time Capsule."
 
 #: faq/staycurrent.inc
 msgid "Browsers - Some browsers have made updates to detect \"broken\" users, and to temporarily disable IPv6."
-msgstr ""
+msgstr "Webbläsare - vissa webbläsare har gjort uppdateringar för att upptäcka \"trasiga\" användare, och för att inaktivera IPv6 tillfälligt."
 
 #: faq/staycurrent.inc
 msgid "Firefox 4.x now only tries IPv6, when an IPv6 address is configured. Firefox 3 users are encouraged to upgrade."
@@ -1274,7 +1274,7 @@ msgstr "Andra routrar: prova att uppdatera firmware. Om det misslyckas, inaktive
 
 #: faq/broken_bogon.inc
 msgid "This router is using the official \"Documentation\" prefix - which is not routable on the IPv6 Internet."
-msgstr ""
+msgstr "Denna router använder det officiella \"Dokumentation\"-prefix - som inte är dirigerbar på IPv6-Internet."
 
 #: faq/broken_bogon.inc
 msgid "Update to the latest firmware."
@@ -1298,7 +1298,7 @@ msgstr "Oväntad IPv6-adress?"
 
 #: faq/broken_unexpected.inc
 msgid "Modern operating systems all have IPv6 enabled. This feature is dormant until someone explicitly configures IPv6, <em><b>or</b></em> a device on the local network offers it. Autoconfigured IPv6 hosts learn their IPv6 address and their gateway through the use of IPv6 router announcements (RAs). The network you are on may intentionally offer IPv6; you'll automatically use it when your computer sees it."
-msgstr ""
+msgstr "Alla moderna operativsystem har IPv6 aktiverat. Denna funktion är vilande tills någon uttryckligen konfigurerar IPv6, <em><b>eller</b></em> om en enhet i det lokala nätverket erbjuder det. Automatiskt konfigurerade IPv6-värdar lär sig deras IPv6-adress och deras gateway med hjälp av IPv6-routermeddelanden (Router Announcements, RAs). Nätverk du är ansluten till kan avsiktligt erbjuda IPv6; du kommer automatiskt att använda det när datorn ser det."
 
 #: faq/broken_unexpected.inc
 msgid "<b>Where this goes wrong:</b> Some people plug their router into the network (wired or wireless) and inadvertantly offer IPv6 services to everyone. Classic examples of this are where people add an early version of an Apple router (with 6to4 automatically enabled); another example is someone who has Windows Internet Connection Sharing enabled. In both cases, there is a chance they offer their services - and become your IPv6 router of choice, without any notification to you."
@@ -1438,11 +1438,11 @@ msgstr "IP_ADDRESS"
 
 #: faq/broken_disable.inc
 msgid "Be aware that if the router re-advertises it, you will relearn the default route."
-msgstr ""
+msgstr "Tänk på att om routern annonserar det igen, kommer den lära om standardrutt."
 
 #: faq/broken_disable.inc
 msgid "You can do a web search for your particular OS distribution. Example search would be <code>disable ipv6 on freebsd</code>."
-msgstr ""
+msgstr "Du kan göra en sökning för din OS-distribution. Ett sökexempel skulle bli <code>disable ipv6 on freebsd</code>."
 
 #: broken.html
 msgid "See Also"
@@ -1466,7 +1466,7 @@ msgstr "Q: Hur fungerar detta test?"
 
 #: faq.html
 msgid "The test is entirely client-side javascript. To determine reachability, a series of ajax requests are made from the web server, using various DNS names that force the use of IPv6 only, or dual stack, or other such scenarios. The pass/fail of such fetches, as well as how long they take, are taken into account."
-msgstr ""
+msgstr "Hela testet är JavaScript (körs på klientsida). För att avgöra nåbarhet, görs ett antal AJAX-begäranden från webbservern, med olika DNS-namn som tvingar användning av IPv6, dual stack eller andra sådana scenarier. Godkända/icke godkända hämtningar, samt hur lång tid de tar, beaktas."
 
 #: faq.html
 msgid "Q: Why is this web site reachable via IPv4 only?"
@@ -1486,7 +1486,7 @@ msgstr "Q: Hur testar jag min endast-IPv6-dator"
 
 #: faq.html
 msgid "If you ask that question, chances are you don't need this site. However, if you really want to, visit <a href= \"http://ipv6.test-ipv6.com\">http://ipv6.test-ipv6.com</a> with your IPv6-only host."
-msgstr ""
+msgstr "Om du frågar denna fråga, är chanserna inte behöver du denna webbplats. Men om du verkligen vill, besök <a href= \"http://ipv6.test-ipv6.com\">http://ipv6.test-ipv6.com</a> med din endast-IPv6-dator."
 
 #: faq.html
 msgid "Q: What do you mean by broken?"
@@ -1810,7 +1810,7 @@ msgstr "Du låter verkligen som om du inte gillar 6to4."
 
 #: faq_6to4.html
 msgid "I don't like that it is *unmanaged*. 6to4 is basically 6in4 - an IPv6 packet wrapped with an IPv4 header. Managed 6in4 services can actualy be pretty good.."
-msgstr ""
+msgstr "Jag tycker inte om att det är *ohanterade*. 6to4 är i grunden 6in4 - ett IPv6-paket inslaget med ett IPv4-sidhuvud. Hanterade 6in4-tjänster kan faktiskt vara ganska bra..."
 
 #: faq_6to4.html
 msgid "test-ipv6.com's recommendation is that if you need IPv6 before your ISP can offer it, consider a managed 6in4 service. 6in4 is the same service as 6to4 on the wire, except with a managed tunnel endpoint (instead of an anonymous one). There are a few major options out there. They each offer great service; and they offer a <b>support</b> channel. These relays are <b>actively monitored</b> for service quality. Best of all, the <b>same relay is used both directions</b> - meaning the same staff manages both conversions. Consider these services:"
@@ -1822,15 +1822,15 @@ msgstr ""
 
 #: faq_6to4.html
 msgid "is another popular service. I see many European users using this service significantly; though their footprint is global. They work with dynamic IPs with some custom software that they provide."
-msgstr ""
+msgstr "är en annan populär tjänst. Jag ser många europeiska användare använda denna tjänst; men deras täckning är global. De arbetar med dynamiska IP-adresser med anpassad programvara som de tillhandahåller."
 
 #: faq_6to4.html
 msgid "aka freenet6. I don't have personal experience with this, but test-ipv6.com does see a number of connections via this service."
-msgstr ""
+msgstr "även känd som freenet6. Jag har inte personlig erfarenhet av detta, men test-ipv6.com ser ett antal anslutningar via denna tjänst."
 
 #: faq_6to4.html
 msgid "may be a better solution, in China. This requires a custom client to be installed."
-msgstr ""
+msgstr "kan vara en bättre lösning, i Kina. Detta kräver en anpassad klient installerad."
 
 #: faq_6to4.html
 msgid "in Australia offers both free and paid-for (with SLA) tunnels."
@@ -1846,7 +1846,7 @@ msgstr "Denna FAQ har tagits fram för att försöka besvara frågor för endast
 
 #: faq/dontfeelbad.inc
 msgid "It looks like you have only IPv4 Internet service at this time. Don't feel bad - most people are in this position right now. Most Internet service providers are not quite yet ready to provide IPv6 Internet to residential customers."
-msgstr ""
+msgstr "Det ser ut som du endast har IPv4-Internettjänst för tillfället. Oroa dig inte - de flesta människor befinner sig i denna sits just nu. De flesta Internetleverantörer är fortfarande inte redo att leverera IPv6-Internet till privatkunder."
 
 #: faq/nothingwillbreak.inc
 msgid "The good news is, nothing will suddenly break."
@@ -1862,27 +1862,27 @@ msgstr ""
 
 #: faq/whyipv6.inc
 msgid "If you don't know why IPv6 matters, see the <a href=\"#\" onclick=\"return help_page('faq_whyipv6.html','Why IPv6')\">Why IPv6 FAQ</a>."
-msgstr ""
+msgstr "Om du inte vet varför IPv6 är viktigt, se <a href=\"#\" onclick=\"return help_page('faq_whyipv6.html','Why IPv6')\">Varför IPv6-FAQ</a>."
 
 #: faq/whyipv6.inc
 msgid "This will give you a bit of background of what to expect with IPv4 in the coming months and years; and perhaps some incentive to ask your ISP when they will offer IPv6."
-msgstr ""
+msgstr "Detta ger dig lite bakgrund om vad som väntar med IPv4 i de kommande månaderna och åren; och kanske några incitament om att fråga din Internetleverantör när de kommer att erbjuda IPv6."
 
 #: faq/brokers.inc
 msgid "If you are savvy with technology, you can be an early adopter of IPv6, consider learning more about"
-msgstr ""
+msgstr "Om du är teknikkunnig kan du vara tidigt ute med IPv6, överväg att dig lära mer om"
 
 #: faq/brokers.inc
 msgid "providers (managed 6to4 tunnel services)."
-msgstr ""
+msgstr "leverantörer (hanterade (managed) 6to4-tunneltjänster)."
 
 #: faq/brokers.inc
 msgid "The use of automatic tunnels is discouraged"
-msgstr ""
+msgstr "Användning av automatiska tunnlar rekommenderas inte"
 
 #: faq_ipv4_only.html
 msgid "If you are not savvy with technology, here is more generic information:"
-msgstr ""
+msgstr "Om du inte är teknikkunnig... här finns mer allmän information:"
 
 #: faq/matrix_os.inc
 msgid "Windows Vista and Windows 7 are both IPv6 ready. Mac OS X 10.5 and higher is fine. FreeBSD and Linux, all recent versions, are also fine. When your Internet service provider offers IPv6 to you, these OSs are good. You may still need to replace your router (wireless or wired), if it is not aware of IPv6. You'll have to consult with your Internet service provider on when IPv6 will be offered."
@@ -1890,11 +1890,11 @@ msgstr ""
 
 #: faq/matrix_os.inc
 msgid "Windows XP users: My advice is to plan on upgrading before using IPv6. It is technically possible to use IPv6 with XP, to a minimal extent."
-msgstr ""
+msgstr "Windows XP-användare: Mitt råd är att uppgradera Windows innan du använder IPv6. Det är tekniskt möjligt att använda IPv6 med XP, i minimal utsträckning."
 
 #: faq/dontstress.inc
 msgid "Don't stress too much on having an IPv6 address in 2011."
-msgstr ""
+msgstr "Stressa inte alltför mycket på att ha en IPv6-adress år 2011."
 
 #: faq/dontstress.inc
 msgid "If you do buy a new router, make sure that it will be IPv6 ready (or upgradable) when your service provider does offer IPv6."
@@ -1918,7 +1918,7 @@ msgstr "Mer om dina resultat."
 
 #: faq/teredo_iponly.inc
 msgid "You also appear to have Teredo enabled. You did successfully connect to an IPv6 site during this test - but only when forcing the connection by connecting to an IPv6 numeric address, instead of a web site name. This setting will not help or hurt you going forward to reach IPv6 web sites."
-msgstr ""
+msgstr "Du verkar även ha Teredo aktiverad. Du anslöt framgångsrikt till en IPv6-webbplats under detta test - men bara när anslutning tvingades genom att ansluta till en numerisk IPv6-adress, istället för en webbplatsnamn. Denna inställning kommer varken hjälpa eller stjälpa dig framöver för att nå IPv6-webbplatser."
 
 #: faq_teredo.html
 msgid "About Teredo"
@@ -1938,7 +1938,7 @@ msgstr "Om \"v6ns\" testet."
 
 #: faq_v6ns_bad.html
 msgid "This FAQ has been produced to try and address what it means for the v6ns test to be \"bad\"."
-msgstr ""
+msgstr "Denna FAQ har tagits fram för att försöka förklara vad det innebär när ett v6ns-testet är \"dåligt\"."
 
 #: faq_v6ns_bad.html
 msgid "This test specifically verifies that your DNS resolver (usually operated by your Internet service provider, or your corporate IT department) is capable of reaching IPv6 Internet sites for DNS lookups. If you explicitly configured the use of a different DNS server, such as OpenDNS or Google's Public DNS, you'll test those services instead."
@@ -1950,7 +1950,7 @@ msgstr "Om det här testet misslyckas:"
 
 #: faq_v6ns_bad.html
 msgid "it means that the DNS resolver you are using, requires IPv4 to reach the DNS authoritative servers of your favoriate web sites. In the near future, every web site of consequence will remain accessible in this form, so <b>there is no immediate danger.</b>"
-msgstr ""
+msgstr "Det innebär att DNS-resolvern du använder kräver IPv4 för att nå de auktoritära DNS-servrarna för dina favoritwebbplatser. I närtid kommer alla viktiga webbplatser förbli tillgängliga i denna form, så <b>det finns ingen omedelbar fara</b>."
 
 #: faq_v6ns_bad.html
 msgid "If this test succeeds:"
@@ -1978,7 +1978,7 @@ msgstr ""
 
 #: faq_v6ns_bad.html
 msgid "ISC BIND: Make sure that IPv6 support is compiled in when you ./configure it. It is enabled by default. If you recently added IPv6 to your server, simply restart your named process, as you normally would."
-msgstr ""
+msgstr "ISC BIND: Säkerställ att IPv6-stöd kompileras när du använder ./configure. Det är aktiverat som standard. Om du nyligen lagt IPv6 till din server, startar du helt enkelt om din named-process, som vanligt."
 
 #: faq_v6ns_bad.html
 msgid "PowerDNS: Enable <code>aaaa-additional-processing</code> and configure <code>query-local-address6</code> in your <code>recursor.conf</code>. Restart powerdns."
@@ -2086,7 +2086,7 @@ msgstr ""
 
 #: faq/simple_test.inc
 msgid "Pass?"
-msgstr ""
+msgstr "Godkänd?"
 
 #: faq/simple_test.inc
 msgid "Method"
@@ -2150,11 +2150,11 @@ msgstr "Vad är fel med IPv4"
 
 #: faq_whyipv6.html
 msgid "The traditional IPv4 Internet is running out of space. The IANA registry (at the global level) is either just about out, or totally out, depending on when you read this. They are expected to announce this depletion Janaury or February 2011."
-msgstr ""
+msgstr "Det traditionella IPv4-Internet har slut på adressrymder. IANA-registret (på global nivå) har antingen slut, eller nästan helt slut, på adresser. Beroende på när du läser detta. De förväntas meddela denna utarmning januari eller februari 2011."
 
 #: faq_whyipv6.html
 msgid "As Internet service providers each run out of the space they have been allocated, they will have to find creative ways to help keep taking on new customers. Those customers will still need access to the IPv4 Internet."
-msgstr ""
+msgstr "När Internettjänstleverantörerna får slut på adresser som de tilldelats måste de hitta kreativa sätt att fortsätta att ta sig an nya kunder. Dessa kunder behöver fortfarande tillgång till IPv4-Internet."
 
 #: faq_whyipv6.html
 msgid "Q: I heard there are millions of addresses left. Take it back from the companies not using it! Use the Class E space! (etc)."
