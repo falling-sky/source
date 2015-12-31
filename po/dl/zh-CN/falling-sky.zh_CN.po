@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-12-30 17:30-0500\n"
+"PO-Revision-Date: 2015-12-30 22:00-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Chinese Simplified\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -2322,19 +2322,19 @@ msgstr ""
 
 #: faq_pmtud.html
 msgid "In the above case, the message is now so big, that it can't be forwarded. A \"Packet Too Big\" message will be sent by that router - but it only sees the IPv4 address; not your IPv6 address. Because of this, your computer will never retry with a smaller sized packet, one that might fit when using multiple envelopes."
-msgstr ""
+msgstr "在上述情况下，现在的消息太大了已经无法被转发了。一个“数据包太大”的消息会由路由器发送回来，但这上面只能看到你的IPv4地址，不是你的IPv6地址。因此，你的电脑根本不会重新尝试一个更小的，使用多重封装后可用的数据包。"
 
 #: faq_pmtud.html
 msgid "What does this look like on the network?"
-msgstr ""
+msgstr "这在网络上看起来像什么?"
 
 #: faq_pmtud.html
 msgid "(What does tcpdump show?)"
-msgstr ""
+msgstr "(tcpdump会显示什么？)"
 
 #: faq_pmtud.html
 msgid "This is what tcpdump will show.."
-msgstr ""
+msgstr "这就是tcpdump会显示的东西.."
 
 #: faq_pmtud.html
 msgid "This is what I ran to generate the packets."

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-12-30 17:30-0500\n"
+"PO-Revision-Date: 2015-12-30 22:30-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Portuguese, Brazilian\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -1754,7 +1754,7 @@ msgstr "Com conexões IPv4 tradicionais, o tráfego vai de você ao seu Provedor
 
 #: faq_6to4.html
 msgid "With unmanaged 6to4 connections (created \"automatically\" or without explicit gateway information) the process is a fair bit different. IPv6 is put into an IPv4 packet - much like sticking a letter in an envelope. This packet is sent to the \"nearest available\" gateway. Your ISP<i>may</i> run one of these; most do not. Chances are the one you use, will be run by a good samaritan who's trying to contribute to the community. This relay will take the IPV6 from inside your IPv4 packet, and then forward it over the IPV6 Internet."
-msgstr ""
+msgstr "Com conexões 6to4 não gerenciadas (criadas \"automaticamente\" ou sem informação de gateway explícitas) o processo é um pouco diferente. IPv6 é colocado dentro de um pacote IPv4 - quase como colocar uma carta em um envelope. O pacote é enviado ao gateway \"mais próximo disponível\". Seu provedor de serviços de Internet <i>pode</i> gerenciar um deste, mas a maioria não o faz. As chances são que o que você usa é gerenciado por um bom samaritano que está tentando contribuir com a comunidade. Este bom samaritano vai pegar o pacote IPv6 de dentro do seu pacote IPv4 e então encaminhá-lo usando a Internet IPv6."
 
 #: faq_6to4.html
 msgid "Traffic from the web site takes a similiar path. That web site replies back to your automatic IPv6 address. This is routed to the nearest 6to4 relay to that web site. This is not deterministic from your part, at all. In fact, you won't even be able to tell where this relay is. That relay will take the IPv6 packet, stick it inside an IPv4 packet, and then send to your router."

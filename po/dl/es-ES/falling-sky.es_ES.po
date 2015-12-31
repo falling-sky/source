@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-12-30 17:30-0500\n"
+"PO-Revision-Date: 2015-12-30 22:30-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Spanish\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -1754,7 +1754,7 @@ msgstr "Con conexiones de Internet IPv4 tradicionales, el tráfico pasa de usted
 
 #: faq_6to4.html
 msgid "With unmanaged 6to4 connections (created \"automatically\" or without explicit gateway information) the process is a fair bit different. IPv6 is put into an IPv4 packet - much like sticking a letter in an envelope. This packet is sent to the \"nearest available\" gateway. Your ISP<i>may</i> run one of these; most do not. Chances are the one you use, will be run by a good samaritan who's trying to contribute to the community. This relay will take the IPV6 from inside your IPv4 packet, and then forward it over the IPV6 Internet."
-msgstr ""
+msgstr "Con conexiones 6to4 no administradas (creadas \"automáticamente\" o sin información explícita de la puerta de enlace) el proceso es un poco distinto. El IPv6 se pone dentro de un paquete IPv4 - como meter una carta en una sobre. Este paquete es enviado a la puerta de enlace \"más cercana disponible\". Su ISP <i>puede</i> ejecutar uno de estos; la mayoría no. Lo más probable es que, la que utilices, sea dirigido por un buen samaritano que esté tratando de contribuir a la comunidad. Este relé, se llevará la IPV6 por dentro de su paquete IPv4, y luego lo remite a través del Internet IPV6."
 
 #: faq_6to4.html
 msgid "Traffic from the web site takes a similiar path. That web site replies back to your automatic IPv6 address. This is routed to the nearest 6to4 relay to that web site. This is not deterministic from your part, at all. In fact, you won't even be able to tell where this relay is. That relay will take the IPv6 packet, stick it inside an IPv4 packet, and then send to your router."
@@ -2262,7 +2262,7 @@ msgstr "Enrutador: posiblemente. Muchos enrutadores caseros no tienen ninguna v�
 
 #: faq_whyipv6.html
 msgid "Your router: Quite possibly. Many home routers have no upgrade path for IPv6. Do a web search for your router model, with the keyword \"ipv6\" with it."
-msgstr "Enrutador: posiblemente. Muchos enrutadores caseros no tienen ninguna vía de actualización para IPv6. Haga una búsqueda web para su enrutador, con la palabra clave \"ipv6\" con él."
+msgstr "Tu router: Posiblemente. Muchos routers diseñados para el hogar no tienen ninguna vía de actualización para IPv6. Haga una búsqueda web para el modelo de su router, con la palabra clave \"ipv6\" incluída."
 
 #: faq_whyipv6.html
 msgid "<b>What router to buy:</b> Wait until your ISP gives you guidance on what will work best with their system. If you must replace your router immediately, look for ones that are IPv6 capable. Apple Airport Express and Airport Extreme have built in tunneling capabilities. OpenWRT capable routers also do (when loaded with the OpenWRT firmware). If you do consider tunnels, see my <a href=\"#\" onclick=\"return help_page('faq_6to4.html','6to4')\">6to4 comments</a>."
