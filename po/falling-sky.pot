@@ -1869,6 +1869,10 @@ msgstr ""
 msgid "The use of automatic tunnels is discouraged"
 msgstr ""
 
+#: faq/brokers.inc
+msgid "[see more]"
+msgstr ""
+
 #: faq_ipv4_only.html
 msgid "If you are not savvy with technology, here is more generic information:"
 msgstr ""

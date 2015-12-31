@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-12-30 22:00-0500\n"
+"PO-Revision-Date: 2015-12-31 12:00-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Greek\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -1878,6 +1878,10 @@ msgstr ""
 
 #: faq/brokers.inc
 msgid "The use of automatic tunnels is discouraged"
+msgstr ""
+
+#: faq/brokers.inc
+msgid "[see more]"
 msgstr ""
 
 #: faq_ipv4_only.html
