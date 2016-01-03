@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-12-31 12:00-0500\n"
+"PO-Revision-Date: 2016-01-01 23:15-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Chinese Simplified\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -1882,7 +1882,7 @@ msgstr "不推荐使用自动隧道"
 
 #: faq/brokers.inc
 msgid "[see more]"
-msgstr ""
+msgstr "[查看更多]"
 
 #: faq_ipv4_only.html
 msgid "If you are not savvy with technology, here is more generic information:"
