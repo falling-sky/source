@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2016-01-04 10:37-0500\n"
+"PO-Revision-Date: 2016-01-04 16:57-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: German\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -2138,8 +2138,8 @@ msgid "Why IPv6?"
 msgstr "Warum IPv6?"
 
 #: faq_whyipv6.html
-msgid "This is an interesting question. IPv6 buys you only a bit more than you already have today; and most of that is a promise. IPv6 will help you preserve the level of Internet connectivy between your home and other locations on the Internet, without interference, as you enjoyed in 2012."
-msgstr "This is an interesting question. IPv6 buys you only a bit more than you already have today; and most of that is a promise. IPv6 will help you preserve the level of Internet connectivy between your home and other locations on the Internet, without interference, as you enjoyed in 2012."
+msgid "This is an interesting question. IPv6 buys you only a bit more than you already have today; and most of that is a promise. IPv6 will help you preserve the level of Internet connectivity between your home and other locations on the Internet, without interference, as you enjoyed in 2012."
+msgstr ""
 
 #: faq_whyipv6.html
 msgid "The promise is the ability to give every device in your house a reachable network address. Each house will have practically unlimited network addresses (2<sup>64</sup> if you're curious - about 18 billion billions). Each house may potentially have more than that, particularly if they have the need for multiple networks within the home. Many ISPs will be able to easy give you 256 of those networks. <em>Running out of IPv6 address space will seem impossible for decades.</em>"
@@ -2147,7 +2147,7 @@ msgstr "<em></em>"
 
 #: faq_whyipv6.html
 msgid "Applications to take advantage of this are just now being thought of. Imagine having all of your home electronics accessible from work or from your mobile phone. You could watch your TV recorder, or the security camera. You could check the fridge, perhaps start the oven timer. Maybe turn on the air conditioning or the heater when you know you're coming home early. All of these *can* be done today, but are cumbersome with IPv4 if you're using a single IPv4 address today. And, very difficult in the future, with where IPv4 is heading next."
-msgstr ""
+msgstr "Anwendungen, die Vorteile aus IPv6 ziehen, werden gerade erst erdacht. Stellen Sie sich vor, daß alle Ihre elektronischen Haushaltsgeräte von Ihrer Arbeit oder von Ihrem Mobiltelefon aus erreichbar sind. Sie können Ihren TV-Rekorder erreichen, oder Bilder der Sicherheitskamera anschauen. Sie können den Kühlschrank überprüfen, oder vielleicht den Ofen anschalten. Vielleicht die Klimaanlage oder die Heizung anschalten wenn Sie wissen, daß Sie früher nach Hause kommen. All dies *kann* heutzutage bereits gemacht werden, ist aber mit IPv4 umständlich, wenn Sie eine einzige IPv4-Adresse nutzen. Und, sehr schwer in der Zukunft in anbetracht dessen, auf was IPv4 zusteuert."
 
 #: faq_whyipv6.html
 msgid "What Is Wrong with IPv4"
@@ -2235,7 +2235,7 @@ msgstr "An sich gibt es kein festgelegten Stichtag. Seien Sie sich aber bewusst,
 
 #: faq_whyipv6.html
 msgid "Q: Will I have to replace my OS?"
-msgstr "F: Wuss ich mein Betriebssystem ersetzen?"
+msgstr "F: Muss ich mein Betriebssystem ersetzen?"
 
 #: faq_whyipv6.html
 msgid "Windows Vista, Windows 7: You're good to go. XP users: It can be made to work, but it really is time to consider upgrading. Win98 and Win2000 users have no path to IPv6."
@@ -2487,7 +2487,7 @@ msgstr ""
 
 #: faq_buggydns1.html
 msgid "Substitute the 192.168.1.1 with the resolver being used by the host. If the \"aaaa\" request comes back with no answer, but the \"a\" answer does, this is a confirmation of a broken DNS cache or forwarder. The actual DNS information for buggydns1.test-ipv6.com has only an IPv6 record configured."
-msgstr ""
+msgstr "Ersetzen Sie 192.168.1.1 mit dem Resolver, der von Ihrem Rechner verwendet wird. Wenn die \"aaaa\"-Anfrage ohne Antwort zurückkommt, aber die \"a\"-Anfrage mit einer Antwort zurückkommt, ist dies die Bestätigung eines defekten DNS-Cache oder Forwarders. Die tatsächliche DNS-Information für buggydns1.test-ipv6.com ist nur mit einem IPv6-Eintrag konfiguriert."
 
 #: faq_avoids_ipv6.html
 msgid "Your browser is avoiding IPv6."
@@ -2623,7 +2623,7 @@ msgstr "Wie hat der Test einen Tunnel erkannt?"
 
 #: faq_tunnel.html
 msgid "For the technical-oriented readers, here is the explanation how we detect that you are probably using a tunnel. As the test collects your IPv4 and IPv6 addresses, it also collects (thanks to <a href=\"http://www.team-cymru.org/Services/ip-to-asn.html\">http://www.team-cymru.org/Services/ip-to-asn.html</a>) your Autonomous System Numbers (ASN) for IPv4 and IPv6. If your ISP is dual stack, then your IPv4 ASN and your IPv6 ASN should be identical as your IPv4 and IPv6 connectivity are provided by the same ISP."
-msgstr ""
+msgstr "Für die technisch interessierten Leser ist hier die Erklärung, wie wir feststellen, dass Sie wahrscheinlich einen Tunnel verwenden. So, wie der Test Ihre IPv4- und IPv6-Adressen sammelt, sammelt er auch (dank <a href=\"http://www.team-cymru.org/Services/ip-to-asn.html\"> http://www.team-cymru.org/Services/ip-to-asn.html</a>) Ihre AS-Nummern (ASN) für IPv4 und IPv6. Wenn Ihr ISP Dual-Stack ist, sollten auch Ihre IPv4-ASN und Ihre IPv6-ASN identisch sein, da Ihre IPv4 und IPv6-Konnektivität von dem gleichen ISP bereitgestellt wird."
 
 #: faq_tunnel.html
 msgid "If the ASN number is different, we highlight that fact - and call out that you are probably using a tunnel. If this is a tunnel you know about, great. If you did not know you were being tunneled, you might ask your network administrator about it."
