@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2016-01-04 07:30-0500\n"
+"PO-Revision-Date: 2016-01-04 10:37-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Portuguese, Brazilian\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -2485,8 +2485,8 @@ msgid "You can see an illustration of this, by doing:"
 msgstr "Você pode ver uma ilustração disto ao fazer:"
 
 #: faq_buggydns1.html
-msgid "Substitute the 192.168.1.1 with the resolver being used by the host. If the \"aaaa\" answer comes back with no answer, but the \"a\" answer does, this is a confirmation of a broken DNS cache or forwarder. The actual DNS information for buggydns1.test-ipv6.com has only an IPv6 record configured."
-msgstr "Substitua o 192.168.1.1 com o servidor DNS utilizado pela máquina. Se a resposta \"AAAA\" chegar sem conteúdo mas a resposta \"A\" chegar com conteúdo, isto é a confirmação de um DNS cache com problema. A informação DNS para buggydns1.test-ipv6 tem apenas um registro IPv6, na verdade."
+msgid "Substitute the 192.168.1.1 with the resolver being used by the host. If the \"aaaa\" request comes back with no answer, but the \"a\" answer does, this is a confirmation of a broken DNS cache or forwarder. The actual DNS information for buggydns1.test-ipv6.com has only an IPv6 record configured."
+msgstr ""
 
 #: faq_avoids_ipv6.html
 msgid "Your browser is avoiding IPv6."

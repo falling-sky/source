@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2016-01-04 07:30-0500\n"
+"PO-Revision-Date: 2016-01-04 10:37-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Chinese Simplified\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -582,7 +582,7 @@ msgstr "这是最重要的一项测试。它证实您的浏览器是否可以连
 
 #: main/tech.inc
 msgid "If this test fails or times out, you can expect major problems as publishers start offering their sites on IPv6."
-msgstr "如果这项测试失败或超时，发行人开始提供基于IPv6的站点是主要问题之一。"
+msgstr "如果这项测试失败或超时，当网站发布者开始基于IPv6发布网站时，你会遇上大问题"
 
 #: main/tech.inc
 msgid "Validates that you can connect to a dual-stack server (like the ds test); and that you can send/receive large packets on that connection. If this test times out for any reason, it indicates trouble for World IPv6 Day."
@@ -2485,8 +2485,8 @@ msgid "You can see an illustration of this, by doing:"
 msgstr "您可以看到一个例证，只需这样做："
 
 #: faq_buggydns1.html
-msgid "Substitute the 192.168.1.1 with the resolver being used by the host. If the \"aaaa\" answer comes back with no answer, but the \"a\" answer does, this is a confirmation of a broken DNS cache or forwarder. The actual DNS information for buggydns1.test-ipv6.com has only an IPv6 record configured."
-msgstr "用主机正在使用的解析器替换192.168.1.1。如果“aaaa”没有返回回答，但“a”返回了回答，就能确认这是一个故障的DNS缓存或转发。buggydns1.test-ipv6.com实际配置的DNS信息只有一个IPv6记录。"
+msgid "Substitute the 192.168.1.1 with the resolver being used by the host. If the \"aaaa\" request comes back with no answer, but the \"a\" answer does, this is a confirmation of a broken DNS cache or forwarder. The actual DNS information for buggydns1.test-ipv6.com has only an IPv6 record configured."
+msgstr ""
 
 #: faq_avoids_ipv6.html
 msgid "Your browser is avoiding IPv6."
