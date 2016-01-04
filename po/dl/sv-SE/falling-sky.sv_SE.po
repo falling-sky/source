@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2016-01-03 23:51-0500\n"
+"PO-Revision-Date: 2016-01-04 00:30-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Swedish\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -870,7 +870,7 @@ msgstr "För att lösa detta, måste du först identifiera din IPv6-adress (om d
 
 #: broken.html
 msgid "If you find your particular problem is not well represented; or you have additional suggestions; please do leave feedback using the <a href='#' onclick='return GIGO.tabnav(\"mail\");'>form</a> (or contact <a href=\"mailto:jfesler@test-ipv6.com\">jfesler@test-ipv6.com</a>)."
-msgstr "Om du finner att ditt unika problem är inte väl beskrivet; eller om du har ytterligare förslag; Vänligen lämna feedback med hjälp av <a href='#' onclick='return GIGO.tabnav(\"mail\");'>formuläret</a> (eller kontakta <a href=\"mailto:jfesler@test-ipv6.com\">jfesler@test-ipv6.com</a>)."
+msgstr "Om du finner att ditt unika problem är inte väl beskrivet; eller om du har ytterligare förslag; Vänligen lämna återmatning med hjälp av <a href='#' onclick='return GIGO.tabnav(\"mail\");'>formuläret</a> (eller kontakta <a href=\"mailto:jfesler@test-ipv6.com\">jfesler@test-ipv6.com</a>)."
 
 #: broken.html
 msgid "Make sure you are current"
@@ -1122,7 +1122,7 @@ msgstr "Din IPv4-adress kan ha ändrats; du måste meddela tunnelbroker-servern 
 
 #: faq/broken_tunnelbroker.inc
 msgid "If you are using your router to do the 6in4 (sometimes called 6to4 with explicit provider):"
-msgstr ""
+msgstr "Om du använder din router för 6in4 (vissa leverantörer kallar det 6to4):"
 
 #: faq/broken_tunnelbroker.inc
 msgid "Make sure tunnelbroker knows your current IPv4 address. Our site tells you your public IPv4 address."
@@ -1222,7 +1222,7 @@ msgstr "(IPv6-adress: börjar med FC eller FD)"
 
 #: faq/broken_ula.inc
 msgid "If you have an IP address starting with <code>FC</code> or <code>FD</code>, you have what is effectively a private IPv6 address. It might be usable for talking to other devices within your home, or within your company. It also allows you to have a steady IPv6 address inside, even if your public IPv6 address changes regularly."
-msgstr ""
+msgstr "Om du har en IP-adress börjar med <code>FC</code> eller <code>FD</code>, har du en privat IPv6-adress. Det kan vara användbart för att prata med andra enheter i ditt hem eller i ditt företag. Du kan också ha en fast IPv6-adress internt, även om din publika IPv6-adress ändras regelbundet."
 
 #: faq/broken_ula.inc
 msgid "The main problem with ULA is that certain home routers are now offering ULA, *and* giving you a default route. This route is offered regardless of whether or not your router actually has IPv6 connectivity. From your browser's point of view, it doesn't know that your default route goes nowhere; there is no feedback mechanism. Since IPv6 is (roughly speaking) preferred over IPv4, your browser will try using this broken route. It may take minutes before giving up."
@@ -1394,7 +1394,7 @@ msgstr "OS X-användare"
 
 #: faq/broken_disable.inc
 msgid "Before disabling IPv6, please be sure you are running the latest OS version. In particular, OS X 10.6.7 has several workarounds for being \"Broken\". This may solve your problems without resorting to completely disabling IPv6."
-msgstr ""
+msgstr "Innan du inaktiverar IPv6, var noga du kör den senaste OS-versionen. I synnerhet har OS X 10.6.7 flera lösningar för att åtgärda fel med IPv6. Detta kan lösa dina problem utan att helt inaktivera IPv6."
 
 #: faq/broken_disable.inc
 msgid "How to disable IPv6"
@@ -1474,7 +1474,7 @@ msgstr "Q: Varför kan denna webbplats nås via IPv4 endast?"
 
 #: faq.html
 msgid "You're right, there are no AAAA records, intentionally. A percentage of users are unable to browse sites that are dual-stack. If the users can't connect, then they can't be told they have a problem. This is a big problem facing content providers today; of which, I work at one for my &#36;dayjob. As such, the main test page requires IPv4 (either native or translated)."
-msgstr ""
+msgstr "Du har rätt, det finns inga AAAA-poster, avsiktligt. En del användare kan inte surfa webbplatser som använder dual-stack. Om användarna inte kan ansluta, kan de inte bli informerade om att de har bekymmer. Detta är ett stort problem för innehållsleverantörer idag; som jag jobbar med dagligen. Pga detta kräver huvudsidan IPv4 (riktig eller översatt)."
 
 #: faq.html
 msgid "At some point, when the percentage of \"broken\" users has gone significantly down, I'll consider making test-ipv6.com dual-stack. At least check, May 2013, we still see 0.5% broken visiting test-ipv6.com. And we still want them to understand their situation."
@@ -1550,7 +1550,7 @@ msgstr "för IPv6"
 
 #: faq.html
 msgid "for either"
-msgstr "för antingen"
+msgstr "för endera"
 
 #: faq.html
 msgid "Note you _may_ need to specify other options to your telnet command, depending on your operating system. On my mac, for example, I need to use \"<code>telnet -6</code>\"."
@@ -1558,7 +1558,7 @@ msgstr "Observera, du _kan_ behöva ange andra alternativ till ditt telnet-komma
 
 #: faq.html
 msgid "Q: Do you actually read the feedback?"
-msgstr "Q: Läser du ens feedbacken?"
+msgstr "Q: Läser du ens återmatningen?"
 
 #: faq.html
 msgid "Yes, I do. Thank you! Note that I can only follow up with you if you do leave contact information. While I am still grateful for feedback without contact information, I will be unable to reply with any answers if you asked for them."
@@ -1798,7 +1798,7 @@ msgstr ""
 
 #: faq_6to4.html
 msgid "For some people, reducing the MTU size on IPv6 will help. 1280 is the minimum legal size. You can try values between 1400 to 1480 if you really want to find the one magic value that seems to work for you; but if you do touch MTU at all I'd recommend just doing 1280, and avoid later frustration."
-msgstr ""
+msgstr "För vissa hjälper det att minska MTU-storleken på IPv6. 1280 är den minsta giltiga storleken. Du kan prova värden mellan 1400 till 1480 om du verkligen vill hitta en magiska värdet som fungerar för dig; men om du rör MTU överhuvudtaget skulle jag rekommendera att välja 1280, och undvika senare frustration."
 
 #: faq_6to4.html
 msgid "Managed tunnels"
