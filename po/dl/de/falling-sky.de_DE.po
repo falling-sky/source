@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2016-01-04 16:57-0500\n"
+"PO-Revision-Date: 2016-01-04 17:45-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: German\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -1755,7 +1755,7 @@ msgstr "Mit herkömmlichen IPv4 Internetverbindungen fließt Verkehr von Ihnen z
 
 #: faq_6to4.html
 msgid "With unmanaged 6to4 connections (created \"automatically\" or without explicit gateway information) the process is a fair bit different. IPv6 is put into an IPv4 packet - much like sticking a letter in an envelope. This packet is sent to the \"nearest available\" gateway. Your ISP<i>may</i> run one of these; most do not. Chances are the one you use, will be run by a good samaritan who's trying to contribute to the community. This relay will take the IPV6 from inside your IPv4 packet, and then forward it over the IPV6 Internet."
-msgstr ""
+msgstr "Bei unverwalteten 6to4-Verbindungen (entweder \"automatisch\" erstellt, oder ohne explizite Gateway-Information) ist der Vorgang etwas anders. IPv6 wird in ein IPv4-Paket gepackt - so ähnlich, wie einen Brief in einen Umschlag zu packen. Dieses Paket wird zum \"nächsten erreichbaren\" Gateway geschickt. Ihr ISP <i>kann</i> ein solches Gateway bereitstellen, die meisten machen es nicht. Wahrscheinlich wird dasjenige Gateway, welches Sie nutzen, durch einen Freiwilligen betrieben, der der Gemeinschaft helfen will. Dieses Gateway wird IPv6 aus dem IPv4-Paket nehmen und es dann über das IPv6-Internet weiterleiten."
 
 #: faq_6to4.html
 msgid "Traffic from the web site takes a similiar path. That web site replies back to your automatic IPv6 address. This is routed to the nearest 6to4 relay to that web site. This is not deterministic from your part, at all. In fact, you won't even be able to tell where this relay is. That relay will take the IPv6 packet, stick it inside an IPv4 packet, and then send to your router."
@@ -1883,7 +1883,7 @@ msgstr "Die Benutzung von automatischen Tunneln wird nicht empfohlen."
 
 #: faq/brokers.inc
 msgid "[see more]"
-msgstr ""
+msgstr "[Details]"
 
 #: faq_ipv4_only.html
 msgid "If you are not savvy with technology, here is more generic information:"
@@ -2139,7 +2139,7 @@ msgstr "Warum IPv6?"
 
 #: faq_whyipv6.html
 msgid "This is an interesting question. IPv6 buys you only a bit more than you already have today; and most of that is a promise. IPv6 will help you preserve the level of Internet connectivity between your home and other locations on the Internet, without interference, as you enjoyed in 2012."
-msgstr ""
+msgstr "Das ist eine interessante Frage. IPv6 hat nur ein paar Vorteile gegenüber dem, was Sie heutzutage haben, und der Nutzen davon ist ungewiß. IPv6 hilft Ihnen, das Niveau der Internetkonnektivität zwischen zu Hause und anderen Internetstandorten wie 2012 zu halten."
 
 #: faq_whyipv6.html
 msgid "The promise is the ability to give every device in your house a reachable network address. Each house will have practically unlimited network addresses (2<sup>64</sup> if you're curious - about 18 billion billions). Each house may potentially have more than that, particularly if they have the need for multiple networks within the home. Many ISPs will be able to easy give you 256 of those networks. <em>Running out of IPv6 address space will seem impossible for decades.</em>"
@@ -2155,11 +2155,11 @@ msgstr "Was ist falsch mit IPv4"
 
 #: faq_whyipv6.html
 msgid "The traditional IPv4 Internet is running out of space. The IANA registry (at the global level) is either just about out, or totally out, depending on when you read this. They are expected to announce this depletion Janaury or February 2011."
-msgstr ""
+msgstr "Dem traditionellen IPv4-Internet geht der Platz aus. Die IANA-Registrierungsdatenbank (auf globaler Ebene) ist entweder kurz davor, voll zu sein, oder ist bereits voll, je nachdem, wann Sie dies lesen. Es wird erwartet, daß dieser Punkt Januar oder Februar 2011 erreicht ist."
 
 #: faq_whyipv6.html
 msgid "As Internet service providers each run out of the space they have been allocated, they will have to find creative ways to help keep taking on new customers. Those customers will still need access to the IPv4 Internet."
-msgstr ""
+msgstr "Da die jedem Internet Service Provider zugewiesene Adreßkapazität immer mehr aufgebraucht wird, werden sie kreative Wege finden müssen, weiterhin Neukunden anzuschalten. Diese Kunden werden weiterhin Zugang zum IPv4-Internet benötigen."
 
 #: faq_whyipv6.html
 msgid "Q: I heard there are millions of addresses left. Take it back from the companies not using it! Use the Class E space! (etc)."
@@ -2167,7 +2167,7 @@ msgstr "Q: Ich habe gehört, dass noch Millionen von Adressen übrig sind. Holt 
 
 #: faq_whyipv6.html
 msgid "Those have been looked at. The space is relatively small, given the rate that the world is consuming it now. Forcefully taking back space would require more time in the court systems than it would buy back. Other currently reserved space is too difficult to use - it would require replacing most of the routers in the world to do so."
-msgstr ""
+msgstr "Diese sind betrachtet worden. Der Raum ist relativ klein im Vergleich zu der Rate, die die Welt Adressen verbraucht. Adreßraum zwangsweise zurückzufordern würde mehr Zeit in einem Rechtsstreit erfordern, als man damit gewinnen kann. Anderer, derzeit reservierter Bereich ist zu schwer zu benutzen - das würde erfordern, daß dafür fast jeder Router auf der Welt ausgetauscht werden müßte."
 
 #: faq_whyipv6.html
 msgid "Q: What creative ways will ISPs keep IPv4 running?"
@@ -2175,7 +2175,7 @@ msgstr "Q: Mit welchen kreativen Möglichkeiten versuchen IPS's \"IPv4\" am Lebe
 
 #: faq_whyipv6.html
 msgid "Most commonly, some form of NAT. NAT is a form of address sharing; think of it as a party line from the earlier days of the telephone. You'll be able to make outgoing connections easy enough, as long as your shared IP address is not too busy."
-msgstr ""
+msgstr "Meistens mit irgendeiner Art Netzwerkadreßübersetzung (Network Address Translation, NAT). NAT ist eine Art \"Adressen teilen\"; man kann es mit einem Gemeinschaftsanschluß in den frühen Tagen des Telefons vergleichen. Man kann ausgehende Verbindungen recht einfach machen, so lange die gemeinsam genutzte IP-Adresse nicht zu ausgelastet ist."
 
 #: faq_whyipv6.html
 msgid "Note this is in addition to any NAT you do at home."
@@ -2187,7 +2187,7 @@ msgstr "F: Also, warum sollte ich mir Sorgen machen? NAT wird funktionieren, nic
 
 #: faq_whyipv6.html
 msgid "Sort of. Basic web browsing should be OK for most sites. Some map sites, the itunes store, and other sites that use a <em>huge</em> number of connections to rapidly load the page, may start showing blank images, depending on how many people share that public IP address."
-msgstr ""
+msgstr "So halbwegs. Einfaches Webbrowsing sollte für die meisten Seiten funktionieren. Einige Kartendienste, der itunes store, und andere Dienst, die eine <em>sehr grosse</em> Anzahl von Verbindungen aufbauen, um die Seite schnell zu laden, könnten Anfagen, leere Bilder zu zeigen, abhängig davon, wie viele Leute sich die öffentliche IP-Adresse teilen."
 
 #: faq_whyipv6.html
 msgid "Mail will still work, both traditional as well as web based."
@@ -2511,15 +2511,15 @@ msgstr "Dieses Dokument erklärt, warum es uns Sorgen macht, wenn IPv4 gegenübe
 
 #: faq_avoids_ipv6.html
 msgid "This section applies only when we offered to show you this page from inside the test."
-msgstr ""
+msgstr "Dieser Abschnitt gilt nur dann, wenn wir Ihnen angeboten haben, dass diese Seite von innerhalb des Tests angezeigt werden soll."
 
 #: faq_avoids_ipv6.html
 msgid "First of all, we detected you had a working IPv6 connection. We also found that your IPv6 connection, was using a \"real\" IPv6 address; meaning not a Teredo or a 6to4 address."
-msgstr ""
+msgstr "Zu allererst haben wir festgestellt, daß Sie eine funktionierende IPv6-Verbindung hatten. Wir haben ebenfalls herausgefunden, daß Ihre IPv6-Verbindung eine \"reale\" IPv6-Adresse genutzt hatte; also keine Teredo- oder 6to4-Adresse war."
 
 #: faq_avoids_ipv6.html
 msgid "Second, we detected that when given the choice, your browser decided it would prefer to use IPv4 instead of IPv6. This has some concerns for us."
-msgstr ""
+msgstr "Zweitens haben wir festgestellt, daß Ihr Browser IPv4 gegenüber IPv6 bevorzugt hatte, wenn er die Wahl hatte. Das macht uns Sorgen."
 
 #: faq_avoids_ipv6.html
 msgid "Causes for preferring IPv4"
@@ -2527,11 +2527,11 @@ msgstr "Ursachen für die Bevorzugung von IPv4"
 
 #: faq_avoids_ipv6.html
 msgid "There are several possible reasons why a browser might prefer IPv4 instead of IPv6."
-msgstr ""
+msgstr "Es gibt einige mögliche Gründe, warum ein Browser IPv4 gegenüber IPv6 bevorzugen könnte:"
 
 #: faq_avoids_ipv6.html
 msgid "Google's \"Chrome\" has a \"fast fallback\" mechanism. On the first try to a site, it will prefer IPv6. If connections take longer than a third of a second, IPv4 is attempted in parallel; and the better of the two will be used for that site."
-msgstr ""
+msgstr "\"Chrome\" von Google hat einen \"schnellen Rückfallmechanismus\". Beim ersten Versuch, einen Server zu erreichen, wird IPv6 bevorzugt. Wenn die Verbindung länger als eine Drittelsekunde benötigt, wird IPv4 parallel dazu versucht, und die bessere Verbindung wird für diesen Server weitergenutzt."
 
 #: faq_avoids_ipv6.html
 msgid "(more info)"
