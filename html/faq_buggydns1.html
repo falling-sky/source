@@ -43,7 +43,7 @@ dig aaaa buggydns1.test-ipv6.com  @192.168.1.1
 dig a buggydns1.test-ipv6.com @192.168.1.1
 </code></pre>
 
-<p>[% " Substitute the 192.168.1.1 with the resolver being used by the host. If the \"aaaa\" answer comes back with no answer, but the \"a\" answer does, this is a confirmation of a broken DNS cache or forwarder.  The actual DNS information for buggydns1.test-ipv6.com has only an IPv6 record configured. " | i18n %]</p>
+<p>[% " Substitute the 192.168.1.1 with the resolver being used by the host. If the \"aaaa\" request comes back with no answer, but the \"a\" answer does, this is a confirmation of a broken DNS cache or forwarder.  The actual DNS information for buggydns1.test-ipv6.com has only an IPv6 record configured. " | i18n %]</p>
 
 
 

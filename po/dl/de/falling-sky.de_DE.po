@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2016-01-04 00:00-0500\n"
+"PO-Revision-Date: 2016-01-04 10:26-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: German\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -303,7 +303,7 @@ msgstr "Ihr IPv6 Anbieter ist höchstwahrscheinlich"
 
 #: builtin.js
 msgid "Your Internet Service Provider (ISP) appears to be"
-msgstr "Ihr Internet Service Provider (ISP) scheint"
+msgstr "Ihr Internet Service Provider (ISP) scheint zu sein:"
 
 #: builtin.js
 msgid "Started"
@@ -351,7 +351,7 @@ msgstr "für Ihre IPv6 Stabilität und Bereitschaft, wenn Inhalte nur via IPv6 v
 
 #: builtin.js
 msgid "Click to see"
-msgstr "Hier Klicken"
+msgstr "Hier klicken für"
 
 #: builtin.js
 msgid "test data"
@@ -783,7 +783,7 @@ msgstr "Wählen Sie eine Sprache aus, um zu dieser zu wechseln."
 
 #: locale.html
 msgid "Translators and proof readers welcome."
-msgstr "Übersetzer und Fehlerleser sind willkommen."
+msgstr "Übersetzer und Korrekturleser sind willkommen."
 
 #: locale.html
 msgid "See <a href='https://github.com/falling-sky/source/wiki/LocalizationPlan'>Info</a>; and our <a href='https://crowdin.net/project/falling-sky'>'CrowdIn'</a> project page."
@@ -2459,7 +2459,7 @@ msgstr "Nun, was ist eigentlich betroffen?"
 
 #: faq_buggydns1.html
 msgid "You'll need to determine what device is forwarding your DNS queries."
-msgstr "Sie müssen ermitteln welches Gerät Ihre DNS-Abfragen weiterleitet."
+msgstr "Sie müssen ermitteln, welches Gerät Ihre DNS-Abfragen weiterleitet."
 
 #: faq_buggydns1.html
 msgid "With Windows, at the <code>cmd</code> prompt, you can type <code>ipconfig /all</code>. Look for \"<code>DNS Servers</code>\"."
@@ -2487,7 +2487,7 @@ msgstr ""
 
 #: faq_buggydns1.html
 msgid "Substitute the 192.168.1.1 with the resolver being used by the host. If the \"aaaa\" answer comes back with no answer, but the \"a\" answer does, this is a confirmation of a broken DNS cache or forwarder. The actual DNS information for buggydns1.test-ipv6.com has only an IPv6 record configured."
-msgstr ""
+msgstr "Ersetzen Sie 192.168.1.1 mit dem Resolver, der vom Rechner verwendet wird. Wenn die \"aaaa\"-Anfrage ohne Antwort zurückkommt, aber die \"a\"-Anfrage mit einer Antwort zurückkommt, ist dies die Bestätigung eines defekten DNS-Cache oder Forwarders. Die tatsächliche DNS-Information für buggydns1.test-ipv6.com ist nur mit einem IPv6-Eintrag konfiguriert."
 
 #: faq_avoids_ipv6.html
 msgid "Your browser is avoiding IPv6."
@@ -2507,7 +2507,7 @@ msgstr "Warum uns das Sorgen macht"
 
 #: faq_avoids_ipv6.html
 msgid "This document explains why we worry when IPv4 is preferred over IPv6."
-msgstr ""
+msgstr "Dieses Dokument erklärt, warum es uns Sorgen macht, wenn IPv4 gegenüber IPv6 bevorzugt wird."
 
 #: faq_avoids_ipv6.html
 msgid "This section applies only when we offered to show you this page from inside the test."
@@ -2547,7 +2547,7 @@ msgstr "Die neuesten Updates für Windows 7 und Windows 8 werden regelmäßig te
 
 #: faq_avoids_ipv6.html
 msgid "Apple's latest Lion and Mountain Lion updates will prefer whichever is \"faster\" for a given destination."
-msgstr "Apples neueste Updates für Lion und Mountain Lion bevorzugen immer die Methode welche am schnellsten zum Ziel führt."
+msgstr "Apples neueste Updates für Lion und Mountain Lion bevorzugen immer die Methode, welche am schnellsten zum Ziel führt."
 
 #: faq_avoids_ipv6.html
 msgid "When you use the Internet, a connection is made between your computer, and the service you're connecting to. To connect, you have to have the other side's IP - Internet Protocol - number. And, when you connect, they see yours, so they can send traffic back to you and your applications."
@@ -2583,7 +2583,7 @@ msgstr ""
 
 #: faq_avoids_ipv6.html
 msgid "Sites that determine your location automatically, will get this wrong more frequently when you share an IPv4 address with people in other cities."
-msgstr ""
+msgstr "Webseiten, die Ihren Standort automatisch bestimmen, werden dies häufiger falsch machen, wenn Sie eine IPv4-Adresse mit Leuten in anderen Städten teilen."
 
 #: faq_avoids_ipv6.html
 msgid "The box that shares an address between you and the other hundreds of houses, may become performance constrained (cpu, network, TCP ports)"
@@ -2603,15 +2603,15 @@ msgstr "Was ist ein Tunnel?"
 
 #: tunnel.inc
 msgid "A tunnel is a technique often used to transport one protocol over another one. For example, it is used by ADSL to transport PPP over ATM (a common technique for several Internet residential subscribers)."
-msgstr ""
+msgstr "Ein Tunnel ist eine Technik, die oft dazu benutzt wird, ein Protokoll über ein anderes zu transportieren. Zum Beispiel wird bei ADSL ein Tunnel genutzt, um PPP über ATM zu transportieren (eine weitverbreitete Technik für viele Privatkunden-Internetanschlüsse)."
 
 #: tunnel.inc
 msgid "In the realm of IPv6, tunnels are used to transport:"
-msgstr ""
+msgstr "Bezüglich IPv6 werden Tunnel oft für folgende Anwendungsfälle genutzt:"
 
 #: tunnel.inc
 msgid "IPv6 packets over IPv4 network: then IPv4-only Internet users can reach the IPv6 Internet;"
-msgstr ""
+msgstr "Transport von IPv6-Paketen über ein IPv4-Netzwerk: damit können Kunden, die nur IPv4 haben, den IPv6-Teil des Internets erreichen."
 
 #: tunnel.inc
 msgid "IPv4 packets over IPv6 network: then IPv6-only Internet users can reach the IPv4 Internet."
@@ -2639,7 +2639,7 @@ msgstr "Was ist speziell für 6RD-Tunnel?"
 
 #: faq_tunnel_6rd.html
 msgid "6RD tunnels have been designed by the IETF as <a href=\"http://tools.ietf.org/html/rfc5969\">RFC 5969</a> to be deployed within an ISP access network and by the ISP itself to transport IPv6 over a legacy IPv4 access network. As the tunnel is confined with a single ISP, it is therefore managed in such a way to provide performances as good in IPv6 as in IPv4 (except perhaps for the largest packet size, a.k.a. MTU)."
-msgstr ""
+msgstr "6RD-Tunnel wurden durch die IETF als <a href=\"http://tools.ietf.org/html/rfc5969\">RFC 5969</a> entwickelt, um in einem ISP-Zugangsnetz und im ISP selbst IPv6 über ein bestehendes IPv4-Zugangsnetzwerk zu transportieren. Da der Tunnel auf die Nutzung innerhalb des ISPs beschränkt ist, wird er deshalb so verwaltet, dass er für IPv4 und IPv6 die gleiche Performance bringt (ausser ggf. für die maximale Paketgröße, MTU)."
 
 #: faq_tunnel_6rd.html
 msgid "In short, a 6RD tunnel provides you with native IPv6 connectivity."
