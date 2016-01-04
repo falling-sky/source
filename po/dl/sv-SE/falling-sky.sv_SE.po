@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2016-01-01 22:45-0500\n"
+"PO-Revision-Date: 2016-01-03 23:51-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Swedish\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -30,7 +30,7 @@ msgstr "långsam"
 
 #: messages.js
 msgid "timeout"
-msgstr "timeout"
+msgstr "tidsfristen har löpt ut"
 
 #: messages.js
 msgid "Connections to urls with IP addresses appear to be blocked; perhaps by a web filter such as 'NoScript' or 'RequestPolicy' installed into your browser, or filtering in your proxy server. This limits some of the functionality of this test site."
@@ -778,7 +778,7 @@ msgstr "Tillgängliga språk"
 
 #: locale.html
 msgid "Pick one of the following to switch to that language."
-msgstr "Välj en av följande för att växla till det språket."
+msgstr "Växla språk genom att klicka nedan."
 
 #: locale.html
 msgid "Translators and proof readers welcome."
@@ -794,7 +794,7 @@ msgstr "Helpdeskinformation"
 
 #: faq_helpdesk.html
 msgid "Q: What is the Help Desk tab for?"
-msgstr "F: Vad är fliken Helpdesk?"
+msgstr "Q: Vad är fliken Helpdesk?"
 
 #: faq_helpdesk.html
 msgid "This tab is intended to help provide a brief, concise explanation of your connectivity. This can be read over the phone, if needed, to a service provider. This tab has less hand-holding; it is intended for a help desk to understand (as compared to an end user)."
@@ -1562,7 +1562,7 @@ msgstr "Q: Läser du ens feedbacken?"
 
 #: faq.html
 msgid "Yes, I do. Thank you! Note that I can only follow up with you if you do leave contact information. While I am still grateful for feedback without contact information, I will be unable to reply with any answers if you asked for them."
-msgstr ""
+msgstr "Ja det gör jag. Tack! Observera att jag kan bara kontakta dig om du lämnar kontaktuppgifter. Jag är tacksam för återmatning utan kontaktinformation, men jag kommer inte kunna ge några svar på frågor."
 
 #: faq.html
 msgid "Q: How else can I contact you?"
@@ -1882,7 +1882,7 @@ msgstr "Användning av automatiska tunnlar rekommenderas inte"
 
 #: faq/brokers.inc
 msgid "[see more]"
-msgstr ""
+msgstr "[se mer]"
 
 #: faq_ipv4_only.html
 msgid "If you are not savvy with technology, here is more generic information:"
@@ -2242,7 +2242,7 @@ msgstr "Windows Vista, Windows 7: Klarar IPv6. XP-användare: kan fås att funge
 
 #: faq_whyipv6.html
 msgid "Mac OS X: All supported versions of OS X (since Tiger, 10.4) have IPv6."
-msgstr ""
+msgstr "Mac OS X: Alla versioner av OS X (sedan Tiger, 10.4) har IPv6."
 
 #: faq_whyipv6.html
 msgid "Linux, BSD, and other unix like systems generally all have IPv6."
@@ -2254,11 +2254,11 @@ msgstr "Q: Måste jag byta ut min hårdvara?"
 
 #: faq_whyipv6.html
 msgid "Your PC: Only if the OS upgrade you do requires it."
-msgstr ""
+msgstr "Din dator: Endast om den OS-uppgradering du gör kräver det."
 
 #: faq_whyipv6.html
 msgid "Your ethernet switch / hub: No. It is unaware of IP; it works at a lower level on the local network."
-msgstr ""
+msgstr "Din ethernetswitch/hub: Nej, den är omedveten om IP; det fungerar på en lägre nivå (OSI lager 2) i det lokala nätverket."
 
 #: faq_whyipv6.html
 msgid "Your router: Quite possibly. Many home routers have no upgrade path for IPv6. Do a web search for your router mode, with the keyword \"ipv6\" with it."
@@ -2266,7 +2266,7 @@ msgstr "Din router: Möjligen. Till många routrar för hemmabruk kommer det int
 
 #: faq_whyipv6.html
 msgid "Your router: Quite possibly. Many home routers have no upgrade path for IPv6. Do a web search for your router model, with the keyword \"ipv6\" with it."
-msgstr ""
+msgstr "Din router: Möjligen. Till många routrar för hemmabruk kommer det inte finnas någon uppgradering till IPv6. Sök på webben efter din routermodell med ordet \"ipv6\"."
 
 #: faq_whyipv6.html
 msgid "<b>What router to buy:</b> Wait until your ISP gives you guidance on what will work best with their system. If you must replace your router immediately, look for ones that are IPv6 capable. Apple Airport Express and Airport Extreme have built in tunneling capabilities. OpenWRT capable routers also do (when loaded with the OpenWRT firmware). If you do consider tunnels, see my <a href=\"#\" onclick=\"return help_page('faq_6to4.html','6to4')\">6to4 comments</a>."
@@ -2354,11 +2354,11 @@ msgstr ""
 
 #: faq_pmtud.html
 msgid "The preferred fix is to permit ICMPv6 Type 2 Packet Too Big messages."
-msgstr ""
+msgstr "Den rekommenderad åtgärden är att tillåta ICMPv6 Type 2 Packet Too Big-meddelanden."
 
 #: faq_pmtud.html
 msgid "Your router or firewall may be blocking these."
-msgstr ""
+msgstr "Din router eller brandvägg kanske blockerar dessa."
 
 #: faq_pmtud.html
 msgid "If you have \"native\" IPv6, meaning your ISP gave you your IPv6 connectivity, and you are still running into MTU problems, see if your router can advertise a smaller IPv6 MTU. Alternately, configure your <b>entire LAN</b> for a smaller MTU (not really advised!)"
