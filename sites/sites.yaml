@@ -393,6 +393,7 @@ test-ipv6-ct.comcast.net:
   hide: 0
   loc: US
   mirror: 1
+  transparent: 1
   provider: Comcast
   v4: http://ipv4.test-ipv6-ct.comcast.net/images-nc/knob_green.png
   v6: http://ipv6.test-ipv6-ct.comcast.net/images-nc/knob_green.png
@@ -401,6 +402,7 @@ test-ipv6-pa.comcast.net:
   hide: 0
   loc: US
   mirror: 1
+  transparent: 1
   provider: Comcast
   v4: http://ipv4.test-ipv6-pa.comcast.net/images-nc/knob_green.png
   v6: http://ipv6.test-ipv6-pa.comcast.net/images-nc/knob_green.png
@@ -433,11 +435,12 @@ www.heise.de:
   v6: http://www.six.heise.de/icons/ho/heise.gif
   monitor: "Johannes Endres, c't <je@heise.de>"
 www.mozilla.org: 
-  hide: 0
+  hide: 1
   loc: US (AZ)
   provider: Mozilla Foundation
   v4: http://ipv4.mozilla.org/firefox.png
   v6: http://ipv6.mozilla.org/World_IPv6_launch_logo_128.png
+  reason: https://bugzilla.mozilla.org/show_bug.cgi?id=1229837
 www.rcs-rds.ro: 
   hide: 0
   loc: RO
@@ -520,3 +523,24 @@ www.rascom.ru:
   provider: RASCOM
   v4: http://wood.rascom.ru/ipv4.jpg
   v6: http://wood6.rascom.ru/logo2.png
+test-ipv6.ernet.in:
+  loc: IN
+  mirror: 1
+  provider: IPv6 Division of ERNET India
+  v4: http://ipv4.test-ipv6.ernet.in/images-nc/knob_green.png
+  v6: http://ipv6.test-ipv6.ernet.in/images-nc/knob_green.png
+  monitor: 'Praveen Misra <praveen@ipv6.ernet.in>'
+www.duiadns.net:
+  loc: NL
+  mirror: 0
+  provider: Duiadns
+  v4: http://ipv4.duiadns.net/1x1.gif
+  v6: http://ipv6.duiadns.net/1x1.gif
+  monitor: 'Liviu Pislaru <liviu.pislaru@duiadns.net>'
+www.radioradicale.it:
+  loc: IT
+  mirror: 0
+  provider: Centro di Produzione Spa - AS57329
+  v4: http://ipv4.radioradicale.it/sites/www.radioradicale.it/files/pagine/2015/12/ipv6.png
+  v6: http://ipv6.radioradicale.it/sites/www.radioradicale.it/files/pagine/2015/12/ipv6.png
+  monitor: 'Dario Centofanti <dario@popinga.net>'

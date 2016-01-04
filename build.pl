@@ -225,13 +225,19 @@ sub start_locale {
 
 sub scan_locale {
     my ($locale) = shift;
-    my $pot      = $fsi18n{"pot"};
+    my $pot      = $fsi18n{"en_US"};
     my $i18n     = $fsi18n{$locale};
-    my ( $percent, $changed, $outof ) = $i18n->translated();
-    $VARS->{TRANSLATED}{$locale} = $percent;
-    print "Locale $locale translated: $percent\%\n";
-
+    
+    if ($locale eq "en_US") {
+       $VARS->{TRANSLATED}{$locale} = 100;
+    } else {
+      $DB::single=1;
+      my ( $percent, $changed, $outof ) = $i18n->translated();
+      $VARS->{TRANSLATED}{$locale} = $percent;
+      print "Locale $locale translated: $percent\% ($changed out of $outof)\n";
+    }
 }
+
 
 sub run_pot {
     my $locale = shift;

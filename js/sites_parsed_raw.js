@@ -131,6 +131,7 @@
       "monitor" : "Comcast IPv6 Team <comcast-ipv6@cable.comcast.com>",
       "provider" : "Comcast",
       "site" : "test-ipv6-ct.comcast.net",
+      "transparent" : "1",
       "v4" : "http://ipv4.test-ipv6-ct.comcast.net/images-nc/knob_green.png",
       "v6" : "http://ipv6.test-ipv6-ct.comcast.net/images-nc/knob_green.png"
    },
@@ -141,6 +142,7 @@
       "monitor" : "Comcast IPv6 Team <comcast-ipv6@cable.comcast.com>",
       "provider" : "Comcast",
       "site" : "test-ipv6-pa.comcast.net",
+      "transparent" : "1",
       "v4" : "http://ipv4.test-ipv6-pa.comcast.net/images-nc/knob_green.png",
       "v6" : "http://ipv6.test-ipv6-pa.comcast.net/images-nc/knob_green.png"
    },
@@ -251,6 +253,15 @@
       "site" : "test-ipv6.cz",
       "v4" : "http://ipv4.test-ipv6.cz/images-nc/knob_green.png",
       "v6" : "http://ipv6.test-ipv6.cz/images-nc/knob_green.png"
+   },
+   "test-ipv6.ernet.in" : {
+      "loc" : "IN",
+      "mirror" : "1",
+      "monitor" : "Praveen Misra <praveen@ipv6.ernet.in>",
+      "provider" : "IPv6 Division of ERNET India",
+      "site" : "test-ipv6.ernet.in",
+      "v4" : "http://ipv4.test-ipv6.ernet.in/images-nc/knob_green.png",
+      "v6" : "http://ipv6.test-ipv6.ernet.in/images-nc/knob_green.png"
    },
    "test-ipv6.fratec.net" : {
       "hide" : "0",
@@ -477,6 +488,15 @@
       "v4" : "http://ipv4only.ctbc.net.br/ctbc/pixel.gif",
       "v6" : "http://ipv6only.ctbc.net.br/ctbc/pixel.gif"
    },
+   "www.duiadns.net" : {
+      "loc" : "NL",
+      "mirror" : "0",
+      "monitor" : "Liviu Pislaru <liviu.pislaru@duiadns.net>",
+      "provider" : "Duiadns",
+      "site" : "www.duiadns.net",
+      "v4" : "http://ipv4.duiadns.net/1x1.gif",
+      "v6" : "http://ipv6.duiadns.net/1x1.gif"
+   },
    "www.excathedra.co" : {
       "hide" : "0",
       "loc" : "UK",
@@ -495,13 +515,14 @@
       "v4" : "http://www.four.heise.de/icons/ho/heise.gif",
       "v6" : "http://www.six.heise.de/icons/ho/heise.gif"
    },
-   "www.mozilla.org" : {
-      "hide" : "0",
-      "loc" : "US (AZ)",
-      "provider" : "Mozilla Foundation",
-      "site" : "www.mozilla.org",
-      "v4" : "http://ipv4.mozilla.org/firefox.png",
-      "v6" : "http://ipv6.mozilla.org/World_IPv6_launch_logo_128.png"
+   "www.radioradicale.it" : {
+      "loc" : "IT",
+      "mirror" : "0",
+      "monitor" : "Dario Centofanti <dario@popinga.net>",
+      "provider" : "Centro di Produzione Spa - AS57329",
+      "site" : "www.radioradicale.it",
+      "v4" : "http://ipv4.radioradicale.it/sites/www.radioradicale.it/files/pagine/2015/12/ipv6.png",
+      "v6" : "http://ipv6.radioradicale.it/sites/www.radioradicale.it/files/pagine/2015/12/ipv6.png"
    },
    "www.rascom.ru" : {
       "loc" : "RU",

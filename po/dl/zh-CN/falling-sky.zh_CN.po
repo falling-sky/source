@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-10-31 13:45-0400\n"
+"PO-Revision-Date: 2015-12-30 15:30-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Chinese Simplified\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -185,7 +185,7 @@ msgid "<b>Our tests show that you will have a broken or misconfigured IPv6 setup
 msgstr "<b>我们的测试表明您的IPv6设置存在问题，这将导致您不能正确访问使用了IPv6技术的网站。</b>"
 
 #: messages.js
-msgid "<b>Our tests show that you will may have MTU problems with IPv6; this can cause web sites to load slow (or not at all) when web sites enable IPv6.</b>"
+msgid "<b>Our tests show that you may have MTU problems with IPv6; this can cause web sites to load slow (or not at all) when web sites enable IPv6.</b>"
 msgstr "<b>我们的测试显示您将可能遇到IPv6上的MTU问题；当网站启动IPv6时，这可能会导致网站加载慢（也可能不会）。</b>"
 
 #: messages.js
@@ -779,6 +779,14 @@ msgstr "可用语言"
 #: locale.html
 msgid "Pick one of the following to switch to that language."
 msgstr "您可以选择切换到下列语言。"
+
+#: locale.html
+msgid "Translators and proof readers welcome."
+msgstr "欢迎翻译和校对人员参与。"
+
+#: locale.html
+msgid "See <a href='https://github.com/falling-sky/source/wiki/LocalizationPlan'>Info</a>; and our <a href='https://crowdin.net/project/falling-sky'>'CrowdIn'</a> project page."
+msgstr "查看<a href='https://github.com/falling-sky/source/wiki/LocalizationPlan'>相关信息</a>；以及我们的<a href='https://crowdin.net/project/falling-sky'>'CrowdIn'</a>项目页面。"
 
 #: faq_helpdesk.html
 msgid "Help Desk Information"
@@ -1602,7 +1610,7 @@ msgstr "浏览器过滤器意味着“A”和“AAAA”测试都失败。是由�
 
 #: stats.html
 msgid "Brokeness goes down, when volume goes up. This is due to having a wider sample of average people (versus people explicitly testing a new IPv6 setup)."
-msgstr "Brokeness goes down, when volume goes up. This is due to having a wider sample of average people (versus people explicitly testing a new IPv6 setup)."
+msgstr ""
 
 #: stats.html
 msgid "These graphs show the last 60 days of activity at <span lookup=site.name>site</span>"
@@ -1786,7 +1794,7 @@ msgstr "因为这个最大尺寸，您的IPv6数据包实际上必须坐垫小�
 
 #: faq_6to4.html
 msgid "Further down the line, there may be another network with even tigher restrictions on the packet size. That network may itself be a tunnel - ISPs occasionally have to do that. This is where the problem often - lies. The IPv4 tunnel will send a message back towards you, - indicating that the packet was too big - but you don't get it. Even - if you do, your IPv6 packets don't get the message, so ultimately - you never reduce your packet size."
-msgstr "Further down the line, there may be another network with even tigher restrictions on the packet size. That network may itself be a tunnel - ISPs occasionally have to do that. This is where the problem often - lies. The IPv4 tunnel will send a message back towards you, - indicating that the packet was too big - but you don't get it. Even - if you do, your IPv6 packets don't get the message, so ultimately - you never reduce your packet size."
+msgstr ""
 
 #: faq_6to4.html
 msgid "For some people, reducing the MTU size on IPv6 will help. 1280 is the minimum legal size. You can try values between 1400 to 1480 if you really want to find the one magic value that seems to work for you; but if you do touch MTU at all I'd recommend just doing 1280, and avoid later frustration."
@@ -1810,23 +1818,23 @@ msgstr "test-ipv6.com的建议是，如果你在你的ISP能够提供IPv6之前�
 
 #: faq_6to4.html
 msgid "Ran by Hurricane Electric. The author of test-ipv6.com has used their services for 2-3 years; and would notice latency problems (lots of interactive SSH use from home to the server). This service requires a static IPv4 address (or static enough - you can always go to the tunnelbroker.net site and update your IP). Lastly, tunnelbroker is fully automated - you can sign up, get your tunnel assignment immediately, and configure your end."
-msgstr "Ran by Hurricane Electric. The author of test-ipv6.com has used their services for 2-3 years; and would notice latency problems (lots of interactive SSH use from home to the server). This service requires a static IPv4 address (or static enough - you can always go to the tunnelbroker.net site and update your IP). Lastly, tunnelbroker is fully automated - you can sign up, get your tunnel assignment immediately, and configure your end."
+msgstr "由Hurricane Electric运行。test-ipv6的作者已经使用了他们的服务2-3年了；也会注意到延迟的问题（从家到服务器的大量的SSH互动链接）。这项服务需要一个固定的IPv4地址（或者相对固定的地址——你总是可以去tunnelbroker.net网站上更新你的IP），最后tunnelbroker是全自动的——你可以注册，立即获得你的可用隧道，并配置你的终端。"
 
 #: faq_6to4.html
 msgid "is another popular service. I see many European users using this service significantly; though their footprint is global. They work with dynamic IPs with some custom software that they provide."
-msgstr "is another popular service. I see many European users using this service significantly; though their footprint is global. They work with dynamic IPs with some custom software that they provide."
+msgstr "是另一种受欢迎的服务。我看到许多欧洲用户经常使用这个服务，虽然它们的足迹是全球性的。他们使用动态IP地址和一些他们提供的自定义软件。"
 
 #: faq_6to4.html
 msgid "aka freenet6. I don't have personal experience with this, but test-ipv6.com does see a number of connections via this service."
-msgstr "aka freenet6. I don't have personal experience with this, but test-ipv6.com does see a number of connections via this service."
+msgstr "aka freenet6。我没有关于这个的个人经验，但是test-ipv6.com已经发现了不少通过这个服务而来的连接。"
 
 #: faq_6to4.html
 msgid "may be a better solution, in China. This requires a custom client to be installed."
-msgstr "may be a better solution, in China. This requires a custom client to be installed."
+msgstr "也许是一种更好的服务。在中国，这需要安装一个自定义的客户端。"
 
 #: faq_6to4.html
 msgid "in Australia offers both free and paid-for (with SLA) tunnels."
-msgstr "in Australia offers both free and paid-for (with SLA) tunnels."
+msgstr "在澳大利亚同时提供免费和付费（含SLA）的隧道"
 
 #: faq_ipv4_only.html
 msgid "About your IPv4-only Internet service."
@@ -1834,11 +1842,11 @@ msgstr "关于您的仅IPv4互联网服务。"
 
 #: faq_ipv4_only.html
 msgid "This FAQ has been produced to try and address the questions of IPv4 only users"
-msgstr "This FAQ has been produced to try and address the questions of IPv4 only users"
+msgstr "我们提供这个帮助用来尝试解决只有IPv4地址的用户的问题。"
 
 #: faq/dontfeelbad.inc
 msgid "It looks like you have only IPv4 Internet service at this time. Don't feel bad - most people are in this position right now. Most Internet service providers are not quite yet ready to provide IPv6 Internet to residential customers."
-msgstr "It looks like you have only IPv4 Internet service at this time. Don't feel bad - most people are in this position right now. Most Internet service providers are not quite yet ready to provide IPv6 Internet to residential customers."
+msgstr "看上去你现在只有IPv4的互联网服务。不要沮丧——大多数人现在都是这样子的。大多数互联网服务提供商还没有准备好为普通居民用户提供IPv6连接。"
 
 #: faq/nothingwillbreak.inc
 msgid "The good news is, nothing will suddenly break."
@@ -2054,11 +2062,11 @@ msgstr "<b>这个网站怎么工作:</b>这个网站会告诉你的浏览器，�
 
 #: faq/intro_js.inc
 msgid "Some browser plugins enforce policies that are compatible with the above behavior. They block connections that (to them) look like they might be 3rd party advertising or tracking. There is no good way to identify this plugins from inside javascript; nor any good way to work around it."
-msgstr "Some browser plugins enforce policies that are compatible with the above behavior. They block connections that (to them) look like they might be 3rd party advertising or tracking. There is no good way to identify this plugins from inside javascript; nor any good way to work around it."
+msgstr "一些浏览器插件执行符合上述行为的政策。他们会阻止那些(对他们来说) 看起来可能像是第三方广告或跟踪的连接。目前没有好的方法通过内置javascript来识别这样的插件；也没有什么好办法可以绕过它。"
 
 #: faq/plugins_firefox.inc
 msgid "In the case of Firefox, the most common plugins that cause problems are AdBlock and RequestPolicy. There are probably others - any which claims to prevent XSS, CSRF, or Cross Site Scripting can be a problem. Try disabling these plugins (either temporarilly via any menu they offer you, or via the Firefox add-ons menu)."
-msgstr "In the case of Firefox, the most common plugins that cause problems are AdBlock and RequestPolicy. There are probably others - any which claims to prevent XSS, CSRF, or Cross Site Scripting can be a problem. Try disabling these plugins (either temporarilly via any menu they offer you, or via the Firefox add-ons menu)."
+msgstr ""
 
 #: faq_firefox_plugins.html
 msgid "Alternative test for you.."
@@ -2066,7 +2074,7 @@ msgstr "适合您的备选测试。"
 
 #: faq_firefox_plugins.html
 msgid "This image based test is provided as a workaround. It will give you a quick pass/fail test, to tell you if you should be worried for World IPv6 Day."
-msgstr "This image based test is provided as a workaround. It will give you a quick pass/fail test, to tell you if you should be worried for World IPv6 Day."
+msgstr "以下图标作为一个变通的测试方案。它会快速给出测试的通过与否，它会告诉你是否你应该为世界IPv6日担心。"
 
 #: faq/simple_test.inc
 msgid "The following table will try and load 3 images."
@@ -2118,7 +2126,7 @@ msgstr "本常见问题已经制成了尝试和处理浏览器附加组件导致
 
 #: simple_test.html
 msgid "This image based test is provided for those with browsers or browser plugins incompatible with the <a href=\"/\">main test</a>. This page provides only a subset of features, but should be enough for a simple pass/fail."
-msgstr "This image based test is provided for those with browsers or browser plugins incompatible with the <a href=\"/\">main test</a>. This page provides only a subset of features, but should be enough for a simple pass/fail."
+msgstr ""
 
 #: faq_whyipv6.html
 msgid "Why IPv6?"
@@ -2126,15 +2134,15 @@ msgstr "为什么要ipv6？"
 
 #: faq_whyipv6.html
 msgid "This is an interesting question. IPv6 buys you only a bit more than you already have today; and most of that is a promise. IPv6 will help you preserve the level of Internet connectivy between your home and other locations on the Internet, without interference, as you enjoyed in 2012."
-msgstr "This is an interesting question. IPv6 buys you only a bit more than you already have today; and most of that is a promise. IPv6 will help you preserve the level of Internet connectivy between your home and other locations on the Internet, without interference, as you enjoyed in 2012."
+msgstr ""
 
 #: faq_whyipv6.html
 msgid "The promise is the ability to give every device in your house a reachable network address. Each house will have practically unlimited network addresses (2<sup>64</sup> if you're curious - about 18 billion billions). Each house may potentially have more than that, particularly if they have the need for multiple networks within the home. Many ISPs will be able to easy give you 256 of those networks. <em>Running out of IPv6 address space will seem impossible for decades.</em>"
-msgstr "The promise is the ability to give every device in your house a reachable network address. Each house will have practically unlimited network addresses (2<sup>64</sup> if you're curious - about 18 billion billions). Each house may potentially have more than that, particularly if they have the need for multiple networks within the home. Many ISPs will be able to easy give you 256 of those networks. <em>Running out of IPv6 address space will seem impossible for decades.</em>"
+msgstr ""
 
 #: faq_whyipv6.html
 msgid "Applications to take advantage of this are just now being thought of. Imagine having all of your home electronics accessible from work or from your mobile phone. You could watch your TV recorder, or the security camera. You could check the fridge, perhaps start the oven timer. Maybe turn on the air conditioning or the heater when you know you're coming home early. All of these *can* be done today, but are cumbersome with IPv4 if you're using a single IPv4 address today. And, very difficult in the future, with where IPv4 is heading next."
-msgstr "Applications to take advantage of this are just now being thought of. Imagine having all of your home electronics accessible from work or from your mobile phone. You could watch your TV recorder, or the security camera. You could check the fridge, perhaps start the oven timer. Maybe turn on the air conditioning or the heater when you know you're coming home early. All of these *can* be done today, but are cumbersome with IPv4 if you're using a single IPv4 address today. And, very difficult in the future, with where IPv4 is heading next."
+msgstr ""
 
 #: faq_whyipv6.html
 msgid "What Is Wrong with IPv4"
@@ -2142,11 +2150,11 @@ msgstr "什么是IPv4的错误？"
 
 #: faq_whyipv6.html
 msgid "The traditional IPv4 Internet is running out of space. The IANA registry (at the global level) is either just about out, or totally out, depending on when you read this. They are expected to announce this depletion Janaury or February 2011."
-msgstr "The traditional IPv4 Internet is running out of space. The IANA registry (at the global level) is either just about out, or totally out, depending on when you read this. They are expected to announce this depletion Janaury or February 2011."
+msgstr ""
 
 #: faq_whyipv6.html
 msgid "As Internet service providers each run out of the space they have been allocated, they will have to find creative ways to help keep taking on new customers. Those customers will still need access to the IPv4 Internet."
-msgstr "As Internet service providers each run out of the space they have been allocated, they will have to find creative ways to help keep taking on new customers. Those customers will still need access to the IPv4 Internet."
+msgstr ""
 
 #: faq_whyipv6.html
 msgid "Q: I heard there are millions of addresses left. Take it back from the companies not using it! Use the Class E space! (etc)."
@@ -2162,7 +2170,7 @@ msgstr "问：ISP用什么创造性的方法继续保持IPv4的运行？"
 
 #: faq_whyipv6.html
 msgid "Most commonly, some form of NAT. NAT is a form of address sharing; think of it as a party line from the earlier days of the telephone. You'll be able to make outgoing connections easy enough, as long as your shared IP address is not too busy."
-msgstr "Most commonly, some form of NAT. NAT is a form of address sharing; think of it as a party line from the earlier days of the telephone. You'll be able to make outgoing connections easy enough, as long as your shared IP address is not too busy."
+msgstr ""
 
 #: faq_whyipv6.html
 msgid "Note this is in addition to any NAT you do at home."
@@ -2174,7 +2182,7 @@ msgstr "问：为什么要担心。NAT仍然能正常工作，不是吗？我现
 
 #: faq_whyipv6.html
 msgid "Sort of. Basic web browsing should be OK for most sites. Some map sites, the itunes store, and other sites that use a <em>huge</em> number of connections to rapidly load the page, may start showing blank images, depending on how many people share that public IP address."
-msgstr "Sort of. Basic web browsing should be OK for most sites. Some map sites, the itunes store, and other sites that use a <em>huge</em> number of connections to rapidly load the page, may start showing blank images, depending on how many people share that public IP address."
+msgstr ""
 
 #: faq_whyipv6.html
 msgid "Mail will still work, both traditional as well as web based."
@@ -2186,19 +2194,19 @@ msgstr "问：ISP为他们的客户使用NAT时，会造成什么？"
 
 #: faq_whyipv6.html
 msgid "When web sites have to block abusers, they often block the IP address the abuse came from. If you are sharing your IP address with 1000 other broadband customers, if *any* of them trigger a block, you will be blocked too. Your ISP is not likely to be able to assist in fixing this."
-msgstr "When web sites have to block abusers, they often block the IP address the abuse came from. If you are sharing your IP address with 1000 other broadband customers, if *any* of them trigger a block, you will be blocked too. Your ISP is not likely to be able to assist in fixing this."
+msgstr ""
 
 #: faq_whyipv6.html
 msgid "Running servers at home will break, unless you arrange to pay for a static IP address. Assuming the ISP is able to offer this at all, we expect the price for this to go up over the coming years. Some ISPs may be able to offer you a port forward on a static IP on an odd port number - but not the whole IP address"
-msgstr "Running servers at home will break, unless you arrange to pay for a static IP address. Assuming the ISP is able to offer this at all, we expect the price for this to go up over the coming years. Some ISPs may be able to offer you a port forward on a static IP on an odd port number - but not the whole IP address"
+msgstr ""
 
 #: faq_whyipv6.html
 msgid "Running p2p applications will likely break. <b>This includes things like voice and video chat, video games, and yes - even those legal BitTorrent clients.</b> Some ISPs may handle this better than others, and some applications may handle this better than others, but there will be a lot of road bumps over all on this."
-msgstr "Running p2p applications will likely break. <b>This includes things like voice and video chat, video games, and yes - even those legal BitTorrent clients.</b> Some ISPs may handle this better than others, and some applications may handle this better than others, but there will be a lot of road bumps over all on this."
+msgstr ""
 
 #: faq_whyipv6.html
 msgid "Web sites that today automatically show you your local weather, news, and movies may no longer be able to locate you using your IPv4 address; you'll have to tell the web sites where in the world you are"
-msgstr "Web sites that today automatically show you your local weather, news, and movies may no longer be able to locate you using your IPv4 address; you'll have to tell the web sites where in the world you are"
+msgstr ""
 
 #: faq_whyipv6.html
 msgid "Q: Do I have to give up IPv4, to go IPv6?"
@@ -2253,12 +2261,16 @@ msgid "Your router: Quite possibly. Many home routers have no upgrade path for I
 msgstr "您的路由器：很有可能。许多家用路由器没有升级到IPv6的途径。建议用搜索引擎搜一下您的路由器型号，带上关键词“ipv6”。"
 
 #: faq_whyipv6.html
+msgid "Your router: Quite possibly. Many home routers have no upgrade path for IPv6. Do a web search for your router model, with the keyword \"ipv6\" with it."
+msgstr "您的路由器：很有可能。许多家用路由器没有升级到IPv6的途径。建议用搜索引擎搜一下您的路由器型号，带上关键词“ipv6”。"
+
+#: faq_whyipv6.html
 msgid "<b>What router to buy:</b> Wait until your ISP gives you guidance on what will work best with their system. If you must replace your router immediately, look for ones that are IPv6 capable. Apple Airport Express and Airport Extreme have built in tunneling capabilities. OpenWRT capable routers also do (when loaded with the OpenWRT firmware). If you do consider tunnels, see my <a href=\"#\" onclick=\"return help_page('faq_6to4.html','6to4')\">6to4 comments</a>."
-msgstr "<b>What router to buy:</b> Wait until your ISP gives you guidance on what will work best with their system. If you must replace your router immediately, look for ones that are IPv6 capable. Apple Airport Express and Airport Extreme have built in tunneling capabilities. OpenWRT capable routers also do (when loaded with the OpenWRT firmware). If you do consider tunnels, see my <a href=\"#\" onclick=\"return help_page('faq_6to4.html','6to4')\">6to4 comments</a>."
+msgstr ""
 
 #: faq_pmtud.html
 msgid "This will attempt to explain why you may have PMTUD problems when using test-ipv6.com; and possible solutions. Unfortunately, it is beyond the ability of this site to be able to clearly articulate *your* specific problem."
-msgstr "This will attempt to explain why you may have PMTUD problems when using test-ipv6.com; and possible solutions. Unfortunately, it is beyond the ability of this site to be able to clearly articulate *your* specific problem."
+msgstr ""
 
 #: faq_pmtud.html
 msgid "Q: What is Path MTU Discovery (or PMTUD)"
@@ -2290,7 +2302,7 @@ msgstr "问：还有什么会导致PMTUD失败？"
 
 #: faq_pmtud.html
 msgid "Tunnels inside of tunnels. One might be your own; the other, you may not see. Internet service providers often use tunnels either to simplify their topology; to hide it; or to transport things in a more convenient way. However, each tunnel used requires adding a bit of a header to the top of the packet - making the packet bigger. The problem lies in that routers have a maximum size packet they will route."
-msgstr "Tunnels inside of tunnels. One might be your own; the other, you may not see. Internet service providers often use tunnels either to simplify their topology; to hide it; or to transport things in a more convenient way. However, each tunnel used requires adding a bit of a header to the top of the packet - making the packet bigger. The problem lies in that routers have a maximum size packet they will route."
+msgstr ""
 
 #: faq_pmtud.html
 msgid "This is what it looks like when you use 6to4, 6in4, Teredo, and other types of tunnels:"
@@ -2298,35 +2310,35 @@ msgstr "这是您在使用6to4、6in4、Teredo及其他类型隧道时的样子�
 
 #: faq_pmtud.html
 msgid "Your router will automatically add an IPv4 header to the top of your packet. This same router will let your computer know if the packet is going to be too big; your computer will (as long as it gets the ICMPv6 \"Packet Too Big\" message) resend the packet, at a smaller size recommended by your router. A router near the web site, will automatically remove the IPv4 header, and forward the IPv6 peice."
-msgstr "Your router will automatically add an IPv4 header to the top of your packet. This same router will let your computer know if the packet is going to be too big; your computer will (as long as it gets the ICMPv6 \"Packet Too Big\" message) resend the packet, at a smaller size recommended by your router. A router near the web site, will automatically remove the IPv4 header, and forward the IPv6 peice."
+msgstr ""
 
 #: faq_pmtud.html
 msgid "This is like putting a letter in an envelope, inside another envelope for someone else to forward on. There may be a maximum size or weight limit for your postage stamp. Tunneling is conceptually the same."
-msgstr "This is like putting a letter in an envelope, inside another envelope for someone else to forward on. There may be a maximum size or weight limit for your postage stamp. Tunneling is conceptually the same."
+msgstr ""
 
 #: faq_pmtud.html
 msgid "If any Internet service provider along the way adds their own tunnel, in effect stuffing your package into another envelope, the packet may become too big:"
-msgstr "If any Internet service provider along the way adds their own tunnel, in effect stuffing your package into another envelope, the packet may become too big:"
+msgstr ""
 
 #: faq_pmtud.html
 msgid "In the above case, the message is now so big, that it can't be forwarded. A \"Packet Too Big\" message will be sent by that router - but it only sees the IPv4 address; not your IPv6 address. Because of this, your computer will never retry with a smaller sized packet, one that might fit when using multiple envelopes."
-msgstr "In the above case, the message is now so big, that it can't be forwarded. A \"Packet Too Big\" message will be sent by that router - but it only sees the IPv4 address; not your IPv6 address. Because of this, your computer will never retry with a smaller sized packet, one that might fit when using multiple envelopes."
+msgstr ""
 
 #: faq_pmtud.html
 msgid "What does this look like on the network?"
-msgstr "What does this look like on the network?"
+msgstr ""
 
 #: faq_pmtud.html
 msgid "(What does tcpdump show?)"
-msgstr "(What does tcpdump show?)"
+msgstr ""
 
 #: faq_pmtud.html
 msgid "This is what tcpdump will show.."
-msgstr "This is what tcpdump will show.."
+msgstr ""
 
 #: faq_pmtud.html
 msgid "This is what I ran to generate the packets."
-msgstr "This is what I ran to generate the packets."
+msgstr ""
 
 #: faq_pmtud.html
 msgid "What can I do?"
@@ -2338,11 +2350,11 @@ msgstr "这是一个复杂的问题——有很多方式从互联网获取。"
 
 #: faq_pmtud.html
 msgid "The preferred fix is to permit ICMPv6 Type 2 Packet Too Big messages."
-msgstr "The preferred fix is to permit ICMPv6 Type 2 Packet Too Big messages."
+msgstr ""
 
 #: faq_pmtud.html
 msgid "Your router or firewall may be blocking these."
-msgstr "Your router or firewall may be blocking these."
+msgstr ""
 
 #: faq_pmtud.html
 msgid "If you have \"native\" IPv6, meaning your ISP gave you your IPv6 connectivity, and you are still running into MTU problems, see if your router can advertise a smaller IPv6 MTU. Alternately, configure your <b>entire LAN</b> for a smaller MTU (not really advised!)"
@@ -2370,19 +2382,19 @@ msgstr "如果您在您的计算机而不是路由器上运行“6to4”："
 
 #: faq_pmtud.html
 msgid "Linux, BSD, and (presumably) Mac: Set your 6to4 interface to MTU 1280. If you are running radvd, set \"AdvLinkMTU 1280\" in your interface radvd.conf ."
-msgstr "Linux, BSD, and (presumably) Mac: Set your 6to4 interface to MTU 1280. If you are running radvd, set \"AdvLinkMTU 1280\" in your interface radvd.conf ."
+msgstr ""
 
 #: faq_pmtud.html
 msgid "Windows: If you figure this out, please share with jfesler@test-ipv6.com to add to this site. Presumably: control panel, network adapters, properties, 6"
-msgstr "Windows: If you figure this out, please share with jfesler@test-ipv6.com to add to this site. Presumably: control panel, network adapters, properties, 6"
+msgstr ""
 
 #: faq_pmtud.html
 msgid "<b>If you are not covered by the above, do a web search.</b>. As you learn what fixes your particular circumstances, please share with jfesler@test-ipv6.com to add to this site. Your contribution will be appreciated by others!"
-msgstr "<b>If you are not covered by the above, do a web search.</b>. As you learn what fixes your particular circumstances, please share with jfesler@test-ipv6.com to add to this site. Your contribution will be appreciated by others!"
+msgstr ""
 
 #: attributions.html
 msgid "<!-- <p><em>falling-sky</em> is also a reference to <a href=\"http://en.wikipedia.org/wiki/The_Sky_Is_Falling_(fable)\">the story of Chicken Little.</p> -->"
-msgstr "<!-- <p><em>falling-sky</em> is also a reference to <a href=\"http://en.wikipedia.org/wiki/The_Sky_Is_Falling_(fable)\">the story of Chicken Little.</p> -->"
+msgstr ""
 
 #: attributions.html
 msgid "This site would not exist without the following components and resources."
@@ -2498,11 +2510,11 @@ msgstr "本节仅适用于我们在测试内部为您提供显示此页。"
 
 #: faq_avoids_ipv6.html
 msgid "First of all, we detected you had a working IPv6 connection. We also found that your IPv6 connection, was using a \"real\" IPv6 address; meaning not a Teredo or a 6to4 address."
-msgstr "First of all, we detected you had a working IPv6 connection. We also found that your IPv6 connection, was using a \"real\" IPv6 address; meaning not a Teredo or a 6to4 address."
+msgstr "首先，我们检测到您有可用的 IPv6 连接。我们还发现，您的 IPv6 连接，使用了\"真实\"的 IPv6 地址；意思是那不是一个 Teredo 或一个 6to4 地址。"
 
 #: faq_avoids_ipv6.html
 msgid "Second, we detected that when given the choice, your browser decided it would prefer to use IPv4 instead of IPv6. This has some concerns for us."
-msgstr "Second, we detected that when given the choice, your browser decided it would prefer to use IPv4 instead of IPv6. This has some concerns for us."
+msgstr "第二点，我们检测到，当您的浏览器做出选择的时候，它更愿意使用 IPv4 而不是 IPv6 。这让我们有点担心。"
 
 #: faq_avoids_ipv6.html
 msgid "Causes for preferring IPv4"
@@ -2534,15 +2546,15 @@ msgstr "Apple的最新版Lion和Mountain Lion更新将对指定的目标取其�
 
 #: faq_avoids_ipv6.html
 msgid "When you use the Internet, a connection is made between your computer, and the service you're connecting to. To connect, you have to have the other side's IP - Internet Protocol - number. And, when you connect, they see yours, so they can send traffic back to you and your applications."
-msgstr "When you use the Internet, a connection is made between your computer, and the service you're connecting to. To connect, you have to have the other side's IP - Internet Protocol - number. And, when you connect, they see yours, so they can send traffic back to you and your applications."
+msgstr "当您使用互联网时，在您的计算机与您要连接到的服务之间，会产生一个连接。若要建立连接的话，您一定要有对方的 IP——即互联网协议号码。并且当您连接时，他们也会看到你的IP。所以他们可以将消息发送回给您和您的应用程序。"
 
 #: faq_avoids_ipv6.html
 msgid "The Internet protocol that we've been using for the 1990's and the 2000s, has run out of these unique numbers. We can keep going, but with some limitations, by sharing multiple machines with one number. Often times, we do this at home or at work."
-msgstr "The Internet protocol that we've been using for the 1990's and the 2000s, has run out of these unique numbers. We can keep going, but with some limitations, by sharing multiple machines with one number. Often times, we do this at home or at work."
+msgstr "我们在20世纪90年代和21世纪正在使用的IP协议，已经用完了它的地址。我们可以继续这样子，但是必须依赖某些限制，也就是通过让众多的机器分享一个IP地址。我们经常在家或者在单位这么做。"
 
 #: faq_avoids_ipv6.html
 msgid "What is changing is that the Internet Service Providers are all facing the fact that they will have to implement this type of address sharing, on a much larger scale. Some buzzwords you may hear: NAT, CGN, Carrier Grade NAT, LSN, Large Scale NAT. They all look something like this:"
-msgstr "What is changing is that the Internet Service Providers are all facing the fact that they will have to implement this type of address sharing, on a much larger scale. Some buzzwords you may hear: NAT, CGN, Carrier Grade NAT, LSN, Large Scale NAT. They all look something like this:"
+msgstr "发生变化的是，互联网服务提供商都在面临这样一个事实：他们将不得不在更大的规模上采取这种类型共享。你可能会听到一些流行语: NAT，CGN，航母级 NAT、 LSN，大范围 NAT。他们都看起来像这样:"
 
 #: faq_avoids_ipv6.html
 msgid "The thing to watch for here: <b>Many</b> houses sharing one public address."
@@ -2550,11 +2562,11 @@ msgstr "发生的事情见这里：<b>许多</b>房屋共享一个公网地址�
 
 #: faq_avoids_ipv6.html
 msgid "What happens if one of those homes has a bored hacker, or (more likely) a compromised machine owned by someone who doesn't stay up to date, and doesn't run antivirus software? What happens when that machine starts to attack your favorite web sites? What about your banking site?"
-msgstr "What happens if one of those homes has a bored hacker, or (more likely) a compromised machine owned by someone who doesn't stay up to date, and doesn't run antivirus software? What happens when that machine starts to attack your favorite web sites? What about your banking site?"
+msgstr ""
 
 #: faq_avoids_ipv6.html
 msgid "Those sites will have to ultimately protect themselves, by blocking the traffic. Unfortuantely, they only see the shared address, so their blocking it looks like this:"
-msgstr "Those sites will have to ultimately protect themselves, by blocking the traffic. Unfortuantely, they only see the shared address, so their blocking it looks like this:"
+msgstr ""
 
 #: faq_avoids_ipv6.html
 msgid "This is not a good situation. And the main way to avoid it, is to make sure that your IPv6 is working; and to make sure that IPv6 is the preferred protocol."
@@ -2606,15 +2618,15 @@ msgstr "测试是如何发现是一个隧道？"
 
 #: faq_tunnel.html
 msgid "For the technical-oriented readers, here is the explanation how we detect that you are probably using a tunnel. As the test collects your IPv4 and IPv6 addresses, it also collects (thanks to <a href=\"http://www.team-cymru.org/Services/ip-to-asn.html\">http://www.team-cymru.org/Services/ip-to-asn.html</a>) your Autonomous System Numbers (ASN) for IPv4 and IPv6. If your ISP is dual stack, then your IPv4 ASN and your IPv6 ASN should be identical as your IPv4 and IPv6 connectivity are provided by the same ISP."
-msgstr "For the technical-oriented readers, here is the explanation how we detect that you are probably using a tunnel. As the test collects your IPv4 and IPv6 addresses, it also collects (thanks to <a href=\"http://www.team-cymru.org/Services/ip-to-asn.html\">http://www.team-cymru.org/Services/ip-to-asn.html</a>) your Autonomous System Numbers (ASN) for IPv4 and IPv6. If your ISP is dual stack, then your IPv4 ASN and your IPv6 ASN should be identical as your IPv4 and IPv6 connectivity are provided by the same ISP."
+msgstr ""
 
 #: faq_tunnel.html
 msgid "If the ASN number is different, we highlight that fact - and call out that you are probably using a tunnel. If this is a tunnel you know about, great. If you did not know you were being tunneled, you might ask your network administrator about it."
-msgstr "If the ASN number is different, we highlight that fact - and call out that you are probably using a tunnel. If this is a tunnel you know about, great. If you did not know you were being tunneled, you might ask your network administrator about it."
+msgstr ""
 
 #: faq_tunnel.html
 msgid "Tunnels are not inherently bad; but (depending on circumstances) they may cause troubles that might not otherwise be seen with native IPv6 connectivity. Specifically, there may be issues of PMTUD (Path MTU Discovery) with some sites you visit - depending on the firewall configurations between you and those sites."
-msgstr "Tunnels are not inherently bad; but (depending on circumstances) they may cause troubles that might not otherwise be seen with native IPv6 connectivity. Specifically, there may be issues of PMTUD (Path MTU Discovery) with some sites you visit - depending on the firewall configurations between you and those sites."
+msgstr ""
 
 #: faq_tunnel_6rd.html
 msgid "What is specific to 6RD tunnels?"

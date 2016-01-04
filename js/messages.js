@@ -53,7 +53,7 @@ GIGO.messages = {
     "opera:turbo": "[% '<b>Disable turbo mode on Opera, and try again.</b>  Turbo mode is not compatible with the needs of this site.' | i18n | escape_quote %]",
     "dualstack:safe": "[% '<b>Good news!</b> Your current configuration will continue to work as web sites enable IPv6.' | i18n | escape_quote %]",
     "dualstack:unsafe": "[% '<b>Our tests show that you will have a broken or misconfigured IPv6 setup, and this will cause problems as web sites enable IPv6.</b>' | i18n | escape_quote %]",
-    "dualstack:mtu": "[% '<b>Our tests show that you will may have MTU problems with IPv6; this can cause web sites to load slow (or not at all) when web sites enable IPv6.</b>' | i18n | escape_quote %]",
+    "dualstack:mtu": "[% '<b>Our tests show that you may have MTU problems with IPv6; this can cause web sites to load slow (or not at all) when web sites enable IPv6.</b>' | i18n | escape_quote %]",
     "buggydns1": "[% 'We looked up an IPv6 address, but your DNS server (possibly your home router) mangled the response, and is treating it as (broken) IPv4.' | i18n | escape_quote %]",
     "tunnel_dumb": "[% 'It appears that you use a tunnel mechanism for either IPv4 or IPv6.' | i18n | escape_quote %]",
     "tunnel_6rd_dumb": "[% 'It appears that you use a managed tunnel mechanism, 6RD, to transport IPv6 over IPv4.' | i18n | escape_quote %]",
