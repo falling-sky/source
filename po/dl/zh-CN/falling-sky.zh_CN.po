@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2016-01-04 17:00-0500\n"
+"PO-Revision-Date: 2016-01-05 01:11-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Chinese Simplified\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -1610,7 +1610,7 @@ msgstr "浏览器过滤器意味着“A”和“AAAA”测试都失败。是由�
 
 #: stats.html
 msgid "Brokeness goes down, when volume goes up. This is due to having a wider sample of average people (versus people explicitly testing a new IPv6 setup)."
-msgstr ""
+msgstr "容量越大，故障越少。这是因为有了更广的，一般人的样本（而不是明显在测试新安装的IPv6的人）"
 
 #: stats.html
 msgid "These graphs show the last 60 days of activity at <span lookup=site.name>site</span>"
@@ -2130,7 +2130,7 @@ msgstr "本常见问题已经制成了尝试和处理浏览器附加组件导致
 
 #: simple_test.html
 msgid "This image based test is provided for those with browsers or browser plugins incompatible with the <a href=\"/\">main test</a>. This page provides only a subset of features, but should be enough for a simple pass/fail."
-msgstr ""
+msgstr "这个基于图像的测试是提供给浏览器或浏览器插件不兼容于<a href=\"/\">完整测试</a>的人的。本页面仅包含一部分功能，但是足够简单地判断正常/故障"
 
 #: faq_whyipv6.html
 msgid "Why IPv6?"
@@ -2270,7 +2270,7 @@ msgstr "您的路由器：很有可能。许多家用路由器没有升级到IPv
 
 #: faq_whyipv6.html
 msgid "<b>What router to buy:</b> Wait until your ISP gives you guidance on what will work best with their system. If you must replace your router immediately, look for ones that are IPv6 capable. Apple Airport Express and Airport Extreme have built in tunneling capabilities. OpenWRT capable routers also do (when loaded with the OpenWRT firmware). If you do consider tunnels, see my <a href=\"#\" onclick=\"return help_page('faq_6to4.html','6to4')\">6to4 comments</a>."
-msgstr ""
+msgstr "<b>买什么样的路由器:</b>等待您的 ISP 给你指导怎么做最好。如果一定要立即更换您的路由器，寻找那些 IPv6 兼容的。苹果 Airport Express 和 Airport Extreme 具有内置的隧道功能，OpenWRT 兼容的路由器也可以，（当刷入 OpenWRT 固件时）。如果你确实考虑隧道，看我的 <a href=\"#\"onclick=\"return help_page('faq_6to4.html','6to4')\"> 6to4 评论</a>。"
 
 #: faq_pmtud.html
 msgid "This will attempt to explain why you may have PMTUD problems when using test-ipv6.com; and possible solutions. Unfortunately, it is beyond the ability of this site to be able to clearly articulate *your* specific problem."
@@ -2386,23 +2386,19 @@ msgstr "如果您在您的计算机而不是路由器上运行“6to4”："
 
 #: faq_pmtud.html
 msgid "Linux, BSD, and (presumably) Mac: Set your 6to4 interface to MTU 1280. If you are running radvd, set \"AdvLinkMTU 1280\" in your interface radvd.conf ."
-msgstr ""
+msgstr "Linux, BSD, 和 （可能） Mac:设置你的 6to4 接口的 MTU 为 1280。如果你在使用radvd，在你的接口的radvd.conf里添加 \"AdvLinkMTU 1280\""
 
 #: faq_pmtud.html
 msgid "Windows: If you figure this out, please share with jfesler@test-ipv6.com to add to this site. Presumably: control panel, network adapters, properties, 6"
-msgstr ""
+msgstr "Windows: 如果你清楚这一点，请分享给 jfesler@test-ipv6.com 以添加到本站。可能在: 控制面板-适配器设置-属性-IPv6"
 
 #: faq_pmtud.html
 msgid "<b>If you are not covered by the above, do a web search.</b>. As you learn what fixes your particular circumstances, please share with jfesler@test-ipv6.com to add to this site. Your contribution will be appreciated by others!"
 msgstr ""
 
 #: attributions.html
-msgid "<!-- <p><em>falling-sky</em> is also a reference to <a href=\"http://en.wikipedia.org/wiki/The_Sky_Is_Falling_(fable)\">the story of Chicken Little.</p> -->"
-msgstr ""
-
-#: attributions.html
 msgid "This site would not exist without the following components and resources."
-msgstr "本网站不存在下列组件或资源。"
+msgstr "没有下列组件或资源，本网站将不会存在。"
 
 #: faq_buggydns1.html
 msgid "FAQ on \"Buggy DNS\""
@@ -2566,11 +2562,12 @@ msgstr "发生的事情见这里：<b>许多</b>房屋共享一个公网地址�
 
 #: faq_avoids_ipv6.html
 msgid "What happens if one of those homes has a bored hacker, or (more likely) a compromised machine owned by someone who doesn't stay up to date, and doesn't run antivirus software? What happens when that machine starts to attack your favorite web sites? What about your banking site?"
-msgstr ""
+msgstr "如果那些房屋中有一个无聊的黑客，或者 （更有可能） 有易受攻击的计算机，不保持更新，不运行防病毒软件，会发生什么？当那台机器开始攻击你最喜欢的互联网站点时，会发生什么？你的银行网站怎么样？"
 
 #: faq_avoids_ipv6.html
 msgid "Those sites will have to ultimately protect themselves, by blocking the traffic. Unfortuantely, they only see the shared address, so their blocking it looks like this:"
-msgstr ""
+msgstr "这些网站会通过屏蔽流量，尽可能地保护自己。\n"
+"不幸的是，他们只能看到共享的地址，所以他们会像这样屏蔽："
 
 #: faq_avoids_ipv6.html
 msgid "This is not a good situation. And the main way to avoid it, is to make sure that your IPv6 is working; and to make sure that IPv6 is the preferred protocol."

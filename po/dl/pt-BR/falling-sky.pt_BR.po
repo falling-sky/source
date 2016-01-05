@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2016-01-04 17:00-0500\n"
+"PO-Revision-Date: 2016-01-05 01:11-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Portuguese, Brazilian\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -2395,10 +2395,6 @@ msgstr "windows: Se você descobrir como fazer isto, por favor compartilhe com j
 #: faq_pmtud.html
 msgid "<b>If you are not covered by the above, do a web search.</b>. As you learn what fixes your particular circumstances, please share with jfesler@test-ipv6.com to add to this site. Your contribution will be appreciated by others!"
 msgstr "<b>Se você não está coberto acima, faça uma busca na web</b>. Quando você aprender como consertar suas circunstâncias específicas, por favor compartilhe com jfesler@test-ipv6.com para eu adicionar a este site. Sua contribuição vai ser apreciada pelos outros!"
-
-#: attributions.html
-msgid "<!-- <p><em>falling-sky</em> is also a reference to <a href=\"http://en.wikipedia.org/wiki/The_Sky_Is_Falling_(fable)\">the story of Chicken Little.</p> -->"
-msgstr "<!-- <p><em>falling-sky</em> também é uma referência a <a href=\"http://en.wikipedia.org/wiki/The_Sky_Is_Falling_(fable)\">a estória do Galinho Chicken Little.</p> -->"
 
 #: attributions.html
 msgid "This site would not exist without the following components and resources."
