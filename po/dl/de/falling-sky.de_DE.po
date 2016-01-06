@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2016-01-05 01:11-0500\n"
+"PO-Revision-Date: 2016-01-05 15:00-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: German\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -2199,7 +2199,7 @@ msgstr "Q: Was wird nicht mehr funktionieren, wenn IPS's NAT für ihre Kunden ei
 
 #: faq_whyipv6.html
 msgid "When web sites have to block abusers, they often block the IP address the abuse came from. If you are sharing your IP address with 1000 other broadband customers, if *any* of them trigger a block, you will be blocked too. Your ISP is not likely to be able to assist in fixing this."
-msgstr ""
+msgstr "Wenn Webseiten gezwungen sind, Mißbrauch zu unterbinden, dann blockieren sie oft die IP-Adresse, von der der Mißbrauch kam. Wenn Sie Ihre IP-Adresse mit 1000 anderen Internetkunden teilen, und *nur einer* von denen löst die Blockierung aufgrund von Mißbrauch aus, werden auch Sie blockiert werden. Ihr Internetzugangsanbieter wird wahrscheinlich nicht dabei helfen können, dies zu beheben."
 
 #: faq_whyipv6.html
 msgid "Running servers at home will break, unless you arrange to pay for a static IP address. Assuming the ISP is able to offer this at all, we expect the price for this to go up over the coming years. Some ISPs may be able to offer you a port forward on a static IP on an odd port number - but not the whole IP address"
