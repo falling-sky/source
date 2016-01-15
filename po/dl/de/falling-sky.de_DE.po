@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2016-01-05 15:00-0500\n"
+"PO-Revision-Date: 2016-01-15 10:00-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: German\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -2143,7 +2143,7 @@ msgstr "Das ist eine interessante Frage. IPv6 hat nur ein paar Vorteile gegenüb
 
 #: faq_whyipv6.html
 msgid "The promise is the ability to give every device in your house a reachable network address. Each house will have practically unlimited network addresses (2<sup>64</sup> if you're curious - about 18 billion billions). Each house may potentially have more than that, particularly if they have the need for multiple networks within the home. Many ISPs will be able to easy give you 256 of those networks. <em>Running out of IPv6 address space will seem impossible for decades.</em>"
-msgstr "<em></em>"
+msgstr "Das Versprechen ist die Fähigkeit, jedes Gerät in Ihrem Haushalt eine erreichbare Netzwerk-Adresse geben. Jeder Haushalt wird praktisch eine unbegrenzte Menge Netzwerkadressen haben (2 <sup>64</sup> das sind rund 18 Milliarden Milliarden). Jedes Haus kann sogar möglicherweise mehr als diese Menge haben, insbesondere, wenn es die Notwendigkeit für mehrere Netzwerke zu Hause gibt. Viele ISPs werden Ihnen 256 dieser Netzwerke geben können. <em>Es scheint unwahrscheinlich, daß wir in den nächsten Dekaden irgendwann keine IPv6-Adressen mehr haben.</em>"
 
 #: faq_whyipv6.html
 msgid "Applications to take advantage of this are just now being thought of. Imagine having all of your home electronics accessible from work or from your mobile phone. You could watch your TV recorder, or the security camera. You could check the fridge, perhaps start the oven timer. Maybe turn on the air conditioning or the heater when you know you're coming home early. All of these *can* be done today, but are cumbersome with IPv4 if you're using a single IPv4 address today. And, very difficult in the future, with where IPv4 is heading next."
@@ -2211,7 +2211,7 @@ msgstr ""
 
 #: faq_whyipv6.html
 msgid "Web sites that today automatically show you your local weather, news, and movies may no longer be able to locate you using your IPv4 address; you'll have to tell the web sites where in the world you are"
-msgstr ""
+msgstr "Web-Sites, die heute automatisch Ihr lokales Wetter, lokale Nachrichten und das lokale Kinoprogramm anzeigen sind möglicherweise nicht mehr in der Lage, Sie anhand Ihrer IPv4-Adresse zu finden; Sie müssen der Webseite erst sagen, wo in der Welt Sie sich gerade befinden"
 
 #: faq_whyipv6.html
 msgid "Q: Do I have to give up IPv4, to go IPv6?"
@@ -2271,7 +2271,7 @@ msgstr "Ihr Router: Sehr wahrscheinlich. Viele Router für den Hausgebrauch habe
 
 #: faq_whyipv6.html
 msgid "<b>What router to buy:</b> Wait until your ISP gives you guidance on what will work best with their system. If you must replace your router immediately, look for ones that are IPv6 capable. Apple Airport Express and Airport Extreme have built in tunneling capabilities. OpenWRT capable routers also do (when loaded with the OpenWRT firmware). If you do consider tunnels, see my <a href=\"#\" onclick=\"return help_page('faq_6to4.html','6to4')\">6to4 comments</a>."
-msgstr ""
+msgstr "<b>Welche Router sollte man kaufen:</b> Warten Sie, bis Ihr ISP Ihnen Hinweise auf das gibt, was mit seinem Netz am Besten funktioniert. Wenn Sie Ihren Router sofort ersetzen müssen, suchen Sie Geräte, die IPv6-fähig sind. Apple Airport Express und Airport Extreme haben Tunnelfunktionen eingebaut. OpenWRT-fähigen Router funktionieren auch (wenn diese mit der OpenWRT-Firmware geladen werden). Wenn Sie Tunnel in Betracht ziehen, schauen Sie sich meine <a href=\"#\" onclick=\"return help_page('faq_6to4.html','6to4')\"> 6to4-Kommentare</a> an."
 
 #: faq_pmtud.html
 msgid "This will attempt to explain why you may have PMTUD problems when using test-ipv6.com; and possible solutions. Unfortunately, it is beyond the ability of this site to be able to clearly articulate *your* specific problem."
@@ -2331,7 +2331,7 @@ msgstr ""
 
 #: faq_pmtud.html
 msgid "What does this look like on the network?"
-msgstr ""
+msgstr "Wie sieht dies im Netzwerk aus?"
 
 #: faq_pmtud.html
 msgid "(What does tcpdump show?)"
@@ -2459,7 +2459,7 @@ msgstr "Sie müssen ermitteln, welches Gerät Ihre DNS-Abfragen weiterleitet."
 
 #: faq_buggydns1.html
 msgid "With Windows, at the <code>cmd</code> prompt, you can type <code>ipconfig /all</code>. Look for \"<code>DNS Servers</code>\"."
-msgstr ""
+msgstr "Unter Windows, bei der<code>cmd</code>-Eingabeaufforderung, geben Sie <code>ipconfig /all</code> ein. Suchen Sie nach \"<code>DNS Servers</code>\" oder \"<code>DNS-Server</code>\"."
 
 #: faq_buggydns1.html
 msgid "With Linux, BSD, and Mac OS X, you can do this in a terminal: <code>cat /etc/resolv.conf</code>."
@@ -2471,7 +2471,7 @@ msgstr ""
 
 #: faq_buggydns1.html
 msgid "Business customers: Provide this information to your IT professional to investigate."
-msgstr ""
+msgstr "Geschäftskunden: geben Sie diese Informationen an Ihren IT-Spezialisten weiter, um diese zu analysieren."
 
 #: faq_buggydns1.html
 msgid "IT professionals:"
@@ -2575,7 +2575,7 @@ msgstr ""
 
 #: faq_avoids_ipv6.html
 msgid "Why else should I care about IPv4 being preferred instead of IPv6, when I have both available?"
-msgstr ""
+msgstr "Warum soll es mich sonst kümmern, daß IPv4 gegenüber IPv6 bevorzugt wird, wenn ich beides verfügbar habe?"
 
 #: faq_avoids_ipv6.html
 msgid "Sites that determine your location automatically, will get this wrong more frequently when you share an IPv4 address with people in other cities."
@@ -2583,15 +2583,15 @@ msgstr "Webseiten, die Ihren Standort automatisch bestimmen, werden dies häufig
 
 #: faq_avoids_ipv6.html
 msgid "The box that shares an address between you and the other hundreds of houses, may become performance constrained (cpu, network, TCP ports)"
-msgstr ""
+msgstr "Das Netzwerkgerät, welches die Adressen zwischen Ihnen und hunderten anderer Haushalte teilt, kann überlastet werden (CPU, Netzwerk, TCP Ports)"
 
 #: faq_avoids_ipv6.html
 msgid "The box is a potential central point of failure for your internet access"
-msgstr ""
+msgstr "Dieses Gerät ist ein möglicher Single Point of Failure für Ihren Internetzugang"
 
 #: faq_avoids_ipv6.html
 msgid "Sharing IPv4 addresses is an extra expense for the ISP that they will be passing on to their customers"
-msgstr ""
+msgstr "Das Teilen von IPv4-Adressen ist ein extra Aufwand für den ISP, den er sich von seinen Kunden bezahlen lassen wird"
 
 #: tunnel.inc
 msgid "What is a tunnel?"
@@ -2623,11 +2623,11 @@ msgstr "Für die technisch interessierten Leser ist hier die Erklärung, wie wir
 
 #: faq_tunnel.html
 msgid "If the ASN number is different, we highlight that fact - and call out that you are probably using a tunnel. If this is a tunnel you know about, great. If you did not know you were being tunneled, you might ask your network administrator about it."
-msgstr ""
+msgstr "Wenn die AS-Nummer unterschiedlich ist, heben wir dies hervor - und kennzeichnen damit, daß Sie möglicherweise einen Tunnel nutzen. Wenn Sie von diesem Tunnel Kenntnis haben, ist dies okay. Wenn Sie nicht gewußt haben, daß Sie getunnelt werden, könnten Sie hierüber Ihren Netzwerkadministrator befragen."
 
 #: faq_tunnel.html
 msgid "Tunnels are not inherently bad; but (depending on circumstances) they may cause troubles that might not otherwise be seen with native IPv6 connectivity. Specifically, there may be issues of PMTUD (Path MTU Discovery) with some sites you visit - depending on the firewall configurations between you and those sites."
-msgstr ""
+msgstr "Tunnel sind nicht generell schlecht; aber (je nach Umständen) verursachen sie Probleme, die nicht auftauchen, wenn native IPv6-Konnektivität vorhanden ist. Insbesondere gibt es möglicherweise Probleme mit der PMTUD (Path MTU Discovery) bei einigen Websites, die Sie - abhängig beispielsweise von der Konfiguration von Firewalls zwischen Ihnen und der von Ihnen besuchten Seite."
 
 #: faq_tunnel_6rd.html
 msgid "What is specific to 6RD tunnels?"
