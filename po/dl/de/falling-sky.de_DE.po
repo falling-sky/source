@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2016-01-15 10:00-0500\n"
+"PO-Revision-Date: 2016-01-18 12:13-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: German\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -383,7 +383,7 @@ msgstr "[Permalink]"
 
 #: versions.js
 msgid "%app: You are running version %found; we recommend %suggest or newer."
-msgstr "%app: Sie verwenden Version %f; Wir empfehlen %s oder neuer."
+msgstr "%app: Sie verwenden Version %found; wir empfehlen %suggest oder neuer."
 
 #: form.js
 msgid "share your results"
@@ -2131,7 +2131,7 @@ msgstr "Das FAQ wurde erstellt Probleme die durch Browser-Erweiterungen verursac
 
 #: simple_test.html
 msgid "This image based test is provided for those with browsers or browser plugins incompatible with the <a href=\"/\">main test</a>. This page provides only a subset of features, but should be enough for a simple pass/fail."
-msgstr "<a href=\"/\"></a>"
+msgstr "Dieser Bild-basierte Test ist für diejenigen mit Browsern oder Browser-Plugins, die nicht kompatibel sind mit den <a href=\"/\">Haupttests</a>. Diese Seite bietet nur eine Teilmenge der Features, aber sollte ausreichen für eine einfache bestanden/nicht bestanden-Aussage."
 
 #: faq_whyipv6.html
 msgid "Why IPv6?"
@@ -2203,11 +2203,11 @@ msgstr "Wenn Webseiten gezwungen sind, Mißbrauch zu unterbinden, dann blockiere
 
 #: faq_whyipv6.html
 msgid "Running servers at home will break, unless you arrange to pay for a static IP address. Assuming the ISP is able to offer this at all, we expect the price for this to go up over the coming years. Some ISPs may be able to offer you a port forward on a static IP on an odd port number - but not the whole IP address"
-msgstr ""
+msgstr "Server zu Hause zu betreiben wird nicht mehr funktioneren, wenn Sie nicht für eine statische IP-Adresse bezahlen. Wenn dies Ihr ISP überhaupt anbieten kann, erwarten wir, dass der Preis hierfür mit den Jahren steigen wird. Einige ISPs können Ihren ein Portforwarding auf einer ungewohnten Portnummer anbieten - aber nicht die ganze IP-Adresse"
 
 #: faq_whyipv6.html
 msgid "Running p2p applications will likely break. <b>This includes things like voice and video chat, video games, and yes - even those legal BitTorrent clients.</b> Some ISPs may handle this better than others, and some applications may handle this better than others, but there will be a lot of road bumps over all on this."
-msgstr ""
+msgstr "Peer-to-Peer-Anwendungen (P2P) werden wahrscheinlich nicht mehr richtig funktionieren. <b>Das schließt Dinge wie Sprache, Videoanrufe, Videospiel und, ja, sogar diese legalen BitTorrent-Clients ein.</b> Einige ISPs können dies besser handhaben als andere, und einige Applikationen werden dies besser als andere kompensieren können, aber es wird dabei viele Hürden geben."
 
 #: faq_whyipv6.html
 msgid "Web sites that today automatically show you your local weather, news, and movies may no longer be able to locate you using your IPv4 address; you'll have to tell the web sites where in the world you are"
@@ -2227,7 +2227,7 @@ msgstr "F: Wann ist der Stichtag für den Wechsel?"
 
 #: faq_whyipv6.html
 msgid "Most service providers will keep existing IPv4 users on the same service they have now. Only when they change services will they be forced to share a public address with other residences. Either way, you'll still have IPv4 available for years to come, in most markets."
-msgstr ""
+msgstr "Die meisten Serviceprovider werden bestehende IPv4-Benutzer auf dem gleichen Dienst lassen wie heute. Nur dann, wenn sie den Dienst wechseln, werden sie gezwungen sein, eine öffentliche Adresse mit anderen Haushalten zu teilen. In beiden Fällen werden sie in den meisten Märkten IPv4 für die nächsten Jahre haben."
 
 #: faq_whyipv6.html
 msgid "As such, there is no hard cutoff date. Just be aware that IPv4 will start working less well over time."
@@ -2275,7 +2275,7 @@ msgstr "<b>Welche Router sollte man kaufen:</b> Warten Sie, bis Ihr ISP Ihnen Hi
 
 #: faq_pmtud.html
 msgid "This will attempt to explain why you may have PMTUD problems when using test-ipv6.com; and possible solutions. Unfortunately, it is beyond the ability of this site to be able to clearly articulate *your* specific problem."
-msgstr ""
+msgstr "Hier werden wir versuchen, zu erklären, warum Sie PMTUD-Probleme haben könnten, wenn Sie test-ipv6.com benutzen, sowie mögliche Lösungen aufzuführen. Leider liegt es außerhalb der Möglichkeiten dieser Seite, *Ihr* spezielles Problem zu erläutern."
 
 #: faq_pmtud.html
 msgid "Q: What is Path MTU Discovery (or PMTUD)"
@@ -2283,7 +2283,7 @@ msgstr "F: Was ist \"Path MTU Discovery (PMTUD)\""
 
 #: faq_pmtud.html
 msgid "PMTUD is a mechanism used on the Internet that tells your computer the maximum size of the packets that should be sent for a given destination. How this works: Your host will send a possibly large packet; with the packet marked \"Do Not Fragment\". When the packet reaches a router that can't forward this packet, due to size, it sends back a response saying \"Too big! Try this size instead.\""
-msgstr ""
+msgstr "PMTUD ist ein Mechanismus, der im Internet dazu genutzt wird, Ihrem Computer die maximale Paketgröße mitzuteilen, die sie zu einem Ziel nutzen sollen. Das funktioniert so: Ihr Computer wird ein Paket schicken, das möglicherweise zu groß ist und als \"nicht fragmentieren\" markiert ist. Wenn dieses Paket einen Router erreicht, der dies wegen der Größe nicht weiterleiten kann, sendet dieser eine Antwort an Ihren Computer zurück, die sagt \"Zu groß! Versuche stattdessen diese Größe.\""
 
 #: faq_pmtud.html
 msgid "Q: How does this relate to IPv6?"
@@ -2291,7 +2291,7 @@ msgstr "F: In welcher Beziehung steht das zu IPv6?"
 
 #: faq_pmtud.html
 msgid "With IPv6, all packets are by definition \"Do Not Fragment\". The responsibility of sending the correct sized packets no longer falls on the router; this is an expensive operation for the router to handle. Instead, the ability to do PMTUD is mandated by the IPv6 specification."
-msgstr ""
+msgstr "Bei IPv6 werden per Definition alle Pakete unterwegs \"nicht fragmentiert\". Die Verantwortung dafür, daß die Pakete die korrekte Größe haben, liegt nicht mehr im Router, da dies eine sehr aufwändige Aktion wäre. Stattdessen ist die Fähigkeit, PMTUD im Endgerät durchzuführen, durch die IPv6-Spezifikation verpflichtend."
 
 #: faq_pmtud.html
 msgid "Q: What does the firewall need to allow?"
@@ -2299,7 +2299,7 @@ msgstr "F: Was muss die Firewall zulassen?"
 
 #: faq_pmtud.html
 msgid "IPv6 firewalls <b>need</b> to permit ICMPv6, type 2 (Packet Too Big) to work correctly with the public Internet. If you are implementing the IPv6 firewall for your web site, your enterprise, or other organization, please permit this specific ICMPv6 message, even if you by default block other types of ICMP."
-msgstr ""
+msgstr "IPv6 Firewall <b>müssen</b>ICMPv6 Typ 2 (Packet Too Big)-Nachrichten durchlassen, um einwandfreie Kommunikation mit dem öffentlichen Internet zu funktionieren. Wenn Sie die IPv6-Firewall für Ihre Website, Ihr Unternehmen oder andere Organisation konfigurieren, lassen Sie diese spezifische ICMPv6-Nachricht zu, auch wenn Sie standardmäßig andere Typen von ICMP blockieren."
 
 #: faq_pmtud.html
 msgid "Q: What else can cause PMTUD failures?"
@@ -2311,7 +2311,7 @@ msgstr ""
 
 #: faq_pmtud.html
 msgid "This is what it looks like when you use 6to4, 6in4, Teredo, and other types of tunnels:"
-msgstr ""
+msgstr "So sieht es aus, wenn Sie 6to4, 6in4, Teredo und andere Tunnelarten nutzen:"
 
 #: faq_pmtud.html
 msgid "Your router will automatically add an IPv4 header to the top of your packet. This same router will let your computer know if the packet is going to be too big; your computer will (as long as it gets the ICMPv6 \"Packet Too Big\" message) resend the packet, at a smaller size recommended by your router. A router near the web site, will automatically remove the IPv4 header, and forward the IPv6 peice."
@@ -2319,11 +2319,11 @@ msgstr ""
 
 #: faq_pmtud.html
 msgid "This is like putting a letter in an envelope, inside another envelope for someone else to forward on. There may be a maximum size or weight limit for your postage stamp. Tunneling is conceptually the same."
-msgstr ""
+msgstr "Das ist, als ob man einen Brief in einen Umschlag steckt, und diesen in einen weiteren Umschlag, damit jemand den Brief im ersten Umschlag weiterleitet. Möglicherweise gibt es eine Obergrenze für diev Größe oder das Gewicht für die Briefmarke. Tunneling ist im Prinzip das gleiche."
 
 #: faq_pmtud.html
 msgid "If any Internet service provider along the way adds their own tunnel, in effect stuffing your package into another envelope, the packet may become too big:"
-msgstr ""
+msgstr "Wenn ein Internetdienstanbieter auf dem Weg einen eigenen Tunnel hinzufügt, also Ihr Paket in einen anderen Umschlag packt, kann das Paket zu groß werden:"
 
 #: faq_pmtud.html
 msgid "In the above case, the message is now so big, that it can't be forwarded. A \"Packet Too Big\" message will be sent by that router - but it only sees the IPv4 address; not your IPv6 address. Because of this, your computer will never retry with a smaller sized packet, one that might fit when using multiple envelopes."
@@ -2367,7 +2367,7 @@ msgstr ""
 
 #: faq_pmtud.html
 msgid "If your router provides IPv6 for you, see if you can configure a smaller MTU to be advertising with (perhaps) RADVD."
-msgstr ""
+msgstr "Falls Ihr Router Ihnen IPv6 bietet, können Sie dort vielleicht einen kleineren MTU-Wert angeben, der dann (zum Beispiel) mit RADVD verteilt wird."
 
 #: faq_pmtud.html
 msgid "Apple Airport routers: Automatically send ICMPv6 redirects to your hosts, telling them to reduce the path MTU to 1280."
@@ -2375,7 +2375,7 @@ msgstr "Apple Airport Router: Sende automatisch ICMPv6 Weiterleitungen zu ihrem 
 
 #: faq_pmtud.html
 msgid "DD-WRT routers: Looks like you need to use \"AdvLinkMTU 1280;\" on your wireless side; and make sure the tun6to4 mtu is set to 1280."
-msgstr ""
+msgstr "DD-WRT-Router: Es sieht so aus, also ob Sie \"AdvLinkMTU 1280;\" auf der Wireless-Seite verwenden müssen; stellen Sie ebenfalls sicher, dass die tun6to4 MTU auf 1280 gesetzt ist."
 
 #: faq_pmtud.html
 msgid "Routers based on Linux, BSD, and (presumably) Mac: Set your 6to4 interface to MTU 1280. Configure radvd.conf's interface config with \"AdvLinkMTU 1280\"."
@@ -2391,7 +2391,7 @@ msgstr "Linux, BSD und (vermutlich) Mac: Stellen Sie die \"MTU\"-Größe ihrer \
 
 #: faq_pmtud.html
 msgid "Windows: If you figure this out, please share with jfesler@test-ipv6.com to add to this site. Presumably: control panel, network adapters, properties, 6"
-msgstr ""
+msgstr "Windows: Wenn Sie dies herausfinden, bitte teilen Sie mir dies mit, jfesler@test-ipv6.com, damit das zu dieser Seite hinzugefügt werden kann. Vermutlich: Systemsteuerung, Netzwerkadapter, Eigenschaften, 6"
 
 #: faq_pmtud.html
 msgid "<b>If you are not covered by the above, do a web search.</b>. As you learn what fixes your particular circumstances, please share with jfesler@test-ipv6.com to add to this site. Your contribution will be appreciated by others!"
@@ -2426,16 +2426,16 @@ msgid "Your DNS server was confused by the result - it doesn't fully follow the 
 msgstr "Ihr DNS-Server wurde durch das Ergebnis verwirrt - er folgt nicht vollständig den DNS-Standards."
 
 #: faq_buggydns1.html
-msgid "Your DNS server took the first peice of the IPV6 address, and memorized it as the IPv4 address."
-msgstr "Ihr DNS-Server nahm das erste Stück der IPV6-Adresse, und speicherte es als IPv4-Adresse."
+msgid "Your DNS server took the first piece of the IPV6 address, and memorized it as the IPv4 address."
+msgstr ""
 
 #: faq_buggydns1.html
 msgid "The browser fails the IPv6 lookup, but \"succeeds\" in getting a bogus IPv4 address."
-msgstr ""
+msgstr "Die IPv6-Abfrage im Browser schlägt fehl, die Abfrage einer IPv4-Adresse liefert \"erfolgreich\" ein falsches Ergebnis zurück."
 
 #: faq_buggydns1.html
 msgid "It then tries to make a connecting, to the wrong address, with the wrong protocol."
-msgstr ""
+msgstr "Er versucht dann eine Verbindung zur falschen Adresse mit dem falschen Protokoll."
 
 #: faq_buggydns1.html
 msgid "This is bad for several reasons:"
@@ -2463,7 +2463,7 @@ msgstr "Unter Windows, bei der<code>cmd</code>-Eingabeaufforderung, geben Sie <c
 
 #: faq_buggydns1.html
 msgid "With Linux, BSD, and Mac OS X, you can do this in a terminal: <code>cat /etc/resolv.conf</code>."
-msgstr ""
+msgstr "Bei Linux, BSD und Mac OS X können Sie dies einem Terminal eingeben: <code>cat /etc/resolv.conf</code>."
 
 #: faq_buggydns1.html
 msgid "Residential ISP customers: look to see if the DNS server is <b>192.168.0.1</b> or <b>192.168.1.1</b>. If so, chances are good that your home router is at fault. This is probably the blue box you have that connects the Internet."
@@ -2479,7 +2479,7 @@ msgstr "IT-Professionals:"
 
 #: faq_buggydns1.html
 msgid "You can see an illustration of this, by doing:"
-msgstr ""
+msgstr "Sehen Sie ein Beispiel dafür, indem Sie folgendes durchführen:"
 
 #: faq_buggydns1.html
 msgid "Substitute the 192.168.1.1 with the resolver being used by the host. If the \"aaaa\" request comes back with no answer, but the \"a\" answer does, this is a confirmation of a broken DNS cache or forwarder. The actual DNS information for buggydns1.test-ipv6.com has only an IPv6 record configured."
@@ -2547,11 +2547,11 @@ msgstr "Apples neueste Updates für Lion und Mountain Lion bevorzugen immer die 
 
 #: faq_avoids_ipv6.html
 msgid "When you use the Internet, a connection is made between your computer, and the service you're connecting to. To connect, you have to have the other side's IP - Internet Protocol - number. And, when you connect, they see yours, so they can send traffic back to you and your applications."
-msgstr ""
+msgstr "Wenn Sie das Internet verwenden, wird eine Verbindung zwischen Ihrem Computer und dem Service, den Sie kontaktieren, hergestellt. Um eine Verbindung herzustellen, benötigen Sie die IP-Nummer der Gegenstelle (IP=Internet Protocol). Und wenn Sie sich verbinden, sieht der Service Ihre Nummer, so dass er Datenverkehr an Sie und Ihre Anwendungen zurücksenden kann."
 
 #: faq_avoids_ipv6.html
 msgid "The Internet protocol that we've been using for the 1990's and the 2000s, has run out of these unique numbers. We can keep going, but with some limitations, by sharing multiple machines with one number. Often times, we do this at home or at work."
-msgstr ""
+msgstr "Dem Internet-Protokoll, welches wir in den 1990er und 2000er Jahren verwendet haben, gehen diese eindeutigen Nummern aus. Wir können damit weitermachen, aber mit einigen Einschränkungen, indem sich mehrere Computer eine diese Nummern teilen. Oft wird das zu Hause oder am Arbeitsplatz so gemacht."
 
 #: faq_avoids_ipv6.html
 msgid "What is changing is that the Internet Service Providers are all facing the fact that they will have to implement this type of address sharing, on a much larger scale. Some buzzwords you may hear: NAT, CGN, Carrier Grade NAT, LSN, Large Scale NAT. They all look something like this:"
@@ -2563,15 +2563,15 @@ msgstr ""
 
 #: faq_avoids_ipv6.html
 msgid "What happens if one of those homes has a bored hacker, or (more likely) a compromised machine owned by someone who doesn't stay up to date, and doesn't run antivirus software? What happens when that machine starts to attack your favorite web sites? What about your banking site?"
-msgstr ""
+msgstr "Was passiert, wenn sich in einem dieser Haushalte ein gelangweilter Hacker oder (wahrscheinlicher) ein kompromittierter Computer im Besitz von jemandem, der keine Updates macht und keine Antivirus-Software hat, befindet? Was passiert, wenn dieser Computer damit beginnt, Ihre bevorzugte Website anzugreifen? Was ist mit Ihrer Homebanking-Seite?"
 
 #: faq_avoids_ipv6.html
 msgid "Those sites will have to ultimately protect themselves, by blocking the traffic. Unfortuantely, they only see the shared address, so their blocking it looks like this:"
-msgstr ""
+msgstr "Diese Websites müssen sich letztendlich selbst schützen, indem Sie den Verkehr blockieren. Leider sehen sie nur die geteilte IP-Adresse, so dass die Sperrung wie folgt aussieht:"
 
 #: faq_avoids_ipv6.html
 msgid "This is not a good situation. And the main way to avoid it, is to make sure that your IPv6 is working; and to make sure that IPv6 is the preferred protocol."
-msgstr ""
+msgstr "Dies ist keine gute Situation. Der beste Weg, um sie zu vermeiden, besteht darin, sicherzustellen, dass Ihr IPv6 funktioniert; stellen Sie ebenfalls sicher, dass IPv6 das bevorzugte Protokoll ist."
 
 #: faq_avoids_ipv6.html
 msgid "Why else should I care about IPv4 being preferred instead of IPv6, when I have both available?"

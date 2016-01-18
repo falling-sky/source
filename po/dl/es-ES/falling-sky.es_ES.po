@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2016-01-15 04:15-0500\n"
+"PO-Revision-Date: 2016-01-18 12:13-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Spanish\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -2425,8 +2425,8 @@ msgid "Your DNS server was confused by the result - it doesn't fully follow the 
 msgstr "Su servidor DNS se mostró confundido por el resultado - no sigue los estándares DNS completamente."
 
 #: faq_buggydns1.html
-msgid "Your DNS server took the first peice of the IPV6 address, and memorized it as the IPv4 address."
-msgstr "Su servidor DNS tomó la primera pieza de la dirección IPV6 y se la memorizó como la dirección IPv4."
+msgid "Your DNS server took the first piece of the IPV6 address, and memorized it as the IPv4 address."
+msgstr ""
 
 #: faq_buggydns1.html
 msgid "The browser fails the IPv6 lookup, but \"succeeds\" in getting a bogus IPv4 address."

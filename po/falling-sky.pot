@@ -2414,7 +2414,7 @@ msgid "Your DNS server was confused by the result - it doesn't fully follow the 
 msgstr ""
 
 #: faq_buggydns1.html
-msgid "Your DNS server took the first peice of the IPV6 address, and memorized it as the IPv4 address."
+msgid "Your DNS server took the first piece of the IPV6 address, and memorized it as the IPv4 address."
 msgstr ""
 
 #: faq_buggydns1.html
