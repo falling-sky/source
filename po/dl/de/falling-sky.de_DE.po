@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2016-01-19 06:15-0500\n"
+"PO-Revision-Date: 2016-01-19 10:45-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: German\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -2307,7 +2307,7 @@ msgstr "Q: Was noch kann PMTUD Fehler verursachen?"
 
 #: faq_pmtud.html
 msgid "Tunnels inside of tunnels. One might be your own; the other, you may not see. Internet service providers often use tunnels either to simplify their topology; to hide it; or to transport things in a more convenient way. However, each tunnel used requires adding a bit of a header to the top of the packet - making the packet bigger. The problem lies in that routers have a maximum size packet they will route."
-msgstr ""
+msgstr "Tunnel in Tunnel. Einer könnte Ihr eigener sein; den anderen könnten Sie nicht sehen. Internet-Diensteanbieter nutzen öfters Tunnels, entweder, um ihre Topologie zu vereinfachen, sie zu verstecken, oder Dinge einfacher zu transportieren. Jeder Tunnel jedoch erfordert einen kleinen Header, der vor das Paket gesetzt wird - und das Paket größer macht. Das Problem liegt darin, dass die Router eine maximale Paketgröße haben, die sie weiterleiten."
 
 #: faq_pmtud.html
 msgid "This is what it looks like when you use 6to4, 6in4, Teredo, and other types of tunnels:"
@@ -2315,7 +2315,7 @@ msgstr "So sieht es aus, wenn Sie 6to4, 6in4, Teredo und andere Tunnelarten nutz
 
 #: faq_pmtud.html
 msgid "Your router will automatically add an IPv4 header to the top of your packet. This same router will let your computer know if the packet is going to be too big; your computer will (as long as it gets the ICMPv6 \"Packet Too Big\" message) resend the packet, at a smaller size recommended by your router. A router near the web site, will automatically remove the IPv4 header, and forward the IPv6 peice."
-msgstr ""
+msgstr "Ihr Router wird automatisch einen IPv4-Header vor Ihr Paket setzen. Genau dieser Router wird Ihrem Computer mitteilen, ob das Paket zu groß sein wird; Ihr Computer wird (wenn er die ICMPv6 \"Packet Too Big\"-Nachricht bekommt) das Paket erneut mit einer kleineren Größe senden, nämlich der von Ihrem Router empfohlenen. Ein Router in der Nähe der Webseite wird den IPv4-Header automatisch entfernen, und den IPv6-Teil weiterleiten."
 
 #: faq_pmtud.html
 msgid "This is like putting a letter in an envelope, inside another envelope for someone else to forward on. There may be a maximum size or weight limit for your postage stamp. Tunneling is conceptually the same."
@@ -2467,7 +2467,7 @@ msgstr "Bei Linux, BSD und Mac OS X können Sie dies einem Terminal eingeben: <c
 
 #: faq_buggydns1.html
 msgid "Residential ISP customers: look to see if the DNS server is <b>192.168.0.1</b> or <b>192.168.1.1</b>. If so, chances are good that your home router is at fault. This is probably the blue box you have that connects the Internet."
-msgstr ""
+msgstr "ISP Privatkunden: Schauen Sie nach, ob der DNS Server <b>192.168.0.1</b> oder <b>192.168.1.1</b> ist. Wenn ja, stehen die Chancen gut, dass Ihr Heim-Router schuld ist. Dies ist wahrscheinlich die blaue Box, die Sie mit dem Internet verbindet."
 
 #: faq_buggydns1.html
 msgid "Business customers: Provide this information to your IT professional to investigate."
@@ -2555,7 +2555,7 @@ msgstr "Dem Internet-Protokoll, welches wir in den 1990er und 2000er Jahren verw
 
 #: faq_avoids_ipv6.html
 msgid "What is changing is that the Internet Service Providers are all facing the fact that they will have to implement this type of address sharing, on a much larger scale. Some buzzwords you may hear: NAT, CGN, Carrier Grade NAT, LSN, Large Scale NAT. They all look something like this:"
-msgstr ""
+msgstr "Was sich verändert hat, ist, dass alle Internet-Service-Provider mit der Tatsache konfrontiert werden, diese Art von Adresseteilung zu implementieren, in einem viel größeren Rahmen. Einige Fachausdrücke, die Sie hören könnten: NAT, CGN, Carrier Grade NAT, LSN, Large Scale NAT. Sie sehen alle so ähnlich aus:"
 
 #: faq_avoids_ipv6.html
 msgid "The thing to watch for here: <b>Many</b> houses sharing one public address."
