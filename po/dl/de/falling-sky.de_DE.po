@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2016-01-18 12:13-0500\n"
+"PO-Revision-Date: 2016-01-19 06:15-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: German\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -2327,7 +2327,7 @@ msgstr "Wenn ein Internetdienstanbieter auf dem Weg einen eigenen Tunnel hinzuf�
 
 #: faq_pmtud.html
 msgid "In the above case, the message is now so big, that it can't be forwarded. A \"Packet Too Big\" message will be sent by that router - but it only sees the IPv4 address; not your IPv6 address. Because of this, your computer will never retry with a smaller sized packet, one that might fit when using multiple envelopes."
-msgstr ""
+msgstr "In dem obigen Fall ist die Nachricht nun so groß, daß sie nicht mehr weitergeleitet werden kann. Eine Nachricht \"Packet too Big\" (\"Nachricht zu groß\") wird durch den Router generiert - aber dieser sieht nur die IPv4-Adresse; nicht Ihre IPv6-Adresse. Deswegen wird Ihr Computer niemals versuchen, kleinere Pakete zu senden, die in mehrere \"Umschläge\" passen würden."
 
 #: faq_pmtud.html
 msgid "What does this look like on the network?"
@@ -2363,7 +2363,7 @@ msgstr "Ihr Router oder Firewall blockiert dies möglicherweise."
 
 #: faq_pmtud.html
 msgid "If you have \"native\" IPv6, meaning your ISP gave you your IPv6 connectivity, and you are still running into MTU problems, see if your router can advertise a smaller IPv6 MTU. Alternately, configure your <b>entire LAN</b> for a smaller MTU (not really advised!)"
-msgstr ""
+msgstr "Wenn Sie \"natives\" IPv6 haben, d. h. Ihr ISP hat Ihnen direkte IPv6-Konnektivität gegeben, und Sie haben immer noch MTU-Probleme, dann sehen Sie nach, ob Ihr Router eine kleinere IPv6-MTU verteilen kann. Alternativ konfigurieren Sie Ihr <b>gesamtes LAN</b> mit einer kleineren MTU (nicht wirklich empfohlen!)"
 
 #: faq_pmtud.html
 msgid "If your router provides IPv6 for you, see if you can configure a smaller MTU to be advertising with (perhaps) RADVD."
@@ -2395,7 +2395,7 @@ msgstr "Windows: Wenn Sie dies herausfinden, bitte teilen Sie mir dies mit, jfes
 
 #: faq_pmtud.html
 msgid "<b>If you are not covered by the above, do a web search.</b>. As you learn what fixes your particular circumstances, please share with jfesler@test-ipv6.com to add to this site. Your contribution will be appreciated by others!"
-msgstr ""
+msgstr "<b>Wenn das oben aufgeführte nicht zutrifft, führen Sie eine Suche im Internet durch.</b>. Wenn Sie herausfinden, was in Ihrer Situation das Problem gelöst hat, teilen Sie es bitte jfesler@test-ipv6.com mit, damit es dieser Seite hinzugefügt werden kann. Die anderen Benutzer werden es Ihnen danken!"
 
 #: attributions.html
 msgid "This site would not exist without the following components and resources."
@@ -2407,7 +2407,7 @@ msgstr "FAQ zu \"Fehlerhafter DNS\""
 
 #: faq_buggydns1.html
 msgid "If you were referred to this page by test-ipv6.com, it means that we were able to detect a dangerous condition with your DNS server."
-msgstr ""
+msgstr "Wenn Sie von test-ipv6.com auf dieses Seite weitergeleitet worden sind, bedeutet dies, daß wir eine kritische Situation mit Ihrem DNS-Server erkannt haben."
 
 #: faq_buggydns1.html
 msgid "First a description of the problem:"
@@ -2427,7 +2427,7 @@ msgstr "Ihr DNS-Server wurde durch das Ergebnis verwirrt - er folgt nicht vollst
 
 #: faq_buggydns1.html
 msgid "Your DNS server took the first piece of the IPV6 address, and memorized it as the IPv4 address."
-msgstr ""
+msgstr "Ihr DNS-Server hat den ersten Teil der IPv6-Adresse genommen und als IPv4-Adresse gespeichert."
 
 #: faq_buggydns1.html
 msgid "The browser fails the IPv6 lookup, but \"succeeds\" in getting a bogus IPv4 address."
@@ -2447,7 +2447,7 @@ msgstr "Sie werden keine Verbindungen zu reinen IPv6-Webseiten herstellen könne
 
 #: faq_buggydns1.html
 msgid "You may sporadically fail (or always fail) to connect to IPv6-enabled web sites. This is regardless of whether you are capable IPv6 or not - you may still be impacted."
-msgstr ""
+msgstr "Verbindungen zu Webseiten, die IPv6 unterstützen, können ab und zu nicht funktionieren (oder werden immer fehlschlagen). Dabei ist es egal, ob Ihr Rechner IPv6-fähig ist oder nicht - Sie sind auf jeden Fall betroffen."
 
 #: faq_buggydns1.html
 msgid "So, what is actually affected?"
@@ -2559,7 +2559,7 @@ msgstr ""
 
 #: faq_avoids_ipv6.html
 msgid "The thing to watch for here: <b>Many</b> houses sharing one public address."
-msgstr ""
+msgstr "Was hier wichtig ist: <b>Viele</b> Haushalte teilen sich eine öffentliche Adresse."
 
 #: faq_avoids_ipv6.html
 msgid "What happens if one of those homes has a bored hacker, or (more likely) a compromised machine owned by someone who doesn't stay up to date, and doesn't run antivirus software? What happens when that machine starts to attack your favorite web sites? What about your banking site?"
