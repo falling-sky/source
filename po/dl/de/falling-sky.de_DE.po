@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2016-01-20 05:15-0500\n"
+"PO-Revision-Date: 2016-01-21 11:15-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: German\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -2203,7 +2203,7 @@ msgstr "Wenn Webseiten gezwungen sind, Mißbrauch zu unterbinden, dann blockiere
 
 #: faq_whyipv6.html
 msgid "Running servers at home will break, unless you arrange to pay for a static IP address. Assuming the ISP is able to offer this at all, we expect the price for this to go up over the coming years. Some ISPs may be able to offer you a port forward on a static IP on an odd port number - but not the whole IP address"
-msgstr "Server zu Hause zu betreiben wird nicht mehr funktioneren, wenn Sie nicht für eine statische IP-Adresse bezahlen. Wenn dies Ihr ISP überhaupt anbieten kann, erwarten wir, dass der Preis hierfür mit den Jahren steigen wird. Einige ISPs können Ihren ein Portforwarding auf einer ungewohnten Portnummer anbieten - aber nicht die ganze IP-Adresse"
+msgstr "Server zu Hause zu betreiben wird nicht mehr funktioneren, wenn Sie nicht für eine statische IP-Adresse bezahlen. Wenn Ihr ISP dies überhaupt anbieten kann, erwarten wir, dass der Preis hierfür mit den Jahren steigen wird. Einige ISPs können Ihnen ein Portforwarding auf einer ungewohnten Portnummer anbieten - aber nicht die ganze IP-Adresse"
 
 #: faq_whyipv6.html
 msgid "Running p2p applications will likely break. <b>This includes things like voice and video chat, video games, and yes - even those legal BitTorrent clients.</b> Some ISPs may handle this better than others, and some applications may handle this better than others, but there will be a lot of road bumps over all on this."
@@ -2267,7 +2267,7 @@ msgstr "Ihr Router: Sehr wahrscheinlich. Viele Router für den Hausgebrauch habe
 
 #: faq_whyipv6.html
 msgid "Your router: Quite possibly. Many home routers have no upgrade path for IPv6. Do a web search for your router model, with the keyword \"ipv6\" with it."
-msgstr "Ihr Router: Sehr wahrscheinlich. Viele Router für den Hausgebrauch haben keine Möglichkeit \"IPv6\" Unerstützung nachträglich hinzuzufügen. Suchen mit im Internet nach Ihrem Router zusammen mit dem Schlüsselwort \"IPv6\"."
+msgstr "Ihr Router: Sehr wahrscheinlich. Viele Router für den Hausgebrauch haben keine Möglichkeit, \"IPv6\"-Unterstützung nachträglich hinzuzufügen. Suchen Sie im Internet nach Ihrem Router zusammen mit dem Schlüsselwort \"IPv6\"."
 
 #: faq_whyipv6.html
 msgid "<b>What router to buy:</b> Wait until your ISP gives you guidance on what will work best with their system. If you must replace your router immediately, look for ones that are IPv6 capable. Apple Airport Express and Airport Extreme have built in tunneling capabilities. OpenWRT capable routers also do (when loaded with the OpenWRT firmware). If you do consider tunnels, see my <a href=\"#\" onclick=\"return help_page('faq_6to4.html','6to4')\">6to4 comments</a>."
@@ -2319,7 +2319,7 @@ msgstr "Ihr Router wird automatisch einen IPv4-Header vor Ihr Paket setzen. Gena
 
 #: faq_pmtud.html
 msgid "This is like putting a letter in an envelope, inside another envelope for someone else to forward on. There may be a maximum size or weight limit for your postage stamp. Tunneling is conceptually the same."
-msgstr "Das ist, als ob man einen Brief in einen Umschlag steckt, und diesen in einen weiteren Umschlag, damit jemand den Brief im ersten Umschlag weiterleitet. Möglicherweise gibt es eine Obergrenze für diev Größe oder das Gewicht für die Briefmarke. Tunneling ist im Prinzip das gleiche."
+msgstr "Das ist, als ob man einen Brief in einen Umschlag steckt, und diesen in einen weiteren Umschlag, damit jemand den Brief im ersten Umschlag weiterleitet. Möglicherweise gibt es eine Porto-Obergrenze für die Größe oder das Gewicht. Tunneling ist im Prinzip das gleiche."
 
 #: faq_pmtud.html
 msgid "If any Internet service provider along the way adds their own tunnel, in effect stuffing your package into another envelope, the packet may become too big:"
@@ -2351,15 +2351,15 @@ msgstr "Was kann ich tun?"
 
 #: faq_pmtud.html
 msgid "This is a complex question - there are many ways to get on the Internet."
-msgstr "Dies ist eine komplexe Frage - Es gibt im Internet viele Möglichkeiten."
+msgstr "Dies ist eine komplexe Frage - es gibt viele Möglichkeiten, ins Internet zu gelangen."
 
 #: faq_pmtud.html
 msgid "The preferred fix is to permit ICMPv6 Type 2 Packet Too Big messages."
-msgstr "Der bevorzugte Fix gestattet ICMPv6 Typ 2 Paket Zu Groß Meldungen."
+msgstr "Die bevorzugte Lösung ist es, ICMPv6 Typ 2 Pakete (\"Paket zu groß\"-, \"Packet too big\"-Nachrichten) durchzulassen."
 
 #: faq_pmtud.html
 msgid "Your router or firewall may be blocking these."
-msgstr "Ihr Router oder Firewall blockiert dies möglicherweise."
+msgstr "Ihr Router oder Ihre Firewall blockieren dies möglicherweise."
 
 #: faq_pmtud.html
 msgid "If you have \"native\" IPv6, meaning your ISP gave you your IPv6 connectivity, and you are still running into MTU problems, see if your router can advertise a smaller IPv6 MTU. Alternately, configure your <b>entire LAN</b> for a smaller MTU (not really advised!)"
@@ -2371,7 +2371,7 @@ msgstr "Falls Ihr Router Ihnen IPv6 bietet, können Sie dort vielleicht einen kl
 
 #: faq_pmtud.html
 msgid "Apple Airport routers: Automatically send ICMPv6 redirects to your hosts, telling them to reduce the path MTU to 1280."
-msgstr "Apple Airport Router: Sende automatisch ICMPv6 Weiterleitungen zu ihrem Provider, mit der Anweisung den MUT auf 1280 zu reduzieren."
+msgstr "Apple Airport Router: Senden automatisch ICMPv6 Nachrichten zu ihrem Provider, mit der Anweisung, die MTU auf 1280 zu reduzieren."
 
 #: faq_pmtud.html
 msgid "DD-WRT routers: Looks like you need to use \"AdvLinkMTU 1280;\" on your wireless side; and make sure the tun6to4 mtu is set to 1280."
@@ -2463,7 +2463,7 @@ msgstr "Unter Windows, bei der<code>cmd</code>-Eingabeaufforderung, geben Sie <c
 
 #: faq_buggydns1.html
 msgid "With Linux, BSD, and Mac OS X, you can do this in a terminal: <code>cat /etc/resolv.conf</code>."
-msgstr "Bei Linux, BSD und Mac OS X können Sie dies einem Terminal eingeben: <code>cat /etc/resolv.conf</code>."
+msgstr "Bei Linux, BSD und Mac OS X können Sie dies in einem Terminal eingeben: <code>cat /etc/resolv.conf</code>."
 
 #: faq_buggydns1.html
 msgid "Residential ISP customers: look to see if the DNS server is <b>192.168.0.1</b> or <b>192.168.1.1</b>. If so, chances are good that your home router is at fault. This is probably the blue box you have that connects the Internet."
@@ -2543,7 +2543,7 @@ msgstr "Die neuesten Updates für Windows 7 und Windows 8 werden regelmäßig te
 
 #: faq_avoids_ipv6.html
 msgid "Apple's latest Lion and Mountain Lion updates will prefer whichever is \"faster\" for a given destination."
-msgstr "Apples neueste Updates für Lion und Mountain Lion bevorzugen immer die Methode, welche am schnellsten zum Ziel führt."
+msgstr "Apples neueste Updates für Lion und Mountain Lion bevorzugen immer die Methode, welche für ein Ziel am schnellsten ist."
 
 #: faq_avoids_ipv6.html
 msgid "When you use the Internet, a connection is made between your computer, and the service you're connecting to. To connect, you have to have the other side's IP - Internet Protocol - number. And, when you connect, they see yours, so they can send traffic back to you and your applications."
