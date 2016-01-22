@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2016-01-21 11:15-0500\n"
+"PO-Revision-Date: 2016-01-22 08:00-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: German\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -319,7 +319,7 @@ msgstr "verwende"
 
 #: builtin.js
 msgid "tests run"
-msgstr "Durchgeführte Tests"
+msgstr "Tests durchgeführt"
 
 #: builtin.js
 msgid "(Survey posting skipped; test was rigged)"
@@ -643,7 +643,7 @@ msgstr "Dieses Formular ermöglicht Ihnen Kommentare zu hinterlassen, Anregungen
 
 #: main/mail.inc
 msgid "This includes your IP address, which is shared with the site administrator in order to answer your questions."
-msgstr "Dies beinhaltet Ihre IP-Adresse die dem Seitenbetreiber mitgeteilt wird um Ihre Fragen besser beantwortet zu bekommen."
+msgstr "Dies beinhaltet Ihre IP-Adresse, die dem Seitenbetreiber mitgeteilt wird, um Ihre Fragen besser beantwortet zu bekommen."
 
 #: main/mail.inc
 msgid "Use of this form implies consent."
@@ -1479,7 +1479,7 @@ msgstr "Sie haben Recht, es gibt keine AAAA-Einträge und zwar absichtlich. Ein 
 
 #: faq.html
 msgid "At some point, when the percentage of \"broken\" users has gone significantly down, I'll consider making test-ipv6.com dual-stack. At least check, May 2013, we still see 0.5% broken visiting test-ipv6.com. And we still want them to understand their situation."
-msgstr "Irgendwann, wenn der Prozentsatz der \"deutlich\" Benutzer deutlich abgenommen hat, werde ich erwägen, test-ipv6.com per Dual-Stack anzubieten. Bei der letzten Überprüfung im Mai 2013 sahen wir immer noch 0,5 % \"defekte\" Besucher auf test-ipv6.com. Und wir wollen ihnen helfen, ihre Situation zu verstehen."
+msgstr "Irgendwann, wenn der Prozentsatz der \"defekten\" Benutzer deutlich abgenommen hat, werde ich erwägen, test-ipv6.com per Dual-Stack anzubieten. Bei der letzten Überprüfung im Mai 2013 sahen wir immer noch 0,5 % \"defekte\" Besucher auf test-ipv6.com. Und wir wollen ihnen helfen, ihre Situation zu verstehen."
 
 #: faq.html
 msgid "Q: How do I test my IPv6-only host"
@@ -1575,7 +1575,7 @@ msgstr "Mir wäre lieber, dass Sie das Formular verwenden, da es Informationen �
 
 #: faq.html
 msgid "That said, you are welcome to directly email <a href=\"mailto:jfesler@test-ipv6.com\">jfesler@test-ipv6.com</a>."
-msgstr "Das heißt, Sie sind herzlich eingeladen, eine e-Mail an <a href=\"mailto:jfesler@test-ipv6.com\">jfesler@test-ipv6.com</a>zu senden."
+msgstr "Das heißt, Sie sind herzlich eingeladen, eine e-Mail an <a href=\"mailto:jfesler@test-ipv6.com\">jfesler@test-ipv6.com</a> zu senden."
 
 #: faq.html
 msgid "Q: Is this open source?"
@@ -2627,7 +2627,7 @@ msgstr "Wenn die AS-Nummer unterschiedlich ist, heben wir dies hervor - und kenn
 
 #: faq_tunnel.html
 msgid "Tunnels are not inherently bad; but (depending on circumstances) they may cause troubles that might not otherwise be seen with native IPv6 connectivity. Specifically, there may be issues of PMTUD (Path MTU Discovery) with some sites you visit - depending on the firewall configurations between you and those sites."
-msgstr "Tunnel sind nicht generell schlecht; aber (je nach Umständen) verursachen sie Probleme, die nicht auftauchen, wenn native IPv6-Konnektivität vorhanden ist. Insbesondere gibt es möglicherweise Probleme mit der PMTUD (Path MTU Discovery) bei einigen Websites, die Sie - abhängig beispielsweise von der Konfiguration von Firewalls zwischen Ihnen und der von Ihnen besuchten Seite."
+msgstr "Tunnel sind nicht generell schlecht; aber (je nach Umständen) verursachen sie Probleme, die nicht auftauchen, wenn native IPv6-Konnektivität vorhanden ist. Insbesondere gibt es möglicherweise Probleme mit der PMTUD (Path MTU Discovery) bei einigen Websites, die Sie aufrufen - abhängig beispielsweise von der Konfiguration von Firewalls zwischen Ihnen und der von Ihnen besuchten Seite."
 
 #: faq_tunnel_6rd.html
 msgid "What is specific to 6RD tunnels?"
