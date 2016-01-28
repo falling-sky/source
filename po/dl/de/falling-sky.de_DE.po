@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2016-01-22 10:30-0500\n"
+"PO-Revision-Date: 2016-01-27 16:30-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: German\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -2143,7 +2143,7 @@ msgstr "Das ist eine interessante Frage. IPv6 hat nur ein paar Vorteile gegenüb
 
 #: faq_whyipv6.html
 msgid "The promise is the ability to give every device in your house a reachable network address. Each house will have practically unlimited network addresses (2<sup>64</sup> if you're curious - about 18 billion billions). Each house may potentially have more than that, particularly if they have the need for multiple networks within the home. Many ISPs will be able to easy give you 256 of those networks. <em>Running out of IPv6 address space will seem impossible for decades.</em>"
-msgstr "Das Versprechen ist die Fähigkeit, jedes Gerät in Ihrem Haushalt eine erreichbare Netzwerk-Adresse geben. Jeder Haushalt wird praktisch eine unbegrenzte Menge Netzwerkadressen haben (2 <sup>64</sup> das sind rund 18 Milliarden Milliarden). Jedes Haus kann sogar möglicherweise mehr als diese Menge haben, insbesondere, wenn es die Notwendigkeit für mehrere Netzwerke zu Hause gibt. Viele ISPs werden Ihnen 256 dieser Netzwerke geben können. <em>Es scheint unwahrscheinlich, daß wir in den nächsten Dekaden irgendwann keine IPv6-Adressen mehr haben.</em>"
+msgstr "Das Versprechen ist die Fähigkeit, jedem Gerät in Ihrem Haushalt eine erreichbare Netzwerk-Adresse geben. Jeder Haushalt wird praktisch eine unbegrenzte Menge Netzwerkadressen haben (2<sup>64</sup> das sind rund 18 Milliarden Milliarden). Jedes Haus kann sogar möglicherweise mehr als diese Menge haben, insbesondere, wenn es die Notwendigkeit für mehrere Netzwerke zu Hause gibt. Viele ISPs werden Ihnen 256 dieser Netzwerke geben können. <em>Es scheint unwahrscheinlich, daß wir in den nächsten Dekaden irgendwann keine IPv6-Adressen mehr haben werden.</em>"
 
 #: faq_whyipv6.html
 msgid "Applications to take advantage of this are just now being thought of. Imagine having all of your home electronics accessible from work or from your mobile phone. You could watch your TV recorder, or the security camera. You could check the fridge, perhaps start the oven timer. Maybe turn on the air conditioning or the heater when you know you're coming home early. All of these *can* be done today, but are cumbersome with IPv4 if you're using a single IPv4 address today. And, very difficult in the future, with where IPv4 is heading next."
@@ -2187,7 +2187,7 @@ msgstr "F: Also, warum sollte ich mir Sorgen machen? NAT wird funktionieren, nic
 
 #: faq_whyipv6.html
 msgid "Sort of. Basic web browsing should be OK for most sites. Some map sites, the itunes store, and other sites that use a <em>huge</em> number of connections to rapidly load the page, may start showing blank images, depending on how many people share that public IP address."
-msgstr "So halbwegs. Einfaches Webbrowsing sollte für die meisten Seiten funktionieren. Einige Kartendienste, der itunes store, und andere Dienst, die eine <em>sehr grosse</em> Anzahl von Verbindungen aufbauen, um die Seite schnell zu laden, könnten Anfagen, leere Bilder zu zeigen, abhängig davon, wie viele Leute sich die öffentliche IP-Adresse teilen."
+msgstr "So halbwegs. Einfaches Webbrowsing sollte für die meisten Seiten funktionieren. Einige Kartendienste, der iTunes Store, und andere Dienste, die eine <em>sehr grosse</em> Anzahl von Verbindungen aufbauen, um die Seite schnell zu laden, könnten anfangen, leere Bilder zu zeigen, abhängig davon, wie viele Leute sich die öffentliche IP-Adresse teilen."
 
 #: faq_whyipv6.html
 msgid "Mail will still work, both traditional as well as web based."
@@ -2271,7 +2271,7 @@ msgstr "Ihr Router: Sehr wahrscheinlich. Viele Router für den Hausgebrauch habe
 
 #: faq_whyipv6.html
 msgid "<b>What router to buy:</b> Wait until your ISP gives you guidance on what will work best with their system. If you must replace your router immediately, look for ones that are IPv6 capable. Apple Airport Express and Airport Extreme have built in tunneling capabilities. OpenWRT capable routers also do (when loaded with the OpenWRT firmware). If you do consider tunnels, see my <a href=\"#\" onclick=\"return help_page('faq_6to4.html','6to4')\">6to4 comments</a>."
-msgstr "<b>Welche Router sollte man kaufen:</b> Warten Sie, bis Ihr ISP Ihnen Hinweise auf das gibt, was mit seinem Netz am Besten funktioniert. Wenn Sie Ihren Router sofort ersetzen müssen, suchen Sie Geräte, die IPv6-fähig sind. Apple Airport Express und Airport Extreme haben Tunnelfunktionen eingebaut. OpenWRT-fähigen Router funktionieren auch (wenn diese mit der OpenWRT-Firmware geladen werden). Wenn Sie Tunnel in Betracht ziehen, schauen Sie sich meine <a href=\"#\" onclick=\"return help_page('faq_6to4.html','6to4')\"> 6to4-Kommentare</a> an."
+msgstr "<b>Welche Router sollte man kaufen:</b> Warten Sie, bis Ihr ISP Ihnen Hinweise auf das gibt, was mit seinem Netz am Besten funktioniert. Wenn Sie Ihren Router sofort ersetzen müssen, suchen Sie Geräte, die IPv6-fähig sind. Apple Airport Express und Airport Extreme haben Tunnelfunktionen eingebaut. OpenWRT-fähigen Router funktionieren auch (wenn diese mit der OpenWRT-Firmware geladen werden). Wenn Sie Tunnel in Betracht ziehen, schauen Sie sich meine <a href=\"#\" onclick=\"return help_page('faq_6to4.html','6to4')\">6to4-Kommentare</a> an."
 
 #: faq_pmtud.html
 msgid "This will attempt to explain why you may have PMTUD problems when using test-ipv6.com; and possible solutions. Unfortunately, it is beyond the ability of this site to be able to clearly articulate *your* specific problem."
@@ -2299,7 +2299,7 @@ msgstr "F: Was muss die Firewall zulassen?"
 
 #: faq_pmtud.html
 msgid "IPv6 firewalls <b>need</b> to permit ICMPv6, type 2 (Packet Too Big) to work correctly with the public Internet. If you are implementing the IPv6 firewall for your web site, your enterprise, or other organization, please permit this specific ICMPv6 message, even if you by default block other types of ICMP."
-msgstr "IPv6 Firewall <b>müssen</b>ICMPv6 Typ 2 (Packet Too Big)-Nachrichten durchlassen, um einwandfreie Kommunikation mit dem öffentlichen Internet zu funktionieren. Wenn Sie die IPv6-Firewall für Ihre Website, Ihr Unternehmen oder andere Organisation konfigurieren, lassen Sie diese spezifische ICMPv6-Nachricht zu, auch wenn Sie standardmäßig andere Typen von ICMP blockieren."
+msgstr "IPv6 Firewall <b>müssen</b>ICMPv6 Typ 2 (Packet Too Big)-Nachrichten durchlassen, um einwandfreie Kommunikation mit dem öffentlichen Internet zu ermöglichen. Wenn Sie die IPv6-Firewall für Ihre Website, Ihr Unternehmen oder andere Organisation konfigurieren, lassen Sie diese spezifische ICMPv6-Nachricht zu, auch wenn Sie standardmäßig andere Typen von ICMP blockieren."
 
 #: faq_pmtud.html
 msgid "Q: What else can cause PMTUD failures?"
@@ -2555,7 +2555,7 @@ msgstr "Dem Internet-Protokoll, welches wir in den 1990er und 2000er Jahren verw
 
 #: faq_avoids_ipv6.html
 msgid "What is changing is that the Internet Service Providers are all facing the fact that they will have to implement this type of address sharing, on a much larger scale. Some buzzwords you may hear: NAT, CGN, Carrier Grade NAT, LSN, Large Scale NAT. They all look something like this:"
-msgstr "Was sich verändert hat, ist, dass alle Internet-Service-Provider mit der Tatsache konfrontiert werden, diese Art von Adresseteilung zu implementieren, in einem viel größeren Rahmen. Einige Fachausdrücke, die Sie hören könnten: NAT, CGN, Carrier Grade NAT, LSN, Large Scale NAT. Sie sehen alle so ähnlich aus:"
+msgstr "Was sich verändert hat, ist, dass alle Internet-Service-Provider mit der Tatsache konfrontiert werden, diese Art von Adressenteilung zu implementieren, in einem viel größeren Rahmen. Einige Fachausdrücke, die Sie hören könnten: NAT, CGN, Carrier Grade NAT, LSN, Large Scale NAT. Sie sehen alle so ähnlich aus:"
 
 #: faq_avoids_ipv6.html
 msgid "The thing to watch for here: <b>Many</b> houses sharing one public address."
@@ -2619,7 +2619,7 @@ msgstr "Wie hat der Test einen Tunnel erkannt?"
 
 #: faq_tunnel.html
 msgid "For the technical-oriented readers, here is the explanation how we detect that you are probably using a tunnel. As the test collects your IPv4 and IPv6 addresses, it also collects (thanks to <a href=\"http://www.team-cymru.org/Services/ip-to-asn.html\">http://www.team-cymru.org/Services/ip-to-asn.html</a>) your Autonomous System Numbers (ASN) for IPv4 and IPv6. If your ISP is dual stack, then your IPv4 ASN and your IPv6 ASN should be identical as your IPv4 and IPv6 connectivity are provided by the same ISP."
-msgstr "Für die technisch interessierten Leser ist hier die Erklärung, wie wir feststellen, dass Sie wahrscheinlich einen Tunnel verwenden. So, wie der Test Ihre IPv4- und IPv6-Adressen sammelt, sammelt er auch (dank <a href=\"http://www.team-cymru.org/Services/ip-to-asn.html\"> http://www.team-cymru.org/Services/ip-to-asn.html</a>) Ihre AS-Nummern (ASN) für IPv4 und IPv6. Wenn Ihr ISP Dual-Stack ist, sollten auch Ihre IPv4-ASN und Ihre IPv6-ASN identisch sein, da Ihre IPv4 und IPv6-Konnektivität von dem gleichen ISP bereitgestellt wird."
+msgstr "Für die technisch interessierten Leser ist hier die Erklärung, wie wir feststellen, dass Sie wahrscheinlich einen Tunnel verwenden. So, wie der Test Ihre IPv4- und IPv6-Adressen sammelt, sammelt er auch (dank <a href=\"http://www.team-cymru.org/Services/ip-to-asn.html\">http://www.team-cymru.org/Services/ip-to-asn.html</a>) Ihre AS-Nummern (ASN) für IPv4 und IPv6. Wenn Ihr ISP Dual-Stack ist, sollten auch Ihre IPv4-ASN und Ihre IPv6-ASN identisch sein, da Ihre IPv4 und IPv6-Konnektivität von dem gleichen ISP bereitgestellt wird."
 
 #: faq_tunnel.html
 msgid "If the ASN number is different, we highlight that fact - and call out that you are probably using a tunnel. If this is a tunnel you know about, great. If you did not know you were being tunneled, you might ask your network administrator about it."

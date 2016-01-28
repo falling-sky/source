@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2016-01-22 10:30-0500\n"
+"PO-Revision-Date: 2016-01-28 01:00-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Chinese Traditional\n"
 "MIME-Version: 1.0\\n"
@@ -160,11 +160,11 @@ msgstr ""
 
 #: messages.js
 msgid "No IPv4 address detected"
-msgstr ""
+msgstr "未檢測到 IPv4 位址"
 
 #: messages.js
 msgid "No IPv6 address detected"
-msgstr ""
+msgstr "未檢測到 IPv6 位址"
 
 #: messages.js
 msgid "Your IP address(es) could not be detected due to inteference from browser add-ons."
@@ -228,19 +228,19 @@ msgstr ""
 
 #: messages.js
 msgid "faq: MTU"
-msgstr ""
+msgstr "常見問題集: MTU"
 
 #: messages.js
 msgid "faq: No IPv4"
-msgstr ""
+msgstr "常見問題集: 無 IPv4"
 
 #: messages.js
 msgid "faq: No IPv6"
-msgstr ""
+msgstr "常見問題集: 無 IPv6"
 
 #: messages.js
 msgid "faq: 6to4"
-msgstr ""
+msgstr "常見問題集: 6to4"
 
 #: messages.js
 msgid "faq: Teredo Minimum"
@@ -248,7 +248,7 @@ msgstr ""
 
 #: messages.js
 msgid "faq: v6ns Bad"
-msgstr ""
+msgstr "常見問題集: v6ns 錯誤"
 
 #: messages.js
 msgid "faq: Browser Plugins"
@@ -256,11 +256,11 @@ msgstr "FAQ：瀏覽器外掛程式"
 
 #: messages.js
 msgid "faq: Firefox Add-Ons"
-msgstr ""
+msgstr "常見問題集: Firefox 附加元件"
 
 #: messages.js
 msgid "faq: Opera"
-msgstr ""
+msgstr "常見問題集: Opera"
 
 #: messages.js
 msgid "faq: Buggy DNS"
