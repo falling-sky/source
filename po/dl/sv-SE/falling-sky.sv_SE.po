@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2016-01-27 16:30-0500\n"
+"PO-Revision-Date: 2016-01-29 19:15-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Swedish\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -910,7 +910,7 @@ msgstr "Om allt annat misslyckas, inaktivera eller nedprioritera IPv6"
 
 #: faq/staycurrent.inc
 msgid "Many OS and Hardware manufacturers are making updates to help improve the transition to IPv6. Some known \"gotchas\" are being addressed by workarounds by these vendors."
-msgstr ""
+msgstr "Många tillverkare av OS och hårdvara gör uppdateringar för att förbättra övergången till IPv6. Några kända problem tas om hand med genom lösningar från dessa leverantörer."
 
 #: faq/staycurrent.inc
 msgid "You can do your part to make sure you are running the latest:"
@@ -1786,11 +1786,11 @@ msgstr "6to4 fungerade för mig, men \"Stora paket\" eller MTU-testet var långs
 
 #: faq_6to4.html
 msgid "When using 6to4, your IPv6 packet has to be pushed into an IPv4 packet. Internet protocol packets have a maximum size; and this can vary based on the Internet service provider, as well as the equipment used."
-msgstr ""
+msgstr "När du använder 6to4, trycks ditt IPv6-paket in i ett IPv4-paket. IP-paket har en maximal storlek; och denna kan variera beroende på Internetleverantören, likväl den utrustning som används."
 
 #: faq_6to4.html
 msgid "Because of this maximum size, your IPv6 packets actually have to be made a bit smaller - so that they fit inside the IPv4 packet, and that the IPv4 packet is still small enough to leave your network."
-msgstr ""
+msgstr "På grund av denna maxstorlek måste dina IPv6-paket faktiskt vara lite mindre - så att de passar i IPv4-paket, och att IPv4-paket är fortfarande liten nog att lämna ditt nätverk."
 
 #: faq_6to4.html
 msgid "Further down the line, there may be another network with even tigher restrictions on the packet size. That network may itself be a tunnel - ISPs occasionally have to do that. This is where the problem often - lies. The IPv4 tunnel will send a message back towards you, - indicating that the packet was too big - but you don't get it. Even - if you do, your IPv6 packets don't get the message, so ultimately - you never reduce your packet size."
@@ -1834,7 +1834,7 @@ msgstr "kan vara en bättre lösning, i Kina. Detta kräver en anpassad klient i
 
 #: faq_6to4.html
 msgid "in Australia offers both free and paid-for (with SLA) tunnels."
-msgstr ""
+msgstr "i Australien erbjuds både gratis- och betaltunnlar (med SLA)."
 
 #: faq_ipv4_only.html
 msgid "About your IPv4-only Internet service."
@@ -1858,7 +1858,7 @@ msgstr "När webbplatser erbjuder sitt innehåll via både IPv4 och IPv6, kommer
 
 #: faq/whyipv6.inc
 msgid "Many of the visitors to the site are new to what IPv6 is."
-msgstr ""
+msgstr "Många av besökarna på webbplatsen är nybörjare på vad IPv6 är."
 
 #: faq/whyipv6.inc
 msgid "If you don't know why IPv6 matters, see the <a href=\"#\" onclick=\"return help_page('faq_whyipv6.html','Why IPv6')\">Why IPv6 FAQ</a>."
@@ -1974,11 +1974,11 @@ msgstr ""
 
 #: faq_v6ns_bad.html
 msgid "Do you operate your own DNS resolvers?"
-msgstr ""
+msgstr "Har du dina egna DNS-resolvers?"
 
 #: faq_v6ns_bad.html
 msgid "If you operated the DNS resolvers in use at your home or organization, enabling IPv6 on your DNS server is easy."
-msgstr ""
+msgstr "Om du har DNS-resolvers i ditt hem eller i din organisation... det är enkelt att aktivera IPv6 på DNS-servrarna."
 
 #: faq_v6ns_bad.html
 msgid "ISC BIND: Make sure that IPv6 support is compiled in when you ./configure it. It is enabled by default. If you recently added IPv6 to your server, simply restart your named process, as you normally would."
@@ -1990,7 +1990,7 @@ msgstr "PowerDNS: Aktivera <code>aaaa-additional-processing</code> och konfigure
 
 #: faq_v6ns_bad.html
 msgid "Windows Server 2003: Upgrade to Windows Server 2008 at a minimum. Windows 2003 will resolve AAAA records, and supports IPv6 clients, but does *not* do DNS resolution over IPv6."
-msgstr ""
+msgstr "Windows Server 2003: Uppgradering till minst Windows Server 2008. Windows 2003 kommer att lösa AAAA-records, och stöder IPv6-klienter, men klarar *inte* att göra DNS-upplösning över IPv6."
 
 #: faq_v6ns_bad.html
 msgid "Confirmation:"
@@ -2026,11 +2026,11 @@ msgstr "Firefoxanvändare kan ha IPv6-sökningar avaktiverat."
 
 #: faq_broken_aaaa.html
 msgid "Go to <a href=\"about:config\">about:config</a> in your browser."
-msgstr ""
+msgstr "Gå till <a href=\"about:config\">about:config</a> i din webbläsare."
 
 #: faq_broken_aaaa.html
 msgid "Look for <code>network.dns.disableIPv6</code>"
-msgstr ""
+msgstr "Sök efter <code>network.dns.disableIPv6</code>"
 
 #: faq_broken_aaaa.html
 msgid "Make sure this is set to <code>false</code>."
@@ -2038,11 +2038,11 @@ msgstr "Säkerställ att detta är inställt på <code>false</code>."
 
 #: faq_broken_aaaa.html
 msgid "Your OS may be configured to not do AAAA lookups; that is, to prefer IPv4 only."
-msgstr ""
+msgstr "Ditt OS kanske är konfigurerat att inte göra AAAA-sökningar; det vill säga att föredra endast IPv4."
 
 #: faq_broken_aaaa.html
 msgid "Your DNS server may be filtering AAAA responses (or otherwise broken)."
-msgstr ""
+msgstr "DNS-servern kanske filtrerar AAAA-svaren (annars trasig)."
 
 #: faq_broken_aaaa.html
 msgid "Some ISPs will intentionally filter AAAA records. For example, on World IPv6 Day, we expect many Japanese ISPs to filter AAAA records, to mitigate current IPv6 deployment issues unique to their environments."
@@ -2050,7 +2050,7 @@ msgstr ""
 
 #: faq_broken_aaaa.html
 msgid "You (or your techical support) can run <code>dig @DNSSERVER aaaa aaaa.test-ipv6.com</code> to confirm if the DNS server is working properly"
-msgstr ""
+msgstr "Du (eller din tekniska support) kan köra <code>dig @DNSSERVER aaaa aaaa.test-ipv6.com</code> för att bekräfta om DNS-servern fungerar"
 
 #: faq_firefox_plugins.html
 msgid "FAQ on Firefox Plugins"
@@ -2058,7 +2058,7 @@ msgstr "Vanliga frågor om Firefoxtillägg"
 
 #: faq_firefox_plugins.html
 msgid "This FAQ has been produced to try and address issues caused when using Firefox"
-msgstr ""
+msgstr "Denna FAQ har tagits fram för att försöka ta itu med frågor som uppstår när man använder Firefox"
 
 #: faq/intro_js.inc
 msgid "<b>How this site works:</b> This site tells your browser to try and load several remote javascript files. Each file is on a different server. After each one finishes, we look at which ones worked - and which ones failed. Depending on the pattern, we can guess at IPv4 and IPv6 compatibility, and sometimes suggest possible fixes."
@@ -2074,7 +2074,7 @@ msgstr ""
 
 #: faq_firefox_plugins.html
 msgid "Alternative test for you.."
-msgstr ""
+msgstr "Alternativt test för dig..."
 
 #: faq_firefox_plugins.html
 msgid "This image based test is provided as a workaround. It will give you a quick pass/fail test, to tell you if you should be worried for World IPv6 Day."
@@ -2082,11 +2082,11 @@ msgstr ""
 
 #: faq/simple_test.inc
 msgid "The following table will try and load 3 images."
-msgstr ""
+msgstr "Tabellen nedan kommer försöka läsa in 3 bilder."
 
 #: faq/simple_test.inc
 msgid "test images for ipv4, dual stack, and ipv6"
-msgstr ""
+msgstr "testbilder för IPv4, dual stack och IPv6"
 
 #: faq/simple_test.inc
 msgid "Pass?"
@@ -2102,11 +2102,11 @@ msgstr "Mer information"
 
 #: faq/simple_test.inc
 msgid "IPv4. Basic traditional Internet."
-msgstr ""
+msgstr "IPv4. Vanligt traditionellt Internet."
 
 #: faq/simple_test.inc
 msgid "If green, you will have no problem on World IPv6 day."
-msgstr ""
+msgstr "Om grön kommer du inte ha några problem på World IPv6 day."
 
 #: faq/simple_test.inc
 msgid "If this fails, seek help from your IT department, helpdesk, or ISP tech support."
@@ -2178,7 +2178,7 @@ msgstr ""
 
 #: faq_whyipv6.html
 msgid "Note this is in addition to any NAT you do at home."
-msgstr ""
+msgstr "Notera. Detta är utöver eventuell NAT du gör hemma."
 
 #: faq_whyipv6.html
 msgid "Q: So, why worry? NAT will work, right? I use NAT at home today after all.."
@@ -2230,7 +2230,7 @@ msgstr "De flesta tjänsteleverantörer kommer att hålla befintliga IPv4-använ
 
 #: faq_whyipv6.html
 msgid "As such, there is no hard cutoff date. Just be aware that IPv4 will start working less well over time."
-msgstr ""
+msgstr "Det finns inget fastställt brytdatum. Tänk bara på att IPv4 kommer fungera sämre över tid."
 
 #: faq_whyipv6.html
 msgid "Q: Will I have to replace my OS?"
@@ -2278,11 +2278,11 @@ msgstr ""
 
 #: faq_pmtud.html
 msgid "Q: What is Path MTU Discovery (or PMTUD)"
-msgstr ""
+msgstr "Q: Vad är Path MTU Discovery (eller PMTUD)"
 
 #: faq_pmtud.html
 msgid "PMTUD is a mechanism used on the Internet that tells your computer the maximum size of the packets that should be sent for a given destination. How this works: Your host will send a possibly large packet; with the packet marked \"Do Not Fragment\". When the packet reaches a router that can't forward this packet, due to size, it sends back a response saying \"Too big! Try this size instead.\""
-msgstr ""
+msgstr "PMTUD är en mekanism som används på Internet som talar om den maximala storleken för de paket som ska skickas för ett visst mål. Hur detta fungerar: din dator kommer att skicka ett stort paket; markerat \"fragmentera inte\". När paketet når en router som inte kan vidarebefordra detta paket, på grund av storlek, skickar den tillbaka ett svar med innebörden \"För stort! Prova denna storlek istället.\""
 
 #: faq_pmtud.html
 msgid "Q: How does this relate to IPv6?"
@@ -2298,11 +2298,11 @@ msgstr "Q: Vad måste brandväggen tillåta?"
 
 #: faq_pmtud.html
 msgid "IPv6 firewalls <b>need</b> to permit ICMPv6, type 2 (Packet Too Big) to work correctly with the public Internet. If you are implementing the IPv6 firewall for your web site, your enterprise, or other organization, please permit this specific ICMPv6 message, even if you by default block other types of ICMP."
-msgstr ""
+msgstr "IPv6-brandväggar <b>måste</b> tillåta ICMPv6, typ 2 (Packet Too Big) att fungera på Internet. Om du implementerar IPv6-brandväggen för din webbplats, ditt företag eller annan organisation, tillåt detta specifika ICMPv6-meddelande, även om du som standard blockerar andra typer av ICMP."
 
 #: faq_pmtud.html
 msgid "Q: What else can cause PMTUD failures?"
-msgstr ""
+msgstr "Q: Vad kan orsaka PMTUD-fel?"
 
 #: faq_pmtud.html
 msgid "Tunnels inside of tunnels. One might be your own; the other, you may not see. Internet service providers often use tunnels either to simplify their topology; to hide it; or to transport things in a more convenient way. However, each tunnel used requires adding a bit of a header to the top of the packet - making the packet bigger. The problem lies in that routers have a maximum size packet they will route."
@@ -2322,7 +2322,7 @@ msgstr ""
 
 #: faq_pmtud.html
 msgid "If any Internet service provider along the way adds their own tunnel, in effect stuffing your package into another envelope, the packet may become too big:"
-msgstr ""
+msgstr "Om någon Internetleverantör längs vägen lägger till sin egen tunnel, i praktiken lägga ditt paket i ett annat paket så kan paketet bli för stort:"
 
 #: faq_pmtud.html
 msgid "In the above case, the message is now so big, that it can't be forwarded. A \"Packet Too Big\" message will be sent by that router - but it only sees the IPv4 address; not your IPv6 address. Because of this, your computer will never retry with a smaller sized packet, one that might fit when using multiple envelopes."
@@ -2350,7 +2350,7 @@ msgstr "Vad kan jag göra?"
 
 #: faq_pmtud.html
 msgid "This is a complex question - there are many ways to get on the Internet."
-msgstr ""
+msgstr "Detta är en komplex fråga - det finns många sätt att ansluta till Internet."
 
 #: faq_pmtud.html
 msgid "The preferred fix is to permit ICMPv6 Type 2 Packet Too Big messages."
@@ -2374,11 +2374,11 @@ msgstr ""
 
 #: faq_pmtud.html
 msgid "DD-WRT routers: Looks like you need to use \"AdvLinkMTU 1280;\" on your wireless side; and make sure the tun6to4 mtu is set to 1280."
-msgstr ""
+msgstr "DD-WRT routrar: Ser ut som du behöver använda \"AdvLinkMTU 1280;\" på den trådlösa sidan; och kontrollera att tun6to4 MTU är inställd till 1280."
 
 #: faq_pmtud.html
 msgid "Routers based on Linux, BSD, and (presumably) Mac: Set your 6to4 interface to MTU 1280. Configure radvd.conf's interface config with \"AdvLinkMTU 1280\"."
-msgstr ""
+msgstr "Routrar baserade på Linux, BSD och (förmodligen) Mac: Ange ditt 6to4-gränssnitt till MTU 1280. Konfigurera radvd.conf's gränssnittinställning med \"AdvLinkMTU 1280\"."
 
 #: faq_pmtud.html
 msgid "If you run \"6to4\" on your computer instead (not the router):"
@@ -2386,7 +2386,7 @@ msgstr "Om du istället kör \"6to4\" på datorn (inte på routern):"
 
 #: faq_pmtud.html
 msgid "Linux, BSD, and (presumably) Mac: Set your 6to4 interface to MTU 1280. If you are running radvd, set \"AdvLinkMTU 1280\" in your interface radvd.conf ."
-msgstr ""
+msgstr "Linux, BSD och (förmodligen) Mac: Ange ditt 6to4-gränssnitt till MTU 1280. Om du kör radvd, ange \"AdvLinkMTU 1280\" på ditt gränssnitt i radvd.conf."
 
 #: faq_pmtud.html
 msgid "Windows: If you figure this out, please share with jfesler@test-ipv6.com to add to this site. Presumably: control panel, network adapters, properties, 6"
@@ -2402,7 +2402,7 @@ msgstr "Den här sidan skulle inte finnas utan följande komponenter och resurse
 
 #: faq_buggydns1.html
 msgid "FAQ on \"Buggy DNS\""
-msgstr ""
+msgstr "FAQ om \"Buggig DNS\""
 
 #: faq_buggydns1.html
 msgid "If you were referred to this page by test-ipv6.com, it means that we were able to detect a dangerous condition with your DNS server."
@@ -2426,7 +2426,7 @@ msgstr "DNS-servern var förvirrad av resultatet - det följer inte DNS-standard
 
 #: faq_buggydns1.html
 msgid "Your DNS server took the first piece of the IPV6 address, and memorized it as the IPv4 address."
-msgstr ""
+msgstr "DNS-servern tog det första delen av IPv6-adressen, och memorerade den som IPv4-adressen."
 
 #: faq_buggydns1.html
 msgid "The browser fails the IPv6 lookup, but \"succeeds\" in getting a bogus IPv4 address."
@@ -2470,7 +2470,7 @@ msgstr ""
 
 #: faq_buggydns1.html
 msgid "Business customers: Provide this information to your IT professional to investigate."
-msgstr ""
+msgstr "Företagskunder: Lämna denna information till din IT-personal för vidare undersökning."
 
 #: faq_buggydns1.html
 msgid "IT professionals:"
@@ -2482,7 +2482,7 @@ msgstr "Du kan se en demonstration av detta, genom att:"
 
 #: faq_buggydns1.html
 msgid "Substitute the 192.168.1.1 with the resolver being used by the host. If the \"aaaa\" request comes back with no answer, but the \"a\" answer does, this is a confirmation of a broken DNS cache or forwarder. The actual DNS information for buggydns1.test-ipv6.com has only an IPv6 record configured."
-msgstr ""
+msgstr "Ersätt 192.168.1.1 med resolvern som används av datorn. Om \"A\"-svaret fungerar, men \"AAAA\"-begäran kommer tillbaka utan svar, är detta en bekräftelse av en trasig DNS-cache eller forwarder. Den faktiska DNS-informationen för buggydns1.test-ipv6.com har endast en IPv6-post konfigurerad."
 
 #: faq_avoids_ipv6.html
 msgid "Your browser is avoiding IPv6."
@@ -2538,11 +2538,11 @@ msgstr "Firefox (senare versioner) gör samma som Chrome."
 
 #: faq_avoids_ipv6.html
 msgid "The latest Windows 7 and Windows 8 updates will periodically test to see if IPv6 works. If the health check fails, then many applications (including Internet Explorer) will use IPv4, to insulate you from any local IPv6 misconfiguration."
-msgstr ""
+msgstr "De senaste uppdateringarna för Windows 7 och Windows 8 kommer regelbundet testa om IPv6 fungerar. Om denna hälsokontroll misslyckas, kommer många program (inklusive Internet Explorer) använda IPv4, för att isolera dig från alla felaktiga lokala IPv6-konfigurationer."
 
 #: faq_avoids_ipv6.html
 msgid "Apple's latest Lion and Mountain Lion updates will prefer whichever is \"faster\" for a given destination."
-msgstr ""
+msgstr "Apples senaste \"Lion\"- och \"Mountain Lion\"-uppdateringarna kommer att föredra det protokoll som är \"snabbare\" för ett visst mål."
 
 #: faq_avoids_ipv6.html
 msgid "When you use the Internet, a connection is made between your computer, and the service you're connecting to. To connect, you have to have the other side's IP - Internet Protocol - number. And, when you connect, they see yours, so they can send traffic back to you and your applications."
