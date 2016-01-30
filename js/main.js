@@ -642,8 +642,10 @@ GIGO.set_default_options = function (options) {
     options.url.test_dsmtu = "http://ds." + options.subdomain + options.uri + "&size=1600&fill=" + GIGO.fill(1600, "x");
     options.url.test_buggydns1 = "http://buggydns1." + options.subdomain + options.uri;
 
-    options.url.test_asn4 = "http://ipv4." + options.subdomain + options.uri + "&asn=1";
-    options.url.test_asn6 = "http://ipv6." + options.subdomain + options.uri + "&asn=1";
+
+    // ASN lookups are corrently broken.
+    options.url.test_asn4 = "http://ipv4." + options.subdomain + options.uri + "&asn=disabled/down";
+    options.url.test_asn6 = "http://ipv6." + options.subdomain + options.uri + "&asn=disabled/down";
 
 
     options.url.test_a_img = "http://ipv4." + options.subdomain + options.img_uri;
