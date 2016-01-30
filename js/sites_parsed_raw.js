@@ -255,6 +255,7 @@
       "v6" : "http://ipv6.test-ipv6.cz/images-nc/knob_green.png"
    },
    "test-ipv6.ernet.in" : {
+      "hide" : "0",
       "loc" : "IN",
       "mirror" : "1",
       "monitor" : "Praveen Misra <praveen@ipv6.ernet.in>",
