@@ -587,7 +587,7 @@ GIGO.restart_tests = function () {
 
 GIGO.setup_tests = function () {
 
-    asn_lookup_broken = 1
+    asn_lookup_broken = 0
     if (asn_lookup_broken) {
       jQuery('#sum_test_asn4').parent().parent().hide();
       jQuery('#sum_test_asn6').parent().parent().hide();
