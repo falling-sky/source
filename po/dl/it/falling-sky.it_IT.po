@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2016-02-01 00:30-0500\n"
+"PO-Revision-Date: 2016-02-03 21:30-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Italian\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -66,7 +66,7 @@ msgstr "Pericolo! IPv6 funziona solo parzialmente - i pacchetti grandi sembrano 
 
 #: messages.js
 msgid "Check your firewall to make sure that ICMPv6 messages are allowed (in particular, Type 2 or Packet Too Big)."
-msgstr ""
+msgstr "Controlla che sul tuo firewall siano ammessi i messaggi ICMPv6 (in particolare, tipo 2 o Packet Too Big)."
 
 #: messages.js
 msgid "Test results inconclusive; they were not consistent with expectations. Please rerun the test, and if the results are the same, please fill out the contact form."
@@ -149,11 +149,11 @@ msgid "A lookup for an IPv6-only name failed; yet the lookup and connect for dua
 msgstr "Una risoluzione per un nome IPv6-only è fallita; ma il lookup e la tecnica del dual-stack sono connessi tramite IPv6. Sembra che ci sia qualche problema di risoluzione con il DNS lookups."
 
 #: messages.js
-msgid "A lookup for an IPv6-only name failed; yet the lookup and connect for dual-stack connected via IPv6. The IPv6-only lookup should have worked. Apple has a bug that sporadically causes some IPv6 lookups to fail. We saw evidence of it on this test. You can reload the page and try the test again. For more details, see <a href=\"http://openradar.appspot.com/7333104\">http://openradar.appspot.com/7333104</a>."
+msgid "A lookup for an IPv6-only name failed; yet the lookup and connect for dual-stack connected via IPv6. The IPv6-only lookup should have worked. Apple has a bug that sporadically causes some IPv6 lookups to fail. We saw evidence of it on this test. You can reload the page and try the test again. For more details, see <a href=\\\"http://openradar.appspot.com/7333104\\\">http://openradar.appspot.com/7333104</a>."
 msgstr "Una risoluzione per un nome IPv6-only è fallita; ma il lookup e la tecnica del dual-stack sono connessi tramite IPv6. La risoluzione per il nome IPv6-only dovrebbe aver funzionato. Apple ha un bug che sporadicamente causa alcuni problemi di risoluzione per gli indirizzi IPv6. Ne abbiamo avuto la prova in questo test. Puoi ricaricare la pagina e riprovare il test di nuovo. Per ulteriori dettagli, visitare <a href=\"http://openradar.appspot.com/7333104\">http://openradar.appspot.com/7333104</a>."
 
 #: messages.js
-msgid "A lookup for an dual-stack IPv4 and IPv6 name failed (at minimum it should have connected via IPv4). Apple has a bug that sporadically causes some IPv6 lookups to fail. We saw evidence of it on this test. You can reload the page and try the test again. For more details, see <a href=\"http://openradar.appspot.com/7333104\">http://openradar.appspot.com/7333104</a>."
+msgid "A lookup for an dual-stack IPv4 and IPv6 name failed (at minimum it should have connected via IPv4). Apple has a bug that sporadically causes some IPv6 lookups to fail. We saw evidence of it on this test. You can reload the page and try the test again. For more details, see <a href=\\\"http://openradar.appspot.com/7333104\\\">http://openradar.appspot.com/7333104</a>."
 msgstr "Una risoluzione per un nome dual-stack Ipv4 e IPv6 è fallita (avrebbe dovuto funzionare almeno per l'IPv4). Apple ha un bug che sporadicamente causa alcuni problemi di risoluzione per gli indirizzi IPv6. Ne è la prova questo test. Puoi ricaricare la pagina e riprovare il test. Per ulteriori dettagli visita <a href=\"http://openradar.appspot.com/7333104\">http://openradar.appspot.com/7333104</a>."
 
 #: messages.js
@@ -278,7 +278,7 @@ msgstr "faq: Si sta evitando l' IPv6?"
 
 #: messages.js
 msgid "faq: 6RD tunnel"
-msgstr ""
+msgstr "faq: tunnel 6RD"
 
 #: builtin.js
 msgid "[more info]"
@@ -450,7 +450,7 @@ msgstr "Verifica la tua connettività IPv6."
 
 #: index.html
 msgid "(Replay)"
-msgstr ""
+msgstr "(Riesegui)"
 
 #: js_required.inc
 msgid "JavaScript Required"
@@ -634,11 +634,11 @@ msgstr "Dopo che ogni test è stato eseguito. La pagina di riepilogo tenta di co
 
 #: main/mail.inc
 msgid "<b>Your particular configuration is of interest.</b> We are always striving to make the test-ipv6.com code better. Would you be willing to contribute more information about your browser and computer setup? With your help, we can document for others how to repair their systems."
-msgstr ""
+msgstr "<b>La tua particolare configurazione è particolarmente interessante.</b> Cerchiamo sempre di migliorare il codice di test-ipv6.com. Saresti disposto a contribuire con ulteriori informazioni sulla tua configurazione di browser e computer? Con il tuo aiuto, potremo aiutare altri utenti a riparare i loro sistemi."
 
 #: main/mail.inc
 msgid "This form will let you leave a comment, voice concerns, or ask questions. Your test results will be included automatically."
-msgstr ""
+msgstr "Questo modulo vi permetterà di lasciare commenti, dubbi, o domande. I risultati dei test verranno inclusi automaticamente."
 
 #: main/mail.inc
 msgid "This includes your IP address, which is shared with the site administrator in order to answer your questions."
@@ -658,7 +658,7 @@ msgstr "Si prega di lasciare dei commenti usando l'inglese, se possibile."
 
 #: main/mail.inc
 msgid "If reporting a problem with the test, or requesting help with your results, please fill out all requested information to the best of your ability. If leaving general comments, use your best judgement on how much to report."
-msgstr ""
+msgstr "Se vuoi segnalare un problema con il test, o vuoi chiedere aiuto a proposito dei tuoi risultati, per favore compila tutte le informazioni richieste al meglio delle tue capacità. Se vuoi lasciare commenti generali, usa il buon senso su quanto riportare."
 
 #: main/mail.inc
 msgid "Thanks,"
@@ -686,27 +686,27 @@ msgstr "Applausi o Fischi"
 
 #: main/mail.inc
 msgid "Email address if you'll permit me to contact you. <i>Required, if you wish a response.</i>"
-msgstr ""
+msgstr "Indirizzo email se mi permetti di contattarti. <i>Necessario, se desideri una risposta.</i>"
 
 #: main/mail.inc
 msgid "Any information you think I might find useful (what router you're using, or a firewall in the way, or type of proxy you use, etc). This includes general feedback."
-msgstr ""
+msgstr "Tutte le informazioni che pensi io possa trovare utili (quali router utilizzi, o firewall, o tipo di proxy, ecc). Questo include anche opinioni in generale."
 
 #: main/mail.inc
 msgid "The javascript based test appears to have failed. This may be browser plugin or extension related. Please indicate what browser plugins and extenions you have enabled in this browser."
-msgstr ""
+msgstr "I test javascript sembra abbiano fallito. Questo potrebbe essere a causa di un'estensione o plugin del tuo browser. Indica quali estensioni del browser sono attive."
 
 #: main/mail.inc
 msgid "If you are technically minded please cut/paste the output of the following commands:"
-msgstr ""
+msgstr "Se sei abbastanza esperto copia/incollare l'output dei seguenti comandi:"
 
 #: main/mail.inc
 msgid "Copy the output from those commands, into the box below. This will help me confirm/deny any theories relating to your question."
-msgstr ""
+msgstr "Copia l'output di questi comandi nella casella sottostante. Questo mi aiuterà a confermare o smentire qualsiasi teoria relativa alla tua domanda."
 
 #: main/mail.inc
 msgid "If you are technically minded, please open a \"Command Prompt\" or \"cmd\" window, and run these three commands:"
-msgstr ""
+msgstr "Se sei abbastanza esperto, apri una finestra di \"cmd\" o \"Command Prompt\" ed esegui questi tre comandi:"
 
 #: main/mail.inc
 msgid "Send results"
@@ -714,15 +714,15 @@ msgstr "Invia i risultati"
 
 #: main/helpdesk.inc
 msgid "Help desk information will follow once the test completes."
-msgstr ""
+msgstr "Le informazioni per l'Help Desk compariranno appena saranno completati i test."
 
 #: main/helpdesk.inc
 msgid "If your Internet help desk asks you to mail the 'results url', copy and paste the following URL."
-msgstr ""
+msgstr "Se l'Help Desk Internet ti chiede di inviare \"l'url dei risultati\", copia e incolla il seguente URL."
 
 #: main/helpdesk.inc
 msgid "Note that this will share your current numeric Internet Protocol address(es)."
-msgstr ""
+msgstr "Nota che questo condividerà il tuo attuale indirizzo IP."
 
 #: main/helpdesk.inc
 msgid "We do not recommend posting this link on public web sites such as forums."
@@ -774,19 +774,19 @@ msgstr "Questo è un mirror di test-ipv6.com. Le opinioni qui espresse possono n
 
 #: locale.html
 msgid "Available Languages"
-msgstr ""
+msgstr "Lingue disponibili"
 
 #: locale.html
 msgid "Pick one of the following to switch to that language."
-msgstr ""
+msgstr "Scegli una delle lingue seguenti per impostarla."
 
 #: locale.html
 msgid "Translators and proof readers welcome."
-msgstr ""
+msgstr "Traduttori e correttori sono i benvenuti."
 
 #: locale.html
 msgid "See <a href='https://github.com/falling-sky/source/wiki/LocalizationPlan'>Info</a>; and our <a href='https://crowdin.net/project/falling-sky'>'CrowdIn'</a> project page."
-msgstr ""
+msgstr "Guarda le <a href='https://github.com/falling-sky/source/wiki/LocalizationPlan'>informazioni</a> e la nostra pagina di progetto su <a href='https://crowdin.net/project/falling-sky'>'CrowdIn'</a>."
 
 #: faq_helpdesk.html
 msgid "Help Desk Information"
@@ -1499,19 +1499,19 @@ msgstr "Una percentuale di utenti oggi ha l'IPv6 abilitato, ma o stanno utilizza
 
 #: faq.html
 msgid "From the perspective of a user with these conditions, a web site offering both A and AAAA DNS records (ie, \"dual stack\") will appear to time out; and the user will move on to another site that offers a similar product. This is the quandary content providers have."
-msgstr ""
+msgstr "Dal punto di vista di un utente in queste condizioni, un sito web che offre record DNS sia A che AAAA (vale a dire \"dual stack\") andrà in timeout; l'utente andrà su un altro sito che offre un prodotto simile. Questo è il dilemma che hanno i fornitori di contenuti."
 
 #: faq.html
 msgid "If we detect that you will have problems reaching dual-stack web sites, we recommend you see the <a href=\"broken.html\">Broken User FAQ</a>. It provides several steps to try and identify your root cause for being broken; and barring that, what you can do to disable IPv6 until your ISP offers native IPv6 connectivity."
-msgstr ""
+msgstr "Quando rileviamo che ci sono problemi a raggiungere i siti web dual-stack, raccomandiamo di leggere le <a href=\"broken.html\">FAQ utente malfunzionante</a>. Qui sono suggerite diverse operazioni per cercare di identificare la causa principale del malfunzionamento; oltre a questo, è anche spiegato come disattivare IPv6 fino a quando il tuo l'ISP non offrirà connettività IPv6 nativa."
 
 #: faq.html
 msgid "Q: Why did your stats say you already have IPv6-only users?"
-msgstr ""
+msgstr "D: Perché le statistiche dicono che ci sono già utenti con solo IPv6?"
 
 #: faq.html
 msgid "They went to <a href=\"http://ipv6.test-ipv6.com\">http://ipv6.test-ipv6.com</a> ."
-msgstr ""
+msgstr "Sono andati su <a href=\"http://ipv6.test-ipv6.com\">http://ipv6.test-ipv6.com</a>."
 
 #: faq.html
 msgid "Q: How valid are the stats?"
@@ -1519,27 +1519,27 @@ msgstr "D: Quanto sono valide le statistiche?"
 
 #: faq.html
 msgid "They do not represent the average web consumer. Visitors to this site are self-selecting. The intent of this site is to not provide stats, but instead to inform the user the level of readiness for the world to move to IPv6 (with or without'em!). As such, stats found here will be completely different from an average content provider."
-msgstr ""
+msgstr "Le statistiche non rappresentano il navigatore medio del web. I visitatori di questo sito sono si sono auto-selezionati. L'intento di questo sito non è quello di fornire statistiche, ma invece di informare l'utente sul suo livello di preparazione per il passaggio del mondo a IPv6 (con o senza di lui!). Per questo le statistiche che si trovano qui saranno completamente diverse da quelle di un tipico provider di contenuti."
 
 #: faq.html
 msgid "Q: How does your test differ, from what the content providers are doing?"
-msgstr ""
+msgstr "D: In cosa questo test differisce da quelli che stanno facendo i fornitori di contenuti?"
 
 #: faq.html
 msgid "Content providers are gathering metrics of broken vs non-broken users, in an aggregate form. They are not at this time actually giving the user feedback as to the user's current state. Those metrics will principally drive the business decision of when to start publishing sites over IPv6, versus remaining IPv4 only. IPv4 only for some content sites really is an option; it has a handful of downsides, but the expectation is that everyone will always be able to reach IPv4, in some fashion."
-msgstr ""
+msgstr "I fornitori di contenuti stanno raccogliendo statistiche sugli utenti funzionanti e malfunzionanti in forma aggregata. Per ora non stanno in realtà dando all'utente informazioni per quanto riguarda lo stato della sua specifica connessione. Tali statistiche serviranno principalmente per aiutare le aziende a decidere quando iniziare la pubblicazione di siti in IPv6. Per alcuni siti web rimanere solo in IPv4 è un'opzione praticabile: ha degli aspetti negativi, ma l'aspettativa è che tutti saranno sempre in grado di raggiungere IPv4, in qualche modo."
 
 #: faq.html
 msgid "This site, on the other hand, is intended to help the user understand their current state, and what that state possibly means to them."
-msgstr ""
+msgstr "Questo sito, d'altra parte, è destinato ad aiutare l'utente a capire il suo stato attuale della sua connessione e cosa tale stato possa significare per lui."
 
 #: faq.html
 msgid "Q: Your site shows the wrong IP address; how can I bypass my proxy server to find my public address?"
-msgstr ""
+msgstr "D: Il tuo sito mostra un'indirizzo IP errato; come faccio a bypassare il mio proxy per trovare il mio indirizzo pubblico?"
 
 #: faq.html
 msgid "For ipv4/ipv6/dual stack, use one of these:"
-msgstr ""
+msgstr "Per ipv4/ipv6/dual stack, usa uno di questi comandi:"
 
 #: faq.html
 msgid "for ipv4"
@@ -1555,27 +1555,27 @@ msgstr "per entrambi"
 
 #: faq.html
 msgid "Note you _may_ need to specify other options to your telnet command, depending on your operating system. On my mac, for example, I need to use \"<code>telnet -6</code>\"."
-msgstr ""
+msgstr "Nota che _potrebbe_ essere necessario specificare altre opzioni al comando telnet, a seconda del sistema operativo usato. Ad esempio, sul mio mac, devo utilizzare \"<code>telnet -6</code>\"."
 
 #: faq.html
 msgid "Q: Do you actually read the feedback?"
-msgstr ""
+msgstr "D. Leggi davvero i feedback?"
 
 #: faq.html
 msgid "Yes, I do. Thank you! Note that I can only follow up with you if you do leave contact information. While I am still grateful for feedback without contact information, I will be unable to reply with any answers if you asked for them."
-msgstr ""
+msgstr "Sì, lo faccio. Grazie! Nota che posso risponderti solo se fornisci delle informazioni di contatto. Sebbene io sia grato lo stesso per i feedback senza informazioni di contatto, mi sarà impossibile risponderti con dei chiarimenti, se ne hai chiesti."
 
 #: faq.html
 msgid "Q: How else can I contact you?"
-msgstr ""
+msgstr "Q: In quale altro modo posso contattarti?"
 
 #: faq.html
 msgid "I would prefer you use the form, as it gives details of your connectivity, and bypasses any mail filters."
-msgstr ""
+msgstr "Preferirei che utilizzassi il modulo, in quanto mi dà dettagli sulla tua connettività e ignora eventuali filtri di posta elettronica."
 
 #: faq.html
 msgid "That said, you are welcome to directly email <a href=\"mailto:jfesler@test-ipv6.com\">jfesler@test-ipv6.com</a>."
-msgstr ""
+msgstr "Detto questo, puoi scrivermi direttamente a questo indirizzo e-mail: <a href=\"mailto:jfesler@test-ipv6.com\"> jfesler@test-ipv6.com</a>."
 
 #: faq.html
 msgid "Q: Is this open source?"

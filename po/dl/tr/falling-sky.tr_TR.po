@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2016-02-01 00:30-0500\n"
+"PO-Revision-Date: 2016-02-03 19:30-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Turkish\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -150,11 +150,11 @@ msgid "A lookup for an IPv6-only name failed; yet the lookup and connect for dua
 msgstr "Sadece IPv6 tabanlı bir ismi ararken başarısız olundu, ancak IPv6 aracılığıyla arama ve çift yığınlı bağlantı başarılı. Görünüşe göre bir şey DNS aramalarını bozuyor."
 
 #: messages.js
-msgid "A lookup for an IPv6-only name failed; yet the lookup and connect for dual-stack connected via IPv6. The IPv6-only lookup should have worked. Apple has a bug that sporadically causes some IPv6 lookups to fail. We saw evidence of it on this test. You can reload the page and try the test again. For more details, see <a href=\"http://openradar.appspot.com/7333104\">http://openradar.appspot.com/7333104</a>."
+msgid "A lookup for an IPv6-only name failed; yet the lookup and connect for dual-stack connected via IPv6. The IPv6-only lookup should have worked. Apple has a bug that sporadically causes some IPv6 lookups to fail. We saw evidence of it on this test. You can reload the page and try the test again. For more details, see <a href=\\\"http://openradar.appspot.com/7333104\\\">http://openradar.appspot.com/7333104</a>."
 msgstr "Sadece IPv6 tabanlı bir ismi ararken başarısız olundu, ancak IPv6 aracılığıyla arama ve çift yığınlı bağlantı başarılı.  Sadece-IPV6 araması çalıştı. Apple bazı IPv6 bağlantılarının düzensiz aralıklarla başarısız olmasına neden olan bir hataya sahip. Bu testte belirtilen sorunun örneklerine rastladık. Sayfayı tekrar yükleyip testi çalıştırmayı tekrar deneyebilirsiniz. Daha fazla ayrıntı için bkz. <a href=\"http://openradar.appspot.com/7333104\">http://openradar.appspot.com/7333104</a>."
 
 #: messages.js
-msgid "A lookup for an dual-stack IPv4 and IPv6 name failed (at minimum it should have connected via IPv4). Apple has a bug that sporadically causes some IPv6 lookups to fail. We saw evidence of it on this test. You can reload the page and try the test again. For more details, see <a href=\"http://openradar.appspot.com/7333104\">http://openradar.appspot.com/7333104</a>."
+msgid "A lookup for an dual-stack IPv4 and IPv6 name failed (at minimum it should have connected via IPv4). Apple has a bug that sporadically causes some IPv6 lookups to fail. We saw evidence of it on this test. You can reload the page and try the test again. For more details, see <a href=\\\"http://openradar.appspot.com/7333104\\\">http://openradar.appspot.com/7333104</a>."
 msgstr ""
 
 #: messages.js
