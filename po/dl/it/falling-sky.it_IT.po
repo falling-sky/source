@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2016-02-03 21:30-0500\n"
+"PO-Revision-Date: 2016-02-04 10:30-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Italian\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -450,7 +450,7 @@ msgstr "Verifica la tua connettività IPv6."
 
 #: index.html
 msgid "(Replay)"
-msgstr "(Riesegui)"
+msgstr "(Replica)"
 
 #: js_required.inc
 msgid "JavaScript Required"
@@ -602,7 +602,7 @@ msgstr "Valida che le richieste IPv6 con pacchetti di grande dimensioni funzioni
 
 #: main/tech.inc
 msgid "Double check to make sure that ICMPv6 Type 2 (\"Packet Too Big\") messages are not filtered by your firewall."
-msgstr ""
+msgstr "Controlla che i pacchetti ICMPv6 Type 2 (\"Packet Too Big\") non vengono filtrati dal tuo firewall."
 
 #: main/tech.inc
 msgid "(This is bonus credit)"
@@ -746,7 +746,7 @@ msgstr "E' molto semplice essere aggiunti a questa lista per controlli di base. 
 
 #: sites.inc
 msgid "Full mirrors are welcomed and appreciated, whether public or private. Please see <a href=\"https://github.com/falling-sky/source/wiki\">the wiki</a> for details."
-msgstr ""
+msgstr "Siti mirror sono ben accetti e apprezzati, sia pubblici che privati. Guarda <a href=\"https://github.com/falling-sky/source/wiki\">il wiki</a> per i dettagli."
 
 #: footer.inc
 msgid "All rights reserved."
@@ -1275,7 +1275,7 @@ msgstr "Altri router: prova ad aggiornare il firmware all'ultima versione. Se no
 
 #: faq/broken_bogon.inc
 msgid "This router is using the official \"Documentation\" prefix - which is not routable on the IPv6 Internet."
-msgstr ""
+msgstr "Questo router sta utilizzando il prefisso riservato ufficialmente per \"Documentazione\", che non è valido su internet IPv6."
 
 #: faq/broken_bogon.inc
 msgid "Update to the latest firmware."
