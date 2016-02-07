@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2016-02-04 10:30-0500\n"
+"PO-Revision-Date: 2016-02-07 16:00-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Italian\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -1235,11 +1235,11 @@ msgstr ""
 
 #: broken.html
 msgid "Bad or Inappropriate IPv6 Addresss"
-msgstr ""
+msgstr "Indirizzo IPv6 non valido o inappropriato"
 
 #: broken.html
 msgid "(IPv6 address: see table below)"
-msgstr ""
+msgstr "(Indirizzo IPv6: vedi tabella sotto)"
 
 #: faq/broken_bogon.inc
 msgid "Bad or Inappropriate IPv6 Addresses (Bogons)"
@@ -1291,7 +1291,7 @@ msgstr "Disabilita IPv6."
 
 #: broken.html
 msgid "(IPv6 address: not starting with fe80)"
-msgstr ""
+msgstr "(l'indirizzo IPv6 non inizia con fe80)"
 
 #: faq/broken_unexpected.inc
 msgid "Unexpected IPv6 address?"
@@ -1331,11 +1331,11 @@ msgstr ""
 
 #: broken.html
 msgid "If all else fails"
-msgstr ""
+msgstr "Se tutto il resto fallisce"
 
 #: broken.html
 msgid "(Instructions for disabling or deprioritizing IPv6)"
-msgstr ""
+msgstr "(Istruzioni per la disabilitazione o riduzione di priorità di IPv6)"
 
 #: faq/broken_disable.inc
 msgid "Disabling or Deprioritizing your IPv6 address"
@@ -1939,67 +1939,67 @@ msgstr ""
 
 #: faq_v6ns_bad.html
 msgid "About the \"v6ns\" test."
-msgstr ""
+msgstr "Informazioni sul test \"v6ns\"."
 
 #: faq_v6ns_bad.html
 msgid "This FAQ has been produced to try and address what it means for the v6ns test to be \"bad\"."
-msgstr ""
+msgstr "Questa FAQ è stata scritta per cercare di spiegare cosa significa che il test v6ns sia fallito."
 
 #: faq_v6ns_bad.html
 msgid "This test specifically verifies that your DNS resolver (usually operated by your Internet service provider, or your corporate IT department) is capable of reaching IPv6 Internet sites for DNS lookups. If you explicitly configured the use of a different DNS server, such as OpenDNS or Google's Public DNS, you'll test those services instead."
-msgstr ""
+msgstr "Questo test verifica specificatamente che il tuo resolver DNS (solitamente gestito dal provider di servizi internet o dal reparto IT aziendale) sia in grado di usare IPv6 per effettuare query DNS. Se hai configurato in modo esplicito l'utilizzo di un server DNS diverso, ad esempio OpenDNS o i DNS pubblici di Google, verranno testati tali servizi."
 
 #: faq_v6ns_bad.html
 msgid "If this test fails:"
-msgstr ""
+msgstr "Se questo test fallisce"
 
 #: faq_v6ns_bad.html
 msgid "it means that the DNS resolver you are using, requires IPv4 to reach the DNS authoritative servers of your favoriate web sites. In the near future, every web site of consequence will remain accessible in this form, so <b>there is no immediate danger.</b>"
-msgstr ""
+msgstr "significa che il server DNS utilizzato usa solo IPv4 per raggiungere il server DNS autorevole per il sito web richiesto. Nel prossimo futuro ogni sito rimarrà accessibile in questo modo, per cui <b>non c'è nessun pericolo immediato</b>."
 
 #: faq_v6ns_bad.html
 msgid "If this test succeeds:"
-msgstr ""
+msgstr "Se questo test ha esito positivo"
 
 #: faq_v6ns_bad.html
 msgid "it means that your DNS resolver is fully capable of reaching IPv6 DNS servers. This means that the operator of that DNS server has IPv6 within their network. If they do not already offer you IPv6, this may be a sign that they are actively working on trying to make it possible."
-msgstr ""
+msgstr "significa che il tuo resolver DNS è pienamente capace di raggiungere i server DNS su IPv6. Questo significa che il gestore di quel server DNS ha IPv6 nella sua rete. Se IPv6 non è ancora offerto a te, questo probabilmente è un segno che ci stanno lavorando attivamente per rendere questo possibile."
 
 #: faq_v6ns_bad.html
 msgid "Do you use OpenDNS?"
-msgstr ""
+msgstr "Usi OpenDNS?"
 
 #: faq_v6ns_bad.html
 msgid "OpenDNS is now offering IPv6-specific resolvers, that will be able to retrieve DNS over IPv6. This means the \"v6ns\" test operated here will pass. See the <a target=_blank href=\"http://www.opendns.com/ipv6/\">OpenDNS IPv6 information page</a>."
-msgstr ""
+msgstr "OpenDNS sta ora offrendo dei resolver specifici per IPv6, che sono in grado di eseguire query DNS su IPv6. Questo significa che il test \"v6ns\" avrà esito positivo. Vedi la <a target=_blank href=\"http://www.opendns.com/ipv6/\">pagina di informazioni su IPv6 di OpenDNS</a>."
 
 #: faq_v6ns_bad.html
 msgid "Do you operate your own DNS resolvers?"
-msgstr ""
+msgstr "Gestisci il tuo resolver DNS?"
 
 #: faq_v6ns_bad.html
 msgid "If you operated the DNS resolvers in use at your home or organization, enabling IPv6 on your DNS server is easy."
-msgstr ""
+msgstr "Se gestisci il resolver DNS che usi a casa o in azienda, l'attivazione di IPv6 sul tuo server DNS è facile."
 
 #: faq_v6ns_bad.html
 msgid "ISC BIND: Make sure that IPv6 support is compiled in when you ./configure it. It is enabled by default. If you recently added IPv6 to your server, simply restart your named process, as you normally would."
-msgstr ""
+msgstr "ISC BIND: Assicurati di compilare con il supporto IPv6 abilitato quando esegui <code>./configure</code> (è abilitato per impostazione predefinita). Se hai appena aggiunto la connettività IPv6 al server, è sufficiente riavviare il processo named, nel modo in cui lo riavvii normalmente."
 
 #: faq_v6ns_bad.html
 msgid "PowerDNS: Enable <code>aaaa-additional-processing</code> and configure <code>query-local-address6</code> in your <code>recursor.conf</code>. Restart powerdns."
-msgstr ""
+msgstr "PowerDNS: Abilita <code>Aaaa elaborazione aggiuntiva</code> e configura <code>query-locale-Indirizzo6</code> nel tuo <code>recursor.conf</code>. Riavvia powerdns."
 
 #: faq_v6ns_bad.html
 msgid "Windows Server 2003: Upgrade to Windows Server 2008 at a minimum. Windows 2003 will resolve AAAA records, and supports IPv6 clients, but does *not* do DNS resolution over IPv6."
-msgstr ""
+msgstr "Windows Server 2003: Aggiorna a Windows Server 2008 come minimo. Windows 2003 è in grado di risolvere i record AAAA e supporta i client IPv6, ma *non* la risoluzione DNS su IPv6."
 
 #: faq_v6ns_bad.html
 msgid "Confirmation:"
-msgstr ""
+msgstr "Test di conferma:"
 
 #: faq_v6ns_bad.html
 msgid "should return back an aaaa record without errors."
-msgstr ""
+msgstr "dovrebbe restituire un record AAAA senza errori."
 
 #: faq_broken_aaaa.html
 msgid "Broken DNS AAAA Lookups"
