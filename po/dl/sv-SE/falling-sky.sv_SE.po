@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2016-02-07 16:45-0500\n"
+"PO-Revision-Date: 2016-02-08 21:00-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Swedish\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -150,11 +150,11 @@ msgstr "DNS-frågor på vara IPv6-namn fungerar inte. Någonting är trasigt med
 
 #: messages.js
 msgid "A lookup for an IPv6-only name failed; yet the lookup and connect for dual-stack connected via IPv6. The IPv6-only lookup should have worked. Apple has a bug that sporadically causes some IPv6 lookups to fail. We saw evidence of it on this test. You can reload the page and try the test again. For more details, see <a href=\\\"http://openradar.appspot.com/7333104\\\">http://openradar.appspot.com/7333104</a>."
-msgstr "En DNS-fråga på ett endast IPv6-namn fungerade inte; men anslutning och DNS-fråga för dual-stack anslöt via IPv6. DNS-frågan som gick via Ipv6 endast borde ha fungerat. Apple har en bugg som orsakar sporadiska fel på DNS-frågor via IPv6. Vi har sett bevis på detta i detta test. Ladda om sidan och kör testet igen. För mer information, läs <a href=\"http://openradar.appspot.com/7333104\">http://openradar.appspot.com/7333104</a>."
+msgstr ""
 
 #: messages.js
 msgid "A lookup for an dual-stack IPv4 and IPv6 name failed (at minimum it should have connected via IPv4). Apple has a bug that sporadically causes some IPv6 lookups to fail. We saw evidence of it on this test. You can reload the page and try the test again. For more details, see <a href=\\\"http://openradar.appspot.com/7333104\\\">http://openradar.appspot.com/7333104</a>."
-msgstr "En DNS-fråga på dual-stack IPv5 och IPv6 fungerade inte (det borde ha fungerat åtminstone på IPv4). Apple har en bugg som orsakar sporadiska fel på DNS-frågor via IPv6. Vi har sett bevis på detta i detta test. Ladda om sidan och kör testet igen. För mer information, läs <a href=\"http://openradar.appspot.com/7333104\">http://openradar.appspot.com/7333104</a>."
+msgstr ""
 
 #: messages.js
 msgid "No IPv4 address detected"

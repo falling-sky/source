@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2016-02-07 16:45-0500\n"
+"PO-Revision-Date: 2016-02-08 21:00-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Spanish\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -150,11 +150,11 @@ msgstr "Una búsqueda de un nombre sólo IPv6 falló; Sin embargo, la búsqueda 
 
 #: messages.js
 msgid "A lookup for an IPv6-only name failed; yet the lookup and connect for dual-stack connected via IPv6. The IPv6-only lookup should have worked. Apple has a bug that sporadically causes some IPv6 lookups to fail. We saw evidence of it on this test. You can reload the page and try the test again. For more details, see <a href=\\\"http://openradar.appspot.com/7333104\\\">http://openradar.appspot.com/7333104</a>."
-msgstr "La búsqueda de un nombre sólo IPv6 falló; sin embargo, la búsqueda y conexión dual-stack  a través de IPv6 ha funcionado. La búsqueda sólo IPv6 debería haber funcionado. Apple tiene un bug que provoca esporádicamente que algunas búsquedas de IPv6 fallen. Encontramos síntomas de ello en esta prueba. Puedes recargar la página y reintntar la prueba. Para más detalles, consulta <a href=\"http://openradar.appspot.com/7333104\"> http://openradar.appspot.com/7333104</a>."
+msgstr ""
 
 #: messages.js
 msgid "A lookup for an dual-stack IPv4 and IPv6 name failed (at minimum it should have connected via IPv4). Apple has a bug that sporadically causes some IPv6 lookups to fail. We saw evidence of it on this test. You can reload the page and try the test again. For more details, see <a href=\\\"http://openradar.appspot.com/7333104\\\">http://openradar.appspot.com/7333104</a>."
-msgstr "La búsqueda de un nombre dual-stack IPv4 y IPv6 falló (Debería haber, como mínimo, funcionado en IPv4). Apple tiene un bug que provoca esporádicamente que algunas búsquedas de IPv6 fallen. Encontramos síntomas de ello en esta prueba. Puedes recargar la página y reintntar la prueba. Para más detalles, consulta <a href=\"http://openradar.appspot.com/7333104\"> http://openradar.appspot.com/7333104</a>."
+msgstr ""
 
 #: messages.js
 msgid "No IPv4 address detected"
