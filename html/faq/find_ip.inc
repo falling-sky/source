@@ -56,8 +56,8 @@ for communicating to other hosts in the same physical network as you.
 
   <p>[% " Generic unix instructions for determining your IPv6 address and default route: " | i18n %]</p>
   <ul>
-  <li><code>ifconfig -a</code> and look for <code>inet6</code> to see your possible IPv6 addresses.</li>
-  <li><code>netstat -nr</code> and look for <code>inet6</code> or <code>Internet6</code> or similiar to find the IPv6 portion; thenm look for <code>default</code> or <code>::</code> or <code>::/0</code>.</li>
+  <li>[% " Run " | i18n %]<code>ifconfig -a</code>[% " and look for <code>inet6</code> to see your possible IPv6 addresses. " | i18n %]</li>
+  <li>[% " Run " | i18n %]<code>netstat -nr</code>[% " and look for <code>inet6</code> or <code>Internet6</code> or similiar to find the IPv6 portion; thenm look for <code>default</code> or <code>::</code> or <code>::/0</code>. " | i18n %]</li>
   </ul>
 
 </div>
