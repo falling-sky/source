@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2016-02-07 16:00-0500\n"
+"PO-Revision-Date: 2016-02-07 19:30-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Italian\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -1167,51 +1167,51 @@ msgstr "Se si usa 6to4</b> (senza un tunnel broker; ad esempio, usando 6to4 anon
 
 #: faq/6to4_sucks.inc
 msgid "The use of \"automatic\" 6to4, or the use of 6to4 without explicit configuration of the gateways, is not recommended. For more information see <a href='#' onclick='return help_page(\"faq_6to4.html\",\"6to4\")'>6to4</a>."
-msgstr ""
+msgstr "L'uso di 6to4 \"automatico\", o l'uso di 6to4 senza configurazione esplicita dei gateway, non è raccomandato. Per ulteriori informazioni guarda <a href='#' onclick='return help_page(\"faq_6to4.html\",\"6to4\")'>6to4</a>."
 
 #: faq/broken_6to4.inc
 msgid "If you want to continue trying to debug anonymous 6to4:"
-msgstr ""
+msgstr "Se vuoi continuare a provare a debuggare 6to4 anonimo:"
 
 #: faq/broken_6to4.inc
 msgid "If you are using your router to do the 6to4:"
-msgstr ""
+msgstr "Se usi il tuo router per fare 6to4:"
 
 #: faq/broken_6to4.inc
 msgid "Make sure your router has a public IPv4 address. Without this, 6to4 fails."
-msgstr ""
+msgstr "Controlla che il tuo router abbia un indirizzo IPv4 pubblico. Senza questo 6to4 fallisce."
 
 #: faq/broken_6to4.inc
 msgid "If your router permits you to log in, use \"ping\" or \"ping6\" and see if you can ping \"ipv6.test-ipv6.com\". Don't waste your time fixing computers until the router works!"
-msgstr ""
+msgstr "Se il tuo router ti permette di loggarti, usa \"ping\" o \"ping6\" e controlla se puoi pingare \"ipv6.test-ipv6.com\". Non perdere tempo a mettere a posto i computer finché il router non funziona!"
 
 #: faq/broken_6to4.inc
 msgid "Most home systems have private IPv4 addresses; this won't work with 6to4 (unless..)"
-msgstr ""
+msgstr "Alcune connessioni domestiche hanno indirizzi IPv4 privati; questo non funzionerà con 6to4 (a meno che...)"
 
 #: faq/broken_6to4.inc
 msgid "Make sure your 6to4 interface knows your public IPv4 address."
-msgstr ""
+msgstr "Controlla che l'interfaccia 6to4 conosca il tuo indirizzo IPv4 pubblico."
 
 #: faq/broken_6to4.inc
 msgid "Make sure that your router permits protocol 41 from any IP address - not just 192.88.99.1. This will allow web sites to operate their half of 6to4, even if they can not spoof the 192.88.99.1 anycast address."
-msgstr ""
+msgstr "Controlla che il router consenta il protocollo 41 da qualsiasi indirizzo IP - non solo 192.88.99.1. Questo consentirà ai siti web di operare la loro metà di 6to4, anche se non riescono a usare l'indirizzo anycast 192.88.99.1 come mittente."
 
 #: faq/broken_6to4.inc
 msgid "Linux users using iptables connection tracking: take heed of the previous note!"
-msgstr ""
+msgstr "Gli utenti Linux che usano iptables con connection traking ricontrollino la nota precedente!"
 
 #: faq/broken_6to4.inc
 msgid "Consider changing how you connect."
-msgstr ""
+msgstr "Considera di cambiare il metodo di connessione."
 
 #: faq/broken_6to4.inc
 msgid "Ask your ISP if they offer any IPv6 connectivity (including possibly 6in4 tunnels, or tunnelbroker type tunnels)."
-msgstr ""
+msgstr "Chiedi al tuo ISP se offre connettività IPv6 (inclusa la possibilità di tunnel 6in4, tunnelbroker o altri tipi)."
 
 #: faq/broken_6to4.inc
 msgid "See <a href=\"#\" onclick='return help_page(\"faq_6to4.html\",\"6to4\")'>6to4</a> for more information on why you would want to switch; and some options."
-msgstr ""
+msgstr "Guarda <a href=\"#\" onclick='return help_page(\"faq_6to4.html\",\"6to4\")'>6to4</a> per ulteriori informazioni sul perché vorresti poter cambiare, e qualche opzione."
 
 #: broken.html
 msgid "If you have an ULA"
@@ -1223,15 +1223,15 @@ msgstr "(indirizzo IPv6: comincia con FC o FD)"
 
 #: faq/broken_ula.inc
 msgid "If you have an IP address starting with <code>FC</code> or <code>FD</code>, you have what is effectively a private IPv6 address. It might be usable for talking to other devices within your home, or within your company. It also allows you to have a steady IPv6 address inside, even if your public IPv6 address changes regularly."
-msgstr ""
+msgstr "Se hai un indirizzo IP che inizia con <code>FC</code> o <code>FD</code>, hai ciò che in effetti è un indirizzo IPv6 privato. Potrebbe essere utilizzabile per comunicare con altri dispositivi all'interno della vostra casa, o all'interno dell'azienda. Permette anche di avere un indirizzo IPv6 statico all'interno della tua rete, anche se il tuo indirizzo IPv6 pubblico cambia regolarmente."
 
 #: faq/broken_ula.inc
 msgid "The main problem with ULA is that certain home routers are now offering ULA, *and* giving you a default route. This route is offered regardless of whether or not your router actually has IPv6 connectivity. From your browser's point of view, it doesn't know that your default route goes nowhere; there is no feedback mechanism. Since IPv6 is (roughly speaking) preferred over IPv4, your browser will try using this broken route. It may take minutes before giving up."
-msgstr ""
+msgstr "Il problema principale degli ULA è che alcuni router domestici stanno offrendo ai dispositivi indirizzi ULA *e* dando un instradamento predefinito. Questa instradamento è offerto indipendentemente dal fatto che il router in realtà disponga di connettività IPv6. Dal punto di vista del browser, esso non sa che l'instradamento di default va da nessuna parte: non esiste un meccanismo di feedback. Poiché IPv6 è (di solito) preferito rispetto a IPv4, il browser cercherà di utilizzare questo instradamento. Potrebbero essere necessari diversi minuti prima che ci rinunci."
 
 #: faq/broken_ula.inc
 msgid "Our advice: Enable ULA only if your router has full time IPv6 connectivity. Disable it, otherwise. If you do disable it on your router, you will likely need to reboot your router first, then reboot your host, before the symptoms go away."
-msgstr ""
+msgstr "Il nostro consiglio: abilita ULA solo se il tuo router ha connettività IPv6 a tempo pieno. In caso contrario disabilitalo; molto probabilmente per far sparire i sintomi sarà necessario riavviare il router e successivamente riavviare il tuo dispositivo."
 
 #: broken.html
 msgid "Bad or Inappropriate IPv6 Addresss"
@@ -1243,11 +1243,11 @@ msgstr "(Indirizzo IPv6: vedi tabella sotto)"
 
 #: faq/broken_bogon.inc
 msgid "Bad or Inappropriate IPv6 Addresses (Bogons)"
-msgstr ""
+msgstr "Indirizzo IPv6 non valido o inappropriato (Bogons)"
 
 #: faq/broken_bogon.inc
 msgid "If you IPv6 address starts with any of these, your router needs to be upgraded."
-msgstr ""
+msgstr "Se il tuo indirizzo IPv6 inizia con uno dei seguenti prefissi, il tuo router ha bisogno di un aggiornamento."
 
 #: faq/broken_bogon.inc
 msgid "disable ULA."
@@ -1295,39 +1295,39 @@ msgstr "(l'indirizzo IPv6 non inizia con fe80)"
 
 #: faq/broken_unexpected.inc
 msgid "Unexpected IPv6 address?"
-msgstr ""
+msgstr "Indirizzo IPv6 inaspettato?"
 
 #: faq/broken_unexpected.inc
 msgid "Modern operating systems all have IPv6 enabled. This feature is dormant until someone explicitly configures IPv6, <em><b>or</b></em> a device on the local network offers it. Autoconfigured IPv6 hosts learn their IPv6 address and their gateway through the use of IPv6 router announcements (RAs). The network you are on may intentionally offer IPv6; you'll automatically use it when your computer sees it."
-msgstr ""
+msgstr "Tutti i sistemi operativi moderni hanno IPv6 attivato. Questa funzionalità è dormiente fino a quando qualcuno in modo esplicito configura IPv6 <em><b>oppure</b></em> un dispositivo sulla rete locale lo offre. Gli host IPv6 autoconfigurati acquisiscono il loro indirizzo IPv6 e il loro gateway attraverso l'uso degli annunci router IPv6 (RA). La rete su cui sei potrebbe offrire IPv6 intenzionalmente: lo userai automaticamente non appena il tuo computer lo vedrà."
 
 #: faq/broken_unexpected.inc
 msgid "<b>Where this goes wrong:</b> Some people plug their router into the network (wired or wireless) and inadvertantly offer IPv6 services to everyone. Classic examples of this are where people add an early version of an Apple router (with 6to4 automatically enabled); another example is someone who has Windows Internet Connection Sharing enabled. In both cases, there is a chance they offer their services - and become your IPv6 router of choice, without any notification to you."
-msgstr ""
+msgstr "<b>Quando le cose non funzionano:</b> Alcune persone collegano il loro router alla loro rete (cablata o wireless) e inavvertitamente offrono servizi IPv6 a tutti. Esempi classici di questo sono quando delle persone collegano una vecchia versione di un router Apple (in cui 6to4 è abilitato automaticamente); un altro esempio è qualcuno che ha la condivisione della connessione Internet di Windows attiva. In entrambi i casi, è possibile che offrano i loro servizi, e diventino router IPv6 primari, senza alcuna notifica preliminare."
 
 #: faq/broken_unexpected.inc
 msgid "If these IPv6 routers don't work, you will fail to connect to any web site that offers services on both IPv4 and IPv6. Even if they do work, if the router in question is unplugged (the owner packs up, leaves the hotel/conference) your host never gets the notice; and it can be hours before it gives up."
-msgstr ""
+msgstr "Se questi router IPv6 non funzionano, non riuscirai a connetterti a nessun sito web che offra i suoi servizi sia su IPv4 che su IPv6. Anche se invece funzionano, se il router in questione è scollegato (il proprietario lo stacca, lascia l'hotel o sala conferenze) gli altri utenti non ricevono nessuna notifica e possono volerci ore prima che la situazione si ristabilisca."
 
 #: faq/broken_unexpected.inc
 msgid "This is similiar to someone accidentially (or intentionally) running a rogue DHCP server."
-msgstr ""
+msgstr "Questo è del tutto simile a quando qualcuno accidentalmente (o intenzionalmente) attiva un server DHCP malevolo."
 
 #: faq/broken_unexpected.inc
 msgid "<b>If you are are not the network admin</b> - and have no access to fix the problem - consider disabling IPv6, at least for the location you are in. Another option might be to try turning off, and turning back on, your network interface (clearing the IP address), in case the source of the problem has left the network."
-msgstr ""
+msgstr "<b>Se non sei l'amministratore di rete</b> - e non hai modo di risolvere il problema primario - considera di disabilitare IPv6, almeno per la rete in questione. Un'altra opzione potrebbe essere provare spegnere e riaccendere l'interfaccia di rete (cancellando gli indirizzi IP), nel caso in cui l'origine del problema abbia lasciato la rete."
 
 #: faq/broken_unexpected.inc
 msgid "<b>If you are the network administrator</b>: You can use the default route information to identify the ethernet address; and then search for the owner of that ethernet address. Some network vendors have features that will suppress the advertisements of unauthorized RAs (router announcements); consider enabling those feaatures. More reactive measures involve finding (by ethernet address) the owner of the device; or possibly spoofing RA's from their device to indicate the device is going away."
-msgstr ""
+msgstr "<b>Se sei l'amministratore di rete</b>: è possibile utilizzare le informazioni di instradamento predefinito per identificare l'indirizzo ethernet e quindi cercare il proprietario dell'indirizzo ethernet. Alcuni fornitori di rete dispongono di funzionalità che elimineranno le gli annunci router (RA) non autorizzati; è consigliabile attivare queste funzionalità. Misure più reattive coinvolgono trovare (tramite l'indirizzo ethernet) il proprietario del dispositivo; o anche falsificare le RA di quel dispositivo per indicare che il dispositivo se ne sta andando via."
 
 #: faq/broken_netalyzr.inc
 msgid "Consider trying the \"netalyzr\". This is another site that runs a java applet (which can do more than my site can, in just javascript). I would find feedback about how you useful this site was for you."
-msgstr ""
+msgstr "Ti consigliamo di provare il \"netalyzr\". Questo è un altro sito che gestisce un'applet java (che può fare di più di quello che può il mio sito in solo javascript). Mi piacerebbe ricevere commenti e suggerimenti su quanto utile questo sito sia stato per te."
 
 #: faq/broken_netalyzr.inc
 msgid "From the netalyzr staff:"
-msgstr ""
+msgstr "Dal personale di netalyzr:"
 
 #: broken.html
 msgid "If all else fails"
@@ -1339,27 +1339,27 @@ msgstr "(Istruzioni per la disabilitazione o riduzione di priorità di IPv6)"
 
 #: faq/broken_disable.inc
 msgid "Disabling or Deprioritizing your IPv6 address"
-msgstr ""
+msgstr "Disattivazione o abbassamento di priorità del tuo indirizzo IPv6"
 
 #: faq/broken_disable.inc
 msgid "<b>To disable IPv6 entirely, until your ISP offers IPv6 to you:</b> see <b>Microsoft's \"fixit\" site</b> that gives clear instructions. We advocate considering \"Use IPv4 instead of IPv6 in prefix policies\", instead of completely disabling IPv6. Specific Windows features depend on IPv6 being enabled."
-msgstr ""
+msgstr "<b>Per disabilitare IPv6 completamente, fino a quando il tuo ISP non offrirà IPv6:</b> guarda il sito <b>\"fixit\" di Microsoft</b> che dà chiare istruzioni. Ti suggeriamo di considerare \"Preferisci IPv4 su IPv6 nei criteri di prefisso\", invece di disabilitare completamente IPv6. Alcune funzionalità specifiche di Windows dipendono dal fatto che IPv6 sia abilitato."
 
 #: faq/broken_disable.inc
 msgid "To completely disable IPv6 (Windows 7, Vista; XP should be similiar):"
-msgstr ""
+msgstr "Per disattivare completamente IPv6 (Windows 7, Vista; XP dovrebbe essere simile):"
 
 #: faq/broken_disable.inc
 msgid "Go to \"Properties\""
-msgstr ""
+msgstr "Vai su \"Proprietà\""
 
 #: faq/broken_disable.inc
 msgid "Uncheck \"Internet Protocol Version 6\""
-msgstr ""
+msgstr "Deseleziona \"Internet Protocol versione 6\""
 
 #: faq/broken_disable.inc
 msgid "Hit \"ok\""
-msgstr ""
+msgstr "Premi \"ok\""
 
 #: faq/broken_disable.inc
 msgid "Shutdown/reboot."
