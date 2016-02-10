@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2016-02-08 21:00-0500\n"
+"PO-Revision-Date: 2016-02-09 02:45-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: German\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -149,12 +149,12 @@ msgid "A lookup for an IPv6-only name failed; yet the lookup and connect for dua
 msgstr "Die Namensauflösung eines Nur-IPv6 Namens ist fehlgeschlagen, dennoch ist die Namensauflösung und die Verbindung für Dual-Stack Seiten via IPv6 erfolgt. Dies deutet auf ein fehlerhaftes Verhalten Ihrer Namensauflösung hin."
 
 #: messages.js
-msgid "A lookup for an IPv6-only name failed; yet the lookup and connect for dual-stack connected via IPv6. The IPv6-only lookup should have worked. Apple has a bug that sporadically causes some IPv6 lookups to fail. We saw evidence of it on this test. You can reload the page and try the test again. For more details, see <a href=\\\"http://openradar.appspot.com/7333104\\\">http://openradar.appspot.com/7333104</a>."
-msgstr ""
+msgid "A lookup for an IPv6-only name failed; yet the lookup and connect for dual-stack connected via IPv6. The IPv6-only lookup should have worked. Apple has a bug that sporadically causes some IPv6 lookups to fail. We saw evidence of it on this test. You can reload the page and try the test again. For more details, see <a href='http://openradar.appspot.com/7333104'>http://openradar.appspot.com/7333104</a>."
+msgstr "Eine DNS-Suche für einen nur-IPv6-Namen ist fehlgeschlagen; jedoch wurde die DNS-Suche und die Dual-Stack-Verbindung über IPv6 erfolgreich durchgeführt. Die IPv6-DNS-Suche sollte funktioniert haben. Apple hat einen Bug, der sporadisch einige IPv6-Abfragen fehlschlagen lässt. Bei diesem Test ist dies aufgetreten. Sie können die Seite neu laden und den Test wiederholen. Weitere Informationen finden Sie unter <a href=\"http://openradar.appspot.com/7333104\">http://openradar.appspot.com/7333104</a>."
 
 #: messages.js
-msgid "A lookup for an dual-stack IPv4 and IPv6 name failed (at minimum it should have connected via IPv4). Apple has a bug that sporadically causes some IPv6 lookups to fail. We saw evidence of it on this test. You can reload the page and try the test again. For more details, see <a href=\\\"http://openradar.appspot.com/7333104\\\">http://openradar.appspot.com/7333104</a>."
-msgstr ""
+msgid "A lookup for an dual-stack IPv4 and IPv6 name failed (at minimum it should have connected via IPv4). Apple has a bug that sporadically causes some IPv6 lookups to fail. We saw evidence of it on this test. You can reload the page and try the test again. For more details, see <a href='http://openradar.appspot.com/7333104'>http://openradar.appspot.com/7333104</a>."
+msgstr "Eine DNS-Suche für einen Dualstack-IPv4-und-IPv6-Namen ist fehlgeschlagen (zumindest die Verbindung über IPv4 sollte erfolgreich gewesen sein). Apple hat einen Bug, der sporadisch einige IPv6-Abfragen fehlschlagen lässt. Bei diesem Test ist dies aufgetreten. Sie können die Seite neu laden und den Test wiederholen. Weitere Informationen finden Sie unter <a href=\"http://openradar.appspot.com/7333104\">http://openradar.appspot.com/7333104</a>."
 
 #: messages.js
 msgid "No IPv4 address detected"
@@ -1054,6 +1054,18 @@ msgid "Generic unix instructions for determining your IPv6 address and default r
 msgstr "Generische Unix-Anleitungen, um die IPv6-Adresse und default-Route herauszufinden:"
 
 #: faq/find_ip.inc
+msgid "Run"
+msgstr "Lassen Sie folgendes laufen:"
+
+#: faq/find_ip.inc
+msgid "and look for <code>inet6</code> to see your possible IPv6 addresses."
+msgstr "und schauen Sie nach <code>inet6</code>, um Ihre möglichen IPv6-Adressen zu sehen."
+
+#: faq/find_ip.inc
+msgid "and look for <code>inet6</code> or <code>Internet6</code> or similiar to find the IPv6 portion; thenm look for <code>default</code> or <code>::</code> or <code>::/0</code>."
+msgstr "und schauen Sie nach <code>inet6</code> oder <code>Internet6</code> oder ähnlichem, um den IPv6-Teil zu finden; dann suchen Sie nach <code>Standard</code> bzw. <code>::</code> oder <code>::/0</code>."
+
+#: faq/find_ip.inc
 msgid "Windows users: To find your IP address using cmd.exe:"
 msgstr "Windows-Nutzer: Um Ihre IP-Adresse mit cmd.exe herauszufinden:"
 
@@ -1260,6 +1272,10 @@ msgstr "Andere Router: versuchen Sie die Firmware zu aktualisieren. Wenn dies fe
 #: faq/broken_bogon.inc
 msgid "If that fails, disable IPv6 entirely on the router."
 msgstr "Falls dies fehlschlägt, deaktivieren Sie IPv6 vollständig auf dem Router."
+
+#: faq/broken_bogon.inc
+msgid "or"
+msgstr "oder"
 
 #: faq/broken_bogon.inc
 msgid "This is a router using 6to4, but using a private IPv4 address. This will never work."
@@ -1579,7 +1595,7 @@ msgstr "Das heißt, Sie sind herzlich eingeladen, eine e-Mail an <a href=\"mailt
 
 #: faq.html
 msgid "Q: Is this open source?"
-msgstr "F: ist dieses Software Open Source?"
+msgstr "F: Ist diese Software Open Source?"
 
 #: faq.html
 msgid "Yes. See the <a href=\"source.html\">source page</a> for details."
@@ -1759,7 +1775,7 @@ msgstr "Bei unverwalteten 6to4-Verbindungen (entweder \"automatisch\" erstellt, 
 
 #: faq_6to4.html
 msgid "Traffic from the web site takes a similiar path. That web site replies back to your automatic IPv6 address. This is routed to the nearest 6to4 relay to that web site. This is not deterministic from your part, at all. In fact, you won't even be able to tell where this relay is. That relay will take the IPv6 packet, stick it inside an IPv4 packet, and then send to your router."
-msgstr "Verkehr von der Website nimmt einen ähnlichen Weg. Diese Websites Antworten an Ihre automatisch erzeugte IPv6-Adresse. Dies wird an das nächste 6to4-Relay der Website weitergeleitet. Dies passiert von Ihrer Seite nicht deterministisch. Tatsächlich werden Sie nicht einmal in der Lage sein, zu sagen, wo dieses Relay ist. Das Relay wird das IPv6-Paket nehmen, in ein IPv4-Paket einpacken und dann an Ihren Router senden."
+msgstr "Verkehr von der Website nimmt einen ähnlichen Weg. Diese Websites antworten an Ihre automatisch erzeugte IPv6-Adresse. Dies wird an das nächste 6to4-Relay der Website weitergeleitet. Dies passiert von Ihrer Seite nicht deterministisch. Tatsächlich werden Sie nicht einmal in der Lage sein, zu sagen, wo dieses Relay ist. Das Relay wird das IPv6-Paket nehmen, in ein IPv4-Paket einpacken und dann an Ihren Router senden."
 
 #: faq_6to4.html
 msgid "Q: What could possibly go wrong?"
