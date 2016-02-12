@@ -11,7 +11,7 @@
         </td>
     </tr>
     <tr>
-        <td valign=top><p><b>2002:0A</b>xx: or <b>2002:A</b>xx:<br/>
+        <td valign=top><p><b>2002:0A</b>xx: [% " or " | i18n %] <b>2002:A</b>xx:<br/>
             <b>2002:AC1</b>x:<br/>
             <b>2002:C0A8:</b></br>
             <b>2002:644</b>x:</br>

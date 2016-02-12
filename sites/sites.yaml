@@ -524,6 +524,7 @@ www.rascom.ru:
   v4: http://wood.rascom.ru/ipv4.jpg
   v6: http://wood6.rascom.ru/logo2.png
 test-ipv6.ernet.in:
+  hide: 0
   loc: IN
   mirror: 1
   provider: IPv6 Division of ERNET India

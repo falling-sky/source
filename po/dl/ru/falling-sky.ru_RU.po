@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-12-30 15:30-0500\n"
+"PO-Revision-Date: 2016-02-08 21:15-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Russian\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -149,11 +149,11 @@ msgid "A lookup for an IPv6-only name failed; yet the lookup and connect for dua
 msgstr "Поиск IPv6 имени провалился, но двойное (IPv4 и IPv6) подключение работает через IPv6. Видимо, что-то перепутано в поиске DNS."
 
 #: messages.js
-msgid "A lookup for an IPv6-only name failed; yet the lookup and connect for dual-stack connected via IPv6. The IPv6-only lookup should have worked. Apple has a bug that sporadically causes some IPv6 lookups to fail. We saw evidence of it on this test. You can reload the page and try the test again. For more details, see <a href=\"http://openradar.appspot.com/7333104\">http://openradar.appspot.com/7333104</a>."
+msgid "A lookup for an IPv6-only name failed; yet the lookup and connect for dual-stack connected via IPv6. The IPv6-only lookup should have worked. Apple has a bug that sporadically causes some IPv6 lookups to fail. We saw evidence of it on this test. You can reload the page and try the test again. For more details, see <a href='http://openradar.appspot.com/7333104'>http://openradar.appspot.com/7333104</a>."
 msgstr ""
 
 #: messages.js
-msgid "A lookup for an dual-stack IPv4 and IPv6 name failed (at minimum it should have connected via IPv4). Apple has a bug that sporadically causes some IPv6 lookups to fail. We saw evidence of it on this test. You can reload the page and try the test again. For more details, see <a href=\"http://openradar.appspot.com/7333104\">http://openradar.appspot.com/7333104</a>."
+msgid "A lookup for an dual-stack IPv4 and IPv6 name failed (at minimum it should have connected via IPv4). Apple has a bug that sporadically causes some IPv6 lookups to fail. We saw evidence of it on this test. You can reload the page and try the test again. For more details, see <a href='http://openradar.appspot.com/7333104'>http://openradar.appspot.com/7333104</a>."
 msgstr ""
 
 #: messages.js
@@ -1053,6 +1053,18 @@ msgid "Generic unix instructions for determining your IPv6 address and default r
 msgstr ""
 
 #: faq/find_ip.inc
+msgid "Run"
+msgstr ""
+
+#: faq/find_ip.inc
+msgid "and look for <code>inet6</code> to see your possible IPv6 addresses."
+msgstr ""
+
+#: faq/find_ip.inc
+msgid "and look for <code>inet6</code> or <code>Internet6</code> or similiar to find the IPv6 portion; thenm look for <code>default</code> or <code>::</code> or <code>::/0</code>."
+msgstr ""
+
+#: faq/find_ip.inc
 msgid "Windows users: To find your IP address using cmd.exe:"
 msgstr "Пользователям Windows: поиск своего IP-адреса используя cmd.exe:"
 
@@ -1258,6 +1270,10 @@ msgstr ""
 
 #: faq/broken_bogon.inc
 msgid "If that fails, disable IPv6 entirely on the router."
+msgstr ""
+
+#: faq/broken_bogon.inc
+msgid "or"
 msgstr ""
 
 #: faq/broken_bogon.inc
@@ -1753,7 +1769,7 @@ msgid "With traditional IPv4 Internet connections, traffic goes from you, to you
 msgstr ""
 
 #: faq_6to4.html
-msgid "With unmanaged 6to4 connections (created \"automatically\" or without explicit gateway information) the process is a fair bit different. IPv6 is put into an IPv4 packet - much like sticking a letter in an envelope. This packet is sent to the \"nearest available\" gateway. Your ISP"
+msgid "With unmanaged 6to4 connections (created \"automatically\" or without explicit gateway information) the process is a fair bit different. IPv6 is put into an IPv4 packet - much like sticking a letter in an envelope. This packet is sent to the \"nearest available\" gateway. Your ISP<i>may</i> run one of these; most do not. Chances are the one you use, will be run by a good samaritan who's trying to contribute to the community. This relay will take the IPV6 from inside your IPv4 packet, and then forward it over the IPV6 Internet."
 msgstr ""
 
 #: faq_6to4.html
@@ -1878,6 +1894,10 @@ msgstr ""
 
 #: faq/brokers.inc
 msgid "The use of automatic tunnels is discouraged"
+msgstr ""
+
+#: faq/brokers.inc
+msgid "[see more]"
 msgstr ""
 
 #: faq_ipv4_only.html
@@ -2133,7 +2153,7 @@ msgid "Why IPv6?"
 msgstr "Почему IPv6?"
 
 #: faq_whyipv6.html
-msgid "This is an interesting question. IPv6 buys you only a bit more than you already have today; and most of that is a promise. IPv6 will help you preserve the level of Internet connectivy between your home and other locations on the Internet, without interference, as you enjoyed in 2012."
+msgid "This is an interesting question. IPv6 buys you only a bit more than you already have today; and most of that is a promise. IPv6 will help you preserve the level of Internet connectivity between your home and other locations on the Internet, without interference, as you enjoyed in 2012."
 msgstr ""
 
 #: faq_whyipv6.html
@@ -2393,10 +2413,6 @@ msgid "<b>If you are not covered by the above, do a web search.</b>. As you lear
 msgstr ""
 
 #: attributions.html
-msgid "<!-- <p><em>falling-sky</em> is also a reference to <a href=\"http://en.wikipedia.org/wiki/The_Sky_Is_Falling_(fable)\">the story of Chicken Little.</p> -->"
-msgstr ""
-
-#: attributions.html
 msgid "This site would not exist without the following components and resources."
 msgstr ""
 
@@ -2425,7 +2441,7 @@ msgid "Your DNS server was confused by the result - it doesn't fully follow the 
 msgstr ""
 
 #: faq_buggydns1.html
-msgid "Your DNS server took the first peice of the IPV6 address, and memorized it as the IPv4 address."
+msgid "Your DNS server took the first piece of the IPV6 address, and memorized it as the IPv4 address."
 msgstr ""
 
 #: faq_buggydns1.html
@@ -2481,7 +2497,7 @@ msgid "You can see an illustration of this, by doing:"
 msgstr ""
 
 #: faq_buggydns1.html
-msgid "Substitute the 192.168.1.1 with the resolver being used by the host. If the \"aaaa\" answer comes back with no answer, but the \"a\" answer does, this is a confirmation of a broken DNS cache or forwarder. The actual DNS information for buggydns1.test-ipv6.com has only an IPv6 record configured."
+msgid "Substitute the 192.168.1.1 with the resolver being used by the host. If the \"aaaa\" request comes back with no answer, but the \"a\" answer does, this is a confirmation of a broken DNS cache or forwarder. The actual DNS information for buggydns1.test-ipv6.com has only an IPv6 record configured."
 msgstr ""
 
 #: faq_avoids_ipv6.html

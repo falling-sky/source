@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2015-12-30 15:30-0500\n"
+"PO-Revision-Date: 2016-02-08 21:15-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Chinese Simplified\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -149,12 +149,12 @@ msgid "A lookup for an IPv6-only name failed; yet the lookup and connect for dua
 msgstr "纯IPv6名称查找失败；尽管查找和双栈连接都是通过IPv6连接的。一些东西可能和DNS查找混淆了。"
 
 #: messages.js
-msgid "A lookup for an IPv6-only name failed; yet the lookup and connect for dual-stack connected via IPv6. The IPv6-only lookup should have worked. Apple has a bug that sporadically causes some IPv6 lookups to fail. We saw evidence of it on this test. You can reload the page and try the test again. For more details, see <a href=\"http://openradar.appspot.com/7333104\">http://openradar.appspot.com/7333104</a>."
-msgstr "对一个仅IPv6的名称查询失败了。但查到并且通过IPv6连接上了一个双栈。这个仅IPv6查询应该正常工作。Apple有一个bug会偶尔导致一些IPv6查询失败。我们在此次测试中看到了一些这样的迹象。您可以重新载入本页面尝试再次测试。更多信息请参阅<a href=\"http://openradar.appspot.com/7333104\">http://openradar.appspot.com/7333104</a>。"
+msgid "A lookup for an IPv6-only name failed; yet the lookup and connect for dual-stack connected via IPv6. The IPv6-only lookup should have worked. Apple has a bug that sporadically causes some IPv6 lookups to fail. We saw evidence of it on this test. You can reload the page and try the test again. For more details, see <a href='http://openradar.appspot.com/7333104'>http://openradar.appspot.com/7333104</a>."
+msgstr ""
 
 #: messages.js
-msgid "A lookup for an dual-stack IPv4 and IPv6 name failed (at minimum it should have connected via IPv4). Apple has a bug that sporadically causes some IPv6 lookups to fail. We saw evidence of it on this test. You can reload the page and try the test again. For more details, see <a href=\"http://openradar.appspot.com/7333104\">http://openradar.appspot.com/7333104</a>."
-msgstr "对一个IPv4和IPv6双栈的名称查询失败了（至少我们应该能通过IPv4连接）。Apple有一个bug会偶尔导致一些IPv6查询失败。我们在此次测试中看到了一些这样的迹象。您可以重新载入本页面尝试再次测试。更多信息请参阅<a href=\"http://openradar.appspot.com/7333104\">http://openradar.appspot.com/7333104</a>。"
+msgid "A lookup for an dual-stack IPv4 and IPv6 name failed (at minimum it should have connected via IPv4). Apple has a bug that sporadically causes some IPv6 lookups to fail. We saw evidence of it on this test. You can reload the page and try the test again. For more details, see <a href='http://openradar.appspot.com/7333104'>http://openradar.appspot.com/7333104</a>."
+msgstr ""
 
 #: messages.js
 msgid "No IPv4 address detected"
@@ -582,7 +582,7 @@ msgstr "这是最重要的一项测试。它证实您的浏览器是否可以连
 
 #: main/tech.inc
 msgid "If this test fails or times out, you can expect major problems as publishers start offering their sites on IPv6."
-msgstr "如果这项测试失败或超时，发行人开始提供基于IPv6的站点是主要问题之一。"
+msgstr "如果这项测试失败或超时，当网站发布者开始基于IPv6发布网站时，你会遇上大问题"
 
 #: main/tech.inc
 msgid "Validates that you can connect to a dual-stack server (like the ds test); and that you can send/receive large packets on that connection. If this test times out for any reason, it indicates trouble for World IPv6 Day."
@@ -1053,6 +1053,18 @@ msgid "Generic unix instructions for determining your IPv6 address and default r
 msgstr "确定您的IPv6地址和默认路由的常规 unix 命令指南："
 
 #: faq/find_ip.inc
+msgid "Run"
+msgstr ""
+
+#: faq/find_ip.inc
+msgid "and look for <code>inet6</code> to see your possible IPv6 addresses."
+msgstr ""
+
+#: faq/find_ip.inc
+msgid "and look for <code>inet6</code> or <code>Internet6</code> or similiar to find the IPv6 portion; thenm look for <code>default</code> or <code>::</code> or <code>::/0</code>."
+msgstr ""
+
+#: faq/find_ip.inc
 msgid "Windows users: To find your IP address using cmd.exe:"
 msgstr "Windows用户：要使用cmd.exe找到您的IP地址："
 
@@ -1259,6 +1271,10 @@ msgstr "其他路由器：尝试更新固件。如果失败，找出并禁用“
 #: faq/broken_bogon.inc
 msgid "If that fails, disable IPv6 entirely on the router."
 msgstr "如果失败，在路由器上完全禁用IPv6。"
+
+#: faq/broken_bogon.inc
+msgid "or"
+msgstr ""
 
 #: faq/broken_bogon.inc
 msgid "This is a router using 6to4, but using a private IPv4 address. This will never work."
@@ -1610,7 +1626,7 @@ msgstr "浏览器过滤器意味着“A”和“AAAA”测试都失败。是由�
 
 #: stats.html
 msgid "Brokeness goes down, when volume goes up. This is due to having a wider sample of average people (versus people explicitly testing a new IPv6 setup)."
-msgstr ""
+msgstr "容量越大，故障越少。这是因为有了更广的，一般人的样本（而不是明显在测试新安装的IPv6的人）"
 
 #: stats.html
 msgid "These graphs show the last 60 days of activity at <span lookup=site.name>site</span>"
@@ -1753,8 +1769,8 @@ msgid "With traditional IPv4 Internet connections, traffic goes from you, to you
 msgstr "在传统IPv4互联网连接上，流量从你而来，到你的ISP而去；然后到更多的ISP；最终到达目标网站。这种形态下调试问题是相当容易的。在遇到问题时，你的ISP有义务解决与他们相关的事务；网站也有类似的合同与他们的ISP。"
 
 #: faq_6to4.html
-msgid "With unmanaged 6to4 connections (created \"automatically\" or without explicit gateway information) the process is a fair bit different. IPv6 is put into an IPv4 packet - much like sticking a letter in an envelope. This packet is sent to the \"nearest available\" gateway. Your ISP"
-msgstr "而在不受管理的6to4连接上（已创建的“自动”或非明确的网关信息）处理问题是有点不同。IPv6是被嵌入到了IPv4数据包中——就像是将一封信放在了一个信封中。该数据包被发送到“最近可用”的网关。"
+msgid "With unmanaged 6to4 connections (created \"automatically\" or without explicit gateway information) the process is a fair bit different. IPv6 is put into an IPv4 packet - much like sticking a letter in an envelope. This packet is sent to the \"nearest available\" gateway. Your ISP<i>may</i> run one of these; most do not. Chances are the one you use, will be run by a good samaritan who's trying to contribute to the community. This relay will take the IPV6 from inside your IPv4 packet, and then forward it over the IPV6 Internet."
+msgstr ""
 
 #: faq_6to4.html
 msgid "Traffic from the web site takes a similiar path. That web site replies back to your automatic IPv6 address. This is routed to the nearest 6to4 relay to that web site. This is not deterministic from your part, at all. In fact, you won't even be able to tell where this relay is. That relay will take the IPv6 packet, stick it inside an IPv4 packet, and then send to your router."
@@ -1879,6 +1895,10 @@ msgstr "提供商（受管理的6to4隧道服务）。"
 #: faq/brokers.inc
 msgid "The use of automatic tunnels is discouraged"
 msgstr "不推荐使用自动隧道"
+
+#: faq/brokers.inc
+msgid "[see more]"
+msgstr "[查看更多]"
 
 #: faq_ipv4_only.html
 msgid "If you are not savvy with technology, here is more generic information:"
@@ -2126,14 +2146,14 @@ msgstr "本常见问题已经制成了尝试和处理浏览器附加组件导致
 
 #: simple_test.html
 msgid "This image based test is provided for those with browsers or browser plugins incompatible with the <a href=\"/\">main test</a>. This page provides only a subset of features, but should be enough for a simple pass/fail."
-msgstr ""
+msgstr "这个基于图像的测试是提供给浏览器或浏览器插件不兼容于<a href=\"/\">完整测试</a>的人的。本页面仅包含一部分功能，但是足够简单地判断正常/故障"
 
 #: faq_whyipv6.html
 msgid "Why IPv6?"
 msgstr "为什么要ipv6？"
 
 #: faq_whyipv6.html
-msgid "This is an interesting question. IPv6 buys you only a bit more than you already have today; and most of that is a promise. IPv6 will help you preserve the level of Internet connectivy between your home and other locations on the Internet, without interference, as you enjoyed in 2012."
+msgid "This is an interesting question. IPv6 buys you only a bit more than you already have today; and most of that is a promise. IPv6 will help you preserve the level of Internet connectivity between your home and other locations on the Internet, without interference, as you enjoyed in 2012."
 msgstr ""
 
 #: faq_whyipv6.html
@@ -2266,7 +2286,7 @@ msgstr "您的路由器：很有可能。许多家用路由器没有升级到IPv
 
 #: faq_whyipv6.html
 msgid "<b>What router to buy:</b> Wait until your ISP gives you guidance on what will work best with their system. If you must replace your router immediately, look for ones that are IPv6 capable. Apple Airport Express and Airport Extreme have built in tunneling capabilities. OpenWRT capable routers also do (when loaded with the OpenWRT firmware). If you do consider tunnels, see my <a href=\"#\" onclick=\"return help_page('faq_6to4.html','6to4')\">6to4 comments</a>."
-msgstr ""
+msgstr "<b>买什么样的路由器:</b>等待您的 ISP 给你指导怎么做最好。如果一定要立即更换您的路由器，寻找那些 IPv6 兼容的。苹果 Airport Express 和 Airport Extreme 具有内置的隧道功能，OpenWRT 兼容的路由器也可以，（当刷入 OpenWRT 固件时）。如果你确实考虑隧道，看我的 <a href=\"#\"onclick=\"return help_page('faq_6to4.html','6to4')\"> 6to4 评论</a>。"
 
 #: faq_pmtud.html
 msgid "This will attempt to explain why you may have PMTUD problems when using test-ipv6.com; and possible solutions. Unfortunately, it is beyond the ability of this site to be able to clearly articulate *your* specific problem."
@@ -2322,19 +2342,19 @@ msgstr ""
 
 #: faq_pmtud.html
 msgid "In the above case, the message is now so big, that it can't be forwarded. A \"Packet Too Big\" message will be sent by that router - but it only sees the IPv4 address; not your IPv6 address. Because of this, your computer will never retry with a smaller sized packet, one that might fit when using multiple envelopes."
-msgstr ""
+msgstr "在上述情况下，现在的消息太大了已经无法被转发了。一个“数据包太大”的消息会由路由器发送回来，但这上面只能看到你的IPv4地址，不是你的IPv6地址。因此，你的电脑根本不会重新尝试一个更小的，使用多重封装后可用的数据包。"
 
 #: faq_pmtud.html
 msgid "What does this look like on the network?"
-msgstr ""
+msgstr "这在网络上看起来像什么?"
 
 #: faq_pmtud.html
 msgid "(What does tcpdump show?)"
-msgstr ""
+msgstr "(tcpdump会显示什么？)"
 
 #: faq_pmtud.html
 msgid "This is what tcpdump will show.."
-msgstr ""
+msgstr "这就是tcpdump会显示的东西.."
 
 #: faq_pmtud.html
 msgid "This is what I ran to generate the packets."
@@ -2382,23 +2402,19 @@ msgstr "如果您在您的计算机而不是路由器上运行“6to4”："
 
 #: faq_pmtud.html
 msgid "Linux, BSD, and (presumably) Mac: Set your 6to4 interface to MTU 1280. If you are running radvd, set \"AdvLinkMTU 1280\" in your interface radvd.conf ."
-msgstr ""
+msgstr "Linux, BSD, 和 （可能） Mac:设置你的 6to4 接口的 MTU 为 1280。如果你在使用radvd，在你的接口的radvd.conf里添加 \"AdvLinkMTU 1280\""
 
 #: faq_pmtud.html
 msgid "Windows: If you figure this out, please share with jfesler@test-ipv6.com to add to this site. Presumably: control panel, network adapters, properties, 6"
-msgstr ""
+msgstr "Windows: 如果你清楚这一点，请分享给 jfesler@test-ipv6.com 以添加到本站。可能在: 控制面板-适配器设置-属性-IPv6"
 
 #: faq_pmtud.html
 msgid "<b>If you are not covered by the above, do a web search.</b>. As you learn what fixes your particular circumstances, please share with jfesler@test-ipv6.com to add to this site. Your contribution will be appreciated by others!"
 msgstr ""
 
 #: attributions.html
-msgid "<!-- <p><em>falling-sky</em> is also a reference to <a href=\"http://en.wikipedia.org/wiki/The_Sky_Is_Falling_(fable)\">the story of Chicken Little.</p> -->"
-msgstr ""
-
-#: attributions.html
 msgid "This site would not exist without the following components and resources."
-msgstr "本网站不存在下列组件或资源。"
+msgstr "没有下列组件或资源，本网站将不会存在。"
 
 #: faq_buggydns1.html
 msgid "FAQ on \"Buggy DNS\""
@@ -2425,8 +2441,8 @@ msgid "Your DNS server was confused by the result - it doesn't fully follow the 
 msgstr "您的DNS服务器被结果所迷惑 - 它未完全遵循DNS标准。"
 
 #: faq_buggydns1.html
-msgid "Your DNS server took the first peice of the IPV6 address, and memorized it as the IPv4 address."
-msgstr "您的DNS服务器采用了首先拿到的IPV6地址，并将它存储为IPv4地址。"
+msgid "Your DNS server took the first piece of the IPV6 address, and memorized it as the IPv4 address."
+msgstr ""
 
 #: faq_buggydns1.html
 msgid "The browser fails the IPv6 lookup, but \"succeeds\" in getting a bogus IPv4 address."
@@ -2481,8 +2497,8 @@ msgid "You can see an illustration of this, by doing:"
 msgstr "您可以看到一个例证，只需这样做："
 
 #: faq_buggydns1.html
-msgid "Substitute the 192.168.1.1 with the resolver being used by the host. If the \"aaaa\" answer comes back with no answer, but the \"a\" answer does, this is a confirmation of a broken DNS cache or forwarder. The actual DNS information for buggydns1.test-ipv6.com has only an IPv6 record configured."
-msgstr "用主机正在使用的解析器替换192.168.1.1。如果“aaaa”没有返回回答，但“a”返回了回答，就能确认这是一个故障的DNS缓存或转发。buggydns1.test-ipv6.com实际配置的DNS信息只有一个IPv6记录。"
+msgid "Substitute the 192.168.1.1 with the resolver being used by the host. If the \"aaaa\" request comes back with no answer, but the \"a\" answer does, this is a confirmation of a broken DNS cache or forwarder. The actual DNS information for buggydns1.test-ipv6.com has only an IPv6 record configured."
+msgstr ""
 
 #: faq_avoids_ipv6.html
 msgid "Your browser is avoiding IPv6."
@@ -2562,11 +2578,12 @@ msgstr "发生的事情见这里：<b>许多</b>房屋共享一个公网地址�
 
 #: faq_avoids_ipv6.html
 msgid "What happens if one of those homes has a bored hacker, or (more likely) a compromised machine owned by someone who doesn't stay up to date, and doesn't run antivirus software? What happens when that machine starts to attack your favorite web sites? What about your banking site?"
-msgstr ""
+msgstr "如果那些房屋中有一个无聊的黑客，或者 （更有可能） 有易受攻击的计算机，不保持更新，不运行防病毒软件，会发生什么？当那台机器开始攻击你最喜欢的互联网站点时，会发生什么？你的银行网站怎么样？"
 
 #: faq_avoids_ipv6.html
 msgid "Those sites will have to ultimately protect themselves, by blocking the traffic. Unfortuantely, they only see the shared address, so their blocking it looks like this:"
-msgstr ""
+msgstr "这些网站会通过屏蔽流量，尽可能地保护自己。\n"
+"不幸的是，他们只能看到共享的地址，所以他们会像这样屏蔽："
 
 #: faq_avoids_ipv6.html
 msgid "This is not a good situation. And the main way to avoid it, is to make sure that your IPv6 is working; and to make sure that IPv6 is the preferred protocol."

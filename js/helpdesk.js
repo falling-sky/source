@@ -126,7 +126,7 @@ GIGO.helpdesk_ipv4_info = function () {
     if ((test_a.ipinfo) && (test_a.ipinfo.ip)) {
         s = "IPv4: ";
         s = s + GIGO.helpdesk_good_bad_slow(["test_a", "test_ds4", "test_ipv4"]);
-        if (test_asn4.ipinfo && test_asn4.ipinfo.asn) {
+        if (test_asn4 && test_asn4.ipinfo && test_asn4.ipinfo.asn) {
             s = s + ", AS" + test_asn4.ipinfo.asn + " - ";
             s = s + test_asn4.ipinfo.asn_name;
         }
@@ -154,7 +154,7 @@ GIGO.helpdesk_ipv6_info = function () {
     if ((test_aaaa.ipinfo) && (test_aaaa.ipinfo.ip)) {
         s = "IPv6: ";
         s = s + GIGO.helpdesk_good_bad_slow(["test_aaaa", "test_ds6", "test_ipv6", "test_v6mtu"]);
-        if (test_asn6.ipinfo && test_asn6.ipinfo.asn) {
+        if (test_asn6 && test_asn6.ipinfo && test_asn6.ipinfo.asn) {
             s = s + ", AS" + test_asn6.ipinfo.asn + " - ";
             s = s + test_asn6.ipinfo.asn_name;
         }

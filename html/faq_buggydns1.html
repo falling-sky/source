@@ -11,7 +11,7 @@
     <li>[% "Your browser asked for a DNS lookup, both IPv4 and IPv6." | i18n %]</li>
     <li>[% "The IPv6 response was returned first." | i18n %]</li>
     <li>[% "Your DNS server was confused by the result - it doesn't fully follow the DNS standards." | i18n %]</li>
-    <li>[% "Your DNS server took the first peice of the IPV6 address, and memorized it as the IPv4 address." | i18n %]</li>
+    <li>[% "Your DNS server took the first piece of the IPV6 address, and memorized it as the IPv4 address." | i18n %]</li>
     <li>[% "The browser fails the IPv6 lookup, but \"succeeds\" in getting a bogus IPv4 address." | i18n %]</li>
     <li>[% "It then tries to make a connecting, to the wrong address, with the wrong protocol." | i18n %]</li>
 </ul>
@@ -43,7 +43,7 @@ dig aaaa buggydns1.test-ipv6.com  @192.168.1.1
 dig a buggydns1.test-ipv6.com @192.168.1.1
 </code></pre>
 
-<p>[% " Substitute the 192.168.1.1 with the resolver being used by the host. If the \"aaaa\" answer comes back with no answer, but the \"a\" answer does, this is a confirmation of a broken DNS cache or forwarder.  The actual DNS information for buggydns1.test-ipv6.com has only an IPv6 record configured. " | i18n %]</p>
+<p>[% " Substitute the 192.168.1.1 with the resolver being used by the host. If the \"aaaa\" request comes back with no answer, but the \"a\" answer does, this is a confirmation of a broken DNS cache or forwarder.  The actual DNS information for buggydns1.test-ipv6.com has only an IPv6 record configured. " | i18n %]</p>
 
 
 

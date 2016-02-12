@@ -586,8 +586,19 @@ GIGO.restart_tests = function () {
 
 
 GIGO.setup_tests = function () {
-    GIGO.queue.push(["test_type_json_only", GIGO.options.url.test_asn4, "test_asn4"]);
-    GIGO.queue.push(["test_type_json_only", GIGO.options.url.test_asn6, "test_asn6"]);
+
+    asn_lookup_broken = 0
+    if (asn_lookup_broken) {
+      jQuery('#sum_test_asn4').parent().parent().hide();
+      jQuery('#sum_test_asn6').parent().parent().hide();
+      jQuery('#test_asn4').parent().parent().hide();
+      jQuery('#test_asn6').parent().parent().hide();
+    } else {
+      GIGO.queue.push(["test_type_json_only", GIGO.options.url.test_asn4, "test_asn4"]);
+      GIGO.queue.push(["test_type_json_only", GIGO.options.url.test_asn6, "test_asn6"]);
+    }
+
+
     GIGO.queue.push(["test_type_json", GIGO.options.url.test_a, "test_a"]);
     GIGO.queue.push(["test_type_json", GIGO.options.url.test_aaaa, "test_aaaa"]);
     GIGO.queue.push(["test_type_json", GIGO.options.url.test_ds, "test_ds"]);
@@ -642,6 +653,8 @@ GIGO.set_default_options = function (options) {
     options.url.test_dsmtu = "http://ds." + options.subdomain + options.uri + "&size=1600&fill=" + GIGO.fill(1600, "x");
     options.url.test_buggydns1 = "http://buggydns1." + options.subdomain + options.uri;
 
+
+    // ASN lookups are corrently broken.
     options.url.test_asn4 = "http://ipv4." + options.subdomain + options.uri + "&asn=1";
     options.url.test_asn6 = "http://ipv6." + options.subdomain + options.uri + "&asn=1";
 
