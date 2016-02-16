@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2016-02-11 22:06-0500\n"
+"PO-Revision-Date: 2016-02-15 08:15-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Swedish\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -1054,15 +1054,15 @@ msgstr "Generiska UNIX-instruktioner för att avgöra din IPv6-adress och standa
 
 #: faq/find_ip.inc
 msgid "Run"
-msgstr ""
+msgstr "Kör"
 
 #: faq/find_ip.inc
 msgid "and look for <code>inet6</code> to see your possible IPv6 addresses."
-msgstr ""
+msgstr "och leta efter <code>inet6</code> för att se dina möjliga IPv6-adresser."
 
 #: faq/find_ip.inc
 msgid "and look for <code>inet6</code> or <code>Internet6</code> or similiar to find the IPv6 portion; thenm look for <code>default</code> or <code>::</code> or <code>::/0</code>."
-msgstr ""
+msgstr "och leta efter <code>inet6</code> eller <code>Internet6</code> eller liknande för att hitta IPv6-delen; leta sedan efter <code>standard</code> eller <code>::</code> eller <code>:: /0</code>."
 
 #: faq/find_ip.inc
 msgid "Windows users: To find your IP address using cmd.exe:"
@@ -1274,7 +1274,7 @@ msgstr "Om det misslyckas, inaktivera IPv6 helt på routern."
 
 #: faq/broken_bogon.inc
 msgid "or"
-msgstr ""
+msgstr "eller"
 
 #: faq/broken_bogon.inc
 msgid "This is a router using 6to4, but using a private IPv4 address. This will never work."
