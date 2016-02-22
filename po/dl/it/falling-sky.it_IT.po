@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2016-02-15 08:15-0500\n"
+"PO-Revision-Date: 2016-02-22 14:15-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Italian\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -150,11 +150,11 @@ msgstr "Una risoluzione per un nome IPv6-only è fallita; ma il lookup e la tecn
 
 #: messages.js
 msgid "A lookup for an IPv6-only name failed; yet the lookup and connect for dual-stack connected via IPv6. The IPv6-only lookup should have worked. Apple has a bug that sporadically causes some IPv6 lookups to fail. We saw evidence of it on this test. You can reload the page and try the test again. For more details, see <a href='http://openradar.appspot.com/7333104'>http://openradar.appspot.com/7333104</a>."
-msgstr ""
+msgstr "Una risoluzione per un nome IPv6-only è fallita; tuttavia una risoluzione con successiva connessione a un sito dual-stack ha usato IPv6. La risoluzione per il nome IPv6-only avrebbe dovuto funzionare. Apple ha un bug che sporadicamente causa alcuni problemi di risoluzione per gli indirizzi IPv6. Ne abbiamo avuto la prova in questo test. Puoi ricaricare la pagina e riprovare il test di nuovo. Per ulteriori dettagli vedi <a href=\"http://openradar.appspot.com/7333104\">http://openradar.appspot.com/7333104</a>."
 
 #: messages.js
 msgid "A lookup for an dual-stack IPv4 and IPv6 name failed (at minimum it should have connected via IPv4). Apple has a bug that sporadically causes some IPv6 lookups to fail. We saw evidence of it on this test. You can reload the page and try the test again. For more details, see <a href='http://openradar.appspot.com/7333104'>http://openradar.appspot.com/7333104</a>."
-msgstr ""
+msgstr "Una risoluzione per un nome dual-stack Ipv4 e IPv6 è fallita (avrebbe dovuto funzionare almeno per l'IPv4). Apple ha un bug che sporadicamente causa alcuni problemi di risoluzione per gli indirizzi IPv6. Questo test ne p la prova. Puoi ricaricare la pagina e riprovare il test. Per ulteriori dettagli visita <a href=\"http://openradar.appspot.com/7333104\">http://openradar.appspot.com/7333104</a>."
 
 #: messages.js
 msgid "No IPv4 address detected"
@@ -1275,7 +1275,7 @@ msgstr "Se non risolvi il problema, disabilita completamente IPv6 sul router."
 
 #: faq/broken_bogon.inc
 msgid "or"
-msgstr ""
+msgstr "o"
 
 #: faq/broken_bogon.inc
 msgid "This is a router using 6to4, but using a private IPv4 address. This will never work."
@@ -1603,7 +1603,7 @@ msgstr "Si. Guarda <a href=\"source.html\">questa pagina</a> per i dettagli."
 
 #: stats.html
 msgid "<span lookup=site.name>site</span> statistics"
-msgstr "statistiche del <span lookup=site.name>sito</span>"
+msgstr "statistiche di <span lookup=site.name>site</span>"
 
 #: stats.html
 msgid "Graphs are updated daily."
@@ -1627,31 +1627,31 @@ msgstr "Browser Filter indica che entrambi i test \"A\" e \"AAAA\" sono falliti.
 
 #: stats.html
 msgid "Brokeness goes down, when volume goes up. This is due to having a wider sample of average people (versus people explicitly testing a new IPv6 setup)."
-msgstr ""
+msgstr "La percentuale di malfunzionamenti diminuisce al crescere del numero degli utenti. Questo perché sia ha un campione più ampio dell'utente tipo (rispetto alle persone che stanno controllando esplicitamente una nuova configurazione IPv6)."
 
 #: stats.html
 msgid "These graphs show the last 60 days of activity at <span lookup=site.name>site</span>"
-msgstr ""
+msgstr "Questi grafici mostrano gli ultimi 60 giorni di attività su <span lookup=site.name>site</span>"
 
 #: stats.html
 msgid "Graph: shows result summaries, stacked. Total height shows number of users who took the test on a given day."
-msgstr ""
+msgstr "Grafico che mostra i risultati dei test, impilati. L'altezza totale indica il numero di utenti che hanno effettuato un test in un dato giorno."
 
 #: stats.html
 msgid "Similiar graph, except this time showing percentages."
-msgstr ""
+msgstr "Grafico simile al precedente, eccetto che vengono visualizzate le percentuali."
 
 #: stats.html
 msgid "The most interesting graph is the percentage of \"broken\" users. Our definition of a \"broken\" user is that the browser stalls or times out, while attempting to visit a web site published on both IPv4 and IPv6."
-msgstr ""
+msgstr "Il grafico più interessante è questo che mostra la percentuale di utenti con malfunzionamenti. La definizione di \"utente con malfunzionamento\" è che il browser si blocca o va in timeout mentre cerca di aprire un sito pubblicato sia con IPv4 che con IPv6."
 
 #: stats.html
 msgid "Line graph, not stacked, of results over time."
-msgstr ""
+msgstr "Grafico a linee, non impilate, dei risultati nel tempo."
 
 #: stats.html
 msgid "These graphs show the last 600 days of activity at <span lookup=site.name>site</span>"
-msgstr ""
+msgstr "Questi grafici mostrano gli ultimi 600 giorni di attività su <span lookup=site.name>site</span>"
 
 #: mission.html
 msgid "test-ipv6.com - Our mission"
@@ -1935,7 +1935,7 @@ msgstr "<b>Se credi fermamente di avere IPv6 ma non siamo stati in grado di rile
 
 #: faq_teredo_minimum.html
 msgid "More about your test results."
-msgstr ""
+msgstr "Ulteriori informazioni sui risultati del test."
 
 #: faq/teredo_iponly.inc
 msgid "You also appear to have Teredo enabled. You did successfully connect to an IPv6 site during this test - but only when forcing the connection by connecting to an IPv6 numeric address, instead of a web site name. This setting will not help or hurt you going forward to reach IPv6 web sites."
