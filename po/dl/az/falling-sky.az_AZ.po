@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2016-02-27 08:00-0500\n"
+"PO-Revision-Date: 2016-02-28 11:15-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Azerbaijani\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -14,7 +14,7 @@ msgstr ""
 
 #: mirrorconfig.js
 msgid "This mirror is provided by"
-msgstr "Proyektin təkrarı təmin edilib:"
+msgstr "Proyektin təkrar keçidini təmin edib"
 
 #: messages.js
 msgid "bad"
@@ -286,7 +286,7 @@ msgstr "[daha ətraflı]"
 
 #: builtin.js
 msgid "Your IPv4 address on the public Internet appears to be"
-msgstr "Görünür sizin IPv4 ünvan internetdə"
+msgstr "Sizin internetdəki IPv4 ünvanınız"
 
 #: builtin.js
 msgid "Proxied"
@@ -294,7 +294,7 @@ msgstr "Proksiləşdirilib"
 
 #: builtin.js
 msgid "Your IPv6 address on the public Internet appears to be"
-msgstr "Görünür sizin IPv6 ünvan internetdə"
+msgstr "Sizin internetdəki İPv6 ünvanınız"
 
 #: builtin.js
 msgid "Your IPv6 service appears to be"
@@ -318,7 +318,7 @@ msgstr "istifadə olunur"
 
 #: builtin.js
 msgid "tests run"
-msgstr "testləri başla"
+msgstr "testlər icra olunur"
 
 #: builtin.js
 msgid "(Survey posting skipped; test was rigged)"
@@ -338,7 +338,7 @@ msgstr ""
 
 #: builtin.js
 msgid "Your readiness score"
-msgstr "Sizin hazırlıq xalınız"
+msgstr "Sizin hazırlıq balınız"
 
 #: builtin.js
 msgid "for your IPv4 stability and readiness, when publishers offer both IPv4 and IPv6"
@@ -350,7 +350,7 @@ msgstr "İPv6 stabilliliyi və hazırlığı ancaq İPv6 şəbəkəsi olduğu ha
 
 #: builtin.js
 msgid "Click to see"
-msgstr "Baxmaq üçün klikləyin"
+msgstr "Baxmaq"
 
 #: builtin.js
 msgid "test data"
@@ -410,15 +410,15 @@ msgstr ""
 
 #: checkresults.js
 msgid "unknown result code"
-msgstr ""
+msgstr "bilinməyən nəticə kodu"
 
 #: symptoms.js
 msgid "Your browser blocked"
-msgstr ""
+msgstr "Sizin brauzer əngəllənib"
 
 #: helpdesk.js
 msgid "Your Internet help desk may ask you for the information below."
-msgstr ""
+msgstr "İnternet Texniki dəstəyiniz sizdən aşağıdakı məlumatları istəyə bilər."
 
 #: header.inc
 msgid "Test your IPv6."
@@ -466,7 +466,7 @@ msgstr ""
 
 #: js_required.inc
 msgid "Do you use NoScript?"
-msgstr ""
+msgstr "NoScript istifadə edirsiniz?"
 
 #: js_required.inc
 msgid "If you use this Firefox add-on, you'll need to \"Temporarily allow all this page\". You will need to do this <b>twice</b> for everything to work. Alternately, disable NoScript entirely until you are done with this site."
@@ -486,7 +486,7 @@ msgstr "Nəticə"
 
 #: main/tabnav.inc
 msgid "Tests Run"
-msgstr "Tesləri Başla"
+msgstr "Nəticələr"
 
 #: main/tabnav.inc
 msgid "Share Results / Contact"
@@ -514,7 +514,7 @@ msgstr "Bu test necə çalışır:"
 
 #: main/tests.inc
 msgid "Your browser will be instructed to reach a series of URLs. The combination of successes and failures tells a story about how ready you are for when publishers start offering their web sites on IPv6."
-msgstr ""
+msgstr "Sizin brauzerinizdə bir neçə URL keçid icra olunacaqdır. Müvəffəqiyyətli və uğursuz olan keçidlərin hesabatına əsasən sizin İPv6 şəbəkəsinə hazırlığınız bildiriləcək."
 
 #: main/tests.inc
 msgid "Technical Info"
@@ -522,7 +522,7 @@ msgstr "Texniki Məlumat"
 
 #: main/tests.inc
 msgid "Test with IPv4 DNS record"
-msgstr "İPv4 DNS yazı testi"
+msgstr "İPv4 DNS testi"
 
 #: main/tests.inc
 msgid "pending"
@@ -530,43 +530,43 @@ msgstr "gözləyir"
 
 #: main/tests.inc
 msgid "Test with IPv6 DNS record"
-msgstr ""
+msgstr "İPv6 DNS testi"
 
 #: main/tests.inc
 msgid "Test with Dual Stack DNS record"
-msgstr ""
+msgstr "Dual Stack DNS testi"
 
 #: main/tests.inc
 msgid "Test for Dual Stack DNS and large packet"
-msgstr ""
+msgstr "Dual Stack DNS və böyük paket testi"
 
 #: main/tests.inc
 msgid "Test IPv4 without DNS"
-msgstr ""
+msgstr "DNS olmadan İPv4 test"
 
 #: main/tests.inc
 msgid "Test IPv6 without DNS"
-msgstr ""
+msgstr "DNS olmadan İPv6 test"
 
 #: main/tests.inc
 msgid "Test IPv6 large packet"
-msgstr ""
+msgstr "İPv6 böyük paket testi"
 
 #: main/tests.inc
 msgid "Test if your ISP's DNS server uses IPv6"
-msgstr ""
+msgstr "İSP-in DNS xidmətinin İPv6 dəstəkləməsi testi"
 
 #: main/tests.inc
 msgid "Find IPv4 Service Provider"
-msgstr ""
+msgstr "İPv4 Servis Provayderi"
 
 #: main/tests.inc
 msgid "Find IPv6 Service Provider"
-msgstr ""
+msgstr "İPv6 Servis Provayderi"
 
 #: main/tests.inc
 msgid "Test for buggy DNS"
-msgstr ""
+msgstr "Buggy DNS testi"
 
 #: main/tech.inc
 msgid "Fetches an object that has just an A record in DNS. This is expected to use IPv4. IPv6-only users might still reach this, if their provider has employed a NAT64/DNS64 or proxy solution."
@@ -650,31 +650,31 @@ msgstr ""
 
 #: main/mail.inc
 msgid "<span id=\"comments_faq_link\"></span> (FAQ) page is available for <b>your</b> exact set of results. Please read it before leaving comments; many questions have already been answered. If you still have questions, comments, or concerns, feel freel to use this form."
-msgstr ""
+msgstr "<span id=\"comments_faq_link\"></span> (MVS) səhifələri <b>sizin</b> test məlumatları barədə oxumağınız üçündür. Zəhmət olmasa şərhlərinizi yazmazdan əvvəl həmin səhifəni oxuyun, bir çox suallar orada cavablandırılıb. Əgər sizin əlavə sualınız, qeydiniz və ya şikayətiniz varsa bu formadan istifadə edərək bizə yaza bilərsiniz."
 
 #: main/mail-language.inc
 msgid "Please leave your comments using English, if possible."
-msgstr ""
+msgstr "Zəhmət olmasa şərhlərinizi ingiliscə yazın."
 
 #: main/mail.inc
 msgid "If reporting a problem with the test, or requesting help with your results, please fill out all requested information to the best of your ability. If leaving general comments, use your best judgement on how much to report."
-msgstr ""
+msgstr "Əgər sizin test ilə probleminiz varsa və ya nəticələriniz ilə bağlı sualınız yaranarsa zəhmət olmasa tələb olunan məlumatları tam şəkildə göndərin. Ümumi şərhlər yazan zaman test hesabatının yalnız vacib olan hissələrini qeyddə göstərin."
 
 #: main/mail.inc
 msgid "Thanks,"
-msgstr "Çox sağol,"
+msgstr "Təşəkkürlər,"
 
 #: main/mail.inc
 msgid "Purpose for comment"
-msgstr ""
+msgstr "Məqsədiniz"
 
 #: main/mail.inc
 msgid "Questions about test results"
-msgstr ""
+msgstr "Test nəticələri barədə suallar"
 
 #: main/mail.inc
 msgid "Report a bug with diagnosis"
-msgstr ""
+msgstr "Sistemdəki xəta barədə məlumat ver"
 
 #: main/mail.inc
 msgid "Suggestion"
@@ -682,15 +682,15 @@ msgstr "Təklif"
 
 #: main/mail.inc
 msgid "Cheers or Jeers"
-msgstr ""
+msgstr "Alqış və ya Şikayətlər"
 
 #: main/mail.inc
 msgid "Email address if you'll permit me to contact you. <i>Required, if you wish a response.</i>"
-msgstr ""
+msgstr "Sizinlə əks əlaqə yaratmaq üçün E-poçt ünvanınız. <i>Əks cavab istəyirsinizsə daxil etməlisiniz.</i>"
 
 #: main/mail.inc
 msgid "Any information you think I might find useful (what router you're using, or a firewall in the way, or type of proxy you use, etc). This includes general feedback."
-msgstr ""
+msgstr "İstənilən lazımlı hesab etdiyiniz məlumat (hansı router, firewall, proksi və digər şəbəkə avadanlığından və ya proqramından istifadə edirsiniz.)."
 
 #: main/mail.inc
 msgid "The javascript based test appears to have failed. This may be browser plugin or extension related. Please indicate what browser plugins and extenions you have enabled in this browser."
@@ -702,11 +702,11 @@ msgstr ""
 
 #: main/mail.inc
 msgid "Copy the output from those commands, into the box below. This will help me confirm/deny any theories relating to your question."
-msgstr ""
+msgstr "Bu komandaların nəticələrini aşağıdakı bölməyə kopyalayın. Bu mənə sizin sualınız ilə əlaqəli fikir söyləməyə kömək edəcəkdir."
 
 #: main/mail.inc
 msgid "If you are technically minded, please open a \"Command Prompt\" or \"cmd\" window, and run these three commands:"
-msgstr ""
+msgstr "Əgər texniki biliyiniz varsa zəhmət olmasa \"Command Prompt\" və ya \"cmd\" pəncərəsiniz açıb aşağıdakı üç komandanı icra edin:"
 
 #: main/mail.inc
 msgid "Send results"
@@ -794,7 +794,7 @@ msgstr "Texniki Dəstək Məlumatı"
 
 #: faq_helpdesk.html
 msgid "Q: What is the Help Desk tab for?"
-msgstr ""
+msgstr "Sual: Texniki Dəstək sütunu nə üçündür?"
 
 #: faq_helpdesk.html
 msgid "This tab is intended to help provide a brief, concise explanation of your connectivity. This can be read over the phone, if needed, to a service provider. This tab has less hand-holding; it is intended for a help desk to understand (as compared to an end user)."
@@ -806,11 +806,11 @@ msgstr ""
 
 #: faq_helpdesk.html
 msgid "Status of each protocol"
-msgstr ""
+msgstr "Hər bir protokolun vəziyyəti"
 
 #: faq_helpdesk.html
 msgid "Warn of slow/timeout"
-msgstr ""
+msgstr "Ləng/vaxt bitmə xəbərdarlığı"
 
 #: faq_helpdesk.html
 msgid "Warn of MTU"
@@ -842,7 +842,7 @@ msgstr ""
 
 #: faq_helpdesk.html
 msgid "Q: What are the Help Desk codes?"
-msgstr ""
+msgstr "Sual: Texniki Dəstək kodları nədir?"
 
 #: faq_helpdesk.html
 msgid "These are meant to offer a quick, short way for your customer to tell you the status of their Internet connectivity, as validated by this site. They are also meant to be easy to memorize."
@@ -958,7 +958,7 @@ msgstr ""
 
 #: faq/staycurrent.inc
 msgid "Opera: Make sure you use at least 11.10."
-msgstr ""
+msgstr "Opera: Minimum 11.10 versiya işlətdiyinizdən əmin olun."
 
 #: broken.html
 msgid "Finding your IP address"
@@ -1046,11 +1046,11 @@ msgstr ""
 
 #: faq/find_ip.inc
 msgid "Linux users: To find your IPv6 route, use:"
-msgstr ""
+msgstr "Linuks istifadəçiləri: İPv6 marşrutunuzu tapmaq üçün, istifadə edin:"
 
 #: faq/find_ip.inc
 msgid "Generic unix instructions for determining your IPv6 address and default route:"
-msgstr ""
+msgstr "İPv6 ünvan və susmaya görə marşrutu tapmaq üçün ümumi unix təlimatı:"
 
 #: faq/find_ip.inc
 msgid "Run"
@@ -1166,7 +1166,7 @@ msgstr ""
 
 #: broken.html
 msgid "If you set up 6to4"
-msgstr ""
+msgstr "Əgər siz 6to4 etmisinizsə"
 
 #: broken.html
 msgid "(IPv6 address: starts with 2002)"
@@ -1226,7 +1226,7 @@ msgstr ""
 
 #: broken.html
 msgid "If you have an ULA"
-msgstr ""
+msgstr "Əgər sizdə ULA varsa"
 
 #: broken.html
 msgid "(IPv6 address: starts with FC or FD)"
@@ -1250,7 +1250,7 @@ msgstr ""
 
 #: broken.html
 msgid "(IPv6 address: see table below)"
-msgstr ""
+msgstr "(İPv6 ünvan: aşağıdakı cədvələ bax)"
 
 #: faq/broken_bogon.inc
 msgid "Bad or Inappropriate IPv6 Addresses (Bogons)"
@@ -1262,7 +1262,7 @@ msgstr ""
 
 #: faq/broken_bogon.inc
 msgid "disable ULA."
-msgstr ""
+msgstr "ULA-nı deaktiv et."
 
 #: faq/broken_bogon.inc
 msgid "Other routers: Try updating the firmware. If that fails, look for and disable \"ULA\" or \"Unique Local Addressing\"."
@@ -1378,11 +1378,11 @@ msgstr "\"ok\" düyməsini vurun"
 
 #: faq/broken_disable.inc
 msgid "Shutdown/reboot."
-msgstr ""
+msgstr "Söndür/yenidən başlat."
 
 #: faq/broken_disable.inc
 msgid "To disable IPv6 in Windows XP:"
-msgstr ""
+msgstr "Windows XP-də İPv6-nı deaktiv etmək üçün:"
 
 #: faq/broken_disable.inc
 msgid "Taken from:"
@@ -1414,7 +1414,7 @@ msgstr ""
 
 #: faq/broken_disable.inc
 msgid "How to disable IPv6"
-msgstr ""
+msgstr "İPv6-nı necə deaktiv etmək olar"
 
 #: faq/broken_disable.inc
 msgid "Disable IPv6"
@@ -1466,7 +1466,7 @@ msgstr "Həmçinin bax"
 
 #: broken.html
 msgid "Other resources that may help"
-msgstr ""
+msgstr "Digər resurslar yardım edə bilər"
 
 #: faq_disable.html
 msgid "Disabling IPv6 is the least preferred option. For some people, however, it may be your only option. This may be due to equipment limitations, or in limitations in technical support."
@@ -1498,7 +1498,7 @@ msgstr ""
 
 #: faq.html
 msgid "Q: How do I test my IPv6-only host"
-msgstr ""
+msgstr "Sual: Ancaq İPv6 olan hostumu necə test edim"
 
 #: faq.html
 msgid "If you ask that question, chances are you don't need this site. However, if you really want to, visit <a href= \"http://ipv6.test-ipv6.com\">http://ipv6.test-ipv6.com</a> with your IPv6-only host."
@@ -1562,7 +1562,7 @@ msgstr "ipv4 üçün"
 
 #: faq.html
 msgid "for ipv6"
-msgstr ""
+msgstr "ipv6 üçün"
 
 #: faq.html
 msgid "for either"
@@ -1602,7 +1602,7 @@ msgstr "Bəli. Ətraflı məlumat üçün <a href=\"source.html\">bura</a> toxun
 
 #: stats.html
 msgid "<span lookup=site.name>site</span> statistics"
-msgstr ""
+msgstr "<span lookup=site.name>site</span> statistikası"
 
 #: stats.html
 msgid "Graphs are updated daily."
@@ -1618,7 +1618,7 @@ msgstr "600 günlük baxış"
 
 #: stats.html
 msgid "Quick notes:"
-msgstr ""
+msgstr "Qeydlər:"
 
 #: stats.html
 msgid "Browser Filter means that both the \"A\" and \"AAAA\" test failed. Browser (plugin/filter) shenanigans, likely with add-ons like ad blockers."
@@ -1630,7 +1630,7 @@ msgstr ""
 
 #: stats.html
 msgid "These graphs show the last 60 days of activity at <span lookup=site.name>site</span>"
-msgstr ""
+msgstr "<span lookup=site.name>site</span> üçün son 60 günlük aktivlik qrafiki"
 
 #: stats.html
 msgid "Graph: shows result summaries, stacked. Total height shows number of users who took the test on a given day."
@@ -1650,7 +1650,7 @@ msgstr ""
 
 #: stats.html
 msgid "These graphs show the last 600 days of activity at <span lookup=site.name>site</span>"
-msgstr ""
+msgstr "<span lookup=site.name>site</span> üçün son 600 günlük aktivlik qrafiki"
 
 #: mission.html
 msgid "test-ipv6.com - Our mission"
@@ -1658,7 +1658,7 @@ msgstr ""
 
 #: mission.html
 msgid "Our mission is thus:"
-msgstr ""
+msgstr "Bizim missiyamız:"
 
 #: mission.html
 msgid "Help people identify if they will have problems when publishers offer their web sites on IPv6;"
@@ -1674,7 +1674,7 @@ msgstr ""
 
 #: mission.html
 msgid "Why do we do this?"
-msgstr ""
+msgstr "Biz niyə bunu edirik?"
 
 #: mission.html
 msgid "Because of 1 out of every 4000 users are \"broken\" based on industry measurements. This has delayed the web sites from publishing to IPv6."
@@ -1718,7 +1718,7 @@ msgstr ""
 
 #: mirrors.html
 msgid "test-ipv6.com mirrors"
-msgstr ""
+msgstr "test-ipv6.com təkrar keçidləri"
 
 #: mirrors.html
 msgid "These are the known publicly accessible mirrors for test-ipv6.com."
@@ -1734,7 +1734,7 @@ msgstr ""
 
 #: mirrors.html
 msgid "(generated by javascript)"
-msgstr ""
+msgstr "(javascript tərəfindən generasiya olunub)"
 
 #: mirrors.html
 msgid "Interested in running a mirror?"
@@ -1858,7 +1858,7 @@ msgstr "Sizin ancaq İPv4 internet xidmətiniz barədə."
 
 #: faq_ipv4_only.html
 msgid "This FAQ has been produced to try and address the questions of IPv4 only users"
-msgstr ""
+msgstr "Bu MVS ancaq İPv4 istifadəçilərinin suallarını cavablamaq üçündür"
 
 #: faq/dontfeelbad.inc
 msgid "It looks like you have only IPv4 Internet service at this time. Don't feel bad - most people are in this position right now. Most Internet service providers are not quite yet ready to provide IPv6 Internet to residential customers."
@@ -1934,7 +1934,7 @@ msgstr ""
 
 #: faq_teredo_minimum.html
 msgid "More about your test results."
-msgstr ""
+msgstr "Sizin test nəticələriniz barədə daha ətraflı."
 
 #: faq/teredo_iponly.inc
 msgid "You also appear to have Teredo enabled. You did successfully connect to an IPv6 site during this test - but only when forcing the connection by connecting to an IPv6 numeric address, instead of a web site name. This setting will not help or hurt you going forward to reach IPv6 web sites."
@@ -2070,7 +2070,7 @@ msgstr ""
 
 #: faq_firefox_plugins.html
 msgid "FAQ on Firefox Plugins"
-msgstr ""
+msgstr "Firefox Əlavələri üçün MVS"
 
 #: faq_firefox_plugins.html
 msgid "This FAQ has been produced to try and address issues caused when using Firefox"
@@ -2090,7 +2090,7 @@ msgstr ""
 
 #: faq_firefox_plugins.html
 msgid "Alternative test for you.."
-msgstr ""
+msgstr "Sizin üçün alternativ test.."
 
 #: faq_firefox_plugins.html
 msgid "This image based test is provided as a workaround. It will give you a quick pass/fail test, to tell you if you should be worried for World IPv6 Day."
@@ -2118,7 +2118,7 @@ msgstr "Ətraflı məlumat"
 
 #: faq/simple_test.inc
 msgid "IPv4. Basic traditional Internet."
-msgstr ""
+msgstr "İPv4. Ümumişlək internet xidməti."
 
 #: faq/simple_test.inc
 msgid "If green, you will have no problem on World IPv6 day."
@@ -2250,7 +2250,7 @@ msgstr ""
 
 #: faq_whyipv6.html
 msgid "Q: Will I have to replace my OS?"
-msgstr ""
+msgstr "Sual: Əməliyyat Sistemimi dəyişdirməliyəm?"
 
 #: faq_whyipv6.html
 msgid "Windows Vista, Windows 7: You're good to go. XP users: It can be made to work, but it really is time to consider upgrading. Win98 and Win2000 users have no path to IPv6."
@@ -2266,7 +2266,7 @@ msgstr ""
 
 #: faq_whyipv6.html
 msgid "Q: Will I have to replace my hardware?"
-msgstr ""
+msgstr "Sual: Avadanlığımı dəyişdirməliyəm?"
 
 #: faq_whyipv6.html
 msgid "Your PC: Only if the OS upgrade you do requires it."
@@ -2474,7 +2474,7 @@ msgstr ""
 
 #: faq_buggydns1.html
 msgid "With Windows, at the <code>cmd</code> prompt, you can type <code>ipconfig /all</code>. Look for \"<code>DNS Servers</code>\"."
-msgstr ""
+msgstr "Windows-da <code>cmd</code>-ya daxil olaraq <code>ipconfig /all</code> komandasını icra edib \"<code>DNS Serverlərə</code>\" baxa bilərsiniz."
 
 #: faq_buggydns1.html
 msgid "With Linux, BSD, and Mac OS X, you can do this in a terminal: <code>cat /etc/resolv.conf</code>."
@@ -2506,7 +2506,7 @@ msgstr ""
 
 #: faq_avoids_ipv6.html
 msgid "What we found"
-msgstr ""
+msgstr "Biz tapdıq"
 
 #: faq_avoids_ipv6.html
 msgid "What causes a preference for IPv4"
@@ -2514,7 +2514,7 @@ msgstr ""
 
 #: faq_avoids_ipv6.html
 msgid "Why this worries us"
-msgstr ""
+msgstr "Bu niyə bizi narahat edir"
 
 #: faq_avoids_ipv6.html
 msgid "This document explains why we worry when IPv4 is preferred over IPv6."
@@ -2610,7 +2610,7 @@ msgstr ""
 
 #: tunnel.inc
 msgid "What is a tunnel?"
-msgstr ""
+msgstr "Tunel nədir?"
 
 #: tunnel.inc
 msgid "A tunnel is a technique often used to transport one protocol over another one. For example, it is used by ADSL to transport PPP over ATM (a common technique for several Internet residential subscribers)."
