@@ -196,16 +196,6 @@
       "v4" : "http://ipv4.test-ipv6.carnet.hr/images-nc/knob_green.png",
       "v6" : "http://ipv6.test-ipv6.carnet.hr/images-nc/knob_green.png"
    },
-   "test-ipv6.ceengine.eu" : {
-      "hide" : "0",
-      "loc" : "RO",
-      "mirror" : "1",
-      "monitor" : "NOC @ CEENGINE <valeriu@roedu.net>",
-      "provider" : "Central and Eastern European Networking Engine",
-      "site" : "test-ipv6.ceengine.eu",
-      "v4" : "http://ipv4.test-ipv6.ceengine.eu/images-nc/knob_green.png",
-      "v6" : "http://ipv6.test-ipv6.ceengine.eu/images-nc/knob_green.png"
-   },
    "test-ipv6.chi.vr.org" : {
       "hide" : "0",
       "loc" : "US IL",
@@ -498,15 +488,6 @@
       "v4" : "http://ipv4.duiadns.net/1x1.gif",
       "v6" : "http://ipv6.duiadns.net/1x1.gif"
    },
-   "www.excathedra.co" : {
-      "hide" : "0",
-      "loc" : "UK",
-      "monitor" : "Steve Durbin <steved@excathedra.co>",
-      "provider" : "Ex Cathedra Photography",
-      "site" : "www.excathedra.co",
-      "v4" : "http://ipv4.excathedra.co/knob_valid_green.png",
-      "v6" : "http://ipv6.excathedra.co/knob_valid_green.png"
-   },
    "www.heise.de" : {
       "hide" : "0",
       "loc" : "DE",
@@ -566,14 +547,5 @@
       "site" : "www.yahoo.com",
       "v4" : "http://v4test.yahoo.com/eng/test/eye-test.png",
       "v6" : "http://v6test.yahoo.com/eng/test/eye-test.png"
-   },
-   "zeop.re" : {
-      "hide" : "0",
-      "loc" : "RE",
-      "monitor" : "PAYET Fabien <fabienpayet@zeop.re>",
-      "provider" : "ZEOP",
-      "site" : "zeop.re",
-      "v4" : "http://test-ipv4.zeop.re/ipv4/ipv4.png",
-      "v6" : "http://test-ipv6.zeop.re/ipv6/ipv6.png"
    }
 }
