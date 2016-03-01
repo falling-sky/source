@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2016-02-28 11:15-0500\n"
+"PO-Revision-Date: 2016-02-29 23:00-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Azerbaijani\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -18,7 +18,7 @@ msgstr "Proyektin təkrar keçidini təmin edib"
 
 #: messages.js
 msgid "bad"
-msgstr "pis"
+msgstr "kafi"
 
 #: messages.js
 msgid "ok"
@@ -30,7 +30,7 @@ msgstr "ləng"
 
 #: messages.js
 msgid "timeout"
-msgstr "vaxt bitdi"
+msgstr "vaxt tamamlandı"
 
 #: messages.js
 msgid "Connections to urls with IP addresses appear to be blocked; perhaps by a web filter such as 'NoScript' or 'RequestPolicy' installed into your browser, or filtering in your proxy server. This limits some of the functionality of this test site."
@@ -114,7 +114,7 @@ msgstr ""
 
 #: messages.js
 msgid "We are unable to test your system; it appears that a firewall or browser filter is preventing the test from running. Critical tests are failing. Try disabling any browser plugins, extensions, or add-ons (such as ad blockers); and reloading this page. If that still fails, you can leave a comment requesting help."
-msgstr ""
+msgstr "Biz sizin sistemi test edə bilmədik. Çox güman siz firewall və ya brauzer filterindən istifadə edirsiniz ki, bu da öz növbəsində testlərin icrasına maneə yaradır. Əsas testlər uğursuz alındı. Zəhmət olmasa brauzer əlavələrini, genişləndirmələrini (reklam bloklayan əlavələr və s.) deaktiv edin və bu səhifəni yeniləyin. Əgər belə hallar yenidən təkrarlanarsa, siz yardım üçün bizə müraciət edə bilərsiniz."
 
 #: messages.js
 msgid "We are unable to test your system; it appears that a firewall or browser filter is preventing the test from running. The dual-stack tests are failing. Try disabling any browser plugins, extensions, or add-ons (such as ad blockers); and reloading this page. If that still fails, you can leave a comment requesting help."
@@ -330,7 +330,7 @@ msgstr ""
 
 #: builtin.js
 msgid "(Updated server side IPv6 readiness stats)"
-msgstr ""
+msgstr "(Server tərəfdən İPv6 hazırlıq statistikası yeniləndi)"
 
 #: builtin.js
 msgid "(Survey posting failed; the above information is accurate, but not recorded.)"
@@ -406,7 +406,7 @@ msgstr ""
 
 #: checkresults.js
 msgid "unknown expansion"
-msgstr ""
+msgstr "bilinməyən genişləmə"
 
 #: checkresults.js
 msgid "unknown result code"
@@ -606,7 +606,7 @@ msgstr ""
 
 #: main/tech.inc
 msgid "(This is bonus credit)"
-msgstr ""
+msgstr "(Bu bonus kreditdir)"
 
 #: main/tech.inc
 msgid "This is a test of your ISP's resolver (instead of a test of your host). If this test passes, your DNS server (often run by your ISP) is capable of reaching IPV6-only DNS authoritative servers on the Internet. This is not critical (at this time) for you to reach sites via IPv6."
@@ -738,7 +738,7 @@ msgstr ""
 
 #: sites.inc
 msgid "<b>Hint</b>: Columns are sortable (click the first row); <a href=\"#\" onclick=\"GIGO.test_sites(2); return false;\">click here</a> to re-check reachability from where you are to those mirrors."
-msgstr ""
+msgstr "<b>Eyham</b>: Sütünlar sıralana bilir (ilk sətirə toxunun); Təkrar keçidlərin əlçatan olduğunu təkrar yoxlamaq üçün <a href=\"#\" onclick=\"GIGO.test_sites(2); return false;\">bura toxunun</a>."
 
 #: sites.inc
 msgid "It is real easy to get added to this list for basic checks. Just provide two image URLs (one IPv4-only; one IPv6-only), to Jason Fesler &lt;jfesler@gigo.com&gt;. Also send your general web site address and organization name."
@@ -746,7 +746,7 @@ msgstr ""
 
 #: sites.inc
 msgid "Full mirrors are welcomed and appreciated, whether public or private. Please see <a href=\"https://github.com/falling-sky/source/wiki\">the wiki</a> for details."
-msgstr ""
+msgstr "Bütöv təkrar keçidlər açıq və ya bağlı olmağından asılı olmayaraq həmişə qəbul olunur və bizi sevindirir. Ətraflı məlumat üçün zəhmət olmasa <a href=\"https://github.com/falling-sky/source/wiki\">wiki səhifəmizə</a> daxil olun."
 
 #: footer.inc
 msgid "All rights reserved."
@@ -1061,7 +1061,7 @@ msgid "and look for <code>inet6</code> to see your possible IPv6 addresses."
 msgstr ""
 
 #: faq/find_ip.inc
-msgid "and look for <code>inet6</code> or <code>Internet6</code> or similiar to find the IPv6 portion; thenm look for <code>default</code> or <code>::</code> or <code>::/0</code>."
+msgid "and look for <code>inet6</code> or <code>Internet6</code> or similar to find the IPv6 portion; then look for <code>default</code> or <code>::</code> or <code>::/0</code>."
 msgstr ""
 
 #: faq/find_ip.inc
@@ -1690,7 +1690,7 @@ msgstr ""
 
 #: mission.html
 msgid "What causes these timeouts?"
-msgstr ""
+msgstr "Bu vaxt tamamlanmalarının səbəbi nədir?"
 
 #: mission.html
 msgid "Newer operating systems have IPv6 enabled by default. Older ones, may have IPv6 enabled, as a result of user action (or specific applications). Enabling IPv6 does not automatically make you vulnerable."
@@ -1722,7 +1722,7 @@ msgstr "test-ipv6.com təkrar keçidləri"
 
 #: mirrors.html
 msgid "These are the known publicly accessible mirrors for test-ipv6.com."
-msgstr ""
+msgstr "test-ipv6.com üçün hər kəsə açıq təkrar keçidlər."
 
 #: mirrors.html
 msgid "Thank you to all of these organizations, who have put in significant effort to provide this mirror sites. If you have problems with the site you are on now, try another mirror site; perhaps one closer to you."
@@ -1730,7 +1730,7 @@ msgstr ""
 
 #: mirrors.html
 msgid "Hints Columns are sortable (click the first row); <a href=\"#\" onclick=\"GIGO.test_sites(1); return false;\">click here</a> to re-check reachability from where you are to those mirrors."
-msgstr ""
+msgstr "Eyham sütünları sıralana bilir (ilk sətirə toxunun); Təkrar keçidlərin əlçatan olduğunu təkrar yoxlamaq üçün <a href=\"#\" onclick=\"GIGO.test_sites(1); return false;\">bura toxunun</a>."
 
 #: mirrors.html
 msgid "(generated by javascript)"
@@ -1742,7 +1742,7 @@ msgstr "Təkrar keçid olmaq fikrindəsiniz?"
 
 #: mirrors.html
 msgid "Mirrors are welcomed and appreciated, whether public or private. Please see <a href=\"https://github.com/falling-sky/source/wiki\">the wiki</a> for details."
-msgstr ""
+msgstr "Təkrar keçidlər açıq və ya bağlı olmağından asılı olmayaraq həmişə qəbul olunur və bizi sevindirir. Ətraflı məlumat üçün zəhmət olmasa <a href=\"https://github.com/falling-sky/source/wiki\">wiki səhifəmizə</a> daxil olun."
 
 #: faq_6to4.html
 msgid "test-ipv6.com views on 6to4"

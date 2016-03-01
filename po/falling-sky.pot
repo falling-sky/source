@@ -1050,7 +1050,7 @@ msgid "and look for <code>inet6</code> to see your possible IPv6 addresses."
 msgstr ""
 
 #: faq/find_ip.inc
-msgid "and look for <code>inet6</code> or <code>Internet6</code> or similiar to find the IPv6 portion; thenm look for <code>default</code> or <code>::</code> or <code>::/0</code>."
+msgid "and look for <code>inet6</code> or <code>Internet6</code> or similar to find the IPv6 portion; then look for <code>default</code> or <code>::</code> or <code>::/0</code>."
 msgstr ""
 
 #: faq/find_ip.inc
