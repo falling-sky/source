@@ -137,7 +137,7 @@ test-ipv6.carnet.hr:
   v6: http://ipv6.test-ipv6.carnet.hr/images-nc/knob_green.png
   monitor: 'CARNet <sysadm@carnet.hr>'
 test-ipv6.ceengine.eu: 
-  hide: 0
+  hide: 1
   loc: RO
   mirror: 1
   provider: Central and Eastern European Networking Engine
@@ -421,7 +421,7 @@ www.delong.com:
   v6: http://thegoodlife.delong.com/cgi-bin/beaches.cgi
   monitor: 'Owen DeLong <owen@delong.com>'
 www.excathedra.co: 
-  hide: 0
+  hide: 1
   loc: UK
   provider: Ex Cathedra Photography
   v4: http://ipv4.excathedra.co/knob_valid_green.png
@@ -469,7 +469,7 @@ www.yahoo.com:
   v4: http://v4test.yahoo.com/eng/test/eye-test.png
   v6: http://v6test.yahoo.com/eng/test/eye-test.png
 zeop.re: 
-  hide: 0
+  hide: 1
   loc: RE
   provider: ZEOP
   v4: http://test-ipv4.zeop.re/ipv4/ipv4.png
