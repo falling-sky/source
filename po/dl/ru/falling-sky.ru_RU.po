@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2016-03-01 10:55-0500\n"
+"PO-Revision-Date: 2016-03-02 09:30-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Russian\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -782,11 +782,11 @@ msgstr "Выберите один ниже, чтобы переключитьс�
 
 #: locale.html
 msgid "Translators and proof readers welcome."
-msgstr ""
+msgstr "Приглашаем переводчиков и корректоров."
 
 #: locale.html
 msgid "See <a href='https://github.com/falling-sky/source/wiki/LocalizationPlan'>Info</a>; and our <a href='https://crowdin.net/project/falling-sky'>'CrowdIn'</a> project page."
-msgstr ""
+msgstr "Смотрите <a href='https://github.com/falling-sky/source/wiki/LocalizationPlan'>информацию</a>; и нашу страницу проекта на <a href='https://crowdin.net/project/falling-sky'>'CrowdIn'</a>."
 
 #: faq_helpdesk.html
 msgid "Help Desk Information"
@@ -826,7 +826,7 @@ msgstr ""
 
 #: faq_helpdesk.html
 msgid "List of unreachable sites, if any"
-msgstr ""
+msgstr "Список недоступных сайтов, если таковые имеются"
 
 #: faq_helpdesk.html
 msgid "Q: What is the easiest way to send users to the Help Desk tab?"
@@ -918,15 +918,15 @@ msgstr ""
 
 #: faq/staycurrent.inc
 msgid "OS - Make sure you have the latest."
-msgstr ""
+msgstr "OS - убедитесь, что у вас установлена последняя версия."
 
 #: faq/staycurrent.inc
 msgid "Mac users: Apple OS X 10.6.7 is recommended for improved IPv6 support."
-msgstr ""
+msgstr "Пользователи Mac: Apple OS X 10.6.7 рекомендуется для улучшения поддержки IPv6."
 
 #: faq/staycurrent.inc
 msgid "Mac users on 10.4 or 10.5 may need to disable IPv6 if other troubleshooting steps fail."
-msgstr ""
+msgstr "Пользователям Mac 10.4 и 10.5 может потребоваться отключить IPv6, если другие действия по устранению неполадок не дали результата."
 
 #: faq/staycurrent.inc
 msgid "Windows users: go to"
@@ -942,7 +942,7 @@ msgstr ""
 
 #: faq/staycurrent.inc
 msgid "If you are using an Apple router or Time Capsule, load the Airport Utility to check that your router is up to date."
-msgstr ""
+msgstr "Если вы используете маршрутизатор Apple или Time Capsule, загрузите утилиту Airport чтобы проверить, что ПО вашего маршрутизатора обновлено."
 
 #: faq/staycurrent.inc
 msgid "Browsers - Some browsers have made updates to detect \"broken\" users, and to temporarily disable IPv6."
@@ -958,7 +958,7 @@ msgstr ""
 
 #: faq/staycurrent.inc
 msgid "Opera: Make sure you use at least 11.10."
-msgstr ""
+msgstr "Opera: Убедитесь, что вы используете версию не ниже 11.10."
 
 #: broken.html
 msgid "Finding your IP address"
@@ -1054,7 +1054,7 @@ msgstr ""
 
 #: faq/find_ip.inc
 msgid "Run"
-msgstr ""
+msgstr "Выполнить"
 
 #: faq/find_ip.inc
 msgid "and look for <code>inet6</code> to see your possible IPv6 addresses."
@@ -1086,7 +1086,7 @@ msgstr "В cmd-окне введите <code>ipconfig</code>."
 
 #: faq/find_ip.inc
 msgid "Windows 7 GUI users:"
-msgstr ""
+msgstr "Пользователи графического интерфейса Windows 7:"
 
 #: faq/find_ip.inc
 msgid "Go to the start menu"
@@ -1274,7 +1274,7 @@ msgstr ""
 
 #: faq/broken_bogon.inc
 msgid "or"
-msgstr ""
+msgstr "или"
 
 #: faq/broken_bogon.inc
 msgid "This is a router using 6to4, but using a private IPv4 address. This will never work."
@@ -1466,7 +1466,7 @@ msgstr "Смотрите также"
 
 #: broken.html
 msgid "Other resources that may help"
-msgstr ""
+msgstr "Другие ресурсы, которые могут помочь"
 
 #: faq_disable.html
 msgid "Disabling IPv6 is the least preferred option. For some people, however, it may be your only option. This may be due to equipment limitations, or in limitations in technical support."
@@ -1574,7 +1574,7 @@ msgstr ""
 
 #: faq.html
 msgid "Q: Do you actually read the feedback?"
-msgstr "Q: Вы отвечаете на отзывы?"
+msgstr "В: Вы отвечаете на отзывы?"
 
 #: faq.html
 msgid "Yes, I do. Thank you! Note that I can only follow up with you if you do leave contact information. While I am still grateful for feedback without contact information, I will be unable to reply with any answers if you asked for them."
@@ -1594,7 +1594,7 @@ msgstr "Однако Вы, если желаете, можете написат�
 
 #: faq.html
 msgid "Q: Is this open source?"
-msgstr "Q: Это проект с открытым исходным кодом?"
+msgstr "В: Это проект с открытым исходным кодом?"
 
 #: faq.html
 msgid "Yes. See the <a href=\"source.html\">source page</a> for details."
@@ -2178,7 +2178,7 @@ msgstr ""
 
 #: faq_whyipv6.html
 msgid "Q: I heard there are millions of addresses left. Take it back from the companies not using it! Use the Class E space! (etc)."
-msgstr "Q: Я слышал, что осталось ещё достаточно много адресов. Отберите лишние у компаний, не использующих их! Используйте пространство E класса! (и т.д)."
+msgstr "В: Я слышал, что осталось ещё достаточно много адресов. Отберите лишние у компаний, не использующих их! Используйте пространство E класса! (и т. д.)."
 
 #: faq_whyipv6.html
 msgid "Those have been looked at. The space is relatively small, given the rate that the world is consuming it now. Forcefully taking back space would require more time in the court systems than it would buy back. Other currently reserved space is too difficult to use - it would require replacing most of the routers in the world to do so."
@@ -2230,7 +2230,7 @@ msgstr ""
 
 #: faq_whyipv6.html
 msgid "Q: Do I have to give up IPv4, to go IPv6?"
-msgstr ""
+msgstr "В: должен ли я отказаться от IPv4, чтобы перейти на IPv6?"
 
 #: faq_whyipv6.html
 msgid "No. They can co-exist. Most ISPs will continue to offer some form of IPv4 (most NAT'd) while offering IPv6. So you can reach the web sites that are still IPv4 only."
@@ -2250,7 +2250,7 @@ msgstr ""
 
 #: faq_whyipv6.html
 msgid "Q: Will I have to replace my OS?"
-msgstr "Q: Придётся ли мне сменить свою операционную систему?"
+msgstr "В: Придётся ли мне сменить свою операционную систему?"
 
 #: faq_whyipv6.html
 msgid "Windows Vista, Windows 7: You're good to go. XP users: It can be made to work, but it really is time to consider upgrading. Win98 and Win2000 users have no path to IPv6."
@@ -2266,7 +2266,7 @@ msgstr "Linux, BSD и прочие Unix-системы, как правило, �
 
 #: faq_whyipv6.html
 msgid "Q: Will I have to replace my hardware?"
-msgstr "Q: А оборудование надо менять?"
+msgstr "В: А оборудование надо менять?"
 
 #: faq_whyipv6.html
 msgid "Your PC: Only if the OS upgrade you do requires it."
@@ -2302,7 +2302,7 @@ msgstr ""
 
 #: faq_pmtud.html
 msgid "Q: How does this relate to IPv6?"
-msgstr ""
+msgstr "В: как это соотносится с IPv6?"
 
 #: faq_pmtud.html
 msgid "With IPv6, all packets are by definition \"Do Not Fragment\". The responsibility of sending the correct sized packets no longer falls on the router; this is an expensive operation for the router to handle. Instead, the ability to do PMTUD is mandated by the IPv6 specification."
@@ -2550,7 +2550,7 @@ msgstr "(подробнее)"
 
 #: faq_avoids_ipv6.html
 msgid "Firefox (recent builds) does the same as Chrome."
-msgstr ""
+msgstr "Firefox (последние версии) делает то же самое, что и Chrome."
 
 #: faq_avoids_ipv6.html
 msgid "The latest Windows 7 and Windows 8 updates will periodically test to see if IPv6 works. If the health check fails, then many applications (including Internet Explorer) will use IPv4, to insulate you from any local IPv6 misconfiguration."
