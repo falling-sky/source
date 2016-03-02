@@ -545,3 +545,10 @@ www.radioradicale.it:
   v4: http://ipv4.radioradicale.it/sites/www.radioradicale.it/files/pagine/2015/12/ipv6.png
   v6: http://ipv6.radioradicale.it/sites/www.radioradicale.it/files/pagine/2015/12/ipv6.png
   monitor: 'Dario Centofanti <dario@popinga.net>'
+test-ipv6.bakinter.net:
+  loc: AZ
+  mirror: 1
+  provider: Baktelekom
+  v4: http://ipv4.test-ipv6.bakinter.net/images-nc/knob_green.png
+  v6: http://ipv6.test-ipv6.bakinter.net/images-nc/knob_green.png
+  monitor: 'Nadir M. Aliyev <admin@bakinter.net>'

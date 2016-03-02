@@ -176,6 +176,15 @@ GIGO.sites_parsed={
       "v4" : "http://ipv4.test-ipv6.arbor.net/images-nc/knob_green.png",
       "v6" : "http://ipv6.test-ipv6.arbor.net/images-nc/knob_green.png"
    },
+   "test-ipv6.bakinter.net" : {
+      "loc" : "AZ",
+      "mirror" : "1",
+      "monitor" : "Nadir M. Aliyev <admin@bakinter.net>",
+      "provider" : "Baktelekom",
+      "site" : "test-ipv6.bakinter.net",
+      "v4" : "http://ipv4.test-ipv6.bakinter.net/images-nc/knob_green.png",
+      "v6" : "http://ipv6.test-ipv6.bakinter.net/images-nc/knob_green.png"
+   },
    "test-ipv6.belwue.net" : {
       "hide" : "0",
       "loc" : "DE",
