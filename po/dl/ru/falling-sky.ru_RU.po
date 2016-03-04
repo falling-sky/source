@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2016-03-02 09:30-0500\n"
+"PO-Revision-Date: 2016-03-03 14:00-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Russian\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -150,11 +150,11 @@ msgstr "Поиск IPv6 имени провалился, но двойное (IP
 
 #: messages.js
 msgid "A lookup for an IPv6-only name failed; yet the lookup and connect for dual-stack connected via IPv6. The IPv6-only lookup should have worked. Apple has a bug that sporadically causes some IPv6 lookups to fail. We saw evidence of it on this test. You can reload the page and try the test again. For more details, see <a href='http://openradar.appspot.com/7333104'>http://openradar.appspot.com/7333104</a>."
-msgstr ""
+msgstr "Поиск IPv6-имени не удался. Тем не менее, поиск и подключение для двойного стека подключены через IPv6. IPv6-поиск должен был работать. У Apple есть баг, иногда вызывающий провал некоторых IPv6-поисков, и мы только что это узрели. Вы можете перезагрузить страницу и повторить тест. Для более подробной информации смотрите <a href='http://openradar.appspot.com/7333104'> http://openradar.appspot.com/7333104</a>."
 
 #: messages.js
 msgid "A lookup for an dual-stack IPv4 and IPv6 name failed (at minimum it should have connected via IPv4). Apple has a bug that sporadically causes some IPv6 lookups to fail. We saw evidence of it on this test. You can reload the page and try the test again. For more details, see <a href='http://openradar.appspot.com/7333104'>http://openradar.appspot.com/7333104</a>."
-msgstr ""
+msgstr "Поиск имени с двойным стеком IPv4 и IPv6 не сработал (как минимум, он должен работать через IPv4). У Apple есть баг, иногда вызывающий провал некоторых IPv6-поисков, и мы только что это узрели. Вы можете перезагрузить страницу и повторить тест. Для более подробной информации смотрите <a href='http://openradar.appspot.com/7333104'> http://openradar.appspot.com/7333104</a>."
 
 #: messages.js
 msgid "No IPv4 address detected"
@@ -198,7 +198,7 @@ msgstr "Похоже, что используется механизм тунн�
 
 #: messages.js
 msgid "It appears that you use a managed tunnel mechanism, 6RD, to transport IPv6 over IPv4."
-msgstr ""
+msgstr "Похоже, что используется механизм управляемых туннелей 6RD для транспорта IPv6 через IPv4."
 
 #: messages.js
 msgid "We have detected that you are using a proxy. This means we are testing your proxy server, not your computer. Proxy details (as reported by your proxy 'Via' header): %details"
