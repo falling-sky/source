@@ -176,6 +176,15 @@ GIGO.sites_parsed={
       "v4" : "http://ipv4.test-ipv6.arbor.net/images-nc/knob_green.png",
       "v6" : "http://ipv6.test-ipv6.arbor.net/images-nc/knob_green.png"
    },
+   "test-ipv6.azstarnet.az" : {
+      "loc" : "AZ",
+      "mirror" : "1",
+      "monitor" : "Nadir M. Aliyev <nadir@azstarnet.az>",
+      "provider" : "AZSTARNET LLC",
+      "site" : "test-ipv6.azstarnet.az",
+      "v4" : "http://ipv4.test-ipv6.azstarnet.az/images-nc/knob_green.png",
+      "v6" : "http://ipv6.test-ipv6.azstarnet.az/images-nc/knob_green.png"
+   },
    "test-ipv6.bakinter.net" : {
       "loc" : "AZ",
       "mirror" : "1",
