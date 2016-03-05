@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2016-03-03 14:00-0500\n"
+"PO-Revision-Date: 2016-03-04 03:15-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Azerbaijani\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -66,7 +66,7 @@ msgstr ""
 
 #: messages.js
 msgid "Check your firewall to make sure that ICMPv6 messages are allowed (in particular, Type 2 or Packet Too Big)."
-msgstr ""
+msgstr "Firewall-ınızda İCMPv6 paketlərinin icazəli olduğunu yoxlayın (əsasən Tip 2 və Böyük Paket)."
 
 #: messages.js
 msgid "Test results inconclusive; they were not consistent with expectations. Please rerun the test, and if the results are the same, please fill out the contact form."
@@ -134,7 +134,7 @@ msgstr ""
 
 #: messages.js
 msgid "Your DNS server (possibly run by your ISP) appears to have IPv6 Internet access."
-msgstr ""
+msgstr "Sizin DNS serverin (çox gümanki, sizin İnternet Servis Provayderi) İPv6 şəbəkəsinə bağlantısı vardır."
 
 #: messages.js
 msgid "Your DNS server (possibly run by your ISP) appears to have no access to the IPv6 Internet, or is not configured to use it. This may in the future restrict your ability to reach IPv6-only sites."
@@ -334,7 +334,7 @@ msgstr "(Server tərəfdən İPv6 hazırlıq statistikası yeniləndi)"
 
 #: builtin.js
 msgid "(Survey posting failed; the above information is accurate, but not recorded.)"
-msgstr ""
+msgstr "(Sorğu göndərmək mümkün olmadı, yuxadırakı məlumat dəqiqdir lakin sistemimizdə qeydə alınmadı)"
 
 #: builtin.js
 msgid "Your readiness score"
@@ -342,7 +342,7 @@ msgstr "Sizin hazırlıq balınız"
 
 #: builtin.js
 msgid "for your IPv4 stability and readiness, when publishers offer both IPv4 and IPv6"
-msgstr ""
+msgstr "İPv4 stabilliliyi və hazırlığı İPv4 və İPv6 şəbəkəsi eyni anda təklif oldunduğu halda"
 
 #: builtin.js
 msgid "for your IPv6 stability and readiness, when publishers are forced to go IPv6 only"
@@ -382,7 +382,7 @@ msgstr "[permalink]"
 
 #: versions.js
 msgid "%app: You are running version %found; we recommend %suggest or newer."
-msgstr ""
+msgstr "%app: Sizin istifadə etdiyiniz versiya %found; Biz %suggest və ya daha yeni versiyanı tövsiyyə edirik."
 
 #: form.js
 msgid "share your results"
