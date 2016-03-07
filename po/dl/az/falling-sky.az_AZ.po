@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2016-03-06 19:15-0500\n"
+"PO-Revision-Date: 2016-03-07 01:45-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Azerbaijani\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -602,7 +602,7 @@ msgstr ""
 
 #: main/tech.inc
 msgid "Double check to make sure that ICMPv6 Type 2 (\"Packet Too Big\") messages are not filtered by your firewall."
-msgstr ""
+msgstr "Firewall-ınızda İCMPv6 Tip 2 (Böyük Paket) paketlərinin icazəli olduğunu yoxlayın."
 
 #: main/tech.inc
 msgid "(This is bonus credit)"
@@ -874,7 +874,7 @@ msgstr ""
 
 #: broken.html
 msgid "Make sure you are current"
-msgstr ""
+msgstr "Cari versiyada olduğunu dəqiqləşdirin"
 
 #: broken.html
 msgid "Find your IP address"
@@ -918,7 +918,7 @@ msgstr ""
 
 #: faq/staycurrent.inc
 msgid "OS - Make sure you have the latest."
-msgstr ""
+msgstr "ƏS - Sonuncu versiya olduğundan əmin olun."
 
 #: faq/staycurrent.inc
 msgid "Mac users: Apple OS X 10.6.7 is recommended for improved IPv6 support."
@@ -1170,7 +1170,7 @@ msgstr "Əgər siz 6to4 etmisinizsə"
 
 #: broken.html
 msgid "(IPv6 address: starts with 2002)"
-msgstr ""
+msgstr "(IPv6 ünvan: 2002 ilə başlayır)"
 
 #: faq/broken_6to4.inc
 msgid "If you use 6to4</b> (without a tunnel broker; ie, using anonymous 6to4):"
@@ -1230,7 +1230,7 @@ msgstr "Əgər sizdə ULA varsa"
 
 #: broken.html
 msgid "(IPv6 address: starts with FC or FD)"
-msgstr ""
+msgstr "(IPv6 ünvan: FC və ya FD ilə başlayır)"
 
 #: faq/broken_ula.inc
 msgid "If you have an IP address starting with <code>FC</code> or <code>FD</code>, you have what is effectively a private IPv6 address. It might be usable for talking to other devices within your home, or within your company. It also allows you to have a steady IPv6 address inside, even if your public IPv6 address changes regularly."
@@ -1294,11 +1294,11 @@ msgstr ""
 
 #: faq/broken_bogon.inc
 msgid "Update to the latest firmware."
-msgstr ""
+msgstr "Ən sonuncu proqram təminatını quraşdırın."
 
 #: faq/broken_bogon.inc
 msgid "Other routers: Try updating the firmware."
-msgstr ""
+msgstr "Digər yönləndiricilər: Proqram təminatını yeniləməyə cəhd edin."
 
 #: faq/broken_bogon.inc
 msgid "Disable IPv6."
@@ -1306,7 +1306,7 @@ msgstr "İPv6-nı deaktiv edin."
 
 #: broken.html
 msgid "(IPv6 address: not starting with fe80)"
-msgstr ""
+msgstr "(IPv6 ünvan: fe80 ilə başlamayan)"
 
 #: faq/broken_unexpected.inc
 msgid "Unexpected IPv6 address?"
@@ -1350,11 +1350,11 @@ msgstr ""
 
 #: broken.html
 msgid "(Instructions for disabling or deprioritizing IPv6)"
-msgstr ""
+msgstr "(IPv6-ın deaktivasiyası və ya priotetinin aşağı salınması)"
 
 #: faq/broken_disable.inc
 msgid "Disabling or Deprioritizing your IPv6 address"
-msgstr ""
+msgstr "İPv6 ünvanınızın deaktivləşdirilməsi və ya priotetinin aşağı salınması"
 
 #: faq/broken_disable.inc
 msgid "<b>To disable IPv6 entirely, until your ISP offers IPv6 to you:</b> see <b>Microsoft's \"fixit\" site</b> that gives clear instructions. We advocate considering \"Use IPv4 instead of IPv6 in prefix policies\", instead of completely disabling IPv6. Specific Windows features depend on IPv6 being enabled."
@@ -1386,7 +1386,7 @@ msgstr "Windows XP-də İPv6-nı deaktiv etmək üçün:"
 
 #: faq/broken_disable.inc
 msgid "Taken from:"
-msgstr ""
+msgstr "Götürülmüşdür:"
 
 #: faq/broken_disable.inc
 msgid "Make sure you are logged in as an Administrator."
@@ -1778,7 +1778,7 @@ msgstr ""
 
 #: faq_6to4.html
 msgid "Q: What could possibly go wrong?"
-msgstr ""
+msgstr "Sual: Nə yalnış ola bilər?"
 
 #: faq_6to4.html
 msgid "The main issues involve the lack of a service level agreement, the lack of predictability, and a lack in the protocol for your computer to realize that this method is not working."
@@ -1918,7 +1918,7 @@ msgstr ""
 
 #: faq/dontstress.inc
 msgid "If you do buy a new router, make sure that it will be IPv6 ready (or upgradable) when your service provider does offer IPv6."
-msgstr ""
+msgstr "Əgər yeni yönləndirici alırsınızsa, provayderinizin İPv6 xidmət göstərəcəyi zaman İPv6 dəstəkləməsinə (və ya dəstəkləyə biləcəyinə) diqqət yetirin."
 
 #: faq_no_ipv6.html
 msgid "You appear to have no IPv6 at this time.."
@@ -2026,7 +2026,7 @@ msgstr ""
 
 #: faq_broken_aaaa.html
 msgid "What does this mean for you?"
-msgstr ""
+msgstr "Bu sizin üçün nə mənasına gəlir?"
 
 #: faq_broken_aaaa.html
 msgid "You should still be able to reach most sites fine, so long as they offer their services on IPv4. This means few near-term problems."
@@ -2294,7 +2294,7 @@ msgstr ""
 
 #: faq_pmtud.html
 msgid "Q: What is Path MTU Discovery (or PMTUD)"
-msgstr ""
+msgstr "Sual: MTU Path Discovery (PMTUD) nə deməkdir"
 
 #: faq_pmtud.html
 msgid "PMTUD is a mechanism used on the Internet that tells your computer the maximum size of the packets that should be sent for a given destination. How this works: Your host will send a possibly large packet; with the packet marked \"Do Not Fragment\". When the packet reaches a router that can't forward this packet, due to size, it sends back a response saying \"Too big! Try this size instead.\""
@@ -2350,7 +2350,7 @@ msgstr ""
 
 #: faq_pmtud.html
 msgid "(What does tcpdump show?)"
-msgstr ""
+msgstr "(tcpdump nə göstərəcək?)"
 
 #: faq_pmtud.html
 msgid "This is what tcpdump will show.."
@@ -2502,7 +2502,7 @@ msgstr ""
 
 #: faq_avoids_ipv6.html
 msgid "Your browser is avoiding IPv6."
-msgstr ""
+msgstr "Sizin brauzeriniz İPv6-dan yayınır."
 
 #: faq_avoids_ipv6.html
 msgid "What we found"
@@ -2534,7 +2534,7 @@ msgstr ""
 
 #: faq_avoids_ipv6.html
 msgid "Causes for preferring IPv4"
-msgstr ""
+msgstr "IPv4 seçim səbəbləri"
 
 #: faq_avoids_ipv6.html
 msgid "There are several possible reasons why a browser might prefer IPv4 instead of IPv6."
