@@ -19,9 +19,9 @@ var raw = flag.String("raw", "../js/sites_parsed_raw.js", "js file to write for 
 
 // SiteRecord describes a single mirror or "Other Sites" record
 type SiteRecord struct {
-	Mirror   string `json:"mirror"`   // 1=mirror   0="Other Sites"
 	Site     string `json:"site"`     // What site name to publicly attribute
-	Hide     string `json:"hide"`     // If set to anything other than "" or "0", hide the record.
+	Mirror   bool `json:"mirror"`   // if true, site is a full mirror; if false, just "OtherSites"
+	Hide     bool `json:"hide"`     // If true, stop sending traffic here
 	V4       string `json:"v4"`       // IPv4 test URL  (http or https)
 	V6       string `json:"v6"`       // IPv6 test URL (http or https)
 	Loc      string `json:"loc"`      // Country where the site is located
@@ -121,8 +121,6 @@ func (sf *SitesFile) FixDefaults() error {
 			sr.Site = key
 		}
 		// Canonicalize true/false/empty/etc as "1" and "0" strings
-		sr.Hide = fixFakeBoolean(sr.Hide)
-		sr.Mirror = fixFakeBoolean(sr.Mirror)
 	}
 
 	return nil
@@ -130,7 +128,7 @@ func (sf *SitesFile) FixDefaults() error {
 
 func (sf *SitesFile) DeleteHidden() error {
 	for key, sr := range sf.Sites {
-		if sr.Hide == "1" {
+		if sr.Hide  {
 			delete(sf.Sites, key)
 		}
 	}
@@ -194,13 +192,13 @@ func (sr *SiteRecord) CheckHTTP(wg *sync.WaitGroup) {
 	// on sr.Reason .  So, do them in serial.
 	if err4 := CheckHTTP(sr.V4); err4 != nil {
 		sr.Reason = err4.Error()
-		sr.Hide = "1"
+		sr.Hide = true
 		log.Println(sr.Reason)
 		return
 	}
 	if err6 := CheckHTTP(sr.V6); err6 != nil {
 		sr.Reason = err6.Error()
-		sr.Hide = "1"
+		sr.Hide = true
 		log.Println(sr.Reason)
 		return
 	}
@@ -213,23 +211,12 @@ func (sf *SitesFile) CheckHTTP() {
 	wg := &sync.WaitGroup{}
 
 	for _, sr := range sf.Sites {
-		if sr.Hide == "0" {
+		if sr.Hide == false {
 			wg.Add(1)
 			go sr.CheckHTTP(wg)
 		}
 	}
 	wg.Wait()
-}
-
-// fixFakeBoolean takes the various types of strings that represent
-// true and false, and forces them to 0 and 1.  This is mostly legacy.
-// This can perhaps be cahnged - but I don't want to change falling-sky
-// javascript code (yet).
-func fixFakeBoolean(s string) string {
-	if s == "" || s == "0" || s[0:0] == "f" {
-		return "0"
-	}
-	return "1"
 }
 
 func main() {

@@ -229,7 +229,6 @@ GIGO.sites_queue_all = function (mode) {
       r = GIGO.sites_parsed[siteName];
       if (mode === 1) {
         if (! r.mirror) continue;
-        if (! parseInt(r.mirror)) continue;
       }
       GIGO.sites_queue_entry(r);
     }
@@ -369,7 +368,7 @@ GIGO.sites_display_add_record = function (r, mode) {
         }));
     });
 
-    if ((mode === 2) && (r.mirror) && (parseInt(r.mirror))) {
+    if ((mode === 2) && (r.mirror)) {
 
         // This should be done with jquery to avoid any potential abuse in mirrors.js, but
         // I can't find the right incantation.

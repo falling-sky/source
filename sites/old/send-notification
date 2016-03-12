@@ -1,0 +1,82 @@
+#! /usr/bin/perl
+use YAML::Syck;
+use LWP::Simple qw($ua get);
+use Text::Wrap qw(wrap);;
+use Text::Format;
+
+
+my $sites = LoadFile("sites.yaml");
+my $cache = {};
+eval { $cache = LoadFile("notifycache.yaml");};
+$ua->timeout(15);
+
+
+foreach my $site (sort keys %$sites) {
+  $sr = $sites->{$site};
+  next unless ($sr->{mirror} > 0);
+  next if ($sr->{hide} > 0);
+  my $got = $cache->{$site};
+  if (!$got) {
+    $got = $cache->{$site} = get("http://$site/site/config.js");
+    DumpFile("notifycache.yaml",$cache);
+  }
+  if ($got =~ /mtu1280/) {
+    next;
+  } else {
+#    print "$site [tbd]\n";
+    notify($sr->{"monitor"},$site);
+  }
+# print Dump($sr);
+}
+
+
+
+sub notify {
+  my($who,$site) = @_;
+  return if ($who =~ /comcast/i);
+  return if ($who =~ /cernet.edu.cn/i);
+  if (!$who) {
+   print "SKIPPING $site\n";
+  }
+  print "Sending to $site $who\n";
+  return;
+  
+  open(SENDMAIL, "|/usr/lib/sendmail -t");
+    
+print SENDMAIL <<"EOF";
+To: $who
+From: jfesler\@test-ipv6.com
+Bcc: jfesler\@test-ipv6.com
+Subject: De-listing $site as an official mirror
+
+In the interest of consistentcy across all mirrors, I am delisting your
+particular test-ipv6.com mirror instance from the official list.  This
+is not at all personal; this is a matter of protecting against
+confusion from end users their personal IPv6 connectivity.
+
+I'd love to add it back!  To do so, I need you or your organization to
+follow the instructions for adding the PMTUD testing feature. 
+https://github.com/falling-sky/source/wiki/InstallPMTUD
+
+This does require Linux; this does require a second IPv6 address.  
+
+How can I help?  Just let me know!
+
+I *am* interested in keeping mirrors alive in every region, for the
+sake of the users.  Additionally, mirrors help give users global
+targets for testing - and reporting connectivity errors with ISPs.
+
+For those of you who believe this is the time to drop being a mirror
+entirely, I'll understand.  If you do decide to not bring your site
+forward, I would urge you to actualy shut the mirror down (versus
+drifting in capabilities and scoring systems).
+
+You can still provide a useful resource.  If you can provide one
+IPv4-only image url, and one IPv6-only image url, I can still use your
+site for the "Other Sites" tab.
+
+With warm regards,
+Jason
+EOF
+  close SENDMAIL; 
+}

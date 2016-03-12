@@ -1,8 +1,8 @@
 GIGO.sites_parsed={
  "8n1.org": {
-  "mirror": "0",
   "site": "8n1.org",
-  "hide": "0",
+  "mirror": false,
+  "hide": false,
   "v4": "http://ip4.8n1.org/test.gif",
   "v6": "http://ip6.8n1.org/test.gif",
   "loc": "NL",
@@ -11,9 +11,9 @@ GIGO.sites_parsed={
   "reason": ""
  },
  "aa.net.uk": {
-  "mirror": "0",
   "site": "aa.net.uk",
-  "hide": "0",
+  "mirror": false,
+  "hide": false,
   "v4": "http://ip4.aa.net.uk/images/aaisp_logo.png",
   "v6": "http://ip6.aa.net.uk/images/aaisp_logo.png",
   "loc": "UK",
@@ -22,9 +22,9 @@ GIGO.sites_parsed={
   "reason": ""
  },
  "campaya.co.uk": {
-  "mirror": "0",
   "site": "campaya.co.uk",
-  "hide": "0",
+  "mirror": false,
+  "hide": false,
   "v4": "http://ipv4.campaya.co.uk/apple-touch-icon.png",
   "v6": "http://ipv6.campaya.co.uk/apple-touch-icon.png",
   "loc": "UK",
@@ -33,9 +33,9 @@ GIGO.sites_parsed={
   "reason": ""
  },
  "chelloo.com": {
-  "mirror": "0",
   "site": "chelloo.com",
-  "hide": "0",
+  "mirror": false,
+  "hide": false,
   "v4": "http://ipv4.chelloo.com/images/pixel.gif",
   "v6": "http://ipv6.chelloo.com/images/pixel.gif",
   "loc": "NL",
@@ -44,9 +44,9 @@ GIGO.sites_parsed={
   "reason": ""
  },
  "duplimaster.com": {
-  "mirror": "0",
   "site": "duplimaster.com",
-  "hide": "0",
+  "mirror": false,
+  "hide": false,
   "v4": "http://ipv4.duplimaster.com/public/images/logo-sombra.png",
   "v6": "http://ipv6.duplimaster.com/public/images/logo-sombra.png",
   "loc": "ES",
@@ -55,9 +55,9 @@ GIGO.sites_parsed={
   "reason": ""
  },
  "eurobilltracker.com": {
-  "mirror": "0",
   "site": "eurobilltracker.com",
-  "hide": "0",
+  "mirror": false,
+  "hide": false,
   "v4": "http://ipv4.test-ipv6.eurobilltracker.com/img/1x1.gif",
   "v6": "http://ipv6.test-ipv6.eurobilltracker.com/img/1x1.gif",
   "loc": "FI",
@@ -66,9 +66,9 @@ GIGO.sites_parsed={
   "reason": ""
  },
  "google.com": {
-  "mirror": "0",
   "site": "google.com",
-  "hide": "0",
+  "mirror": false,
+  "hide": false,
   "v4": "http://test-ipv6-dot-com-v6exp3-v4.metric.gstatic.com/v6exp3/6.gif",
   "v6": "http://test-ipv6-dot-com-v6exp3-v6.metric.gstatic.com/v6exp3/6.gif",
   "loc": "global",
@@ -77,9 +77,9 @@ GIGO.sites_parsed={
   "reason": ""
  },
  "he.net": {
-  "mirror": "0",
   "site": "he.net",
-  "hide": "0",
+  "mirror": false,
+  "hide": false,
   "v4": "http://ipv4.tunnelbroker.net/images/helogo.gif",
   "v6": "http://ipv6.tunnelbroker.net/images/helogo.gif",
   "loc": "US (CA)",
@@ -88,9 +88,9 @@ GIGO.sites_parsed={
   "reason": ""
  },
  "ipv6-test.pl": {
-  "mirror": "1",
   "site": "ipv6-test.pl",
-  "hide": "0",
+  "mirror": true,
+  "hide": false,
   "v4": "http://ipv4.ipv6-test.pl/images-nc/knob_green.png",
   "v6": "http://ipv6.ipv6-test.pl/images-nc/knob_green.png",
   "loc": "PL",
@@ -99,9 +99,9 @@ GIGO.sites_parsed={
   "reason": ""
  },
  "nic.br": {
-  "mirror": "0",
   "site": "nic.br",
-  "hide": "0",
+  "mirror": false,
+  "hide": false,
   "v4": "http://v4.ipv6.br/img/logo-ipv6.png",
   "v6": "http://v6.ipv6.br/img/logo-ipv6.png",
   "loc": "BR",
@@ -110,9 +110,9 @@ GIGO.sites_parsed={
   "reason": ""
  },
  "nsx.de": {
-  "mirror": "0",
   "site": "nsx.de",
-  "hide": "0",
+  "mirror": false,
+  "hide": false,
   "v4": "http://ipv4.nsx.de/images/knob_valid_green.png",
   "v6": "http://ipv6.nsx.de/images/knob_valid_green.png",
   "loc": "DE",
@@ -121,9 +121,9 @@ GIGO.sites_parsed={
   "reason": ""
  },
  "sixte.st": {
-  "mirror": "1",
   "site": "sixte.st",
-  "hide": "0",
+  "mirror": true,
+  "hide": false,
   "v4": "http://ipv4.sixte.st/images-nc/knob_green.png",
   "v6": "http://ipv6.sixte.st/images-nc/knob_green.png",
   "loc": "SG",
@@ -132,9 +132,9 @@ GIGO.sites_parsed={
   "reason": ""
  },
  "snozzages.com": {
-  "mirror": "0",
   "site": "snozzages.com",
-  "hide": "0",
+  "mirror": false,
+  "hide": false,
   "v4": "http://ipv4.v6test.snozzages.com/1x1.gif",
   "v6": "http://ipv6.v6test.snozzages.com/1x1.gif",
   "loc": "US (VA)",
@@ -143,9 +143,9 @@ GIGO.sites_parsed={
   "reason": ""
  },
  "stdio.be": {
-  "mirror": "0",
   "site": "stdio.be",
-  "hide": "0",
+  "mirror": false,
+  "hide": false,
   "v4": "http://ipv4.stdio.be/images/knob_valid_green.png",
   "v6": "http://ipv6.stdio.be/images/knob_valid_green.png",
   "loc": "DE",
@@ -154,9 +154,9 @@ GIGO.sites_parsed={
   "reason": ""
  },
  "test-ipv6-ct.comcast.net": {
-  "mirror": "1",
   "site": "test-ipv6-ct.comcast.net",
-  "hide": "0",
+  "mirror": true,
+  "hide": false,
   "v4": "http://ipv4.test-ipv6-ct.comcast.net/images-nc/knob_green.png",
   "v6": "http://ipv6.test-ipv6-ct.comcast.net/images-nc/knob_green.png",
   "loc": "US",
@@ -165,9 +165,9 @@ GIGO.sites_parsed={
   "reason": ""
  },
  "test-ipv6-pa.comcast.net": {
-  "mirror": "1",
   "site": "test-ipv6-pa.comcast.net",
-  "hide": "0",
+  "mirror": true,
+  "hide": false,
   "v4": "http://ipv4.test-ipv6-pa.comcast.net/images-nc/knob_green.png",
   "v6": "http://ipv6.test-ipv6-pa.comcast.net/images-nc/knob_green.png",
   "loc": "US",
@@ -176,9 +176,9 @@ GIGO.sites_parsed={
   "reason": ""
  },
  "test-ipv6.alpinedc.ch": {
-  "mirror": "1",
   "site": "test-ipv6.alpinedc.ch",
-  "hide": "0",
+  "mirror": true,
+  "hide": false,
   "v4": "http://ipv4.test-ipv6.alpinedc.ch/images-nc/knob_green.png",
   "v6": "http://ipv6.test-ipv6.alpinedc.ch/images-nc/knob_green.png",
   "loc": "CH",
@@ -187,9 +187,9 @@ GIGO.sites_parsed={
   "reason": ""
  },
  "test-ipv6.ams.vr.org": {
-  "mirror": "1",
   "site": "test-ipv6.ams.vr.org",
-  "hide": "0",
+  "mirror": true,
+  "hide": false,
   "v4": "http://ipv4.test-ipv6.ams.vr.org/images-nc/knob_green.png",
   "v6": "http://ipv6.test-ipv6.ams.vr.org/images-nc/knob_green.png",
   "loc": "NL",
@@ -198,9 +198,9 @@ GIGO.sites_parsed={
   "reason": ""
  },
  "test-ipv6.arbor.net": {
-  "mirror": "1",
   "site": "test-ipv6.arbor.net",
-  "hide": "0",
+  "mirror": true,
+  "hide": false,
   "v4": "http://ipv4.test-ipv6.arbor.net/images-nc/knob_green.png",
   "v6": "http://ipv6.test-ipv6.arbor.net/images-nc/knob_green.png",
   "loc": "US",
@@ -209,9 +209,9 @@ GIGO.sites_parsed={
   "reason": ""
  },
  "test-ipv6.azstarnet.az": {
-  "mirror": "1",
   "site": "test-ipv6.azstarnet.az",
-  "hide": "0",
+  "mirror": true,
+  "hide": false,
   "v4": "http://ipv4.test-ipv6.azstarnet.az/images-nc/knob_green.png",
   "v6": "http://ipv6.test-ipv6.azstarnet.az/images-nc/knob_green.png",
   "loc": "AZ",
@@ -220,9 +220,9 @@ GIGO.sites_parsed={
   "reason": ""
  },
  "test-ipv6.bakinter.net": {
-  "mirror": "1",
   "site": "test-ipv6.bakinter.net",
-  "hide": "0",
+  "mirror": true,
+  "hide": false,
   "v4": "http://ipv4.test-ipv6.bakinter.net/images-nc/knob_green.png",
   "v6": "http://ipv6.test-ipv6.bakinter.net/images-nc/knob_green.png",
   "loc": "AZ",
@@ -231,9 +231,9 @@ GIGO.sites_parsed={
   "reason": ""
  },
  "test-ipv6.belwue.net": {
-  "mirror": "1",
   "site": "test-ipv6.belwue.net",
-  "hide": "0",
+  "mirror": true,
+  "hide": false,
   "v4": "http://ipv4.test-ipv6.belwue.net/images-nc/knob_green.png",
   "v6": "http://ipv6.test-ipv6.belwue.net/images-nc/knob_green.png",
   "loc": "DE",
@@ -242,9 +242,9 @@ GIGO.sites_parsed={
   "reason": ""
  },
  "test-ipv6.carnet.hr": {
-  "mirror": "1",
   "site": "test-ipv6.carnet.hr",
-  "hide": "0",
+  "mirror": true,
+  "hide": false,
   "v4": "http://ipv4.test-ipv6.carnet.hr/images-nc/knob_green.png",
   "v6": "http://ipv6.test-ipv6.carnet.hr/images-nc/knob_green.png",
   "loc": "HR",
@@ -253,9 +253,9 @@ GIGO.sites_parsed={
   "reason": ""
  },
  "test-ipv6.chi.vr.org": {
-  "mirror": "1",
   "site": "test-ipv6.chi.vr.org",
-  "hide": "0",
+  "mirror": true,
+  "hide": false,
   "v4": "http://ipv4.test-ipv6.chi.vr.org/images-nc/knob_green.png",
   "v6": "http://ipv6.test-ipv6.chi.vr.org/images-nc/knob_green.png",
   "loc": "US IL",
@@ -264,9 +264,9 @@ GIGO.sites_parsed={
   "reason": ""
  },
  "test-ipv6.co.za": {
-  "mirror": "1",
   "site": "test-ipv6.co.za",
-  "hide": "0",
+  "mirror": true,
+  "hide": false,
   "v4": "http://ipv4.test-ipv6.co.za/images-nc/knob_green.png",
   "v6": "http://ipv6.test-ipv6.co.za/images-nc/knob_green.png",
   "loc": "ZA",
@@ -275,9 +275,9 @@ GIGO.sites_parsed={
   "reason": ""
  },
  "test-ipv6.com": {
-  "mirror": "1",
   "site": "test-ipv6.com",
-  "hide": "0",
+  "mirror": true,
+  "hide": false,
   "v4": "http://ipv4.test-ipv6.com/images-nc/knob_green.png",
   "v6": "http://ipv6.test-ipv6.com/images-nc/knob_green.png",
   "loc": "US CA",
@@ -286,9 +286,9 @@ GIGO.sites_parsed={
   "reason": ""
  },
  "test-ipv6.com.au": {
-  "mirror": "1",
   "site": "test-ipv6.com.au",
-  "hide": "0",
+  "mirror": true,
+  "hide": false,
   "v4": "http://ipv4.test-ipv6.com.au/images-nc/knob_green.png",
   "v6": "http://ipv6.test-ipv6.com.au/images-nc/knob_green.png",
   "loc": "AU",
@@ -297,9 +297,9 @@ GIGO.sites_parsed={
   "reason": ""
  },
  "test-ipv6.cz": {
-  "mirror": "1",
   "site": "test-ipv6.cz",
-  "hide": "0",
+  "mirror": true,
+  "hide": false,
   "v4": "http://ipv4.test-ipv6.cz/images-nc/knob_green.png",
   "v6": "http://ipv6.test-ipv6.cz/images-nc/knob_green.png",
   "loc": "CZ",
@@ -308,9 +308,9 @@ GIGO.sites_parsed={
   "reason": ""
  },
  "test-ipv6.ernet.in": {
-  "mirror": "1",
   "site": "test-ipv6.ernet.in",
-  "hide": "0",
+  "mirror": true,
+  "hide": false,
   "v4": "http://ipv4.test-ipv6.ernet.in/images-nc/knob_green.png",
   "v6": "http://ipv6.test-ipv6.ernet.in/images-nc/knob_green.png",
   "loc": "IN",
@@ -319,9 +319,9 @@ GIGO.sites_parsed={
   "reason": ""
  },
  "test-ipv6.fratec.net": {
-  "mirror": "1",
   "site": "test-ipv6.fratec.net",
-  "hide": "0",
+  "mirror": true,
+  "hide": false,
   "v4": "http://ipv4.test-ipv6.fratec.net/images-nc/knob_green.png",
   "v6": "http://ipv6.test-ipv6.fratec.net/images-nc/knob_green.png",
   "loc": "CR",
@@ -330,9 +330,9 @@ GIGO.sites_parsed={
   "reason": ""
  },
  "test-ipv6.go6.si": {
-  "mirror": "1",
   "site": "test-ipv6.go6.si",
-  "hide": "0",
+  "mirror": true,
+  "hide": false,
   "v4": "http://ipv4.test-ipv6.go6.si/images-nc/knob_green.png",
   "v6": "http://ipv6.test-ipv6.go6.si/images-nc/knob_green.png",
   "loc": "SI",
@@ -341,9 +341,9 @@ GIGO.sites_parsed={
   "reason": ""
  },
  "test-ipv6.hu": {
-  "mirror": "1",
   "site": "test-ipv6.hu",
-  "hide": "0",
+  "mirror": true,
+  "hide": false,
   "v4": "http://ipv4.test-ipv6.hu/images-nc/knob_green.png",
   "v6": "http://ipv6.test-ipv6.hu/images-nc/knob_green.png",
   "loc": "HU",
@@ -352,9 +352,9 @@ GIGO.sites_parsed={
   "reason": ""
  },
  "test-ipv6.iad.vr.org": {
-  "mirror": "1",
   "site": "test-ipv6.iad.vr.org",
-  "hide": "0",
+  "mirror": true,
+  "hide": false,
   "v4": "http://ipv4.test-ipv6.iad.vr.org/images-nc/knob_green.png",
   "v6": "http://ipv6.test-ipv6.iad.vr.org/images-nc/knob_green.png",
   "loc": "US VA",
@@ -363,9 +363,9 @@ GIGO.sites_parsed={
   "reason": ""
  },
  "test-ipv6.jp": {
-  "mirror": "1",
   "site": "test-ipv6.jp",
-  "hide": "0",
+  "mirror": true,
+  "hide": false,
   "v4": "http://ipv4.test-ipv6.jp/images-nc/knob_green.png",
   "v6": "http://ipv6.test-ipv6.jp/images-nc/knob_green.png",
   "loc": "JP",
@@ -374,9 +374,9 @@ GIGO.sites_parsed={
   "reason": ""
  },
  "test-ipv6.lazypaddle.com": {
-  "mirror": "1",
   "site": "test-ipv6.lazypaddle.com",
-  "hide": "0",
+  "mirror": true,
+  "hide": false,
   "v4": "http://ipv4.test-ipv6.lazypaddle.com/images-nc/knob_green.png",
   "v6": "http://ipv6.test-ipv6.lazypaddle.com/images-nc/knob_green.png",
   "loc": "US WI",
@@ -385,9 +385,9 @@ GIGO.sites_parsed={
   "reason": ""
  },
  "test-ipv6.monash.edu": {
-  "mirror": "1",
   "site": "test-ipv6.monash.edu",
-  "hide": "0",
+  "mirror": true,
+  "hide": false,
   "v4": "http://ipv4.test-ipv6.monash.edu/images-nc/knob_green.png",
   "v6": "http://ipv6.test-ipv6.monash.edu/images-nc/knob_green.png",
   "loc": "AU",
@@ -396,9 +396,9 @@ GIGO.sites_parsed={
   "reason": ""
  },
  "test-ipv6.netiter.dk": {
-  "mirror": "0",
   "site": "test-ipv6.netiter.dk",
-  "hide": "0",
+  "mirror": false,
+  "hide": false,
   "v4": "http://test-ipv6.com.i42.test-ipv6.easyv6.net/ipv6-test.png",
   "v6": "http://test-ipv6.com.i32.test-ipv6.easyv6.net/ipv6-test.png",
   "loc": "DE",
@@ -407,9 +407,9 @@ GIGO.sites_parsed={
   "reason": ""
  },
  "test-ipv6.nl": {
-  "mirror": "1",
   "site": "test-ipv6.nl",
-  "hide": "0",
+  "mirror": true,
+  "hide": false,
   "v4": "http://ipv4.test-ipv6.nl/images-nc/knob_green.png",
   "v6": "http://ipv6.test-ipv6.nl/images-nc/knob_green.png",
   "loc": "NL",
@@ -418,9 +418,9 @@ GIGO.sites_parsed={
   "reason": ""
  },
  "test-ipv6.no": {
-  "mirror": "1",
   "site": "test-ipv6.no",
-  "hide": "0",
+  "mirror": true,
+  "hide": false,
   "v4": "http://ipv4.test-ipv6.no/images-nc/knob_green.png",
   "v6": "http://ipv6.test-ipv6.no/images-nc/knob_green.png",
   "loc": "NO",
@@ -429,9 +429,9 @@ GIGO.sites_parsed={
   "reason": ""
  },
  "test-ipv6.polkam.go.id": {
-  "mirror": "1",
   "site": "test-ipv6.polkam.go.id",
-  "hide": "0",
+  "mirror": true,
+  "hide": false,
   "v4": "http://ipv4.test-ipv6.polkam.go.id/images-nc/knob_green.png",
   "v6": "http://ipv6.test-ipv6.polkam.go.id/images-nc/knob_green.png",
   "loc": "ID",
@@ -440,9 +440,9 @@ GIGO.sites_parsed={
   "reason": ""
  },
  "test-ipv6.ro": {
-  "mirror": "1",
   "site": "test-ipv6.ro",
-  "hide": "0",
+  "mirror": true,
+  "hide": false,
   "v4": "http://ipv4.test-ipv6.ro/images-nc/knob_green.png",
   "v6": "http://ipv6.test-ipv6.ro/images-nc/knob_green.png",
   "loc": "RO",
@@ -451,9 +451,9 @@ GIGO.sites_parsed={
   "reason": ""
  },
  "test-ipv6.roedu.net": {
-  "mirror": "1",
   "site": "test-ipv6.roedu.net",
-  "hide": "0",
+  "mirror": true,
+  "hide": false,
   "v4": "http://ipv4.test-ipv6.roedu.net/images-nc/knob_green.png",
   "v6": "http://ipv6.test-ipv6.roedu.net/images-nc/knob_green.png",
   "loc": "RO",
@@ -462,9 +462,9 @@ GIGO.sites_parsed={
   "reason": ""
  },
  "test-ipv6.se": {
-  "mirror": "1",
   "site": "test-ipv6.se",
-  "hide": "0",
+  "mirror": true,
+  "hide": false,
   "v4": "http://ipv4.test-ipv6.se/images-nc/knob_green.png",
   "v6": "http://ipv6.test-ipv6.se/images-nc/knob_green.png",
   "loc": "SE",
@@ -473,9 +473,9 @@ GIGO.sites_parsed={
   "reason": ""
  },
  "test-ipv6.showmyip.ca": {
-  "mirror": "1",
   "site": "test-ipv6.showmyip.ca",
-  "hide": "0",
+  "mirror": true,
+  "hide": false,
   "v4": "http://ipv4.test-ipv6.showmyip.ca/images-nc/knob_green.png",
   "v6": "http://ipv6.test-ipv6.showmyip.ca/images-nc/knob_green.png",
   "loc": "UK",
@@ -484,9 +484,9 @@ GIGO.sites_parsed={
   "reason": ""
  },
  "test-ipv6.si": {
-  "mirror": "1",
   "site": "test-ipv6.si",
-  "hide": "0",
+  "mirror": true,
+  "hide": false,
   "v4": "http://ipv4.test-ipv6.si/images-nc/knob_green.png",
   "v6": "http://ipv6.test-ipv6.si/images-nc/knob_green.png",
   "loc": "SI",
@@ -495,9 +495,9 @@ GIGO.sites_parsed={
   "reason": ""
  },
  "test-ipv6.sjc.vr.org": {
-  "mirror": "1",
   "site": "test-ipv6.sjc.vr.org",
-  "hide": "0",
+  "mirror": true,
+  "hide": false,
   "v4": "http://ipv4.test-ipv6.sjc.vr.org/images-nc/knob_green.png",
   "v6": "http://ipv6.test-ipv6.sjc.vr.org/images-nc/knob_green.png",
   "loc": "US CA",
@@ -506,9 +506,9 @@ GIGO.sites_parsed={
   "reason": ""
  },
  "test-ipv6.tld.sk": {
-  "mirror": "1",
   "site": "test-ipv6.tld.sk",
-  "hide": "0",
+  "mirror": true,
+  "hide": false,
   "v4": "http://ipv4.test-ipv6.tld.sk/images-nc/knob_green.png",
   "v6": "http://ipv6.test-ipv6.tld.sk/images-nc/knob_green.png",
   "loc": "SK",
@@ -517,9 +517,9 @@ GIGO.sites_parsed={
   "reason": ""
  },
  "test-ipv6.tokyo.gigo.com": {
-  "mirror": "1",
   "site": "test-ipv6.tokyo.gigo.com",
-  "hide": "0",
+  "mirror": true,
+  "hide": false,
   "v4": "http://ipv4.test-ipv6.tokyo.gigo.com/images-nc/knob_green.png",
   "v6": "http://ipv6.test-ipv6.tokyo.gigo.com/images-nc/knob_green.png",
   "loc": "JP",
@@ -528,9 +528,9 @@ GIGO.sites_parsed={
   "reason": ""
  },
  "test-ipv6.vtt.net": {
-  "mirror": "1",
   "site": "test-ipv6.vtt.net",
-  "hide": "0",
+  "mirror": true,
+  "hide": false,
   "v4": "http://ipv4.test-ipv6.vtt.net/images-nc/knob_green.png",
   "v6": "http://ipv6.test-ipv6.vtt.net/images-nc/knob_green.png",
   "loc": "RU",
@@ -539,9 +539,9 @@ GIGO.sites_parsed={
   "reason": ""
  },
  "testipv6.de": {
-  "mirror": "1",
   "site": "testipv6.de",
-  "hide": "0",
+  "mirror": true,
+  "hide": false,
   "v4": "http://ipv4.testipv6.de/images-nc/knob_green.png",
   "v6": "http://ipv6.testipv6.de/images-nc/knob_green.png",
   "loc": "DE",
@@ -550,9 +550,9 @@ GIGO.sites_parsed={
   "reason": ""
  },
  "www.ctbc.com.br": {
-  "mirror": "0",
   "site": "www.ctbc.com.br",
-  "hide": "0",
+  "mirror": false,
+  "hide": false,
   "v4": "http://ipv4only.ctbc.net.br/ctbc/pixel.gif",
   "v6": "http://ipv6only.ctbc.net.br/ctbc/pixel.gif",
   "loc": "BR",
@@ -561,9 +561,9 @@ GIGO.sites_parsed={
   "reason": ""
  },
  "www.duiadns.net": {
-  "mirror": "0",
   "site": "www.duiadns.net",
-  "hide": "0",
+  "mirror": false,
+  "hide": false,
   "v4": "http://ipv4.duiadns.net/1x1.gif",
   "v6": "http://ipv6.duiadns.net/1x1.gif",
   "loc": "NL",
@@ -572,9 +572,9 @@ GIGO.sites_parsed={
   "reason": ""
  },
  "www.excathedra.co": {
-  "mirror": "0",
   "site": "www.excathedra.co",
-  "hide": "0",
+  "mirror": false,
+  "hide": false,
   "v4": "https://ipv4.excathedra.co/knob_valid_green.png",
   "v6": "https://ipv6.excathedra.co/knob_valid_green.png",
   "loc": "UK",
@@ -583,9 +583,9 @@ GIGO.sites_parsed={
   "reason": ""
  },
  "www.heise.de": {
-  "mirror": "0",
   "site": "www.heise.de",
-  "hide": "0",
+  "mirror": false,
+  "hide": false,
   "v4": "http://www.four.heise.de/icons/ho/heise.gif",
   "v6": "http://www.six.heise.de/icons/ho/heise.gif",
   "loc": "DE",
@@ -594,9 +594,9 @@ GIGO.sites_parsed={
   "reason": ""
  },
  "www.radioradicale.it": {
-  "mirror": "0",
   "site": "www.radioradicale.it",
-  "hide": "0",
+  "mirror": false,
+  "hide": false,
   "v4": "http://ipv4.radioradicale.it/sites/www.radioradicale.it/files/pagine/2015/12/ipv6.png",
   "v6": "http://ipv6.radioradicale.it/sites/www.radioradicale.it/files/pagine/2015/12/ipv6.png",
   "loc": "IT",
@@ -605,9 +605,9 @@ GIGO.sites_parsed={
   "reason": ""
  },
  "www.rascom.ru": {
-  "mirror": "0",
   "site": "www.rascom.ru",
-  "hide": "0",
+  "mirror": false,
+  "hide": false,
   "v4": "http://wood.rascom.ru/ipv4.jpg",
   "v6": "http://wood6.rascom.ru/logo2.png",
   "loc": "RU",
@@ -616,9 +616,9 @@ GIGO.sites_parsed={
   "reason": ""
  },
  "www.rcs-rds.ro": {
-  "mirror": "0",
   "site": "www.rcs-rds.ro",
-  "hide": "0",
+  "mirror": false,
+  "hide": false,
   "v4": "http://ipv4.rcs-rds.ro/1x1.gif",
   "v6": "http://ipv6.rcs-rds.ro/1x1.gif",
   "loc": "RO",
@@ -627,9 +627,9 @@ GIGO.sites_parsed={
   "reason": ""
  },
  "www.steffann.nl": {
-  "mirror": "0",
   "site": "www.steffann.nl",
-  "hide": "0",
+  "mirror": false,
+  "hide": false,
   "v4": "http://v4-only.steffann.nl/v4-only.png",
   "v6": "http://v6-only.steffann.nl/v6-only.png",
   "loc": "NL",
@@ -638,9 +638,9 @@ GIGO.sites_parsed={
   "reason": ""
  },
  "www.yahoo.com": {
-  "mirror": "0",
   "site": "www.yahoo.com",
-  "hide": "0",
+  "mirror": false,
+  "hide": false,
   "v4": "http://v4test.yahoo.com/eng/test/eye-test.png",
   "v6": "http://v6test.yahoo.com/eng/test/eye-test.png",
   "loc": "global",
@@ -649,9 +649,9 @@ GIGO.sites_parsed={
   "reason": ""
  },
  "zeop.re": {
-  "mirror": "0",
   "site": "zeop.re",
-  "hide": "0",
+  "mirror": false,
+  "hide": false,
   "v4": "http://test-ipv4.zeop.re/ipv4/ipv4.png",
   "v6": "http://test-ipv6.zeop.re/ipv6/ipv6.png",
   "loc": "RE",
