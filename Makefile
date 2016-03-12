@@ -26,7 +26,7 @@ download-diff:
 	diff -cr po-snapshot/. po/.
 
 sites::
-	cd sites && ./parse-sites-yaml.pl
+	cd sites && ./parse-sites
 
 dist-prep: work sites
 	rm -fr work
