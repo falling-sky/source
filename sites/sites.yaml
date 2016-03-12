@@ -351,7 +351,7 @@ test-ipv6.vtt.net:
   v6: http://ipv6.test-ipv6.vtt.net/images-nc/knob_green.png
   monitor: 'VTT Network Operations Centre <noc@vtt.net>'
 test-ipv6.vyncke.org: 
-  hide: 0
+  hide: 1
   loc: FR
   mirror: 1
   provider: "Éric Vyncke"
@@ -421,11 +421,11 @@ www.delong.com:
   v6: http://thegoodlife.delong.com/cgi-bin/beaches.cgi
   monitor: 'Owen DeLong <owen@delong.com>'
 www.excathedra.co: 
-  hide: 1
+  hide: 0
   loc: UK
   provider: Ex Cathedra Photography
-  v4: http://ipv4.excathedra.co/knob_valid_green.png
-  v6: http://ipv6.excathedra.co/knob_valid_green.png
+  v4: https://ipv4.excathedra.co/knob_valid_green.png
+  v6: https://ipv6.excathedra.co/knob_valid_green.png
   monitor: 'Steve Durbin <steved@excathedra.co>'
 www.heise.de: 
   hide: 0
@@ -459,8 +459,8 @@ www.vyncke.org/ipv6status/:
   hide: 0
   loc: FR
   provider: Eric Vyncke (personal)
-  v4: http://test4.vyncke.org/knob_valid_green.png
-  v6: http://test6.vyncke.org/knob_valid_green.png
+  v4: https://test4.vyncke.org/knob_valid_green.png
+  v6: https://test6.vyncke.org/knob_valid_green.png
   monitor: 'Eric Vyncke <eric@vyncke.org>'
 www.yahoo.com: 
   hide: 0
