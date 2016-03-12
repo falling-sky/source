@@ -469,16 +469,6 @@ GIGO.sites_parsed={
       "v4" : "http://ipv4.test-ipv6.vtt.net/images-nc/knob_green.png",
       "v6" : "http://ipv6.test-ipv6.vtt.net/images-nc/knob_green.png"
    },
-   "test-ipv6.vyncke.org" : {
-      "hide" : "0",
-      "loc" : "FR",
-      "mirror" : "1",
-      "monitor" : "Eric Vyncke <eric@vyncke.org>",
-      "provider" : "Éric Vyncke",
-      "site" : "test-ipv6.vyncke.org",
-      "v4" : "http://ipv4.test-ipv6.vyncke.org/images-nc/knob_green.png",
-      "v6" : "http://ipv6.test-ipv6.vyncke.org/images-nc/knob_green.png"
-   },
    "testipv6.de" : {
       "hide" : "0",
       "loc" : "DE",
@@ -505,6 +495,15 @@ GIGO.sites_parsed={
       "site" : "www.duiadns.net",
       "v4" : "http://ipv4.duiadns.net/1x1.gif",
       "v6" : "http://ipv6.duiadns.net/1x1.gif"
+   },
+   "www.excathedra.co" : {
+      "hide" : "0",
+      "loc" : "UK",
+      "monitor" : "Steve Durbin <steved@excathedra.co>",
+      "provider" : "Ex Cathedra Photography",
+      "site" : "www.excathedra.co",
+      "v4" : "https://ipv4.excathedra.co/knob_valid_green.png",
+      "v6" : "https://ipv6.excathedra.co/knob_valid_green.png"
    },
    "www.heise.de" : {
       "hide" : "0",
@@ -555,8 +554,8 @@ GIGO.sites_parsed={
       "monitor" : "Eric Vyncke <eric@vyncke.org>",
       "provider" : "Eric Vyncke (personal)",
       "site" : "www.vyncke.org/ipv6status/",
-      "v4" : "http://test4.vyncke.org/knob_valid_green.png",
-      "v6" : "http://test6.vyncke.org/knob_valid_green.png"
+      "v4" : "https://test4.vyncke.org/knob_valid_green.png",
+      "v6" : "https://test6.vyncke.org/knob_valid_green.png"
    },
    "www.yahoo.com" : {
       "hide" : "0",

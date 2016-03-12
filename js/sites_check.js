@@ -191,10 +191,10 @@ GIGO.sites_init = function () {
 
 GIGO.sites_queue_entry = function (r) {
     if (!r.v4) {
-        r.v4 = "ipv4." + r.site + "/images-nc/knob_valid_green.png";
+        r.v4 = "http://ipv4." + r.site + "/images-nc/knob_valid_green.png";
     }
     if (!r.v6) {
-        r.v6 = "ipv6." + r.site + "/images-nc/knob_valid_green.png";
+        r.v6 = "http://ipv6." + r.site + "/images-nc/knob_valid_green.png";
     }
     
     // Mark up r.v4 for site analytics
@@ -468,7 +468,6 @@ GIGO.sites_start_ipv6_take2 = function (r) {
     url = r.v6 + "?nocache=" + Math.random();
 
 
-
     if (GIGO.is_replay()) {
         img_pending = 0;
         if (GIGO.was_failed_url(url)) {
@@ -480,7 +479,6 @@ GIGO.sites_start_ipv6_take2 = function (r) {
         GIGO.sites_next_in_queue();
         return;
     }
-
 
     setTimeout(function () {
 
@@ -675,8 +673,7 @@ GIGO.sites_start_ipv4 = function (r) {
     url = r.v4 + "?nocache=" + Math.random();
     img = jQuery('<img style="display:none" />');
     img_pending = 1;
-
-
+    
 
     jQuery(img).bind({
         load: function () {
