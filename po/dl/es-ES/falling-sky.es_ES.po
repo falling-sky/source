@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2016-03-07 01:30-0500\n"
+"PO-Revision-Date: 2016-03-11 14:30-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Spanish\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -150,11 +150,11 @@ msgstr "Una búsqueda de un nombre sólo IPv6 falló; Sin embargo, la búsqueda 
 
 #: messages.js
 msgid "A lookup for an IPv6-only name failed; yet the lookup and connect for dual-stack connected via IPv6. The IPv6-only lookup should have worked. Apple has a bug that sporadically causes some IPv6 lookups to fail. We saw evidence of it on this test. You can reload the page and try the test again. For more details, see <a href='http://openradar.appspot.com/7333104'>http://openradar.appspot.com/7333104</a>."
-msgstr ""
+msgstr "Falló una consulta por un nombre exclusivo IPv6; sin embargo la consulta y conexión vía doble pila a IPv6 ha funcionado. La consulta exclusiva vía IPv6 debería haber funcionado. Apple tiene un error que esporádicamente causa fallas con algunas consultas IPv6. Encontramos síntomas de ese error en esta prueba. Puede recargar la página y reintentar la prueba. Para más detalles, consulta <a href='http://openradar.appspot.com/7333104'>http://openradar.appspot.com/7333104</a>."
 
 #: messages.js
 msgid "A lookup for an dual-stack IPv4 and IPv6 name failed (at minimum it should have connected via IPv4). Apple has a bug that sporadically causes some IPv6 lookups to fail. We saw evidence of it on this test. You can reload the page and try the test again. For more details, see <a href='http://openradar.appspot.com/7333104'>http://openradar.appspot.com/7333104</a>."
-msgstr ""
+msgstr "La consulta por un nombre doble pila IPv4 e IPv6 falló (como mínimo debería haber conectado vía IPv4). Apple tiene un error que esporádicamente causa fallos en algunas consultas IPv6. Encontramos algunas evidencias de este problema en la prueba. Puede recargar la página y reintentar la prueba. Para más detalles, ver <a href='http://openradar.appspot.com/7333104'>http://openradar.appspot.com/7333104</a>."
 
 #: messages.js
 msgid "No IPv4 address detected"
@@ -1054,15 +1054,15 @@ msgstr "Instrucciones genéricas de unix para determinar su dirección IPv6 y ru
 
 #: faq/find_ip.inc
 msgid "Run"
-msgstr ""
+msgstr "Ejecutar"
 
 #: faq/find_ip.inc
 msgid "and look for <code>inet6</code> to see your possible IPv6 addresses."
-msgstr ""
+msgstr "y busque <code>inet6</code> para ver sus posibles direcciones IPv6."
 
 #: faq/find_ip.inc
 msgid "and look for <code>inet6</code> or <code>Internet6</code> or similar to find the IPv6 portion; then look for <code>default</code> or <code>::</code> or <code>::/0</code>."
-msgstr ""
+msgstr "y busque por <code>inet6</code> o <code>Internet6</code> o similares para encontrar la porción IPv6; luego busque por <code>default</code> ó <code>::</code> ó <code>::/0</code>."
 
 #: faq/find_ip.inc
 msgid "Windows users: To find your IP address using cmd.exe:"
@@ -1274,7 +1274,7 @@ msgstr "Si eso falla, deshabilite IPv6 enteramente en el enrutador."
 
 #: faq/broken_bogon.inc
 msgid "or"
-msgstr ""
+msgstr "o"
 
 #: faq/broken_bogon.inc
 msgid "This is a router using 6to4, but using a private IPv4 address. This will never work."
@@ -2154,7 +2154,7 @@ msgstr "¿Por qué IPv6?"
 
 #: faq_whyipv6.html
 msgid "This is an interesting question. IPv6 buys you only a bit more than you already have today; and most of that is a promise. IPv6 will help you preserve the level of Internet connectivity between your home and other locations on the Internet, without interference, as you enjoyed in 2012."
-msgstr ""
+msgstr "Es una pregunta interesante. IPv6 te entrega solo un poco más de lo que ya tienes hoy; y la mayor parte es una promesa. IPv6 te ayudará a tener el nivel de conectividad en Internet entre tu casa y los otros lugares de Internet, sin interferencia, tal como se podía disfrutar en 2012."
 
 #: faq_whyipv6.html
 msgid "The promise is the ability to give every device in your house a reachable network address. Each house will have practically unlimited network addresses (2<sup>64</sup> if you're curious - about 18 billion billions). Each house may potentially have more than that, particularly if they have the need for multiple networks within the home. Many ISPs will be able to easy give you 256 of those networks. <em>Running out of IPv6 address space will seem impossible for decades.</em>"
@@ -2442,7 +2442,7 @@ msgstr "Su servidor DNS se mostró confundido por el resultado - no sigue los es
 
 #: faq_buggydns1.html
 msgid "Your DNS server took the first piece of the IPV6 address, and memorized it as the IPv4 address."
-msgstr ""
+msgstr "Su servidor DNS tomó la primera parte de la dirección IPv6 y la memorizó como la dirección IPv4."
 
 #: faq_buggydns1.html
 msgid "The browser fails the IPv6 lookup, but \"succeeds\" in getting a bogus IPv4 address."
@@ -2498,7 +2498,7 @@ msgstr "Se puede ver una ilustración de esto, haciendo:"
 
 #: faq_buggydns1.html
 msgid "Substitute the 192.168.1.1 with the resolver being used by the host. If the \"aaaa\" request comes back with no answer, but the \"a\" answer does, this is a confirmation of a broken DNS cache or forwarder. The actual DNS information for buggydns1.test-ipv6.com has only an IPv6 record configured."
-msgstr ""
+msgstr "Reemplace el 192.168.1.1 con el \"resolver\" que está usando el equipo. Si la consulta \"aaaa\" vuelve sin respuesta, pero sí tiene respuesta por \"a\", es una confirmación de un \"cache\" o un \"forwarder\" DNS con mal funcionamiento. La información real en DNS para buggydns1.test-ipv6.com tiene solo configurado un registro IPv6."
 
 #: faq_avoids_ipv6.html
 msgid "Your browser is avoiding IPv6."
