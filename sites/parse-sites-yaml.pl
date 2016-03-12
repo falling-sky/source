@@ -2,8 +2,6 @@
 
 use YAML::Syck;
 use JSON::XS;
-require LWP::Parallel::UserAgent;
-use HTTP::Request;
 use utf8;
 use Encode;
 
