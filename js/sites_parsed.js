@@ -637,6 +637,17 @@ GIGO.sites_parsed={
   "monitor": "Sander Steffann \u003csander@steffann.nl\u003e",
   "reason": ""
  },
+ "www.vyncke.org/ipv6status/": {
+  "site": "www.vyncke.org/ipv6status/",
+  "mirror": false,
+  "hide": false,
+  "v4": "https://test4.vyncke.org/knob_valid_green.png",
+  "v6": "https://test6.vyncke.org/knob_valid_green.png",
+  "loc": "FR",
+  "provider": "Eric Vyncke (personal)",
+  "monitor": "Eric Vyncke \u003ceric@vyncke.org\u003e",
+  "reason": ""
+ },
  "www.yahoo.com": {
   "site": "www.yahoo.com",
   "mirror": false,
