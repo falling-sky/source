@@ -17,8 +17,8 @@ chomp($VARS->{"hostname"} = `hostname`);
 
 #  # Stop running yuicompressor, harder to debug
 #  # Warning: Much larger bandwidth requirements.
-#  $COMPRESS{"js"} = "cat < [INPUT] > [OUTPUT]"; 
-#  $COMPRESS{"css"} = "cat < [INPUT] > [OUTPUT]";
+$COMPRESS{"js"} = "cat < [INPUT] > [OUTPUT]"; 
+$COMPRESS{"css"} = "cat < [INPUT] > [OUTPUT]";
 
 
 1;
