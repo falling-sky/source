@@ -307,17 +307,6 @@ GIGO.sites_parsed={
   "monitor": "NOC NIC \u003cnoc@nic.cz\u003e",
   "reason": ""
  },
- "test-ipv6.ernet.in": {
-  "site": "test-ipv6.ernet.in",
-  "mirror": true,
-  "hide": false,
-  "v4": "http://ipv4.test-ipv6.ernet.in/images-nc/knob_green.png",
-  "v6": "http://ipv6.test-ipv6.ernet.in/images-nc/knob_green.png",
-  "loc": "IN",
-  "provider": "IPv6 Division of ERNET India",
-  "monitor": "Praveen Misra \u003cpraveen@ipv6.ernet.in\u003e",
-  "reason": ""
- },
  "test-ipv6.fratec.net": {
   "site": "test-ipv6.fratec.net",
   "mirror": true,

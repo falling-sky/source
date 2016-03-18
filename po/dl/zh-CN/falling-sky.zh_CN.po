@@ -1,13 +1,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2016-03-15 10:30-0400\n"
+"PO-Revision-Date: 2016-03-17 10:15-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Chinese Simplified\n"
-"MIME-Version: 1.0\\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\\nPlural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: crowdin.com\n"
 "X-Crowdin-Project: falling-sky\n"
 "X-Crowdin-Language: zh-CN\n"
@@ -188,7 +186,7 @@ msgstr "<b>我们的测试表明您的IPv6设置存在问题，这将导致您�
 
 #: messages.js
 msgid "<b>Our tests show that you may have MTU problems with IPv6; this can cause web sites to load slow (or not at all) when web sites enable IPv6.</b>"
-msgstr "<b>我们的测试显示您将可能遇到IPv6上的MTU问题；当网站启动IPv6时，这可能会导致网站加载慢（也可能不会）。</b>"
+msgstr "<b>我们的测试显示您将可能遇到IPv6上的MTU问题；当网站启用IPv6时，这可能会导致网站加载变慢（也可能不会）。</b>"
 
 #: messages.js
 msgid "We looked up an IPv6 address, but your DNS server (possibly your home router) mangled the response, and is treating it as (broken) IPv4."
@@ -1056,7 +1054,7 @@ msgstr "确定您的IPv6地址和默认路由的常规 unix 命令指南："
 
 #: faq/find_ip.inc
 msgid "Run"
-msgstr ""
+msgstr "运行"
 
 #: faq/find_ip.inc
 msgid "and look for <code>inet6</code> to see your possible IPv6 addresses."
@@ -1064,7 +1062,7 @@ msgstr ""
 
 #: faq/find_ip.inc
 msgid "and look for <code>inet6</code> or <code>Internet6</code> or similar to find the IPv6 portion; then look for <code>default</code> or <code>::</code> or <code>::/0</code>."
-msgstr ""
+msgstr "并查找 <code>inet6</code> 或者 <code>Internet6</code> 或者其他相似的表述找到 IPv6 部分，然后寻找 <code>default</code> 或者 <code>::</code> 或者 <code>::/0</code>。"
 
 #: faq/find_ip.inc
 msgid "Windows users: To find your IP address using cmd.exe:"
@@ -1276,7 +1274,7 @@ msgstr "如果失败，在路由器上完全禁用IPv6。"
 
 #: faq/broken_bogon.inc
 msgid "or"
-msgstr ""
+msgstr "或"
 
 #: faq/broken_bogon.inc
 msgid "This is a router using 6to4, but using a private IPv4 address. This will never work."
@@ -1628,7 +1626,7 @@ msgstr "浏览器过滤器意味着“A”和“AAAA”测试都失败。是由�
 
 #: stats.html
 msgid "Brokeness goes down, when volume goes up. This is due to having a wider sample of average people (versus people explicitly testing a new IPv6 setup)."
-msgstr "容量越大，故障越少。这是因为有了更广的，一般人的样本（而不是明显在测试新安装的IPv6的人）"
+msgstr "容量越大，故障越少。这是因为有了更广的，一般人的样本（而不是明显在测试新安装的IPv6的人）。"
 
 #: stats.html
 msgid "These graphs show the last 60 days of activity at <span lookup=site.name>site</span>"
@@ -2088,7 +2086,7 @@ msgstr "一些浏览器插件执行符合上述行为的政策。他们会阻止
 
 #: faq/plugins_firefox.inc
 msgid "In the case of Firefox, the most common plugins that cause problems are AdBlock and RequestPolicy. There are probably others - any which claims to prevent XSS, CSRF, or Cross Site Scripting can be a problem. Try disabling these plugins (either temporarilly via any menu they offer you, or via the Firefox add-ons menu)."
-msgstr ""
+msgstr "对于 Firefox 来说，导致问题的最常见插件是 AdBlock 和 RequestPolicy。也有可能是其它的任何号称可以防止 XSS、CSRF，或者跨站脚本攻击的插件，它们都可能会导致问题。请尝试禁用这些插件（通过插件的菜单暂时禁用它们，或者通过 Firefox 的加载项菜单）。"
 
 #: faq_firefox_plugins.html
 msgid "Alternative test for you.."
@@ -2324,7 +2322,7 @@ msgstr "问：还有什么会导致PMTUD失败？"
 
 #: faq_pmtud.html
 msgid "Tunnels inside of tunnels. One might be your own; the other, you may not see. Internet service providers often use tunnels either to simplify their topology; to hide it; or to transport things in a more convenient way. However, each tunnel used requires adding a bit of a header to the top of the packet - making the packet bigger. The problem lies in that routers have a maximum size packet they will route."
-msgstr ""
+msgstr "隧道中的隧道。一个可能是你自己的，另外一个你可能看不到。互联网服务提供商（ISP）经常使用隧道来简化他们的拓扑结构；或者去隐藏它；或者用一种更方便的方式来传输东西。然而，每个隧道都会在包的顶端加一个头部——这会让包变大。于是问题来了，每个路由器都限制了他们能传输的最大的数据包的大小。"
 
 #: faq_pmtud.html
 msgid "This is what it looks like when you use 6to4, 6in4, Teredo, and other types of tunnels:"

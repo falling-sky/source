@@ -1,13 +1,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2016-03-15 10:30-0400\n"
+"PO-Revision-Date: 2016-03-17 21:43-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: German\n"
-"MIME-Version: 1.0\\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: crowdin.com\n"
 "X-Crowdin-Project: falling-sky\n"
 "X-Crowdin-Language: de\n"
@@ -180,8 +178,7 @@ msgstr "<b>Deaktivieren Sie Turbomodus in Opera und starten Sie den Test erneut<
 
 #: messages.js
 msgid "<b>Good news!</b> Your current configuration will continue to work as web sites enable IPv6."
-msgstr "<b>Gute Nachrichten!</b> Ihre Konfiguration wird auch weiterhin funktionieren, wenn andere Webseiten\n"
-"IPv6 aktivieren."
+msgstr "<b>Gute Nachrichten!</b> Ihre Konfiguration wird auch weiterhin funktionieren, wenn andere Webseiten IPv6 aktivieren."
 
 #: messages.js
 msgid "<b>Our tests show that you will have a broken or misconfigured IPv6 setup, and this will cause problems as web sites enable IPv6.</b>"
