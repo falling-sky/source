@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2016-03-19 22:51-0400\n"
+"PO-Revision-Date: 2016-03-20 00:15-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Chinese Simplified\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -1770,7 +1770,7 @@ msgstr "在传统IPv4互联网连接上，流量从你而来，到你的ISP而�
 
 #: faq_6to4.html
 msgid "With unmanaged 6to4 connections (created \"automatically\" or without explicit gateway information) the process is a fair bit different. IPv6 is put into an IPv4 packet - much like sticking a letter in an envelope. This packet is sent to the \"nearest available\" gateway. Your ISP<i>may</i> run one of these; most do not. Chances are the one you use, will be run by a good samaritan who's trying to contribute to the community. This relay will take the IPV6 from inside your IPv4 packet, and then forward it over the IPV6 Internet."
-msgstr ""
+msgstr "使用（“自动”创建的或者没有显式的网关信息的）非托管的 6to4 连接之后，这个过程变得有点不同。IPv6 被放进一个 IPv4 的包——就像把一封信放进信封里粘好那样。这个数据包被发送到“距离最短的可用的”网关。你的 ISP <i>可能</i>会跑其中的一个；更多时候不会这么做。最好的情况是被一个想对社会做出贡献的好心人所运行。这个中继会把 IPv6 从你的 IPv4 包中拿出来，然后将其转发到 IPv6 因特网。"
 
 #: faq_6to4.html
 msgid "Traffic from the web site takes a similiar path. That web site replies back to your automatic IPv6 address. This is routed to the nearest 6to4 relay to that web site. This is not deterministic from your part, at all. In fact, you won't even be able to tell where this relay is. That relay will take the IPv6 packet, stick it inside an IPv4 packet, and then send to your router."
@@ -1810,7 +1810,7 @@ msgstr "因为这个最大尺寸，您的IPv6数据包实际上必须坐垫小�
 
 #: faq_6to4.html
 msgid "Further down the line, there may be another network with even tigher restrictions on the packet size. That network may itself be a tunnel - ISPs occasionally have to do that. This is where the problem often - lies. The IPv4 tunnel will send a message back towards you, - indicating that the packet was too big - but you don't get it. Even - if you do, your IPv6 packets don't get the message, so ultimately - you never reduce your packet size."
-msgstr ""
+msgstr "再往下走，可能有其它在包大小上限制更严格的网络。这个网络本身可能就是一个隧道——ISP 有时不得不这么做。这经常是问题出现的原因。IPv4 隧道会发回一个消息表明数据包太大——但是你不会得到它。甚至——如果你这样做的话，你的 IPv6 包也不会得到消息。所以最后——你永远不会减少你的包大小。"
 
 #: faq_6to4.html
 msgid "For some people, reducing the MTU size on IPv6 will help. 1280 is the minimum legal size. You can try values between 1400 to 1480 if you really want to find the one magic value that seems to work for you; but if you do touch MTU at all I'd recommend just doing 1280, and avoid later frustration."
@@ -2154,7 +2154,7 @@ msgstr "为什么要ipv6？"
 
 #: faq_whyipv6.html
 msgid "This is an interesting question. IPv6 buys you only a bit more than you already have today; and most of that is a promise. IPv6 will help you preserve the level of Internet connectivity between your home and other locations on the Internet, without interference, as you enjoyed in 2012."
-msgstr ""
+msgstr "这是一个有趣的问题。IPv6 给你的只比你现在拥有的多一点，并且那大部分还只是停留在纸上。IPv6 会帮助你保持从你家到互联网上其它位置的没有干扰的互联网连接，就像你在 2012 年享受到的那样。"
 
 #: faq_whyipv6.html
 msgid "The promise is the ability to give every device in your house a reachable network address. Each house will have practically unlimited network addresses (2<sup>64</sup> if you're curious - about 18 billion billions). Each house may potentially have more than that, particularly if they have the need for multiple networks within the home. Many ISPs will be able to easy give you 256 of those networks. <em>Running out of IPv6 address space will seem impossible for decades.</em>"
