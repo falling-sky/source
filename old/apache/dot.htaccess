@@ -1,0 +1,60 @@
+
+# Enable etags.  Improve cachability of
+# most stuff.
+FileETag MTime
+
+# We no longer will use cookies.
+<IfModule mod_usertrack.c>
+CookieTracking off
+</IfModule>
+
+################################################################
+# Negotiation                                                  #
+################################################################
+
+Options +MultiViews
+LanguagePriority en-us en 
+ForceLanguagePriority prefer fallback
+
+################################################################
+# Languages                                                    #
+################################################################
+
+[% GET AddLanguage %]
+
+################################################################
+# file types                                                   #
+################################################################
+
+AddType "text/html;charset=UTF-8" .html
+AddType "text/javascript;charset=UTF-8" .js
+AddType "text/css;charset=UTF-8" .css
+AddType "text/plain;charset=UTF-8" .yaml
+RemoveType .gz
+AddEncoding x-gzip .gz
+
+#EOF
+
+################################################################
+# Hide private files                                           #
+################################################################
+
+<FilesMatch "private">
+order allow,deny
+deny from all
+</FilesMatch>
+
+<IfModule mod_rewrite.c>
+RewriteRule ^/isp/ http://test-ipv6.com/isp.html [R]
+RewriteEngine On
+</IfModule>
+
+
+#####################################################################
+# Help with auditing remote mirrors to see which version of these   #
+# Apache config files are being used by creating an artificial HTTP #
+# redirect back to the main page                                    #
+#                                                                   #
+#####################################################################
+Redirect 307 /htrev/ /?htrev=BUILDMD5HASH
+

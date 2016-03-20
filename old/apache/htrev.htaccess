@@ -1,0 +1,2 @@
+Redirect 307 /htrev/ /?htrev=[% GET git_Revision %]
+

@@ -3,3 +3,5 @@ po/missing.*.po
 fsky-content-*tgz
 work/
 po/crowdin.yaml
+fsbuilder
+src/github.com
