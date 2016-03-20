@@ -1,0 +1,195 @@
+[% PROCESS "inc/header.inc" %]
+[% $page := "Help Desk Information" %]
+[% PROCESS "inc/list-nav.inc" %]
+
+<div id=content>
+<h1 id="title">{{Help Desk Information}}</h1>
+
+  <div class="question">
+    {{ Q: What is the Help Desk tab for? }}
+  </div>
+
+  <div class="answer">
+    {{ 
+    This tab is intended to help provide a brief, concise explanation
+    of your connectivity.  This can be read over the phone, if needed,
+    to a service provider.  This tab has less hand-holding; it is 
+    intended for a help desk to understand (as compared to an end user).
+    }}
+    <p>
+    {{This special instance shares in a very compact way:}}
+    <ul>
+    <li>{{Status of each protocol}}</li>
+    <li>{{Warn of slow/timeout}}</li>
+    <li>{{Warn of MTU}}</li>
+    <li>{{Status of reachability to “other sites” (as compact as possible)}}</li>
+    <li>{{IP address shown, in case tech support needs it.}}</li>
+    <li>{{List of unreachable sites, if any}}</li>
+    </ul>
+    
+    </p>
+  </div>
+  
+  <div class="question">
+   {{ Q: What is the easiest way to send users to the Help Desk tab? }}
+  </div>
+  <div class="answer">
+  {{
+  There are several ways to do it.  Some of these are more obvious than the
+  others when reading; some of them may be easier when read over the phone.
+  In all of these cases, the "Help Desk" tab is moved to be the first and
+  default tab shown to the user, instead of exposing the more detailed
+  user-facing page.
+  }}
+
+  <ul>
+  <li><a target=_new href='http://test-ipv6.com/helpdesk'>test-ipv6.com/helpdesk</a> (preferred for printed documentation)</li>
+  <li><a target=_new href='http://test-ipv6.com/isp'>test-ipv6.com/isp</a></li>
+  <li><a target=_new href='http://helpdesk.test-ipv6.com/'>helpdesk.test-ipv6.com</a></li>
+  <li><a target=_new href='http://isp.test-ipv6.com/'>isp.test-ipv6.com</a></li>
+  </br>&nbsp;</li>
+  <li><a target=_new href='http://testv6.com/helpdesk'>testv6.com/helpdesk</a>
+  (spoken English, "test vee six dot com slash helpdesk")</li>
+  <li><a target=_new href='http://testv6.com/isp'>testv6.com/isp</a></li>
+  <li><a target=_new href='http://helpdesk.testv6.com/'>helpdesk.testv6.com</a></li>
+  <li><a target=_new href='http://isp.testv6.com/'>isp.testv6.com</a></li>
+  </ul>
+
+  {{
+  Mirror sites may not have all the fancy DNS names; they are 
+  more likely to be useful like this:
+    }}
+    
+  <ul>
+  <li><a target=_new href='/helpdesk'>[this mirror]/helpdesk</a></li>
+  <li><a target=_new href='/isp'>[this mirror]/isp</a></li>
+  </ul>
+  </div> 
+
+</div>
+
+
+
+
+  <div class="question">
+    {{ Q: What are the Help Desk codes?}}
+  </div>
+
+  <div class="answer">
+ {{
+These are meant to offer a quick, short way for your customer to 
+tell you the status of their Internet connectivity, as validated
+by this site.  They are also meant to be easy to memorize.
+}}
+
+<table border=1>
+<tr>
+<th>code</th>
+<th>short description</th>
+<th>recommended action</th>
+</tr>
+
+<td>112</td>
+<td>IPv4, plus Broken IPv6</td>
+<td>IPv6 related attempts are timing out.  This is not a quick fix.  Verify
+the proper IPv6 address has been provisioned; verify the IPv6 route is
+correct.  Check for unexpected or outdated firewalls and firewall rules.  Other ideas are at <a href="/broken.html">broken.html</a>.
+Of all the status codes, this is the one that suggests that users will have
+problems with many major web sites today, due to timeouts with IPv6.</br>
+(You can remember this code as the Emergency number for many parts of the
+world; much like America's 911).
+</td>
+</tr>
+
+<tr>
+<td>4</td>
+<td>IPv4 only</td>
+<td>Provision working IPv6 to the user; ensure the user has a modern home
+router and a modern operating system.  Note that Teredo might have been
+detected; but if it was, we found that it was not used for normal named
+web sites (only for raw IPv6 address connections).</td>
+</tr>
+
+<tr>
+<td>4t</td>
+<td>IPv4 plus Teredo</td>
+<td>Provision working IPv6 to the user; ensure the user has a modern home
+router and a modern operating system.  Teredo will be ignored when a useful
+IPv6 service is found.</td>
+</tr>
+
+<tr>
+<td>46</td>
+<td>IPv4 + IPv6</td>
+<td>Rejoice!</td>
+</tr>
+
+<tr>
+<td>46t</td>
+<td>Dual Stack, Possible Tunnel</td>
+<td>This is not necesarily an error. Make sure that the ISP mentioned for
+both IPv4 and IPv6 look reasonable.</td>
+</tr>
+
+<tr>
+<td>624</td>
+<td>6to4</td>
+<td>Provision working IPv6 to the user; ensure the user has a modern home
+router and a modern operating system.  6to4 will be ignored when a useful
+IPv6 service is found.</td>
+</tr>
+
+
+<tr>
+<td>64</td>
+<td>NAT64</td>
+<td>This is probably not an error. We found IPv6 to work fine;
+but we found IPv4 only works with named urls (and not raw 
+numbers).  This may break a few applications like Skype,
+but otherwise IPv4 mostly works.
+</td>
+</tr>
+
+
+<td>64t</td>
+<td>NAT64, Possible Tunnel</td>
+<td>A cross between '64' and '46t' above.  NAT64 is in use;
+and the ISP is possibly different for IPv4 vs IPv6.
+Check the ISP names for sensible values.
+</td>
+</tr>
+
+<tr>
+<td>6</td>
+<td>IPv6 only.</td>
+<td>This is expected in some lab and experimental setups only.  Note that to
+reach this status, the IPv6-only user will have to connect to 
+<a href="http://ipv6.test-ipv6.com">ipv6.test-ipv6.com</a> (or similar
+mirror sites).
+</td>
+</tr>
+</table>
+
+
+
+
+  <div class="question">
+    {{ Q: How can I recommend changes to the Help Desk tab?}}
+  </div>
+
+  <div class="answer">
+ {{
+ Suggestions are welcome; especially from those operating help desks.
+ This tab is really for you - not for the consumer.  Please
+ keep in mind that we want to keep the tab brief, concise, and easy
+ to read for the average user over the phone to your help desk team.
+ Send suggestions to jfesler@test-ipv6.com .
+ }}
+  </div>
+
+
+
+</div>
+
+
+[% PROCESS "inc/footer.inc" %]

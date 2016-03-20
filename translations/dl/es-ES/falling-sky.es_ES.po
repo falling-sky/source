@@ -1,0 +1,2892 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: falling-sky\n"
+"PO-Revision-Date: 2016-03-20 17:00-0400\n"
+"Last-Translator: jfesler <jfesler@gigo.com>\n"
+"Language-Team: Spanish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: falling-sky\n"
+"X-Crowdin-Language: es-ES\n"
+"X-Crowdin-File: falling-sky.pot\n"
+"Language: es_ES\n"
+
+msgid ""
+msgstr ""
+"Project-Id-Version: falling-sky\n"
+"PO-Revision-Date: 2016-03-20 17:00-0400\n"
+"Last-Translator: jfesler <jfesler@gigo.com>\n"
+"Language-Team: Spanish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: falling-sky\n"
+"X-Crowdin-Language: es-ES\n"
+"X-Crowdin-File: falling-sky.pot\n"
+"Language: es_ES\n"
+
+msgid ""
+msgstr ""
+"Project-Id-Version: falling-sky\n"
+"PO-Revision-Date: 2016-03-20 17:00-0400\n"
+"Last-Translator: jfesler <jfesler@gigo.com>\n"
+"Language-Team: Spanish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: falling-sky\n"
+"X-Crowdin-Language: es-ES\n"
+"X-Crowdin-File: falling-sky.pot\n"
+"Language: es_ES\n"
+
+msgid ""
+msgstr ""
+"Project-Id-Version: falling-sky\n"
+"PO-Revision-Date: 2016-03-20 17:00-0400\n"
+"Last-Translator: jfesler <jfesler@gigo.com>\n"
+"Language-Team: Spanish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: falling-sky\n"
+"X-Crowdin-Language: es-ES\n"
+"X-Crowdin-File: falling-sky.pot\n"
+"Language: es_ES\n"
+
+msgid ""
+msgstr ""
+"Project-Id-Version: falling-sky\n"
+"PO-Revision-Date: 2016-03-20 17:00-0400\n"
+"Last-Translator: jfesler <jfesler@gigo.com>\n"
+"Language-Team: Spanish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: falling-sky\n"
+"X-Crowdin-Language: es-ES\n"
+"X-Crowdin-File: falling-sky.pot\n"
+"Language: es_ES\n"
+
+msgid ""
+msgstr ""
+"Project-Id-Version: falling-sky\n"
+"PO-Revision-Date: 2016-03-20 17:00-0400\n"
+"Last-Translator: jfesler <jfesler@gigo.com>\n"
+"Language-Team: Spanish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: falling-sky\n"
+"X-Crowdin-Language: es-ES\n"
+"X-Crowdin-File: falling-sky.pot\n"
+"Language: es_ES\n"
+
+msgid ""
+msgstr ""
+"Project-Id-Version: falling-sky\n"
+"PO-Revision-Date: 2016-03-20 17:00-0400\n"
+"Last-Translator: jfesler <jfesler@gigo.com>\n"
+"Language-Team: Spanish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: falling-sky\n"
+"X-Crowdin-Language: es-ES\n"
+"X-Crowdin-File: falling-sky.pot\n"
+"Language: es_ES\n"
+
+msgid ""
+msgstr ""
+"Project-Id-Version: falling-sky\n"
+"PO-Revision-Date: 2016-03-20 17:00-0400\n"
+"Last-Translator: jfesler <jfesler@gigo.com>\n"
+"Language-Team: Spanish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: falling-sky\n"
+"X-Crowdin-Language: es-ES\n"
+"X-Crowdin-File: falling-sky.pot\n"
+"Language: es_ES\n"
+
+msgid ""
+msgstr ""
+"Project-Id-Version: falling-sky\n"
+"PO-Revision-Date: 2016-03-20 17:00-0400\n"
+"Last-Translator: jfesler <jfesler@gigo.com>\n"
+"Language-Team: Spanish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: falling-sky\n"
+"X-Crowdin-Language: es-ES\n"
+"X-Crowdin-File: falling-sky.pot\n"
+"Language: es_ES\n"
+
+msgid ""
+msgstr ""
+"Project-Id-Version: falling-sky\n"
+"PO-Revision-Date: 2016-03-20 17:00-0400\n"
+"Last-Translator: jfesler <jfesler@gigo.com>\n"
+"Language-Team: Spanish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: falling-sky\n"
+"X-Crowdin-Language: es-ES\n"
+"X-Crowdin-File: falling-sky.pot\n"
+"Language: es_ES\n"
+
+msgid ""
+msgstr ""
+"Project-Id-Version: falling-sky\n"
+"PO-Revision-Date: 2016-03-20 17:00-0400\n"
+"Last-Translator: jfesler <jfesler@gigo.com>\n"
+"Language-Team: Spanish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: falling-sky\n"
+"X-Crowdin-Language: es-ES\n"
+"X-Crowdin-File: falling-sky.pot\n"
+"Language: es_ES\n"
+
+msgid ""
+msgstr ""
+"Project-Id-Version: falling-sky\n"
+"PO-Revision-Date: 2016-03-20 17:00-0400\n"
+"Last-Translator: jfesler <jfesler@gigo.com>\n"
+"Language-Team: Spanish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: falling-sky\n"
+"X-Crowdin-Language: es-ES\n"
+"X-Crowdin-File: falling-sky.pot\n"
+"Language: es_ES\n"
+
+#: "inc/mirrorconfig.js"
+msgid "This mirror is provided by"
+msgstr "Este servidor es proporcionado por"
+
+#: "inc/messages.js"
+msgid "bad"
+msgstr "Malo"
+
+#: "inc/messages.js"
+msgid "ok"
+msgstr "Ok"
+
+#: "inc/messages.js"
+msgid "slow"
+msgstr "Lento"
+
+#: "inc/messages.js"
+msgid "timeout"
+msgstr "tiempo de espera excedido"
+
+#: "inc/messages.js"
+msgid "Connections to urls with IP addresses appear to be blocked; perhaps by a web filter such as 'NoScript' or 'RequestPolicy' installed into your browser, or filtering in your proxy server. This limits some of the functionality of this test site."
+msgstr "Conexiones a urls utilizando la dirección IP parecen ser bloqueadas; quizás por un filtro web como 'NoScript' o 'RequestPolicy' instalado en su navegador. Esto limita algunas funciones de la web."
+
+#: "inc/messages.js"
+msgid "IPv4 Connections using DNS work; but literal IP addresses in urls do not. These are rarely used on the web today."
+msgstr "Conexiones IPv4 usando DNS funcionan; pero conexiones a IP literales no. Estas son usadas raramente en la web."
+
+#: "inc/messages.js"
+msgid "IPv6 Connections using DNS work; but literal IP addresses in urls do not. These are rarely used on the web today."
+msgstr "Conexiones IPv6 usando DNS funcionan; pero conexiones a IP literales no. Estas son usadas raramente en la web hoy en día."
+
+#: "inc/messages.js"
+msgid "You appear to be using a public 6to4 gateway; your router may be providing this to you automatically. Such public gateways have no service level agreements; you may see performance problems using such. Better would be to get a native IPv6 address from your ISP."
+msgstr "Parece que estás usando una puerta de enlace 6to4 pública; tu enrutador puede ofrecer esto automáticamente. Estas puertas de enlace no tienen acuerdos de nivel de servicio; usted puede encontrar problemas de rendimiento usando esto. Es mejor obtener una IPv6 nativa del ISP."
+
+#: "inc/messages.js"
+msgid "Your IPv6 connection appears to be using Teredo, a type of IPv4/IPv6 translation using a public gateway. The quality for this <i>may</i> suffer, as you are using a public gateway to reach IPv6 based sites."
+msgstr "Tu conexión IPv6 parece que está utilizando Teredo, un tipo de traducción IPv4/IPv6 usando una puerta de enlace pública. La calidad de esto <i>puede</i> sufrir, ya que está utilizando una puerta de enlace pública para acceder a páginas con IPv6."
+
+#: "inc/messages.js"
+msgid "Your IPv6 connection appears to be using Teredo, a type of IPv4/IPv6 gateway; currently it connects only to direct IP's. Your browser will not be able to go to IPv6 sites by name. This means the current configuration is not useful for browsing IPv6 web sites."
+msgstr "Tu conexión IPv6 parece que está utilizando Teredo, un tipo de puerta de enlace entre IPv4 y IPv6; actualmente solo se conecta a IPs directamente. Su navegador no será capaz de acceder a páginas IPv6 por DNS. Esto significa que su actual configuración no es útil para navegar por sitios web IPv6."
+
+#: "inc/messages.js"
+msgid "Your IPv6 connection appears to be using Teredo, a type of IPv4/IPv6 gateway. Your particular teredo configuration is only used as a protocol of last resort. When visiting a site with both IPv4 and IPv6, IPv4 will be preferred."
+msgstr "Tu conexión IPv6 parece estar usando Teredo, un tipo de puerta de enlace de IPv4/IPv6. Tu configuración particular Teredo se utiliza solamente como un protocolo de último recurso. Al visitar un sitio con IPv4 e IPv6, IPv4 será preferido."
+
+#: "inc/messages.js"
+msgid "Danger! IPv6 sorta works - however, large packets appear to fail, giving the appearance of a broken website. If a publisher publishes to IPv6, you will believe their web site to be broken. Ask your ISP about MTU issues; possibly with your tunnel."
+msgstr "¡Peligro! IPv6 funciona más o menos - sin embargo, los paquetes grandes parecen fallar, dando la apariencia de un sitio web roto. Si un editor publica a IPv6, creerás que su sitio web está roto. Pregunta a tu ISP sobre cuestiones de MTU; posiblemente con el túnel."
+
+#: "inc/messages.js"
+msgid "Check your firewall to make sure that ICMPv6 messages are allowed (in particular, Type 2 or Packet Too Big)."
+msgstr "Revisa tu firewall para asegurarte de que están permitidos mensajes ICMPv6 (en particular, tipo 2 o paquete demasiado grande)."
+
+#: "inc/messages.js"
+msgid "Test results inconclusive; they were not consistent with expectations. Please rerun the test, and if the results are the same, please fill out the contact form."
+msgstr "Resultados de los test no concluyentes; No eran consistentes con las expectativas. Por favor, vuelva a ejecutar el test y si los resultados son los mismos, por favor llene el formulario de contacto."
+
+#: "inc/messages.js"
+msgid "For unknown reasons, your browser appears to operate slower when given the option of connecting to both IPv4 and IPv6. Please rerun the test, and if the results are the same, please fill out the contact form."
+msgstr "Por razones desconocidas, el navegador parece funcionar más lento cuando se le da la opción de conectarse a IPv4 e IPv6. Por favor, vuelva a ejecutar la prueba y si los resultados son los mismos, por favor llene el formulario de contacto."
+
+#: "inc/messages.js"
+msgid "You appear to be able to browse the IPv4 Internet only. You will not be able to reach IPv6-only sites."
+msgstr "Parece ser capaz de navegar por la red Internet IPv4 únicamente. No serás capaz de llegar a sitios sólo IPv6."
+
+#: "inc/messages.js"
+msgid "When a publisher offers both IPv4 and IPv6, your browser appears to be happy to take the IPv4 site without delay."
+msgstr "Cuando un editor ofrece IPv4 e IPv6, tu navegador parece estar feliz de coger el sitio IPv4 sin demora."
+
+#: "inc/messages.js"
+msgid "When a publisher offers both IPv4 and IPv6, your browser appears to slow down signficantly compared to an IPv4-only site. You may even believe the destination web site to be broken. This may be due to your IPv6 configuration."
+msgstr "Cuando un editor ofrece IPv4 e IPv6, tu navegador parece frenar significativamente en comparación a un sitio de sólo IPv4. Incluso puede que creas el sitio web destino está roto. Esto puede ser debido a tu configuración de IPv6."
+
+#: "inc/messages.js"
+msgid "When a publisher offers both IPv4 and IPv6, your browser will time out trying to connect. You may believe the site is down. This may be due to your IPv6 configuration. Consider disabling IPv6, or seeking help."
+msgstr "Cuando un editor ofrece IPv4 e IPv6, vencerá el temporizador del navegador intentando conectar. Puede que creas que el sitio está caído. Esto puede ser debido a tu configuración de IPv6. Considere deshabilitar IPv6, o buscar ayuda."
+
+#: "inc/messages.js"
+msgid "Connections to IPv4 are slow, but functional. Perhaps you or your ISP put you behind an IP sharing device (NAT) that is currently slow."
+msgstr "Las conexiones IPv4 son lentas, pero funcionales. Quizás tú o tu ISP te puso tras un dispositivo con IP compartida (NAT) que es actualmente lento."
+
+#: "inc/messages.js"
+msgid "You appear to be able to browse the IPv6 Internet only. You have no access to IPv4. That's pretty bold!"
+msgstr "Pareces ser capaz de navegar por la Internet IPv6 solamente.No tienes acceso a IPv4. ¡Eso es bastante atrevido!"
+
+#: "inc/messages.js"
+msgid "Connections to IPv6 are slow, but functional. Perhaps you are using a public IPv6 tunnel that is either slow, or not located near you."
+msgstr "Las conexiones a IPv6 son lentas, pero funcionales. Tal vez estás utilizando un túnel IPv6 público que es lento o que no está situado cerca de ti."
+
+#: "inc/messages.js"
+msgid "Connections to IPv6-only sites are timing out. Any web site that is IPv6 only, will appear to be down to you."
+msgstr "Están venciendo los temporizadores de las conexiones a sitios sólo IPv6. Cualquier sitio web que sea IPv6, parecerá estar caído."
+
+#: "inc/messages.js"
+msgid "Connections to IPv6-capable web sites hang. It appears that you may have IPv6 configured; and your computer believes that your IPv6 is working, with a route. It is however completely failing. Any web site that adds IPv6, will become unreachable to you. If you are unable to fix your IPv6 routing or connectivity, seek help. If all else fails, strongly consider disabling IP6 on host."
+msgstr "Las conexiones a sitios web compatibles con IPv6 se cuelgan. Parece que tenga IPv6 configurada; y su equipo cree que IPv6 está trabajando con una ruta. Sin embargo está fallando totalmente. Cualquier sitio web que añada IPv6, se convertirá en inalcanzable para ti. Si eres incapaz de arreglar tu conectividad o encaminamiento de IPv6, busca ayuda. Si todo lo demás falla, considera fuertemente desactivar IPv6 en host."
+
+#: "inc/messages.js"
+msgid "We are unable to test your system; it appears that a firewall or browser filter is preventing the test from running. Critical tests are failing. Try disabling any browser plugins, extensions, or add-ons (such as ad blockers); and reloading this page. If that still fails, you can leave a comment requesting help."
+msgstr "Somos incapaces de probar tu sistema; Parece que un firewall o filtro de navegador está impidiendo que la prueba funcione. Las pruebas críticas están fallando. Prueba a deshabilitar cualquier plugin, extensión o Add-on (como el bloqueo de anuncios) del navegador y volver a cargar esta página. Si eso todavía falla, puedes dejar un comentario solicitando ayuda."
+
+#: "inc/messages.js"
+msgid "We are unable to test your system; it appears that a firewall or browser filter is preventing the test from running. The dual-stack tests are failing. Try disabling any browser plugins, extensions, or add-ons (such as ad blockers); and reloading this page. If that still fails, you can leave a comment requesting help."
+msgstr "Somos incapaces de probar tu sistema; Parece que un firewall o filtro de navegador está impidiendo que la prueba funcione. Las pruebas de doble pila están fallando. Prueba a deshabilitar cualquier plugin, extensión o Add-on (como el bloqueo de anuncios) del navegador y volver a cargar esta página. Si eso todavía falla, puedes dejar un comentario solicitando ayuda."
+
+#: "inc/messages.js"
+msgid "Your browser is blocking the test urls. We will try alternate methods, but they may fail to show your IP address; and may affect the quality of the advice given."
+msgstr "Tu navegador está bloqueando las urls de prueba. Intentaremos métodos alternos, pero pueden fallar al mostrar tu dirección IP y puede afectar la calidad de los consejos dados."
+
+#: "inc/messages.js"
+msgid "The most likely cause is NoScript or AdBlock+. NoScript can be told to permit all scripts on this page (you may need to do this more than once). At minimum, permit the urls listed below."
+msgstr "La causa más probable es NoScript o AdBlock+. NoScript puede ser configurado para permitir todos los scripts en esta página (puede que necesites hacerlo más de una vez). Como mínimo, permite las urls enumeradas a continuación."
+
+#: "inc/messages.js"
+msgid "NAT64 detected. IPv6 works. IPv4 works for most purposes. Applications that are hard-coded for IPv4-only will fail. We are aware of at least one major voice-over-ip program that falls into this category. Your application's support staff may need a nudge to add proper IPv6 support."
+msgstr "NAT64 detectado. IPv6 funciona. IPv4 funciona para la mayoría de los propósitos. Las aplicaciones que son codificadas exclusivamente para IPv4 fallarán. Somos conscientes de por lo menos un importante programa de voz sobre ip que cae en esta categoría. El personal de apoyo de la aplicación puede necesitar un empujoncito para agregar la compatibilidad con IPv6 adecuada."
+
+#: "inc/messages.js"
+msgid "Your DNS server (possibly run by your ISP) appears to have IPv6 Internet access."
+msgstr "Tu servidor DNS (posiblemente controlado por tu ISP) parece tener acceso a Internet IPv6."
+
+#: "inc/messages.js"
+msgid "Your DNS server (possibly run by your ISP) appears to have no access to the IPv6 Internet, or is not configured to use it. This may in the future restrict your ability to reach IPv6-only sites."
+msgstr "Tu servidor DNS (posiblemente controlado por tu ISP) parece que no tiene acceso a Internet IPv6, o no está configurado para usarlo. En el futuro esto podría restringir tu capacidad para llegar a sitios sólo IPv6."
+
+#: "inc/messages.js"
+msgid "You are likely using a FireFox plugin that is causing IP based tests to fail. Examples: RequestPolicy. Please disable those while using this site."
+msgstr "Es probable que estés usando un plugin de Firefox que está causando que fallen los tests basados en IP . Ejemplos: RequestPolicy. Deshabilitalos durante el uso de este sitio."
+
+#: "inc/messages.js"
+msgid "A lookup for an IPv6-only name failed; yet the lookup and connect for dual-stack connected via IPv6. Something appears to be confused with the DNS lookups."
+msgstr "Una búsqueda de un nombre sólo IPv6 falló; Sin embargo, la búsqueda y la conexión para doble pila se conectó a través de IPv6. Parece  que algo está confuso con las búsquedas DNS."
+
+#: "inc/messages.js"
+msgid "A lookup for an IPv6-only name failed; yet the lookup and connect for dual-stack connected via IPv6. The IPv6-only lookup should have worked. Apple has a bug that sporadically causes some IPv6 lookups to fail. We saw evidence of it on this test. You can reload the page and try the test again. For more details, see <a href='http://openradar.appspot.com/7333104'>http://openradar.appspot.com/7333104</a>."
+msgstr "Falló una consulta por un nombre exclusivo IPv6; sin embargo la consulta y conexión vía doble pila a IPv6 ha funcionado. La consulta exclusiva vía IPv6 debería haber funcionado. Apple tiene un error que esporádicamente causa fallas con algunas consultas IPv6. Encontramos síntomas de ese error en esta prueba. Puede recargar la página y reintentar la prueba. Para más detalles, consulta <a href='http://openradar.appspot.com/7333104'>http://openradar.appspot.com/7333104</a>."
+
+#: "inc/messages.js"
+msgid "A lookup for an dual-stack IPv4 and IPv6 name failed (at minimum it should have connected via IPv4). Apple has a bug that sporadically causes some IPv6 lookups to fail. We saw evidence of it on this test. You can reload the page and try the test again. For more details, see <a href='http://openradar.appspot.com/7333104'>http://openradar.appspot.com/7333104</a>."
+msgstr "La consulta por un nombre doble pila IPv4 e IPv6 falló (como mínimo debería haber conectado vía IPv4). Apple tiene un error que esporádicamente causa fallos en algunas consultas IPv6. Encontramos algunas evidencias de este problema en la prueba. Puede recargar la página y reintentar la prueba. Para más detalles, ver <a href='http://openradar.appspot.com/7333104'>http://openradar.appspot.com/7333104</a>."
+
+#: "inc/messages.js"
+msgid "No IPv4 address detected"
+msgstr "Sin dirección IPv4 detectada"
+
+#: "inc/messages.js"
+msgid "No IPv6 address detected"
+msgstr "Sin dirección IPv6 detectada"
+
+#: "inc/messages.js"
+msgid "Your IP address(es) could not be detected due to inteference from browser add-ons."
+msgstr "No se pudo detectar tu dirección IP debido a interferencia de complementos de tu navegador de internet."
+
+#: "inc/messages.js"
+msgid "The Opera web browser seems to be break on this site frequently. <b>If you have trouble, try another browser</b>."
+msgstr "El navegador Opera suele fallar frecuentemente visitando este sitio. <b>Si tienes problemas, intenta con otro navegador</b>."
+
+#: "inc/messages.js"
+msgid "<b>Disable turbo mode on Opera, and try again.</b> Turbo mode is not compatible with the needs of this site."
+msgstr "<b>Deshabilta el modo  en Opera, e inténtalo de nuevo.</b> El modo turbo no es compatible con las necesidades de éste sitio."
+
+#: "inc/messages.js"
+msgid "<b>Good news!</b> Your current configuration will continue to work as web sites enable IPv6."
+msgstr "<b>Buena noticia!</b> Tu configuración actual segruirá funcionando cuando los sitios web activen IPv6."
+
+#: "inc/messages.js"
+msgid "<b>Our tests show that you will have a broken or misconfigured IPv6 setup, and this will cause problems as web sites enable IPv6.</b>"
+msgstr "<b>Las pruebas indican que tienes un problema de configuración IPv6, ésto causará problemas cuando los  sitios web habiliten IPv6.</b>"
+
+#: "inc/messages.js"
+msgid "<b>Our tests show that you may have MTU problems with IPv6; this can cause web sites to load slow (or not at all) when web sites enable IPv6.</b>"
+msgstr "<b>Las pruebas indican que tienes problemas de MTU con IPv6, ésto causará que los sitios web carguen muy lento (o incluso, que no carguen) cuando estos habiliten IPv6.</b>"
+
+#: "inc/messages.js"
+msgid "We looked up an IPv6 address, but your DNS server (possibly your home router) mangled the response, and is treating it as (broken) IPv4."
+msgstr "Hemos buscado una dirección IPv6, pero su DNS server (quizas su router) estropeo la respuesta y lo trató como una respuesta IPv4 rota."
+
+#: "inc/messages.js"
+msgid "It appears that you use a tunnel mechanism for either IPv4 or IPv6."
+msgstr "Aparentemente, utilizas un mecanismo de túnel para IPv4 o IPv6."
+
+#: "inc/messages.js"
+msgid "It appears that you use a managed tunnel mechanism, 6RD, to transport IPv6 over IPv4."
+msgstr "Aparentemente, utilizas un mecanismo de túnel, 6RD, para transportar IPv6 sobre IPv4."
+
+#: "inc/messages.js"
+msgid "We have detected that you are using a proxy. This means we are testing your proxy server, not your computer. Proxy details (as reported by your proxy 'Via' header): %details"
+msgstr "Hemos detectado que está utilizando un proxy. Esto significa que estamos probando el servidor proxy, y no su propio  equipo. Detalles del proxy (según lo informado por los encabezados 'via' de su proxy): %detalles"
+
+#: "inc/messages.js"
+msgid "We have detected that you are using a proxy. This means we are testing your proxy server, not your computer."
+msgstr "Hemos detectado que está utilizando un proxy. Esto significa que estamos probando el servidor proxy, y no su computadora."
+
+#: "inc/messages.js"
+msgid "IPv6 connections work, but connections using DNS names do not use IPv6. For some reason, your browser or your OS is not doing IPv6 DNS 'AAAA' lookups."
+msgstr "Conexiones IPv6 trabajan, pero conexiones usando nombres DNS no usan IPv6. Por alguna razón, su navegador o su sistema operativo no está haciendo búsquedas DNS IPv6 'AAAA' ."
+
+#: "inc/messages.js"
+msgid "We have suggestions to help you fix your system."
+msgstr "Tenemos sugerencias para ayudarle a arreglar su sistema."
+
+#: "inc/messages.js"
+msgid "Since you have IPv6, we are including a tab that shows how well you can reach other IPv6 sites. %sites"
+msgstr "Puesto que tienes IPv6, estamos incluyendo una ficha que muestra otros sitios IPv6 y cuán bien puede alcanzarlos. %sites"
+
+#: "inc/messages.js"
+msgid "Your browser has real working IPv6 address - but is avoiding using it. We're concerned about this."
+msgstr "Su navegador parece tener dirección IPv6 reale - pero evita usarlo. Estamos preocupados por esto."
+
+#: "inc/messages.js"
+msgid "faq: MTU"
+msgstr "FAQ: MTU"
+
+#: "inc/messages.js"
+msgid "faq: No IPv4"
+msgstr "FAQ: Sin IPv4"
+
+#: "inc/messages.js"
+msgid "faq: No IPv6"
+msgstr "FAQ: Sin IPv6"
+
+#: "inc/messages.js"
+msgid "faq: 6to4"
+msgstr "FAQ: 6to4"
+
+#: "inc/messages.js"
+msgid "faq: Teredo Minimum"
+msgstr "FAQ: Teredo mínimo"
+
+#: "inc/messages.js"
+msgid "faq: v6ns Bad"
+msgstr "FAQ: malo v6ns"
+
+#: "inc/messages.js"
+msgid "faq: Browser Plugins"
+msgstr "FAQ: Plugins de navegador"
+
+#: "inc/messages.js"
+msgid "faq: Firefox Add-Ons"
+msgstr "FAQ: Complementos Firefox"
+
+#: "inc/messages.js"
+msgid "faq: Opera"
+msgstr "FAQ: Opera"
+
+#: "inc/messages.js"
+msgid "faq: Buggy DNS"
+msgstr "FAQ: DNS con errores"
+
+#: "inc/messages.js"
+msgid "faq: Broken!"
+msgstr "FAQ: Roto!"
+
+#: "inc/messages.js"
+msgid "faq: Broken DNS Lookups"
+msgstr "FAQ: Búsquedas DNS con errores"
+
+#: "inc/messages.js"
+msgid "faq: Avoiding IPv6?"
+msgstr "FAQ: Evitando IPv6?"
+
+#: "inc/messages.js"
+msgid "faq: 6RD tunnel"
+msgstr "FAQ: túnel 6RD"
+
+#: "inc/builtin.js"
+msgid "[more info]"
+msgstr "[más información]"
+
+#: "inc/builtin.js"
+msgid "Your IPv4 address on the public Internet appears to be"
+msgstr "Su dirección IPv4 en la Internet parece ser"
+
+#: "inc/builtin.js"
+msgid "Proxied"
+msgstr "Con proxy"
+
+#: "inc/builtin.js"
+msgid "Your IPv6 address on the public Internet appears to be"
+msgstr "Su dirección IPv6 en la Internet parece ser"
+
+#: "inc/builtin.js"
+msgid "Your IPv6 service appears to be"
+msgstr "Su servicio IPv6 parece ser"
+
+#: "inc/builtin.js"
+msgid "Your Internet Service Provider (ISP) appears to be"
+msgstr "Su Proveedor de Internet (ISP) parece ser"
+
+#: "inc/builtin.js"
+msgid "Started"
+msgstr "Empezado"
+
+#: "inc/builtin.js"
+msgid "proxied"
+msgstr "Con proxy"
+
+#: "inc/builtin.js"
+msgid "using"
+msgstr "usando"
+
+#: "inc/builtin.js"
+msgid "tests run"
+msgstr "pruebas ejecutadas"
+
+#: "inc/builtin.js"
+msgid "(Survey posting skipped; test was rigged)"
+msgstr "(Publicación de encuesta saltada; la prueba estaba arreglada)"
+
+#: "inc/builtin.js"
+msgid "(Updating server side IPv6 readiness stats)"
+msgstr "(Actualizando estadísticas de la preparación IPv6 del lado del servidor)"
+
+#: "inc/builtin.js"
+msgid "(Updated server side IPv6 readiness stats)"
+msgstr "(Actualizando estadísticas de la preparación IPv6 del lado del servidor)"
+
+#: "inc/builtin.js"
+msgid "(Survey posting failed; the above information is accurate, but not recorded.)"
+msgstr "(No se pudo publicar la encuesta; la información anterior es correcta, pero no registrada.)"
+
+#: "inc/builtin.js"
+msgid "Your readiness score"
+msgstr "Tu puntuación de preparación"
+
+#: "inc/builtin.js"
+msgid "for your IPv4 stability and readiness, when publishers offer both IPv4 and IPv6"
+msgstr "para su estabilidad y preparación de IPv4, cuando los editores ofrecen tanto IPv4 como IPv6"
+
+#: "inc/builtin.js"
+msgid "for your IPv6 stability and readiness, when publishers are forced to go IPv6 only"
+msgstr "para su estabilidad y preparación de IPv6, cuando editores estén obligados a usar sólo IPv6"
+
+#: "inc/builtin.js"
+msgid "Click to see"
+msgstr "Click para ver"
+
+#: "inc/builtin.js"
+msgid "test data"
+msgstr "datos de prueba"
+
+#: "inc/builtin.js"
+msgid "Your FAQ"
+msgstr "Su FAQ"
+
+#: "inc/builtin.js"
+msgid "Frequently Asked Questions"
+msgstr "Preguntas frecuentes (FAQ)"
+
+#: "inc/builtin.js"
+msgid "loading..."
+msgstr "cargando..."
+
+#: "inc/builtin.js"
+msgid "failed to load"
+msgstr "error al cargar"
+
+#: "inc/builtin.js"
+msgid "[go back]"
+msgstr "[volver]"
+
+#: "inc/builtin.js"
+msgid "[permalink]"
+msgstr "[enlace permanente]"
+
+#: "inc/versions.js"
+msgid "%app: You are running version %found; we recommend %suggest or newer."
+msgstr "%app: Estás utilizando la  versión %found; se recomienda la versión %suggest o superior."
+
+#: "inc/form.js"
+msgid "share your results"
+msgstr "compartir sus resultados"
+
+#: "inc/form.js"
+msgid "I am most interested in discussing your setup with you, because it was been determined that <B>your IPv6 connectivity is broken</b>, or at least not fully understood. This is not normal; would you be willing to %share?"
+msgstr "Estoy muy interesado en su disposición a discutir contigo su configuración, porque se determinó que <B>su conectividad IPv6 está rota</b>, o al menos no totalmente comprendida. Esto no es normal; ¿estaría dispuesto a %scompartir?"
+
+#: "inc/form.js"
+msgid "retest"
+msgstr "prueba nuevamente"
+
+#: "inc/form.js"
+msgid "Result code"
+msgstr "Código resultado"
+
+#: "inc/form.js"
+msgid "Note: I can't contact you, if the contact info is blank. If you really want to submit this anonymously, hit Send Results again."
+msgstr "Nota: no puedo contactarlo, si la información de contacto está en blanco. Si quiere enviar esto anónimamente, dele de nuevo enviar resultados."
+
+#: "inc/checkresults.js"
+msgid "unknown expansion"
+msgstr "expansión desconocida"
+
+#: "inc/checkresults.js"
+msgid "unknown result code"
+msgstr "código de resultado desconocido"
+
+#: "inc/symptoms.js"
+msgid "Your browser blocked"
+msgstr "Su navegador bloqueó"
+
+#: "inc/helpdesk.js"
+msgid "Your Internet help desk may ask you for the information below."
+msgstr "Su centro de ayuda de Internet puede solicitarle la siguiente información."
+
+#: "inc/header.inc"
+msgid "Test your IPv6."
+msgstr "Prueba tu IPv6."
+
+#: "inc/header.inc"
+msgid "This will test your browser and connection for IPv6 readiness, as well as show you your current IPV4 and IPv6 address."
+msgstr "Esto va a probar su navegador y conexión IPv6, así como mostrar su dirección actual IPV4 e IPv6."
+
+#: "inc/list-nav.inc"
+msgid "Test IPv6"
+msgstr "Prueba IPv6"
+
+#: "inc/list-nav.inc"
+msgid "FAQ"
+msgstr "FAQ"
+
+#: "inc/list-nav.inc"
+msgid "Mirrors"
+msgstr "Mirrors"
+
+#: "inc/list-nav.inc"
+msgid "stats"
+msgstr "estadísticas"
+
+#: "index.html"
+msgid "Test your IPv6 connectivity."
+msgstr "Probar tu conectividad IPv6."
+
+#: "index.html"
+msgid "(Replay)"
+msgstr "(Prueba de nuevo)"
+
+#: "inc/js_required.inc"
+msgid "JavaScript Required"
+msgstr "JavaScript Requerido"
+
+#: "inc/js_required.inc"
+msgid "This site requires JavaScript, as well as the ability to pull in cross-site scripts, in order to perform the testing."
+msgstr "Este sitio requiere JavaScript, así como la habilidad para tirar secuencias de comandos entre sitios, con el fin de realizar la prueba."
+
+#: "inc/js_required.inc"
+msgid "If this message does not go away, it means that JavaScript has been disabled, either by a plugin or extension in your browser, or by explicit browser setting."
+msgstr "Si este mensaje no desaparece, significa que se ha desactivado JavaScript, por un plugin, una extensión en su navegador o por configuración explícita del navegador."
+
+#: "inc/js_required.inc"
+msgid "Do you use NoScript?"
+msgstr "¿Utilizas NoScript?"
+
+#: "inc/js_required.inc"
+msgid "If you use this Firefox add-on, you'll need to \"Temporarily allow all this page\". You will need to do this <b>twice</b> for everything to work. Alternately, disable NoScript entirely until you are done with this site."
+msgstr "Si utiliza este Add-on de Firefox, necesitará \"Permitir temporalmente toda esta página\". Usted necesitará hacer esto <b>dos veces</b> para que todo funcione. Alternativamente, desactive NoScript totalmente hasta que haya terminado con este sitio."
+
+#: "inc/js_required.inc"
+msgid "You can opt instead to view the <a href=\"simple_test.html\">simple test</a>, which will give you a quick pass/fail for IPv4, IPv4+IPv6, and IPv6. It will however offer little diagnostic information."
+msgstr "Usted puede optar en su lugar para ver la <a href=\"simple_test.html\">prueba sencilla</a>, que le dará un rápido pase/fallo para IPv4, IPv6 y IPv4 + IPv6. Sin embargo ofrecerá poca información de diagnóstico."
+
+#: "main/tabnav.inc"
+msgid "For the Help Desk"
+msgstr "Para el Servicio de Asistencia"
+
+#: "main/tabnav.inc"
+msgid "Summary"
+msgstr "Sumario"
+
+#: "main/tabnav.inc"
+msgid "Tests Run"
+msgstr "Pruebas ejecutadas"
+
+#: "main/tabnav.inc"
+msgid "Share Results / Contact"
+msgstr "Compartir Resultados / Contactar"
+
+#: "main/tabnav.inc"
+msgid "FAQ for You"
+msgstr "FAQ para ti"
+
+#: "main/tabnav.inc"
+msgid "Help Popup"
+msgstr "Popup de ayuda"
+
+#: "main/tabnav.inc"
+msgid "Debug"
+msgstr "Debug"
+
+#: "main/tabnav.inc"
+msgid "Other IPv6 Sites"
+msgstr "Otros Sitios IPv6"
+
+#: "main/tests.inc"
+msgid "How this test works:"
+msgstr "Cómo funciona esta prueba:"
+
+#: "main/tests.inc"
+msgid "Your browser will be instructed to reach a series of URLs. The combination of successes and failures tells a story about how ready you are for when publishers start offering their web sites on IPv6."
+msgstr "Su navegador recibirá instrucciones para llegar a una serie de URLs. La combinación de éxitos y fracasos cuenta una historia sobre lo listo que está para cuando editores comiencen a ofrecer sus sitios web sobre IPv6."
+
+#: "main/tests.inc"
+msgid "Technical Info"
+msgstr "Información Técnica"
+
+#: "main/tests.inc"
+msgid "Test with IPv4 DNS record"
+msgstr "Prueba con registro DNS IPv4"
+
+#: "main/tests.inc"
+msgid "pending"
+msgstr "pendiente"
+
+#: "main/tests.inc"
+msgid "Test with IPv6 DNS record"
+msgstr "Prueba con registro DNS IPv6"
+
+#: "main/tests.inc"
+msgid "Test with Dual Stack DNS record"
+msgstr "Prueba con registro de doble pila DNS"
+
+#: "main/tests.inc"
+msgid "Test for Dual Stack DNS and large packet"
+msgstr "Prueba de doble pila DNS y paquete grande"
+
+#: "main/tests.inc"
+msgid "Test IPv4 without DNS"
+msgstr "Prueba IPv4 sin DNS"
+
+#: "main/tests.inc"
+msgid "Test IPv6 without DNS"
+msgstr "Prueba IPv6 sin DNS"
+
+#: "main/tests.inc"
+msgid "Test IPv6 large packet"
+msgstr "Prueba paquete grande de IPv6"
+
+#: "main/tests.inc"
+msgid "Test if your ISP's DNS server uses IPv6"
+msgstr "Prueba si el servidor DNS de su ISP utiliza IPv6"
+
+#: "main/tests.inc"
+msgid "Find IPv4 Service Provider"
+msgstr "Encontrar proveedor de servicios IPv4"
+
+#: "main/tests.inc"
+msgid "Find IPv6 Service Provider"
+msgstr "Encontrar proveedor de servicios IPv6"
+
+#: "main/tests.inc"
+msgid "Test for buggy DNS"
+msgstr "Prueba de DNS pulgoso"
+
+#: "main/tech.inc"
+msgid "Fetches an object that has just an A record in DNS. This is expected to use IPv4. IPv6-only users might still reach this, if their provider has employed a NAT64/DNS64 or proxy solution."
+msgstr "Obtiene un objeto que tiene sólo un registro A en el DNS. Se espera que utilice IPv4. Los usuarios de sólo-IPv6 todavía podrían alcanzar esto, si su proveedor de servicios ha empleado una solución NAT64/DNS64 o proxy."
+
+#: "main/tech.inc"
+msgid "Fetches an object that has just an AAAA record in DNS. This is expected to use IPv6. Users not yet on the IPv6 Internet are likely to see this fail. As long as it fails quickly, it will be OK - for now."
+msgstr "Obtiene un objeto que tiene un registro sólo AAAA en el DNS. Se espera que utilice IPv6. Los usuarios sin conexión a la red Internet IPv6 probablemente vean esta prueba fallar. Mientras falle rápidamente, todo irá bien - por ahora."
+
+#: "main/tech.inc"
+msgid "This is the most important test. This verifies your browser can connect to a site that has both IPv4 and IPv6 records published. IPv4 only hosts should connect fine (using IPv4)."
+msgstr "Esta es la prueba más importante. Esto verifica que su navegador puede conectarse a un sitio que tiene registros de IPv4 e IPv6 publicados. Computadores con sólo IPv4 deben conectarse bien (usando IPv4)."
+
+#: "main/tech.inc"
+msgid "If this test fails or times out, you can expect major problems as publishers start offering their sites on IPv6."
+msgstr "Si esta prueba falla o el tiempo expira, usted puede esperar grandes problemas cuando editores comiencen a ofrecer sus sitios en IPv6."
+
+#: "main/tech.inc"
+msgid "Validates that you can connect to a dual-stack server (like the ds test); and that you can send/receive large packets on that connection. If this test times out for any reason, it indicates trouble for World IPv6 Day."
+msgstr "Valida que se pueda conectar a un servidor dual-stack (como la prueba de ds); y que usted pueda enviar/recibir paquetes grandes en esa conexión. Si esta prueba expira por cualquier motivo, indica problemas para el día mundial de IPv6."
+
+#: "main/tech.inc"
+msgid "This will try connecting with a literal IPv4 numeric address. This should work for most people, unless they are running IPv6-only. If the first test worked, but this fails, it likely confirms your provider is using NAT64/DNS64; you'll need to only try connecting using hostnames instead of numeric IP addresses."
+msgstr "Esto intentará conectar con una dirección numérica literal de IPv4. Esto debería funcionar para la mayoría, a menos que use solo IPv6. Si la primera prueba pasa, pero esto no funciona, es probable que su proveedor está utilizando NAT64/DNS64; Usted necesitará conectarse usando nombres de host en lugar de direcciones IP numéricas."
+
+#: "main/tech.inc"
+msgid "This will try connecting with a literal IPv6 hexadecimal address. The primary purpose of this test is to separate out your connectivity on IPv6 from your ability to fetch DNS for it. A secondary purpose is to see if you have Teredo enabled; some systems may only use Teredo when an IPv6 address is in the URL."
+msgstr "Esto intentará conectarse con una dirección literal de IPv6 hexadecimal. El propósito principal de esta prueba es separar su conectividad en IPv6 de su habilidad para buscar DNS para él. Un objetivo secundario es ver si tiene Teredo activado; algunos sistemas sólo pueden usar Teredo cuando una dirección IPv6 se encuentra en la URL."
+
+#: "main/tech.inc"
+msgid "Validates that IPv6 requests with large packets work. If this test times out, but other IPv6 tests work, it suggests that there may be PMTUD issues; possibly involving IP tunnels."
+msgstr "Valida que solicitudes IPv6 con grandes paquetes trabajen. Si esta prueba expira, pero otras pruebas IPv6 pasan, sugiere que puede haber problemas de PMTUD; posiblemente involucrando túneles IP."
+
+#: "main/tech.inc"
+msgid "Double check to make sure that ICMPv6 Type 2 (\"Packet Too Big\") messages are not filtered by your firewall."
+msgstr "Compruebe para asegurarse que los mensajes de ICMPv6 tipo 2 (\"Paquete demasiado grande\")  no sean filtrados por su firewall."
+
+#: "main/tech.inc"
+msgid "(This is bonus credit)"
+msgstr "(Esto es crédito extra)"
+
+#: "main/tech.inc"
+msgid "This is a test of your ISP's resolver (instead of a test of your host). If this test passes, your DNS server (often run by your ISP) is capable of reaching IPV6-only DNS authoritative servers on the Internet. This is not critical (at this time) for you to reach sites via IPv6."
+msgstr "Esta es una prueba del resolutor de su ISP (en lugar de una prueba de su computador). Si pasa esta prueba, el servidor DNS (a menudo operado por su ISP) es capaz de alcanzar servidores autoritativos DNS sólo IPV6 en Internet. Esto no es crítico (en este momento) para que usted pueda llegar a sitios vía IPv6."
+
+#: "main/tech.inc"
+msgid "Attempts to identify what Internet Service Provider you use for IPv4. This may be different from the marketing name you see in your local market; or may reflect a previous company name. The name shown reflects how it is known in the network operator community."
+msgstr "Intenta identificar qué proveedor de servicios de Internet utiliza para IPv4. Esto puede ser diferente al nombre de comercialización que ve en tu mercado local; o puede reflejar un nombre anterior de la empresa. El nombre mostrado refleja cómo es conocido en la comunidad de operador de red."
+
+#: "main/tech.inc"
+msgid "Attempts to identify what Internet Service Provider you use for IPv6. When the IPv4 name and the IPv6 name don't match, it may suggest that you're using a tunnel; or some form of third party provider for IPv6."
+msgstr "Intenta identificar qué proveedor de servicios de Internet utiliza para IPv6. Cuando el nombre de IPv4 y el IPv6 no coinciden, puede sugerir que usted está usando un túnel; o alguna forma de tercero como  proveedor de IPv6."
+
+#: "main/tech.inc"
+msgid "Queries for a malformed AAAA record. Some routers mishandle these as \"A\" records, and only keep the first 32 bits. We want this test to fail to connect."
+msgstr "Consultas para un registro con formato incorrecto de AAAA. Algunos routers manipulan estos como registros \"A\" y sólo mantienen los primeros 32 bits. Queremos que esta prueba falle en la conexión."
+
+#: "main/tech.inc"
+msgid "If the summary results indicated problems, you (or your technical support) may be able to use the information above to diagnose the issues. Each of the test urls and their results is shown on the left side. To the right you'll see a description of what that URL was designed to test."
+msgstr "Si el resumen de resultados de los problemas indicados, usted (o su soporte técnico) puede utilizar la información de arriba para diagnosticar los problemas. Cada uno de los urls de prueba y sus resultados se muestran en el lado izquierdo. A la derecha verá una descripción de lo que ese URL fue diseñado para probar."
+
+#: "main/tech.inc"
+msgid "After each test is ran. The summary page attempts to look at the results If the summary doesn't seem to make sense given the symptoms recorded above, or if you need further assistance, please feel free to contact us."
+msgstr "Después de que cada prueba haya corrido. La página de resumen intenta ver los resultados. Si el resumen no parece tener sentido dado los síntomas registrados anteriormente, o si necesitas más ayuda, por favor no dude en contactarnos."
+
+#: "main/mail.inc"
+msgid "<b>Your particular configuration is of interest.</b> We are always striving to make the test-ipv6.com code better. Would you be willing to contribute more information about your browser and computer setup? With your help, we can document for others how to repair their systems."
+msgstr "<b>Su configuración particular es de interés.</b> Siempre nos esforzamos para mejorar el código de test-ipv6.com. ¿Estarías dispuesto a contribuir con más información sobre la configuración de su navegador y ordenador? Con su ayuda, podemos documentar para otros cómo reparar sus sistemas."
+
+#: "main/mail.inc"
+msgid "This form will let you leave a comment, voice concerns, or ask questions. Your test results will be included automatically."
+msgstr "Este formulario le permitirá dejar un comentario, expresar preocupaciones o hacer preguntas. Sus resultados se incluirán automáticamente."
+
+#: "main/mail.inc"
+msgid "This includes your IP address, which is shared with the site administrator in order to answer your questions."
+msgstr "Esto incluye su dirección IP, que es compartida con el administrador del sitio con el fin de responder a sus preguntas."
+
+#: "main/mail.inc"
+msgid "Use of this form implies consent."
+msgstr "Uso de este formulario implica su consentimiento."
+
+#: "main/mail.inc"
+msgid "<span id=\"comments_faq_link\"></span> (FAQ) page is available for <b>your</b> exact set of results. Please read it before leaving comments; many questions have already been answered. If you still have questions, comments, or concerns, feel freel to use this form."
+msgstr "<span id=\"comments_faq_link\"></span> página (FAQ) está disponible para <b>su</b> conjunto exacto de resultados. Por favor, léalo antes de dejar comentarios; muchas preguntas ya han sido contestadas. Si usted todavía tiene preguntas, comentarios o preocupaciones, use este formulario."
+
+#: "main/mail-language.inc"
+msgid "Please leave your comments using English, if possible."
+msgstr "Por favor, deja tu comentario en inglés, si es posible."
+
+#: "main/mail.inc"
+msgid "If reporting a problem with the test, or requesting help with your results, please fill out all requested information to the best of your ability. If leaving general comments, use your best judgement on how much to report."
+msgstr "Si reporta un problema con la prueba o solicita ayuda con sus resultados, por favor llene toda la información a lo mejor de su capacidad. Si deja comentarios generales, sea breve."
+
+#: "main/mail.inc"
+msgid "Thanks,"
+msgstr "Gracias,"
+
+#: "main/mail.inc"
+msgid "Purpose for comment"
+msgstr "Propósito para comentario"
+
+#: "main/mail.inc"
+msgid "Questions about test results"
+msgstr "Preguntas sobre los resultados"
+
+#: "main/mail.inc"
+msgid "Report a bug with diagnosis"
+msgstr "Notificar un error con diagnóstico"
+
+#: "main/mail.inc"
+msgid "Suggestion"
+msgstr "Sugerencia"
+
+#: "main/mail.inc"
+msgid "Cheers or Jeers"
+msgstr "Aplausos o abucheos"
+
+#: "main/mail.inc"
+msgid "Email address if you'll permit me to contact you. <i>Required, if you wish a response.</i>"
+msgstr "Dirección de correo electrónico si usted me permite comunicarnos con usted. <i>Requerido, si desea una respuesta.</i>"
+
+#: "main/mail.inc"
+msgid "Any information you think I might find useful (what router you're using, or a firewall in the way, or type of proxy you use, etc). This includes general feedback."
+msgstr "Cualquier información que crea que puedo encontrar útil (el enrutador que está usando o un firewall de camino o el tipo de proxy que utiliza, etc.). Esto incluye opiniones generales."
+
+#: "main/mail.inc"
+msgid "The javascript based test appears to have failed. This may be browser plugin or extension related. Please indicate what browser plugins and extenions you have enabled in this browser."
+msgstr "La prueba basada en javascript parece haber fracasado. Esto puede estar relacionado con un plug-in o extensión del navegador. Por favor, indique qué plugins y extensiones ha habilitado en este navegador."
+
+#: "main/mail.inc"
+msgid "If you are technically minded please cut/paste the output of the following commands:"
+msgstr "Si usted es de mentalidad técnica por favor cortar/pegar la salida de los siguientes comandos:"
+
+#: "main/mail.inc"
+msgid "Copy the output from those commands, into the box below. This will help me confirm/deny any theories relating to your question."
+msgstr "Copie la salida de esos comandos, en el cuadro de abajo. Esto me ayudará a confirmar/denegar cualquier teorías relativas a su pregunta."
+
+#: "main/mail.inc"
+msgid "If you are technically minded, please open a \"Command Prompt\" or \"cmd\" window, and run these three commands:"
+msgstr "Si usted es de mentalidad técnica, por favor abra una ventana de \"cmd\" o \"Command Prompt\" y ejecute estos tres comandos:"
+
+#: "main/mail.inc"
+msgid "Send results"
+msgstr "Enviar resultados"
+
+#: "main/helpdesk.inc"
+msgid "Help desk information will follow once the test completes."
+msgstr "Información de soporte aparecerá una vez finalizada la prueba."
+
+#: "main/helpdesk.inc"
+msgid "If your Internet help desk asks you to mail the 'results url', copy and paste the following URL."
+msgstr "Si su servicio de soporte de Internet le pide que envíe por correo la 'url de los resultados', copie y pegue la siguiente URL."
+
+#: "main/helpdesk.inc"
+msgid "Note that this will share your current numeric Internet Protocol address(es)."
+msgstr "Tenga en cuenta que esto compartirá su dirección IP numérica actual."
+
+#: "main/helpdesk.inc"
+msgid "We do not recommend posting this link on public web sites such as forums."
+msgstr "No recomendamos la publicación de este enlace en sitios web públicos tales como foros."
+
+#: "main/helpdesk.inc"
+msgid "On most computers, you can right-click the above URL, and select 'Copy'."
+msgstr "En la mayoría de las computadoras, puede darle botón derecho a la URL anterior y seleccionar 'Copiar'."
+
+#: "inc/sites.inc"
+msgid "<b>Because you have IPv6</b>, we've added this tab to show you whether or not you can reach other IPv6 web sites on the Internet. Consider notifying your ISP, if there are sites that show up as broken. If you are the ISP, you can click the Info link to see what test URLs are being used."
+msgstr "<b>Porque tienes IPv6</b>, hemos añadido esta ficha para mostrar si puede o no llegar a otros sitios web de IPv6 en Internet. Considere notificar a su ISP, si hay sitios que aparecen como rotos. Si usted es el ISP, puede hacer clic el enlace Info para ver qué direcciones URL se utilizan en las pruebas."
+
+#: "inc/sites.inc"
+msgid "<b>Hint</b>: Columns are sortable (click the first row); <a href=\"#\" onclick=\"GIGO.test_sites(2); return false;\">click here</a> to re-check reachability from where you are to those mirrors."
+msgstr "<b>Sugerencia</b>: las columnas se pueden sortear (haga clic en la primera fila); <a href=\"#\" onclick=\"GIGO.test_sites(2); return false;\"> haga clic aquí</a> para volver a comprobar la accesibilidad desde donde estás a los espejos."
+
+#: "inc/sites.inc"
+msgid "It is real easy to get added to this list for basic checks. Just provide two image URLs (one IPv4-only; one IPv6-only), to Jason Fesler &lt;jfesler@gigo.com&gt;. Also send your general web site address and organization name."
+msgstr "Es muy fácil ser añadido a esta lista de comprobaciones básicas. Sólo proporcione dos direcciones URL de imagenes (una sólo-IPv4; otra sólo-IPv6), a Jason Fesler &lt; jfesler@gigo.com &gt;. También mande su nombre de organización y dirección de sitio web general."
+
+#: "inc/sites.inc"
+msgid "Full mirrors are welcomed and appreciated, whether public or private. Please see <a href=\"https://github.com/falling-sky/source/wiki\">the wiki</a> for details."
+msgstr "Espejos completos son bienvenidos y apreciados, sean públicos o privados. Por favor vea <a href=\"https://github.com/falling-sky/source/wiki\"> el wiki</a> para más detalles."
+
+#: "inc/footer.inc"
+msgid "All rights reserved."
+msgstr "Todos los derechos reservados."
+
+#: "inc/footer.inc"
+msgid "Mission"
+msgstr "Misión"
+
+#: "inc/footer.inc"
+msgid "Source"
+msgstr "Fuente"
+
+#: "inc/footer.inc"
+msgid "Email"
+msgstr "Email"
+
+#: "inc/footer.inc"
+msgid "Attributions"
+msgstr "Atribuciones"
+
+#: "inc/disclaimer.inc"
+msgid "This is a mirror of test-ipv6.com. The views expressed here may or may not reflect the views of the mirror owner."
+msgstr "Este es un espejo de test-ipv6.com. Las opiniones expresadas aquí pueden o no reflejar la opinión del dueño del espejo."
+
+#: "locale.html"
+msgid "Available Languages"
+msgstr "Idiomas disponibles"
+
+#: "locale.html"
+msgid "Pick one of the following to switch to that language."
+msgstr "Elige una de las siguientes opciones para cambiar a ese idioma."
+
+#: "locale.html"
+msgid "Translators and proof readers welcome."
+msgstr "Traductores y correctores de texto son bienvenidos."
+
+#: "locale.html"
+msgid "See <a href='https://github.com/falling-sky/source/wiki/LocalizationPlan'>Info</a>; and our <a href='https://crowdin.net/project/falling-sky'>'CrowdIn'</a> project page."
+msgstr "Visita la página de <a href='https://github.com/falling-sky/source/wiki/LocalizationPlan'>información</a>; y nuestra página del proyecto en <a href='https://crowdin.net/project/falling-sky'>Crowdin</a>."
+
+#: "faq_helpdesk.html"
+msgid "Help Desk Information"
+msgstr "Información para el Servicio de Asistencia"
+
+#: "faq_helpdesk.html"
+msgid "Q: What is the Help Desk tab for?"
+msgstr "P: ¿Para qué es la ficha de servicio de asistencia?"
+
+#: "faq_helpdesk.html"
+msgid "This tab is intended to help provide a brief, concise explanation of your connectivity. This can be read over the phone, if needed, to a service provider. This tab has less hand-holding; it is intended for a help desk to understand (as compared to an end user)."
+msgstr "Esta ficha está destinada a proporcionar una explicación breve y concisa de su conectividad. Esto puede ser leído por teléfono, si es necesario, a un proveedor de servicios. Esta ficha es más técnica; está diseñada para un servicio de soporte (en comparación con un usuario final)."
+
+#: "faq_helpdesk.html"
+msgid "This special instance shares in a very compact way:"
+msgstr "Esta instancia especial comparte en una forma muy compacta:"
+
+#: "faq_helpdesk.html"
+msgid "Status of each protocol"
+msgstr "Estado de cada protocolo"
+
+#: "faq_helpdesk.html"
+msgid "Warn of slow/timeout"
+msgstr "Advierten de lento/tiempo expirado"
+
+#: "faq_helpdesk.html"
+msgid "Warn of MTU"
+msgstr "Advertencia de MTU"
+
+#: "faq_helpdesk.html"
+msgid "Status of reachability to “other sites” (as compact as possible)"
+msgstr "Estado de accesibilidad a \"otros sitios\" (tan compacta como sea posible)"
+
+#: "faq_helpdesk.html"
+msgid "IP address shown, in case tech support needs it."
+msgstr "Dirección IP se muestra, en caso de que asistencia técnica la necesite ."
+
+#: "faq_helpdesk.html"
+msgid "List of unreachable sites, if any"
+msgstr "Lista de sitios inalcanzables, si existen"
+
+#: "faq_helpdesk.html"
+msgid "Q: What is the easiest way to send users to the Help Desk tab?"
+msgstr "P: ¿Cuál es la forma más fácil de enviar a los usuarios a la pestaña de Servicio de Asistencia?"
+
+#: "faq_helpdesk.html"
+msgid "There are several ways to do it. Some of these are more obvious than the others when reading; some of them may be easier when read over the phone. In all of these cases, the \"Help Desk\" tab is moved to be the first and default tab shown to the user, instead of exposing the more detailed user-facing page."
+msgstr "Hay varias maneras de hacerlo. Algunas de ellas son más obvias que otras al leer; algunas de ellas pueden ser más fáciles de leer por teléfono. En todos estos casos, la ficha \"Servicio de Asistencia\" pasa a ser la primera y la ficha por defecto que se muestra al usuario, en lugar de exponer la página más detallada orientada al usuario."
+
+#: "faq_helpdesk.html"
+msgid "Mirror sites may not have all the fancy DNS names; they are more likely to be useful like this:"
+msgstr "Sitios espejo pueden no tener todos los nombres DNS; son más propensos a ser útil como este:"
+
+#: "faq_helpdesk.html"
+msgid "Q: What are the Help Desk codes?"
+msgstr "P: ¿Cuáles son los códigos de Servicio de Asistencia?"
+
+#: "faq_helpdesk.html"
+msgid "These are meant to offer a quick, short way for your customer to tell you the status of their Internet connectivity, as validated by this site. They are also meant to be easy to memorize."
+msgstr "Estos están destinados a ofrecer una manera rápida y corta para que su cliente le diga el estado de su conexión a Internet, validado por este sitio. También deberían ser fáciles de memorizar."
+
+#: "faq_helpdesk.html"
+msgid "Q: How can I recommend changes to the Help Desk tab?"
+msgstr "P: ¿Cómo puedo recomendar cambios a la pestaña de Servicio de Asistencia?"
+
+#: "faq_helpdesk.html"
+msgid "Suggestions are welcome; especially from those operating help desks. This tab is really for you - not for the consumer. Please keep in mind that we want to keep the tab brief, concise, and easy to read for the average user over the phone to your help desk team. Send suggestions to jfesler@test-ipv6.com ."
+msgstr "Sugerencias son bienvenidas; especialmente de aquellas que operan Servicios de Asistencia. Esta ficha es realmente para usted - no para el consumidor. Por favor, tenga en cuenta que queremos mantener la ficha breve, concisa y fácil de leer por teléfono a su equipo de soporte al usuario promedio. Envie sugerencias a jfesler@test-ipv6.com."
+
+#: "broken.html"
+msgid "What to do if you're broken..."
+msgstr "Qué hacer si se está roto..."
+
+#: "broken.html"
+msgid "If you are reading this page, it means that we've identified that your host will have problems on World IPv6 Day. Any web site that goes \"dual stack\" (meaning, both IPv4 and IPv6), will be unreachable to you."
+msgstr "Si está leyendo esta página, significa que hemos identificado que equipo tendrá problemas en día mundial de IPv6. Cualquier sitio web que sea \"dual stack\" (es decir, IPv4 e IPv6), será inalcanzable para usted."
+
+#: "broken.html"
+msgid "To resolve this, you'll first need to identify your IPv6 address (if you have one) and your IPv6 default route (if you have one). This will help identify which sections to read."
+msgstr "Para resolver esto, primero necesitará identificar su dirección IPv6 (si tiene una) y la ruta por defecto de IPv6 (si tiene una). Esto ayudará a identificar qué secciones leer."
+
+#: "broken.html"
+msgid "If you find your particular problem is not well represented; or you have additional suggestions; please do leave feedback using the <a href='#' onclick='return GIGO.tabnav(\"mail\");'>form</a> (or contact <a href=\"mailto:jfesler@test-ipv6.com\">jfesler@test-ipv6.com</a>)."
+msgstr "Si encuentra que su problema en particular no está bien representado; o tiene sugerencias adicionales; por favor deje sus comentarios usando el <a href='#' onclick='return GIGO.tabnav(\"mail\");'>formulario</a> (o contacte a <a href=\"mailto:jfesler@test-ipv6.com\">jfesler@test-ipv6.com</a>)."
+
+#: "broken.html"
+msgid "Make sure you are current"
+msgstr "Asegúrese de que usted es actual"
+
+#: "broken.html"
+msgid "Find your IP address"
+msgstr "Encuentra tu dirección IP"
+
+#: "broken.html"
+msgid "If you set up a tunnel broker"
+msgstr "Si ha configurado un túnel"
+
+#: "broken.html"
+msgid "If you set up 6to4 (IPv6 address: starts with 2002)"
+msgstr "Si ha configurado 6to4 (dirección IPv6 empieza con 2002)"
+
+#: "broken.html"
+msgid "If you have an ULA (IPv6 address: starts with FC or FD)"
+msgstr "Si tienes un ULA (dirección IPv6 empieza con FC o FD)"
+
+#: "broken.html"
+msgid "If you have an Bad or Inappropriate IPv6 Addresss (see table)"
+msgstr "Si tienes una mala o inadecuada dirección IPv6 (ver tabla)"
+
+#: "broken.html"
+msgid "If you have an unexpected IPv6 address"
+msgstr "Si tienes una dirección IPv6 inesperada"
+
+#: "broken.html"
+msgid "Try the netalyzr"
+msgstr "Pruebe el netalyzr"
+
+#: "broken.html"
+msgid "If all else fails, disable or deprioritize IPv6"
+msgstr "Si todo lo demás falla, desactiva o suprime la prioridad de IPv6"
+
+#: "faq/staycurrent.inc"
+msgid "Many OS and Hardware manufacturers are making updates to help improve the transition to IPv6. Some known \"gotchas\" are being addressed by workarounds by these vendors."
+msgstr "Muchos fabricantes de Hardware y sistemas operativos están haciendo cambios para mejorar la transición a IPv6. Algunos conocidos \"gotchas\" son abordados por las soluciones de estos proveedores."
+
+#: "faq/staycurrent.inc"
+msgid "You can do your part to make sure you are running the latest:"
+msgstr "Usted puede hacer su parte asegurándose de que está ejecutando la última:"
+
+#: "faq/staycurrent.inc"
+msgid "OS - Make sure you have the latest."
+msgstr "Sistema Operativo - asegúrese que tiene el último."
+
+#: "faq/staycurrent.inc"
+msgid "Mac users: Apple OS X 10.6.7 is recommended for improved IPv6 support."
+msgstr "Los usuarios de Mac: Apple OS X 10.6.7 se recomienda para mejorar la compatibilidad con IPv6."
+
+#: "faq/staycurrent.inc"
+msgid "Mac users on 10.4 or 10.5 may need to disable IPv6 if other troubleshooting steps fail."
+msgstr "Usuarios Mac 10.4 o 10.5 quizás tengan que deshabilitar IPv6 si fallan otros pasos de solución de problemas."
+
+#: "faq/staycurrent.inc"
+msgid "Windows users: go to"
+msgstr "Usuarios de Windows: ir a"
+
+#: "faq/staycurrent.inc"
+msgid "iPhone/iPad users: No specific version advised at this time."
+msgstr "los usuarios de iPhone/iPad: ninguna versión específica aconsejada en este momento."
+
+#: "faq/staycurrent.inc"
+msgid "Routers - Make sure you have the latest firmware installed. Some vendors have updated the defaults, or put in health checks before enabling IPv6."
+msgstr "Enrutadores - asegúrese de que tiene la última versión del firmware instalado. Algunos vendedores han actualizado los valores predeterminados o ponen controles sanitarios antes de habilitar IPv6."
+
+#: "faq/staycurrent.inc"
+msgid "If you are using an Apple router or Time Capsule, load the Airport Utility to check that your router is up to date."
+msgstr "Si utiliza un router de Apple o cápsula del tiempo, cargar la utilidad del Airport para comprobar que su router está al día."
+
+#: "faq/staycurrent.inc"
+msgid "Browsers - Some browsers have made updates to detect \"broken\" users, and to temporarily disable IPv6."
+msgstr "Navegadores - algunos navegadores han hecho actualizaciones para detectar usuarios \"rotos\" y temporalmente deshabilitan IPv6."
+
+#: "faq/staycurrent.inc"
+msgid "Firefox 4.x now only tries IPv6, when an IPv6 address is configured. Firefox 3 users are encouraged to upgrade."
+msgstr "Firefox 4.x intenta ahora sólo IPv6, cuando una dirección IPv6 está configurado. Animamos a los usuarios de Firefox 3 a actualizarse."
+
+#: "faq/staycurrent.inc"
+msgid "Chrome: If a wrench icon appears on the browser toolbar, click it. Select \"Update Google Chrome\" then Restart."
+msgstr "Chrome: Si aparece un icono de llave en la barra de herramientas del navegador, haga clic en él. Seleccione \"actualización de Google Chrome\" luego reinicie."
+
+#: "faq/staycurrent.inc"
+msgid "Opera: Make sure you use at least 11.10."
+msgstr "Ópera: Asegúrese de que utiliza al menos 11.10."
+
+#: "broken.html"
+msgid "Finding your IP address"
+msgstr "Encontrar su dirección IP"
+
+#: "faq/find_ip.inc"
+msgid "Identify your IPv6 address, and your default router (if you have one)."
+msgstr "Identifique su dirección IPv6 y su router por defecto (si tiene uno)."
+
+#: "faq/find_ip.inc"
+msgid "Finding your IPv6 address and default router can be a challenge if you are not familiar with your OS's network configuration. Instructions for your OS are below."
+msgstr "Encontrar su dirección IPv6 y el enrutador por defecto puede ser un desafío si usted no está familiarizado con la configuración de red de su sistema operativo. Instrucciones para su sistema operativo están abajo."
+
+#: "faq/find_ip.inc"
+msgid "When looking for your IPv6 address, skip any <code>fe80:</code> address. Everyone has them if their OS supports IPv6; this is regadless of whether or not your ISP supports IPv6 yet. Those are \"link local\" addresses; used just for communicating to other hosts in the same physical network as you."
+msgstr "Cuando busque su dirección IPv6, omita cualquier dirección <code>fe80:</code>. Todo el mundo las tiene si su sistema operativo es compatible con IPv6; Esto es independiente de si su ISP admite IPv6 todavía. Son direcciones de \"enlace local\"; utilizadas para comunicarse con otros equipos en la misma red física."
+
+#: "faq/find_ip.inc"
+msgid "OS X users: To find your IP address using the GUI:"
+msgstr "Usuarios de OS X: Para encontrar su dirección IP utilizando la GUI:"
+
+#: "faq/find_ip.inc"
+msgid "Go to the \"Apple\" menu (top left corner)"
+msgstr "Vaya al menú \"Apple\" (esquina superior izquierda)"
+
+#: "faq/find_ip.inc"
+msgid "Go to System Preferences"
+msgstr "Ir a preferencias del sistema"
+
+#: "faq/find_ip.inc"
+msgid "Go to Network"
+msgstr "Ir a la Red"
+
+#: "faq/find_ip.inc"
+msgid "Click on your primary network (green icon) if you have more than one work."
+msgstr "Haga clic en su red principal (icono verde) si tienes más de una."
+
+#: "faq/find_ip.inc"
+msgid "Go to \"Advanced\""
+msgstr "Ir a \"Avanzado\""
+
+#: "faq/find_ip.inc"
+msgid "Look at the TCP/IP tab, uder \"Configure IPv6\"."
+msgstr "Mira la ficha TCP/IP, bajo \"Configurar IPv6\"."
+
+#: "faq/find_ip.inc"
+msgid "Make a note of whether or not there is a router."
+msgstr "Tome nota de si hay o no un enrutador."
+
+#: "faq/find_ip.inc"
+msgid "Make a note of the IPv6 address (if any)."
+msgstr "Tome nota de la dirección IPv6 (si existe)."
+
+#: "faq/find_ip.inc"
+msgid "OS X users: To find your IP address using the command line:"
+msgstr "Usuarios de OS X: Para encontrar su dirección IP utilizando la línea de comandos:"
+
+#: "faq/find_ip.inc"
+msgid "To open your terminal: Go to your Applications folder; go to Utilities; and double click Terminal."
+msgstr "Para abrir la terminal: ir a la carpeta de aplicaciones; ir a Utilidades; y haga doble clic en Terminal."
+
+#: "faq/find_ip.inc"
+msgid "To see your IP addresses: <code>ifconfig -f inet6</code>."
+msgstr "Para ver sus direcciones IP: <code>ifconfig -f inet6</code>."
+
+#: "faq/find_ip.inc"
+msgid "Ignore the <code>fe80:</code> addresses; look for any other address on your <code>en0</code> or <code>en1</code>."
+msgstr "Ignore las direcciones <code>fe80:</code>; Busque cualquier otra dirección en su <code>en0</code> o <code>en1</code>."
+
+#: "faq/find_ip.inc"
+msgid "To see if you have a default route: <code>netstat -nr -f inet6</code>."
+msgstr "Para ver si usted tiene una ruta por defecto: <code>netstat -nr -f inet6</code>."
+
+#: "faq/find_ip.inc"
+msgid "Look for a line that says \"default\"; probably pointing to a gateway starting with <code>fe80:</code>"
+msgstr "Busque una línea que dice \"default\"; Probablemente apuntando a una puerta de enlace que comienza con <code>fe80:</code>"
+
+#: "faq/find_ip.inc"
+msgid "iPhone and iPad users: No information is shown via Apple's preferences/setup. The \"IT Tools\" and the \"ip6config\" apps do show IPv6 address data; both cost."
+msgstr "Usuarios de iPhone y iPad: ninguna información se muestra a través preferencias/setup de Apple. Las aplicaciones \"ip6config\" y \"IT Tools\", de pago, muestran las direcciones IPv6."
+
+#: "faq/find_ip.inc"
+msgid "Linux users: To find your IPv6 address, open a terminal and.."
+msgstr "Usuarios de Linux: para encontrar su dirección IPv6, abra una terminal y..."
+
+#: "faq/find_ip.inc"
+msgid "Linux users: To find your IPv6 route, use:"
+msgstr "Usuarios de Linux: para encontrar su ruta IPv6, utilice:"
+
+#: "faq/find_ip.inc"
+msgid "Generic unix instructions for determining your IPv6 address and default route:"
+msgstr "Instrucciones genéricas de unix para determinar su dirección IPv6 y ruta por defecto:"
+
+#: "faq/find_ip.inc"
+msgid "Run"
+msgstr "Ejecutar"
+
+#: "faq/find_ip.inc"
+msgid "and look for <code>inet6</code> to see your possible IPv6 addresses."
+msgstr "y busque <code>inet6</code> para ver sus posibles direcciones IPv6."
+
+#: "faq/find_ip.inc"
+msgid "and look for <code>inet6</code> or <code>Internet6</code> or similar to find the IPv6 portion; then look for <code>default</code> or <code>::</code> or <code>::/0</code>."
+msgstr "y busque por <code>inet6</code> o <code>Internet6</code> o similares para encontrar la porción IPv6; luego busque por <code>default</code> ó <code>::</code> ó <code>::/0</code>."
+
+#: "faq/find_ip.inc"
+msgid "Windows users: To find your IP address using cmd.exe:"
+msgstr "Usuarios de Windows: para encontrar su dirección IP mediante cmd.exe:"
+
+#: "faq/find_ip.inc"
+msgid "Go to your \"start\" menu"
+msgstr "Ir al menú de \"Inicio\""
+
+#: "faq/find_ip.inc"
+msgid "If you have a \"Run\" menu option, select it. Otherwise go to the \"Search programs and files\" box."
+msgstr "Si usted tiene una opción de menú \"Ejecutar\", selecciónela. De lo contrario ir a la caja de \"Buscar programas y archivos\"."
+
+#: "faq/find_ip.inc"
+msgid "Type <code>cmd.exe</code>"
+msgstr "Escriba <code>cmd.exe</code>"
+
+#: "faq/find_ip.inc"
+msgid "In the cmd window, type <code>ipconfig</code> ."
+msgstr "En la ventana de cmd, escriba <code>ipconfig</code>."
+
+#: "faq/find_ip.inc"
+msgid "Windows 7 GUI users:"
+msgstr "Usuarios del GUI de Windows 7:"
+
+#: "faq/find_ip.inc"
+msgid "Go to the start menu"
+msgstr "Ir al menú de Inicio"
+
+#: "faq/find_ip.inc"
+msgid "Go to the control panel"
+msgstr "Vaya al panel de control"
+
+#: "faq/find_ip.inc"
+msgid "Go to \"Network and Internet\""
+msgstr "Vaya a \"Red e Internet\""
+
+#: "faq/find_ip.inc"
+msgid "Go to \"View network status and tasks\""
+msgstr "Ir a \"ver estado de la red y tareas\""
+
+#: "faq/find_ip.inc"
+msgid "Go to \"Change adapter settings\"."
+msgstr "Vaya a \"Cambiar configuración del adaptador\"."
+
+#: "faq/find_ip.inc"
+msgid "Go to your main Internet connection, double click"
+msgstr "Vaya a su conexión a Internet principal, haga doble clic"
+
+#: "faq/find_ip.inc"
+msgid "Go to \"Details\""
+msgstr "Ir a \"Detalles\""
+
+#: "faq/find_ip.inc"
+msgid "Look for \"IPv6 Address\" and \"IPv6 Default Gateway\""
+msgstr "Buscar \"Dirección IPv6\" y \"Puerta de enlace por defecto de IPv6\""
+
+#: "faq/find_ip.inc"
+msgid "Other Windows based OS's: Send jfesler@test-ipv6.com detailed instructions; and I'll add them to the site."
+msgstr "Otros sistemas operativos basados en Windows: enviar a jfesler@test-ipv6.com instrucciones detalladas ; y las agregaré al sitio."
+
+#: "faq/broken_tunnelbroker.inc"
+msgid "<b>If you set up a tunnelbroker tunnel</b>: The most common causes for tunnelbroker users to fail are:"
+msgstr "<b>Si ha configurado un túnel tunnelbroker</b>: Las causas más comunes para que los usuarios tunnelbroker fallen son:"
+
+#: "faq/broken_tunnelbroker.inc"
+msgid "Your IPv4 address may have changed; you need to tell the tunnelbroker server this happened."
+msgstr "Su dirección IPv4 puede haber cambiado; Tiene que decirle al servidor tunnelbroker que esto sucedió."
+
+#: "faq/broken_tunnelbroker.inc"
+msgid "If you are using your router to do the 6in4 (sometimes called 6to4 with explicit provider):"
+msgstr "Si usted está usando su router para hacer 6in4 (a veces llamado 6to4 con proveedor explícito):"
+
+#: "faq/broken_tunnelbroker.inc"
+msgid "Make sure tunnelbroker knows your current IPv4 address. Our site tells you your public IPv4 address."
+msgstr "Asegúrese de que tunnelbroker conozca su dirección IPv4 actual. Nuestro sitio dice su dirección IPv4 pública."
+
+#: "faq/broken_tunnelbroker.inc"
+msgid "Make sure your router can ping the other side of the tunnel. Don't waste your time fixing computers until the router works!"
+msgstr "Asegúrese de que su router puede hacer ping al otro lado del túnel. No pierda su tiempo arreglando computadoras hasta el router funciona!"
+
+#: "faq/broken_tunnelbroker.inc"
+msgid "If you are using your Linux, BSD, Mac, or Windows box to \"talk 6to4\" specifically:"
+msgstr "Si está usando su equipo Linux, BSD, Mac o Windows para \"hablar 6to4\" específicamente:"
+
+#: "faq/broken_tunnelbroker.inc"
+msgid "Make sure your router is passing \"protocol 41\" to you."
+msgstr "Asegúrese que su router está pasando el \"Protocolo 41\" hacia usted."
+
+#: "faq/broken_tunnelbroker.inc"
+msgid "Make sure any software firewall you are operating is passing \"protocol 41\" to you."
+msgstr "Asegúrese de que cualquier software de cortafuegos que esté operando permita que el \"Protocolo 41\" pase."
+
+#: "faq/broken_tunnelbroker.inc"
+msgid "If everything worked before your reboot but fails now, check your firewall settings."
+msgstr "Si todo ha funcionado antes pero falla ahora luego de un reinicio, compruebe la configuración del firewall."
+
+#: "faq/broken_tunnelbroker.inc"
+msgid "Make sure the box \"doing 6to4\" can ping the other side of the tunnelbroker gateway before working on any other hosts."
+msgstr "Asegúrese de que el equipo \"haciendo 6to4\" puede hacer ping al otro lado de la puerta de enlace de tunnelbroker antes de trabajar en otros equipos."
+
+#: "broken.html"
+msgid "If you set up 6to4"
+msgstr "Si ha configurado 6to4"
+
+#: "broken.html"
+msgid "(IPv6 address: starts with 2002)"
+msgstr "(Dirección IPv6: comienza con 2002)"
+
+#: "faq/broken_6to4.inc"
+msgid "If you use 6to4</b> (without a tunnel broker; ie, using anonymous 6to4):"
+msgstr "Si utiliza 6to4</b> (sin un corredor de túnel; es decir, utilizando 6to4 anónimo):"
+
+#: "faq/6to4_sucks.inc"
+msgid "The use of \"automatic\" 6to4, or the use of 6to4 without explicit configuration of the gateways, is not recommended. For more information see <a href='#' onclick='return help_page(\"faq_6to4.html\",\"6to4\")'>6to4</a>."
+msgstr "No se recomienda el uso de 6to4 \"automático\", o el uso de 6to4 sin la configuración explícita de las puertas de enlace. Para más información consulte <a href='#' onclick='return help_page(\"faq_6to4.html\",\"6to4\")'> 6to4</a>."
+
+#: "faq/broken_6to4.inc"
+msgid "If you want to continue trying to debug anonymous 6to4:"
+msgstr "Si quieres seguir intentando depurar 6to4 anónimo:"
+
+#: "faq/broken_6to4.inc"
+msgid "If you are using your router to do the 6to4:"
+msgstr "Si está utilizando su router para hacer el 6to4:"
+
+#: "faq/broken_6to4.inc"
+msgid "Make sure your router has a public IPv4 address. Without this, 6to4 fails."
+msgstr "Asegúrese de que su router tenga una dirección IPv4 pública. Sin esto, 6to4 falla."
+
+#: "faq/broken_6to4.inc"
+msgid "If your router permits you to log in, use \"ping\" or \"ping6\" and see if you can ping \"ipv6.test-ipv6.com\". Don't waste your time fixing computers until the router works!"
+msgstr "Si su router permite iniciar sesión, utilice \"ping\" o \"ping6\" para ver si puede hacer ping a \"ipv6.test-ipv6.com\". No pierda tu tiempo arreglando computadoras hasta que el enrutador funcione!"
+
+#: "faq/broken_6to4.inc"
+msgid "Most home systems have private IPv4 addresses; this won't work with 6to4 (unless..)"
+msgstr "La mayoría de equipos domésticos tienen direcciones IPv4 privadas; Estas no funcionarán con 6to4 (a menos que...)"
+
+#: "faq/broken_6to4.inc"
+msgid "Make sure your 6to4 interface knows your public IPv4 address."
+msgstr "Asegúrese de que su interfaz 6to4 conoce su dirección IPv4 pública."
+
+#: "faq/broken_6to4.inc"
+msgid "Make sure that your router permits protocol 41 from any IP address - not just 192.88.99.1. This will allow web sites to operate their half of 6to4, even if they can not spoof the 192.88.99.1 anycast address."
+msgstr "Asegúrese de que su enrutador permite el protocolo 41 desde cualquier dirección IP - no sólo 192.88.99.1. Esto permitirá a sitios web operar su mitad de 6to4, aunque no puedan suplantar la dirección anycast 192.88.99.1."
+
+#: "faq/broken_6to4.inc"
+msgid "Linux users using iptables connection tracking: take heed of the previous note!"
+msgstr "Los usuarios de Linux usando seguimiento de conexión de iptables: presten cuidado de la nota anterior!"
+
+#: "faq/broken_6to4.inc"
+msgid "Consider changing how you connect."
+msgstr "Considere cambiar cómo se conecta."
+
+#: "faq/broken_6to4.inc"
+msgid "Ask your ISP if they offer any IPv6 connectivity (including possibly 6in4 tunnels, or tunnelbroker type tunnels)."
+msgstr "Pregunte a su ISP si ofrecen alguna conectividad IPv6 (incluyendo posiblemente túneles 6in4 o túneles de tipo tunnelbroker)."
+
+#: "faq/broken_6to4.inc"
+msgid "See <a href=\"#\" onclick='return help_page(\"faq_6to4.html\",\"6to4\")'>6to4</a> for more information on why you would want to switch; and some options."
+msgstr "Ver <a href=\"#\" onclick='return help_page(\"faq_6to4.html\",\"6to4\")'>6to4</a> para obtener más información sobre por qué querría cambiar; y algunas opciones."
+
+#: "broken.html"
+msgid "If you have an ULA"
+msgstr "Si tiene un ULA (Unique local address)"
+
+#: "broken.html"
+msgid "(IPv6 address: starts with FC or FD)"
+msgstr "(Dirección IPv6: comienza con FC o FD)"
+
+#: "faq/broken_ula.inc"
+msgid "If you have an IP address starting with <code>FC</code> or <code>FD</code>, you have what is effectively a private IPv6 address. It might be usable for talking to other devices within your home, or within your company. It also allows you to have a steady IPv6 address inside, even if your public IPv6 address changes regularly."
+msgstr "Si usted tiene una dirección IP que comienza con <code>FC</code> o <code>FD</code>, tiene lo que efectivamente es una dirección IPv6 privada. Podría ser útil para comunicarse con otros dispositivos dentro de su hogar, o dentro de su empresa. También permite tener una dirección IPv6 constante adentro, incluso si cambia su dirección IPv6 pública regularmente."
+
+#: "faq/broken_ula.inc"
+msgid "The main problem with ULA is that certain home routers are now offering ULA, *and* giving you a default route. This route is offered regardless of whether or not your router actually has IPv6 connectivity. From your browser's point of view, it doesn't know that your default route goes nowhere; there is no feedback mechanism. Since IPv6 is (roughly speaking) preferred over IPv4, your browser will try using this broken route. It may take minutes before giving up."
+msgstr "El principal problema con la ULA es que ciertos enrutadores caseros están ahora ofreciendo ULA, *y* dando una ruta predeterminada. Esta ruta se ofrece independientemente de si su enrutador tiene o no conectividad IPv6. Desde el punto de vista del navegador, él no sabe que su ruta por defecto va a ninguna parte; No hay ningún mecanismo de retroalimentación. Siendo IPv6 (en términos generales) preferida a IPv4, el navegador intentará utilizar esta ruta rota. Puede tardar minutos antes de renunciar."
+
+#: "faq/broken_ula.inc"
+msgid "Our advice: Enable ULA only if your router has full time IPv6 connectivity. Disable it, otherwise. If you do disable it on your router, you will likely need to reboot your router first, then reboot your host, before the symptoms go away."
+msgstr "Nuestro Consejo: habilitar ULA sólo si su router tiene conectividad IPv6 a tiempo completo. De lo contrario, desactívelo. Si lo deshabilita en su enrutador, es probable que necesite reiniciarlo primero y luego deba reiniciar su equipo, antes de que los síntomas desaparecen."
+
+#: "broken.html"
+msgid "Bad or Inappropriate IPv6 Addresss"
+msgstr "Direcciones IPv6 malas o inadecuadas"
+
+#: "broken.html"
+msgid "(IPv6 address: see table below)"
+msgstr "(Dirección IPv6: véase la tabla abajo)"
+
+#: "faq/broken_bogon.inc"
+msgid "Bad or Inappropriate IPv6 Addresses (Bogons)"
+msgstr "Direcciones IPv6 malas o inadecuadas (Bogones)"
+
+#: "faq/broken_bogon.inc"
+msgid "If you IPv6 address starts with any of these, your router needs to be upgraded."
+msgstr "Si su dirección IPv6 empieza con alguno de estos, su enrutador necesita actualizarse."
+
+#: "faq/broken_bogon.inc"
+msgid "disable ULA."
+msgstr "desactive la ULA."
+
+#: "faq/broken_bogon.inc"
+msgid "Other routers: Try updating the firmware. If that fails, look for and disable \"ULA\" or \"Unique Local Addressing\"."
+msgstr "Otros enrutadores: intente actualizar el firmware. Si eso falla, busque y desactive \"Direccionamiento Local único\" o \"ULA\"."
+
+#: "faq/broken_bogon.inc"
+msgid "If that fails, disable IPv6 entirely on the router."
+msgstr "Si eso falla, deshabilite IPv6 enteramente en el enrutador."
+
+#: "faq/broken_bogon.inc"
+msgid "or"
+msgstr "o"
+
+#: "faq/broken_bogon.inc"
+msgid "This is a router using 6to4, but using a private IPv4 address. This will never work."
+msgstr "Esto es un enrutador usando 6to4, pero usando una dirección IPv4 privada. Nunca va a funcionar."
+
+#: "faq/broken_bogon.inc"
+msgid "Apple routers: Update to the latest firmware; that has been corrected."
+msgstr "Enrutadores de Apple: actualice al firmware más reciente; Eso ha sido corregido."
+
+#: "faq/broken_bogon.inc"
+msgid "Other routers: Try updating the firmware. If that fails, look for and disable \"6to4\" or any form of automatic IPv6 tunnel."
+msgstr "Otros enrutadores: intente actualizar el firmware. Si eso falla, busque y desactive \"6to4\" o cualquier forma de túnel IPv6 automático."
+
+#: "faq/broken_bogon.inc"
+msgid "This router is using the official \"Documentation\" prefix - which is not routable on the IPv6 Internet."
+msgstr "Este router está usando el prefijo oficial \"Documentación\" - que no se pueden enrutar en Internet IPv6."
+
+#: "faq/broken_bogon.inc"
+msgid "Update to the latest firmware."
+msgstr "Actualice al firmware más reciente."
+
+#: "faq/broken_bogon.inc"
+msgid "Other routers: Try updating the firmware."
+msgstr "Otros enrutadores: intente actualizar el firmware."
+
+#: "faq/broken_bogon.inc"
+msgid "Disable IPv6."
+msgstr "Deshabilitar IPv6."
+
+#: "broken.html"
+msgid "(IPv6 address: not starting with fe80)"
+msgstr "(Dirección IPv6: que no empiece con fe80)"
+
+#: "faq/broken_unexpected.inc"
+msgid "Unexpected IPv6 address?"
+msgstr "¿Dirección IPv6 inesperada?"
+
+#: "faq/broken_unexpected.inc"
+msgid "Modern operating systems all have IPv6 enabled. This feature is dormant until someone explicitly configures IPv6, <em><b>or</b></em> a device on the local network offers it. Autoconfigured IPv6 hosts learn their IPv6 address and their gateway through the use of IPv6 router announcements (RAs). The network you are on may intentionally offer IPv6; you'll automatically use it when your computer sees it."
+msgstr "Sistemas operativos modernos tienen habilitado IPv6. Esta función está inactiva hasta que alguien configure explícitamente IPv6, <em><b>o</b></em> un dispositivo en la red local la ofrece. Equipos autoconfiguraros IPv6 aprenden su dirección IPv6 y su puerta de enlace a través de anuncios de enrutador IPv6 (RAs). La red donde usted está puede ofrecer IPv6 intencionalmente; su computadora lo utilizará automáticamente cuando lo vea."
+
+#: "faq/broken_unexpected.inc"
+msgid "<b>Where this goes wrong:</b> Some people plug their router into the network (wired or wireless) and inadvertantly offer IPv6 services to everyone. Classic examples of this are where people add an early version of an Apple router (with 6to4 automatically enabled); another example is someone who has Windows Internet Connection Sharing enabled. In both cases, there is a chance they offer their services - and become your IPv6 router of choice, without any notification to you."
+msgstr "<b>Donde esto sale mal:</b> Algunas personas conectan su enrutador en la red (con cable o inalámbrica) e inadvertidamente ofrecen servicios IPv6 a todo el mundo. Ejemplos clásicos de esto son cuando personas agregan una versión temprana de un enrutador de Apple (con 6to4 habilitada automáticamente); otro ejemplo es alguien que tiene Conexión compartida a Internet en Windows habilitada. En ambos casos, hay una posibilidad que ofrecen sus servicios - y convertirse en su router IPv6 preferido, sin ninguna notificación a usted."
+
+#: "faq/broken_unexpected.inc"
+msgid "If these IPv6 routers don't work, you will fail to connect to any web site that offers services on both IPv4 and IPv6. Even if they do work, if the router in question is unplugged (the owner packs up, leaves the hotel/conference) your host never gets the notice; and it can be hours before it gives up."
+msgstr "Si estos enrutadores IPv6 no funcionan, fracasará en conectarse a cualquier sitio web que ofrece servicios de IPv4 e IPv6. Incluso si trabajan, si el router en cuestión está desenchufado (el dueño empaca, deja el hotel de conferencias) su equipo nunca obtiene el aviso; y pueden pasar horas antes de que se de por vencido."
+
+#: "faq/broken_unexpected.inc"
+msgid "This is similiar to someone accidentially (or intentionally) running a rogue DHCP server."
+msgstr "Esto es similar a que alguien accidentalmente (o intencionalmente) ejecute un pícaro servidor DHCP."
+
+#: "faq/broken_unexpected.inc"
+msgid "<b>If you are are not the network admin</b> - and have no access to fix the problem - consider disabling IPv6, at least for the location you are in. Another option might be to try turning off, and turning back on, your network interface (clearing the IP address), in case the source of the problem has left the network."
+msgstr "<b>Si usted no es el administrador de red</b> - y no tiene acceso a solucionar el problema - considere deshabilitar IPv6, por lo menos en esa ubicación. Otra opción podría ser intentar apagar y prender su interfaz de red (borrando la dirección IP), en el caso de la fuente del problema ha dejado la red."
+
+#: "faq/broken_unexpected.inc"
+msgid "<b>If you are the network administrator</b>: You can use the default route information to identify the ethernet address; and then search for the owner of that ethernet address. Some network vendors have features that will suppress the advertisements of unauthorized RAs (router announcements); consider enabling those feaatures. More reactive measures involve finding (by ethernet address) the owner of the device; or possibly spoofing RA's from their device to indicate the device is going away."
+msgstr "<b>Si usted es el administrador de la red</b>: puede utilizar la información de ruta por defecto para identificar la dirección ethernet; y luego buscar el dueño de la dirección ethernet. Algunos proveedores de red tienen características que suprimen los anuncios de RAs no autorizados (anuncios de enrutador); considere permitir esas facilidades. Medidas más reactivas implican encontrar (por dirección ethernet) el propietario del dispositivo; o posiblemente suplantación de RA de su dispositivo para indicar que el dispositivo va a desaparecer."
+
+#: "faq/broken_netalyzr.inc"
+msgid "Consider trying the \"netalyzr\". This is another site that runs a java applet (which can do more than my site can, in just javascript). I would find feedback about how you useful this site was for you."
+msgstr "Considere el uso de \"netalyzr\". Este es otro sitio que ejecuta un applet de java (que puede hacer más que mi sitio web, con sólo javascript). Me gustarían comentarios acerca de que tan útil es ese sitio para usted."
+
+#: "faq/broken_netalyzr.inc"
+msgid "From the netalyzr staff:"
+msgstr "Del personal de netalyzr:"
+
+#: "broken.html"
+msgid "If all else fails"
+msgstr "Si todo lo demás falla"
+
+#: "broken.html"
+msgid "(Instructions for disabling or deprioritizing IPv6)"
+msgstr "(Instrucciones para inhabilitar o bajarle la prioridad a IPv6)"
+
+#: "faq/broken_disable.inc"
+msgid "Disabling or Deprioritizing your IPv6 address"
+msgstr "Deshabilitar o bajarle le prioridad a su dirección IPv6"
+
+#: "faq/broken_disable.inc"
+msgid "<b>To disable IPv6 entirely, until your ISP offers IPv6 to you:</b> see <b>Microsoft's \"fixit\" site</b> that gives clear instructions. We advocate considering \"Use IPv4 instead of IPv6 in prefix policies\", instead of completely disabling IPv6. Specific Windows features depend on IPv6 being enabled."
+msgstr "<b>Para deshabilitar IPv6 totalmente, hasta que su ISP le ofrece IPv6:</b> vea el <b>sitio de Microsoft: \"fixit\"</b> que le da instrucciones claras. Abogamos por considerar \"Uso IPv4 en lugar de IPv6 en las políticas de prefijo\", en vez de deshabilitar completamente IPv6. Características específicas de Windows dependen de que IPv6 esté habilitado."
+
+#: "faq/broken_disable.inc"
+msgid "To completely disable IPv6 (Windows 7, Vista; XP should be similiar):"
+msgstr "Para desactivar completamente IPv6 (Windows 7, Vista; XP debe ser similar):"
+
+#: "faq/broken_disable.inc"
+msgid "Go to \"Properties\""
+msgstr "Ir a \"Propiedades\""
+
+#: "faq/broken_disable.inc"
+msgid "Uncheck \"Internet Protocol Version 6\""
+msgstr "Desmarque \"Protocolo de Internet versión 6\""
+
+#: "faq/broken_disable.inc"
+msgid "Hit \"ok\""
+msgstr "Dele 'Aceptar'"
+
+#: "faq/broken_disable.inc"
+msgid "Shutdown/reboot."
+msgstr "Apague/reinicie."
+
+#: "faq/broken_disable.inc"
+msgid "To disable IPv6 in Windows XP:"
+msgstr "Para deshabilitar IPv6 en Windows XP:"
+
+#: "faq/broken_disable.inc"
+msgid "Taken from:"
+msgstr "Tomado de:"
+
+#: "faq/broken_disable.inc"
+msgid "Make sure you are logged in as an Administrator."
+msgstr "Asegúrese de que esté logueado como un administrador."
+
+#: "faq/broken_disable.inc"
+msgid "Click Start, click All Programs, click Accessories, and then click Command Prompt."
+msgstr "Haga clic en Inicio, haga clic en todos los programas, haga clic en accesorios y haga clic en símbolo del sistema."
+
+#: "faq/broken_disable.inc"
+msgid "At the command prompt, type: netsh int ipv6 uninstall and press the Enter key on your keyboard."
+msgstr "En la linea de comandos, escriba: netsh int ipv6 uninstall y pulse Enter en el teclado."
+
+#: "faq/broken_disable.inc"
+msgid "Close the Command Prompt window and restart the computer."
+msgstr "Cierre la ventana del símbolo del sistema y reinicie el ordenador."
+
+#: "faq/broken_disable.inc"
+msgid "OS X users"
+msgstr "Usuarios de OS X"
+
+#: "faq/broken_disable.inc"
+msgid "Before disabling IPv6, please be sure you are running the latest OS version. In particular, OS X 10.6.7 has several workarounds for being \"Broken\". This may solve your problems without resorting to completely disabling IPv6."
+msgstr "Antes de deshabilitar IPv6, por favor asegúrese de que está ejecutando la última versión del sistema operativo. En particular, OS X 10.6.7 tiene varias soluciones para estar \"roto\". Esto puede solucionar sus problemas sin recurrir a completamente deshabilitar IPv6."
+
+#: "faq/broken_disable.inc"
+msgid "How to disable IPv6"
+msgstr "Cómo deshabilitar IPv6"
+
+#: "faq/broken_disable.inc"
+msgid "Disable IPv6"
+msgstr "Deshabilitar IPv6"
+
+#: "faq/broken_disable.inc"
+msgid "Apply changes"
+msgstr "Aplicar cambios"
+
+#: "faq/broken_disable.inc"
+msgid "iPhone and iPad users"
+msgstr "usuarios de iPhone y iPad"
+
+#: "faq/broken_disable.inc"
+msgid "IPv6 is not configurable on the iPhone or iPad. Your only option is to switch to another network."
+msgstr "IPv6 no es configurable en el iPhone o el iPad. Su única opción es cambiar a otra red."
+
+#: "faq/broken_disable.inc"
+msgid "Linux users:"
+msgstr "Usuarios de Linux:"
+
+#: "faq/broken_disable.inc"
+msgid "This is very distribution-specific. Do a web search using your favorite search engine."
+msgstr "Esto es muy específico de la distribución. Haga una búsqueda en la web usando su buscador favorito."
+
+#: "faq/broken_disable.inc"
+msgid "Example web search: <code>disable ipv6 on centos</code>"
+msgstr "Búsqueda ejemplo en la web: <code>deshabilitar ipv6 en centos</code>"
+
+#: "faq/broken_disable.inc"
+msgid "Generic unix instructions, to temporarily remove your IPv6 address."
+msgstr "Instrucciones unix genérico, para quitar temporalmente su dirección IPv6."
+
+#: "faq/broken_disable.inc"
+msgid "IP_ADDRESS"
+msgstr "DIRECCIÓN_IP"
+
+#: "faq/broken_disable.inc"
+msgid "Be aware that if the router re-advertises it, you will relearn the default route."
+msgstr "Tenga en cuenta que si el router nuevamente lo anuncia, volverá a aprender la ruta por defecto."
+
+#: "faq/broken_disable.inc"
+msgid "You can do a web search for your particular OS distribution. Example search would be <code>disable ipv6 on freebsd</code>."
+msgstr "Puede hacer una búsqueda en Internet para su distribución particular de sistema operativo. La búsqueda de ejemplo sería <code>deshabilitar ipv6 en freebsd</code>."
+
+#: "broken.html"
+msgid "See Also"
+msgstr "Ver también"
+
+#: "broken.html"
+msgid "Other resources that may help"
+msgstr "Otros recursos que pueden ayudar"
+
+#: "faq_disable.html"
+msgid "Disabling IPv6 is the least preferred option. For some people, however, it may be your only option. This may be due to equipment limitations, or in limitations in technical support."
+msgstr "Deshabilitar IPv6 es la opción menos preferida. Sin embargo, para algunas personas, puede ser su única opción. Esto puede ser debido a las limitaciones del equipo, o limitaciones en soporte técnico."
+
+#: "faq.html"
+msgid "test-ipv6.com FAQ"
+msgstr "test-ipv6.com FAQ"
+
+#: "faq.html"
+msgid "Q: How does this test work?"
+msgstr "P: ¿Cómo funciona esta prueba?"
+
+#: "faq.html"
+msgid "The test is entirely client-side javascript. To determine reachability, a series of ajax requests are made from the web server, using various DNS names that force the use of IPv6 only, or dual stack, or other such scenarios. The pass/fail of such fetches, as well as how long they take, are taken into account."
+msgstr "La prueba es enteramente javascript del lado cliente. Para determinar la accesibilidad, se hacen una serie de peticiones ajax desde el servidor web, usando diferentes nombres DNS que fuerzan el uso de IPv6, doble pila u otros escenarios. El paso/fallo de tales alcances, así como cuánto tiempo llevan, se toman en cuenta."
+
+#: "faq.html"
+msgid "Q: Why is this web site reachable via IPv4 only?"
+msgstr "P: ¿Por qué este sitio web es accesible sólo a través de IPv4?"
+
+#: "faq.html"
+msgid "You're right, there are no AAAA records, intentionally. A percentage of users are unable to browse sites that are dual-stack. If the users can't connect, then they can't be told they have a problem. This is a big problem facing content providers today; of which, I work at one for my &#36;dayjob. As such, the main test page requires IPv4 (either native or translated)."
+msgstr "Tiene razón, no hay registros AAAA, intencionalmente. Un porcentaje de usuarios no son capaces de navegar por sitios doble-pila. Si los usuarios no pueden conectarse, entonces no pueden saber que tienen un problema. Este es un gran problema que enfrentan los proveedores de contenido hoy; de los cuales, yo &#36;trabajo para uno. Como tal, la página de prueba principal requiere IPv4 (nativo o traducido)."
+
+#: "faq.html"
+msgid "At some point, when the percentage of \"broken\" users has gone significantly down, I'll consider making test-ipv6.com dual-stack. At least check, May 2013, we still see 0.5% broken visiting test-ipv6.com. And we still want them to understand their situation."
+msgstr "En algún momento, cuando el porcentaje de usuarios \"rotos\" haya descendido significativamente, consideraré hacer test-ipv6.com doble-pila. Según el corte de mayo 2013, todavía vemos al 0.5% de las visitas rotas en test-ipv6.com. Y queremos que entiendan su situación."
+
+#: "faq.html"
+msgid "Q: How do I test my IPv6-only host"
+msgstr "P: ¿Cómo pruebo mi equipo sólo-IPv6?"
+
+#: "faq.html"
+msgid "If you ask that question, chances are you don't need this site. However, if you really want to, visit <a href= \"http://ipv6.test-ipv6.com\">http://ipv6.test-ipv6.com</a> with your IPv6-only host."
+msgstr "Si hace esa pregunta, lo más probable es que usted no necesita este sitio. Sin embargo, si quiere, visite <a href= \"http://ipv6.test-ipv6.com\"> http://ipv6.test-ipv6.com</a> con su equipo sólo-IPv6."
+
+#: "faq.html"
+msgid "Q: What do you mean by broken?"
+msgstr "P: ¿Qué se entiende por roto?"
+
+#: "faq.html"
+msgid "A percentage of users today have IPv6 enabled, but are either using a public tunnel that is currently giving poor performance; or otherwise have a route that is installed but broken or suboptimal. However, because they have a route at all, in many cases the address selection algorithm of RFC3484 will pick using it, and trying to use this broken route. It can take towards 75+ seconds before the browser gives up!"
+msgstr "Un porcentaje de usuarios tienen habilitado IPv6, pero, o están utilizando un túnel público que actualmente está dando mal desempeño; o si no, tienen una ruta que está instalada pero rota o subóptima. Sin embargo, por tener una ruta del todo, en muchos casos el algoritmo de selección de la dirección de RFC3484 la elegirá y tratará de usar esa ruta rota. Puede tardar hasta 75 segundos, o más, antes de que el navegador se rinda!"
+
+#: "faq.html"
+msgid "From the perspective of a user with these conditions, a web site offering both A and AAAA DNS records (ie, \"dual stack\") will appear to time out; and the user will move on to another site that offers a similar product. This is the quandary content providers have."
+msgstr "Desde la perspectiva de un usuario en estas condiciones, un sitio web que ofrece tanto registros DNS A como AAAA (es decir, \"dual stack\") aparentará estar caído; y el usuario se trasladará a otro sitio que ofrezca un producto similar. Este es el dilema de los proveedores de contenido."
+
+#: "faq.html"
+msgid "If we detect that you will have problems reaching dual-stack web sites, we recommend you see the <a href=\"broken.html\">Broken User FAQ</a>. It provides several steps to try and identify your root cause for being broken; and barring that, what you can do to disable IPv6 until your ISP offers native IPv6 connectivity."
+msgstr "Si detectamos que usted tendrá problemas llegando a sitios web de doble pila, recomendamos que vea el <a href=\"broken.html\">FAQ de usuario roto</a>. Proporciona varios pasos para tratar de identificar la causa raíz del estar roto; y aparte de eso, lo que puedes hacer para deshabilitar IPv6 hasta que su ISP ofrezca conectividad IPv6 nativa."
+
+#: "faq.html"
+msgid "Q: Why did your stats say you already have IPv6-only users?"
+msgstr "P: ¿Por qué sus estadísticas dicen que ya tienen usuarios sólo-IPv6?"
+
+#: "faq.html"
+msgid "They went to <a href=\"http://ipv6.test-ipv6.com\">http://ipv6.test-ipv6.com</a> ."
+msgstr "Se fueron a <a href=\"http://ipv6.test-ipv6.com\">http://ipv6.test-ipv6.com</a>."
+
+#: "faq.html"
+msgid "Q: How valid are the stats?"
+msgstr "P: ¿Qué tan válidas son las estadísticas?"
+
+#: "faq.html"
+msgid "They do not represent the average web consumer. Visitors to this site are self-selecting. The intent of this site is to not provide stats, but instead to inform the user the level of readiness for the world to move to IPv6 (with or without'em!). As such, stats found here will be completely different from an average content provider."
+msgstr "No representan al consumidor promedio de la web. Los visitantes de este sitio son auto-seleccionados. La intención de este sitio es no proporcionar estadísticas, sino más bien para informar al usuario su nivel de preparación para el mundo a IPv6 (o su falta de!). Por lo tanto, las estadísticas encontradas aquí serán completamente diferente a un proveedor de contenidos promedio."
+
+#: "faq.html"
+msgid "Q: How does your test differ, from what the content providers are doing?"
+msgstr "P: ¿Cómo difiere tu prueba, de lo que hacen los proveedores de contenido?"
+
+#: "faq.html"
+msgid "Content providers are gathering metrics of broken vs non-broken users, in an aggregate form. They are not at this time actually giving the user feedback as to the user's current state. Those metrics will principally drive the business decision of when to start publishing sites over IPv6, versus remaining IPv4 only. IPv4 only for some content sites really is an option; it has a handful of downsides, but the expectation is that everyone will always be able to reach IPv4, in some fashion."
+msgstr "Los proveedores de contenido están reuniendo las métricas de usuarios no roto vs roto, en forma agregada. En este momento en realidad no dan información al usuario en cuanto a su situación actual. Las métricas principalmente impulsarán la decisión empresarial de cuándo empezar a publicar sitios en IPv6, versus quedarse en IPv4 únicamente. Solo-IPv4 para algunos sitios de contenido es realmente una opción; tiene algunos inconvenientes, pero la expectativa es que todo el mundo siempre será capaz de llegar a IPv4, de alguna manera."
+
+#: "faq.html"
+msgid "This site, on the other hand, is intended to help the user understand their current state, and what that state possibly means to them."
+msgstr "Este sitio, por otro lado, pretende ayudar al usuario a comprender su estado actual y lo que significa ese estado posiblemente para ellos."
+
+#: "faq.html"
+msgid "Q: Your site shows the wrong IP address; how can I bypass my proxy server to find my public address?"
+msgstr "P: Su sitio muestra la dirección IP incorrecta; ¿Cómo puedo eludir mi servidor proxy para encontrar mi dirección pública?"
+
+#: "faq.html"
+msgid "For ipv4/ipv6/dual stack, use one of these:"
+msgstr "Para ipv4/ipv6/dual stack, utilice uno de estos:"
+
+#: "faq.html"
+msgid "for ipv4"
+msgstr "para ipv4"
+
+#: "faq.html"
+msgid "for ipv6"
+msgstr "para ipv6"
+
+#: "faq.html"
+msgid "for either"
+msgstr "para cualquiera"
+
+#: "faq.html"
+msgid "Note you _may_ need to specify other options to your telnet command, depending on your operating system. On my mac, for example, I need to use \"<code>telnet -6</code>\"."
+msgstr "Tenga en cuenta que quizás necesite especificar otras opciones para el comando telnet, dependiendo del sistema operativo. En mi mac, por ejemplo, tengo que usar \"<code>telnet -6</code>\"."
+
+#: "faq.html"
+msgid "Q: Do you actually read the feedback?"
+msgstr "P: ¿Realmente lee los comentarios?"
+
+#: "faq.html"
+msgid "Yes, I do. Thank you! Note that I can only follow up with you if you do leave contact information. While I am still grateful for feedback without contact information, I will be unable to reply with any answers if you asked for them."
+msgstr "Sí, lo hago. ¡Gracias! Tenga en cuenta que sólo puedo comunicarme con usted si usted deja información de contacto. Mientras que todavía le agradezco comentarios sin información de contacto, no podré contestar sus preguntas si las tiene."
+
+#: "faq.html"
+msgid "Q: How else can I contact you?"
+msgstr "P: ¿De qué otra manera puedo contactarle?"
+
+#: "faq.html"
+msgid "I would prefer you use the form, as it gives details of your connectivity, and bypasses any mail filters."
+msgstr "Prefiero que use el formulario, ya que da detalles de su conectividad y se brinca los filtros de correo."
+
+#: "faq.html"
+msgid "That said, you are welcome to directly email <a href=\"mailto:jfesler@test-ipv6.com\">jfesler@test-ipv6.com</a>."
+msgstr "Dicho esto, eres bienvenido a enviarme directamente un correo electrónico a <a href=\"mailto:jfesler@test-ipv6.com\"> jfesler@test-ipv6.com</a>."
+
+#: "faq.html"
+msgid "Q: Is this open source?"
+msgstr "P: ¿Es esto código abierto?"
+
+#: "faq.html"
+msgid "Yes. See the <a href=\"source.html\">source page</a> for details."
+msgstr "Sí. Consulte la <a href=\"source.html\">página fuente</a> para obtener más detalles."
+
+#: "stats.html"
+msgid "<span lookup=site.name>site</span> statistics"
+msgstr "Estadísticas del <span lookup=site.name>sitio</span>"
+
+#: "stats.html"
+msgid "Graphs are updated daily."
+msgstr "Los gráficos se actualizan diariamente."
+
+#: "stats.html"
+msgid "60 days view"
+msgstr "Vista de 60 días"
+
+#: "stats.html"
+msgid "600 days view"
+msgstr "Vista de 600 días"
+
+#: "stats.html"
+msgid "Quick notes:"
+msgstr "Notas rápidas:"
+
+#: "stats.html"
+msgid "Browser Filter means that both the \"A\" and \"AAAA\" test failed. Browser (plugin/filter) shenanigans, likely with add-ons like ad blockers."
+msgstr "Filtro de navegador significa que ha fallado el test tanto \"A\" como \"AAAA\". Travesuras de navegador (plugin filtro), probablemente con complementos como bloqueo de anuncios."
+
+#: "stats.html"
+msgid "Brokeness goes down, when volume goes up. This is due to having a wider sample of average people (versus people explicitly testing a new IPv6 setup)."
+msgstr "Estar roto baja, cuando sube el volumen. Esto es debido a tener una muestra más amplia de personas promedio (en comparación con personas explícitamente probando una nueva configuración IPv6)."
+
+#: "stats.html"
+msgid "These graphs show the last 60 days of activity at <span lookup=site.name>site</span>"
+msgstr "Estos gráficos muestran los últimos 60 días de actividad en <span lookup=site.name>sitio</span>"
+
+#: "stats.html"
+msgid "Graph: shows result summaries, stacked. Total height shows number of users who took the test on a given day."
+msgstr "Gráfico: muestra resúmenes de resultado, apilados. Altura total muestra el número de usuarios que tomaron la prueba en un día dado."
+
+#: "stats.html"
+msgid "Similiar graph, except this time showing percentages."
+msgstr "Gráfico similar, excepto que esta vez con porcentajes."
+
+#: "stats.html"
+msgid "The most interesting graph is the percentage of \"broken\" users. Our definition of a \"broken\" user is that the browser stalls or times out, while attempting to visit a web site published on both IPv4 and IPv6."
+msgstr "La gráfica más interesante es el porcentaje de usuarios \"rotos\". Nuestra definición de un usuario \"roto\" es que el navegador se atasca o se agote, mientras intenta visitar un sitio web publicado tanto en IPv4 como IPv6."
+
+#: "stats.html"
+msgid "Line graph, not stacked, of results over time."
+msgstr "Gráfico de líneas, no apilada, de resultados con el tiempo."
+
+#: "stats.html"
+msgid "These graphs show the last 600 days of activity at <span lookup=site.name>site</span>"
+msgstr "Estos gráficos muestran los últimos 600 días de actividad en <span lookup=site.name>sitio</span>"
+
+#: "mission.html"
+msgid "test-ipv6.com - Our mission"
+msgstr "test-ipv6.com - Nuestra misión"
+
+#: "mission.html"
+msgid "Our mission is thus:"
+msgstr "Nuestra misión es así:"
+
+#: "mission.html"
+msgid "Help people identify if they will have problems when publishers offer their web sites on IPv6;"
+msgstr "Ayudar a la gente a identificar si tienen problemas cuando los editores ofrecen sus sitios web sobre IPv6;"
+
+#: "mission.html"
+msgid "Help people fix their system configuration so that they are no longer affected."
+msgstr "Ayudar a la gente a arreglar su configuración del sistema para que ya no estén afectados."
+
+#: "mission.html"
+msgid "To do so in a brand neutral, ad-free way."
+msgstr "Hacerlo neutral en marcas, libre de publicidad."
+
+#: "mission.html"
+msgid "Why do we do this?"
+msgstr "¿Por qué hacemos esto?"
+
+#: "mission.html"
+msgid "Because of 1 out of every 4000 users are \"broken\" based on industry measurements. This has delayed the web sites from publishing to IPv6."
+msgstr "Debido a que 1 de cada 4000 usuarios es \"roto\" basada en las mediciones de la industria. Esto ha retrasado los sitios web de la publicación en IPv6."
+
+#: "mission.html"
+msgid "So, what is meant by \"broken\"?"
+msgstr "Entonces, ¿qué se entiende por \"roto\"?"
+
+#: "mission.html"
+msgid "When you go to your favorite web site in a browser, and it hangs for several seconds or even minutes. If the publisher publishes to IPv6, and your computer has a *broken* IPv6 route (as compared to having no route), then your computer will attempt to use that broken route first, before falling back to the IPv4 Internet."
+msgstr "Cuando vaya a su sitio web favorito en un navegador, y se cuelga durante varios segundos o incluso minutos. Si el editor publica en IPv6 y su ordenador tiene una ruta IPv6 *rota* (en comparación con no tener ninguna ruta), el ordenador intentará utilizar esa ruta rota primero, antes de volver a caer a la red Internet IPv4."
+
+#: "mission.html"
+msgid "What causes these timeouts?"
+msgstr "¿Qué causa esas expiraciones?"
+
+#: "mission.html"
+msgid "Newer operating systems have IPv6 enabled by default. Older ones, may have IPv6 enabled, as a result of user action (or specific applications). Enabling IPv6 does not automatically make you vulnerable."
+msgstr "Sistemas operativos más nuevos tienen IPv6 activado por defecto. Los más viejos, quizás tengan IPv6 activado, como resultado de la acción del usuario (o aplicaciones específicas). Habilitar IPv6 no te hace automáticamente vulnerable."
+
+#: "mission.html"
+msgid "The problem lies when your system is convinced to try and use IPv6, when it is not working adequately. This may be because you're using a public service for your IPv6 gateway. Or, someone on your network, was advertising (to the network) IPv6 through Internet connection sharing; and they left. Last, your router may have IPv6 automatically configured to use public unmanaged gateways; and is telling your computer to use it."
+msgstr "El problema es cuando su sistema está convencido de tratar de utilizar IPv6, cuando no está trabajando adecuadamente. Esto puede deberse a que está usando un servicio público para su enlace de IPv6. O alguien en su red, anunciaba (a la red) IPv6 a través de compartir Internet; y se fueron. Por último, su router puede que tenga IPv6 automáticamente configurado para utilizar enlaces públicos no administrados; y le indica al ordenador usarlo."
+
+#: "mission.html"
+msgid "The simplest, yet near-sighted, solution, would be just to disable IPv6. However, over the next couple of years, this will start to cause you more troubles than not. It would be best to instead find the root of your actual problem, and fix that instead."
+msgstr "La solución más simple, sin embargo, miope, sería sólo deshabilitar IPv6. Sin embargo, en los próximos años, esto empezará a causar más problemas. Sería mejor encontrar la raíz del problema actual y arreglarlo."
+
+#: "mission.html"
+msgid "The <a href=\"broken.html\">Broken User FAQ</a> has several suggestions for broken users to follow, to remediate their situation."
+msgstr "El <a href=\"broken.html\">FAQ del usuario roto</a> tiene varias sugerencias que los usuarios rotos pueden seguir, para remediar su situación."
+
+#: "mission.html"
+msgid "How you can help"
+msgstr "Cómo puedes ayudar"
+
+#: "mission.html"
+msgid "This is an open-source project. I can certainly use your help in a variety of ways; please see the <a href=\"source.html\">source</a> page."
+msgstr "Este es un proyecto de código abierto. Ciertamente puedo usar su ayuda en una variedad de formas; por favor vea la página de <a href=\"source.html\">fuente</a>."
+
+#: "mirrors.html"
+msgid "test-ipv6.com mirrors"
+msgstr "espejos de test-ipv6.com"
+
+#: "mirrors.html"
+msgid "These are the known publicly accessible mirrors for test-ipv6.com."
+msgstr "Estos son los espejos accesibles públicamente conocidos para test-ipv6.com."
+
+#: "mirrors.html"
+msgid "Thank you to all of these organizations, who have put in significant effort to provide this mirror sites. If you have problems with the site you are on now, try another mirror site; perhaps one closer to you."
+msgstr "Gracias a todas estas organizaciones, que han puesto en un esfuerzo significativo para proporcionar estos sitios espejo. Si tiene problemas con el sitio, en el que usted está ahora, pruebe otro sitio espejo; tal vez uno más cerca de usted."
+
+#: "mirrors.html"
+msgid "Hints Columns are sortable (click the first row); <a href=\"#\" onclick=\"GIGO.test_sites(1); return false;\">click here</a> to re-check reachability from where you are to those mirrors."
+msgstr "Columnas de sugerencias son sorteables (haga clic en la primera fila); <a href=\"#\" onclick=\"GIGO.test_sites(1); return false;\">haga clic aquí</a> para volver a comprobar la accesibilidad desde donde está a los espejos."
+
+#: "mirrors.html"
+msgid "(generated by javascript)"
+msgstr "(generados por javascript)"
+
+#: "mirrors.html"
+msgid "Interested in running a mirror?"
+msgstr "¿Interesado en operar un espejo?"
+
+#: "mirrors.html"
+msgid "Mirrors are welcomed and appreciated, whether public or private. Please see <a href=\"https://github.com/falling-sky/source/wiki\">the wiki</a> for details."
+msgstr "Espejos son bienvenidos y apreciados, sean públicos o privados. Por favor vea <a href=\"https://github.com/falling-sky/source/wiki\">el wiki</a> para más detalles."
+
+#: "faq_6to4.html"
+msgid "test-ipv6.com views on 6to4"
+msgstr "opiniones sobre 6to4 de test-ipv6.com"
+
+#: "faq_6to4.html"
+msgid "The ugly bits"
+msgstr "Los bits feos"
+
+#: "faq_6to4.html"
+msgid "The good bits"
+msgstr "Los bits de Buenos"
+
+#: "faq_6to4.html"
+msgid "6to4 is a technology that allows you to use your existing Internet provider (with only IPv4), to access the IPV6 Internet. It does this by putting IPv6 packets inside IPv4 packets, and with the help of some friendly folks on the Internet. (The specification of this is in <a href=\"http://www.ietf.org/rfc/rfc3056.txt\">rfc3056</a>.)"
+msgstr "6to4 es una tecnología que le permite usar a su proveedor de Internet existente (con sólo IPv4), para accesar a Internet IPV6. Esto se logra poniendo los paquetes IPv6 dentro de paquetes IPv4 y con la ayuda de gente amistosa en Internet. (La especificación de esto está en <a href=\"http://www.ietf.org/rfc/rfc3056.txt\">rfc3056</a>.)"
+
+#: "faq_6to4.html"
+msgid "Before covering my actual view on 6to4, lets discuss how it works."
+msgstr "Antes de cubrir mi verdadera opinión sobre 6to4, discutamos cómo funciona."
+
+#: "faq_6to4.html"
+msgid "With traditional IPv4 Internet connections, traffic goes from you, to your ISP; to one or more ISPs; and finally to the end web site. Debugging issues with this is fairly easy. And, in the event of issues, your ISP has an obligation to fix things that they are associated with; the web site has a similiar contract with their ISP."
+msgstr "Con conexiones de Internet IPv4 tradicionales, el tráfico pasa de usted, a su ISP; a uno o varios ISPs; y finalmente en al sitio web final. Depuración de problemas con esto es relativamente fácil. Y en caso de problemas, su ISP tiene la obligación de arreglar las cosas con las que están asociados; el sitio web tiene un contrato similar con su ISP."
+
+#: "faq_6to4.html"
+msgid "With unmanaged 6to4 connections (created \"automatically\" or without explicit gateway information) the process is a fair bit different. IPv6 is put into an IPv4 packet - much like sticking a letter in an envelope. This packet is sent to the \"nearest available\" gateway. Your ISP<i>may</i> run one of these; most do not. Chances are the one you use, will be run by a good samaritan who's trying to contribute to the community. This relay will take the IPV6 from inside your IPv4 packet, and then forward it over the IPV6 Internet."
+msgstr "Con conexiones 6to4 no administradas (creadas \"automáticamente\" o sin información explícita de la puerta de enlace) el proceso es un poco distinto. El IPv6 se pone dentro de un paquete IPv4 - como meter una carta en una sobre. Este paquete es enviado a la puerta de enlace \"más cercana disponible\". Su ISP <i>puede</i> ejecutar uno de estos; la mayoría no. Lo más probable es que, la que utilices, sea dirigido por un buen samaritano que esté tratando de contribuir a la comunidad. Este relé, se llevará la IPV6 por dentro de su paquete IPv4, y luego lo remite a través del Internet IPV6."
+
+#: "faq_6to4.html"
+msgid "Traffic from the web site takes a similiar path. That web site replies back to your automatic IPv6 address. This is routed to the nearest 6to4 relay to that web site. This is not deterministic from your part, at all. In fact, you won't even be able to tell where this relay is. That relay will take the IPv6 packet, stick it inside an IPv4 packet, and then send to your router."
+msgstr "El tráfico en el sitio web toma un camino similar. Ese sitio web responde a su dirección IPv6 automática. Esto se encamina al relé de 6to4 más cercano a ese sitio web. Esto no es determinista de su parte, en absoluto. De hecho, incluso no será capaz de decir dónde está ese relé. Ese relé tomará el paquete IPv6, lo meterá dentro de un paquete IPv4 y luego lo enviará a su enrutador."
+
+#: "faq_6to4.html"
+msgid "Q: What could possibly go wrong?"
+msgstr "P: ¿Qué podría salir mal?"
+
+#: "faq_6to4.html"
+msgid "The main issues involve the lack of a service level agreement, the lack of predictability, and a lack in the protocol for your computer to realize that this method is not working."
+msgstr "Las principales cuestiones implican la falta de un acuerdo de nivel de servicio, la falta de previsibilidad y una falta en el protocolo para su computadora para darse cuenta que este método no funciona."
+
+#: "faq_6to4.html"
+msgid "Service level agreement: 6to4 relays are put up, voluntarilly by some organizations. They use BGP (the Internet's way of saying \"I'm here!\") to advertise to the world the existence of the public gateway. Some of them are managed quite well. Some are not. AS long as the route is being advertised, and they are the \"closest\" (in a BGP network sense - not in your control), that particular relay is the one you MUST use. Same for the web site you're trying to use - they have the same constraints, but most likely using a different relay than you. If anything goes wrong, even if you or the web site can figure out which one it is, there is not a good way to get the problem fixed."
+msgstr "Acuerdo de nivel de servicio: relés 6to4 se instalan voluntariamente por algunas organizaciones. Utilizan BGP (la manera en Internet de decir \"Estoy aquí!\") para anunciar al mundo la existencia de la puerta de enlace pública. Algunos de ellos se manejan muy bien. Algunos no. Mientras la ruta está siendo anunciada y está \"más cerca\" (en el sentido de red BGP - no en su control), el relé particular es el que debe utilizar. Lo mismo para el sitio web que intentas usar - tienen las mismas limitaciones, pero probablemente utilizando un relé diferente que usted. Si algo sale mal, incluso si usted o el sitio web puede averiguar cuál es, no hay una buena manera de resolver el problema."
+
+#: "faq_6to4.html"
+msgid "Some ISPs are starting to offer 6to4 relays in their network; one such example is Comcast. But even if your ISP does this, that is only half the battle."
+msgstr "Algunos ISPs están comenzando a ofrecer relés 6to4 en su red; un ejemplo es Comcast. Pero incluso si su ISP hace esto, es sólo la mitad de la batalla."
+
+#: "faq_6to4.html"
+msgid "Once you enable 6to4, your computer will go \"Ah-ha! IPv6 Internet!\". Any time you vist a web site, your web browser will prefer to try IPv6 (if the web site is offering it). When it works, great! But when it doesn't work, you'll see timeouts. Browsers can wait a very long time before giving up on IPv6, and going back to IPv4. And the browser won't remember it had to try IPv4 - so ever web graphic, every link you click, etc will be subject to what looks like \"web site slow\" or \"web site down\"."
+msgstr "Una vez activas 6to4, su equipo dirá \"Ajá! Internet IPv6! \". Siempre que usted visite un sitio web, su navegador de Internet prefiere intentar IPv6 (si el sitio web lo está ofreciendo). Cuando funciona, muy bien! Pero cuando no funciona, verás los tiempos expirando. Los navegadores pueden esperar mucho tiempo antes de renunciar a IPv6 y volver a IPv4. Y el navegador no recuerda que debía intentar IPv4, así que cada gráfico web, cada link que hacer clic, etc. estarán sujetos a lo que parece \"web sitio lento\" o \"abajo\"."
+
+#: "faq_6to4.html"
+msgid "6to4 worked for me, but the \"Big Packet\" or MTU test was slow/failed. What happened?"
+msgstr "6to4 trabajó para mí, pero la prueba \"Paquete grande\" o MTU era lento/falló. ¿Qué ha pasado?"
+
+#: "faq_6to4.html"
+msgid "When using 6to4, your IPv6 packet has to be pushed into an IPv4 packet. Internet protocol packets have a maximum size; and this can vary based on the Internet service provider, as well as the equipment used."
+msgstr "Cuando se usa 6to4, tu paquete IPv6 tiene que ser empujado en un paquete IPv4. Paquetes de protocolo de Internet tienen un tamaño máximo; y esto puede variar según el proveedor de Internet, así como el equipo utilizado."
+
+#: "faq_6to4.html"
+msgid "Because of this maximum size, your IPv6 packets actually have to be made a bit smaller - so that they fit inside the IPv4 packet, and that the IPv4 packet is still small enough to leave your network."
+msgstr "Debido a este tamaño máximo, los paquetes IPv6 en realidad tienen que hacerse un poco más pequeños - para que encajen dentro de los paquetes de IPv4, y que el paquete IPv4 es todavía lo suficientemente pequeño como para salir de su red."
+
+#: "faq_6to4.html"
+msgid "Further down the line, there may be another network with even tigher restrictions on the packet size. That network may itself be a tunnel - ISPs occasionally have to do that. This is where the problem often - lies. The IPv4 tunnel will send a message back towards you, - indicating that the packet was too big - but you don't get it. Even - if you do, your IPv6 packets don't get the message, so ultimately - you never reduce your packet size."
+msgstr "Más adelante en el trayecto, puede haber otra red con incluso más restricciones sobre el tamaño del paquete. Esa red puede ser un túnel - ISPs de vez en cuando tienen que hacerlo. Aquí es donde el problema a menudo está. El túnel IPv4 enviará un mensaje hacia ti, - indicando que el paquete era demasiado grande - pero no lo recibes. Incluso si lo haces, a tus paquetes IPv6 no les llega el mensaje, así que en última instancia usted nunca reduce el tamaño del paquete."
+
+#: "faq_6to4.html"
+msgid "For some people, reducing the MTU size on IPv6 will help. 1280 is the minimum legal size. You can try values between 1400 to 1480 if you really want to find the one magic value that seems to work for you; but if you do touch MTU at all I'd recommend just doing 1280, and avoid later frustration."
+msgstr "Para algunas personas, reduciendo el tamaño MTU en IPv6 ayudará. 1280 es la talla mínima legal. Puede probar valores entre 1400 a 1480 si realmente quiere encontrar el valor mágico que parece funcionar para usted; pero si tocas el MTU en absoluto, recomendamos ponerlo en 1280 y evitar la frustración posterior."
+
+#: "faq_6to4.html"
+msgid "Managed tunnels"
+msgstr "Túneles administrados"
+
+#: "faq_6to4.html"
+msgid "You sure sound like you don't like 6to4."
+msgstr "De veras parece que no le gusta 6to4."
+
+#: "faq_6to4.html"
+msgid "I don't like that it is *unmanaged*. 6to4 is basically 6in4 - an IPv6 packet wrapped with an IPv4 header. Managed 6in4 services can actualy be pretty good.."
+msgstr "No me gusta que sea *no-administrado*. 6to4 es básicamente 6in4 - un paquete IPv6 envuelto con un encabezado IPv4. Servicios 6in4 administrados pueden actualmente ser bastante buenos..."
+
+#: "faq_6to4.html"
+msgid "test-ipv6.com's recommendation is that if you need IPv6 before your ISP can offer it, consider a managed 6in4 service. 6in4 is the same service as 6to4 on the wire, except with a managed tunnel endpoint (instead of an anonymous one). There are a few major options out there. They each offer great service; and they offer a <b>support</b> channel. These relays are <b>actively monitored</b> for service quality. Best of all, the <b>same relay is used both directions</b> - meaning the same staff manages both conversions. Consider these services:"
+msgstr "la recomendación de test-ipv6.com es que si necesita IPv6 antes de que su ISP lo pueda ofrecer, considere un servicio 6in4 administrado. 6in4 es el mismo servicio que 6to4 en el alambre, excepto con un extremo del túnel administrado (en lugar de un anónimo). Hay algunas opciones principales. Cada uno de ellos ofrece gran servicio; y ofrecen un canal de <b>soporte</b>. Estos relés son <b>monitoreados activamente</b> para la calidad del servicio. Lo mejor de todo, el <b>mismo relé se utiliza ambas direcciones</b> - lo que significa el mismo personal maneja las dos conversiones. Tenga en cuenta estos servicios:"
+
+#: "faq_6to4.html"
+msgid "Ran by Hurricane Electric. The author of test-ipv6.com has used their services for 2-3 years; and would notice latency problems (lots of interactive SSH use from home to the server). This service requires a static IPv4 address (or static enough - you can always go to the tunnelbroker.net site and update your IP). Lastly, tunnelbroker is fully automated - you can sign up, get your tunnel assignment immediately, and configure your end."
+msgstr "Operado por Hurricane Electric. El autor del test-ipv6.com ha utilizado sus servicios durante 2-3 años; y vería problemas de latencia (mucho uso interactivo de SSH desde su casa al servidor). Este servicio requiere una dirección IPv4 estática (o suficientemente estática - siempre puede ir al sitio tunnelbroker.net y actualizar su dirección IP). Por último, tunnelbroker es completamente automatizada - puede inscribirse, obtener su túnel inmediatamente y configurar su lado."
+
+#: "faq_6to4.html"
+msgid "is another popular service. I see many European users using this service significantly; though their footprint is global. They work with dynamic IPs with some custom software that they provide."
+msgstr "es otro servicio popular. Veo muchos usuarios europeos utilizando este servicio significativamente; Aunque su presencia es mundial. Trabajan con IPs dinámicas con un software personalizado que ofrecen."
+
+#: "faq_6to4.html"
+msgid "aka freenet6. I don't have personal experience with this, but test-ipv6.com does see a number of connections via this service."
+msgstr "conocido como freenet6. No tengo experiencia personal con esto, pero test-ipv6.com ve un número de conexiones a través de este servicio."
+
+#: "faq_6to4.html"
+msgid "may be a better solution, in China. This requires a custom client to be installed."
+msgstr "puede ser una solución mejor, en China. Esto requiere un cliente personalizado para instalarse."
+
+#: "faq_6to4.html"
+msgid "in Australia offers both free and paid-for (with SLA) tunnels."
+msgstr "en Australia ofrece túneles tanto gratis y pagados (con SLA) ."
+
+#: "faq_ipv4_only.html"
+msgid "About your IPv4-only Internet service."
+msgstr "Acerca de su servicio de Internet sólo-IPv4."
+
+#: "faq_ipv4_only.html"
+msgid "This FAQ has been produced to try and address the questions of IPv4 only users"
+msgstr "Este FAQ ha sido elaborado para tratar de responder a las preguntas de los usuarios sólo IPv4"
+
+#: "faq/dontfeelbad.inc"
+msgid "It looks like you have only IPv4 Internet service at this time. Don't feel bad - most people are in this position right now. Most Internet service providers are not quite yet ready to provide IPv6 Internet to residential customers."
+msgstr "Parece que usted tiene servicio de Internet sólo-IPv4 en este momento. No se sienta mal - mayoría de la gente está ahora en esta posición. La mayoría de los proveedores de servicios de Internet todavía no están listos para proporcionar Internet IPv6 a los clientes residenciales."
+
+#: "faq/nothingwillbreak.inc"
+msgid "The good news is, nothing will suddenly break."
+msgstr "La buena noticia es que, nada romperá de repente."
+
+#: "faq/nothingwillbreak.inc"
+msgid "When web sites offer their content on both IPv4 and IPv6, you'll still reach them using your existing IPv4 Internet service."
+msgstr "Cuando los sitios web ofrecen sus contenidos en IPv4 e IPv6, todavía llegarás a ellos mediante su servicio de Internet IPv4 existente."
+
+#: "faq/whyipv6.inc"
+msgid "Many of the visitors to the site are new to what IPv6 is."
+msgstr "Muchos de los visitantes al sitio son nuevos a lo que es IPv6."
+
+#: "faq/whyipv6.inc"
+msgid "If you don't know why IPv6 matters, see the <a href=\"#\" onclick=\"return help_page('faq_whyipv6.html','Why IPv6')\">Why IPv6 FAQ</a>."
+msgstr "Si no sabe por qué importa el IPv6, consulte las <a href=\"#\" onclick=\"return help_page('faq_whyipv6.html','Why IPv6')\"> FAQ de por qué IPv6</a>."
+
+#: "faq/whyipv6.inc"
+msgid "This will give you a bit of background of what to expect with IPv4 in the coming months and years; and perhaps some incentive to ask your ISP when they will offer IPv6."
+msgstr "Esto le dará un poco de fondo de lo que puede esperar con IPv4 en los próximos meses y años; y tal vez algún incentivo para consultar a su ISP cuando ofrecerán IPv6."
+
+#: "faq/brokers.inc"
+msgid "If you are savvy with technology, you can be an early adopter of IPv6, consider learning more about"
+msgstr "Si eres inteligente con tecnología, puede ser de los primeros en adoptar IPv6, considere aprender más acerca"
+
+#: "faq/brokers.inc"
+msgid "providers (managed 6to4 tunnel services)."
+msgstr "proveedores (servicios de túnel 6to4 administrado)."
+
+#: "faq/brokers.inc"
+msgid "The use of automatic tunnels is discouraged"
+msgstr "Se desaconseja el uso de túneles automáticos"
+
+#: "faq/brokers.inc"
+msgid "[see more]"
+msgstr "[Ver más]"
+
+#: "faq_ipv4_only.html"
+msgid "If you are not savvy with technology, here is more generic information:"
+msgstr "Si no eres inteligente con tecnología, aquí hay información más genérica:"
+
+#: "faq/matrix_os.inc"
+msgid "Windows Vista and Windows 7 are both IPv6 ready. Mac OS X 10.5 and higher is fine. FreeBSD and Linux, all recent versions, are also fine. When your Internet service provider offers IPv6 to you, these OSs are good. You may still need to replace your router (wireless or wired), if it is not aware of IPv6. You'll have to consult with your Internet service provider on when IPv6 will be offered."
+msgstr "Windows Vista y Windows 7 son ambos IPv6 listo. Mac OS X 10.5 y superior está bien. FreeBSD y Linux, todas las versiones recientes, también están bien. Cuando su proveedor de Internet le ofrece IPv6, estos OSs son buenos. Aún necesitará reemplazar su router (inalámbrico o por cable), si no es consciente de IPv6. Tendrá que consultar con su proveedor de Internet cuando se ofrecerán IPv6."
+
+#: "faq/matrix_os.inc"
+msgid "Windows XP users: My advice is to plan on upgrading before using IPv6. It is technically possible to use IPv6 with XP, to a minimal extent."
+msgstr "Usuarios de Windows XP: mi consejo es que planeen actualizarse antes de utilizar IPv6. Es técnicamente posible utilizar IPv6 con XP, en una medida mínima."
+
+#: "faq/dontstress.inc"
+msgid "Don't stress too much on having an IPv6 address in 2011."
+msgstr "No se estrese demasiado en tener una dirección IPv6 en 2011."
+
+#: "faq/dontstress.inc"
+msgid "If you do buy a new router, make sure that it will be IPv6 ready (or upgradable) when your service provider does offer IPv6."
+msgstr "Si usted compra un router nuevo, asegúrese de que sea IPv6 listo (o actualizable) cuando su proveedor de servicio ofrezca IPv6."
+
+#: "faq_no_ipv6.html"
+msgid "You appear to have no IPv6 at this time.."
+msgstr "Parece que no tiene IPv6 en este momento..."
+
+#: "faq_no_ipv6.html"
+msgid "You appear to have no IPv6 address."
+msgstr "Parece que no tiene ninguna dirección IPv6."
+
+#: "faq/unable_to_see_ipv6.inc"
+msgid "<b>If you strongly believe you have IPv6, but we were unable to detect it:</b> it means one of a couple of things. Either your organization is blocking the use of IPv6 to talk to the outside Internet through network policy; or perhaps what you see with IPv6 on your host is not a global address. Any address starting with \"::\", \"fc\", \"fd\", or \"fe\" are unable to work with the public IPv6 Internet."
+msgstr "<b>Si crees fuertemente que tienes IPv6, pero fuimos incapaces de detectarlo:</b> es uno de un par de cosas. O su organización bloquea el uso de IPv6 para hablar con Internet exterior a través de la política de la red; o tal vez lo que ve con IPv6 en su equipo no es de una dirección global. Cualquier dirección a partir de \"::\", \"fc\", \"fd\" o \"fe\" son incapaces de trabajar con la red pública Internet IPv6."
+
+#: "faq_teredo_minimum.html"
+msgid "More about your test results."
+msgstr "Más información sobre los resultados del análisis."
+
+#: "faq/teredo_iponly.inc"
+msgid "You also appear to have Teredo enabled. You did successfully connect to an IPv6 site during this test - but only when forcing the connection by connecting to an IPv6 numeric address, instead of a web site name. This setting will not help or hurt you going forward to reach IPv6 web sites."
+msgstr "También parece que tiene activado Teredo. Logró con éxito conectarse a un sitio IPv6 durante esta prueba - pero sólo forzando la conexión usando una dirección numérica de IPv6, en lugar de un nombre de sitio web. Esta configuración no lo ayudará o dañará en adelante para llegar a sitios web de IPv6."
+
+#: "faq_teredo.html"
+msgid "About Teredo"
+msgstr "Acerca de Teredo"
+
+#: "faq_teredo.html"
+msgid "This FAQ has been produced to tell you about Microsoft's Teredo service - a transition tool to help get early access to the IPv6 Internet."
+msgstr "Este FAQ ha sido producido para informarle sobre el servicio de Microsoft Teredo - una herramienta de transición para ayudar a obtener acceso temprano a la red Internet IPv6."
+
+#: "faq_teredo.html"
+msgid "By default, Teredo is enabled on Vista and Windows 7. However, if Teredo is the only available IPv6 solution for you, it will default to only connecting to web sites by IPv6 address - not by name. More can be found <a href=\"http://technet.microsoft.com/en-us/library/bb727035.aspx\">here</a>. Once a global IP address has been assigned, Windows will do lookups. At this point, you probably wonder - why do I need Teredo?"
+msgstr "De forma predeterminada, Teredo está habilitada en Vista y Windows 7. Sin embargo, si Teredo es la única solución IPv6 disponible para usted, por defecto sólo conectará a sitios web por dirección numérica IPv6 - no por su nombre. Puede encontrar más <a href=\"http://technet.microsoft.com/en-us/library/bb727035.aspx\">aquí</a>. Una vez que se ha asignado una dirección IP global, Windows hará las búsquedas. En este punto, probablemente se pregunte - ¿por qué necesito Teredo?"
+
+#: "faq_v6ns_bad.html"
+msgid "About the \"v6ns\" test."
+msgstr "Sobre la prueba de \"v6ns\"."
+
+#: "faq_v6ns_bad.html"
+msgid "This FAQ has been produced to try and address what it means for the v6ns test to be \"bad\"."
+msgstr "Este FAQ ha sido elaborado para discutir sobre lo que significa que la prueba de v6ns salga \"mal\"."
+
+#: "faq_v6ns_bad.html"
+msgid "This test specifically verifies that your DNS resolver (usually operated by your Internet service provider, or your corporate IT department) is capable of reaching IPv6 Internet sites for DNS lookups. If you explicitly configured the use of a different DNS server, such as OpenDNS or Google's Public DNS, you'll test those services instead."
+msgstr "Esta prueba verifica específicamente que su resolución DNS (generalmente operado por su proveedor de Internet o su departamento corporativo) sea capaz de llegar a sitios de Internet IPv6 para búsquedas de DNS. Si ha configurado explícitamente el uso de un servidor DNS diferente, como OpenDNS o Google Public DNS, usted podrá probar esos servicios."
+
+#: "faq_v6ns_bad.html"
+msgid "If this test fails:"
+msgstr "Si esta prueba falla:"
+
+#: "faq_v6ns_bad.html"
+msgid "it means that the DNS resolver you are using, requires IPv4 to reach the DNS authoritative servers of your favoriate web sites. In the near future, every web site of consequence will remain accessible in this form, so <b>there is no immediate danger.</b>"
+msgstr "significa que la resolución DNS que usa, requiere IPv4 para llegar a los servidores DNS autoritativos de sus sitios web favoritos. En un futuro próximo, cada sitio web importante permanecerá accesible en esta forma, así que <b>no hay ningún peligro inmediato.</b>"
+
+#: "faq_v6ns_bad.html"
+msgid "If this test succeeds:"
+msgstr "Si tiene éxito esta prueba:"
+
+#: "faq_v6ns_bad.html"
+msgid "it means that your DNS resolver is fully capable of reaching IPv6 DNS servers. This means that the operator of that DNS server has IPv6 within their network. If they do not already offer you IPv6, this may be a sign that they are actively working on trying to make it possible."
+msgstr "significa que su resolución DNS es completamente capaz de alcanzar los servidores DNS IPv6. Esto significa que el operador de ese servidor DNS tiene IPv6 dentro de su red. Si no ofrecen IPv6 ya, puede ser una señal de que están trabajando activamente para hacerlo."
+
+#: "faq_v6ns_bad.html"
+msgid "Do you use OpenDNS?"
+msgstr "¿Usa OpenDNS?"
+
+#: "faq_v6ns_bad.html"
+msgid "OpenDNS is now offering IPv6-specific resolvers, that will be able to retrieve DNS over IPv6. This means the \"v6ns\" test operated here will pass. See the <a target=_blank href=\"http://www.opendns.com/ipv6/\">OpenDNS IPv6 information page</a>."
+msgstr "OpenDNS ofrece ahora resolutores específicos IPv6, que serán capaces de recuperar DNS sobre IPv6. Esto significa que pasará la prueba de \"v6ns\" operada aquí. Consulte la <a target=_blank href=\"http://www.opendns.com/ipv6/\">página de información de OpenDNS IPv6</a>."
+
+#: "faq_v6ns_bad.html"
+msgid "Do you operate your own DNS resolvers?"
+msgstr "¿Opera usted sus propios resolutores DNS?"
+
+#: "faq_v6ns_bad.html"
+msgid "If you operated the DNS resolvers in use at your home or organization, enabling IPv6 on your DNS server is easy."
+msgstr "Si usted opera las resoluciones DNS en su hogar u organización, habilitar IPv6 en el servidor DNS es fácil."
+
+#: "faq_v6ns_bad.html"
+msgid "ISC BIND: Make sure that IPv6 support is compiled in when you ./configure it. It is enabled by default. If you recently added IPv6 to your server, simply restart your named process, as you normally would."
+msgstr "ISC BIND: Asegúrese de que se compile el soporte IPv6 en cuando usted lo ./configure. Está habilitada de forma predeterminada. Si recientemente agregó IPv6 a su servidor, simplemente reinicie su proceso named, como lo haría normalmente."
+
+#: "faq_v6ns_bad.html"
+msgid "PowerDNS: Enable <code>aaaa-additional-processing</code> and configure <code>query-local-address6</code> in your <code>recursor.conf</code>. Restart powerdns."
+msgstr "PowerDNS: Habilitar <code>aaaa-additional-processing</code> y configurar <code>query-local-address6</code> en su <code>recursor.conf</code>. Reinicie powerdns."
+
+#: "faq_v6ns_bad.html"
+msgid "Windows Server 2003: Upgrade to Windows Server 2008 at a minimum. Windows 2003 will resolve AAAA records, and supports IPv6 clients, but does *not* do DNS resolution over IPv6."
+msgstr "Windows Server 2003: Actualice a Windows Server 2008 como mínimo. Windows 2003 resolverá AAAA records y soporta clientes IPv6, pero *no* hace resolución DNS sobre IPv6."
+
+#: "faq_v6ns_bad.html"
+msgid "Confirmation:"
+msgstr "Confirmación:"
+
+#: "faq_v6ns_bad.html"
+msgid "should return back an aaaa record without errors."
+msgstr "debe volver volver un registro aaaa sin errores."
+
+#: "faq_broken_aaaa.html"
+msgid "Broken DNS AAAA Lookups"
+msgstr "Búsquedas DNS AAAA rotas"
+
+#: "faq_broken_aaaa.html"
+msgid "We detected that you are able to connect to IPv6 sites, by numerical address specifically. However, connections using DNS either failed, or preferred IPv4."
+msgstr "Hemos detectado que usted es capaz de conectarse a sitios de IPv6, por dirección numérica específicamente. Sin embargo, las conexiones mediante DNS fallaron o prefirieron IPv4."
+
+#: "faq_broken_aaaa.html"
+msgid "What does this mean for you?"
+msgstr "¿Qué significa esto para usted?"
+
+#: "faq_broken_aaaa.html"
+msgid "You should still be able to reach most sites fine, so long as they offer their services on IPv4. This means few near-term problems."
+msgstr "Aún debe ser capaz de llegar a sitios bien, en tanto que ofrezcan sus servicios en IPv4. Esto significa pocos problemas a corto plazo."
+
+#: "faq_broken_aaaa.html"
+msgid "Possible causes:"
+msgstr "Causas posibles:"
+
+#: "faq_broken_aaaa.html"
+msgid "Firefox users may have IPv6 lookups disabled."
+msgstr "Los usuarios de Firefox pueda que tengan las búsquedas IPv6 desactivadas."
+
+#: "faq_broken_aaaa.html"
+msgid "Go to <a href=\"about:config\">about:config</a> in your browser."
+msgstr "Vaya a <a href=\"about:config\">sobre: config</a> en su navegador."
+
+#: "faq_broken_aaaa.html"
+msgid "Look for <code>network.dns.disableIPv6</code>"
+msgstr "Buscar <code>network.dns.disableIPv6</code>"
+
+#: "faq_broken_aaaa.html"
+msgid "Make sure this is set to <code>false</code>."
+msgstr "Asegúrese de que está en <code>false</code>."
+
+#: "faq_broken_aaaa.html"
+msgid "Your OS may be configured to not do AAAA lookups; that is, to prefer IPv4 only."
+msgstr "Su sistema operativo puede estar configurado para no hacer búsquedas AAAA; es decir, a preferir IPv4 únicamente."
+
+#: "faq_broken_aaaa.html"
+msgid "Your DNS server may be filtering AAAA responses (or otherwise broken)."
+msgstr "Su servidor DNS puede estar filtrando las respuestas AAAA (o roto de alguna manera)."
+
+#: "faq_broken_aaaa.html"
+msgid "Some ISPs will intentionally filter AAAA records. For example, on World IPv6 Day, we expect many Japanese ISPs to filter AAAA records, to mitigate current IPv6 deployment issues unique to their environments."
+msgstr "Algunos ISP intencionalmente filtrarán registros AAAA. Por ejemplo, en el día mundial de IPv6, esperamos que muchos ISP japoneses filtren registros AAAA, para mitigar problemas de implementación actuales IPv6 únicos en sus entornos."
+
+#: "faq_broken_aaaa.html"
+msgid "You (or your techical support) can run <code>dig @DNSSERVER aaaa aaaa.test-ipv6.com</code> to confirm if the DNS server is working properly"
+msgstr "Usted (o su apoyo técnico) puede ejecutar <code>dig @DNSSERVER aaaa aaaa.test-ipv6.com</code> para confirmar si el servidor DNS está funcionando correctamente"
+
+#: "faq_firefox_plugins.html"
+msgid "FAQ on Firefox Plugins"
+msgstr "Preguntas frecuentes sobre Plugins Firefox"
+
+#: "faq_firefox_plugins.html"
+msgid "This FAQ has been produced to try and address issues caused when using Firefox"
+msgstr "Este FAQ ha sido elaborado para tratar de abordar problemas causados cuando se usa Firefox"
+
+#: "faq/intro_js.inc"
+msgid "<b>How this site works:</b> This site tells your browser to try and load several remote javascript files. Each file is on a different server. After each one finishes, we look at which ones worked - and which ones failed. Depending on the pattern, we can guess at IPv4 and IPv6 compatibility, and sometimes suggest possible fixes."
+msgstr "<b>Cómo funciona este sitio:</b> Este sitio le dice a su navegador que intente cargar varios archivos javascript remotos. Cada archivo se encuentra en un servidor diferente. Después de que cada uno termine, observamos cuáles trabajaron y cuáles no. Dependiendo del patrón, podemos adivinar compatibilidad IPv4 e IPv6 y a veces sugerir posibles soluciones."
+
+#: "faq/intro_js.inc"
+msgid "Some browser plugins enforce policies that are compatible with the above behavior. They block connections that (to them) look like they might be 3rd party advertising or tracking. There is no good way to identify this plugins from inside javascript; nor any good way to work around it."
+msgstr "Algunos plugins de navegador imponen políticas que son compatibles con el comportamiento anterior. Bloquean las conexiones que (a ellos) les parece que podrían ser terceros publicitarios o de seguimiento. No hay ninguna buena manera de identificar estos plugins desde dentro de javascript; ni cualquier buena manera de arreglarlo."
+
+#: "faq/plugins_firefox.inc"
+msgid "In the case of Firefox, the most common plugins that cause problems are AdBlock and RequestPolicy. There are probably others - any which claims to prevent XSS, CSRF, or Cross Site Scripting can be a problem. Try disabling these plugins (either temporarilly via any menu they offer you, or via the Firefox add-ons menu)."
+msgstr "En el caso de Firefox, los plugins más comunes que causan problemas son AdBlock y RequestPolicy. Probablemente hay otros - cualquiera que pretenda evitar XSS, CSRF, o Cross Site Scripting puede ser un problema. Pruebe deshabilitar estos plugins (temporalmente mediante cualquier menú que lo ofrezca o desde el menú de Firefox Add-ons)."
+
+#: "faq_browser_plugins.html"
+msgid "Alternative test for you.."
+msgstr "Prueba alternativa para usted..."
+
+#: "faq_browser_plugins.html"
+msgid "This image based test is provided as a workaround. It will give you a quick pass/fail test, to tell you if you should be worried for World IPv6 Day."
+msgstr "Esta prueba basada en imágenes se ofrece como una solución temporal. Le dará una prueba rápida aprobado/reprobado, diciéndole si debería estar preocupado por el día mundial de IPv6."
+
+#: "faq/simple_test.inc"
+msgid "The following table will try and load 3 images."
+msgstr "La siguiente tabla tratará de cargar 3 imágenes."
+
+#: "faq/simple_test.inc"
+msgid "test images for ipv4, dual stack, and ipv6"
+msgstr "imágenes de prueba para ipv4, ipv6 y dual stack"
+
+#: "faq/simple_test.inc"
+msgid "Pass?"
+msgstr "Superado?"
+
+#: "faq/simple_test.inc"
+msgid "Method"
+msgstr "Método"
+
+#: "faq/simple_test.inc"
+msgid "More Info"
+msgstr "Más información"
+
+#: "faq/simple_test.inc"
+msgid "IPv4. Basic traditional Internet."
+msgstr "IPv4. Internet básico tradicional."
+
+#: "faq/simple_test.inc"
+msgid "If green, you will have no problem on World IPv6 day."
+msgstr "Si verde, no tendrá ningún problema en el día mundial de IPv6."
+
+#: "faq/simple_test.inc"
+msgid "If this fails, seek help from your IT department, helpdesk, or ISP tech support."
+msgstr "Si esto falla, busque ayuda de su departamento de TI, asistencia o soporte técnico del ISP."
+
+#: "faq/simple_test.inc"
+msgid "If this fails, consider using the <a href=\"/\">full test</a>, with IE, Firefox, Safari, or Chrome, to get more detailed information about possible failure reasons."
+msgstr "Si esto falla, considere el uso de la <a href=\"/\">prueba completa</a>, con IE, Firefox, Safari o Chrome, para obtener información más detallada sobre las razones del posible fracaso."
+
+#: "faq/simple_test.inc"
+msgid "<i>If red or blank, do not stress!</i> Few people already have IPv6 at this time; and it is not critical for 2011 but will be for the coming years."
+msgstr "<i>Si rojo o en blanco, no se estrese!</i> Pocas personas tienen ya IPv6 en este momento; y no es crítico para el 2011 pero será en los próximos años."
+
+#: "faq_browser_plugins.html"
+msgid "FAQ on Plugins and Add-Ons"
+msgstr "Preguntas frecuentes sobre Plugins y Add-ons"
+
+#: "faq_browser_plugins.html"
+msgid "This FAQ has been produced to try and address issues caused when using browser add-ons"
+msgstr "Este FAQ ha sido elaborado para tratar de abordar cuestiones causadas al usar complementos del navegador"
+
+#: "simple_test.html"
+msgid "This image based test is provided for those with browsers or browser plugins incompatible with the <a href=\"/\">main test</a>. This page provides only a subset of features, but should be enough for a simple pass/fail."
+msgstr "Esta prueba basada en imágenes se proporciona para aquellos con navegadores o plugins de navegadores incompatibles con la <a href=\"/\">prueba principal</a>. Esta página proporciona sólo un subconjunto de características, pero debe ser suficiente para un simple aprobado/reprobado."
+
+#: "faq_whyipv6.html"
+msgid "Why IPv6?"
+msgstr "¿Por qué IPv6?"
+
+#: "faq_whyipv6.html"
+msgid "This is an interesting question. IPv6 buys you only a bit more than you already have today; and most of that is a promise. IPv6 will help you preserve the level of Internet connectivity between your home and other locations on the Internet, without interference, as you enjoyed in 2012."
+msgstr "Es una pregunta interesante. IPv6 te entrega solo un poco más de lo que ya tienes hoy; y la mayor parte es una promesa. IPv6 te ayudará a tener el nivel de conectividad en Internet entre tu casa y los otros lugares de Internet, sin interferencia, tal como se podía disfrutar en 2012."
+
+#: "faq_whyipv6.html"
+msgid "The promise is the ability to give every device in your house a reachable network address. Each house will have practically unlimited network addresses (2<sup>64</sup> if you're curious - about 18 billion billions). Each house may potentially have more than that, particularly if they have the need for multiple networks within the home. Many ISPs will be able to easy give you 256 of those networks. <em>Running out of IPv6 address space will seem impossible for decades.</em>"
+msgstr "La promesa es la capacidad de dar a todos los dispositivos en su casa una dirección de red accesible. Cada casa tendrá direcciones de red prácticamente ilimitadas (2<sup>64</sup> si tienes curiosidad - unos 18 billones de billones). Cada casa puede tener potencialmente más, especialmente si tienen la necesidad de múltiples redes dentro del hogar. Muchos ISP podrán darle fácilmente 256 de esas redes. <em>Quedarse sin direcciones IPv6 parecerá imposible durante décadas.</em>"
+
+#: "faq_whyipv6.html"
+msgid "Applications to take advantage of this are just now being thought of. Imagine having all of your home electronics accessible from work or from your mobile phone. You could watch your TV recorder, or the security camera. You could check the fridge, perhaps start the oven timer. Maybe turn on the air conditioning or the heater when you know you're coming home early. All of these *can* be done today, but are cumbersome with IPv4 if you're using a single IPv4 address today. And, very difficult in the future, with where IPv4 is heading next."
+msgstr "Apenas ahora se piensa en aplicaciones para tomar ventaja de ello. Imagine tener todo sus electrodomésticos accesibles desde el trabajo o desde su teléfono móvil. Podría ver su grabadora de TV o su cámara de seguridad. Podría comprobar la nevera, tal vez iniciar el temporizador del horno. Tal vez encender el aire acondicionado o la calefacción cuando sabes que vas a venir pronto a casa. Todos esto *puede* hacerse hoy, pero es engorrosa con IPv4 si está usando solo una dirección IPv4. Y será muy difícil en el futuro, con IPv4 hacia dónde va a continuación."
+
+#: "faq_whyipv6.html"
+msgid "What Is Wrong with IPv4"
+msgstr "Qué esta mal con IPv4"
+
+#: "faq_whyipv6.html"
+msgid "The traditional IPv4 Internet is running out of space. The IANA registry (at the global level) is either just about out, or totally out, depending on when you read this. They are expected to announce this depletion Janaury or February 2011."
+msgstr "La red Internet IPv4 tradicional se está quedando sin espacio. El registro IANA (a nivel mundial) está casi, o totalmente, agotado, dependiendo de cuando leas esto. Se espera que se anuncie este agotamiento en enero o febrero de 2011."
+
+#: "faq_whyipv6.html"
+msgid "As Internet service providers each run out of the space they have been allocated, they will have to find creative ways to help keep taking on new customers. Those customers will still need access to the IPv4 Internet."
+msgstr "Conforme los proveedores de servicio de Internet agoten el espacio que tienen asignados, tendrán que encontrar formas creativas para seguir aumentando su clientela. Los clientes nuevos aún tendrán que tener acceso a la red Internet IPv4."
+
+#: "faq_whyipv6.html"
+msgid "Q: I heard there are millions of addresses left. Take it back from the companies not using it! Use the Class E space! (etc)."
+msgstr "P: He oído que aún hay millones de direcciones. Recuperen las direcciones de las empresas que no las están usando! Utilicen el espacio de clase E! (etc.)."
+
+#: "faq_whyipv6.html"
+msgid "Those have been looked at. The space is relatively small, given the rate that the world is consuming it now. Forcefully taking back space would require more time in the court systems than it would buy back. Other currently reserved space is too difficult to use - it would require replacing most of the routers in the world to do so."
+msgstr "Los han visto. El espacio es relativamente pequeño, teniendo en cuenta la tasa al que el mundo está consumiendo ahora. Recuperando a la fuerza el espacio requeriría más tiempo en los sistemas judiciales del que dará de vuelta. Otro espacio reservado actualmente es muy difícil de usar - requeriría cambiar la mayoría de los enrutadores en el mundo para hacerlo."
+
+#: "faq_whyipv6.html"
+msgid "Q: What creative ways will ISPs keep IPv4 running?"
+msgstr "P: ¿Qué formas creativas usarán los ISP para mantener operando IPv4?"
+
+#: "faq_whyipv6.html"
+msgid "Most commonly, some form of NAT. NAT is a form of address sharing; think of it as a party line from the earlier days of the telephone. You'll be able to make outgoing connections easy enough, as long as your shared IP address is not too busy."
+msgstr "Más comúnmente, algún tipo de NAT. NAT es una forma de compartir direcciones; Considérenlo como una línea de fiesta desde los primeros días del teléfono. Será capaz de hacer las conexiones salientes fácilmente, mientras su dirección IP compartida no esté demasiado ocupada."
+
+#: "faq_whyipv6.html"
+msgid "Note this is in addition to any NAT you do at home."
+msgstr "Nota que esto es además de cualquier NAT que haga en casa."
+
+#: "faq_whyipv6.html"
+msgid "Q: So, why worry? NAT will work, right? I use NAT at home today after all.."
+msgstr "P: Entonces, ¿por qué preocuparse? NAT funcionará, ¿no? Uso NAT en casa hoy después de todo..."
+
+#: "faq_whyipv6.html"
+msgid "Sort of. Basic web browsing should be OK for most sites. Some map sites, the itunes store, and other sites that use a <em>huge</em> number of connections to rapidly load the page, may start showing blank images, depending on how many people share that public IP address."
+msgstr "Mas o menos. Navegación básica por la web debería funcionar para la mayoría de los sitios. Algunos sitios de mapas, la tienda de itunes y otros sitios que utilizan un <em>gran</em> número de conexiones para rápidamente cargar la página, pueden empezar a mostrar imágenes en blanco, dependiendo de cuántas personas compartan esa dirección IP pública."
+
+#: "faq_whyipv6.html"
+msgid "Mail will still work, both traditional as well as web based."
+msgstr "Correo seguirá funcionando, tanto tradicional como basado en la web."
+
+#: "faq_whyipv6.html"
+msgid "Q: What will break when ISPs NAT their customers?"
+msgstr "P: ¿Qué se romperá cuando los ISPs  NATeen a sus clientes?"
+
+#: "faq_whyipv6.html"
+msgid "When web sites have to block abusers, they often block the IP address the abuse came from. If you are sharing your IP address with 1000 other broadband customers, if *any* of them trigger a block, you will be blocked too. Your ISP is not likely to be able to assist in fixing this."
+msgstr "Cuando los sitios web tengan que bloquear abusadores, a menudo bloquean la IP de la que viene el abuso. Si usted está compartiendo su dirección IP con 1000 otros clientes de banda ancha, si *cualquiera* de ellos provoca un bloqueo, usted también se bloqueará. Su ISP es probable que no sea capaz de ayudarle en esto."
+
+#: "faq_whyipv6.html"
+msgid "Running servers at home will break, unless you arrange to pay for a static IP address. Assuming the ISP is able to offer this at all, we expect the price for this to go up over the coming years. Some ISPs may be able to offer you a port forward on a static IP on an odd port number - but not the whole IP address"
+msgstr "Ejecutar servidores en casa se romperá, a menos que usted haga los arreglos para pagar por una dirección IP estática. Suponiendo que el ISP sea capaz de ofrecerla en todo caso, esperamos que el precio suba en los próximos años. Algunos ISP pueden ser capaces de ofrecerle un reevio de puerto en una dirección IP estática- pero no la dirección IP entera"
+
+#: "faq_whyipv6.html"
+msgid "Running p2p applications will likely break. <b>This includes things like voice and video chat, video games, and yes - even those legal BitTorrent clients.</b> Some ISPs may handle this better than others, and some applications may handle this better than others, but there will be a lot of road bumps over all on this."
+msgstr "Correr aplicaciones p2p probablemente se rompa. <b>Esto incluye cosas como voz y video chat, video juegos y sí - incluso aquellos clientes BitTorrent legales.</b> Algunos ISP puede manejar esto mejor que otros y algunas aplicaciones pueden manejar esto mejor que otras, pero habrá un montón de baches de la carretera sobre todo esto."
+
+#: "faq_whyipv6.html"
+msgid "Web sites that today automatically show you your local weather, news, and movies may no longer be able to locate you using your IPv4 address; you'll have to tell the web sites where in the world you are"
+msgstr "Sitios web que hoy muestran automáticamente su tiempo local, noticias y películas ya no podrán ser capaces de localizarlo mediante su dirección IPv4; Tendrá que decirle los sitios donde está ubicado"
+
+#: "faq_whyipv6.html"
+msgid "Q: Do I have to give up IPv4, to go IPv6?"
+msgstr "P: ¿tengo que renunciar a IPv4 para ir a IPv6?"
+
+#: "faq_whyipv6.html"
+msgid "No. They can co-exist. Most ISPs will continue to offer some form of IPv4 (most NAT'd) while offering IPv6. So you can reach the web sites that are still IPv4 only."
+msgstr "No. Ellos pueden coexistir. La mayoría de los ISPs continuará ofreciendo algún tipo de IPv4 (en su mayoría con NAT) mientras ofrecen IPv6. Así se podrá llegar a los sitios web que siguen sólo IPv4."
+
+#: "faq_whyipv6.html"
+msgid "Q: When is the cutoff date for switching?"
+msgstr "P: ¿Cuándo es la fecha tope para el cambio?"
+
+#: "faq_whyipv6.html"
+msgid "Most service providers will keep existing IPv4 users on the same service they have now. Only when they change services will they be forced to share a public address with other residences. Either way, you'll still have IPv4 available for years to come, in most markets."
+msgstr "La mayoría de los proveedores de servicios mantendrá los usuarios IPv4 existentes en el mismo servicio que tienen ahora. Sólo cuando cambia de servicios tendrá que compartir un IP público con otras residencias. De cualquier manera, todavía tendrás IPv4 disponibles por años, en la mayoría de los mercados."
+
+#: "faq_whyipv6.html"
+msgid "As such, there is no hard cutoff date. Just be aware that IPv4 will start working less well over time."
+msgstr "Por lo tanto, no hay ninguna fecha límite fija. Sólo tenga en cuenta que el desempeño de IPv4 comenzará a empeorar con el tiempo."
+
+#: "faq_whyipv6.html"
+msgid "Q: Will I have to replace my OS?"
+msgstr "P: ¿tendré que cambiar mi sistema operativo?"
+
+#: "faq_whyipv6.html"
+msgid "Windows Vista, Windows 7: You're good to go. XP users: It can be made to work, but it really is time to consider upgrading. Win98 and Win2000 users have no path to IPv6."
+msgstr "Windows Vista, Windows 7: están bien. Los usuarios de XP: puede que sirva, pero es hora de considerar la actualización. Los usuarios de Win98 y Win2000 no tienen ningún camino a IPv6."
+
+#: "faq_whyipv6.html"
+msgid "Mac OS X: All supported versions of OS X (since Tiger, 10.4) have IPv6."
+msgstr "Mac OS X: Todas las versiones compatibles de Mac OS X (desde Tiger, 10.4) tienen IPv6."
+
+#: "faq_whyipv6.html"
+msgid "Linux, BSD, and other unix like systems generally all have IPv6."
+msgstr "Linux, BSD y otros como sistemas tipo unix generalmente todos tienen IPv6."
+
+#: "faq_whyipv6.html"
+msgid "Q: Will I have to replace my hardware?"
+msgstr "P: ¿tendré que cambiar mi hardware?"
+
+#: "faq_whyipv6.html"
+msgid "Your PC: Only if the OS upgrade you do requires it."
+msgstr "PC: Sólo si  la actualización del sistema operativo así lo requiere."
+
+#: "faq_whyipv6.html"
+msgid "Your ethernet switch / hub: No. It is unaware of IP; it works at a lower level on the local network."
+msgstr "El switch ethernet / hub: no. No es consciente del IP; funciona en un nivel inferior de la red local."
+
+#: "faq_whyipv6.html"
+msgid "Your router: Quite possibly. Many home routers have no upgrade path for IPv6. Do a web search for your router mode, with the keyword \"ipv6\" with it."
+msgstr "Enrutador: posiblemente. Muchos enrutadores caseros no tienen ninguna vía de actualización para IPv6. Haga una búsqueda web para su enrutador, con la palabra clave \"ipv6\" con él."
+
+#: "faq_whyipv6.html"
+msgid "Your router: Quite possibly. Many home routers have no upgrade path for IPv6. Do a web search for your router model, with the keyword \"ipv6\" with it."
+msgstr "Tu router: Posiblemente. Muchos routers diseñados para el hogar no tienen ninguna vía de actualización para IPv6. Haga una búsqueda web para el modelo de su router, con la palabra clave \"ipv6\" incluída."
+
+#: "faq_whyipv6.html"
+msgid "<b>What router to buy:</b> Wait until your ISP gives you guidance on what will work best with their system. If you must replace your router immediately, look for ones that are IPv6 capable. Apple Airport Express and Airport Extreme have built in tunneling capabilities. OpenWRT capable routers also do (when loaded with the OpenWRT firmware). If you do consider tunnels, see my <a href=\"#\" onclick=\"return help_page('faq_6to4.html','6to4')\">6to4 comments</a>."
+msgstr "<b>Qué enrutador comprar:</b> Espere hasta que su ISP le dé orientación sobre lo que funciona mejor con su sistema. Si debe reemplazar su router inmediatamente, busque los que son capaces de IPv6. Apple Airport Express y Airport Extreme tienen capacidades de túnel integradas. Enrutadores compatibles con OpenWRT también lo hacen (cuando se cargan con el firmware OpenWRT). Si usted considera túneles, vea mis <a href=\"#\" onclick=\"return help_page('faq_6to4.html','6to4')\">comentarios sobre 6to4</a>."
+
+#: "faq_pmtud.html"
+msgid "This will attempt to explain why you may have PMTUD problems when using test-ipv6.com; and possible solutions. Unfortunately, it is beyond the ability of this site to be able to clearly articulate *your* specific problem."
+msgstr "Esto intentará explicar por qué puede tener problemas PMTUD cuando se utiliza test-ipv6.com; y sus posibles soluciones. Por desgracia, está más allá de la capacidad de este sitio articular claramente *su* problema específico."
+
+#: "faq_pmtud.html"
+msgid "Q: What is Path MTU Discovery (or PMTUD)"
+msgstr "P: ¿Qué es descubrimiento de la MTU de ruta (o PMTUD)"
+
+#: "faq_pmtud.html"
+msgid "PMTUD is a mechanism used on the Internet that tells your computer the maximum size of the packets that should be sent for a given destination. How this works: Your host will send a possibly large packet; with the packet marked \"Do Not Fragment\". When the packet reaches a router that can't forward this packet, due to size, it sends back a response saying \"Too big! Try this size instead.\""
+msgstr "PMTUD (Path MTU Discovery) es un mecanismo utilizado en Internet que le dice a su equipo el tamaño máximo de los paquetes que deben enviarse a un destino determinado. Así funciona: su equipo enviará un paquete posiblemente grande marcado como \"No fragmentar\". Cuando el paquete llega a un router que no puede reenviar este paquete, debido al tamaño, envía una respuesta de vuelta diciendo \"demasiado grande! Pruebe este tamaño en su lugar.\""
+
+#: "faq_pmtud.html"
+msgid "Q: How does this relate to IPv6?"
+msgstr "P: ¿Cómo se relaciona esto con IPv6?"
+
+#: "faq_pmtud.html"
+msgid "With IPv6, all packets are by definition \"Do Not Fragment\". The responsibility of sending the correct sized packets no longer falls on the router; this is an expensive operation for the router to handle. Instead, the ability to do PMTUD is mandated by the IPv6 specification."
+msgstr "Con IPv6, todos los paquetes son por definición \"No fragmentar\". La responsabilidad de enviar los paquetes de tamaños correctos ya no cae en el router; Esta es una operación costosa para el router de manejar. En cambio, la capacidad de hacer PMTUD tiene el mandato de la especificación de IPv6."
+
+#: "faq_pmtud.html"
+msgid "Q: What does the firewall need to allow?"
+msgstr "P: ¿Qué necesita permitir el cortafuegos?"
+
+#: "faq_pmtud.html"
+msgid "IPv6 firewalls <b>need</b> to permit ICMPv6, type 2 (Packet Too Big) to work correctly with the public Internet. If you are implementing the IPv6 firewall for your web site, your enterprise, or other organization, please permit this specific ICMPv6 message, even if you by default block other types of ICMP."
+msgstr "Firewalls IPv6 <b>necesitan</b> permitir ICMPv6, tipo 2 (paquete demasiado grande) para funcionar correctamente con la Internet pública. Si está implementando el firewall de IPv6 para su sitio web, su empresa, u otra organización, por favor, permita este mensaje ICMPv6 específico, aunque por defecto bloquee otros tipos de ICMP."
+
+#: "faq_pmtud.html"
+msgid "Q: What else can cause PMTUD failures?"
+msgstr "P: ¿Qué más puede causar fallas de PMTUD?"
+
+#: "faq_pmtud.html"
+msgid "Tunnels inside of tunnels. One might be your own; the other, you may not see. Internet service providers often use tunnels either to simplify their topology; to hide it; or to transport things in a more convenient way. However, each tunnel used requires adding a bit of a header to the top of the packet - making the packet bigger. The problem lies in that routers have a maximum size packet they will route."
+msgstr "Túneles en el interior de túneles. Uno podría ser el suyo; el otro, no puede ver. Los proveedores de servicios de Internet a menudo usan túneles o para simplificar su topología; para esconderlo; o para el transporte de las cosas de una manera más conveniente. Sin embargo, cada túnel utilizado requiere agregar un poco de un encabezado a la parte superior del paquete - haciendo el paquete más grande. El problema radica en que los enrutadores tienen un paquete de tamaño máximo que dirigirá."
+
+#: "faq_pmtud.html"
+msgid "This is what it looks like when you use 6to4, 6in4, Teredo, and other types of tunnels:"
+msgstr "Así se vé cuando usa 6to4, 6in4, Teredo y otros tipos de túneles:"
+
+#: "faq_pmtud.html"
+msgid "Your router will automatically add an IPv4 header to the top of your packet. This same router will let your computer know if the packet is going to be too big; your computer will (as long as it gets the ICMPv6 \"Packet Too Big\" message) resend the packet, at a smaller size recommended by your router. A router near the web site, will automatically remove the IPv4 header, and forward the IPv6 peice."
+msgstr "Su enrutador agregará automáticamente un encabezado IPv4 a la cima de su paquete. Este mismo enrutador hará saber a su computadora si el paquete va a ser demasiado grande; su equipo se encargará (mientras se pone el ICMPv6 mensaje \"Packet Too Big\") de reenviar el paquete en un tamaño más pequeño, recomendado por el router. Un router cerca del sitio web, automáticamente quitará la cabecera IPv4 y reenviará la parte IPv6."
+
+#: "faq_pmtud.html"
+msgid "This is like putting a letter in an envelope, inside another envelope for someone else to forward on. There may be a maximum size or weight limit for your postage stamp. Tunneling is conceptually the same."
+msgstr "Esto es como poner una carta dentro de un sobre, dentro de otro sobre, para que alguien más lo reenvíe. Puede haber un límite de tamaño o peso máximo para su estampilla. Un túnel conceptualmente es lo mismo."
+
+#: "faq_pmtud.html"
+msgid "If any Internet service provider along the way adds their own tunnel, in effect stuffing your package into another envelope, the packet may become too big:"
+msgstr "Si cualquier proveedor de servicios de Internet a lo largo del camino agrega su propio túnel, en efecto atiborrando otro sobre su paquete, el paquete puede ser demasiado grande:"
+
+#: "faq_pmtud.html"
+msgid "In the above case, the message is now so big, that it can't be forwarded. A \"Packet Too Big\" message will be sent by that router - but it only sees the IPv4 address; not your IPv6 address. Because of this, your computer will never retry with a smaller sized packet, one that might fit when using multiple envelopes."
+msgstr "En el caso anterior, el mensaje es ahora tan grande, que no se puede reenviar. El enrutador enviará un mensaje \"Paquete demasiado grande\" - pero sólo ve la dirección IPv4, no su dirección IPv6. Debido a esto, su computadora no reintentará nunca con un tamaño de paquete más pequeño, que podría caber cuando se utilizan varios sobres."
+
+#: "faq_pmtud.html"
+msgid "What does this look like on the network?"
+msgstr "¿Qué aspecto tiene esto en la red?"
+
+#: "faq_pmtud.html"
+msgid "(What does tcpdump show?)"
+msgstr "(¿Qué muestra tcpdump?)"
+
+#: "faq_pmtud.html"
+msgid "This is what tcpdump will show.."
+msgstr "Esto es lo que tcpdump mostrará..."
+
+#: "faq_pmtud.html"
+msgid "This is what I ran to generate the packets."
+msgstr "Esto es lo que hice para generar los paquetes."
+
+#: "faq_pmtud.html"
+msgid "What can I do?"
+msgstr "¿Qué puedo hacer?"
+
+#: "faq_pmtud.html"
+msgid "This is a complex question - there are many ways to get on the Internet."
+msgstr "Esto es una cuestión compleja - hay muchas maneras de conectarse a Internet."
+
+#: "faq_pmtud.html"
+msgid "The preferred fix is to permit ICMPv6 Type 2 Packet Too Big messages."
+msgstr "La solución preferida es permitir mensajes ICMPv6 tipo 2 Paquete demasiado grande."
+
+#: "faq_pmtud.html"
+msgid "Your router or firewall may be blocking these."
+msgstr "Su enrutador o firewall puede estar bloqueando estos."
+
+#: "faq_pmtud.html"
+msgid "If you have \"native\" IPv6, meaning your ISP gave you your IPv6 connectivity, and you are still running into MTU problems, see if your router can advertise a smaller IPv6 MTU. Alternately, configure your <b>entire LAN</b> for a smaller MTU (not really advised!)"
+msgstr "Si tiene IPv6 \"nativa\", lo que significa su ISP le dio su conectividad IPv6 y todavía está presentando problemas de MTU, vea si su router puede anunciar una MTU IPv6 más pequeña. Alternativamente, configure su <b>LAN entera</b> para una MTU más pequeña. (no aconsejado)"
+
+#: "faq_pmtud.html"
+msgid "If your router provides IPv6 for you, see if you can configure a smaller MTU to be advertising with (perhaps) RADVD."
+msgstr "Si su router provee IPv6 para usted, vea si puede configurar con RADVD (quizás) una publicación de MTU más pequeña."
+
+#: "faq_pmtud.html"
+msgid "Apple Airport routers: Automatically send ICMPv6 redirects to your hosts, telling them to reduce the path MTU to 1280."
+msgstr "Enrutadores de Apple Airport: automáticamente envían redirecciones ICMPv6 a sus equipos, diciéndoles que se reduzca la MTU de la ruta a 1280."
+
+#: "faq_pmtud.html"
+msgid "DD-WRT routers: Looks like you need to use \"AdvLinkMTU 1280;\" on your wireless side; and make sure the tun6to4 mtu is set to 1280."
+msgstr "DD-WRT routers: parece que debe usar \"AdvLinkMTU 1280;\" de su lado inalámbrico; y asegúrese de que el mtu tun6to4 se establece en 1280."
+
+#: "faq_pmtud.html"
+msgid "Routers based on Linux, BSD, and (presumably) Mac: Set your 6to4 interface to MTU 1280. Configure radvd.conf's interface config with \"AdvLinkMTU 1280\"."
+msgstr "Routers que se basan en Linux, BSD y Mac (presumiblemente): establece la interfaz 6to4 en MTU 1280. Configure la interfaz via radvd.conf con \"AdvLinkMTU 1280\"."
+
+#: "faq_pmtud.html"
+msgid "If you run \"6to4\" on your computer instead (not the router):"
+msgstr "Si corre \"6to4\" en su computadora en su lugar (no en el router):"
+
+#: "faq_pmtud.html"
+msgid "Linux, BSD, and (presumably) Mac: Set your 6to4 interface to MTU 1280. If you are running radvd, set \"AdvLinkMTU 1280\" in your interface radvd.conf ."
+msgstr "Linux, BSD y Mac (presumiblemente): establezca la interfaz 6to4 en MTU 1280. Si está ejecutando radvd ponga \"AdvLinkMTU 1280\" en radvd.conf."
+
+#: "faq_pmtud.html"
+msgid "Windows: If you figure this out, please share with jfesler@test-ipv6.com to add to this site. Presumably: control panel, network adapters, properties, 6"
+msgstr "Windows: Si lo logra, por favor comparta con jfesler@test-ipv6.com para agregarlo a este sitio. Presumiblemente: panel de control, adaptadores de red, propiedades, 6"
+
+#: "faq_pmtud.html"
+msgid "<b>If you are not covered by the above, do a web search.</b>. As you learn what fixes your particular circumstances, please share with jfesler@test-ipv6.com to add to this site. Your contribution will be appreciated by others!"
+msgstr "<b>Si usted no está cubierto por lo anterior, haga una búsqueda en la web.</b>. Mientras aprenda lo que corrige sus circunstancias particulares, por favor compártalo con jfesler@test-ipv6.com para agregarlo a este sitio. Su contribución será apreciada por todos!"
+
+#: "attributions.html"
+msgid "This site would not exist without the following components and resources."
+msgstr "Este sitio no existiría sin los siguientes componentes y recursos."
+
+#: "faq_buggydns1.html"
+msgid "FAQ on \"Buggy DNS\""
+msgstr "Preguntas frecuentes sobre \"Buggy DNS\""
+
+#: "faq_buggydns1.html"
+msgid "If you were referred to this page by test-ipv6.com, it means that we were able to detect a dangerous condition with your DNS server."
+msgstr "Si ha sido referido a esta página por test-ipv6.com, significa que hemos sido capaces de detectar una condición peligrosa con su servidor de DNS."
+
+#: "faq_buggydns1.html"
+msgid "First a description of the problem:"
+msgstr "Primero una descripción del problema:"
+
+#: "faq_buggydns1.html"
+msgid "Your browser asked for a DNS lookup, both IPv4 and IPv6."
+msgstr "Su navegador pidió una consulta DNS, tanto IPv4 como IPv6."
+
+#: "faq_buggydns1.html"
+msgid "The IPv6 response was returned first."
+msgstr "La respuesta de IPv6 fue devuelta primero."
+
+#: "faq_buggydns1.html"
+msgid "Your DNS server was confused by the result - it doesn't fully follow the DNS standards."
+msgstr "Su servidor DNS se mostró confundido por el resultado - no sigue los estándares DNS completamente."
+
+#: "faq_buggydns1.html"
+msgid "Your DNS server took the first piece of the IPV6 address, and memorized it as the IPv4 address."
+msgstr "Su servidor DNS tomó la primera parte de la dirección IPv6 y la memorizó como la dirección IPv4."
+
+#: "faq_buggydns1.html"
+msgid "The browser fails the IPv6 lookup, but \"succeeds\" in getting a bogus IPv4 address."
+msgstr "El navegador falla la búsqueda de IPv6, pero \"tiene éxito\" en conseguir una dirección IPv4 falsa."
+
+#: "faq_buggydns1.html"
+msgid "It then tries to make a connecting, to the wrong address, with the wrong protocol."
+msgstr "Luego trata de hacer una conexión, a la dirección equivocada, con el protocolo equivocado."
+
+#: "faq_buggydns1.html"
+msgid "This is bad for several reasons:"
+msgstr "Esto es malo por varias razones:"
+
+#: "faq_buggydns1.html"
+msgid "You won't be able to connect to IPv6-only sites."
+msgstr "Usted no será capaz de conectarse a sitios sólo-IPv6."
+
+#: "faq_buggydns1.html"
+msgid "You may sporadically fail (or always fail) to connect to IPv6-enabled web sites. This is regardless of whether you are capable IPv6 or not - you may still be impacted."
+msgstr "Usted puede fallar esporádicamente (o siempre fallar) en conectarse a sitios web habilitados para IPv6. Esto es independientemente de si usted es capaz de IPv6 o no - todavía puede verse afectado."
+
+#: "faq_buggydns1.html"
+msgid "So, what is actually affected?"
+msgstr "Entonces, ¿qué es lo que está realmente afectado?"
+
+#: "faq_buggydns1.html"
+msgid "You'll need to determine what device is forwarding your DNS queries."
+msgstr "Usted necesitará determinar qué dispositivo es responsable de reenviar las consultas DNS."
+
+#: "faq_buggydns1.html"
+msgid "With Windows, at the <code>cmd</code> prompt, you can type <code>ipconfig /all</code>. Look for \"<code>DNS Servers</code>\"."
+msgstr "Con Windows, en la pantalla de <code>cmd</code>, puede escribir <code>ipconfig /all</code>. Busque \"<code>Servidores DNS</code>\"."
+
+#: "faq_buggydns1.html"
+msgid "With Linux, BSD, and Mac OS X, you can do this in a terminal: <code>cat /etc/resolv.conf</code>."
+msgstr "Con Linux, BSD y Mac OS X, puede hacer esto en una terminal: <code>cat /etc/resolv.conf</code>."
+
+#: "faq_buggydns1.html"
+msgid "Residential ISP customers: look to see if the DNS server is <b>192.168.0.1</b> or <b>192.168.1.1</b>. If so, chances are good that your home router is at fault. This is probably the blue box you have that connects the Internet."
+msgstr "Los clientes residenciales de ISP: Vean si el servidor DNS es <b>192.168.0.1</b> o <b>192.168.1.1</b>. Si es así, lo más probable es que tu router casero tiene la culpa. Esto es probablemente la caja azul que tiene para conectarse a la Internet."
+
+#: "faq_buggydns1.html"
+msgid "Business customers: Provide this information to your IT professional to investigate."
+msgstr "Los clientes corporativos: proporcionen esta información a su profesional de TI para que investigue."
+
+#: "faq_buggydns1.html"
+msgid "IT professionals:"
+msgstr "Profesionales de TI:"
+
+#: "faq_buggydns1.html"
+msgid "You can see an illustration of this, by doing:"
+msgstr "Se puede ver una ilustración de esto, haciendo:"
+
+#: "faq_buggydns1.html"
+msgid "Substitute the 192.168.1.1 with the resolver being used by the host. If the \"aaaa\" request comes back with no answer, but the \"a\" answer does, this is a confirmation of a broken DNS cache or forwarder. The actual DNS information for buggydns1.test-ipv6.com has only an IPv6 record configured."
+msgstr "Reemplace el 192.168.1.1 con el \"resolver\" que está usando el equipo. Si la consulta \"aaaa\" vuelve sin respuesta, pero sí tiene respuesta por \"a\", es una confirmación de un \"cache\" o un \"forwarder\" DNS con mal funcionamiento. La información real en DNS para buggydns1.test-ipv6.com tiene solo configurado un registro IPv6."
+
+#: "faq_avoids_ipv6.html"
+msgid "Your browser is avoiding IPv6."
+msgstr "Su navegador está evitando IPv6."
+
+#: "faq_avoids_ipv6.html"
+msgid "What we found"
+msgstr "Lo que hemos encontrado"
+
+#: "faq_avoids_ipv6.html"
+msgid "What causes a preference for IPv4"
+msgstr "Lo que causa una preferencia para IPv4"
+
+#: "faq_avoids_ipv6.html"
+msgid "Why this worries us"
+msgstr "Por qué nos preocupa esto"
+
+#: "faq_avoids_ipv6.html"
+msgid "This document explains why we worry when IPv4 is preferred over IPv6."
+msgstr "Este documento explica por qué nos preocupamos cuando IPv4 es preferido sobre IPv6."
+
+#: "faq_avoids_ipv6.html"
+msgid "This section applies only when we offered to show you this page from inside the test."
+msgstr "En esta sección aplica sólo cuando ofrecimos mostrar esta página desde dentro de la prueba."
+
+#: "faq_avoids_ipv6.html"
+msgid "First of all, we detected you had a working IPv6 connection. We also found that your IPv6 connection, was using a \"real\" IPv6 address; meaning not a Teredo or a 6to4 address."
+msgstr "En primer lugar, hemos detectado que tenía una conexión IPv6 activa. También encontramos que su conexión IPv6, estaba usando una dirección IPv6 \"real\"; lo que significa no un Teredo ni una dirección 6to4."
+
+#: "faq_avoids_ipv6.html"
+msgid "Second, we detected that when given the choice, your browser decided it would prefer to use IPv4 instead of IPv6. This has some concerns for us."
+msgstr "En segundo lugar, hemos detectado que cuando se le da la opción, su navegador prefiere utilizar IPv4 en lugar de IPv6. Esto nos da algunas preocupaciones."
+
+#: "faq_avoids_ipv6.html"
+msgid "Causes for preferring IPv4"
+msgstr "Causas de preferir IPv4"
+
+#: "faq_avoids_ipv6.html"
+msgid "There are several possible reasons why a browser might prefer IPv4 instead of IPv6."
+msgstr "Hay varias razones posibles, por las que un navegador puede preferir IPv4 en lugar de IPv6."
+
+#: "faq_avoids_ipv6.html"
+msgid "Google's \"Chrome\" has a \"fast fallback\" mechanism. On the first try to a site, it will prefer IPv6. If connections take longer than a third of a second, IPv4 is attempted in parallel; and the better of the two will be used for that site."
+msgstr "Google \"Chrome\" tiene un mecanismo de \"repliegue rápido\". En el primer intento a un sitio, preferirán IPv6. Si las conexiones toman más de un tercio de segundo, IPv4 se intenta realizar en paralelo; y lo mejor de los dos se utilizará para ese sitio."
+
+#: "faq_avoids_ipv6.html"
+msgid "(more info)"
+msgstr "(más información)"
+
+#: "faq_avoids_ipv6.html"
+msgid "Firefox (recent builds) does the same as Chrome."
+msgstr "Firefox (versiones recientes) hace lo mismo que Chrome."
+
+#: "faq_avoids_ipv6.html"
+msgid "The latest Windows 7 and Windows 8 updates will periodically test to see if IPv6 works. If the health check fails, then many applications (including Internet Explorer) will use IPv4, to insulate you from any local IPv6 misconfiguration."
+msgstr "Las últimas actualizaciones de Windows 7 y Windows 8 prueban periódicamente si funciona IPv6. Si falla el chequeo, entonces muchas aplicaciones (incluyendo Internet Explorer) utilizarán IPv4, para aislarle de cualquier problema de configuración IPv6 local."
+
+#: "faq_avoids_ipv6.html"
+msgid "Apple's latest Lion and Mountain Lion updates will prefer whichever is \"faster\" for a given destination."
+msgstr "Últimas actualizaciones de Apple de Lion y Mountain Lion prefieren la que sea más \"rápida\" para un destino determinado."
+
+#: "faq_avoids_ipv6.html"
+msgid "When you use the Internet, a connection is made between your computer, and the service you're connecting to. To connect, you have to have the other side's IP - Internet Protocol - number. And, when you connect, they see yours, so they can send traffic back to you and your applications."
+msgstr "Cuando usted utiliza la Internet, se realiza una conexión entre su computadora y el servicio al que se está conectando. Para conectarse, tiene que tener el número IP - Internet Protocol - del otro lado. Y, cuando se conecta, ellos ven el suyo, así pueden enviar tráfico a usted y sus aplicaciones."
+
+#: "faq_avoids_ipv6.html"
+msgid "The Internet protocol that we've been using for the 1990's and the 2000s, has run out of these unique numbers. We can keep going, but with some limitations, by sharing multiple machines with one number. Often times, we do this at home or at work."
+msgstr "El protocolo de Internet que hemos estado usando en los 1990s y 2000s, se ha quedado sin estos números únicos. Podemos continuar, pero con algunas limitaciones, compartiendo con varias máquinas con un número. Muchas veces lo hacemos en casa o en el trabajo."
+
+#: "faq_avoids_ipv6.html"
+msgid "What is changing is that the Internet Service Providers are all facing the fact that they will have to implement this type of address sharing, on a much larger scale. Some buzzwords you may hear: NAT, CGN, Carrier Grade NAT, LSN, Large Scale NAT. They all look something like this:"
+msgstr "Lo que está cambiando es que los proveedores de servicios de Internet se enfrentan al hecho de que tendrán que implementar este tipo de compartir de dirección, en una escala mucho mayor. Usted podrá escuchar algunas palabrejas: NAT, CGN, portador de grado NAT, LSN, Nat a gran escala. Todos se parecen a algo como esto:"
+
+#: "faq_avoids_ipv6.html"
+msgid "The thing to watch for here: <b>Many</b> houses sharing one public address."
+msgstr "Lo que hay que ver por aquí: <b>muchas</b> casas compartiendo una dirección pública."
+
+#: "faq_avoids_ipv6.html"
+msgid "What happens if one of those homes has a bored hacker, or (more likely) a compromised machine owned by someone who doesn't stay up to date, and doesn't run antivirus software? What happens when that machine starts to attack your favorite web sites? What about your banking site?"
+msgstr "¿Qué sucede si uno de esos hogares tiene un hacker aburrido, o (más probablemente) una máquina comprometida propiedad de alguien que no se actualiza y no ejecuta software antivirus? ¿Qué sucede cuando la máquina comienza a atacar a sus sitios web favoritos? ¿Qué tal su sitio bancario?"
+
+#: "faq_avoids_ipv6.html"
+msgid "Those sites will have to ultimately protect themselves, by blocking the traffic. Unfortuantely, they only see the shared address, so their blocking it looks like this:"
+msgstr "Esos sitios tendrán que protegerse en última instancia, bloqueando el tráfico. Desafortunadamente, sólo ven la dirección compartida, así que su bloqueo luce así:"
+
+#: "faq_avoids_ipv6.html"
+msgid "This is not a good situation. And the main way to avoid it, is to make sure that your IPv6 is working; and to make sure that IPv6 is the preferred protocol."
+msgstr "Esta no es una buena situación. Y la principal forma de evitarlo es asegurarse de que está trabajando su IPv6 y asegurarse que IPv6 es el protocolo preferido."
+
+#: "faq_avoids_ipv6.html"
+msgid "Why else should I care about IPv4 being preferred instead of IPv6, when I have both available?"
+msgstr "¿Por qué debería preocuparme por IPv4 siendo preferido en lugar de IPv6, cuando tengo ambos disponibles?"
+
+#: "faq_avoids_ipv6.html"
+msgid "Sites that determine your location automatically, will get this wrong more frequently when you share an IPv4 address with people in other cities."
+msgstr "Los sitios que determinan su ubicación automáticamente, con más frecuencia lo harán mal cuando se comparte una dirección IPv4 con personas de otras ciudades."
+
+#: "faq_avoids_ipv6.html"
+msgid "The box that shares an address between you and the other hundreds of houses, may become performance constrained (cpu, network, TCP ports)"
+msgstr "La caja que comparte una dirección entre usted y los otros cientos de casas, puede convertirse en un problema de rendimiento (cpu, red, puertos TCP)"
+
+#: "faq_avoids_ipv6.html"
+msgid "The box is a potential central point of failure for your internet access"
+msgstr "La caja es un potencial punto central del fallo para su acceso a internet"
+
+#: "faq_avoids_ipv6.html"
+msgid "Sharing IPv4 addresses is an extra expense for the ISP that they will be passing on to their customers"
+msgstr "Compartir las direcciones IPv4 es un gasto extra para los ISP que lo pasará a sus clientes"
+
+#: "inc/tunnel.inc"
+msgid "What is a tunnel?"
+msgstr "¿Qué es un túnel?"
+
+#: "inc/tunnel.inc"
+msgid "A tunnel is a technique often used to transport one protocol over another one. For example, it is used by ADSL to transport PPP over ATM (a common technique for several Internet residential subscribers)."
+msgstr "Un túnel es una técnica utilizada con frecuencia para el transporte de un protocolo sobre otro. Por ejemplo, se utiliza por ADSL para el transporte de PPP sobre ATM (una técnica común para varios suscriptores residenciales de Internet)."
+
+#: "inc/tunnel.inc"
+msgid "In the realm of IPv6, tunnels are used to transport:"
+msgstr "En el mundo de IPv6, túneles se utilizan para el transporte:"
+
+#: "inc/tunnel.inc"
+msgid "IPv6 packets over IPv4 network: then IPv4-only Internet users can reach the IPv6 Internet;"
+msgstr "Paquetes IPv6 sobre una red IPv4: entonces los usuarios de Internet sólo-IPv4 pueden llegar a la red Internet IPv6;"
+
+#: "inc/tunnel.inc"
+msgid "IPv4 packets over IPv6 network: then IPv6-only Internet users can reach the IPv4 Internet."
+msgstr "Paquetes IPv4 sobre una red IPv6: entonces los usuarios de Internet sólo-IPv6 pueden llegar a la red Internet IPv4."
+
+#: "faq_tunnel.html"
+msgid "How did the test detect a tunnel?"
+msgstr "¿Cómo pudo la prueba detectar un túnel?"
+
+#: "faq_tunnel.html"
+msgid "For the technical-oriented readers, here is the explanation how we detect that you are probably using a tunnel. As the test collects your IPv4 and IPv6 addresses, it also collects (thanks to <a href=\"http://www.team-cymru.org/Services/ip-to-asn.html\">http://www.team-cymru.org/Services/ip-to-asn.html</a>) your Autonomous System Numbers (ASN) for IPv4 and IPv6. If your ISP is dual stack, then your IPv4 ASN and your IPv6 ASN should be identical as your IPv4 and IPv6 connectivity are provided by the same ISP."
+msgstr "Para los lectores técnicamente orientados , aquí está la explicación de cómo detectamos que usted probablemente está utilizando un túnel. Como la prueba recoge tus direcciones IPv4 e IPv6, también recoge (gracias a <a href=\"http://www.team-cymru.org/Services/ip-to-asn.html\"> http://www.team-cymru.org/Services/ip-to-asn.html</a>) sus números de sistema autónomo (ASN) para IPv4 e IPv6. Si su ISP es dual stack, entonces su ASN IPv4 y el IPv6 ASN deben ser idénticos como tu IPv4 y conectividad IPv6 son proporcionados por el mismo ISP."
+
+#: "faq_tunnel.html"
+msgid "If the ASN number is different, we highlight that fact - and call out that you are probably using a tunnel. If this is a tunnel you know about, great. If you did not know you were being tunneled, you might ask your network administrator about it."
+msgstr "Si el número ASN es diferente, podemos destacar ese hecho - y decir que probablemente está utilizando un túnel. Si se trata de un túnel conocido, genial. Si no sabía que estaba pasando por un túnel, podría preguntarle a su administrador de red sobre ello."
+
+#: "faq_tunnel.html"
+msgid "Tunnels are not inherently bad; but (depending on circumstances) they may cause troubles that might not otherwise be seen with native IPv6 connectivity. Specifically, there may be issues of PMTUD (Path MTU Discovery) with some sites you visit - depending on the firewall configurations between you and those sites."
+msgstr "Túneles no son intrínsecamente malos pero, (dependiendo de las circunstancias) pueden causar problemas, que de lo contrario, no podrían darse con conectividad IPv6 nativa. En concreto, puede haber problemas de PMTUD (Path MTU Discovery) con algunos sitios que usted visita - dependiendo de las configuraciones de cortafuegos entre usted y esos sitios."
+
+#: "faq_tunnel_6rd.html"
+msgid "What is specific to 6RD tunnels?"
+msgstr "¿Qué es específico para túneles 6RD?"
+
+#: "faq_tunnel_6rd.html"
+msgid "6RD tunnels have been designed by the IETF as <a href=\"http://tools.ietf.org/html/rfc5969\">RFC 5969</a> to be deployed within an ISP access network and by the ISP itself to transport IPv6 over a legacy IPv4 access network. As the tunnel is confined with a single ISP, it is therefore managed in such a way to provide performances as good in IPv6 as in IPv4 (except perhaps for the largest packet size, a.k.a. MTU)."
+msgstr "Túneles 6RD han sido diseñados por la IETF como <a href=\"http://tools.ietf.org/html/rfc5969\">RFC 5969</a> a desplegarse dentro de una red de acceso ISP y por el propio ISP para el transporte de IPv6 en una red de acceso IPv4 obsoleta. El túnel está confinado con un solo proveedor, por lo tanto es administrado de tal manera que ofrece un desempeño tan bueno en IPv6 como en IPv4 (excepto tal vez por el mayor tamaño de paquete, a.k.a. MTU)."
+
+#: "faq_tunnel_6rd.html"
+msgid "In short, a 6RD tunnel provides you with native IPv6 connectivity."
+msgstr "En definitiva, un túnel 6RD proporciona conectividad IPv6 nativa."
+
+#: "faq_tunnel_6rd.html"
+msgid "How did we detect a 6RD tunnel?"
+msgstr "¿Cómo detectamos un túnel 6RD?"
+
+#: "faq_tunnel_6rd.html"
+msgid "During the tests, we collect your IPv4 and IPv6 addresses. If at least 16 bits of your IPv4 address are embedded in your IPv6 prefix, then we assume that you are using a 6RD tunnel."
+msgstr "Durante las pruebas, recogemos las direcciones IPv4 e IPv6. Si al menos 16 bits de la dirección IPv4 están incrustado en su prefijo de IPv6, entonces asumimos que usted está usando un túnel 6RD."
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "dummy example"
+msgstr ""
+
+#: "faq_no_ipv4.html"
+msgid "What? No IPv4 address?"
+msgstr ""
+
+#: "faq_no_ipv4.html"
+msgid "Most of you are visiting this site using IPv4. Few people in 2013 will truely only have access to the IPv6 Internet. This FAQ will help explain why we were unable to detect IPv4 on your browser."
+msgstr ""
+
+#: "faq_no_ipv4.html"
+msgid "This site works by telling your browser to connect to a series of test urls. These urls, if they do connect, report back to the web browser your IP address. JavaScript is not permitted to look at your system itself; it is only allowed to interact with the web. As such, if the urls all fail, we are unable to determine your IP address."
+msgstr ""
+
+#: "faq_no_ipv4.html"
+msgid "This usually indicates something is broken, or filtered."
+msgstr ""
+
+#: "faq_no_ipv4.html"
+msgid "Since the test obviously failed, here is a simpler test to help you know if you are ready for web sites to offer their services on IPv6. After this simpler test, you'll see more information about specific browsers."
+msgstr ""
+
+#: "faq_no_ipv4.html"
+msgid "Firefox and NoScript"
+msgstr ""
+
+#: "faq_no_ipv4.html"
+msgid "The NoScript browser plugin disables scripts on the page. In the lower right corner of your browser, is the NoScript icon. Click this to bring up a menu; and temporarilly permit scripts on this site."
+msgstr ""
+
+#: "faq_no_ipv4.html"
+msgid "Firefox and AdBlock+"
+msgstr ""
+
+#: "faq_no_ipv4.html"
+msgid "The AdBlock+ plugin is suspect; it depends on the ruleset that is used. More information from people willing to investigate would be appreciated."
+msgstr ""
+
+#: "faq_no_ipv4.html"
+msgid "Other browser plugins"
+msgstr ""
+
+#: "faq_no_ipv4.html"
+msgid "If you have problems using this site, get a list of the plugins or add-ons you have for this browser. Save that list. Now, disable all of them - and try the site again. If it works, one of those is definately to blame. Enable them one by one, and retry the site. When you find the one that causes problems, please email <a href=\"mailto:jfesler@test-ipv6.com\">Jason Fesler &lt;jfesler@test-ipv6.com&gt;</a> with your findings."
+msgstr ""
+

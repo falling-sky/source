@@ -1,0 +1,19 @@
+[% PROCESS "inc/header.inc" %]
+[% $page := "Version" %]
+[% PROCESS "inc/list-nav.inc" %]
+
+<!-- You can create version.html.site 
+     and this less-specific version file 
+     will stop being used for creating the 
+     published version.html file. -->
+
+<div id="content">
+  <h1 id="title">version information</h1>
+
+<div id="version_information"><pre><code>
+URL: [% .GitInfo.Repository %]
+Revision: [% .GitInfo.Version %]
+Last Changed Date: [% .GitInfo.Date %]
+</code></pre></div>
+</div>
+[% PROCESS "inc/footer.inc" %]

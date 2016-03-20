@@ -1,0 +1,65 @@
+[% PROCESS "inc/header.inc" %]
+[% $page := "locale" %]
+[% PROCESS "inc/list-nav.inc" %]
+
+<div id="content">
+
+
+  <h1 id="title">{{Available Languages}}</h1>
+
+  <div class="question">
+    {{ Pick one of the following to switch to that language.}}
+  </div>
+
+  <div class="answer">
+  <table id=locale_table class="tablesorter" 
+   style="width:300px;
+          white-space: nowrap">
+  
+  <thead>
+  <tr><th>Locale Name <!-- ie en_US or zh_CN --></th><th>Language Name</th><th>Percent   Translated</th></tr>
+  </thead>
+  <tbody>
+
+[% range $index, $element := .PoMap  %]
+<tr>
+<td><a href="/index.html.[% $index %]"><code>[% $index %]</code></a></td>
+<td><a href="/index.html.[% $index %]">[% $element.Language %]</a></td>
+<td>[% $element.Translated %] / [% $element.OutOf %]</td>
+</tr>
+[% end %]
+</body>
+</table>
+
+  </div>
+
+  
+
+</div>
+
+{{Translators and proof readers welcome.}}
+{{See <a href='https://github.com/falling-sky/source/wiki/LocalizationPlan'>Info</a>; and our <a href='https://crowdin.net/project/falling-sky'>'CrowdIn'</a> project page.}}
+
+
+
+
+<script type="text/javascript">
+
+$(document).ready(function() 
+    { 
+            $("#locale_table").tablesorter( {
+                     sortInitialOrder: "asc",
+                     textExtraction: "complex",
+                     headers: {
+                       0: { sorter: "text" },
+                       1: { sorter: "text" },
+                       2: { sorter: "float"},
+                     }
+             } ); 
+                } 
+                );
+
+</script>
+                
+
+[% PROCESS "inc/footer.inc" %]

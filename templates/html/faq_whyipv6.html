@@ -1,0 +1,103 @@
+[% PROCESS "inc/header.inc" %]
+[% $page := "Why IPv6?" %]
+[% PROCESS "inc/list-nav.inc" %]
+
+<div id="content">
+  <h1 id="title">{{Why IPv6?}}</h1>
+
+  <p>{{This is an interesting question. IPv6 buys you only a bit more than you already have today; and most of that is a promise. IPv6 will help you preserve the level of Internet connectivity between your home and other locations on the Internet, without interference, as you enjoyed in 2012.}}</p>
+
+  <p>{{ The promise is the ability to give every device in your house a reachable network address.
+  Each house will have practically unlimited network addresses (2<sup>64</sup> if you're curious - about 18 billion billions).
+  Each house may potentially have more than that, particularly if they have the need for multiple networks within the home. Many ISPs will be able to easy give you 256 of those networks. <em>Running out of IPv6 address space will seem impossible for decades.</em> }}</p>
+
+  <p>{{Applications to take advantage of this are just now being thought of. Imagine having all of your home electronics accessible from work or from your mobile phone. You could watch your TV recorder, or the security camera. You could check the fridge, perhaps start the oven timer. Maybe turn on the air conditioning or the heater when you know you're coming home early. All of these *can* be done today, but are cumbersome with IPv4 if you're using a single IPv4 address today. And, very difficult in the future, with where IPv4 is heading next.}}</p>
+
+  <h2>{{What Is Wrong with IPv4}}</h2>
+
+  <div>
+    <p>{{The traditional IPv4 Internet is running out of space. The IANA registry (at the global level) is either just about out, or totally out, depending on when you read this. They are expected to announce this depletion Janaury or February 2011.}}</p>
+
+    <p>{{As Internet service providers each run out of the space they have been allocated, they will have to find creative ways to help keep taking on new customers. Those customers will still need access to the IPv4 Internet.}}</p>
+  </div>
+
+  <div class="question">{{Q: I heard there are millions of addresses left. Take it back from the companies not using it! Use the Class E space! (etc).}}</div>
+
+  <div class="answer">
+    <p>{{Those have been looked at. The space is relatively small, given the rate that the world is consuming it now.  Forcefully taking back space would require more time in the court systems than it would buy back. Other currently reserved space is too difficult to use - it would require replacing most of the routers in the world to do so.}}</p>
+  </div>
+
+  <div class="question">{{Q: What creative ways will ISPs keep IPv4 running?}}</div>
+
+  <p>{{Most commonly, some form of NAT. NAT is a form of address sharing; think of it as a party line from the earlier days of the telephone. You'll be able to make outgoing connections easy enough, as long as your shared IP address is not too busy.}}</p>
+  <p>{{ Note this is in addition to any NAT you do at home. }}</p></div>
+
+  <div class="question">{{Q: So, why worry? NAT will work, right? I use NAT at home today after all..}}</div>
+
+  <div class="answer">
+    <p>{{ Sort of. Basic web browsing should be OK for most sites. Some map sites, the itunes store, and other sites that use a <em>huge</em> number of connections to rapidly load the page, may start showing blank images, depending on how many people share that public IP address. }}</p>
+
+    <p>{{ Mail will still work, both traditional as well as web based. }}</p>
+  </div>
+
+  <div class="question">
+    {{ Q: What will break when ISPs NAT their customers? }}
+  </div>
+
+  <div class="answer">
+    <p>{{When web sites have to block abusers, they often block the IP address the abuse came from. If you are sharing your IP address with 1000 other broadband customers, if *any* of them trigger a block, you will be blocked too. Your ISP is not likely to be able to assist in fixing this.}}</p>
+
+    <p>{{Running servers at home will break, unless you arrange to pay for a static IP address. Assuming the ISP is able to offer this at all, we expect the price for this to go up over the coming years. Some ISPs may be able to offer you a port forward on a static IP on an odd port number - but not the whole IP address}}</p>
+
+    <p>{{ Running p2p applications will likely break. <b>This includes things like voice and video chat, video games, and yes - even those legal BitTorrent clients.</b> Some ISPs may handle this better than others, and some applications may handle this better than others, but there will be a lot of road bumps over all on this. }}</p>
+
+    <p>{{Web sites that today automatically show you your local weather, news, and movies may no longer be able to locate you using your IPv4 address; you'll have to tell the web sites where in the world you are }}</p>
+  </div>
+
+  <div class="question">
+    {{ Q: Do I have to give up IPv4, to go IPv6? }}
+  </div>
+
+  <div class="answer">
+    <p>{{ No. They can co-exist. Most ISPs will continue to offer some form of IPv4 (most NAT'd) while offering IPv6. So you can reach the web sites that are still IPv4 only. }}</p>
+  </div>
+
+  <div class="question">
+    {{ Q: When is the cutoff date for switching? }}
+  </div>
+
+  <div class="answer">
+    <p>{{ Most service providers will keep existing IPv4 users on the same service they have now. Only when they change services will they be forced to share a public address with other residences. Either way, you'll still have IPv4 available for years to come, in most markets. }}</p>
+
+    <p>{{ As such, there is no hard cutoff date. Just be aware that IPv4 will start working less well over time. }}</p>
+  </div>
+
+  <div class="question">
+    {{ Q: Will I have to replace my OS? }}
+  </div>
+
+  <div class="answer">
+    <p>{{ Windows Vista, Windows 7: You're good to go. XP users: It can be made to work, but it really is time to consider upgrading. Win98 and Win2000 users have no path to IPv6. }}</p>
+
+    <p>{{Mac OS X: All supported versions of OS X (since Tiger, 10.4) have IPv6.}}</p>
+
+    <p>{{Linux, BSD, and other unix like systems generally all have IPv6.}}</p>
+  </div>
+
+  <div class="question">
+    {{ Q: Will I have to replace my hardware? }}
+  </div>
+
+  <div class="answer">
+    <p>{{Your PC: Only if the OS upgrade you do requires it.}}</p>
+
+    <p>{{Your ethernet switch / hub: No. It is unaware of IP; it works at a lower level on the local network.}}</p>
+
+    <p>{{ Your router: Quite possibly. Many home routers have no upgrade path for IPv6. Do a web search for your router mode, with the keyword "ipv6" with it. }}</p>
+
+    <p>{{ Your router: Quite possibly. Many home routers have no upgrade path for IPv6. Do a web search for your router model, with the keyword "ipv6" with it. }}</p>
+
+    <p>{{ <b>What router to buy:</b> Wait until your ISP gives you guidance on what will work best with their system. If you must replace your router immediately, look for ones that are IPv6 capable. Apple Airport Express and Airport Extreme have built in tunneling capabilities. OpenWRT capable routers also do (when loaded with the OpenWRT firmware). If you do consider tunnels, see my <a href="#" onclick="return help_page('faq_6to4.html','6to4')">6to4 comments</a>. }}</p>
+  </div>
+</div>
+[% PROCESS "inc/footer.inc" %]

@@ -1,0 +1,66 @@
+[% PROCESS "inc/header.inc" %]
+[% $page := "v6ns bad" %]
+[% PROCESS "inc/list-nav.inc" %]
+
+<div id="content">
+  
+<h1>{{ About the "v6ns" test. }}</h1>
+
+<p><i>{{ This FAQ has been produced to try and address what it means for the v6ns test to be "bad". }}</i></p>
+
+<p>{{ This test specifically verifies that your DNS resolver 
+(usually operated by your Internet service provider, or your corporate IT department) is capable
+of reaching IPv6 Internet sites for DNS lookups.  If you explicitly
+configured the use of a different DNS server, such as OpenDNS or Google's
+Public DNS, you'll test those services instead. }}</p>
+
+<p><b>{{ If this test fails: }}</b>  
+{{ it means that the DNS resolver you are using,
+requires IPv4 to reach the DNS authoritative servers of your favoriate web
+sites.  In the near future, every web site of consequence will remain
+accessible in this form, so <b>there is no immediate danger.</b> }}</p>
+
+<p><b>{{ If this test succeeds: }}</b> {{ it means that your DNS resolver is fully
+capable of reaching IPv6 DNS servers.  This means that the operator of that
+DNS server has IPv6 within their network.  If they do not already offer you
+IPv6, this may be a sign that they are actively working on trying to make it
+possible. }}</p>
+
+<h2>{{ Do you use OpenDNS? }}</h2>
+
+<p>{{ OpenDNS is now offering  IPv6-specific resolvers, that will be able to
+retrieve DNS over IPv6.  This means the "v6ns" test operated here will pass. 
+See the <a target=_blank href="http://www.opendns.com/ipv6/">OpenDNS IPv6
+information page</a>. }}</p>
+
+<h2>{{ Do you operate your own DNS resolvers? }}</h2>
+
+<p> {{ If you operated the DNS
+resolvers in use at your home or organization, enabling IPv6 on your DNS
+server is easy. }}</p>
+
+<ul>
+<li>{{ ISC BIND: Make sure that IPv6 support is compiled in when you
+./configure it.  It is enabled by default.  If you recently added IPv6 to
+your server, simply restart your named process, as you normally would. }}</li>
+
+<li>{{ PowerDNS: Enable <code>aaaa-additional-processing</code> and configure
+<code>query-local-address6</code> in your <code>recursor.conf</code>. 
+Restart powerdns. }}</li>
+
+<li>{{ Windows Server 2003: Upgrade to Windows Server 2008 at a minimum. 
+Windows 2003 will resolve AAAA records, and supports IPv6 clients, but does
+*not* do DNS resolution over IPv6. }}</li>
+
+</ul>
+
+<p><b>{{ Confirmation: }}</b>  <code>dig aaaa aaaa.v6ns.test-ipv6.com</code>
+{{ should return back an aaaa record without errors. }}</p>
+
+
+
+</div>
+
+      
+    
+[% PROCESS "inc/footer.inc" %]

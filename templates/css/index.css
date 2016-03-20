@@ -1,0 +1,233 @@
+/* someone needs to learn css, stat. */
+
+[% PROCESS "inc/tablesorter.inc" %]
+
+
+
+body {
+ font-family: sans-serif; 
+}
+html {
+ overflow-y: scroll; 
+}
+
+
+
+
+#title  { 
+  font-family: sans-serif;
+}
+
+#replay {
+  font-family: sans-serif;
+padding: 0px 0.5em; /* 3px was cute */
+margin-left: 3px;  
+border: 1px solid #778;
+background: #FDD;      
+text-decoration: none; 
+color: #000;
+}
+
+#debugtable {
+  margin-left: 0%;
+  margin-right: 0%;
+}
+
+#pb1 {
+  margin-left: 100px;
+}
+#results {
+}
+
+
+#score10, #score9, #score8 {
+  color: #008000;
+  font-size: 300%;
+}
+
+#score7, #score6, #score5 {
+  font-size: 300%;
+  color: #ff6600;
+}
+#score4, #score3  {
+  font-size: 300%;
+  color: #ff6600;
+}
+
+#score2, #score1, #score0  {
+  font-size: 300%;
+  color: #ff0000;
+}
+
+
+#survey {
+  font-size: 80%;
+  color: #888888;
+}
+
+#showurls {
+  font-size: 50%;
+}
+
+#url {
+  font-size: 80%;
+}
+
+th { 
+  background-color: #000000;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+td {vertical-align: top;}
+
+a {  white-space:nowrap; }   
+
+#small {
+  Font-size: 80%;
+}
+.small {
+  Font-size: 80%;
+}
+
+.question {
+  font-weight: bold;
+  padding: 5px;
+}
+
+.answer {
+  font-weight: normal;
+  padding: 5px;
+}
+
+
+#highlighter {
+  background-color: #ffff00;
+}
+
+.quote { 
+ width: 450px;
+ background-color: #ddffdd;
+ padding: 2px;
+ border-style: solid;
+ border-color: black;
+}
+
+
+.status_ok {
+  font-weight: bold;
+  color: green;
+  background-color: white;
+}
+
+.status_safe {
+  font-weight: bold;
+  color: green;
+  background-color: white;
+}
+
+.status_slow {
+  font-weight: bold;
+  color: orange;
+  background-color: white;
+}
+
+.status_affected {
+  font-weight: bold;
+  color: red;
+  background-color: white;
+}
+
+.status_bad {
+  font-weight: bold;
+  color: blue;
+  background-color: white;
+}
+
+.status_timeout {
+  font-weight: bold;
+  color: red;
+  background-color: white;
+}
+
+
+
+[% PROCESS "inc/list-nav.inc" %]
+[% PROCESS "inc/tabnav.inc" %]
+[% PROCESS "inc/tabbox.inc" %]
+
+
+.subtle a { color: #000; text-decoration: none; }
+.subtle a:link { color: #000; }
+.subtle a:visited { color: #000; }
+.subtle a:hover { color: #00F; text-decoration: underline;}
+
+
+#about P {
+ color: gray;
+ Font-size: 60%;
+text-align: center;
+}
+
+
+
+td.results_wrapper {
+  vertical-align: top;
+}
+
+td.results_left  {
+  width: 50px;
+  color: white;
+  text-align: center;
+  vertical-align:top;
+  font-size: 1.1em;
+  font-weight: bold;
+  text-shadow: #000000 0.1em 0.1em 0.1em;
+}
+td.results_right {
+  vertical-align: top;
+  padding-left: 10px;
+}
+
+
+a.permalink, a.goback, a.help_popup {
+  font-size: small;
+  font-style: italic;
+}
+
+
+#social {
+  width:600px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#logo {
+  font-size: small;
+  text-align: center;
+}
+
+#replayurl {
+  font-size: small;
+  word-wrap: break-word;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.ghost {
+  opacity:0.4;
+}
+
+.helpdeskcode {
+   font-weight: bold;
+   color: #0000ff;
+}
+
+.terminal {
+  white-space: pre-wrap;
+  font-family: monospace;
+  font-style: normal;
+  font-size: 100%;
+  color: #000000;
+}
+

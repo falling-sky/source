@@ -1,0 +1,59 @@
+; Main web site is intentionally IPv4 only, per the FAQ.
+test-ipv6-cmc.comcast.net.		A	69.252.76.68
+www.test-ipv6-cmc.comcast.net.		A	69.252.76.68
+
+; Specific records for tests
+ipv4.test-ipv6-cmc.comcast.net.		A	69.252.76.68
+ipv6.test-ipv6-cmc.comcast.net.		AAAA	2001:558:fe23:2:69:252:208:167
+ds.test-ipv6-cmc.comcast.net.		A	69.252.76.68
+ds.test-ipv6-cmc.comcast.net.		AAAA	2001:558:fe23:2:69:252:208:167
+
+; DNS recursive resolver testing;
+; Delegated to the VM running test-ipv6-cmc.comcast.net; IPv6-only
+v6ns.test-ipv6-cmc.comcast.net.		ns	v6ns1
+v6ns1.test-ipv6-cmc.comcast.net.		AAAA	2001:558:fe23:2:69:252:208:167
+
+; buggydns detects CPE devices that misinterpret AAAA 
+; requests for A; the buggy CPE will return either the
+; first or last 32 bits.
+; Do not use where IPv4 is between 32.0.0.0 and 63.255.255.255.
+buggydns1.test-ipv6-cmc.comcast.net.	AAAA	45fc:4c44:45fc:4c44:45fc:4c44:45fc:4c44
+
+; Convenience names not used in the tests;
+; but perhaps friendly for humans
+a.test-ipv6-cmc.comcast.net.		A	69.252.76.68
+aaaa.test-ipv6-cmc.comcast.net.		AAAA	2001:558:fe23:2:69:252:208:167
+www4.test-ipv6-cmc.comcast.net.		A	69.252.76.68
+www6.test-ipv6-cmc.comcast.net.		AAAA	2001:558:fe23:2:69:252:208:167
+v4.test-ipv6-cmc.comcast.net.		A	69.252.76.68
+v6.test-ipv6-cmc.comcast.net.		AAAA	2001:558:fe23:2:69:252:208:167
+
+test-ipv6-newcastle.comcast.net.		A	69.252.208.167
+test-ipv6-newcastle.comcast.net.		A	69.252.208.167
+
+; Specific records for tests
+ipv4.test-ipv6-newcastle.comcast.net.		A	69.252.208.167
+ipv6.test-ipv6-newcastle.comcast.net.		AAAA	2001:558:fe23:2:69:252:208:167
+ds.test-ipv6-newcastle.comcast.net.		A	69.252.208.167
+ds.test-ipv6-newcastle.comcast.net.		AAAA	2001:558:fe23:2:69:252:208:167
+
+; DNS recursive resolver testing;
+; Delegated to the VM running test-ipv6-newcastle.comcast.net; IPv6-only
+v6ns.test-ipv6-newcastle.comcast.net.		ns	v6ns1
+v6ns1.test-ipv6-newcastle.comcast.net.		AAAA	2001:558:fe23:2:69:252:208:167
+
+; buggydns detects CPE devices that misinterpret AAAA 
+; requests for A; the buggy CPE will return either the
+; first or last 32 bits.
+; Do not use where IPv4 is between 32.0.0.0 and 63.255.255.255.
+buggydns1.test-ipv6-newcastle.comcast.net.	AAAA	45fc:d0a7:45fc:d0a7:45fc:d0a7:45fc:d0a7
+
+; Convenience names not used in the tests;
+; but perhaps friendly for humans
+a.test-ipv6-newcastle.comcast.net.		A	69.252.208.167
+aaaa.test-ipv6-newcastle.comcast.net.		AAAA	2001:558:fe23:2:69:252:208:167
+www4.test-ipv6-newcastle.comcast.net.		A	69.252.208.167
+www6.test-ipv6-newcastle.comcast.net.		AAAA	2001:558:fe23:2:69:252:208:167
+v4.test-ipv6-newcastle.comcast.net.		A	69.252.208.167
+v6.test-ipv6-newcastle.comcast.net.		AAAA	2001:558:fe23:2:69:252:208:167
+

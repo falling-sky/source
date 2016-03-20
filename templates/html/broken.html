@@ -1,0 +1,110 @@
+[% PROCESS "inc/header.inc" %]
+[% $page := "Broken!" %]
+[% PROCESS "inc/list-nav.inc" %]
+
+
+<div id="content">
+  <h1 id="title">{{What to do if you're broken...}}</h1>
+
+  <p>{{If you are reading this page, it means that we've identified that your host will have problems on World IPv6 Day. Any web site that goes "dual stack" (meaning, both IPv4 and IPv6), will be unreachable to you.}}</p>
+
+  <p>{{To resolve this, you'll first need to identify your IPv6 address (if you have one) and your IPv6 default route (if you have one). This will help identify which sections to read.}}</p>
+
+  <p>
+  
+{{If you find your particular problem is not well represented; or you have additional suggestions; please do leave feedback using the <a href='#' onclick='return GIGO.tabnav("mail");'>form</a> (or contact <a   href="mailto:jfesler@test-ipv6.com">jfesler@test-ipv6.com</a>).}}  
+  </p>
+
+  [% PROCESS "inc/broken_options.inc" %]
+
+  <ul>
+    <a href="#staycurrent">{{Make sure you are current}}</a></li>
+
+    <a href="#findip">{{Find your IP address}}</a></li>
+
+    <a href="#tunnelbroker">{{If you set up a tunnel broker}}</a></li>
+
+    <a href="#sixfour">{{If you set up 6to4 (IPv6 address: starts with 2002)}}</a></li>
+
+    <a href="#ula">{{If you have an ULA (IPv6 address: starts with FC or FD)}}</a></li>
+    <a href="#bogon">{{If you have an Bad or Inappropriate IPv6 Addresss (see table)}}</a></li>
+    <a href="#unexpected">{{If you have an unexpected IPv6 address}}</a></li>
+    <a href="#netalyzr">{{Try the netalyzr}}</a></li>
+
+    <a href="#disable">{{If all else fails, disable or deprioritize IPv6}}</a></li>
+  </ul>
+  <hr/>
+
+
+  <a name="staycurrent" id="staycurrent">{{Make sure you are current}}</a></h2>
+  [% PROCESS "inc/broken_options.inc" %]
+  [% PROCESS "faq/staycurrent.inc" %]
+  <hr/>
+
+
+  <a name="findip" id="findip">{{Finding your IP address}}</a></h2>
+  [% PROCESS "inc/broken_options.inc" %]
+  [% PROCESS "faq/find_ip.inc" %]
+  <hr/>
+  
+
+  <a name="tunnelbroker" id="tunnelbroker">{{If you set up a tunnel broker}}</a></h2>
+  [% PROCESS "faq/broken_tunnelbroker.inc" %]
+  <hr/>
+
+  <a name="sixfour" id="sixfour">{{If you set up 6to4}}</a></h2>
+
+  <h3>{{(IPv6 address: starts with 2002)}}</h3>
+  [% PROCESS "faq/broken_6to4.inc" %]
+  <hr/>
+
+  <a name="ula" id="ula">{{If you have an ULA}}</a></h2>
+
+  <h3>{{(IPv6 address: starts with FC or FD)}}</h3>
+  [% PROCESS "faq/broken_ula.inc" %]
+  <hr/>
+  
+  <a name="bogon" id="bogon">{{Bad or Inappropriate IPv6 Addresss}}</a></h2>
+
+  <h3>{{(IPv6 address: see table below)}}</h3>
+  [% PROCESS "faq/broken_bogon.inc" %]
+  <hr/>  
+
+  <a name="unexpected" id="unexpected">{{If you have an unexpected IPv6 address}}</a></h2>
+
+  <h3>{{(IPv6 address: not starting with fe80)}}</h3>
+  [% PROCESS "faq/broken_unexpected.inc" %]
+  <hr/>
+
+  <a name="netalyzr" id="netalyzr">{{Try the netalyzr}}</a></h2>
+  [% PROCESS "faq/broken_netalyzr.inc" %]
+  <hr/>
+
+  <a name="disable" id="disable">{{If all else fails}}</a></h2>
+  [% PROCESS "inc/broken_options.inc" %]
+
+  <h3>{{(Instructions for disabling or deprioritizing IPv6)}}</h3>
+  [% PROCESS "faq/broken_disable.inc" %]
+  <hr/>
+
+  <a name="seealso" id="seealso">{{See Also}}</a></h2>
+
+  <h3>{{Other resources that may help}}</h3>
+
+  <ul>
+    <li><a href="https://www.getipv6.info/display/IPv6/Customer+problems+that+could+occur">
+                 https://www.getipv6.info/display/IPv6/Customer+problems+that+could+occur
+    </a></li>
+  </ul>
+
+
+ <script type="text/javascript">
+  $(document).ready(function() 
+     {
+      GIGO.show_os_start();
+     });
+    </script>
+
+</div>
+
+[% PROCESS "inc/footer.inc" %]

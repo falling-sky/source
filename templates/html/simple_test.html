@@ -1,0 +1,25 @@
+[% PROCESS "inc/header.inc" %]
+[% $page := "Simple Test" %]
+[% PROCESS "inc/list-nav.inc" %]
+
+
+
+<div id="content">
+  <h1 id="title">Simple IPv4/IPv6 Test</h1>
+  
+  <p>{{ This image based test is provided
+  for those with browsers or browser plugins
+  incompatible with the <a href="/">main test</a>.  This
+  page provides only a subset of features, but should
+  be enough for a simple pass/fail. }}
+  </p>
+
+
+[% PROCESS "faq/simple_test.inc" %]
+
+
+
+</div>
+
+    
+[% PROCESS "inc/footer.inc" %]
