@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2016-03-17 10:15-0400\n"
+"PO-Revision-Date: 2016-03-19 22:51-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Chinese Simplified\n"
 "MIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\n"
@@ -150,11 +150,11 @@ msgstr "纯IPv6名称查找失败；尽管查找和双栈连接都是通过IPv6�
 
 #: messages.js
 msgid "A lookup for an IPv6-only name failed; yet the lookup and connect for dual-stack connected via IPv6. The IPv6-only lookup should have worked. Apple has a bug that sporadically causes some IPv6 lookups to fail. We saw evidence of it on this test. You can reload the page and try the test again. For more details, see <a href='http://openradar.appspot.com/7333104'>http://openradar.appspot.com/7333104</a>."
-msgstr ""
+msgstr "查询纯 IPv6 域名失败，虽然它已经通过 IPv6 查到并连接上了一个双栈。纯 IPv6 查找应该能正常工作。Apple 有个会偶尔导致一些 IPv6 查询失败的 bug。我们在这次测试中发现了一些相关的证据，你可以重新加载页面并重新测试。详情请看<a href='http://openradar.appspot.com/7333104'>http://openradar.appspot.com/7333104</a>。"
 
 #: messages.js
 msgid "A lookup for an dual-stack IPv4 and IPv6 name failed (at minimum it should have connected via IPv4). Apple has a bug that sporadically causes some IPv6 lookups to fail. We saw evidence of it on this test. You can reload the page and try the test again. For more details, see <a href='http://openradar.appspot.com/7333104'>http://openradar.appspot.com/7333104</a>."
-msgstr ""
+msgstr "对一个 IPv4 和 IPv6 双栈的域名查询失败（至少它应该能通过 IPv4 连接）。Apple 有个会偶尔导致一些 IPv6 查询失败的 bug。我们在这次测试中发现了一些相关的证据，你可以重新加载页面并重新测试。详情请看<a href='http://openradar.appspot.com/7333104'>http://openradar.appspot.com/7333104</a>。"
 
 #: messages.js
 msgid "No IPv4 address detected"
@@ -1058,7 +1058,7 @@ msgstr "运行"
 
 #: faq/find_ip.inc
 msgid "and look for <code>inet6</code> to see your possible IPv6 addresses."
-msgstr ""
+msgstr "并查找 <code>inet6</code> 来查看你可能的 IPv6 地址。"
 
 #: faq/find_ip.inc
 msgid "and look for <code>inet6</code> or <code>Internet6</code> or similar to find the IPv6 portion; then look for <code>default</code> or <code>::</code> or <code>::/0</code>."
