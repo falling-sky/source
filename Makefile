@@ -74,10 +74,11 @@ stable: prod dist-stable
 
 $(FSBUILDER)/fsbuilder.go: 
 	mkdir -p $(TOP)/src/github.com/falling-sky
-	cd $(TOP)/src/github.com/falling-sky &&  git clone git@github.com:falling-sky/fsbuilder.git
+	cd $(TOP)/src/github.com/falling-sky && GOPATH=$(TOP) go get -d "github.com/falling-sky/fsbuilder"
 	
 $(FSBUILDER)/fsbuilder: $(FSBUILDER)/fsbuilder.go
 	cd $(FSBUILDER) && GOPATH=$(TOP) go build
+	
 
 fsbuilder: $(FSBUILDER)/fsbuilder
 	cp $(FSBUILDER)/fsbuilder .
