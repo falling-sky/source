@@ -1,0 +1,561 @@
+--- 
+8n1.org: 
+  hide: 0
+  loc: NL
+  provider: 8n1.org - a simple pastebin
+  v4: http://ip4.8n1.org/test.gif
+  v6: http://ip6.8n1.org/test.gif
+  monitor: 'Sander Smeenk <sander@bit.nl>'
+aa.net.uk: 
+  hide: 0
+  loc: UK
+  provider: AAISP (UK IPv6 ISP)
+  v4: http://ip4.aa.net.uk/images/aaisp_logo.png
+  v6: http://ip6.aa.net.uk/images/aaisp_logo.png
+  monitor: 'Adrian Kennard <a@k.gg>'
+campaya.co.uk: 
+  hide: 0
+  loc: UK
+  provider: Campaya
+  v4: http://ipv4.campaya.co.uk/apple-touch-icon.png
+  v6: http://ipv6.campaya.co.uk/apple-touch-icon.png
+  monitor: 'Claus Pedersen <clausp@campaya.com>'
+commcorp.com.br:
+  hide: 1
+  loc: BR
+  provider: Commcorp Telecom
+  v4: http://v4.commcorp.net.br/pixel.gif
+  v6: http://v6.commcorp.net.br/pixel.gif
+  monitor: 'Luis Balbinot <lbalbinot@commcorp.com.br>'
+duplimaster.com: 
+  hide: 0
+  loc: ES
+  provider: duplimaster.com
+  v4: http://ipv4.duplimaster.com/public/images/logo-sombra.png
+  v6: http://ipv6.duplimaster.com/public/images/logo-sombra.png
+  monitor: 'Jesus Vara <jvara@e-impresion.es>'
+eurobilltracker.com: 
+  hide: 0
+  loc: FI
+  provider: EuroBillTracker
+  v4: http://ipv4.test-ipv6.eurobilltracker.com/img/1x1.gif
+  v6: http://ipv6.test-ipv6.eurobilltracker.com/img/1x1.gif
+  monitor: 'Anssi Johansson <anssi@miuku.net>'
+go6.vn: 
+  hide: 1
+  loc: VN
+  provider: NetNam Corporation
+  v4: http://ipv4lab.netnam.vn/netnam_ipv4.jpg
+  v6: http://ipv6lab.netnam.vn/netnam_ipv6.jpg
+  monitor: 'Do Ngoc Phuong <phuong.dn@netnam.vn>'
+google.com: 
+  hide: 0
+  loc: global
+  provider: Google
+  v4: http://test-ipv6-dot-com-v6exp3-v4.metric.gstatic.com/v6exp3/6.gif
+  v6: http://test-ipv6-dot-com-v6exp3-v6.metric.gstatic.com/v6exp3/6.gif
+he.net: 
+  hide: 0
+  loc: US (CA)
+  provider: HE.net
+  v4: http://ipv4.tunnelbroker.net/images/helogo.gif
+  v6: http://ipv6.tunnelbroker.net/images/helogo.gif
+  monitor: 'Mike Tindle <mtindle@he.net>'
+nic.br: 
+  hide: 0
+  loc: BR
+  provider: NIC.br
+  v4: http://v4.ipv6.br/img/logo-ipv6.png
+  v6: http://v6.ipv6.br/img/logo-ipv6.png
+  monitor: 'Antonio M. Moreiras <moreiras@nic.br>'
+nsx.de: 
+  hide: 0
+  loc: DE
+  provider: Stephan Fiebrandt (personal)
+  v4: http://ipv4.nsx.de/images/knob_valid_green.png
+  v6: http://ipv6.nsx.de/images/knob_valid_green.png
+  monitor: 'Stephan Fiebrandt <stephan@nsx.de>'
+sixte.st: 
+  hide: 0
+  loc: SG
+  mirror: 1
+  provider: Delan Azabani
+  v4: http://ipv4.sixte.st/images-nc/knob_green.png
+  v6: http://ipv6.sixte.st/images-nc/knob_green.png
+  monitor: 'Delan Azabani <delan@azabani.com>'
+snozzages.com: 
+  hide: 0
+  loc: US (VA)
+  provider: Warren Kumari
+  v4: http://ipv4.v6test.snozzages.com/1x1.gif
+  v6: http://ipv6.v6test.snozzages.com/1x1.gif
+  monitor: 'Warren Kumari <warren@kumari.net>'
+stdio.be: 
+  hide: 0
+  loc: DE
+  provider: Andrew Yourtchenko (personal)
+  v4: http://ipv4.stdio.be/images/knob_valid_green.png
+  v6: http://ipv6.stdio.be/images/knob_valid_green.png
+test-ipv6.alpinedc.ch: 
+  hide: 0
+  loc: CH
+  mirror: 1
+  provider: AlpineDC
+  v4: http://ipv4.test-ipv6.alpinedc.ch/images-nc/knob_green.png
+  v6: http://ipv6.test-ipv6.alpinedc.ch/images-nc/knob_green.png
+  monitor: 'Sebastien Morier <smorier@alpinedc.ch>'
+test-ipv6.ams.vr.org: 
+  hide: 0
+  loc: NL
+  mirror: 1
+  provider: vr.org
+  v4: http://ipv4.test-ipv6.ams.vr.org/images-nc/knob_green.png
+  v6: http://ipv6.test-ipv6.ams.vr.org/images-nc/knob_green.png
+  monitor: jfesler@gigo.com
+test-ipv6.at: 
+  hide: 1
+  loc: AT
+  mirror: 1
+  provider: Silver Server GmbH
+  v4: http://ipv4.test-ipv6.at/images-nc/knob_green.png
+  v6: http://ipv6.test-ipv6.at/images-nc/knob_green.png
+  monitor: 'Silver Server Support <support@sil.at>'
+test-ipv6.belwue.net: 
+  hide: 0
+  loc: DE
+  mirror: 1
+  provider: BelWü
+  v4: http://ipv4.test-ipv6.belwue.net/images-nc/knob_green.png
+  v6: http://ipv6.test-ipv6.belwue.net/images-nc/knob_green.png
+  monitor: 'BelWue NOC <ip@belwue.de>'
+test-ipv6.carnet.hr: 
+  hide: 0
+  loc: HR
+  mirror: 1
+  provider: Croatian Academic and Research Network
+  v4: http://ipv4.test-ipv6.carnet.hr/images-nc/knob_green.png
+  v6: http://ipv6.test-ipv6.carnet.hr/images-nc/knob_green.png
+  monitor: 'CARNet <sysadm@carnet.hr>'
+test-ipv6.ceengine.eu: 
+  hide: 1
+  loc: RO
+  mirror: 1
+  provider: Central and Eastern European Networking Engine
+  v4: http://ipv4.test-ipv6.ceengine.eu/images-nc/knob_green.png
+  v6: http://ipv6.test-ipv6.ceengine.eu/images-nc/knob_green.png
+  monitor: 'NOC @ CEENGINE <valeriu@roedu.net>'
+test-ipv6.chi.vr.org: 
+  hide: 0
+  loc: US IL
+  mirror: 1
+  provider: vr.org
+  v4: http://ipv4.test-ipv6.chi.vr.org/images-nc/knob_green.png
+  v6: http://ipv6.test-ipv6.chi.vr.org/images-nc/knob_green.png
+  monitor: jfesler@gigo.com
+test-ipv6.lazypaddle.com:
+  hide: 0
+  loc: US WI
+  mirror: 1
+  provider: Dale Hartung
+  v4: http://ipv4.test-ipv6.lazypaddle.com/images-nc/knob_green.png
+  v6: http://ipv6.test-ipv6.lazypaddle.com/images-nc/knob_green.png
+  monitor: 'Dale Hartung <dale@dghartung.com>'
+test-ipv6.co.za: 
+  hide: 0
+  loc: ZA
+  mirror: 1
+  provider: Multisource Telecoms
+  v4: http://ipv4.test-ipv6.co.za/images-nc/knob_green.png
+  v6: http://ipv6.test-ipv6.co.za/images-nc/knob_green.png
+  monitor: 'Multisource Support <support@multisource.co.za>'
+test-ipv6.com: 
+  hide: 0
+  loc: US CA
+  mirror: 1
+  provider: Jason Fesler
+  v4: http://ipv4.test-ipv6.com/images-nc/knob_green.png
+  v6: http://ipv6.test-ipv6.com/images-nc/knob_green.png
+test-ipv6.cz: 
+  hide: 0
+  loc: CZ
+  mirror: 1
+  provider: nic.cz
+  v4: http://ipv4.test-ipv6.cz/images-nc/knob_green.png
+  v6: http://ipv6.test-ipv6.cz/images-nc/knob_green.png
+  monitor: 'NOC NIC <noc@nic.cz>'
+test-ipv6.edu.cn: 
+  hide: 1
+  loc: CN
+  mirror: 1
+  provider: CERNET
+  v4: http://ipv4.test-ipv6.edu.cn/images-nc/knob_green.png
+  v6: http://ipv6.test-ipv6.edu.cn/images-nc/knob_green.png
+  monitor: 'zhang <zhang@cernet.edu.cn>'
+test-ipv6.go6.si: 
+  hide: 0
+  loc: SI
+  mirror: 1
+  provider: Go6 Lab - Slovenian IPv6 Iniciative
+  v4: http://ipv4.test-ipv6.go6.si/images-nc/knob_green.png
+  v6: http://ipv6.test-ipv6.go6.si/images-nc/knob_green.png
+  monitor: 'Jan Zorz <jan@go6.si>'
+test-ipv6.gremlin.ca: 
+  hide: 1
+  loc: CA
+  mirror: 1
+  provider: Scott Logan
+  v4: http://ipv4.test-ipv6.gremlin.ca/images-nc/knob_green.png
+  v6: http://ipv6.test-ipv6.gremlin.ca/images-nc/knob_green.png
+  monitor: 'Scott Logan <admin@gremlin.ca>'
+test-ipv6.hu: 
+  hide: 0
+  loc: HU
+  mirror: 1
+  provider: Polaris-N Systems
+  v4: http://ipv4.test-ipv6.hu/images-nc/knob_green.png
+  v6: http://ipv6.test-ipv6.hu/images-nc/knob_green.png
+  monitor: 'Polaris-N Systems <info@polaris-n.hu>'
+test-ipv6.iad.vr.org: 
+  hide: 0
+  loc: US VA
+  mirror: 1
+  provider: vr.org
+  v4: http://ipv4.test-ipv6.iad.vr.org/images-nc/knob_green.png
+  v6: http://ipv6.test-ipv6.iad.vr.org/images-nc/knob_green.png
+  monitor: jfesler@gigo.com
+test-ipv6.jp: 
+  hide: 0
+  loc: JP
+  mirror: 1
+  provider: 'BIGLOBE, Inc/Fullroute Pte. Ltd'
+  v4: http://ipv4.test-ipv6.jp/images-nc/knob_green.png
+  v6: http://ipv6.test-ipv6.jp/images-nc/knob_green.png
+  monitor: 'Shin Shirahata <inquiry@test-ipv6.jp>'
+test-ipv6.monash.edu: 
+  hide: 0
+  loc: AU
+  mirror: 1
+  provider: Monash University
+  v4: http://ipv4.test-ipv6.monash.edu/images-nc/knob_green.png
+  v6: http://ipv6.test-ipv6.monash.edu/images-nc/knob_green.png
+  monitor: 'John Mann <John.Mann@monash.edu>'
+test-ipv6.netiter.dk: 
+  hide: 0
+  loc: DE
+  provider: Netiter ApS
+  v4: http://test-ipv6.com.i42.test-ipv6.easyv6.net/ipv6-test.png
+  v6: http://test-ipv6.com.i32.test-ipv6.easyv6.net/ipv6-test.png
+  monitor: 'Netiter Aps <kontakt@netiter.dk>'
+test-ipv6.nl: 
+  hide: 0
+  loc: NL
+  mirror: 1
+  provider: BIT BV
+  v4: http://ipv4.test-ipv6.nl/images-nc/knob_green.png
+  v6: http://ipv6.test-ipv6.nl/images-nc/knob_green.png
+  monitor: 'Teun Vink <teun@bit.nl>'
+test-ipv6.no: 
+  hide: 0
+  loc: 'NO'
+  mirror: 1
+  provider: Availo AS
+  v4: http://ipv4.test-ipv6.no/images-nc/knob_green.png
+  v6: http://ipv6.test-ipv6.no/images-nc/knob_green.png
+  monitor: 'Brynjar Eide <test-ipv6@availo.no>'
+test-ipv6.ro: 
+  hide: 0
+  loc: RO
+  mirror: 1
+  provider: RCS & RDS
+  v4: http://ipv4.test-ipv6.ro/images-nc/knob_green.png
+  v6: http://ipv6.test-ipv6.ro/images-nc/knob_green.png
+  monitor: 'Liviu Pislaru <liviu.pislaru@rcs-rds.ro>'
+test-ipv6.roedu.net: 
+  hide: 0
+  loc: RO
+  mirror: 1
+  provider: RoEduNet
+  v4: http://ipv4.test-ipv6.roedu.net/images-nc/knob_green.png
+  v6: http://ipv6.test-ipv6.roedu.net/images-nc/knob_green.png
+  monitor: 'IPv6 @ RoEduNet <ipv6@roedu.net>'
+test-ipv6.se: 
+  hide: 0
+  loc: SE
+  mirror: 1
+  provider: Interlan Gefle AB
+  v4: http://ipv4.test-ipv6.se/images-nc/knob_green.png
+  v6: http://ipv6.test-ipv6.se/images-nc/knob_green.png
+  monitor: 'torbjorn.eklov@interlan.se <torbjorn.eklov@interlan.se>'
+test-ipv6.showmyip.ca: 
+  hide: 0
+  loc: UK
+  mirror: 1
+  provider: Christopher Munz-Michielin
+  v4: http://ipv4.test-ipv6.showmyip.ca/images-nc/knob_green.png
+  v6: http://ipv6.test-ipv6.showmyip.ca/images-nc/knob_green.png
+  monitor: 'Christopher Munz-Michielin <christopher@showmyip.ca>'
+test-ipv6.si: 
+  hide: 0
+  loc: SI
+  mirror: 1
+  provider: Damjan Sirnik
+  v4: http://ipv4.test-ipv6.si/images-nc/knob_green.png
+  v6: http://ipv6.test-ipv6.si/images-nc/knob_green.png
+  monitor: 'Damjan Sirnik <damjan@sirnik.si>'
+test-ipv6.sjc.vr.org: 
+  hide: 0
+  loc: US CA
+  mirror: 1
+  provider: vr.org
+  v4: http://ipv4.test-ipv6.sjc.vr.org/images-nc/knob_green.png
+  v6: http://ipv6.test-ipv6.sjc.vr.org/images-nc/knob_green.png
+  monitor: jfesler@gigo.com
+test-ipv6.sth.sze.hu: 
+  hide: 1
+  loc: HU
+  mirror: 1
+  provider: NetClub, Szechenyi Istvan University
+  v4: http://ipv4.test-ipv6.sth.sze.hu/images-nc/knob_green.png
+  v6: http://ipv6.test-ipv6.sth.sze.hu/images-nc/knob_green.png
+  monitor: 'NetClub - Szechenyi Istvan University <andras@sth.sze.hu>'
+test-ipv6.tld.sk: 
+  hide: 0
+  loc: SK
+  mirror: 1
+  provider: Sk-nic
+  v4: http://ipv4.test-ipv6.tld.sk/images-nc/knob_green.png
+  v6: http://ipv6.test-ipv6.tld.sk/images-nc/knob_green.png
+  monitor: 'SK-NIC, a.s. <hostmaster@sk-nic.sk>'
+test-ipv6.uni-ruse.bg: 
+  hide: 1
+  loc: BG
+  mirror: 1
+  provider: University of Ruse
+  v4: http://ipv4.test-ipv6.uni-ruse.bg/images-nc/knob_green.png
+  v6: http://ipv6.test-ipv6.uni-ruse.bg/images-nc/knob_green.png
+  monitor: 'Support team <mirrors@uni-ruse.bg>'
+test-ipv6.vn.ua: 
+  hide: 1
+  loc: UA
+  mirror: 1
+  provider: IP-Connect LLC
+  v4: http://ipv4.test-ipv6.vn.ua/images-nc/knob_green.png
+  v6: http://ipv6.test-ipv6.vn.ua/images-nc/knob_green.png
+  monitor: 'IP-Connect LLC <ipv6@ip-connect.vn.ua>'
+test-ipv6.vtt.net: 
+  hide: 0
+  loc: RU
+  mirror: 1
+  provider: JSC "Volgatranstelecom"
+  v4: http://ipv4.test-ipv6.vtt.net/images-nc/knob_green.png
+  v6: http://ipv6.test-ipv6.vtt.net/images-nc/knob_green.png
+  monitor: 'VTT Network Operations Centre <noc@vtt.net>'
+test-ipv6.vyncke.org: 
+  hide: 1
+  loc: FR
+  mirror: 1
+  provider: "Éric Vyncke"
+  v4: http://ipv4.test-ipv6.vyncke.org/images-nc/knob_green.png
+  v6: http://ipv6.test-ipv6.vyncke.org/images-nc/knob_green.png
+  monitor: 'Eric Vyncke <eric@vyncke.org>'
+test-ipv6.waia.asn.au: 
+  hide: 1
+  loc: AU
+  mirror: 1
+  provider: Western Australian Internet Association
+  v4: http://ipv4.test-ipv6.waia.asn.au/images-nc/knob_green.png
+  v6: http://ipv6.test-ipv6.waia.asn.au/images-nc/knob_green.png
+  monitor: 'Joe Wooller <support@waia.asn.au>'
+testipv6.de: 
+  hide: 0
+  loc: DE
+  mirror: 1
+  provider: COSIMO Vertriebs -und Beratungs GmbH
+  v4: http://ipv4.testipv6.de/images-nc/knob_green.png
+  v6: http://ipv6.testipv6.de/images-nc/knob_green.png
+  monitor: 'COSIMO WebTeam <kontakt@testipv6.de>'
+test-ipv6.arbor.net: 
+  hide: 0
+  loc: US
+  mirror: 1
+  provider: Arbor Networks
+  v4: http://ipv4.test-ipv6.arbor.net/images-nc/knob_green.png
+  v6: http://ipv6.test-ipv6.arbor.net/images-nc/knob_green.png
+  monitor: 'Bill Cerveny <admin@v6research.net>'
+www.bsc-telecom.com: 
+  hide: 1
+  loc: UK
+  provider: BSC-Telecom
+  v4: http://ipv4.bsc-telecom.com/phone.gif
+  v6: http://ipv6.bsc-telecom.com/phone.gif
+  monitor: 'Ken Booth <ken@booths.org.uk>'
+test-ipv6-ct.comcast.net:
+  hide: 0
+  loc: US
+  mirror: 1
+  transparent: 1
+  provider: Comcast
+  v4: http://ipv4.test-ipv6-ct.comcast.net/images-nc/knob_green.png
+  v6: http://ipv6.test-ipv6-ct.comcast.net/images-nc/knob_green.png
+  monitor: 'Comcast IPv6 Team <comcast-ipv6@cable.comcast.com>'
+test-ipv6-pa.comcast.net:
+  hide: 0
+  loc: US
+  mirror: 1
+  transparent: 1
+  provider: Comcast
+  v4: http://ipv4.test-ipv6-pa.comcast.net/images-nc/knob_green.png
+  v6: http://ipv6.test-ipv6-pa.comcast.net/images-nc/knob_green.png
+  monitor: 'Comcast IPv6 Team <comcast-ipv6@cable.comcast.com>'
+www.ctbc.com.br: 
+  hide: 0
+  loc: BR
+  provider: Algar Telecom / CTBC
+  v4: http://ipv4only.ctbc.net.br/ctbc/pixel.gif
+  v6: http://ipv6only.ctbc.net.br/ctbc/pixel.gif
+www.delong.com: 
+  hide: 1
+  loc: US
+  provider: Owen DeLong (personal)
+  v4: http://ohno.delong.com/cgi-bin/trainwreck.cgi
+  v6: http://thegoodlife.delong.com/cgi-bin/beaches.cgi
+  monitor: 'Owen DeLong <owen@delong.com>'
+www.excathedra.co: 
+  hide: 0
+  loc: UK
+  provider: Ex Cathedra Photography
+  v4: https://ipv4.excathedra.co/knob_valid_green.png
+  v6: https://ipv6.excathedra.co/knob_valid_green.png
+  monitor: 'Steve Durbin <steved@excathedra.co>'
+www.heise.de: 
+  hide: 0
+  loc: DE
+  provider: Heise
+  v4: http://www.four.heise.de/icons/ho/heise.gif
+  v6: http://www.six.heise.de/icons/ho/heise.gif
+  monitor: "Johannes Endres, c't <je@heise.de>"
+www.mozilla.org: 
+  hide: 1
+  loc: US (AZ)
+  provider: Mozilla Foundation
+  v4: http://ipv4.mozilla.org/firefox.png
+  v6: http://ipv6.mozilla.org/World_IPv6_launch_logo_128.png
+  reason: https://bugzilla.mozilla.org/show_bug.cgi?id=1229837
+www.rcs-rds.ro: 
+  hide: 0
+  loc: RO
+  provider: RCS & RDS
+  v4: http://ipv4.rcs-rds.ro/1x1.gif
+  v6: http://ipv6.rcs-rds.ro/1x1.gif
+  monitor: 'Liviu Pislaru <liviu.pislaru@rcs-rds.ro>'
+www.steffann.nl: 
+  hide: 0
+  loc: NL
+  provider: SJM Steffann Consultancy
+  v4: http://v4-only.steffann.nl/v4-only.png
+  v6: http://v6-only.steffann.nl/v6-only.png
+  monitor: 'Sander Steffann <sander@steffann.nl>'
+www.vyncke.org/ipv6status/: 
+  hide: 0
+  loc: FR
+  provider: Eric Vyncke (personal)
+  v4: https://test4.vyncke.org/knob_valid_green.png
+  v6: https://test6.vyncke.org/knob_valid_green.png
+  monitor: 'Eric Vyncke <eric@vyncke.org>'
+www.yahoo.com: 
+  hide: 0
+  loc: global
+  provider: Yahoo!
+  v4: http://v4test.yahoo.com/eng/test/eye-test.png
+  v6: http://v6test.yahoo.com/eng/test/eye-test.png
+zeop.re: 
+  hide: 1
+  loc: RE
+  provider: ZEOP
+  v4: http://test-ipv4.zeop.re/ipv4/ipv4.png
+  v6: http://test-ipv6.zeop.re/ipv6/ipv6.png
+  monitor: 'PAYET Fabien <fabienpayet@zeop.re>'
+chelloo.com:
+  hide: 0
+  loc: NL
+  provider: Chelloo
+  v4: http://ipv4.chelloo.com/images/pixel.gif
+  v6: http://ipv6.chelloo.com/images/pixel.gif
+  monitor: 'Rene Kemp <rene.kemp@outlook.com>'
+test-ipv6.polkam.go.id:
+  hide: 0
+  loc: ID
+  mirror: 1
+  provider: Coordinating Ministry For Political, Legal, and Security Affairs of Indonesia
+  v4: http://ipv4.test-ipv6.polkam.go.id/images-nc/knob_green.png
+  v6: http://ipv6.test-ipv6.polkam.go.id/images-nc/knob_green.png
+  monitor: 'vicky@polkam.go.id'
+test-ipv6.fratec.net:
+  hide: 0
+  loc: CR
+  mirror: 1
+  provider: Sistemas Fratec S.A.
+  v4: http://ipv4.test-ipv6.fratec.net/images-nc/knob_green.png
+  v6: http://ipv6.test-ipv6.fratec.net/images-nc/knob_green.png
+test-ipv6.tokyo.gigo.com:
+  hide: 0
+  loc: JP
+  mirror: 1
+  provider: Jason Fesler (@linode Tokyo)
+  v4: http://ipv4.test-ipv6.tokyo.gigo.com/images-nc/knob_green.png
+  v6: http://ipv6.test-ipv6.tokyo.gigo.com/images-nc/knob_green.png
+ipv6-test.pl:
+  hide: 0
+  loc: PL
+  mirror: 1
+  provider: Net-Admin
+  v4: http://ipv4.ipv6-test.pl/images-nc/knob_green.png
+  v6: http://ipv6.ipv6-test.pl/images-nc/knob_green.png
+test-ipv6.com.au:
+  hide: 0
+  loc: AU
+  mirror: 1
+  provider: Futzle Industries
+  v4: http://ipv4.test-ipv6.com.au/images-nc/knob_green.png
+  v6: http://ipv6.test-ipv6.com.au/images-nc/knob_green.png
+www.rascom.ru:
+  loc: RU
+  provider: RASCOM
+  v4: http://wood.rascom.ru/ipv4.jpg
+  v6: http://wood6.rascom.ru/logo2.png
+test-ipv6.ernet.in:
+  hide: 0
+  loc: IN
+  mirror: 1
+  provider: IPv6 Division of ERNET India
+  v4: http://ipv4.test-ipv6.ernet.in/images-nc/knob_green.png
+  v6: http://ipv6.test-ipv6.ernet.in/images-nc/knob_green.png
+  monitor: 'Praveen Misra <praveen@ipv6.ernet.in>'
+www.duiadns.net:
+  loc: NL
+  mirror: 0
+  provider: Duiadns
+  v4: http://ipv4.duiadns.net/1x1.gif
+  v6: http://ipv6.duiadns.net/1x1.gif
+  monitor: 'Liviu Pislaru <liviu.pislaru@duiadns.net>'
+www.radioradicale.it:
+  loc: IT
+  mirror: 0
+  provider: Centro di Produzione Spa - AS57329
+  v4: http://ipv4.radioradicale.it/sites/www.radioradicale.it/files/pagine/2015/12/ipv6.png
+  v6: http://ipv6.radioradicale.it/sites/www.radioradicale.it/files/pagine/2015/12/ipv6.png
+  monitor: 'Dario Centofanti <dario@popinga.net>'
+test-ipv6.azstarnet.az:
+  loc: AZ
+  mirror: 1
+  provider: AZSTARNET LLC
+  v4: http://ipv4.test-ipv6.azstarnet.az/images-nc/knob_green.png
+  v6: http://ipv6.test-ipv6.azstarnet.az/images-nc/knob_green.png
+  monitor: 'Nadir M. Aliyev <nadir@azstarnet.az>'
+test-ipv6.bakinter.net:
+  loc: AZ
+  mirror: 1
+  provider: Baktelekom
+  v4: http://ipv4.test-ipv6.bakinter.net/images-nc/knob_green.png
+  v6: http://ipv6.test-ipv6.bakinter.net/images-nc/knob_green.png
+  monitor: 'Nadir M. Aliyev <admin@bakinter.net>'

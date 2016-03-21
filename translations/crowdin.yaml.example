@@ -1,0 +1,9 @@
+project_identifier: falling-sky
+api_key: X
+base_path: /home/jfesler/falling-sky/source/translations
+
+files:
+    -
+      source: 'falling-sky.pot'
+      translation: '%locale_with_underscore%/falling-sky.%locale_with_underscore%.po'
+        

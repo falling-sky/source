@@ -1,0 +1,88 @@
+[% PROCESS "inc/header.inc" %]
+[% $page := "Comcast" %]
+[% PROCESS "inc/list-nav.inc" %]
+
+<div id="content">
+  <h1 id="title">First ISP-hosted "transparent" test-IPv6.com mirror</h1>
+  <div>
+
+<p><i>May 16, 2014</i></p>
+
+<p><b>TL:DR?  “Thanks, Comcast!”  and “Who’s Next?”</b></p>
+
+<p>The test-ipv6.com site started out 4 years ago, at a table in Seattle, after
+an IPv6 round table meeting hosted by Internet Society.  John Brzozowski and
+myself were each trying to come up with a way to help end users figure out
+that their IPv6 internet was good or bad.  Ultimately I kept plugging away
+at it, as John was distracted with some kind of broadband IPv6 rollout for
+his employer (<a href="http://www.comcast6.net">Comcast</a>).  And the
+test-ipv6.com site went live about a month later, with solicitation to a few
+operations lists for feedback.  All in all, pretty successful.</p>
+
+<p>I’ve had two concerns since deploying test-ipv6.com: one, how to scale; and
+two, how to ensure the user’s connectivity back to the service is awesome
+(or at least, not bad).   John was thinking the same thing - worried about
+sending too many of his customers to my site, and crushing it in the
+process.  Not good for either of us.</p>
+
+<p>Both of those are relatively easy to solve. Simply deploy tons of mirrors
+around the world, problem solved - if you have the cash and/or smart
+business plan to back it.  I don’t monetize the site with advertising; nor
+do I charge fees.  Nor do I have a crack CFO who can help me IPO, and make
+me rich in the process.  I don’t really have the time or energy to solicit
+for corporate handouts.  As it turns out, it appears that I’m bad when it
+comes to making money on this project. So any solution has to be cheap.</p>
+
+<p>Asking folks to run regional mirrors (such as “test-ipv6.cz” or
+“test-ipv6.co.za”) is great; it offers a community local resources that are
+more immune to global connectivity issues.  However, people must explicitly
+decide to visit these mirrors; to chose the location they want to test from. 
+Those regional mirrors are mostly light duty as a result.   They are still
+invaluable - they provide the back end that the global connectivity test
+uses, for any IPv6-validated customer visiting any of the mirrors.  With
+this global test, we effectively crowd source getting IPv6 peering problems
+fixed.  </p>
+
+<p>John and I decided to take things a step further; something I’m happy to see
+finally make it across the finish line after a fair bit of upfront dev work.</p>
+
+<p>Comcast is now running two mirrors and preparing a third - which directly
+act as “test-ipv6.com”.  Nothing changes for the user.  John has to worry
+less about transient (and transit!) connectivity back to test-ipv6.com.  </p>
+
+<p>This is done with a poor-man’s GSLB (Global Server Load Balancer).  We’re
+using an in-house built DNS server that looks at the internet routing table
+to see what ISP the DNS queries come from.  Based on the source BGP ASN, we
+can decide which ISP mirror gets the traffic.  (PS: thanks to routeviews.org
+and everyone who feeds data to it; that stuff is great!)</p>
+
+<p>In the end:  we both get to worry less about Comcast traffic volume to
+test-ipv6.com; as well as ensure a good user experience for the customers
+visiting.</p>
+
+<p>What’s next?  That’s where you come in :-).</p>
+
+<p>If you’re ...</p>
+
+<p><ul>
+<li>  working at a large ISP
+<li>  doing real IPv6 deployment
+<li>  or considering using “helpdesk.test-ipv6.com” with customers 
+</ul></p>
+
+<p>I’d love to help you set up a transparent mirror (acting as
+“test-ipv6.com”).  For you, it means controlling the user experience using
+this site; as well as removing any capacity concerns.  For me, it means the
+same thing.  Win, win.   More info at
+<a href="http://github.com/falling-sky/source/wiki/TransparentMirrors">
+http://github.com/falling-sky/source/wiki/TransparentMirrors</a> .</p>
+
+<p>If you want to help, or have questions, don’t hesitate to ask.</p>
+
+<p>-jason</p>
+
+  
+  </div>  
+  
+  
+</div>[% PROCESS "inc/footer.inc" %]

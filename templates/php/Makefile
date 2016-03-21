@@ -1,0 +1,3 @@
+
+beta:
+	cd .. && make beta

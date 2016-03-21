@@ -1,0 +1,105 @@
+[% PROCESS "inc/header.inc" %]
+[% $page := "Avoiding IPv6?" %]
+[% PROCESS "inc/list-nav.inc" %]
+<div id="content">
+  <h1 id="title">{{Your browser is avoiding IPv6.}}</h1>
+
+  <ul>
+    <a href="#found">{{What we found}}</a></li>
+
+    <a href="#cause">{{What causes a preference for IPv4}}</a></li>
+
+    <a href="#worry">{{Why this worries us}}</a></li>
+
+ </ul>
+ 
+ 
+      <p>{{This document explains why we worry when IPv4 is preferred over IPv6.}}</p>
+
+      <div class="question">
+        <a name="found" id="found"></a> What we found.
+      </div>
+
+      <div class="answer">
+        <em>{{This section applies only when we offered to show you this page from inside the test.}}</em></p>
+
+        <p>{{First of all, we detected you had a working IPv6 connection. We also found that your IPv6 connection, was using a "real" IPv6 address; meaning not a Teredo or a 6to4 address.}}</p>
+
+        <p>{{Second, we detected that when given the choice, your browser decided it would prefer to use IPv4 instead of IPv6. This has some concerns for us.}}</p>
+      </div>
+
+      <div class="question">
+        <a name="cause" id="cause"></a> {{ Causes for preferring IPv4 }}
+      </div>
+
+      <div class="answer">
+        <p>{{There are several possible reasons why a browser might prefer IPv4 instead of IPv6.}}</p>
+
+        <ul>
+          <li>{{ Google's "Chrome" has a "fast fallback" mechanism. On the first try to a site, it will prefer IPv6. If connections take longer than a third of a second, IPv4 is attempted in parallel; and the better of the two will be used for that site. }} 
+              <a target="_blank" href="https://codereview.chromium.org/7029049">{{ (more info) }}</a></li>
+
+           
+          <li>{{ Firefox (recent builds) does the same as Chrome. }} 
+              <a target="_blank" href="https://codereview.chromium.org/7029049">{{ (more info) }}</a> </li>
+
+          <li>{{ The latest Windows 7 and Windows 8 updates will periodically test to see if IPv6 works. If the health check fails, then many applications (including Internet Explorer) will use IPv4, to insulate you from any local IPv6 misconfiguration. }} 
+              <a target="_blank" href="http://blogs.msdn.com/b/b8/archive/2012/06/05/connecting-with-ipv6-in-windows-8.aspx">{{ (more info) }}</a></li>
+
+          <li>{{ Apple's latest Lion and Mountain Lion updates will prefer whichever is "faster" for a given destination. }}
+              <a target="_blank" href="http://lists.apple.com/archives/Ipv6-dev/2011/Jul/msg00009.html">{{ (more info) }}</a></li>
+        </ul>
+      </div>
+
+      <div class="question">
+        <a name="worry" id="worry"></a> {{ Why this worries us }}
+      </div>
+
+      <div class="answer">
+        <p>{{When you use the Internet, a connection is made between your computer, and the service you're connecting to. To connect, you have to have the other side's IP - Internet Protocol - number. And, when you connect, they see yours, so they can send traffic back to you and your applications.}}</p>
+
+        <p>{{The Internet protocol that we've been using for the 1990's and the 2000s, has run out of these unique numbers. We can keep going, but with some limitations, by sharing multiple machines with one number. Often times, we do this at home or at work.}}</p>
+
+        <p>{{What is changing is that the Internet Service Providers are all facing the fact that they will have to implement this type of address sharing, on a much larger scale.  Some buzzwords you may hear:  NAT, CGN, Carrier Grade NAT, LSN, Large Scale NAT.  They all look something like this:}}</p>
+        
+      
+        <p><img src="/images/ipv4_nat_1.jpg" alt="nat photo" />
+        <br/>
+        <span style="color:gray; font-size: small">Photo by Jason Fesler - <a href="http://flic.kr/p/bhDoxg">http://flic.kr/p/bhDoxg</a></span>
+        </p>
+
+        <p>{{ The thing to watch for here:  <b>Many</b> houses sharing one public address. }}</p>
+      
+        <p>{{What happens if one of those homes has a bored hacker, or (more likely) a compromised machine owned by someone who doesn't stay up to date, and doesn't run antivirus software?  What happens when that machine starts to attack your favorite web sites?  What about your banking site?}}</p>
+        
+        <p>{{Those sites will have to ultimately protect themselves, by blocking the traffic. Unfortuantely, they only see the shared address, so their blocking it looks like this:}}</p>
+ 
+        <p><img src="/images/ipv4_nat_2.jpg" alt="nat photo with cutters"/>
+          <br/><span style="color: gray; font-size: small">Photo by Jason Fesler - <a href="http://flic.kr/p/bhDomR">http://flic.kr/p/bhDomR</a></span>
+        </p>
+        
+        <p>{{This is not a good situation.  And the main way to avoid it, is to make sure that your IPv6 is working; and to make sure that IPv6 is the preferred protocol.}}</p>
+
+        <p>Most OS's and Browsers will automatically have a strong bias towards a working IPv6 connection instead of the (possibly shared address) IPv4 connection.  If yours does not, and you want to see this changed, let the browser company know.   You might also find other browsers on the same OS will work the way you'd expect, if you need a work-around.
+        </p>
+        
+        
+        
+      </div>
+      <div class="question">
+          {{ Why else should I care about IPv4 being preferred instead of IPv6, when I have both available? }}
+      </div>
+      <div class="answer">
+          
+          <ul>
+            <li>{{Sites that determine your location automatically, will get this wrong more frequently when you share an IPv4 address with people in other cities.}}</li>
+            <li>{{The box that shares an address between you and the other hundreds of houses, may become performance constrained (cpu, network, TCP ports)}}</li>
+            <li>{{The box is a potential central point of failure for your internet access}}</li>
+            <li>{{Sharing IPv4 addresses is an extra expense for the ISP that they will be passing on to their customers}}</li>
+          </ul>
+          
+        
+      </div>
+      
+</div>
+[% PROCESS "inc/footer.inc" %]

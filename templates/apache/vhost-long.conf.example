@@ -1,0 +1,33 @@
+#####################################################################
+# Example virtual host configuration file, without .htaccess files. #
+#####################################################################
+
+
+<VirtualHost *:80>
+ServerName test-ipv6.example.com
+ServerAlias *.test-ipv6.example.com
+ServerAlias 192.0.2.1
+ServerAlias 2001:DB8::1
+
+DocumentRoot /usr/local/www/data/virt/test-ipv6.example.com
+<Directory /usr/local/www/data/virt/test-ipv6.example.com>
+AllowOverride None
+</Directory>
+
+[% PROCESS "dot.htaccess" %]
+
+
+<Location /ip/>
+[% PROCESS "ip.htaccess" %]
+</Location>
+
+<Location /images/>
+[% PROCESS "images.htaccess" %]
+</Location>
+
+<Location /images-nc/>
+[% PROCESS "images-nc.htaccess" %]
+</Location>
+
+
+</VirtualHost>

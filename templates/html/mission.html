@@ -1,0 +1,82 @@
+[% PROCESS "inc/header.inc" %]
+[% $page := "Mission" %]
+[% PROCESS "inc/list-nav.inc" %]
+
+  <h1 id="title">{{ test-ipv6.com - Our mission }}</h1>
+
+  <div class="quote">
+    {{ Our mission is thus: }}<br/>
+    <ol>
+    
+    <li>{{ Help people identify if they will have problems when publishers offer their web sites on IPv6; }}</li>
+    <li>{{ Help people fix their system configuration so that they are no longer affected. }} </li>
+    <li>{{ To do so in a brand neutral, ad-free way. }}</li>a
+    </ol>
+  </div>
+
+  <div class="question">
+    {{ Why do we do this? }}
+  </div>
+
+  <div class="answer">
+    <p>{{ Because of 1 out of every 4000 users are "broken" based on
+    industry measurements. This has delayed the web sites from
+    publishing to IPv6. }}</p>
+  </div>
+
+  <div class="question">
+    {{ So, what is meant by "broken"? }}
+  </div>
+
+  <div class="answer">
+    <p>{{ When you go to your favorite web site in a browser, and it
+    hangs for several seconds or even minutes. If the publisher
+    publishes to IPv6, and your computer has a *broken* IPv6 route
+    (as compared to having no route), then your computer will
+    attempt to use that broken route first, before falling back to
+    the IPv4 Internet. }}</p>
+  </div>
+
+  <div class="question">
+    {{ What causes these timeouts? }}
+  </div>
+
+  <div class="answer">
+    <p>{{ Newer operating systems have IPv6 enabled by default. Older
+    ones, may have IPv6 enabled, as a result of user action (or
+    specific applications). Enabling IPv6 does not automatically
+    make you vulnerable. }}</p>
+
+    <p>{{ The problem lies when your system is convinced to try and
+    use IPv6, when it is not working adequately. This may be
+    because you're using a public service for your IPv6 gateway.
+    Or, someone on your network, was advertising (to the network)
+    IPv6 through Internet connection sharing; and they left. Last,
+    your router may have IPv6 automatically configured to use
+    public unmanaged gateways; and is telling your computer to use
+    it. }}</p>
+
+    <p>{{ The simplest, yet near-sighted, solution, would be just to
+    disable IPv6. However, over the next couple of years, this will
+    start to cause you more troubles than not. It would be best to
+    instead find the root of your actual problem, and fix that
+    instead. }}</p>
+    
+    <p>{{ The <a href="broken.html">Broken User FAQ</a> has several suggestions
+    for broken users to follow, to remediate their situation. }}</p>
+    
+
+    <div class="question">
+      {{ How you can help }}
+    </div>
+
+    <div class="answer">
+    <p>{{ This is an open-source project.  I can certainly use your help in a
+    variety of ways; please see the <a href="source.html">source</a> page. }}
+    </p>
+    
+    </div>
+  </div>
+
+
+[% PROCESS "inc/footer.inc" %]

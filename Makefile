@@ -1,51 +1,90 @@
+TOP := $(shell pwd)
+FSBUILDER := $(TOP)/src/github.com/falling-sky/fsbuilder
 
-all: dist-prep sites  download
-	./build.pl --maxjobs 8
-	cd po && crowdin-cli upload sources --auto-update
-	rsync -az work/. /var/www/beta.test-ipv6.com/. --exclude site --delete --progress 
-	- test -f /Applications/Safari.app/Contents/MacOS/Safari && open http://beta.test-ipv6.com/
+BETA ?= jfesler@gigo.com:/var/www/beta.test-ipv6.com
+PROD ?= jfesler@master.test-ipv6.com:/var/www
+DIST_TEST ?= jfesler@gigo.com:/home/fsky/test/content
+DIST_STABLE ?= jfesler@gigo.com:/home/fsky/stable/content
 
-beta: dist-prep sites  download
-	./build.pl --locale en_US --config beta.inc
-	cd po && crowdin-cli upload sources --auto-update
-	rsync -az work/. /var/www/beta.test-ipv6.com/. --exclude site --delete --progress
-	- test -f /Applications/Safari.app/Contents/MacOS/Safari && open http://beta.test-ipv6.com/isp/
 
-raw: dist-prep sites  download
-	./build.pl --locale en_US --config raw.inc
-	rsync -az work/. /var/www/beta.test-ipv6.com/. --exclude site --delete --progress
-	- test -f /Applications/Safari.app/Contents/MacOS/Safari && open http://beta.test-ipv6.com/isp/
+################################################################
+# Prep.                                                        #
+################################################################
+
+pre: fsbuilder download sites 
+
+post: upload
+
+output: FORCE 
+	@echo Generating output using ./fsbuilder
+	./fsbuilder
+	make upload
+
+pipeline: pre output post
+
+upload:
+	@echo Uploading crowdin translation POT file
+	cd translations && make upload
 
 download:
-	cd po && ./download.pl
+	@echo Downloading crowdin translations
+	cd translations && make download
+
+sites:: FORCE
+	@echo Checking to see what sites are up or down
+	cd sites && ./parse-sites
 	
-download-snapshot:	download
-	rsync -av po/. po-snapshot/.
+FORCE:
+
+################################################################
+# Publishing                                                   #
+################################################################
+dist-template:
+	test -f output/nat.html.zh_CN
+	test -x ../dist_support/make-dist.pl 
+	rsync output/. $(DIST_DESTINATION)/. -a --delete
+
+dist-test: 
+	make dist-template DIST_DESTINATION=$(DIST_TEST)
+
+dist-stable:
+	make dist-template DIST_DESTINATION=$(DIST_STABLE)
+
+
+################################################################
+# Real targets.                                                #
+################################################################
+
+beta: pipeline
+	rsync output/. $(BETA)/.  -a --exclude site --delete
+
+
+prod: pipeline
+	rsync output/. $(PROD)/.  -a --exclude site --delete
 	
-download-diff:
-	diff -cr po-snapshot/. po/.
 
-sites::
-	cd sites && ./parse-sites-yaml.pl
+test: beta dist-test
 
-dist-prep: work sites
-	rm -fr work
-	mkdir -p work/images
-	mkdir -p work/images-nc
-	rsync -a images/. work/images/.
-	rsync -a images/. work/images-nc/.
+stable: prod dist-stable
 
-dist-test: work sites
-	test -f work/nat.html.zh_CN
-	 ../dist_support/make-dist.pl --base content --branch test
+dist: stable
 
-dist-stable: work sites
-	test -f work/nat.html.zh_CN
-	 ../dist_support/make-dist.pl --base content --branch stable
-	 
-dist:	all dist-stable
 
-crowdin:
-	make all
-	git commit  -m "latest translations" po
-	make dist-stable
+################################################################
+# Binaries                                                     #
+################################################################
+
+$(FSBUILDER)/fsbuilder.go: 
+	mkdir -p $(TOP)/src/github.com/falling-sky
+	cd $(TOP)/src/github.com/falling-sky && GOPATH=$(TOP) go get -d "github.com/falling-sky/fsbuilder"
+	
+$(FSBUILDER)/fsbuilder: $(FSBUILDER)/fsbuilder.go
+	cd $(FSBUILDER) && GOPATH=$(TOP) go build
+	
+
+fsbuilder: $(FSBUILDER)/fsbuilder
+	cp $(FSBUILDER)/fsbuilder .
+
+update-fsbuilder:
+	rm -fr fsbuilder $(FSBUILDER)
+	make fsbuilder

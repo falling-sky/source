@@ -1,0 +1,70 @@
+[% PROCESS "inc/header.inc" %]
+[% $page := "stats" %]
+[% PROCESS "inc/list-nav.inc" %]
+
+  <h1 id="title">{{<span lookup=site.name>site</span> statistics}}</h1>
+
+
+<div>
+<p>{{ Graphs are updated daily. }}</p>
+<ul>
+<li><a href="#months">{{ 60 days view }}</a></li>
+<li><a href="#year">{{ 600 days view }}</a></li>
+</ul>
+
+{{ Quick notes: }}
+<ul>
+<li>{{ Browser Filter means that both the "A" and "AAAA" test failed.  Browser
+(plugin/filter) shenanigans, likely with add-ons like ad blockers. }}</li>
+<li>{{ Brokeness goes down, when volume goes up.   This is due to having a
+wider sample of average people (versus people explicitly testing a new IPv6
+setup). }}</li>
+</ul>
+
+
+<a id="months" name="months"></a>
+
+<h2>{{ These graphs show the last 60 days of activity at <span lookup=site.name>site</span>}}</h2>
+
+<div>{{ Graph: shows result summaries, stacked.  Total height shows number of
+users who took the test on a given day. }}</div>
+<div><img src="/site/charts/summary_area_days.png" alt="/site/charts/summary_area_days.png" /></div>
+
+<div>{{ Similiar graph, except this time showing percentages. }}</div>
+<div><img src="/site/charts/summary_pct_days.png" alt="/site/charts/summary_pct_days.png" /></div>
+
+<div>{{ The most interesting graph is the percentage of "broken" users.  Our
+definition of a "broken" user is that the browser stalls or times out, while
+attempting to visit a web site published on both IPv4 and IPv6. }}</div>
+  <div><img src="/site/charts/summary_broken_days.png" alt="/site/charts/summary_broken_days.png" /></div>
+
+<div>{{ Line graph, not stacked, of results over time. }}</div>
+<div><img src="/site/charts/summary_line_days.png" alt="/site/charts/summary_line_days.png" /></div>
+
+
+
+<h2>{{ These graphs show the last 600 days of activity at <span lookup=site.name>site</span>}}</h2>
+
+
+
+<a id="year" name="year"></a>
+
+
+<div>{{ Graph: shows result summaries, stacked.  Total height shows number of
+users who took the test on a given day. }}</div>
+<div><img src="/site/charts/summary_area_year.png" alt="/site/charts/summary_area_year.png" /></div>
+
+<div>{{ Similiar graph, except this time showing percentages. }}</div>
+<div><img src="/site/charts/summary_pct_year.png" alt="/site/charts/summary_pct_year.png" /></div>
+
+<div>{{ The most interesting graph is the percentage of "broken" users.  Our
+definition of a "broken" user is that the browser stalls or times out, while
+attempting to visit a web site published on both IPv4 and IPv6. }}</div>
+  <div><img src="/site/charts/summary_broken_year.png" alt="/site/charts/summary_broken_year.png" /></div>
+
+<div>{{ Line graph, not stacked, of results over time. }}</div>
+<div><img src="/site/charts/summary_line_year.png" alt="/site/charts/summary_line_year.png" /></div>
+
+
+</div>
+[% PROCESS "inc/footer.inc" %]

@@ -1,0 +1,37 @@
+#! /usr/bin/perl
+
+use lib "/Users/jfesler/falling-sky/source/perl";
+use FSi18n::PO;
+use YAML::Syck;
+use strict;
+
+my $oldname = shift @ARGV || "falling-sky.pot";
+my $newname = shift @ARGV || "falling-sky.newpot";
+
+my $oldpo = Locale::PO->load_file_asarray($oldname) or die;
+my $newpo = Locale::PO->load_file_asarray($newname) or die;
+
+my %old;
+my @old;
+
+foreach my $aref (@$oldpo) {
+  my $msgid = $aref->{msgid};
+  $old{$msgid}=$aref;;
+  push(@old,$msgid);
+}
+my %new;
+my @new;
+foreach my $aref (@$newpo) {
+  my $msgid = $aref->{msgid};
+  $new{$msgid}=$aref;
+  push(@new,$msgid);
+}
+
+foreach my $msgid (@old) {
+  if (exists $new{$msgid}) {
+ #   print "= $msgid\n";
+  } else {
+    print Dump($old{$msgid});
+#    print "- $msgid\n";
+  }
+}

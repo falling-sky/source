@@ -1,0 +1,36 @@
+[% PROCESS "inc/header.inc" %]
+[% $page := "Broken DNS Lookups" %]
+[% PROCESS "inc/list-nav.inc" %]
+
+<div id="content">
+  
+<h1>{{Broken DNS AAAA Lookups}}</h1>
+<p>{{We detected that you are able to connect to IPv6 sites, by numerical address specifically. However, connections using DNS either failed, or preferred IPv4.}}</p>
+
+<b>{{What does this mean for you?}}</b></p>
+
+<p>{{You should still be able to reach most sites fine, so long as they offer their services on IPv4.  This means few near-term problems.}}</p>
+
+<p>{{Possible causes:}}</p>
+
+<ul>
+  <li>{{Firefox users may have IPv6 lookups disabled.}}</li>
+  <ul>
+     <li>{{ Go to <a href="about:config">about:config</a> in your browser. }}</li>
+     <li>{{ Look for <code>network.dns.disableIPv6</code> }}</li>
+     <li>{{ Make sure this is set to <code>false</code>. }}</li>
+  </ul>
+  <li>{{Your OS may be configured to not do AAAA lookups; that is, to prefer IPv4 only.}}</li>
+  <li>{{Your DNS server may be filtering AAAA responses (or otherwise broken).}}</li>
+  <ul>
+    <li>{{Some ISPs will intentionally filter AAAA records.  For example, on World IPv6 Day, we expect many Japanese ISPs to filter AAAA records, to mitigate current IPv6 deployment issues unique to their environments.}}</li>
+    <li>{{ You (or your techical support) can run <code>dig @DNSSERVER aaaa aaaa.test-ipv6.com</code> to confirm if the DNS server is working properly }}</li>
+  </ul>
+</ul>
+
+
+</div>
+
+      
+    
+[% PROCESS "inc/footer.inc" %]

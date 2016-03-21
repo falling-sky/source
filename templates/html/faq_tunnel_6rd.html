@@ -1,0 +1,28 @@
+[% PROCESS "inc/header.inc" %]
+[% $page := "6rd tunnel" %]
+[% PROCESS "inc/list-nav.inc" %]
+
+<div id="content">
+
+[% PROCESS "inc/tunnel.inc" %]
+
+<h1>{{ What is specific to 6RD tunnels? }}</h1>
+
+<p>
+	{{ 6RD tunnels have been designed by the IETF as <a href="http://tools.ietf.org/html/rfc5969">RFC 5969</a> to be
+	deployed within an ISP access network and by the ISP itself to transport IPv6 over a legacy IPv4 access network.
+	As the tunnel is confined with a single ISP, it is therefore managed in such a way to provide performances
+	as good in IPv6 as in IPv4 (except perhaps for the largest packet size, a.k.a. MTU). }}
+</p>
+<p>
+	{{ In short, a 6RD tunnel provides you with native IPv6 connectivity. }}
+</p>
+
+<h1>{{ How did we detect a 6RD tunnel? }}</h1>
+<p>
+	{{ During the tests, we collect your IPv4 and IPv6 addresses. If at least 16 bits of your IPv4 address
+	are embedded in your IPv6 prefix, then we assume that you are using a 6RD tunnel. }}
+</p>
+</div>
+
+[% PROCESS "inc/footer.inc" %]
