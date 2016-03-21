@@ -19,9 +19,9 @@
 
 <a href="#" onclick="return help_page('locale.html','Locale')">
 <img src="/images/icon_987_red.png" height=20 border=0>
-{{locale}}
+{{locale}} 
 </a>
-<!-- ( TODO put percentage here -->
+{{percenttranslated}}
 
 <br/>
 [% PROCESS "inc/disclaimer.inc" %]
