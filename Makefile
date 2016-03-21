@@ -67,6 +67,8 @@ test: beta dist-test
 
 stable: prod dist-stable
 
+dist: stable
+
 
 ################################################################
 # Binaries                                                     #
