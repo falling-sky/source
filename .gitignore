@@ -8,3 +8,4 @@ src/github.com
 output
 
 translations/all.zip
+translations/crowdin.yaml
