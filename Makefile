@@ -6,37 +6,32 @@ PROD ?= jfesler@master.test-ipv6.com:/var/www
 DIST_TEST ?= jfesler@gigo.com:/home/fsky/test/content
 DIST_STABLE ?= jfesler@gigo.com:/home/fsky/stable/content
 
-################################################################
-# Do we permit publishing to rsync.gigo.com and files.gigo.com?#
-################################################################
-HOSTNAME := $(shell hostname)
-PUBLISH := false
-ifeq ($(HOSTNAME),bender)
-  PUBLISH := true
-endif	
-
 
 ################################################################
 # Prep.                                                        #
 ################################################################
 
-pre: fsbuilder po-download sites 
+pre: fsbuilder download sites 
 
-post: po-upload
+post: upload
 
 output: FORCE 
+	@echo Generating output using ./fsbuilder
 	./fsbuilder
-	make po-upload
+	make upload
 
 pipeline: pre output post
 
-po-upload:
-	cd translations && crowdin-cli upload sources --auto-update
+upload:
+	@echo Uploading crowdin translation POT file
+	cd translations && make upload
 
-po-download:
-	cd translations && ./download.pl
+download:
+	@echo Downloading crowdin translations
+	cd translations && make download
 
 sites:: FORCE
+	@echo Checking to see what sites are up or down
 	cd sites && ./parse-sites
 	
 FORCE:
@@ -47,7 +42,7 @@ FORCE:
 dist-template:
 	test -f output/nat.html.zh_CN
 	test -x ../dist_support/make-dist.pl 
-	rsync output/. $(DIST_DESTINATION)/. -a
+	rsync output/. $(DIST_DESTINATION)/. -a --delete
 
 dist-test: 
 	make dist-template DIST_DESTINATION=$(DIST_TEST)
@@ -71,8 +66,7 @@ prod: pipeline
 test: beta dist-test
 
 stable: prod dist-stable
-	
-	
+
 
 ################################################################
 # Binaries                                                     #

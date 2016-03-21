@@ -6,3 +6,5 @@ po/crowdin.yaml
 fsbuilder
 src/github.com
 output
+
+translations/all.zip
