@@ -1,0 +1,38 @@
+MirrorConfig = 
+{
+
+  "site": {
+    "name": "test-ipv6.example.com",
+    "contact": "Jason Fesler",
+    "mailto": "jfesler@test-ipv6.com"
+  },
+  
+  "load": {
+    "domain": "test-ipv6.example.com",
+    "ipv4": "192.0.2.1",
+    "ipv6": "2001:db8::1"
+  },
+  
+  "footer": {
+    "#note": "uncomment (remove #) to use any of the next few lines.",
+    "#logo": "/site/logo.png",
+    "#operator": "Operated by Jason Fesler",
+    "#link": "http://test-ipv6.com",
+    "#html": "/site/footer.html"
+  },
+  
+  "options": {
+    "show_stats": "/stats.html",
+    "survey": "/survey.php",
+    "comment": "/comment.php",
+    "ip": "/ip/"
+  },
+  
+  "facebook": {
+    "enable": 0
+  },
+  "twitter": {
+    "enable": 0,
+    "name": "testipv6com"
+  }
+}

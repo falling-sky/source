@@ -1,0 +1,37 @@
+The following are used in support of test-ipv6.com
+
+dumpObj.js
+  http://geekswithblogs.net/svanvliet/archive/2006/03/23/simple-javascript-object-dump-function.aspx
+
+jquery-1.4.2.js  - jQuery JavaScript Library v1.4.2
+jquery-1.4.2.min.js
+ http://jquery.com/
+ Copyright 2010, John Resig
+ License: MIT or GPL2;  portions MIT, BSD
+ 
+ Includes Sizzle.js
+   http://sizzlejs.com/
+   Copyright 2010, The Dojo Foundation
+   License: MIT, BSD, GPL
+
+jquery.jsonp-2.0.2.js  - jQuery JSONP Core Plugin 2.0.2 (2010-05-21)
+ http://code.google.com/p/jquery-jsonp/
+ Copyright (c) 2010 Julian Aubourg
+ License:  MIT http://www.opensource.org/licenses/mit-license.php
+
+jquery.tablesorter.js -  * TableSorter 2.0 - Client-side table sorting with ease!
+  http://tablesorter.com/
+  Copyright (c) 2007 Christian Bach
+  Dual license MIT, GPL
+
+mootools-1.2.4-core.js - Used for browser feature testing (to detect IE)
+  http://mootools.net
+  Copyright (c) 2006-2008 [Valerio Proietti](http://mad4milk.net/).
+  license: MIT-style license.
+  authors: The MooTools production team (http://mootools.net/developers/)
+
+
+jquery.md5.js - to carry status from helpdesk tab to replay url
+  Copyright 2010, Sebastian Tschan
+  https://blueimp.net, https://github.com/placemarker/jQuery-MD5
+  license: MIT-style license.

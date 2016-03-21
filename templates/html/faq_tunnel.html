@@ -1,0 +1,34 @@
+[% PROCESS "inc/header.inc" %]
+[% $page := "Tunnels" %]
+[% PROCESS "inc/list-nav.inc" %]
+
+<div id="content">
+  
+[% PROCESS "inc/tunnel.inc" %]
+
+<h1>{{ How did the test detect a tunnel? }}</h1>
+<p>
+	{{ For the technical-oriented readers, here is the explanation how we detect that you are probably using a tunnel. As the test collects
+	your IPv4 and IPv6 addresses, it also collects (thanks to
+	<a href="http://www.team-cymru.org/Services/ip-to-asn.html">http://www.team-cymru.org/Services/ip-to-asn.html</a>)
+	your Autonomous System Numbers (ASN) for IPv4 and IPv6. If your ISP is dual stack, then your IPv4 ASN and your IPv6 ASN
+	should be identical as your IPv4 and IPv6 connectivity are provided by the same ISP.  }}
+</p>
+<p>	
+	{{ If the ASN number is different, we highlight that fact - and call
+	out that you are probably using a tunnel.  If this is a tunnel you
+	know about, great.  If you did not know you were being tunneled, you
+	might ask your network administrator about it. }}
+</p>
+
+<p>
+	{{ Tunnels are not inherently bad; but (depending on circumstances) they may
+	cause troubles that might not otherwise be seen with native IPv6
+	connectivity.  Specifically, there may be issues of PMTUD (Path MTU
+	Discovery) with some sites you visit - depending on the firewall
+	configurations between you and those sites. }}
+</p>
+
+</div>
+
+[% PROCESS "inc/footer.inc" %]

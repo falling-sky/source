@@ -14,8 +14,8 @@ import (
 )
 
 var input = flag.String("input", "sites.json", "json file to read")
-var parsed = flag.String("parsed", "../js/sites_parsed.js", "GIGO.sites_parsed= js file to write for falling-sky")
-var raw = flag.String("raw", "../js/sites_parsed_raw.js", "js file to write for other automation")
+var parsed = flag.String("parsed", "../templates/js/sites_parsed.js", "GIGO.sites_parsed= js file to write for falling-sky")
+var raw = flag.String("raw", "../templates/js/sites_parsed_raw.js", "js file to write for other automation")
 
 // SiteRecord describes a single mirror or "Other Sites" record
 type SiteRecord struct {

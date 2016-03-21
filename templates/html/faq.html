@@ -1,0 +1,152 @@
+[% PROCESS "inc/header.inc" %]
+[% $page := "faq" %]
+[% PROCESS "inc/list-nav.inc" %]
+
+<div id="content">
+
+
+  <h1 id="title">{{ test-ipv6.com FAQ }}</h1>
+
+  <div class="question">
+    {{ Q: How does this test work? }}
+  </div>
+
+  <div class="answer">
+    {{ The test is entirely client-side javascript. To determine reachability, a series of ajax requests are made from the
+    web server, using various DNS names that force the use of IPv6 only, or dual stack, or other such scenarios. The
+    pass/fail of such fetches, as well as how long they take, are taken into account. }}
+  </div>
+
+  <div class="question">
+    {{ Q: Why is this web site reachable via IPv4 only? }}
+  </div>
+
+  <div class="answer">
+    {{ You're right, there are no AAAA records, intentionally. A percentage of users are unable to browse sites that are
+    dual-stack. If the users can't connect, then they can't be told they have a problem. This is a big problem facing
+    content providers today; of which, I work at one for my &#36;dayjob. As such, the main test page requires IPv4 (either
+    native or translated). }}
+  </div>
+
+  <div class="answer">
+    {{ At some point, when the percentage of "broken" users has gone significantly down, I'll consider making
+    test-ipv6.com dual-stack.  At least check, May 2013, we still see 0.5% broken
+    visiting test-ipv6.com.  And we still want them to understand their
+    situation. }}
+  </div>
+
+  <div class="question">
+    {{ Q: How do I test my IPv6-only host }}
+  </div>
+
+  <div class="answer">
+    {{ If you ask that question, chances are you don't need this site. However, if you really want to, visit <a href=
+    "http://ipv6.test-ipv6.com">http://ipv6.test-ipv6.com</a> with your IPv6-only host. }}
+  </div>
+
+  <div class="question">
+    {{ Q: What do you mean by broken? }}
+  </div>
+
+  <div class="answer">
+    {{ A percentage of users today have IPv6 enabled, but are either using a public tunnel that is currently giving poor
+    performance; or otherwise have a route that is installed but broken or suboptimal. However, because they have a
+    route at all, in many cases the address selection algorithm of RFC3484 will pick using it, and trying to use this
+    broken route. It can take towards 75+ seconds before the browser gives up! }}
+  </div>
+
+  <div class="answer">
+    {{ From the perspective of a user with these conditions, a web site offering both A and AAAA DNS records (ie, "dual
+    stack") will appear to time out; and the user will move on to another site that offers a similar product. This is
+    the quandary content providers have. }}
+  </div>
+  <div class="answer">
+    {{ If we detect that you will have problems reaching dual-stack web sites,
+    we recommend you see the <a href="broken.html">Broken User FAQ</a>.  It
+    provides several steps to try and identify your root cause for being
+    broken; and barring that, what you can do to disable IPv6 until your ISP
+    offers native IPv6 connectivity. }}
+  </div>
+
+  <div class="question">
+    {{ Q: Why did your stats say you already have IPv6-only users? }}
+  </div>
+
+  <div class="answer">
+    {{ They went to <a href="http://ipv6.test-ipv6.com">http://ipv6.test-ipv6.com</a> . }}
+  </div>
+
+  <div class="question">
+    {{ Q: How valid are the stats? }}
+  </div>
+
+  <div class="answer">
+    {{ They do not represent the average web consumer. Visitors to this site are self-selecting. The intent of this site
+    is to not provide stats, but instead to inform the user the level of readiness for the world to move to IPv6 (with
+    or without'em!). As such, stats found here will be completely different from an average content provider. }}
+  </div>
+
+  <div class="question">
+    {{ Q: How does your test differ, from what the content providers are doing? }}
+  </div>
+
+  <div class="answer">
+    {{ Content providers are gathering metrics of broken vs non-broken users, in an aggregate form. They are not at this
+    time actually giving the user feedback as to the user's current state. Those metrics will principally drive the
+    business decision of when to start publishing sites over IPv6, versus remaining IPv4 only. IPv4 only for some
+    content sites really is an option; it has a handful of downsides, but the expectation is that everyone will always
+    be able to reach IPv4, in some fashion. }}
+  </div>
+
+  <div class="answer">
+    {{ This site, on the other hand, is intended to help the user understand their current state, and what that state
+    possibly means to them. }}
+  </div>
+
+  <div class="question">
+    {{ Q: Your site shows the wrong IP address; how can I bypass my proxy server to find my public address? }}
+  </div>
+
+  <div class="answer">
+    {{ For ipv4/ipv6/dual stack, use one of these: }}
+
+    <p><code>telnet ipv4.test-ipv6.com 79</code> {{ for ipv4 }}<br />
+    <code>telnet ipv6.test-ipv6.com 79</code> {{ for ipv6 }}<br />
+    <code>telnet ds.test-ipv6.com 79</code> {{ for either }}</p>
+
+    <p>{{ Note you _may_ need to specify other options to your telnet command, depending on your operating system. On my
+    mac, for example, I need to use "<code>telnet -6</code>". }}</p>
+  </div>
+
+  <div class="question">
+    {{ Q: Do you actually read the feedback? }}
+  </div>
+
+  <div class="answer">
+    <p>
+    {{ Yes, I do. Thank you! Note that I can only follow up with you if you do leave contact information. While I am still
+    grateful for feedback without contact information, I will be unable to reply with any answers if you asked for them. }}
+    </p>
+  </div>
+
+  <div class="question">
+    {{ Q: How else can I contact you? }}
+  </div>
+
+  <div class="answer">
+    {{ I would prefer you use the form, as it gives details of your connectivity, and bypasses any mail filters. }}
+    {{ That said, you are welcome to directly email <a href="mailto:jfesler@test-ipv6.com">jfesler@test-ipv6.com</a>. }}
+  </div>
+
+  <div class="question">
+    {{ Q: Is this open source? }}
+  </div>
+  
+  <div class="answer">
+    {{ Yes.  See the <a href="source.html">source page</a> for details. }}
+  </div>
+  
+
+</div>
+
+[% PROCESS "inc/footer.inc" %]

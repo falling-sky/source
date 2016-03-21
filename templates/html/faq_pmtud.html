@@ -1,0 +1,143 @@
+[% PROCESS "inc/header.inc" %]
+[% $page := "PMTUD" %]
+[% PROCESS "inc/list-nav.inc" %]
+
+<div id="content">
+  <div><h1 id="title">Path MTU Discovery</h1>
+  </div>
+  <div>
+  <em>{{This will attempt to explain why you may have PMTUD problems when using test-ipv6.com; and possible solutions. Unfortunately, it is beyond the ability of this site to be able to clearly articulate *your* specific problem.}}</em></p>
+  </div>
+
+  <div class="question">
+    {{ Q: What is Path MTU Discovery (or PMTUD) }}
+  </div>
+
+  <div class="answer">
+    <p>{{PMTUD is a mechanism used on the Internet that tells your computer the maximum size of the packets that should be sent for a given destination. How this works: Your host will send a possibly large packet; with the packet marked "Do Not Fragment". When the packet reaches a router that can't forward this packet, due to size, it sends back a response saying "Too big! Try this size instead."}}</p>
+  </div>
+
+  <div class="question">
+    {{ Q: How does this relate to IPv6? }}
+  </div>
+
+  <div class="answer">
+    <p>{{With IPv6, all packets are by definition "Do Not Fragment". The responsibility of sending the correct sized packets no longer falls on the router; this is an expensive operation for the router to handle. Instead, the ability to do PMTUD is mandated by the IPv6 specification.}}</p>
+  </div>
+
+  <div class="question">
+    {{ Q: What does the firewall need to allow? }}
+  </div>
+
+  <div class="answer">
+    <p>{{ IPv6 firewalls <b>need</b> to permit ICMPv6, type 2 (Packet Too Big) to work correctly with the public Internet. If you are implementing the IPv6 firewall for your web site, your enterprise, or other organization, please permit this specific ICMPv6 message, even if you by default block other types of ICMP. }}</p>
+  </div>
+
+  <div class="question">
+    {{ Q: What else can cause PMTUD failures? }}
+  </div>
+
+  <div class="answer">
+    <p>{{ Tunnels inside of tunnels.  One might be your own; the other, you may not see.  Internet service providers often use tunnels either to simplify their topology; to hide it; or to transport things in a more convenient way.  However, each tunnel used requires adding a bit of a header to the top of the packet - making the packet bigger. The problem lies in that routers have a maximum size packet they will route. }}</p>
+    
+    <p>{{This is what it looks like when you use 6to4, 6in4, Teredo, and other types of tunnels:}}</p>
+    
+    <p><img src="/images/faq_pmtud_6in4.png" alt="6in4 diagram"/></p>
+    
+    <p>{{Your router will automatically add an IPv4 header to the top of your packet. This same router will let your computer know if the packet is going to be too big; your computer will (as long as it gets the ICMPv6 "Packet Too Big" message) resend the packet, at a smaller size recommended by your router. A router near the web site, will automatically remove the IPv4 header, and forward the IPv6 peice.}}</p>
+    
+    <p>{{This is like putting a letter in an envelope, inside another envelope for someone else to forward on.  There may be a maximum size or weight limit for your postage stamp.  Tunneling is conceptually the same.}}</p>
+    
+       
+    <p>{{If any Internet service provider along the way adds their own tunnel, in effect stuffing your package into another envelope, the packet may become too big:}}</p>
+    
+    <p><img src="/images/faq_pmtud_6in4in4.png" alt="6in4in4 diagram"/></p>
+    <p>{{In the above case, the message is now so big, that it can't be forwarded.  A "Packet Too Big" message will be sent by that router - but it only sees the IPv4 address; not your IPv6 address.  Because of this, your computer will never retry with a smaller sized packet, one that might fit when using multiple envelopes.}}</p>
+    
+  </div>
+
+  <div class="question">
+    {{What does this look like on the network?}}
+    {{(What does tcpdump show?)}}
+    </div>
+  <div class="answer">
+  <p>{{This is what tcpdump will show..}} </p>
+  <code><pre>
+badamount-lm:~ jfesler$ sudo tcpdump '(ip6 and icmp6 and ip6[40] = 2) or (ip6 and tcp port 80)' 
+Password:
+tcpdump: data link type PKTAP
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on pktap, link-type PKTAP (Packet Tap), capture size 65535 bytes
+09:03:57.697254 IP6 2001:db8:effd:600:dc1:a365:b3bc:397f.53649 > 2001:470:1f04:d63::2.http: Flags [S], seq 2919600708, win 65535, options [mss 1440,nop,wscale 5,nop,nop,TS val 326886165 ecr 0,sackOK,eol], length 0
+09:03:57.702436 IP6 2001:470:1f04:d63::2.http > 2001:db8:effd:600:dc1:a365:b3bc:397f.53649: Flags [S.], seq 1207337852, ack 2919600709, win 28160, options [mss 1366,sackOK,TS val 325898144 ecr 326886165,nop,wscale 7], length 0
+09:03:57.702469 IP6 2001:db8:effd:600:dc1:a365:b3bc:397f.53649 > 2001:470:1f04:d63::2.http: Flags [.], ack 1, win 4104, options [nop,nop,TS val 326886170 ecr 325898144], length 0
+09:03:57.702534 IP6 2001:db8:effd:600:dc1:a365:b3bc:397f.53649 > 2001:470:1f04:d63::2.http: Flags [.], seq 1:1355, ack 1, win 4104, options [nop,nop,TS val 326886170 ecr 325898144], length 1354
+09:03:57.702540 IP6 2001:db8:effd:600:dc1:a365:b3bc:397f.53649 > 2001:470:1f04:d63::2.http: Flags [P.], seq 1355:1805, ack 1, win 4104, options [nop,nop,TS val 326886170 ecr 325898144], length 450
+<b>09:03:57.710307 IP6 tserv1.fmt2.he.net > 2001:db8:effd:600:dc1:a365:b3bc:397f: ICMP6, packet too big, mtu 1280, length 1240</b>
+09:03:57.710433 IP6 2001:db8:effd:600:dc1:a365:b3bc:397f.53649 > 2001:470:1f04:d63::2.http: Flags [.], seq 1:1209, ack 1, win 4104, options [nop,nop,TS val 326886170 ecr 325898144], length 1208
+09:03:57.710457 IP6 2001:db8:effd:600:dc1:a365:b3bc:397f.53649 > 2001:470:1f04:d63::2.http: Flags [P.], seq 1209:1805, ack 1, win 4104, options [nop,nop,TS val 326886170 ecr 325898144], length 596
+09:03:57.714993 IP6 2001:470:1f04:d63::2.http > 2001:db8:effd:600:dc1:a365:b3bc:397f.53649: Flags [.], ack 1209, win 239, options [nop,nop,TS val 325898147 ecr 326886170], length 0
+09:03:57.715904 IP6 2001:470:1f04:d63::2.http > 2001:db8:effd:600:dc1:a365:b3bc:397f.53649: Flags [.], ack 1805, win 258, options [nop,nop,TS val 325898147 ecr 326886170], length 0
+09:03:57.719508 IP6 2001:470:1f04:d63::2.http > 2001:db8:effd:600:dc1:a365:b3bc:397f.53649: Flags [.], seq 1:1355, ack 1805, win 258, options [nop,nop,TS val 325898148 ecr 326886170], length 1354
+09:03:57.720537 IP6 2001:470:1f04:d63::2.http > 2001:db8:effd:600:dc1:a365:b3bc:397f.53649: Flags [P.], seq 1355:1871, ack 1805, win 258, options [nop,nop,TS val 325898148 ecr 326886170], length 516
+09:03:57.720605 IP6 2001:db8:effd:600:dc1:a365:b3bc:397f.53649 > 2001:470:1f04:d63::2.http: Flags [.], ack 1871, win 4079, options [nop,nop,TS val 326886187 ecr 325898148], length 0
+09:03:57.721019 IP6 2001:db8:effd:600:dc1:a365:b3bc:397f.53649 > 2001:470:1f04:d63::2.http: Flags [F.], seq 1805, ack 1871, win 4096, options [nop,nop,TS val 326886187 ecr 325898148], length 0
+09:03:57.725160 IP6 2001:470:1f04:d63::2.http > 2001:db8:effd:600:dc1:a365:b3bc:397f.53649: Flags [F.], seq 1871, ack 1806, win 258, options [nop,nop,TS val 325898150 ecr 326886187], length 0
+09:03:57.725218 IP6 2001:db8:effd:600:dc1:a365:b3bc:397f.53649 > 2001:470:1f04:d63::2.http: Flags [.], ack 1872, win 4096, options [nop,nop,TS val 326886191 ecr 325898150], length 0
+^C
+16 packets captured
+423 packets received by filter
+0 packets dropped by kernel
+badamount-lm:~ jfesler$ 
+</pre></code>
+  <p>{{This is what I ran to generate the packets.}} </p>
+  <pre><code>
+   % curl
+   'http://mtu1280.test-ipv6.com/ip/?size=1600&fill=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+</code></pre>   
+  <p>
+  </p> 
+  
+  
+  </div>  
+
+  <div class="question">
+    {{ What can I do? }}
+  </div>
+
+  <div class="answer">
+    <p>{{This is a complex question - there are many ways to get on the Internet.}}</p>
+    <p>{{The preferred fix is to permit ICMPv6 Type 2 Packet Too Big
+    messages.}}
+    {{Your router or firewall may be blocking these.}}
+    </p>
+    
+    
+    <p>{{ If you have "native" IPv6, meaning your ISP gave you your IPv6 connectivity, and you are still running into MTU problems, see if your router can advertise a smaller IPv6 MTU. Alternately, configure your <b>entire LAN</b> for a smaller MTU (not really advised!) }}</p>
+    
+    <p>{{If your router provides IPv6 for you, see if you can configure a smaller MTU to be advertising with (perhaps) RADVD.}}</p>
+    
+    
+    <ul>
+      <li>{{Apple Airport routers: Automatically send ICMPv6 redirects to your hosts, telling them to reduce the path MTU to 1280.}}</li>
+
+      <li>{{DD-WRT routers: Looks like you need to use "AdvLinkMTU 1280;" on your wireless side; and make sure the tun6to4 mtu is set to 1280.}}</li>
+
+      <li>{{Routers based on Linux, BSD, and (presumably) Mac: Set your 6to4 interface to MTU 1280. Configure radvd.conf's interface config with "AdvLinkMTU 1280".}}</li>
+    </ul>
+
+    <p>{{If you run "6to4" on your computer instead (not the router):}}</p>
+
+    <ul>
+      <li>{{Linux, BSD, and (presumably) Mac: Set your 6to4 interface to MTU 1280. If you are running radvd, set "AdvLinkMTU 1280" in your interface radvd.conf .}}</li>
+
+      <li>{{Windows: If you figure this out, please share with jfesler@test-ipv6.com to add to this site. Presumably: control panel, network adapters, properties, 6}}</li>
+    </ul>
+
+    <p>{{ <b>If you are not covered by the above, do a web search.</b>. As you learn what fixes your particular circumstances, please share with jfesler@test-ipv6.com to add to this site. Your contribution will be appreciated by others! }}</p>
+  </div>
+</div>
+
+
+
+[% PROCESS "inc/footer.inc" %]

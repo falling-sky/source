@@ -1,0 +1,30 @@
+[% PROCESS "inc/header.inc" %]
+[% $page := "index" %]
+[% PROCESS "inc/list-nav.inc" %]
+
+<h1 id="title" style="margin-bottom:0;">
+  {{Test your IPv6 connectivity.}}
+<span id="replay" class="replay" style="display:none">
+  {{(Replay)}}
+</span>
+</h1>
+
+<!-- Do I ever hate the ways that browsers break things with javascript disabled. Can't even count on noscript tags. !-->
+
+[% PROCESS "inc/js_required.inc" %]
+
+[% PROCESS "inc/index.inc" %]
+
+
+
+[% PROCESS "main/tabs.inc" %]
+<center>
+<div id="social">
+<div id="facebook_like"></div>
+<div id="twitter_tweet"></div>
+</div>
+</center>
+
+[% PROCESS "inc/logo-bottom.inc" %]
+
+[% PROCESS "inc/footer.inc" %]

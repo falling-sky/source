@@ -1,0 +1,36 @@
+[% PROCESS "inc/header.inc" %]
+[% $page := "No IP Detected" %]
+[% PROCESS "inc/list-nav.inc" %]
+
+<div id="content">
+  
+<h1>{{What? No IPv4 address?}}</h1>
+
+<p>{{Most of you are visiting this site using IPv4.  Few people in 2013 will truely only have access to the IPv6 Internet. This FAQ will help explain why we were unable to detect IPv4 on your browser.}}</p>
+
+<p>{{This site works by telling your browser to connect to a series of test urls.  These urls, if they do connect, report back to the web browser your IP address.   JavaScript is not permitted to look at your system itself; it is only allowed to interact with the web.  As such, if the urls all fail, we are unable to determine your IP address.}}</p>
+
+<p>{{This usually indicates something is broken, or filtered.}}</p>
+
+<div>
+<p>{{Since the test obviously failed, here is a simpler test to help you know if you are ready for web sites to offer their services on IPv6.   After this simpler test, you'll see more information about specific browsers.}}</p>
+[% PROCESS "faq/simple_test.inc" %]
+</div>
+<hr>
+
+<div class=question>{{Firefox and NoScript}}</div>
+<div class=answer>
+<p>{{The NoScript browser plugin disables scripts on the page. In the lower right corner of your browser, is the NoScript icon. Click this to bring up a menu; and temporarilly permit scripts on this site.  }}<b>You will have to do this twice.</b>  The first time enables scripts from the main site; the second time will enable all the "off site" scripts that are needed as well.</p>
+</div>
+
+
+<div class="question">{{Firefox and AdBlock+}}</div>
+<p>{{The AdBlock+ plugin is suspect; it depends on the ruleset that is used.  More information from people willing to investigate would be appreciated.}}</p></div>
+
+<div class="question">{{Other browser plugins}}</div>
+<div class="answer"><p>{{ If you have problems using this site, get a list of the plugins or add-ons you have for this browser.  Save that list.  Now, disable all of them - and try the site again.  If it works, one of those is definately to blame. Enable them one by one, and retry the site.  When you find the one that causes problems, please email <a href="mailto:jfesler@test-ipv6.com">Jason Fesler &lt;jfesler@test-ipv6.com&gt;</a> with your findings.}}</p></div>
+</div>
+
+      
+    
+[% PROCESS "inc/footer.inc" %]

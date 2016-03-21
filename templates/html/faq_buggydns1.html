@@ -1,0 +1,56 @@
+[% PROCESS "inc/header.inc" %]
+[% $page := "Buggy DNS" %]
+[% PROCESS "inc/list-nav.inc" %]
+
+<div id="content">
+  
+<h1>{{FAQ on "Buggy DNS"}}</h1>
+
+<p>{{If you were referred to this page by test-ipv6.com, it means that we were able to detect a dangerous condition with your DNS server.}}</p>
+<p>{{First a description of the problem:}}</p>
+<ul>
+    <li>{{Your browser asked for a DNS lookup, both IPv4 and IPv6.}}</li>
+    <li>{{The IPv6 response was returned first.}}</li>
+    <li>{{Your DNS server was confused by the result - it doesn't fully follow the DNS standards.}}</li>
+    <li>{{Your DNS server took the first piece of the IPV6 address, and memorized it as the IPv4 address.}}</li>
+    <li>{{The browser fails the IPv6 lookup, but "succeeds" in getting a bogus IPv4 address.}}</li>
+    <li>{{It then tries to make a connecting, to the wrong address, with the wrong protocol.}}</li>
+</ul>
+
+<p>{{This is bad for several reasons:}}</p>
+
+<ul>
+    <li>{{You won't be able to connect to IPv6-only sites.}}</li>
+    <li>{{You may sporadically fail (or always fail) to connect to IPv6-enabled web sites.  This is regardless of whether you are capable IPv6 or not - you may still be impacted.}}</li>
+    <li>Malicious people can recognize that specific IPv6 addresses, when matched with this bug, map to IPv4 addresses they control.
+    Web sites you depend on can be spoofed; you would not know any better, unless the sites are using SSL.</li>
+</ul>
+
+<b>{{So, what is actually affected?}}</b></p>
+
+<p>{{You'll need to determine what device is forwarding your DNS queries.}}</p>
+
+<p>{{ With Windows, at the <code>cmd</code> prompt, you can type <code>ipconfig /all</code>.  Look for "<code>DNS Servers</code>". }}</p>
+<p>{{ With Linux, BSD, and Mac OS X, you can do this in a terminal:  <code>cat /etc/resolv.conf</code>. }}</p>
+<p>{{ Residential ISP customers: look to see if the DNS server is <b>192.168.0.1</b> or <b>192.168.1.1</b>.  If so, chances are good that your home router is at fault.  This is probably the blue box you have that connects the Internet. }}</p>
+<p>{{ Business customers: Provide this information to your IT professional to investigate. }}</p>
+
+<b>{{IT professionals:}}</b></p>
+
+<p>{{You can see an illustration of this, by doing:}}</p>
+
+<pre><code>
+dig aaaa buggydns1.test-ipv6.com  @192.168.1.1
+dig a buggydns1.test-ipv6.com @192.168.1.1
+</code></pre>
+
+<p>{{ Substitute the 192.168.1.1 with the resolver being used by the host. If the "aaaa" request comes back with no answer, but the "a" answer does, this is a confirmation of a broken DNS cache or forwarder.  The actual DNS information for buggydns1.test-ipv6.com has only an IPv6 record configured. }}</p>
+
+
+
+
+</div>
+
+      
+    
+[% PROCESS "inc/footer.inc" %]

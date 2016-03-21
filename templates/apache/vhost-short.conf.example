@@ -1,0 +1,18 @@
+#####################################################################
+# Example virtual host configuration file, with .htaccess files.    #
+# This is the recommended format, as it will permit mirrors to      #
+# automatically update to the latest settings.                      #
+#####################################################################
+
+
+<VirtualHost *:80>
+ServerName test-ipv6.example.com
+ServerAlias *.test-ipv6.example.com
+ServerAlias 192.0.2.1
+ServerAlias 2001:DB8::1
+
+DocumentRoot /usr/local/www/data/virt/test-ipv6.example.com
+<Directory /usr/local/www/data/virt/test-ipv6.example.com>
+AllowOverride All
+</Directory>
+</VirtualHost>

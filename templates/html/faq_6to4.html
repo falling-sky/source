@@ -1,0 +1,78 @@
+[% PROCESS "inc/header.inc" %]
+[% $page := "6to4" %]
+[% PROCESS "inc/list-nav.inc" %]
+
+<div id="content">
+  <h1 id="title">{{test-ipv6.com views on 6to4}}</h1>
+
+  <ul>
+    <a href="#ugly">{{The ugly bits}}</a></li>
+
+    <a href="#good">{{The good bits}}</a></li>
+
+    <li style="list-style: none; display: inline">
+      <p>{{ 6to4 is a technology that allows you to use your existing Internet provider (with only IPv4), to access the IPV6 Internet. It does this by putting IPv6 packets inside IPv4 packets, and with the help of some friendly folks on the Internet. (The specification of this is in <a href="http://www.ietf.org/rfc/rfc3056.txt">rfc3056</a>.) }}</p>
+
+      <div class="question">
+        <a name="ugly" id="ugly"></a>{{Before covering my actual view on 6to4, lets discuss how it works.}}      </div>
+
+      <div class="answer">
+        <p><img src="/images/6to4-v4only.png" alt="v4 only picture"/></p>
+
+        <p>{{With traditional IPv4 Internet connections, traffic goes from you, to your ISP; to one or more ISPs; and finally to the end web site. Debugging issues with this is fairly easy. And, in the event of issues, your ISP has an obligation to fix things that they are associated with; the web site has a similiar contract with their ISP.}}</p>
+
+        <p><img src="/images/6to4-tunnel.png" alt="v6 in v4 unmanaged picture"/></p>
+
+        <p>{{With unmanaged 6to4 connections (created "automatically" or without explicit gateway information) the process is a fair bit different. IPv6 is put into an IPv4 packet - much like sticking a letter in an envelope. This packet is sent to the "nearest available" gateway. Your ISP<i>may</i> run one of these; most do not. Chances are the one you use, will be run by a good samaritan who's trying to contribute to the community. This relay will take the IPV6 from inside your IPv4 packet, and then forward it over the IPV6 Internet.}}</p>
+
+        <p>{{Traffic from the web site takes a similiar path. That web site replies back to your automatic IPv6 address. This is routed to the nearest 6to4 relay to that web site. This is not deterministic from your part, at all. In fact, you won't even be able to tell where this relay is. That relay will take the IPv6 packet, stick it inside an IPv4 packet, and then send to your router.}}</p>
+      </div>
+
+      <div class="question">
+        {{Q: What could possibly go wrong?}}      </div>
+
+      <div class="answer">
+        <p>{{The main issues involve the lack of a service level agreement, the lack of predictability, and a lack in the protocol for your computer to realize that this method is not working.}}</p>
+
+        <p>{{Service level agreement: 6to4 relays are put up, voluntarilly by some organizations. They use BGP (the Internet's way of saying "I'm here!") to advertise to the world the existence of the public gateway. Some of them are managed quite well. Some are not. AS long as the route is being advertised, and they are the "closest" (in a BGP network sense - not in your control), that particular relay is the one you MUST use. Same for the web site you're trying to use - they have the same constraints, but most likely using a different relay than you. If anything goes wrong, even if you or the web site can figure out which one it is, there is not a good way to get the problem fixed.}}</p>
+
+        <p>{{Some ISPs are starting to offer 6to4 relays in their network; one such example is Comcast. But even if your ISP does this, that is only half the battle.}}</p>
+
+        <p>{{Once you enable 6to4, your computer will go "Ah-ha! IPv6 Internet!". Any time you vist a web site, your web browser will prefer to try IPv6 (if the web site is offering it). When it works, great! But when it doesn't work, you'll see timeouts. Browsers can wait a very long time before giving up on IPv6, and going back to IPv4. And the browser won't remember it had to try IPv4 - so ever web graphic, every link you click, etc will be subject to what looks like "web site slow" or "web site down".}}</p>
+
+        <div class="question">{{6to4 worked for me, but the "Big Packet" or MTU test was slow/failed. What happened?}}</div>
+
+        <div class="answer">
+          <p>{{When using 6to4, your IPv6 packet has to be pushed into an IPv4 packet. Internet protocol packets have a maximum size; and this can vary based on the Internet service provider, as well as the equipment used.}}</p>
+
+          <p>{{Because of this maximum size, your IPv6 packets actually have to be made a bit smaller - so that they fit inside the IPv4 packet, and that the IPv4 packet is still small enough to leave your network.}}</p>
+
+          <p>{{Further down the line, there may be another network with even tigher restrictions on the packet size. That network may itself be a tunnel - ISPs occasionally have to do that. This is where the problem often - lies. The IPv4 tunnel will send a message back towards you, - indicating that the packet was too big - but you don't get it. Even - if you do, your IPv6 packets don't get the message, so ultimately - you never reduce your packet size.}}</p>
+
+          <p>{{For some people, reducing the MTU size on IPv6 will help. 1280 is the minimum legal size. You can try values between 1400 to 1480 if you really want to find the one magic value that seems to work for you; but if you do touch MTU at all I'd recommend just doing 1280, and avoid later frustration.}}</p>
+        </div>
+
+<div><h2><a name="good" id="good"></a>{{ Managed tunnels }}</h2></div>
+
+        <div class="question">
+          {{You sure sound like you don't like 6to4. }}
+        </div>
+
+
+        <div class="answer">
+          <p>{{I don't like that it is *unmanaged*. 6to4 is basically 6in4 - an IPv6 packet wrapped with an IPv4 header.  Managed 6in4 services can actualy be pretty good..}}</p>
+
+          <p><img src="/images/6to4-broker.png" alt="v6 in v4 tunnel broker"/></p>
+
+          <p>{{test-ipv6.com's recommendation is that if you need IPv6 before your ISP can offer it, consider a managed 6in4 service.  6in4 is the same service as 6to4 on the wire, except with a managed tunnel endpoint (instead of an anonymous one).  There are a few major options out there.  They each offer great service; and they offer a <b>support</b> channel.  These relays are <b>actively monitored</b> for service quality.  Best of all, the <b>same relay is used both directions</b> - meaning the same staff manages both conversions.  Consider these services: }}</p>
+
+          <p><a href="http://tunnelbroker.net">tunnelbroker.net</a>. {{ Ran by Hurricane Electric. The author of test-ipv6.com has used their services for 2-3 years; and would notice latency problems (lots of interactive SSH use from home to the server). This service requires a static IPv4 address (or static enough - you can always go to the tunnelbroker.net site and update your IP). Lastly, tunnelbroker is fully automated - you can sign up, get your tunnel assignment immediately, and configure your end. }}</p>
+          <p><a href="http://sixxs.net">sixxs.net</a> {{ is another popular service. I see many European users using this service significantly; though their footprint is global. They work with dynamic IPs with some custom software that they provide. }}</p>
+          <p><a href="http://gogonet.gogo6.com/">gogo6</a> {{ aka freenet6. I don't have personal experience with this, but test-ipv6.com does see a number of connections via this service. }}</p>
+          <p><a href="www.6fei.com.cn">go6 [CN]</a> {{ may be a better solution, in China.  This requires a custom client to be installed. }}</p>
+          <p><a href="http://ipv6now.com.au">IPv6Now</a> {{ in Australia offers both free and paid-for (with SLA) tunnels. }}</p>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>[% PROCESS "inc/footer.inc" %]
