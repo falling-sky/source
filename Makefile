@@ -1,7 +1,20 @@
 TOP := $(shell pwd)
 FSBUILDER := $(TOP)/src/github.com/falling-sky/fsbuilder
 
-BETA ?= gigo.com:/var/www/beta.test-ipv6.com
+BETA ?= jfesler@gigo.com:/var/www/beta.test-ipv6.com
+PROD ?= jfesler@master.test-ipv6.com:/var/www
+DIST_TEST ?= jfesler@gigo.com:/home/fsky/test/content
+DIST_STABLE ?= jfesler@gigo.com:/home/fsky/stable/content
+
+################################################################
+# Do we permit publishing to rsync.gigo.com and files.gigo.com?#
+################################################################
+HOSTNAME := $(shell hostname)
+PUBLISH := false
+ifeq ($(HOSTNAME),bender)
+  PUBLISH := true
+endif	
+
 
 ################################################################
 # Prep.                                                        #
@@ -29,12 +42,37 @@ sites:: FORCE
 FORCE:
 
 ################################################################
+# Publishing                                                   #
+################################################################
+dist-template:
+	test -f output/nat.html.zh_CN
+	test -x ../dist_support/make-dist.pl 
+	rsync output/. $(DIST_DESTINATION)/. -a
+
+dist-test: 
+	make dist-template DIST_DESTINATION=$(DIST_TEST)
+
+dist-stable:
+	make dist-template DIST_DESTINATION=$(DIST_STABLE)
+
+
+################################################################
 # Real targets.                                                #
 ################################################################
 
 beta: pipeline
 	rsync output/. $(BETA)/.  -a --exclude site --delete
 
+
+prod: pipeline
+	rsync output/. $(PROD)/.  -a --exclude site --delete
+	
+
+test: beta dist-test
+
+stable: prod dist-stable
+	
+	
 
 ################################################################
 # Binaries                                                     #
