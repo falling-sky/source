@@ -221,7 +221,8 @@
          "v6" : "http://ipv6.test-ipv6.bakinter.net/images-nc/knob_green.png"
       },
       "test-ipv6.belwue.net" : {
-         "hide" : false,
+         "hide" : true,
+         "reason": "out of date",
          "loc" : "DE",
          "mirror" : true,
          "monitor" : "BelWue NOC <ip@belwue.de>",
