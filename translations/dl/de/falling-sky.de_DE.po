@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2016-03-20 22:34-0400\n"
+"PO-Revision-Date: 2016-03-21 09:45-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: German\n"
 "MIME-Version: 1.0\n"
@@ -2120,7 +2120,7 @@ msgstr "Mehr Information"
 
 #: "faq/simple_test.inc"
 msgid "IPv4. Basic traditional Internet."
-msgstr "IPv4. Grundlegendes, traditionelle Internet."
+msgstr "IPv4. Grundlegendes, traditionelles Internet."
 
 #: "faq/simple_test.inc"
 msgid "If green, you will have no problem on World IPv6 day."
@@ -2136,7 +2136,7 @@ msgstr "Falls dies fehlschlägt, erwägen Sie den <a href=\"/\"> kompletten Test
 
 #: "faq/simple_test.inc"
 msgid "<i>If red or blank, do not stress!</i> Few people already have IPv6 at this time; and it is not critical for 2011 but will be for the coming years."
-msgstr "<i>Keine Panik, wenn die Anzeige leer oder rot ist!</i> Nur wenige Menschen haben bereits IPv6 und es ist für 2011 keine Vorraussetzung, dies wird erst in den kommenden jahren so sein."
+msgstr "<i>Keine Panik, wenn die Anzeige leer oder rot ist!</i> Nur wenige Menschen haben bereits IPv6 und es ist für 2011 keine Voraussetzung, dies wird erst in den kommenden Jahren so sein."
 
 #: "faq_browser_plugins.html"
 msgid "FAQ on Plugins and Add-Ons"
@@ -2668,53 +2668,53 @@ msgstr "Während der Tests sammeln wir Ihre IPv4- und IPv6-Adressen. Wenn mindes
 
 #: "not-used, archived.  Not currently needed for translation."
 msgid "dummy example"
-msgstr ""
+msgstr "Dummy-Beispiel"
 
 #: "faq_no_ipv4.html"
 msgid "What? No IPv4 address?"
-msgstr ""
+msgstr "Was? Keine IPv4-Adresse?"
 
 #: "faq_no_ipv4.html"
 msgid "Most of you are visiting this site using IPv4. Few people in 2013 will truely only have access to the IPv6 Internet. This FAQ will help explain why we were unable to detect IPv4 on your browser."
-msgstr ""
+msgstr "Die meisten von Ihnen besuchen diese Seite mit IPv4. Nur wenige Menschen im Jahr 2013 werden wirklich nur Zugriff auf das IPv6-Internet haben. Diese FAQ wird helfen, zu klären, warum wir IPv4 auf Ihrem Browser nicht erkennen konnten."
 
 #: "faq_no_ipv4.html"
 msgid "This site works by telling your browser to connect to a series of test urls. These urls, if they do connect, report back to the web browser your IP address. JavaScript is not permitted to look at your system itself; it is only allowed to interact with the web. As such, if the urls all fail, we are unable to determine your IP address."
-msgstr ""
+msgstr "Diese Site funktioniert dadurch, dass wir Ihren Browser dazu auffordern, Verbindungen zu einer Reihe von Test-URLs herzustellen. Diese URLs berichten, wenn sie eine Verbindung herstellen, dem Webbrowser Ihre IP-Adresse. JavaScript ist es nicht gestattet, auf Ihr System selbst zu schauen, es darf nur mit dem Web interagieren. Daher sind wir nicht in der Lage, die IP-Adresse zu ermitteln enn alle URLs nicht funktionieren."
 
 #: "faq_no_ipv4.html"
 msgid "This usually indicates something is broken, or filtered."
-msgstr ""
+msgstr "Dies bedeutet in der Regel, dass etwas kaputt oder gefiltert ist."
 
 #: "faq_no_ipv4.html"
 msgid "Since the test obviously failed, here is a simpler test to help you know if you are ready for web sites to offer their services on IPv6. After this simpler test, you'll see more information about specific browsers."
-msgstr ""
+msgstr "Da der Test offensichtlich fehlgeschlagen ist, ist hier ein einfacherer Test, mit denen Sie feststellen können, ob bereit sind für Web-Sites, die ihre Dienste auf IPv6 anbieten möchten. Nach diesem einfacheren Test sehen Sie weitere Informationen zu bestimmten Browsern."
 
 #: "faq_no_ipv4.html"
 msgid "Firefox and NoScript"
-msgstr ""
+msgstr "Firefox und NoScript"
 
 #: "faq_no_ipv4.html"
 msgid "The NoScript browser plugin disables scripts on the page. In the lower right corner of your browser, is the NoScript icon. Click this to bring up a menu; and temporarilly permit scripts on this site."
-msgstr ""
+msgstr "Das Browser-Plugin \"NoScript\" deaktiviert Skripts auf der Seite. In der unteren rechten Ecke des Browsers wird das Symbol \"NoScript\" angezeit. Klicken Sie dort, um ein Menü aufzurufen, und erlauben Sie dann temporär Skripte auf dieser Seite."
 
 #: "faq_no_ipv4.html"
 msgid "Firefox and AdBlock+"
-msgstr ""
+msgstr "Firefox und AdBlock +"
 
 #: "faq_no_ipv4.html"
 msgid "The AdBlock+ plugin is suspect; it depends on the ruleset that is used. More information from people willing to investigate would be appreciated."
-msgstr ""
+msgstr "Das Plugin \"AdBlock+\" ist verdächtig; es kommt auf das verwendete Ruleset an. Für weitere Informationen von Leuten, die bereit sind, dies zu untersuchen, wäre ich dankbar."
 
 #: "faq_no_ipv4.html"
 msgid "Other browser plugins"
-msgstr ""
+msgstr "Andere Browser-Plugins"
 
 #: "faq_no_ipv4.html"
 msgid "If you have problems using this site, get a list of the plugins or add-ons you have for this browser. Save that list. Now, disable all of them - and try the site again. If it works, one of those is definately to blame. Enable them one by one, and retry the site. When you find the one that causes problems, please email <a href=\"mailto:jfesler@test-ipv6.com\">Jason Fesler &lt;jfesler@test-ipv6.com&gt;</a> with your findings."
-msgstr ""
+msgstr "Wenn Sie Probleme bei der Benutzung dieser Website haben, erstellen Sie eine Liste der Plugins oder Add-ons, die Sie für diesen Browser haben. Speichern Sie diese Liste. Jetzt deaktivieren Sie alle - und versuchen Sie, die Website wieder aufzurufen. Wenn es funktioniert, ist eines von den Plugins oder Add-ons definitiv Schuld. Aktivieren Sie sie nacheinander wieder, und laden Sie die Website neu. Wenn Sie das \"schuldige\" gefunden haben, welches Probleme verursacht, bitte schicken Sie eine Mail an <a href=\"mailto:jfesler@test-ipv6.com\">Jason Fesler &lt;jfesler@test-ipv6.com&gt;</a> mit Ihren Erkenntnissen."
 
 #: "inc/footer.inc"
 msgid "percenttranslated"
-msgstr ""
+msgstr "Prozent übersetzt"
 

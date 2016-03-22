@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2016-03-20 22:35-0400\n"
+"PO-Revision-Date: 2016-03-21 09:45-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Portuguese, Brazilian\n"
 "MIME-Version: 1.0\n"
@@ -2716,5 +2716,5 @@ msgstr ""
 
 #: "inc/footer.inc"
 msgid "percenttranslated"
-msgstr ""
+msgstr "porcentagem traduzida"
 
