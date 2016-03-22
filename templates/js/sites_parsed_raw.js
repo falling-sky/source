@@ -252,6 +252,17 @@
   "monitor": "jfesler@gigo.com",
   "reason": ""
  },
+ "test-ipv6.cl": {
+  "site": "test-ipv6.cl",
+  "mirror": true,
+  "hide": false,
+  "v4": "http://ipv4.test-ipv6.cl/images-nc/knob_green.png",
+  "v6": "http://ipv6.test-ipv6.cl/images-nc/knob_green.png",
+  "loc": "CL",
+  "provider": "NIC Chile",
+  "monitor": "NIC Chile \u003csoporte@nic.cl\u003e",
+  "reason": ""
+ },
  "test-ipv6.co.za": {
   "site": "test-ipv6.co.za",
   "mirror": true,
