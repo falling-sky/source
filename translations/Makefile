@@ -6,19 +6,13 @@ TOP := $(shell pwd)
 API_KEY := $(shell grep api_key crowdin.yaml | cut -f2 -d' ')
 
 
-
 ################################################################
 # Do we permit publishing to rsync.gigo.com and files.gigo.com?#
 ################################################################
 PUBLISH := false
+include ../Makefile.publish
 
-ifeq ($(shell hostname),bender)
-  PUBLISH := true
-endif	
 
-ifeq ($(shell hostname -d),gigo.com)
-  PUBLISH := true
-endif	
 
 ################################################################
 # Upload and Download                                          #
