@@ -1,4 +1,7 @@
 var GIGO = {}; // We will use this as a name space.
+GIGO.lang = "{{lang}}";
+GIGO.langUC = "{{langUC}}";
+GIGO.locale = "{{locale}}";
 
 /*!
  * Copyright 2010 Jason Fesler.  All rights reserved.
