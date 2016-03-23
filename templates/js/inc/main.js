@@ -716,6 +716,7 @@ GIGO.test_ipv6_gui = function (options) {
 
         // Possibly, kill that tab instead.
         // GIGO.fix_comment_form_and_tab();
+        GIGO.fix_footer_early();
         GIGO.start_helpdesk();
         GIGO.setup_tests();
         GIGO.start_tests();

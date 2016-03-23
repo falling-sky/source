@@ -171,7 +171,7 @@ GIGO.check_results = function () {
 
 
     // Callbacks
-    GIGO.fix_footer();
+    GIGO.fix_footer_late();
     GIGO.facebook_like();
     GIGO.twitter_tweet();
     GIGO.send_survey(tokens);
