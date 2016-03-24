@@ -285,7 +285,7 @@ GIGO.update_progress = function (G) {
     if (sofar === outof) {
         jQuery("#progress_bar").hide();
     } else {
-        jQuery("#progress_bar").show();
+//        jQuery("#progress_bar").show();
         jQuery(".pb1_text").html(" " + sofar + "/" + outof + " " + "{{tests run}}");
     }
 
