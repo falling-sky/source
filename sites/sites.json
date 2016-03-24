@@ -221,7 +221,8 @@
          "v6" : "http://ipv6.test-ipv6.bakinter.net/images-nc/knob_green.png"
       },
       "test-ipv6.belwue.net" : {
-         "hide" : false,
+         "hide" : true,
+         "reason": "out of date",
          "loc" : "DE",
          "mirror" : true,
          "monitor" : "BelWue NOC <ip@belwue.de>",
@@ -694,6 +695,15 @@
          "provider" : "ZEOP",
          "v4" : "http://test-ipv4.zeop.re/ipv4/ipv4.png",
          "v6" : "http://test-ipv6.zeop.re/ipv6/ipv6.png"
+      },
+      "test-ipv6.cl" : {
+         "hide" : false,
+         "loc" : "CL",
+         "mirror" : true,
+         "monitor" : "NIC Chile <soporte@nic.cl>",
+         "provider" : "NIC Chile",
+         "v4" : "http://ipv4.test-ipv6.cl/images-nc/knob_green.png",
+         "v6" : "http://ipv6.test-ipv6.cl/images-nc/knob_green.png"
       }
    }
 }

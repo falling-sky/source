@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2016-03-20 22:35-0400\n"
+"PO-Revision-Date: 2016-03-24 09:15-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Chinese Simplified\n"
 "MIME-Version: 1.0\n"
@@ -2669,53 +2669,53 @@ msgstr "在测试过程中，我们收集您的IPv4和IPv6地址。如果您的I
 
 #: "not-used, archived.  Not currently needed for translation."
 msgid "dummy example"
-msgstr ""
+msgstr "无用的示例"
 
 #: "faq_no_ipv4.html"
 msgid "What? No IPv4 address?"
-msgstr ""
+msgstr "什么？没有 IPv4 地址？"
 
 #: "faq_no_ipv4.html"
 msgid "Most of you are visiting this site using IPv4. Few people in 2013 will truely only have access to the IPv6 Internet. This FAQ will help explain why we were unable to detect IPv4 on your browser."
-msgstr ""
+msgstr "你们中的大多数正在使用 IPv4 访问这个地址。在 2013 年，只会有极少数人能真正地接入 IPv6 互联网。这个 FAQ 将会解释为何我们无法在你的浏览器上检测到 IPv4 的原因。"
 
 #: "faq_no_ipv4.html"
 msgid "This site works by telling your browser to connect to a series of test urls. These urls, if they do connect, report back to the web browser your IP address. JavaScript is not permitted to look at your system itself; it is only allowed to interact with the web. As such, if the urls all fail, we are unable to determine your IP address."
-msgstr ""
+msgstr "本站点通过让你的浏览器去连接一系列的测试 URL 来工作。如果这些 URL 被连接上了，你的浏览器会收到它们返回的你的 IP 地址。JavaScript 并不被允许查看你的系统本身，它只被允许跟互联网进行交互。因此，如果这些 URL 全部连接失败了，那么我们将无法确定你的 IP 地址。"
 
 #: "faq_no_ipv4.html"
 msgid "This usually indicates something is broken, or filtered."
-msgstr ""
+msgstr "这通常表明某些东西坏了，或者被过滤了。"
 
 #: "faq_no_ipv4.html"
 msgid "Since the test obviously failed, here is a simpler test to help you know if you are ready for web sites to offer their services on IPv6. After this simpler test, you'll see more information about specific browsers."
-msgstr ""
+msgstr "既然测试已经显得失败了，这里还有一个更简单的测试让你知道你是否已经准备好接受网站在 IPv6 上提供的服务。在这个简单测试过后，你将看到关于特定浏览器的更多信息。"
 
 #: "faq_no_ipv4.html"
 msgid "Firefox and NoScript"
-msgstr ""
+msgstr "火狐浏览器和 NoScript 插件"
 
 #: "faq_no_ipv4.html"
 msgid "The NoScript browser plugin disables scripts on the page. In the lower right corner of your browser, is the NoScript icon. Click this to bring up a menu; and temporarilly permit scripts on this site."
-msgstr ""
+msgstr "这个 NoScript 浏览器插件禁用了页面上的脚本。在你浏览器的右下角有个 NoScript 的图标。点击它会弹出一个菜单，然后暂时允许本页上的脚本。"
 
 #: "faq_no_ipv4.html"
 msgid "Firefox and AdBlock+"
-msgstr ""
+msgstr "火狐浏览器和 AdBlock+ 插件"
 
 #: "faq_no_ipv4.html"
 msgid "The AdBlock+ plugin is suspect; it depends on the ruleset that is used. More information from people willing to investigate would be appreciated."
-msgstr ""
+msgstr "这个 AdBlock+ 插件有不确定性，取决于它所使用的规则。希望乐于调查的人能够给予我们更多相关信息。"
 
 #: "faq_no_ipv4.html"
 msgid "Other browser plugins"
-msgstr ""
+msgstr "其他浏览器的插件"
 
 #: "faq_no_ipv4.html"
 msgid "If you have problems using this site, get a list of the plugins or add-ons you have for this browser. Save that list. Now, disable all of them - and try the site again. If it works, one of those is definately to blame. Enable them one by one, and retry the site. When you find the one that causes problems, please email <a href=\"mailto:jfesler@test-ipv6.com\">Jason Fesler &lt;jfesler@test-ipv6.com&gt;</a> with your findings."
-msgstr ""
+msgstr "如果你使用本站时出现问题，那么获取你浏览器的插件和辅助程序的列表。保存这个列表。然后，将它们全部禁用——并再试一次这个站点。如果它能正常工作了，那么它们中的其中一个就是害群之马。一个一个地启用它们并重试本站点。当你找到出现问题的那一个的时候，请电邮 <a href=\"mailto:jfesler@test-ipv6.com\">Jason Fesler&lt;jfesler@test-ipv6.com&gt;</a> 并告知你的发现。"
 
 #: "inc/footer.inc"
 msgid "percenttranslated"
-msgstr ""
+msgstr "翻译百分比"
 

@@ -38,14 +38,11 @@ download:
 	cd translations && make download
 
 sites:: FORCE
-ifeq ($(PUBLISH),true)
-	@echo Checking to see what sites are up or down
-	cd sites && ./parse-sites
-else
-	@echo Skipping sites up/down check
-endif	
-	
-FORCE:
+	cd sites && make
+
+FORCE::
+
+
 
 ################################################################
 # Publishing                                                   #
