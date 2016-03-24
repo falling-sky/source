@@ -2,7 +2,7 @@
 
 
 [% PROCESS  "inc/GIGO.js"                      %]
-[% PROCESS  "ext/jquery-1.10.2.min.js"     %]
+[% PROCESS  "ext/jquery-1.12.2.min.js"     %]
 [% PROCESS  "ext/mootools-core-1.4.5.js"   %]
 [% PROCESS  "ext/jquery.tablesorter.js"    %]
 [% PROCESS  "ext/jquery.jsonp-2.0.2.js"    %]
