@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2016-03-21 09:45-0400\n"
+"PO-Revision-Date: 2016-03-24 09:15-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Swedish\n"
 "MIME-Version: 1.0\n"
@@ -2672,7 +2672,7 @@ msgstr ""
 
 #: "faq_no_ipv4.html"
 msgid "What? No IPv4 address?"
-msgstr ""
+msgstr "Vad? Ingen IPv4-adress?"
 
 #: "faq_no_ipv4.html"
 msgid "Most of you are visiting this site using IPv4. Few people in 2013 will truely only have access to the IPv6 Internet. This FAQ will help explain why we were unable to detect IPv4 on your browser."
@@ -2692,7 +2692,7 @@ msgstr ""
 
 #: "faq_no_ipv4.html"
 msgid "Firefox and NoScript"
-msgstr ""
+msgstr "Firefox och NoScript"
 
 #: "faq_no_ipv4.html"
 msgid "The NoScript browser plugin disables scripts on the page. In the lower right corner of your browser, is the NoScript icon. Click this to bring up a menu; and temporarilly permit scripts on this site."
@@ -2700,7 +2700,7 @@ msgstr ""
 
 #: "faq_no_ipv4.html"
 msgid "Firefox and AdBlock+"
-msgstr ""
+msgstr "Firefox och AdBlock+"
 
 #: "faq_no_ipv4.html"
 msgid "The AdBlock+ plugin is suspect; it depends on the ruleset that is used. More information from people willing to investigate would be appreciated."
@@ -2708,7 +2708,7 @@ msgstr ""
 
 #: "faq_no_ipv4.html"
 msgid "Other browser plugins"
-msgstr ""
+msgstr "Andra webbläsartillägg"
 
 #: "faq_no_ipv4.html"
 msgid "If you have problems using this site, get a list of the plugins or add-ons you have for this browser. Save that list. Now, disable all of them - and try the site again. If it works, one of those is definately to blame. Enable them one by one, and retry the site. When you find the one that causes problems, please email <a href=\"mailto:jfesler@test-ipv6.com\">Jason Fesler &lt;jfesler@test-ipv6.com&gt;</a> with your findings."

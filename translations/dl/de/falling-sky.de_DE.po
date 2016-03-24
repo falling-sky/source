@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2016-03-21 09:45-0400\n"
+"PO-Revision-Date: 2016-03-24 09:15-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: German\n"
 "MIME-Version: 1.0\n"
@@ -628,7 +628,7 @@ msgstr "Teste auf fehlerhafte AAAA-Record. Einige Router interpretieren als \"A\
 
 #: "main/tech.inc"
 msgid "If the summary results indicated problems, you (or your technical support) may be able to use the information above to diagnose the issues. Each of the test urls and their results is shown on the left side. To the right you'll see a description of what that URL was designed to test."
-msgstr "Falls aus der Ergebniszusammenfassung Probleme hervorgehen, können Sie (oder Ihr technischer Support) anhand der oben aufgeführten Information die Probleme diagnostizieren. Jeder Test URL and dessen Ergebnis wird jeweils links angezeit. Rechts sehen Sie eine Beschreibung was der entsprechende URL testen soll."
+msgstr "Falls aus der Ergebniszusammenfassung Probleme hervorgehen, können Sie (oder Ihr technischer Support) anhand der oben aufgeführten Information die Probleme diagnostizieren. Jede Test-URL und deren Ergebnis wird jeweils links angezeigt. Rechts sehen Sie eine Beschreibung, was die entsprechende URL testen soll."
 
 #: "main/tech.inc"
 msgid "After each test is ran. The summary page attempts to look at the results If the summary doesn't seem to make sense given the symptoms recorded above, or if you need further assistance, please feel free to contact us."
@@ -2696,7 +2696,7 @@ msgstr "Firefox und NoScript"
 
 #: "faq_no_ipv4.html"
 msgid "The NoScript browser plugin disables scripts on the page. In the lower right corner of your browser, is the NoScript icon. Click this to bring up a menu; and temporarilly permit scripts on this site."
-msgstr "Das Browser-Plugin \"NoScript\" deaktiviert Skripts auf der Seite. In der unteren rechten Ecke des Browsers wird das Symbol \"NoScript\" angezeit. Klicken Sie dort, um ein Menü aufzurufen, und erlauben Sie dann temporär Skripte auf dieser Seite."
+msgstr "Das Browser-Plugin \"NoScript\" deaktiviert Skripts auf der Seite. In der unteren rechten Ecke des Browsers wird das Symbol \"NoScript\" angezeigt. Klicken Sie dort, um ein Menü aufzurufen, und erlauben Sie dann temporär Skripte auf dieser Seite."
 
 #: "faq_no_ipv4.html"
 msgid "Firefox and AdBlock+"
