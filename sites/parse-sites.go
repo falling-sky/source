@@ -147,8 +147,12 @@ func CheckHTTP(url string) error {
 		}
 	}()
 
+	client := &http.Client{
+		Timeout: time.Duration(15)*time.Second,
+	}
+
 	// Start the fetch
-	resp, err := http.Get(url)
+	resp, err := client.Get(url)
 	if err != nil {
 		return err
 	}
@@ -193,13 +197,13 @@ func (sr *SiteRecord) CheckHTTP(wg *sync.WaitGroup) {
 	if err4 := CheckHTTP(sr.V4); err4 != nil {
 		sr.Reason = err4.Error()
 		sr.Hide = true
-		log.Println(sr.Reason)
+		log.Println(sr.V4,sr.Reason)
 		return
 	}
 	if err6 := CheckHTTP(sr.V6); err6 != nil {
 		sr.Reason = err6.Error()
 		sr.Hide = true
-		log.Println(sr.Reason)
+		log.Println(sr.V6,sr.Reason)
 		return
 	}
 }
