@@ -1,2 +1,0 @@
-Redirect 307 /htrev/ /?htrev=[% .GitInfo.Version %]
-
