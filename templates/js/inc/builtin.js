@@ -282,11 +282,10 @@ GIGO.update_progress = function (G) {
     sofar = G.tests_finished;
     outof = G.queue.length + G.dequeued.length;
 
+    jQuery(".pb1_text").html(" " + sofar + "/" + outof + " " + "{{tests run}}");
     if (sofar === outof) {
         jQuery("#progress_bar").hide();
-    } else {
-//        jQuery("#progress_bar").show();
-        jQuery(".pb1_text").html(" " + sofar + "/" + outof + " " + "{{tests run}}");
+        jQuery("#progress_bar").html("");
     }
 
 };
