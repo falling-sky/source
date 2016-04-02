@@ -185,6 +185,9 @@ td.results_left  {
   text-shadow: #000000 0.1em 0.1em 0.1em;
 }
 td.results_right {
+  font-size: 1.1em;
+  /* -webkit-text-size-adjust: 100%; */
+  width: 100%;
   vertical-align: top;
   padding-left: 10px;
 }
