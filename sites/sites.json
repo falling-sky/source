@@ -689,7 +689,8 @@
          "v6" : "http://v6test.yahoo.com/eng/test/eye-test.png"
       },
       "zeop.re" : {
-         "hide" : false,
+         "hide" : true,
+         "reason": "unresponsive to mail about bad routes",
          "loc" : "RE",
          "monitor" : "PAYET Fabien <fabienpayet@zeop.re>",
          "provider" : "ZEOP",
@@ -704,6 +705,15 @@
          "provider" : "NIC Chile",
          "v4" : "http://ipv4.test-ipv6.cl/images-nc/knob_green.png",
          "v6" : "http://ipv6.test-ipv6.cl/images-nc/knob_green.png"
+      },
+      "bvconline.com.ar" : {
+         "hide" : false,
+         "loc" : "AR",
+         "mirror" : false,
+         "monitor" : "Ariel Cuesta <arielc@vianet.com.ar>",
+         "provider" : "BVNET S.A",
+         "v4" : "http://ipv4.test-ipv6.bvconline.com.ar/knob_green.png",
+         "v6" : "http://ipv6.test-ipv6.bvconline.com.ar/knob_green.png"
       }
    }
 }
