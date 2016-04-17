@@ -1,6 +1,6 @@
 <hr/>
 <div id="about">
-<p>  Copyright (C) 2010, 2014 Jason Fesler. {{ All rights reserved. }}  Version [% .GitInfo.Version %]<br/>
+<p>  Copyright (C) 2010, 2016 Jason Fesler. {{ All rights reserved. }}  Version [% .GitInfo.Version %]<br/>
 
  <a href="mirrors.html">{{ Mirrors }}</a> |
 <!-- <a href="mission.html">{{ Mission }}</a> | -->
