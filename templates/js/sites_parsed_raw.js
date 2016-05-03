@@ -230,17 +230,6 @@
   "monitor": "Nadir M. Aliyev \u003cadmin@bakinter.net\u003e",
   "reason": ""
  },
- "test-ipv6.belwue.net": {
-  "site": "test-ipv6.belwue.net",
-  "mirror": true,
-  "hide": false,
-  "v4": "http://ipv4.test-ipv6.belwue.net/images-nc/knob_green.png",
-  "v6": "http://ipv6.test-ipv6.belwue.net/images-nc/knob_green.png",
-  "loc": "DE",
-  "provider": "BelWü",
-  "monitor": "BelWue NOC \u003cip@belwue.de\u003e",
-  "reason": ""
- },
  "test-ipv6.carnet.hr": {
   "site": "test-ipv6.carnet.hr",
   "mirror": true,
@@ -261,6 +250,17 @@
   "loc": "US IL",
   "provider": "vr.org",
   "monitor": "jfesler@gigo.com",
+  "reason": ""
+ },
+ "test-ipv6.cl": {
+  "site": "test-ipv6.cl",
+  "mirror": true,
+  "hide": false,
+  "v4": "http://ipv4.test-ipv6.cl/images-nc/knob_green.png",
+  "v6": "http://ipv6.test-ipv6.cl/images-nc/knob_green.png",
+  "loc": "CL",
+  "provider": "NIC Chile",
+  "monitor": "NIC Chile \u003csoporte@nic.cl\u003e",
   "reason": ""
  },
  "test-ipv6.co.za": {

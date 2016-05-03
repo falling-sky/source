@@ -283,9 +283,9 @@ GIGO.update_progress = function (G) {
     outof = G.queue.length + G.dequeued.length;
 
     if (sofar === outof) {
-        jQuery(".progress_bar").hide();
+        jQuery("#progress_bar").hide();
     } else {
-        jQuery(".progress_bar").show();
+//        jQuery("#progress_bar").show();
         jQuery(".pb1_text").html(" " + sofar + "/" + outof + " " + "{{tests run}}");
     }
 

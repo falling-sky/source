@@ -46,10 +46,31 @@ GIGO.fix_logo_generic = function () {
     }
 };
 
-GIGO.fix_footer = function () {
-    GIGO.fix_logo_as_html();
-    GIGO.fix_logo_generic();
+
+// This is called very late, after the test completes
+// but before "Other Sites" are checked.  We will by default
+// wait until "late", to avoid interfering with the 
+// actual tests, since those are purely timing based.
+GIGO.fix_footer_late = function () {
+    if (MirrorConfig.footer) {
+      if (!(MirrorConfig.footer.early)) {
+        GIGO.fix_logo_as_html();
+        GIGO.fix_logo_generic();
+      }
+    }
 };
+
+// This is called very early into the site startup.
+// This gives the option of displaying any footer information
+// at the risk of interfering with results.
+GIGO.fix_footer_early = function() {
+    if (MirrorConfig.footer) {
+      if (MirrorConfig.footer.early) {
+        GIGO.fix_logo_as_html();
+        GIGO.fix_logo_generic();
+      }
+    }
+}
 
 
 GIGO.fixup_html_per_site_config = function () {

@@ -8,6 +8,13 @@ DIST_STABLE ?= jfesler@gigo.com:/home/fsky/stable/content
 
 
 ################################################################
+# Do we permit publishing to rsync.gigo.com and files.gigo.com?#
+################################################################
+PUBLISH := false
+include Makefile.publish
+
+
+################################################################
 # Prep.                                                        #
 ################################################################
 
@@ -31,10 +38,11 @@ download:
 	cd translations && make download
 
 sites:: FORCE
-	@echo Checking to see what sites are up or down
-	cd sites && ./parse-sites
-	
-FORCE:
+	cd sites && make
+
+FORCE::
+
+
 
 ################################################################
 # Publishing                                                   #
@@ -42,7 +50,7 @@ FORCE:
 dist-template:
 	test -f output/nat.html.zh_CN
 	test -x ../dist_support/make-dist.pl 
-	rsync output/. $(DIST_DESTINATION)/. -a --delete
+	rsync output/. $(DIST_DESTINATION)/. -a --delete -z
 
 dist-test: 
 	make dist-template DIST_DESTINATION=$(DIST_TEST)
@@ -56,11 +64,11 @@ dist-stable:
 ################################################################
 
 beta: pipeline
-	rsync output/. $(BETA)/.  -a --exclude site --delete
+	rsync output/. $(BETA)/.  -a --exclude site --delete -z
 
 
 prod: pipeline
-	rsync output/. $(PROD)/.  -a --exclude site --delete
+	rsync output/. $(PROD)/.  -a --exclude site --delete -z
 	
 
 test: beta dist-test

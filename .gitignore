@@ -9,3 +9,4 @@ output
 
 translations/all.zip
 translations/crowdin.yaml
+sites/parse-sites
