@@ -1,4 +1,5 @@
 TOP := $(shell pwd)
+CROWDIN := /usr/local/bin/crowdin-cli
 
 #################################################################
 # Parse API key from crowdin.yaml (not robust, but good enough) #
@@ -20,7 +21,7 @@ include ../Makefile.publish
 
 upload:
 ifeq ($(PUBLISH),true)
-	crowdin-cli upload sources --auto-update
+	$(CROWDIN) upload sources --auto-update
 else
 	echo make download skipped on this host
 endif
