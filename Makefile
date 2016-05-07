@@ -2,6 +2,7 @@ TOP := $(shell pwd)
 FSBUILDER := $(TOP)/src/github.com/falling-sky/fsbuilder
 
 BETA ?= jfesler@gigo.com:/var/www/beta.test-ipv6.com
+I18N ?= /var/www/i18n.test-ipv6.com
 PROD ?= jfesler@master.test-ipv6.com:/var/www
 DIST_TEST ?= jfesler@gigo.com:/home/fsky/test/content
 DIST_STABLE ?= jfesler@gigo.com:/home/fsky/stable/content
@@ -69,7 +70,13 @@ beta: pipeline
 
 prod: pipeline
 	rsync output/. $(PROD)/.  -a --exclude site --delete -z
-	
+
+i18n: pipeline pofooter
+	rsync output/. $(I18N)/.  -a --exclude site --delete -z
+
+pofooter:
+	echo "Built with latest translations from crowdin.net - " > $(I18N)/site/footer.html
+	TZ=UTC date --date="`grep PO-Revision-Date translations/dl/de/falling-sky.de_DE.po | cut -f2,3 -d' ' | cut -f1 -d\\\\` " >>  $(I18N)/site/footer.html
 
 test: beta dist-test
 
