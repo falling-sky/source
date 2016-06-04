@@ -21,6 +21,17 @@
   "monitor": "Adrian Kennard \u003ca@k.gg\u003e",
   "reason": ""
  },
+ "bvconline.com.ar": {
+  "site": "bvconline.com.ar",
+  "mirror": false,
+  "hide": false,
+  "v4": "http://ipv4.test-ipv6.bvconline.com.ar/knob_green.png",
+  "v6": "http://ipv6.test-ipv6.bvconline.com.ar/knob_green.png",
+  "loc": "AR",
+  "provider": "BVNET S.A",
+  "monitor": "Ariel Cuesta \u003carielc@vianet.com.ar\u003e",
+  "reason": ""
+ },
  "campaya.co.uk": {
   "site": "campaya.co.uk",
   "mirror": false,
@@ -107,17 +118,6 @@
   "loc": "BR",
   "provider": "NIC.br",
   "monitor": "Antonio M. Moreiras \u003cmoreiras@nic.br\u003e",
-  "reason": ""
- },
- "nsx.de": {
-  "site": "nsx.de",
-  "mirror": false,
-  "hide": false,
-  "v4": "http://ipv4.nsx.de/images/knob_valid_green.png",
-  "v6": "http://ipv6.nsx.de/images/knob_valid_green.png",
-  "loc": "DE",
-  "provider": "Stephan Fiebrandt (personal)",
-  "monitor": "Stephan Fiebrandt \u003cstephan@nsx.de\u003e",
   "reason": ""
  },
  "sixte.st": {
@@ -428,17 +428,6 @@
   "monitor": "Brynjar Eide \u003ctest-ipv6@availo.no\u003e",
   "reason": ""
  },
- "test-ipv6.polkam.go.id": {
-  "site": "test-ipv6.polkam.go.id",
-  "mirror": true,
-  "hide": false,
-  "v4": "http://ipv4.test-ipv6.polkam.go.id/images-nc/knob_green.png",
-  "v6": "http://ipv6.test-ipv6.polkam.go.id/images-nc/knob_green.png",
-  "loc": "ID",
-  "provider": "Coordinating Ministry For Political, Legal, and Security Affairs of Indonesia",
-  "monitor": "vicky@polkam.go.id",
-  "reason": ""
- },
  "test-ipv6.ro": {
   "site": "test-ipv6.ro",
   "mirror": true,
@@ -615,28 +604,6 @@
   "monitor": "",
   "reason": ""
  },
- "www.rcs-rds.ro": {
-  "site": "www.rcs-rds.ro",
-  "mirror": false,
-  "hide": false,
-  "v4": "http://ipv4.rcs-rds.ro/1x1.gif",
-  "v6": "http://ipv6.rcs-rds.ro/1x1.gif",
-  "loc": "RO",
-  "provider": "RCS \u0026 RDS",
-  "monitor": "Liviu Pislaru \u003cliviu.pislaru@rcs-rds.ro\u003e",
-  "reason": ""
- },
- "www.steffann.nl": {
-  "site": "www.steffann.nl",
-  "mirror": false,
-  "hide": false,
-  "v4": "http://v4-only.steffann.nl/v4-only.png",
-  "v6": "http://v6-only.steffann.nl/v6-only.png",
-  "loc": "NL",
-  "provider": "SJM Steffann Consultancy",
-  "monitor": "Sander Steffann \u003csander@steffann.nl\u003e",
-  "reason": ""
- },
  "www.vyncke.org/ipv6status/": {
   "site": "www.vyncke.org/ipv6status/",
   "mirror": false,
@@ -657,17 +624,6 @@
   "loc": "global",
   "provider": "Yahoo!",
   "monitor": "",
-  "reason": ""
- },
- "zeop.re": {
-  "site": "zeop.re",
-  "mirror": false,
-  "hide": false,
-  "v4": "http://test-ipv4.zeop.re/ipv4/ipv4.png",
-  "v6": "http://test-ipv6.zeop.re/ipv6/ipv6.png",
-  "loc": "RE",
-  "provider": "ZEOP",
-  "monitor": "PAYET Fabien \u003cfabienpayet@zeop.re\u003e",
   "reason": ""
  }
 }

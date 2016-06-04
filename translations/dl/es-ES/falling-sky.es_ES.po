@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2016-03-24 21:21-0400\n"
+"PO-Revision-Date: 2016-06-02 08:00-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Spanish\n"
 "MIME-Version: 1.0\n"
@@ -152,11 +152,11 @@ msgstr "Una búsqueda de un nombre sólo IPv6 falló; Sin embargo, la búsqueda 
 
 #: "inc/messages.js"
 msgid "A lookup for an IPv6-only name failed; yet the lookup and connect for dual-stack connected via IPv6. The IPv6-only lookup should have worked. Apple has a bug that sporadically causes some IPv6 lookups to fail. We saw evidence of it on this test. You can reload the page and try the test again. For more details, see <a href='http://openradar.appspot.com/7333104'>http://openradar.appspot.com/7333104</a>."
-msgstr "Falló una consulta por un nombre exclusivo IPv6; sin embargo la consulta y conexión vía doble pila a IPv6 ha funcionado. La consulta exclusiva vía IPv6 debería haber funcionado. Apple tiene un error que esporádicamente causa fallas con algunas consultas IPv6. Encontramos síntomas de ese error en esta prueba. Puede recargar la página y reintentar la prueba. Para más detalles, consulta <a href='http://openradar.appspot.com/7333104'>http://openradar.appspot.com/7333104</a>."
+msgstr "Falló una consulta por un nombre exclusivo IPv6; sin embargo la consulta y conexión vía doble pila a IPv6 ha funcionado. La consulta exclusiva vía IPv6 debería haber funcionado. Apple tiene una pulga que esporádicamente causa fallas con algunas consultas IPv6. Encontramos síntomas de ese error en esta prueba. Puede recargar la página y reintentar la prueba. Para más detalles, consulta <a href='http://openradar.appspot.com/7333104'>http://openradar.appspot.com/7333104</a>."
 
 #: "inc/messages.js"
 msgid "A lookup for an dual-stack IPv4 and IPv6 name failed (at minimum it should have connected via IPv4). Apple has a bug that sporadically causes some IPv6 lookups to fail. We saw evidence of it on this test. You can reload the page and try the test again. For more details, see <a href='http://openradar.appspot.com/7333104'>http://openradar.appspot.com/7333104</a>."
-msgstr "La consulta por un nombre doble pila IPv4 e IPv6 falló (como mínimo debería haber conectado vía IPv4). Apple tiene un error que esporádicamente causa fallos en algunas consultas IPv6. Encontramos algunas evidencias de este problema en la prueba. Puede recargar la página y reintentar la prueba. Para más detalles, ver <a href='http://openradar.appspot.com/7333104'>http://openradar.appspot.com/7333104</a>."
+msgstr "La consulta por un nombre doble pila IPv4 e IPv6 falló (como mínimo debería haber conectado vía IPv4). Apple tiene una pulga que esporádicamente causa fallos en algunas consultas IPv6. Encontramos algunas evidencias de este problema en la prueba. Puede recargar la página y reintentar la prueba. Para más detalles, ver <a href='http://openradar.appspot.com/7333104'>http://openradar.appspot.com/7333104</a>."
 
 #: "inc/messages.js"
 msgid "No IPv4 address detected"
@@ -180,7 +180,7 @@ msgstr "<b>Deshabilta el modo  en Opera, e inténtalo de nuevo.</b> El modo turb
 
 #: "inc/messages.js"
 msgid "<b>Good news!</b> Your current configuration will continue to work as web sites enable IPv6."
-msgstr "<b>Buena noticia!</b> Tu configuración actual segruirá funcionando cuando los sitios web activen IPv6."
+msgstr "<b>¡Buenas noticias!</b> Tu configuración actual seguirá funcionando cuando los sitios web activen IPv6."
 
 #: "inc/messages.js"
 msgid "<b>Our tests show that you will have a broken or misconfigured IPv6 setup, and this will cause problems as web sites enable IPv6.</b>"
@@ -188,7 +188,7 @@ msgstr "<b>Las pruebas indican que tienes un problema de configuración IPv6, é
 
 #: "inc/messages.js"
 msgid "<b>Our tests show that you may have MTU problems with IPv6; this can cause web sites to load slow (or not at all) when web sites enable IPv6.</b>"
-msgstr "<b>Las pruebas indican que tienes problemas de MTU con IPv6, ésto causará que los sitios web carguen muy lento (o incluso, que no carguen) cuando estos habiliten IPv6.</b>"
+msgstr "<b>Las pruebas indican que tiene problemas de MTU con IPv6, esto podría causar que sitios web carguen lento (o del todo no) cuando estos habiliten IPv6.</b>"
 
 #: "inc/messages.js"
 msgid "We looked up an IPv6 address, but your DNS server (possibly your home router) mangled the response, and is treating it as (broken) IPv4."
@@ -344,7 +344,7 @@ msgstr "Tu puntuación de preparación"
 
 #: "inc/builtin.js"
 msgid "for your IPv4 stability and readiness, when publishers offer both IPv4 and IPv6"
-msgstr "para su estabilidad y preparación de IPv4, cuando los editores ofrecen tanto IPv4 como IPv6"
+msgstr "en su capacidad y estabilidad de IPv4, para cuando los proveedores de contenido ofrezcan tanto IPv4 como IPv6"
 
 #: "inc/builtin.js"
 msgid "for your IPv6 stability and readiness, when publishers are forced to go IPv6 only"
@@ -1064,7 +1064,7 @@ msgstr "y busque <code>inet6</code> para ver sus posibles direcciones IPv6."
 
 #: "faq/find_ip.inc"
 msgid "and look for <code>inet6</code> or <code>Internet6</code> or similar to find the IPv6 portion; then look for <code>default</code> or <code>::</code> or <code>::/0</code>."
-msgstr "y busque por <code>inet6</code> o <code>Internet6</code> o similares para encontrar la porción IPv6; luego busque por <code>default</code> ó <code>::</code> ó <code>::/0</code>."
+msgstr "y busque <code>inet6</code> o <code>Internet6</code> o similares para encontrar la porción IPv6; luego busque <code>default</code> ó <code>::</code> ó <code>::/0</code>."
 
 #: "faq/find_ip.inc"
 msgid "Windows users: To find your IP address using cmd.exe:"
@@ -2668,11 +2668,11 @@ msgstr "Durante las pruebas, recogemos las direcciones IPv4 e IPv6. Si al menos 
 
 #: "not-used, archived.  Not currently needed for translation."
 msgid "dummy example"
-msgstr ""
+msgstr "ejemplo ficticio"
 
 #: "faq_no_ipv4.html"
 msgid "What? No IPv4 address?"
-msgstr ""
+msgstr "¿Qué? ¿Ninguna dirección IPv4?"
 
 #: "faq_no_ipv4.html"
 msgid "Most of you are visiting this site using IPv4. Few people in 2013 will truely only have access to the IPv6 Internet. This FAQ will help explain why we were unable to detect IPv4 on your browser."
@@ -2680,7 +2680,7 @@ msgstr "La mayoría accede a este sitio utilizando direcciones IPV4. Poca gante 
 
 #: "faq_no_ipv4.html"
 msgid "This site works by telling your browser to connect to a series of test urls. These urls, if they do connect, report back to the web browser your IP address. JavaScript is not permitted to look at your system itself; it is only allowed to interact with the web. As such, if the urls all fail, we are unable to determine your IP address."
-msgstr ""
+msgstr "Este sitio trabaja haciendo que su navegador se conecte a una serie de direcciones URL de prueba. Estas urls, si conectan, informan al navegador su dirección IP. A JavaScript no se le permite revisar su sistema, sólo se le permite interactuar con la web. Entonces, si las URL fallan, somos incapaces de determinar su dirección IP."
 
 #: "faq_no_ipv4.html"
 msgid "This usually indicates something is broken, or filtered."
@@ -2688,33 +2688,33 @@ msgstr "Esto normalmente indica que algo se rompió, o está filtrado."
 
 #: "faq_no_ipv4.html"
 msgid "Since the test obviously failed, here is a simpler test to help you know if you are ready for web sites to offer their services on IPv6. After this simpler test, you'll see more information about specific browsers."
-msgstr ""
+msgstr "Puesto que obviamente la prueba falló, aquí está una prueba simple para saber si usted está listo para sitios web que ofrezcan sus servicios en IPv6. Después de esta prueba más sencilla, verá más información sobre navegadores específicos."
 
 #: "faq_no_ipv4.html"
 msgid "Firefox and NoScript"
-msgstr ""
+msgstr "Firefox y NoScript"
 
 #: "faq_no_ipv4.html"
 msgid "The NoScript browser plugin disables scripts on the page. In the lower right corner of your browser, is the NoScript icon. Click this to bring up a menu; and temporarilly permit scripts on this site."
-msgstr ""
+msgstr "El plugin de navegador NoScript desactiva scripts en la página. En la esquina inferior derecha del navegador, verá el icono de NoScript. Haga clic allí para abrir un menú; y temporalmente permita scripts en este sitio."
 
 #: "faq_no_ipv4.html"
 msgid "Firefox and AdBlock+"
-msgstr ""
+msgstr "Firefox y AdBlock+"
 
 #: "faq_no_ipv4.html"
 msgid "The AdBlock+ plugin is suspect; it depends on the ruleset that is used. More information from people willing to investigate would be appreciated."
-msgstr ""
+msgstr "El plugin AdBlock + es sospechoso; depende de las reglas que utiliza. Se agradecería más información de gente dispuesta a investigar."
 
 #: "faq_no_ipv4.html"
 msgid "Other browser plugins"
-msgstr ""
+msgstr "Otros plugins de navegador"
 
 #: "faq_no_ipv4.html"
 msgid "If you have problems using this site, get a list of the plugins or add-ons you have for this browser. Save that list. Now, disable all of them - and try the site again. If it works, one of those is definately to blame. Enable them one by one, and retry the site. When you find the one that causes problems, please email <a href=\"mailto:jfesler@test-ipv6.com\">Jason Fesler &lt;jfesler@test-ipv6.com&gt;</a> with your findings."
-msgstr ""
+msgstr "Si tiene problemas al usar este sitio, haga una lista de los plugins o add-ons que tiene en este navegador. Guarde esa lista. Ahora, desactive todos y pruebe de nuevo el sitio. Si funciona, uno de ellos es sin duda el culpable. Active uno por uno y reintente. Cuando encuentre el que causa problemas, por favor envíe a <a href=\"mailto:jfesler@test-ipv6.com\"> Jason Fesler &lt; jfesler@test-ipv6.com &gt;</a> sus hallazgos."
 
 #: "inc/footer.inc"
 msgid "percenttranslated"
-msgstr ""
+msgstr "porcentaje traducido"
 
