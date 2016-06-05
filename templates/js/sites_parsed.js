@@ -428,6 +428,17 @@ GIGO.sites_parsed={
   "monitor": "Brynjar Eide \u003ctest-ipv6@availo.no\u003e",
   "reason": ""
  },
+ "test-ipv6.polkam.go.id": {
+  "site": "test-ipv6.polkam.go.id",
+  "mirror": true,
+  "hide": false,
+  "v4": "http://ipv4.test-ipv6.polkam.go.id/images-nc/knob_green.png",
+  "v6": "http://ipv6.test-ipv6.polkam.go.id/images-nc/knob_green.png",
+  "loc": "ID",
+  "provider": "Coordinating Ministry For Political, Legal, and Security Affairs of Indonesia",
+  "monitor": "vicky@polkam.go.id",
+  "reason": ""
+ },
  "test-ipv6.ro": {
   "site": "test-ipv6.ro",
   "mirror": true,
@@ -448,17 +459,6 @@ GIGO.sites_parsed={
   "loc": "RO",
   "provider": "RoEduNet",
   "monitor": "IPv6 @ RoEduNet \u003cipv6@roedu.net\u003e",
-  "reason": ""
- },
- "test-ipv6.se": {
-  "site": "test-ipv6.se",
-  "mirror": true,
-  "hide": false,
-  "v4": "http://ipv4.test-ipv6.se/images-nc/knob_green.png",
-  "v6": "http://ipv6.test-ipv6.se/images-nc/knob_green.png",
-  "loc": "SE",
-  "provider": "Interlan Gefle AB",
-  "monitor": "torbjorn.eklov@interlan.se \u003ctorbjorn.eklov@interlan.se\u003e",
   "reason": ""
  },
  "test-ipv6.showmyip.ca": {
@@ -503,17 +503,6 @@ GIGO.sites_parsed={
   "loc": "SK",
   "provider": "Sk-nic",
   "monitor": "SK-NIC, a.s. \u003chostmaster@sk-nic.sk\u003e",
-  "reason": ""
- },
- "test-ipv6.tokyo.gigo.com": {
-  "site": "test-ipv6.tokyo.gigo.com",
-  "mirror": true,
-  "hide": false,
-  "v4": "http://ipv4.test-ipv6.tokyo.gigo.com/images-nc/knob_green.png",
-  "v6": "http://ipv6.test-ipv6.tokyo.gigo.com/images-nc/knob_green.png",
-  "loc": "JP",
-  "provider": "Jason Fesler (@linode Tokyo)",
-  "monitor": "",
   "reason": ""
  },
  "test-ipv6.vtt.net": {

@@ -4,8 +4,8 @@ FSBUILDER := $(TOP)/src/github.com/falling-sky/fsbuilder
 BETA ?= jfesler@gigo.com:/var/www/beta.test-ipv6.com
 I18N ?= /var/www/i18n.test-ipv6.com
 PROD ?= jfesler@master.test-ipv6.com:/var/www
-DIST_TEST ?= jfesler@gigo.com:/home/fsky/test/content
-DIST_STABLE ?= jfesler@gigo.com:/home/fsky/stable/content
+DIST_TEST ?= jfesler@rsync.gigo.com:/home/fsky/test/content
+DIST_STABLE ?= jfesler@rsync.gigo.com:/home/fsky/stable/content
 
 
 ################################################################

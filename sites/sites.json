@@ -513,15 +513,6 @@
          "v4" : "http://ipv4.test-ipv6.tld.sk/images-nc/knob_green.png",
          "v6" : "http://ipv6.test-ipv6.tld.sk/images-nc/knob_green.png"
       },
-      "test-ipv6.tokyo.gigo.com" : {
-         "hide" : false,
-         "loc" : "JP",
-         "mirror" : true,
-         "provider" : "Jason Fesler (@linode Tokyo)",
-         "site" : "test-ipv6.tokyo.gigo.com",
-         "v4" : "http://ipv4.test-ipv6.tokyo.gigo.com/images-nc/knob_green.png",
-         "v6" : "http://ipv6.test-ipv6.tokyo.gigo.com/images-nc/knob_green.png"
-      },
       "test-ipv6.uni-ruse.bg" : {
          "hide" : true,
          "loc" : "BG",
