@@ -68,6 +68,8 @@ dist-stable:
 beta: pipeline
 	rsync output/. $(BETA)/.  -a --exclude site --delete -z
 
+fast: output 
+	rsync output/. $(BETA)/.  -a --exclude site --delete -z
 
 prod: pipeline
 	rsync output/. $(PROD1)/.  -a --exclude site --delete -z

@@ -234,3 +234,20 @@ a.permalink, a.goback, a.help_popup {
   color: #000000;
 }
 
+td.graph {
+}
+
+div.graph {
+}
+.legend {
+    display:block;
+    float:left;
+    vertical-align: bottom;
+}
+
+.dygraph-label { font-size: 1; font-weight: normal; }
+.dygraph-legend { 
+  opacity: 0.9;
+}
+/*.dygraph-title { font-size: 36px; text-shadow: gray 2px 2px 2px; }*/
+/*.dygraph-ylabel { font-size: 18px; text-shadow: gray -2px 2px 2px; }*/

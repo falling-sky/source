@@ -106,7 +106,7 @@ GIGO.sites_parsed={
   "v6": "http://ipv6.ipv6-test.pl/images-nc/knob_green.png",
   "loc": "PL",
   "provider": "Net-Admin",
-  "monitor": "",
+  "monitor": "Net-Admin \u003cipv6@goodhost.eu\u003e",
   "reason": ""
  },
  "nic.br": {
@@ -263,6 +263,17 @@ GIGO.sites_parsed={
   "monitor": "NIC Chile \u003csoporte@nic.cl\u003e",
   "reason": ""
  },
+ "test-ipv6.cmd.net.br": {
+  "site": "test-ipv6.cmd.net.br",
+  "mirror": true,
+  "hide": false,
+  "v4": "http://ipv4.test-ipv6.cmd.net.br/images-nc/knob_green.png",
+  "v6": "http://ipv6.test-ipv6.cmd.net.br/images-nc/knob_green.png",
+  "loc": "BR",
+  "provider": "CMD Informatica",
+  "monitor": "Cesar Scoassabia \u003csuporte@cmd.net.br\u003e",
+  "reason": ""
+ },
  "test-ipv6.co.za": {
   "site": "test-ipv6.co.za",
   "mirror": true,
@@ -293,7 +304,7 @@ GIGO.sites_parsed={
   "v6": "http://ipv6.test-ipv6.com.au/images-nc/knob_green.png",
   "loc": "AU",
   "provider": "Futzle Industries",
-  "monitor": "",
+  "monitor": "Deborah Pickett \u003ctest-ipv6@dp.futzle.com\u003e",
   "reason": ""
  },
  "test-ipv6.cz": {
@@ -326,7 +337,7 @@ GIGO.sites_parsed={
   "v6": "http://ipv6.test-ipv6.fratec.net/images-nc/knob_green.png",
   "loc": "CR",
   "provider": "Sistemas Fratec S.A.",
-  "monitor": "",
+  "monitor": "Jorge Frater \u003cjfrater@fratec.com\u003e",
   "reason": ""
  },
  "test-ipv6.go6.si": {
