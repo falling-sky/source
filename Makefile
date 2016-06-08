@@ -3,7 +3,8 @@ FSBUILDER := $(TOP)/src/github.com/falling-sky/fsbuilder
 
 BETA ?= jfesler@gigo.com:/var/www/beta.test-ipv6.com
 I18N ?= /var/www/i18n.test-ipv6.com
-PROD ?= jfesler@master.test-ipv6.com:/var/www
+PROD1 ?= jfesler@ds.vm1.test-ipv6.com:/var/www
+PROD2 ?= jfesler@ds.vm2.test-ipv6.com:/var/www
 DIST_TEST ?= jfesler@rsync.gigo.com:/home/fsky/test/content
 DIST_STABLE ?= jfesler@rsync.gigo.com:/home/fsky/stable/content
 
@@ -69,7 +70,8 @@ beta: pipeline
 
 
 prod: pipeline
-	rsync output/. $(PROD)/.  -a --exclude site --delete -z
+	rsync output/. $(PROD1)/.  -a --exclude site --delete -z
+	rsync output/. $(PROD2)/.  -a --exclude site --delete -z
 
 i18n: pipeline pofooter
 	rsync output/. $(I18N)/.  -a --exclude site --delete -z
