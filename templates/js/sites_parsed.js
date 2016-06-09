@@ -98,6 +98,17 @@ GIGO.sites_parsed={
   "monitor": "Mike Tindle \u003cmtindle@he.net\u003e",
   "reason": ""
  },
+ "ipv6-test.ch": {
+  "site": "ipv6-test.ch",
+  "mirror": false,
+  "hide": false,
+  "v4": "http://ipv4.ipv6-test.ch/images-nc/knob_green.png",
+  "v6": "http://ipv6.ipv6-test.ch/images-nc/knob_green.png",
+  "loc": "UK",
+  "provider": "BSC-Telecom",
+  "monitor": "Ken Booth \u003cken@booths.org.uk\u003e",
+  "reason": ""
+ },
  "ipv6-test.pl": {
   "site": "ipv6-test.pl",
   "mirror": true,
@@ -118,6 +129,17 @@ GIGO.sites_parsed={
   "loc": "BR",
   "provider": "NIC.br",
   "monitor": "Antonio M. Moreiras \u003cmoreiras@nic.br\u003e",
+  "reason": ""
+ },
+ "nsx.de": {
+  "site": "nsx.de",
+  "mirror": false,
+  "hide": false,
+  "v4": "http://ipv4.nsx.de/images/knob_valid_green.png",
+  "v6": "http://ipv6.nsx.de/images/knob_valid_green.png",
+  "loc": "DE",
+  "provider": "Stephan Fiebrandt (personal)",
+  "monitor": "Stephan Fiebrandt \u003cstephan@nsx.de\u003e",
   "reason": ""
  },
  "sixte.st": {
@@ -472,6 +494,17 @@ GIGO.sites_parsed={
   "monitor": "IPv6 @ RoEduNet \u003cipv6@roedu.net\u003e",
   "reason": ""
  },
+ "test-ipv6.se": {
+  "site": "test-ipv6.se",
+  "mirror": true,
+  "hide": false,
+  "v4": "http://ipv4.test-ipv6.se/images-nc/knob_green.png",
+  "v6": "http://ipv6.test-ipv6.se/images-nc/knob_green.png",
+  "loc": "SE",
+  "provider": "Interlan Gefle AB",
+  "monitor": "torbjorn.eklov@interlan.se \u003ctorbjorn.eklov@interlan.se\u003e",
+  "reason": ""
+ },
  "test-ipv6.showmyip.ca": {
   "site": "test-ipv6.showmyip.ca",
   "mirror": true,
@@ -602,6 +635,17 @@ GIGO.sites_parsed={
   "loc": "RU",
   "provider": "RASCOM",
   "monitor": "",
+  "reason": ""
+ },
+ "www.steffann.nl": {
+  "site": "www.steffann.nl",
+  "mirror": false,
+  "hide": false,
+  "v4": "http://v4-only.steffann.nl/v4-only.png",
+  "v6": "http://v6-only.steffann.nl/v6-only.png",
+  "loc": "NL",
+  "provider": "SJM Steffann Consultancy",
+  "monitor": "Sander Steffann \u003csander@steffann.nl\u003e",
   "reason": ""
  },
  "www.vyncke.org/ipv6status/": {
