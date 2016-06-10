@@ -5,12 +5,9 @@
   <h1 id="title">{{<span lookup=site.name>site</span> statistics}}</h1>
 
 
-<div>
+<div class="bigdiv">
 <p>{{ Graphs are updated daily. }}</p>
-<ul>
-<li><a href="#months">{{ 60 days view }}</a></li>
-<li><a href="#year">{{ 600 days view }}</a></li>
-</ul>
+
 
 {{ Quick notes: }}
 <ul>
@@ -20,51 +17,35 @@
 wider sample of average people (versus people explicitly testing a new IPv6
 setup). }}</li>
 </ul>
+<div id="csvmissing">
+Loading /site/graphdata.csv...
+</div>
 
+<div class="g_outer">
+  <div id="g1" class="graph" style="width:95%;">
+  </div>
+</div>
+<p />
+<div class="g_outer">
+  <div id="g2" class="graph" style="width:95%"></div>
+</div>
+<p />
+<div class="g_outer">
+  <div id="g3" class="graph" style="width:95%"></div>
+</div>
+<p />
 
-<a id="months" name="months"></a>
+<div style="clear: both"></div>
 
-<h2>{{ These graphs show the last 60 days of activity at <span lookup=site.name>site</span>}}</h2>
-
-<div>{{ Graph: shows result summaries, stacked.  Total height shows number of
-users who took the test on a given day. }}</div>
-<div><img src="/site/charts/summary_area_days.png" alt="/site/charts/summary_area_days.png" /></div>
-
-<div>{{ Similiar graph, except this time showing percentages. }}</div>
-<div><img src="/site/charts/summary_pct_days.png" alt="/site/charts/summary_pct_days.png" /></div>
-
-<div>{{ The most interesting graph is the percentage of "broken" users.  Our
-definition of a "broken" user is that the browser stalls or times out, while
-attempting to visit a web site published on both IPv4 and IPv6. }}</div>
-  <div><img src="/site/charts/summary_broken_days.png" alt="/site/charts/summary_broken_days.png" /></div>
-
-<div>{{ Line graph, not stacked, of results over time. }}</div>
-<div><img src="/site/charts/summary_line_days.png" alt="/site/charts/summary_line_days.png" /></div>
-
-
-
-<h2>{{ These graphs show the last 600 days of activity at <span lookup=site.name>site</span>}}</h2>
-
-
-
-<a id="year" name="year"></a>
-
-
-<div>{{ Graph: shows result summaries, stacked.  Total height shows number of
-users who took the test on a given day. }}</div>
-<div><img src="/site/charts/summary_area_year.png" alt="/site/charts/summary_area_year.png" /></div>
-
-<div>{{ Similiar graph, except this time showing percentages. }}</div>
-<div><img src="/site/charts/summary_pct_year.png" alt="/site/charts/summary_pct_year.png" /></div>
-
-<div>{{ The most interesting graph is the percentage of "broken" users.  Our
-definition of a "broken" user is that the browser stalls or times out, while
-attempting to visit a web site published on both IPv4 and IPv6. }}</div>
-  <div><img src="/site/charts/summary_broken_year.png" alt="/site/charts/summary_broken_year.png" /></div>
-
-<div>{{ Line graph, not stacked, of results over time. }}</div>
-<div><img src="/site/charts/summary_line_year.png" alt="/site/charts/summary_line_year.png" /></div>
 
 
 </div>
+
+
+<script type="text/javascript">
+
+$(document).ready(function() { GIGO.startGraphs();} );
+
+</script>
+
 [% PROCESS "inc/footer.inc" %]

@@ -18,7 +18,7 @@
    <script type="text/javascript"  src="/site/config.js?version=[% .GitInfo.Version %]"></script>
    <script type="text/javascript"  src="/index.js.{{locale}}?version=[% .GitInfo.Version %]"></script>
 
-[% if eq .Basename "stats2" %]
+[% if eq .Basename "stats" %]
 <script type="text/javascript"  src="/stats.js.{{locale}}?version=[% .GitInfo.Version %]"></script>
 [% end %]
 

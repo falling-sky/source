@@ -234,17 +234,20 @@ a.permalink, a.goback, a.help_popup {
   color: #000000;
 }
 
-td.graph {
+div.bigdiv {
+   width: 100%;
+   margin: 0;
+   padding: 0;
+   background-color:#000
+   top: 0;
+   left: 0;
+}
+
+div.g_outer { 
 }
 
 div.graph {
 }
-.legend {
-    display:block;
-    float:left;
-    vertical-align: bottom;
-}
-
 .dygraph-label { font-size: 1; font-weight: normal; }
 .dygraph-legend { 
   opacity: 0.9;

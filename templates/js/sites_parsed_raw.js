@@ -106,7 +106,7 @@
   "v6": "http://ipv6.ipv6-test.ch/images-nc/knob_green.png",
   "loc": "UK",
   "provider": "BSC-Telecom",
-  "monitor": "Ken Booth \u003cken@booths.org.uk\u003e",
+  "monitor": "Ken Booth \u003cken@ipv6-test.ch\u003e",
   "reason": ""
  },
  "ipv6-test.pl": {
