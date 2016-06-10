@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2016-06-09 00:00-0400\n"
+"PO-Revision-Date: 2016-06-10 00:30-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Polish\n"
 "MIME-Version: 1.0\n"
@@ -1610,11 +1610,11 @@ msgstr ""
 msgid "Graphs are updated daily."
 msgstr ""
 
-#: "stats.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "60 days view"
 msgstr ""
 
-#: "stats.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "600 days view"
 msgstr ""
 
@@ -1630,27 +1630,27 @@ msgstr ""
 msgid "Brokeness goes down, when volume goes up. This is due to having a wider sample of average people (versus people explicitly testing a new IPv6 setup)."
 msgstr ""
 
-#: "stats.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "These graphs show the last 60 days of activity at <span lookup=site.name>site</span>"
 msgstr ""
 
-#: "stats.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Graph: shows result summaries, stacked. Total height shows number of users who took the test on a given day."
 msgstr ""
 
-#: "stats.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Similiar graph, except this time showing percentages."
 msgstr ""
 
-#: "stats.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "The most interesting graph is the percentage of \"broken\" users. Our definition of a \"broken\" user is that the browser stalls or times out, while attempting to visit a web site published on both IPv4 and IPv6."
 msgstr ""
 
-#: "stats.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Line graph, not stacked, of results over time."
 msgstr ""
 
-#: "stats.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "These graphs show the last 600 days of activity at <span lookup=site.name>site</span>"
 msgstr ""
 

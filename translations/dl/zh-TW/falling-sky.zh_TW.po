@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2016-06-09 00:00-0400\n"
+"PO-Revision-Date: 2016-06-10 00:30-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Chinese Traditional\n"
 "MIME-Version: 1.0\n"
@@ -1610,11 +1610,11 @@ msgstr "<span lookup=site.name> 網站</span> 統計"
 msgid "Graphs are updated daily."
 msgstr "圖是每日更新。"
 
-#: "stats.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "60 days view"
 msgstr "60 天查看"
 
-#: "stats.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "600 days view"
 msgstr "600 天查看"
 
@@ -1630,27 +1630,27 @@ msgstr "瀏覽器篩選器表示\"A\"和\"AAAA\"測試失敗。瀏覽器 （外�
 msgid "Brokeness goes down, when volume goes up. This is due to having a wider sample of average people (versus people explicitly testing a new IPv6 setup)."
 msgstr "傷害落下，當卷走。這是因為有更多人作為樣本，平均 （而不是顯式地測試新的 IPv6 安裝程式的人）。"
 
-#: "stats.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "These graphs show the last 60 days of activity at <span lookup=site.name>site</span>"
 msgstr "這些圖表顯示最後 60 天活動 <span lookup=site.name> 現場</span>"
 
-#: "stats.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Graph: shows result summaries, stacked. Total height shows number of users who took the test on a given day."
 msgstr "圖 ︰ 顯示結果摘要，堆積。總高度顯示的帶上某一天測試的使用者數。"
 
-#: "stats.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Similiar graph, except this time showing percentages."
 msgstr "萬達圖，除了這次顯示百分比。"
 
-#: "stats.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "The most interesting graph is the percentage of \"broken\" users. Our definition of a \"broken\" user is that the browser stalls or times out, while attempting to visit a web site published on both IPv4 and IPv6."
 msgstr "最有趣的圖是\"破碎\"的使用者的百分比。我們對\"破碎\"定義是使用者的瀏覽器檔或超時，而試圖訪問的 web 網站在 IPv4 和 IPv6 上公佈。"
 
-#: "stats.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Line graph, not stacked, of results over time."
 msgstr "線圖，不堆積，隨著時間的推移的結果。"
 
-#: "stats.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "These graphs show the last 600 days of activity at <span lookup=site.name>site</span>"
 msgstr "這些圖表顯示最後 60 天活動 <span lookup=site.name> 現場</span>"
 

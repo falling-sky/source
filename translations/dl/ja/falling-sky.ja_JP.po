@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2016-06-09 00:00-0400\n"
+"PO-Revision-Date: 2016-06-10 00:30-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -1610,11 +1610,11 @@ msgstr "<span lookup=site.name>site</span> 統計"
 msgid "Graphs are updated daily."
 msgstr "グラフは毎時ごとに更新されます。"
 
-#: "stats.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "60 days view"
 msgstr "2ヶ月表示"
 
-#: "stats.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "600 days view"
 msgstr "20ヶ月表示"
 
@@ -1630,27 +1630,27 @@ msgstr "ブラウザフィルタは、\"A\"および\"AAAA\"のテストの両�
 msgid "Brokeness goes down, when volume goes up. This is due to having a wider sample of average people (versus people explicitly testing a new IPv6 setup)."
 msgstr "ボリュームが増えた場合、壊れている割合は低下します。これは、私たちが、 壊れていると考えている人たち(あるいは新しく設定したトンネルをテストしている)ではなく、 サンプルとなる閲覧者を多数持っていることを意味しています。"
 
-#: "stats.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "These graphs show the last 60 days of activity at <span lookup=site.name>site</span>"
 msgstr "これらのグラフは、過去60日間の<span lookup=site.name>site</span>上の活動を示しています。"
 
-#: "stats.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Graph: shows result summaries, stacked. Total height shows number of users who took the test on a given day."
 msgstr "グラフ: 結果のサマリを積み重ね表示しています。 高さの合計は、対象日にテストを受けたユーザ数を示しています。"
 
-#: "stats.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Similiar graph, except this time showing percentages."
 msgstr "同様のグラフですが、今度は割合を表示しています。"
 
-#: "stats.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "The most interesting graph is the percentage of \"broken\" users. Our definition of a \"broken\" user is that the browser stalls or times out, while attempting to visit a web site published on both IPv4 and IPv6."
 msgstr "最も興味深いグラフは、壊れた(\"broken\")ユーザの割合です。 私たちの壊れた(\"broken\")ユーザの定義は、IPv4とIPv6の両方で公開されたWebサイトを訪問する際、 ブラウザが停止したり、タイムアウトするユーザです。"
 
-#: "stats.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Line graph, not stacked, of results over time."
 msgstr ""
 
-#: "stats.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "These graphs show the last 600 days of activity at <span lookup=site.name>site</span>"
 msgstr "これらのグラフは、昨年の<span lookup=site.name>site</span>上の活動を示しています。"
 

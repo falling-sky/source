@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2016-06-09 00:00-0400\n"
+"PO-Revision-Date: 2016-06-10 00:30-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: German\n"
 "MIME-Version: 1.0\n"
@@ -1610,11 +1610,11 @@ msgstr "<span lookup=site.name>site</span> Statistiken"
 msgid "Graphs are updated daily."
 msgstr "Diagramme werden täglich aktualisiert."
 
-#: "stats.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "60 days view"
 msgstr "60 Tage anzeigen"
 
-#: "stats.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "600 days view"
 msgstr "600 Tage anzeigen"
 
@@ -1630,27 +1630,27 @@ msgstr "Browser Filter bedeutet, dass sowohl der \"A\", als auch der \"AAAA\"-Te
 msgid "Brokeness goes down, when volume goes up. This is due to having a wider sample of average people (versus people explicitly testing a new IPv6 setup)."
 msgstr "Der Anteil der kaputten Setups sinkt, wenn das Volumen steigt. Das liegt daran, dass man eine höhere Anzahl an durchschnitlichen Benutzern hat (im Gegensatz zu Leuten, die extra ein neues IPv6-Setup testen)."
 
-#: "stats.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "These graphs show the last 60 days of activity at <span lookup=site.name>site</span>"
 msgstr "Diese Graphen zeigen die letzten 60 Tage der Aktivität auf <span lookup=site.name>site</span>"
 
-#: "stats.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Graph: shows result summaries, stacked. Total height shows number of users who took the test on a given day."
 msgstr "Grafik: zeigt die Zusammenfassung der Ergebnisse, gestapelt. Gesamthöhe zeigt Anzahl der Benutzer, die den Test an einem bestimmten Tag durchgeführt haben."
 
-#: "stats.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Similiar graph, except this time showing percentages."
 msgstr "Ähnliche Grafik, diesmal jedoch in Prozentsätzen."
 
-#: "stats.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "The most interesting graph is the percentage of \"broken\" users. Our definition of a \"broken\" user is that the browser stalls or times out, while attempting to visit a web site published on both IPv4 and IPv6."
 msgstr "Der interessanteste Graph ist der Prozentsatz der Benutzer mit Problemen. Unsere Definition davon ist, dass der Browser stehenbleibt, oder ein Timeout auftritt, wenn er Versucht, eine Website zu besuchen, die sowohl IPv4, als auch IPv6 verwendet."
 
-#: "stats.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Line graph, not stacked, of results over time."
 msgstr "Liniendiagramm, nicht aufgestapelt, der Ergebnisse über die Zeit."
 
-#: "stats.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "These graphs show the last 600 days of activity at <span lookup=site.name>site</span>"
 msgstr "Diese Graphen zeigen die letzten 600 Tage der Aktivität auf <span lookup=site.name>site</span>"
 
