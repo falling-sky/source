@@ -549,6 +549,17 @@ GIGO.sites_parsed={
   "monitor": "SK-NIC, a.s. \u003chostmaster@sk-nic.sk\u003e",
   "reason": ""
  },
+ "test-ipv6.tni-au.mil.id": {
+  "site": "test-ipv6.tni-au.mil.id",
+  "mirror": true,
+  "hide": false,
+  "v4": "http://ipv4.test-ipv6.tni-au.mil.id/images-nc/knob_green.png",
+  "v6": "http://ipv6.test-ipv6.tni-au.mil.id/images-nc/knob_green.png",
+  "loc": "ID",
+  "provider": "Indonesian Air Force",
+  "monitor": "Vicky Ezra Imanuel \u003cvicky@tni-au.go.id\u003e",
+  "reason": ""
+ },
  "test-ipv6.vtt.net": {
   "site": "test-ipv6.vtt.net",
   "mirror": true,
@@ -646,17 +657,6 @@ GIGO.sites_parsed={
   "loc": "NL",
   "provider": "SJM Steffann Consultancy",
   "monitor": "Sander Steffann \u003csander@steffann.nl\u003e",
-  "reason": ""
- },
- "www.vyncke.org/ipv6status/": {
-  "site": "www.vyncke.org/ipv6status/",
-  "mirror": false,
-  "hide": false,
-  "v4": "https://test4.vyncke.org/knob_valid_green.png",
-  "v6": "https://test6.vyncke.org/knob_valid_green.png",
-  "loc": "FR",
-  "provider": "Eric Vyncke (personal)",
-  "monitor": "Eric Vyncke \u003ceric@vyncke.org\u003e",
   "reason": ""
  },
  "www.yahoo.com": {

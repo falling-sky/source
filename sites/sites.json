@@ -656,7 +656,7 @@
          "v6" : "http://wood6.rascom.ru/logo2.png"
       },
       "www.rcs-rds.ro" : {
-         "hide" : false,
+         "hide" : true,
          "loc" : "RO",
          "monitor" : "Liviu Pislaru <liviu.pislaru@rcs-rds.ro>",
          "provider" : "RCS & RDS",
@@ -725,6 +725,15 @@
          "provider" : "CMD Informatica",
          "v4" : "http://ipv4.test-ipv6.cmd.net.br/images-nc/knob_green.png",
          "v6" : "http://ipv6.test-ipv6.cmd.net.br/images-nc/knob_green.png"
+      },
+      "test-ipv6.tni-au.mil.id" : {
+         "hide" : false,
+         "loc" : "ID",
+         "mirror" : true,
+         "monitor" : "Vicky Ezra Imanuel <vicky@tni-au.go.id>",
+         "provider" : "Indonesian Air Force",
+         "v4" : "http://ipv4.test-ipv6.tni-au.mil.id/images-nc/knob_green.png",
+         "v6" : "http://ipv6.test-ipv6.tni-au.mil.id/images-nc/knob_green.png"
       }
    }
 }
