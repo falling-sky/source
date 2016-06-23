@@ -65,7 +65,8 @@ function chunk_of_hash($title,$json) {
   global $privateconfig;
   
   $r = json_decode($json,true);
-  $y = yaml_emit($r);
+  //$y = yaml_emit($r);
+  $y = json_encode($r,JSON_PRETTY_PRINT);
   return chunk_of_text($title,$y,0);
 }
 
@@ -81,7 +82,8 @@ function chunk_of_results($title,$json) {
     $n["tests"][$key] = $array["status"] . " " . sprintf('%.03f',$array["time_ms"]/1000.0);
   }
   $n["tokens"]=$r["tokens"];
-  $y=yaml_emit($n);
+  //$y=yaml_emit($n);
+  $y = json_encode($n,JSON_PRETTY_PRINT);
   return chunk_of_text($title,$y,0);
   
 
