@@ -734,6 +734,15 @@
          "provider" : "Indonesian Air Force",
          "v4" : "http://ipv4.test-ipv6.tni-au.mil.id/images-nc/knob_green.png",
          "v6" : "http://ipv6.test-ipv6.tni-au.mil.id/images-nc/knob_green.png"
+      },
+      "test-ipv6.ortgies.it" : {
+         "hide" : false,
+         "loc" : "DE",
+         "mirror" : true,
+         "monitor" : "Jan-Eric Ortgies <janeric@ortgies.it>",
+         "provider" : "Jan-Eric Ortgies",
+         "v4" : "http://ipv4.test-ipv6.ortgies.it/images-nc/knob_green.png",
+         "v6" : "http://ipv6.test-ipv6.ortgies.it/images-nc/knob_green.png"
       }
    }
 }
