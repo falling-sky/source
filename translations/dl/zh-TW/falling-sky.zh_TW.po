@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2016-06-15 22:00-0400\n"
+"PO-Revision-Date: 2016-06-23 05:50-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Chinese Traditional\n"
 "MIME-Version: 1.0\n"
@@ -44,7 +44,7 @@ msgstr "DNS使用IPv4工作; 但url不在IP地址。這些是在今天的網上�
 
 #: "inc/messages.js"
 msgid "IPv6 Connections using DNS work; but literal IP addresses in urls do not. These are rarely used on the web today."
-msgstr "DNS連接使用IPv6工作;但在url沒有IP地址。這些在現在的網上很少使用。"
+msgstr "使用 IPv6 的 DNS 連線成功；但在url沒有IP地址。這個問題在現在的網站很少見。"
 
 #: "inc/messages.js"
 msgid "You appear to be using a public 6to4 gateway; your router may be providing this to you automatically. Such public gateways have no service level agreements; you may see performance problems using such. Better would be to get a native IPv6 address from your ISP."
@@ -64,7 +64,7 @@ msgstr "您的IPv6連線好像正在使用Teredo，一種使用公共閘道器�
 
 #: "inc/messages.js"
 msgid "Danger! IPv6 sorta works - however, large packets appear to fail, giving the appearance of a broken website. If a publisher publishes to IPv6, you will believe their web site to be broken. Ask your ISP about MTU issues; possibly with your tunnel."
-msgstr "危險！IPv6馬上成功——但由於呈現一個故障網站的模樣，可知大封包出現失敗。如果一個發佈者發佈至IPv6上，您將會認爲是他們的網站故障了。向您的ISP詢問關於MTU的問題；可能與您的隧道有關。"
+msgstr "注意！IPv6 似乎成功運作—但因為較大封包似乎出現錯誤，網站可能呈現一個無法連接的狀態。如果網站啟用 IPv6 ，您可能會認爲是他們的網站故障了。向您的 ISP 詢問關於 MTU 的問題；可能與您的 IPv6 通道有關。"
 
 #: "inc/messages.js"
 msgid "Check your firewall to make sure that ICMPv6 messages are allowed (in particular, Type 2 or Packet Too Big)."
@@ -76,47 +76,47 @@ msgstr "測試結果無法判定；它们與預期不一致。請重新執行測
 
 #: "inc/messages.js"
 msgid "For unknown reasons, your browser appears to operate slower when given the option of connecting to both IPv4 and IPv6. Please rerun the test, and if the results are the same, please fill out the contact form."
-msgstr "由於未知原因，您的瀏覽器選擇IPv4或IPv6操作時選擇過慢。請重新運行測試，如果還是相同結果，請聯絡服務提供商。"
+msgstr "由於未知原因，您的瀏覽器選擇IPv4或IPv6操作時選擇過慢。請重新運行測試，如果還是相同結果，請聯繫我們。"
 
 #: "inc/messages.js"
 msgid "You appear to be able to browse the IPv4 Internet only. You will not be able to reach IPv6-only sites."
-msgstr "你似乎只能瀏覽IPv4網頁。你將無法瀏覽僅支援IPv6的網頁。"
+msgstr "你只能瀏覽 IPv4 的網站。無法瀏覽只有啟用 IPv6 的網站。"
 
 #: "inc/messages.js"
 msgid "When a publisher offers both IPv4 and IPv6, your browser appears to be happy to take the IPv4 site without delay."
-msgstr "當伺服器支援IPv4和IPv6時，您的瀏覽器似乎優先選擇IPv4站點。"
+msgstr "當網站支援 IPv4 和 IPv6 時，您的瀏覽器似乎優先選擇 IPv4 站點。"
 
 #: "inc/messages.js"
 msgid "When a publisher offers both IPv4 and IPv6, your browser appears to slow down signficantly compared to an IPv4-only site. You may even believe the destination web site to be broken. This may be due to your IPv6 configuration."
-msgstr "當伺服器支援IPv4和IPv6時，您的瀏覽器似乎只選擇支援IPv4站點。這可能由于你的IPv6設定。"
+msgstr "當網站支援 IPv4 和 IPv6 時，您的瀏覽器反應速度似乎比連接 IPv4 網站慢。你可能會覺得該網站無法開啟。這個問題可能是你的 IPv6 設定造成的。"
 
 #: "inc/messages.js"
 msgid "When a publisher offers both IPv4 and IPv6, your browser will time out trying to connect. You may believe the site is down. This may be due to your IPv6 configuration. Consider disabling IPv6, or seeking help."
-msgstr "當伺服器提供IPv4和IPv6，您的瀏覽器連接超時，你可能認為是網站錯誤，這可能由於你的IPv6配置，考慮停用IPv6，或尋找幫助。"
+msgstr "當網站啟用 IPv4 和 IPv6 ，您的瀏覽器可能會無法連線該網站並一直重試，你可能會認為是網站掛了，這個問題可能是你的 IPv6 設定造成，你可以考慮停用 IPv6 ，或尋求協助。"
 
 #: "inc/messages.js"
 msgid "Connections to IPv4 are slow, but functional. Perhaps you or your ISP put you behind an IP sharing device (NAT) that is currently slow."
-msgstr "連接IPv4的功能是緩慢。也許你或你的ISP背後把你IP共享給另一個裝置(NAT),所以目前緩慢。"
+msgstr "IPv4 連線功能緩慢。也許你或你的 ISP 把你放在分享器(NAT)後面造成連線緩慢。"
 
 #: "inc/messages.js"
 msgid "You appear to be able to browse the IPv6 Internet only. You have no access to IPv4. That's pretty bold!"
-msgstr "你只能瀏覽IPv6網站，不能瀏覽IPv4網站。這很大膽。"
+msgstr "你只能瀏覽 IPv6 網站，不能瀏覽 IPv4 網站。這很大膽。"
 
 #: "inc/messages.js"
 msgid "Connections to IPv6 are slow, but functional. Perhaps you are using a public IPv6 tunnel that is either slow, or not located near you."
-msgstr "IPv6連接功能是緩慢的。也許你使用的是公共IPv6隧道。速度緩慢或不靠近你"
+msgstr "IPv6 連線功能緩慢。也許你所使用的公用的 IPv6 通道速度緩慢或距離較遠。"
 
 #: "inc/messages.js"
 msgid "Connections to IPv6-only sites are timing out. Any web site that is IPv6 only, will appear to be down to you."
-msgstr "IPv6連結網站超時，任何網站的IPv6。不要你出現"
+msgstr "IPv6 連結網站超時，任何啟用 IPv6 的網站可能會顯示無法連線。"
 
 #: "inc/messages.js"
 msgid "Connections to IPv6-capable web sites hang. It appears that you may have IPv6 configured; and your computer believes that your IPv6 is working, with a route. It is however completely failing. Any web site that adds IPv6, will become unreachable to you. If you are unable to fix your IPv6 routing or connectivity, seek help. If all else fails, strongly consider disabling IP6 on host."
-msgstr "向ipv6網站掛起的連接。看來你可能IPv6配置; 你的電腦相信你的IPv6是工作, 路線。但是完全失敗。增加了IPv6的任何網站, 將成為遙不可及的你。如果你無法解決IPv6路由或連接, 尋求幫助。如果一切都失敗了, 考慮上禁用IP6主機。"
+msgstr "與啟用 IPv6 的網站連線卡住了。看起來你可能有設定 IPv6；且你的電腦相信你的 IPv6 設定及路由是可行的。但是卻完全無法連線。這將造成你無法開啟任何已經啟用 IPv6 的網站。如果你無法修復 IPv6 路由或連線，請尋求幫助。如果無法修復，請考慮在電腦上停用 IPv6 。"
 
 #: "inc/messages.js"
 msgid "We are unable to test your system; it appears that a firewall or browser filter is preventing the test from running. Critical tests are failing. Try disabling any browser plugins, extensions, or add-ons (such as ad blockers); and reloading this page. If that still fails, you can leave a comment requesting help."
-msgstr "我們不能測試你的系統; 防火牆或者瀏覽器似乎過濾器是防止測試運行。關鍵測試失敗。嘗試禁用任何瀏覽器插件、擴展或插件(如廣告阻滯劑); 和重新加載該頁面。如果仍然失敗, 你可以留下你的評論請求幫助。"
+msgstr "我們無法測試你的系統； 防火牆或瀏覽器的過濾器阻擋了測試運行。一些主要測試失敗。請嘗試停用所有瀏覽器插件、擴展套件或擴充功能(如自動擋廣告)後重新載入網頁。如果仍然失敗， 你可以留言請求協助。"
 
 #: "inc/messages.js"
 msgid "We are unable to test your system; it appears that a firewall or browser filter is preventing the test from running. The dual-stack tests are failing. Try disabling any browser plugins, extensions, or add-ons (such as ad blockers); and reloading this page. If that still fails, you can leave a comment requesting help."
@@ -172,15 +172,15 @@ msgstr "你的IP地址是不能被探測到由於inteference從瀏覽器附加�
 
 #: "inc/messages.js"
 msgid "The Opera web browser seems to be break on this site frequently. <b>If you have trouble, try another browser</b>."
-msgstr "Opera瀏覽器似乎打破經常在這個網站。 <b>如果你有麻煩,試一試另一個瀏覽器</b>。"
+msgstr "Opera瀏覽器在這個網站似乎無法正常顯示。 <b>如果遇到錯誤,請嘗試使用另一個瀏覽器</b>。"
 
 #: "inc/messages.js"
 msgid "<b>Disable turbo mode on Opera, and try again.</b> Turbo mode is not compatible with the needs of this site."
-msgstr "<b>禁用Opera turbo模式,並再試一次。 </b> Turbo模式不兼容這個網站的需求。"
+msgstr "<b>禁用Opera turbo模式,並再試一次。 </b> 開啟Turbo功能無法使用這個網站的檢測功能。"
 
 #: "inc/messages.js"
 msgid "<b>Good news!</b> Your current configuration will continue to work as web sites enable IPv6."
-msgstr "<b>好消息!</b>你當前的配置將繼續作為網站啟用IPv6。"
+msgstr "<b>好消息!</b>你目前的網路設定可以在網站啟用IPv6後正常運作。"
 
 #: "inc/messages.js"
 msgid "<b>Our tests show that you will have a broken or misconfigured IPv6 setup, and this will cause problems as web sites enable IPv6.</b>"
@@ -212,11 +212,11 @@ msgstr "我們檢測到您正在使用一個代理。這意味著我們正在測
 
 #: "inc/messages.js"
 msgid "IPv6 connections work, but connections using DNS names do not use IPv6. For some reason, your browser or your OS is not doing IPv6 DNS 'AAAA' lookups."
-msgstr "IPv6連接工作,但是使用DNS名稱不使用IPv6連接。出於某種原因,你的瀏覽器或操作系統不做IPv6 DNS查找“AAAA級”。"
+msgstr "IPv6 連線正常，但是查詢DNS紀錄時不是使用IPv6連線。出於某種原因，你的瀏覽器或作業系統不做IPv6 DNS “AAAA紀錄” 查詢。"
 
 #: "inc/messages.js"
 msgid "We have suggestions to help you fix your system."
-msgstr "我們建議，以説明您解決您的系統。"
+msgstr "我們提供建議來協助您解決您的系統。"
 
 #: "inc/messages.js"
 msgid "Since you have IPv6, we are including a tab that shows how well you can reach other IPv6 sites. %sites"
@@ -288,7 +288,7 @@ msgstr "[詳細資訊]"
 
 #: "inc/builtin.js"
 msgid "Your IPv4 address on the public Internet appears to be"
-msgstr "你在公共互聯網的IPv4位址"
+msgstr "你在網際網路上的IPv4位址"
 
 #: "inc/builtin.js"
 msgid "Proxied"
@@ -296,7 +296,7 @@ msgstr "代理伺服器"
 
 #: "inc/builtin.js"
 msgid "Your IPv6 address on the public Internet appears to be"
-msgstr "你在公共互聯網的IPv6位址"
+msgstr "你在網際網路上的IPv6位址"
 
 #: "inc/builtin.js"
 msgid "Your IPv6 service appears to be"
@@ -304,7 +304,7 @@ msgstr "您的IPv6提供商是"
 
 #: "inc/builtin.js"
 msgid "Your Internet Service Provider (ISP) appears to be"
-msgstr "互聯網服務供應商(ISP)是"
+msgstr "你的網路服務提供者(ISP)是"
 
 #: "inc/builtin.js"
 msgid "Started"
@@ -316,7 +316,7 @@ msgstr "代理伺服器"
 
 #: "inc/builtin.js"
 msgid "using"
-msgstr "使用中"
+msgstr "使用"
 
 #: "inc/builtin.js"
 msgid "tests run"
@@ -348,7 +348,7 @@ msgstr "為您的IPv4穩定性和準備，當供應商提供IPv4和IPv6"
 
 #: "inc/builtin.js"
 msgid "for your IPv6 stability and readiness, when publishers are forced to go IPv6 only"
-msgstr "為您的IPv6功能和準備，當供應商被迫只用的IPv6"
+msgstr "當網站陸續只使用 IPv6 ，請提早為您的 IPv6 做準備和設定"
 
 #: "inc/builtin.js"
 msgid "Click to see"
@@ -356,7 +356,7 @@ msgstr "點擊查看"
 
 #: "inc/builtin.js"
 msgid "test data"
-msgstr "測試資料"
+msgstr "測試結果"
 
 #: "inc/builtin.js"
 msgid "Your FAQ"
@@ -424,11 +424,11 @@ msgstr "互聯網説明辦公桌可能要求您提供下面的資訊。"
 
 #: "inc/header.inc"
 msgid "Test your IPv6."
-msgstr "測試你的 IPv6。"
+msgstr "測試你的 IPv6 連線。"
 
 #: "inc/header.inc"
 msgid "This will test your browser and connection for IPv6 readiness, as well as show you your current IPV4 and IPv6 address."
-msgstr "這將測試您的瀏覽器和連接 IPv6 準備，以及表明你你當前的 IPV4 和 IPv6 位址。"
+msgstr "這將測試您的瀏覽器和為 IPv6 的連線做準備，以及顯示你目前的 IPv4 和 IPv6 位址。"
 
 #: "inc/list-nav.inc"
 msgid "Test IPv6"
@@ -448,7 +448,7 @@ msgstr "統計"
 
 #: "index.html"
 msgid "Test your IPv6 connectivity."
-msgstr "測試你的 IPv6 連接。"
+msgstr "測試你的 IPv6 連線。"
 
 #: "index.html"
 msgid "(Replay)"
@@ -460,7 +460,7 @@ msgstr "所需的 JavaScript"
 
 #: "inc/js_required.inc"
 msgid "This site requires JavaScript, as well as the ability to pull in cross-site scripts, in order to perform the testing."
-msgstr "本網站需要 JavaScript，以及能夠拉跨網站腳本，以執行測試。"
+msgstr "本網站需要 JavaScript 來執行跨網站的腳本進行測試。"
 
 #: "inc/js_required.inc"
 msgid "If this message does not go away, it means that JavaScript has been disabled, either by a plugin or extension in your browser, or by explicit browser setting."
@@ -488,7 +488,7 @@ msgstr "摘要"
 
 #: "main/tabnav.inc"
 msgid "Tests Run"
-msgstr "測試回合"
+msgstr "測試結果"
 
 #: "main/tabnav.inc"
 msgid "Share Results / Contact"
@@ -496,7 +496,7 @@ msgstr "分享結果 / 聯繫我們"
 
 #: "main/tabnav.inc"
 msgid "FAQ for You"
-msgstr "你的常見問題"
+msgstr "常見問題"
 
 #: "main/tabnav.inc"
 msgid "Help Popup"
@@ -512,43 +512,43 @@ msgstr "其他 IPv6 網站"
 
 #: "main/tests.inc"
 msgid "How this test works:"
-msgstr "這個測試是如何工作的 ︰"
+msgstr "這個測試是如何運作的 ︰"
 
 #: "main/tests.inc"
 msgid "Your browser will be instructed to reach a series of URLs. The combination of successes and failures tells a story about how ready you are for when publishers start offering their web sites on IPv6."
-msgstr "您的瀏覽器將奉命達成一系列的 Url。成功與失敗的組合講述了出版商開始提供 IPv6 上他們網站的所為如何準備好了。"
+msgstr "您的瀏覽器將會連接一系列的網址。各項測試結果統計將顯示當網站啟用 IPv6 時你準備好了多少。"
 
 #: "main/tests.inc"
 msgid "Technical Info"
-msgstr "技術資訊"
+msgstr "詳細資訊"
 
 #: "main/tests.inc"
 msgid "Test with IPv4 DNS record"
-msgstr "與 IPv4 DNS 記錄測試"
+msgstr "測試 IPv4 DNS 記錄"
 
 #: "main/tests.inc"
 msgid "pending"
-msgstr "掛起"
+msgstr "等待中..."
 
 #: "main/tests.inc"
 msgid "Test with IPv6 DNS record"
-msgstr "測試與 IPv6 DNS 記錄"
+msgstr "測試 IPv6 DNS 記錄"
 
 #: "main/tests.inc"
 msgid "Test with Dual Stack DNS record"
-msgstr "測試與雙堆疊 DNS 記錄"
+msgstr "測試雙協定 DNS 記錄"
 
 #: "main/tests.inc"
 msgid "Test for Dual Stack DNS and large packet"
-msgstr "雙棧 DNS 和大包的試驗"
+msgstr "測試雙協定 DNS 和較大封包"
 
 #: "main/tests.inc"
 msgid "Test IPv4 without DNS"
-msgstr "沒有 DNS 測試 IPv4"
+msgstr "測試 IPv4 (跳過DNS)"
 
 #: "main/tests.inc"
 msgid "Test IPv6 without DNS"
-msgstr "沒有 DNS 測試 IPv6"
+msgstr "測試 IPv6 (跳過DNS)"
 
 #: "main/tests.inc"
 msgid "Test IPv6 large packet"
@@ -556,15 +556,15 @@ msgstr "測試 IPv6 大包"
 
 #: "main/tests.inc"
 msgid "Test if your ISP's DNS server uses IPv6"
-msgstr "如果您的 ISP 的 DNS 伺服器使用 IPv6 的測試"
+msgstr "測試您的 ISP DNS 伺服器是否使用 IPv6"
 
 #: "main/tests.inc"
 msgid "Find IPv4 Service Provider"
-msgstr "查找 IPv4 服務提供者"
+msgstr "查詢 IPv4 服務提供者"
 
 #: "main/tests.inc"
 msgid "Find IPv6 Service Provider"
-msgstr "查找 IPv6 服務提供者"
+msgstr "查詢 IPv6 服務提供者"
 
 #: "main/tests.inc"
 msgid "Test for buggy DNS"
@@ -572,23 +572,23 @@ msgstr "對於越野 DNS 測試"
 
 #: "main/tech.inc"
 msgid "Fetches an object that has just an A record in DNS. This is expected to use IPv4. IPv6-only users might still reach this, if their provider has employed a NAT64/DNS64 or proxy solution."
-msgstr "獲取一個物件，只是一條 A 記錄在 DNS。這被預計使用 IPv4。僅 IPv6 使用者仍然可能達到這一點，如果他們的供應商已聘請 NAT64/DNS64 或代理伺服器的解決方案。"
+msgstr "查詢一個只有 A 記錄在 DNS 主機上的網站。這是測試 IPv4 連線。只有 IPv6 的使用者如果網路服務提供者 (ISP) 使用 NAT64/DNS64 或代理伺服器的解決方案仍可能完成這項。"
 
 #: "main/tech.inc"
 msgid "Fetches an object that has just an AAAA record in DNS. This is expected to use IPv6. Users not yet on the IPv6 Internet are likely to see this fail. As long as it fails quickly, it will be OK - for now."
-msgstr "獲取一個物件，只是 AAAA 記錄在 DNS。這被預計使用 IPv6。尚未對 IPv6 互聯網消費者可能會看到此失敗。只要它很快失敗，它將行 — — 現在。"
+msgstr "查詢一個只有 AAAA 記錄在 DNS 主機上的網站。這是測試 IPv6 連線。用戶如果尚未設定 IPv6 網路連線將會看到這項測試失敗。現階段來說測試失敗不會受到影響。"
 
 #: "main/tech.inc"
 msgid "This is the most important test. This verifies your browser can connect to a site that has both IPv4 and IPv6 records published. IPv4 only hosts should connect fine (using IPv4)."
-msgstr "這是最重要的測試。這將驗證您的瀏覽器可以連接到一個網站，已出版的 IPv4 和 IPv6 記錄。只有主機應該連接的 IPv4 精細 （使用 IPv4）。"
+msgstr "這是最重要的測試。這將驗證您的瀏覽器可以連接到一個已經啟用 IPv4 和 IPv6 記錄的網站。只有 IPv4 的用戶也可以連線成功 （透過 IPv4 連線）。"
 
 #: "main/tech.inc"
 msgid "If this test fails or times out, you can expect major problems as publishers start offering their sites on IPv6."
-msgstr "如果這個測試失敗或超時,你可以預期主要問題。 IPv6出版商開始提供他們的網站。"
+msgstr "如果這項測試失敗或超時，你可以預期當網站啟用 IPv6 時將會遇到一些問題。"
 
 #: "main/tech.inc"
 msgid "Validates that you can connect to a dual-stack server (like the ds test); and that you can send/receive large packets on that connection. If this test times out for any reason, it indicates trouble for World IPv6 Day."
-msgstr "驗證您可以連接到一個雙堆棧服務器(如ds測試);你可以發送/接收大數據包連接。如果這個測試超時任何理由,它表明世界IPv6日的麻煩。"
+msgstr "驗證您可以連接到一個雙協定伺服器(如 ds 測試)；你可以透過該連線傳送/接收大數據封包。如果這個測試不知原因而超時，它代表世界 IPv6 日的麻煩。"
 
 #: "main/tech.inc"
 msgid "This will try connecting with a literal IPv4 numeric address. This should work for most people, unless they are running IPv6-only. If the first test worked, but this fails, it likely confirms your provider is using NAT64/DNS64; you'll need to only try connecting using hostnames instead of numeric IP addresses."
@@ -664,7 +664,7 @@ msgstr "如果報告測試，有問題或請求説明，你的結果，請填寫
 
 #: "main/mail.inc"
 msgid "Thanks,"
-msgstr "謝謝你，"
+msgstr "謝謝，"
 
 #: "main/mail.inc"
 msgid "Purpose for comment"
@@ -688,7 +688,7 @@ msgstr "歡呼或嘲笑"
 
 #: "main/mail.inc"
 msgid "Email address if you'll permit me to contact you. <i>Required, if you wish a response.</i>"
-msgstr "如果你允許我與您聯繫，電子郵件地址。<i>所需，如果你希望回應。</i>"
+msgstr "如果你允許我與您聯繫，請填寫電子郵件地址。<i>必須填寫，如果你希望回覆。</i>"
 
 #: "main/mail.inc"
 msgid "Any information you think I might find useful (what router you're using, or a firewall in the way, or type of proxy you use, etc). This includes general feedback."
@@ -820,7 +820,7 @@ msgstr "MTU 的警告"
 
 #: "faq_helpdesk.html"
 msgid "Status of reachability to “other sites” (as compact as possible)"
-msgstr "\"其他網站\"可達性的地位 （盡可能緊湊）"
+msgstr "\"其他網站\"可連線的狀態 （盡可能緊湊）"
 
 #: "faq_helpdesk.html"
 msgid "IP address shown, in case tech support needs it."
@@ -884,7 +884,7 @@ msgstr "找到您的 IP 位址"
 
 #: "broken.html"
 msgid "If you set up a tunnel broker"
-msgstr "如果您設置了一個隧道經紀人"
+msgstr "如果你使用 Tunnel Broker 設定"
 
 #: "broken.html"
 msgid "If you set up 6to4 (IPv6 address: starts with 2002)"
@@ -1264,7 +1264,7 @@ msgstr "如果你的 IPv6 位址開頭任意一項，則您的路由器需要升
 
 #: "faq/broken_bogon.inc"
 msgid "disable ULA."
-msgstr "禁用ULA。"
+msgstr "停用ULA。"
 
 #: "faq/broken_bogon.inc"
 msgid "Other routers: Try updating the firmware. If that fails, look for and disable \"ULA\" or \"Unique Local Addressing\"."

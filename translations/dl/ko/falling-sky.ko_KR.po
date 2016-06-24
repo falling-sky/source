@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2016-06-15 22:00-0400\n"
+"PO-Revision-Date: 2016-06-23 05:50-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Korean\n"
 "MIME-Version: 1.0\n"
@@ -100,7 +100,7 @@ msgstr "IPv4 연결이 느리지만 동작합니다. 컴퓨터나 ISP에서 제�
 
 #: "inc/messages.js"
 msgid "You appear to be able to browse the IPv6 Internet only. You have no access to IPv4. That's pretty bold!"
-msgstr "당신은 IPv6 인터넷에만 접속 가능합니다. 당신은 IPv4 서비스 접속이 불가능합니다. 꽤나 대담한 설정입니다..."
+msgstr "당신은 IPv6 인터넷에만 접속 가능하고 IPv4 서비스 접속이 불가능합니다. 꽤나 대담한 설정입니다..."
 
 #: "inc/messages.js"
 msgid "Connections to IPv6 are slow, but functional. Perhaps you are using a public IPv6 tunnel that is either slow, or not located near you."
@@ -184,11 +184,11 @@ msgstr "<b>축하합니다!</b> IPv6를 이용하기 위한 설정이 정상적�
 
 #: "inc/messages.js"
 msgid "<b>Our tests show that you will have a broken or misconfigured IPv6 setup, and this will cause problems as web sites enable IPv6.</b>"
-msgstr ""
+msgstr "<b>테스트 결과, IPv6 설정 오류가 있는 것으로 보입니다. IPv6 웹사이트 접속 시 문제가 있을 수 있습니다.</b>"
 
 #: "inc/messages.js"
 msgid "<b>Our tests show that you may have MTU problems with IPv6; this can cause web sites to load slow (or not at all) when web sites enable IPv6.</b>"
-msgstr ""
+msgstr "<b>테스트 결과, IPv6 MTU 관련한 문제가 있는 것으로 보입니다; IPv6를 제공하는 웹사이트에 접속 시 로딩이 늦어지거나 접속 불가능할 수 있습니다.</b>"
 
 #: "inc/messages.js"
 msgid "We looked up an IPv6 address, but your DNS server (possibly your home router) mangled the response, and is treating it as (broken) IPv4."
@@ -400,7 +400,7 @@ msgstr ""
 
 #: "inc/form.js"
 msgid "Result code"
-msgstr ""
+msgstr "결과 코드"
 
 #: "inc/form.js"
 msgid "Note: I can't contact you, if the contact info is blank. If you really want to submit this anonymously, hit Send Results again."
@@ -412,11 +412,11 @@ msgstr ""
 
 #: "inc/checkresults.js"
 msgid "unknown result code"
-msgstr ""
+msgstr "알 수 없는 결과 코드"
 
 #: "inc/symptoms.js"
 msgid "Your browser blocked"
-msgstr ""
+msgstr "브라우저 차단됨"
 
 #: "inc/helpdesk.js"
 msgid "Your Internet help desk may ask you for the information below."
@@ -468,11 +468,11 @@ msgstr ""
 
 #: "inc/js_required.inc"
 msgid "Do you use NoScript?"
-msgstr ""
+msgstr "NoScript를 사용하고 계신가요?"
 
 #: "inc/js_required.inc"
 msgid "If you use this Firefox add-on, you'll need to \"Temporarily allow all this page\". You will need to do this <b>twice</b> for everything to work. Alternately, disable NoScript entirely until you are done with this site."
-msgstr ""
+msgstr "만약 당신이 파이어폭스 애드온을 사용 한다면, 당신은 \"일시적으로 이 페이지를 모두 허용\" 기능을 사용하여야 합니다. 당신은 모든 작업마다 이 행동을 <b>두 번</b> 수행해야 합니다. 혹은, 이 사이트에서의 작업이 끝날 때까지 NoScript를 완전히 끄십시오."
 
 #: "inc/js_required.inc"
 msgid "You can opt instead to view the <a href=\"simple_test.html\">simple test</a>, which will give you a quick pass/fail for IPv4, IPv4+IPv6, and IPv6. It will however offer little diagnostic information."
@@ -504,7 +504,7 @@ msgstr ""
 
 #: "main/tabnav.inc"
 msgid "Debug"
-msgstr ""
+msgstr "디버그"
 
 #: "main/tabnav.inc"
 msgid "Other IPv6 Sites"
@@ -772,7 +772,7 @@ msgstr ""
 
 #: "inc/disclaimer.inc"
 msgid "This is a mirror of test-ipv6.com. The views expressed here may or may not reflect the views of the mirror owner."
-msgstr ""
+msgstr "이곳은 test-ipv6.com의 미러 사이트 입니다. 여기에 보여지는 것들은 미러 소유자의 내용을 비추거나 비추지 않을 수 있습니다."
 
 #: "locale.html"
 msgid "Available Languages"
@@ -880,7 +880,7 @@ msgstr ""
 
 #: "broken.html"
 msgid "Find your IP address"
-msgstr ""
+msgstr "당신의 IP 주소 찾기"
 
 #: "broken.html"
 msgid "If you set up a tunnel broker"
@@ -900,7 +900,7 @@ msgstr ""
 
 #: "broken.html"
 msgid "If you have an unexpected IPv6 address"
-msgstr ""
+msgstr "예기치 않은 IPv6 주소를 가지고 있을 경우"
 
 #: "broken.html"
 msgid "Try the netalyzr"
@@ -1056,7 +1056,7 @@ msgstr ""
 
 #: "faq/find_ip.inc"
 msgid "Run"
-msgstr ""
+msgstr "실행"
 
 #: "faq/find_ip.inc"
 msgid "and look for <code>inet6</code> to see your possible IPv6 addresses."
@@ -2232,7 +2232,7 @@ msgstr ""
 
 #: "faq_whyipv6.html"
 msgid "Q: Do I have to give up IPv4, to go IPv6?"
-msgstr ""
+msgstr "Q: IPv4를 포기하고 IPv6로 바꾸어야 하나요?"
 
 #: "faq_whyipv6.html"
 msgid "No. They can co-exist. Most ISPs will continue to offer some form of IPv4 (most NAT'd) while offering IPv6. So you can reach the web sites that are still IPv4 only."
@@ -2612,7 +2612,7 @@ msgstr ""
 
 #: "inc/tunnel.inc"
 msgid "What is a tunnel?"
-msgstr ""
+msgstr "터널이 뭔가요?"
 
 #: "inc/tunnel.inc"
 msgid "A tunnel is a technique often used to transport one protocol over another one. For example, it is used by ADSL to transport PPP over ATM (a common technique for several Internet residential subscribers)."
@@ -2668,7 +2668,7 @@ msgstr ""
 
 #: "not-used, archived.  Not currently needed for translation."
 msgid "dummy example"
-msgstr ""
+msgstr "더미 예제"
 
 #: "faq_no_ipv4.html"
 msgid "What? No IPv4 address?"

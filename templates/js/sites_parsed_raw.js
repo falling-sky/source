@@ -274,17 +274,6 @@
   "monitor": "jfesler@gigo.com",
   "reason": ""
  },
- "test-ipv6.cl": {
-  "site": "test-ipv6.cl",
-  "mirror": true,
-  "hide": false,
-  "v4": "http://ipv4.test-ipv6.cl/images-nc/knob_green.png",
-  "v6": "http://ipv6.test-ipv6.cl/images-nc/knob_green.png",
-  "loc": "CL",
-  "provider": "NIC Chile",
-  "monitor": "NIC Chile \u003csoporte@nic.cl\u003e",
-  "reason": ""
- },
  "test-ipv6.cmd.net.br": {
   "site": "test-ipv6.cmd.net.br",
   "mirror": true,
@@ -316,17 +305,6 @@
   "loc": "US CA",
   "provider": "Jason Fesler",
   "monitor": "",
-  "reason": ""
- },
- "test-ipv6.com.au": {
-  "site": "test-ipv6.com.au",
-  "mirror": true,
-  "hide": false,
-  "v4": "http://ipv4.test-ipv6.com.au/images-nc/knob_green.png",
-  "v6": "http://ipv6.test-ipv6.com.au/images-nc/knob_green.png",
-  "loc": "AU",
-  "provider": "Futzle Industries",
-  "monitor": "Deborah Pickett \u003ctest-ipv6@dp.futzle.com\u003e",
   "reason": ""
  },
  "test-ipv6.cz": {
@@ -461,15 +439,15 @@
   "monitor": "Brynjar Eide \u003ctest-ipv6@availo.no\u003e",
   "reason": ""
  },
- "test-ipv6.polkam.go.id": {
-  "site": "test-ipv6.polkam.go.id",
+ "test-ipv6.ortgies.it": {
+  "site": "test-ipv6.ortgies.it",
   "mirror": true,
   "hide": false,
-  "v4": "http://ipv4.test-ipv6.polkam.go.id/images-nc/knob_green.png",
-  "v6": "http://ipv6.test-ipv6.polkam.go.id/images-nc/knob_green.png",
-  "loc": "ID",
-  "provider": "Coordinating Ministry For Political, Legal, and Security Affairs of Indonesia",
-  "monitor": "vicky@polkam.go.id",
+  "v4": "http://ipv4.test-ipv6.ortgies.it/images-nc/knob_green.png",
+  "v6": "http://ipv6.test-ipv6.ortgies.it/images-nc/knob_green.png",
+  "loc": "DE",
+  "provider": "Jan-Eric Ortgies",
+  "monitor": "Jan-Eric Ortgies \u003cjaneric@ortgies.it\u003e",
   "reason": ""
  },
  "test-ipv6.ro": {
