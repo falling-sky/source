@@ -3,7 +3,7 @@ go:
 - 1.6
 before_install:
 - openssl aes-256-cbc -K $encrypted_3ce59779d3a2_key -iv $encrypted_3ce59779d3a2_iv
-  -in crowdin.yaml.enc -out crowdin.yaml -d
+  -in translations/crowdin.yaml.enc -out translations/crowdin.yaml -d
 - sudo apt-get update -q
 - sudo apt-get install -y perl
 - sudo apt-get install make tidy

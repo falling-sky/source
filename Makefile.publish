@@ -1,8 +1,0 @@
-################################################################
-# Do we permit publishing to rsync.gigo.com and files.gigo.com?#
-################################################################
-PUBLISH := false
-
-ifeq ($(shell hostname),bender)
-  PUBLISH := true
-endif	

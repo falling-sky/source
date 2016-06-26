@@ -12,9 +12,10 @@ DIST_STABLE ?= jfesler@rsync.gigo.com:/home/fsky/stable/content
 ################################################################
 # Do we permit publishing to rsync.gigo.com and files.gigo.com?#
 ################################################################
-PUBLISH := false
-include Makefile.publish
-
+PUBLISH := true
+ifeq (,$(wildcard translations/crowdin.yaml))
+  PUBLISH := false
+endif
 
 ################################################################
 # Prep.                                                        #

@@ -10,8 +10,10 @@ API_KEY := $(shell grep api_key crowdin.yaml | cut -f2 -d' ')
 ################################################################
 # Do we permit publishing to rsync.gigo.com and files.gigo.com?#
 ################################################################
-PUBLISH := false
-include ../Makefile.publish
+PUBLISH := true
+ifeq (,$(wildcard crowdin.yaml))
+  PUBLISH := false
+endif
 
 
 
