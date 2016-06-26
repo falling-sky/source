@@ -1,32 +1,17 @@
 language: go
 go:
- - 1.6
- 
+- 1.6
 before_install:
- - sudo apt-get update -q
- - sudo apt-get install -y perl
- - sudo apt-get install make tidy 
-
+- openssl aes-256-cbc -K $encrypted_3ce59779d3a2_key -iv $encrypted_3ce59779d3a2_iv
+  -in crowdin.yaml.enc -out crowdin.yaml -d
+- sudo apt-get update -q
+- sudo apt-get install -y perl
+- sudo apt-get install make tidy
 script:
- - make
- 
+- make
 notifications:
   recipients:
-    - jfesler@gigo.com
+  - jfesler@gigo.com
   email:
-#   on_success: change
     on_success: always
     on_failure: always
-    
-    
-#Install `apt addons`
-#before_install      # For dependencies
-#install             # For dependencies
-#before_script
-#script
-#after_success or after_failure
-#OPTIONAL before_deploy
-#OPTIONAL deploy
-#OPTIONAL after_deploy
-#after_script
-    
