@@ -219,17 +219,6 @@ GIGO.sites_parsed={
   "monitor": "jfesler@gigo.com",
   "reason": ""
  },
- "test-ipv6.arbor.net": {
-  "site": "test-ipv6.arbor.net",
-  "mirror": true,
-  "hide": false,
-  "v4": "http://ipv4.test-ipv6.arbor.net/images-nc/knob_green.png",
-  "v6": "http://ipv6.test-ipv6.arbor.net/images-nc/knob_green.png",
-  "loc": "US",
-  "provider": "Arbor Networks",
-  "monitor": "Bill Cerveny \u003cadmin@v6research.net\u003e",
-  "reason": ""
- },
  "test-ipv6.azstarnet.az": {
   "site": "test-ipv6.azstarnet.az",
   "mirror": true,
@@ -448,6 +437,17 @@ GIGO.sites_parsed={
   "loc": "DE",
   "provider": "Jan-Eric Ortgies",
   "monitor": "Jan-Eric Ortgies \u003cjaneric@ortgies.it\u003e",
+  "reason": ""
+ },
+ "test-ipv6.polkam.go.id": {
+  "site": "test-ipv6.polkam.go.id",
+  "mirror": true,
+  "hide": false,
+  "v4": "http://ipv4.test-ipv6.polkam.go.id/images-nc/knob_green.png",
+  "v6": "http://ipv6.test-ipv6.polkam.go.id/images-nc/knob_green.png",
+  "loc": "ID",
+  "provider": "Coordinating Ministry For Political, Legal, and Security Affairs of Indonesia",
+  "monitor": "vicky@polkam.go.id",
   "reason": ""
  },
  "test-ipv6.ro": {

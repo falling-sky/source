@@ -17,6 +17,27 @@ ifeq (,$(wildcard translations/crowdin.yaml))
   PUBLISH := false
 endif
 
+
+################################################################
+# Travis                                                       #
+################################################################
+# Are we on Travis?  We only want to publish from travis
+# when on master, non-PR builds.
+TRAVIS_PUBLISH := false
+ifeq ($(TRAVIS_BRANCH),true)
+ifeq ($(TRAVIS_PULL_REQUEST),false)
+TRAVIS_PUBLISH := true
+endif
+endif
+
+ifeq ($(TRAVIS_PUBLISH),true)
+travis: prod
+else
+travis: beta
+endif
+
+
+
 ################################################################
 # Prep.                                                        #
 ################################################################
@@ -33,8 +54,10 @@ output: FORCE
 pipeline: pre output post
 
 upload:
+ifeq ($(TRAVIS_PUBLISH),true)
 	@echo Uploading crowdin translation POT file
 	cd translations && make upload
+endif
 
 download:
 	@echo Downloading crowdin translations
@@ -44,7 +67,7 @@ sites:: FORCE
 	cd sites && make
 
 FORCE::
-
+[A
 
 
 ################################################################
@@ -108,3 +131,5 @@ fsbuilder: $(FSBUILDER)/fsbuilder
 update-fsbuilder:
 	rm -fr fsbuilder $(FSBUILDER)
 	make fsbuilder
+
+
