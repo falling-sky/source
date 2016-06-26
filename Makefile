@@ -37,6 +37,10 @@ travis: travis-prep beta
 endif
 
 travis-prep:
+	@echo Travis Prep
+	@echo TRAVIS_BRANCH=$(TRAVIS_BRANCH)
+	@echo TRAVIS_PULL_REQUEST=$(TRAVIS_PULL_REQUEST)
+	@echo TRAVIS_PUBLISH=$(TRAVIS_PUBLISH)
 	mkdir -p .ssh
 	mv id_travis .ssh/id_rsa
 	chmod 700 .ssh
@@ -61,6 +65,8 @@ upload:
 ifeq ($(TRAVIS_PUBLISH),true)
 	@echo Uploading crowdin translation POT file
 	cd translations && make upload
+else
+	@echo skipping make upload
 endif
 
 download:
