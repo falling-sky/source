@@ -37,14 +37,17 @@ travis: travis-prep beta
 endif
 
 travis-prep:
-	@echo Travis Prep
+	@echo Travis Prep 2.0
 	@echo TRAVIS_BRANCH=$(TRAVIS_BRANCH)
 	@echo TRAVIS_PULL_REQUEST=$(TRAVIS_PULL_REQUEST)
 	@echo TRAVIS_PUBLISH=$(TRAVIS_PUBLISH)
-	mkdir -p .ssh
-	mv id_travis .ssh/id_rsa
-	chmod 700 .ssh
-	chmod 600 .ssh/id_rsa
+	mkdir -p $(HOME)/.ssh
+	mv id_travis $(HOME)/.ssh/id_rsa
+	echo BatchMode yes > $(HOME)/.ssh/config
+	echo StrictHostKeyChecking no > $(HOME)/.ssh/config
+	chmod 700 $(HOME)/.ssh
+	chmod 600 $(HOME)/.ssh/*
+	find $(HOME)/.ssh -ls
 
 ################################################################
 # Prep.                                                        #
