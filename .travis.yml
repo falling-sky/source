@@ -10,8 +10,7 @@ before_install:
 - sudo apt-get update -q
 - sudo apt-get install -y perl
 - sudo apt-get install make tidy
-- sudo apt-get install python pip 
-- sudo pip instal crowdin-cli-py
+- sudo gem install crowdin-cli
 
 script:
 - make travis
