@@ -5,7 +5,7 @@ go:
 before_install:
  - sudo apt-get update -q
  - sudo apt-get install -y perl
- - sudo apt-get install gmake
+ - sudo apt-get install make tidy 
 
 script:
  - make
