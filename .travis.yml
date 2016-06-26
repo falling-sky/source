@@ -1,0 +1,32 @@
+language: go
+go:
+ - 1.6
+ 
+before_install:
+ - sudo apt-get update -q
+ - sudo apt-get install -y perl
+ - sudo apt-get install gmake
+
+script:
+ - make
+ 
+notifications:
+  recipients:
+    - jfesler@gigo.com
+  email:
+#   on_success: change
+    on_success: always
+    on_failure: always
+    
+    
+#Install `apt addons`
+#before_install      # For dependencies
+#install             # For dependencies
+#before_script
+#script
+#after_success or after_failure
+#OPTIONAL before_deploy
+#OPTIONAL deploy
+#OPTIONAL after_deploy
+#after_script
+    
