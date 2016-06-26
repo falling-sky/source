@@ -7,6 +7,7 @@ import (
 	"io/ioutil"
 	"log"
 	"net/http"
+	"net/url"
 	"os"
 	"strings"
 	"sync"
@@ -16,12 +17,14 @@ import (
 var input = flag.String("input", "sites.json", "json file to read")
 var parsed = flag.String("parsed", "../templates/js/sites_parsed.js", "GIGO.sites_parsed= js file to write for falling-sky")
 var raw = flag.String("raw", "../templates/js/sites_parsed_raw.js", "js file to write for other automation")
+var validator = flag.String("validator", "http://validator.test-ipv6.com/urlvalidate.cgi", "use this service to validate a url, instead of fetching directly")
+var slow = flag.Duration("slow",time.Second * 8,"time to consider a lookup 'slow'")
 
 // SiteRecord describes a single mirror or "Other Sites" record
 type SiteRecord struct {
 	Site     string `json:"site"`     // What site name to publicly attribute
-	Mirror   bool `json:"mirror"`   // if true, site is a full mirror; if false, just "OtherSites"
-	Hide     bool `json:"hide"`     // If true, stop sending traffic here
+	Mirror   bool   `json:"mirror"`   // if true, site is a full mirror; if false, just "OtherSites"
+	Hide     bool   `json:"hide"`     // If true, stop sending traffic here
 	V4       string `json:"v4"`       // IPv4 test URL  (http or https)
 	V6       string `json:"v6"`       // IPv6 test URL (http or https)
 	Loc      string `json:"loc"`      // Country where the site is located
@@ -128,34 +131,48 @@ func (sf *SitesFile) FixDefaults() error {
 
 func (sf *SitesFile) DeleteHidden() error {
 	for key, sr := range sf.Sites {
-		if sr.Hide  {
+		if sr.Hide {
 			delete(sf.Sites, key)
 		}
 	}
 	return nil
 }
 
-func CheckHTTP(url string) error {
+func CheckHTTP(urlString string) error {
 
-	// Complain about slow urls
+	// Complain about slow urlStrings
 	t0 := time.Now()
 	defer func() {
 		t1 := time.Now()
 		td := t1.Sub(t0)
-		if td > (time.Second * time.Duration(5)) {
-			log.Printf("Slow! %s %s\n", td, url)
+		if td > (*slow) {
+			log.Printf("Slow! %s %s\n", td, urlString)
 		}
 	}()
 
 	client := &http.Client{
-		Timeout: time.Duration(15)*time.Second,
+		Timeout: time.Duration(15) * time.Second,
+	}
+
+	var err error
+	var resp *http.Response
+
+	if *validator == "" {
+		resp, err = client.Get(urlString)
+		if err != nil {
+			return err
+		}
+	} else {
+		form := url.Values{}
+		form.Add("url", urlString)
+		req, err := http.NewRequest("POST", *validator, strings.NewReader(form.Encode()))
+		resp, err = client.Do(req)
+		if err != nil {
+			return err
+		}
 	}
 
 	// Start the fetch
-	resp, err := client.Get(url)
-	if err != nil {
-		return err
-	}
 	defer resp.Body.Close()
 
 	// Finish the fetch
@@ -163,11 +180,15 @@ func CheckHTTP(url string) error {
 	if err != nil {
 		return err
 	}
+	
+	if resp.StatusCode < 200 || resp.StatusCode >= 300  {
+	   return fmt.Errorf("%s: %s", urlString, resp.Status);
+	}
 
 	// Check the content type
 	ct := resp.Header.Get("Content-Type")
 	if ct == "" {
-		return fmt.Errorf("%s: No Content-Type in response", url)
+		return fmt.Errorf("%s: No Content-Type in response", urlString)
 	}
 	ctl := strings.ToLower(ct)
 
@@ -180,7 +201,7 @@ func CheckHTTP(url string) error {
 	}
 
 	// Otherwise complain
-	return fmt.Errorf("%s: Bad Content-Type: %s", url, ct)
+	return fmt.Errorf("%s: Bad Content-Type: %s", urlString, ct)
 
 }
 
@@ -197,13 +218,13 @@ func (sr *SiteRecord) CheckHTTP(wg *sync.WaitGroup) {
 	if err4 := CheckHTTP(sr.V4); err4 != nil {
 		sr.Reason = err4.Error()
 		sr.Hide = true
-		log.Println(sr.V4,sr.Reason)
+		log.Println(sr.V4, sr.Reason)
 		return
 	}
 	if err6 := CheckHTTP(sr.V6); err6 != nil {
 		sr.Reason = err6.Error()
 		sr.Hide = true
-		log.Println(sr.V6,sr.Reason)
+		log.Println(sr.V6, sr.Reason)
 		return
 	}
 }
