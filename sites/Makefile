@@ -8,6 +8,8 @@ endif
 
 sites:: FORCE parse-sites
 ifeq ($(PUBLISH),true)
+	@echo checking my hostname
+	hostname
 	@echo Checking to see what sites are up or down
 	./parse-sites
 else
