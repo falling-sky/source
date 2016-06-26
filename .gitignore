@@ -10,3 +10,5 @@ output
 translations/all.zip
 translations/crowdin.yaml
 sites/parse-sites
+
+id_travis
