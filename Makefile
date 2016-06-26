@@ -1,7 +1,7 @@
 TOP := $(shell pwd)
 FSBUILDER := $(TOP)/src/github.com/falling-sky/fsbuilder
 
-BETA ?= jfesler@gigo.com:/var/www/beta.test-ipv6.com
+BETA ?= fskyweb@gigo.com:
 I18N ?= /var/www/i18n.test-ipv6.com
 PROD1 ?= jfesler@ds.vm1.test-ipv6.com:/var/www
 PROD2 ?= jfesler@ds.vm2.test-ipv6.com:/var/www
@@ -24,7 +24,7 @@ endif
 # Are we on Travis?  We only want to publish from travis
 # when on master, non-PR builds.
 TRAVIS_PUBLISH := false
-ifeq ($(TRAVIS_BRANCH),true)
+ifeq ($(TRAVIS_BRANCH),master)
 ifeq ($(TRAVIS_PULL_REQUEST),false)
 TRAVIS_PUBLISH := true
 endif
