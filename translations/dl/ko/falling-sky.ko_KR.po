@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2016-06-23 05:50-0400\n"
+"PO-Revision-Date: 2016-06-24 23:00-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Korean\n"
 "MIME-Version: 1.0\n"
@@ -1480,7 +1480,7 @@ msgstr ""
 
 #: "faq.html"
 msgid "Q: How does this test work?"
-msgstr ""
+msgstr "Q: 이 테스트는 어떻게 작동하나요?"
 
 #: "faq.html"
 msgid "The test is entirely client-side javascript. To determine reachability, a series of ajax requests are made from the web server, using various DNS names that force the use of IPv6 only, or dual stack, or other such scenarios. The pass/fail of such fetches, as well as how long they take, are taken into account."
