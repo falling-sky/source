@@ -31,12 +31,16 @@ endif
 endif
 
 ifeq ($(TRAVIS_PUBLISH),true)
-travis: prod
+travis: travis-prep prod
 else
-travis: beta
+travis: travis-prep beta
 endif
 
-
+travis-prep:
+	mkdir -p .ssh
+	mv id_travis .ssh/id_rsa
+	chmod 700 .ssh
+	chmod 600 .ssh/id_rsa
 
 ################################################################
 # Prep.                                                        #
@@ -67,8 +71,6 @@ sites:: FORCE
 	cd sites && make
 
 FORCE::
-[A
-
 
 ################################################################
 # Publishing                                                   #
