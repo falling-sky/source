@@ -9,6 +9,7 @@ before_install:
   -in translations/crowdin.yaml.enc -out translations/crowdin.yaml -d
 - sudo apt-get update -q
 - sudo apt-get install -y perl make tidy rubygems
+- sudo rvm install ruby 2.0.0
 - sudo gem install crowdin-cli
 
 script:
