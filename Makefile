@@ -5,8 +5,8 @@ BETA ?= fskyweb@gigo.com:
 I18N ?= /var/www/i18n.test-ipv6.com
 PROD1 ?= fskyweb@ds.vm1.test-ipv6.com:
 PROD2 ?= fskyweb@ds.vm2.test-ipv6.com:
-DIST_TEST ?= jfesler@rsync.gigo.com:/home/fsky/test/content
-DIST_STABLE ?= jfesler@rsync.gigo.com:/home/fsky/stable/content
+DIST_TEST ?= fskyweb@rsync.gigo.com:test/content
+DIST_STABLE ?= fskyweb@rsync.gigo.com:stable/content
 
 
 ################################################################
