@@ -65,11 +65,11 @@ output: FORCE
 pipeline: pre output post
 
 upload:
-ifeq ($(TRAVIS_PUBLISH),true)
+ifeq ($(TRAVIS_PUBLISH),)
 	@echo Uploading crowdin translation POT file
 	cd translations && make upload
 else
-	@echo skipping make upload
+	@echo skipping make upload on travis 
 endif
 
 download:

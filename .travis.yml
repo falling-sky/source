@@ -8,10 +8,7 @@ before_install:
 - openssl aes-256-cbc -K $encrypted_3ce59779d3a2_key -iv $encrypted_3ce59779d3a2_iv
   -in translations/crowdin.yaml.enc -out translations/crowdin.yaml -d
 - sudo apt-get update -q
-- sudo apt-get install -y perl make tidy ruby rubygems
-- sudo env REALLY_GEM_UPDATE_SYSTEM=1 gem update --system 2.0.0
-- sudo gem --version 
-- sudo gem install crowdin-cli
+- sudo apt-get install -y perl make tidy 
 
 script:
 - make travis
