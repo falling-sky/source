@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/falling-sky/source.svg?branch=master)](https://travis-ci.org/falling-sky/source)
+
 source
 ======
 
