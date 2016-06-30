@@ -86,7 +86,6 @@ FORCE::
 ################################################################
 dist-template:
 	test -f output/nat.html.zh_CN
-	test -x ../dist_support/make-dist.pl 
 	rsync output/. $(DIST_DESTINATION)/. -a --delete -z
 
 dist-test: 
