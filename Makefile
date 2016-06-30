@@ -31,7 +31,7 @@ endif
 endif
 
 ifeq ($(TRAVIS_PUBLISH),true)
-travis: travis-prep prod
+travis: travis-prep prod dist
 else
 travis: travis-prep beta
 endif
