@@ -9,9 +9,6 @@ before_install:
   -in translations/crowdin.yaml.enc -out translations/crowdin.yaml -d
 - sudo apt-get update -q
 - sudo apt-get install -y perl make tidy 
-- ls -l banner.pl
-- head -3 banner.pl
-- ls -l /usr/bin/perl
 
 
 script:
