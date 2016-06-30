@@ -138,7 +138,7 @@ $(FSBUILDER)/fsbuilder.go:
 	cd $(TOP)/src/github.com/falling-sky && GOPATH=$(TOP) go get -d "github.com/falling-sky/fsbuilder"
 	
 $(FSBUILDER)/fsbuilder: $(FSBUILDER)/fsbuilder.go
-	@echo building fsbuilder | ./bannner.pl
+	@echo building fsbuilder | ./banner.pl
 	cd $(FSBUILDER) && GOPATH=$(TOP) go build
 	
 
