@@ -3,7 +3,7 @@
 $length=60;
 
 
-print "\e[1;33m\n"; # Yellow
+print "\e[1;33m"; # Yellow
 print banner(<>);
 print "\e[0m"; # reset
 
