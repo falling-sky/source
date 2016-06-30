@@ -37,7 +37,7 @@ travis: travis-prep beta
 endif
 
 travis-prep:
-	@echo Travis Prep 2.0
+	@echo Travis Prep 2.0 | ./banner.pl
 	@echo TRAVIS_BRANCH=$(TRAVIS_BRANCH)
 	@echo TRAVIS_PULL_REQUEST=$(TRAVIS_PULL_REQUEST)
 	@echo TRAVIS_PUBLISH=$(TRAVIS_PUBLISH)
@@ -58,7 +58,7 @@ pre: fsbuilder download sites
 post: upload
 
 output: FORCE 
-	@echo Generating output using ./fsbuilder
+	@echo Generating output using ./fsbuilder | ./banner.pl
 	./fsbuilder
 	make upload
 
@@ -66,17 +66,18 @@ pipeline: pre output post
 
 upload:
 ifeq ($(TRAVIS_PUBLISH),)
-	@echo Uploading crowdin translation POT file
+	@echo Uploading crowdin translation POT file 
 	cd translations && make upload
 else
 	@echo skipping make upload on travis 
 endif
 
 download:
-	@echo Downloading crowdin translations
+	@echo Downloading crowdin translations | ./banner.pl
 	cd translations && make download
 
 sites:: FORCE
+	@echo validating mirror sites | ./banner.pl
 	cd sites && make
 
 FORCE::
@@ -85,6 +86,7 @@ FORCE::
 # Publishing                                                   #
 ################################################################
 dist-template:
+	@echo Publishing to distribution server | ./banner.pl
 	test -f output/nat.html.zh_CN
 	rsync output/. $(DIST_DESTINATION)/. -a --delete -z
 
@@ -100,12 +102,15 @@ dist-stable:
 ################################################################
 
 beta: pipeline
+	@echo Publishing to beta | ./banner.pl
 	rsync output/. $(BETA)/.  -a --exclude site --delete -z
 
 fast: output 
+	@echo Publishing to beta | ./banner.pl
 	rsync output/. $(BETA)/.  -a --exclude site --delete -z
 
 prod: pipeline
+	@echo Publishing to production | ./banner.pl
 	rsync output/. $(PROD1)/.  -a --exclude site --delete -z
 	rsync output/. $(PROD2)/.  -a --exclude site --delete -z
 
@@ -128,10 +133,12 @@ dist: stable
 ################################################################
 
 $(FSBUILDER)/fsbuilder.go: 
+	@echo getting fsbuilder source code | ./banner.pl
 	mkdir -p $(TOP)/src/github.com/falling-sky
 	cd $(TOP)/src/github.com/falling-sky && GOPATH=$(TOP) go get -d "github.com/falling-sky/fsbuilder"
 	
 $(FSBUILDER)/fsbuilder: $(FSBUILDER)/fsbuilder.go
+	@echo building fsbuilder | ./bannner.pl
 	cd $(FSBUILDER) && GOPATH=$(TOP) go build
 	
 
