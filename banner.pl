@@ -2,10 +2,13 @@
 
 $length=60;
 
+$BROWN = "\e[0;0;33m";
+$YELLOW = "\e[0;1;33m";
+$RESET = "\e[0;0;00m";  # Same number of characters as YELLOW
 
-print "\e[1;33m"; # Yellow
+# Yellow!
 print banner(<>);
-print "\e[0m"; # reset
+print $RESET . "\n";
 
 sub banner {
     my (@input) = @_;
@@ -15,11 +18,11 @@ sub banner {
         $length = length if ( length > $length );
     }
     my (@output);
-    push( @output, join( "", ' ' x $indent, '#' x $length, "####\n" ) );
+    push( @output, join( "", $BROWN, ' ' x $indent, '#' x $length, "####\n" ) );
     foreach (@input) {
-        push( @output, join( "", ' ' x $indent, "# ", substr( $_ . ' ' x 255, 0, $length ), " #\n" ) );
+        push( @output, join( "", $YELLOW, ' ' x $indent, "# ", substr( $_ . ' ' x 255, 0, $length ), " #\n" ) );
     }
-    push( @output, join( "", ' ' x $indent, '#' x $length, "####\n" ) );
+    push( @output, join( "", $BROWN, ' ' x $indent, '#' x $length, "####\n" ) );
     return @output if (want_array);
     return join( "", @output );
 }
