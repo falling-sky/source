@@ -156,7 +156,7 @@ $(FSBUILDER)/fsbuilder.go:
 	@./fold_end.sh $@
 	
 $(FSBUILDER)/fsbuilder: $(FSBUILDER)/fsbuilder.go
-        @echo building fsbuilder | ./fold_start.sh $@
+	@echo building fsbuilder | ./fold_start.sh $@
 	cd $(FSBUILDER) && GOPATH=$(TOP) go build
 	@./fold_end.sh $@
 
