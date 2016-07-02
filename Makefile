@@ -57,37 +57,37 @@ travis-prep:
 # Prep.                                                        #
 ################################################################
 
-pre: fsbuilder download sites 
+pre: fsbuilder crowdin-download sites 
 
-post: upload
+post: crowdin-upload
 
 output: FORCE 
-	@echo Generating output using ./fsbuilder | ./fold_start.sh fsbuilder
+	@echo Generating output using ./fsbuilder | ./fold_start.sh $@
 	./fsbuilder 
-	@./fold_end.sh fsbuilder
-	make upload
+	@./fold_end.sh $@
+	make crowdin-upload
 
 pipeline: pre output post
 
-upload:
-	@echo Uploading crowdin strings to translate | ./fold_start.sh crowdin-upload
+crowdin-upload:
+	@echo Uploading crowdin strings to translate | ./fold_start.sh $@
 ifeq ($(TRAVIS_PUBLISH),)
 	@echo Uploading crowdin translation POT file 
-	cd translations && make upload
+	cd translations && make crowdin-upload
 else
-	@echo skipping make upload on travis 
+	@echo skipping make crowdin-upload on travis 
 endif
-	@./fold_end.sh crowdin-upload
+	@./fold_end.sh $@
 
-download:
-	@echo Downloading crowdin translations | ./fold_start.sh crowdin-upload
-	cd translations && make download
-	@./fold_end.sh crowdin-download
+crowdin-download:
+	@echo Downloading crowdin translations | ./fold_start.sh $@
+	cd translations && make crowdin-download
+	@./fold_end.sh $@
 
 sites:: FORCE
-	@echo Validating mirror sites | ./fold_start.sh mirrors
+	@echo Validating mirror sites | ./fold_start.sh $@
 	cd sites && make
-	@./fold_end.sh mirrors
+	@./fold_end.sh $@
 
 FORCE::
 
@@ -99,14 +99,14 @@ dist-template:
 	rsync output/. $(DIST_DESTINATION)/. -a --delete -z
 
 dist-test: 
-	@echo Publishing to distribution server | ./fold_start.sh dist-test
+	@echo Publishing to distribution server | ./fold_start.sh $@
 	make dist-template DIST_DESTINATION=$(DIST_TEST)
-	@./fold_end.sh dist-test
+	@./fold_end.sh $@
 
 dist-stable:
-	@echo Publishing to distribution server | ./fold_start.sh dist-stable
+	@echo Publishing to distribution server | ./fold_start.sh $@
 	make dist-template DIST_DESTINATION=$(DIST_STABLE)
-	@./fold_end.sh dist-stable
+	@./fold_end.sh $@
 
 
 ################################################################
@@ -114,25 +114,25 @@ dist-stable:
 ################################################################
 
 beta: pipeline
-	@echo Publishing to beta server | ./fold_start.sh publish-beta
+	@echo Publishing to beta server | ./fold_start.sh $@
 	rsync output/. $(BETA)/.  -a --exclude site --delete -z
-	@./fold_end.sh publish-beta
+	@./fold_end.sh $@
 
 fast: output 
-	@echo Publishing to beta server | ./fold_start.sh publish-beta
+	@echo Publishing to beta server | ./fold_start.sh $@
 	rsync output/. $(BETA)/.  -a --exclude site --delete -z
-	@./fold_end.sh publish-beta
+	@./fold_end.sh $@
 
 prod: pipeline
-	@echo Publishing to prod server | ./fold_start.sh publish-prod
+	@echo Publishing to prod server | ./fold_start.sh $@
 	rsync output/. $(PROD1)/.  -a --exclude site --delete -z
 	rsync output/. $(PROD2)/.  -a --exclude site --delete -z
-	@./fold_end.sh publish-prod
+	@./fold_end.sh $@
 
 i18n: pipeline pofooter
-	@echo Publishing to i18n server | ./fold_start.sh publish-i18n
+	@echo Publishing to i18n server | ./fold_start.sh $@
 	rsync output/. $(I18N)/.  -a --exclude site --delete -z
-	./fold_end.sh publish-i18n
+	./fold_end.sh $@
 
 pofooter:
 	echo "Built with latest translations from crowdin.net - " > $(I18N)/site/footer.html
