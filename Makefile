@@ -1,6 +1,4 @@
 
-VERSION := 1.2
-
 TOP := $(shell pwd)
 FSBUILDER := $(TOP)/src/github.com/falling-sky/fsbuilder
 
@@ -53,11 +51,6 @@ travis-prep:
 	chmod 600 $(HOME)/.ssh/*
 	find $(HOME)/.ssh -ls
 	@echo Git info
-	git fetch --unshallow
-	git branch
-	git log --oneline | wc -l 
-	git log --oneline
-	git describe --tags --long
 	@echo -en 'travis_fold:end:travis-prep\\r'
 	
 
@@ -70,8 +63,10 @@ pre: fsbuilder download sites
 post: upload
 
 output: FORCE 
+	@echo -en 'travis_fold:start:fsbuilder\\r'
 	@echo Generating output using ./fsbuilder | ./banner.pl
-	./fsbuilder --versionbase $(VERSION)
+	./fsbuilder 
+	@echo -en 'travis_fold:end:fsbuilder\\r'
 	make upload
 
 pipeline: pre output post
