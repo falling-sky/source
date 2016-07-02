@@ -38,8 +38,8 @@ travis: travis-prep beta
 endif
 
 travis-prep:
-	@echo -en 'travis_fold:start:travis-prep\\r'
 	@echo Travis Prep 2.0 | ./banner.pl
+	@echo -en 'travis_fold:start:travis-prep\\r'
 	@echo TRAVIS_BRANCH=$(TRAVIS_BRANCH)
 	@echo TRAVIS_PULL_REQUEST=$(TRAVIS_PULL_REQUEST)
 	@echo TRAVIS_PUBLISH=$(TRAVIS_PUBLISH)
@@ -63,8 +63,8 @@ pre: fsbuilder download sites
 post: upload
 
 output: FORCE 
-	@echo -en 'travis_fold:start:fsbuilder\\r'
 	@echo Generating output using ./fsbuilder | ./banner.pl
+	@echo -en 'travis_fold:start:fsbuilder\\r'
 	./fsbuilder 
 	@echo -en 'travis_fold:end:fsbuilder\\r'
 	make upload
@@ -85,7 +85,9 @@ download:
 
 sites:: FORCE
 	@echo validating mirror sites | ./banner.pl
+	@echo -en 'travis_fold:start:validating-mirror-sites\\r'
 	cd sites && make
+	@echo -en 'travis_fold:end:validating-mirror-sites\\r'
 
 FORCE::
 
@@ -98,10 +100,14 @@ dist-template:
 	rsync output/. $(DIST_DESTINATION)/. -a --delete -z
 
 dist-test: 
+	@echo -en 'travis_fold:start:dist-test\\r'
 	make dist-template DIST_DESTINATION=$(DIST_TEST)
+	@echo -en 'travis_fold:end:dist-stable\\r'
 
 dist-stable:
+	@echo -en 'travis_fold:start:dist-stable\\r'
 	make dist-template DIST_DESTINATION=$(DIST_STABLE)
+	@echo -en 'travis_fold:end:dist-stable\\r'
 
 
 ################################################################
@@ -118,8 +124,10 @@ fast: output
 
 prod: pipeline
 	@echo Publishing to production | ./banner.pl
+	@echo -en 'travis_fold:start:prod\\r'
 	rsync output/. $(PROD1)/.  -a --exclude site --delete -z
 	rsync output/. $(PROD2)/.  -a --exclude site --delete -z
+	@echo -en 'travis_fold:end:prod\\r'
 
 i18n: pipeline pofooter
 	rsync output/. $(I18N)/.  -a --exclude site --delete -z
