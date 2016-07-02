@@ -48,6 +48,11 @@ travis-prep:
 	chmod 700 $(HOME)/.ssh
 	chmod 600 $(HOME)/.ssh/*
 	find $(HOME)/.ssh -ls
+	@echo Git info
+	git branch
+	git describe --tags --long
+	git log --oneline | head
+	
 
 ################################################################
 # Prep.                                                        #
