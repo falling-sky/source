@@ -150,14 +150,15 @@ dist: stable
 ################################################################
 
 $(FSBUILDER)/fsbuilder.go: 
-	@echo getting fsbuilder source code | ./banner.pl
+	@echo getting fsbuilder source code | ./fold_start.sh $@
 	mkdir -p $(TOP)/src/github.com/falling-sky
 	cd $(TOP)/src/github.com/falling-sky && GOPATH=$(TOP) go get -d "github.com/falling-sky/fsbuilder"
+	@./fold_end.sh $@
 	
 $(FSBUILDER)/fsbuilder: $(FSBUILDER)/fsbuilder.go
-	@echo building fsbuilder | ./banner.pl
+        @echo building fsbuilder | ./fold_start.sh $@
 	cd $(FSBUILDER) && GOPATH=$(TOP) go build
-	
+	@./fold_end.sh $@
 
 fsbuilder: $(FSBUILDER)/fsbuilder
 	cp $(FSBUILDER)/fsbuilder .
