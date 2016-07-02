@@ -2,6 +2,9 @@ language: go
 go:
 - 1.6
 
+git:
+  depth: 1000
+
 before_install:
 - openssl aes-256-cbc -K $encrypted_9171df62ed44_key -iv $encrypted_9171df62ed44_iv
   -in id_travis.enc -out id_travis -d

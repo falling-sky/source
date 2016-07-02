@@ -40,6 +40,7 @@ travis: travis-prep beta
 endif
 
 travis-prep:
+	@echo -en 'travis_fold:start:travis-prep\\r'
 	@echo Travis Prep 2.0 | ./banner.pl
 	@echo TRAVIS_BRANCH=$(TRAVIS_BRANCH)
 	@echo TRAVIS_PULL_REQUEST=$(TRAVIS_PULL_REQUEST)
@@ -55,6 +56,7 @@ travis-prep:
 	git branch
 	git log --oneline | wc -l 
 	git log --oneline
+	@echo -en 'travis_fold:end:travis-prep\\r'
 	
 
 ################################################################
