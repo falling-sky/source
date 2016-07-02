@@ -219,6 +219,17 @@ GIGO.sites_parsed={
   "monitor": "jfesler@gigo.com",
   "reason": ""
  },
+ "test-ipv6.arbor.net": {
+  "site": "test-ipv6.arbor.net",
+  "mirror": true,
+  "hide": false,
+  "v4": "http://ipv4.test-ipv6.arbor.net/images-nc/knob_green.png",
+  "v6": "http://ipv6.test-ipv6.arbor.net/images-nc/knob_green.png",
+  "loc": "US",
+  "provider": "Arbor Networks",
+  "monitor": "Bill Cerveny \u003cadmin@v6research.net\u003e",
+  "reason": ""
+ },
  "test-ipv6.azstarnet.az": {
   "site": "test-ipv6.azstarnet.az",
   "mirror": true,
@@ -261,6 +272,17 @@ GIGO.sites_parsed={
   "loc": "US IL",
   "provider": "vr.org",
   "monitor": "jfesler@gigo.com",
+  "reason": ""
+ },
+ "test-ipv6.cl": {
+  "site": "test-ipv6.cl",
+  "mirror": true,
+  "hide": false,
+  "v4": "http://ipv4.test-ipv6.cl/images-nc/knob_green.png",
+  "v6": "http://ipv6.test-ipv6.cl/images-nc/knob_green.png",
+  "loc": "CL",
+  "provider": "NIC Chile",
+  "monitor": "NIC Chile \u003csoporte@nic.cl\u003e",
   "reason": ""
  },
  "test-ipv6.cmd.net.br": {

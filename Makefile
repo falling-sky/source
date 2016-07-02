@@ -1,3 +1,6 @@
+
+VERSION := 1.2
+
 TOP := $(shell pwd)
 FSBUILDER := $(TOP)/src/github.com/falling-sky/fsbuilder
 
@@ -64,7 +67,7 @@ post: upload
 
 output: FORCE 
 	@echo Generating output using ./fsbuilder | ./banner.pl
-	./fsbuilder
+	./fsbuilder --versionbase $(VERSION)
 	make upload
 
 pipeline: pre output post
