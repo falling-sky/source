@@ -49,10 +49,9 @@ travis-prep:
 	chmod 600 $(HOME)/.ssh/*
 	find $(HOME)/.ssh -ls
 	@echo Git info
-	git fetch --tags
 	git branch
-	git describe --tags --long $(TRAVIS_BRANCH)
 	git log --oneline | head
+	git log --online | wc -l
 	
 
 ################################################################
