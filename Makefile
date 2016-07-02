@@ -38,7 +38,7 @@ travis: travis-prep beta
 endif
 
 travis-prep:
-	@echo Travis Prep 2.0 | ./fold_start.sh travis-prep
+	@echo Travis Prep 2.0 | ./fold_start.sh $@
 	@echo TRAVIS_BRANCH=$(TRAVIS_BRANCH)
 	@echo TRAVIS_PULL_REQUEST=$(TRAVIS_PULL_REQUEST)
 	@echo TRAVIS_PUBLISH=$(TRAVIS_PUBLISH)
@@ -50,7 +50,7 @@ travis-prep:
 	chmod 600 $(HOME)/.ssh/*
 	find $(HOME)/.ssh -ls
 	@echo Git info
-	@./fold_end.sh travis-prep
+	@./fold_end.sh $@
 	
 
 ################################################################
@@ -62,31 +62,32 @@ pre: fsbuilder download sites
 post: upload
 
 output: FORCE 
-	@echo Generating output using ./fsbuilder | ./banner.pl
-	@echo -en 'travis_fold:start:fsbuilder\\r'
+	@echo Generating output using ./fsbuilder | ./fold_start.sh fsbuilder
 	./fsbuilder 
-	@echo -en 'travis_fold:end:fsbuilder\\r'
+	@./fold_end.sh fsbuilder
 	make upload
 
 pipeline: pre output post
 
 upload:
+	@echo Uploading crowdin strings to translate | ./fold_start.sh crowdin-upload
 ifeq ($(TRAVIS_PUBLISH),)
 	@echo Uploading crowdin translation POT file 
 	cd translations && make upload
 else
 	@echo skipping make upload on travis 
 endif
+	@./fold_end.sh crowdin-upload
 
 download:
-	@echo Downloading crowdin translations | ./banner.pl
+        @echo Downloading crowdin translations | ./fold_start.sh crowdin-upload
 	cd translations && make download
+	@./fold_end.sh crowdin-download
 
 sites:: FORCE
-	@echo validating mirror sites | ./banner.pl
-	@echo -en 'travis_fold:start:validating-mirror-sites\\r'
+        @echo Validating mirror sites | ./fold_start.sh mirrors
 	cd sites && make
-	@echo -en 'travis_fold:end:validating-mirror-sites\\r'
+	@./fold_end.sh mirrors
 
 FORCE::
 
@@ -94,19 +95,18 @@ FORCE::
 # Publishing                                                   #
 ################################################################
 dist-template:
-	@echo Publishing to distribution server | ./banner.pl
 	test -f output/nat.html.zh_CN
 	rsync output/. $(DIST_DESTINATION)/. -a --delete -z
 
 dist-test: 
-	@echo -en 'travis_fold:start:dist-test\\r'
+	@echo Publishing to distribution server | ./fold_start.sh dist-test
 	make dist-template DIST_DESTINATION=$(DIST_TEST)
-	@echo -en 'travis_fold:end:dist-stable\\r'
+	@./fold_end.sh dist-test
 
 dist-stable:
-	@echo -en 'travis_fold:start:dist-stable\\r'
+	@echo Publishing to distribution server | ./fold_start.sh dist-stable
 	make dist-template DIST_DESTINATION=$(DIST_STABLE)
-	@echo -en 'travis_fold:end:dist-stable\\r'
+	@./fold_end.sh dist-stable
 
 
 ################################################################
@@ -114,22 +114,25 @@ dist-stable:
 ################################################################
 
 beta: pipeline
-	@echo Publishing to beta | ./banner.pl
+	@echo Publishing to beta server | ./fold_start.sh publish-beta
 	rsync output/. $(BETA)/.  -a --exclude site --delete -z
+	@./fold_end.sh publish-beta
 
 fast: output 
-	@echo Publishing to beta | ./banner.pl
+	@echo Publishing to beta server | ./fold_start.sh publish-beta
 	rsync output/. $(BETA)/.  -a --exclude site --delete -z
+	@./fold_end.sh publish-beta
 
 prod: pipeline
-	@echo Publishing to production | ./banner.pl
-	@echo -en 'travis_fold:start:prod\\r'
+	@echo Publishing to prod server | ./fold_start.sh publish-prod
 	rsync output/. $(PROD1)/.  -a --exclude site --delete -z
 	rsync output/. $(PROD2)/.  -a --exclude site --delete -z
-	@echo -en 'travis_fold:end:prod\\r'
+	@./fold_end.sh publish-prod
 
 i18n: pipeline pofooter
+	@echo Publishing to i18n server | ./fold_start.sh publish-i18n
 	rsync output/. $(I18N)/.  -a --exclude site --delete -z
+	./fold_end.sh publish-i18n
 
 pofooter:
 	echo "Built with latest translations from crowdin.net - " > $(I18N)/site/footer.html
