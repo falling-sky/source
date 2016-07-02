@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2016-06-24 23:00-0400\n"
+"PO-Revision-Date: 2016-06-28 07:00-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Chinese Traditional\n"
 "MIME-Version: 1.0\n"
@@ -168,7 +168,7 @@ msgstr "未檢測到 IPv6 位址"
 
 #: "inc/messages.js"
 msgid "Your IP address(es) could not be detected due to inteference from browser add-ons."
-msgstr "你的IP地址是不能被探測到由於inteference從瀏覽器附加元件。"
+msgstr "由於你使用的瀏覽器附加功能干擾所以無法檢測你的 IP 位址。"
 
 #: "inc/messages.js"
 msgid "The Opera web browser seems to be break on this site frequently. <b>If you have trouble, try another browser</b>."
@@ -176,7 +176,7 @@ msgstr "Opera瀏覽器在這個網站似乎無法正常顯示。 <b>如果遇到
 
 #: "inc/messages.js"
 msgid "<b>Disable turbo mode on Opera, and try again.</b> Turbo mode is not compatible with the needs of this site."
-msgstr "<b>禁用Opera turbo模式,並再試一次。 </b> 開啟Turbo功能無法使用這個網站的檢測功能。"
+msgstr "<b>停用Opera turbo模式，並再試一次。 </b> 開啟Turbo功能無法使用這個網站的檢測功能。"
 
 #: "inc/messages.js"
 msgid "<b>Good news!</b> Your current configuration will continue to work as web sites enable IPv6."
@@ -184,11 +184,11 @@ msgstr "<b>好消息!</b>你目前的網路設定可以在網站啟用IPv6後正
 
 #: "inc/messages.js"
 msgid "<b>Our tests show that you will have a broken or misconfigured IPv6 setup, and this will cause problems as web sites enable IPv6.</b>"
-msgstr "<b>我們的測試表明,你將有損壞或錯誤配置IPv6的設置中,這將導致問題網站啟用IPv6.</b>"
+msgstr "<b>我們的測試顯示你可能有損壞或錯誤的 IPv6 設定，當網站啟用 IPv6 時這將會產生問題。</b>"
 
 #: "inc/messages.js"
 msgid "<b>Our tests show that you may have MTU problems with IPv6; this can cause web sites to load slow (or not at all) when web sites enable IPv6.</b>"
-msgstr "<b>我們的測試表明,你可能與IPv6 MTU問題;這可能會導致網站加載緩慢(或不)當網站啟用IPv6。 </b>"
+msgstr "<b>我們的測試顯示你可能在 IPv6 的 MTU 設定上有問題；當網站啟用 IPv6 時，這可能會造成網站載入緩慢(或不完全)。 </b>"
 
 #: "inc/messages.js"
 msgid "We looked up an IPv6 address, but your DNS server (possibly your home router) mangled the response, and is treating it as (broken) IPv4."
@@ -200,7 +200,7 @@ msgstr "看來你是使用通道技術來連接 IPv4 或 IPv6 。"
 
 #: "inc/messages.js"
 msgid "It appears that you use a managed tunnel mechanism, 6RD, to transport IPv6 over IPv4."
-msgstr "看來你使用通道技術，6RD，透過 IPv4 網路來連線 IPv6 。"
+msgstr "看來你使用有人管理的通道技術，6RD，透過 IPv4 網路來連線 IPv6 。"
 
 #: "inc/messages.js"
 msgid "We have detected that you are using a proxy. This means we are testing your proxy server, not your computer. Proxy details (as reported by your proxy 'Via' header): %details"
@@ -220,7 +220,7 @@ msgstr "我們提供建議來協助您解決您的系統。"
 
 #: "inc/messages.js"
 msgid "Since you have IPv6, we are including a tab that shows how well you can reach other IPv6 sites. %sites"
-msgstr "IPv6以來,我們是其中一個標籤顯示了你如何可以達到其他IPv6網站。 %s網站"
+msgstr "由於你有 IPv6 ，我們有一個網頁可以顯示你對其他 IPv6 網站的連線狀況。%sites"
 
 #: "inc/messages.js"
 msgid "Your browser has real working IPv6 address - but is avoiding using it. We're concerned about this."
@@ -640,15 +640,15 @@ msgstr "<b>您的特定配置是感興趣。</b>我們總是正在努力使test-
 
 #: "main/mail.inc"
 msgid "This form will let you leave a comment, voice concerns, or ask questions. Your test results will be included automatically."
-msgstr "這種形式會讓你留下你的評論，聲音的關注，或問問題。您的測試結果將自動包括在內。"
+msgstr "這個表格可以讓你留言、提出建言或詢問問題。這個表格會自動將你的測試結果附上。"
 
 #: "main/mail.inc"
 msgid "This includes your IP address, which is shared with the site administrator in order to answer your questions."
-msgstr "這包括您的 IP 位址，為了回答你的問題與網站管理員共用。"
+msgstr "為了讓網站管理員回答你的問題，這個資訊包括你的 IP 位址。"
 
 #: "main/mail.inc"
 msgid "Use of this form implies consent."
-msgstr "使用此表單意味著同意。"
+msgstr "使用這個表單代表你同意上述。"
 
 #: "main/mail.inc"
 msgid "<span id=\"comments_faq_link\"></span> (FAQ) page is available for <b>your</b> exact set of results. Please read it before leaving comments; many questions have already been answered. If you still have questions, comments, or concerns, feel freel to use this form."
@@ -656,11 +656,11 @@ msgstr "<span id=\"comments_faq_link\"></span> (FAQ) 頁面，供 <b>您</b> 確
 
 #: "main/mail-language.inc"
 msgid "Please leave your comments using English, if possible."
-msgstr "請留下您的意見，如果可能的話使用英語。"
+msgstr "請留下你的意見，如果可以的話請使用英語。"
 
 #: "main/mail.inc"
 msgid "If reporting a problem with the test, or requesting help with your results, please fill out all requested information to the best of your ability. If leaving general comments, use your best judgement on how much to report."
-msgstr "如果報告測試，有問題或請求説明，你的結果，請填寫所有請求的資訊到最好的你的能力。如果離開了一般性評論，多少報告上使用你的最佳判斷。"
+msgstr "如果是回報關於這項測試的問題，或是需要我們對你的測試結果提供幫助，請盡你所能的填完下面所需的資料。如果只是一般的留言，請盡你所能的留下建議，"
 
 #: "main/mail.inc"
 msgid "Thanks,"
@@ -668,7 +668,7 @@ msgstr "謝謝，"
 
 #: "main/mail.inc"
 msgid "Purpose for comment"
-msgstr "評論的目的"
+msgstr "留言類別"
 
 #: "main/mail.inc"
 msgid "Questions about test results"
@@ -676,7 +676,7 @@ msgstr "有關測試結果的問題"
 
 #: "main/mail.inc"
 msgid "Report a bug with diagnosis"
-msgstr "報告 bug 與診斷"
+msgstr "回報已分析的 bug "
 
 #: "main/mail.inc"
 msgid "Suggestion"
@@ -684,15 +684,15 @@ msgstr "建議"
 
 #: "main/mail.inc"
 msgid "Cheers or Jeers"
-msgstr "歡呼或嘲笑"
+msgstr "致謝或吐槽"
 
 #: "main/mail.inc"
 msgid "Email address if you'll permit me to contact you. <i>Required, if you wish a response.</i>"
-msgstr "如果你允許我與您聯繫，請填寫電子郵件地址。<i>必須填寫，如果你希望回覆。</i>"
+msgstr "如果你允許我與你聯繫，請填寫電子郵件地址。<i>必須填寫項目，如果你希望我回覆。</i>"
 
 #: "main/mail.inc"
 msgid "Any information you think I might find useful (what router you're using, or a firewall in the way, or type of proxy you use, etc). This includes general feedback."
-msgstr "你認為 （您正在使用，哪些路由器或防火牆中的方式或您使用的代理伺服器等類型） 可能有用的任何資訊。這包括一般的回饋資訊。"
+msgstr "請留下任何你認為對我分析問題有幫助的資訊(你所使用的分享器品牌，或是你使用的防火牆，或是你使用的代理伺服器類型...等)。你可以在這邊留下你的評論。"
 
 #: "main/mail.inc"
 msgid "The javascript based test appears to have failed. This may be browser plugin or extension related. Please indicate what browser plugins and extenions you have enabled in this browser."
@@ -704,7 +704,7 @@ msgstr "如果你是技術一竅不通的人請剪切/粘貼以下命令的輸�
 
 #: "main/mail.inc"
 msgid "Copy the output from those commands, into the box below. This will help me confirm/deny any theories relating to your question."
-msgstr "將輸出從命令，這些命令複製到下面的框。這將説明我確認否認任何有關您的問題的理論。"
+msgstr "將螢幕上顯示的資訊複製到下面的空格。這可以協助我確認或排除你遇到的問題。"
 
 #: "main/mail.inc"
 msgid "If you are technically minded, please open a \"Command Prompt\" or \"cmd\" window, and run these three commands:"
@@ -736,7 +736,7 @@ msgstr "在大多數電腦上，您可以按右鍵上面的 URL，並選擇 '複
 
 #: "inc/sites.inc"
 msgid "<b>Because you have IPv6</b>, we've added this tab to show you whether or not you can reach other IPv6 web sites on the Internet. Consider notifying your ISP, if there are sites that show up as broken. If you are the ISP, you can click the Info link to see what test URLs are being used."
-msgstr "<b>由於你已經啟用了 IPv6 </b>，我們在這個頁面上增加了一些圖示讓你了解你可以連線到哪些 IPv6 網站。如果有些網站顯示錯誤，請考慮通知你的 ISP 。如果你是 ISP，可以點選 info 圖示來了解我們使用哪些 url 進行測試。"
+msgstr "<b>由於你已經啟用了 IPv6 </b>，我們為你新增了這個頁面示讓你了解你可以連線到哪些 IPv6 網站。如果有些網站顯示錯誤，請考慮通知你的 ISP 。如果你是 ISP，可以點選 info 圖示來了解我們使用哪些 url 進行測試。"
 
 #: "inc/sites.inc"
 msgid "<b>Hint</b>: Columns are sortable (click the first row); <a href=\"#\" onclick=\"GIGO.test_sites(2); return false;\">click here</a> to re-check reachability from where you are to those mirrors."
@@ -1754,11 +1754,11 @@ msgstr "6to4 test-ipv6.com 意見"
 
 #: "faq_6to4.html"
 msgid "The ugly bits"
-msgstr "醜位"
+msgstr "缺點"
 
 #: "faq_6to4.html"
 msgid "The good bits"
-msgstr "好位"
+msgstr "優點"
 
 #: "faq_6to4.html"
 msgid "6to4 is a technology that allows you to use your existing Internet provider (with only IPv4), to access the IPV6 Internet. It does this by putting IPv6 packets inside IPv4 packets, and with the help of some friendly folks on the Internet. (The specification of this is in <a href=\"http://www.ietf.org/rfc/rfc3056.txt\">rfc3056</a>.)"
@@ -2418,7 +2418,7 @@ msgstr "<b>如果你並不受上述，做 web 搜索。</b>。當你學會什麼
 
 #: "attributions.html"
 msgid "This site would not exist without the following components and resources."
-msgstr "本網站將不存在，不用在下面的元件和資源。"
+msgstr "如果沒有下面這些組件跟資源，我們沒有辦法建立這個網站。"
 
 #: "faq_buggydns1.html"
 msgid "FAQ on \"Buggy DNS\""

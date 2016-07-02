@@ -38,8 +38,7 @@ travis: travis-prep beta
 endif
 
 travis-prep:
-	@echo Travis Prep 2.0 | ./banner.pl
-	@echo -en 'travis_fold:start:travis-prep\\r'
+	@echo Travis Prep 2.0 | ./fold_start.sh travis-prep
 	@echo TRAVIS_BRANCH=$(TRAVIS_BRANCH)
 	@echo TRAVIS_PULL_REQUEST=$(TRAVIS_PULL_REQUEST)
 	@echo TRAVIS_PUBLISH=$(TRAVIS_PUBLISH)
@@ -51,7 +50,7 @@ travis-prep:
 	chmod 600 $(HOME)/.ssh/*
 	find $(HOME)/.ssh -ls
 	@echo Git info
-	@echo -en 'travis_fold:end:travis-prep\\r'
+	@./fold_end.sh travis-prep
 	
 
 ################################################################
