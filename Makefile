@@ -51,7 +51,7 @@ travis-prep:
 	@echo Git info
 	git fetch --tags
 	git branch
-	git describe --tags --long
+	git describe --tags --long $(TRAVIS_BRANCH)
 	git log --oneline | head
 	
 
