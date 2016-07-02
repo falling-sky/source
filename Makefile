@@ -53,8 +53,8 @@ travis-prep:
 	find $(HOME)/.ssh -ls
 	@echo Git info
 	git branch
-	git log --oneline | head
-	git log --online | wc -l
+	git log --oneline | wc -l 
+	git log --oneline
 	
 
 ################################################################
