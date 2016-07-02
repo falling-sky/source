@@ -80,12 +80,12 @@ endif
 	@./fold_end.sh crowdin-upload
 
 download:
-        @echo Downloading crowdin translations | ./fold_start.sh crowdin-upload
+	@echo Downloading crowdin translations | ./fold_start.sh crowdin-upload
 	cd translations && make download
 	@./fold_end.sh crowdin-download
 
 sites:: FORCE
-        @echo Validating mirror sites | ./fold_start.sh mirrors
+	@echo Validating mirror sites | ./fold_start.sh mirrors
 	cd sites && make
 	@./fold_end.sh mirrors
 
