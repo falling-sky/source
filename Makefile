@@ -53,9 +53,11 @@ travis-prep:
 	chmod 600 $(HOME)/.ssh/*
 	find $(HOME)/.ssh -ls
 	@echo Git info
+	git fetch --unshallow
 	git branch
 	git log --oneline | wc -l 
 	git log --oneline
+	git describe --tags --long
 	@echo -en 'travis_fold:end:travis-prep\\r'
 	
 
