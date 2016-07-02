@@ -21,19 +21,19 @@ endif
 # Upload and Download                                          #
 ################################################################
 
-upload:
+crowdin-upload:
 ifeq ($(PUBLISH),true)
 	$(CROWDIN) upload sources --auto-update
 else
 	echo make download skipped on this host
 endif
 
-download:
+crowdin-download:
 ifeq ($(PUBLISH),true)
 	curl --silent  "http://api.crowdin.net/api/project/falling-sky/export?key=$(API_KEY)" >/dev/null
 	wget -O all.zip  "http://api.crowdin.net/api/project/falling-sky/download/all.zip?key=$(API_KEY)"
 	rm -fr dl
 	unzip -q -d dl all.zip
 else
-	echo make download skipped on this host
+	echo make crowdin-download skipped on this host
 endif
