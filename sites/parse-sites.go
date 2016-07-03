@@ -19,6 +19,7 @@ var parsed = flag.String("parsed", "../templates/js/sites_parsed.js", "GIGO.site
 var raw = flag.String("raw", "../templates/js/sites_parsed_raw.js", "js file to write for other automation")
 var validator = flag.String("validator", "http://validator.test-ipv6.com/urlvalidate.cgi", "use this service to validate a url, instead of fetching directly")
 var slow = flag.Duration("slow",time.Second * 8,"time to consider a lookup 'slow'")
+var minimumCount = flag.Int("minimum",0,"Minimum number of sites that must answer, else fail")
 
 // SiteRecord describes a single mirror or "Other Sites" record
 type SiteRecord struct {
@@ -137,6 +138,16 @@ func (sf *SitesFile) DeleteHidden() error {
 	}
 	return nil
 }
+func (sf *SitesFile) CountRemaining() error {
+	if *minimumCount < 1 {
+		return nil
+	}
+	c := len(sf.Sites)
+	if c < *minimumCount {
+		return fmt.Errorf("Too few sites (%v) validated, wanted %v.  Fix errors or lower --minimum.",c,*minimumCount)
+	}
+	return nil
+}
 
 func CheckHTTP(urlString string) error {
 
@@ -250,10 +261,19 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
-	sf.FixDefaults()
-	sf.CheckHTTP()
-
-	sf.DeleteHidden()
+	sf.FixDefaults() // Fix the v4 and v6 test urls if blank
+	sf.DeleteHidden() // First pass cleanup, stuff humans marked hide
+	
+	log.Printf("Checking %v sites\n",len(sf.Sites))
+	
+	sf.CheckHTTP() // Do active checks against the v4 and v6 test urls
+	sf.DeleteHidden() // Second pass cleanup, stuff CheckHTTP marked hide
+	 
+	log.Printf("After checking, %v sites remain\n",len(sf.Sites))
+	
+	if err= sf.CountRemaining(); err!=nil {
+		log.Fatal(err)
+	}
 
 	err = sf.Sites.WriteJS(*parsed, "GIGO.sites_parsed=", ";")
 	if err != nil {
