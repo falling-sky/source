@@ -1,5 +1,4 @@
 TOP := $(shell pwd)
-CROWDIN := /usr/local/bin/crowdin-cli
 
 #################################################################
 # Parse API key from crowdin.yaml (not robust, but good enough) #
@@ -23,7 +22,7 @@ endif
 
 crowdin-upload:
 ifeq ($(PUBLISH),true)
-	$(CROWDIN) upload sources --auto-update
+	java -jar ../support/crowdin-cli.jar upload sources --auto-update
 else
 	echo make download skipped on this host
 endif

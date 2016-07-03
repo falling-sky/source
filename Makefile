@@ -71,7 +71,7 @@ pipeline: pre output post
 
 crowdin-upload:
 	@echo Uploading crowdin strings to translate | ./support/fold_start.sh $@
-ifeq ($(TRAVIS_PUBLISH),)
+ifeq ($(TRAVIS_PUBLISH),true)
 	@echo Uploading crowdin translation POT file 
 	cd translations && make crowdin-upload
 else
