@@ -38,7 +38,7 @@ travis: travis-prep beta
 endif
 
 travis-prep:
-	@echo Travis Prep 2.0 | ./fold_start.sh $@
+	@echo Travis Prep 2.0 | ./support/fold_start.sh $@
 	@echo TRAVIS_BRANCH=$(TRAVIS_BRANCH)
 	@echo TRAVIS_PULL_REQUEST=$(TRAVIS_PULL_REQUEST)
 	@echo TRAVIS_PUBLISH=$(TRAVIS_PUBLISH)
@@ -50,7 +50,7 @@ travis-prep:
 	chmod 600 $(HOME)/.ssh/*
 	find $(HOME)/.ssh -ls
 	@echo Git info
-	@./fold_end.sh $@
+	@./support/fold_end.sh $@
 	
 
 ################################################################
@@ -62,32 +62,32 @@ pre: fsbuilder crowdin-download sites
 post: crowdin-upload
 
 output: FORCE 
-	@echo Generating output using ./fsbuilder | ./fold_start.sh $@
+	@echo Generating output using ./fsbuilder | ./support/fold_start.sh $@
 	./fsbuilder 
-	@./fold_end.sh $@
+	@./support/fold_end.sh $@
 	make crowdin-upload
 
 pipeline: pre output post
 
 crowdin-upload:
-	@echo Uploading crowdin strings to translate | ./fold_start.sh $@
+	@echo Uploading crowdin strings to translate | ./support/fold_start.sh $@
 ifeq ($(TRAVIS_PUBLISH),)
 	@echo Uploading crowdin translation POT file 
 	cd translations && make crowdin-upload
 else
 	@echo skipping make crowdin-upload on travis 
 endif
-	@./fold_end.sh $@
+	@./support/fold_end.sh $@
 
 crowdin-download:
-	@echo Downloading crowdin translations | ./fold_start.sh $@
+	@echo Downloading crowdin translations | ./support/fold_start.sh $@
 	cd translations && make crowdin-download
-	@./fold_end.sh $@
+	@./support/fold_end.sh $@
 
 sites:: FORCE
-	@echo Validating mirror sites | ./fold_start.sh $@
+	@echo Validating mirror sites | ./support/fold_start.sh $@
 	cd sites && make
-	@./fold_end.sh $@
+	@./support/fold_end.sh $@
 
 FORCE::
 
@@ -99,14 +99,14 @@ dist-template:
 	rsync output/. $(DIST_DESTINATION)/. -a --delete -z
 
 dist-test: 
-	@echo Publishing to distribution server | ./fold_start.sh $@
+	@echo Publishing to distribution server | ./support/fold_start.sh $@
 	make dist-template DIST_DESTINATION=$(DIST_TEST)
-	@./fold_end.sh $@
+	@./support/fold_end.sh $@
 
 dist-stable:
-	@echo Publishing to distribution server | ./fold_start.sh $@
+	@echo Publishing to distribution server | ./support/fold_start.sh $@
 	make dist-template DIST_DESTINATION=$(DIST_STABLE)
-	@./fold_end.sh $@
+	@./support/fold_end.sh $@
 
 
 ################################################################
@@ -114,25 +114,25 @@ dist-stable:
 ################################################################
 
 beta: pipeline
-	@echo Publishing to beta server | ./fold_start.sh $@
+	@echo Publishing to beta server | ./support/fold_start.sh $@
 	rsync output/. $(BETA)/.  -a --exclude site --delete -z
-	@./fold_end.sh $@
+	@./support/fold_end.sh $@
 
 fast: output 
-	@echo Publishing to beta server | ./fold_start.sh $@
+	@echo Publishing to beta server | ./support/fold_start.sh $@
 	rsync output/. $(BETA)/.  -a --exclude site --delete -z
-	@./fold_end.sh $@
+	@./support/fold_end.sh $@
 
 prod: pipeline
-	@echo Publishing to prod server | ./fold_start.sh $@
+	@echo Publishing to prod server | ./support/fold_start.sh $@
 	rsync output/. $(PROD1)/.  -a --exclude site --delete -z
 	rsync output/. $(PROD2)/.  -a --exclude site --delete -z
-	@./fold_end.sh $@
+	@./support/fold_end.sh $@
 
 i18n: pipeline pofooter
-	@echo Publishing to i18n server | ./fold_start.sh $@
+	@echo Publishing to i18n server | ./support/fold_start.sh $@
 	rsync output/. $(I18N)/.  -a --exclude site --delete -z
-	./fold_end.sh $@
+	./support/fold_end.sh $@
 
 pofooter:
 	echo "Built with latest translations from crowdin.net - " > $(I18N)/site/footer.html
@@ -150,15 +150,15 @@ dist: stable
 ################################################################
 
 $(FSBUILDER)/fsbuilder.go: 
-	@echo getting fsbuilder source code | ./fold_start.sh $@
+	@echo getting fsbuilder source code | ./support/fold_start.sh $@
 	mkdir -p $(TOP)/src/github.com/falling-sky
 	cd $(TOP)/src/github.com/falling-sky && GOPATH=$(TOP) go get -d "github.com/falling-sky/fsbuilder"
-	@./fold_end.sh $@
+	@./support/fold_end.sh $@
 	
 $(FSBUILDER)/fsbuilder: $(FSBUILDER)/fsbuilder.go
-	@echo building fsbuilder | ./fold_start.sh $@
+	@echo building fsbuilder | ./support/fold_start.sh $@
 	cd $(FSBUILDER) && GOPATH=$(TOP) go build
-	@./fold_end.sh $@
+	@./support/fold_end.sh $@
 
 fsbuilder: $(FSBUILDER)/fsbuilder
 	cp $(FSBUILDER)/fsbuilder .
