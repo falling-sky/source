@@ -8,7 +8,9 @@ before_install:
 - openssl aes-256-cbc -K $encrypted_3ce59779d3a2_key -iv $encrypted_3ce59779d3a2_iv
   -in translations/crowdin.yaml.enc -out translations/crowdin.yaml -d
 - sudo apt-get update -q
-- sudo apt-get install -y perl make tidy openjdk-8-jre-headless java-common ca-certificates-java    
+- sudo apt-get install -y perl make tidy 
+- sudo apt-cache search openjdk | grep head
+#openjdk-8-jre-headless java-common ca-certificates-java    
 - git fetch --unshallow
 
 script:
