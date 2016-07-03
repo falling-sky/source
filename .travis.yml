@@ -1,19 +1,16 @@
 language: go
 go:
 - 1.6
-
 before_install:
+- openssl aes-256-cbc -K $encrypted_3ce59779d3a2_key -iv $encrypted_3ce59779d3a2_iv
+  -in crowdin.yaml.enc -out crowdin.yaml -d
 - openssl aes-256-cbc -K $encrypted_9171df62ed44_key -iv $encrypted_9171df62ed44_iv
   -in id_travis.enc -out id_travis -d
-- openssl aes-256-cbc -K $encrypted_3ce59779d3a2_key -iv $encrypted_3ce59779d3a2_iv
-  -in translations/crowdin.yaml.enc -out translations/crowdin.yaml -d
 - sudo apt-get update -q
 - sudo apt-get install -y perl make tidy default-jre-headless
 - git fetch --unshallow
-
 script:
 - make travis
-
 notifications:
   recipients:
   - jfesler@gigo.com
