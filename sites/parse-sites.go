@@ -250,6 +250,7 @@ func (sf *SitesFile) CheckHTTP() {
 		if sr.Hide == false {
 			wg.Add(1)
 			go sr.CheckHTTP(wg)
+			time.Sleep(20 * time.Millisecond)
 		}
 	}
 	wg.Wait()
