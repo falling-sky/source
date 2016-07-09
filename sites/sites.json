@@ -750,7 +750,7 @@
          "loc" : "CL",
          "mirror" : true,
          "monitor" : "javier campos <javiersource@gmail.com>",
-         "provider" : "Datacenter Orbyta",
+         "provider" : "Orbyta S.A.",
          "v4" : "http://ipv4.test-ipv6.orbyta.com/images-nc/knob_green.png",
          "v6" : "http://ipv6.test-ipv6.orbyta.com/images-nc/knob_green.png"
       }
