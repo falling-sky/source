@@ -33,6 +33,7 @@ ifeq ($(PUBLISH),true)
 	wget -O all.zip  "http://api.crowdin.net/api/project/falling-sky/download/all.zip?key=$(API_KEY)"
 	rm -fr dl
 	unzip -q -d dl all.zip
+	for x in `find dl/ -type d`; do cp README.md $$x/ ; done
 else
 	echo make crowdin-download skipped on this host
 endif
