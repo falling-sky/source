@@ -318,6 +318,17 @@ GIGO.sites_parsed={
   "monitor": "",
   "reason": ""
  },
+ "test-ipv6.com.au": {
+  "site": "test-ipv6.com.au",
+  "mirror": true,
+  "hide": false,
+  "v4": "http://ipv4.test-ipv6.com.au/images-nc/knob_green.png",
+  "v6": "http://ipv6.test-ipv6.com.au/images-nc/knob_green.png",
+  "loc": "AU",
+  "provider": "Futzle Industries",
+  "monitor": "Deborah Pickett \u003ctest-ipv6@dp.futzle.com\u003e",
+  "reason": ""
+ },
  "test-ipv6.cz": {
   "site": "test-ipv6.cz",
   "mirror": true,
@@ -327,28 +338,6 @@ GIGO.sites_parsed={
   "loc": "CZ",
   "provider": "nic.cz",
   "monitor": "NOC NIC \u003cnoc@nic.cz\u003e",
-  "reason": ""
- },
- "test-ipv6.ernet.in": {
-  "site": "test-ipv6.ernet.in",
-  "mirror": true,
-  "hide": false,
-  "v4": "http://ipv4.test-ipv6.ernet.in/images-nc/knob_green.png",
-  "v6": "http://ipv6.test-ipv6.ernet.in/images-nc/knob_green.png",
-  "loc": "IN",
-  "provider": "IPv6 Division of ERNET India",
-  "monitor": "Praveen Misra \u003cpraveen@ipv6.ernet.in\u003e",
-  "reason": ""
- },
- "test-ipv6.fratec.net": {
-  "site": "test-ipv6.fratec.net",
-  "mirror": true,
-  "hide": false,
-  "v4": "http://ipv4.test-ipv6.fratec.net/images-nc/knob_green.png",
-  "v6": "http://ipv6.test-ipv6.fratec.net/images-nc/knob_green.png",
-  "loc": "CR",
-  "provider": "Sistemas Fratec S.A.",
-  "monitor": "Jorge Frater \u003cjfrater@fratec.com\u003e",
   "reason": ""
  },
  "test-ipv6.go6.si": {
@@ -591,17 +580,6 @@ GIGO.sites_parsed={
   "loc": "BR",
   "provider": "Algar Telecom / CTBC",
   "monitor": "",
-  "reason": ""
- },
- "www.duiadns.net": {
-  "site": "www.duiadns.net",
-  "mirror": false,
-  "hide": false,
-  "v4": "http://ipv4.duiadns.net/1x1.gif",
-  "v6": "http://ipv6.duiadns.net/1x1.gif",
-  "loc": "NL",
-  "provider": "Duiadns",
-  "monitor": "Liviu Pislaru \u003cliviu.pislaru@duiadns.net\u003e",
   "reason": ""
  },
  "www.excathedra.co": {
