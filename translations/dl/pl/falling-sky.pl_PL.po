@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2016-06-28 07:00-0400\n"
+"PO-Revision-Date: 2016-07-21 00:28-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Polish\n"
 "MIME-Version: 1.0\n"
@@ -1838,7 +1838,7 @@ msgstr ""
 msgid "Ran by Hurricane Electric. The author of test-ipv6.com has used their services for 2-3 years; and would notice latency problems (lots of interactive SSH use from home to the server). This service requires a static IPv4 address (or static enough - you can always go to the tunnelbroker.net site and update your IP). Lastly, tunnelbroker is fully automated - you can sign up, get your tunnel assignment immediately, and configure your end."
 msgstr ""
 
-#: "faq_6to4.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "is another popular service. I see many European users using this service significantly; though their footprint is global. They work with dynamic IPs with some custom software that they provide."
 msgstr ""
 
@@ -2002,7 +2002,7 @@ msgstr ""
 msgid "ISC BIND: Make sure that IPv6 support is compiled in when you ./configure it. It is enabled by default. If you recently added IPv6 to your server, simply restart your named process, as you normally would."
 msgstr ""
 
-#: "faq_v6ns_bad.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "PowerDNS: Enable <code>aaaa-additional-processing</code> and configure <code>query-local-address6</code> in your <code>recursor.conf</code>. Restart powerdns."
 msgstr ""
 
@@ -2716,5 +2716,9 @@ msgstr ""
 
 #: "inc/footer.inc"
 msgid "percenttranslated"
+msgstr ""
+
+#: "faq_v6ns_bad.html"
+msgid "PowerDNS: Configure <code>query-local-address6</code> in your <code>recursor.conf</code>. Restart powerdns."
 msgstr ""
 

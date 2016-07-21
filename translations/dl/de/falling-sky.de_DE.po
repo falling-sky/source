@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2016-06-28 07:00-0400\n"
+"PO-Revision-Date: 2016-07-21 00:28-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: German\n"
 "MIME-Version: 1.0\n"
@@ -36,27 +36,27 @@ msgstr "Zeitüberschreitung"
 
 #: "inc/messages.js"
 msgid "Connections to urls with IP addresses appear to be blocked; perhaps by a web filter such as 'NoScript' or 'RequestPolicy' installed into your browser, or filtering in your proxy server. This limits some of the functionality of this test site."
-msgstr "Verbindungen zu URLs, welche IP Adressen beinhalten, wurden blockiert, evtl. von einem Webfilter wie 'NoScript' oder 'RequestPolicy' in Ihrem Browser oder durch einen Filter in ihrem Proxyserver. Dies schränkt die Funktionalität dieser Testseite ein."
+msgstr "Verbindungen zu URLs, welche IP-Adressen beinhalten, wurden blockiert, evtl. von einem Webfilter wie 'NoScript' oder 'RequestPolicy' in Ihrem Browser oder durch einen Filter in ihrem Proxyserver. Dies schränkt die Funktionalität dieser Testseite ein."
 
 #: "inc/messages.js"
 msgid "IPv4 Connections using DNS work; but literal IP addresses in urls do not. These are rarely used on the web today."
-msgstr "IPv4 Verbindungen unter Verwendung von DNS funktionieren; Verbindungen zu URLs, welche IP-Adressen beinhalten, funktionieren nicht. Diese URLs werden heute selten eingesetzt."
+msgstr "IPv4-Verbindungen unter Verwendung von DNS funktionieren; Verbindungen zu URLs, welche IP-Adressen beinhalten, funktionieren nicht. Diese URLs werden heute selten eingesetzt."
 
 #: "inc/messages.js"
 msgid "IPv6 Connections using DNS work; but literal IP addresses in urls do not. These are rarely used on the web today."
-msgstr "IPv6 Verbindungen unter Verwendung von DNS funktionieren; Verbindungen zu URLs, welche IP-Adressen beinhalten, funktionieren nicht. Diese URLs werden heute selten eingesetzt."
+msgstr "IPv6-Verbindungen unter Verwendung von DNS funktionieren; Verbindungen zu URLs, welche IP-Adressen beinhalten, funktionieren nicht. Diese URLs werden heute selten eingesetzt."
 
 #: "inc/messages.js"
 msgid "You appear to be using a public 6to4 gateway; your router may be providing this to you automatically. Such public gateways have no service level agreements; you may see performance problems using such. Better would be to get a native IPv6 address from your ISP."
-msgstr "Es scheint, dass Sie ein öffentliches 6to4 Gateway benutzen; Ihr Router stellt diese Funktion möglicherweise automatisch bereit. Diese öffentlichen Gateways bieten jedoch keine optimale Qualität, und es kann sein, dass Performanceprobleme auftauchen. Die beste Lösung wäre, native IPv6-Konnektivität von Ihrem ISP zu beziehen."
+msgstr "Es scheint, dass Sie ein öffentliches 6to4-Gateway benutzen; Ihr Router stellt diese Funktion möglicherweise automatisch bereit. Diese öffentlichen Gateways bieten jedoch keine optimale Qualität, und es kann sein, dass Performanceprobleme auftauchen. Die beste Lösung wäre, native IPv6-Konnektivität von Ihrem ISP zu beziehen."
 
 #: "inc/messages.js"
 msgid "Your IPv6 connection appears to be using Teredo, a type of IPv4/IPv6 translation using a public gateway. The quality for this <i>may</i> suffer, as you are using a public gateway to reach IPv6 based sites."
-msgstr "Es scheint Sie benutzen Teredo um eine IPv6 Verbindung herzustellen. Teredo ist eine Technik zur IPv4/IPv6 Übersetzung durch Benutzung eines öffentlichen Gateways. Die Verbindungsqualität <i>kann</i> eingeschränkt sein. Sie hängt von der Qualität des benutzten öffentlichen Gateways ab."
+msgstr "Es scheint Sie benutzen Teredo um eine IPv6-Verbindung herzustellen. Teredo ist eine Technik zur IPv4/IPv6-Übersetzung durch Benutzung eines öffentlichen Gateways. Die Verbindungsqualität <i>kann</i> eingeschränkt sein. Sie hängt von der Qualität des benutzten öffentlichen Gateways ab."
 
 #: "inc/messages.js"
 msgid "Your IPv6 connection appears to be using Teredo, a type of IPv4/IPv6 gateway; currently it connects only to direct IP's. Your browser will not be able to go to IPv6 sites by name. This means the current configuration is not useful for browsing IPv6 web sites."
-msgstr "Es scheint Sie benutzen Teredo um eine IPv6 Verbindung herzustellen. Teredo ist eine Technik zur IPv4/IPv6 Übersetzung durch Benutzung eines öffentlichen Gateways. In der aktuellen Konfiguration verbindet sich Teredo jedoch nur direkt via IP Adressen. Ihr Browser ist nicht in der Lage IPv6 Seiten via Namen aufzurufen. Das bedeutet die aktuelle Konfiguration ist nicht nutzbar um IPv6 Webseiten aufzurufen."
+msgstr "Es scheint Sie benutzen Teredo um eine IPv6-Verbindung herzustellen. Teredo ist eine Technik zur IPv4/IPv6-Übersetzung durch Benutzung eines öffentlichen Gateways. In der aktuellen Konfiguration verbindet sich Teredo jedoch nur direkt via IP Adressen. Ihr Browser ist nicht in der Lage IPv6 Seiten via Namen aufzurufen. Das bedeutet die aktuelle Konfiguration ist nicht nutzbar um IPv6 Webseiten aufzurufen."
 
 #: "inc/messages.js"
 msgid "Your IPv6 connection appears to be using Teredo, a type of IPv4/IPv6 gateway. Your particular teredo configuration is only used as a protocol of last resort. When visiting a site with both IPv4 and IPv6, IPv4 will be preferred."
@@ -64,7 +64,7 @@ msgstr "Die IPv6-Verbindung verwendet Teredo, eine Art von IPv4/IPv6-Gateway. Ih
 
 #: "inc/messages.js"
 msgid "Danger! IPv6 sorta works - however, large packets appear to fail, giving the appearance of a broken website. If a publisher publishes to IPv6, you will believe their web site to be broken. Ask your ISP about MTU issues; possibly with your tunnel."
-msgstr "Achtung! IPv6 funktioniert mehr oder weniger - jedoch können keine grossen Pakete übertragen werden. Das führt dazu, dass Webseiten welche via IPv6 erreichbar sind, nicht richtig geladen werden können oder lange Wartezeiten entstehen. Fragen Sie bei Ihrem ISP betreffend MTU Probleme nach, evtl. bezüglich Ihres Tunnels."
+msgstr "Achtung! IPv6 funktioniert mehr oder weniger - jedoch können keine grossen Pakete übertragen werden. Das führt dazu, dass Webseiten welche via IPv6 erreichbar sind, nicht richtig geladen werden können oder lange Wartezeiten entstehen. Fragen Sie bei Ihrem ISP betreffend MTU-Probleme nach, evtl. bezüglich Ihres Tunnels."
 
 #: "inc/messages.js"
 msgid "Check your firewall to make sure that ICMPv6 messages are allowed (in particular, Type 2 or Packet Too Big)."
@@ -72,11 +72,11 @@ msgstr "Überprüfen Sie Ihre Firewall, um sicherzustellen, dass ICMPv6-Nachrich
 
 #: "inc/messages.js"
 msgid "Test results inconclusive; they were not consistent with expectations. Please rerun the test, and if the results are the same, please fill out the contact form."
-msgstr "Testergebnisse lassen keine Rückschlüsse auf die Qualität Ihrer Internetverbindung zu. Die Testergebnisse entsprechen nicht den Erwartungen. Bitte führen Sie den Test erneut durch. Falls der Test zum selben Ergebnis führt, kontaktieren Sie bitte via das Kontaktformular."
+msgstr "Testergebnisse lassen keine Rückschlüsse auf die Qualität Ihrer Internetverbindung zu. Die Testergebnisse entsprechen nicht den Erwartungen. Bitte führen Sie den Test erneut durch. Falls der Test zum selben Ergebnis führt, kontaktieren Sie uns bitte per Kontaktformular."
 
 #: "inc/messages.js"
 msgid "For unknown reasons, your browser appears to operate slower when given the option of connecting to both IPv4 and IPv6. Please rerun the test, and if the results are the same, please fill out the contact form."
-msgstr "Aus unbekannten Gründen scheint Ihr Webbrowser langsamer zu arbeiten wenn die Möglichkeit besteht eine Webseite sowohl via IPv4 als auch IPv6 zu laden. Bitte führen Sie den Test erneut durch. Falls der Test zum selben Ergebnis führt, kontaktieren Sie bitte via das Kontaktformular."
+msgstr "Aus unbekannten Gründen scheint Ihr Webbrowser langsamer zu arbeiten wenn die Möglichkeit besteht eine Webseite sowohl via IPv4 als auch IPv6 zu laden. Bitte führen Sie den Test erneut durch. Falls der Test zum selben Ergebnis führt, kontaktieren Sie uns bitte per Kontaktformular."
 
 #: "inc/messages.js"
 msgid "You appear to be able to browse the IPv4 Internet only. You will not be able to reach IPv6-only sites."
@@ -96,15 +96,15 @@ msgstr "Wenn Inhalte sowohl via IPv4 als auch via IPv6 verfügbar sind, kann Ihr
 
 #: "inc/messages.js"
 msgid "Connections to IPv4 are slow, but functional. Perhaps you or your ISP put you behind an IP sharing device (NAT) that is currently slow."
-msgstr "Verbindungen via IPv4 funktionieren, sind jedoch langsam. Eventuell stell Ihr ISP Ihre IPv4 Verbindung über ein NAT zur Verfügung, welches zurzeit überlastet ist."
+msgstr "Verbindungen via IPv4 funktionieren, sind jedoch langsam. Eventuell stellt Ihr ISP Ihre IPv4-Verbindung über ein NAT zur Verfügung, welches zurzeit überlastet ist."
 
 #: "inc/messages.js"
 msgid "You appear to be able to browse the IPv6 Internet only. You have no access to IPv4. That's pretty bold!"
-msgstr "Es scheint als könnten Sie nur IPv6 Internetverbindungen herstellen. Das ist durchaus mutig :-)"
+msgstr "Es scheint als könnten Sie nur IPv6-Internetverbindungen herstellen. Das ist durchaus mutig :-)"
 
 #: "inc/messages.js"
 msgid "Connections to IPv6 are slow, but functional. Perhaps you are using a public IPv6 tunnel that is either slow, or not located near you."
-msgstr "IPv6 Verbindungen sind langsam, funktionieren jedoch. Evtl. benutzen Sie einen Tunneldienst welcher zurzeit langsam oder nicht in Ihrer Nähe terminiert ist."
+msgstr "IPv6-Verbindungen sind langsam, funktionieren jedoch. Evtl. benutzen Sie einen Tunneldienst welcher zurzeit langsam oder nicht in Ihrer Nähe terminiert ist."
 
 #: "inc/messages.js"
 msgid "Connections to IPv6-only sites are timing out. Any web site that is IPv6 only, will appear to be down to you."
@@ -112,7 +112,7 @@ msgstr "Verbindungen zu Inhalten welche nur via IPv6 erreichbar sind, resultiere
 
 #: "inc/messages.js"
 msgid "Connections to IPv6-capable web sites hang. It appears that you may have IPv6 configured; and your computer believes that your IPv6 is working, with a route. It is however completely failing. Any web site that adds IPv6, will become unreachable to you. If you are unable to fix your IPv6 routing or connectivity, seek help. If all else fails, strongly consider disabling IP6 on host."
-msgstr "Verbindungen zu IPv6 fähigen Webseiten funktionieren nicht. Es scheint als wäre eine IPv6 Konfiguration vorhanden und Ihr Computer glaubt diese Konfiguration funktioniert. Dies ist jedoch nicht der Fall. Alle IPv6 fähigen Webseiten werden für Sie unerreichbar sein. Falls Sie Ihre IPv6 Verbindung oder Ihr IPv6 Routing nicht reparieren können, suchen Sie sich Hilfe. Falls alle Lösungsversuche fehlschlagen sollten Sie IPv6 auf Ihrem Computer komplett deaktivieren."
+msgstr "Verbindungen zu IPv6-fähigen Webseiten funktionieren nicht. Es scheint als wäre eine IPv6-Konfiguration vorhanden und Ihr Computer glaubt, das diese Konfiguration funktioniert. Dies ist jedoch nicht der Fall. Alle IPv6-fähigen Webseiten werden für Sie unerreichbar sein. Falls Sie Ihre IPv6-Verbindung oder Ihr IPv6-Routing nicht reparieren können, suchen Sie sich Hilfe. Falls alle Lösungsversuche fehlschlagen, sollten Sie IPv6 auf Ihrem Computer komplett deaktivieren."
 
 #: "inc/messages.js"
 msgid "We are unable to test your system; it appears that a firewall or browser filter is preventing the test from running. Critical tests are failing. Try disabling any browser plugins, extensions, or add-ons (such as ad blockers); and reloading this page. If that still fails, you can leave a comment requesting help."
@@ -124,19 +124,19 @@ msgstr "Wir können Ihr System nicht testen. Eine Firewall oder ein Filter in Ih
 
 #: "inc/messages.js"
 msgid "Your browser is blocking the test urls. We will try alternate methods, but they may fail to show your IP address; and may affect the quality of the advice given."
-msgstr "Ihr Webbrowser blockiert die Test Links. Wir versuchen alternative Methoden, diese können evtl. Ihre IP-Adresse nicht ermitteln und die Qualität der Ratschläge beeinflussen."
+msgstr "Ihr Webbrowser blockiert die Test-URLs. Wir versuchen alternative Methoden, diese können evtl. Ihre IP-Adresse nicht ermitteln und die Qualität der Ratschläge beeinflussen."
 
 #: "inc/messages.js"
 msgid "The most likely cause is NoScript or AdBlock+. NoScript can be told to permit all scripts on this page (you may need to do this more than once). At minimum, permit the urls listed below."
-msgstr "Die wahrscheinlichste Ursache ist NoScript oder AdBlock+. NoScript kann so konfiguriert werden, dass alle Skripte dieser Seite ausgeführt werden dürfen (Sie müssen dies evtl. mehr als einmal konfigurieren). Mindestens sollte die unten aufgelisteten URLs erlaubt werden."
+msgstr "Die wahrscheinlichste Ursache ist NoScript oder AdBlock+. NoScript kann so konfiguriert werden, dass alle Skripte dieser Seite ausgeführt werden dürfen (Sie müssen dies evtl. mehr als einmal konfigurieren). Mindestens sollten die unten aufgelisteten URLs erlaubt werden."
 
 #: "inc/messages.js"
 msgid "NAT64 detected. IPv6 works. IPv4 works for most purposes. Applications that are hard-coded for IPv4-only will fail. We are aware of at least one major voice-over-ip program that falls into this category. Your application's support staff may need a nudge to add proper IPv6 support."
-msgstr "NAT64 erkannt. IPv6 funktioniert. IPv4 funktioniert für die meisten Zwecke. Anwendungen, die hartcodiert für IPv4-only sind scheitern. Wir kennen mindestens ein wichtiges voice-over-Ip-Programm, das in diese Kategorie fällt. Support-Mitarbeiter Ihrer Anwendung brauchen möglicherweise einen Schubs, um eine richtige IPv6-Unterstützung hinzuzufügen."
+msgstr "NAT64 erkannt. IPv6 funktioniert. IPv4 funktioniert für die meisten Zwecke. Anwendungen, die hartcodiert für IPv4-only sind, werden scheitern. Wir kennen mindestens ein wichtiges VoIP-Programm, das in diese Kategorie fällt. Support-Mitarbeiter Ihrer Anwendung brauchen möglicherweise einen Schubs, um eine richtige IPv6-Unterstützung hinzuzufügen."
 
 #: "inc/messages.js"
 msgid "Your DNS server (possibly run by your ISP) appears to have IPv6 Internet access."
-msgstr "Ihr DNS Server (wahrscheinlich von Ihrem ISP betrieben) scheint über IPv6 Internetzugriff zu verfügen."
+msgstr "Ihr DNS Server (wahrscheinlich von Ihrem ISP betrieben) scheint über IPv6-Internetzugriff zu verfügen."
 
 #: "inc/messages.js"
 msgid "Your DNS server (possibly run by your ISP) appears to have no access to the IPv6 Internet, or is not configured to use it. This may in the future restrict your ability to reach IPv6-only sites."
@@ -144,11 +144,11 @@ msgstr "Ihr DNS Server (wahrscheinlich von Ihrem ISP betrieben) scheint entweder
 
 #: "inc/messages.js"
 msgid "You are likely using a FireFox plugin that is causing IP based tests to fail. Examples: RequestPolicy. Please disable those while using this site."
-msgstr "Sie benutzen vermutlich eine Firefox Erweiterung welche IP Adress basierende Prüfungen verhindert. Beispiele: RequestPolicy. Deaktivieren Sie diese Erweiterungen während Sie diese Seite benutzen."
+msgstr "Sie benutzen vermutlich eine Firefox-Erweiterung, welche IP-Adress-basierende Prüfungen verhindert. Beispiele: RequestPolicy. Deaktivieren Sie diese Erweiterungen während Sie diese Seite benutzen."
 
 #: "inc/messages.js"
 msgid "A lookup for an IPv6-only name failed; yet the lookup and connect for dual-stack connected via IPv6. Something appears to be confused with the DNS lookups."
-msgstr "Die Namensauflösung eines Nur-IPv6 Namens ist fehlgeschlagen, dennoch ist die Namensauflösung und die Verbindung für Dual-Stack Seiten via IPv6 erfolgt. Dies deutet auf ein fehlerhaftes Verhalten Ihrer Namensauflösung hin."
+msgstr "Die Namensauflösung eines Nur-IPv6 Namens ist fehlgeschlagen, dennoch ist die Namensauflösung und die Verbindung für Dual-Stack-Seiten via IPv6 erfolgt. Dies deutet auf ein fehlerhaftes Verhalten Ihrer Namensauflösung hin."
 
 #: "inc/messages.js"
 msgid "A lookup for an IPv6-only name failed; yet the lookup and connect for dual-stack connected via IPv6. The IPv6-only lookup should have worked. Apple has a bug that sporadically causes some IPv6 lookups to fail. We saw evidence of it on this test. You can reload the page and try the test again. For more details, see <a href='http://openradar.appspot.com/7333104'>http://openradar.appspot.com/7333104</a>."
@@ -160,23 +160,23 @@ msgstr "Eine DNS-Suche für einen Dualstack-IPv4-und-IPv6-Namen ist fehlgeschlag
 
 #: "inc/messages.js"
 msgid "No IPv4 address detected"
-msgstr "Keine IPv4 Adresse erkannt"
+msgstr "Keine IPv4-Adresse erkannt"
 
 #: "inc/messages.js"
 msgid "No IPv6 address detected"
-msgstr "Keine IPv6 Adresse erkannt"
+msgstr "Keine IPv6-Adresse erkannt"
 
 #: "inc/messages.js"
 msgid "Your IP address(es) could not be detected due to inteference from browser add-ons."
-msgstr "Ihre IP Adresse(n) konnte nicht erkannt werden aufgrund störender Browsererweiterungen."
+msgstr "Ihre IP-Adresse(n) konnte nicht erkannt werden aufgrund störender Browsererweiterungen."
 
 #: "inc/messages.js"
 msgid "The Opera web browser seems to be break on this site frequently. <b>If you have trouble, try another browser</b>."
-msgstr "<b>Falls bei Ihnen Probleme auftauchen, versuchen Sie den Tests mit einem anderen Webbrowser durchzuführen</b>."
+msgstr "Der Opera-Browser scheint auf dieser Seite regelmäßig nicht zu funktionieren. <b>Falls bei Ihnen Probleme auftauchen, probieren Sie einen anderen Browser</b>."
 
 #: "inc/messages.js"
 msgid "<b>Disable turbo mode on Opera, and try again.</b> Turbo mode is not compatible with the needs of this site."
-msgstr "<b>Deaktivieren Sie Turbomodus in Opera und starten Sie den Test erneut</b> Der Turbomodus ist mit den Anforderungen dieser Seite nicht kompatibel."
+msgstr "<b>Deaktivieren Sie Turbomodus in Opera und starten Sie den Test erneut.</b> Der Turbomodus ist mit den Anforderungen dieser Seite nicht kompatibel."
 
 #: "inc/messages.js"
 msgid "<b>Good news!</b> Your current configuration will continue to work as web sites enable IPv6."
@@ -184,15 +184,15 @@ msgstr "<b>Gute Nachrichten!</b> Ihre Konfiguration wird auch weiterhin funktion
 
 #: "inc/messages.js"
 msgid "<b>Our tests show that you will have a broken or misconfigured IPv6 setup, and this will cause problems as web sites enable IPv6.</b>"
-msgstr "<b>Unsere Tests zeigen, dass Ihre IPv6 Konfiguration beschädigt oder fehlerhaft ist. Dies wird voraussichtlich zu Problemen führen wenn Webseiten-Betreiber IPv6 aktivieren"
+msgstr "<b>Unsere Tests zeigen, dass Ihre IPv6 Konfiguration beschädigt oder fehlerhaft ist. Dies wird voraussichtlich zu Problemen führen wenn Webseiten-Betreiber IPv6 aktivieren.</b>"
 
 #: "inc/messages.js"
 msgid "<b>Our tests show that you may have MTU problems with IPv6; this can cause web sites to load slow (or not at all) when web sites enable IPv6.</b>"
-msgstr "<b>Unsere Tests zeigen, dass Sie MTU Probleme bei IPv6 Verbindungen haben. Dies kann dazu führen, dass Webseiten nur langsam (oder auch gar nicht) angezeigt werden, sobald diese via IPv6 erreichbar sind.</b>"
+msgstr "<b>Unsere Tests zeigen, dass Sie MTU-Probleme bei IPv6-Verbindungen haben. Dies kann dazu führen, dass Webseiten nur langsam (oder auch gar nicht) angezeigt werden, sobald diese via IPv6 erreichbar sind.</b>"
 
 #: "inc/messages.js"
 msgid "We looked up an IPv6 address, but your DNS server (possibly your home router) mangled the response, and is treating it as (broken) IPv4."
-msgstr "Wir suchten eine IPv6-Adresse, aber Ihre DNS-Server (möglicherweise Ihr Heim-Router) entstellte die Antwort und behandelte es als (gebrochene) IPv4 Adresse."
+msgstr "Wir suchten eine IPv6-Adresse, aber Ihr DNS-Server (möglicherweise Ihr Heim-Router) verstümmelte die Antwort und behandelte es als (kaputte) IPv4-Adresse."
 
 #: "inc/messages.js"
 msgid "It appears that you use a tunnel mechanism for either IPv4 or IPv6."
@@ -212,7 +212,7 @@ msgstr "Wir haben die Nutzung eines Proxyservers erkannt. Das bedeutet wir teste
 
 #: "inc/messages.js"
 msgid "IPv6 connections work, but connections using DNS names do not use IPv6. For some reason, your browser or your OS is not doing IPv6 DNS 'AAAA' lookups."
-msgstr "Ihre IPv6 Verbindung funktioniert aber es steht keine DNS Auflösung per IPv6 zur Verfügung. Ihr Browser oder Betriebssystem stellt keine Anfragen nach IPv6 DNS 'AAAA' Einträgen."
+msgstr "Ihre IPv6-Verbindung funktioniert aber es steht keine DNS-Auflösung per IPv6 zur Verfügung. Ihr Browser oder Betriebssystem stellt keine Anfragen nach IPv6 DNS 'AAAA' Einträgen."
 
 #: "inc/messages.js"
 msgid "We have suggestions to help you fix your system."
@@ -220,7 +220,7 @@ msgstr "Wir haben Konfigurationsvorschläge für Ihr System."
 
 #: "inc/messages.js"
 msgid "Since you have IPv6, we are including a tab that shows how well you can reach other IPv6 sites. %sites"
-msgstr "Sie haben eine funktionierende IPv6 Anbindung. Dieser Tab listet weitere Seiten auf, die über IPv6 erreichbar sind: %sites"
+msgstr "Sie haben eine funktionierende IPv6-Anbindung. Dieser Tab listet weitere Seiten auf, die über IPv6 erreichbar sind: %sites"
 
 #: "inc/messages.js"
 msgid "Your browser has real working IPv6 address - but is avoiding using it. We're concerned about this."
@@ -252,7 +252,7 @@ msgstr "faq: v6ns Schlecht"
 
 #: "inc/messages.js"
 msgid "faq: Browser Plugins"
-msgstr "faq: Browser Erweiterungen"
+msgstr "faq: Browser-Erweiterungen"
 
 #: "inc/messages.js"
 msgid "faq: Firefox Add-Ons"
@@ -268,7 +268,7 @@ msgstr "FAQ: fehlerhaftes DNS"
 
 #: "inc/messages.js"
 msgid "faq: Broken!"
-msgstr "FAQ: fehlerhaftes!"
+msgstr "FAQ: Kaputt!"
 
 #: "inc/messages.js"
 msgid "faq: Broken DNS Lookups"
@@ -300,7 +300,7 @@ msgstr "Ihre IPv6 Internet-Adresse ist höchstwahrscheinlich"
 
 #: "inc/builtin.js"
 msgid "Your IPv6 service appears to be"
-msgstr "Ihr IPv6 Anbieter ist höchstwahrscheinlich"
+msgstr "Ihr IPv6-Anbieter ist höchstwahrscheinlich"
 
 #: "inc/builtin.js"
 msgid "Your Internet Service Provider (ISP) appears to be"
@@ -328,7 +328,7 @@ msgstr "(Statistik wurde nicht eingesandt; Der Test wurde manipuliert)"
 
 #: "inc/builtin.js"
 msgid "(Updating server side IPv6 readiness stats)"
-msgstr "(Aktualisire serverseitige IPv6 Bereitschafts-Statisik)"
+msgstr "(Aktualisiere serverseitige IPv6-Bereitschafts-Statisik)"
 
 #: "inc/builtin.js"
 msgid "(Updated server side IPv6 readiness stats)"
@@ -340,15 +340,15 @@ msgstr "(Das Einsenden der Statistik ist fehlgeschlagen; Die oben aufgeführten 
 
 #: "inc/builtin.js"
 msgid "Your readiness score"
-msgstr "Ihre Bereitschafts Ergebniss"
+msgstr "Ihr Bereitschafts-Ergebnis"
 
 #: "inc/builtin.js"
 msgid "for your IPv4 stability and readiness, when publishers offer both IPv4 and IPv6"
-msgstr "für Ihre IPv4 Stabilität und Bereitschaft, wenn Inhalte via IPv4 und IPv6 verfügbar sind"
+msgstr "für Ihre IPv4-Stabilität und -Bereitschaft, wenn Inhalte via IPv4 und IPv6 verfügbar sind"
 
 #: "inc/builtin.js"
 msgid "for your IPv6 stability and readiness, when publishers are forced to go IPv6 only"
-msgstr "für Ihre IPv6 Stabilität und Bereitschaft, wenn Inhalte nur via IPv6 verfügbar sind"
+msgstr "für Ihre IPv6-Stabilität und -Bereitschaft, wenn Inhalte nur via IPv6 verfügbar sind"
 
 #: "inc/builtin.js"
 msgid "Click to see"
@@ -388,11 +388,11 @@ msgstr "%app: Sie verwenden Version %found; wir empfehlen %suggest oder neuer."
 
 #: "inc/form.js"
 msgid "share your results"
-msgstr "Ihre Ergebnisse einzusenden"
+msgstr "Ihre Ergebnisse teilen"
 
 #: "inc/form.js"
 msgid "I am most interested in discussing your setup with you, because it was been determined that <B>your IPv6 connectivity is broken</b>, or at least not fully understood. This is not normal; would you be willing to %share?"
-msgstr "Wir würden gerne Ihre Konfiguration besprechen, da festgestellt wurde, dass <B>Ihre IPv6 Konnektivität nicht richtig funktioniert</B>. Das ist nicht normal. Wären Sie allenfalls bereit %share?"
+msgstr "Wir würden gerne Ihre Konfiguration mit Ihnen besprechen, da festgestellt wurde, dass <B>Ihre IPv6-Konnektivität nicht richtig funktioniert</B>. Das ist nicht normal. Wären Sie allenfalls bereit %share?"
 
 #: "inc/form.js"
 msgid "retest"
@@ -420,15 +420,15 @@ msgstr "Ihr Browser blockiert"
 
 #: "inc/helpdesk.js"
 msgid "Your Internet help desk may ask you for the information below."
-msgstr "Ihren Internet-Help-Desk können Sie für die nachfolgenden Informationen bitten."
+msgstr "Ihren Internet-Help-Desk können Sie um die nachfolgenden Informationen bitten."
 
 #: "inc/header.inc"
 msgid "Test your IPv6."
-msgstr "Testen Sie Ihre IPv6 Konnektivität."
+msgstr "Testen Sie Ihre IPv6-Konnektivität."
 
 #: "inc/header.inc"
 msgid "This will test your browser and connection for IPv6 readiness, as well as show you your current IPV4 and IPv6 address."
-msgstr "Dies wird Ihren Webbrowser und Ihre Internetverbindung auf IPv6 Tauglichkeit überprüfen und Ihre aktuelle IPv4 und IPv6 Adresse ermitteln."
+msgstr "Dies wird Ihren Webbrowser und Ihre Internetverbindung auf IPv6-Tauglichkeit überprüfen und Ihre aktuelle IPv4- und IPv6-Adresse ermitteln."
 
 #: "inc/list-nav.inc"
 msgid "Test IPv6"
@@ -448,7 +448,7 @@ msgstr "Statistiken"
 
 #: "index.html"
 msgid "Test your IPv6 connectivity."
-msgstr "Testen Sie Ihre IPv6 Konnektivität."
+msgstr "Testen Sie Ihre IPv6-Konnektivität."
 
 #: "index.html"
 msgid "(Replay)"
@@ -460,7 +460,7 @@ msgstr "JavaScript erforderlich"
 
 #: "inc/js_required.inc"
 msgid "This site requires JavaScript, as well as the ability to pull in cross-site scripts, in order to perform the testing."
-msgstr "Diese Seite benötigt JavaScript, sowie die Fähigkeit, in siteübergreifende Skripts zu laden, um die Prüfung durchzuführen."
+msgstr "Diese Seite benötigt JavaScript, sowie die Fähigkeit, siteübergreifende Skripts zu laden, um die Prüfung durchzuführen."
 
 #: "inc/js_required.inc"
 msgid "If this message does not go away, it means that JavaScript has been disabled, either by a plugin or extension in your browser, or by explicit browser setting."
@@ -472,7 +472,7 @@ msgstr "Verwenden Sie NoScript?"
 
 #: "inc/js_required.inc"
 msgid "If you use this Firefox add-on, you'll need to \"Temporarily allow all this page\". You will need to do this <b>twice</b> for everything to work. Alternately, disable NoScript entirely until you are done with this site."
-msgstr "Wenn Sie dieses Firefox Addon verwenden müssen Sie die \"Scripte auf dieser Seite temporär erlauben\". Sie müssen dies <b>zweimal</b> machen damit alles funktioniert. Alternativ deaktivieren Sie bitte NoScript bis Sie mit den Tests auf dieser Seite fertig sind."
+msgstr "Wenn Sie dieses Firefox-Addon verwenden, müssen Sie die \"Scripte auf dieser Seite temporär erlauben\". Sie müssen dies <b>zweimal</b> machen damit alles funktioniert. Alternativ deaktivieren Sie bitte NoScript bis Sie mit den Tests auf dieser Seite fertig sind."
 
 #: "inc/js_required.inc"
 msgid "You can opt instead to view the <a href=\"simple_test.html\">simple test</a>, which will give you a quick pass/fail for IPv4, IPv4+IPv6, and IPv6. It will however offer little diagnostic information."
@@ -500,7 +500,7 @@ msgstr "FAQ für Sie"
 
 #: "main/tabnav.inc"
 msgid "Help Popup"
-msgstr "Hilfe Popup"
+msgstr "Hilfe-Popup"
 
 #: "main/tabnav.inc"
 msgid "Debug"
@@ -508,7 +508,7 @@ msgstr "Fehlersuche"
 
 #: "main/tabnav.inc"
 msgid "Other IPv6 Sites"
-msgstr "Andere IPv6-Standorte"
+msgstr "Andere IPv6-Seiten"
 
 #: "main/tests.inc"
 msgid "How this test works:"
@@ -524,23 +524,23 @@ msgstr "Technische Informationen"
 
 #: "main/tests.inc"
 msgid "Test with IPv4 DNS record"
-msgstr "Test mit IPv4 DNS Eintrag"
+msgstr "Test mit IPv4 DNS-Eintrag"
 
 #: "main/tests.inc"
 msgid "pending"
-msgstr "anstehend"
+msgstr "ausstehend"
 
 #: "main/tests.inc"
 msgid "Test with IPv6 DNS record"
-msgstr "Test mit IPv6 DNS Eintrag"
+msgstr "Test mit IPv6 DNS-Eintrag"
 
 #: "main/tests.inc"
 msgid "Test with Dual Stack DNS record"
-msgstr "Test mit Dual Stack DNS Eintrag"
+msgstr "Test mit Dual Stack DNS-Eintrag"
 
 #: "main/tests.inc"
 msgid "Test for Dual Stack DNS and large packet"
-msgstr "Test mit Dual Stack und grosse Pakete"
+msgstr "Test mit Dual Stack und große Pakete"
 
 #: "main/tests.inc"
 msgid "Test IPv4 without DNS"
@@ -552,11 +552,11 @@ msgstr "Test IPv6 ohne DNS"
 
 #: "main/tests.inc"
 msgid "Test IPv6 large packet"
-msgstr "Test grosse IPv6 Pakete"
+msgstr "Test große IPv6-Pakete"
 
 #: "main/tests.inc"
 msgid "Test if your ISP's DNS server uses IPv6"
-msgstr "Test ob der DNS server des ISP IPv6 unterstützt"
+msgstr "Test ob der DNS-Server des ISP IPv6 unterstützt"
 
 #: "main/tests.inc"
 msgid "Find IPv4 Service Provider"
@@ -1838,7 +1838,7 @@ msgstr "Sollten Sie IPv6 benötigen, bevor ihr ISP es unterstützt, wird von tes
 msgid "Ran by Hurricane Electric. The author of test-ipv6.com has used their services for 2-3 years; and would notice latency problems (lots of interactive SSH use from home to the server). This service requires a static IPv4 address (or static enough - you can always go to the tunnelbroker.net site and update your IP). Lastly, tunnelbroker is fully automated - you can sign up, get your tunnel assignment immediately, and configure your end."
 msgstr "Betrieben von Hurricane Electric. Der Autor von test-ipv6.com hat deren Dienste für 2-3 Jahre verwendet und Latenzprobleme festgestellt (viel Nutzung von interaktivem SSH von zu Hause aus zum Server). Dieser Service benötigt eine statische IPv4-Adresse (bzw. statisch genug - Sie können jederzeit auf tunnelbroker.net gehen und ihre IP-Adresse aktualisieren). Zuletzt ist tunnelbroker vollkommen automatisch - Sie können sich registrieren, sofort Ihre Tunnelanbindung bekommen und den Endpunkt konfigurieren."
 
-#: "faq_6to4.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "is another popular service. I see many European users using this service significantly; though their footprint is global. They work with dynamic IPs with some custom software that they provide."
 msgstr "ist ein verbreiteter Service. In Europa ist dies einer der meistgenutzen Angeboten aber der Service ist weltweit verfügbar. Der Service nutzt dynamische IPs und es existieren einige Software Lösungen die dort aufgelistet sind."
 
@@ -2002,7 +2002,7 @@ msgstr "Wenn Sie den DNS-Resolver in Ihrem Heimnetz oder Ihrem Organisationsnetz
 msgid "ISC BIND: Make sure that IPv6 support is compiled in when you ./configure it. It is enabled by default. If you recently added IPv6 to your server, simply restart your named process, as you normally would."
 msgstr "ISC BIND: Stellen Sie sicher, dass IPv6-Unterstützung konfiguriert ist, wenn Sie ./configure ausführen. Es ist standardmäßig aktiviert. Wenn Sie Ihrem Server vor kurzem IPv6 hinzugefügt haben, starten Sie wie gewohnt Ihren \"named\" Prozess."
 
-#: "faq_v6ns_bad.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "PowerDNS: Enable <code>aaaa-additional-processing</code> and configure <code>query-local-address6</code> in your <code>recursor.conf</code>. Restart powerdns."
 msgstr "PowerDNS: <code>aaaa-additional-processing</code> aktivieren und Konfigurieren von <code>query-local-address6</code> in Ihrer <code>recursor.conf</code>. Powerdns danach neu starten."
 
@@ -2717,4 +2717,8 @@ msgstr "Wenn Sie Probleme bei der Benutzung dieser Website haben, erstellen Sie 
 #: "inc/footer.inc"
 msgid "percenttranslated"
 msgstr "Prozent übersetzt"
+
+#: "faq_v6ns_bad.html"
+msgid "PowerDNS: Configure <code>query-local-address6</code> in your <code>recursor.conf</code>. Restart powerdns."
+msgstr ""
 

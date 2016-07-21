@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2016-06-28 07:00-0400\n"
+"PO-Revision-Date: 2016-07-21 00:28-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Chinese Traditional\n"
 "MIME-Version: 1.0\n"
@@ -1840,7 +1840,7 @@ msgstr "測試-ipv6.com 的建議是，如果你需要 IPv6 之前您的 ISP 可
 msgid "Ran by Hurricane Electric. The author of test-ipv6.com has used their services for 2-3 years; and would notice latency problems (lots of interactive SSH use from home to the server). This service requires a static IPv4 address (or static enough - you can always go to the tunnelbroker.net site and update your IP). Lastly, tunnelbroker is fully automated - you can sign up, get your tunnel assignment immediately, and configure your end."
 msgstr "跑了由颶風電氣。測試-ipv6.com 的作者已經用他們的服務 2-3 年的;會注意到延遲問題 （很多互動的 SSH 使用從家裡到伺服器）。此服務需要一個靜態的 IPv4 位址 (或靜態不夠的-你總是可以去 tunnelbroker.net 網站，更新您的 IP)。最後，tunnelbroker 全自動的-你可以報名，馬上你的隧道作業，和配置你結束。"
 
-#: "faq_6to4.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "is another popular service. I see many European users using this service significantly; though their footprint is global. They work with dynamic IPs with some custom software that they provide."
 msgstr "是另一個受歡迎的服務。我看到很多歐洲使用者使用這項服務顯著;雖然他們的足跡是全球性的。他們工作與一些自訂的軟體，他們提供動態的 ip 位址。"
 
@@ -2004,7 +2004,7 @@ msgstr "如果你操作 DNS 解析程式使用在您的家庭或組織中，在�
 msgid "ISC BIND: Make sure that IPv6 support is compiled in when you ./configure it. It is enabled by default. If you recently added IPv6 to your server, simply restart your named process, as you normally would."
 msgstr "ISC BIND ︰ 確保 IPv6 支援編譯時你./ 配置它。它是預設啟用的。如果您最近添加到您的伺服器的 IPv6，簡單地重新開機您命名的過程，像平時一樣。"
 
-#: "faq_v6ns_bad.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "PowerDNS: Enable <code>aaaa-additional-processing</code> and configure <code>query-local-address6</code> in your <code>recursor.conf</code>. Restart powerdns."
 msgstr "PowerDNS ︰ 啟用 <code>aaaa 額外處理</code> 並在你的 <code>recursor.conf</code> 配置 <code>查詢-本地-address6</code>。重新開機 powerdns。"
 
@@ -2719,4 +2719,8 @@ msgstr "如果你有問題，使用本網站，獲取此瀏覽器外掛程式或
 #: "inc/footer.inc"
 msgid "percenttranslated"
 msgstr "percenttranslated"
+
+#: "faq_v6ns_bad.html"
+msgid "PowerDNS: Configure <code>query-local-address6</code> in your <code>recursor.conf</code>. Restart powerdns."
+msgstr ""
 

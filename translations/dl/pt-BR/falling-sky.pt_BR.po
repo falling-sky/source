@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2016-06-28 07:00-0400\n"
+"PO-Revision-Date: 2016-07-21 00:28-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Portuguese, Brazilian\n"
 "MIME-Version: 1.0\n"
@@ -1838,7 +1838,7 @@ msgstr "A recomendação do test-ipv6.com é que se você precisar de IPv6 antes
 msgid "Ran by Hurricane Electric. The author of test-ipv6.com has used their services for 2-3 years; and would notice latency problems (lots of interactive SSH use from home to the server). This service requires a static IPv4 address (or static enough - you can always go to the tunnelbroker.net site and update your IP). Lastly, tunnelbroker is fully automated - you can sign up, get your tunnel assignment immediately, and configure your end."
 msgstr "Gerenciado pela Hurricane Electric. O autor do test-ipv6.com utilizou o serviço deles por 2-3 anos e percebia problemas de latência (várias sessões SSH interativas entre sua casa e o servidor). Este serviço necessita de um endereço IPv4 estático (ou estático suficiente - você pode ir no site tunnelbroker.net e atualizar seu IP). Por fim, tunnelbroker é totalmente automatizado: você pode cadastrar, ter seu túnel imediamente definido e configurar sua ponta."
 
-#: "faq_6to4.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "is another popular service. I see many European users using this service significantly; though their footprint is global. They work with dynamic IPs with some custom software that they provide."
 msgstr "É outro serviço popular. Eu vejo vários usuários europeus com este serviço, apesar que seu alcance é global. Eles utilizam endereços IP dinâmicos com um software que eles oferecem."
 
@@ -2002,7 +2002,7 @@ msgstr "Se você opera os resolvedores DNS em uso na sua casa ou organização, 
 msgid "ISC BIND: Make sure that IPv6 support is compiled in when you ./configure it. It is enabled by default. If you recently added IPv6 to your server, simply restart your named process, as you normally would."
 msgstr "ISC BIND: Certifique-se que o suporte IPv6 está compilado ao executar o comando ./configure. Ele está habilitado por padrão. Se você adicionou IPv6 ao seu servidor recentemente, simplesmente reinicie o processo named como você faria normalmente."
 
-#: "faq_v6ns_bad.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "PowerDNS: Enable <code>aaaa-additional-processing</code> and configure <code>query-local-address6</code> in your <code>recursor.conf</code>. Restart powerdns."
 msgstr "PowerDNS: Habilite <code>aaaa-additional-processing</code> e configure <code>query-local-address6</code> no seu <code>recursor.conf</code>. Reinicie o powerdns."
 
@@ -2717,4 +2717,8 @@ msgstr ""
 #: "inc/footer.inc"
 msgid "percenttranslated"
 msgstr "porcentagem traduzida"
+
+#: "faq_v6ns_bad.html"
+msgid "PowerDNS: Configure <code>query-local-address6</code> in your <code>recursor.conf</code>. Restart powerdns."
+msgstr ""
 

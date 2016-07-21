@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2016-06-28 07:00-0400\n"
+"PO-Revision-Date: 2016-07-21 00:28-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Chinese Simplified\n"
 "MIME-Version: 1.0\n"
@@ -140,7 +140,7 @@ msgstr "您的DNS服务器(通常由您的网络服务商提供)已经可以接�
 
 #: "inc/messages.js"
 msgid "Your DNS server (possibly run by your ISP) appears to have no access to the IPv6 Internet, or is not configured to use it. This may in the future restrict your ability to reach IPv6-only sites."
-msgstr "您的DNS服务器(通常由您的网络服务商提供)还不能接入IPv6互联网，异或是没有做好相应的设置。这将会使您访问不能访问纯IPv6站点。"
+msgstr "您的DNS服务器(通常由您的网络服务商提供)还不能接入IPv6互联网，抑或是没有做好相应的设置。这将会使您访问不能访问纯IPv6站点。"
 
 #: "inc/messages.js"
 msgid "You are likely using a FireFox plugin that is causing IP based tests to fail. Examples: RequestPolicy. Please disable those while using this site."
@@ -1838,7 +1838,7 @@ msgstr "test-ipv6.com的建议是，如果你在你的ISP能够提供IPv6之前�
 msgid "Ran by Hurricane Electric. The author of test-ipv6.com has used their services for 2-3 years; and would notice latency problems (lots of interactive SSH use from home to the server). This service requires a static IPv4 address (or static enough - you can always go to the tunnelbroker.net site and update your IP). Lastly, tunnelbroker is fully automated - you can sign up, get your tunnel assignment immediately, and configure your end."
 msgstr "由Hurricane Electric运行。test-ipv6的作者已经使用了他们的服务2-3年了；也会注意到延迟的问题（从家到服务器的大量的SSH互动链接）。这项服务需要一个固定的IPv4地址（或者相对固定的地址——你总是可以去tunnelbroker.net网站上更新你的IP），最后tunnelbroker是全自动的——你可以注册，立即获得你的可用隧道，并配置你的终端。"
 
-#: "faq_6to4.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "is another popular service. I see many European users using this service significantly; though their footprint is global. They work with dynamic IPs with some custom software that they provide."
 msgstr "是另一种受欢迎的服务。我看到许多欧洲用户经常使用这个服务，虽然它们的足迹是全球性的。他们使用动态IP地址和一些他们提供的自定义软件。"
 
@@ -2002,7 +2002,7 @@ msgstr "如果您操作着您在使用的位于您的家中或者组织里的DNS
 msgid "ISC BIND: Make sure that IPv6 support is compiled in when you ./configure it. It is enabled by default. If you recently added IPv6 to your server, simply restart your named process, as you normally would."
 msgstr "ISC BIND：在您 ./configure 它时，确保在编译时设置了IPv6支持。它是默认启用的。如果您最近添加了IPv6到您的服务器，作为通常的操作，简单的重启您的命名进程。"
 
-#: "faq_v6ns_bad.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "PowerDNS: Enable <code>aaaa-additional-processing</code> and configure <code>query-local-address6</code> in your <code>recursor.conf</code>. Restart powerdns."
 msgstr "PowerDNS：在您的<code>recursor.conf</code>中启用<code>aaaa-additional-processing</code>并配置<code>query-local-address6</code>。重启powerdns。"
 
@@ -2718,4 +2718,8 @@ msgstr "如果你使用本站时出现问题，那么获取你浏览器的插件
 #: "inc/footer.inc"
 msgid "percenttranslated"
 msgstr "翻译百分比"
+
+#: "faq_v6ns_bad.html"
+msgid "PowerDNS: Configure <code>query-local-address6</code> in your <code>recursor.conf</code>. Restart powerdns."
+msgstr ""
 
