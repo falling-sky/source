@@ -4,6 +4,7 @@ FSBUILDER := $(TOP)/src/github.com/falling-sky/fsbuilder
 
 BETA ?= fskyweb@gigo.com:
 I18N ?= /var/www/i18n.test-ipv6.com
+PROD0 ?= fskyweb@ds.vm0.test-ipv6.com:
 PROD1 ?= fskyweb@ds.vm1.test-ipv6.com:
 PROD2 ?= fskyweb@ds.vm2.test-ipv6.com:
 DIST_TEST ?= fskyweb@rsync.gigo.com:test/content
@@ -125,6 +126,7 @@ fast: output
 
 prod: pipeline
 	@echo Publishing to prod server | ./support/fold_start.sh $@
+	rsync output/. $(PROD0)/.  -a --exclude site --delete -z
 	rsync output/. $(PROD1)/.  -a --exclude site --delete -z
 	rsync output/. $(PROD2)/.  -a --exclude site --delete -z
 	@./support/fold_end.sh $@
