@@ -745,6 +745,15 @@
          "v4" : "http://ipv4.test-ipv6.ortgies.it/images-nc/knob_green.png",
          "v6" : "http://ipv6.test-ipv6.ortgies.it/images-nc/knob_green.png"
       },
+      "test-ipv6.arauc.br" : {
+         "hide" : false,
+         "loc" : "BR",
+         "mirror" : true,
+         "monitor" : "PoP-PR/RNP <admnet@pop-pr.rnp.br>",
+         "provider" : "PoP-PR/RNP",
+         "v4" : "http://ipv4.test-ipv6.arauc.br/images-nc/knob_green.png",
+         "v6" : "http://ipv6.test-ipv6.arauc.br/images-nc/knob_green.png"
+      },
       "test-ipv6.orbyta.com" : {
          "hide" : false,
          "loc" : "CL",

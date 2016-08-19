@@ -153,17 +153,6 @@ GIGO.sites_parsed={
   "monitor": "Delan Azabani \u003cdelan@azabani.com\u003e",
   "reason": ""
  },
- "snozzages.com": {
-  "site": "snozzages.com",
-  "mirror": false,
-  "hide": false,
-  "v4": "http://ipv4.v6test.snozzages.com/1x1.gif",
-  "v6": "http://ipv6.v6test.snozzages.com/1x1.gif",
-  "loc": "US (VA)",
-  "provider": "Warren Kumari",
-  "monitor": "Warren Kumari \u003cwarren@kumari.net\u003e",
-  "reason": ""
- },
  "stdio.be": {
   "site": "stdio.be",
   "mirror": false,
@@ -217,6 +206,17 @@ GIGO.sites_parsed={
   "loc": "NL",
   "provider": "vr.org",
   "monitor": "jfesler@gigo.com",
+  "reason": ""
+ },
+ "test-ipv6.arauc.br": {
+  "site": "test-ipv6.arauc.br",
+  "mirror": true,
+  "hide": false,
+  "v4": "http://ipv4.test-ipv6.arauc.br/images-nc/knob_green.png",
+  "v6": "http://ipv6.test-ipv6.arauc.br/images-nc/knob_green.png",
+  "loc": "BR",
+  "provider": "PoP-PR/RNP",
+  "monitor": "PoP-PR/RNP \u003cadmnet@pop-pr.rnp.br\u003e",
   "reason": ""
  },
  "test-ipv6.arbor.net": {
@@ -340,6 +340,28 @@ GIGO.sites_parsed={
   "monitor": "NOC NIC \u003cnoc@nic.cz\u003e",
   "reason": ""
  },
+ "test-ipv6.ernet.in": {
+  "site": "test-ipv6.ernet.in",
+  "mirror": true,
+  "hide": false,
+  "v4": "http://ipv4.test-ipv6.ernet.in/images-nc/knob_green.png",
+  "v6": "http://ipv6.test-ipv6.ernet.in/images-nc/knob_green.png",
+  "loc": "IN",
+  "provider": "IPv6 Division of ERNET India",
+  "monitor": "Praveen Misra \u003cpraveen@ipv6.ernet.in\u003e",
+  "reason": ""
+ },
+ "test-ipv6.fratec.net": {
+  "site": "test-ipv6.fratec.net",
+  "mirror": true,
+  "hide": false,
+  "v4": "http://ipv4.test-ipv6.fratec.net/images-nc/knob_green.png",
+  "v6": "http://ipv6.test-ipv6.fratec.net/images-nc/knob_green.png",
+  "loc": "CR",
+  "provider": "Sistemas Fratec S.A.",
+  "monitor": "Jorge Frater \u003cjfrater@fratec.com\u003e",
+  "reason": ""
+ },
  "test-ipv6.go6.si": {
   "site": "test-ipv6.go6.si",
   "mirror": true,
@@ -384,17 +406,6 @@ GIGO.sites_parsed={
   "monitor": "Shin Shirahata \u003cinquiry@test-ipv6.jp\u003e",
   "reason": ""
  },
- "test-ipv6.lazypaddle.com": {
-  "site": "test-ipv6.lazypaddle.com",
-  "mirror": true,
-  "hide": false,
-  "v4": "http://ipv4.test-ipv6.lazypaddle.com/images-nc/knob_green.png",
-  "v6": "http://ipv6.test-ipv6.lazypaddle.com/images-nc/knob_green.png",
-  "loc": "US WI",
-  "provider": "Dale Hartung",
-  "monitor": "Dale Hartung \u003cdale@dghartung.com\u003e",
-  "reason": ""
- },
  "test-ipv6.monash.edu": {
   "site": "test-ipv6.monash.edu",
   "mirror": true,
@@ -437,6 +448,17 @@ GIGO.sites_parsed={
   "loc": "NO",
   "provider": "Availo AS",
   "monitor": "Brynjar Eide \u003ctest-ipv6@availo.no\u003e",
+  "reason": ""
+ },
+ "test-ipv6.orbyta.com": {
+  "site": "test-ipv6.orbyta.com",
+  "mirror": true,
+  "hide": false,
+  "v4": "http://ipv4.test-ipv6.orbyta.com/images-nc/knob_green.png",
+  "v6": "http://ipv6.test-ipv6.orbyta.com/images-nc/knob_green.png",
+  "loc": "CL",
+  "provider": "Orbyta S.A.",
+  "monitor": "javier campos \u003cjaviersource@gmail.com\u003e",
   "reason": ""
  },
  "test-ipv6.ortgies.it": {
@@ -580,6 +602,17 @@ GIGO.sites_parsed={
   "loc": "BR",
   "provider": "Algar Telecom / CTBC",
   "monitor": "",
+  "reason": ""
+ },
+ "www.duiadns.net": {
+  "site": "www.duiadns.net",
+  "mirror": false,
+  "hide": false,
+  "v4": "http://ipv4.duiadns.net/1x1.gif",
+  "v6": "http://ipv6.duiadns.net/1x1.gif",
+  "loc": "NL",
+  "provider": "Duiadns",
+  "monitor": "Liviu Pislaru \u003cliviu.pislaru@duiadns.net\u003e",
   "reason": ""
  },
  "www.excathedra.co": {
