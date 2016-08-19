@@ -379,7 +379,8 @@
          "v6" : "http://ipv6.test-ipv6.jp/images-nc/knob_green.png"
       },
       "test-ipv6.lazypaddle.com" : {
-         "hide" : false,
+         "hide" : true,
+         "reason" : "server needs rebuild; may or may not come back -- remove after 10/1/2016",
          "loc" : "US WI",
          "mirror" : true,
          "monitor" : "Dale Hartung <dale@dghartung.com>",
