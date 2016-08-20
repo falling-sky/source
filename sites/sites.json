@@ -463,7 +463,7 @@
          "hide" : false,
          "loc" : "SK",
          "mirror" : true,
-         "monitor" : "SK-NIC, a.s. <hostmaster@sk-nic.sk>",
+         "monitor" : "\"SK-NIC, a.s.\" <hostmaster@sk-nic.sk>",
          "provider" : "Sk-nic",
          "site" : "test-ipv6.tld.sk",
          "v4" : "http://ipv4.test-ipv6.tld.sk/images-nc/knob_green.png",
