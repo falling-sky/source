@@ -121,6 +121,7 @@
       "stdio.be" : {
          "hide" : false,
          "loc" : "DE",
+         "monitor" : "Andrew Yourtchenko <ayourtch@gmail.com>",
          "provider" : "Andrew Yourtchenko (personal)",
          "site" : "stdio.be",
          "v4" : "http://ipv4.stdio.be/images/knob_valid_green.png",
@@ -133,7 +134,7 @@
          "monitor" : "Comcast IPv6 Team <comcast-ipv6@cable.comcast.com>",
          "provider" : "Comcast",
          "site" : "test-ipv6-ct.comcast.net",
-         "transparent" : "1",
+         "transparent" : true,
          "v4" : "http://ipv4.test-ipv6-ct.comcast.net/images-nc/knob_green.png",
          "v6" : "http://ipv6.test-ipv6-ct.comcast.net/images-nc/knob_green.png"
       },
@@ -144,7 +145,7 @@
          "monitor" : "Comcast IPv6 Team <comcast-ipv6@cable.comcast.com>",
          "provider" : "Comcast",
          "site" : "test-ipv6-pa.comcast.net",
-         "transparent" : "1",
+         "transparent" : true,
          "v4" : "http://ipv4.test-ipv6-pa.comcast.net/images-nc/knob_green.png",
          "v6" : "http://ipv6.test-ipv6-pa.comcast.net/images-nc/knob_green.png"
       },
@@ -243,6 +244,36 @@
          "site" : "test-ipv6.com",
          "v4" : "http://ipv4.test-ipv6.com/images-nc/knob_green.png",
          "v6" : "http://ipv6.test-ipv6.com/images-nc/knob_green.png"
+      },
+      "vm0.test-ipv6.com" : {
+         "hide" : true,
+         "transparent": true,
+         "loc" : "US CA",
+         "mirror" : true,
+         "provider" : "Jason Fesler",
+         "site" : "test-ipv6.com",
+         "v4" : "http://ipv4.vm0.test-ipv6.com/images-nc/knob_green.png",
+         "v6" : "http://ipv6.vm0.test-ipv6.com/images-nc/knob_green.png"
+      },
+      "vm1.test-ipv6.com" : {
+         "hide" : true,
+         "transparent": true,
+         "loc" : "US CA",
+         "mirror" : true,
+         "provider" : "Jason Fesler",
+         "site" : "test-ipv6.com",
+         "v4" : "http://ipv4.vm1.test-ipv6.com/images-nc/knob_green.png",
+         "v6" : "http://ipv6.vm1.test-ipv6.com/images-nc/knob_green.png"
+      },
+      "vm2.test-ipv6.com" : {
+         "hide" : true,
+         "transparent": true,
+         "loc" : "US CA",
+         "mirror" : true,
+         "provider" : "Jason Fesler",
+         "site" : "test-ipv6.com",
+         "v4" : "http://ipv4.vm2.test-ipv6.com/images-nc/knob_green.png",
+         "v6" : "http://ipv6.vm2.test-ipv6.com/images-nc/knob_green.png"
       },
       "test-ipv6.com.au" : {
          "hide" : false,
@@ -494,6 +525,7 @@
       "www.ctbc.com.br" : {
          "hide" : false,
          "loc" : "BR",
+         "monitor" : "Tiago Carrijo Setti <tiagoc@algartelecom.com.br>",
          "provider" : "Algar Telecom / CTBC",
          "site" : "www.ctbc.com.br",
          "v4" : "http://ipv4only.ctbc.net.br/ctbc/pixel.gif",
@@ -537,6 +569,7 @@
       },
       "www.rascom.ru" : {
          "loc" : "RU",
+         "monitor" : "Андрей Сафонов <as@rascom.ru>",
          "provider" : "RASCOM",
          "site" : "www.rascom.ru",
          "v4" : "http://wood.rascom.ru/ipv4.jpg",
@@ -564,6 +597,7 @@
       "www.yahoo.com" : {
          "hide" : false,
          "loc" : "global",
+         "monitor" : "ipv6@yahoo-inc.com",
          "provider" : "Yahoo!",
          "site" : "www.yahoo.com",
          "v4" : "http://v4test.yahoo.com/eng/test/eye-test.png",
