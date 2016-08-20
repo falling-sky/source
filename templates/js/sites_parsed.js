@@ -8,7 +8,9 @@ GIGO.sites_parsed={
   "loc": "NL",
   "provider": "8n1.org - a simple pastebin",
   "monitor": "Sander Smeenk \u003csander@bit.nl\u003e",
-  "reason": ""
+  "contact": "",
+  "reason": "",
+  "transparent": false
  },
  "aa.net.uk": {
   "site": "aa.net.uk",
@@ -19,7 +21,9 @@ GIGO.sites_parsed={
   "loc": "UK",
   "provider": "AAISP (UK IPv6 ISP)",
   "monitor": "Adrian Kennard \u003ca@k.gg\u003e",
-  "reason": ""
+  "contact": "",
+  "reason": "",
+  "transparent": false
  },
  "bvconline.com.ar": {
   "site": "bvconline.com.ar",
@@ -30,7 +34,9 @@ GIGO.sites_parsed={
   "loc": "AR",
   "provider": "BVNET S.A",
   "monitor": "Ariel Cuesta \u003carielc@vianet.com.ar\u003e",
-  "reason": ""
+  "contact": "",
+  "reason": "",
+  "transparent": false
  },
  "campaya.co.uk": {
   "site": "campaya.co.uk",
@@ -41,7 +47,9 @@ GIGO.sites_parsed={
   "loc": "UK",
   "provider": "Campaya",
   "monitor": "Claus Pedersen \u003cclausp@campaya.com\u003e",
-  "reason": ""
+  "contact": "",
+  "reason": "",
+  "transparent": false
  },
  "chelloo.com": {
   "site": "chelloo.com",
@@ -52,7 +60,9 @@ GIGO.sites_parsed={
   "loc": "NL",
   "provider": "Chelloo",
   "monitor": "Rene Kemp \u003crene.kemp@outlook.com\u003e",
-  "reason": ""
+  "contact": "",
+  "reason": "",
+  "transparent": false
  },
  "duplimaster.com": {
   "site": "duplimaster.com",
@@ -63,7 +73,9 @@ GIGO.sites_parsed={
   "loc": "ES",
   "provider": "duplimaster.com",
   "monitor": "Jesus Vara \u003cjvara@e-impresion.es\u003e",
-  "reason": ""
+  "contact": "",
+  "reason": "",
+  "transparent": false
  },
  "eurobilltracker.com": {
   "site": "eurobilltracker.com",
@@ -74,7 +86,9 @@ GIGO.sites_parsed={
   "loc": "FI",
   "provider": "EuroBillTracker",
   "monitor": "Anssi Johansson \u003canssi@miuku.net\u003e",
-  "reason": ""
+  "contact": "",
+  "reason": "",
+  "transparent": false
  },
  "google.com": {
   "site": "google.com",
@@ -85,7 +99,9 @@ GIGO.sites_parsed={
   "loc": "global",
   "provider": "Google",
   "monitor": "",
-  "reason": ""
+  "contact": "",
+  "reason": "",
+  "transparent": false
  },
  "he.net": {
   "site": "he.net",
@@ -96,7 +112,9 @@ GIGO.sites_parsed={
   "loc": "US (CA)",
   "provider": "HE.net",
   "monitor": "Mike Tindle \u003cmtindle@he.net\u003e",
-  "reason": ""
+  "contact": "",
+  "reason": "",
+  "transparent": false
  },
  "ipv6-test.ch": {
   "site": "ipv6-test.ch",
@@ -107,7 +125,9 @@ GIGO.sites_parsed={
   "loc": "UK",
   "provider": "BSC-Telecom",
   "monitor": "Ken Booth \u003cken@ipv6-test.ch\u003e",
-  "reason": ""
+  "contact": "",
+  "reason": "",
+  "transparent": false
  },
  "ipv6-test.pl": {
   "site": "ipv6-test.pl",
@@ -117,8 +137,10 @@ GIGO.sites_parsed={
   "v6": "http://ipv6.ipv6-test.pl/images-nc/knob_green.png",
   "loc": "PL",
   "provider": "Net-Admin",
-  "monitor": "Net-Admin \u003cipv6@goodhost.eu\u003e",
-  "reason": ""
+  "monitor": "noc@net-admin.pl",
+  "contact": "Net-Admin \u003cipv6@goodhost.eu\u003e",
+  "reason": "",
+  "transparent": false
  },
  "nic.br": {
   "site": "nic.br",
@@ -129,7 +151,9 @@ GIGO.sites_parsed={
   "loc": "BR",
   "provider": "NIC.br",
   "monitor": "Antonio M. Moreiras \u003cmoreiras@nic.br\u003e",
-  "reason": ""
+  "contact": "",
+  "reason": "",
+  "transparent": false
  },
  "nsx.de": {
   "site": "nsx.de",
@@ -140,7 +164,9 @@ GIGO.sites_parsed={
   "loc": "DE",
   "provider": "Stephan Fiebrandt (personal)",
   "monitor": "Stephan Fiebrandt \u003cstephan@nsx.de\u003e",
-  "reason": ""
+  "contact": "",
+  "reason": "",
+  "transparent": false
  },
  "sixte.st": {
   "site": "sixte.st",
@@ -151,7 +177,9 @@ GIGO.sites_parsed={
   "loc": "SG",
   "provider": "Delan Azabani",
   "monitor": "Delan Azabani \u003cdelan@azabani.com\u003e",
-  "reason": ""
+  "contact": "",
+  "reason": "",
+  "transparent": false
  },
  "stdio.be": {
   "site": "stdio.be",
@@ -161,8 +189,10 @@ GIGO.sites_parsed={
   "v6": "http://ipv6.stdio.be/images/knob_valid_green.png",
   "loc": "DE",
   "provider": "Andrew Yourtchenko (personal)",
-  "monitor": "",
-  "reason": ""
+  "monitor": "Andrew Yourtchenko \u003cayourtch@gmail.com\u003e",
+  "contact": "",
+  "reason": "",
+  "transparent": false
  },
  "test-ipv6-ct.comcast.net": {
   "site": "test-ipv6-ct.comcast.net",
@@ -173,7 +203,9 @@ GIGO.sites_parsed={
   "loc": "US",
   "provider": "Comcast",
   "monitor": "Comcast IPv6 Team \u003ccomcast-ipv6@cable.comcast.com\u003e",
-  "reason": ""
+  "contact": "",
+  "reason": "",
+  "transparent": true
  },
  "test-ipv6-pa.comcast.net": {
   "site": "test-ipv6-pa.comcast.net",
@@ -184,7 +216,9 @@ GIGO.sites_parsed={
   "loc": "US",
   "provider": "Comcast",
   "monitor": "Comcast IPv6 Team \u003ccomcast-ipv6@cable.comcast.com\u003e",
-  "reason": ""
+  "contact": "",
+  "reason": "",
+  "transparent": true
  },
  "test-ipv6.alpinedc.ch": {
   "site": "test-ipv6.alpinedc.ch",
@@ -195,7 +229,9 @@ GIGO.sites_parsed={
   "loc": "CH",
   "provider": "AlpineDC",
   "monitor": "Sebastien Morier \u003csmorier@alpinedc.ch\u003e",
-  "reason": ""
+  "contact": "",
+  "reason": "",
+  "transparent": false
  },
  "test-ipv6.ams.vr.org": {
   "site": "test-ipv6.ams.vr.org",
@@ -206,7 +242,9 @@ GIGO.sites_parsed={
   "loc": "NL",
   "provider": "vr.org",
   "monitor": "jfesler@gigo.com",
-  "reason": ""
+  "contact": "",
+  "reason": "",
+  "transparent": false
  },
  "test-ipv6.arauc.br": {
   "site": "test-ipv6.arauc.br",
@@ -217,7 +255,9 @@ GIGO.sites_parsed={
   "loc": "BR",
   "provider": "PoP-PR/RNP",
   "monitor": "PoP-PR/RNP \u003cadmnet@pop-pr.rnp.br\u003e",
-  "reason": ""
+  "contact": "",
+  "reason": "",
+  "transparent": false
  },
  "test-ipv6.arbor.net": {
   "site": "test-ipv6.arbor.net",
@@ -228,7 +268,9 @@ GIGO.sites_parsed={
   "loc": "US",
   "provider": "Arbor Networks",
   "monitor": "Bill Cerveny \u003cadmin@v6research.net\u003e",
-  "reason": ""
+  "contact": "",
+  "reason": "",
+  "transparent": false
  },
  "test-ipv6.azstarnet.az": {
   "site": "test-ipv6.azstarnet.az",
@@ -239,7 +281,9 @@ GIGO.sites_parsed={
   "loc": "AZ",
   "provider": "AZSTARNET LLC",
   "monitor": "Nadir M. Aliyev \u003cnadir@azstarnet.az\u003e",
-  "reason": ""
+  "contact": "",
+  "reason": "",
+  "transparent": false
  },
  "test-ipv6.bakinter.net": {
   "site": "test-ipv6.bakinter.net",
@@ -250,7 +294,9 @@ GIGO.sites_parsed={
   "loc": "AZ",
   "provider": "Baktelekom",
   "monitor": "Nadir M. Aliyev \u003cadmin@bakinter.net\u003e",
-  "reason": ""
+  "contact": "",
+  "reason": "",
+  "transparent": false
  },
  "test-ipv6.carnet.hr": {
   "site": "test-ipv6.carnet.hr",
@@ -261,7 +307,9 @@ GIGO.sites_parsed={
   "loc": "HR",
   "provider": "Croatian Academic and Research Network",
   "monitor": "CARNet \u003csysadm@carnet.hr\u003e",
-  "reason": ""
+  "contact": "",
+  "reason": "",
+  "transparent": false
  },
  "test-ipv6.chi.vr.org": {
   "site": "test-ipv6.chi.vr.org",
@@ -272,7 +320,9 @@ GIGO.sites_parsed={
   "loc": "US IL",
   "provider": "vr.org",
   "monitor": "jfesler@gigo.com",
-  "reason": ""
+  "contact": "",
+  "reason": "",
+  "transparent": false
  },
  "test-ipv6.cl": {
   "site": "test-ipv6.cl",
@@ -283,7 +333,9 @@ GIGO.sites_parsed={
   "loc": "CL",
   "provider": "NIC Chile",
   "monitor": "NIC Chile \u003csoporte@nic.cl\u003e",
-  "reason": ""
+  "contact": "",
+  "reason": "",
+  "transparent": false
  },
  "test-ipv6.cmd.net.br": {
   "site": "test-ipv6.cmd.net.br",
@@ -294,7 +346,9 @@ GIGO.sites_parsed={
   "loc": "BR",
   "provider": "CMD Informatica",
   "monitor": "Cesar Scoassabia \u003csuporte@cmd.net.br\u003e",
-  "reason": ""
+  "contact": "",
+  "reason": "",
+  "transparent": false
  },
  "test-ipv6.co.za": {
   "site": "test-ipv6.co.za",
@@ -305,7 +359,9 @@ GIGO.sites_parsed={
   "loc": "ZA",
   "provider": "Multisource Telecoms",
   "monitor": "Multisource Support \u003csupport@multisource.co.za\u003e",
-  "reason": ""
+  "contact": "",
+  "reason": "",
+  "transparent": false
  },
  "test-ipv6.com": {
   "site": "test-ipv6.com",
@@ -316,7 +372,9 @@ GIGO.sites_parsed={
   "loc": "US CA",
   "provider": "Jason Fesler",
   "monitor": "",
-  "reason": ""
+  "contact": "",
+  "reason": "",
+  "transparent": false
  },
  "test-ipv6.com.au": {
   "site": "test-ipv6.com.au",
@@ -327,7 +385,9 @@ GIGO.sites_parsed={
   "loc": "AU",
   "provider": "Futzle Industries",
   "monitor": "Deborah Pickett \u003ctest-ipv6@dp.futzle.com\u003e",
-  "reason": ""
+  "contact": "",
+  "reason": "",
+  "transparent": false
  },
  "test-ipv6.cz": {
   "site": "test-ipv6.cz",
@@ -338,7 +398,9 @@ GIGO.sites_parsed={
   "loc": "CZ",
   "provider": "nic.cz",
   "monitor": "NOC NIC \u003cnoc@nic.cz\u003e",
-  "reason": ""
+  "contact": "",
+  "reason": "",
+  "transparent": false
  },
  "test-ipv6.ernet.in": {
   "site": "test-ipv6.ernet.in",
@@ -349,7 +411,9 @@ GIGO.sites_parsed={
   "loc": "IN",
   "provider": "IPv6 Division of ERNET India",
   "monitor": "Praveen Misra \u003cpraveen@ipv6.ernet.in\u003e",
-  "reason": ""
+  "contact": "",
+  "reason": "",
+  "transparent": false
  },
  "test-ipv6.fratec.net": {
   "site": "test-ipv6.fratec.net",
@@ -360,7 +424,9 @@ GIGO.sites_parsed={
   "loc": "CR",
   "provider": "Sistemas Fratec S.A.",
   "monitor": "Jorge Frater \u003cjfrater@fratec.com\u003e",
-  "reason": ""
+  "contact": "",
+  "reason": "",
+  "transparent": false
  },
  "test-ipv6.go6.si": {
   "site": "test-ipv6.go6.si",
@@ -371,7 +437,9 @@ GIGO.sites_parsed={
   "loc": "SI",
   "provider": "Go6 Lab - Slovenian IPv6 Iniciative",
   "monitor": "Jan Zorz \u003cjan@go6.si\u003e",
-  "reason": ""
+  "contact": "",
+  "reason": "",
+  "transparent": false
  },
  "test-ipv6.hu": {
   "site": "test-ipv6.hu",
@@ -382,7 +450,9 @@ GIGO.sites_parsed={
   "loc": "HU",
   "provider": "Polaris-N Systems",
   "monitor": "Polaris-N Systems \u003cinfo@polaris-n.hu\u003e",
-  "reason": ""
+  "contact": "",
+  "reason": "",
+  "transparent": false
  },
  "test-ipv6.iad.vr.org": {
   "site": "test-ipv6.iad.vr.org",
@@ -393,7 +463,9 @@ GIGO.sites_parsed={
   "loc": "US VA",
   "provider": "vr.org",
   "monitor": "jfesler@gigo.com",
-  "reason": ""
+  "contact": "",
+  "reason": "",
+  "transparent": false
  },
  "test-ipv6.jp": {
   "site": "test-ipv6.jp",
@@ -404,7 +476,9 @@ GIGO.sites_parsed={
   "loc": "JP",
   "provider": "BIGLOBE, Inc/Fullroute Pte. Ltd",
   "monitor": "Shin Shirahata \u003cinquiry@test-ipv6.jp\u003e",
-  "reason": ""
+  "contact": "",
+  "reason": "",
+  "transparent": false
  },
  "test-ipv6.monash.edu": {
   "site": "test-ipv6.monash.edu",
@@ -415,7 +489,9 @@ GIGO.sites_parsed={
   "loc": "AU",
   "provider": "Monash University",
   "monitor": "John Mann \u003cJohn.Mann@monash.edu\u003e",
-  "reason": ""
+  "contact": "",
+  "reason": "",
+  "transparent": false
  },
  "test-ipv6.netiter.dk": {
   "site": "test-ipv6.netiter.dk",
@@ -426,7 +502,9 @@ GIGO.sites_parsed={
   "loc": "DE",
   "provider": "Netiter ApS",
   "monitor": "Netiter Aps \u003ckontakt@netiter.dk\u003e",
-  "reason": ""
+  "contact": "",
+  "reason": "",
+  "transparent": false
  },
  "test-ipv6.nl": {
   "site": "test-ipv6.nl",
@@ -437,7 +515,9 @@ GIGO.sites_parsed={
   "loc": "NL",
   "provider": "BIT BV",
   "monitor": "Teun Vink \u003cteun@bit.nl\u003e",
-  "reason": ""
+  "contact": "",
+  "reason": "",
+  "transparent": false
  },
  "test-ipv6.no": {
   "site": "test-ipv6.no",
@@ -448,7 +528,9 @@ GIGO.sites_parsed={
   "loc": "NO",
   "provider": "Availo AS",
   "monitor": "Brynjar Eide \u003ctest-ipv6@availo.no\u003e",
-  "reason": ""
+  "contact": "",
+  "reason": "",
+  "transparent": false
  },
  "test-ipv6.orbyta.com": {
   "site": "test-ipv6.orbyta.com",
@@ -459,7 +541,9 @@ GIGO.sites_parsed={
   "loc": "CL",
   "provider": "Orbyta S.A.",
   "monitor": "javier campos \u003cjaviersource@gmail.com\u003e",
-  "reason": ""
+  "contact": "",
+  "reason": "",
+  "transparent": false
  },
  "test-ipv6.ortgies.it": {
   "site": "test-ipv6.ortgies.it",
@@ -470,7 +554,9 @@ GIGO.sites_parsed={
   "loc": "DE",
   "provider": "Jan-Eric Ortgies",
   "monitor": "Jan-Eric Ortgies \u003cjaneric@ortgies.it\u003e",
-  "reason": ""
+  "contact": "",
+  "reason": "",
+  "transparent": false
  },
  "test-ipv6.polkam.go.id": {
   "site": "test-ipv6.polkam.go.id",
@@ -481,7 +567,9 @@ GIGO.sites_parsed={
   "loc": "ID",
   "provider": "Coordinating Ministry For Political, Legal, and Security Affairs of Indonesia",
   "monitor": "vicky@polkam.go.id",
-  "reason": ""
+  "contact": "",
+  "reason": "",
+  "transparent": false
  },
  "test-ipv6.ro": {
   "site": "test-ipv6.ro",
@@ -492,7 +580,9 @@ GIGO.sites_parsed={
   "loc": "RO",
   "provider": "RCS \u0026 RDS",
   "monitor": "Liviu Pislaru \u003cliviu.pislaru@rcs-rds.ro\u003e",
-  "reason": ""
+  "contact": "",
+  "reason": "",
+  "transparent": false
  },
  "test-ipv6.roedu.net": {
   "site": "test-ipv6.roedu.net",
@@ -503,7 +593,9 @@ GIGO.sites_parsed={
   "loc": "RO",
   "provider": "RoEduNet",
   "monitor": "IPv6 @ RoEduNet \u003cipv6@roedu.net\u003e",
-  "reason": ""
+  "contact": "",
+  "reason": "",
+  "transparent": false
  },
  "test-ipv6.se": {
   "site": "test-ipv6.se",
@@ -514,7 +606,9 @@ GIGO.sites_parsed={
   "loc": "SE",
   "provider": "Interlan Gefle AB",
   "monitor": "torbjorn.eklov@interlan.se \u003ctorbjorn.eklov@interlan.se\u003e",
-  "reason": ""
+  "contact": "",
+  "reason": "",
+  "transparent": false
  },
  "test-ipv6.showmyip.ca": {
   "site": "test-ipv6.showmyip.ca",
@@ -525,7 +619,9 @@ GIGO.sites_parsed={
   "loc": "UK",
   "provider": "Christopher Munz-Michielin",
   "monitor": "Christopher Munz-Michielin \u003cchristopher@showmyip.ca\u003e",
-  "reason": ""
+  "contact": "",
+  "reason": "",
+  "transparent": false
  },
  "test-ipv6.si": {
   "site": "test-ipv6.si",
@@ -536,7 +632,9 @@ GIGO.sites_parsed={
   "loc": "SI",
   "provider": "Damjan Sirnik",
   "monitor": "Damjan Sirnik \u003cdamjan@sirnik.si\u003e",
-  "reason": ""
+  "contact": "",
+  "reason": "",
+  "transparent": false
  },
  "test-ipv6.sjc.vr.org": {
   "site": "test-ipv6.sjc.vr.org",
@@ -547,7 +645,9 @@ GIGO.sites_parsed={
   "loc": "US CA",
   "provider": "vr.org",
   "monitor": "jfesler@gigo.com",
-  "reason": ""
+  "contact": "",
+  "reason": "",
+  "transparent": false
  },
  "test-ipv6.tld.sk": {
   "site": "test-ipv6.tld.sk",
@@ -558,7 +658,9 @@ GIGO.sites_parsed={
   "loc": "SK",
   "provider": "Sk-nic",
   "monitor": "SK-NIC, a.s. \u003chostmaster@sk-nic.sk\u003e",
-  "reason": ""
+  "contact": "",
+  "reason": "",
+  "transparent": false
  },
  "test-ipv6.tni-au.mil.id": {
   "site": "test-ipv6.tni-au.mil.id",
@@ -569,7 +671,9 @@ GIGO.sites_parsed={
   "loc": "ID",
   "provider": "Indonesian Air Force",
   "monitor": "Vicky Ezra Imanuel \u003cvicky@tni-au.go.id\u003e",
-  "reason": ""
+  "contact": "",
+  "reason": "",
+  "transparent": false
  },
  "test-ipv6.vtt.net": {
   "site": "test-ipv6.vtt.net",
@@ -580,7 +684,22 @@ GIGO.sites_parsed={
   "loc": "RU",
   "provider": "JSC \"Volgatranstelecom\"",
   "monitor": "VTT Network Operations Centre \u003cnoc@vtt.net\u003e",
-  "reason": ""
+  "contact": "",
+  "reason": "",
+  "transparent": false
+ },
+ "test-ipv6.vyncke.org": {
+  "site": "test-ipv6.vyncke.org",
+  "mirror": true,
+  "hide": false,
+  "v4": "http://ipv4.test-ipv6.vyncke.org/images-nc/knob_green.png",
+  "v6": "http://ipv6.test-ipv6.vyncke.org/images-nc/knob_green.png",
+  "loc": "FR",
+  "provider": "Éric Vyncke",
+  "monitor": "Eric Vyncke \u003ceric@vyncke.org\u003e",
+  "contact": "",
+  "reason": "",
+  "transparent": false
  },
  "testipv6.de": {
   "site": "testipv6.de",
@@ -591,7 +710,9 @@ GIGO.sites_parsed={
   "loc": "DE",
   "provider": "COSIMO Vertriebs -und Beratungs GmbH",
   "monitor": "COSIMO WebTeam \u003ckontakt@testipv6.de\u003e",
-  "reason": ""
+  "contact": "",
+  "reason": "",
+  "transparent": false
  },
  "www.ctbc.com.br": {
   "site": "www.ctbc.com.br",
@@ -601,8 +722,10 @@ GIGO.sites_parsed={
   "v6": "http://ipv6only.ctbc.net.br/ctbc/pixel.gif",
   "loc": "BR",
   "provider": "Algar Telecom / CTBC",
-  "monitor": "",
-  "reason": ""
+  "monitor": "Tiago Carrijo Setti \u003ctiagoc@algartelecom.com.br\u003e",
+  "contact": "",
+  "reason": "",
+  "transparent": false
  },
  "www.duiadns.net": {
   "site": "www.duiadns.net",
@@ -613,7 +736,9 @@ GIGO.sites_parsed={
   "loc": "NL",
   "provider": "Duiadns",
   "monitor": "Liviu Pislaru \u003cliviu.pislaru@duiadns.net\u003e",
-  "reason": ""
+  "contact": "",
+  "reason": "",
+  "transparent": false
  },
  "www.excathedra.co": {
   "site": "www.excathedra.co",
@@ -624,7 +749,9 @@ GIGO.sites_parsed={
   "loc": "UK",
   "provider": "Ex Cathedra Photography",
   "monitor": "Steve Durbin \u003csteved@excathedra.co\u003e",
-  "reason": ""
+  "contact": "",
+  "reason": "",
+  "transparent": false
  },
  "www.heise.de": {
   "site": "www.heise.de",
@@ -635,7 +762,9 @@ GIGO.sites_parsed={
   "loc": "DE",
   "provider": "Heise",
   "monitor": "Johannes Endres, c't \u003cje@heise.de\u003e",
-  "reason": ""
+  "contact": "",
+  "reason": "",
+  "transparent": false
  },
  "www.radioradicale.it": {
   "site": "www.radioradicale.it",
@@ -646,7 +775,9 @@ GIGO.sites_parsed={
   "loc": "IT",
   "provider": "Centro di Produzione Spa - AS57329",
   "monitor": "Dario Centofanti \u003cdario@popinga.net\u003e",
-  "reason": ""
+  "contact": "",
+  "reason": "",
+  "transparent": false
  },
  "www.rascom.ru": {
   "site": "www.rascom.ru",
@@ -656,8 +787,10 @@ GIGO.sites_parsed={
   "v6": "http://wood6.rascom.ru/logo2.png",
   "loc": "RU",
   "provider": "RASCOM",
-  "monitor": "",
-  "reason": ""
+  "monitor": "Андрей Сафонов \u003cas@rascom.ru\u003e",
+  "contact": "",
+  "reason": "",
+  "transparent": false
  },
  "www.steffann.nl": {
   "site": "www.steffann.nl",
@@ -668,7 +801,22 @@ GIGO.sites_parsed={
   "loc": "NL",
   "provider": "SJM Steffann Consultancy",
   "monitor": "Sander Steffann \u003csander@steffann.nl\u003e",
-  "reason": ""
+  "contact": "",
+  "reason": "",
+  "transparent": false
+ },
+ "www.vyncke.org/ipv6status/": {
+  "site": "www.vyncke.org/ipv6status/",
+  "mirror": false,
+  "hide": false,
+  "v4": "https://test4.vyncke.org/knob_valid_green.png",
+  "v6": "https://test6.vyncke.org/knob_valid_green.png",
+  "loc": "FR",
+  "provider": "Eric Vyncke (personal)",
+  "monitor": "Eric Vyncke \u003ceric@vyncke.org\u003e",
+  "contact": "",
+  "reason": "letsencrypt SSL certs don't support AAAA only",
+  "transparent": false
  },
  "www.yahoo.com": {
   "site": "www.yahoo.com",
@@ -678,7 +826,9 @@ GIGO.sites_parsed={
   "v6": "http://v6test.yahoo.com/eng/test/eye-test.png",
   "loc": "global",
   "provider": "Yahoo!",
-  "monitor": "",
-  "reason": ""
+  "monitor": "ipv6@yahoo-inc.com",
+  "contact": "",
+  "reason": "",
+  "transparent": false
  }
 };

@@ -30,8 +30,10 @@ type SiteRecord struct {
 	V6       string `json:"v6"`       // IPv6 test URL (http or https)
 	Loc      string `json:"loc"`      // Country where the site is located
 	Provider string `json:"provider"` // What provider to publicly attribute
-	Monitor  string `json:"monitor"`  // Who to notify on error
+	Monitor  string `json:"monitor"`  // Who to notify on error (automation)
+	Contact  string `json:"contact"`  // Who to notify on error (human)
 	Reason   string `json:"reason"`   // Reason disabled
+	Transparent bool `json:"transparent"` // Whether or not the site is a transparent mirror
 }
 
 // SitesMap is a series of site records, keyed by site name
