@@ -20,8 +20,8 @@ GIGO.sites_parsed={
   "v6": "http://ip6.aa.net.uk/images/aaisp_logo.png",
   "loc": "UK",
   "provider": "AAISP (UK IPv6 ISP)",
-  "monitor": "Adrian Kennard \u003ca@k.gg\u003e",
-  "contact": "",
+  "monitor": "support@aa.net.uk",
+  "contact": "Adrian Kennard \u003ca@k.gg\u003e",
   "reason": "",
   "transparent": false
  },
@@ -254,8 +254,8 @@ GIGO.sites_parsed={
   "v6": "http://ipv6.test-ipv6.arauc.br/images-nc/knob_green.png",
   "loc": "BR",
   "provider": "PoP-PR/RNP",
-  "monitor": "PoP-PR/RNP \u003cadmnet@pop-pr.rnp.br\u003e",
-  "contact": "",
+  "monitor": "equipe@pop-pr.rnp.br",
+  "contact": "PoP-PR/RNP \u003cadmnet@pop-pr.rnp.br\u003e",
   "reason": "",
   "transparent": false
  },
@@ -480,19 +480,6 @@ GIGO.sites_parsed={
   "reason": "",
   "transparent": false
  },
- "test-ipv6.monash.edu": {
-  "site": "test-ipv6.monash.edu",
-  "mirror": true,
-  "hide": false,
-  "v4": "http://ipv4.test-ipv6.monash.edu/images-nc/knob_green.png",
-  "v6": "http://ipv6.test-ipv6.monash.edu/images-nc/knob_green.png",
-  "loc": "AU",
-  "provider": "Monash University",
-  "monitor": "John Mann \u003cJohn.Mann@monash.edu\u003e",
-  "contact": "",
-  "reason": "",
-  "transparent": false
- },
  "test-ipv6.netiter.dk": {
   "site": "test-ipv6.netiter.dk",
   "mirror": false,
@@ -571,19 +558,6 @@ GIGO.sites_parsed={
   "reason": "",
   "transparent": false
  },
- "test-ipv6.ro": {
-  "site": "test-ipv6.ro",
-  "mirror": true,
-  "hide": false,
-  "v4": "http://ipv4.test-ipv6.ro/images-nc/knob_green.png",
-  "v6": "http://ipv6.test-ipv6.ro/images-nc/knob_green.png",
-  "loc": "RO",
-  "provider": "RCS \u0026 RDS",
-  "monitor": "Liviu Pislaru \u003cliviu.pislaru@rcs-rds.ro\u003e",
-  "contact": "",
-  "reason": "",
-  "transparent": false
- },
  "test-ipv6.roedu.net": {
   "site": "test-ipv6.roedu.net",
   "mirror": true,
@@ -657,7 +631,7 @@ GIGO.sites_parsed={
   "v6": "http://ipv6.test-ipv6.tld.sk/images-nc/knob_green.png",
   "loc": "SK",
   "provider": "Sk-nic",
-  "monitor": "SK-NIC, a.s. \u003chostmaster@sk-nic.sk\u003e",
+  "monitor": "\"SK-NIC, a.s.\" \u003chostmaster@sk-nic.sk\u003e",
   "contact": "",
   "reason": "",
   "transparent": false

@@ -66,7 +66,8 @@
       "he.net" : {
          "hide" : false,
          "loc" : "US (CA)",
-         "monitor" : "Mike Tindle <mtindle@he.net>",
+         "contact" : "Mike Tindle <mtindle@he.net>",
+         "monitor" : "Hurricane Electric <noc@he.net>",
          "provider" : "HE.net",
          "site" : "he.net",
          "v4" : "http://ipv4.tunnelbroker.net/images/helogo.gif",
