@@ -51,12 +51,12 @@
   "reason": "",
   "transparent": false
  },
- "chelloo.com": {
-  "site": "chelloo.com",
+ "chelloo.nl": {
+  "site": "chelloo.nl",
   "mirror": false,
   "hide": false,
-  "v4": "http://ipv4.chelloo.com/images/pixel.gif",
-  "v6": "http://ipv6.chelloo.com/images/pixel.gif",
+  "v4": "https://ipv4.chelloo.nl/images/pixel.gif",
+  "v6": "https://ipv6.chelloo.nl/images/pixel.gif",
   "loc": "NL",
   "provider": "Chelloo",
   "monitor": "Rene Kemp \u003crene.kemp@outlook.com\u003e",
@@ -111,8 +111,8 @@
   "v6": "http://ipv6.tunnelbroker.net/images/helogo.gif",
   "loc": "US (CA)",
   "provider": "HE.net",
-  "monitor": "Mike Tindle \u003cmtindle@he.net\u003e",
-  "contact": "",
+  "monitor": "Hurricane Electric \u003cnoc@he.net\u003e",
+  "contact": "Mike Tindle \u003cmtindle@he.net\u003e",
   "reason": "",
   "transparent": false
  },
@@ -246,19 +246,6 @@
   "reason": "",
   "transparent": false
  },
- "test-ipv6.arauc.br": {
-  "site": "test-ipv6.arauc.br",
-  "mirror": true,
-  "hide": false,
-  "v4": "http://ipv4.test-ipv6.arauc.br/images-nc/knob_green.png",
-  "v6": "http://ipv6.test-ipv6.arauc.br/images-nc/knob_green.png",
-  "loc": "BR",
-  "provider": "PoP-PR/RNP",
-  "monitor": "equipe@pop-pr.rnp.br",
-  "contact": "PoP-PR/RNP \u003cadmnet@pop-pr.rnp.br\u003e",
-  "reason": "",
-  "transparent": false
- },
  "test-ipv6.arbor.net": {
   "site": "test-ipv6.arbor.net",
   "mirror": true,
@@ -384,7 +371,7 @@
   "v6": "http://ipv6.test-ipv6.com.au/images-nc/knob_green.png",
   "loc": "AU",
   "provider": "Futzle Industries",
-  "monitor": "Deborah Pickett \u003ctest-ipv6@dp.futzle.com\u003e",
+  "monitor": "Deborah Pickett \u003cdebbiep@icemoonprison.com\u003e",
   "contact": "",
   "reason": "",
   "transparent": false
@@ -545,15 +532,15 @@
   "reason": "",
   "transparent": false
  },
- "test-ipv6.polkam.go.id": {
-  "site": "test-ipv6.polkam.go.id",
+ "test-ipv6.ro": {
+  "site": "test-ipv6.ro",
   "mirror": true,
   "hide": false,
-  "v4": "http://ipv4.test-ipv6.polkam.go.id/images-nc/knob_green.png",
-  "v6": "http://ipv6.test-ipv6.polkam.go.id/images-nc/knob_green.png",
-  "loc": "ID",
-  "provider": "Coordinating Ministry For Political, Legal, and Security Affairs of Indonesia",
-  "monitor": "vicky@polkam.go.id",
+  "v4": "http://ipv4.test-ipv6.ro/images-nc/knob_green.png",
+  "v6": "http://ipv6.test-ipv6.ro/images-nc/knob_green.png",
+  "loc": "RO",
+  "provider": "RCS \u0026 RDS",
+  "monitor": "Liviu Pislaru \u003cliviu.pislaru@rcs-rds.ro\u003e",
   "contact": "",
   "reason": "",
   "transparent": false
@@ -632,19 +619,6 @@
   "loc": "SK",
   "provider": "Sk-nic",
   "monitor": "\"SK-NIC, a.s.\" \u003chostmaster@sk-nic.sk\u003e",
-  "contact": "",
-  "reason": "",
-  "transparent": false
- },
- "test-ipv6.tni-au.mil.id": {
-  "site": "test-ipv6.tni-au.mil.id",
-  "mirror": true,
-  "hide": false,
-  "v4": "http://ipv4.test-ipv6.tni-au.mil.id/images-nc/knob_green.png",
-  "v6": "http://ipv6.test-ipv6.tni-au.mil.id/images-nc/knob_green.png",
-  "loc": "ID",
-  "provider": "Indonesian Air Force",
-  "monitor": "Vicky Ezra Imanuel \u003cvicky@tni-au.go.id\u003e",
   "contact": "",
   "reason": "",
   "transparent": false

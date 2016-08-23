@@ -28,14 +28,14 @@
          "v4" : "http://ipv4.campaya.co.uk/apple-touch-icon.png",
          "v6" : "http://ipv6.campaya.co.uk/apple-touch-icon.png"
       },
-      "chelloo.com" : {
+      "chelloo.nl" : {
          "hide" : false,
          "loc" : "NL",
          "monitor" : "Rene Kemp <rene.kemp@outlook.com>",
          "provider" : "Chelloo",
-         "site" : "chelloo.com",
-         "v4" : "http://ipv4.chelloo.com/images/pixel.gif",
-         "v6" : "http://ipv6.chelloo.com/images/pixel.gif"
+         "site" : "chelloo.nl",
+         "v4" : "https://ipv4.chelloo.nl/images/pixel.gif",
+         "v6" : "https://ipv6.chelloo.nl/images/pixel.gif"
       },
       "duplimaster.com" : {
          "hide" : false,
