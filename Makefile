@@ -74,7 +74,7 @@ crowdin-upload:
 	@echo Uploading crowdin strings to translate | ./support/fold_start.sh $@
 ifeq ($(TRAVIS_PUBLISH),true)
 	@echo Uploading crowdin translation POT file 
-	cd translations && make crowdin-upload
+	-cd translations && make crowdin-upload
 else
 	@echo skipping make crowdin-upload on travis 
 endif
