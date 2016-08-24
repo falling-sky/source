@@ -18,7 +18,7 @@ var input = flag.String("input", "sites.json", "json file to read")
 var parsed = flag.String("parsed", "../templates/js/sites_parsed.js", "GIGO.sites_parsed= js file to write for falling-sky")
 var raw = flag.String("raw", "../templates/js/sites_parsed_raw.js", "js file to write for other automation")
 var validator = flag.String("validator", "http://validator.test-ipv6.com/urlvalidate.cgi", "use this service to validate a url, instead of fetching directly")
-var slow = flag.Duration("slow", time.Second*8, "time to consider a lookup 'slow'")
+var slow = flag.Duration("slow", time.Second*12, "time to consider a lookup 'slow'") // TODO Make this slow check per-url?  
 var minimumCount = flag.Int("minimum", 0, "Minimum number of sites that must answer, else fail")
 
 // SiteRecord describes a single mirror or "Other Sites" record
