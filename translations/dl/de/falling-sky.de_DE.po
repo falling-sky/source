@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2016-07-21 00:28-0400\n"
+"PO-Revision-Date: 2016-08-21 16:30-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: German\n"
 "MIME-Version: 1.0\n"
@@ -212,7 +212,7 @@ msgstr "Wir haben die Nutzung eines Proxyservers erkannt. Das bedeutet wir teste
 
 #: "inc/messages.js"
 msgid "IPv6 connections work, but connections using DNS names do not use IPv6. For some reason, your browser or your OS is not doing IPv6 DNS 'AAAA' lookups."
-msgstr "Ihre IPv6-Verbindung funktioniert aber es steht keine DNS-Auflösung per IPv6 zur Verfügung. Ihr Browser oder Betriebssystem stellt keine Anfragen nach IPv6 DNS 'AAAA' Einträgen."
+msgstr "Ihre IPv6-Verbindung funktioniert, aber es steht keine DNS-Auflösung per IPv6 zur Verfügung. Ihr Browser oder Betriebssystem stellt keine Anfragen nach IPv6 DNS 'AAAA' Einträgen."
 
 #: "inc/messages.js"
 msgid "We have suggestions to help you fix your system."
@@ -408,7 +408,7 @@ msgstr "Anmerkung: Wir können Sie nicht kontaktieren wenn Sie keine Kontakinfor
 
 #: "inc/checkresults.js"
 msgid "unknown expansion"
-msgstr "unbekannte Expansion"
+msgstr "unbekannte Erweiterung"
 
 #: "inc/checkresults.js"
 msgid "unknown result code"
@@ -572,19 +572,19 @@ msgstr "Test um fehlerhafte DNS zu erkennen"
 
 #: "main/tech.inc"
 msgid "Fetches an object that has just an A record in DNS. This is expected to use IPv4. IPv6-only users might still reach this, if their provider has employed a NAT64/DNS64 or proxy solution."
-msgstr "Ruft ein Objekt auf welches nur über einen A record im DNS verfügt. Es wird eine IPv4 Verbindung erwartet. Nur-IPv6 Benutzer können unter Umständen auch eine Verbindung herstellen, nämlich dann wenn Ihr ISP eine NAT64/DNS64 oder eine andere Proxylösung zur Verfügung stellt."
+msgstr "Ruft ein Objekt auf, welches nur über einen A-Eintrag im DNS verfügt. Es wird eine IPv4-Verbindung erwartet. Nur-IPv6-Benutzer können unter Umständen auch eine Verbindung herstellen, nämlich dann, wenn ihr ISP eine NAT64/DNS64- oder eine andere Proxylösung zur Verfügung stellt."
 
 #: "main/tech.inc"
 msgid "Fetches an object that has just an AAAA record in DNS. This is expected to use IPv6. Users not yet on the IPv6 Internet are likely to see this fail. As long as it fails quickly, it will be OK - for now."
-msgstr "Ruft ein Objekt auf welches nur über einen AAAA record im DNS verfügt. Es wird eine IPv6 Verbindung erwartet. Für Benutzer ohne IPv6-fähigen Internetzugang wird dieser Test fehlschlagen. Solang dies ohne grosse Verzögerung geschieht ist dies zurzeit noch in Ordnung."
+msgstr "Ruft ein Objekt auf, welches nur über einen AAAA-Eintrag im DNS verfügt. Es wird eine IPv6-Verbindung erwartet. Für Benutzer ohne IPv6-fähigen Internetzugang wird dieser Test fehlschlagen. Solange dies ohne grosse Verzögerung geschieht, ist dies zurzeit noch in Ordnung."
 
 #: "main/tech.inc"
 msgid "This is the most important test. This verifies your browser can connect to a site that has both IPv4 and IPv6 records published. IPv4 only hosts should connect fine (using IPv4)."
-msgstr "Dies ist der wichtigste Test. Es wird überprüft ob Ihr Browser Webseiten aufrufen können welche sowohl via IPv4, als auch IPv6 erreichbar sind. Systeme welche nur über IPv4 Konnektivität verfügen sollten solche Seiten problemlos erreichen können (via IPv4)."
+msgstr "Dies ist der wichtigste Test. Es wird überprüft, ob Ihr Browser Webseiten aufrufen kann, welche sowohl via IPv4, als auch IPv6 erreichbar sind. Systeme, welche nur über IPv4-Konnektivität verfügen, sollten solche Seiten problemlos erreichen können (via IPv4)."
 
 #: "main/tech.inc"
 msgid "If this test fails or times out, you can expect major problems as publishers start offering their sites on IPv6."
-msgstr "Falls dieser Test fehlschlägt oder in einer Zeitüberschreitung resultiert, werden Sie schwerwiegende Probleme bekommen, wenn Inhaltsanbieter beginnen Ihre Webseiten via IPv6 verfügbar zu machen."
+msgstr "Falls dieser Test fehlschlägt oder in einer Zeitüberschreitung ended, werden Sie schwerwiegende Probleme bekommen, wenn Inhaltsanbieter beginnen, ihre Webseiten via IPv6 verfügbar zu machen."
 
 #: "main/tech.inc"
 msgid "Validates that you can connect to a dual-stack server (like the ds test); and that you can send/receive large packets on that connection. If this test times out for any reason, it indicates trouble for World IPv6 Day."
@@ -592,7 +592,7 @@ msgstr "Es wird überprüft ob Ihr Browser einen Dual Stack Server erreichen kan
 
 #: "main/tech.inc"
 msgid "This will try connecting with a literal IPv4 numeric address. This should work for most people, unless they are running IPv6-only. If the first test worked, but this fails, it likely confirms your provider is using NAT64/DNS64; you'll need to only try connecting using hostnames instead of numeric IP addresses."
-msgstr "Dieser Test versucht eine Verbindung direkt zu einer IPv4 Adresse zu erstellen (ohne DNS). Dies sollte für die meisten Systeme keine Probleme darstellen, es sei denn Sie verfügen nur über einen IPv6 Internetzugang. Falls der erste Test funkioniert, dieser aber fehlschlägt, bestätigt dies dass der Provider NAT64/DNS64 einsetzt. In diesem Fall müssen Sie Webseiten über Ihren Namen aufrufen und nicht direkt über Ihre IP-Adresse."
+msgstr "Dieser Test versucht eine Verbindung direkt zu einer IPv4-Adresse zu erstellen (ohne DNS). Dies sollte für die meisten Systeme keine Probleme darstellen, es sei denn, Sie verfügen nur über einen IPv6-Internetzugang. Falls der erste Test funkioniert, dieser aber fehlschlägt, bestätigt dies, dass der Provider NAT64/DNS64 einsetzt. In diesem Fall müssen Sie Webseiten über ihren Namen aufrufen und nicht direkt über ihre IP-Adresse."
 
 #: "main/tech.inc"
 msgid "This will try connecting with a literal IPv6 hexadecimal address. The primary purpose of this test is to separate out your connectivity on IPv6 from your ability to fetch DNS for it. A secondary purpose is to see if you have Teredo enabled; some systems may only use Teredo when an IPv6 address is in the URL."
@@ -600,11 +600,11 @@ msgstr "Dieser Test versucht eine Verbindung direkt zu einer IPv6 Adresse zu ers
 
 #: "main/tech.inc"
 msgid "Validates that IPv6 requests with large packets work. If this test times out, but other IPv6 tests work, it suggests that there may be PMTUD issues; possibly involving IP tunnels."
-msgstr "Stellt sicher das IPv6 Anfragen mit grossen Paketen funktionieren. Falls dieser Test in einer Zeitüberschreitung resultiert, andere IPv6 Tests jedoch funktionieren, liegt vermutlich ein Problem mit der PMTUD (Path MTU Detection) vor. Tritt oft im Zusammenhang mit IP Tunnels auf."
+msgstr "Stellt sicher, dass IPv6-Anfragen mit grossen Paketen funktionieren. Falls dieser Test in einer Zeitüberschreitung ended, andere IPv6-Tests jedoch funktionieren, liegt vermutlich ein Problem mit der PMTUD (Path MTU Detection) vor. Tritt oft im Zusammenhang mit IP-Tunneln auf."
 
 #: "main/tech.inc"
 msgid "Double check to make sure that ICMPv6 Type 2 (\"Packet Too Big\") messages are not filtered by your firewall."
-msgstr "Überprüfen Sie, dass ICMPv6 Typ 2 (\"Packet zu groß\") Nachrichten nicht durch Ihre Firewall gefiltert werden."
+msgstr "Überprüfen Sie, dass ICMPv6 Typ 2 (\"Paket zu groß\") Nachrichten nicht durch Ihre Firewall gefiltert werden."
 
 #: "main/tech.inc"
 msgid "(This is bonus credit)"
@@ -640,7 +640,7 @@ msgstr "<b>Ihre besondere Konfiguration ist von Interesse.</b> Wir streben immer
 
 #: "main/mail.inc"
 msgid "This form will let you leave a comment, voice concerns, or ask questions. Your test results will be included automatically."
-msgstr "Dieses Formular ermöglicht Ihnen Kommentare zu hinterlassen, Anregungen und Kritik anzubringen sowie Fragen zu stellen. Ihre Testergebnisse werden automatisch mitgesandt."
+msgstr "Dieses Formular ermöglicht es Ihnen, Kommentare zu hinterlassen, Anregungen und Kritik anzubringen sowie Fragen zu stellen. Ihre Testergebnisse werden automatisch mitgesandt."
 
 #: "main/mail.inc"
 msgid "This includes your IP address, which is shared with the site administrator in order to answer your questions."
@@ -660,7 +660,7 @@ msgstr "Wenn es für Sie möglich ist, wären wir froh, wenn Sie Kommentare und 
 
 #: "main/mail.inc"
 msgid "If reporting a problem with the test, or requesting help with your results, please fill out all requested information to the best of your ability. If leaving general comments, use your best judgement on how much to report."
-msgstr "Falls Sie ein Problem mit dem Test melden oder Hilfe mit Ihren Resultaten benötigen - Tragen Sie bitte alle angeforderten Information gemäss Ihren Möglichkeiten ein. Bei allgemeinen Kommentaren oder Anfragen entscheiden Sie selber welche Informationen nützlich sind."
+msgstr "Falls Sie ein Problem mit dem Test melden oder Hilfe mit Ihren Resultaten benötigen - Tragen Sie bitte alle angeforderten Informationen nach Möglichkeit ein. Bei allgemeinen Kommentaren oder Anfragen entscheiden Sie selber, welche Informationen nützlich sind."
 
 #: "main/mail.inc"
 msgid "Thanks,"
@@ -708,7 +708,7 @@ msgstr "Kopieren Sie die Ausgabe dieser Kommandos in das untenstehende Feld ein.
 
 #: "main/mail.inc"
 msgid "If you are technically minded, please open a \"Command Prompt\" or \"cmd\" window, and run these three commands:"
-msgstr "Falls Sie über genügend technisches Verständnis verfügen, öffnens Sie die \"Eingabeaufforderung\" oder \"cmd\" und führen diese drei Kommandos aus:"
+msgstr "Falls Sie über genügend technisches Verständnis verfügen, öffnen Sie die \"Eingabeaufforderung\" oder \"cmd\" und führen diese drei Kommandos aus:"
 
 #: "main/mail.inc"
 msgid "Send results"
@@ -976,7 +976,7 @@ msgstr "Ihre IPv6-Adresse und den Standardrouter zu finden kann eine Herausforde
 
 #: "faq/find_ip.inc"
 msgid "When looking for your IPv6 address, skip any <code>fe80:</code> address. Everyone has them if their OS supports IPv6; this is regadless of whether or not your ISP supports IPv6 yet. Those are \"link local\" addresses; used just for communicating to other hosts in the same physical network as you."
-msgstr "Bei der Suche nach Ihre IPv6-Adresse überspringen Sie jede <code>fe80:</code> -Adresse. Jeder Rechner hat sie, wenn das Betriebssystem IPv6 unterstützt; Dies ist unabhängig davon, ob der Ihr Internet-Zugangsprovider IPv6 unterstützt. Das sind die \"link-lokalen\" Adressen; verwendet werden sie nur für die Kommunikation mit anderen Hosts in demselben physischen Netzwerk wie Sie."
+msgstr "Bei der Suche nach Ihrer IPv6-Adresse überspringen Sie jede <code>fe80:</code> -Adresse. Jeder Rechner hat sie, wenn das Betriebssystem IPv6 unterstützt; dies ist unabhängig davon, ob Ihr Internet-Zugangsprovider IPv6 unterstützt. Das sind die \"link-lokalen\" Adressen; verwendet werden sie nur für die Kommunikation mit anderen Hosts in demselben physischen Netzwerk wie Sie."
 
 #: "faq/find_ip.inc"
 msgid "OS X users: To find your IP address using the GUI:"
@@ -1040,7 +1040,7 @@ msgstr "Suchen Sie nach einer Zeile mit \"default\"; möglicherweise auf ein Gat
 
 #: "faq/find_ip.inc"
 msgid "iPhone and iPad users: No information is shown via Apple's preferences/setup. The \"IT Tools\" and the \"ip6config\" apps do show IPv6 address data; both cost."
-msgstr "iPhone und iPad-Nutzer: Apples \"Einstellungen\" zeigen keine Informationen. \"Es-Tools\" und die \"ip6config\"-Apps zeigen IPv6-Adressen an. Beide Apps sind kostenpflichtig."
+msgstr "iPhone und iPad-Nutzer: Apples \"Einstellungen\" zeigen keine Informationen. \"IT Tools\" und die \"ip6config\"-Apps zeigen IPv6-Adressen an. Beide Apps sind kostenpflichtig."
 
 #: "faq/find_ip.inc"
 msgid "Linux users: To find your IPv6 address, open a terminal and.."
@@ -1052,7 +1052,7 @@ msgstr "Linux-Nutzer: Um Ihre IPv6-Route herauszufinden, nutzen Sie:"
 
 #: "faq/find_ip.inc"
 msgid "Generic unix instructions for determining your IPv6 address and default route:"
-msgstr "Generische Unix-Anleitungen, um die IPv6-Adresse und default-Route herauszufinden:"
+msgstr "Allgemeine Unix-Anleitungen, um die IPv6-Adresse und Default-Route herauszufinden:"
 
 #: "faq/find_ip.inc"
 msgid "Run"
@@ -2720,5 +2720,5 @@ msgstr "Prozent übersetzt"
 
 #: "faq_v6ns_bad.html"
 msgid "PowerDNS: Configure <code>query-local-address6</code> in your <code>recursor.conf</code>. Restart powerdns."
-msgstr ""
+msgstr "PowerDNS: Konfigurieren Sie <code>query-local-address6</code> in Ihrer <code>recursor.conf</code>-Datei, und starten Sie PowerDNS neu."
 

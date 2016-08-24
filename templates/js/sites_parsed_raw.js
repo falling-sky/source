@@ -246,6 +246,19 @@
   "reason": "",
   "transparent": false
  },
+ "test-ipv6.arauc.br": {
+  "site": "test-ipv6.arauc.br",
+  "mirror": true,
+  "hide": false,
+  "v4": "http://ipv4.test-ipv6.arauc.br/images-nc/knob_green.png",
+  "v6": "http://ipv6.test-ipv6.arauc.br/images-nc/knob_green.png",
+  "loc": "BR",
+  "provider": "PoP-PR/RNP",
+  "monitor": "equipe@pop-pr.rnp.br",
+  "contact": "PoP-PR/RNP \u003cadmnet@pop-pr.rnp.br\u003e",
+  "reason": "",
+  "transparent": false
+ },
  "test-ipv6.arbor.net": {
   "site": "test-ipv6.arbor.net",
   "mirror": true,

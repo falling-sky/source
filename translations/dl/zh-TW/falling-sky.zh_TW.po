@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2016-07-21 00:28-0400\n"
+"PO-Revision-Date: 2016-08-21 16:30-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Chinese Traditional\n"
 "MIME-Version: 1.0\n"
@@ -52,7 +52,7 @@ msgstr "您好像正在使用公共的6轉4閘道器；您的路由器可能自�
 
 #: "inc/messages.js"
 msgid "Your IPv6 connection appears to be using Teredo, a type of IPv4/IPv6 translation using a public gateway. The quality for this <i>may</i> suffer, as you are using a public gateway to reach IPv6 based sites."
-msgstr "您的IPv6連線好像正在使用Teredo，一種使用公共閘道器的IPv4/IPv6變換器。由於您正在使用公共閘道器存取基於IPv6的網站，品質<i>可能會</i>受到影響。"
+msgstr "您的IPv6連線好像正在使用Teredo，一種使用公共閘道器的IPv4/IPv6變換器。由於您正在使用公共閘道器存取基於IPv6的網站，網絡質素<i>可能會</i>受到影響。"
 
 #: "inc/messages.js"
 msgid "Your IPv6 connection appears to be using Teredo, a type of IPv4/IPv6 gateway; currently it connects only to direct IP's. Your browser will not be able to go to IPv6 sites by name. This means the current configuration is not useful for browsing IPv6 web sites."
@@ -72,11 +72,11 @@ msgstr "檢查您的防火牆，確保允許ICMPv6訊息。(尤其是2型或數�
 
 #: "inc/messages.js"
 msgid "Test results inconclusive; they were not consistent with expectations. Please rerun the test, and if the results are the same, please fill out the contact form."
-msgstr "測試結果無法判定；它们與預期不一致。請重新執行測試，如果結果依然如此，請填寫聯絡表單。"
+msgstr "測試結果與預期不一致，因此無從判斷測試結果。請重新執行測試，假如情況持續，請填寫聯絡表格。"
 
 #: "inc/messages.js"
 msgid "For unknown reasons, your browser appears to operate slower when given the option of connecting to both IPv4 and IPv6. Please rerun the test, and if the results are the same, please fill out the contact form."
-msgstr "由於未知原因，你的瀏覽器在選擇 IPv4 或 IPv6 時反應過慢。請重新運行測試，如果還是相同結果，請聯繫我們。"
+msgstr "由於未知原因，你的瀏覽器在選擇 IPv4 或 IPv6 時反應過慢。請重新運行測試，假如情況持續，請聯繫我們。"
 
 #: "inc/messages.js"
 msgid "You appear to be able to browse the IPv4 Internet only. You will not be able to reach IPv6-only sites."
@@ -140,11 +140,11 @@ msgstr "你的 DNS 伺服器 （可能由你的ISP維護）似乎支援 IPv6 的
 
 #: "inc/messages.js"
 msgid "Your DNS server (possibly run by your ISP) appears to have no access to the IPv6 Internet, or is not configured to use it. This may in the future restrict your ability to reach IPv6-only sites."
-msgstr "你的 DNS 伺服器 （可能由你的ISP維護）似乎沒有連接 IPv6 網路，或者尚未設定啟用 IPv6 。這在將來可能會限制你連線到只啟用 IPv6 的網站。"
+msgstr "你的 DNS 伺服器 （可能由你的ISP維護）似乎沒有連接 IPv6 網路，或者尚未設定啟用 IPv6 。這在將來可能會限制你連線到只啟用 IPv6 網站的能力。"
 
 #: "inc/messages.js"
 msgid "You are likely using a FireFox plugin that is causing IP based tests to fail. Examples: RequestPolicy. Please disable those while using this site."
-msgstr "你可能會使用一個FireFox插件,導致基於IP的測試失敗。例子:RequestPolicy。請禁用那些在使用這個網站。"
+msgstr "你正在使用的一個或多個FireFox插件，例如RequestPolicy，可能導致基於IP的測試失敗。在使用本網站時，請停用這些插件。"
 
 #: "inc/messages.js"
 msgid "A lookup for an IPv6-only name failed; yet the lookup and connect for dual-stack connected via IPv6. Something appears to be confused with the DNS lookups."
@@ -224,7 +224,7 @@ msgstr "由於你有 IPv6 ，我們有一個網頁可以顯示你對其他 IPv6 
 
 #: "inc/messages.js"
 msgid "Your browser has real working IPv6 address - but is avoiding using it. We're concerned about this."
-msgstr "瀏覽器已經真正的IPv6地址,但工作是避免使用它。我們擔心這個。"
+msgstr "你的瀏覽器已經有一個真正的IPv6位置，但正在避免使用它。我們對此表示憂慮。"
 
 #: "inc/messages.js"
 msgid "faq: MTU"
@@ -396,7 +396,7 @@ msgstr "我最感興趣的與你，討論您的設置，因為它確定了，<B>
 
 #: "inc/form.js"
 msgid "retest"
-msgstr "重新檢測"
+msgstr "重試"
 
 #: "inc/form.js"
 msgid "Result code"

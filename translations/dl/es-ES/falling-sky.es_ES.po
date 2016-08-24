@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2016-07-21 00:28-0400\n"
+"PO-Revision-Date: 2016-08-21 16:30-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Spanish\n"
 "MIME-Version: 1.0\n"
@@ -152,7 +152,7 @@ msgstr "Una búsqueda de un nombre sólo IPv6 falló; Sin embargo, la búsqueda 
 
 #: "inc/messages.js"
 msgid "A lookup for an IPv6-only name failed; yet the lookup and connect for dual-stack connected via IPv6. The IPv6-only lookup should have worked. Apple has a bug that sporadically causes some IPv6 lookups to fail. We saw evidence of it on this test. You can reload the page and try the test again. For more details, see <a href='http://openradar.appspot.com/7333104'>http://openradar.appspot.com/7333104</a>."
-msgstr "Falló una consulta por un nombre exclusivo IPv6; sin embargo la consulta y conexión vía doble pila a IPv6 ha funcionado. La consulta exclusiva vía IPv6 debería haber funcionado. Apple tiene una pulga que esporádicamente causa fallas con algunas consultas IPv6. Encontramos síntomas de ese error en esta prueba. Puede recargar la página y reintentar la prueba. Para más detalles, consulta <a href='http://openradar.appspot.com/7333104'>http://openradar.appspot.com/7333104</a>."
+msgstr "Falló una consulta por un nombre exclusivo IPv6; sin embargo la consulta y conexión vía doble pila a IPv6 ha funcionado. La consulta exclusiva vía IPv6 debería haber funcionado. Apple tiene un error que esporádicamente causa fallas con algunas consultas IPv6. Encontramos síntomas de ese error en esta prueba. Puede recargar la página y reintentar la prueba. Para más detalles, consulta <a href='http://openradar.appspot.com/7333104'>http://openradar.appspot.com/7333104</a>."
 
 #: "inc/messages.js"
 msgid "A lookup for an dual-stack IPv4 and IPv6 name failed (at minimum it should have connected via IPv4). Apple has a bug that sporadically causes some IPv6 lookups to fail. We saw evidence of it on this test. You can reload the page and try the test again. For more details, see <a href='http://openradar.appspot.com/7333104'>http://openradar.appspot.com/7333104</a>."
@@ -180,7 +180,7 @@ msgstr "<b>Deshabilta el modo  en Opera, e inténtalo de nuevo.</b> El modo turb
 
 #: "inc/messages.js"
 msgid "<b>Good news!</b> Your current configuration will continue to work as web sites enable IPv6."
-msgstr "<b>¡Buenas noticias!</b> Tu configuración actual seguirá funcionando cuando los sitios web activen IPv6."
+msgstr "<b>¡Buenas noticias!</b> Su configuración actual seguirá funcionando cuando los sitios web activen IPv6."
 
 #: "inc/messages.js"
 msgid "<b>Our tests show that you will have a broken or misconfigured IPv6 setup, and this will cause problems as web sites enable IPv6.</b>"
@@ -1900,7 +1900,7 @@ msgstr "Se desaconseja el uso de túneles automáticos"
 
 #: "faq/brokers.inc"
 msgid "[see more]"
-msgstr "[Ver más]"
+msgstr "[ver más]"
 
 #: "faq_ipv4_only.html"
 msgid "If you are not savvy with technology, here is more generic information:"
