@@ -181,6 +181,19 @@
   "reason": "",
   "transparent": false
  },
+ "snozzages.com": {
+  "site": "snozzages.com",
+  "mirror": false,
+  "hide": false,
+  "v4": "http://ipv4.v6test.snozzages.com/1x1.gif",
+  "v6": "http://ipv6.v6test.snozzages.com/1x1.gif",
+  "loc": "US (VA)",
+  "provider": "Warren Kumari",
+  "monitor": "Warren Kumari \u003cwarren@kumari.net\u003e",
+  "contact": "",
+  "reason": "",
+  "transparent": false
+ },
  "stdio.be": {
   "site": "stdio.be",
   "mirror": false,
@@ -411,6 +424,19 @@
   "loc": "IN",
   "provider": "IPv6 Division of ERNET India",
   "monitor": "Praveen Misra \u003cpraveen@ipv6.ernet.in\u003e",
+  "contact": "",
+  "reason": "",
+  "transparent": false
+ },
+ "test-ipv6.fratec.net": {
+  "site": "test-ipv6.fratec.net",
+  "mirror": true,
+  "hide": false,
+  "v4": "http://ipv4.test-ipv6.fratec.net/images-nc/knob_green.png",
+  "v6": "http://ipv6.test-ipv6.fratec.net/images-nc/knob_green.png",
+  "loc": "CR",
+  "provider": "Sistemas Fratec S.A.",
+  "monitor": "Jorge Frater \u003cjfrater@fratec.com\u003e",
   "contact": "",
   "reason": "",
   "transparent": false
