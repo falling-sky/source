@@ -441,19 +441,6 @@ GIGO.sites_parsed={
   "reason": "",
   "transparent": false
  },
- "test-ipv6.hu": {
-  "site": "test-ipv6.hu",
-  "mirror": true,
-  "hide": false,
-  "v4": "http://ipv4.test-ipv6.hu/images-nc/knob_green.png",
-  "v6": "http://ipv6.test-ipv6.hu/images-nc/knob_green.png",
-  "loc": "HU",
-  "provider": "Polaris-N Systems",
-  "monitor": "Polaris-N Systems \u003cinfo@polaris-n.hu\u003e",
-  "contact": "",
-  "reason": "",
-  "transparent": false
- },
  "test-ipv6.iad.vr.org": {
   "site": "test-ipv6.iad.vr.org",
   "mirror": true,
@@ -480,6 +467,19 @@ GIGO.sites_parsed={
   "reason": "",
   "transparent": false
  },
+ "test-ipv6.monash.edu": {
+  "site": "test-ipv6.monash.edu",
+  "mirror": true,
+  "hide": false,
+  "v4": "http://ipv4.test-ipv6.monash.edu/images-nc/knob_green.png",
+  "v6": "http://ipv6.test-ipv6.monash.edu/images-nc/knob_green.png",
+  "loc": "AU",
+  "provider": "Monash University",
+  "monitor": "John Mann \u003cJohn.Mann@monash.edu\u003e",
+  "contact": "",
+  "reason": "",
+  "transparent": false
+ },
  "test-ipv6.netiter.dk": {
   "site": "test-ipv6.netiter.dk",
   "mirror": false,
@@ -502,19 +502,6 @@ GIGO.sites_parsed={
   "loc": "NL",
   "provider": "BIT BV",
   "monitor": "Teun Vink \u003cteun@bit.nl\u003e",
-  "contact": "",
-  "reason": "",
-  "transparent": false
- },
- "test-ipv6.no": {
-  "site": "test-ipv6.no",
-  "mirror": true,
-  "hide": false,
-  "v4": "http://ipv4.test-ipv6.no/images-nc/knob_green.png",
-  "v6": "http://ipv6.test-ipv6.no/images-nc/knob_green.png",
-  "loc": "NO",
-  "provider": "Availo AS",
-  "monitor": "Brynjar Eide \u003ctest-ipv6@availo.no\u003e",
   "contact": "",
   "reason": "",
   "transparent": false
@@ -658,19 +645,6 @@ GIGO.sites_parsed={
   "loc": "FR",
   "provider": "Éric Vyncke",
   "monitor": "Eric Vyncke \u003ceric@vyncke.org\u003e",
-  "contact": "",
-  "reason": "",
-  "transparent": false
- },
- "testipv6.de": {
-  "site": "testipv6.de",
-  "mirror": true,
-  "hide": false,
-  "v4": "http://ipv4.testipv6.de/images-nc/knob_green.png",
-  "v6": "http://ipv6.testipv6.de/images-nc/knob_green.png",
-  "loc": "DE",
-  "provider": "COSIMO Vertriebs -und Beratungs GmbH",
-  "monitor": "COSIMO WebTeam \u003ckontakt@testipv6.de\u003e",
   "contact": "",
   "reason": "",
   "transparent": false
