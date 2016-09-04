@@ -316,6 +316,10 @@ func (sr *SiteRecord) CheckVerifier(domain string, wg *sync.WaitGroup) (err erro
 		//	log.Printf("%s: decode error after POST with: %s\n", *validator, jsonStr)
 		return fmt.Errorf("decode error after POST with: %s", jsonStr)
 	}
+	
+	if cmres.Error != "" {
+		return fmt.Errorf("%s",cmres.Error)
+	}
 
 	//log.Print(cmres.String())
 
