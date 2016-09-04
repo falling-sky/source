@@ -415,19 +415,6 @@
   "reason": "",
   "transparent": false
  },
- "test-ipv6.fratec.net": {
-  "site": "test-ipv6.fratec.net",
-  "mirror": true,
-  "hide": false,
-  "v4": "http://ipv4.test-ipv6.fratec.net/images-nc/knob_green.png",
-  "v6": "http://ipv6.test-ipv6.fratec.net/images-nc/knob_green.png",
-  "loc": "CR",
-  "provider": "Sistemas Fratec S.A.",
-  "monitor": "Jorge Frater \u003cjfrater@fratec.com\u003e",
-  "contact": "",
-  "reason": "",
-  "transparent": false
- },
  "test-ipv6.go6.si": {
   "site": "test-ipv6.go6.si",
   "mirror": true,
