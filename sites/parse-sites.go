@@ -1,13 +1,14 @@
 package main
 
 import (
+	"bytes"
 	"encoding/json"
 	"flag"
 	"fmt"
 	"io/ioutil"
 	"log"
+	"net"
 	"net/http"
-	"net/url"
 	"os"
 	"strings"
 	"sync"
@@ -17,8 +18,8 @@ import (
 var input = flag.String("input", "sites.json", "json file to read")
 var parsed = flag.String("parsed", "../templates/js/sites_parsed.js", "GIGO.sites_parsed= js file to write for falling-sky")
 var raw = flag.String("raw", "../templates/js/sites_parsed_raw.js", "js file to write for other automation")
-var validator = flag.String("validator", "http://validator.test-ipv6.com/urlvalidate.cgi", "use this service to validate a url, instead of fetching directly")
-var slow = flag.Duration("slow", time.Second*12, "time to consider a lookup 'slow'") // TODO Make this slow check per-url?  
+var validator = flag.String("validator", "http://beta.validator.test-ipv6.com/v0/CheckMirror/Check", "use this validator api")
+var slow = flag.Duration("slow", time.Second*12, "time to consider a lookup 'slow'") // TODO Make this slow check per-url?
 var minimumCount = flag.Int("minimum", 0, "Minimum number of sites that must answer, else fail")
 
 // SiteRecord describes a single mirror or "Other Sites" record
@@ -43,6 +44,55 @@ type SitesMap map[string]*SiteRecord
 // This works around the problems with Go unmarshalling to a top level map
 type SitesFile struct {
 	Sites SitesMap `json:"sites"`
+}
+
+// Synced from validator service
+
+// CheckMirrorRequest descripts what users can ask of us
+type CheckMirrorRequest struct {
+	Mirror       string   `json:"mirror"`               // mirror name sent on Start
+	Transparent  bool     `json:"transparent"`          // Do transparent checks too
+	Session      string   `json:"session"`              // Created on Start; sent back on followups
+	ResourceV4   string   `json:"resource_v4"`          // IF not a mirror.. do a resource check. resource_v4 and resource_v6
+	ResourceV6   string   `json:"resource_v6"`          // IF not a mirror.. do a resource check. resource_v4 and resource_v6
+	TestNames    []string `json:"test_names,omitempty"` // What names do you want?
+	WantMarkdown bool     `json:"want_markdown"`
+}
+
+// CheckMirrorResponse describes what we give back to the API consumer
+type CheckMirrorResponse struct {
+	Mirror  string                 `json:"mirror,omitempty"`  // mirror name sent on Start
+	Session string                 `json:"session,omitempty"` // Created on Start; sent back on followups
+	Status  map[string]*StatusType `json:"status,omitempty"`
+	Details map[string]*DetailType `json:"details,omitempty"`
+	Done    bool                   `json:"done"`  // If true, stop polling.
+	Error   string                 `json:"error"` // Any error we want displayed
+}
+
+// StatusType gives the short version of what's going on with all tests.
+// Whenever asked, we'll give the dump of this.
+// Worst case: 50 tests times 100 bytes? = 5k
+type StatusType struct {
+	TestName    string   `json:"test_name"`
+	Hide        bool     `json:"hide"`        // Not sure that need this yet
+	Description string   `json:"description"` // 1-liner
+	Status      string   `json:"status"`      // OK BAD WARNING SKIPPED
+	DependsOn   []string `json:"depends_on"`  // List of things that (if bad) should half-hide this
+}
+
+// DetailType provides details of specific tests
+type DetailType struct {
+	TestName     string   `json:"test_name"`
+	Hide         bool     `json:"hide"`          // Not sure that need this yet
+	Description  string   `json:"description"`   // 1-liner
+	Status       string   `json:"status"`        // OK BAD WARNING SKIPPED
+	DependsOn    []string `json:"depends_on"`    // List of things that (if bad) should half-hide this
+	Expected     string   `json:"expected"`      // What we expected when checking
+	ExpectedHTML string   `json:"expected_html"` // Expected, rendered
+	Found        string   `json:"found"`         // What we found when checking
+	FoundHTML    string   `json:"found_html"`    // found, rendered
+	Help         string   `json:"help"`          // Big block of text for user
+	HelpHTML     string   `json:"help_html"`     // Rendered help
 }
 
 // ReadSitesFile reads from disk
@@ -151,121 +201,135 @@ func (sf *SitesFile) CountRemaining() error {
 	return nil
 }
 
-func CheckHTTP(urlString string) (E error) {
+/* TimeoutDialer and NewTimeoutClient are from
+   http://stackoverflow.com/a/16930649/2399725
+   Thanks go to dmichael for sharing!
+*/
 
-	// Complain about slow urlStrings
-	t0 := time.Now()
+func TimeoutDialer(cTimeout time.Duration, rwTimeout time.Duration) func(net, addr string) (c net.Conn, err error) {
+	return func(netw, addr string) (net.Conn, error) {
+		conn, err := net.DialTimeout(netw, addr, cTimeout)
+		if err != nil {
+			return nil, err
+		}
+		conn.SetDeadline(time.Now().Add(rwTimeout))
+		return conn, nil
+	}
+}
+
+func NewTimeoutClient(connectTimeout time.Duration, readWriteTimeout time.Duration) *http.Client {
+
+	return &http.Client{
+		Transport: &http.Transport{
+			Dial: TimeoutDialer(connectTimeout, readWriteTimeout),
+		},
+	}
+}
+
+func (cmr CheckMirrorRequest) String() string {
+	b, e := json.Marshal(cmr)
+	if e == nil {
+		return string(b)
+	}
+	return fmt.Sprintf("%#v", cmr)
+}
+
+func (i CheckMirrorResponse) String() string {
+	b, e := json.Marshal(i)
+	if e == nil {
+		return string(b)
+	}
+	return fmt.Sprintf("%#v", i)
+}
+
+func (i StatusType) String() string {
+	b, e := json.Marshal(i)
+	if e == nil {
+		return string(b)
+	}
+	return fmt.Sprintf("%#v", i)
+}
+
+func (i DetailType) String() string {
+	b, e := json.Marshal(i)
+	if e == nil {
+		return string(b)
+	}
+	return fmt.Sprintf("%#v", i)
+}
+
+func (sr *SiteRecord) CheckVerifier(domain string, wg *sync.WaitGroup) (err error) {
+	var jsonStr string
+	defer wg.Done()
 	defer func() {
-		if E == nil {
-			t1 := time.Now()
-			td := t1.Sub(t0)
-			if td > (*slow) {
-				log.Printf("Slow! %s %s\n", td, urlString)
+		if err != nil {
+			sr.Hide = true
+			sr.Reason = err.Error()
+			log.Printf("Dropping %s: %s\n", domain, sr.Reason)
+			if jsonStr != "" {
+				//	log.Print(jsonStr)
 			}
 		}
 	}()
 
-	client := &http.Client{
-		Timeout: time.Duration(15) * time.Second,
+	cmr := CheckMirrorRequest{}
+
+	if sr.Mirror {
+		cmr.Mirror = domain
+		cmr.Transparent = sr.Transparent
+		sr.V4 = fmt.Sprintf("http://ipv4.%s/images-nc/knob_green.png", domain)
+		sr.V6 = fmt.Sprintf("http://ipv6.%s/images-nc/knob_green.png", domain)
+	} else {
+		cmr.ResourceV4 = sr.V4
+		cmr.ResourceV6 = sr.V6
 	}
 
-	var err error
-	var resp *http.Response
+	cmr.WantMarkdown = false
 
-	if *validator == "" {
-		resp, err = client.Get(urlString)
-		if err != nil {
-			return err
-		}
-	} else {
-		form := url.Values{}
-		form.Add("url", urlString)
-		req, err := http.NewRequest("POST", *validator, strings.NewReader(form.Encode()))
-		resp, err = client.Do(req)
-		if err != nil {
-			return err
-		}
+	jsonStr = cmr.String()
+	//log.Print(payload)
+	payloadBuf := bytes.NewBufferString(jsonStr)
+	client := NewTimeoutClient(time.Second*40, time.Second*40)
+	req, err := http.NewRequest("POST", *validator, payloadBuf)
+	resp, err := client.Do(req)
+	if err != nil {
+		return err
 	}
 
 	// Start the fetch
 	defer resp.Body.Close()
 
 	// Finish the fetch
-	_, err = ioutil.ReadAll(resp.Body)
+	body, err := ioutil.ReadAll(resp.Body)
 	if err != nil {
 		return err
 	}
 
 	if resp.StatusCode < 200 || resp.StatusCode >= 300 {
-		return fmt.Errorf("%s: %s", urlString, resp.Status)
+		//log.Printf("%s: %s after POST with: %s\n", *validator, resp.Status, jsonStr)
+		return fmt.Errorf("%s after POST with: %s", resp.Status, jsonStr)
 	}
 
-	// Check the content type
-	ct := resp.Header.Get("Content-Type")
-	if ct == "" {
-		return fmt.Errorf("%s: No Content-Type in response", urlString)
-	}
-	ctl := strings.ToLower(ct)
-
-	// If we like the content type, return success
-	if ctl == "image/gif" ||
-		ctl == "image/jpg" ||
-		ctl == "image/jpeg" ||
-		ctl == "image/png" {
-		return nil
+	cmres := CheckMirrorResponse{}
+	err = json.Unmarshal(body, &cmres)
+	if err != nil {
+		//	log.Printf("%s: decode error after POST with: %s\n", *validator, jsonStr)
+		return fmt.Errorf("decode error after POST with: %s", jsonStr)
 	}
 
-	// Otherwise complain
-	return fmt.Errorf("%s: Bad Content-Type: %s", urlString, ct)
+	//log.Print(cmres.String())
 
-}
-
-// CheckHTTP checks if a given URL is good or not;
-// and if not good, marks  SiteRecord.Hide=1
-func (sr *SiteRecord) CheckHTTP(wg *sync.WaitGroup) {
-	// Mark the goroutine as done on function exit
-	defer wg.Done()
-
-	// Try IPv4 then IPv6.
-	// Don't do these in parallel with each other;
-	// we don't want to deal with lock issues
-	// on sr.Reason .  So, do them in serial.
-	if err4 := CheckHTTP(sr.V4); err4 != nil {
-		sr.Reason = err4.Error()
-		sr.Hide = true
-		log.Println(sr.Reason)
-		return
-	}
-	if err6 := CheckHTTP(sr.V6); err6 != nil {
-		sr.Reason = err6.Error()
-		sr.Hide = true
-		log.Println(sr.Reason)
-		return
-	}
-
-}
-
-// CheckMIRROR checks if a mirror's urls are good - a subset of
-// a full verification.  TODO: Make a lib that does full site verification.
-func (sr *SiteRecord) CheckMIRROR(domain string, wg *sync.WaitGroup) {
-	// Mark the goroutine as done on function exit
-	defer wg.Done()
-
-	// Try IPv4 then IPv6.
-	// Don't do these in parallel with each other;
-	// we don't want to deal with lock issues
-	// on sr.Reason .  So, do them in serial.
-	patterns := []string{"http://ipv4.%s/images-nc/knob_green.png", "http://ipv6.%s/images-nc/knob_green.png", "http://ds.v6ns.%s/images-nc/knob_green.png", "http://mtu1280.%s/images-nc/knob_green.png"}
-
-	for _, pattern := range patterns {
-		try := fmt.Sprintf(pattern, domain)
-		if err := CheckHTTP(try); err != nil {
-			sr.Reason = err.Error()
-			sr.Hide = true
-			log.Println(sr.Reason)
-			return
+	bad := []string{}
+	for _, test := range cmres.Status {
+		if test.Status != "OK" && test.Status != "SKIPPED" && test.Status != "WARNING" {
+			log.Printf("%s %s %s %s\n", domain, test.TestName, test.Status, test.Description)
+			bad = append(bad, test.TestName)
 		}
 	}
+	if len(bad) > 0 {
+		return fmt.Errorf("Bad: %s", strings.Join(bad, "; "))
+	}
+	return nil
 }
 
 // CheckHTTP against the entire SitesFile
@@ -277,12 +341,8 @@ func (sf *SitesFile) CheckHTTP() {
 	for domain, sr := range sf.Sites {
 		if sr.Hide == false {
 			wg.Add(1)
-			if sr.Mirror {
-				go sr.CheckMIRROR(domain, wg)
-			} else {
-				go sr.CheckHTTP(wg)
-			}
-			time.Sleep(20 * time.Millisecond)
+			go sr.CheckVerifier(domain, wg)
+			time.Sleep(1 * time.Second / 10)
 		}
 	}
 	wg.Wait()
