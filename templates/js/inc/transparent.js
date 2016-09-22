@@ -14,6 +14,14 @@ GIGO.CheckTransparent = function() {
                 "contact": "Jason Fesler",
                 "mailto": "jfesler@test-ipv6.com"
             };
+            
+            MirrorConfig.options.show_stats =  "http://master.test-ipv6.com/stats.html";
+            MirrorConfig.options.survey = "/survey.php";
+            MirrorConfig.options.comment = "/comment.php";
+            MirrorConfig.options.comment_html = 1;
+            MirrorConfig.options.v6mtu = "mtu1280." + MirrorConfig.load.domain;
+            MirrorConfig.options.userdata = "master.test-ipv6.com";
+/*            
             MirrorConfig.options = {
                 "show_stats": "http://master.test-ipv6.com/stats.html",
                 "survey": "/survey.php",
@@ -23,6 +31,7 @@ GIGO.CheckTransparent = function() {
                 "v6mtu": "mtu1280.test-ipv6-ct.comcast.net",
                 "userdata": "master.test-ipv6.com",
             };
+            */
 
         }
     }
