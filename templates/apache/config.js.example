@@ -16,7 +16,7 @@ MirrorConfig =
   "footer": {
     "#note": "uncomment (remove #) to use any of the next few lines.",
     "#logo": "/site/logo.png",
-    "#operator": "Operated by Jason Fesler",
+    "#operator": "Jason Fesler",
     "#link": "http://test-ipv6.com",
     "#html": "/site/footer.html"
   },
