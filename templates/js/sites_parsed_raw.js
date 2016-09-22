@@ -272,19 +272,6 @@
   "reason": "",
   "transparent": false
  },
- "test-ipv6.arbor.net": {
-  "site": "test-ipv6.arbor.net",
-  "mirror": true,
-  "hide": false,
-  "v4": "http://ipv4.test-ipv6.arbor.net/images-nc/knob_green.png",
-  "v6": "http://ipv6.test-ipv6.arbor.net/images-nc/knob_green.png",
-  "loc": "US",
-  "provider": "Arbor Networks",
-  "monitor": "Bill Cerveny \u003cadmin@v6research.net\u003e",
-  "contact": "",
-  "reason": "",
-  "transparent": false
- },
  "test-ipv6.azstarnet.az": {
   "site": "test-ipv6.azstarnet.az",
   "mirror": true,
@@ -423,7 +410,7 @@
   "v6": "http://ipv6.test-ipv6.ernet.in/images-nc/knob_green.png",
   "loc": "IN",
   "provider": "IPv6 Division of ERNET India",
-  "monitor": "Praveen Misra \u003cpraveen@ipv6.ernet.in\u003e",
+  "monitor": "praveen.misra@eis.ernet.in",
   "contact": "",
   "reason": "",
   "transparent": false
@@ -450,6 +437,19 @@
   "loc": "SI",
   "provider": "Go6 Lab - Slovenian IPv6 Iniciative",
   "monitor": "Jan Zorz \u003cjan@go6.si\u003e",
+  "contact": "",
+  "reason": "",
+  "transparent": false
+ },
+ "test-ipv6.hu": {
+  "site": "test-ipv6.hu",
+  "mirror": true,
+  "hide": false,
+  "v4": "http://ipv4.test-ipv6.hu/images-nc/knob_green.png",
+  "v6": "http://ipv6.test-ipv6.hu/images-nc/knob_green.png",
+  "loc": "HU",
+  "provider": "Polaris-N Systems",
+  "monitor": "Polaris-N Systems \u003cinfo@polaris-n.hu\u003e",
   "contact": "",
   "reason": "",
   "transparent": false
@@ -519,6 +519,19 @@
   "reason": "",
   "transparent": false
  },
+ "test-ipv6.no": {
+  "site": "test-ipv6.no",
+  "mirror": true,
+  "hide": false,
+  "v4": "http://ipv4.test-ipv6.no/images-nc/knob_green.png",
+  "v6": "http://ipv6.test-ipv6.no/images-nc/knob_green.png",
+  "loc": "NO",
+  "provider": "Availo AS",
+  "monitor": "Brynjar Eide \u003ctest-ipv6@availo.no\u003e",
+  "contact": "",
+  "reason": "",
+  "transparent": false
+ },
  "test-ipv6.orbyta.com": {
   "site": "test-ipv6.orbyta.com",
   "mirror": true,
@@ -541,6 +554,19 @@
   "loc": "DE",
   "provider": "Jan-Eric Ortgies",
   "monitor": "Jan-Eric Ortgies \u003cjaneric@ortgies.it\u003e",
+  "contact": "",
+  "reason": "",
+  "transparent": false
+ },
+ "test-ipv6.polkam.go.id": {
+  "site": "test-ipv6.polkam.go.id",
+  "mirror": true,
+  "hide": false,
+  "v4": "http://ipv4.test-ipv6.polkam.go.id/images-nc/knob_green.png",
+  "v6": "http://ipv6.test-ipv6.polkam.go.id/images-nc/knob_green.png",
+  "loc": "ID",
+  "provider": "Coordinating Ministry For Political, Legal, and Security Affairs of Indonesia",
+  "monitor": "vicky@polkam.go.id",
   "contact": "",
   "reason": "",
   "transparent": false
@@ -636,6 +662,19 @@
   "reason": "",
   "transparent": false
  },
+ "test-ipv6.tni-au.mil.id": {
+  "site": "test-ipv6.tni-au.mil.id",
+  "mirror": true,
+  "hide": false,
+  "v4": "http://ipv4.test-ipv6.tni-au.mil.id/images-nc/knob_green.png",
+  "v6": "http://ipv6.test-ipv6.tni-au.mil.id/images-nc/knob_green.png",
+  "loc": "ID",
+  "provider": "Indonesian Air Force",
+  "monitor": "Vicky Ezra Imanuel \u003cvicky@tni-au.mil.id\u003e",
+  "contact": "",
+  "reason": "",
+  "transparent": false
+ },
  "test-ipv6.vtt.net": {
   "site": "test-ipv6.vtt.net",
   "mirror": true,
@@ -658,6 +697,19 @@
   "loc": "FR",
   "provider": "Éric Vyncke",
   "monitor": "Eric Vyncke \u003ceric@vyncke.org\u003e",
+  "contact": "",
+  "reason": "",
+  "transparent": false
+ },
+ "testipv6.de": {
+  "site": "testipv6.de",
+  "mirror": true,
+  "hide": false,
+  "v4": "http://ipv4.testipv6.de/images-nc/knob_green.png",
+  "v6": "http://ipv6.testipv6.de/images-nc/knob_green.png",
+  "loc": "DE",
+  "provider": "COSIMO Vertriebs -und Beratungs GmbH",
+  "monitor": "COSIMO WebTeam \u003ckontakt@testipv6.de\u003e",
   "contact": "",
   "reason": "",
   "transparent": false

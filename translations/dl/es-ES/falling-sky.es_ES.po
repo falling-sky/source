@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2016-08-21 16:30-0400\n"
+"PO-Revision-Date: 2016-09-22 10:00-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Spanish\n"
 "MIME-Version: 1.0\n"
@@ -2721,4 +2721,8 @@ msgstr "porcentaje traducido"
 #: "faq_v6ns_bad.html"
 msgid "PowerDNS: Configure <code>query-local-address6</code> in your <code>recursor.conf</code>. Restart powerdns."
 msgstr "PowerDNS: Configure <code>query-local-address6</code> en su <code>recursor.conf</code>. Reinicie powerdns."
+
+#: "inc/mirrorconfig.js"
+msgid "This instance of test-ipv6.com is provided by"
+msgstr "Esta instancia de test-ipv6.com es provista por"
 
