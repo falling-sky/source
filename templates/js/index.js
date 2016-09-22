@@ -21,6 +21,7 @@
 
 [% PROCESS   "inc/dumpObj.js"                  %]
 [% PROCESS   "inc/init.js"                     %]
+[% PROCESS   "inc/transparent.js"              %]
 [% PROCESS   "inc/builtin.js"                  %]
 [% PROCESS   "inc/versions.js"                 %]
 [% PROCESS   "inc/tabnav.js"                   %]

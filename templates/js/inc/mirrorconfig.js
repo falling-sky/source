@@ -32,7 +32,11 @@ GIGO.fix_logo_generic = function () {
             }));
         }
         if (MirrorConfig.footer.operator) {
-            jQuery("#logo_operator").append("{{This mirror is provided by}}" + " ");
+            if (MirrorConfig.footer.transparent) {
+              jQuery("#logo_operator").append("{{This instance of test-ipv6.com is provided by}} " + " ");
+            } else {
+              jQuery("#logo_operator").append("{{This mirror is provided by}}" + " ");
+            }
             if (MirrorConfig.footer.link) {
                 jQuery("#logo_operator").append(jQuery("<a>", {
                     text: MirrorConfig.footer.operator,

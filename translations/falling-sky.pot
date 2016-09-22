@@ -2716,3 +2716,7 @@ msgstr ""
 msgid "PowerDNS: Configure <code>query-local-address6</code> in your <code>recursor.conf</code>. Restart powerdns."
 msgstr ""
 
+#: "inc/mirrorconfig.js"
+msgid "This instance of test-ipv6.com is provided by"
+msgstr ""
+
