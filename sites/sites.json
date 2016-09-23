@@ -232,9 +232,9 @@
       },
       "test-ipv6.com" : {
          "hide" : false,
-         "loc" : "US CA",
+         "loc" : "Varies",
          "mirror" : true,
-         "provider" : "Jason Fesler",
+         "provider" : "Several locations around the world",
          "site" : "test-ipv6.com",
          "v4" : "http://ipv4.test-ipv6.com/images-nc/knob_green.png",
          "v6" : "http://ipv6.test-ipv6.com/images-nc/knob_green.png"
