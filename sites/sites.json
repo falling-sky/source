@@ -460,7 +460,7 @@
          "v6" : "http://ipv6.test-ipv6.si/images-nc/knob_green.png"
       },
       "test-ipv6.sjc.vr.org" : {
-         "hide" : false,
+         "hide" : true,
          "loc" : "US CA",
          "mirror" : true,
          "monitor" : "jfesler@gigo.com",
