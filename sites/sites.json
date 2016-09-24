@@ -163,7 +163,7 @@
          "v6" : "http://ipv6.test-ipv6.alpinedc.ch/images-nc/knob_green.png"
       },
       "test-ipv6.ams.vr.org" : {
-         "hide" : false,
+         "hide" : true,
          "loc" : "NL",
          "mirror" : true,
          "monitor" : "jfesler@gigo.com",
@@ -210,15 +210,15 @@
          "v4" : "http://ipv4.test-ipv6.carnet.hr/images-nc/knob_green.png",
          "v6" : "http://ipv6.test-ipv6.carnet.hr/images-nc/knob_green.png"
       },
-      "test-ipv6.chi.vr.org" : {
-         "hide" : false,
-         "loc" : "US IL",
+      "test-ipv6.hkg.vr.org" : {
+         "hide" : true,
+         "loc" : "HK",
          "mirror" : true,
          "monitor" : "jfesler@gigo.com",
          "provider" : "vr.org",
-         "site" : "test-ipv6.chi.vr.org",
-         "v4" : "http://ipv4.test-ipv6.chi.vr.org/images-nc/knob_green.png",
-         "v6" : "http://ipv6.test-ipv6.chi.vr.org/images-nc/knob_green.png"
+         "site" : "test-ipv6.hkg.vr.org",
+         "v4" : "http://ipv4.test-ipv6.hkg.vr.org/images-nc/knob_green.png",
+         "v6" : "http://ipv6.test-ipv6.hkg.vr.org/images-nc/knob_green.png"
       },
       "test-ipv6.co.za" : {
          "hide" : false,
@@ -330,7 +330,7 @@
          "v6" : "http://ipv6.test-ipv6.hu/images-nc/knob_green.png"
       },
       "test-ipv6.iad.vr.org" : {
-         "hide" : false,
+         "hide" : true,
          "loc" : "US VA",
          "mirror" : true,
          "monitor" : "jfesler@gigo.com",
