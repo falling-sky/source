@@ -84,6 +84,17 @@
          "v4" : "http://ipv4.ipv6-test.pl/images-nc/knob_green.png",
          "v6" : "http://ipv6.ipv6-test.pl/images-nc/knob_green.png"
       },
+      "test-ipv6.noroutetohost.net" : {
+         "hide" : false,
+         "loc" : "GB",
+         "mirror" : true,
+         "contact" : "David Wilkinson <test-ipv6@noroutetohost.net>",
+         "monitor" : "test-ipv6@noroutetohost.net",
+         "provider" : "NoRouteToHost",
+         "site" : "www.noroutetohost.net",
+         "v4" : "http://ipv4.test-ipv6.noroutetohost.net/images-nc/knob_green.png",
+         "v6" : "http://ipv6.test-ipv6.noroutetohost.net/images-nc/knob_green.png"
+      },
       "nic.br" : {
          "hide" : false,
          "loc" : "BR",
