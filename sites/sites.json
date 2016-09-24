@@ -162,16 +162,6 @@
          "v4" : "http://ipv4.test-ipv6.alpinedc.ch/images-nc/knob_green.png",
          "v6" : "http://ipv6.test-ipv6.alpinedc.ch/images-nc/knob_green.png"
       },
-      "test-ipv6.ams.vr.org" : {
-         "hide" : true,
-         "loc" : "NL",
-         "mirror" : true,
-         "monitor" : "jfesler@gigo.com",
-         "provider" : "vr.org",
-         "site" : "test-ipv6.ams.vr.org",
-         "v4" : "http://ipv4.test-ipv6.ams.vr.org/images-nc/knob_green.png",
-         "v6" : "http://ipv6.test-ipv6.ams.vr.org/images-nc/knob_green.png"
-      },
       "test-ipv6.arbor.net" : {
          "hide" : false,
          "loc" : "US",
@@ -329,16 +319,6 @@
          "v4" : "http://ipv4.test-ipv6.hu/images-nc/knob_green.png",
          "v6" : "http://ipv6.test-ipv6.hu/images-nc/knob_green.png"
       },
-      "test-ipv6.iad.vr.org" : {
-         "hide" : true,
-         "loc" : "US VA",
-         "mirror" : true,
-         "monitor" : "jfesler@gigo.com",
-         "provider" : "vr.org",
-         "site" : "test-ipv6.iad.vr.org",
-         "v4" : "http://ipv4.test-ipv6.iad.vr.org/images-nc/knob_green.png",
-         "v6" : "http://ipv6.test-ipv6.iad.vr.org/images-nc/knob_green.png"
-      },
       "test-ipv6.jp" : {
          "hide" : false,
          "loc" : "JP",
@@ -458,16 +438,6 @@
          "site" : "test-ipv6.si",
          "v4" : "http://ipv4.test-ipv6.si/images-nc/knob_green.png",
          "v6" : "http://ipv6.test-ipv6.si/images-nc/knob_green.png"
-      },
-      "test-ipv6.sjc.vr.org" : {
-         "hide" : true,
-         "loc" : "US CA",
-         "mirror" : true,
-         "monitor" : "jfesler@gigo.com",
-         "provider" : "vr.org",
-         "site" : "test-ipv6.sjc.vr.org",
-         "v4" : "http://ipv4.test-ipv6.sjc.vr.org/images-nc/knob_green.png",
-         "v6" : "http://ipv6.test-ipv6.sjc.vr.org/images-nc/knob_green.png"
       },
       "test-ipv6.tld.sk" : {
          "hide" : false,
