@@ -211,7 +211,7 @@
          "v6" : "http://ipv6.test-ipv6.carnet.hr/images-nc/knob_green.png"
       },
       "test-ipv6.hkg.vr.org" : {
-         "hide" : true,
+         "hide" : false,
          "loc" : "HK",
          "mirror" : true,
          "monitor" : "jfesler@gigo.com",
