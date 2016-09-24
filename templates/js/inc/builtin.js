@@ -346,6 +346,7 @@ GIGO.send_survey = function (tokens) {
             url += "&ip6=";
         }
     }
+    url += "&load=" + encodeURI(MirrorConfig.load.domain);
 
 
     url += "&ip6subtype=" + encodeURI(GIGO.results.ipv6.subtype);
