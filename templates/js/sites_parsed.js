@@ -246,19 +246,6 @@ GIGO.sites_parsed={
   "reason": "",
   "transparent": false
  },
- "test-ipv6.ams.vr.org": {
-  "site": "test-ipv6.ams.vr.org",
-  "mirror": true,
-  "hide": false,
-  "v4": "http://ipv4.test-ipv6.ams.vr.org/images-nc/knob_green.png",
-  "v6": "http://ipv6.test-ipv6.ams.vr.org/images-nc/knob_green.png",
-  "loc": "NL",
-  "provider": "vr.org",
-  "monitor": "jfesler@gigo.com",
-  "contact": "",
-  "reason": "",
-  "transparent": false
- },
  "test-ipv6.arauc.br": {
   "site": "test-ipv6.arauc.br",
   "mirror": true,
@@ -269,6 +256,19 @@ GIGO.sites_parsed={
   "provider": "PoP-PR/RNP",
   "monitor": "equipe@pop-pr.rnp.br",
   "contact": "PoP-PR/RNP \u003cadmnet@pop-pr.rnp.br\u003e",
+  "reason": "",
+  "transparent": false
+ },
+ "test-ipv6.arbor.net": {
+  "site": "test-ipv6.arbor.net",
+  "mirror": true,
+  "hide": false,
+  "v4": "http://ipv4.test-ipv6.arbor.net/images-nc/knob_green.png",
+  "v6": "http://ipv6.test-ipv6.arbor.net/images-nc/knob_green.png",
+  "loc": "US",
+  "provider": "Arbor Networks",
+  "monitor": "Bill Cerveny \u003cadmin@v6research.net\u003e",
+  "contact": "",
   "reason": "",
   "transparent": false
  },
@@ -307,19 +307,6 @@ GIGO.sites_parsed={
   "loc": "HR",
   "provider": "Croatian Academic and Research Network",
   "monitor": "CARNet \u003csysadm@carnet.hr\u003e",
-  "contact": "",
-  "reason": "",
-  "transparent": false
- },
- "test-ipv6.chi.vr.org": {
-  "site": "test-ipv6.chi.vr.org",
-  "mirror": true,
-  "hide": false,
-  "v4": "http://ipv4.test-ipv6.chi.vr.org/images-nc/knob_green.png",
-  "v6": "http://ipv6.test-ipv6.chi.vr.org/images-nc/knob_green.png",
-  "loc": "US IL",
-  "provider": "vr.org",
-  "monitor": "jfesler@gigo.com",
   "contact": "",
   "reason": "",
   "transparent": false
@@ -369,8 +356,8 @@ GIGO.sites_parsed={
   "hide": false,
   "v4": "http://ipv4.test-ipv6.com/images-nc/knob_green.png",
   "v6": "http://ipv6.test-ipv6.com/images-nc/knob_green.png",
-  "loc": "US CA",
-  "provider": "Jason Fesler",
+  "loc": "Varies",
+  "provider": "Several locations around the world",
   "monitor": "",
   "contact": "",
   "reason": "",
@@ -428,15 +415,15 @@ GIGO.sites_parsed={
   "reason": "",
   "transparent": false
  },
- "test-ipv6.go6.si": {
-  "site": "test-ipv6.go6.si",
+ "test-ipv6.hkg.vr.org": {
+  "site": "test-ipv6.hkg.vr.org",
   "mirror": true,
   "hide": false,
-  "v4": "http://ipv4.test-ipv6.go6.si/images-nc/knob_green.png",
-  "v6": "http://ipv6.test-ipv6.go6.si/images-nc/knob_green.png",
-  "loc": "SI",
-  "provider": "Go6 Lab - Slovenian IPv6 Iniciative",
-  "monitor": "Jan Zorz \u003cjan@go6.si\u003e",
+  "v4": "http://ipv4.test-ipv6.hkg.vr.org/images-nc/knob_green.png",
+  "v6": "http://ipv6.test-ipv6.hkg.vr.org/images-nc/knob_green.png",
+  "loc": "HK",
+  "provider": "vr.org",
+  "monitor": "jfesler@gigo.com",
   "contact": "",
   "reason": "",
   "transparent": false
@@ -450,19 +437,6 @@ GIGO.sites_parsed={
   "loc": "HU",
   "provider": "Polaris-N Systems",
   "monitor": "Polaris-N Systems \u003cinfo@polaris-n.hu\u003e",
-  "contact": "",
-  "reason": "",
-  "transparent": false
- },
- "test-ipv6.iad.vr.org": {
-  "site": "test-ipv6.iad.vr.org",
-  "mirror": true,
-  "hide": false,
-  "v4": "http://ipv4.test-ipv6.iad.vr.org/images-nc/knob_green.png",
-  "v6": "http://ipv6.test-ipv6.iad.vr.org/images-nc/knob_green.png",
-  "loc": "US VA",
-  "provider": "vr.org",
-  "monitor": "jfesler@gigo.com",
   "contact": "",
   "reason": "",
   "transparent": false
@@ -529,6 +503,19 @@ GIGO.sites_parsed={
   "provider": "Availo AS",
   "monitor": "Brynjar Eide \u003ctest-ipv6@availo.no\u003e",
   "contact": "",
+  "reason": "",
+  "transparent": false
+ },
+ "test-ipv6.noroutetohost.net": {
+  "site": "www.noroutetohost.net",
+  "mirror": true,
+  "hide": false,
+  "v4": "http://ipv4.test-ipv6.noroutetohost.net/images-nc/knob_green.png",
+  "v6": "http://ipv6.test-ipv6.noroutetohost.net/images-nc/knob_green.png",
+  "loc": "GB",
+  "provider": "NoRouteToHost",
+  "monitor": "test-ipv6@noroutetohost.net",
+  "contact": "David Wilkinson \u003ctest-ipv6@noroutetohost.net\u003e",
   "reason": "",
   "transparent": false
  },
@@ -632,19 +619,6 @@ GIGO.sites_parsed={
   "loc": "SI",
   "provider": "Damjan Sirnik",
   "monitor": "Damjan Sirnik \u003cdamjan@sirnik.si\u003e",
-  "contact": "",
-  "reason": "",
-  "transparent": false
- },
- "test-ipv6.sjc.vr.org": {
-  "site": "test-ipv6.sjc.vr.org",
-  "mirror": true,
-  "hide": false,
-  "v4": "http://ipv4.test-ipv6.sjc.vr.org/images-nc/knob_green.png",
-  "v6": "http://ipv6.test-ipv6.sjc.vr.org/images-nc/knob_green.png",
-  "loc": "US CA",
-  "provider": "vr.org",
-  "monitor": "jfesler@gigo.com",
   "contact": "",
   "reason": "",
   "transparent": false

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2016-09-21 23:00-0400\n"
+"PO-Revision-Date: 2016-09-22 20:00-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Russian\n"
 "MIME-Version: 1.0\n"
@@ -460,7 +460,7 @@ msgstr "Требуется JavaScript"
 
 #: "inc/js_required.inc"
 msgid "This site requires JavaScript, as well as the ability to pull in cross-site scripts, in order to perform the testing."
-msgstr ""
+msgstr "Чтобы выполнить тестирование, этот сайт требует наличие JavaScript, а также способность использовать в межсайтовые скрипты."
 
 #: "inc/js_required.inc"
 msgid "If this message does not go away, it means that JavaScript has been disabled, either by a plugin or extension in your browser, or by explicit browser setting."
@@ -908,7 +908,7 @@ msgstr "Попробуйте netalyzr"
 
 #: "broken.html"
 msgid "If all else fails, disable or deprioritize IPv6"
-msgstr ""
+msgstr "Если все еще не удается, отключите или измените приоритет IPv6"
 
 #: "faq/staycurrent.inc"
 msgid "Many OS and Hardware manufacturers are making updates to help improve the transition to IPv6. Some known \"gotchas\" are being addressed by workarounds by these vendors."

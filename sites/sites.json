@@ -221,6 +221,26 @@
          "v4" : "http://ipv4.test-ipv6.hkg.vr.org/images-nc/knob_green.png",
          "v6" : "http://ipv6.test-ipv6.hkg.vr.org/images-nc/knob_green.png"
       },
+      "test-ipv6.ams.vr.org" : {
+         "hide" : false,
+         "loc" : "NL",
+         "mirror" : true,
+         "monitor" : "jfesler@gigo.com",
+         "provider" : "vr.org",
+         "site" : "test-ipv6.ams.vr.org",
+         "v4" : "http://ipv4.test-ipv6.ams.vr.org/images-nc/knob_green.png",
+         "v6" : "http://ipv6.test-ipv6.ams.vr.org/images-nc/knob_green.png"
+      },
+      "test-ipv6.sin.vr.org" : {
+         "hide" : false,
+         "loc" : "SG",
+         "mirror" : true,
+         "monitor" : "jfesler@gigo.com",
+         "provider" : "vr.org",
+         "site" : "test-ipv6.sin.vr.org",
+         "v4" : "http://ipv4.test-ipv6.sin.vr.org/images-nc/knob_green.png",
+         "v6" : "http://ipv6.test-ipv6.sin.vr.org/images-nc/knob_green.png"
+      },
       "test-ipv6.co.za" : {
          "hide" : false,
          "loc" : "ZA",
