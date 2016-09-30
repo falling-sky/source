@@ -544,6 +544,15 @@
          "v4" : "https://ipv4.excathedra.co/knob_valid_green.png",
          "v6" : "https://ipv6.excathedra.co/knob_valid_green.png"
       },
+      "www.tecpeu.com.br" : {
+         "hide" : false,
+         "loc" : "BR",
+         "monitor" : "Ricardo Peu Grassi <contato@tecpeu.com.br>",
+         "provider" : "informática",
+         "site" : "www.tecpeu.com.br",
+         "v4" : "http://www.ipv4.tecpeu.com.br/img/logo-big.png",
+         "v6" : "http://www.ipv6.tecpeu.com.br/img/logo-big.png"
+      },
       "www.heise.de" : {
          "hide" : false,
          "loc" : "DE",
