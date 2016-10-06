@@ -95,6 +95,28 @@
          "v4" : "http://ipv4.test-ipv6.noroutetohost.net/images-nc/knob_green.png",
          "v6" : "http://ipv6.test-ipv6.noroutetohost.net/images-nc/knob_green.png"
       },
+      "test-ipv6.zw.liquidtelecom.net" : {
+         "hide" : false,
+         "loc" : "ZW",
+         "mirror" : true,
+         "contact" : "Jason Fesler <jfesler@test-ipv6.com>",
+         "monitor" : "jfesler@test-ipv6.com",
+         "provider" : "Liquid Telecom",
+         "site" : "liquidtelecom.com",
+         "v4" : "http://ipv4.test-ipv6.zw.liquidtelecom.net/images-nc/knob_green.png",
+         "v6" : "http://ipv6.test-ipv6.zw.liquidtelecom.net/images-nc/knob_green.png"
+      },
+      "test-ipv6.ke.liquidtelecom.net" : {
+         "hide" : false,
+         "loc" : "KE",
+         "mirror" : true,
+         "contact" : "Jason Fesler <jfesler@test-ipv6.com>",
+         "monitor" : "jfesler@test-ipv6.com",
+         "provider" : "Liquid Telecom",
+         "site" : "liquidtelecom.com",
+         "v4" : "http://ipv4.test-ipv6.ke.liquidtelecom.net/images-nc/knob_green.png",
+         "v6" : "http://ipv6.test-ipv6.ke.liquidtelecom.net/images-nc/knob_green.png"
+      },
       "nic.br" : {
          "hide" : false,
          "loc" : "BR",
