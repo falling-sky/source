@@ -246,6 +246,19 @@ GIGO.sites_parsed={
   "reason": "",
   "transparent": false
  },
+ "test-ipv6.ams.vr.org": {
+  "site": "test-ipv6.ams.vr.org",
+  "mirror": true,
+  "hide": false,
+  "v4": "http://ipv4.test-ipv6.ams.vr.org/images-nc/knob_green.png",
+  "v6": "http://ipv6.test-ipv6.ams.vr.org/images-nc/knob_green.png",
+  "loc": "NL",
+  "provider": "vr.org",
+  "monitor": "jfesler@gigo.com",
+  "contact": "",
+  "reason": "",
+  "transparent": false
+ },
  "test-ipv6.arauc.br": {
   "site": "test-ipv6.arauc.br",
   "mirror": true,
@@ -389,19 +402,6 @@ GIGO.sites_parsed={
   "reason": "",
   "transparent": false
  },
- "test-ipv6.ernet.in": {
-  "site": "test-ipv6.ernet.in",
-  "mirror": true,
-  "hide": false,
-  "v4": "http://ipv4.test-ipv6.ernet.in/images-nc/knob_green.png",
-  "v6": "http://ipv6.test-ipv6.ernet.in/images-nc/knob_green.png",
-  "loc": "IN",
-  "provider": "IPv6 Division of ERNET India",
-  "monitor": "praveen.misra@eis.ernet.in",
-  "contact": "",
-  "reason": "",
-  "transparent": false
- },
  "test-ipv6.fratec.net": {
   "site": "test-ipv6.fratec.net",
   "mirror": true,
@@ -411,6 +411,19 @@ GIGO.sites_parsed={
   "loc": "CR",
   "provider": "Sistemas Fratec S.A.",
   "monitor": "Jorge Frater \u003cjfrater@fratec.com\u003e",
+  "contact": "",
+  "reason": "",
+  "transparent": false
+ },
+ "test-ipv6.go6.si": {
+  "site": "test-ipv6.go6.si",
+  "mirror": true,
+  "hide": false,
+  "v4": "http://ipv4.test-ipv6.go6.si/images-nc/knob_green.png",
+  "v6": "http://ipv6.test-ipv6.go6.si/images-nc/knob_green.png",
+  "loc": "SI",
+  "provider": "Go6 Lab - Slovenian IPv6 Iniciative",
+  "monitor": "Jan Zorz \u003cjan@go6.si\u003e",
   "contact": "",
   "reason": "",
   "transparent": false
@@ -451,6 +464,19 @@ GIGO.sites_parsed={
   "provider": "BIGLOBE, Inc/Fullroute Pte. Ltd",
   "monitor": "Shin Shirahata \u003cinquiry@test-ipv6.jp\u003e",
   "contact": "",
+  "reason": "",
+  "transparent": false
+ },
+ "test-ipv6.ke.liquidtelecom.net": {
+  "site": "liquidtelecom.com",
+  "mirror": true,
+  "hide": false,
+  "v4": "http://ipv4.test-ipv6.ke.liquidtelecom.net/images-nc/knob_green.png",
+  "v6": "http://ipv6.test-ipv6.ke.liquidtelecom.net/images-nc/knob_green.png",
+  "loc": "KE",
+  "provider": "Liquid Telecom",
+  "monitor": "jfesler@test-ipv6.com",
+  "contact": "Jason Fesler \u003cjfesler@test-ipv6.com\u003e",
   "reason": "",
   "transparent": false
  },
@@ -623,6 +649,19 @@ GIGO.sites_parsed={
   "reason": "",
   "transparent": false
  },
+ "test-ipv6.sin.vr.org": {
+  "site": "test-ipv6.sin.vr.org",
+  "mirror": true,
+  "hide": false,
+  "v4": "http://ipv4.test-ipv6.sin.vr.org/images-nc/knob_green.png",
+  "v6": "http://ipv6.test-ipv6.sin.vr.org/images-nc/knob_green.png",
+  "loc": "SG",
+  "provider": "vr.org",
+  "monitor": "jfesler@gigo.com",
+  "contact": "",
+  "reason": "",
+  "transparent": false
+ },
  "test-ipv6.tld.sk": {
   "site": "test-ipv6.tld.sk",
   "mirror": true,
@@ -672,6 +711,19 @@ GIGO.sites_parsed={
   "provider": "Éric Vyncke",
   "monitor": "Eric Vyncke \u003ceric@vyncke.org\u003e",
   "contact": "",
+  "reason": "",
+  "transparent": false
+ },
+ "test-ipv6.zw.liquidtelecom.net": {
+  "site": "liquidtelecom.com",
+  "mirror": true,
+  "hide": false,
+  "v4": "http://ipv4.test-ipv6.zw.liquidtelecom.net/images-nc/knob_green.png",
+  "v6": "http://ipv6.test-ipv6.zw.liquidtelecom.net/images-nc/knob_green.png",
+  "loc": "ZW",
+  "provider": "Liquid Telecom",
+  "monitor": "jfesler@test-ipv6.com",
+  "contact": "Jason Fesler \u003cjfesler@test-ipv6.com\u003e",
   "reason": "",
   "transparent": false
  },
@@ -775,6 +827,19 @@ GIGO.sites_parsed={
   "loc": "NL",
   "provider": "SJM Steffann Consultancy",
   "monitor": "Sander Steffann \u003csander@steffann.nl\u003e",
+  "contact": "",
+  "reason": "",
+  "transparent": false
+ },
+ "www.tecpeu.com.br": {
+  "site": "www.tecpeu.com.br",
+  "mirror": false,
+  "hide": false,
+  "v4": "http://www.ipv4.tecpeu.com.br/img/logo-big.png",
+  "v6": "http://www.ipv6.tecpeu.com.br/img/logo-big.png",
+  "loc": "BR",
+  "provider": "Tecpeu Informática",
+  "monitor": "Ricardo Peu Grassi \u003ccontato@tecpeu.com.br\u003e",
   "contact": "",
   "reason": "",
   "transparent": false
