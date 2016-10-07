@@ -290,6 +290,17 @@ GIGO.update_progress = function (G) {
 
 };
 
+GIGO.send_survey_global = function (tokens) {
+  // Only if we are in transparent mode..
+  if (MirrorConfig.orig_options) {
+    if (MirrorConfig.options.survey !== MirrorConfig.orig_options.survey  ||
+     MirrorConfig.options.userdata !== MirrorConfig.orig_options.userdata ) { 
+        MirrorConfig.options.survey = MirrorConfig.orig_options.survey;
+        MirrorConfig.options.userdata =  MirrorConfig.orig_options.userdata;
+        GIGO.send_survey(tokens);
+     }
+  }
+}
 
 
 GIGO.send_survey = function (tokens) {
