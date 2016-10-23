@@ -33,7 +33,7 @@ id="current">[% $page %]</a></li>
 
 
 
-  <li class=navright tabname=stats style="display:none"><a href="/stats.html" tabname=stats 
+  <li class="navright" tabname="stats" style="display:none"><a href="/stats.html" tabname="stats"
   [% if eq $page "stats" %] id="current" [% $tabbed := 1 %] [% end %]>{{stats}}</a></li>
 
 
@@ -43,9 +43,9 @@ id="current">[% $page %]</a></li>
 
 </ul>
 
-<div class=navright>
+<div class="navright">
 <a href="/locale.html">
-<img src="/images/icon_987_red.png" height=32 border=0>
+<img src="/images/icon_987_red.png" height="32" border="0" />
 </a>
 </div>
 

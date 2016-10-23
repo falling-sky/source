@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2016-09-22 12:30-0400\n"
+"PO-Revision-Date: 2016-10-11 08:30-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Greek\n"
 "MIME-Version: 1.0\n"
@@ -152,7 +152,7 @@ msgstr ""
 
 #: "inc/messages.js"
 msgid "A lookup for an IPv6-only name failed; yet the lookup and connect for dual-stack connected via IPv6. The IPv6-only lookup should have worked. Apple has a bug that sporadically causes some IPv6 lookups to fail. We saw evidence of it on this test. You can reload the page and try the test again. For more details, see <a href='http://openradar.appspot.com/7333104'>http://openradar.appspot.com/7333104</a>."
-msgstr ""
+msgstr "Απέτυχε μια αναζήτηση για ένα όνομα μόνο IPv6? ακόμη η αναζήτηση και σύνδεση για διπλής στοίβας συνδέεται μέσω IPv6. Η αναζήτηση μόνο IPv6 θα πρέπει να εργαστεί. Η Apple έχει ένα bug που προκαλεί σποραδικά μερικές αναζητήσεις IPv6 να αποτύχουν. Απόδειξη ότι το είδαμε σε αυτό το τεστ. Μπορείτε να ξαναφορτώστε τη σελίδα και να επανεκτελέσετε τη δοκιμή. Για περισσότερες λεπτομέρειες, ανατρέξτε στο θέμα <a href='http://openradar.appspot.com/7333104'> http://openradar.appspot.com/7333104</a>."
 
 #: "inc/messages.js"
 msgid "A lookup for an dual-stack IPv4 and IPv6 name failed (at minimum it should have connected via IPv4). Apple has a bug that sporadically causes some IPv6 lookups to fail. We saw evidence of it on this test. You can reload the page and try the test again. For more details, see <a href='http://openradar.appspot.com/7333104'>http://openradar.appspot.com/7333104</a>."

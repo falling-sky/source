@@ -1596,7 +1596,7 @@ msgstr ""
 msgid "Yes. See the <a href=\"source.html\">source page</a> for details."
 msgstr ""
 
-#: "stats.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "<span lookup=site.name>site</span> statistics"
 msgstr ""
 
@@ -2718,5 +2718,9 @@ msgstr ""
 
 #: "inc/mirrorconfig.js"
 msgid "This instance of test-ipv6.com is provided by"
+msgstr ""
+
+#: "stats.html"
+msgid "<span lookup=\"site.name\">site</span> statistics"
 msgstr ""
 

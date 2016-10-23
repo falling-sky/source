@@ -402,6 +402,19 @@ GIGO.sites_parsed={
   "reason": "",
   "transparent": false
  },
+ "test-ipv6.ernet.in": {
+  "site": "test-ipv6.ernet.in",
+  "mirror": true,
+  "hide": false,
+  "v4": "http://ipv4.test-ipv6.ernet.in/images-nc/knob_green.png",
+  "v6": "http://ipv6.test-ipv6.ernet.in/images-nc/knob_green.png",
+  "loc": "IN",
+  "provider": "IPv6 Division of ERNET India",
+  "monitor": "praveen.misra@eis.ernet.in",
+  "contact": "",
+  "reason": "",
+  "transparent": false
+ },
  "test-ipv6.fratec.net": {
   "site": "test-ipv6.fratec.net",
   "mirror": true,
@@ -468,15 +481,15 @@ GIGO.sites_parsed={
   "transparent": false
  },
  "test-ipv6.ke.liquidtelecom.net": {
-  "site": "liquidtelecom.com",
+  "site": "test-ipv6.ke.liquidtelecom.com",
   "mirror": true,
   "hide": false,
   "v4": "http://ipv4.test-ipv6.ke.liquidtelecom.net/images-nc/knob_green.png",
   "v6": "http://ipv6.test-ipv6.ke.liquidtelecom.net/images-nc/knob_green.png",
   "loc": "KE",
   "provider": "Liquid Telecom",
-  "monitor": "jfesler@test-ipv6.com",
-  "contact": "Jason Fesler \u003cjfesler@test-ipv6.com\u003e",
+  "monitor": "ipv6@liquidtelecom.com",
+  "contact": "Liquid Telecom \u003cipv6@liquidtelecom.com\u003e",
   "reason": "",
   "transparent": false
  },
@@ -715,15 +728,15 @@ GIGO.sites_parsed={
   "transparent": false
  },
  "test-ipv6.zw.liquidtelecom.net": {
-  "site": "liquidtelecom.com",
+  "site": "test-ipv6.zw.liquidtelecom.com",
   "mirror": true,
   "hide": false,
   "v4": "http://ipv4.test-ipv6.zw.liquidtelecom.net/images-nc/knob_green.png",
   "v6": "http://ipv6.test-ipv6.zw.liquidtelecom.net/images-nc/knob_green.png",
   "loc": "ZW",
   "provider": "Liquid Telecom",
-  "monitor": "jfesler@test-ipv6.com",
-  "contact": "Jason Fesler \u003cjfesler@test-ipv6.com\u003e",
+  "monitor": "ipv6@liquidtelecom.com",
+  "contact": "Liquid Telecom \u003cipv6@liquidtelecom.com\u003e",
   "reason": "",
   "transparent": false
  },
