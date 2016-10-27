@@ -102,7 +102,7 @@
          "contact" : "Liquid Telecom <ipv6@liquidtelecom.com>",
          "monitor" : "ipv6@liquidtelecom.com",
          "provider" : "Liquid Telecom",
-         "site" : "test-ipv6.zw.liquidtelecom.com",
+         "site" : "test-ipv6.zw.liquidtelecom.net",
          "v4" : "http://ipv4.test-ipv6.zw.liquidtelecom.net/images-nc/knob_green.png",
          "v6" : "http://ipv6.test-ipv6.zw.liquidtelecom.net/images-nc/knob_green.png"
       },
@@ -113,7 +113,7 @@
          "contact" : "Liquid Telecom <ipv6@liquidtelecom.com>",
          "monitor" : "ipv6@liquidtelecom.com",
          "provider" : "Liquid Telecom",
-         "site" : "test-ipv6.ke.liquidtelecom.com",
+         "site" : "test-ipv6.ke.liquidtelecom.net",
          "v4" : "http://ipv4.test-ipv6.ke.liquidtelecom.net/images-nc/knob_green.png",
          "v6" : "http://ipv6.test-ipv6.ke.liquidtelecom.net/images-nc/knob_green.png"
       },
