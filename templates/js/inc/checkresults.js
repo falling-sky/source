@@ -175,6 +175,7 @@ GIGO.check_results = function () {
     GIGO.facebook_like();
     GIGO.twitter_tweet();
     GIGO.send_survey(tokens);
+    GIGO.send_survey_global(tokens);
     GIGO.show_results();
     GIGO.form_setup(tokens);
     GIGO.show_debug();
