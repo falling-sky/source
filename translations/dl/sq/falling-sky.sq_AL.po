@@ -1971,7 +1971,7 @@ msgid "If this test fails:"
 msgstr "Nëse ky test dështon:"
 
 #: "faq_v6ns_bad.html"
-msgid "it means that the DNS resolver you are using, requires IPv4 to reach the DNS authoritative servers of your favoriate web sites. In the near future, every web site of consequence will remain accessible in this form, so <b>there is no immediate danger.</b>"
+msgid "it means that the DNS resolver you are using, requires IPv4 to reach the DNS authoritative servers of your favorite web sites. In the near future, every web site of consequence will remain accessible in this form, so <b>there is no immediate danger.</b>"
 msgstr ""
 
 #: "faq_v6ns_bad.html"

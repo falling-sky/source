@@ -1951,7 +1951,7 @@ msgid "If this test fails:"
 msgstr "如果此测试失败："
 
 #: faq_v6ns_bad.html
-msgid "it means that the DNS resolver you are using, requires IPv4 to reach the DNS authoritative servers of your favoriate web sites. In the near future, every web site of consequence will remain accessible in this form, so <b>there is no immediate danger.</b>"
+msgid "it means that the DNS resolver you are using, requires IPv4 to reach the DNS authoritative servers of your favorite web sites. In the near future, every web site of consequence will remain accessible in this form, so <b>there is no immediate danger.</b>"
 msgstr "这意味着您使用的 DNS 服务器需要 IPv4 来到达您喜欢的网站的 DNS 权威服务器。在目前来说，基本每个网站都仍可以用此种形式访问，因此此情况<b>目前没有风险</b>。"
 
 #: faq_v6ns_bad.html
