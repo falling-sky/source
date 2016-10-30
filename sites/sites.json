@@ -695,7 +695,7 @@
       },
       "rootbark.com" : {
          "hide" : false,
-         "loc" : "global",
+         "loc" : "NL",
          "monitor" : "Francisco Gaitán <fgm@tantari.com>",
          "provider" : "Rootbark",
          "site" : "rootbark.com",
