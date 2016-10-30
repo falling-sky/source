@@ -697,8 +697,8 @@
          "hide" : false,
          "loc" : "global",
          "monitor" : "Francisco Gaitán <fgm@tantari.com>",
-         "provider" : "badger",
-         "site" : "roobark.com",
+         "provider" : "Rootbark",
+         "site" : "rootbark.com",
          "v4" : "http://ipv4.rootbark.com/images/test-image.png",
          "v6" : "http://ipv6.rootbark.com/images/test-image.png"
       }
