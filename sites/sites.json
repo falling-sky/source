@@ -692,6 +692,15 @@
          "provider" : "Orbyta S.A.",
          "v4" : "http://ipv4.test-ipv6.orbyta.com/images-nc/knob_green.png",
          "v6" : "http://ipv6.test-ipv6.orbyta.com/images-nc/knob_green.png"
+      },
+      "rootbark.com" : {
+         "hide" : false,
+         "loc" : "global",
+         "monitor" : "Francisco Gaitán <fgm@tantari.com>",
+         "provider" : "badger",
+         "site" : "roobark.com",
+         "v4" : "http://ipv4.rootbark.com/images/test-image.png",
+         "v6" : "http://ipv6.rootbark.com/images/test-image.png"
       }
    }
 }
