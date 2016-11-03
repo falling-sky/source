@@ -1,0 +1,10 @@
+      "test-ipv6.ernet.in" : {
+         "hide" : false,
+         "loc" : "IN",
+         "mirror" : true,
+         "monitor" : "praveen.misra@eis.ernet.in",
+         "provider" : "IPv6 Division of ERNET India",
+         "site" : "test-ipv6.ernet.in",
+         "v4" : "http://ipv4.test-ipv6.ernet.in/images-nc/knob_green.png",
+         "v6" : "http://ipv6.test-ipv6.ernet.in/images-nc/knob_green.png"
+      },
