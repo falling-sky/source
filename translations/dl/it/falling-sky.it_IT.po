@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2016-09-22 12:30-0400\n"
+"PO-Revision-Date: 2016-10-26 22:51-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Italian\n"
 "MIME-Version: 1.0\n"
@@ -1971,7 +1971,7 @@ msgstr "Questo test verifica specificatamente che il tuo resolver DNS (solitamen
 msgid "If this test fails:"
 msgstr "Se questo test fallisce"
 
-#: "faq_v6ns_bad.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "it means that the DNS resolver you are using, requires IPv4 to reach the DNS authoritative servers of your favoriate web sites. In the near future, every web site of consequence will remain accessible in this form, so <b>there is no immediate danger.</b>"
 msgstr "significa che il server DNS utilizzato usa solo IPv4 per raggiungere il server DNS autorevole per il sito web richiesto. Nel prossimo futuro ogni sito rimarrà accessibile in questo modo, per cui <b>non c'è nessun pericolo immediato</b>."
 
@@ -2726,4 +2726,8 @@ msgstr ""
 #: "inc/mirrorconfig.js"
 msgid "This instance of test-ipv6.com is provided by"
 msgstr ""
+
+#: "faq_v6ns_bad.html"
+msgid "it means that the DNS resolver you are using, requires IPv4 to reach the DNS authoritative servers of your favorite web sites. In the near future, every web site of consequence will remain accessible in this form, so <b>there is no immediate danger.</b>"
+msgstr "significa che il server DNS utilizzato usa solo IPv4 per raggiungere il server DNS autorevole per il sito web richiesto. Nel prossimo futuro ogni sito rimarrà accessibile in questo modo, per cui <b>non c'è nessun pericolo immediato</b>."
 

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2016-09-22 12:30-0400\n"
+"PO-Revision-Date: 2016-10-26 22:51-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Spanish\n"
 "MIME-Version: 1.0\n"
@@ -1970,7 +1970,7 @@ msgstr "Esta prueba verifica específicamente que su resolución DNS (generalmen
 msgid "If this test fails:"
 msgstr "Si esta prueba falla:"
 
-#: "faq_v6ns_bad.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "it means that the DNS resolver you are using, requires IPv4 to reach the DNS authoritative servers of your favoriate web sites. In the near future, every web site of consequence will remain accessible in this form, so <b>there is no immediate danger.</b>"
 msgstr "significa que la resolución DNS que usa, requiere IPv4 para llegar a los servidores DNS autoritativos de sus sitios web favoritos. En un futuro próximo, cada sitio web importante permanecerá accesible en esta forma, así que <b>no hay ningún peligro inmediato.</b>"
 
@@ -2725,4 +2725,8 @@ msgstr "PowerDNS: Configure <code>query-local-address6</code> en su <code>recurs
 #: "inc/mirrorconfig.js"
 msgid "This instance of test-ipv6.com is provided by"
 msgstr "Esta instancia de test-ipv6.com es provista por"
+
+#: "faq_v6ns_bad.html"
+msgid "it means that the DNS resolver you are using, requires IPv4 to reach the DNS authoritative servers of your favorite web sites. In the near future, every web site of consequence will remain accessible in this form, so <b>there is no immediate danger.</b>"
+msgstr "significa que la resolución DNS que usa, requiere IPv4 para llegar a los servidores DNS autoritativos de sus sitios web favoritos. En un futuro próximo, cada sitio web importante permanecerá accesible en esta forma, así que <b>no hay ningún peligro inmediato.</b>"
 

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2016-09-22 12:30-0400\n"
+"PO-Revision-Date: 2016-10-26 22:51-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Korean\n"
 "MIME-Version: 1.0\n"
@@ -1970,7 +1970,7 @@ msgstr "이 테스트에서는 (주로 인터넷 서비스 공급자, 또는 회
 msgid "If this test fails:"
 msgstr "이 테스트가 실패하는 경우:"
 
-#: "faq_v6ns_bad.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "it means that the DNS resolver you are using, requires IPv4 to reach the DNS authoritative servers of your favoriate web sites. In the near future, every web site of consequence will remain accessible in this form, so <b>there is no immediate danger.</b>"
 msgstr "이것은 즐겨 찾는 웹 사이트의 신뢰할 만한 DNS 서버에 연결하기 위해서는 사용 중인 DNS 변환기에 IPv4가 필요한 것을 의미합니다. 머지않아 중요한 모든 웹 사이트는 이런 형태로 액세스가 가능할 것이므로, <b>즉각적인 위험은 없습니다.</b>"
 
@@ -2728,4 +2728,8 @@ msgstr "PowerDNS: <code>recursor.conf</code>에서 <code>query-local-address6</c
 #: "inc/mirrorconfig.js"
 msgid "This instance of test-ipv6.com is provided by"
 msgstr ""
+
+#: "faq_v6ns_bad.html"
+msgid "it means that the DNS resolver you are using, requires IPv4 to reach the DNS authoritative servers of your favorite web sites. In the near future, every web site of consequence will remain accessible in this form, so <b>there is no immediate danger.</b>"
+msgstr "이것은 즐겨 찾는 웹 사이트의 신뢰할 만한 DNS 서버에 연결하기 위해서는 사용 중인 DNS 변환기에 IPv4가 필요한 것을 의미합니다. 머지않아 중요한 모든 웹 사이트는 이런 형태로 액세스가 가능할 것이므로, <b>즉각적인 위험은 없습니다.</b>"
 
