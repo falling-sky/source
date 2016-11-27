@@ -701,6 +701,16 @@
          "site" : "test-ipv6.ernet.in",
          "v4" : "http://ipv4.test-ipv6.ernet.in/images-nc/knob_green.png",
          "v6" : "http://ipv6.test-ipv6.ernet.in/images-nc/knob_green.png"
+      },
+      "test-ipv6.epic.network" : {
+         "hide" : false,
+         "loc" : "US",
+         "mirror" : true,
+         "monitor" : "test-ipv6@qpg.us",
+         "provider" : "epic.network",
+         "site" : "test-ipv6.epic.network",
+         "v4" : "http://ipv4.test-ipv6.epic.network/images-nc/knob_green.png",
+         "v6" : "http://ipv6.test-ipv6.epic.network/images-nc/knob_green.png"
       }
    }
 }
