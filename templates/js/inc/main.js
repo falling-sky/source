@@ -104,6 +104,7 @@ GIGO.test_type_json = function (url, id) {
             var delta;
 
             delete ipinfo.full; // Don't need this polluting anything.
+            delete ipinfo.padding; // Don't need this polluting anything.
             this_test.ipinfo = ipinfo; // Record the IP address reported from this test
             if (GIGO.override) {
                 GIGO.override_id_ip(id);
@@ -282,6 +283,7 @@ GIGO.test_type_json_only = function (url, id) {
             var delta;
 
             delete ipinfo.full; // Don't need this polluting anything.
+            delete ipinfo.padding; // Don't need this polluting anything.
             this_test.ipinfo = ipinfo; // Record the IP address reported from this test
             GIGO.update_ipaddress(this_test.ipinfo); // Make note of our IPv4 or IPv6 address based on the test
             GIGO.update_ip(id); // callback for presentation

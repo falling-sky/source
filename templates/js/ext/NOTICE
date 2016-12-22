@@ -35,3 +35,8 @@ jquery.md5.js - to carry status from helpdesk tab to replay url
   Copyright 2010, Sebastian Tschan
   https://blueimp.net, https://github.com/placemarker/jQuery-MD5
   license: MIT-style license.
+
+json3.min.js - JSON.stringify polyfill
+  Copyright 2012-2014, Kit Cambridge
+  http://bestiejs.github.io/json3 
+  http://kit.mit-license.org

@@ -1,7 +1,9 @@
 // start of index.js
 
 
+
 [% PROCESS  "inc/GIGO.js"                      %]
+[% PROCESS "ext/json3.min.js" %]
 [% PROCESS  "ext/jquery-1.12.2.min.js"     %]
 [% PROCESS  "ext/mootools-core-1.4.5.js"   %]
 [% PROCESS  "ext/jquery.tablesorter.js"    %]

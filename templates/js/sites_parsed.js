@@ -142,6 +142,19 @@ GIGO.sites_parsed={
   "reason": "",
   "transparent": false
  },
+ "ipv6ready.me": {
+  "site": "test-ipv6.epic.network",
+  "mirror": true,
+  "hide": false,
+  "v4": "http://ipv4.ipv6ready.me/images-nc/knob_green.png",
+  "v6": "http://ipv6.ipv6ready.me/images-nc/knob_green.png",
+  "loc": "JP",
+  "provider": "Kazuhide Takahashi",
+  "monitor": "kazuhide.t@ipv6ready.me",
+  "contact": "",
+  "reason": "",
+  "transparent": false
+ },
  "nic.br": {
   "site": "nic.br",
   "mirror": false,
@@ -190,19 +203,6 @@ GIGO.sites_parsed={
   "loc": "US (VA)",
   "provider": "Warren Kumari",
   "monitor": "Warren Kumari \u003cwarren@kumari.net\u003e",
-  "contact": "",
-  "reason": "",
-  "transparent": false
- },
- "stdio.be": {
-  "site": "stdio.be",
-  "mirror": false,
-  "hide": false,
-  "v4": "http://ipv4.stdio.be/images/knob_valid_green.png",
-  "v6": "http://ipv6.stdio.be/images/knob_valid_green.png",
-  "loc": "DE",
-  "provider": "Andrew Yourtchenko (personal)",
-  "monitor": "Andrew Yourtchenko \u003cayourtch@gmail.com\u003e",
   "contact": "",
   "reason": "",
   "transparent": false
@@ -398,6 +398,19 @@ GIGO.sites_parsed={
   "loc": "CZ",
   "provider": "nic.cz",
   "monitor": "NOC NIC \u003cnoc@nic.cz\u003e",
+  "contact": "",
+  "reason": "",
+  "transparent": false
+ },
+ "test-ipv6.epic.network": {
+  "site": "test-ipv6.epic.network",
+  "mirror": true,
+  "hide": false,
+  "v4": "http://ipv4.test-ipv6.epic.network/images-nc/knob_green.png",
+  "v6": "http://ipv6.test-ipv6.epic.network/images-nc/knob_green.png",
+  "loc": "US",
+  "provider": "epic.network",
+  "monitor": "test-ipv6@qpg.us",
   "contact": "",
   "reason": "",
   "transparent": false

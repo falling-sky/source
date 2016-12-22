@@ -20,6 +20,12 @@ GIGO.dumpObj = function (obj, name) {
 GIGO._dumpObj_MAX_DUMP_DEPTH = 3;
 
 GIGO._dumpObj = function (obj, name, indent, depth) { /*jslint forin: false */
+
+    var s = JSON.stringify(obj,null,"  ");
+    return s;
+    
+  // The rest of this is obsolete
+  // (needs to be proven)
     var child, output, item;
     if (depth > GIGO._dumpObj_MAX_DUMP_DEPTH) {
         return indent + name + ": <Maximum Depth Reached>\n";
