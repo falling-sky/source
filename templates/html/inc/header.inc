@@ -33,12 +33,14 @@ BrowserName="IE6";
 //  Load help pages inside mini tabs if possible; else
 //  make same function load entire document with real headers
 function help_page (url,text) {
-  try {
-//      GIGO.help_popup(url + " #content",text);
+  console.log("help_page")
+  
+  if(document.getElementById("is_index_page") !== null) {
+      console.log("help_page using help_popup");
       GIGO.help_popup(url,text);
-  }
-  catch (err) {
-    document.location = url;
+  } else {
+      console.log("help_page changing document url");
+      document.location = url;
   }
   return false;
 };
