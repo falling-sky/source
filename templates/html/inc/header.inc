@@ -34,8 +34,11 @@ BrowserName="IE6";
 //  make same function load entire document with real headers
 function help_page (url,text) {
   try {
+// Since this function does not work in all languages, open the URL directly as an ad hoc fix.
+// Sorry, I have not found out how to fix this.
 //      GIGO.help_popup(url + " #content",text);
-      GIGO.help_popup(url,text);
+//      GIGO.help_popup(url,text);
+	window.location.href = url;
   }
   catch (err) {
     document.location = url;
