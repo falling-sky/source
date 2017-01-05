@@ -9,6 +9,32 @@ ServerAlias *.test-ipv6.example.com
 ServerAlias 192.0.2.1
 ServerAlias 2001:DB8::1
 
+
+# Additional aliases, if you want to consider
+# https://github.com/falling-sky/source/wiki/TransparentMirror 
+# By request for jfesler@test-ipv6.com
+ServerAlias test-ipv6.com
+ServerAlias *.test-ipv6.com
+ServerAlias testipv6.com
+ServerAlias *.testipv6.com
+ServerAlias test-ipv4.com
+ServerAlias *.test-ipv4.com
+ServerAlias testipv4.com
+ServerAlias *.testipv4.com
+ServerAlias test-ds.com
+ServerAlias *.test-ds.com
+ServerAlias testds.com
+ServerAlias *.testds.com
+ServerAlias test-v6.com
+ServerAlias *.test-v6.com
+ServerAlias testv6.com
+ServerAlias *.testv6.com
+
+# If you're willing to consider also being a transparent mirror
+# taking some of the test-ipv6.com traffic, uncomment these
+# ServerAlias lines as well:
+
+
 DocumentRoot /usr/local/www/data/virt/test-ipv6.example.com
 <Directory /usr/local/www/data/virt/test-ipv6.example.com>
 AllowOverride None

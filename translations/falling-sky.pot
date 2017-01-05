@@ -1596,7 +1596,7 @@ msgstr ""
 msgid "Yes. See the <a href=\"source.html\">source page</a> for details."
 msgstr ""
 
-#: "not-used, archived.  Not currently needed for translation."
+#: "stats.html"
 msgid "<span lookup=site.name>site</span> statistics"
 msgstr ""
 
@@ -1964,7 +1964,7 @@ msgstr ""
 msgid "If this test fails:"
 msgstr ""
 
-#: "faq_v6ns_bad.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "it means that the DNS resolver you are using, requires IPv4 to reach the DNS authoritative servers of your favoriate web sites. In the near future, every web site of consequence will remain accessible in this form, so <b>there is no immediate danger.</b>"
 msgstr ""
 
@@ -2720,7 +2720,7 @@ msgstr ""
 msgid "This instance of test-ipv6.com is provided by"
 msgstr ""
 
-#: "stats.html"
-msgid "<span lookup=\"site.name\">site</span> statistics"
+#: "faq_v6ns_bad.html"
+msgid "it means that the DNS resolver you are using, requires IPv4 to reach the DNS authoritative servers of your favorite web sites. In the near future, every web site of consequence will remain accessible in this form, so <b>there is no immediate danger.</b>"
 msgstr ""
 

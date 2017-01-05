@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2016-10-11 08:30-0400\n"
+"PO-Revision-Date: 2016-10-26 22:51-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Chinese Traditional\n"
 "MIME-Version: 1.0\n"
@@ -1972,7 +1972,7 @@ msgstr "此測試具體驗證您的 DNS 解析器 （通常由 Internet 服務�
 msgid "If this test fails:"
 msgstr "如果這個測試失敗 ︰"
 
-#: "faq_v6ns_bad.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "it means that the DNS resolver you are using, requires IPv4 to reach the DNS authoritative servers of your favoriate web sites. In the near future, every web site of consequence will remain accessible in this form, so <b>there is no immediate danger.</b>"
 msgstr "這意味著，DNS 解析器使用的需要使用 IPv4 到達你最喜歡的 web 網站的 DNS 權威伺服器。在不久的將來，每個 web 網站的後果將仍然可以訪問在此表單，所以 <b>沒有立即的危險。</b>"
 
@@ -2727,4 +2727,8 @@ msgstr "PowerDNS: <code>recursor.conf</code> 中的 <code>query-local-address6</
 #: "inc/mirrorconfig.js"
 msgid "This instance of test-ipv6.com is provided by"
 msgstr "這個網站是由以下單位提供:"
+
+#: "faq_v6ns_bad.html"
+msgid "it means that the DNS resolver you are using, requires IPv4 to reach the DNS authoritative servers of your favorite web sites. In the near future, every web site of consequence will remain accessible in this form, so <b>there is no immediate danger.</b>"
+msgstr "這意味著，DNS 解析器使用的需要使用 IPv4 到達你最喜歡的 web 網站的 DNS 權威伺服器。在不久的將來，每個 web 網站的後果將仍然可以訪問在此表單，所以 <b>沒有立即的危險。</b>"
 

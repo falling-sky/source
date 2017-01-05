@@ -332,16 +332,6 @@
          "v4" : "http://ipv4.test-ipv6.cz/images-nc/knob_green.png",
          "v6" : "http://ipv6.test-ipv6.cz/images-nc/knob_green.png"
       },
-      "test-ipv6.ernet.in" : {
-         "hide" : false,
-         "loc" : "IN",
-         "mirror" : true,
-         "monitor" : "praveen.misra@eis.ernet.in",
-         "provider" : "IPv6 Division of ERNET India",
-         "site" : "test-ipv6.ernet.in",
-         "v4" : "http://ipv4.test-ipv6.ernet.in/images-nc/knob_green.png",
-         "v6" : "http://ipv6.test-ipv6.ernet.in/images-nc/knob_green.png"
-      },
       "test-ipv6.fratec.net" : {
          "hide" : false,
          "loc" : "CR",
@@ -692,6 +682,36 @@
          "provider" : "Orbyta S.A.",
          "v4" : "http://ipv4.test-ipv6.orbyta.com/images-nc/knob_green.png",
          "v6" : "http://ipv6.test-ipv6.orbyta.com/images-nc/knob_green.png"
+      },
+      "test-ipv6.ernet.in" : {
+         "hide" : false,
+         "loc" : "IN",
+         "mirror" : true,
+         "monitor" : "praveen.misra@eis.ernet.in",
+         "provider" : "IPv6 Division of ERNET India",
+         "site" : "test-ipv6.ernet.in",
+         "v4" : "http://ipv4.test-ipv6.ernet.in/images-nc/knob_green.png",
+         "v6" : "http://ipv6.test-ipv6.ernet.in/images-nc/knob_green.png"
+      },
+      "test-ipv6.epic.network" : {
+         "hide" : false,
+         "loc" : "US",
+         "mirror" : true,
+         "monitor" : "test-ipv6@qpg.us",
+         "provider" : "epic.network",
+         "site" : "test-ipv6.epic.network",
+         "v4" : "http://ipv4.test-ipv6.epic.network/images-nc/knob_green.png",
+         "v6" : "http://ipv6.test-ipv6.epic.network/images-nc/knob_green.png"
+      },
+      "ipv6ready.me" : {
+         "hide" : false,
+         "loc" : "JP",
+         "mirror" : true,
+         "monitor" : "kazuhide.t@ipv6ready.me",
+         "provider" : "Kazuhide Takahashi",
+         "site" : "test-ipv6.epic.network",
+         "v4" : "http://ipv4.ipv6ready.me/images-nc/knob_green.png",
+         "v6" : "http://ipv6.ipv6ready.me/images-nc/knob_green.png"
       }
    }
 }

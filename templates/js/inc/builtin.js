@@ -12,9 +12,7 @@ GIGO.generate_share_link_entry = function (name, def) {
         if ((t.status === "ok") || (t.status === "slow")) {
             s = "&" + name + "=" + encodeURIComponent(t.status) + "," + encodeURIComponent(t.time_ms);
             p = t.ipinfo.type.replace(/^ipv/, "");
-            if (p !== def) {
-                s = s + "," + encodeURIComponent(p);
-            }
+            s = s + "," + encodeURIComponent(p);
         }
         if ((t.status === "bad") || (t.status === "timeout")) {
             s = "&" + name + "=" + encodeURIComponent(t.status) + "," + encodeURIComponent(t.time_ms);

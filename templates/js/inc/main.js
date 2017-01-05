@@ -104,6 +104,7 @@ GIGO.test_type_json = function (url, id) {
             var delta;
 
             delete ipinfo.full; // Don't need this polluting anything.
+            delete ipinfo.padding; // Don't need this polluting anything.
             this_test.ipinfo = ipinfo; // Record the IP address reported from this test
             if (GIGO.override) {
                 GIGO.override_id_ip(id);
@@ -282,6 +283,7 @@ GIGO.test_type_json_only = function (url, id) {
             var delta;
 
             delete ipinfo.full; // Don't need this polluting anything.
+            delete ipinfo.padding; // Don't need this polluting anything.
             this_test.ipinfo = ipinfo; // Record the IP address reported from this test
             GIGO.update_ipaddress(this_test.ipinfo); // Make note of our IPv4 or IPv6 address based on the test
             GIGO.update_ip(id); // callback for presentation
@@ -638,7 +640,7 @@ GIGO.set_default_options = function (options) {
     options.img_bad_uri = "/images-nc/knob_cancel.png";
     
     // Determine if we can use an alternate v6mtu defined by the site config (options -> v6mtu)
-    options.v6mtu = GIGO.mirrorconfig("options","v6mtu","ipv6." + options.subdomain);
+//    options.v6mtu = GIGO.mirrorconfig("options","v6mtu","ipv6." + options.subdomain);
 
 
 
@@ -649,7 +651,7 @@ GIGO.set_default_options = function (options) {
     options.url.test_ipv4 = "http://" + options.ipv4 + options.uri;
     options.url.test_ipv6 = "http://[" + options.ipv6 + "]:80" + options.uri;
     options.url.test_v6ns = "http://ds.v6ns." + options.subdomain + options.uri;
-    options.url.test_v6mtu = "http://" + options.v6mtu + options.uri + "&size=1600&fill=" + GIGO.fill(1600, "x");
+    options.url.test_v6mtu = "http://mtu1280." + options.subdomain + options.uri + "&size=1600&fill=" + GIGO.fill(1600, "x");
     options.url.test_dsmtu = "http://ds." + options.subdomain + options.uri + "&size=1600&fill=" + GIGO.fill(1600, "x");
     options.url.test_buggydns1 = "http://buggydns1." + options.subdomain + options.uri;
 
@@ -665,7 +667,7 @@ GIGO.set_default_options = function (options) {
     options.url.test_ipv4_img = "http://" + options.ipv4 + options.img_uri;
     options.url.test_ipv6_img = "http://[" + options.ipv6 + "]:80" + options.img_uri;
     options.url.test_v6ns_img = "http://ds.v6ns." + options.subdomain + options.img_uri;
-    options.url.test_v6mtu_img = "http://" + options.v6mtu + options.img_uri_big;
+    options.url.test_v6mtu_img = "http://mtu1280." + options.subdomain + options.img_uri_big;
     options.url.test_dsmtu_img = "http://ds." + options.subdomain + options.img_uri_big;
     options.url.test_buggydns1_img = "http://buggydns1." + options.subdomain + options.img_uri;
 
