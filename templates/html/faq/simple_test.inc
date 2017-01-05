@@ -81,4 +81,4 @@ jQuery(document).ready(function () {
 
 <!-- end of simple dual stack test -->
 
-<p><i>A standalone copy of this test can be found <a href="/simple_test.html">here</a>.</i></p>
+<p><i>{{ A standalone copy of this test can be found <a href="/simple_test.html">here</a>.}}</i></p>
