@@ -91,7 +91,7 @@
          "contact" : "David Wilkinson <test-ipv6@noroutetohost.net>",
          "monitor" : "test-ipv6@noroutetohost.net",
          "provider" : "NoRouteToHost",
-         "site" : "www.noroutetohost.net",
+         "site" : "test-ipv6.noroutetohost.net",
          "v4" : "http://ipv4.test-ipv6.noroutetohost.net/images-nc/knob_green.png",
          "v6" : "http://ipv6.test-ipv6.noroutetohost.net/images-nc/knob_green.png"
       },
