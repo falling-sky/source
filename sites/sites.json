@@ -464,7 +464,7 @@
       },
       "test-ipv6.showmyip.ca" : {
          "hide" : false,
-         "loc" : "UK",
+         "loc" : "CA",
          "mirror" : true,
          "monitor" : "Christopher Munz-Michielin <christopher@showmyip.ca>",
          "provider" : "Christopher Munz-Michielin",

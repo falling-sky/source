@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2016-10-26 22:51-0400\n"
+"PO-Revision-Date: 2017-01-04 21:00-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -152,11 +152,11 @@ msgstr "IPv6 のみの名前に対する探索が失敗しました; しかし�
 
 #: "inc/messages.js"
 msgid "A lookup for an IPv6-only name failed; yet the lookup and connect for dual-stack connected via IPv6. The IPv6-only lookup should have worked. Apple has a bug that sporadically causes some IPv6 lookups to fail. We saw evidence of it on this test. You can reload the page and try the test again. For more details, see <a href='http://openradar.appspot.com/7333104'>http://openradar.appspot.com/7333104</a>."
-msgstr ""
+msgstr "IPv6のみの名前のルックアップに失敗しました。 IPv6経由で接続されたデュアルスタックのルックアップと接続を行います。 IPv6のみのルックアップは動作していたはずです。 Appleには散発的にいくつかのIPv6ルックアップが失敗するバグがあります。 このテストでは、その証拠が見つかりました。 ページをリロードして、もう一度テストを試みることができます。 詳細については、<a href='http://openradar.appspot.com/7333104'>http://openradar.appspot.com/7333104</a>をご覧ください。"
 
 #: "inc/messages.js"
 msgid "A lookup for an dual-stack IPv4 and IPv6 name failed (at minimum it should have connected via IPv4). Apple has a bug that sporadically causes some IPv6 lookups to fail. We saw evidence of it on this test. You can reload the page and try the test again. For more details, see <a href='http://openradar.appspot.com/7333104'>http://openradar.appspot.com/7333104</a>."
-msgstr ""
+msgstr "デュアルスタック、IPv4とIPv6の名前のルックアップが失敗しました(少なくと も、IPv4経由で接続しているはずです)。 Appleには散発的にいくつかのIPv6ルックアッ プが失敗するバグがあります。 このテストでは、その証拠が見つかりました。 ページをリロードして、もう一度テストを試みることができます。 詳細については、<a href='http://openradar.appspot.com/7333104'>http://openradar.appspot.com/7333104</a>をご覧ください。"
 
 #: "inc/messages.js"
 msgid "No IPv4 address detected"
@@ -196,11 +196,11 @@ msgstr "私たちはIPv6アドレスを調査しましたが、あなたのDNS�
 
 #: "inc/messages.js"
 msgid "It appears that you use a tunnel mechanism for either IPv4 or IPv6."
-msgstr ""
+msgstr "IPv4またはIPv6のいずれかのトンネルメカニズムを使用しているようです。"
 
 #: "inc/messages.js"
 msgid "It appears that you use a managed tunnel mechanism, 6RD, to transport IPv6 over IPv4."
-msgstr ""
+msgstr "管理トンネルメカニズム（6RD）を使用してIPv4経由でIPv6を転送しているようです。"
 
 #: "inc/messages.js"
 msgid "We have detected that you are using a proxy. This means we are testing your proxy server, not your computer. Proxy details (as reported by your proxy 'Via' header): %details"
@@ -604,7 +604,7 @@ msgstr "ラージパケットでの IPv6 リクエストが動作することを
 
 #: "main/tech.inc"
 msgid "Double check to make sure that ICMPv6 Type 2 (\"Packet Too Big\") messages are not filtered by your firewall."
-msgstr ""
+msgstr "ICMPv6 Type 2 (\"Packet Too Big\")メッセージがファイアウォールによってフィルタリングされていないことを再度確認してください。"
 
 #: "main/tech.inc"
 msgid "(This is bonus credit)"
@@ -616,11 +616,14 @@ msgstr "これはあなたの ISP のリゾルバ用のテストです (あな�
 
 #: "main/tech.inc"
 msgid "Attempts to identify what Internet Service Provider you use for IPv4. This may be different from the marketing name you see in your local market; or may reflect a previous company name. The name shown reflects how it is known in the network operator community."
-msgstr ""
+msgstr "IPv4に使用するインターネットサービスプロバイダを特定しようとします。これ\n"
+"はあなたの見知った商標とは異なっている場合があります。あるいは過去の会社名を反映\n"
+"している可能性があります。表示されている名称はネットワークオペレータコミュニティ\n"
+"でどのように認識されているかを反映しています。"
 
 #: "main/tech.inc"
 msgid "Attempts to identify what Internet Service Provider you use for IPv6. When the IPv4 name and the IPv6 name don't match, it may suggest that you're using a tunnel; or some form of third party provider for IPv6."
-msgstr ""
+msgstr "あなたがIPv6用に使っているインターネットサービスプロバイダを特定しようとします。IPv4の名前とIPv6の名前が一致しない場合はトンネルを使用している可能性があります。またはIPv6はサードパーティープロバイダーを通して提供されています。"
 
 #: "main/tech.inc"
 msgid "Queries for a malformed AAAA record. Some routers mishandle these as \"A\" records, and only keep the first 32 bits. We want this test to fail to connect."
@@ -644,11 +647,11 @@ msgstr "このフォームにコメント、懸念、もしくは質問を残せ
 
 #: "main/mail.inc"
 msgid "This includes your IP address, which is shared with the site administrator in order to answer your questions."
-msgstr ""
+msgstr "これには、質問に答えるためにサイト管理者に共有されるあなたのIPアドレスが含まれます。"
 
 #: "main/mail.inc"
 msgid "Use of this form implies consent."
-msgstr ""
+msgstr "このフォームの使用は、同意を意味します。"
 
 #: "main/mail.inc"
 msgid "<span id=\"comments_faq_link\"></span> (FAQ) page is available for <b>your</b> exact set of results. Please read it before leaving comments; many questions have already been answered. If you still have questions, comments, or concerns, feel freel to use this form."
@@ -716,39 +719,40 @@ msgstr "結果を送信"
 
 #: "main/helpdesk.inc"
 msgid "Help desk information will follow once the test completes."
-msgstr ""
+msgstr "テストが完了するとヘルプデスクのための情報が表示されます。"
 
 #: "main/helpdesk.inc"
 msgid "If your Internet help desk asks you to mail the 'results url', copy and paste the following URL."
-msgstr ""
+msgstr "インターネットのヘルプデスクから「結果のURL」を送信するよう求められた場合には次のURLをコピーして貼り付けてください。"
 
 #: "main/helpdesk.inc"
 msgid "Note that this will share your current numeric Internet Protocol address(es)."
-msgstr ""
+msgstr "これはあなたの現在のIPアドレスを共有していることに注意してください。"
 
 #: "main/helpdesk.inc"
 msgid "We do not recommend posting this link on public web sites such as forums."
-msgstr ""
+msgstr "このリンクをフォーラムなどの公開Webサイトに投稿することはお勧めしません。"
 
 #: "main/helpdesk.inc"
 msgid "On most computers, you can right-click the above URL, and select 'Copy'."
-msgstr ""
+msgstr "ほとんどのコンピュータでは上記のURLを右クリックして[コピー]を選択できます。"
 
 #: "inc/sites.inc"
 msgid "<b>Because you have IPv6</b>, we've added this tab to show you whether or not you can reach other IPv6 web sites on the Internet. Consider notifying your ISP, if there are sites that show up as broken. If you are the ISP, you can click the Info link to see what test URLs are being used."
-msgstr ""
+msgstr "<b>IPv6があるので</b>このタブを追加して、インターネット上の他のIPv6 Webサイトにアクセスできるかどうかを表示します。破損していると思われるサイトがある場合はISPに通知することを検討してください。 ISPの場合は、[情報]リンクをクリックして使用されている\n"
+"テストURLを確認できます。"
 
 #: "inc/sites.inc"
 msgid "<b>Hint</b>: Columns are sortable (click the first row); <a href=\"#\" onclick=\"GIGO.test_sites(2); return false;\">click here</a> to re-check reachability from where you are to those mirrors."
-msgstr ""
+msgstr "<b>ヒント</b>: 列はソート可能です（最初の行をクリックします）。<a href=\\\"#\\\" onclick=\\\"GIGO.test_sites(2); return false;\\\">ここをクリック</a>するとミラーへの到達可能性を再確認できます。"
 
 #: "inc/sites.inc"
 msgid "It is real easy to get added to this list for basic checks. Just provide two image URLs (one IPv4-only; one IPv6-only), to Jason Fesler &lt;jfesler@gigo.com&gt;. Also send your general web site address and organization name."
-msgstr ""
+msgstr "基本的なチェックのためのサイトをこのリストに追加するのは簡単です。 Jason Fesler &lt;jfesler@gigo.com&gt に2つのイメージURL（IPv4のみ1つ、IPv6のみ1つ）を提出するだけです。同時に、通常のWebサイトのアドレスと組織名も送信してください。"
 
 #: "inc/sites.inc"
 msgid "Full mirrors are welcomed and appreciated, whether public or private. Please see <a href=\"https://github.com/falling-sky/source/wiki\">the wiki</a> for details."
-msgstr ""
+msgstr "全てをミラーするのは、公開、非公開に関わらず歓迎し感謝ます。詳細については<a　href=\\\"https://github.com/falling-sky/source/wiki\\\">このwiki</a>を参照してください。"
 
 #: "inc/footer.inc"
 msgid "All rights reserved."
@@ -760,7 +764,7 @@ msgstr "ミッション"
 
 #: "inc/footer.inc"
 msgid "Source"
-msgstr ""
+msgstr "ソースコード"
 
 #: "inc/footer.inc"
 msgid "Email"
@@ -768,7 +772,7 @@ msgstr "Email"
 
 #: "inc/footer.inc"
 msgid "Attributions"
-msgstr ""
+msgstr "帰属"
 
 #: "inc/disclaimer.inc"
 msgid "This is a mirror of test-ipv6.com. The views expressed here may or may not reflect the views of the mirror owner."
@@ -780,15 +784,15 @@ msgstr "ご利用可能な言語"
 
 #: "locale.html"
 msgid "Pick one of the following to switch to that language."
-msgstr ""
+msgstr "言語を切り替えるには、次のいずれかを選択します。"
 
 #: "locale.html"
 msgid "Translators and proof readers welcome."
-msgstr ""
+msgstr "翻訳者と校正読者は大歓迎です。"
 
 #: "locale.html"
 msgid "See <a href='https://github.com/falling-sky/source/wiki/LocalizationPlan'>Info</a>; and our <a href='https://crowdin.net/project/falling-sky'>'CrowdIn'</a> project page."
-msgstr ""
+msgstr "詳しくは <a href='https://github.com/falling-sky/source/wiki/LocalizationPlan'>情報</a> または <a href='https://crowdin.net/project/falling-sky'> 'CrowdIn' </a>のプロジェクトページをご覧ください。"
 
 #: "faq_helpdesk.html"
 msgid "Help Desk Information"
@@ -796,511 +800,511 @@ msgstr "ヘルプデスク情報"
 
 #: "faq_helpdesk.html"
 msgid "Q: What is the Help Desk tab for?"
-msgstr ""
+msgstr "ヘルプデスクタブとは何ですか？"
 
 #: "faq_helpdesk.html"
 msgid "This tab is intended to help provide a brief, concise explanation of your connectivity. This can be read over the phone, if needed, to a service provider. This tab has less hand-holding; it is intended for a help desk to understand (as compared to an end user)."
-msgstr ""
+msgstr "このタブは接続の簡潔で短い説明を提供することを目的としています。 これは必要に応じてサービスプロバイダーに電話で読み伝えることができます。このタブは(エンドユーザーと比較して)支援の足りないヘルプデスクが状況を理解することを目的としています。"
 
 #: "faq_helpdesk.html"
 msgid "This special instance shares in a very compact way:"
-msgstr ""
+msgstr "以下のような情報をとても簡潔なな方法で共有します。"
 
 #: "faq_helpdesk.html"
 msgid "Status of each protocol"
-msgstr ""
+msgstr "各種プロトコルの状態"
 
 #: "faq_helpdesk.html"
 msgid "Warn of slow/timeout"
-msgstr ""
+msgstr "遅延またはタイムアウトに関する警告"
 
 #: "faq_helpdesk.html"
 msgid "Warn of MTU"
-msgstr ""
+msgstr "MTUに関する警告"
 
 #: "faq_helpdesk.html"
 msgid "Status of reachability to “other sites” (as compact as possible)"
-msgstr ""
+msgstr "「他のホスト」への到達可能性の状態 (できるだけ簡潔に)"
 
 #: "faq_helpdesk.html"
 msgid "IP address shown, in case tech support needs it."
-msgstr ""
+msgstr "テクニカルサポートが必要とするならば、IPアドレスの提示"
 
 #: "faq_helpdesk.html"
 msgid "List of unreachable sites, if any"
-msgstr ""
+msgstr "到達できなかったサイトの一覧 (存在する場合)"
 
 #: "faq_helpdesk.html"
 msgid "Q: What is the easiest way to send users to the Help Desk tab?"
-msgstr ""
+msgstr "Q: ヘルプデスクのタブにユーザーを導く最も簡単な方法は何ですか？"
 
 #: "faq_helpdesk.html"
 msgid "There are several ways to do it. Some of these are more obvious than the others when reading; some of them may be easier when read over the phone. In all of these cases, the \"Help Desk\" tab is moved to be the first and default tab shown to the user, instead of exposing the more detailed user-facing page."
-msgstr ""
+msgstr "それにはいくつかの方法があります。これらのいくつかは、読んだときに他よりも明白です。それらのいくつかは電話で読むことが簡単なはずです。 そんな場合には、より詳細なユーザ向けページを表示するのではなく、「ヘルプデスク」タブがデフォルトのタブとして移動しユーザーに表示されます。"
 
 #: "faq_helpdesk.html"
 msgid "Mirror sites may not have all the fancy DNS names; they are more likely to be useful like this:"
-msgstr ""
+msgstr "ミラーサイトは、その全てが素敵なDNS名を持っているわけではありませんが、そんな時は、より使いやすいように、この様になります:"
 
 #: "faq_helpdesk.html"
 msgid "Q: What are the Help Desk codes?"
-msgstr ""
+msgstr "Q: ヘルプデスクコードとは何ですか？"
 
 #: "faq_helpdesk.html"
 msgid "These are meant to offer a quick, short way for your customer to tell you the status of their Internet connectivity, as validated by this site. They are also meant to be easy to memorize."
-msgstr ""
+msgstr "それらは、顧客がこのサイトで検証されたインターネット接続のステータスを迅速かつ短時間であなたに伝えるためのものです。それらはまた、記録しやすいように意図されています。"
 
 #: "faq_helpdesk.html"
 msgid "Q: How can I recommend changes to the Help Desk tab?"
-msgstr ""
+msgstr "Q: 「ヘルプデスク」タブの変更をどうやってお勧めしましょうか？"
 
 #: "faq_helpdesk.html"
 msgid "Suggestions are welcome; especially from those operating help desks. This tab is really for you - not for the consumer. Please keep in mind that we want to keep the tab brief, concise, and easy to read for the average user over the phone to your help desk team. Send suggestions to jfesler@test-ipv6.com ."
-msgstr ""
+msgstr "特にヘルプデスクを運営している人たちからの提案は大歓迎です。このタブは、あなたのためのものであり、消費者のためのものではありません。一般的なユーザーがヘルプデスクチームに、簡単に、簡潔に電話で読み上げられるようにタブを維持したいと考えています。提案をjfesler@test-ipv6.comに送ってください。"
 
 #: "broken.html"
 msgid "What to do if you're broken..."
-msgstr ""
+msgstr "IPv6が壊れている場合はどうすればいいですか..."
 
 #: "broken.html"
 msgid "If you are reading this page, it means that we've identified that your host will have problems on World IPv6 Day. Any web site that goes \"dual stack\" (meaning, both IPv4 and IPv6), will be unreachable to you."
-msgstr ""
+msgstr "このページを読んでいるということは、あなたのホストがWorld IPv6 Dayで問題に直面することがわかったということです。 あなたのホストは\"デュアルスタック\"(IPv4とIPv6の両方を使える)Webサイト以外には接続できません。"
 
 #: "broken.html"
 msgid "To resolve this, you'll first need to identify your IPv6 address (if you have one) and your IPv6 default route (if you have one). This will help identify which sections to read."
-msgstr ""
+msgstr "これを解決するには、まずIPv6アドレス(存在するなら)とIPv6デフォルトルート(存在するなら)を特定する必要があります。 これは、どのセクションを読むべきかを特 定するのに役立ちます。"
 
 #: "broken.html"
 msgid "If you find your particular problem is not well represented; or you have additional suggestions; please do leave feedback using the <a href='#' onclick='return GIGO.tabnav(\"mail\");'>form</a> (or contact <a href=\"mailto:jfesler@test-ipv6.com\">jfesler@test-ipv6.com</a>)."
-msgstr ""
+msgstr "あなたの問題がここで見つけられない、あるいは何らかの提案をお持ちの場合には <a href='#' click='return GIGO.tabnav(\"mail\");'>フォーム</a>(または <a href=\"mailto:jfesler@test-ipv6.com\">jfesler@test-ipv6.com</a>へのメール)でお知らせください。"
 
 #: "broken.html"
 msgid "Make sure you are current"
-msgstr ""
+msgstr "あなたの現状を確認する"
 
 #: "broken.html"
 msgid "Find your IP address"
-msgstr ""
+msgstr "IPアドレスを調べるには"
 
 #: "broken.html"
 msgid "If you set up a tunnel broker"
-msgstr ""
+msgstr "tunnel brokerが使われている場合"
 
 #: "broken.html"
 msgid "If you set up 6to4 (IPv6 address: starts with 2002)"
-msgstr ""
+msgstr "6to4が使われている場合 (IPv6アドレスは2002:で始まる)"
 
 #: "broken.html"
 msgid "If you have an ULA (IPv6 address: starts with FC or FD)"
-msgstr ""
+msgstr "LUAが使われている場合 (IPv6アドレスはFCまたはFDで始まる)"
 
 #: "broken.html"
 msgid "If you have an Bad or Inappropriate IPv6 Addresss (see table)"
-msgstr ""
+msgstr "無効または不適切なIPv6アドレスが使われている場合 (別表を参照)"
 
 #: "broken.html"
 msgid "If you have an unexpected IPv6 address"
-msgstr ""
+msgstr "想定外のIPv6アドレスが使われている場合"
 
 #: "broken.html"
 msgid "Try the netalyzr"
-msgstr ""
+msgstr "netalyzrを試してみる"
 
 #: "broken.html"
 msgid "If all else fails, disable or deprioritize IPv6"
-msgstr ""
+msgstr "他のすべてが失敗した場合は、IPv6を無効化または優先順位を下げる"
 
 #: "faq/staycurrent.inc"
 msgid "Many OS and Hardware manufacturers are making updates to help improve the transition to IPv6. Some known \"gotchas\" are being addressed by workarounds by these vendors."
-msgstr ""
+msgstr "多くのOSおよびハードウェアメーカーは、IPv6への移行を改善するために更新を行っています。いくつかの既知の\"潜在的問題点\"は、これらベンダーの回避策によって対処されています。"
 
 #: "faq/staycurrent.inc"
 msgid "You can do your part to make sure you are running the latest:"
-msgstr ""
+msgstr "以下の手順であなたが最新のものを実行していることを確認します:"
 
 #: "faq/staycurrent.inc"
 msgid "OS - Make sure you have the latest."
-msgstr ""
+msgstr "OS - 最新のバージョンを使っているか確認します。"
 
 #: "faq/staycurrent.inc"
 msgid "Mac users: Apple OS X 10.6.7 is recommended for improved IPv6 support."
-msgstr ""
+msgstr "Macユーザーの場合: IPv6サポートが改善されたApple OS X 10.6.7以降の使用を推奨します。"
 
 #: "faq/staycurrent.inc"
 msgid "Mac users on 10.4 or 10.5 may need to disable IPv6 if other troubleshooting steps fail."
-msgstr ""
+msgstr "Macユーザーの場合: 10.4 or 10.5では他のトラブルシューティング手順に失敗した場合にはIPv6を無効化する必要があります。"
 
 #: "faq/staycurrent.inc"
 msgid "Windows users: go to"
-msgstr ""
+msgstr "Windowsユーザーの場合: 次を参照 "
 
 #: "faq/staycurrent.inc"
 msgid "iPhone/iPad users: No specific version advised at this time."
-msgstr ""
+msgstr "iPhone/iPadユーザーの場合: 今のところ、この機種に関するアドバイスはありません。"
 
 #: "faq/staycurrent.inc"
 msgid "Routers - Make sure you have the latest firmware installed. Some vendors have updated the defaults, or put in health checks before enabling IPv6."
-msgstr ""
+msgstr "ルーター類 - 最新のファームウェアがインストールされていることを確認してください。一部のベンダーではデフォルトの更新が必要だったり、IPv6を有効にする前にヘルスチェックを行ったりします。"
 
 #: "faq/staycurrent.inc"
 msgid "If you are using an Apple router or Time Capsule, load the Airport Utility to check that your router is up to date."
-msgstr ""
+msgstr "Apple製のルーターまたはTime Capsuleを使用している場合は、AirMacユーティリティを使用してルーターが最新であることを確認します。"
 
 #: "faq/staycurrent.inc"
 msgid "Browsers - Some browsers have made updates to detect \"broken\" users, and to temporarily disable IPv6."
-msgstr ""
+msgstr "ブラウザ - 一部のブラウザではアップデートで「壊れた」ユーザを検出し、IPv6を一時的に無効にします。"
 
 #: "faq/staycurrent.inc"
 msgid "Firefox 4.x now only tries IPv6, when an IPv6 address is configured. Firefox 3 users are encouraged to upgrade."
-msgstr ""
+msgstr "IPv6アドレスが設定されている場合、Firefox 4.xはIPv6のみを試行するように>なりました。　Firefox 3ユーザーはアップグレードをお勧めします。"
 
 #: "faq/staycurrent.inc"
 msgid "Chrome: If a wrench icon appears on the browser toolbar, click it. Select \"Update Google Chrome\" then Restart."
-msgstr ""
+msgstr "Chrome: ブラウザのツールバーにレンチアイコンが表示されている場合はクリックします。 \"Update Google Chrome\"を選択し、ブラウザを再起動してください。"
 
 #: "faq/staycurrent.inc"
 msgid "Opera: Make sure you use at least 11.10."
-msgstr ""
+msgstr "Opera: バージョン11.10以降を使用していることを確認してください。"
 
 #: "broken.html"
 msgid "Finding your IP address"
-msgstr ""
+msgstr "IPアドレスを調べるには"
 
 #: "faq/find_ip.inc"
 msgid "Identify your IPv6 address, and your default router (if you have one)."
-msgstr ""
+msgstr "IPv6アドレスとデフォルトルート(存在するなら)を特定します。"
 
 #: "faq/find_ip.inc"
 msgid "Finding your IPv6 address and default router can be a challenge if you are not familiar with your OS's network configuration. Instructions for your OS are below."
-msgstr ""
+msgstr "お使いのOSのネットワーク設定に精通していない場合はIPv6アドレスとデフォルトルータを見つけることが難しい場合があります。お使いのOSの手順は次のとおりです。"
 
 #: "faq/find_ip.inc"
 msgid "When looking for your IPv6 address, skip any <code>fe80:</code> address. Everyone has them if their OS supports IPv6; this is regadless of whether or not your ISP supports IPv6 yet. Those are \"link local\" addresses; used just for communicating to other hosts in the same physical network as you."
-msgstr ""
+msgstr "IPv6アドレスを調べる場合には<code>fe80:</code>から始まるアドレスは無視してください。これらはOSがIPv6をサポートしている場合必ず存在するアドレスであり、これはあなたのISPがIPv6をサポートしているかどうかに関わらず存在する\"リンクローカ>ル\"アドレスであり、同じ物理ネットワーク内の他のホストとの通信にのみ使用されます。"
 
 #: "faq/find_ip.inc"
 msgid "OS X users: To find your IP address using the GUI:"
-msgstr ""
+msgstr "OS Xユーザーの場合: GUIを使用してIPアドレスを調べるには:"
 
 #: "faq/find_ip.inc"
 msgid "Go to the \"Apple\" menu (top left corner)"
-msgstr ""
+msgstr "「Apple」メニューを開きます (左上のリンゴマークです)"
 
 #: "faq/find_ip.inc"
 msgid "Go to System Preferences"
-msgstr ""
+msgstr "「システム環境設定…」を開きます"
 
 #: "faq/find_ip.inc"
 msgid "Go to Network"
-msgstr ""
+msgstr "「ネットワーク」を開きます"
 
 #: "faq/find_ip.inc"
 msgid "Click on your primary network (green icon) if you have more than one work."
-msgstr ""
+msgstr "複数のネットワークがある場合にはプライマリネットワーク(緑色のアイコン)をクリックします。"
 
 #: "faq/find_ip.inc"
 msgid "Go to \"Advanced\""
-msgstr ""
+msgstr "「詳細…」を開きます"
 
 #: "faq/find_ip.inc"
 msgid "Look at the TCP/IP tab, uder \"Configure IPv6\"."
-msgstr ""
+msgstr "TCP/IP」タブを見て、「IPv6の設定:」を参照してください。"
 
 #: "faq/find_ip.inc"
 msgid "Make a note of whether or not there is a router."
-msgstr ""
+msgstr "ルーターがあるならそれを記録します。"
 
 #: "faq/find_ip.inc"
 msgid "Make a note of the IPv6 address (if any)."
-msgstr ""
+msgstr "IPv6アドレス(存在すれば)を記録します。"
 
 #: "faq/find_ip.inc"
 msgid "OS X users: To find your IP address using the command line:"
-msgstr ""
+msgstr "OS Xユーザーの場合: コマンドラインを使用してIPアドレスを見つけるには"
 
 #: "faq/find_ip.inc"
 msgid "To open your terminal: Go to your Applications folder; go to Utilities; and double click Terminal."
-msgstr ""
+msgstr "ターミナルをオープンします。ターミナルを開くには「アプリケーション」フォルダに移動します。「ユーティリティ」に移動します。「ターミナル」をダブルクリックします。"
 
 #: "faq/find_ip.inc"
 msgid "To see your IP addresses: <code>ifconfig -f inet6</code>."
-msgstr ""
+msgstr "あなたのIPアドレスを確認するには: <code>ifconfig -f inet6</code>"
 
 #: "faq/find_ip.inc"
 msgid "Ignore the <code>fe80:</code> addresses; look for any other address on your <code>en0</code> or <code>en1</code>."
-msgstr ""
+msgstr "<code>fe80:</code>から始まるアドレスは無視してください。<code>en0</code>または<code>en1</code>でそれ以外のアドレスを探します。"
 
 #: "faq/find_ip.inc"
 msgid "To see if you have a default route: <code>netstat -nr -f inet6</code>."
-msgstr ""
+msgstr "デフォルトルートを調べるには: <code>netstat -nr -f inet6</code>"
 
 #: "faq/find_ip.inc"
 msgid "Look for a line that says \"default\"; probably pointing to a gateway starting with <code>fe80:</code>"
-msgstr ""
+msgstr "\"default\"という行を探します。おそらくそれはcode>fe80:</code>で始まるゲートウェイを指しています"
 
 #: "faq/find_ip.inc"
 msgid "iPhone and iPad users: No information is shown via Apple's preferences/setup. The \"IT Tools\" and the \"ip6config\" apps do show IPv6 address data; both cost."
-msgstr ""
+msgstr "iPhoneとiPadのユーザー: iOSの「設定」では情報が表示されません。 \"IT Tools\"や\"ip6config\"アプリでIPv6アドレスを表示できます。(訳者注:最近のiOSでは接続情報にIPv6の情報も表示されます)"
 
 #: "faq/find_ip.inc"
 msgid "Linux users: To find your IPv6 address, open a terminal and.."
-msgstr ""
+msgstr "Linuxユーザー: IPv6アドレスを見つけるにはターミナルを開き…"
 
 #: "faq/find_ip.inc"
 msgid "Linux users: To find your IPv6 route, use:"
-msgstr ""
+msgstr "Linuxユーザー: IPv6ルートを見つけるには以下を使用します:"
 
 #: "faq/find_ip.inc"
 msgid "Generic unix instructions for determining your IPv6 address and default route:"
-msgstr ""
+msgstr "あなたのIPv6アドレスとデフォルトルートを決定するための一般的なunix命令:"
 
 #: "faq/find_ip.inc"
 msgid "Run"
-msgstr ""
+msgstr "次を実行します "
 
 #: "faq/find_ip.inc"
 msgid "and look for <code>inet6</code> to see your possible IPv6 addresses."
-msgstr ""
+msgstr "そして<code>inet6</code>を見ればIPv6アドレスが見つかるはずです。"
 
 #: "faq/find_ip.inc"
 msgid "and look for <code>inet6</code> or <code>Internet6</code> or similar to find the IPv6 portion; then look for <code>default</code> or <code>::</code> or <code>::/0</code>."
-msgstr ""
+msgstr "そして<code>inet6</code>または<code>Internet6</code>、あるいはそれに類するIPv6の部分で<code>default</code>や<code>::</code>や<code>::/0</code>を探します。"
 
 #: "faq/find_ip.inc"
 msgid "Windows users: To find your IP address using cmd.exe:"
-msgstr ""
+msgstr "Windowsユーザー: cmd.exe(コマンドプロンプト)を使ってIPアドレスを調べるには:"
 
 #: "faq/find_ip.inc"
 msgid "Go to your \"start\" menu"
-msgstr ""
+msgstr "「スタート」メニューを開きます"
 
 #: "faq/find_ip.inc"
 msgid "If you have a \"Run\" menu option, select it. Otherwise go to the \"Search programs and files\" box."
-msgstr ""
+msgstr "項目に「実行」があれば選択します。無ければ「プログラムとファイルの検索」の入力ボックスを選びます。"
 
 #: "faq/find_ip.inc"
 msgid "Type <code>cmd.exe</code>"
-msgstr ""
+msgstr "<code>cmd.exe</code>を入力します"
 
 #: "faq/find_ip.inc"
 msgid "In the cmd window, type <code>ipconfig</code> ."
-msgstr ""
+msgstr "コマンドプロンプト」ウィンドウで<code>ipconfig</code>を入力します"
 
 #: "faq/find_ip.inc"
 msgid "Windows 7 GUI users:"
-msgstr ""
+msgstr "Windows 7でGUIを使う場合:"
 
 #: "faq/find_ip.inc"
 msgid "Go to the start menu"
-msgstr ""
+msgstr "「スタート」メニューを開きます"
 
 #: "faq/find_ip.inc"
 msgid "Go to the control panel"
-msgstr ""
+msgstr "「コントロールパネル」を開きます"
 
 #: "faq/find_ip.inc"
 msgid "Go to \"Network and Internet\""
-msgstr ""
+msgstr "「ネットワークとインターネット」を開きます"
 
 #: "faq/find_ip.inc"
 msgid "Go to \"View network status and tasks\""
-msgstr ""
+msgstr "「ネットワーク状態とタスクの表示」を開きます"
 
 #: "faq/find_ip.inc"
 msgid "Go to \"Change adapter settings\"."
-msgstr ""
+msgstr "アダプターの設定の変更」を開きます"
 
 #: "faq/find_ip.inc"
 msgid "Go to your main Internet connection, double click"
-msgstr ""
+msgstr "主に使用しているネットワーク接続をダブルクリックして開きます"
 
 #: "faq/find_ip.inc"
 msgid "Go to \"Details\""
-msgstr ""
+msgstr "「詳細を」開きます"
 
 #: "faq/find_ip.inc"
 msgid "Look for \"IPv6 Address\" and \"IPv6 Default Gateway\""
-msgstr ""
+msgstr "「IPv6アドレス」と「IPv6 デフォルト ゲートウェイ」を参照します"
 
 #: "faq/find_ip.inc"
 msgid "Other Windows based OS's: Send jfesler@test-ipv6.com detailed instructions; and I'll add them to the site."
-msgstr ""
+msgstr "他のWindowsベースのOSの場合: jfesler@test-ipv6.comに宛てて詳細な手順を送信してくれれば私はそれをこのサイトに追加します。"
 
 #: "faq/broken_tunnelbroker.inc"
 msgid "<b>If you set up a tunnelbroker tunnel</b>: The most common causes for tunnelbroker users to fail are:"
-msgstr ""
+msgstr "<b>tunnelbrokerのトンネルを設定している場合</b>: tunnelbrokerを利用する>ユーザーが失敗する最も一般的な原因は次のとおりです。"
 
 #: "faq/broken_tunnelbroker.inc"
 msgid "Your IPv4 address may have changed; you need to tell the tunnelbroker server this happened."
-msgstr ""
+msgstr "あなたのIPv4アドレスが変更されている可能性があります。その場合にはそれをtunnelbrokerのサーバーに伝える必要があります。"
 
 #: "faq/broken_tunnelbroker.inc"
 msgid "If you are using your router to do the 6in4 (sometimes called 6to4 with explicit provider):"
-msgstr ""
+msgstr "ルータで6in4を利用している場合(プロバイダによっては6to4と呼ばれていることもあります):"
 
 #: "faq/broken_tunnelbroker.inc"
 msgid "Make sure tunnelbroker knows your current IPv4 address. Our site tells you your public IPv4 address."
-msgstr ""
+msgstr "tunnelbrokerがあなたの現在のIPv4アドレスを知っていることを確認してください。tunnelbrokerのサイトはあなたのパブリックIPv4アドレスを必要とします。"
 
 #: "faq/broken_tunnelbroker.inc"
 msgid "Make sure your router can ping the other side of the tunnel. Don't waste your time fixing computers until the router works!"
-msgstr ""
+msgstr "ルータがトンネルの対向側にpingできることを確認します。ルータが動作するまではコンピュータ側を修正しようとして時間を無駄にしないでください！"
 
 #: "faq/broken_tunnelbroker.inc"
 msgid "If you are using your Linux, BSD, Mac, or Windows box to \"talk 6to4\" specifically:"
-msgstr ""
+msgstr "あなたがLinux、BSD、Mac、またはWindows PCを使って\"6to4による通信\"を直接的に使っているなら:"
 
 #: "faq/broken_tunnelbroker.inc"
 msgid "Make sure your router is passing \"protocol 41\" to you."
-msgstr ""
+msgstr "\"ルータが\"プロトコル41\"を通過させていることを確認してください。"
 
 #: "faq/broken_tunnelbroker.inc"
 msgid "Make sure any software firewall you are operating is passing \"protocol 41\" to you."
-msgstr ""
+msgstr "使っているソフトウェアファイアウォールが\"プロトコル41\"を通過させていることを確認してください。"
 
 #: "faq/broken_tunnelbroker.inc"
 msgid "If everything worked before your reboot but fails now, check your firewall settings."
-msgstr ""
+msgstr "再起動前はすべてが機能していたにもかかわらず、今は失敗している場合はファイアウォールの設定を確認してください。"
 
 #: "faq/broken_tunnelbroker.inc"
 msgid "Make sure the box \"doing 6to4\" can ping the other side of the tunnelbroker gateway before working on any other hosts."
-msgstr ""
+msgstr "他のホストで作業する前に\"6to4を実行しているPC\"で対向のtunnelbrokerのゲートウェイにpingできることを確認してください。"
 
 #: "broken.html"
 msgid "If you set up 6to4"
-msgstr ""
+msgstr "6to4が使われている場合"
 
 #: "broken.html"
 msgid "(IPv6 address: starts with 2002)"
-msgstr ""
+msgstr "(IPv6アドレスは2002:で始まる)"
 
 #: "faq/broken_6to4.inc"
 msgid "If you use 6to4</b> (without a tunnel broker; ie, using anonymous 6to4):"
-msgstr ""
+msgstr "6to4を使用している場合</b> (tunnelbroker以外の、例えば匿名6to4などをを利用):"
 
 #: "faq/6to4_sucks.inc"
 msgid "The use of \"automatic\" 6to4, or the use of 6to4 without explicit configuration of the gateways, is not recommended. For more information see <a href='#' onclick='return help_page(\"faq_6to4.html\",\"6to4\")'>6to4</a>."
-msgstr ""
+msgstr "\"自動\"での6to4の使用、またはゲートウェイを明示的に構成しないでの6to4の使用はお勧めしません。詳細については、<a href='#' click='return help_page(\"faq_6to4.html\",\"6to4\")'>6to4</a>を参照してください。"
 
 #: "faq/broken_6to4.inc"
 msgid "If you want to continue trying to debug anonymous 6to4:"
-msgstr ""
+msgstr "匿名6to4のデバッグを続行したい場合:"
 
 #: "faq/broken_6to4.inc"
 msgid "If you are using your router to do the 6to4:"
-msgstr ""
+msgstr "ルーターを使用して6to4を実行している場合:"
 
 #: "faq/broken_6to4.inc"
 msgid "Make sure your router has a public IPv4 address. Without this, 6to4 fails."
-msgstr ""
+msgstr "ルーターにパブリックIPv4アドレスがあることを確認します。これがなければ6to4は失敗します。"
 
 #: "faq/broken_6to4.inc"
 msgid "If your router permits you to log in, use \"ping\" or \"ping6\" and see if you can ping \"ipv6.test-ipv6.com\". Don't waste your time fixing computers until the router works!"
-msgstr ""
+msgstr "あなたがルータにログインできいる場合には「ping」または「ping6」などを使用して「ipv6.test-ipv6.com」にpingできるかどうかを確認してください。ルータが動作するまではコンピュータ側を修正しよとして時間を無駄にしないでください！"
 
 #: "faq/broken_6to4.inc"
 msgid "Most home systems have private IPv4 addresses; this won't work with 6to4 (unless..)"
-msgstr ""
+msgstr "大抵の家庭用システムではプライベートIPv4アドレスが割り当てられていますが、プライベートIPv4アドレスでは6to4は動作しません。"
 
 #: "faq/broken_6to4.inc"
 msgid "Make sure your 6to4 interface knows your public IPv4 address."
-msgstr ""
+msgstr "6to4インターフェイスがあなたのパブリックIPv4アドレスを知っていることを確認してください。"
 
 #: "faq/broken_6to4.inc"
 msgid "Make sure that your router permits protocol 41 from any IP address - not just 192.88.99.1. This will allow web sites to operate their half of 6to4, even if they can not spoof the 192.88.99.1 anycast address."
-msgstr ""
+msgstr "ルータが192.88.99.1からだけでなく、任意のIPアドレスからのプロトコル41を許可していることを確認します。これにより192.88.99.1のエニーキャストアドレスをスプーフィングできなくても、大半のWebサイトを6to4で動作させることができます。"
 
 #: "faq/broken_6to4.inc"
 msgid "Linux users using iptables connection tracking: take heed of the previous note!"
-msgstr ""
+msgstr "iptablesの接続追跡を使用しているLinuxユーザー: 以前のノートに注目してください！"
 
 #: "faq/broken_6to4.inc"
 msgid "Consider changing how you connect."
-msgstr ""
+msgstr "接続方法の変更を検討してください。"
 
 #: "faq/broken_6to4.inc"
 msgid "Ask your ISP if they offer any IPv6 connectivity (including possibly 6in4 tunnels, or tunnelbroker type tunnels)."
-msgstr ""
+msgstr "ISPに他のIPv6接続(おそらく6in4トンネルまたはtunnelbrokerタイプのトンネルを含む)を提供していないかを訊ねてみましょう。"
 
 #: "faq/broken_6to4.inc"
 msgid "See <a href=\"#\" onclick='return help_page(\"faq_6to4.html\",\"6to4\")'>6to4</a> for more information on why you would want to switch; and some options."
-msgstr ""
+msgstr "切り替えるべき理由の詳細については、<a href=\"#\" onclick='return help_page(\"faq_6to4.html\",\"6to4\")'>6to4</a>を参照してください。いくつかの理由があります。"
 
 #: "broken.html"
 msgid "If you have an ULA"
-msgstr ""
+msgstr "ULAを使っている場合"
 
 #: "broken.html"
 msgid "(IPv6 address: starts with FC or FD)"
-msgstr ""
+msgstr "(IPv6アドレスはFCまたはFDで始まる)"
 
 #: "faq/broken_ula.inc"
 msgid "If you have an IP address starting with <code>FC</code> or <code>FD</code>, you have what is effectively a private IPv6 address. It might be usable for talking to other devices within your home, or within your company. It also allows you to have a steady IPv6 address inside, even if your public IPv6 address changes regularly."
-msgstr ""
+msgstr "<code>FC</code>または<code>FD</code>で始まるIPアドレスを持っている場合は、それはプライベートIPv6アドレスです。自宅や社内の他のデバイスと通信するときだけに使用できます。また、パブリックIPv6アドレスが定常的に変更されても内部的IPv6アドレスは変わりません。"
 
 #: "faq/broken_ula.inc"
 msgid "The main problem with ULA is that certain home routers are now offering ULA, *and* giving you a default route. This route is offered regardless of whether or not your router actually has IPv6 connectivity. From your browser's point of view, it doesn't know that your default route goes nowhere; there is no feedback mechanism. Since IPv6 is (roughly speaking) preferred over IPv4, your browser will try using this broken route. It may take minutes before giving up."
-msgstr ""
+msgstr "ULAの主な問題は、一部の家庭用ルータが今もULAと共にデフォルトルート<b>も</b>提供していることです。 このデフォルトルートは、ルーターが実際にIPv6接続を持っているかどうかに関係なく提供されます。 ブラウザからはデフォルトルートがどこにも接続できないことは判らないしフィードバックメカニズムもありません。 IPv6は(大抵の場合は)IPv4よりも優先されるため、ブラウザはこの破綻したルートを使用しようとします。 そしてそれは失敗するまでに数分かかるこもがあります。"
 
 #: "faq/broken_ula.inc"
 msgid "Our advice: Enable ULA only if your router has full time IPv6 connectivity. Disable it, otherwise. If you do disable it on your router, you will likely need to reboot your router first, then reboot your host, before the symptoms go away."
-msgstr ""
+msgstr "アドバイス: ルータに常にIPv6接続がある場合にのみ、ULAを有効にしてください。 それ以外の場合には無効にしてください。 ルーターでそれを無効にする場合は、ルーターを最初に再起動し、症状が消える前にホストを再起動する必要があります。"
 
 #: "broken.html"
 msgid "Bad or Inappropriate IPv6 Addresss"
-msgstr ""
+msgstr "無効または不適切なIPv6アドレス"
 
 #: "broken.html"
 msgid "(IPv6 address: see table below)"
-msgstr ""
+msgstr "(IPv6アドレス: 以下の表を参照)"
 
 #: "faq/broken_bogon.inc"
 msgid "Bad or Inappropriate IPv6 Addresses (Bogons)"
-msgstr ""
+msgstr "無効または不適切なIPv6アドレス (Bogons)"
 
 #: "faq/broken_bogon.inc"
 msgid "If you IPv6 address starts with any of these, your router needs to be upgraded."
-msgstr ""
+msgstr "IPv6アドレスがこれらのいずれかで始まる場合はルータをアップグレードする必要があります。"
 
 #: "faq/broken_bogon.inc"
 msgid "disable ULA."
-msgstr ""
+msgstr "ULAを無効化する"
 
 #: "faq/broken_bogon.inc"
 msgid "Other routers: Try updating the firmware. If that fails, look for and disable \"ULA\" or \"Unique Local Addressing\"."
-msgstr ""
+msgstr "他のルータ: ファームウェアを更新してみてください。 それでも駄目な場合には\"disable ULA\"または\"Unique Local Addressing\"を探して無効にしてください。"
 
 #: "faq/broken_bogon.inc"
 msgid "If that fails, disable IPv6 entirely on the router."
-msgstr ""
+msgstr "それでも駄目な場合にはルータ上でIPv6を完全に無効にします。"
 
 #: "faq/broken_bogon.inc"
 msgid "or"
-msgstr ""
+msgstr "または"
 
 #: "faq/broken_bogon.inc"
 msgid "This is a router using 6to4, but using a private IPv4 address. This will never work."
-msgstr ""
+msgstr "これは6to4を使用しているが、プライベートIPv4アドレスを使用しているルータです。 これをまともに動かすことはできません。"
 
 #: "faq/broken_bogon.inc"
 msgid "Apple routers: Update to the latest firmware; that has been corrected."
-msgstr ""
+msgstr "Apple製のルータ: 最新のファームウェアにアップデートしてください。 修正されています。"
 
 #: "faq/broken_bogon.inc"
 msgid "Other routers: Try updating the firmware. If that fails, look for and disable \"6to4\" or any form of automatic IPv6 tunnel."
-msgstr ""
+msgstr "その他のルータ: ファームウェアを更新してみてください。 それでも駄目な場合には\"6to4\"またはその他の形式の自動IPv6トンネルを探して無効にします。"
 
 #: "faq/broken_bogon.inc"
 msgid "This router is using the official \"Documentation\" prefix - which is not routable on the IPv6 Internet."
-msgstr ""
+msgstr "このルータは公式の\"Documentation\"プレフィックスを使用しています。これはIPv6インターネット上ではルーティングできません。"
 
 #: "faq/broken_bogon.inc"
 msgid "Update to the latest firmware."
-msgstr ""
+msgstr "最新のファームウェアにアップデートしてください。"
 
 #: "faq/broken_bogon.inc"
 msgid "Other routers: Try updating the firmware."
-msgstr ""
+msgstr "その他のルータ: ファームウェアを更新してみてください。"
 
 #: "faq/broken_bogon.inc"
 msgid "Disable IPv6."
@@ -1308,147 +1312,147 @@ msgstr "IPv6 を無効にします。"
 
 #: "broken.html"
 msgid "(IPv6 address: not starting with fe80)"
-msgstr ""
+msgstr "(IPv6 アドレス: fe80:で始まっていない)"
 
 #: "faq/broken_unexpected.inc"
 msgid "Unexpected IPv6 address?"
-msgstr ""
+msgstr "予期しないIPv6アドレス？"
 
 #: "faq/broken_unexpected.inc"
 msgid "Modern operating systems all have IPv6 enabled. This feature is dormant until someone explicitly configures IPv6, <em><b>or</b></em> a device on the local network offers it. Autoconfigured IPv6 hosts learn their IPv6 address and their gateway through the use of IPv6 router announcements (RAs). The network you are on may intentionally offer IPv6; you'll automatically use it when your computer sees it."
-msgstr ""
+msgstr "現代のオペレーティングシステムはすべてIPv6対応です。 この機能は誰かがIPv6を明示的に設定するまで、<em><b>あるいは</b></em>ローカルネットワーク上のデバイスがそれを提供するまで休止した状態です。 自動構成されたIPv6ホストはIPv6のルーターアナウンス(RA)を使用してIPv6アドレスとそのゲートウェイを学習します。 あなたが接続しているネットワークは意図的にIPv6を提供しているかもしれません。 コンピュータがこれを検出すると自動的に使用します。"
 
 #: "faq/broken_unexpected.inc"
 msgid "<b>Where this goes wrong:</b> Some people plug their router into the network (wired or wireless) and inadvertantly offer IPv6 services to everyone. Classic examples of this are where people add an early version of an Apple router (with 6to4 automatically enabled); another example is someone who has Windows Internet Connection Sharing enabled. In both cases, there is a chance they offer their services - and become your IPv6 router of choice, without any notification to you."
-msgstr ""
+msgstr "<b>これがうまくいかない場合: </b>ルーターをネットワーク(有線または無線)>に接続し、意図せずにIPv6サービスを提供している人がいるのかもしれません。 この古典的な例はApple製のルーターの初期バージョン(6to4が自動的に有効化)を接続した場合です。 もう1つの例はWindowsでインターネット接続の共有を有効にしているユーザーです。 いずれの場合も、これらサービスを提供する可能性があります。そしてあなたになにも通知せずに選択されたIPv6ルータになることができます。"
 
 #: "faq/broken_unexpected.inc"
 msgid "If these IPv6 routers don't work, you will fail to connect to any web site that offers services on both IPv4 and IPv6. Even if they do work, if the router in question is unplugged (the owner packs up, leaves the hotel/conference) your host never gets the notice; and it can be hours before it gives up."
-msgstr ""
+msgstr "これらのIPv6ルーターが正しく動作していない場合は、IPv4とIPv6の両方でサービスを提供するWebサイトに接続できません。 たとえこれらが正しく動作していていても、問題のルーターがネットワークから外された場合(その所有者がホテルや会議から離席した場合)などは、あなたのホストにはにはそれが知らされることもなく、それが失敗するのに数時間かかることもあります。"
 
 #: "faq/broken_unexpected.inc"
 msgid "This is similiar to someone accidentially (or intentionally) running a rogue DHCP server."
-msgstr ""
+msgstr "これは、誤って(あるいは故意に)不正なDHCPサーバーを実行している人が居る状況にも似ています。"
 
 #: "faq/broken_unexpected.inc"
 msgid "<b>If you are are not the network admin</b> - and have no access to fix the problem - consider disabling IPv6, at least for the location you are in. Another option might be to try turning off, and turning back on, your network interface (clearing the IP address), in case the source of the problem has left the network."
-msgstr ""
+msgstr "<b>あなたがネットワーク管理者ではない場合</b> - 問題を解決するためのアクセス権がない場合は、少なくともそのの場所でIPv6を無効にすることを検討してください。また、問題の要因がネットワークから居なくなっている場合には、一旦ネットワークインターフェイスをオフにしてからオンにしてみます。(無効なIPアドレスを消去するため)"
 
 #: "faq/broken_unexpected.inc"
 msgid "<b>If you are the network administrator</b>: You can use the default route information to identify the ethernet address; and then search for the owner of that ethernet address. Some network vendors have features that will suppress the advertisements of unauthorized RAs (router announcements); consider enabling those feaatures. More reactive measures involve finding (by ethernet address) the owner of the device; or possibly spoofing RA's from their device to indicate the device is going away."
-msgstr ""
+msgstr "<b>あなたがネットワーク管理者の場合</b>: デフォルトルート情報を使用してイーサネ ットアドレスを識別できます。 そのイーサネットアドレスの所有者を探します。 一部のネットワークベンダーは権限のないRA(ルーターアナウンス)のアドバタイズを抑制する機能を備えています。 それらの機能を有効にすることを検討してください。 より対抗的な処置は、デバイスの所有者を(イーサネットアドレスで)見つけることです。 RAを偽わっている装置を発見してネトワークから排除するために。"
 
 #: "faq/broken_netalyzr.inc"
 msgid "Consider trying the \"netalyzr\". This is another site that runs a java applet (which can do more than my site can, in just javascript). I would find feedback about how you useful this site was for you."
-msgstr ""
+msgstr "\"netalyzr\"を試してみてください。 これはJavaアプレットを実行する別のサイトです(これは私のサイトよりも多くのことをjavascriptで行うことができます)。 私 はこのサイトがあなたにとってどのように役に立ったかについてのフィードバックに関心があります。"
 
 #: "faq/broken_netalyzr.inc"
 msgid "From the netalyzr staff:"
-msgstr ""
+msgstr "netalyzrスタッフから:"
 
 #: "broken.html"
 msgid "If all else fails"
-msgstr ""
+msgstr "他のすべてが失敗した場合"
 
 #: "broken.html"
 msgid "(Instructions for disabling or deprioritizing IPv6)"
-msgstr ""
+msgstr "(IPv6の無効化または優先順位を下げる手順)"
 
 #: "faq/broken_disable.inc"
 msgid "Disabling or Deprioritizing your IPv6 address"
-msgstr ""
+msgstr "IPv6の無効化または優先順位を下げる"
 
 #: "faq/broken_disable.inc"
 msgid "<b>To disable IPv6 entirely, until your ISP offers IPv6 to you:</b> see <b>Microsoft's \"fixit\" site</b> that gives clear instructions. We advocate considering \"Use IPv4 instead of IPv6 in prefix policies\", instead of completely disabling IPv6. Specific Windows features depend on IPv6 being enabled."
-msgstr ""
+msgstr "<b>ISPがIPv6を提供するまでIPv6を完全に無効にする: </b><b>Microsoftの\"fixit\"サイト</b>を参考にしてください。 IPv6を完全に無効にするのではなく、「Use IPv4 instead of IPv6 in prefix policies(接頭辞ポリシーでIPv6の代わりにIPv4を使用する)」方が良いと思われます。 IPv6が有効になっているかどうかはWindowsの機能によって異なります。"
 
 #: "faq/broken_disable.inc"
 msgid "To completely disable IPv6 (Windows 7, Vista; XP should be similiar):"
-msgstr ""
+msgstr "完全にIPv6を無効にするには (Windows 7、Vistaの場合、XPもほぼ同様):"
 
 #: "faq/broken_disable.inc"
 msgid "Go to \"Properties\""
-msgstr ""
+msgstr "「プロパティ」を開きます"
 
 #: "faq/broken_disable.inc"
 msgid "Uncheck \"Internet Protocol Version 6\""
-msgstr ""
+msgstr "「インターネット プロトコル バージョン 6 (TCP/IPv6)」のチェックを外します"
 
 #: "faq/broken_disable.inc"
 msgid "Hit \"ok\""
-msgstr ""
+msgstr "「OK」をクリックします"
 
 #: "faq/broken_disable.inc"
 msgid "Shutdown/reboot."
-msgstr ""
+msgstr "「シャットダウン」から「リブート」を選択します。"
 
 #: "faq/broken_disable.inc"
 msgid "To disable IPv6 in Windows XP:"
-msgstr ""
+msgstr "Windows XPでIPv6を無効にするには:"
 
 #: "faq/broken_disable.inc"
 msgid "Taken from:"
-msgstr ""
+msgstr "情報源:"
 
 #: "faq/broken_disable.inc"
 msgid "Make sure you are logged in as an Administrator."
-msgstr ""
+msgstr "管理者(Administrator)としてログインしていることを確認してください。"
 
 #: "faq/broken_disable.inc"
 msgid "Click Start, click All Programs, click Accessories, and then click Command Prompt."
-msgstr ""
+msgstr "スタート」をクリック、続いて「すべてのプログラム」をクリック、「アクセサリ」をクリックして次に「コマンドプロンプト」クリックします。"
 
 #: "faq/broken_disable.inc"
 msgid "At the command prompt, type: netsh int ipv6 uninstall and press the Enter key on your keyboard."
-msgstr ""
+msgstr "コマンドプロンプトで netsh int ipv6 uninstall と入力し、キーボードのEnterキーを押します。"
 
 #: "faq/broken_disable.inc"
 msgid "Close the Command Prompt window and restart the computer."
-msgstr ""
+msgstr "コマンドプロンプトのウィンドウを閉じてコンピュータを再起動します。"
 
 #: "faq/broken_disable.inc"
 msgid "OS X users"
-msgstr ""
+msgstr "OS Xのユーザーは"
 
 #: "faq/broken_disable.inc"
 msgid "Before disabling IPv6, please be sure you are running the latest OS version. In particular, OS X 10.6.7 has several workarounds for being \"Broken\". This may solve your problems without resorting to completely disabling IPv6."
-msgstr ""
+msgstr "IPv6を無効にする前に必ず最新のOSバージョンを実行してください。 特にOS X 10.6.7には「壊れた」ことへのいくつかの回避策があります。 これによりIPv6を完全に無効にすることなく問題を解決できる場合があります。"
 
 #: "faq/broken_disable.inc"
 msgid "How to disable IPv6"
-msgstr ""
+msgstr "IPv6を無効にする方法"
 
 #: "faq/broken_disable.inc"
 msgid "Disable IPv6"
-msgstr ""
+msgstr "IPv6を無効にする"
 
 #: "faq/broken_disable.inc"
 msgid "Apply changes"
-msgstr ""
+msgstr "変更を適用する"
 
 #: "faq/broken_disable.inc"
 msgid "iPhone and iPad users"
-msgstr ""
+msgstr "iPhoneとiPadのユーザー"
 
 #: "faq/broken_disable.inc"
 msgid "IPv6 is not configurable on the iPhone or iPad. Your only option is to switch to another network."
-msgstr ""
+msgstr "IPv6はiPhoneまたはiPadで設定を変更できません。 唯一の方法はは別のネットワークに切り替えて使うことです。"
 
 #: "faq/broken_disable.inc"
 msgid "Linux users:"
-msgstr ""
+msgstr "Linuxユーザーの場合:"
 
 #: "faq/broken_disable.inc"
 msgid "This is very distribution-specific. Do a web search using your favorite search engine."
-msgstr ""
+msgstr "これはディストリビューションに依存します。 あなたの好きな検索エンジンを使ってウェブで検索を行います。"
 
 #: "faq/broken_disable.inc"
 msgid "Example web search: <code>disable ipv6 on centos</code>"
-msgstr ""
+msgstr "ウェブ検索の例: <code>sentos ipv6 無効化する</code>"
 
 #: "faq/broken_disable.inc"
 msgid "Generic unix instructions, to temporarily remove your IPv6 address."
-msgstr ""
+msgstr "IPv6アドレスを一時的に削除する一般的なunix命令。"
 
 #: "faq/broken_disable.inc"
 msgid "IP_ADDRESS"
@@ -1456,27 +1460,27 @@ msgstr ""
 
 #: "faq/broken_disable.inc"
 msgid "Be aware that if the router re-advertises it, you will relearn the default route."
-msgstr ""
+msgstr "ルータがそれを再アドバタイズした場合、デフォルトルートが再学習されることに注意してください。"
 
 #: "faq/broken_disable.inc"
 msgid "You can do a web search for your particular OS distribution. Example search would be <code>disable ipv6 on freebsd</code>."
-msgstr ""
+msgstr "特定のOSディストリビューションに関してはWebで検索を行うことができます。 検索の例は、<code>freebsd上のipv6を無効にする</code> などです。"
 
 #: "broken.html"
 msgid "See Also"
-msgstr ""
+msgstr "その他"
 
 #: "broken.html"
 msgid "Other resources that may help"
-msgstr ""
+msgstr "他の参考になるリソース"
 
 #: "faq_disable.html"
 msgid "Disabling IPv6 is the least preferred option. For some people, however, it may be your only option. This may be due to equipment limitations, or in limitations in technical support."
-msgstr ""
+msgstr "IPv6を無効にすることは最も推奨されないオプションです。 しかし、あなたの>唯一の選択肢かもしれません。 これは装置の制限またはテクニカルサポートの制限に起因する可能性があります。"
 
 #: "faq.html"
 msgid "test-ipv6.com FAQ"
-msgstr ""
+msgstr "test-ipv6.comについてのFAQ"
 
 #: "faq.html"
 msgid "Q: How does this test work?"
@@ -1520,7 +1524,7 @@ msgstr "これらの条件のあるユーザの視点からは、Web サイト�
 
 #: "faq.html"
 msgid "If we detect that you will have problems reaching dual-stack web sites, we recommend you see the <a href=\"broken.html\">Broken User FAQ</a>. It provides several steps to try and identify your root cause for being broken; and barring that, what you can do to disable IPv6 until your ISP offers native IPv6 connectivity."
-msgstr ""
+msgstr "デュアルスタックWebサイトに問題があることが判明した場合は<a href=\"broken.html\">「Broken User FAQ」</a>を参照することをお勧めします。そこではISPがネイティブIPv6接続を提供するまでIPv6を無効にするための方法や、壊れた根本原因を特定して特定するためのいくつかのステップを提供しています。"
 
 #: "faq.html"
 msgid "Q: Why did your stats say you already have IPv6-only users?"
@@ -1602,7 +1606,7 @@ msgstr "Q: これはオープンソースですか？"
 msgid "Yes. See the <a href=\"source.html\">source page</a> for details."
 msgstr "はい。詳細については<a href=\"source.html\">ソースページ</a>をご覧ください。"
 
-#: "stats.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "<span lookup=site.name>site</span> statistics"
 msgstr "<span lookup=site.name>site</span> 統計"
 
@@ -1648,11 +1652,11 @@ msgstr "最も興味深いグラフは、壊れた(\"broken\")ユーザの割合
 
 #: "not-used, archived.  Not currently needed for translation."
 msgid "Line graph, not stacked, of results over time."
-msgstr ""
+msgstr "折れ線グラフは時間軸の結果を積み上げません。"
 
 #: "not-used, archived.  Not currently needed for translation."
 msgid "These graphs show the last 600 days of activity at <span lookup=site.name>site</span>"
-msgstr "これらのグラフは、昨年の<span lookup=site.name>site</span>上の活動を示しています。"
+msgstr "これらのグラフは、過去600日間の<span lookup=site.name>site</span>上の活動を示しています。"
 
 #: "mission.html"
 msgid "test-ipv6.com - Our mission"
@@ -1708,7 +1712,8 @@ msgstr "もっともシンプルで、さらに近視眼的な解決策は、単
 
 #: "mission.html"
 msgid "The <a href=\"broken.html\">Broken User FAQ</a> has several suggestions for broken users to follow, to remediate their situation."
-msgstr ""
+msgstr "<a href=\"broken.html\">Broken User FAQ</a> には壊れたユーザーが自分の状\n"
+"況を修正するために従うべきいくつかの提案があります。"
 
 #: "mission.html"
 msgid "How you can help"
@@ -1716,7 +1721,7 @@ msgstr "どのようにサポートできますか。"
 
 #: "mission.html"
 msgid "This is an open-source project. I can certainly use your help in a variety of ways; please see the <a href=\"source.html\">source</a> page."
-msgstr ""
+msgstr "これはオープンソースのプロジェクトです。 私は様々な方法であなたの手助け>を使うことができます。 <a href=\"source.html\">ソース</a>ページをご覧ください。"
 
 #: "mirrors.html"
 msgid "test-ipv6.com mirrors"
@@ -1736,7 +1741,7 @@ msgstr "ヒント 列はソートが可能です(1行目をクリック); <a hre
 
 #: "mirrors.html"
 msgid "(generated by javascript)"
-msgstr ""
+msgstr "(javascriptで生成されました)"
 
 #: "mirrors.html"
 msgid "Interested in running a mirror?"
@@ -1744,183 +1749,184 @@ msgstr "ミラーサイトの運営にご興味がありますか?"
 
 #: "mirrors.html"
 msgid "Mirrors are welcomed and appreciated, whether public or private. Please see <a href=\"https://github.com/falling-sky/source/wiki\">the wiki</a> for details."
-msgstr ""
+msgstr "ミラーするのは、公開、非公開に関わらず歓迎し感謝ます。詳細について\n"
+"は<a href=\"https://github.com/falling-sky/source/wiki\">このwiki</a>をご覧くださ>い。"
 
 #: "faq_6to4.html"
 msgid "test-ipv6.com views on 6to4"
-msgstr ""
+msgstr "test-ipv6.comの6to4についての見解"
 
 #: "faq_6to4.html"
 msgid "The ugly bits"
-msgstr ""
+msgstr "駄目なところ"
 
 #: "faq_6to4.html"
 msgid "The good bits"
-msgstr ""
+msgstr "良いところ"
 
 #: "faq_6to4.html"
 msgid "6to4 is a technology that allows you to use your existing Internet provider (with only IPv4), to access the IPV6 Internet. It does this by putting IPv6 packets inside IPv4 packets, and with the help of some friendly folks on the Internet. (The specification of this is in <a href=\"http://www.ietf.org/rfc/rfc3056.txt\">rfc3056</a>.)"
-msgstr ""
+msgstr "6to4は、既存のインターネットプロバイダ(IPv4接続のみ)使用してIPv6インターネットにアクセスするためのテクノロジです。 IPv6パケットをIPv4パケットに入れ、インターネット上の「親切な人達」の助けを借りてこれを行います。 (この仕様は<a href=\"http://www.ietf.org/rfc/rfc3056.txt\">rfc3056</a>にあります。)"
 
 #: "faq_6to4.html"
 msgid "Before covering my actual view on 6to4, lets discuss how it works."
-msgstr ""
+msgstr "6to4に関する私の見解を説明する前に、まずはそれがどのように機能するかについて説明しましょう。"
 
 #: "faq_6to4.html"
 msgid "With traditional IPv4 Internet connections, traffic goes from you, to your ISP; to one or more ISPs; and finally to the end web site. Debugging issues with this is fairly easy. And, in the event of issues, your ISP has an obligation to fix things that they are associated with; the web site has a similiar contract with their ISP."
-msgstr ""
+msgstr "従来のIPv4インターネット接続ではトラフィックはあなたからISPに移ります。 そして1つまたは複数のISPを経由して最終的に目的のWebサイトに到達します。 これに関しての問題のデバッグはかなり簡単です。 また問題が発生した場合、ISPはそれを修正する義務があります。 WebサイトもISPと同様の契約をしています。"
 
 #: "faq_6to4.html"
 msgid "With unmanaged 6to4 connections (created \"automatically\" or without explicit gateway information) the process is a fair bit different. IPv6 is put into an IPv4 packet - much like sticking a letter in an envelope. This packet is sent to the \"nearest available\" gateway. Your ISP<i>may</i> run one of these; most do not. Chances are the one you use, will be run by a good samaritan who's trying to contribute to the community. This relay will take the IPV6 from inside your IPv4 packet, and then forward it over the IPV6 Internet."
-msgstr ""
+msgstr "管理されていない6to4接続(\"自動的な\"または明示的なゲートウェイ情報なしで作成された)では、そのプロセスはかなり異なっています。 IPv6はIPv4パケットに入れられます。これは封筒に手紙を貼るようなものです。 このパケットは\"最も近い利用可能な\"ゲートウェイに送られます。 あなたのISPは<i>たぶん</i>ゲートウェイを実行することもできますが大抵それは提供されていません。 可能性があるのはコミュニティに貢献しようとしている「善きサマリア人」によって運営されているゲートウェイが使われた場合です。 このリレーはIPv4パケットの中からIPV6を取り出し、IPV6インターネット上に転送してくれます。"
 
 #: "faq_6to4.html"
 msgid "Traffic from the web site takes a similiar path. That web site replies back to your automatic IPv6 address. This is routed to the nearest 6to4 relay to that web site. This is not deterministic from your part, at all. In fact, you won't even be able to tell where this relay is. That relay will take the IPv6 packet, stick it inside an IPv4 packet, and then send to your router."
-msgstr ""
+msgstr "Webサイトからのトラフィックにも同じような経路があります。 そのWebサイトはあなたの自動IPv6アドレスに返答します。 これは、そのWebサイトに最も近い6to4リレーにルーティングされます。 これはあなたの方からから決められるものではありません。 実際のところあなたはこのリレーがどこにあるのかを知ることさえできません。 そのリレーはIPv6パケットを受け取りIPv4パケットの内側に張り付けてあなたのルータに送信します。"
 
 #: "faq_6to4.html"
 msgid "Q: What could possibly go wrong?"
-msgstr ""
+msgstr "Q: 何がうまくいかない可能性がありますか？"
 
 #: "faq_6to4.html"
 msgid "The main issues involve the lack of a service level agreement, the lack of predictability, and a lack in the protocol for your computer to realize that this method is not working."
-msgstr ""
+msgstr "主な問題は、サービス内容の契約の欠如、予測可能性の欠如、そしてこの仕組みが機能していないことをコンピュータが知るためのプロトコルの欠如です。"
 
 #: "faq_6to4.html"
 msgid "Service level agreement: 6to4 relays are put up, voluntarilly by some organizations. They use BGP (the Internet's way of saying \"I'm here!\") to advertise to the world the existence of the public gateway. Some of them are managed quite well. Some are not. AS long as the route is being advertised, and they are the \"closest\" (in a BGP network sense - not in your control), that particular relay is the one you MUST use. Same for the web site you're trying to use - they have the same constraints, but most likely using a different relay than you. If anything goes wrong, even if you or the web site can figure out which one it is, there is not a good way to get the problem fixed."
-msgstr ""
+msgstr "サービス内容の契約: 6to4リレーは、いくつかの組織によって自主的に設置されています。 彼らは公共のゲートウェイの存在を世界にアドバタイズするためにBGP(\"私はここにいる！\"とインターネットで宣言する方法)を使用します。 それらのうちのいくつかは非常にうまく管理されています。 いくつかはそうではありません。 経路ががアドバタイズされていて、それらが\"最も近い\"(BGPネットワークの意味で - あなたはコントロールできない)ものならば、そのリレーが使用されます。 あるWebサイトを使おうと思った場合、そしてそこで何らかの問題があって彼らがそれを分析しようとしても、彼らはあなたとは異なるリレーを使用している可能性が高いのです。 たとえあなたかWebサイトのどちらかがそれを知ることができたとしても、問題を解決する術はありません。"
 
 #: "faq_6to4.html"
 msgid "Some ISPs are starting to offer 6to4 relays in their network; one such example is Comcast. But even if your ISP does this, that is only half the battle."
-msgstr ""
+msgstr "一部のISPは、ネットワーク内に6to4リレーを提供し始めています。 1つのそのような例はComcastです。 しかし、あなたのISPがこれをしても、それは戦いの半ばに過ぎません。"
 
 #: "faq_6to4.html"
 msgid "Once you enable 6to4, your computer will go \"Ah-ha! IPv6 Internet!\". Any time you vist a web site, your web browser will prefer to try IPv6 (if the web site is offering it). When it works, great! But when it doesn't work, you'll see timeouts. Browsers can wait a very long time before giving up on IPv6, and going back to IPv4. And the browser won't remember it had to try IPv4 - so ever web graphic, every link you click, etc will be subject to what looks like \"web site slow\" or \"web site down\"."
-msgstr ""
+msgstr "6to4を有効にすると、コンピュータは「Ah-ha！IPv6 Internet！」になります。 いつでもあなたがWebサイトを訪れると、ウェブブラウザはIPv6を試してみることになります(Webサイトが提供している場合)。 それがうまくいくと、素晴らしい！ しかし、それが動作しない場合は、タイムアウトが表示されます。 ブラウザがIPv6をあきらめてIPv4に戻るまでには非常に長い時間待つことになります。 そして、ブラウザはIPv4を試さなければならないことを覚えてはいません - あなたがクリックしたリンクやWebグラフィックは、\"Webサイトの速度が遅い\"または\"Webサイトがダウンしている\"ように見えます。"
 
 #: "faq_6to4.html"
 msgid "6to4 worked for me, but the \"Big Packet\" or MTU test was slow/failed. What happened?"
-msgstr ""
+msgstr "6to4は動いているようだが、\"大きなパケット\"やMTUテストは遅かったり失敗したりするが何が起こっているのか？"
 
 #: "faq_6to4.html"
 msgid "When using 6to4, your IPv6 packet has to be pushed into an IPv4 packet. Internet protocol packets have a maximum size; and this can vary based on the Internet service provider, as well as the equipment used."
-msgstr ""
+msgstr "6to4を使用する場合は、IPv6パケットをIPv4パケットに詰め込む必要があります。 インターネットプロトコルパケットには最大サイズがあります。 これはインターネットサービスプロバイダと使用される機器に基づいて変わる場合があります。"
 
 #: "faq_6to4.html"
 msgid "Because of this maximum size, your IPv6 packets actually have to be made a bit smaller - so that they fit inside the IPv4 packet, and that the IPv4 packet is still small enough to leave your network."
-msgstr ""
+msgstr "この最大サイズのために、IPv6パケットは実際には少し小さくする必要があります。つまり、IPv4パケットの内側に収まるようにし、そしてIPv4パケットもあなたのネットワークから送り出せるよう小さくなければなりません。"
 
 #: "faq_6to4.html"
 msgid "Further down the line, there may be another network with even tigher restrictions on the packet size. That network may itself be a tunnel - ISPs occasionally have to do that. This is where the problem often - lies. The IPv4 tunnel will send a message back towards you, - indicating that the packet was too big - but you don't get it. Even - if you do, your IPv6 packets don't get the message, so ultimately - you never reduce your packet size."
-msgstr ""
+msgstr "回線をさらに掘り下げると、パケットサイズの制限がさらに厳しい別のネットワークが存在する可能性があります。 そのネットワーク自体がトンネルになるかもしれません - ISPは時折それを行う必要があります。 これは、問題が頻繁に発生する場所です。 IPv4トンネルはあなたに向かってメッセージを送ります - パケットが大きすぎることを提示しますが、あなたはそれを受け取れません。 たとえそれをしたくても、IPv6パケットはメッセージを受け取れないので残念ながらパケットサイズが減らされることはないのです。"
 
 #: "faq_6to4.html"
 msgid "For some people, reducing the MTU size on IPv6 will help. 1280 is the minimum legal size. You can try values between 1400 to 1480 if you really want to find the one magic value that seems to work for you; but if you do touch MTU at all I'd recommend just doing 1280, and avoid later frustration."
-msgstr ""
+msgstr "一部の人にとっては、IPv6のMTUサイズを小さくするとは役に立ちます。 1280は最小の有効サイズです。 あなたが本当にちゃんと働くように思える「魔法の数値」を見つけたいならば、1400から1480の間の値を試すこともできまが、あなたがMTUに触れるのであれば私は1280でやってみることをお勧めします。"
 
 #: "faq_6to4.html"
 msgid "Managed tunnels"
-msgstr ""
+msgstr "管理されたトンネル"
 
 #: "faq_6to4.html"
 msgid "You sure sound like you don't like 6to4."
-msgstr ""
+msgstr "あなたは6to4が好きではないように聞こえます。"
 
 #: "faq_6to4.html"
 msgid "I don't like that it is *unmanaged*. 6to4 is basically 6in4 - an IPv6 packet wrapped with an IPv4 header. Managed 6in4 services can actualy be pretty good.."
-msgstr ""
+msgstr "私は*管理されていない*ことが気に入らないのです。 6to4は基本的に6in4 - IPv4ヘッダーでラップされたIPv6パケットです。 管理された6in4サービスは実際にかなりいい感じです。"
 
 #: "faq_6to4.html"
 msgid "test-ipv6.com's recommendation is that if you need IPv6 before your ISP can offer it, consider a managed 6in4 service. 6in4 is the same service as 6to4 on the wire, except with a managed tunnel endpoint (instead of an anonymous one). There are a few major options out there. They each offer great service; and they offer a <b>support</b> channel. These relays are <b>actively monitored</b> for service quality. Best of all, the <b>same relay is used both directions</b> - meaning the same staff manages both conversions. Consider these services:"
-msgstr ""
+msgstr "test-ipv6.comの推奨は、ISPがIPv6を提供する前にIPv6が必要な場合、管理された6in4サービスを検討することです。 6in4はトンネルエンドポイントが管理された(匿名のものではなく)ものであることを除けば6to4と同じようなサービスです。 そこにいくつかの主要なオプションがあります。 彼らはそれぞれ素晴らしいサービスを提供しています。 <b>サポート</b>チャネルを提供しています。 これらのリレーでは、サービスの品質が<b>積極的に監視</b>されています。 何よりも、<b>同じリレーが双方向で使用されます</b> - これは同じスタッフが両方の変換をを管理していることを意味します。 次のサービスを検討してください"
 
 #: "faq_6to4.html"
 msgid "Ran by Hurricane Electric. The author of test-ipv6.com has used their services for 2-3 years; and would notice latency problems (lots of interactive SSH use from home to the server). This service requires a static IPv4 address (or static enough - you can always go to the tunnelbroker.net site and update your IP). Lastly, tunnelbroker is fully automated - you can sign up, get your tunnel assignment immediately, and configure your end."
-msgstr ""
+msgstr "Hurricane ElectricによるRAN(地域エリアネットワーク)。 test-ipv6.comの著者は、2〜3年間このサービスを利用しています。 レイテンシの問題が発生することが判ってはいます(自宅からサーバーまでの多くの対話型SSHに使用)。 このサービスには静的なIPv4アドレスが必要です(そこそこ動的なものであればtunnelbroker.netサイトにアクセスしてIPを更新することができます)。 tunnelbrokerは完全に自動化されています。登録すればすぐにトンネルの割り当てを受けて設定を完了できます。"
 
 #: "not-used, archived.  Not currently needed for translation."
 msgid "is another popular service. I see many European users using this service significantly; though their footprint is global. They work with dynamic IPs with some custom software that they provide."
-msgstr ""
+msgstr "もう一つの人気のあるサービスです。 ヨーロッパの多くのユーザーがこのサービスを利用していますが、全世界的にその痕跡は見られます。 これはダイナミックIPア>ドレスとカスタムソフトウェアの組み合わせで動作します。"
 
 #: "faq_6to4.html"
 msgid "aka freenet6. I don't have personal experience with this, but test-ipv6.com does see a number of connections via this service."
-msgstr ""
+msgstr "freenet6として知られるもの。私はこれを個人的なに使った経験はありませんが、test-ipv6.comはこのサービスを介してのいくつかの接続を確認しています。"
 
 #: "faq_6to4.html"
 msgid "may be a better solution, in China. This requires a custom client to be installed."
-msgstr ""
+msgstr "中国ではもっとも良い解決策かもしれない。 これにはカスタムクライアントをインストールする必要があります。"
 
 #: "faq_6to4.html"
 msgid "in Australia offers both free and paid-for (with SLA) tunnels."
-msgstr ""
+msgstr "オーストラリアでは無料（SLA付き）トンネルを提供しています。"
 
 #: "faq_ipv4_only.html"
 msgid "About your IPv4-only Internet service."
-msgstr ""
+msgstr "あなたのIPv4専用インターネットサービスについて。"
 
 #: "faq_ipv4_only.html"
 msgid "This FAQ has been produced to try and address the questions of IPv4 only users"
-msgstr ""
+msgstr "このFAQはIPv4のみのユーザーの質問に答えるために作成されています"
 
 #: "faq/dontfeelbad.inc"
 msgid "It looks like you have only IPv4 Internet service at this time. Don't feel bad - most people are in this position right now. Most Internet service providers are not quite yet ready to provide IPv6 Internet to residential customers."
-msgstr ""
+msgstr "現時点ではIPv4インターネットサービスしかないようです。 悲観しないでください、ほとんどの人々は今この位置にいます。 ほとんどのインターネットサービスプロバイダは未だに一般のユーザーにIPv6インターネットを提供する準備が整っていません。"
 
 #: "faq/nothingwillbreak.inc"
 msgid "The good news is, nothing will suddenly break."
-msgstr ""
+msgstr "良いニュースは、突然何もかもが無くなるわけでは無いということです。"
 
 #: "faq/nothingwillbreak.inc"
 msgid "When web sites offer their content on both IPv4 and IPv6, you'll still reach them using your existing IPv4 Internet service."
-msgstr ""
+msgstr "WebサイトがIPv4とIPv6の両方でコンテンツを提供しても、既存のIPv4インターネットサービスを使用してWebサイトにアクセスできます。"
 
 #: "faq/whyipv6.inc"
 msgid "Many of the visitors to the site are new to what IPv6 is."
-msgstr ""
+msgstr "このサイトへの訪問者の多くはIPv6とは何かを知らない人々です。"
 
 #: "faq/whyipv6.inc"
 msgid "If you don't know why IPv6 matters, see the <a href=\"#\" onclick=\"return help_page('faq_whyipv6.html','Why IPv6')\">Why IPv6 FAQ</a>."
-msgstr ""
+msgstr "IPv6の重要性が分からない場合は、<a href=\"#\" onclick=\"return help_page('faq_whyipv6.html','Why IPv6')\">なぜIPv6なのか？のFAQ</a>をご覧ください。"
 
 #: "faq/whyipv6.inc"
 msgid "This will give you a bit of background of what to expect with IPv4 in the coming months and years; and perhaps some incentive to ask your ISP when they will offer IPv6."
-msgstr ""
+msgstr "ここでは今後数ヶ月あるいは数年の間にIPv4に何が起きるのか、あなたに少しのバックグラウンドを与えます。 それはIPv6を提供する時期をISPに尋ねる動機となるでしょう。"
 
 #: "faq/brokers.inc"
 msgid "If you are savvy with technology, you can be an early adopter of IPv6, consider learning more about"
-msgstr ""
+msgstr "もしあなたが技術に精通している場合にはIPv6を早期に採用するためにもっと学び、検討できます。"
 
 #: "faq/brokers.inc"
 msgid "providers (managed 6to4 tunnel services)."
-msgstr ""
+msgstr "プロバイダー (管理された6to4トンネルサービス)"
 
 #: "faq/brokers.inc"
 msgid "The use of automatic tunnels is discouraged"
-msgstr ""
+msgstr "自動トンネルの使用はお勧めしません"
 
 #: "faq/brokers.inc"
 msgid "[see more]"
-msgstr ""
+msgstr "[もっと見る]"
 
 #: "faq_ipv4_only.html"
 msgid "If you are not savvy with technology, here is more generic information:"
-msgstr ""
+msgstr "あなたが技術に精通していないなら、ここにはより多くの一般的な情報があります:"
 
 #: "faq/matrix_os.inc"
 msgid "Windows Vista and Windows 7 are both IPv6 ready. Mac OS X 10.5 and higher is fine. FreeBSD and Linux, all recent versions, are also fine. When your Internet service provider offers IPv6 to you, these OSs are good. You may still need to replace your router (wireless or wired), if it is not aware of IPv6. You'll have to consult with your Internet service provider on when IPv6 will be offered."
-msgstr ""
+msgstr "Windows VistaとWindows 7はどちらもIPv6対応です。 Mac OS X 10.5以降も問題ありません。 最近のすべてのバージョンのFreeBSDとLinuxもうまく動きます。 あなたのインターネットサービスプロバイダがあなたにIPv6を提供するようになったとき、これらのOSは大丈夫でしょう。 IPv6を認識していない場合にはルータ(無線または有線の)を交換する必要があります。 IPv6が提供される期についてはインターネットサービスプロバイダに相談するとよいでしょう。"
 
 #: "faq/matrix_os.inc"
 msgid "Windows XP users: My advice is to plan on upgrading before using IPv6. It is technically possible to use IPv6 with XP, to a minimal extent."
-msgstr ""
+msgstr "IPv6を使用する前にアップグレードをすることをお勧めします。 技術的にはXPを使用してIPv6を使用することは可能です。"
 
 #: "faq/dontstress.inc"
 msgid "Don't stress too much on having an IPv6 address in 2011."
-msgstr ""
+msgstr "2011年中にIPv6アドレスを用意することにあまり重点を置かないでください。"
 
 #: "faq/dontstress.inc"
 msgid "If you do buy a new router, make sure that it will be IPv6 ready (or upgradable) when your service provider does offer IPv6."
-msgstr ""
+msgstr "新しいルータを購入する場合は、サービスプロバイダがIPv6を提供したときにIPv6対応できる(またはアップグレード可能)ようになっていることを確認してください。"
 
 #: "faq_no_ipv6.html"
 msgid "You appear to have no IPv6 at this time.."
@@ -1932,219 +1938,219 @@ msgstr "IPv6 アドレスがないようです."
 
 #: "faq/unable_to_see_ipv6.inc"
 msgid "<b>If you strongly believe you have IPv6, but we were unable to detect it:</b> it means one of a couple of things. Either your organization is blocking the use of IPv6 to talk to the outside Internet through network policy; or perhaps what you see with IPv6 on your host is not a global address. Any address starting with \"::\", \"fc\", \"fd\", or \"fe\" are unable to work with the public IPv6 Internet."
-msgstr ""
+msgstr "<b>IPv6があるはずなのにそれを検出できなかった場合: </b>これにはいくつか>の原因が考えられます。 ひつつは、あなたの組織がIPv6の使用をブロックするネットワークポリシーを適用して外部のインターネットと通信をしている場合です。 もしくはあなたのホスト上で見えているIPv6アドレスがグローバルアドレスではない場合です。 \"::\"、\"fc\"、\"fd\"、\"fe\"で始まるアドレスはパブリックIPv6インターネットでは動作しません。"
 
 #: "faq_teredo_minimum.html"
 msgid "More about your test results."
-msgstr ""
+msgstr "あなたのテスト結果の詳細。"
 
 #: "faq/teredo_iponly.inc"
 msgid "You also appear to have Teredo enabled. You did successfully connect to an IPv6 site during this test - but only when forcing the connection by connecting to an IPv6 numeric address, instead of a web site name. This setting will not help or hurt you going forward to reach IPv6 web sites."
-msgstr ""
+msgstr "また、Teredoを有効にしているように見えます。 このテスト中にIPv6サイトに正常に接続しましたが、Webサイト名の代わりにIPv6数値アドレスに接続して接続を強制した場合にのみ成功しました。 この設定は、IPv6 Webサイトにアクセスするのには役立ちません。"
 
 #: "faq_teredo.html"
 msgid "About Teredo"
-msgstr ""
+msgstr "Teredoについて"
 
 #: "faq_teredo.html"
 msgid "This FAQ has been produced to tell you about Microsoft's Teredo service - a transition tool to help get early access to the IPv6 Internet."
-msgstr ""
+msgstr "このFAQは、IPv6インターネットに早期にアクセスするための移行ツールであるMicrosoft Teredoサービスについて説明するために作成されています。"
 
 #: "faq_teredo.html"
 msgid "By default, Teredo is enabled on Vista and Windows 7. However, if Teredo is the only available IPv6 solution for you, it will default to only connecting to web sites by IPv6 address - not by name. More can be found <a href=\"http://technet.microsoft.com/en-us/library/bb727035.aspx\">here</a>. Once a global IP address has been assigned, Windows will do lookups. At this point, you probably wonder - why do I need Teredo?"
-msgstr ""
+msgstr "デフォルトでは、VistaとWindows 7ではTeredoが有効になっています。ただし、TeredoのみがIPv6のソリューションである場合、デフォルトではIPv6アドレスによるWebサイトへの接続になります。 詳細は、<a href=\"http://technet.microsoft.com/en-us/library/bb727035.aspx\">こちら</a>をご覧ください。 グローバルIPアドレスが割り当てられたら、Windowsはルックアップを行います。 この時点で、恐らくあなたはTeredoがなぜ必要なのか不思議に思うでしょうでしよう。"
 
 #: "faq_v6ns_bad.html"
 msgid "About the \"v6ns\" test."
-msgstr ""
+msgstr "\"v6ns\"テストについて。"
 
 #: "faq_v6ns_bad.html"
 msgid "This FAQ has been produced to try and address what it means for the v6ns test to be \"bad\"."
-msgstr ""
+msgstr "このFAQは、v6nsテストを試みた結果、\"悪い\"状態が生じているために作成されました。"
 
 #: "faq_v6ns_bad.html"
 msgid "This test specifically verifies that your DNS resolver (usually operated by your Internet service provider, or your corporate IT department) is capable of reaching IPv6 Internet sites for DNS lookups. If you explicitly configured the use of a different DNS server, such as OpenDNS or Google's Public DNS, you'll test those services instead."
-msgstr ""
+msgstr "このテストでは、DNSリゾルバ(通常はインターネットサービスプロバイダまたは企業のIT部門が運営しています)がDNSルックアップのためにIPv6インターネットサイトにアクセスできるかを具体的に検証します。 OpenDNSやGoogleのパブリックDNSなどの他のDNSサーバーを明示的に設定した場合は、代わりにそれらのサービスをテストします。"
 
 #: "faq_v6ns_bad.html"
 msgid "If this test fails:"
-msgstr ""
+msgstr "このテストが失敗した場合:"
 
 #: "not-used, archived.  Not currently needed for translation."
 msgid "it means that the DNS resolver you are using, requires IPv4 to reach the DNS authoritative servers of your favoriate web sites. In the near future, every web site of consequence will remain accessible in this form, so <b>there is no immediate danger.</b>"
-msgstr ""
+msgstr "これは、あなたが使用しているDNSリゾルバが、あなたのお気に入りのウェブサ>イトのDNS権威サーバーに到達するためにはIPv4を必要とすることを意味します。 近い将来にも、結果のすべてのウェブサイトにこの形式でもアクセス可能なままなので、<b>すぐに危険はありません。</b>"
 
 #: "faq_v6ns_bad.html"
 msgid "If this test succeeds:"
-msgstr ""
+msgstr "このテストが成功した場合:"
 
 #: "faq_v6ns_bad.html"
 msgid "it means that your DNS resolver is fully capable of reaching IPv6 DNS servers. This means that the operator of that DNS server has IPv6 within their network. If they do not already offer you IPv6, this may be a sign that they are actively working on trying to make it possible."
-msgstr ""
+msgstr "これは、DNSリゾルバがIPv6 DNSサーバに完全にアクセスできることを意味しま>す。 これは、そのDNSサーバーのオペレータがネットワーク内でIPv6を持っていることを意味します。 IPv6をまだ提供していない場合、これはそれを可能にしようと積極的に取>り組んでいることを示す兆候かもしれません。"
 
 #: "faq_v6ns_bad.html"
 msgid "Do you use OpenDNS?"
-msgstr ""
+msgstr "OpenDNSを使用していますか？"
 
 #: "faq_v6ns_bad.html"
 msgid "OpenDNS is now offering IPv6-specific resolvers, that will be able to retrieve DNS over IPv6. This means the \"v6ns\" test operated here will pass. See the <a target=_blank href=\"http://www.opendns.com/ipv6/\">OpenDNS IPv6 information page</a>."
-msgstr ""
+msgstr "OpenDNSは現在、IPv6固有のリゾルバを提供しており、IPv6を介してDNSを取得することができます。 これは、ここで実施される\"v6ns\"テストは合格することを意味します。 <a target=_blank href=\"http://www.opendns.com/ipv6/\">OpenDNS IPv6情報ページ</a>を参照してください。"
 
 #: "faq_v6ns_bad.html"
 msgid "Do you operate your own DNS resolvers?"
-msgstr ""
+msgstr "独自のDNSリゾルバを運用していますか？"
 
 #: "faq_v6ns_bad.html"
 msgid "If you operated the DNS resolvers in use at your home or organization, enabling IPv6 on your DNS server is easy."
-msgstr ""
+msgstr "自宅や組織で使用しているDNSリゾルバをあなたが操作している場合、DNSサーバーでIPv6を有効にするのは簡単です。"
 
 #: "faq_v6ns_bad.html"
 msgid "ISC BIND: Make sure that IPv6 support is compiled in when you ./configure it. It is enabled by default. If you recently added IPv6 to your server, simply restart your named process, as you normally would."
-msgstr ""
+msgstr "ISC BIND: ./configureする際にIPv6サポートでコンパイルされていることを確>認してください。 これはデフォルトで有効になっています。 最近IPv6をサーバーに追加した場合には、いつもどおりnamedプロセスを再起動するだけです。"
 
 #: "not-used, archived.  Not currently needed for translation."
 msgid "PowerDNS: Enable <code>aaaa-additional-processing</code> and configure <code>query-local-address6</code> in your <code>recursor.conf</code>. Restart powerdns."
-msgstr ""
+msgstr "PowerDNS: <code>recursor.conf</code> と <code>aaaa-additional-processing </code>を有効にして <code>query-local-address6</code>を設定します。 powerdnsを再起動します。"
 
 #: "faq_v6ns_bad.html"
 msgid "Windows Server 2003: Upgrade to Windows Server 2008 at a minimum. Windows 2003 will resolve AAAA records, and supports IPv6 clients, but does *not* do DNS resolution over IPv6."
-msgstr ""
+msgstr "Windows Server 2003: 少なくともWindows Server 2008にアップグレードしてください。 Windows 2003はAAAAレコードを解決し、IPv6クライアントもサポートしますが、IPv6ではDNS解決を行えません。"
 
 #: "faq_v6ns_bad.html"
 msgid "Confirmation:"
-msgstr ""
+msgstr "確認:"
 
 #: "faq_v6ns_bad.html"
 msgid "should return back an aaaa record without errors."
-msgstr ""
+msgstr "エラーなしにaaaaレコードを返すはずです。"
 
 #: "faq_broken_aaaa.html"
 msgid "Broken DNS AAAA Lookups"
-msgstr ""
+msgstr "壊れたDNS AAAAルックアップ"
 
 #: "faq_broken_aaaa.html"
 msgid "We detected that you are able to connect to IPv6 sites, by numerical address specifically. However, connections using DNS either failed, or preferred IPv4."
-msgstr ""
+msgstr "あなたが数値アドレス指定ではIPv6サイトに接続できることを検出しました。 ただし、DNSを使用した接続には失敗したか、IPv4での接続がが優先されました。"
 
 #: "faq_broken_aaaa.html"
 msgid "What does this mean for you?"
-msgstr ""
+msgstr "これはあなたにとってどういう意味ですか？"
 
 #: "faq_broken_aaaa.html"
 msgid "You should still be able to reach most sites fine, so long as they offer their services on IPv4. This means few near-term problems."
-msgstr ""
+msgstr "IPv4でサービスを提供している限り、ほとんどのサイトにはまだアクセスできます。 これは短期的には問題がほとんどないことを意味します。"
 
 #: "faq_broken_aaaa.html"
 msgid "Possible causes:"
-msgstr ""
+msgstr "考えられる原因:"
 
 #: "faq_broken_aaaa.html"
 msgid "Firefox users may have IPv6 lookups disabled."
-msgstr ""
+msgstr "FirefoxユーザーがIPv6ルックアップを無効にしている可能性があります。"
 
 #: "faq_broken_aaaa.html"
 msgid "Go to <a href=\"about:config\">about:config</a> in your browser."
-msgstr ""
+msgstr "あなたのブラウザで<a href=\"about:config\">about:config</a>にアクセスし>てください。"
 
 #: "faq_broken_aaaa.html"
 msgid "Look for <code>network.dns.disableIPv6</code>"
-msgstr ""
+msgstr "<code>network.dns.disableIPv6</code> を探します"
 
 #: "faq_broken_aaaa.html"
 msgid "Make sure this is set to <code>false</code>."
-msgstr ""
+msgstr "これが <code>false</code> に設定されていることを確認します。"
 
 #: "faq_broken_aaaa.html"
 msgid "Your OS may be configured to not do AAAA lookups; that is, to prefer IPv4 only."
-msgstr ""
+msgstr "お使いのOSはAAAAルックアップを行わないように設定されているかもしれません。 つまり、IPv4のみを優先する状態です。"
 
 #: "faq_broken_aaaa.html"
 msgid "Your DNS server may be filtering AAAA responses (or otherwise broken)."
-msgstr ""
+msgstr "あなたのDNSサーバはAAAA応答をフィルタリングしているかもしれません。(そうでなければ壊れているのかもしれません)"
 
 #: "faq_broken_aaaa.html"
 msgid "Some ISPs will intentionally filter AAAA records. For example, on World IPv6 Day, we expect many Japanese ISPs to filter AAAA records, to mitigate current IPv6 deployment issues unique to their environments."
-msgstr ""
+msgstr "一部のISPは意図的にAAAAレコードをフィルタリングします。 たとえば、World IPv6 Dayには、日本の多くのISPがAAAAレコードをフィルタリングしているという異様な状況を緩和してくれるとを期待しています。"
 
 #: "faq_broken_aaaa.html"
 msgid "You (or your techical support) can run <code>dig @DNSSERVER aaaa aaaa.test-ipv6.com</code> to confirm if the DNS server is working properly"
-msgstr ""
+msgstr "あなた(または、あなたのテクニカルサポート)は、DNSサーバが正しく動作して>いるかどうかを <code> dig @DNSSERVER aaaa aaaa.test-ipv6.com </code> を実行して確認できます"
 
 #: "faq_firefox_plugins.html"
 msgid "FAQ on Firefox Plugins"
-msgstr ""
+msgstr "Firefoxプラグインに関するFAQ"
 
 #: "faq_firefox_plugins.html"
 msgid "This FAQ has been produced to try and address issues caused when using Firefox"
-msgstr ""
+msgstr "このFAQは、Firefoxを使用する際に発生する問題に対処するために作成されています"
 
 #: "faq/intro_js.inc"
 msgid "<b>How this site works:</b> This site tells your browser to try and load several remote javascript files. Each file is on a different server. After each one finishes, we look at which ones worked - and which ones failed. Depending on the pattern, we can guess at IPv4 and IPv6 compatibility, and sometimes suggest possible fixes."
-msgstr ""
+msgstr "<b>このサイトの仕組み: </b>このサイトは、ブラウザにいくつかのリモートjavascriptファイルを読み込ませるよう指示します。 各ファイルは別のサーバーにあります。 それぞれの作業が終了すると、どの作業が成功したのか、どの作業が失敗したのかを調べます。 パターンによってIPv4とIPv6の互換性を推測し、場合によっては修正を提案することもあります。"
 
 #: "faq/intro_js.inc"
 msgid "Some browser plugins enforce policies that are compatible with the above behavior. They block connections that (to them) look like they might be 3rd party advertising or tracking. There is no good way to identify this plugins from inside javascript; nor any good way to work around it."
-msgstr ""
+msgstr "一部のブラウザプラグインは上記の動作と互換性のあるポリシーを適用します。 サードパーティの広告やトラッキングだと思わしき接続をブロックします。 javascriptの中からこのプラグインを識別する良い方法はありません。 それを回避する良い方法もありません。"
 
 #: "faq/plugins_firefox.inc"
 msgid "In the case of Firefox, the most common plugins that cause problems are AdBlock and RequestPolicy. There are probably others - any which claims to prevent XSS, CSRF, or Cross Site Scripting can be a problem. Try disabling these plugins (either temporarilly via any menu they offer you, or via the Firefox add-ons menu)."
-msgstr ""
+msgstr "Firefoxの場合、問題を引き起こす最も一般的なプラグインはAdBlockとRequestPolicyです。 XSS、CSRF、またはクロスサイトスクリプティングを防止すると主張するものはすべて問題になる可能性があります。 これらのプラグインを無効にしてください(メニューから一時的に、あるいはFirefoxのアドオンメニューから)。"
 
 #: "faq_browser_plugins.html"
 msgid "Alternative test for you.."
-msgstr ""
+msgstr "あなたのための代替テスト…"
 
 #: "faq_browser_plugins.html"
 msgid "This image based test is provided as a workaround. It will give you a quick pass/fail test, to tell you if you should be worried for World IPv6 Day."
-msgstr ""
+msgstr "この画像ベースのテストは、あなたがWorld IPv6 Dayを憂慮する必要があるかどうかの簡単な合格/不合格のテストを提供します。"
 
 #: "faq/simple_test.inc"
 msgid "The following table will try and load 3 images."
-msgstr ""
+msgstr "次の表は3つの画像の読み込みを試みます。"
 
 #: "faq/simple_test.inc"
 msgid "test images for ipv4, dual stack, and ipv6"
-msgstr ""
+msgstr "テスト画像はipv4、デュアルスタック、およびipv6のテス画像です"
 
 #: "faq/simple_test.inc"
 msgid "Pass?"
-msgstr ""
+msgstr "合否"
 
 #: "faq/simple_test.inc"
 msgid "Method"
-msgstr ""
+msgstr "方式"
 
 #: "faq/simple_test.inc"
 msgid "More Info"
-msgstr ""
+msgstr "詳細情報"
 
 #: "faq/simple_test.inc"
 msgid "IPv4. Basic traditional Internet."
-msgstr ""
+msgstr "IPv4。 基本的な従来のインターネット。"
 
 #: "faq/simple_test.inc"
 msgid "If green, you will have no problem on World IPv6 day."
-msgstr ""
+msgstr "緑の場合、World IPv6 dayは問題ありません。"
 
 #: "faq/simple_test.inc"
 msgid "If this fails, seek help from your IT department, helpdesk, or ISP tech support."
-msgstr ""
+msgstr "これが失敗した場合は、IT部門、ヘルプデスク、またはISPの技術サポートにお>問い合わせください。"
 
 #: "faq/simple_test.inc"
 msgid "If this fails, consider using the <a href=\"/\">full test</a>, with IE, Firefox, Safari, or Chrome, to get more detailed information about possible failure reasons."
-msgstr ""
+msgstr "これが失敗した場合は、IE、Firefox、Safari、またはChromeで<a href=\"/\" >完全なテスト</a>を使用して、失敗の理由に関する詳細情報を取得することを検討してください。"
 
 #: "faq/simple_test.inc"
 msgid "<i>If red or blank, do not stress!</i> Few people already have IPv6 at this time; and it is not critical for 2011 but will be for the coming years."
-msgstr ""
+msgstr "<i>赤色または空白の場合でも心配しないでください！</i>現時点でIPv6を既に>持っている人はほとんどいません。 2011年では重要ではありませんが、数年のうちには必要となるでしょう。"
 
 #: "faq_browser_plugins.html"
 msgid "FAQ on Plugins and Add-Ons"
-msgstr ""
+msgstr "プラグインとアドオンについてのFAQ"
 
 #: "faq_browser_plugins.html"
 msgid "This FAQ has been produced to try and address issues caused when using browser add-ons"
-msgstr ""
+msgstr "このFAQは、ブラウザのアドオンを使用する際に発生する問題に対処するために作成されています"
 
 #: "simple_test.html"
 msgid "This image based test is provided for those with browsers or browser plugins incompatible with the <a href=\"/\">main test</a>. This page provides only a subset of features, but should be enough for a simple pass/fail."
@@ -2152,519 +2158,522 @@ msgstr "この画像ベースのテストは <a href=\"/\">メインサイト</a
 
 #: "faq_whyipv6.html"
 msgid "Why IPv6?"
-msgstr ""
+msgstr "なぜIPv6なのか？"
 
 #: "faq_whyipv6.html"
 msgid "This is an interesting question. IPv6 buys you only a bit more than you already have today; and most of that is a promise. IPv6 will help you preserve the level of Internet connectivity between your home and other locations on the Internet, without interference, as you enjoyed in 2012."
-msgstr ""
+msgstr "これは興味深い質問です。 IPv6は、今日のものよりほんの少し、そのほとんど>は将来性についてですが、信じられると思えます。 IPv6は、あなたが2012年に楽しんだ>ように、インターネット上の自宅と他の場所との間のインターネット接続の品質を邪魔せずに維持する手助けになるはずです。"
 
 #: "faq_whyipv6.html"
 msgid "The promise is the ability to give every device in your house a reachable network address. Each house will have practically unlimited network addresses (2<sup>64</sup> if you're curious - about 18 billion billions). Each house may potentially have more than that, particularly if they have the need for multiple networks within the home. Many ISPs will be able to easy give you 256 of those networks. <em>Running out of IPv6 address space will seem impossible for decades.</em>"
-msgstr ""
+msgstr "この将来性は、あなたの家のすべてのデバイスに到達可能なネットワークアドレスを与える能力です。 それぞれの家は実質的に無制限のネットワークアドレスを持って>います(もし、あなたが興味があるなら、それは約2<sup>64</sup>、約180億あります)。\n"
+"各家庭が必要とする以上の可能性があります。 もし家庭内に複数のネットワークが必要な場合でも多くのISPが、それらのネットワークから256個を簡単に提供できます。 <em>IPv6アドレススペースの不足は数十年の間は起こらないでしょう。</em>"
 
 #: "faq_whyipv6.html"
 msgid "Applications to take advantage of this are just now being thought of. Imagine having all of your home electronics accessible from work or from your mobile phone. You could watch your TV recorder, or the security camera. You could check the fridge, perhaps start the oven timer. Maybe turn on the air conditioning or the heater when you know you're coming home early. All of these *can* be done today, but are cumbersome with IPv4 if you're using a single IPv4 address today. And, very difficult in the future, with where IPv4 is heading next."
-msgstr ""
+msgstr "これを利用するアプリケーションは今いろいろと考えられています。 すべての家電製品に職場や携帯電話からアクセスできると想像してください。 テレビレコーダーや防犯カメラを見ることができます。 冷蔵庫をチェックして、おそらくオーブンタイマーをスタートすることができます。 あなたが早く帰宅することを知っているときは、エアコンやヒーターをオンにできるでしょう。 これらのすべては今日も行うことができますが、あなたが単一のIPv4アドレスしか使用していない場合、IPv4は面倒です。 将来、IPv4が別の方法を見つけるのは非常に困難です。"
 
 #: "faq_whyipv6.html"
 msgid "What Is Wrong with IPv4"
-msgstr ""
+msgstr "IPv4は何が問題なのか？"
 
 #: "faq_whyipv6.html"
 msgid "The traditional IPv4 Internet is running out of space. The IANA registry (at the global level) is either just about out, or totally out, depending on when you read this. They are expected to announce this depletion Janaury or February 2011."
-msgstr ""
+msgstr "古典的なIPv4インターネットは割り当てスペースを使い果たしています。 IANA>レジストリ(グローバルレベル)は、あなたがこれを読んだときにはちょうど無くなってい\n"
+"るか、完全に無くなっているでしょう。 彼らはこの枯渇についてを2011年1月か2月に発>表する予定です。 (訳者注: 実際にはIANAが管理するIPv4アドレスブロックは2011年2月3日に枯渇しました)"
 
 #: "faq_whyipv6.html"
 msgid "As Internet service providers each run out of the space they have been allocated, they will have to find creative ways to help keep taking on new customers. Those customers will still need access to the IPv4 Internet."
-msgstr ""
+msgstr "インターネットサービスプロバイダはそれぞれ割り当てられたスペースを使い果たしてしまい、新しい顧客を引き受けるためにはなにか画期的な方法を見つける必要があります。 これらの顧客は引き続きIPv4インターネットへのアクセスを必要としています。"
 
 #: "faq_whyipv6.html"
 msgid "Q: I heard there are millions of addresses left. Take it back from the companies not using it! Use the Class E space! (etc)."
-msgstr ""
+msgstr "Q: 数百万のアドレスが残っていると聞きました。 それを使用していない会社から返してもらってください！ クラスEのスペースを使用してください！ (等々…)。"
 
 #: "faq_whyipv6.html"
 msgid "Those have been looked at. The space is relatively small, given the rate that the world is consuming it now. Forcefully taking back space would require more time in the court systems than it would buy back. Other currently reserved space is too difficult to use - it would require replacing most of the routers in the world to do so."
-msgstr ""
+msgstr "それらは検討されました。 そのスペースは世界が現在消費している速度を考えると、とても小さいのです。 それに強制的にスペースを取り戻すには裁判所のシステムで買い戻すよりも時間がかかります。 その他の現在予約されている空間は使うのが困難なもので、世界中のほとんどのルータを交換する必要があります。"
 
 #: "faq_whyipv6.html"
 msgid "Q: What creative ways will ISPs keep IPv4 running?"
-msgstr ""
+msgstr "Q: ISPがIPv4を稼働させ続けるには、どのような画期的な方法がありますか？"
 
 #: "faq_whyipv6.html"
 msgid "Most commonly, some form of NAT. NAT is a form of address sharing; think of it as a party line from the earlier days of the telephone. You'll be able to make outgoing connections easy enough, as long as your shared IP address is not too busy."
-msgstr ""
+msgstr "最も一般的なのは何らかの形のNATです。 NATはアドレス共有の一形態です。 これは昔の電話で使われたパーティラインのようなものと考えてください。 共有IPアドレスが混みあわなければ、外部への接続を簡単にすることができます。"
 
 #: "faq_whyipv6.html"
 msgid "Note this is in addition to any NAT you do at home."
-msgstr ""
+msgstr "これは家庭で行うNATに加えてあります。"
 
 #: "faq_whyipv6.html"
 msgid "Q: So, why worry? NAT will work, right? I use NAT at home today after all.."
-msgstr ""
+msgstr "Q: だったら何を心配するの？ NATは上手く機能する、そうでしょ？ 自分も結局は家でNATを使用しているし。"
 
 #: "faq_whyipv6.html"
 msgid "Sort of. Basic web browsing should be OK for most sites. Some map sites, the itunes store, and other sites that use a <em>huge</em> number of connections to rapidly load the page, may start showing blank images, depending on how many people share that public IP address."
-msgstr ""
+msgstr "そうですね、ほとんどのサイトでは基本的なWebブラウジングは問題ありません。 一部の地図サイト、iTunesストア、および他のサイトでは、公開IPアドレスを共有する人の数によっては、<em>膨大な</em>接続数でページを高速に読み込むと、空のイメージが表示されることがあります。"
 
 #: "faq_whyipv6.html"
 msgid "Mail will still work, both traditional as well as web based."
-msgstr ""
+msgstr "古典的なものもウェブベースのものもメールは引き続き機能します。"
 
 #: "faq_whyipv6.html"
 msgid "Q: What will break when ISPs NAT their customers?"
-msgstr ""
+msgstr "Q: ISPが顧客をNATする際に何が壊れますか？"
 
 #: "faq_whyipv6.html"
 msgid "When web sites have to block abusers, they often block the IP address the abuse came from. If you are sharing your IP address with 1000 other broadband customers, if *any* of them trigger a block, you will be blocked too. Your ISP is not likely to be able to assist in fixing this."
-msgstr ""
+msgstr "Webサイトが不正行為者をブロックしなければならない場合、悪用されたIPアドレスをブロックすることがよくあります。 あなたのIPアドレスを他の1000人のブロードバンドユーザーと共有していた場合、それらのうちの*誰か*がブロックを引き起こすとすあなたもブロックされます。 あなたのISPがこれを解決するのに協力してくれる可能性は低いです。"
 
 #: "faq_whyipv6.html"
 msgid "Running servers at home will break, unless you arrange to pay for a static IP address. Assuming the ISP is able to offer this at all, we expect the price for this to go up over the coming years. Some ISPs may be able to offer you a port forward on a static IP on an odd port number - but not the whole IP address"
-msgstr ""
+msgstr "静的IPアドレスを別料金で手配しない限り自宅でサーバを稼動させることはできません。 ISPがこれを提供し続けられると仮定すると、これに対する価格は今後数年間で上昇すると予想されます。 ISPの中には奇数番号のポートでの静的ポート転送ができるものもありますが、これも全てのIPアドレスではありません"
 
 #: "faq_whyipv6.html"
 msgid "Running p2p applications will likely break. <b>This includes things like voice and video chat, video games, and yes - even those legal BitTorrent clients.</b> Some ISPs may handle this better than others, and some applications may handle this better than others, but there will be a lot of road bumps over all on this."
-msgstr ""
+msgstr "P2Pアプリケーションの実行は中断する可能性があります。 <b>これには、ボイ>ス＆ビデオチャット、ビデオゲーム、はい、合法的なBitTorrentクライアントなども含まれます。</b>一部のISPはこれらを他のものよりもうまく処理することもあります。 一部のアプリケーションはよりうまく処理されることもありますが、その他多くについては道のりは険しいのです。"
 
 #: "faq_whyipv6.html"
 msgid "Web sites that today automatically show you your local weather, news, and movies may no longer be able to locate you using your IPv4 address; you'll have to tell the web sites where in the world you are"
-msgstr ""
+msgstr "現在地の天気予報、ニュース、映画などを自動的に表示するWebサイトでは、IPv4アドレスを使用してあなたを特定できなくなる場合があります。 あなたは世界のどこにいるのかをWebサイトに伝えなければなりません"
 
 #: "faq_whyipv6.html"
 msgid "Q: Do I have to give up IPv4, to go IPv6?"
-msgstr ""
+msgstr "Q: 私はIPv6を使うためにIPv4を捨てなければなりませんか？"
 
 #: "faq_whyipv6.html"
 msgid "No. They can co-exist. Most ISPs will continue to offer some form of IPv4 (most NAT'd) while offering IPv6. So you can reach the web sites that are still IPv4 only."
-msgstr ""
+msgstr "いいえ、共存することができます。 ほとんどのISPはIPv6を提供しても何らかの形のIPv4接続(多くはNAT)を引き続き提供します。 よって、まだIPv4だけしかサポートしないWebサイトにもアクセスできます。"
 
 #: "faq_whyipv6.html"
 msgid "Q: When is the cutoff date for switching?"
-msgstr ""
+msgstr "Q: 切り替え日はいつですか？"
 
 #: "faq_whyipv6.html"
 msgid "Most service providers will keep existing IPv4 users on the same service they have now. Only when they change services will they be forced to share a public address with other residences. Either way, you'll still have IPv4 available for years to come, in most markets."
-msgstr ""
+msgstr "ほとんどのサービスプロバイダーは既存のIPv4ユーザーと同じサービスを継続して提供します。 彼らがサービスを変更した場合のみ、他の住人とパブリックアドレスを共有することが強制されます。 いずれにしても、ほとんどの市場で今後もIPv4を利用できるようになります。"
 
 #: "faq_whyipv6.html"
 msgid "As such, there is no hard cutoff date. Just be aware that IPv4 will start working less well over time."
-msgstr ""
+msgstr "そのため、厳密な遮断の日程はありません。 IPv4が時間の経過とともにうまく機能しなくなることに気づくだけです。"
 
 #: "faq_whyipv6.html"
 msgid "Q: Will I have to replace my OS?"
-msgstr ""
+msgstr "Q: 私のOSを入れ換える必要がありますか？"
 
 #: "faq_whyipv6.html"
 msgid "Windows Vista, Windows 7: You're good to go. XP users: It can be made to work, but it really is time to consider upgrading. Win98 and Win2000 users have no path to IPv6."
-msgstr ""
+msgstr "Windows Vista、Windows 7: あなたは大丈夫です。 XPのユーザー: 動くことは動きますが、実際にはアップグレードを検討する機会です。 Win98とWin2000ユーザーはIPv6への道筋はありません。"
 
 #: "faq_whyipv6.html"
 msgid "Mac OS X: All supported versions of OS X (since Tiger, 10.4) have IPv6."
-msgstr ""
+msgstr "Mac OS X: サポートされているOS Xのすべてのバージョン(Tiger、10.4以降)でIPv6が使えます。"
 
 #: "faq_whyipv6.html"
 msgid "Linux, BSD, and other unix like systems generally all have IPv6."
-msgstr ""
+msgstr "Linux、BSD、および他のUNIX系システムは、一般的にすべてIPv6を使用できます。"
 
 #: "faq_whyipv6.html"
 msgid "Q: Will I have to replace my hardware?"
-msgstr ""
+msgstr "Q: ハードウェアを交換する必要がありますか？"
 
 #: "faq_whyipv6.html"
 msgid "Your PC: Only if the OS upgrade you do requires it."
-msgstr ""
+msgstr "お使いのPC: OSのアップグレードに必要な場合のみ。"
 
 #: "faq_whyipv6.html"
 msgid "Your ethernet switch / hub: No. It is unaware of IP; it works at a lower level on the local network."
-msgstr ""
+msgstr "あなたのイーサネット スイッチやハブ: いいえ。それはIPには関知しません。 ローカルネットワーク上の低位のレベルで動作しています。"
 
 #: "faq_whyipv6.html"
 msgid "Your router: Quite possibly. Many home routers have no upgrade path for IPv6. Do a web search for your router mode, with the keyword \"ipv6\" with it."
-msgstr ""
+msgstr "あなたのルータ: おそらく。 多くの家庭用ルータにはIPv6へのアップグレード>パスはありません。 ルーターのモデルと共にキーワード\"ipv6\"を付けてWebで検索してみます。"
 
 #: "faq_whyipv6.html"
 msgid "Your router: Quite possibly. Many home routers have no upgrade path for IPv6. Do a web search for your router model, with the keyword \"ipv6\" with it."
-msgstr ""
+msgstr "※訳者注: この項目は重複です。(It's duplicate entry.)"
 
 #: "faq_whyipv6.html"
 msgid "<b>What router to buy:</b> Wait until your ISP gives you guidance on what will work best with their system. If you must replace your router immediately, look for ones that are IPv6 capable. Apple Airport Express and Airport Extreme have built in tunneling capabilities. OpenWRT capable routers also do (when loaded with the OpenWRT firmware). If you do consider tunnels, see my <a href=\"#\" onclick=\"return help_page('faq_6to4.html','6to4')\">6to4 comments</a>."
-msgstr ""
+msgstr "<b>購入すべきルーター: </b>ISPが自分たちのシステムに最適なものについてのガイダンスを提示するまで待ちます。 すぐにルータを交換する必要がある場合は、IPv6対応ルータを探してください。 Apple AirMac ExpressとAirMac Extremeはトンネリング機能を内蔵しています。 OpenWRT対応ルーターも同様です(OpenWRTファームウェアをロードした場合)。 トンネルを考慮する場合は、私の<a href=\"#\" onclick=\"return help_page('faq_6to4.html','6to4')\">6to4コメント</a>を参照してください。"
 
 #: "faq_pmtud.html"
 msgid "This will attempt to explain why you may have PMTUD problems when using test-ipv6.com; and possible solutions. Unfortunately, it is beyond the ability of this site to be able to clearly articulate *your* specific problem."
-msgstr ""
+msgstr "ここではtest-ipv6.comを使用した時にPMTUDの問題が発生した理由、そして考えうる解決策を説明していまます。 残念ながら、*あなた特定の*問題をはっきりと明瞭に表現するることはこのサイトの能力を超えています。"
 
 #: "faq_pmtud.html"
 msgid "Q: What is Path MTU Discovery (or PMTUD)"
-msgstr ""
+msgstr "Q: Path MTU Discoveryとは (またはPMTUD)"
 
 #: "faq_pmtud.html"
 msgid "PMTUD is a mechanism used on the Internet that tells your computer the maximum size of the packets that should be sent for a given destination. How this works: Your host will send a possibly large packet; with the packet marked \"Do Not Fragment\". When the packet reaches a router that can't forward this packet, due to size, it sends back a response saying \"Too big! Try this size instead.\""
-msgstr ""
+msgstr "PMTUDはインターネット上で使用されるメカニズムで、指定された宛先に対して送信すできるパケットの最大サイズをあなたのコンピュータに通知します。 それはどのように動作しますか: あなたのホストは可能な限り大きなパケットを、パケットに\"Do not Fragment\"という印をつけて送信します。 パケットサイズが原因でこのパケットを転送できないルータに到達すると、ルーターは\"大きすぎます、代わりにこのサイズを試してみてください\"という応答を返します。"
 
 #: "faq_pmtud.html"
 msgid "Q: How does this relate to IPv6?"
-msgstr ""
+msgstr "Q: これはIPv6とどのように関係していますか？"
 
 #: "faq_pmtud.html"
 msgid "With IPv6, all packets are by definition \"Do Not Fragment\". The responsibility of sending the correct sized packets no longer falls on the router; this is an expensive operation for the router to handle. Instead, the ability to do PMTUD is mandated by the IPv6 specification."
-msgstr ""
+msgstr "IPv6の場合、すべてのパケットが\"Do not Fragment\"として定義されます。 正しいサイズのパケットを送信する責任はもはやルータにはありまりません。 これはルータが処理すにはコストの高い操作です。 代わりにPMTUDを実行する能力はIPv6仕様の要件となっています。"
 
 #: "faq_pmtud.html"
 msgid "Q: What does the firewall need to allow?"
-msgstr ""
+msgstr "Q: ファイアウォールでは何を許可する必要がありますか？"
 
 #: "faq_pmtud.html"
 msgid "IPv6 firewalls <b>need</b> to permit ICMPv6, type 2 (Packet Too Big) to work correctly with the public Internet. If you are implementing the IPv6 firewall for your web site, your enterprise, or other organization, please permit this specific ICMPv6 message, even if you by default block other types of ICMP."
-msgstr ""
+msgstr "IPv6ファイアウォールではICMPv6, type 2 (Packet Too Big)が公開のインターネットに対して動作するように許可する<b>必要</b>がありますす。もし、あなたが企業、またはその他の組織のためのWebサイトにIPv6ファイアウォールを設定するなら、このICMPv6 messageを許可してください。たとえ他のタイプのICMPをデフォルトでブロックしている場合でもです。"
 
 #: "faq_pmtud.html"
 msgid "Q: What else can cause PMTUD failures?"
-msgstr ""
+msgstr "Q: PMTUDの失敗を引き起こす原因は何ですか？"
 
 #: "faq_pmtud.html"
 msgid "Tunnels inside of tunnels. One might be your own; the other, you may not see. Internet service providers often use tunnels either to simplify their topology; to hide it; or to transport things in a more convenient way. However, each tunnel used requires adding a bit of a header to the top of the packet - making the packet bigger. The problem lies in that routers have a maximum size packet they will route."
-msgstr ""
+msgstr "トンネル内のトンネル。 片方はあなた自身のものでしょう。 もう片方は見えないかもしれません。 インターネットサービスプロバイダは何かを転送するための安易な手段としてトンネルを使用することがよくあります。トポロジーを簡単にするためにそれを隠して。 しかし使用されるそれぞれのトンネルではパケットに小さなヘッダーを追加する必要があり、それがパケットを大きくします。 これの問題はルータが転送できるパケットの最大サイズが決まっていることにあります。"
 
 #: "faq_pmtud.html"
 msgid "This is what it looks like when you use 6to4, 6in4, Teredo, and other types of tunnels:"
-msgstr ""
+msgstr "これは、6to4、6in4、Teredo、およびその他のタイプのトンネルを使用するときにみられます。"
 
 #: "faq_pmtud.html"
 msgid "Your router will automatically add an IPv4 header to the top of your packet. This same router will let your computer know if the packet is going to be too big; your computer will (as long as it gets the ICMPv6 \"Packet Too Big\" message) resend the packet, at a smaller size recommended by your router. A router near the web site, will automatically remove the IPv4 header, and forward the IPv6 peice."
-msgstr ""
+msgstr "ルーターはパケットの先頭にIPv4ヘッダーを自動的に追加します。 この同じルーターは、パケットが大きすぎるかどうかをコンピューターに知らせます。 あなたのコンピュータは(パケットが長すぎるとICMPv6 \"Packet Too Big\"というメッセージを受け取り)、あなたのルータが推奨するより小さなサイズでパケットを再送します。 Webサイトの近くのルータは、自動的にIPv4ヘッダーを削除し、IPv6の断片を転送します。"
 
 #: "faq_pmtud.html"
 msgid "This is like putting a letter in an envelope, inside another envelope for someone else to forward on. There may be a maximum size or weight limit for your postage stamp. Tunneling is conceptually the same."
-msgstr ""
+msgstr "これは、封筒に手紙を入れて、他の誰かに転送するために別の封筒に入れるようなものです。 あなたの郵便切手には最大サイズまたは重量の制限があるでしょう。 トンネリングも概念的に同じです。"
 
 #: "faq_pmtud.html"
 msgid "If any Internet service provider along the way adds their own tunnel, in effect stuffing your package into another envelope, the packet may become too big:"
-msgstr ""
+msgstr "途中のインターネットサービスプロバイダが自分のトンネルを追加してあなたのパッケージを別の封筒に詰め込むとパケットが大きくなりすぎる可能性があります:"
 
 #: "faq_pmtud.html"
 msgid "In the above case, the message is now so big, that it can't be forwarded. A \"Packet Too Big\" message will be sent by that router - but it only sees the IPv4 address; not your IPv6 address. Because of this, your computer will never retry with a smaller sized packet, one that might fit when using multiple envelopes."
-msgstr ""
+msgstr "この場合、メッセージは大きくなりすぎて転送できません。 \"Packet Too Big\"というメッセージがそのルータから送信されますが、IPv4アドレスのみが知らされます。 それはあなたのIPv6アドレスではありません。 そのため、コンピュータは複数の封筒を使用する場合に適した小さなサイズでのパケットを再試行できません。"
 
 #: "faq_pmtud.html"
 msgid "What does this look like on the network?"
-msgstr ""
+msgstr "これはネットワーク上ではどのように見えますか？"
 
 #: "faq_pmtud.html"
 msgid "(What does tcpdump show?)"
-msgstr ""
+msgstr "(tcpdumpではどのように見えますか？)"
 
 #: "faq_pmtud.html"
 msgid "This is what tcpdump will show.."
-msgstr ""
+msgstr "これはtcpdumpでの表示です…"
 
 #: "faq_pmtud.html"
 msgid "This is what I ran to generate the packets."
-msgstr ""
+msgstr "これは私がパケットを生成するために実行したものです。"
 
 #: "faq_pmtud.html"
 msgid "What can I do?"
-msgstr ""
+msgstr "私に何ができますか？"
 
 #: "faq_pmtud.html"
 msgid "This is a complex question - there are many ways to get on the Internet."
-msgstr ""
+msgstr "これは複雑な質問です。インターネットを利用する方法はたくさんあります。"
 
 #: "faq_pmtud.html"
 msgid "The preferred fix is to permit ICMPv6 Type 2 Packet Too Big messages."
-msgstr ""
+msgstr "最善の修正は、\"ICMPv6 Type 2 Packet Too Big\"メッセージを許可することです。"
 
 #: "faq_pmtud.html"
 msgid "Your router or firewall may be blocking these."
-msgstr ""
+msgstr "ルータまたはファイアウォールがこれらをブロックしている可能性があります。"
 
 #: "faq_pmtud.html"
 msgid "If you have \"native\" IPv6, meaning your ISP gave you your IPv6 connectivity, and you are still running into MTU problems, see if your router can advertise a smaller IPv6 MTU. Alternately, configure your <b>entire LAN</b> for a smaller MTU (not really advised!)"
-msgstr ""
+msgstr "あなたが\"ネイティブな\"IPv6を使っていて、すなわちISPがあなたにIPv6接続を提供していて、それでもまだMTUの問題に遭遇しているなら、あなたのルータがより小さいIPv6 MTUをアドバタイズできるかどうかを確認してください。 または、<b>LAN全体</b>で、より小さいMTUを設定してください(これはあまりお勧めはしません！)。"
 
 #: "faq_pmtud.html"
 msgid "If your router provides IPv6 for you, see if you can configure a smaller MTU to be advertising with (perhaps) RADVD."
-msgstr ""
+msgstr "ルータがIPv6を提供している場合は、よりより小さいMTUをRADVD(おそらく)でアドバタイズするように設定できないか確認してください。"
 
 #: "faq_pmtud.html"
 msgid "Apple Airport routers: Automatically send ICMPv6 redirects to your hosts, telling them to reduce the path MTU to 1280."
-msgstr ""
+msgstr "Apple AirMacルーター: ホストにICMPv6リダイレクトを自動的に送信し、Path MTUを1280に減らすよう指示します。"
 
 #: "faq_pmtud.html"
 msgid "DD-WRT routers: Looks like you need to use \"AdvLinkMTU 1280;\" on your wireless side; and make sure the tun6to4 mtu is set to 1280."
-msgstr ""
+msgstr "DD-WRTルーター: ワイヤレス側で\"AdbLink MTU 1280;\"を使用する必要があるようです。 tun6to4 mtuが1280に設定されていることを確認してください。"
 
 #: "faq_pmtud.html"
 msgid "Routers based on Linux, BSD, and (presumably) Mac: Set your 6to4 interface to MTU 1280. Configure radvd.conf's interface config with \"AdvLinkMTU 1280\"."
-msgstr ""
+msgstr "Linux、BSD、そして(おそらくは)Macをベースにしたルーター: 6to4インターフェースをMTU 1280に設定する。radvd.confのインターフェース設定に\"AdvLinkMTU 1280\"を追加する。"
 
 #: "faq_pmtud.html"
 msgid "If you run \"6to4\" on your computer instead (not the router):"
-msgstr ""
+msgstr "代わりに(ルータではなく)コンピュータで\"6to4\"を実行する場合:"
 
 #: "faq_pmtud.html"
 msgid "Linux, BSD, and (presumably) Mac: Set your 6to4 interface to MTU 1280. If you are running radvd, set \"AdvLinkMTU 1280\" in your interface radvd.conf ."
-msgstr ""
+msgstr "Linux、BSD、そして(おそらくは)Mac: あなたの6to4インターフェースをMTU 1280に設定してください。もしradvdを実行しているなら、あなたのradvd.confのインターフェイス設定にに\"AdvLinkMTU 1280\"を設定してください。"
 
 #: "faq_pmtud.html"
 msgid "Windows: If you figure this out, please share with jfesler@test-ipv6.com to add to this site. Presumably: control panel, network adapters, properties, 6"
-msgstr ""
+msgstr "Windows: もし、あなたがこれを解決したならばjfesler@test-ipv6.comと共有してこのサイトに追加してください。 おそらく: コントロールパネル、ネットワークアダ>プタ、プロパティ、6"
 
 #: "faq_pmtud.html"
 msgid "<b>If you are not covered by the above, do a web search.</b>. As you learn what fixes your particular circumstances, please share with jfesler@test-ipv6.com to add to this site. Your contribution will be appreciated by others!"
-msgstr ""
+msgstr "<b>上記に該当しない場合は、ウェブ検索を行ってください。</b> あなたが特定の状況を修正する方法を学んだのならjfesler@test-ipv6.comと情報を共有してこのサイトに追加してください。 あなたの貢献は他の人からも評価されるでしょう！"
 
 #: "attributions.html"
 msgid "This site would not exist without the following components and resources."
-msgstr ""
+msgstr "このサイトは、次のコンポーネントとリソースなしでは存在しません。"
 
 #: "faq_buggydns1.html"
 msgid "FAQ on \"Buggy DNS\""
-msgstr ""
+msgstr "\"問題のあるDNS\"のFAQ"
 
 #: "faq_buggydns1.html"
 msgid "If you were referred to this page by test-ipv6.com, it means that we were able to detect a dangerous condition with your DNS server."
-msgstr ""
+msgstr "あなたがtest-ipv6.comでこのページを見ているということは、あなたのDNSサーバーで危険な状態が検出されたことを意味します。"
 
 #: "faq_buggydns1.html"
 msgid "First a description of the problem:"
-msgstr ""
+msgstr "最初に問題の説明:"
 
 #: "faq_buggydns1.html"
 msgid "Your browser asked for a DNS lookup, both IPv4 and IPv6."
-msgstr ""
+msgstr "あなたのブラウザはIPv4とIPv6の両方のDNSルックアップを要求しました。"
 
 #: "faq_buggydns1.html"
 msgid "The IPv6 response was returned first."
-msgstr ""
+msgstr "IPv6応答が最初に返されました。"
 
 #: "faq_buggydns1.html"
 msgid "Your DNS server was confused by the result - it doesn't fully follow the DNS standards."
-msgstr ""
+msgstr "あなたのDNSサーバはその結果に惑わされました - これは完全にDNS標準に従っ>ていません。"
 
 #: "faq_buggydns1.html"
 msgid "Your DNS server took the first piece of the IPV6 address, and memorized it as the IPv4 address."
-msgstr ""
+msgstr "あなたのDNSサーバーはIPV6アドレスの最初の一部をとり、それをIPv4アドレスとして記憶しました。"
 
 #: "faq_buggydns1.html"
 msgid "The browser fails the IPv6 lookup, but \"succeeds\" in getting a bogus IPv4 address."
-msgstr ""
+msgstr "ブラウザはIPv6のルックアップに失敗しましたが、偽りのIPv4アドレスを取得するのに\"成功\"しています。"
 
 #: "faq_buggydns1.html"
 msgid "It then tries to make a connecting, to the wrong address, with the wrong protocol."
-msgstr ""
+msgstr "これによって間違ったアドレスに間違ったプロトコルで接続しようとします。"
 
 #: "faq_buggydns1.html"
 msgid "This is bad for several reasons:"
-msgstr ""
+msgstr "これはいくつかの理由で問題です:"
 
 #: "faq_buggydns1.html"
 msgid "You won't be able to connect to IPv6-only sites."
-msgstr ""
+msgstr "あなたはIPv6専用サイトに接続することはできません。"
 
 #: "faq_buggydns1.html"
 msgid "You may sporadically fail (or always fail) to connect to IPv6-enabled web sites. This is regardless of whether you are capable IPv6 or not - you may still be impacted."
-msgstr ""
+msgstr "IPv6対応のWebサイトに散発的に接続できない(または常に失敗する)ことがあります。 これは、あなたがIPv6対応かどうかにかかわらず、影響を受ける可能性があります。"
 
 #: "faq_buggydns1.html"
 msgid "So, what is actually affected?"
-msgstr ""
+msgstr "では、実際に影響を受けたのは何ですか？"
 
 #: "faq_buggydns1.html"
 msgid "You'll need to determine what device is forwarding your DNS queries."
-msgstr ""
+msgstr "どのデバイスがDNSクエリを転送しているかを判断する必要があります。"
 
 #: "faq_buggydns1.html"
 msgid "With Windows, at the <code>cmd</code> prompt, you can type <code>ipconfig /all</code>. Look for \"<code>DNS Servers</code>\"."
-msgstr ""
+msgstr "Windowsでは、<code>コマンドプロンプト</code>で<code> ipconfig /all </code>と入力して \"<code>DNS サーバー</code>\" を探します。"
 
 #: "faq_buggydns1.html"
 msgid "With Linux, BSD, and Mac OS X, you can do this in a terminal: <code>cat /etc/resolv.conf</code>."
-msgstr ""
+msgstr "Linux、BSD、Mac OS Xでは、ターミナルで次を実行します: <code>cat /etc/resolv.conf</code>"
 
 #: "faq_buggydns1.html"
 msgid "Residential ISP customers: look to see if the DNS server is <b>192.168.0.1</b> or <b>192.168.1.1</b>. If so, chances are good that your home router is at fault. This is probably the blue box you have that connects the Internet."
-msgstr ""
+msgstr "一般家庭向けISPユーザー: DNSサーバーが<b>192.168.0.1</b>または<b>192.168.1.1</b>かどうかを確認してください。 もしそうなら、ホームルータが故障している可能性があります。 それはおそらくあなたがインターネットに接続するのに使っている青い箱です。"
 
 #: "faq_buggydns1.html"
 msgid "Business customers: Provide this information to your IT professional to investigate."
-msgstr ""
+msgstr "法人ユーザー: この情報をITの専門家に提供して調査を依頼します。"
 
 #: "faq_buggydns1.html"
 msgid "IT professionals:"
-msgstr ""
+msgstr "ITの専門家向け:"
 
 #: "faq_buggydns1.html"
 msgid "You can see an illustration of this, by doing:"
-msgstr ""
+msgstr "あなたは以下のようにして実例を見ることができます:"
 
 #: "faq_buggydns1.html"
 msgid "Substitute the 192.168.1.1 with the resolver being used by the host. If the \"aaaa\" request comes back with no answer, but the \"a\" answer does, this is a confirmation of a broken DNS cache or forwarder. The actual DNS information for buggydns1.test-ipv6.com has only an IPv6 record configured."
-msgstr ""
+msgstr "192.168.1.1はホストが使用しているリゾルバに置き換えます。 \"aaaa\"要求が応答なしで返ってきても、\"a\"応答が返ってきたら、そのDNSキャッシュやフォワーダは壊れています。 buggydns1.test-ipv6.comの実際のDNS情報には、IPv6レコードのみが設定されています。"
 
 #: "faq_avoids_ipv6.html"
 msgid "Your browser is avoiding IPv6."
-msgstr ""
+msgstr "あなたのブラウザはIPv6を拒否します。"
 
 #: "faq_avoids_ipv6.html"
 msgid "What we found"
-msgstr ""
+msgstr "なにを見つけたのか"
 
 #: "faq_avoids_ipv6.html"
 msgid "What causes a preference for IPv4"
-msgstr ""
+msgstr "IPv4を優先する原因"
 
 #: "faq_avoids_ipv6.html"
 msgid "Why this worries us"
-msgstr ""
+msgstr "なぜこれを心配しているのか"
 
 #: "faq_avoids_ipv6.html"
 msgid "This document explains why we worry when IPv4 is preferred over IPv6."
-msgstr ""
+msgstr "このドキュメントでは、IPv6よりIPv4が優先されることを心配する理由を説明します。"
 
 #: "faq_avoids_ipv6.html"
 msgid "This section applies only when we offered to show you this page from inside the test."
-msgstr ""
+msgstr "このセクションは、テスト内からこのページを表示するように提示した場合にのみ適用されます。"
 
 #: "faq_avoids_ipv6.html"
 msgid "First of all, we detected you had a working IPv6 connection. We also found that your IPv6 connection, was using a \"real\" IPv6 address; meaning not a Teredo or a 6to4 address."
-msgstr ""
+msgstr "まず前提として、IPv6の接続が正常に行われていることが検出されました。 また、あなたのIPv6接続に\"リアルな\"IPv6アドレスが使用されていたことがわかりました。 これはTeredoまたは6to4アドレスではないことを意味します。"
 
 #: "faq_avoids_ipv6.html"
 msgid "Second, we detected that when given the choice, your browser decided it would prefer to use IPv4 instead of IPv6. This has some concerns for us."
-msgstr ""
+msgstr "次に、どちらかの選択肢を与えると、あなたのブラウザはIPv6よりもIPv4を使用することを優先したと判断しました。 これにはいくつかの懸念があります。"
 
 #: "faq_avoids_ipv6.html"
 msgid "Causes for preferring IPv4"
-msgstr ""
+msgstr "IPv4を優先する要因"
 
 #: "faq_avoids_ipv6.html"
 msgid "There are several possible reasons why a browser might prefer IPv4 instead of IPv6."
-msgstr ""
+msgstr "ブラウザがIPv6ではなくIPv4を優先する理由はいくつか考えられます。"
 
 #: "faq_avoids_ipv6.html"
 msgid "Google's \"Chrome\" has a \"fast fallback\" mechanism. On the first try to a site, it will prefer IPv6. If connections take longer than a third of a second, IPv4 is attempted in parallel; and the better of the two will be used for that site."
-msgstr ""
+msgstr "Googleの\"Chrome\"は\"高速フォールバック\"メカニズムを備えています。 サイトへは最初はIPv6での接続を試みます。 接続に3分の1秒以上かかる場合は、IPv4での接続が並行して試されます。 そして2つのうちのどちらかがそのサイトに使用されます。"
 
 #: "faq_avoids_ipv6.html"
 msgid "(more info)"
-msgstr ""
+msgstr "(更なる情報)"
 
 #: "faq_avoids_ipv6.html"
 msgid "Firefox (recent builds) does the same as Chrome."
-msgstr ""
+msgstr "Firefox(最近のビルド)もChromeと同じです。"
 
 #: "faq_avoids_ipv6.html"
 msgid "The latest Windows 7 and Windows 8 updates will periodically test to see if IPv6 works. If the health check fails, then many applications (including Internet Explorer) will use IPv4, to insulate you from any local IPv6 misconfiguration."
-msgstr ""
+msgstr "最新のWindows 7およびWindows 8アップデートは、IPv6が動作するかどうかを定期的にテストします。 ヘルスチェックが失敗した場合、Internet Explorerを含む多くのアプリケーションがIPv4を使用して、ローカルIPv6の誤設定を防ぐことができます。"
 
 #: "faq_avoids_ipv6.html"
 msgid "Apple's latest Lion and Mountain Lion updates will prefer whichever is \"faster\" for a given destination."
-msgstr ""
+msgstr "Appleの最新のLionとMountain Lionのアップデートは、与えられた目的地までの「速い方」どちらかを優先します。"
 
 #: "faq_avoids_ipv6.html"
 msgid "When you use the Internet, a connection is made between your computer, and the service you're connecting to. To connect, you have to have the other side's IP - Internet Protocol - number. And, when you connect, they see yours, so they can send traffic back to you and your applications."
-msgstr ""
+msgstr "あなたがインターネットを使用すると、あなたのコンピュータと接続先のサービスが接続されます。 接続するには相手側のIP - インターネットプロトコル番号が必要です。 また、接続すると相手には自分のIPが提示されるので相手はあなたやあなたのアプリケーションにトラフィックを返すことができます。"
 
 #: "faq_avoids_ipv6.html"
 msgid "The Internet protocol that we've been using for the 1990's and the 2000s, has run out of these unique numbers. We can keep going, but with some limitations, by sharing multiple machines with one number. Often times, we do this at home or at work."
-msgstr ""
+msgstr "私たちが1990年代と2000年代に使っていたインターネットプロトコルは、これらの一意な数字を使い果たしました。 幾許の制限はありますが、複数のマシンで1つの番号を共有することによって、我々はこれを継続して使って行くことができます。 これはしばしば私たちの自宅や職場でも使われています。"
 
 #: "faq_avoids_ipv6.html"
 msgid "What is changing is that the Internet Service Providers are all facing the fact that they will have to implement this type of address sharing, on a much larger scale. Some buzzwords you may hear: NAT, CGN, Carrier Grade NAT, LSN, Large Scale NAT. They all look something like this:"
-msgstr ""
+msgstr "変化しているのは、インターネットサービスプロバイダが、この種のアドレス共有をもっと大規模に実装しなければならないという事実に直面していることです。 NAT、CGN、Carrier Grade NAT、LSN、Large Scale NATなどについて聞いたことがあるかもしれませんが、それらはすべて次のようなものです:"
 
 #: "faq_avoids_ipv6.html"
 msgid "The thing to watch for here: <b>Many</b> houses sharing one public address."
-msgstr ""
+msgstr "ここでは、1つのパブリックアドレスを共有する<b>多数の</b>家庭がある場合を\n"
+"思い描いてみてください。"
 
 #: "faq_avoids_ipv6.html"
 msgid "What happens if one of those homes has a bored hacker, or (more likely) a compromised machine owned by someone who doesn't stay up to date, and doesn't run antivirus software? What happens when that machine starts to attack your favorite web sites? What about your banking site?"
-msgstr ""
+msgstr "これらの家庭のうちの1件に退屈なハッカーが居た場合、あるいは最新ではなく、ウイルス対策ソフトウェアを実行していない人が所有するハッキングされたマシンがある場合はどうなりますか？ そのマシンがあなたのお気に入りのWebサイトを攻撃し始めたらどうなりますか？ あなたの銀行のサイトならどうですか？"
 
 #: "faq_avoids_ipv6.html"
 msgid "Those sites will have to ultimately protect themselves, by blocking the traffic. Unfortuantely, they only see the shared address, so their blocking it looks like this:"
-msgstr ""
+msgstr "これらのサイトは、最終的にはトラフィックをブロックすることによって、自分自身を守る必要があります。 残念ながら共有アドレスのみが表示されるため、ブロックする場合は次のようになります。"
 
 #: "faq_avoids_ipv6.html"
 msgid "This is not a good situation. And the main way to avoid it, is to make sure that your IPv6 is working; and to make sure that IPv6 is the preferred protocol."
-msgstr ""
+msgstr "これは良い状況ではありません。 そしてそれを避ける主な方法は、あなたのIPv6が動作していることを確認することです。 IPv6が優先プロトコルであることを確認する必要があります。"
 
 #: "faq_avoids_ipv6.html"
 msgid "Why else should I care about IPv4 being preferred instead of IPv6, when I have both available?"
-msgstr ""
+msgstr "なぜ私は両方が利用可能な場合にIPv6よりもIPv4が優先されるのを気にする必要があるのですか？"
 
 #: "faq_avoids_ipv6.html"
 msgid "Sites that determine your location automatically, will get this wrong more frequently when you share an IPv4 address with people in other cities."
-msgstr ""
+msgstr "あなたの場所を自動的に判定するサイトは、他の地域の人とIPv4アドレスが共有されていたような場合に、頻繁に誤った判断を行ないます。"
 
 #: "faq_avoids_ipv6.html"
 msgid "The box that shares an address between you and the other hundreds of houses, may become performance constrained (cpu, network, TCP ports)"
-msgstr ""
+msgstr "あなたと他の何百もの家庭との間でアドレスを共有する装置では、パフォーマンスが制限されている可能性があります(CPU、ネットワーク、TCPポートなど)"
 
 #: "faq_avoids_ipv6.html"
 msgid "The box is a potential central point of failure for your internet access"
-msgstr ""
+msgstr "この装置は、あなたのインターネットアクセス障害の潜在的な中心点です"
 
 #: "faq_avoids_ipv6.html"
 msgid "Sharing IPv4 addresses is an extra expense for the ISP that they will be passing on to their customers"
-msgstr ""
+msgstr "IPv4アドレスの共有は、ISPから顧客への余分な費用負担請求となります。"
 
 #: "inc/tunnel.inc"
 msgid "What is a tunnel?"
-msgstr ""
+msgstr "トンネルとは何ですか？"
 
 #: "inc/tunnel.inc"
 msgid "A tunnel is a technique often used to transport one protocol over another one. For example, it is used by ADSL to transport PPP over ATM (a common technique for several Internet residential subscribers)."
-msgstr ""
+msgstr "トンネルは、1つのプロトコルを別のプロトコルに転送するためによく使用され る技術です。 たとえば、ATMを介してPPPを転送するためにADSLで使用されています。(一般家庭向けインターネット接続などで共通して使われている技術です)"
 
 #: "inc/tunnel.inc"
 msgid "In the realm of IPv6, tunnels are used to transport:"
-msgstr ""
+msgstr "IPv6の領域では、トンネルを使用して次のような転送をします:"
 
 #: "inc/tunnel.inc"
 msgid "IPv6 packets over IPv4 network: then IPv4-only Internet users can reach the IPv6 Internet;"
-msgstr ""
+msgstr "IPv4ネットワーク上のIPv6パケット: これによってIPv4専用インターネットのユーザーもIPv6インターネットにアクセスできます。"
 
 #: "inc/tunnel.inc"
 msgid "IPv4 packets over IPv6 network: then IPv6-only Internet users can reach the IPv4 Internet."
-msgstr ""
+msgstr "IPv6ネットワーク上のIPv4パケット: これによってIPv6専用インターネットのユーザーもIPv4インターネットにアクセスできます。"
 
 #: "faq_tunnel.html"
 msgid "How did the test detect a tunnel?"
-msgstr ""
+msgstr "テストではどのようにトンネルを検出しますか？"
 
 #: "faq_tunnel.html"
 msgid "For the technical-oriented readers, here is the explanation how we detect that you are probably using a tunnel. As the test collects your IPv4 and IPv6 addresses, it also collects (thanks to <a href=\"http://www.team-cymru.org/Services/ip-to-asn.html\">http://www.team-cymru.org/Services/ip-to-asn.html</a>) your Autonomous System Numbers (ASN) for IPv4 and IPv6. If your ISP is dual stack, then your IPv4 ASN and your IPv6 ASN should be identical as your IPv4 and IPv6 connectivity are provided by the same ISP."
-msgstr ""
+msgstr "技術指向の読者のために、「おそらくはトンネルを使用していること」を検出する方法を説明します。 このテストでIPv4アドレスとIPv6アドレスが収集されると、IPv4>とIPv6の自律システム番号(ASN)も収集されます。(<a href=\"http://www.team-cymru.org/Services/ip-to-asn.html\">http://www.team-cymru.org/Services/ip-to-asn.html</a>を参照してください)。ISPがデュアルスタックの場合、IPv4 ASNとIPv6 ASNは、IPv4とIPv6の接続が同じISPによって提供されるので同じになります。"
 
 #: "faq_tunnel.html"
 msgid "If the ASN number is different, we highlight that fact - and call out that you are probably using a tunnel. If this is a tunnel you know about, great. If you did not know you were being tunneled, you might ask your network administrator about it."
-msgstr ""
+msgstr "ASN番号が異なる場合は、その事実を強調し、「おそらくトンネルを使用している」と叫びます。 これがあなたが知っているトンネルなら、それはよかった。 あなたにトンネリングされていかわからない場合は、ネットワーク管理者に問い合わせてみてください。"
 
 #: "faq_tunnel.html"
 msgid "Tunnels are not inherently bad; but (depending on circumstances) they may cause troubles that might not otherwise be seen with native IPv6 connectivity. Specifically, there may be issues of PMTUD (Path MTU Discovery) with some sites you visit - depending on the firewall configurations between you and those sites."
-msgstr ""
+msgstr "トンネルは本質的に悪いものではありませんが、場合によってはネイティブのIPv6接続では見られないような問題を引き起こす可能性があります。 具体的には、訪問するサイトによっては、PMTUD(Path MTU Discovery)の問題をおこす可能性があります。"
 
 #: "faq_tunnel_6rd.html"
 msgid "What is specific to 6RD tunnels?"
-msgstr ""
+msgstr "6RDトンネルの特徴は何ですか？"
 
 #: "faq_tunnel_6rd.html"
 msgid "6RD tunnels have been designed by the IETF as <a href=\"http://tools.ietf.org/html/rfc5969\">RFC 5969</a> to be deployed within an ISP access network and by the ISP itself to transport IPv6 over a legacy IPv4 access network. As the tunnel is confined with a single ISP, it is therefore managed in such a way to provide performances as good in IPv6 as in IPv4 (except perhaps for the largest packet size, a.k.a. MTU)."
-msgstr ""
+msgstr "6RDトンネルは、IETFによって<a href=\"http://tools.ietf.org/html/rfc5969\">RFC 5969</a>として、ISPアクセスネットワーク内に、ISP自体によって展開されるように設計されています。 レガシーなIPv4アクセスネットワークを介してIPv6を転送するトンネルは単一のISPに限定されているため、IPv4の場合と同様にIPv6でのパフォーマンスが発揮されるようにように管理されています。(おそらく最大のパケットサイズ、MTUなど)"
 
 #: "faq_tunnel_6rd.html"
 msgid "In short, a 6RD tunnel provides you with native IPv6 connectivity."
-msgstr ""
+msgstr "簡単に言えば、6RDトンネルはネイティブのIPv6接続を提供します。"
 
 #: "faq_tunnel_6rd.html"
 msgid "How did we detect a 6RD tunnel?"
-msgstr ""
+msgstr "6RDトンネルをどのように検出しましたか？"
 
 #: "faq_tunnel_6rd.html"
 msgid "During the tests, we collect your IPv4 and IPv6 addresses. If at least 16 bits of your IPv4 address are embedded in your IPv6 prefix, then we assume that you are using a 6RD tunnel."
-msgstr ""
+msgstr "テストでは、IPv4とIPv6のアドレスを収集します。 IPv4アドレスの少なくとも16ビットがIPv6プレフィックスに埋め込まれている場合は、6RDトンネルを使用しているとみなされます。"
 
 #: "not-used, archived.  Not currently needed for translation."
 msgid "dummy example"
@@ -2672,61 +2681,85 @@ msgstr ""
 
 #: "faq_no_ipv4.html"
 msgid "What? No IPv4 address?"
-msgstr ""
+msgstr "何だって？ IPv4アドレスがない？"
 
 #: "faq_no_ipv4.html"
 msgid "Most of you are visiting this site using IPv4. Few people in 2013 will truely only have access to the IPv6 Internet. This FAQ will help explain why we were unable to detect IPv4 on your browser."
-msgstr ""
+msgstr "あなた方の多くはIPv4を使用してこのサイトにアクセスしています。 2013年時点では、IPv6でしかインターネットへアクセスできない人はほとんどいません。 このFAQは、ブラウザでIPv4を検出できなかった理由を説明するのに役立ちます。"
 
 #: "faq_no_ipv4.html"
 msgid "This site works by telling your browser to connect to a series of test urls. These urls, if they do connect, report back to the web browser your IP address. JavaScript is not permitted to look at your system itself; it is only allowed to interact with the web. As such, if the urls all fail, we are unable to determine your IP address."
-msgstr ""
+msgstr "このサイトは、ブラウザに一連のテストURLに接続するように指示することによって機能します。 これらのURLに接続できた場合は、IPアドレスをWebブラウザに返します。 JavaScriptはシステム自体を直接見ることはできません。 ウェブとのやり取りのみが許可されています。 したがって、URLがすべて失敗した場合、あなたのIPアドレスを特定することができません。"
 
 #: "faq_no_ipv4.html"
 msgid "This usually indicates something is broken, or filtered."
-msgstr ""
+msgstr "これは、通常、何かが壊れているかフィルタされていることを示します。"
 
 #: "faq_no_ipv4.html"
 msgid "Since the test obviously failed, here is a simpler test to help you know if you are ready for web sites to offer their services on IPv6. After this simpler test, you'll see more information about specific browsers."
-msgstr ""
+msgstr "テストが明らかに失敗したので、ここには、WebサイトがIPv6でサービスを提供する準備ができているかどうかを知るための簡単なテストがあります。 この簡単なテストの後、特定のブラウザに関する詳細情報が表示されます。"
 
 #: "faq_no_ipv4.html"
 msgid "Firefox and NoScript"
-msgstr ""
+msgstr "FirefoxとNoScript"
 
 #: "faq_no_ipv4.html"
 msgid "The NoScript browser plugin disables scripts on the page. In the lower right corner of your browser, is the NoScript icon. Click this to bring up a menu; and temporarilly permit scripts on this site."
-msgstr ""
+msgstr "NoScriptブラウザプラグインは、ページ上のスクリプトを無効にします。 ブラ>ウザの右下にNoScriptのアイコンがあります。 これをクリックするとメニューが表示されます。 一時的にこのサイトのスクリプトを許可します。"
 
 #: "faq_no_ipv4.html"
 msgid "Firefox and AdBlock+"
-msgstr ""
+msgstr "FirefoxとAdBlock+"
 
 #: "faq_no_ipv4.html"
 msgid "The AdBlock+ plugin is suspect; it depends on the ruleset that is used. More information from people willing to investigate would be appreciated."
-msgstr ""
+msgstr "AdBlock+ プラグインは疑わしいです。 これは使用されているルールセットに依存します。 さらに調査した人からの多くの情報は評価されるでしょう。"
 
 #: "faq_no_ipv4.html"
 msgid "Other browser plugins"
-msgstr ""
+msgstr "他のブラウザプラグイン"
 
 #: "faq_no_ipv4.html"
 msgid "If you have problems using this site, get a list of the plugins or add-ons you have for this browser. Save that list. Now, disable all of them - and try the site again. If it works, one of those is definately to blame. Enable them one by one, and retry the site. When you find the one that causes problems, please email <a href=\"mailto:jfesler@test-ipv6.com\">Jason Fesler &lt;jfesler@test-ipv6.com&gt;</a> with your findings."
-msgstr ""
+msgstr "このサイトの使用に問題がある場合は、ブラウザ用のプラグインまたはアドオンのリストを入手してください。 そして、そのリストを保存します。 それらのすべてを無効にしてからこのサイトをもう一度試してみてください。 それがうまくいくならば、そのうちの1つは間違いなく問題です。 それらを1つずつ有効にながら、このサイトを再試行します。 問題の原因となっているものが見つかったら、あなたの調査結果を<a href=\"mailto:jfesler@test-ipv6.com\">Jason Fesler &lt;jfesler@test-ipv6.com&gt;</a>にメールしてください"
 
 #: "inc/footer.inc"
 msgid "percenttranslated"
-msgstr ""
+msgstr "パーセント換算"
 
 #: "faq_v6ns_bad.html"
 msgid "PowerDNS: Configure <code>query-local-address6</code> in your <code>recursor.conf</code>. Restart powerdns."
-msgstr ""
+msgstr "PowerDNS: <code>recursor.conf</code>に<code>query-local-address</code>を設定します。 powerdnsを再起動します。"
 
 #: "inc/mirrorconfig.js"
 msgid "This instance of test-ipv6.com is provided by"
-msgstr ""
+msgstr "test-ipv6.comのこのインスタンスは、"
 
 #: "faq_v6ns_bad.html"
 msgid "it means that the DNS resolver you are using, requires IPv4 to reach the DNS authoritative servers of your favorite web sites. In the near future, every web site of consequence will remain accessible in this form, so <b>there is no immediate danger.</b>"
+msgstr "これは、あなたが使用しているDNSリゾルバが、あなたのお気に入りのウェブサ>イトのDNS権威サーバーに到達するためにはIPv4を必要とすることを意味します。 近い将来にも、結果のすべてのウェブサイトにこの形式でもアクセス可能なままなので、<b>す>ぐに危険はありません。</b>"
+
+#: "faq_avoids_ipv6.html"
+msgid "Most OS's and Browsers will automatically have a strong bias towards a working IPv6 connection instead of the (possibly shared address) IPv4 connection. If yours does not, and you want to see this changed, let the browser company know. You might also find other browsers on the same OS will work the way you'd expect, if you need a work-around."
+msgstr ""
+
+#: "faq/simple_test.inc"
+msgid "A standalone copy of this test can be found <a href=\"/simple_test.html\">here</a>."
+msgstr ""
+
+#: "faq_buggydns1.html"
+msgid "Malicious people can recognize that specific IPv6 addresses, when matched with this bug, map to IPv4 addresses they control. Web sites you depend on can be spoofed; you would not know any better, unless the sites are using SSL."
+msgstr ""
+
+#: "faq_no_ipv4.html"
+msgid "You will have to do this twice."
+msgstr ""
+
+#: "faq_no_ipv4.html"
+msgid "The first time enables scripts from the main site; the second time will enable all the \"off site\" scripts that are needed as well."
+msgstr ""
+
+#: "stats.html"
+msgid "<span lookup=\"site.name\">site</span> statistics"
 msgstr ""
 

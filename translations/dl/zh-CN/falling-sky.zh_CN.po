@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2016-10-26 22:51-0400\n"
+"PO-Revision-Date: 2017-01-04 21:00-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Chinese Simplified\n"
 "MIME-Version: 1.0\n"
@@ -1602,7 +1602,7 @@ msgstr "问：这个是开源的吗？"
 msgid "Yes. See the <a href=\"source.html\">source page</a> for details."
 msgstr "是的。查看<a href=\"source.html\">源代码页面</a>了解详细信息。"
 
-#: "stats.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "<span lookup=site.name>site</span> statistics"
 msgstr "<span lookup=site.name>网站</span>统计信息"
 
@@ -2721,13 +2721,37 @@ msgstr "翻译百分比"
 
 #: "faq_v6ns_bad.html"
 msgid "PowerDNS: Configure <code>query-local-address6</code> in your <code>recursor.conf</code>. Restart powerdns."
-msgstr ""
+msgstr "PowerDNS: 在你的 <code>recursor.conf</code> 中配置 <code>query-local-address6</code>。重启 powerdns。"
 
 #: "inc/mirrorconfig.js"
 msgid "This instance of test-ipv6.com is provided by"
-msgstr ""
+msgstr "此 test-ipv6.com 实例的提供方："
 
 #: "faq_v6ns_bad.html"
 msgid "it means that the DNS resolver you are using, requires IPv4 to reach the DNS authoritative servers of your favorite web sites. In the near future, every web site of consequence will remain accessible in this form, so <b>there is no immediate danger.</b>"
 msgstr "这意味着您使用的 DNS 服务器需要 IPv4 来到达您喜欢的网站的 DNS 权威服务器。在目前来说，基本每个网站都仍可以用此种形式访问，因此此情况<b>目前没有风险</b>。"
+
+#: "faq_avoids_ipv6.html"
+msgid "Most OS's and Browsers will automatically have a strong bias towards a working IPv6 connection instead of the (possibly shared address) IPv4 connection. If yours does not, and you want to see this changed, let the browser company know. You might also find other browsers on the same OS will work the way you'd expect, if you need a work-around."
+msgstr ""
+
+#: "faq/simple_test.inc"
+msgid "A standalone copy of this test can be found <a href=\"/simple_test.html\">here</a>."
+msgstr ""
+
+#: "faq_buggydns1.html"
+msgid "Malicious people can recognize that specific IPv6 addresses, when matched with this bug, map to IPv4 addresses they control. Web sites you depend on can be spoofed; you would not know any better, unless the sites are using SSL."
+msgstr ""
+
+#: "faq_no_ipv4.html"
+msgid "You will have to do this twice."
+msgstr ""
+
+#: "faq_no_ipv4.html"
+msgid "The first time enables scripts from the main site; the second time will enable all the \"off site\" scripts that are needed as well."
+msgstr ""
+
+#: "stats.html"
+msgid "<span lookup=\"site.name\">site</span> statistics"
+msgstr ""
 

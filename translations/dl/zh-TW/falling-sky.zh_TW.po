@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2016-10-26 22:51-0400\n"
+"PO-Revision-Date: 2017-01-04 21:00-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Chinese Traditional\n"
 "MIME-Version: 1.0\n"
@@ -16,7 +16,7 @@ msgstr ""
 
 #: "inc/mirrorconfig.js"
 msgid "This mirror is provided by"
-msgstr "這個鏡像服務器提供者是"
+msgstr "此鏡像伺服器提供者是"
 
 #: "inc/messages.js"
 msgid "bad"
@@ -220,7 +220,7 @@ msgstr "我們提供建議來協助您解決您的系統。"
 
 #: "inc/messages.js"
 msgid "Since you have IPv6, we are including a tab that shows how well you can reach other IPv6 sites. %sites"
-msgstr "由於你有 IPv6 ，我們有一個網頁可以顯示你對其他 IPv6 網站的連線狀況。%sites"
+msgstr "由於你已經啟用了 IPv6 ，我們有一個網頁可以測試你對其他 IPv6 網站的連線狀況。%sites"
 
 #: "inc/messages.js"
 msgid "Your browser has real working IPv6 address - but is avoiding using it. We're concerned about this."
@@ -440,7 +440,7 @@ msgstr "常見問題"
 
 #: "inc/list-nav.inc"
 msgid "Mirrors"
-msgstr "鏡像服務器"
+msgstr "鏡像伺服器"
 
 #: "inc/list-nav.inc"
 msgid "stats"
@@ -588,7 +588,7 @@ msgstr "如果這項測試失敗或超時，你可能在網站啟用 IPv6 時遇
 
 #: "main/tech.inc"
 msgid "Validates that you can connect to a dual-stack server (like the ds test); and that you can send/receive large packets on that connection. If this test times out for any reason, it indicates trouble for World IPv6 Day."
-msgstr "驗證您可以連接到一個雙協定伺服器(如 ds 測試)；你可以透過該連線傳送/接收大數據封包。如果這個測試不知原因而超時，它代表世界 IPv6 日的麻煩。"
+msgstr "驗證您可以連接到一個雙協定伺服器(如 ds 測試)；你可以透過該連線傳送/接收大數據封包。如果這個測試不知原因而逾時，它代表「世界 IPv6 日」的麻煩。"
 
 #: "main/tech.inc"
 msgid "This will try connecting with a literal IPv4 numeric address. This should work for most people, unless they are running IPv6-only. If the first test worked, but this fails, it likely confirms your provider is using NAT64/DNS64; you'll need to only try connecting using hostnames instead of numeric IP addresses."
@@ -724,7 +724,7 @@ msgstr "如果你上網服務台問你寄結果 url，複製並粘貼下面的 U
 
 #: "main/helpdesk.inc"
 msgid "Note that this will share your current numeric Internet Protocol address(es)."
-msgstr "注意這將共用你當前的數位互聯網協定位址。"
+msgstr "注意這將共用你目前的數字網際網路協定位址。"
 
 #: "main/helpdesk.inc"
 msgid "We do not recommend posting this link on public web sites such as forums."
@@ -772,7 +772,7 @@ msgstr "鳴謝"
 
 #: "inc/disclaimer.inc"
 msgid "This is a mirror of test-ipv6.com. The views expressed here may or may not reflect the views of the mirror owner."
-msgstr "這是test-ipv6.com 的一面鏡子。在這裡表達的觀點可能會或可能不反映鏡子擁有者的意見。"
+msgstr "這是test-ipv6.com 的一個鏡像。在這裡表達的觀點可能會或可能不反映鏡像擁有者的意見。"
 
 #: "locale.html"
 msgid "Available Languages"
@@ -1100,23 +1100,23 @@ msgstr "請轉到控制台"
 
 #: "faq/find_ip.inc"
 msgid "Go to \"Network and Internet\""
-msgstr "轉到\"網路和互聯網\""
+msgstr "點選\"網路和網際網路\""
 
 #: "faq/find_ip.inc"
 msgid "Go to \"View network status and tasks\""
-msgstr "轉到\"查看網路狀態和任務\""
+msgstr "點選\"檢視網路狀態及工作\""
 
 #: "faq/find_ip.inc"
 msgid "Go to \"Change adapter settings\"."
-msgstr "請轉到\"更改配接器設置\"。"
+msgstr "點選\"變更介面卡設定\"。"
 
 #: "faq/find_ip.inc"
 msgid "Go to your main Internet connection, double click"
-msgstr "去你主要的互聯網連接，請按兩下"
+msgstr "選取你主要連接網路的連線，按兩下點開"
 
 #: "faq/find_ip.inc"
 msgid "Go to \"Details\""
-msgstr "轉到\"詳細資訊\""
+msgstr "選擇\"詳細資料\""
 
 #: "faq/find_ip.inc"
 msgid "Look for \"IPv6 Address\" and \"IPv6 Default Gateway\""
@@ -1124,7 +1124,7 @@ msgstr "尋找\"IPv6 位址\"和\"IPv6 預設閘道\""
 
 #: "faq/find_ip.inc"
 msgid "Other Windows based OS's: Send jfesler@test-ipv6.com detailed instructions; and I'll add them to the site."
-msgstr "基於其他 Windows 作業系統的 ︰ 發送 jfesler@test-ipv6.com 詳細的說明;和我會將它們添加到網站。"
+msgstr "其他 Windows 作業系統的操作 ︰請將詳細說明寄到 jfesler@test-ipv6.com ，我會將它們添加到網站。"
 
 #: "faq/broken_tunnelbroker.inc"
 msgid "<b>If you set up a tunnelbroker tunnel</b>: The most common causes for tunnelbroker users to fail are:"
@@ -1292,7 +1292,7 @@ msgstr "其他路由器 ︰ 請嘗試更新固件。如果失敗，尋找並禁�
 
 #: "faq/broken_bogon.inc"
 msgid "This router is using the official \"Documentation\" prefix - which is not routable on the IPv6 Internet."
-msgstr "此路由器使用官方的\"文檔\"首碼-不是路由 IPv6 互聯網。"
+msgstr "此路由器使用官方的\"文件\"首碼-不是路由 IPv6 網際網路。"
 
 #: "faq/broken_bogon.inc"
 msgid "Update to the latest firmware."
@@ -1604,7 +1604,7 @@ msgstr "問︰這個網站是開源的嗎？"
 msgid "Yes. See the <a href=\"source.html\">source page</a> for details."
 msgstr "是的。請參閱詳細資訊 <a href=\"source.html\"> 專案網頁</a>。"
 
-#: "stats.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "<span lookup=site.name>site</span> statistics"
 msgstr "<span lookup=site.name> 網站</span> 統計"
 
@@ -1722,11 +1722,11 @@ msgstr "這是一個開放源碼專案。我當然可以使用您的説明，以
 
 #: "mirrors.html"
 msgid "test-ipv6.com mirrors"
-msgstr "Test-ipv6.com 的鏡像服務器"
+msgstr "test-ipv6.com 的鏡像伺服器"
 
 #: "mirrors.html"
 msgid "These are the known publicly accessible mirrors for test-ipv6.com."
-msgstr "以下均是公開已知test-ipv6.com可連接的鏡像服務器。"
+msgstr "以下均是公開已知test-ipv6.com可連接的鏡像伺服器。"
 
 #: "mirrors.html"
 msgid "Thank you to all of these organizations, who have put in significant effort to provide this mirror sites. If you have problems with the site you are on now, try another mirror site; perhaps one closer to you."
@@ -1742,11 +1742,11 @@ msgstr "（由 javascript 生成）"
 
 #: "mirrors.html"
 msgid "Interested in running a mirror?"
-msgstr "有興趣為我們託管鏡像服務器嗎？"
+msgstr "有興趣為我們託管鏡像伺服器嗎？"
 
 #: "mirrors.html"
 msgid "Mirrors are welcomed and appreciated, whether public or private. Please see <a href=\"https://github.com/falling-sky/source/wiki\">the wiki</a> for details."
-msgstr "歡迎和讚賞所有鏡像服務器，不論是公共或私人。請參閱<a href=\"https://github.com/falling-sky/source/wiki\">wiki</a> 而了解詳細資訊。"
+msgstr "歡迎和讚賞所有鏡像伺服器，不論是公共或私人。請參閱<a href=\"https://github.com/falling-sky/source/wiki\">wiki</a> 而了解詳細資訊。"
 
 #: "faq_6to4.html"
 msgid "test-ipv6.com views on 6to4"
@@ -2731,4 +2731,28 @@ msgstr "這個網站是由以下單位提供:"
 #: "faq_v6ns_bad.html"
 msgid "it means that the DNS resolver you are using, requires IPv4 to reach the DNS authoritative servers of your favorite web sites. In the near future, every web site of consequence will remain accessible in this form, so <b>there is no immediate danger.</b>"
 msgstr "這意味著，DNS 解析器使用的需要使用 IPv4 到達你最喜歡的 web 網站的 DNS 權威伺服器。在不久的將來，每個 web 網站的後果將仍然可以訪問在此表單，所以 <b>沒有立即的危險。</b>"
+
+#: "faq_avoids_ipv6.html"
+msgid "Most OS's and Browsers will automatically have a strong bias towards a working IPv6 connection instead of the (possibly shared address) IPv4 connection. If yours does not, and you want to see this changed, let the browser company know. You might also find other browsers on the same OS will work the way you'd expect, if you need a work-around."
+msgstr ""
+
+#: "faq/simple_test.inc"
+msgid "A standalone copy of this test can be found <a href=\"/simple_test.html\">here</a>."
+msgstr ""
+
+#: "faq_buggydns1.html"
+msgid "Malicious people can recognize that specific IPv6 addresses, when matched with this bug, map to IPv4 addresses they control. Web sites you depend on can be spoofed; you would not know any better, unless the sites are using SSL."
+msgstr ""
+
+#: "faq_no_ipv4.html"
+msgid "You will have to do this twice."
+msgstr ""
+
+#: "faq_no_ipv4.html"
+msgid "The first time enables scripts from the main site; the second time will enable all the \"off site\" scripts that are needed as well."
+msgstr ""
+
+#: "stats.html"
+msgid "<span lookup=\"site.name\">site</span> statistics"
+msgstr ""
 

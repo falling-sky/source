@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2016-10-26 22:51-0400\n"
+"PO-Revision-Date: 2017-01-04 21:00-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Korean\n"
 "MIME-Version: 1.0\n"
@@ -1602,7 +1602,7 @@ msgstr "Q : 오픈 소스인가요?"
 msgid "Yes. See the <a href=\"source.html\">source page</a> for details."
 msgstr "그렇습니다. 자세한 사항은 <a href=\"source.html\">소스</a>를 참조해 주세요."
 
-#: "stats.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "<span lookup=site.name>site</span> statistics"
 msgstr "<span lookup=site.name>사이트</span> 통계"
 
@@ -2732,4 +2732,28 @@ msgstr ""
 #: "faq_v6ns_bad.html"
 msgid "it means that the DNS resolver you are using, requires IPv4 to reach the DNS authoritative servers of your favorite web sites. In the near future, every web site of consequence will remain accessible in this form, so <b>there is no immediate danger.</b>"
 msgstr "이것은 즐겨 찾는 웹 사이트의 신뢰할 만한 DNS 서버에 연결하기 위해서는 사용 중인 DNS 변환기에 IPv4가 필요한 것을 의미합니다. 머지않아 중요한 모든 웹 사이트는 이런 형태로 액세스가 가능할 것이므로, <b>즉각적인 위험은 없습니다.</b>"
+
+#: "faq_avoids_ipv6.html"
+msgid "Most OS's and Browsers will automatically have a strong bias towards a working IPv6 connection instead of the (possibly shared address) IPv4 connection. If yours does not, and you want to see this changed, let the browser company know. You might also find other browsers on the same OS will work the way you'd expect, if you need a work-around."
+msgstr ""
+
+#: "faq/simple_test.inc"
+msgid "A standalone copy of this test can be found <a href=\"/simple_test.html\">here</a>."
+msgstr ""
+
+#: "faq_buggydns1.html"
+msgid "Malicious people can recognize that specific IPv6 addresses, when matched with this bug, map to IPv4 addresses they control. Web sites you depend on can be spoofed; you would not know any better, unless the sites are using SSL."
+msgstr ""
+
+#: "faq_no_ipv4.html"
+msgid "You will have to do this twice."
+msgstr ""
+
+#: "faq_no_ipv4.html"
+msgid "The first time enables scripts from the main site; the second time will enable all the \"off site\" scripts that are needed as well."
+msgstr ""
+
+#: "stats.html"
+msgid "<span lookup=\"site.name\">site</span> statistics"
+msgstr ""
 

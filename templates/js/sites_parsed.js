@@ -207,6 +207,19 @@ GIGO.sites_parsed={
   "reason": "",
   "transparent": false
  },
+ "stdio.be": {
+  "site": "stdio.be",
+  "mirror": false,
+  "hide": false,
+  "v4": "http://ipv4.stdio.be/images/knob_valid_green.png",
+  "v6": "http://ipv6.stdio.be/images/knob_valid_green.png",
+  "loc": "DE",
+  "provider": "Andrew Yourtchenko (personal)",
+  "monitor": "Andrew Yourtchenko \u003cayourtch@gmail.com\u003e",
+  "contact": "",
+  "reason": "",
+  "transparent": false
+ },
  "test-ipv6-ct.comcast.net": {
   "site": "test-ipv6-ct.comcast.net",
   "mirror": true,
@@ -584,32 +597,6 @@ GIGO.sites_parsed={
   "reason": "",
   "transparent": false
  },
- "test-ipv6.ortgies.it": {
-  "site": "test-ipv6.ortgies.it",
-  "mirror": true,
-  "hide": false,
-  "v4": "http://ipv4.test-ipv6.ortgies.it/images-nc/knob_green.png",
-  "v6": "http://ipv6.test-ipv6.ortgies.it/images-nc/knob_green.png",
-  "loc": "DE",
-  "provider": "Jan-Eric Ortgies",
-  "monitor": "Jan-Eric Ortgies \u003cjaneric@ortgies.it\u003e",
-  "contact": "",
-  "reason": "",
-  "transparent": false
- },
- "test-ipv6.polkam.go.id": {
-  "site": "test-ipv6.polkam.go.id",
-  "mirror": true,
-  "hide": false,
-  "v4": "http://ipv4.test-ipv6.polkam.go.id/images-nc/knob_green.png",
-  "v6": "http://ipv6.test-ipv6.polkam.go.id/images-nc/knob_green.png",
-  "loc": "ID",
-  "provider": "Coordinating Ministry For Political, Legal, and Security Affairs of Indonesia",
-  "monitor": "vicky@polkam.go.id",
-  "contact": "",
-  "reason": "",
-  "transparent": false
- },
  "test-ipv6.ro": {
   "site": "test-ipv6.ro",
   "mirror": true,
@@ -697,19 +684,6 @@ GIGO.sites_parsed={
   "loc": "SK",
   "provider": "Sk-nic",
   "monitor": "\"SK-NIC, a.s.\" \u003chostmaster@sk-nic.sk\u003e",
-  "contact": "",
-  "reason": "",
-  "transparent": false
- },
- "test-ipv6.tni-au.mil.id": {
-  "site": "test-ipv6.tni-au.mil.id",
-  "mirror": true,
-  "hide": false,
-  "v4": "http://ipv4.test-ipv6.tni-au.mil.id/images-nc/knob_green.png",
-  "v6": "http://ipv6.test-ipv6.tni-au.mil.id/images-nc/knob_green.png",
-  "loc": "ID",
-  "provider": "Indonesian Air Force",
-  "monitor": "Vicky Ezra Imanuel \u003cvicky@tni-au.mil.id\u003e",
   "contact": "",
   "reason": "",
   "transparent": false
