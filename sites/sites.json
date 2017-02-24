@@ -196,7 +196,7 @@
          "v6" : "http://ipv6.test-ipv6.alpinedc.ch/images-nc/knob_green.png"
       },
       "test-ipv6.arbor.net" : {
-         "hide" : true,
+         "hide" : false,
          "loc" : "US",
          "mirror" : true,
          "monitor" : "Bill Cerveny <admin@v6research.net>",
