@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2017-01-04 21:00-0500\n"
+"PO-Revision-Date: 2017-01-24 00:30-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: German\n"
 "MIME-Version: 1.0\n"
@@ -2732,25 +2732,25 @@ msgstr "Es bedeutet, dass der DNS-Resolver, den Sie verwenden, IPv4 erfordert, u
 
 #: "faq_avoids_ipv6.html"
 msgid "Most OS's and Browsers will automatically have a strong bias towards a working IPv6 connection instead of the (possibly shared address) IPv4 connection. If yours does not, and you want to see this changed, let the browser company know. You might also find other browsers on the same OS will work the way you'd expect, if you need a work-around."
-msgstr ""
+msgstr "Die meisten Betriebssysteme und Browser werden automatisch eine funktionierende IPv6-Verbindung gegenüber einer IPv4-Verbindung (mit evtl. geteilter Adresse) bevorzugen. Wenn dies nicht der Fall ist, und Sie möchten dies geändert haben, lassen Sie dies den Browser-Hersteller wissen. Vielleicht finden Sie auch andere Browser auf dem gleichen Betriebssystem, die so funktionieren, wie man dies erwarten würde, falls Sie einen Workaround benötigen."
 
 #: "faq/simple_test.inc"
 msgid "A standalone copy of this test can be found <a href=\"/simple_test.html\">here</a>."
-msgstr ""
+msgstr "Eine eigenständige Kopie dieses Tests finden Sie <a href=\"/simple_test.html\">hier</a>."
 
 #: "faq_buggydns1.html"
 msgid "Malicious people can recognize that specific IPv6 addresses, when matched with this bug, map to IPv4 addresses they control. Web sites you depend on can be spoofed; you would not know any better, unless the sites are using SSL."
-msgstr ""
+msgstr "Böswillige Menschen können herausfinden, dass bestimmte IPv6-Adressen, zusammen mit diesem Bug, zu IPv4-Adressen führen, die sie unter ihrer Kontrolle haben. Web-Sites, auf die Sie sich verlassen, können manipuliert werden, und Sie werden es nicht bemerken, es sei denn, die Seiten benutzen SSL."
 
 #: "faq_no_ipv4.html"
 msgid "You will have to do this twice."
-msgstr ""
+msgstr "Das müssen Sie zweimal machen."
 
 #: "faq_no_ipv4.html"
 msgid "The first time enables scripts from the main site; the second time will enable all the \"off site\" scripts that are needed as well."
-msgstr ""
+msgstr "Beim ersten Mal werden Skripte auf der Hauptseite aktiviert, beim zweiten Mal werden die Skripte außerhalb dieser Hauptseite aktiviert, die ebenfalls benötigt werden."
 
 #: "stats.html"
 msgid "<span lookup=\"site.name\">site</span> statistics"
-msgstr ""
+msgstr "Statistiken für <span lookup=\"site.name\">site</span>"
 

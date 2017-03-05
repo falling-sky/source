@@ -233,19 +233,6 @@ GIGO.sites_parsed={
   "reason": "",
   "transparent": true
  },
- "test-ipv6-pa.comcast.net": {
-  "site": "test-ipv6-pa.comcast.net",
-  "mirror": true,
-  "hide": false,
-  "v4": "http://ipv4.test-ipv6-pa.comcast.net/images-nc/knob_green.png",
-  "v6": "http://ipv6.test-ipv6-pa.comcast.net/images-nc/knob_green.png",
-  "loc": "US",
-  "provider": "Comcast",
-  "monitor": "Comcast IPv6 Team \u003ccomcast-ipv6@cable.comcast.com\u003e",
-  "contact": "",
-  "reason": "",
-  "transparent": true
- },
  "test-ipv6.alpinedc.ch": {
   "site": "test-ipv6.alpinedc.ch",
   "mirror": true,
@@ -307,19 +294,6 @@ GIGO.sites_parsed={
   "loc": "AZ",
   "provider": "AZSTARNET LLC",
   "monitor": "Nadir M. Aliyev \u003cnadir@azstarnet.az\u003e",
-  "contact": "",
-  "reason": "",
-  "transparent": false
- },
- "test-ipv6.bakinter.net": {
-  "site": "test-ipv6.bakinter.net",
-  "mirror": true,
-  "hide": false,
-  "v4": "http://ipv4.test-ipv6.bakinter.net/images-nc/knob_green.png",
-  "v6": "http://ipv6.test-ipv6.bakinter.net/images-nc/knob_green.png",
-  "loc": "AZ",
-  "provider": "Baktelekom",
-  "monitor": "Nadir M. Aliyev \u003cadmin@bakinter.net\u003e",
   "contact": "",
   "reason": "",
   "transparent": false
@@ -572,7 +546,7 @@ GIGO.sites_parsed={
   "transparent": false
  },
  "test-ipv6.noroutetohost.net": {
-  "site": "www.noroutetohost.net",
+  "site": "test-ipv6.noroutetohost.net",
   "mirror": true,
   "hide": false,
   "v4": "http://ipv4.test-ipv6.noroutetohost.net/images-nc/knob_green.png",
@@ -593,6 +567,32 @@ GIGO.sites_parsed={
   "loc": "CL",
   "provider": "Orbyta S.A.",
   "monitor": "javier campos \u003cjaviersource@gmail.com\u003e",
+  "contact": "",
+  "reason": "",
+  "transparent": false
+ },
+ "test-ipv6.ortgies.it": {
+  "site": "test-ipv6.ortgies.it",
+  "mirror": true,
+  "hide": false,
+  "v4": "http://ipv4.test-ipv6.ortgies.it/images-nc/knob_green.png",
+  "v6": "http://ipv6.test-ipv6.ortgies.it/images-nc/knob_green.png",
+  "loc": "DE",
+  "provider": "Jan-Eric Ortgies",
+  "monitor": "Jan-Eric Ortgies \u003cjaneric@ortgies.it\u003e",
+  "contact": "",
+  "reason": "",
+  "transparent": false
+ },
+ "test-ipv6.polkam.go.id": {
+  "site": "test-ipv6.polkam.go.id",
+  "mirror": true,
+  "hide": false,
+  "v4": "http://ipv4.test-ipv6.polkam.go.id/images-nc/knob_green.png",
+  "v6": "http://ipv6.test-ipv6.polkam.go.id/images-nc/knob_green.png",
+  "loc": "ID",
+  "provider": "Coordinating Ministry For Political, Legal, and Security Affairs of Indonesia",
+  "monitor": "vicky@polkam.go.id",
   "contact": "",
   "reason": "",
   "transparent": false
@@ -642,7 +642,7 @@ GIGO.sites_parsed={
   "hide": false,
   "v4": "http://ipv4.test-ipv6.showmyip.ca/images-nc/knob_green.png",
   "v6": "http://ipv6.test-ipv6.showmyip.ca/images-nc/knob_green.png",
-  "loc": "UK",
+  "loc": "CA",
   "provider": "Christopher Munz-Michielin",
   "monitor": "Christopher Munz-Michielin \u003cchristopher@showmyip.ca\u003e",
   "contact": "",
@@ -684,6 +684,19 @@ GIGO.sites_parsed={
   "loc": "SK",
   "provider": "Sk-nic",
   "monitor": "\"SK-NIC, a.s.\" \u003chostmaster@sk-nic.sk\u003e",
+  "contact": "",
+  "reason": "",
+  "transparent": false
+ },
+ "test-ipv6.tni-au.mil.id": {
+  "site": "test-ipv6.tni-au.mil.id",
+  "mirror": true,
+  "hide": false,
+  "v4": "http://ipv4.test-ipv6.tni-au.mil.id/images-nc/knob_green.png",
+  "v6": "http://ipv6.test-ipv6.tni-au.mil.id/images-nc/knob_green.png",
+  "loc": "ID",
+  "provider": "Indonesian Air Force",
+  "monitor": "Vicky Ezra Imanuel \u003cvicky@tni-au.mil.id\u003e",
   "contact": "",
   "reason": "",
   "transparent": false

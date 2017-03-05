@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2017-01-04 21:00-0500\n"
+"PO-Revision-Date: 2017-01-24 00:30-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -200,7 +200,7 @@ msgstr "IPv4またはIPv6のいずれかのトンネルメカニズムを使用�
 
 #: "inc/messages.js"
 msgid "It appears that you use a managed tunnel mechanism, 6RD, to transport IPv6 over IPv4."
-msgstr "管理トンネルメカニズム（6RD）を使用してIPv4経由でIPv6を転送しているようです。"
+msgstr "管理されたトンネルメカニズム(6RD)を使用してIPv4経由でIPv6を転送しているようです。"
 
 #: "inc/messages.js"
 msgid "We have detected that you are using a proxy. This means we are testing your proxy server, not your computer. Proxy details (as reported by your proxy 'Via' header): %details"
@@ -616,10 +616,7 @@ msgstr "これはあなたの ISP のリゾルバ用のテストです (あな�
 
 #: "main/tech.inc"
 msgid "Attempts to identify what Internet Service Provider you use for IPv4. This may be different from the marketing name you see in your local market; or may reflect a previous company name. The name shown reflects how it is known in the network operator community."
-msgstr "IPv4に使用するインターネットサービスプロバイダを特定しようとします。これ\n"
-"はあなたの見知った商標とは異なっている場合があります。あるいは過去の会社名を反映\n"
-"している可能性があります。表示されている名称はネットワークオペレータコミュニティ\n"
-"でどのように認識されているかを反映しています。"
+msgstr "IPv4に使用するインターネットサービスプロバイダを特定しようとします。これはあなたの見知った商標とは異なっている場合があります。あるいは過去の会社名を反映している可能性があります。表示されている名称はネットワークオペレータコミュニティでどのように認識されているかを反映しています。"
 
 #: "main/tech.inc"
 msgid "Attempts to identify what Internet Service Provider you use for IPv6. When the IPv4 name and the IPv6 name don't match, it may suggest that you're using a tunnel; or some form of third party provider for IPv6."
@@ -980,7 +977,7 @@ msgstr "お使いのOSのネットワーク設定に精通していない場合�
 
 #: "faq/find_ip.inc"
 msgid "When looking for your IPv6 address, skip any <code>fe80:</code> address. Everyone has them if their OS supports IPv6; this is regadless of whether or not your ISP supports IPv6 yet. Those are \"link local\" addresses; used just for communicating to other hosts in the same physical network as you."
-msgstr "IPv6アドレスを調べる場合には<code>fe80:</code>から始まるアドレスは無視してください。これらはOSがIPv6をサポートしている場合必ず存在するアドレスであり、これはあなたのISPがIPv6をサポートしているかどうかに関わらず存在する\"リンクローカ>ル\"アドレスであり、同じ物理ネットワーク内の他のホストとの通信にのみ使用されます。"
+msgstr "IPv6アドレスを調べる場合には<code>fe80:</code>から始まるアドレスは無視してください。これらはOSがIPv6をサポートしている場合必ず存在するアドレスであり、これはあなたのISPがIPv6をサポートしているかどうかに関わらず存在する\"リンクローカル\"アドレスであり、同じ物理ネットワーク内の他のホストとの通信にのみ使用されます。"
 
 #: "faq/find_ip.inc"
 msgid "OS X users: To find your IP address using the GUI:"
@@ -1008,7 +1005,7 @@ msgstr "「詳細…」を開きます"
 
 #: "faq/find_ip.inc"
 msgid "Look at the TCP/IP tab, uder \"Configure IPv6\"."
-msgstr "TCP/IP」タブを見て、「IPv6の設定:」を参照してください。"
+msgstr "「TCP/IP」タブを見て、「IPv6の設定:」を参照してください。"
 
 #: "faq/find_ip.inc"
 msgid "Make a note of whether or not there is a router."
@@ -1088,7 +1085,7 @@ msgstr "<code>cmd.exe</code>を入力します"
 
 #: "faq/find_ip.inc"
 msgid "In the cmd window, type <code>ipconfig</code> ."
-msgstr "コマンドプロンプト」ウィンドウで<code>ipconfig</code>を入力します"
+msgstr "「コマンドプロンプト」ウィンドウで<code>ipconfig</code>を入力します"
 
 #: "faq/find_ip.inc"
 msgid "Windows 7 GUI users:"
@@ -1132,7 +1129,7 @@ msgstr "他のWindowsベースのOSの場合: jfesler@test-ipv6.comに宛てて�
 
 #: "faq/broken_tunnelbroker.inc"
 msgid "<b>If you set up a tunnelbroker tunnel</b>: The most common causes for tunnelbroker users to fail are:"
-msgstr "<b>tunnelbrokerのトンネルを設定している場合</b>: tunnelbrokerを利用する>ユーザーが失敗する最も一般的な原因は次のとおりです。"
+msgstr "<b>tunnelbrokerのトンネルを設定している場合</b>: tunnelbrokerを利用するユーザーが失敗する最も一般的な原因は次のとおりです。"
 
 #: "faq/broken_tunnelbroker.inc"
 msgid "Your IPv4 address may have changed; you need to tell the tunnelbroker server this happened."
@@ -1156,7 +1153,7 @@ msgstr "あなたがLinux、BSD、Mac、またはWindows PCを使って\"6to4に
 
 #: "faq/broken_tunnelbroker.inc"
 msgid "Make sure your router is passing \"protocol 41\" to you."
-msgstr "\"ルータが\"プロトコル41\"を通過させていることを確認してください。"
+msgstr "ルータが\"プロトコル41\"を通過させていることを確認してください。"
 
 #: "faq/broken_tunnelbroker.inc"
 msgid "Make sure any software firewall you are operating is passing \"protocol 41\" to you."
@@ -1400,7 +1397,7 @@ msgstr "管理者(Administrator)としてログインしていることを確認
 
 #: "faq/broken_disable.inc"
 msgid "Click Start, click All Programs, click Accessories, and then click Command Prompt."
-msgstr "スタート」をクリック、続いて「すべてのプログラム」をクリック、「アクセサリ」をクリックして次に「コマンドプロンプト」クリックします。"
+msgstr "「スタート」をクリック、続いて「すべてのプログラム」をクリック、「アクセサリ」をクリックして次に「コマンドプロンプト」クリックします。"
 
 #: "faq/broken_disable.inc"
 msgid "At the command prompt, type: netsh int ipv6 uninstall and press the Enter key on your keyboard."
@@ -1712,8 +1709,7 @@ msgstr "もっともシンプルで、さらに近視眼的な解決策は、単
 
 #: "mission.html"
 msgid "The <a href=\"broken.html\">Broken User FAQ</a> has several suggestions for broken users to follow, to remediate their situation."
-msgstr "<a href=\"broken.html\">Broken User FAQ</a> には壊れたユーザーが自分の状\n"
-"況を修正するために従うべきいくつかの提案があります。"
+msgstr "<a href=\"broken.html\">Broken User FAQ</a> には壊れたユーザーが自分の状況を修正するために従うべきいくつかの提案があります。"
 
 #: "mission.html"
 msgid "How you can help"
@@ -1721,7 +1717,7 @@ msgstr "どのようにサポートできますか。"
 
 #: "mission.html"
 msgid "This is an open-source project. I can certainly use your help in a variety of ways; please see the <a href=\"source.html\">source</a> page."
-msgstr "これはオープンソースのプロジェクトです。 私は様々な方法であなたの手助け>を使うことができます。 <a href=\"source.html\">ソース</a>ページをご覧ください。"
+msgstr "これはオープンソースのプロジェクトです。 私は様々な方法であなたの手助けを使うことができます。 <a href=\"source.html\">ソース</a>ページをご覧ください。"
 
 #: "mirrors.html"
 msgid "test-ipv6.com mirrors"
@@ -2006,7 +2002,7 @@ msgstr "自宅や組織で使用しているDNSリゾルバをあなたが操作
 
 #: "faq_v6ns_bad.html"
 msgid "ISC BIND: Make sure that IPv6 support is compiled in when you ./configure it. It is enabled by default. If you recently added IPv6 to your server, simply restart your named process, as you normally would."
-msgstr "ISC BIND: ./configureする際にIPv6サポートでコンパイルされていることを確>認してください。 これはデフォルトで有効になっています。 最近IPv6をサーバーに追加した場合には、いつもどおりnamedプロセスを再起動するだけです。"
+msgstr "ISC BIND: ./configureする際にIPv6サポートでコンパイルされていることを確認してください。 これはデフォルトで有効になっています。 最近IPv6をサーバーに追加した場合には、いつもどおりnamedプロセスを再起動するだけです。"
 
 #: "not-used, archived.  Not currently needed for translation."
 msgid "PowerDNS: Enable <code>aaaa-additional-processing</code> and configure <code>query-local-address6</code> in your <code>recursor.conf</code>. Restart powerdns."
@@ -2162,11 +2158,11 @@ msgstr "なぜIPv6なのか？"
 
 #: "faq_whyipv6.html"
 msgid "This is an interesting question. IPv6 buys you only a bit more than you already have today; and most of that is a promise. IPv6 will help you preserve the level of Internet connectivity between your home and other locations on the Internet, without interference, as you enjoyed in 2012."
-msgstr "これは興味深い質問です。 IPv6は、今日のものよりほんの少し、そのほとんど>は将来性についてですが、信じられると思えます。 IPv6は、あなたが2012年に楽しんだ>ように、インターネット上の自宅と他の場所との間のインターネット接続の品質を邪魔せずに維持する手助けになるはずです。"
+msgstr "これは興味深い質問です。 IPv6は、今日のものよりほんの少し、そのほとんどは将来性についてですが、信じられると思えます。 IPv6は、あなたが2012年に楽しんだように、インターネット上の自宅と他の場所との間のインターネット接続の品質を邪魔せずに維持する手助けになるはずです。"
 
 #: "faq_whyipv6.html"
 msgid "The promise is the ability to give every device in your house a reachable network address. Each house will have practically unlimited network addresses (2<sup>64</sup> if you're curious - about 18 billion billions). Each house may potentially have more than that, particularly if they have the need for multiple networks within the home. Many ISPs will be able to easy give you 256 of those networks. <em>Running out of IPv6 address space will seem impossible for decades.</em>"
-msgstr "この将来性は、あなたの家のすべてのデバイスに到達可能なネットワークアドレスを与える能力です。 それぞれの家は実質的に無制限のネットワークアドレスを持って>います(もし、あなたが興味があるなら、それは約2<sup>64</sup>、約180億あります)。\n"
+msgstr "この将来性は、あなたの家のすべてのデバイスに到達可能なネットワークアドレスを与える能力です。 それぞれの家は実質的に無制限のネットワークアドレスを持っています(もし、あなたが興味があるなら、それは約2<sup>64</sup>、約180億あります)。\n"
 "各家庭が必要とする以上の可能性があります。 もし家庭内に複数のネットワークが必要な場合でも多くのISPが、それらのネットワークから256個を簡単に提供できます。 <em>IPv6アドレススペースの不足は数十年の間は起こらないでしょう。</em>"
 
 #: "faq_whyipv6.html"
@@ -2179,8 +2175,8 @@ msgstr "IPv4は何が問題なのか？"
 
 #: "faq_whyipv6.html"
 msgid "The traditional IPv4 Internet is running out of space. The IANA registry (at the global level) is either just about out, or totally out, depending on when you read this. They are expected to announce this depletion Janaury or February 2011."
-msgstr "古典的なIPv4インターネットは割り当てスペースを使い果たしています。 IANA>レジストリ(グローバルレベル)は、あなたがこれを読んだときにはちょうど無くなってい\n"
-"るか、完全に無くなっているでしょう。 彼らはこの枯渇についてを2011年1月か2月に発>表する予定です。 (訳者注: 実際にはIANAが管理するIPv4アドレスブロックは2011年2月3日に枯渇しました)"
+msgstr "古典的なIPv4インターネットは割り当てスペースを使い果たしています。 IANAレジストリ(グローバルレベル)は、あなたがこれを読んだときにはちょうど無くなってい\n"
+"るか、完全に無くなっているでしょう。 彼らはこの枯渇についてを2011年1月か2月に発表する予定です。 (訳者注: 実際にはIANAが管理するIPv4アドレスブロックは2011年2月3日に枯渇しました)"
 
 #: "faq_whyipv6.html"
 msgid "As Internet service providers each run out of the space they have been allocated, they will have to find creative ways to help keep taking on new customers. Those customers will still need access to the IPv4 Internet."
@@ -2737,29 +2733,29 @@ msgstr "test-ipv6.comのこのインスタンスは、"
 
 #: "faq_v6ns_bad.html"
 msgid "it means that the DNS resolver you are using, requires IPv4 to reach the DNS authoritative servers of your favorite web sites. In the near future, every web site of consequence will remain accessible in this form, so <b>there is no immediate danger.</b>"
-msgstr "これは、あなたが使用しているDNSリゾルバが、あなたのお気に入りのウェブサ>イトのDNS権威サーバーに到達するためにはIPv4を必要とすることを意味します。 近い将来にも、結果のすべてのウェブサイトにこの形式でもアクセス可能なままなので、<b>す>ぐに危険はありません。</b>"
+msgstr "これは、あなたが使用しているDNSリゾルバが、あなたのお気に入りのウェブサイトのDNS権威サーバーに到達するためにはIPv4を必要とすることを意味します。 近い将来にも、結果のすべてのウェブサイトにこの形式でもアクセス可能なままなので、<b>すぐに危険はありません。</b>"
 
 #: "faq_avoids_ipv6.html"
 msgid "Most OS's and Browsers will automatically have a strong bias towards a working IPv6 connection instead of the (possibly shared address) IPv4 connection. If yours does not, and you want to see this changed, let the browser company know. You might also find other browsers on the same OS will work the way you'd expect, if you need a work-around."
-msgstr ""
+msgstr "多くのOSとブラウザは、IPv4接続(おそらく共有アドレスの)ではなく、動作中のIPv6接続に対して自動的に強いバイアスをかけます。 もしあなたがそれを望まないなら、これが変わったのを見たいなら、ブラウザの会社に知らせてください。 回避策が必要な場合には、同じOS上でも他のブラウザなら期待通りに動作する可能性もあります。"
 
 #: "faq/simple_test.inc"
 msgid "A standalone copy of this test can be found <a href=\"/simple_test.html\">here</a>."
-msgstr ""
+msgstr "このテストのスタンドアロンコピーは、<a href=\"/simple_test.html\">こちら</a>にあります。"
 
 #: "faq_buggydns1.html"
 msgid "Malicious people can recognize that specific IPv6 addresses, when matched with this bug, map to IPv4 addresses they control. Web sites you depend on can be spoofed; you would not know any better, unless the sites are using SSL."
-msgstr ""
+msgstr "悪意のある人は、特定のIPv6アドレスが、このバグと一致した場合、どのIPv4アドレスにマップされるかを認識することができるかもしれません。 それによってあなたのWebサイトになりすましをすることができるかもしれません。 サイトがSSLを使用していない限り、あなたはそれを知ることができないでしょう。"
 
 #: "faq_no_ipv4.html"
 msgid "You will have to do this twice."
-msgstr ""
+msgstr "これは2回行う必要があります。"
 
 #: "faq_no_ipv4.html"
 msgid "The first time enables scripts from the main site; the second time will enable all the \"off site\" scripts that are needed as well."
-msgstr ""
+msgstr "最初はメインサイトからスクリプトを有効にします。 2回目には、すべての「オフサイト」からのスクリプトも有効になります。"
 
 #: "stats.html"
 msgid "<span lookup=\"site.name\">site</span> statistics"
-msgstr ""
+msgstr "<span lookup = \"site.name\">サイト</span>の統計"
 

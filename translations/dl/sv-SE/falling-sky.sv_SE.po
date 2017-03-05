@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2017-01-04 21:00-0500\n"
+"PO-Revision-Date: 2017-01-24 00:30-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Swedish\n"
 "MIME-Version: 1.0\n"
@@ -1488,7 +1488,7 @@ msgstr "Hela testet är JavaScript (körs på klientsida). För att avgöra nåb
 
 #: "faq.html"
 msgid "Q: Why is this web site reachable via IPv4 only?"
-msgstr "Q: Varför kan denna webbplats nås via IPv4 endast?"
+msgstr "Q: Varför kan denna webbplats endast nås via IPv4?"
 
 #: "faq.html"
 msgid "You're right, there are no AAAA records, intentionally. A percentage of users are unable to browse sites that are dual-stack. If the users can't connect, then they can't be told they have a problem. This is a big problem facing content providers today; of which, I work at one for my &#36;dayjob. As such, the main test page requires IPv4 (either native or translated)."
@@ -1808,7 +1808,7 @@ msgstr "När du använder 6to4, trycks ditt IPv6-paket in i ett IPv4-paket. IP-p
 
 #: "faq_6to4.html"
 msgid "Because of this maximum size, your IPv6 packets actually have to be made a bit smaller - so that they fit inside the IPv4 packet, and that the IPv4 packet is still small enough to leave your network."
-msgstr "På grund av denna maxstorlek måste dina IPv6-paket faktiskt vara lite mindre - så att de passar i IPv4-paket, och att IPv4-paket är fortfarande liten nog att lämna ditt nätverk."
+msgstr "På grund av denna maxstorlek måste dina IPv6-paket faktiskt vara lite mindre så att de passar i IPv4-paket och att IPv4-paket är fortfarande liten nog att lämna ditt nätverk."
 
 #: "faq_6to4.html"
 msgid "Further down the line, there may be another network with even tigher restrictions on the packet size. That network may itself be a tunnel - ISPs occasionally have to do that. This is where the problem often - lies. The IPv4 tunnel will send a message back towards you, - indicating that the packet was too big - but you don't get it. Even - if you do, your IPv6 packets don't get the message, so ultimately - you never reduce your packet size."
@@ -2736,7 +2736,7 @@ msgstr ""
 
 #: "faq/simple_test.inc"
 msgid "A standalone copy of this test can be found <a href=\"/simple_test.html\">here</a>."
-msgstr ""
+msgstr "En fristående kopia av detta test kan hittas <a href=\"/simple_test.html\">här</a>."
 
 #: "faq_buggydns1.html"
 msgid "Malicious people can recognize that specific IPv6 addresses, when matched with this bug, map to IPv4 addresses they control. Web sites you depend on can be spoofed; you would not know any better, unless the sites are using SSL."
@@ -2744,13 +2744,13 @@ msgstr ""
 
 #: "faq_no_ipv4.html"
 msgid "You will have to do this twice."
-msgstr ""
+msgstr "Du kommer att behöva göra detta två gånger."
 
 #: "faq_no_ipv4.html"
 msgid "The first time enables scripts from the main site; the second time will enable all the \"off site\" scripts that are needed as well."
-msgstr ""
+msgstr "Första gången aktiveras skript från huvudwebbplatsen; andra gången kommer att aktivera alla \"off site\"-skript som också behövs."
 
 #: "stats.html"
 msgid "<span lookup=\"site.name\">site</span> statistics"
-msgstr ""
+msgstr "<span lookup=\"site.name\">webbplats</span>-statistik"
 
