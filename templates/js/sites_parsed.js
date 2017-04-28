@@ -181,19 +181,6 @@ GIGO.sites_parsed={
   "reason": "",
   "transparent": false
  },
- "sixte.st": {
-  "site": "sixte.st",
-  "mirror": true,
-  "hide": false,
-  "v4": "http://ipv4.sixte.st/images-nc/knob_green.png",
-  "v6": "http://ipv6.sixte.st/images-nc/knob_green.png",
-  "loc": "SG",
-  "provider": "Delan Azabani",
-  "monitor": "Delan Azabani \u003cdelan@azabani.com\u003e",
-  "contact": "",
-  "reason": "",
-  "transparent": false
- },
  "snozzages.com": {
   "site": "snozzages.com",
   "mirror": false,
@@ -226,6 +213,19 @@ GIGO.sites_parsed={
   "hide": false,
   "v4": "http://ipv4.test-ipv6-ct.comcast.net/images-nc/knob_green.png",
   "v6": "http://ipv6.test-ipv6-ct.comcast.net/images-nc/knob_green.png",
+  "loc": "US",
+  "provider": "Comcast",
+  "monitor": "Comcast IPv6 Team \u003ccomcast-ipv6@cable.comcast.com\u003e",
+  "contact": "",
+  "reason": "",
+  "transparent": true
+ },
+ "test-ipv6-pa.comcast.net": {
+  "site": "test-ipv6-pa.comcast.net",
+  "mirror": true,
+  "hide": false,
+  "v4": "http://ipv4.test-ipv6-pa.comcast.net/images-nc/knob_green.png",
+  "v6": "http://ipv6.test-ipv6-pa.comcast.net/images-nc/knob_green.png",
   "loc": "US",
   "provider": "Comcast",
   "monitor": "Comcast IPv6 Team \u003ccomcast-ipv6@cable.comcast.com\u003e",
@@ -372,6 +372,19 @@ GIGO.sites_parsed={
   "loc": "AU",
   "provider": "Futzle Industries",
   "monitor": "Deborah Pickett \u003cdebbiep@icemoonprison.com\u003e",
+  "contact": "",
+  "reason": "",
+  "transparent": false
+ },
+ "test-ipv6.csclub.uwaterloo.ca": {
+  "site": "test-ipv6.csclub.uwaterloo.ca",
+  "mirror": true,
+  "hide": false,
+  "v4": "http://ipv4.test-ipv6.csclub.uwaterloo.ca/images-nc/knob_green.png",
+  "v6": "http://ipv6.test-ipv6.csclub.uwaterloo.ca/images-nc/knob_green.png",
+  "loc": "CA",
+  "provider": "University of Waterloo Computer Science Club",
+  "monitor": "systems-committee@csclub.uwaterloo.ca",
   "contact": "",
   "reason": "",
   "transparent": false
@@ -567,19 +580,6 @@ GIGO.sites_parsed={
   "loc": "CL",
   "provider": "Orbyta S.A.",
   "monitor": "javier campos \u003cjaviersource@gmail.com\u003e",
-  "contact": "",
-  "reason": "",
-  "transparent": false
- },
- "test-ipv6.ortgies.it": {
-  "site": "test-ipv6.ortgies.it",
-  "mirror": true,
-  "hide": false,
-  "v4": "http://ipv4.test-ipv6.ortgies.it/images-nc/knob_green.png",
-  "v6": "http://ipv6.test-ipv6.ortgies.it/images-nc/knob_green.png",
-  "loc": "DE",
-  "provider": "Jan-Eric Ortgies",
-  "monitor": "Jan-Eric Ortgies \u003cjaneric@ortgies.it\u003e",
   "contact": "",
   "reason": "",
   "transparent": false
