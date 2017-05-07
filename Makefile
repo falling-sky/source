@@ -134,7 +134,7 @@ prod: pipeline
 i18n: pipeline pofooter
 	@echo Publishing to i18n server | ./support/fold_start.sh $@
 	rsync output/. $(I18N)/.  -a --exclude site --delete -z
-	./support/fold_end.sh $@
+	@./support/fold_end.sh $@
 
 pofooter:
 	echo "Built with latest translations from crowdin.net - " > $(I18N)/site/footer.html
