@@ -714,5 +714,14 @@
          "v4" : "http://ipv4.test-ipv6.csclub.uwaterloo.ca/images-nc/knob_green.png",
          "v6" : "http://ipv6.test-ipv6.csclub.uwaterloo.ca/images-nc/knob_green.png"
       }
-   }
+   },
+      "www.joram.it" : {
+         "hide" : false,
+         "loc" : "IT",
+         "monitor" : "Servizio Partners - Joram.IT <contact@joram.it>",
+         "provider" : "Joram.IT",
+         "site" : "www.joram.it",
+         "v4" : "http://ipv4.joram.it/oggetti/immagini/ipv4.png",
+         "v6" : "http://ipv6.joram.it/oggetti/immagini/ipv6.jpg"
+      }
 }
