@@ -181,6 +181,19 @@
   "reason": "",
   "transparent": false
  },
+ "sixte.st": {
+  "site": "sixte.st",
+  "mirror": true,
+  "hide": false,
+  "v4": "http://ipv4.sixte.st/images-nc/knob_green.png",
+  "v6": "http://ipv6.sixte.st/images-nc/knob_green.png",
+  "loc": "SG",
+  "provider": "Delan Azabani",
+  "monitor": "Delan Azabani \u003cdelan@azabani.com\u003e",
+  "contact": "",
+  "reason": "",
+  "transparent": false
+ },
  "snozzages.com": {
   "site": "snozzages.com",
   "mirror": false,
@@ -320,19 +333,6 @@
   "loc": "CL",
   "provider": "NIC Chile",
   "monitor": "NIC Chile \u003csoporte@nic.cl\u003e",
-  "contact": "",
-  "reason": "",
-  "transparent": false
- },
- "test-ipv6.cmd.net.br": {
-  "site": "test-ipv6.cmd.net.br",
-  "mirror": true,
-  "hide": false,
-  "v4": "http://ipv4.test-ipv6.cmd.net.br/images-nc/knob_green.png",
-  "v6": "http://ipv6.test-ipv6.cmd.net.br/images-nc/knob_green.png",
-  "loc": "BR",
-  "provider": "CMD Informatica",
-  "monitor": "Cesar Scoassabia \u003csuporte@cmd.net.br\u003e",
   "contact": "",
   "reason": "",
   "transparent": false
@@ -503,19 +503,6 @@
   "provider": "Liquid Telecom",
   "monitor": "ipv6@liquidtelecom.com",
   "contact": "Liquid Telecom \u003cipv6@liquidtelecom.com\u003e",
-  "reason": "",
-  "transparent": false
- },
- "test-ipv6.monash.edu": {
-  "site": "test-ipv6.monash.edu",
-  "mirror": true,
-  "hide": false,
-  "v4": "http://ipv4.test-ipv6.monash.edu/images-nc/knob_green.png",
-  "v6": "http://ipv6.test-ipv6.monash.edu/images-nc/knob_green.png",
-  "loc": "AU",
-  "provider": "Monash University",
-  "monitor": "John Mann \u003cJohn.Mann@monash.edu\u003e",
-  "contact": "",
   "reason": "",
   "transparent": false
  },
