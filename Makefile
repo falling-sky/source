@@ -103,6 +103,7 @@ icons::
 	 # For various health checks 
 	 cp images/hires_ok.png images/knob_green.png
 	 cp images/hires_ok.png images/knob_valid_green.png
+	 cp images/hires_info.png images/knob_info.png
 	 for x in 16 32 64 128 152 167 180 192 256; do \
 	   convert ./icons/export/falling-sky-icons/favicon.png -resize $$xx$$x  -background white  -alpha remove -alpha off images/favicon-$$x.png || exit 1 ; \
 	   ls -l images/favicon-$$x.png ; \

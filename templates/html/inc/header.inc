@@ -27,6 +27,10 @@
   <link rel="icon" href="/images/favicon-256.png" sizes="256x256"/> 
   <link rel="icon" href="/images/favicon-192.png" sizes="192x192"/> 
   <link rel="icon" href="/images/favicon-128.png" sizes="128x128"/> 
+  
+  <!-- touch bar -->
+  <link rel="mask-icon" href="website_icon.svg" color="#ff0000"/>
+
 
   <meta property="og:image" content="http://test-ipv6.com/images/snapshot.png" />
 
