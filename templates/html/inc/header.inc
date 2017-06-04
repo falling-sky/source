@@ -16,20 +16,20 @@
   <link rel="SHORTCUT ICON" href="/images/favicon.ico" />
 
   <!-- apple -->
-  <link rel="apple-touch-icon" href="/images/favicon-120.png"/> 
-  <link rel="apple-touch-icon" href="/images/favicon-128.png" sizes="128x128"/> 
-  <link rel="apple-touch-icon" href="/images/favicon-152.png" sizes="152x152"/> 
-  <link rel="apple-touch-icon" href="/images/favicon-167.png" sizes="167x167"/> 
-  <link rel="apple-touch-icon" href="/images/favicon-180.png" sizes="180x180"/> 
-  <link rel="apple-touch-icon" href="/images/favicon-256.png" sizes="256x256"/> 
+  <link rel="apple-touch-icon" href="/images/favicon-120.png?version=[% .GitInfo.Version %]"/> 
+  <link rel="apple-touch-icon" href="/images/favicon-128.png?version=[% .GitInfo.Version %]" sizes="128x128"/> 
+  <link rel="apple-touch-icon" href="/images/favicon-152.png?version=[% .GitInfo.Version %]" sizes="152x152"/> 
+  <link rel="apple-touch-icon" href="/images/favicon-167.png?version=[% .GitInfo.Version %]" sizes="167x167"/> 
+  <link rel="apple-touch-icon" href="/images/favicon-180.png?version=[% .GitInfo.Version %]" sizes="180x180"/> 
+  <link rel="apple-touch-icon" href="/images/favicon-256.png?version=[% .GitInfo.Version %]" sizes="256x256"/> 
   
   <!-- android -->
-  <link rel="icon" href="/images/favicon-256.png" sizes="256x256"/> 
-  <link rel="icon" href="/images/favicon-192.png" sizes="192x192"/> 
-  <link rel="icon" href="/images/favicon-128.png" sizes="128x128"/> 
+  <link rel="icon" href="/images/favicon-256.png?version=[% .GitInfo.Version %]" sizes="256x256"/> 
+  <link rel="icon" href="/images/favicon-192.png?version=[% .GitInfo.Version %]" sizes="192x192"/> 
+  <link rel="icon" href="/images/favicon-128.png?version=[% .GitInfo.Version %]" sizes="128x128"/> 
   
   <!-- touch bar -->
-  <link rel="mask-icon" href="website_icon.svg" color="#ff0000"/>
+  <link rel="mask-icon" href="/images/website_icon.svg?version=[% .GitInfo.Version %]" color="green"/>
 
 
   <meta property="og:image" content="http://test-ipv6.com/images/snapshot.png" />

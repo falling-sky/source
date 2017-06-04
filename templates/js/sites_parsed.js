@@ -129,19 +129,6 @@ GIGO.sites_parsed={
   "reason": "",
   "transparent": false
  },
- "ipv6-test.pl": {
-  "site": "ipv6-test.pl",
-  "mirror": true,
-  "hide": false,
-  "v4": "http://ipv4.ipv6-test.pl/images-nc/knob_green.png",
-  "v6": "http://ipv6.ipv6-test.pl/images-nc/knob_green.png",
-  "loc": "PL",
-  "provider": "Net-Admin",
-  "monitor": "noc@net-admin.pl",
-  "contact": "Net-Admin \u003cipv6@goodhost.eu\u003e",
-  "reason": "",
-  "transparent": false
- },
  "ipv6ready.me": {
   "site": "test-ipv6.epic.network",
   "mirror": true,
@@ -181,19 +168,6 @@ GIGO.sites_parsed={
   "reason": "",
   "transparent": false
  },
- "sixte.st": {
-  "site": "sixte.st",
-  "mirror": true,
-  "hide": false,
-  "v4": "http://ipv4.sixte.st/images-nc/knob_green.png",
-  "v6": "http://ipv6.sixte.st/images-nc/knob_green.png",
-  "loc": "SG",
-  "provider": "Delan Azabani",
-  "monitor": "Delan Azabani \u003cdelan@azabani.com\u003e",
-  "contact": "",
-  "reason": "",
-  "transparent": false
- },
  "snozzages.com": {
   "site": "snozzages.com",
   "mirror": false,
@@ -219,32 +193,6 @@ GIGO.sites_parsed={
   "contact": "",
   "reason": "",
   "transparent": false
- },
- "test-ipv6-ct.comcast.net": {
-  "site": "test-ipv6-ct.comcast.net",
-  "mirror": true,
-  "hide": false,
-  "v4": "http://ipv4.test-ipv6-ct.comcast.net/images-nc/knob_green.png",
-  "v6": "http://ipv6.test-ipv6-ct.comcast.net/images-nc/knob_green.png",
-  "loc": "US",
-  "provider": "Comcast",
-  "monitor": "Comcast IPv6 Team \u003ccomcast-ipv6@cable.comcast.com\u003e",
-  "contact": "",
-  "reason": "",
-  "transparent": true
- },
- "test-ipv6-pa.comcast.net": {
-  "site": "test-ipv6-pa.comcast.net",
-  "mirror": true,
-  "hide": false,
-  "v4": "http://ipv4.test-ipv6-pa.comcast.net/images-nc/knob_green.png",
-  "v6": "http://ipv6.test-ipv6-pa.comcast.net/images-nc/knob_green.png",
-  "loc": "US",
-  "provider": "Comcast",
-  "monitor": "Comcast IPv6 Team \u003ccomcast-ipv6@cable.comcast.com\u003e",
-  "contact": "",
-  "reason": "",
-  "transparent": true
  },
  "test-ipv6.alpinedc.ch": {
   "site": "test-ipv6.alpinedc.ch",
@@ -307,19 +255,6 @@ GIGO.sites_parsed={
   "loc": "AZ",
   "provider": "AZSTARNET LLC",
   "monitor": "Nadir M. Aliyev \u003cnadir@azstarnet.az\u003e",
-  "contact": "",
-  "reason": "",
-  "transparent": false
- },
- "test-ipv6.carnet.hr": {
-  "site": "test-ipv6.carnet.hr",
-  "mirror": true,
-  "hide": false,
-  "v4": "http://ipv4.test-ipv6.carnet.hr/images-nc/knob_green.png",
-  "v6": "http://ipv6.test-ipv6.carnet.hr/images-nc/knob_green.png",
-  "loc": "HR",
-  "provider": "Croatian Academic and Research Network",
-  "monitor": "CARNet \u003csysadm@carnet.hr\u003e",
   "contact": "",
   "reason": "",
   "transparent": false
@@ -389,32 +324,6 @@ GIGO.sites_parsed={
   "reason": "",
   "transparent": false
  },
- "test-ipv6.csclub.uwaterloo.ca": {
-  "site": "test-ipv6.csclub.uwaterloo.ca",
-  "mirror": true,
-  "hide": false,
-  "v4": "http://ipv4.test-ipv6.csclub.uwaterloo.ca/images-nc/knob_green.png",
-  "v6": "http://ipv6.test-ipv6.csclub.uwaterloo.ca/images-nc/knob_green.png",
-  "loc": "CA",
-  "provider": "University of Waterloo Computer Science Club",
-  "monitor": "systems-committee@csclub.uwaterloo.ca",
-  "contact": "",
-  "reason": "",
-  "transparent": false
- },
- "test-ipv6.cz": {
-  "site": "test-ipv6.cz",
-  "mirror": true,
-  "hide": false,
-  "v4": "http://ipv4.test-ipv6.cz/images-nc/knob_green.png",
-  "v6": "http://ipv6.test-ipv6.cz/images-nc/knob_green.png",
-  "loc": "CZ",
-  "provider": "nic.cz",
-  "monitor": "NOC NIC \u003cnoc@nic.cz\u003e",
-  "contact": "",
-  "reason": "",
-  "transparent": false
- },
  "test-ipv6.epic.network": {
   "site": "test-ipv6.epic.network",
   "mirror": true,
@@ -437,19 +346,6 @@ GIGO.sites_parsed={
   "loc": "IN",
   "provider": "IPv6 Division of ERNET India",
   "monitor": "praveen.misra@eis.ernet.in",
-  "contact": "",
-  "reason": "",
-  "transparent": false
- },
- "test-ipv6.fratec.net": {
-  "site": "test-ipv6.fratec.net",
-  "mirror": true,
-  "hide": false,
-  "v4": "http://ipv4.test-ipv6.fratec.net/images-nc/knob_green.png",
-  "v6": "http://ipv6.test-ipv6.fratec.net/images-nc/knob_green.png",
-  "loc": "CR",
-  "provider": "Sistemas Fratec S.A.",
-  "monitor": "Jorge Frater \u003cjfrater@fratec.com\u003e",
   "contact": "",
   "reason": "",
   "transparent": false
@@ -480,19 +376,6 @@ GIGO.sites_parsed={
   "reason": "",
   "transparent": false
  },
- "test-ipv6.hu": {
-  "site": "test-ipv6.hu",
-  "mirror": true,
-  "hide": false,
-  "v4": "http://ipv4.test-ipv6.hu/images-nc/knob_green.png",
-  "v6": "http://ipv6.test-ipv6.hu/images-nc/knob_green.png",
-  "loc": "HU",
-  "provider": "Polaris-N Systems",
-  "monitor": "Polaris-N Systems \u003cinfo@polaris-n.hu\u003e",
-  "contact": "",
-  "reason": "",
-  "transparent": false
- },
  "test-ipv6.jp": {
   "site": "test-ipv6.jp",
   "mirror": true,
@@ -519,19 +402,6 @@ GIGO.sites_parsed={
   "reason": "",
   "transparent": false
  },
- "test-ipv6.monash.edu": {
-  "site": "test-ipv6.monash.edu",
-  "mirror": true,
-  "hide": false,
-  "v4": "http://ipv4.test-ipv6.monash.edu/images-nc/knob_green.png",
-  "v6": "http://ipv6.test-ipv6.monash.edu/images-nc/knob_green.png",
-  "loc": "AU",
-  "provider": "Monash University",
-  "monitor": "John Mann \u003cJohn.Mann@monash.edu\u003e",
-  "contact": "",
-  "reason": "",
-  "transparent": false
- },
  "test-ipv6.netiter.dk": {
   "site": "test-ipv6.netiter.dk",
   "mirror": false,
@@ -541,19 +411,6 @@ GIGO.sites_parsed={
   "loc": "DE",
   "provider": "Netiter ApS",
   "monitor": "Netiter Aps \u003ckontakt@netiter.dk\u003e",
-  "contact": "",
-  "reason": "",
-  "transparent": false
- },
- "test-ipv6.nl": {
-  "site": "test-ipv6.nl",
-  "mirror": true,
-  "hide": false,
-  "v4": "http://ipv4.test-ipv6.nl/images-nc/knob_green.png",
-  "v6": "http://ipv6.test-ipv6.nl/images-nc/knob_green.png",
-  "loc": "NL",
-  "provider": "BIT BV",
-  "monitor": "Teun Vink \u003cteun@bit.nl\u003e",
   "contact": "",
   "reason": "",
   "transparent": false
@@ -584,19 +441,6 @@ GIGO.sites_parsed={
   "reason": "",
   "transparent": false
  },
- "test-ipv6.orbyta.com": {
-  "site": "test-ipv6.orbyta.com",
-  "mirror": true,
-  "hide": false,
-  "v4": "http://ipv4.test-ipv6.orbyta.com/images-nc/knob_green.png",
-  "v6": "http://ipv6.test-ipv6.orbyta.com/images-nc/knob_green.png",
-  "loc": "CL",
-  "provider": "Orbyta S.A.",
-  "monitor": "javier campos \u003cjaviersource@gmail.com\u003e",
-  "contact": "",
-  "reason": "",
-  "transparent": false
- },
  "test-ipv6.polkam.go.id": {
   "site": "test-ipv6.polkam.go.id",
   "mirror": true,
@@ -623,32 +467,6 @@ GIGO.sites_parsed={
   "reason": "",
   "transparent": false
  },
- "test-ipv6.roedu.net": {
-  "site": "test-ipv6.roedu.net",
-  "mirror": true,
-  "hide": false,
-  "v4": "http://ipv4.test-ipv6.roedu.net/images-nc/knob_green.png",
-  "v6": "http://ipv6.test-ipv6.roedu.net/images-nc/knob_green.png",
-  "loc": "RO",
-  "provider": "RoEduNet",
-  "monitor": "IPv6 @ RoEduNet \u003cipv6@roedu.net\u003e",
-  "contact": "",
-  "reason": "",
-  "transparent": false
- },
- "test-ipv6.se": {
-  "site": "test-ipv6.se",
-  "mirror": true,
-  "hide": false,
-  "v4": "http://ipv4.test-ipv6.se/images-nc/knob_green.png",
-  "v6": "http://ipv6.test-ipv6.se/images-nc/knob_green.png",
-  "loc": "SE",
-  "provider": "Interlan Gefle AB",
-  "monitor": "torbjorn.eklov@interlan.se \u003ctorbjorn.eklov@interlan.se\u003e",
-  "contact": "",
-  "reason": "",
-  "transparent": false
- },
  "test-ipv6.showmyip.ca": {
   "site": "test-ipv6.showmyip.ca",
   "mirror": true,
@@ -662,19 +480,6 @@ GIGO.sites_parsed={
   "reason": "",
   "transparent": false
  },
- "test-ipv6.si": {
-  "site": "test-ipv6.si",
-  "mirror": true,
-  "hide": false,
-  "v4": "http://ipv4.test-ipv6.si/images-nc/knob_green.png",
-  "v6": "http://ipv6.test-ipv6.si/images-nc/knob_green.png",
-  "loc": "SI",
-  "provider": "Damjan Sirnik",
-  "monitor": "Damjan Sirnik \u003cdamjan@sirnik.si\u003e",
-  "contact": "",
-  "reason": "",
-  "transparent": false
- },
  "test-ipv6.sin.vr.org": {
   "site": "test-ipv6.sin.vr.org",
   "mirror": true,
@@ -684,19 +489,6 @@ GIGO.sites_parsed={
   "loc": "SG",
   "provider": "vr.org",
   "monitor": "jfesler@gigo.com",
-  "contact": "",
-  "reason": "",
-  "transparent": false
- },
- "test-ipv6.tld.sk": {
-  "site": "test-ipv6.tld.sk",
-  "mirror": true,
-  "hide": false,
-  "v4": "http://ipv4.test-ipv6.tld.sk/images-nc/knob_green.png",
-  "v6": "http://ipv6.test-ipv6.tld.sk/images-nc/knob_green.png",
-  "loc": "SK",
-  "provider": "Sk-nic",
-  "monitor": "\"SK-NIC, a.s.\" \u003chostmaster@sk-nic.sk\u003e",
   "contact": "",
   "reason": "",
   "transparent": false
