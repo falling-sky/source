@@ -25,7 +25,7 @@ GIGO.test_type_delayed = function (url, id) {
     // Since javascript has no "sleep" the next best
     // thing appears to be to set a timeout, and on timeout,
     // do what we really wanted.
-    // We increase the timeout value each time we run this, so 
+    // We increase the timeout value each time we run this, so
     // that each thread time_ms out at a later time, to prevent
     // all tests from running INSTANTLY.
     // This is principally to work around IE problems
@@ -51,7 +51,7 @@ GIGO.finish_test = function (id) {
 
 
 GIGO.test_type_json = function (url, id) {
-    // name = dns name to fetch 
+    // name = dns name to fetch
     // id = which <div> to update
     var tests, this_test;
 
@@ -68,13 +68,13 @@ GIGO.test_type_json = function (url, id) {
     }
 
 
-    tests = GIGO.results.tests; // Convenience    
+    tests = GIGO.results.tests; // Convenience
     if (!(tests.hasOwnProperty(id))) {
         tests[id] = {};
     }
     this_test = tests[id];
 
-    this_test.start_time = GIGO.getms(); // Will use to find how long we ran 
+    this_test.start_time = GIGO.getms(); // Will use to find how long we ran
     this_test.url = url; // For later display of test urls
     // Update status to "Started" if we don't have any time for this yet
 
@@ -202,7 +202,7 @@ GIGO.test_type_json = function (url, id) {
 };
 
 GIGO.test_type_json_only = function (url, id) {
-    // name = dns name to fetch 
+    // name = dns name to fetch
     // id = which <div> to update
     var tests, this_test;
 
@@ -219,13 +219,13 @@ GIGO.test_type_json_only = function (url, id) {
 
 
 
-    tests = GIGO.results.tests; // Convenience    
+    tests = GIGO.results.tests; // Convenience
     if (!(tests.hasOwnProperty(id))) {
         tests[id] = {};
     }
     this_test = tests[id];
 
-    this_test.start_time = GIGO.getms(); // Will use to find how long we ran 
+    this_test.start_time = GIGO.getms(); // Will use to find how long we ran
     this_test.url = url; // For later display of test urls
     // Update status to "Started" if we don't have any time for this yet
     GIGO.update_url(id);
@@ -328,12 +328,12 @@ GIGO.test_type_json_only = function (url, id) {
 
 
 GIGO.test_buggydns1 = function (url, id) {
-    // name = dns name to fetch 
+    // name = dns name to fetch
     // id = which <div> to update
     var tests, this_test, img, img_pending, max_time;
     jQuery(".optional_buggydns1").show();
 
-    max_time = (GIGO.max_time > 5000) ? 5000 : GIGO.max_time; // Shorten this test. 
+    max_time = (GIGO.max_time > 5000) ? 5000 : GIGO.max_time; // Shorten this test.
     if (url.search(/\?/) < 0) {
           url = url + "?";
     }
@@ -344,25 +344,25 @@ GIGO.test_buggydns1 = function (url, id) {
     }
 
 
-    tests = GIGO.results.tests; // Convenience    
+    tests = GIGO.results.tests; // Convenience
     if (!(tests.hasOwnProperty(id))) {
         tests[id] = {};
     }
     this_test = tests[id];
 
-    this_test.start_time = GIGO.getms(); // Will use to find how long we ran 
+    this_test.start_time = GIGO.getms(); // Will use to find how long we ran
     this_test.url = url; // For later display of test urls
     // Update status to "Started" if we don't have any time for this yet
     GIGO.update_url(id);
 
     // Create image.
-    // Attach handlers to the image.   
+    // Attach handlers to the image.
     // Create a timer to artificially timeout imgs
     img_pending = 1;
 
     img = jQuery('<img style="display:none" />');
 
-    // INVERSE LOGIC HERE !!! 
+    // INVERSE LOGIC HERE !!!
     jQuery(img).bind({
         load: function () {
             var delta;
@@ -400,7 +400,7 @@ GIGO.test_buggydns1 = function (url, id) {
         }
     });
 
-    // FAKE IMAGE TIMEOUT HANDLER 
+    // FAKE IMAGE TIMEOUT HANDLER
     setTimeout(function () {
         var delta;
         if (img_pending) {
@@ -408,7 +408,8 @@ GIGO.test_buggydns1 = function (url, id) {
             // replace failing image url with one that should work, so that browser can call this done.
             // we tried setting to "" but safari at minimum treats that as replacing src
             // with the value of document.location (!).
-            jQuery(img).attr("src", "/images/knob_red.png");
+            jQuery(img).addClass("emish");
+            jQuery(img).attr("src", "/images/hires_bad.png");
 
             delta = GIGO.getms() - this_test.start_time;
             if (GIGO.isdef(this_test.time_ms)) {
@@ -425,7 +426,7 @@ GIGO.test_buggydns1 = function (url, id) {
     }, max_time);
 
 
-    //jQuery('body').append(img);        
+    //jQuery('body').append(img);
     jQuery(img).attr("src", url);
 
     // Perform callback for presentation
@@ -434,7 +435,7 @@ GIGO.test_buggydns1 = function (url, id) {
 };
 
 GIGO.test_type_img = function (url, id) {
-    // name = dns name to fetch 
+    // name = dns name to fetch
     // id = which <div> to update
     var tests, this_test, img, img_pending;
 
@@ -447,19 +448,19 @@ GIGO.test_type_img = function (url, id) {
             url = url + "&random=" + Math.random();
     }
 
-    tests = GIGO.results.tests; // Convenience    
+    tests = GIGO.results.tests; // Convenience
     if (!(tests.hasOwnProperty(id))) {
         tests[id] = {};
     }
     this_test = tests[id];
 
-    this_test.start_time = GIGO.getms(); // Will use to find how long we ran 
+    this_test.start_time = GIGO.getms(); // Will use to find how long we ran
     this_test.url = url; // For later display of test urls
     // Update status to "Started" if we don't have any time for this yet
     GIGO.update_url(id);
 
     // Create image.
-    // Attach handlers to the image.   
+    // Attach handlers to the image.
     // Create a timer to artificially timeout imgs
     img_pending = 1;
 
@@ -506,7 +507,7 @@ GIGO.test_type_img = function (url, id) {
         }
     });
 
-    // FAKE IMAGE TIMEOUT HANDLER 
+    // FAKE IMAGE TIMEOUT HANDLER
     setTimeout(function () {
         var delta;
         if (img_pending) {
@@ -514,7 +515,8 @@ GIGO.test_type_img = function (url, id) {
             // replace failing image url with one that should work, so that browser can call this done.
             // we tried setting to "" but safari at minimum treats that as replacing src
             // with the value of document.location (!).
-            jQuery(img).attr("src", "/images/knob_red.png");
+            jQuery(img).addClass("emish");
+            jQuery(img).attr("src", "/images/hires_bad.png");
 
             delta = GIGO.getms() - this_test.start_time;
             if (GIGO.isdef(this_test.time_ms)) {
@@ -531,7 +533,7 @@ GIGO.test_type_img = function (url, id) {
     }, GIGO.max_time);
 
 
-    //jQuery('body').append(img);        
+    //jQuery('body').append(img);
     jQuery(img).attr("src", url);
 
     // Perform callback for presentation
@@ -553,7 +555,7 @@ GIGO.next_in_queue = function () {
         a = GIGO.queue.shift(); // Dequeue the next test.
         GIGO.dequeued.push(a.slice(0)); // Save a COPY.
         try {
-            fname = a.shift(); // Remove first field, the function name (in the GIGO namespace).  This changes array "a".           
+            fname = a.shift(); // Remove first field, the function name (in the GIGO namespace).  This changes array "a".
         } catch (e) {
             alert("ERROR: GIGO.next_in_queue: not an array; value=" + a);
         }
@@ -573,7 +575,7 @@ GIGO.next_in_queue = function () {
 
 GIGO.start_tests = function () {
     GIGO.browser_tweaks(GIGO); // In case we want to do tweak the document
-    GIGO.next_in_queue(); // Get the ball rolling!  
+    GIGO.next_in_queue(); // Get the ball rolling!
 };
 GIGO.restart_tests = function () {
     var i, l;
@@ -589,7 +591,7 @@ GIGO.restart_tests = function () {
 
 GIGO.setup_tests = function () {
 
-    asn_lookup_broken = 0
+    var asn_lookup_broken = 0;
     if (asn_lookup_broken) {
       jQuery('#sum_test_asn4').parent().parent().hide();
       jQuery('#sum_test_asn6').parent().parent().hide();
@@ -636,9 +638,9 @@ GIGO.set_default_options = function (options) {
     options.ipv6 = GIGO.mirrorconfig("load", "ipv6", null);
     options.uri = GIGO.mirrorconfig("options", "ip", "/ip/") + "?callback=?";
     options.img_uri = "/images-nc/bg.gif";
-    options.img_uri_big = "/images-nc/knob_valid_green.png?&fill=" + GIGO.fill(1600, "x");
-    options.img_bad_uri = "/images-nc/knob_cancel.png";
-    
+    options.img_uri_big = "/images-nc/hires_ok.png?&fill=" + GIGO.fill(1600, "x");
+    options.img_bad_uri = "/images-nc/hires_bad.png";
+
     // Determine if we can use an alternate v6mtu defined by the site config (options -> v6mtu)
 //    options.v6mtu = GIGO.mirrorconfig("options","v6mtu","ipv6." + options.subdomain);
 

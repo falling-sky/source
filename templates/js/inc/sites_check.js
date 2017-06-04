@@ -2,23 +2,22 @@
 /*jslint browser: true */
 
 
-/* Need to vary this a bit.  
+/* Need to vary this a bit.
 
 Each host should:
 
   try IPv4.
   try IPv4 again, if needed.
-  On success, 
-  
+  On success,
+
     try IPv6.
     try IPv6 again, if needed.
-    
+
 The icky part is the "if needed".
 
 */
 
 
-GIGO.sites_image_size = 24;
 
 GIGO.url_to_hash = function (url) {
     var hash;
@@ -191,12 +190,12 @@ GIGO.sites_init = function () {
 
 GIGO.sites_queue_entry = function (r) {
     if (!r.v4) {
-        r.v4 = "http://ipv4." + r.site + "/images-nc/knob_valid_green.png";
+        r.v4 = "http://ipv4." + r.site + "/images-nc/hires_ok.png";
     }
     if (!r.v6) {
-        r.v6 = "http://ipv6." + r.site + "/images-nc/knob_valid_green.png";
+        r.v6 = "http://ipv6." + r.site + "/images-nc/hires_ok.png";
     }
-    
+
     // Mark up r.v4 for site analytics
     if (r.v4.search(/\?/)<0) {
       r.v4 = r.v4 + "?";
@@ -205,26 +204,27 @@ GIGO.sites_queue_entry = function (r) {
       r.v6 = r.v6 + "?";
     }
 
-    // This might actually fail; the mirrors page does 
+    // This might actually fail; the mirrors page does
     // not load GIGO.options.domain .
-    try { 
+    try {
       r.v4 = r.v4 + "&testdomain=" + GIGO.options.domain;
       r.v6 = r.v6 + "&testdomain=" + GIGO.options.domain;
     } catch (e) {
       r.v4 = r.v4 + "&testdomain=" + document.location.hostname;
       r.v6 = r.v6 + "&testdomain=" + document.location.hostname;
-    };
+    }
+
     r.v4 = r.v4 + "&testname=sites";
     r.v6 = r.v6 + "&testname=sites";
-    
+
     GIGO.sites_queue.push(r);
 };
 
 GIGO.sites_queue_all = function (mode) {
     var r, siteName;
-    
+
     // mirrors only if mode=1
-    // all sites if mode=2 
+    // all sites if mode=2
     for (siteName in GIGO.sites_parsed) {
       r = GIGO.sites_parsed[siteName];
       if (mode === 1) {
@@ -232,7 +232,7 @@ GIGO.sites_queue_all = function (mode) {
       }
       GIGO.sites_queue_entry(r);
     }
-    
+
 };
 
 GIGO.sites_prepare_helpdesk = function (mode) {
@@ -345,15 +345,11 @@ GIGO.sites_display_add_record = function (r, mode) {
     td_provider = $("<td>").append(td_provider_div);
 
     td_status = $("<td>").append($("<img>", {
-        src: "/images/spinner.gif",
-        height: GIGO.sites_image_size,
-        width: GIGO.sites_image_size
-    }).css("opacity", "0.1").css("filter", "alpha(opacity=10)"));
+        src: "/images/hires_spinner.gif"
+    }).addClass("emish").css("opacity", "0.1").css("filter", "alpha(opacity=10)"));
     td_info = $("<td>").append($("<img>", {
-        src: "/images/knob_info.png",
-        height: GIGO.sites_image_size,
-        width: GIGO.sites_image_size
-    }));
+        src: "/images/hires_info.png"
+    }).addClass("emish"));
 
 
     td_info.click(function () {
@@ -372,10 +368,7 @@ GIGO.sites_display_add_record = function (r, mode) {
 
         // This should be done with jquery to avoid any potential abuse in mirrors.js, but
         // I can't find the right incantation.
-        mirror_button = $("<a target='" + r.site + "' href='http://" + r.site + "'><img border=0 src='/images/knob_play.png'/></a>");
-        mirror_button.find("img").attr("width", GIGO.sites_image_size);
-        mirror_button.find("img").attr("height", GIGO.sites_image_size);
-
+        mirror_button = $("<a target='" + r.site + "' href='http://" + r.site + "'><img border=0 class=emish src='/images/hires_link.png'/></a>");
         td_mirror = $("<td>").append(mirror_button);
     } else {
         td_mirror = $("<td>").html("&nbsp;");
@@ -389,12 +382,9 @@ GIGO.sites_display_add_record = function (r, mode) {
     } else if (mode === 2) {
         tr.append(td_link, td_loc, td_provider, td_status, td_info, td_mirror);
     } else {
-        return; // We should have had plenty of alerts already. 
+        return; // We should have had plenty of alerts already.
     }
 
-    //<img src="/images/spinner.gif" style="display:none" alt="preload" />
-    //<img src="/images/knob_valid_green.png" style="display:none" alt="preload" />
-    //<img src="/images/knob_cancel.png" style="display:none" alt="preload" />
     $('#sites > tbody:last').append(tr);
     $('#sites').find('tbody:last').append(tr);
 
@@ -415,10 +405,8 @@ GIGO.sites_display_add_record = function (r, mode) {
 GIGO.sites_display_success = function (r) {
     var new_td;
     new_td = $("<td>").append($("<img>", {
-        src: "/images/knob_valid_green.png",
-        height: GIGO.sites_image_size,
-        width: GIGO.sites_image_size
-    }));
+        src: "/images/hires_ok.png"
+    }).addClass("emish"));
     r.refs.td_status.replaceWith(new_td);
     GIGO.helpdesk.other_sites.finished = GIGO.helpdesk.other_sites.finished + 1;
     GIGO.helpdesk.other_sites.good.push(r);
@@ -427,10 +415,8 @@ GIGO.sites_display_success = function (r) {
 GIGO.sites_display_failure = function (r) {
     var new_td;
     new_td = $("<td>").append($("<img>", {
-        src: "/images/knob_cancel.png",
-        height: GIGO.sites_image_size,
-        width: GIGO.sites_image_size
-    }));
+        src: "/images/hires_bad.png"
+    }).addClass("emish"));
     r.refs.td_status.replaceWith(new_td);
     GIGO.helpdesk.other_sites.finished = GIGO.helpdesk.other_sites.finished + 1;
     GIGO.helpdesk.other_sites.bad.push(r);
@@ -440,10 +426,8 @@ GIGO.sites_display_failure = function (r) {
 GIGO.sites_display_giveup = function (r) {
     var new_td;
     new_td = $("<td>").append($("<img>", {
-        src: "/images/knob_graphite.png",
-        height: GIGO.sites_image_size,
-        width: GIGO.sites_image_size
-    }));
+        src: "/images/hires_offline.png"
+    }).addClass("emish"));
     r.refs.td_status.replaceWith(new_td);
     GIGO.sites_display_td_provider_div_update(r, "IPv4 site down, skipping IPv6 test");
     GIGO.helpdesk.other_sites.finished = GIGO.helpdesk.other_sites.finished + 1;
@@ -485,7 +469,7 @@ GIGO.sites_start_ipv6_take2 = function (r) {
         // We have a freshly incremented "id".
         // What we need now is to start an image
         // with handlers on it.
-        // Finalize the URL.  
+        // Finalize the URL.
         // Include a random number to defeat the browser cache.
 
         // Create the image object.
@@ -544,7 +528,7 @@ GIGO.sites_start_ipv6 = function (r) {
     // We have a freshly incremented "id".
     // What we need now is to start an image
     // with handlers on it.
-    // Finalize the URL.  
+    // Finalize the URL.
     // Include a random number to defeat the browser cache.
     url = r.v6 + "?nocache=" + Math.random();
 
@@ -672,7 +656,7 @@ GIGO.sites_start_ipv4 = function (r) {
     url = r.v4 + "?nocache=" + Math.random();
     img = jQuery('<img style="display:none" />');
     img_pending = 1;
-    
+
 
     jQuery(img).bind({
         load: function () {

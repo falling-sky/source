@@ -254,3 +254,19 @@ div.graph {
 }
 /*.dygraph-title { font-size: 36px; text-shadow: gray 2px 2px 2px; }*/
 /*.dygraph-ylabel { font-size: 18px; text-shadow: gray -2px 2px 2px; }*/
+
+
+/*  Start including hires icons; match icon size to text size. */
+
+img.em1 {
+  height: 1em;
+  width: auto;
+}
+img.em2 {
+  height: 2em;
+  width: auto;
+}
+img.emish {
+  height: 2em;
+  width: auto;
+}

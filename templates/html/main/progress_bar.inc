@@ -2,7 +2,7 @@
 <table class="results_wrapper proress_bar" summary="progress bar" style="display:block">
 <tr>
   <td class="results_left"><p style="margin: 0;">
-  <img src="/images/spinner.gif" alt="spinning image"/>
+  <img class=emish src="/images/hires_spinner.gif" alt="spinning image"/>
   </p></td>
   <td class="results_right"><span class="pb1_text"> &nbsp; </span></td>
 </tr>

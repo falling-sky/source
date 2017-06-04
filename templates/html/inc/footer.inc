@@ -6,11 +6,11 @@
 <!-- <a href="mission.html">{{ Mission }}</a> | -->
  <a href="https://github.com/falling-sky/source/wiki">{{ Source }}</a> |
  <a href="mailto:jfesler@test-ipv6.com?subject=test-ipv6.com">{{ Email }}</a>
- - &nbsp; - 
+ - &nbsp; -
 <a href="attributions.html">{{ Attributions }}</a>
-[% if eq $page "index" %]  
+[% if eq $page "index" %]
 <span class="ghost">
-  |  <a href="#" onclick=" GIGO.showdebug(); return false;">Debug</a> 
+  |  <a href="#" onclick=" GIGO.showdebug(); return false;">Debug</a>
 </span>
 [% end %]
 
@@ -18,8 +18,8 @@
   |
 
 <a href="#" onclick="return help_page('locale.html','Locale')">
-<img src="/images/icon_987_red.png" height="20" border="0" />
-{{locale}} 
+<img src="/images/icon_987_red.png" class="em1" border="0" />
+{{locale}}
 </a>
 {{percenttranslated}}
 

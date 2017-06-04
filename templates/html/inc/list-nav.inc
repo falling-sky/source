@@ -1,17 +1,17 @@
 <div id="navcontainer">
 <ul id="navlist">
 
-<li><a href="/" 
+<li><a href="/"
 [% if eq $page "index" %] id="current" [% end %]>{{Test IPv6}}</a></li>
 
 
 
-<li><a href="/faq.html" 
+<li><a href="/faq.html"
 [% if eq $page "faq" %] id="current" [% end %]>{{FAQ}}</a></li>
 
 
 
-<li><a href="/mirrors.html" 
+<li><a href="/mirrors.html"
 [% if eq $page "mirrors" %] id="current" [% end %]>{{Mirrors}}</a></li>
 
 
@@ -45,9 +45,8 @@ id="current">[% $page %]</a></li>
 
 <div class="navright">
 <a href="/locale.html">
-<img src="/images/icon_987_red.png" height="32" border="0" />
+<img src="/images/icon_987_red.png" class=em2 border="0" />
 </a>
 </div>
 
 </div>
-

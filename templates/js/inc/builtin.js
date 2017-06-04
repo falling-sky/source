@@ -96,16 +96,16 @@ GIGO.results_table_wrapper = function (color, text) {
 
     switch (color) {
     case "green":
-        table = table + '<img src="/images/knob_valid_green.png"/>';
+        table = table + '<img class=emish src="/images/hires_ok.png"/>';
         break;
     case "red":
-        table = table + '<img src="/images/knob_cancel.png"/>';
+        table = table + '<img class=emish src="/images/hires_bad.png"/>';
         break;
     case "blue":
-        table = table + '<img src="/images/knob_info.png"/>';
+        table = table + '<img class=emish src="/images/hires_info.png"/>';
         break;
     case "orange":
-        table = table + '<img src="/images/knob_attention.png"/>';
+        table = table + '<img class=emish src="/images/hires_attention.png"/>';
         break;
     default:
         table = table + "&nbsp;";
@@ -292,7 +292,7 @@ GIGO.send_survey_global = function (tokens) {
   // Only if we are in transparent mode..
   if (MirrorConfig.orig_options) {
     if (MirrorConfig.options.survey !== MirrorConfig.orig_options.survey  ||
-     MirrorConfig.options.userdata !== MirrorConfig.orig_options.userdata ) { 
+     MirrorConfig.options.userdata !== MirrorConfig.orig_options.userdata ) {
         MirrorConfig.options.survey = MirrorConfig.orig_options.survey;
         MirrorConfig.options.userdata =  MirrorConfig.orig_options.userdata;
         GIGO.send_survey(tokens);
@@ -560,7 +560,7 @@ GIGO.help_popup = function (file, tabname, popup) {
         lfile = file + '.{{locale}}';
 
 
-        jQuery(handle).html("{{loading...}}"); // Loading indicator.    
+        jQuery(handle).html("{{loading...}}"); // Loading indicator.
         jQuery(handle).load(lfile + " #content", function (responseText, textStatus) {
             if (textStatus !== 'success') {
                 jQuery(handle).html("{{failed to load}}" + " " + lfile);

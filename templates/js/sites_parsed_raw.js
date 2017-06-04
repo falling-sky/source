@@ -55,8 +55,8 @@
   "site": "chelloo.nl",
   "mirror": false,
   "hide": false,
-  "v4": "https://ipv4.chelloo.nl/images/pixel.gif",
-  "v6": "https://ipv6.chelloo.nl/images/pixel.gif",
+  "v4": "https://ipv4.ziggoforum.nl/images/pixel.gif",
+  "v6": "https://ipv6.ziggoforum.nl/images/pixel.gif",
   "loc": "NL",
   "provider": "Chelloo",
   "monitor": "Rene Kemp \u003crene.kemp@outlook.com\u003e",
@@ -337,6 +337,19 @@
   "reason": "",
   "transparent": false
  },
+ "test-ipv6.cmd.net.br": {
+  "site": "test-ipv6.cmd.net.br",
+  "mirror": true,
+  "hide": false,
+  "v4": "http://ipv4.test-ipv6.cmd.net.br/images-nc/knob_green.png",
+  "v6": "http://ipv6.test-ipv6.cmd.net.br/images-nc/knob_green.png",
+  "loc": "BR",
+  "provider": "CMD Informatica",
+  "monitor": "Cesar Scoassabia \u003csuporte@cmd.net.br\u003e",
+  "contact": "",
+  "reason": "",
+  "transparent": false
+ },
  "test-ipv6.co.za": {
   "site": "test-ipv6.co.za",
   "mirror": true,
@@ -503,6 +516,19 @@
   "provider": "Liquid Telecom",
   "monitor": "ipv6@liquidtelecom.com",
   "contact": "Liquid Telecom \u003cipv6@liquidtelecom.com\u003e",
+  "reason": "",
+  "transparent": false
+ },
+ "test-ipv6.monash.edu": {
+  "site": "test-ipv6.monash.edu",
+  "mirror": true,
+  "hide": false,
+  "v4": "http://ipv4.test-ipv6.monash.edu/images-nc/knob_green.png",
+  "v6": "http://ipv6.test-ipv6.monash.edu/images-nc/knob_green.png",
+  "loc": "AU",
+  "provider": "Monash University",
+  "monitor": "John Mann \u003cJohn.Mann@monash.edu\u003e",
+  "contact": "",
   "reason": "",
   "transparent": false
  },
@@ -788,6 +814,19 @@
   "loc": "DE",
   "provider": "Heise",
   "monitor": "Johannes Endres, c't \u003cje@heise.de\u003e",
+  "contact": "",
+  "reason": "",
+  "transparent": false
+ },
+ "www.joram.it": {
+  "site": "www.joram.it",
+  "mirror": false,
+  "hide": false,
+  "v4": "http://ipv4.joram.it/oggetti/immagini/ipv4.png",
+  "v6": "http://ipv6.joram.it/oggetti/immagini/ipv6.jpg",
+  "loc": "IT",
+  "provider": "Joram.IT",
+  "monitor": "Servizio Partners - Joram.IT \u003ccontact@joram.it\u003e",
   "contact": "",
   "reason": "",
   "transparent": false

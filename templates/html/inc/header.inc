@@ -10,9 +10,24 @@
 [% end %]
   <meta name="keywords" content="test,ipv4,ipv6,isp" />
   <meta name="y_key" content="6a3ded130c3ff129" />
-  <link rel="SHORTCUT ICON" href="http://test-ipv6.com/images/favicon.ico" />
   <link rel="stylesheet" href="/index.css?version=[% .GitInfo.Version %]" type="text/css" />
-  <link rel="apple-touch-icon" href="/images/knob_info.png"/> 
+
+  <!-- generic -->
+  <link rel="SHORTCUT ICON" href="/images/favicon.ico" />
+
+  <!-- apple -->
+  <link rel="apple-touch-icon" href="/images/favicon-120.png"/> 
+  <link rel="apple-touch-icon" href="/images/favicon-128.png" sizes="128x128"/> 
+  <link rel="apple-touch-icon" href="/images/favicon-152.png" sizes="152x152"/> 
+  <link rel="apple-touch-icon" href="/images/favicon-167.png" sizes="167x167"/> 
+  <link rel="apple-touch-icon" href="/images/favicon-180.png" sizes="180x180"/> 
+  <link rel="apple-touch-icon" href="/images/favicon-256.png" sizes="256x256"/> 
+  
+  <!-- android -->
+  <link rel="icon" href="/images/favicon-256.png" sizes="256x256"/> 
+  <link rel="icon" href="/images/favicon-192.png" sizes="192x192"/> 
+  <link rel="icon" href="/images/favicon-128.png" sizes="128x128"/> 
+
   <meta property="og:image" content="http://test-ipv6.com/images/snapshot.png" />
 
    <script type="text/javascript"  src="/site/config.js?version=[% .GitInfo.Version %]"></script>
@@ -34,7 +49,7 @@ BrowserName="IE6";
 //  make same function load entire document with real headers
 function help_page (url,text) {
   console.log("help_page")
-  
+
   if(document.getElementById("is_index_page") !== null) {
       console.log("help_page using help_popup");
       GIGO.help_popup(url,text);
@@ -50,4 +65,3 @@ function help_page (url,text) {
 </head>
 
 <body>
-
