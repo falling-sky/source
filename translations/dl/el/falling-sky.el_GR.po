@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2017-01-24 00:30-0500\n"
+"PO-Revision-Date: 2017-05-26 16:30-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Greek\n"
 "MIME-Version: 1.0\n"
@@ -1494,15 +1494,15 @@ msgstr "Q: Γιατί αυτή η σελίδα είναι προσβάσιμη �
 msgid "You're right, there are no AAAA records, intentionally. A percentage of users are unable to browse sites that are dual-stack. If the users can't connect, then they can't be told they have a problem. This is a big problem facing content providers today; of which, I work at one for my &#36;dayjob. As such, the main test page requires IPv4 (either native or translated)."
 msgstr "Σωστά, δεν υπάρχουν ΑΑΑΑ εγγραφές, ωστόσο εκ προθέσεως. Ένα ποσοστό χρηστών αδυνατούν να προσπελάσουν dual-stack σελίδες, επομένως, μη μπορώντας να συνδεθούν, είναι αδύνατο να καταλάβουν ότι έχουν πρόβλημα. Αυτό είναι ένα μεγάλο θέμα που αντιμετωπίζουν σήμερα οι πάροχοι περιεχομένου· σε έναν εκ των οποίων ο ίδιος απασχολούμαι. Συνεπώς, η κύρια σελίδα δοκιμών απαιτεί IPv4 (native ή translated)."
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "At some point, when the percentage of \"broken\" users has gone significantly down, I'll consider making test-ipv6.com dual-stack. At least check, May 2013, we still see 0.5% broken visiting test-ipv6.com. And we still want them to understand their situation."
 msgstr ""
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Q: How do I test my IPv6-only host"
 msgstr "Q: Πώς να ελέγξω τον υπολογιστή μου, που χρησιμοποιεί μόνο IPv6"
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "If you ask that question, chances are you don't need this site. However, if you really want to, visit <a href= \"http://ipv6.test-ipv6.com\">http://ipv6.test-ipv6.com</a> with your IPv6-only host."
 msgstr "Απ' τη στιγμή που ρωτάτε κάτι τέτοιο, το πιθανότερο είναι να μη χρειάζεστε αυτή τη σελίδα. Αν παρά ταύτα επιθυμείτε, επισκεφτείτε το <a href=\"ipv6.test-ipv6.com\">http://ipv6.test-ipv6.com</a>."
 
@@ -2752,5 +2752,21 @@ msgstr ""
 
 #: "stats.html"
 msgid "<span lookup=\"site.name\">site</span> statistics"
+msgstr ""
+
+#: "faq.html"
+msgid "Q: I run a production IPv6-only network. Without IPv4. My users can't reach test-ipv6.com."
+msgstr ""
+
+#: "faq.html"
+msgid "Send email to jfesler@test-ipv6.com. If your IPv6-only network has dedicated name servers, or a dedicated BGP ASN, jfesler will enable AAAA records for test-ipv6.com for you."
+msgstr ""
+
+#: "faq.html"
+msgid "If you don't meet the above requirements, you can visit http://ipv6.test-ipv6.com (IPv6-only) or http://ds.test-ipv6.com (IPv4+IPv6)."
+msgstr ""
+
+#: "faq.html"
+msgid "At some point, when the percentage of \"broken\" users has gone significantly down, I'll consider making test-ipv6.com dual-stack. At last check, March 2017, we still see 0.2% broken visiting test-ipv6.com. And we still want them to understand their situation."
 msgstr ""
 

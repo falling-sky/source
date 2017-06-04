@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2017-01-24 00:30-0500\n"
+"PO-Revision-Date: 2017-05-26 16:30-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -408,7 +408,7 @@ msgstr "備考: 連絡先情報が空白の場合、こちらからご連絡す�
 
 #: "inc/checkresults.js"
 msgid "unknown expansion"
-msgstr ""
+msgstr "不明な拡張"
 
 #: "inc/checkresults.js"
 msgid "unknown result code"
@@ -1495,15 +1495,15 @@ msgstr "Q: なぜこのサイトは IPv4 からのみ接続可能なのでしょ
 msgid "You're right, there are no AAAA records, intentionally. A percentage of users are unable to browse sites that are dual-stack. If the users can't connect, then they can't be told they have a problem. This is a big problem facing content providers today; of which, I work at one for my &#36;dayjob. As such, the main test page requires IPv4 (either native or translated)."
 msgstr "仰る通り、このサイトには意図的に AAAA レコードがありません。一定の割合のユーザはデュアルスタックのサイトを閲覧できません。もしユーザが接続できない場合、彼らは問題があることを申告できません。これはコンテンツプロバイダが今日直面している大きな問題です; そのうち、私は $dayjob のうちのひとつに勤務しております。そのようなものとして、メインテストページは(ネイティブにせよトランスレータ経由にせよ)IPv4を必要とします。"
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "At some point, when the percentage of \"broken\" users has gone significantly down, I'll consider making test-ipv6.com dual-stack. At least check, May 2013, we still see 0.5% broken visiting test-ipv6.com. And we still want them to understand their situation."
 msgstr "いつか、壊れた \"broken\" ユーザの割合がきわめて低い状況になったら、test-ipv6.com をデュアルスタック化することを検討します。"
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Q: How do I test my IPv6-only host"
 msgstr "Q: どのように私の IPv6 のみのホストをテストできますか。"
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "If you ask that question, chances are you don't need this site. However, if you really want to, visit <a href= \"http://ipv6.test-ipv6.com\">http://ipv6.test-ipv6.com</a> with your IPv6-only host."
 msgstr "その質問をするぐらいなら、おそらくこのサイトはいらないでしょう。でも、本当にやりたいなら、IPv6 ホストから<a href= \"http://aaaa.test-ipv6.com\">http://aaaa.test-ipv6.com</a>にアクセスしてください。"
 
@@ -2758,4 +2758,20 @@ msgstr "最初はメインサイトからスクリプトを有効にします。
 #: "stats.html"
 msgid "<span lookup=\"site.name\">site</span> statistics"
 msgstr "<span lookup = \"site.name\">サイト</span>の統計"
+
+#: "faq.html"
+msgid "Q: I run a production IPv6-only network. Without IPv4. My users can't reach test-ipv6.com."
+msgstr "Q: IPv4を使えない、IPv6だけのネットワークを用意した場合にtest-ipv6.comにアクセスできなくなります。"
+
+#: "faq.html"
+msgid "Send email to jfesler@test-ipv6.com. If your IPv6-only network has dedicated name servers, or a dedicated BGP ASN, jfesler will enable AAAA records for test-ipv6.com for you."
+msgstr "IPv6だけのネットワークを専用のネーム サーバーまたは専用のBGP ASNとともに運用している場合にはJfesler@test-ipv6.comにメールで連絡してください。test-ipv6.comのAAAAレコードを有効にします。"
+
+#: "faq.html"
+msgid "If you don't meet the above requirements, you can visit http://ipv6.test-ipv6.com (IPv6-only) or http://ds.test-ipv6.com (IPv4+IPv6)."
+msgstr "まだあなたが上記のリクエストを行なっていないなら、http://ipv6.test-ipv6.com (IPv6専用)またはhttp://ds.test-ipv6.com (IPv4+IPv6)を利用することができます。"
+
+#: "faq.html"
+msgid "At some point, when the percentage of \"broken\" users has gone significantly down, I'll consider making test-ipv6.com dual-stack. At last check, March 2017, we still see 0.2% broken visiting test-ipv6.com. And we still want them to understand their situation."
+msgstr "いずれ「壊れた」ユーザーの割合が大幅に低下した場合、私はtest-ipv6.comをデュアルスタックにすることを検討します。最後に確認した時点(2017年3月)では、未だ0.2％が「壊れた」ままtest-ipv6.comにアクセスしています。そして私は彼らに彼らの状況を理解してほしいのです。"
 

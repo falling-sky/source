@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2017-01-24 00:30-0500\n"
+"PO-Revision-Date: 2017-05-26 16:30-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Italian\n"
 "MIME-Version: 1.0\n"
@@ -1057,7 +1057,7 @@ msgstr "Istruzioni generiche per utenti unix per determinare l'indirizzo IPv6 e 
 
 #: "faq/find_ip.inc"
 msgid "Run"
-msgstr "Esegui"
+msgstr "Avvia"
 
 #: "faq/find_ip.inc"
 msgid "and look for <code>inet6</code> to see your possible IPv6 addresses."
@@ -1495,15 +1495,15 @@ msgstr "D: Perchè questo sito web è raggiungibile solo via IPV4?"
 msgid "You're right, there are no AAAA records, intentionally. A percentage of users are unable to browse sites that are dual-stack. If the users can't connect, then they can't be told they have a problem. This is a big problem facing content providers today; of which, I work at one for my &#36;dayjob. As such, the main test page requires IPv4 (either native or translated)."
 msgstr "E' giusto, non ci sono records AAAA, intenzionali. Una percentuale di utenti è impossibilitata a navigare sui siti che sono dual-stack. Se gli utenti non possono connettersi, non possono dire di avere un problema. Questo è un grande problema che incontrano oggi i content providers; di cui, io lavoro in uno per il mio dayjob &#36; . In quanto tale, la pagina principale di test richiede IPv4 (nativa o tradotta)."
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "At some point, when the percentage of \"broken\" users has gone significantly down, I'll consider making test-ipv6.com dual-stack. At least check, May 2013, we still see 0.5% broken visiting test-ipv6.com. And we still want them to understand their situation."
 msgstr "Ad un certo punto, quando la percentuale di utenti \"broken\" è scesa in modo significativo, considererò l'ipotesi di fare test-ipv6.com dual-stack. All'ultimo controllo, Maggio 2013, si è visto che ancora esiste lo 0,5% di utenti \"broken\" che visita test-ipv6.com. E ci piacerebbe far capire loro la situazione."
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Q: How do I test my IPv6-only host"
 msgstr "D: Come posso testare il mio host IPv6-only"
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "If you ask that question, chances are you don't need this site. However, if you really want to, visit <a href= \"http://ipv6.test-ipv6.com\">http://ipv6.test-ipv6.com</a> with your IPv6-only host."
 msgstr "Se fai quella domanda, ci sono possibilità che tu non hai bisogno di questo sito. Comunque, se lo vuoi veramente, visita <a href= \"http://ipv6.test-ipv6.com\">http://ipv6.test-ipv6.com</a>con il tuo host IPv6-only."
 
@@ -1657,7 +1657,7 @@ msgstr "Questi grafici mostrano gli ultimi 600 giorni di attività su <span look
 
 #: "mission.html"
 msgid "test-ipv6.com - Our mission"
-msgstr ""
+msgstr "test-ipv6.com - La nostra missione"
 
 #: "mission.html"
 msgid "Our mission is thus:"
@@ -1677,7 +1677,7 @@ msgstr ""
 
 #: "mission.html"
 msgid "Why do we do this?"
-msgstr ""
+msgstr "Perché lo facciamo?"
 
 #: "mission.html"
 msgid "Because of 1 out of every 4000 users are \"broken\" based on industry measurements. This has delayed the web sites from publishing to IPv6."
@@ -1685,7 +1685,7 @@ msgstr ""
 
 #: "mission.html"
 msgid "So, what is meant by \"broken\"?"
-msgstr ""
+msgstr "Quindi, cosa si intende per \"rotto\"?"
 
 #: "mission.html"
 msgid "When you go to your favorite web site in a browser, and it hangs for several seconds or even minutes. If the publisher publishes to IPv6, and your computer has a *broken* IPv6 route (as compared to having no route), then your computer will attempt to use that broken route first, before falling back to the IPv4 Internet."
@@ -1693,7 +1693,7 @@ msgstr ""
 
 #: "mission.html"
 msgid "What causes these timeouts?"
-msgstr ""
+msgstr "Cosa causa questi timeout?"
 
 #: "mission.html"
 msgid "Newer operating systems have IPv6 enabled by default. Older ones, may have IPv6 enabled, as a result of user action (or specific applications). Enabling IPv6 does not automatically make you vulnerable."
@@ -1713,7 +1713,7 @@ msgstr ""
 
 #: "mission.html"
 msgid "How you can help"
-msgstr ""
+msgstr "Come puoi aiutare"
 
 #: "mission.html"
 msgid "This is an open-source project. I can certainly use your help in a variety of ways; please see the <a href=\"source.html\">source</a> page."
@@ -1733,11 +1733,11 @@ msgstr ""
 
 #: "mirrors.html"
 msgid "Hints Columns are sortable (click the first row); <a href=\"#\" onclick=\"GIGO.test_sites(1); return false;\">click here</a> to re-check reachability from where you are to those mirrors."
-msgstr ""
+msgstr "Suggerimenti: le colonne possono essere ordinate (cliccando sulla prima riga); <a href=\"#\" onclick=\"GIGO.test_sites(1); return false;\">con un click qua</a> per verificare nuovamente la raggiungibilità dalla tua macchina ai siti elencati."
 
 #: "mirrors.html"
 msgid "(generated by javascript)"
-msgstr ""
+msgstr "(generato da javascript)"
 
 #: "mirrors.html"
 msgid "Interested in running a mirror?"
@@ -1745,7 +1745,7 @@ msgstr ""
 
 #: "mirrors.html"
 msgid "Mirrors are welcomed and appreciated, whether public or private. Please see <a href=\"https://github.com/falling-sky/source/wiki\">the wiki</a> for details."
-msgstr ""
+msgstr "I Mirror sono ben accetti e apprezzati, sia pubblici che privati. Guarda <a href=\"https://github.com/falling-sky/source/wiki\">la wiki</a> per i dettagli."
 
 #: "faq_6to4.html"
 msgid "test-ipv6.com views on 6to4"
@@ -1781,7 +1781,7 @@ msgstr ""
 
 #: "faq_6to4.html"
 msgid "Q: What could possibly go wrong?"
-msgstr ""
+msgstr "D: Cosa potrebbe andare storto?"
 
 #: "faq_6to4.html"
 msgid "The main issues involve the lack of a service level agreement, the lack of predictability, and a lack in the protocol for your computer to realize that this method is not working."
@@ -1945,7 +1945,7 @@ msgstr ""
 
 #: "faq_teredo.html"
 msgid "About Teredo"
-msgstr ""
+msgstr "Su Teredo"
 
 #: "faq_teredo.html"
 msgid "This FAQ has been produced to tell you about Microsoft's Teredo service - a transition tool to help get early access to the IPv6 Internet."
@@ -2029,7 +2029,7 @@ msgstr ""
 
 #: "faq_broken_aaaa.html"
 msgid "What does this mean for you?"
-msgstr ""
+msgstr "Che cosa significa per te?"
 
 #: "faq_broken_aaaa.html"
 msgid "You should still be able to reach most sites fine, so long as they offer their services on IPv4. This means few near-term problems."
@@ -2037,7 +2037,7 @@ msgstr ""
 
 #: "faq_broken_aaaa.html"
 msgid "Possible causes:"
-msgstr ""
+msgstr "Cause possibili:"
 
 #: "faq_broken_aaaa.html"
 msgid "Firefox users may have IPv6 lookups disabled."
@@ -2073,7 +2073,7 @@ msgstr ""
 
 #: "faq_firefox_plugins.html"
 msgid "FAQ on Firefox Plugins"
-msgstr ""
+msgstr "FAQ sui plugin Firefox"
 
 #: "faq_firefox_plugins.html"
 msgid "This FAQ has been produced to try and address issues caused when using Firefox"
@@ -2109,15 +2109,15 @@ msgstr ""
 
 #: "faq/simple_test.inc"
 msgid "Pass?"
-msgstr ""
+msgstr "Riuscito?"
 
 #: "faq/simple_test.inc"
 msgid "Method"
-msgstr ""
+msgstr "Metodo"
 
 #: "faq/simple_test.inc"
 msgid "More Info"
-msgstr ""
+msgstr "Ulteriori Informazioni"
 
 #: "faq/simple_test.inc"
 msgid "IPv4. Basic traditional Internet."
@@ -2141,7 +2141,7 @@ msgstr ""
 
 #: "faq_browser_plugins.html"
 msgid "FAQ on Plugins and Add-Ons"
-msgstr ""
+msgstr "FAQ su plugin e Add-ons"
 
 #: "faq_browser_plugins.html"
 msgid "This FAQ has been produced to try and address issues caused when using browser add-ons"
@@ -2365,7 +2365,7 @@ msgstr ""
 
 #: "faq_pmtud.html"
 msgid "What can I do?"
-msgstr ""
+msgstr "Cosa posso fare?"
 
 #: "faq_pmtud.html"
 msgid "This is a complex question - there are many ways to get on the Internet."
@@ -2673,7 +2673,7 @@ msgstr ""
 
 #: "faq_no_ipv4.html"
 msgid "What? No IPv4 address?"
-msgstr ""
+msgstr "Che cosa? Nessun indirizzo IPv4?"
 
 #: "faq_no_ipv4.html"
 msgid "Most of you are visiting this site using IPv4. Few people in 2013 will truely only have access to the IPv6 Internet. This FAQ will help explain why we were unable to detect IPv4 on your browser."
@@ -2693,7 +2693,7 @@ msgstr ""
 
 #: "faq_no_ipv4.html"
 msgid "Firefox and NoScript"
-msgstr ""
+msgstr "Firefox e NoScript"
 
 #: "faq_no_ipv4.html"
 msgid "The NoScript browser plugin disables scripts on the page. In the lower right corner of your browser, is the NoScript icon. Click this to bring up a menu; and temporarilly permit scripts on this site."
@@ -2701,7 +2701,7 @@ msgstr ""
 
 #: "faq_no_ipv4.html"
 msgid "Firefox and AdBlock+"
-msgstr ""
+msgstr "Firefox e AdBlock+"
 
 #: "faq_no_ipv4.html"
 msgid "The AdBlock+ plugin is suspect; it depends on the ruleset that is used. More information from people willing to investigate would be appreciated."
@@ -2709,7 +2709,7 @@ msgstr ""
 
 #: "faq_no_ipv4.html"
 msgid "Other browser plugins"
-msgstr ""
+msgstr "Altri plugin del browser"
 
 #: "faq_no_ipv4.html"
 msgid "If you have problems using this site, get a list of the plugins or add-ons you have for this browser. Save that list. Now, disable all of them - and try the site again. If it works, one of those is definately to blame. Enable them one by one, and retry the site. When you find the one that causes problems, please email <a href=\"mailto:jfesler@test-ipv6.com\">Jason Fesler &lt;jfesler@test-ipv6.com&gt;</a> with your findings."
@@ -2745,7 +2745,7 @@ msgstr ""
 
 #: "faq_no_ipv4.html"
 msgid "You will have to do this twice."
-msgstr ""
+msgstr "Dovrai farlo due volte."
 
 #: "faq_no_ipv4.html"
 msgid "The first time enables scripts from the main site; the second time will enable all the \"off site\" scripts that are needed as well."
@@ -2753,5 +2753,21 @@ msgstr ""
 
 #: "stats.html"
 msgid "<span lookup=\"site.name\">site</span> statistics"
+msgstr "Statistiche del <span lookup=\"site.name\">sito</span>"
+
+#: "faq.html"
+msgid "Q: I run a production IPv6-only network. Without IPv4. My users can't reach test-ipv6.com."
 msgstr ""
+
+#: "faq.html"
+msgid "Send email to jfesler@test-ipv6.com. If your IPv6-only network has dedicated name servers, or a dedicated BGP ASN, jfesler will enable AAAA records for test-ipv6.com for you."
+msgstr ""
+
+#: "faq.html"
+msgid "If you don't meet the above requirements, you can visit http://ipv6.test-ipv6.com (IPv6-only) or http://ds.test-ipv6.com (IPv4+IPv6)."
+msgstr ""
+
+#: "faq.html"
+msgid "At some point, when the percentage of \"broken\" users has gone significantly down, I'll consider making test-ipv6.com dual-stack. At last check, March 2017, we still see 0.2% broken visiting test-ipv6.com. And we still want them to understand their situation."
+msgstr "Ad un certo punto, quando la percentuale di utenti \"broken\" è scesa in modo significativo, considererò l'ipotesi di fare test-ipv6.com dual-stack. All'ultimo controllo, Marzo 2017, si è visto che ancora esiste lo 0,5% di utenti \"broken\" che visita test-ipv6.com. E ci piacerebbe far capire loro la situazione."
 

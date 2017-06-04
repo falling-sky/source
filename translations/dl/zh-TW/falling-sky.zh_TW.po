@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2017-01-24 00:30-0500\n"
+"PO-Revision-Date: 2017-05-26 16:30-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Chinese Traditional\n"
 "MIME-Version: 1.0\n"
@@ -1496,15 +1496,15 @@ msgstr "問︰為什麼這個網站只能用 IPv4 連接？"
 msgid "You're right, there are no AAAA records, intentionally. A percentage of users are unable to browse sites that are dual-stack. If the users can't connect, then they can't be told they have a problem. This is a big problem facing content providers today; of which, I work at one for my &#36;dayjob. As such, the main test page requires IPv4 (either native or translated)."
 msgstr "你答對啦，我們故意沒有放 AAAA 記錄。在雙協定中的使用者有一定的比例無法訪問啟用雙協定的網站。如果那些使用者無法連線這個網站，那他們沒有辦法知道他們的設定有問題。這無疑對網站架設者來說是一個大問題；其中，在我所工作的 &#36;dayjob。因此，主要的測試網頁需要使用 IPv4 （不論是原生的或轉譯的）。"
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "At some point, when the percentage of \"broken\" users has gone significantly down, I'll consider making test-ipv6.com dual-stack. At least check, May 2013, we still see 0.5% broken visiting test-ipv6.com. And we still want them to understand their situation."
 msgstr "當壞掉的使用者比例顯著下降後，我會考慮將 test-ipv6.com 改成雙協定。在最後的一次 2013 年 5 月的檢視中，我們仍發現還有 0.5% 壞掉的使用者訪問 test-ipv6.com 。而我們仍希望能幫助他們了解他們遇到的狀況。"
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Q: How do I test my IPv6-only host"
 msgstr "問︰我該如何測試只有啟用 IPv6 的主機？"
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "If you ask that question, chances are you don't need this site. However, if you really want to, visit <a href= \"http://ipv6.test-ipv6.com\">http://ipv6.test-ipv6.com</a> with your IPv6-only host."
 msgstr "如果你問這個問題，很可能你不需要這個測試網站。但是，如果你真的想跑這個測試，用僅 IPv6 的主機開啟 <a href=\"http://ipv6.test-ipv6.com\"> http://ipv6.test-ipv6.com</a>。"
 
@@ -2754,5 +2754,21 @@ msgstr ""
 
 #: "stats.html"
 msgid "<span lookup=\"site.name\">site</span> statistics"
+msgstr ""
+
+#: "faq.html"
+msgid "Q: I run a production IPv6-only network. Without IPv4. My users can't reach test-ipv6.com."
+msgstr ""
+
+#: "faq.html"
+msgid "Send email to jfesler@test-ipv6.com. If your IPv6-only network has dedicated name servers, or a dedicated BGP ASN, jfesler will enable AAAA records for test-ipv6.com for you."
+msgstr ""
+
+#: "faq.html"
+msgid "If you don't meet the above requirements, you can visit http://ipv6.test-ipv6.com (IPv6-only) or http://ds.test-ipv6.com (IPv4+IPv6)."
+msgstr ""
+
+#: "faq.html"
+msgid "At some point, when the percentage of \"broken\" users has gone significantly down, I'll consider making test-ipv6.com dual-stack. At last check, March 2017, we still see 0.2% broken visiting test-ipv6.com. And we still want them to understand their situation."
 msgstr ""
 

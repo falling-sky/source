@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2017-01-24 00:30-0500\n"
+"PO-Revision-Date: 2017-05-26 16:30-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: German\n"
 "MIME-Version: 1.0\n"
@@ -1494,15 +1494,15 @@ msgstr "F: Warum ist diese Website nur über IPv4 erreichbar?"
 msgid "You're right, there are no AAAA records, intentionally. A percentage of users are unable to browse sites that are dual-stack. If the users can't connect, then they can't be told they have a problem. This is a big problem facing content providers today; of which, I work at one for my &#36;dayjob. As such, the main test page requires IPv4 (either native or translated)."
 msgstr "Sie haben Recht, es gibt keine AAAA-Einträge und zwar absichtlich. Ein Prozentsatz der Benutzer ist nicht in der Lage, Websites aufzurufen, die Dual-Stack sind. Wenn der Benutzer keine Verbindung herstellen können, kann ihnen auch nicht erklärt werden, dass sie ein Problem haben. Dies ist ein großes Problem für Inhalte-Anbieter, von denen ich bei einem arbeite. Daher muss die wichtigsten Testseite per IPv4 erreichbar sein (entweder nativ oder übersetzt)."
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "At some point, when the percentage of \"broken\" users has gone significantly down, I'll consider making test-ipv6.com dual-stack. At least check, May 2013, we still see 0.5% broken visiting test-ipv6.com. And we still want them to understand their situation."
 msgstr "Irgendwann, wenn der Prozentsatz der \"defekten\" Benutzer deutlich abgenommen hat, werde ich erwägen, test-ipv6.com per Dual-Stack anzubieten. Bei der letzten Überprüfung im Mai 2013 sahen wir immer noch 0,5 % \"defekte\" Besucher auf test-ipv6.com. Und wir wollen ihnen helfen, ihre Situation zu verstehen."
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Q: How do I test my IPv6-only host"
 msgstr "F: Wie kann ich meine reinen IPv6-Host testen"
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "If you ask that question, chances are you don't need this site. However, if you really want to, visit <a href= \"http://ipv6.test-ipv6.com\">http://ipv6.test-ipv6.com</a> with your IPv6-only host."
 msgstr "Wenn Sie das fragen, stehen die Chancen hoch, dass Sie diese Website nicht brauchen. Jedoch, wenn Sie wirklich wollen, besuchen Sie <a href= \"http://ipv6.test-ipv6.com\">http://ipv6.test-ipv6.com</a> mit Ihrem reinen IPv6-Host."
 
@@ -2753,4 +2753,20 @@ msgstr "Beim ersten Mal werden Skripte auf der Hauptseite aktiviert, beim zweite
 #: "stats.html"
 msgid "<span lookup=\"site.name\">site</span> statistics"
 msgstr "Statistiken für <span lookup=\"site.name\">site</span>"
+
+#: "faq.html"
+msgid "Q: I run a production IPv6-only network. Without IPv4. My users can't reach test-ipv6.com."
+msgstr "Q: Ich betreibe ein produktives IPv6-only-Netzwerk. Ohne IPv4. Meine Benutzer können daher die Webseite test-ipv6.com nicht erreichen."
+
+#: "faq.html"
+msgid "Send email to jfesler@test-ipv6.com. If your IPv6-only network has dedicated name servers, or a dedicated BGP ASN, jfesler will enable AAAA records for test-ipv6.com for you."
+msgstr "Senden Sie eine e-Mail an jfesler@test-ipv6.com. Wenn Ihr IPv6-only-Netzwerk dezidierte DNS-Server oder eine dedizierte BGP AS-Nummer hat, wird JFesler für Sie AAAA-Einträge zu test-ipv6.com aktivieren."
+
+#: "faq.html"
+msgid "If you don't meet the above requirements, you can visit http://ipv6.test-ipv6.com (IPv6-only) or http://ds.test-ipv6.com (IPv4+IPv6)."
+msgstr "Wenn Sie die oben genannten Anforderungen nicht erfüllen, können Sie http://ipv6.test-ipv6.com (IPv6-only) oder http://ds.test-ipv6.com (IPv4 + IPv6) besuchen."
+
+#: "faq.html"
+msgid "At some point, when the percentage of \"broken\" users has gone significantly down, I'll consider making test-ipv6.com dual-stack. At last check, March 2017, we still see 0.2% broken visiting test-ipv6.com. And we still want them to understand their situation."
+msgstr "Irgendwann, wenn der Prozentsatz der \"defekten\" Benutzer deutlich abgenommen hat, werde ich erwägen, test-ipv6.com per Dual-Stack anzubieten. Bei der letzten Überprüfung im März 2017 sahen wir immer noch 0,5 % \"defekte\" Besucher auf test-ipv6.com. Und wir wollen ihnen helfen, ihre Situation zu verstehen."
 

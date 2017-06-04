@@ -12,3 +12,4 @@ translations/crowdin.yaml
 sites/parse-sites
 
 id_travis
+.DS_Store

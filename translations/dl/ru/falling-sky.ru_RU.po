@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2017-01-24 00:30-0500\n"
+"PO-Revision-Date: 2017-05-26 16:30-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Russian\n"
 "MIME-Version: 1.0\n"
@@ -220,11 +220,11 @@ msgstr "У нас есть предположения как помочь вам
 
 #: "inc/messages.js"
 msgid "Since you have IPv6, we are including a tab that shows how well you can reach other IPv6 sites. %sites"
-msgstr ""
+msgstr "Так как вы уже имеете IPv6, мы включили вкладку, которая покажет как обстоят дела с доступом к другим сайтам. %sites"
 
 #: "inc/messages.js"
 msgid "Your browser has real working IPv6 address - but is avoiding using it. We're concerned about this."
-msgstr ""
+msgstr "Ваш браузер может работать с IPv6, но избегает этого. Мы обеспокоены этим."
 
 #: "inc/messages.js"
 msgid "faq: MTU"
@@ -248,7 +248,7 @@ msgstr "ЧаВО: Teredo Minimum"
 
 #: "inc/messages.js"
 msgid "faq: v6ns Bad"
-msgstr ""
+msgstr "ЧаВО: Неудача с v6ns"
 
 #: "inc/messages.js"
 msgid "faq: Browser Plugins"
@@ -276,11 +276,11 @@ msgstr "ЧаВО: Ошибка DNS запросов"
 
 #: "inc/messages.js"
 msgid "faq: Avoiding IPv6?"
-msgstr ""
+msgstr "ЧаВО: Избегание IPv6?"
 
 #: "inc/messages.js"
 msgid "faq: 6RD tunnel"
-msgstr ""
+msgstr "ЧаВО: Туннель 6RD"
 
 #: "inc/builtin.js"
 msgid "[more info]"
@@ -480,7 +480,7 @@ msgstr ""
 
 #: "main/tabnav.inc"
 msgid "For the Help Desk"
-msgstr "Для Help Desk"
+msgstr "Для справки"
 
 #: "main/tabnav.inc"
 msgid "Summary"
@@ -652,7 +652,7 @@ msgstr ""
 
 #: "main/mail.inc"
 msgid "<span id=\"comments_faq_link\"></span> (FAQ) page is available for <b>your</b> exact set of results. Please read it before leaving comments; many questions have already been answered. If you still have questions, comments, or concerns, feel freel to use this form."
-msgstr "<b>ваших</b> результатов. Пожалуйста, прочитайте ее перед написанием комментариев; множество вопросов было уже задано до вас. Если после этого у вас всех еще есть вопросы, комментарии или проблемы, используйте эту форму."
+msgstr "<span id=\"comments_faq_link\"></span> (ЧаВО) страница доступна для <b>ваших</b> результатов. Пожалуйста, прочитайте ее перед написанием комментариев; множество вопросов было уже задано до вас. Если после этого у вас всё еще есть вопросы, комментарии или проблемы, используйте эту форму."
 
 #: "main/mail-language.inc"
 msgid "Please leave your comments using English, if possible."
@@ -792,15 +792,15 @@ msgstr "Смотрите <a href='https://github.com/falling-sky/source/wiki/Loc
 
 #: "faq_helpdesk.html"
 msgid "Help Desk Information"
-msgstr ""
+msgstr "Справочная информация"
 
 #: "faq_helpdesk.html"
 msgid "Q: What is the Help Desk tab for?"
-msgstr ""
+msgstr "В: Для чего вкладка справки?"
 
 #: "faq_helpdesk.html"
 msgid "This tab is intended to help provide a brief, concise explanation of your connectivity. This can be read over the phone, if needed, to a service provider. This tab has less hand-holding; it is intended for a help desk to understand (as compared to an end user)."
-msgstr ""
+msgstr "Эта вкладка предназначена помочь предоставить краткое, сжатое объяснение вашего подключения. Она может быть прочитана по телефону, при необходимости, к поставщика услуг. Эта вкладка содержит меньше профессионального текста; она предназначена для возможности понять (по отношению к конечному пользователю) информацию."
 
 #: "faq_helpdesk.html"
 msgid "This special instance shares in a very compact way:"
@@ -808,11 +808,11 @@ msgstr ""
 
 #: "faq_helpdesk.html"
 msgid "Status of each protocol"
-msgstr ""
+msgstr "Состояние каждого протокола"
 
 #: "faq_helpdesk.html"
 msgid "Warn of slow/timeout"
-msgstr ""
+msgstr "Предупреждать о медлительности/превышении времени ожидания"
 
 #: "faq_helpdesk.html"
 msgid "Warn of MTU"
@@ -1494,15 +1494,15 @@ msgstr "Q: Почему этот сайт доступен только с IPv4 
 msgid "You're right, there are no AAAA records, intentionally. A percentage of users are unable to browse sites that are dual-stack. If the users can't connect, then they can't be told they have a problem. This is a big problem facing content providers today; of which, I work at one for my &#36;dayjob. As such, the main test page requires IPv4 (either native or translated)."
 msgstr ""
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "At some point, when the percentage of \"broken\" users has gone significantly down, I'll consider making test-ipv6.com dual-stack. At least check, May 2013, we still see 0.5% broken visiting test-ipv6.com. And we still want them to understand their situation."
 msgstr ""
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Q: How do I test my IPv6-only host"
 msgstr ""
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "If you ask that question, chances are you don't need this site. However, if you really want to, visit <a href= \"http://ipv6.test-ipv6.com\">http://ipv6.test-ipv6.com</a> with your IPv6-only host."
 msgstr ""
 
@@ -1552,11 +1552,11 @@ msgstr ""
 
 #: "faq.html"
 msgid "Q: Your site shows the wrong IP address; how can I bypass my proxy server to find my public address?"
-msgstr ""
+msgstr "В: Ваш сайт показывает неверный IP-адрес; как мне можно обойти прокси-сервер, чтобы отобразить свой публичный адрес?"
 
 #: "faq.html"
 msgid "For ipv4/ipv6/dual stack, use one of these:"
-msgstr ""
+msgstr "Для IPv4/IPv6/dual stack используйте один из:"
 
 #: "faq.html"
 msgid "for ipv4"
@@ -1568,11 +1568,11 @@ msgstr "для ipv6"
 
 #: "faq.html"
 msgid "for either"
-msgstr ""
+msgstr "для другого"
 
 #: "faq.html"
 msgid "Note you _may_ need to specify other options to your telnet command, depending on your operating system. On my mac, for example, I need to use \"<code>telnet -6</code>\"."
-msgstr ""
+msgstr "Обратите внимание, вам _возможно_ необходимо указать другие параметры для команды telnet, в зависимости от вашей операционной системы. На моем mac например, мне нужно использовать \"<code>telnet -6</code>\"."
 
 #: "faq.html"
 msgid "Q: Do you actually read the feedback?"
@@ -1692,7 +1692,7 @@ msgstr ""
 
 #: "mission.html"
 msgid "What causes these timeouts?"
-msgstr ""
+msgstr "Что вызывает эти превышения времени ожидания?"
 
 #: "mission.html"
 msgid "Newer operating systems have IPv6 enabled by default. Older ones, may have IPv6 enabled, as a result of user action (or specific applications). Enabling IPv6 does not automatically make you vulnerable."
@@ -1752,19 +1752,19 @@ msgstr ""
 
 #: "faq_6to4.html"
 msgid "The ugly bits"
-msgstr ""
+msgstr "Уродливые биты"
 
 #: "faq_6to4.html"
 msgid "The good bits"
-msgstr ""
+msgstr "Хорошие биты"
 
 #: "faq_6to4.html"
 msgid "6to4 is a technology that allows you to use your existing Internet provider (with only IPv4), to access the IPV6 Internet. It does this by putting IPv6 packets inside IPv4 packets, and with the help of some friendly folks on the Internet. (The specification of this is in <a href=\"http://www.ietf.org/rfc/rfc3056.txt\">rfc3056</a>.)"
-msgstr ""
+msgstr "6to4 — это технология, которая позволяет вам пользуясь вашим существующим провайдером (с только IPv4), получить доступ к Интернету IPv6. Эта технология работает, как поставляя пакеты IPv6 внутри пакетов IPv4, так и с помощью некоторых дружественных сервисов в Интернете. (Подробнее в информации о <a href=\"http://www.ietf.org/rfc/rfc3056.txt\">rfc3056</a>)."
 
 #: "faq_6to4.html"
 msgid "Before covering my actual view on 6to4, lets discuss how it works."
-msgstr ""
+msgstr "Перед описанием моего фактического взгляда на 6to4, давайте обсудим, как он работает."
 
 #: "faq_6to4.html"
 msgid "With traditional IPv4 Internet connections, traffic goes from you, to your ISP; to one or more ISPs; and finally to the end web site. Debugging issues with this is fairly easy. And, in the event of issues, your ISP has an obligation to fix things that they are associated with; the web site has a similiar contract with their ISP."
@@ -1864,7 +1864,7 @@ msgstr ""
 
 #: "faq/dontfeelbad.inc"
 msgid "It looks like you have only IPv4 Internet service at this time. Don't feel bad - most people are in this position right now. Most Internet service providers are not quite yet ready to provide IPv6 Internet to residential customers."
-msgstr ""
+msgstr "Похоже, в данный момент вам доступны только IPv4 интернет услуги. Не расстраивайтесь - большинство людей находятся сейчас в таком же положении. Большинство поставщиков услуг Интернета еще не вполне готовы предоставлять частным клиентам IPv6."
 
 #: "faq/nothingwillbreak.inc"
 msgid "The good news is, nothing will suddenly break."
@@ -1924,15 +1924,15 @@ msgstr ""
 
 #: "faq_no_ipv6.html"
 msgid "You appear to have no IPv6 at this time.."
-msgstr ""
+msgstr "Кажется, у вас сейчас нет адреса IPv6..."
 
 #: "faq_no_ipv6.html"
 msgid "You appear to have no IPv6 address."
-msgstr ""
+msgstr "Кажется, у вас нет адреса IPv6."
 
 #: "faq/unable_to_see_ipv6.inc"
 msgid "<b>If you strongly believe you have IPv6, but we were unable to detect it:</b> it means one of a couple of things. Either your organization is blocking the use of IPv6 to talk to the outside Internet through network policy; or perhaps what you see with IPv6 on your host is not a global address. Any address starting with \"::\", \"fc\", \"fd\", or \"fe\" are unable to work with the public IPv6 Internet."
-msgstr ""
+msgstr "<b>Если вы точно уверены, что у вас есть IPv6, но мы не смогли его обнаружить:</b> это означает одно из двух. Либо ваша организация блокирует использование IPv6 при доступе в Интернет через сетевые политики; или возможно тот IPv6, который вы видите на вашем компьютере не является глобальным адресом. Любой адрес, начинающийся с \"::\", \"fc\", \"fd\", или \"fe\" не в состоянии работать с общедоступным IPv6 Интернетом."
 
 #: "faq_teredo_minimum.html"
 msgid "More about your test results."
@@ -2016,7 +2016,7 @@ msgstr "Подтверждение:"
 
 #: "faq_v6ns_bad.html"
 msgid "should return back an aaaa record without errors."
-msgstr "должен возвращать aaaa запись без ошибок."
+msgstr "должен возвращать AAAA запись без ошибок."
 
 #: "faq_broken_aaaa.html"
 msgid "Broken DNS AAAA Lookups"
@@ -2504,7 +2504,7 @@ msgstr ""
 
 #: "faq_avoids_ipv6.html"
 msgid "Your browser is avoiding IPv6."
-msgstr ""
+msgstr "Ваш браузер избегает IPv6."
 
 #: "faq_avoids_ipv6.html"
 msgid "What we found"
@@ -2752,5 +2752,21 @@ msgstr ""
 
 #: "stats.html"
 msgid "<span lookup=\"site.name\">site</span> statistics"
+msgstr "статистика <span lookup=\"site.name\">сайта</span>"
+
+#: "faq.html"
+msgid "Q: I run a production IPv6-only network. Without IPv4. My users can't reach test-ipv6.com."
+msgstr ""
+
+#: "faq.html"
+msgid "Send email to jfesler@test-ipv6.com. If your IPv6-only network has dedicated name servers, or a dedicated BGP ASN, jfesler will enable AAAA records for test-ipv6.com for you."
+msgstr ""
+
+#: "faq.html"
+msgid "If you don't meet the above requirements, you can visit http://ipv6.test-ipv6.com (IPv6-only) or http://ds.test-ipv6.com (IPv4+IPv6)."
+msgstr ""
+
+#: "faq.html"
+msgid "At some point, when the percentage of \"broken\" users has gone significantly down, I'll consider making test-ipv6.com dual-stack. At last check, March 2017, we still see 0.2% broken visiting test-ipv6.com. And we still want them to understand their situation."
 msgstr ""
 

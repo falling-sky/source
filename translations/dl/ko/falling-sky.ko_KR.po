@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2017-01-24 00:30-0500\n"
+"PO-Revision-Date: 2017-05-26 16:30-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Korean\n"
 "MIME-Version: 1.0\n"
@@ -1494,15 +1494,15 @@ msgstr "Q: 이 웹 사이트가 IPv4를 통해서만 연결되는 이유는 무�
 msgid "You're right, there are no AAAA records, intentionally. A percentage of users are unable to browse sites that are dual-stack. If the users can't connect, then they can't be told they have a problem. This is a big problem facing content providers today; of which, I work at one for my &#36;dayjob. As such, the main test page requires IPv4 (either native or translated)."
 msgstr "그렇습니다. AAAA 레코드가 없으며 이것은 계획된 것 입니다. 일정 비율의 사용자들은 이중 스택 사이트를 검색할 수 없습니다. 사용자가 접속할 수 없는 경우 문제가 표시되지 않습니다. 이것은 오늘날 콘텐츠 공급자가 직면하고 있는 큰 문제로서, 저자는 본업으로 그 중 하나에 몰두합니다. 이와 같이 주 테스트 페이지에는 IPv4(네이티브 또는 변환)를 필요로 합니다."
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "At some point, when the percentage of \"broken\" users has gone significantly down, I'll consider making test-ipv6.com dual-stack. At least check, May 2013, we still see 0.5% broken visiting test-ipv6.com. And we still want them to understand their situation."
 msgstr "적절한 시점에, \"끊어진\" 사용자의 비율이 크게 내려 갔을 때 이중 스택 test-ipv6.com을 개발할 것을 고려 중입니다. 2013년 5월에 test-ipv6.com의 방문자 중에 최소한 0.5%가 여전히 끊어진 것을 확인할 수 있습니다. 그리고 우리는 여전히 그들의 상황을 이해하려고 합니다."
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Q: How do I test my IPv6-only host"
 msgstr "Q: IPv6 전용 호스트를 테스트하는 방법은 무엇입니까?"
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "If you ask that question, chances are you don't need this site. However, if you really want to, visit <a href= \"http://ipv6.test-ipv6.com\">http://ipv6.test-ipv6.com</a> with your IPv6-only host."
 msgstr "답변을 하자면 이 사이트가 필요 없을 가능성이 충분합니다. 하지만, 정말로 원하는 경우 IPv6 전용 호스트로 <a href= \"http://ipv6.test-ipv6.com\">http://ipv6.test-ipv6.com</a>을 방문하십시오."
 
@@ -2756,4 +2756,20 @@ msgstr ""
 #: "stats.html"
 msgid "<span lookup=\"site.name\">site</span> statistics"
 msgstr ""
+
+#: "faq.html"
+msgid "Q: I run a production IPv6-only network. Without IPv4. My users can't reach test-ipv6.com."
+msgstr ""
+
+#: "faq.html"
+msgid "Send email to jfesler@test-ipv6.com. If your IPv6-only network has dedicated name servers, or a dedicated BGP ASN, jfesler will enable AAAA records for test-ipv6.com for you."
+msgstr ""
+
+#: "faq.html"
+msgid "If you don't meet the above requirements, you can visit http://ipv6.test-ipv6.com (IPv6-only) or http://ds.test-ipv6.com (IPv4+IPv6)."
+msgstr ""
+
+#: "faq.html"
+msgid "At some point, when the percentage of \"broken\" users has gone significantly down, I'll consider making test-ipv6.com dual-stack. At last check, March 2017, we still see 0.2% broken visiting test-ipv6.com. And we still want them to understand their situation."
+msgstr "적절한 시점에, \"끊어진\" 사용자의 비율이 크게 내려 갔을 때 이중 스택 test-ipv6.com을 개발할 것을 고려 중입니다. 2017년 3월에 test-ipv6.com의 방문자 중에 최소한 0.5%가 여전히 끊어진 것을 확인할 수 있습니다. 그리고 우리는 여전히 그들의 상황을 이해하려고 합니다."
 

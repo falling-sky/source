@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2017-01-24 00:30-0500\n"
+"PO-Revision-Date: 2017-05-26 16:30-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Swedish\n"
 "MIME-Version: 1.0\n"
@@ -1494,15 +1494,15 @@ msgstr "Q: Varför kan denna webbplats endast nås via IPv4?"
 msgid "You're right, there are no AAAA records, intentionally. A percentage of users are unable to browse sites that are dual-stack. If the users can't connect, then they can't be told they have a problem. This is a big problem facing content providers today; of which, I work at one for my &#36;dayjob. As such, the main test page requires IPv4 (either native or translated)."
 msgstr "Du har rätt, det finns inga AAAA-poster, avsiktligt. En del användare kan inte surfa webbplatser som använder dual-stack. Om användarna inte kan ansluta, kan de inte bli informerade om att de har bekymmer. Detta är ett stort problem för innehållsleverantörer idag; som jag jobbar med dagligen. Pga detta kräver huvudsidan IPv4 (riktig eller översatt)."
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "At some point, when the percentage of \"broken\" users has gone significantly down, I'll consider making test-ipv6.com dual-stack. At least check, May 2013, we still see 0.5% broken visiting test-ipv6.com. And we still want them to understand their situation."
 msgstr ""
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Q: How do I test my IPv6-only host"
 msgstr "Q: Hur testar jag min endast-IPv6-dator"
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "If you ask that question, chances are you don't need this site. However, if you really want to, visit <a href= \"http://ipv6.test-ipv6.com\">http://ipv6.test-ipv6.com</a> with your IPv6-only host."
 msgstr "Om du frågar denna fråga, är chanserna inte behöver du denna webbplats. Men om du verkligen vill, besök <a href= \"http://ipv6.test-ipv6.com\">http://ipv6.test-ipv6.com</a> med din endast-IPv6-dator."
 
@@ -2753,4 +2753,20 @@ msgstr "Första gången aktiveras skript från huvudwebbplatsen; andra gången k
 #: "stats.html"
 msgid "<span lookup=\"site.name\">site</span> statistics"
 msgstr "<span lookup=\"site.name\">webbplats</span>-statistik"
+
+#: "faq.html"
+msgid "Q: I run a production IPv6-only network. Without IPv4. My users can't reach test-ipv6.com."
+msgstr ""
+
+#: "faq.html"
+msgid "Send email to jfesler@test-ipv6.com. If your IPv6-only network has dedicated name servers, or a dedicated BGP ASN, jfesler will enable AAAA records for test-ipv6.com for you."
+msgstr ""
+
+#: "faq.html"
+msgid "If you don't meet the above requirements, you can visit http://ipv6.test-ipv6.com (IPv6-only) or http://ds.test-ipv6.com (IPv4+IPv6)."
+msgstr ""
+
+#: "faq.html"
+msgid "At some point, when the percentage of \"broken\" users has gone significantly down, I'll consider making test-ipv6.com dual-stack. At last check, March 2017, we still see 0.2% broken visiting test-ipv6.com. And we still want them to understand their situation."
+msgstr ""
 
