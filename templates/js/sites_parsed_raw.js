@@ -324,6 +324,19 @@
   "reason": "",
   "transparent": false
  },
+ "test-ipv6.cz": {
+  "site": "test-ipv6.cz",
+  "mirror": true,
+  "hide": false,
+  "v4": "http://ipv4.test-ipv6.cz/images-nc/knob_green.png",
+  "v6": "http://ipv6.test-ipv6.cz/images-nc/knob_green.png",
+  "loc": "CZ",
+  "provider": "nic.cz",
+  "monitor": "NOC NIC \u003cnoc@nic.cz\u003e",
+  "contact": "",
+  "reason": "",
+  "transparent": false
+ },
  "test-ipv6.epic.network": {
   "site": "test-ipv6.epic.network",
   "mirror": true,
@@ -402,6 +415,19 @@
   "reason": "",
   "transparent": false
  },
+ "test-ipv6.monash.edu": {
+  "site": "test-ipv6.monash.edu",
+  "mirror": true,
+  "hide": false,
+  "v4": "http://ipv4.test-ipv6.monash.edu/images-nc/knob_green.png",
+  "v6": "http://ipv6.test-ipv6.monash.edu/images-nc/knob_green.png",
+  "loc": "AU",
+  "provider": "Monash University",
+  "monitor": "John Mann \u003cJohn.Mann@monash.edu\u003e",
+  "contact": "",
+  "reason": "",
+  "transparent": false
+ },
  "test-ipv6.netiter.dk": {
   "site": "test-ipv6.netiter.dk",
   "mirror": false,
@@ -411,6 +437,19 @@
   "loc": "DE",
   "provider": "Netiter ApS",
   "monitor": "Netiter Aps \u003ckontakt@netiter.dk\u003e",
+  "contact": "",
+  "reason": "",
+  "transparent": false
+ },
+ "test-ipv6.nl": {
+  "site": "test-ipv6.nl",
+  "mirror": true,
+  "hide": false,
+  "v4": "http://ipv4.test-ipv6.nl/images-nc/knob_green.png",
+  "v6": "http://ipv6.test-ipv6.nl/images-nc/knob_green.png",
+  "loc": "NL",
+  "provider": "BIT BV",
+  "monitor": "Teun Vink \u003cteun@bit.nl\u003e",
   "contact": "",
   "reason": "",
   "transparent": false
@@ -467,6 +506,19 @@
   "reason": "",
   "transparent": false
  },
+ "test-ipv6.roedu.net": {
+  "site": "test-ipv6.roedu.net",
+  "mirror": true,
+  "hide": false,
+  "v4": "http://ipv4.test-ipv6.roedu.net/images-nc/knob_green.png",
+  "v6": "http://ipv6.test-ipv6.roedu.net/images-nc/knob_green.png",
+  "loc": "RO",
+  "provider": "RoEduNet",
+  "monitor": "IPv6 @ RoEduNet \u003cipv6@roedu.net\u003e",
+  "contact": "",
+  "reason": "",
+  "transparent": false
+ },
  "test-ipv6.showmyip.ca": {
   "site": "test-ipv6.showmyip.ca",
   "mirror": true,
@@ -489,6 +541,19 @@
   "loc": "SG",
   "provider": "vr.org",
   "monitor": "jfesler@gigo.com",
+  "contact": "",
+  "reason": "",
+  "transparent": false
+ },
+ "test-ipv6.tld.sk": {
+  "site": "test-ipv6.tld.sk",
+  "mirror": true,
+  "hide": false,
+  "v4": "http://ipv4.test-ipv6.tld.sk/images-nc/knob_green.png",
+  "v6": "http://ipv6.test-ipv6.tld.sk/images-nc/knob_green.png",
+  "loc": "SK",
+  "provider": "Sk-nic",
+  "monitor": "\"SK-NIC, a.s.\" \u003chostmaster@sk-nic.sk\u003e",
   "contact": "",
   "reason": "",
   "transparent": false
