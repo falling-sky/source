@@ -28,12 +28,12 @@
       "v4": "http://ipv4.campaya.co.uk/apple-touch-icon.png",
       "v6": "http://ipv6.campaya.co.uk/apple-touch-icon.png"
     },
-    "chelloo.nl": {
+    "ziggoforum.nl": {
       "hide": false,
       "loc": "NL",
       "monitor": "Rene Kemp <rene.kemp@outlook.com>",
-      "provider": "Chelloo",
-      "site": "chelloo.nl",
+      "provider": "Ziggo Gebruikersforum",
+      "site": "ziggoforum.nl",
       "v4": "https://ipv4.ziggoforum.nl/images/pixel.gif",
       "v6": "https://ipv6.ziggoforum.nl/images/pixel.gif"
     },
