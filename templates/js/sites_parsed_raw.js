@@ -51,19 +51,6 @@
   "reason": "",
   "transparent": false
  },
- "chelloo.nl": {
-  "site": "chelloo.nl",
-  "mirror": false,
-  "hide": false,
-  "v4": "https://ipv4.ziggoforum.nl/images/pixel.gif",
-  "v6": "https://ipv6.ziggoforum.nl/images/pixel.gif",
-  "loc": "NL",
-  "provider": "Chelloo",
-  "monitor": "Rene Kemp \u003crene.kemp@outlook.com\u003e",
-  "contact": "",
-  "reason": "",
-  "transparent": false
- },
  "duplimaster.com": {
   "site": "duplimaster.com",
   "mirror": false,
@@ -129,6 +116,19 @@
   "reason": "",
   "transparent": false
  },
+ "ipv6-test.pl": {
+  "site": "ipv6-test.pl",
+  "mirror": true,
+  "hide": false,
+  "v4": "http://ipv4.ipv6-test.pl/images-nc/knob_green.png",
+  "v6": "http://ipv6.ipv6-test.pl/images-nc/knob_green.png",
+  "loc": "PL",
+  "provider": "Net-Admin",
+  "monitor": "noc@net-admin.pl",
+  "contact": "Net-Admin \u003cipv6@goodhost.eu\u003e",
+  "reason": "",
+  "transparent": false
+ },
  "ipv6ready.me": {
   "site": "test-ipv6.epic.network",
   "mirror": true,
@@ -168,6 +168,19 @@
   "reason": "",
   "transparent": false
  },
+ "sixte.st": {
+  "site": "sixte.st",
+  "mirror": true,
+  "hide": false,
+  "v4": "http://ipv4.sixte.st/images-nc/knob_green.png",
+  "v6": "http://ipv6.sixte.st/images-nc/knob_green.png",
+  "loc": "SG",
+  "provider": "Delan Azabani",
+  "monitor": "Delan Azabani \u003cdelan@azabani.com\u003e",
+  "contact": "",
+  "reason": "",
+  "transparent": false
+ },
  "snozzages.com": {
   "site": "snozzages.com",
   "mirror": false,
@@ -193,6 +206,32 @@
   "contact": "",
   "reason": "",
   "transparent": false
+ },
+ "test-ipv6-ct.comcast.net": {
+  "site": "test-ipv6-ct.comcast.net",
+  "mirror": true,
+  "hide": false,
+  "v4": "http://ipv4.test-ipv6-ct.comcast.net/images-nc/knob_green.png",
+  "v6": "http://ipv6.test-ipv6-ct.comcast.net/images-nc/knob_green.png",
+  "loc": "US",
+  "provider": "Comcast",
+  "monitor": "Comcast IPv6 Team \u003ccomcast-ipv6@cable.comcast.com\u003e",
+  "contact": "",
+  "reason": "",
+  "transparent": true
+ },
+ "test-ipv6-pa.comcast.net": {
+  "site": "test-ipv6-pa.comcast.net",
+  "mirror": true,
+  "hide": false,
+  "v4": "http://ipv4.test-ipv6-pa.comcast.net/images-nc/knob_green.png",
+  "v6": "http://ipv6.test-ipv6-pa.comcast.net/images-nc/knob_green.png",
+  "loc": "US",
+  "provider": "Comcast",
+  "monitor": "Comcast IPv6 Team \u003ccomcast-ipv6@cable.comcast.com\u003e",
+  "contact": "",
+  "reason": "",
+  "transparent": true
  },
  "test-ipv6.alpinedc.ch": {
   "site": "test-ipv6.alpinedc.ch",
@@ -259,15 +298,15 @@
   "reason": "",
   "transparent": false
  },
- "test-ipv6.cl": {
-  "site": "test-ipv6.cl",
+ "test-ipv6.carnet.hr": {
+  "site": "test-ipv6.carnet.hr",
   "mirror": true,
   "hide": false,
-  "v4": "http://ipv4.test-ipv6.cl/images-nc/knob_green.png",
-  "v6": "http://ipv6.test-ipv6.cl/images-nc/knob_green.png",
-  "loc": "CL",
-  "provider": "NIC Chile",
-  "monitor": "NIC Chile \u003csoporte@nic.cl\u003e",
+  "v4": "http://ipv4.test-ipv6.carnet.hr/images-nc/knob_green.png",
+  "v6": "http://ipv6.test-ipv6.carnet.hr/images-nc/knob_green.png",
+  "loc": "HR",
+  "provider": "Croatian Academic and Research Network",
+  "monitor": "CARNet \u003csysadm@carnet.hr\u003e",
   "contact": "",
   "reason": "",
   "transparent": false
@@ -324,6 +363,19 @@
   "reason": "",
   "transparent": false
  },
+ "test-ipv6.csclub.uwaterloo.ca": {
+  "site": "test-ipv6.csclub.uwaterloo.ca",
+  "mirror": true,
+  "hide": false,
+  "v4": "http://ipv4.test-ipv6.csclub.uwaterloo.ca/images-nc/knob_green.png",
+  "v6": "http://ipv6.test-ipv6.csclub.uwaterloo.ca/images-nc/knob_green.png",
+  "loc": "CA",
+  "provider": "University of Waterloo Computer Science Club",
+  "monitor": "systems-committee@csclub.uwaterloo.ca",
+  "contact": "",
+  "reason": "",
+  "transparent": false
+ },
  "test-ipv6.cz": {
   "site": "test-ipv6.cz",
   "mirror": true,
@@ -363,6 +415,19 @@
   "reason": "",
   "transparent": false
  },
+ "test-ipv6.fratec.net": {
+  "site": "test-ipv6.fratec.net",
+  "mirror": true,
+  "hide": false,
+  "v4": "http://ipv4.test-ipv6.fratec.net/images-nc/knob_green.png",
+  "v6": "http://ipv6.test-ipv6.fratec.net/images-nc/knob_green.png",
+  "loc": "CR",
+  "provider": "Sistemas Fratec S.A.",
+  "monitor": "Jorge Frater \u003cjfrater@fratec.com\u003e",
+  "contact": "",
+  "reason": "",
+  "transparent": false
+ },
  "test-ipv6.go6.si": {
   "site": "test-ipv6.go6.si",
   "mirror": true,
@@ -385,6 +450,19 @@
   "loc": "HK",
   "provider": "vr.org",
   "monitor": "jfesler@gigo.com",
+  "contact": "",
+  "reason": "",
+  "transparent": false
+ },
+ "test-ipv6.hu": {
+  "site": "test-ipv6.hu",
+  "mirror": true,
+  "hide": false,
+  "v4": "http://ipv4.test-ipv6.hu/images-nc/knob_green.png",
+  "v6": "http://ipv6.test-ipv6.hu/images-nc/knob_green.png",
+  "loc": "HU",
+  "provider": "Polaris-N Systems",
+  "monitor": "Polaris-N Systems \u003cinfo@polaris-n.hu\u003e",
   "contact": "",
   "reason": "",
   "transparent": false
@@ -480,6 +558,19 @@
   "reason": "",
   "transparent": false
  },
+ "test-ipv6.orbyta.com": {
+  "site": "test-ipv6.orbyta.com",
+  "mirror": true,
+  "hide": false,
+  "v4": "http://ipv4.test-ipv6.orbyta.com/images-nc/knob_green.png",
+  "v6": "http://ipv6.test-ipv6.orbyta.com/images-nc/knob_green.png",
+  "loc": "CL",
+  "provider": "Orbyta S.A.",
+  "monitor": "javier campos \u003cjaviersource@gmail.com\u003e",
+  "contact": "",
+  "reason": "",
+  "transparent": false
+ },
  "test-ipv6.polkam.go.id": {
   "site": "test-ipv6.polkam.go.id",
   "mirror": true,
@@ -519,6 +610,19 @@
   "reason": "",
   "transparent": false
  },
+ "test-ipv6.se": {
+  "site": "test-ipv6.se",
+  "mirror": true,
+  "hide": false,
+  "v4": "http://ipv4.test-ipv6.se/images-nc/knob_green.png",
+  "v6": "http://ipv6.test-ipv6.se/images-nc/knob_green.png",
+  "loc": "SE",
+  "provider": "Interlan Gefle AB",
+  "monitor": "torbjorn.eklov@interlan.se \u003ctorbjorn.eklov@interlan.se\u003e",
+  "contact": "",
+  "reason": "",
+  "transparent": false
+ },
  "test-ipv6.showmyip.ca": {
   "site": "test-ipv6.showmyip.ca",
   "mirror": true,
@@ -528,6 +632,19 @@
   "loc": "CA",
   "provider": "Christopher Munz-Michielin",
   "monitor": "Christopher Munz-Michielin \u003cchristopher@showmyip.ca\u003e",
+  "contact": "",
+  "reason": "",
+  "transparent": false
+ },
+ "test-ipv6.si": {
+  "site": "test-ipv6.si",
+  "mirror": true,
+  "hide": false,
+  "v4": "http://ipv4.test-ipv6.si/images-nc/knob_green.png",
+  "v6": "http://ipv6.test-ipv6.si/images-nc/knob_green.png",
+  "loc": "SI",
+  "provider": "Damjan Sirnik",
+  "monitor": "Damjan Sirnik \u003cdamjan@sirnik.si\u003e",
   "contact": "",
   "reason": "",
   "transparent": false
@@ -762,6 +879,19 @@
   "loc": "global",
   "provider": "Yahoo!",
   "monitor": "ipv6@yahoo-inc.com",
+  "contact": "",
+  "reason": "",
+  "transparent": false
+ },
+ "ziggoforum.nl": {
+  "site": "ziggoforum.nl",
+  "mirror": false,
+  "hide": false,
+  "v4": "https://ipv4.ziggoforum.nl/images/pixel.gif",
+  "v6": "https://ipv6.ziggoforum.nl/images/pixel.gif",
+  "loc": "NL",
+  "provider": "Ziggo Gebruikersforum",
+  "monitor": "Rene Kemp \u003crene.kemp@outlook.com\u003e",
   "contact": "",
   "reason": "",
   "transparent": false

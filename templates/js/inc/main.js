@@ -408,7 +408,7 @@ GIGO.test_buggydns1 = function (url, id) {
             // replace failing image url with one that should work, so that browser can call this done.
             // we tried setting to "" but safari at minimum treats that as replacing src
             // with the value of document.location (!).
-            jQuery(img).addClass("emish");
+            jQuery(img).css("height","2em").css("width","auto");
             jQuery(img).attr("src", "/images/hires_bad.png");
 
             delta = GIGO.getms() - this_test.start_time;
@@ -515,7 +515,7 @@ GIGO.test_type_img = function (url, id) {
             // replace failing image url with one that should work, so that browser can call this done.
             // we tried setting to "" but safari at minimum treats that as replacing src
             // with the value of document.location (!).
-            jQuery(img).addClass("emish");
+            jQuery(img).css("height","2em").css("width","auto");
             jQuery(img).attr("src", "/images/hires_bad.png");
 
             delta = GIGO.getms() - this_test.start_time;

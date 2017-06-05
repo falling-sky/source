@@ -45,7 +45,7 @@ id="current">[% $page %]</a></li>
 
 <div class="navright">
 <a href="/locale.html">
-<img src="/images/icon_987_red.png" class=em2 border="0" />
+<img src="/images/icon_987_red.png" style="height: 2em; width: auto;" border="0" />
 </a>
 </div>
 
