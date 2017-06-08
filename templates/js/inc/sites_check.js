@@ -344,12 +344,17 @@ GIGO.sites_display_add_record = function (r, mode) {
     td_provider_div = $("<div>").text(r.provider);
     td_provider = $("<td>").append(td_provider_div);
 
-    td_status = $("<td>").append($("<img>", {
-        src: "/images/hires_spinner.gif"
-    }).addClass("emish").css("opacity", "0.1").css("filter", "alpha(opacity=10)"));
+    td_status = $("<td>").append(
+        $("<img>", { src: "/images/hires_spinner.gif"})
+        .css("height","2em")
+        .css("width","auto")
+        .css("opacity", "0.1")
+        .css("filter", "alpha(opacity=10)")
+      );
     td_info = $("<td>").append($("<img>", {
         src: "/images/hires_info.png"
-    }).addClass("emish"));
+    }).css("height","2em").css("width","auto"));
+
 
 
     td_info.click(function () {
@@ -368,7 +373,7 @@ GIGO.sites_display_add_record = function (r, mode) {
 
         // This should be done with jquery to avoid any potential abuse in mirrors.js, but
         // I can't find the right incantation.
-        mirror_button = $("<a target='" + r.site + "' href='http://" + r.site + "'><img border=0 class=emish src='/images/hires_link.png'/></a>");
+        mirror_button = $("<a target='" + r.site + "' href='http://" + r.site + "'><img border=0 style='height: 2em; width: auto;' src='/images/hires_link.png'/></a>");
         td_mirror = $("<td>").append(mirror_button);
     } else {
         td_mirror = $("<td>").html("&nbsp;");
@@ -406,7 +411,7 @@ GIGO.sites_display_success = function (r) {
     var new_td;
     new_td = $("<td>").append($("<img>", {
         src: "/images/hires_ok.png"
-    }).addClass("emish"));
+    }).css("height","2em").css("width","auto"));
     r.refs.td_status.replaceWith(new_td);
     GIGO.helpdesk.other_sites.finished = GIGO.helpdesk.other_sites.finished + 1;
     GIGO.helpdesk.other_sites.good.push(r);
@@ -416,7 +421,7 @@ GIGO.sites_display_failure = function (r) {
     var new_td;
     new_td = $("<td>").append($("<img>", {
         src: "/images/hires_bad.png"
-    }).addClass("emish"));
+    }).css("height","2em").css("width","auto"));
     r.refs.td_status.replaceWith(new_td);
     GIGO.helpdesk.other_sites.finished = GIGO.helpdesk.other_sites.finished + 1;
     GIGO.helpdesk.other_sites.bad.push(r);
@@ -427,7 +432,7 @@ GIGO.sites_display_giveup = function (r) {
     var new_td;
     new_td = $("<td>").append($("<img>", {
         src: "/images/hires_offline.png"
-    }).addClass("emish"));
+    }).css("height","2em").css("width","auto"));
     r.refs.td_status.replaceWith(new_td);
     GIGO.sites_display_td_provider_div_update(r, "IPv4 site down, skipping IPv6 test");
     GIGO.helpdesk.other_sites.finished = GIGO.helpdesk.other_sites.finished + 1;

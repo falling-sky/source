@@ -17,14 +17,14 @@
 
 
 <tr>
-<td><img  class=emish src="http://ipv4.test-ipv6.com/images/hires_ok.png" alt="?"/></td>
+<td><img  style="height: 2em; width: auto;" src="http://ipv4.test-ipv6.com/images/hires_ok.png" alt="?"/></td>
 <td><b>IPv4</b></td>
 <td>
 {{ IPv4.  Basic traditional Internet.}}
 </td></tr>
 
 <tr>
-<td><img  class=emish src="http://ds.test-ipv6.com/images/hires_ok.png" alt="?"/></td>
+<td><img style="height: 2em; width: auto;" src="http://ds.test-ipv6.com/images/hires_ok.png" alt="?"/></td>
 <td><b>IPv4 or IPv6</b></td>
 <td>
 {{ If green, you will have no problem on World IPv6 day. }}<br/>
@@ -35,7 +35,7 @@ with IE, Firefox, Safari, or Chrome, to get more detailed information about poss
 </td></tr>
 
 <tr>
-<td><img  class=emish src="http://ds.test-ipv6.com/images/hires_ok.png" alt="?"/></td>
+<td><img  style="height: 2em; width: auto;"  src="http://ds.test-ipv6.com/images/hires_ok.png" alt="?"/></td>
 <td><b>IPv6</b></td>
 <td>
 {{ <i>If red or blank, do not stress!</i>  Few people already have IPv6 at

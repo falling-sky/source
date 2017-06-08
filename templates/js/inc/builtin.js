@@ -96,16 +96,16 @@ GIGO.results_table_wrapper = function (color, text) {
 
     switch (color) {
     case "green":
-        table = table + '<img class=emish src="/images/hires_ok.png"/>';
+        table = table + '<img style="height: 2em; width: auto;" src="/images/hires_ok.png"/>';
         break;
     case "red":
-        table = table + '<img class=emish src="/images/hires_bad.png"/>';
+        table = table + '<img style="height: 2em; width: auto;" src="/images/hires_bad.png"/>';
         break;
     case "blue":
-        table = table + '<img class=emish src="/images/hires_info.png"/>';
+        table = table + '<img style="height: 2em; width: auto;" src="/images/hires_info.png"/>';
         break;
     case "orange":
-        table = table + '<img class=emish src="/images/hires_attention.png"/>';
+        table = table + '<img style="height: 2em; width: auto;" src="/images/hires_attention.png"/>';
         break;
     default:
         table = table + "&nbsp;";
