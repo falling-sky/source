@@ -722,6 +722,15 @@
       "site": "www.joram.it",
       "v4": "http://ipv4.joram.it/oggetti/immagini/ipv4.png",
       "v6": "http://ipv6.joram.it/oggetti/immagini/ipv6.jpg"
+    },
+    "test-ipv6.cgates.lt": {
+      "hide" : false,
+      "loc": "LT",
+      "monitor": "Marius Sokas <marius.sokas@cgates.lt>",
+      "provider": "Cgates",
+      "site": "test-ipv6.cgates.lt",
+      "v4": "http://ipv4.test-ipv6.cgates.lt/images-nc/knob_green.png",
+      "v6": "http://ipv6.test-ipv6.cgates.lt/images-nc/knob_green.png"
     }
   }
 }
