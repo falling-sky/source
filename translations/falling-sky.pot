@@ -1544,27 +1544,27 @@ msgstr ""
 msgid "This site, on the other hand, is intended to help the user understand their current state, and what that state possibly means to them."
 msgstr ""
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Q: Your site shows the wrong IP address; how can I bypass my proxy server to find my public address?"
 msgstr ""
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "For ipv4/ipv6/dual stack, use one of these:"
 msgstr ""
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "for ipv4"
 msgstr ""
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "for ipv6"
 msgstr ""
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "for either"
 msgstr ""
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Note you _may_ need to specify other options to your telnet command, depending on your operating system. On my mac, for example, I need to use \"<code>telnet -6</code>\"."
 msgstr ""
 
@@ -2762,5 +2762,17 @@ msgstr ""
 
 #: "faq.html"
 msgid "At some point, when the percentage of \"broken\" users has gone significantly down, I'll consider making test-ipv6.com dual-stack. At last check, March 2017, we still see 0.2% broken visiting test-ipv6.com. And we still want them to understand their situation."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "Your current configuration may not achieve the highest performance or assure connectivity to all Internet resources as global IPv6 adoption continues. Ask your ISP about native IPv6."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "To ensure the best performance and connectivity, ask your ISP about native IPv6."
+msgstr ""
+
+#: "inc/messages.js"
+msgid "To ensure the best Internet performance and connectivity, ask your ISP about native IPv6."
 msgstr ""
 

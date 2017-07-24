@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2017-05-26 16:30-0400\n"
+"PO-Revision-Date: 2017-07-09 14:00-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: French\n"
 "MIME-Version: 1.0\n"
@@ -60,7 +60,7 @@ msgstr "Votre connectivité IPv6 semble utiliser Teredo, un système de traducti
 
 #: "inc/messages.js"
 msgid "Your IPv6 connection appears to be using Teredo, a type of IPv4/IPv6 gateway. Your particular teredo configuration is only used as a protocol of last resort. When visiting a site with both IPv4 and IPv6, IPv4 will be preferred."
-msgstr "Votre connectivité IPv6 semble utiliser Teredo, un système de traduction IPv4/IPv6. Votre configuration teredo n'est utilisée qu'en dernier recourt. Quand vous visitez un site qui offre IPv4 et IPv6, IPv4 sera toujours préféré."
+msgstr "Votre connectivité IPv6 semble utiliser Teredo, un système de traduction IPv4/IPv6. Votre configuration teredo n'est utilisée qu'en dernier recours. Quand vous visitez un site qui offre IPv4 et IPv6, IPv4 sera toujours préféré."
 
 #: "inc/messages.js"
 msgid "Danger! IPv6 sorta works - however, large packets appear to fail, giving the appearance of a broken website. If a publisher publishes to IPv6, you will believe their web site to be broken. Ask your ISP about MTU issues; possibly with your tunnel."
@@ -1550,27 +1550,27 @@ msgstr "Les éditeurs de contenu collectent des résultats sur les utilisateurs 
 msgid "This site, on the other hand, is intended to help the user understand their current state, and what that state possibly means to them."
 msgstr "D'un autre c&ocirc;té, ce site veut aussi aider l'utilisateur &agrave; comprendre l'état de sa connexion et ce que cet état signifie pour lui."
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Q: Your site shows the wrong IP address; how can I bypass my proxy server to find my public address?"
 msgstr "Q: Votre site montre une mauvaise adresse IP; comment puis-je contourner mon serveur mandataire pour afficher mon adresse publique?"
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "For ipv4/ipv6/dual stack, use one of these:"
 msgstr "Essayez une de ces techniques:"
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "for ipv4"
 msgstr "pour IPv4"
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "for ipv6"
 msgstr "pour IPv6"
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "for either"
 msgstr "pour les deux"
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Note you _may_ need to specify other options to your telnet command, depending on your operating system. On my mac, for example, I need to use \"<code>telnet -6</code>\"."
 msgstr "Notez que vous devrez _peut-être_ ajouter d'autres options pour la commande telnet suivant votre operating system. Ainsi, sur mon Mac, je dois utiliser \"<code>telnet -6</code>\"."
 

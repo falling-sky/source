@@ -7,7 +7,7 @@ GIGO.messages = {
     "ok": "{{ok}}",
     "slow": "{{slow}}",
     "timeout": "{{timeout}}",
-    
+
     "No Direct IP": "{{Connections to urls with IP addresses appear to be blocked; perhaps by a web filter such as 'NoScript' or 'RequestPolicy' installed into your browser, or filtering in your proxy server.  This limits some of the functionality of this test site.}}",
     "No Direct IPv4": "{{IPv4 Connections using DNS work; but literal IP addresses in urls do not.  These are rarely used on the web today.}}",
     "No Direct IPv6": "{{IPv6 Connections using DNS work; but literal IP addresses in urls do not. These are rarely used on the web today.}}",
@@ -45,6 +45,7 @@ GIGO.messages = {
     "no_address": "{{Your IP address(es) could not be detected due to inteference from browser add-ons.}}",
     "opera": "{{The Opera web browser seems to be break on this site frequently. <b>If you have trouble, try another browser</b>.}}",
     "opera:turbo": "{{<b>Disable turbo mode on Opera, and try again.</b>  Turbo mode is not compatible with the needs of this site.}}",
+    "needs_ipv6": "{{To ensure the best Internet performance and connectivity, ask your ISP about native IPv6.}}",
     "dualstack:safe": "{{<b>Good news!</b> Your current configuration will continue to work as web sites enable IPv6.}}",
     "dualstack:unsafe": "{{<b>Our tests show that you will have a broken or misconfigured IPv6 setup, and this will cause problems as web sites enable IPv6.</b>}}",
     "dualstack:mtu": "{{<b>Our tests show that you may have MTU problems with IPv6; this can cause web sites to load slow (or not at all) when web sites enable IPv6.</b>}}",
@@ -67,7 +68,8 @@ GIGO.messages_popups = {
     "dualstack:mtu": ["faq_pmtud.html", "{{faq: MTU}}"],
     "IPv6 MTU": ["faq_pmtud.html", "{{faq: MTU}}"],
 //    "ipv4:no_address": ["faq_ipv4_only.html", "{{faq: No IPv4}}"],
-    "ipv6:no_address": ["faq_no_ipv6.html", "{{faq: No IPv6}}"],
+"ipv6:no_address": ["faq_no_ipv6.html", "{{faq: No IPv6}}"],
+"needs_ipv6": ["faq_no_ipv6.html", "{{faq: No IPv6}}"],
     "6to4": ["faq_6to4.html", "{{faq: 6to4}}"],
     "teredo-minimum": ["faq_teredo_minimum.html", "{{faq: Teredo Minimum}}"],
     "v6ns:bad": ["faq_v6ns_bad.html", "{{faq: v6ns Bad}}"],

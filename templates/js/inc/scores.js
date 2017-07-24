@@ -54,6 +54,7 @@ GIGO.scores = {
     "opera": [10, 10, "ORANGE"],
     "opera:turbo": [0, 0, "RED"],
     "dualstack:safe": [10, 10, "GREEN"],
+    "needs_ipv6": [10, 10, "BLUE"],
     "dualstack:unsafe": [10, 10, "RED"],
     "dualstack:mtu": [10, 10, "RED"],
     "buggydns1": [9, 0, "RED"],

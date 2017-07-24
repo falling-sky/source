@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2017-05-26 16:30-0400\n"
+"PO-Revision-Date: 2017-07-09 14:00-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Chinese Traditional\n"
 "MIME-Version: 1.0\n"
@@ -1552,27 +1552,27 @@ msgstr "其他網站只是收集壞掉的跟沒壞掉的使用者總數。他們
 msgid "This site, on the other hand, is intended to help the user understand their current state, and what that state possibly means to them."
 msgstr "另一方面來說，這個網站是協助用戶了解他們現在的電腦連線狀態，和這個狀態對他們的意義。"
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Q: Your site shows the wrong IP address; how can I bypass my proxy server to find my public address?"
 msgstr "你的網站顯示錯誤的 IP 位址，我如何能繞過我的代理伺服器 (Proxy Server) 找到我的網際網路位址 (IP)？"
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "For ipv4/ipv6/dual stack, use one of these:"
 msgstr "給 IPv4/IPv6/雙協定用戶，請使用下列其中一項 ︰"
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "for ipv4"
 msgstr "針對 IPv4"
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "for ipv6"
 msgstr "針對 IPv6"
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "for either"
 msgstr "針對雙協定 Dual Stack"
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Note you _may_ need to specify other options to your telnet command, depending on your operating system. On my mac, for example, I need to use \"<code>telnet -6</code>\"."
 msgstr "請注意，你可能需要其他方式來執行 telnet ，依作業系統而有所不同。以我的 Mac 為例，我需要使用<code> telnet -6 </code>。"
 

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2017-05-26 16:30-0400\n"
+"PO-Revision-Date: 2017-07-09 14:00-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Albanian\n"
 "MIME-Version: 1.0\n"
@@ -1550,27 +1550,27 @@ msgstr "Botuesit e materialit kryejnë matje përmbledhëse të përdoruesve të
 msgid "This site, on the other hand, is intended to help the user understand their current state, and what that state possibly means to them."
 msgstr ""
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Q: Your site shows the wrong IP address; how can I bypass my proxy server to find my public address?"
 msgstr "Q: Faqja nuk tregon saktë IP-në time; si mund të shmang proxy server dhe të gjej adresën time publike?"
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "For ipv4/ipv6/dual stack, use one of these:"
 msgstr "Për ipv4/ipv6/dual stack, ekzekutoni një nga komandat e mëposhtme:"
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "for ipv4"
 msgstr "për ipv4"
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "for ipv6"
 msgstr "për ipv6"
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "for either"
 msgstr "për secilën"
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Note you _may_ need to specify other options to your telnet command, depending on your operating system. On my mac, for example, I need to use \"<code>telnet -6</code>\"."
 msgstr ""
 

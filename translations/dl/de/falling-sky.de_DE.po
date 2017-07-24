@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2017-05-26 16:30-0400\n"
+"PO-Revision-Date: 2017-07-09 14:00-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: German\n"
 "MIME-Version: 1.0\n"
@@ -1550,27 +1550,27 @@ msgstr "Inhalteanbieter sammeln Metriken über funktionierende und nicht funktio
 msgid "This site, on the other hand, is intended to help the user understand their current state, and what that state possibly means to them."
 msgstr "Auf der anderen Seite soll diese Website dem Anwender helfen zu verstehen, wie sein aktueller Status ist und was das für ihn bedeutet."
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Q: Your site shows the wrong IP address; how can I bypass my proxy server to find my public address?"
 msgstr "F: Ihre Website zeigt die falsche IP-Adresse an; Wie kann ich meinen Proxy-Server umgehen, um meine öffentlichen Adresse anzeigen zu lassen?"
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "For ipv4/ipv6/dual stack, use one of these:"
 msgstr "Für IPv4, IPv6 bzw. Dual Stack benutzen Sie folgendes:"
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "for ipv4"
 msgstr "für ipv4"
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "for ipv6"
 msgstr "für ipv6"
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "for either"
 msgstr "für beide"
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Note you _may_ need to specify other options to your telnet command, depending on your operating system. On my mac, for example, I need to use \"<code>telnet -6</code>\"."
 msgstr "Beachten Sie die andere Optionen für den Telnet-Befehl, die abhängig von Ihrem Betriebssystem notwendig sein könnten. Auf meinem Mac z. B. muss ich \"<code>telnet-6</code>\" verwenden."
 

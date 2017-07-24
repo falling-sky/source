@@ -6,7 +6,7 @@
 /* Map equivalents of ASNs that arent really tunnels or distinct ISPS.
    First level: asn4
      Second level: asn6
-        Third level: "1"  
+        Third level: "1"
         */
 
 GIGO.asn_same = {
@@ -164,7 +164,7 @@ GIGO.check6RD = function (addr4, addr6) {
 
     // Now process the IPv6 address by generating a string of 64 '0' or '1' based on the /64 prefix
     bytes = addr6.split(':');
-    // We will however skip the first IPv6::/32 
+    // We will however skip the first IPv6::/32
     addr6Bits = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';
 
     // And include instead only the second //32
@@ -288,7 +288,14 @@ GIGO.identify_symptoms = function () {
     // Only do this, if IPv4 appears to work, or IPv6 appears to work.
     // (Otherwise, some Firefox plugin is screwing us again.)
     if (dsmtu === "ok") {
-        res.unshift("dualstack:safe");
+        // Do we want to encourage IPv6?  Or acknowledge IPv6?
+        if (teredo || sixfour || (!GIGO.results.ipv6.ip)) {
+          // Encourage the use of IPv6
+          res.push("needs_ipv6");
+        } else {
+          // They have IPv6?  Ah, nice.
+          //res.unshift("dualstack:safe");
+        }
     } else {
         res.unshift("dualstack:unsafe");
     }
@@ -328,7 +335,7 @@ GIGO.identify_symptoms = function () {
 
     // Do we have direct IP access?
     if (mini_secondary.match(/^[bst][bst]/)) {
-        res.push("No Direct IP"); // Not at all!     
+        res.push("No Direct IP"); // Not at all!
     } else if ((mini_secondary.match(/^[bt]./)) && (mini_primary.match(/^[os]./))) {
         0; // res.push("No Direct IPv4");  // Leave this for the NAT64 messaging
     } else if ((mini_secondary.match(/^.[bt]/)) && (mini_primary.match(/^.[os]/))) {

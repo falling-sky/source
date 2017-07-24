@@ -445,6 +445,9 @@ GIGO.show_results = function () {
             jQuery("#results_eof").before(table);
         }
     }
+    console.log("GIGO.results.tokens=%o",GIGO.results.tokens);
+
+
 
     // Show summary table.  TODO: Make this even simpler for people.
     s4 = " " + GIGO.results.score_transition + "/10";
@@ -492,34 +495,18 @@ GIGO.show_results = function () {
 GIGO.show_faq_link = function (tokens) {
     var html, faqs, page, title, linktext, m;
 
-    faqs = {
-        'dualstack:safe,ipv4_only,v6ns:bad': 'faq_ipv4_only.html',
-        'dualstack:safe,ipv4_only,v6ns:ok': 'faq_ipv4_only.html',
-        'ipv6:no_address,dualstack:safe,ipv4_only,v6ns:bad': 'faq_ipv4_only.html',
-        'ipv6:no_address,dualstack:safe,ipv4_only,v6ns:ok': 'faq_ipv4_only.html',
-        'ipv6:no_address,dualstack:safe,ipv4_only:ds_good,ipv6_timeout,v6ns:bad': 'faq_ipv4_only.html',
-        'ipv6:no_address,dualstack:safe,ipv4_only:ds_good,ipv6_timeout,v6ns:ok': 'faq_ipv4_only.html',
-        'dualstack:safe,ipv4_only,teredo-minimum,v6ns:bad': 'faq_teredo_minimum.html',
-        'dualstack:safe,ipv4_only,teredo-minimum,v6ns:ok': 'faq_teredo_minimum.html',
-
-        'dualstack:unsafe,broken': 'broken.html',
-        'ipv6:no_address,dualstack:unsafe,broken': 'broken.html',
-        'proxy_via,dualstack:unsafe,broken': 'broken.html',
-        'ipv6:no_address,proxy_via,dualstack:unsafe,broken': 'broken.html'
-
-    };
-
-    try {
-        tokens = tokens.replace(/,webfilter:[^,]+/g, ""); // These really make a mess of the tokens string.
-    } catch (e) {
-        // do nothing
+    if (/ipv4_only/.test(tokens)) {
+      page = "faq_ipv4_only.html";
+    }
+    if (/broken/.test(tokens)) {
+      page = "broken.html";
     }
 
-    if (faqs[tokens]) {
+
+    if (page !== "") {
         jQuery("#comments_unwanted").hide();
         jQuery("#comments_faq").show();
 
-        page = faqs[tokens];
         title = "{{Your FAQ}}";
         linktext = "{{Frequently Asked Questions}}";
 

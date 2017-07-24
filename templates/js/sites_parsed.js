@@ -38,19 +38,6 @@ GIGO.sites_parsed={
   "reason": "",
   "transparent": false
  },
- "campaya.co.uk": {
-  "site": "campaya.co.uk",
-  "mirror": false,
-  "hide": false,
-  "v4": "http://ipv4.campaya.co.uk/apple-touch-icon.png",
-  "v6": "http://ipv6.campaya.co.uk/apple-touch-icon.png",
-  "loc": "UK",
-  "provider": "Campaya",
-  "monitor": "Claus Pedersen \u003cclausp@campaya.com\u003e",
-  "contact": "",
-  "reason": "",
-  "transparent": false
- },
  "duplimaster.com": {
   "site": "duplimaster.com",
   "mirror": false,
@@ -168,6 +155,19 @@ GIGO.sites_parsed={
   "reason": "",
   "transparent": false
  },
+ "sixte.st": {
+  "site": "sixte.st",
+  "mirror": true,
+  "hide": false,
+  "v4": "http://ipv4.sixte.st/images-nc/knob_green.png",
+  "v6": "http://ipv6.sixte.st/images-nc/knob_green.png",
+  "loc": "SG",
+  "provider": "Delan Azabani",
+  "monitor": "Delan Azabani \u003cdelan@azabani.com\u003e",
+  "contact": "",
+  "reason": "",
+  "transparent": false
+ },
  "snozzages.com": {
   "site": "snozzages.com",
   "mirror": false,
@@ -256,19 +256,6 @@ GIGO.sites_parsed={
   "provider": "PoP-PR/RNP",
   "monitor": "equipe@pop-pr.rnp.br",
   "contact": "PoP-PR/RNP \u003cadmnet@pop-pr.rnp.br\u003e",
-  "reason": "",
-  "transparent": false
- },
- "test-ipv6.arbor.net": {
-  "site": "test-ipv6.arbor.net",
-  "mirror": true,
-  "hide": false,
-  "v4": "http://ipv4.test-ipv6.arbor.net/images-nc/knob_green.png",
-  "v6": "http://ipv6.test-ipv6.arbor.net/images-nc/knob_green.png",
-  "loc": "US",
-  "provider": "Arbor Networks",
-  "monitor": "Bill Cerveny \u003cadmin@v6research.net\u003e",
-  "contact": "",
   "reason": "",
   "transparent": false
  },
@@ -467,6 +454,19 @@ GIGO.sites_parsed={
   "reason": "",
   "transparent": false
  },
+ "test-ipv6.hu": {
+  "site": "test-ipv6.hu",
+  "mirror": true,
+  "hide": false,
+  "v4": "http://ipv4.test-ipv6.hu/images-nc/knob_green.png",
+  "v6": "http://ipv6.test-ipv6.hu/images-nc/knob_green.png",
+  "loc": "HU",
+  "provider": "Polaris-N Systems",
+  "monitor": "Polaris-N Systems \u003cinfo@polaris-n.hu\u003e",
+  "contact": "",
+  "reason": "",
+  "transparent": false
+ },
  "test-ipv6.jp": {
   "site": "test-ipv6.jp",
   "mirror": true,
@@ -490,6 +490,19 @@ GIGO.sites_parsed={
   "provider": "Liquid Telecom",
   "monitor": "ipv6@liquidtelecom.com",
   "contact": "Liquid Telecom \u003cipv6@liquidtelecom.com\u003e",
+  "reason": "",
+  "transparent": false
+ },
+ "test-ipv6.monash.edu": {
+  "site": "test-ipv6.monash.edu",
+  "mirror": true,
+  "hide": false,
+  "v4": "http://ipv4.test-ipv6.monash.edu/images-nc/knob_green.png",
+  "v6": "http://ipv6.test-ipv6.monash.edu/images-nc/knob_green.png",
+  "loc": "AU",
+  "provider": "Monash University",
+  "monitor": "John Mann \u003cJohn.Mann@monash.edu\u003e",
+  "contact": "",
   "reason": "",
   "transparent": false
  },
@@ -636,19 +649,6 @@ GIGO.sites_parsed={
   "reason": "",
   "transparent": false
  },
- "test-ipv6.sin.vr.org": {
-  "site": "test-ipv6.sin.vr.org",
-  "mirror": true,
-  "hide": false,
-  "v4": "http://ipv4.test-ipv6.sin.vr.org/images-nc/knob_green.png",
-  "v6": "http://ipv6.test-ipv6.sin.vr.org/images-nc/knob_green.png",
-  "loc": "SG",
-  "provider": "vr.org",
-  "monitor": "jfesler@gigo.com",
-  "contact": "",
-  "reason": "",
-  "transparent": false
- },
  "test-ipv6.tld.sk": {
   "site": "test-ipv6.tld.sk",
   "mirror": true,
@@ -684,19 +684,6 @@ GIGO.sites_parsed={
   "loc": "RU",
   "provider": "JSC \"Volgatranstelecom\"",
   "monitor": "VTT Network Operations Centre \u003cnoc@vtt.net\u003e",
-  "contact": "",
-  "reason": "",
-  "transparent": false
- },
- "test-ipv6.vyncke.org": {
-  "site": "test-ipv6.vyncke.org",
-  "mirror": true,
-  "hide": false,
-  "v4": "http://ipv4.test-ipv6.vyncke.org/images-nc/knob_green.png",
-  "v6": "http://ipv6.test-ipv6.vyncke.org/images-nc/knob_green.png",
-  "loc": "FR",
-  "provider": "Éric Vyncke",
-  "monitor": "Eric Vyncke \u003ceric@vyncke.org\u003e",
   "contact": "",
   "reason": "",
   "transparent": false

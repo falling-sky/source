@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2017-05-26 16:30-0400\n"
+"PO-Revision-Date: 2017-07-09 14:00-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Chinese Simplified\n"
 "MIME-Version: 1.0\n"
@@ -1550,27 +1550,27 @@ msgstr "内容提供商正在收集故障与非故障用户的指标信息，以
 msgid "This site, on the other hand, is intended to help the user understand their current state, and what that state possibly means to them."
 msgstr "本网站在另一方面是为了帮助用户理解他们当前的状态，以及该状态对他们意味着什么。"
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Q: Your site shows the wrong IP address; how can I bypass my proxy server to find my public address?"
 msgstr "问：你的网站显示的我的IP地址是错的；我该如何绕过我的代理服务器来找到我的公网地址？"
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "For ipv4/ipv6/dual stack, use one of these:"
 msgstr "对于ipv4/ipv6/双栈，使用其中之一："
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "for ipv4"
 msgstr "对于ipv4"
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "for ipv6"
 msgstr "用于ipv6"
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "for either"
 msgstr "任意一种"
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Note you _may_ need to specify other options to your telnet command, depending on your operating system. On my mac, for example, I need to use \"<code>telnet -6</code>\"."
 msgstr "请注意，您可能需要在使用 telnet 命令时指定其他选项，这根据您的操作系统而不同。举例来说，在我的Mac上，我需要使用“<code>telnet -6</code>”。"
 
@@ -2733,7 +2733,7 @@ msgstr "这意味着您使用的 DNS 服务器需要 IPv4 来到达您喜欢的�
 
 #: "faq_avoids_ipv6.html"
 msgid "Most OS's and Browsers will automatically have a strong bias towards a working IPv6 connection instead of the (possibly shared address) IPv4 connection. If yours does not, and you want to see this changed, let the browser company know. You might also find other browsers on the same OS will work the way you'd expect, if you need a work-around."
-msgstr ""
+msgstr "大多数的操作系统和浏览器会自动地把一个iPv6连接转到相反的 ( 可能分享地址) IPv4连接. 如果你的没有，而且你想看看这个改变，让你的浏览器公司知道这个问题。你可能还会发现在同一操作系统下其他浏览器会按照你所期望的工作，如果你希望有一个方法解决。"
 
 #: "faq/simple_test.inc"
 msgid "A standalone copy of this test can be found <a href=\"/simple_test.html\">here</a>."

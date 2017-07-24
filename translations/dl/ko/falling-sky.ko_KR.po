@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2017-05-26 16:30-0400\n"
+"PO-Revision-Date: 2017-07-09 14:00-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Korean\n"
 "MIME-Version: 1.0\n"
@@ -1550,27 +1550,27 @@ msgstr "콘텐츠 공급자들은 끊어진 사용자와 끊어지지 않은 사
 msgid "This site, on the other hand, is intended to help the user understand their current state, and what that state possibly means to them."
 msgstr "반면에 이 사이트는 사용자가 현재 상태와 해당 상태가 의미하는 바를 이해하는 데 도움이 되도록 의도되었습니다."
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Q: Your site shows the wrong IP address; how can I bypass my proxy server to find my public address?"
 msgstr "Q: 사이트에 잘못된 IP 주소가 표시됩니다. 공용 주소를 찾기 위해 프록시 서버를 우회하는 방법은 무엇입니까?"
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "For ipv4/ipv6/dual stack, use one of these:"
 msgstr "ipv4/ipv6/이중 스택의 경우 이들 중 하나를 사용합니다."
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "for ipv4"
 msgstr "ipv4의 경우"
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "for ipv6"
 msgstr "ipv6의 경우"
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "for either"
 msgstr "둘 다의 경우"
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Note you _may_ need to specify other options to your telnet command, depending on your operating system. On my mac, for example, I need to use \"<code>telnet -6</code>\"."
 msgstr "운영 체제에 따라 telnet 명령에 기타 옵션을 지정해야 할 수 있습니다. 예를 들어 Mac의 경우 \"<code>telnet -6</code>\"을 사용합니다."
 

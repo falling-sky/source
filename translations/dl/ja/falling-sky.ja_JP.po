@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2017-05-26 16:30-0400\n"
+"PO-Revision-Date: 2017-07-09 14:00-0400\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -1551,27 +1551,27 @@ msgstr "コンテンツプロバイダは、壊れているユーザと壊れて
 msgid "This site, on the other hand, is intended to help the user understand their current state, and what that state possibly means to them."
 msgstr "その一方で、このサイトはユーザがユーザ自身の現状と、その現状が意味するものを把握することを支援できることを意図しています。"
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Q: Your site shows the wrong IP address; how can I bypass my proxy server to find my public address?"
 msgstr "Q: あなたのサイトは、誤ったIPアドレスを表示しています; 私のパブリックアドレスを見つけるため、どのようにプロキシサーバを迂回できますか？"
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "For ipv4/ipv6/dual stack, use one of these:"
 msgstr "IPv4/IPv6/デュアルスタックについては, これらのうちの一つをご利用ください:"
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "for ipv4"
 msgstr "&nbsp;"
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "for ipv6"
 msgstr "&nbsp;"
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "for either"
 msgstr "&nbsp;"
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Note you _may_ need to specify other options to your telnet command, depending on your operating system. On my mac, for example, I need to use \"<code>telnet -6</code>\"."
 msgstr "あなたのオペレーティングシステムによっては、あなたのtelnetコマンドの他にオプションを指定する必要がある場合もありますのでご注意ください。例として、私の Mac では、\"<code>telnet -6</code>\"を利用する必要があります。"
 
