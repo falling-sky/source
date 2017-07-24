@@ -1,5 +1,5 @@
 dist: trusty
-sudo: required
+sudo: false
 language: go
 go:
 - 1.6
@@ -8,9 +8,15 @@ before_install:
   -in id_travis.enc -out id_travis -d
 - openssl aes-256-cbc -K $encrypted_3ce59779d3a2_key -iv $encrypted_3ce59779d3a2_iv
   -in translations/crowdin.yaml.enc -out translations/crowdin.yaml -d
-- sudo apt-get update -q
-- sudo apt-get install -y perl make tidy default-jre-headless
+#- sudo apt-get update -q
+#- sudo apt-get install -y perl make tidy default-jre-headless
 - git fetch --unshallow
+addons:
+ apt:
+   packages:
+     - perl
+     - tidy
+     - default-jre-headless
 script:
 - make travis
 notifications:
