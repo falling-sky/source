@@ -2,7 +2,7 @@ dist: trusty
 sudo: false
 language: go
 go:
-- 1.6
+- 1.8
 before_install:
 - openssl aes-256-cbc -K $encrypted_9171df62ed44_key -iv $encrypted_9171df62ed44_iv
   -in id_travis.enc -out id_travis -d
