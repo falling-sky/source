@@ -723,6 +723,15 @@
       "v4": "http://ipv4.joram.it/oggetti/immagini/ipv4.png",
       "v6": "http://ipv6.joram.it/oggetti/immagini/ipv6.jpg"
     },
+    "jamieweb.net": {
+      "hide": false,
+      "loc": "UK",
+      "monitor": "JamieOnUbuntu . <jamieonubuntu@gmail.com>",
+      "provider": "Jamie Scaife (JamieOnUbuntu)",
+      "site": "jamieweb.net",
+      "v4": "https://ipv4.jamieweb.net/ipv4-only.png",
+      "v6": "https://ipv6.jamieweb.net/ipv6-only.png"
+    },
     "test-ipv6.cgates.lt": {
       "hide" : false,
       "loc": "LT",
