@@ -25,3 +25,4 @@ notifications:
   email:
     on_success: always
     on_failure: always
+  slack: falling-sky:nvBQ0mBie8CK2RfPMVc6Ylmj#github
