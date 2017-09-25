@@ -129,6 +129,19 @@ GIGO.sites_parsed={
   "reason": "",
   "transparent": false
  },
+ "jamieweb.net": {
+  "site": "jamieweb.net",
+  "mirror": false,
+  "hide": false,
+  "v4": "https://ipv4.jamieweb.net/ipv4-only.png",
+  "v6": "https://ipv6.jamieweb.net/ipv6-only.png",
+  "loc": "UK",
+  "provider": "Jamie Scaife (JamieOnUbuntu)",
+  "monitor": "JamieOnUbuntu . \u003cjamieonubuntu@gmail.com\u003e",
+  "contact": "",
+  "reason": "",
+  "transparent": false
+ },
  "nic.br": {
   "site": "nic.br",
   "mirror": false,
@@ -256,6 +269,19 @@ GIGO.sites_parsed={
   "provider": "PoP-PR/RNP",
   "monitor": "equipe@pop-pr.rnp.br",
   "contact": "PoP-PR/RNP \u003cadmnet@pop-pr.rnp.br\u003e",
+  "reason": "",
+  "transparent": false
+ },
+ "test-ipv6.arbor.net": {
+  "site": "test-ipv6.arbor.net",
+  "mirror": true,
+  "hide": false,
+  "v4": "http://ipv4.test-ipv6.arbor.net/images-nc/knob_green.png",
+  "v6": "http://ipv6.test-ipv6.arbor.net/images-nc/knob_green.png",
+  "loc": "US",
+  "provider": "Arbor Networks",
+  "monitor": "Bill Cerveny \u003cadmin@v6research.net\u003e",
+  "contact": "",
   "reason": "",
   "transparent": false
  },
@@ -558,19 +584,6 @@ GIGO.sites_parsed={
   "reason": "",
   "transparent": false
  },
- "test-ipv6.orbyta.com": {
-  "site": "test-ipv6.orbyta.com",
-  "mirror": true,
-  "hide": false,
-  "v4": "http://ipv4.test-ipv6.orbyta.com/images-nc/knob_green.png",
-  "v6": "http://ipv6.test-ipv6.orbyta.com/images-nc/knob_green.png",
-  "loc": "CL",
-  "provider": "Orbyta S.A.",
-  "monitor": "javier campos \u003cjaviersource@gmail.com\u003e",
-  "contact": "",
-  "reason": "",
-  "transparent": false
- },
  "test-ipv6.polkam.go.id": {
   "site": "test-ipv6.polkam.go.id",
   "mirror": true,
@@ -649,6 +662,19 @@ GIGO.sites_parsed={
   "reason": "",
   "transparent": false
  },
+ "test-ipv6.sin.vr.org": {
+  "site": "test-ipv6.sin.vr.org",
+  "mirror": true,
+  "hide": false,
+  "v4": "http://ipv4.test-ipv6.sin.vr.org/images-nc/knob_green.png",
+  "v6": "http://ipv6.test-ipv6.sin.vr.org/images-nc/knob_green.png",
+  "loc": "SG",
+  "provider": "vr.org",
+  "monitor": "jfesler@gigo.com",
+  "contact": "",
+  "reason": "",
+  "transparent": false
+ },
  "test-ipv6.tld.sk": {
   "site": "test-ipv6.tld.sk",
   "mirror": true,
@@ -675,15 +701,15 @@ GIGO.sites_parsed={
   "reason": "",
   "transparent": false
  },
- "test-ipv6.vtt.net": {
-  "site": "test-ipv6.vtt.net",
+ "test-ipv6.vyncke.org": {
+  "site": "test-ipv6.vyncke.org",
   "mirror": true,
   "hide": false,
-  "v4": "http://ipv4.test-ipv6.vtt.net/images-nc/knob_green.png",
-  "v6": "http://ipv6.test-ipv6.vtt.net/images-nc/knob_green.png",
-  "loc": "RU",
-  "provider": "JSC \"Volgatranstelecom\"",
-  "monitor": "VTT Network Operations Centre \u003cnoc@vtt.net\u003e",
+  "v4": "http://ipv4.test-ipv6.vyncke.org/images-nc/knob_green.png",
+  "v6": "http://ipv6.test-ipv6.vyncke.org/images-nc/knob_green.png",
+  "loc": "FR",
+  "provider": "Éric Vyncke",
+  "monitor": "Eric Vyncke \u003ceric@vyncke.org\u003e",
   "contact": "",
   "reason": "",
   "transparent": false

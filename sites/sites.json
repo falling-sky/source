@@ -656,15 +656,6 @@
       "v4": "http://ipv4.test-ipv6.arauc.br/images-nc/knob_green.png",
       "v6": "http://ipv6.test-ipv6.arauc.br/images-nc/knob_green.png"
     },
-    "test-ipv6.orbyta.com": {
-      "hide": false,
-      "loc": "CL",
-      "mirror": true,
-      "monitor": "javier campos <javiersource@gmail.com>",
-      "provider": "Orbyta S.A.",
-      "v4": "http://ipv4.test-ipv6.orbyta.com/images-nc/knob_green.png",
-      "v6": "http://ipv6.test-ipv6.orbyta.com/images-nc/knob_green.png"
-    },
     "test-ipv6.ernet.in": {
       "hide": false,
       "loc": "IN",
