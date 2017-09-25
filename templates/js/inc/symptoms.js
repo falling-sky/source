@@ -18,7 +18,8 @@ GIGO.asn_same = {
 };
 
 GIGO.asn_native = {
-    668: 1 /* DREN, native non-tunnel provider */
+    668: 1, /* DREN, native non-tunnel provider */
+    24352: 1 /* CERNET2 */
 };
 
 
