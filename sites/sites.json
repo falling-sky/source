@@ -453,16 +453,6 @@
       "v4": "http://ipv4.test-ipv6.se/images-nc/knob_green.png",
       "v6": "http://ipv6.test-ipv6.se/images-nc/knob_green.png"
     },
-    "test-ipv6.showmyip.ca": {
-      "hide": false,
-      "loc": "CA",
-      "mirror": true,
-      "monitor": "Christopher Munz-Michielin <christopher@showmyip.ca>",
-      "provider": "Christopher Munz-Michielin",
-      "site": "test-ipv6.showmyip.ca",
-      "v4": "http://ipv4.test-ipv6.showmyip.ca/images-nc/knob_green.png",
-      "v6": "http://ipv6.test-ipv6.showmyip.ca/images-nc/knob_green.png"
-    },
     "test-ipv6.si": {
       "hide": false,
       "loc": "SI",
@@ -714,13 +704,22 @@
       "v6": "https://ipv6.jamieweb.net/ipv6-only.png"
     },
     "test-ipv6.cgates.lt": {
-      "hide" : false,
+      "hide": false,
       "loc": "LT",
       "monitor": "Marius Sokas <marius.sokas@cgates.lt>",
       "provider": "Cgates",
       "site": "test-ipv6.cgates.lt",
       "v4": "http://ipv4.test-ipv6.cgates.lt/images-nc/knob_green.png",
       "v6": "http://ipv6.test-ipv6.cgates.lt/images-nc/knob_green.png"
+    },
+    "www.nop.hu": {
+      "hide": false,
+      "loc": "HU",
+      "monitor": "matecs <matecs@niif.hu>",
+      "provider": "nop.hu",
+      "site": "www.nop.hu",
+      "v4": "http://ipv4.nop.hu/hosted.png",
+      "v6": "http://ipv6.nop.hu/hosted.png"
     }
   }
 }
