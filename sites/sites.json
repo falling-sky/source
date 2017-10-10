@@ -254,16 +254,6 @@
       "v4": "http://ipv4.test-ipv6.sin.vr.org/images-nc/knob_green.png",
       "v6": "http://ipv6.test-ipv6.sin.vr.org/images-nc/knob_green.png"
     },
-    "test-ipv6.co.za": {
-      "hide": false,
-      "loc": "ZA",
-      "mirror": true,
-      "monitor": "Multisource Support <support@multisource.co.za>",
-      "provider": "Multisource Telecoms",
-      "site": "test-ipv6.co.za",
-      "v4": "http://ipv4.test-ipv6.co.za/images-nc/knob_green.png",
-      "v6": "http://ipv6.test-ipv6.co.za/images-nc/knob_green.png"
-    },
     "test-ipv6.com": {
       "hide": false,
       "loc": "Varies",
