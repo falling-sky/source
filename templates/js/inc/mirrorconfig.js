@@ -110,20 +110,28 @@ GIGO.fixup_html_per_site_config = function () {
 
 
 GIGO.fixup_html_per_locale = function () {
+
+  if (/bot|google|baidu|bing|msn|duckduckgo|teoma|slurp|yandex/i.test(navigator.userAgent)) {
+    console.log("skipping link fixup (crawler)");
+    return;
+  }
+
+
   $('a').each(function() {
     var value = $(this).attr('href');
     // if value starts with "/" and ends in .html .. fix it.
     if (value === "/") {
       value="/index.html";
     }
-    if (value.startsWith("/")) {
-      if (value.endsWith(".html")) {
+
+    if (value.startsWith("/") && value.endsWith(".html")) {
         value=value+'.{{locale}}';
         $(this).attr('href',value);
-      }
+        console.log("fixup_html_per_locale fixed href %o",value);
+    }     else {
+      console.log("fixup_html_per_locale ignored href %o",value);
     }
 
-    console.log("fixup_html_per_locale found href %o",value);
     //$(this).attr('href', value.replace('#/',''));
   });
 };
