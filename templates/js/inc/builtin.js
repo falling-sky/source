@@ -494,6 +494,7 @@ GIGO.show_results = function () {
 
 GIGO.show_faq_link = function (tokens) {
     var html, faqs, page, title, linktext, m;
+    page="";
 
     if (/ipv4_only/.test(tokens)) {
       page = "faq_ipv4_only.html";
