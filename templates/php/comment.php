@@ -6,10 +6,10 @@ function translate($data) {
  // Based on
  // http://ankwebprogramming.wordpress.com/2011/10/08/translating-text-using-the-google-translate-api-and-php-json-and-curl/
  //  Kartik Rangholiya
- 
+
   global $privateconfig;
-  
- 
+
+
   $ENDPOINT = 'https://www.googleapis.com/language/translate/v2';
   $values = array(
                 'key'    => $privateconfig["google_translate"]["key"],
@@ -56,14 +56,14 @@ function chunk_of_text($title,$chunk,$translate) {
         $chunk = translate($chunk);
         $html .= chunk_of_text("$title (translated)",$chunk,0);
       }
-  } 
+  }
   return $html;
 }
 
 function chunk_of_hash($title,$json) {
   global $mirrorconfig;
   global $privateconfig;
-  
+
   $r = json_decode($json,true);
   //$y = yaml_emit($r);
   $y = json_encode($r,JSON_PRETTY_PRINT);
@@ -73,11 +73,11 @@ function chunk_of_hash($title,$json) {
 function chunk_of_results($title,$json) {
   global $mirrorconfig;
   global $privateconfig;
-  
+
   $r = json_decode($json,true);
   $n = Array();
   $n["tests"] = Array();
-  
+
   foreach ($r["tests"] as $key=>$array) {
     $n["tests"][$key] = $array["status"] . " " . sprintf('%.03f',$array["time_ms"]/1000.0);
   }
@@ -85,7 +85,7 @@ function chunk_of_results($title,$json) {
   //$y=yaml_emit($n);
   $y = json_encode($n,JSON_PRETTY_PRINT);
   return chunk_of_text($title,$y,0);
-  
+
 
 }
 
@@ -107,23 +107,23 @@ function store_data_html() {
 
   $cookie = fetch_cookie();  # Validated for certain safety measures.
   $tokens = param_val("tokens","/^[a-zA-Z0-9 ,]+\$/");
-  
+
   if ($_POST["nobots"] != "serious") {
     header("HTTP/1.1 500 Internal server error");
     print htmlentities("nobots value wrong, received \"".  $_POST["nobots"] . "\"");
     exit(1);
   }
-  
+
   if ($_POST["purpose"] == "-") {
     header("HTTP/1.1 400 Bad Request");
     print htmlentities("'purpose' must be specified to post this comment.");
     exit(1);
-    
+
   }
   $base = htmlentities($_POST["subdomain"]);
 #  $css = get_css("index.css");
-  
-  
+
+
   $message =  <<<HEREDOC
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
@@ -137,7 +137,7 @@ function store_data_html() {
 HEREDOC;
 
 
-  
+
   $message .= "<div>site name: $base</div>";
   $message .= "<div>";
   $message .= $_POST["form_tab_main"];
@@ -145,42 +145,45 @@ HEREDOC;
 
   $ua = $_SERVER["HTTP_USER_AGENT"];
   $message .= chunk_of_text("user agent",$ua,0);
-  
+
+  $message.= chunk_of_text("replay",$_POST["form_replay"],0);
+
+
   $message .= "<hr/>";
    $purpose = "notes";
   if (preg_match('/^[a-z0-9 -]+$/i',$_POST["purpose"])) {
     $purpose = $_POST["purpose"];
   }
-  
+
   $message .= chunk_of_text($purpose,$_POST["notes"],1);
   $message.= chunk_of_text("comments",$_POST["comments"],0);
-  
+
   $message .= chunk_of_results("results",$_POST["form_results"],0);
   $message .= chunk_of_hash("config",$_POST["form_config"],0);
-  
-  
-  
-  
+
+
+
+
   $contact = trim($_POST["contact"]);
   $result = filter_var($contact, FILTER_VALIDATE_EMAIL);
-  
+
   if ($result) {
      $replyto = "Reply-to: $contact\r\n";
   } else {
      $replyto = "";  $contact="";
   }
-  
+
   $to = $mirrorconfig["site"]["mailto"];
   $subject = $mirrorconfig["site"]["name"] . " feedback [$contact]";
   $headers = $replyto . "Content-type: text/html; charset=utf-8";
   $headers = $headers . "\nContent-Transfer-Encoding: base64";
-  
+
   $message64 = base64_encode($message);
-  
+
   mail($to,$subject,$message64,$headers);
   print "Feedback sent; thank you for your assistance.<p>";
   print "If you included contact details, you may be contacted for further information, by " . $mirrorconfig["site"]["contact"]   . "</hr>";
-  
+
 }
 
 
@@ -191,21 +194,21 @@ function store_data_text() {
 
   $cookie = fetch_cookie();  # Validated for certain safety measures.
   $tokens = param_val("tokens","/^[a-zA-Z0-9 ,]+\$/");
-  
+
   if ($_POST["nobots"] != "serious") {
     header("HTTP/1.1 500 Internal server error");
     print htmlentities("nobots value wrong, received \"".  $_POST["nobots"] . "\"");
     exit(1);
   }
-  
+
   if ($_POST["purpose"] == "-") {
     header("HTTP/1.1 400 Bad Request");
     print htmlentities("'purpose' must be specified to post this comment.");
     exit(1);
-    
+
   }
-  
-  
+
+
   $message = sprintf("%-15s: %s\n", "contact", $_POST["contact"]);
   $message .= sprintf("%-15s: %s\n", "purpose", $_POST["purpose"]);
   $message .= sprintf("%-15s: %s\n", "tokens", $_POST["tokens"]);
@@ -228,7 +231,7 @@ function store_data_text() {
   $message .= sprintf("%-15s: %s\n", "v6ns", $_POST["v6ns"]);
   $message .= "----------------------------\n";
   $message .= sprintf("%-15s: %s\n", "ip4", $_POST["ip4"]);
-  $message .= sprintf("%-15s: %s %s\n", "ip6", $_POST["ip6"], $_POST["ip6subtype"]);  
+  $message .= sprintf("%-15s: %s %s\n", "ip6", $_POST["ip6"], $_POST["ip6subtype"]);
   $message .= sprintf("%-15s: %s\n", "remote_addr", remote_addr());
   $message .= sprintf("%-15s: %s\n", "user-agent",  $_SERVER["HTTP_USER_AGENT"]);
   $message .= sprintf("%-15s: %s\n", "referer", $_SERVER["HTTP_REFERER"]);
@@ -240,16 +243,16 @@ function store_data_text() {
   if ($privateconfig["google_translate"]["enable"]) {
     $message .= "\n\nTranslated\n---------\n" . translate( $_POST["notes"]);
   }
-  
+
   $message .= "\n\nComments\n--------------\n" . $_POST["comments"];
-  
-  
-  
+
+
+
 #  print_r($_SERVER);
-  
-  
+
+
   $charset = "UTF-8";
-  
+
 #  header("Content-type: text/html; charset=$charset");
 ?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
@@ -281,10 +284,10 @@ function store_data_text() {
   print "</body>";
 
 
-  
+
 }
 if ($mirrorconfig["options"]["comment_html"]) {
-  store_data_html(); 
+  store_data_html();
 } else {
   store_data_text();
 }
