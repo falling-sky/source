@@ -37,7 +37,7 @@ GIGO.form_setup = function (tokens) {
     jQuery("[name=form_tab_main]").val(jQuery("#tab_main_inside")[0].outerHTML);
     jQuery("[name=form_config]").val(JSON.encode(MirrorConfig));
     jQuery("[name=form_results]").val(JSON.encode(GIGO.results));
-
+    jQuery("[name=form_replay]").val(GIGO.generate_share_link());
 
 };
 
