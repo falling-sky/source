@@ -29,8 +29,8 @@ endif
 
 crowdin-download:
 ifeq ($(PUBLISH),true)
-	curl --silent  "http://api.crowdin.net/api/project/falling-sky/export?key=$(API_KEY)" >/dev/null
-	wget -O all.zip  "http://api.crowdin.net/api/project/falling-sky/download/all.zip?key=$(API_KEY)"
+	curl --silent  "https://api.crowdin.net/api/project/falling-sky/export?key=$(API_KEY)" >/dev/null
+	wget -O all.zip  "https://api.crowdin.net/api/project/falling-sky/download/all.zip?key=$(API_KEY)"
 	rm -fr dl
 	unzip -q -d dl all.zip
 	for x in `find dl/ -type d`; do cp README.md $$x/ ; done

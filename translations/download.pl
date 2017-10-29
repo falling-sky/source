@@ -8,8 +8,8 @@ my $config = LoadFile("crowdin.yaml");
 my $pid = $config->{"project_identifier"};
 my $key = $config->{"api_key"};
 my $base = $config->{"base_path"};
-my $EXPORT = "http://api.crowdin.net/api/project/${pid}/export?key=${key}";
-my $DOWNLOAD = "http://api.crowdin.net/api/project/${pid}/download/all.zip?key=${key}";
+my $EXPORT = "https://api.crowdin.net/api/project/${pid}/export?key=${key}";
+my $DOWNLOAD = "https://api.crowdin.net/api/project/${pid}/download/all.zip?key=${key}";
 
 
 die unless (is_success(getprint($EXPORT)));
