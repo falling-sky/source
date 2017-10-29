@@ -1,5 +1,0 @@
-    if (!(url.search(/\?/))) {
-      url = url + "?";
-    }
-    url = url + "&testdomain=" + GIGO.options.domain;
-    url = url + "&testname=" + id;
