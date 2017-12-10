@@ -22,6 +22,10 @@ GIGO.asn_native = {
     24352: 1 /* CERNET2 */
 };
 
+GIGO.unreliable = {
+  "CN": 1, /* China */
+};
+
 
 GIGO.ministates = function (which) {
     var s, i, key, v, tests;
@@ -222,8 +226,8 @@ GIGO.identify_symptoms = function () {
 
     // ASN similarities?  Based on mod_ip ASN list
     if ((GIGO.results.ipv4.asnlist) && (GIGO.results.ipv6.asnlist)) {
-        a = GIGO.results.ipv4.asnlist.split(";");
-        b = GIGO.results.ipv6.asnlist.split(";");
+        a = GIGO.results.ipv4.asnlist.split(new RegExp('[; ]','g'));
+        b = GIGO.results.ipv6.asnlist.split(new RegExp('[; ]','g'));
         for (ia = 0; ia < a.length; ia = ia + 1) {
             for (ib = 0; ib < b.length; ib = ib + 1) {
                 if (a[ia] === b[ib]) {

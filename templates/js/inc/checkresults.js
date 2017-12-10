@@ -81,7 +81,7 @@ GIGO.check_results = function () {
 
     GIGO.finished = 1;
     GIGO.update_progress(GIGO);
-    GIGO.fix_comment_form_and_tab(); // Fix up the comments tab 
+    GIGO.fix_comment_form_and_tab(); // Fix up the comments tab
 
 
     tokens = GIGO.identify_symptoms();
@@ -151,6 +151,9 @@ GIGO.check_results = function () {
 
     if (score_strict > 7) {
         GIGO.start_sites(); // Check other sites for connections too.  Starts a new on-page tab.
+    }
+    if (score_strict < 9) {
+        GIGO.update_service_warning();
     }
 
     // Copy the results into a place that other people might find them

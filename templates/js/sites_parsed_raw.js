@@ -597,6 +597,19 @@
   "reason": "",
   "transparent": false
  },
+ "test-ipv6.polkam.go.id": {
+  "site": "test-ipv6.polkam.go.id",
+  "mirror": true,
+  "hide": false,
+  "v4": "http://ipv4.test-ipv6.polkam.go.id/images-nc/knob_green.png",
+  "v6": "http://ipv6.test-ipv6.polkam.go.id/images-nc/knob_green.png",
+  "loc": "ID",
+  "provider": "Coordinating Ministry For Political, Legal, and Security Affairs of Indonesia",
+  "monitor": "vicky@polkam.go.id",
+  "contact": "",
+  "reason": "",
+  "transparent": false
+ },
  "test-ipv6.ro": {
   "site": "test-ipv6.ro",
   "mirror": true,
@@ -606,6 +619,19 @@
   "loc": "RO",
   "provider": "RCS \u0026 RDS",
   "monitor": "Liviu Pislaru \u003cliviu.pislaru@rcs-rds.ro\u003e",
+  "contact": "",
+  "reason": "",
+  "transparent": false
+ },
+ "test-ipv6.roedu.net": {
+  "site": "test-ipv6.roedu.net",
+  "mirror": true,
+  "hide": false,
+  "v4": "http://ipv4.test-ipv6.roedu.net/images-nc/knob_green.png",
+  "v6": "http://ipv6.test-ipv6.roedu.net/images-nc/knob_green.png",
+  "loc": "RO",
+  "provider": "RoEduNet",
+  "monitor": "IPv6 @ RoEduNet \u003cipv6@roedu.net\u003e",
   "contact": "",
   "reason": "",
   "transparent": false
@@ -684,19 +710,6 @@
   "loc": "RU",
   "provider": "JSC \"Volgatranstelecom\"",
   "monitor": "VTT Network Operations Centre \u003cnoc@vtt.net\u003e",
-  "contact": "",
-  "reason": "",
-  "transparent": false
- },
- "test-ipv6.vyncke.org": {
-  "site": "test-ipv6.vyncke.org",
-  "mirror": true,
-  "hide": false,
-  "v4": "http://ipv4.test-ipv6.vyncke.org/images-nc/knob_green.png",
-  "v6": "http://ipv6.test-ipv6.vyncke.org/images-nc/knob_green.png",
-  "loc": "FR",
-  "provider": "Éric Vyncke",
-  "monitor": "Eric Vyncke \u003ceric@vyncke.org\u003e",
   "contact": "",
   "reason": "",
   "transparent": false

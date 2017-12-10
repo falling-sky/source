@@ -195,7 +195,29 @@ GIGO.update_ip = function (id) {
     }
 
 
+};
 
+GIGO.update_service_warning = function () {
+  var danger=false;
+  try {
+    if (GIGO.unreliable[ GIGO.results.tests.test_asn4.ipinfo.country ]) {
+      danger=true;
+    }
+  } catch (e) {
+    // noop
+  }
+  try {
+    if (GIGO.unreliable[ GIGO.results.tests.test_asn6.ipinfo.country ]) {
+      danger=true;
+    }
+  } catch (e) {
+    // noop
+  }
+  if (danger) {
+    s = "{{Tests using this web site are unreliable from your location.}}";
+    table  = GIGO.results_table_wrapper("orange",s);
+    jQuery("#results_eof").before(table);
+  }
 
 };
 

@@ -234,9 +234,10 @@ GIGO.test_type_json_only = function (url, id) {
 
     if ((id === "test_asn4") && (GIGO.isdef(GIGO.CGI.ip4))) {
         if ((GIGO.CGI.ip4) && (GIGO.CGI.ip4.match(/^[0-9abcdef.:]+$/))) {
-            url = "/ip/?callback=?&asn=1&testip=" + GIGO.CGI.ip4;
-            url = url + "&testdomain=" + GIGO.options.domain;
-            url = url + "&testname=" + id;
+            url = url  + "&testip=" + GIGO.CGI.ip4;
+            // url = "/ip/?callback=?&asn=1&testip=" + GIGO.CGI.ip4;
+            // url = url + "&testdomain=" + GIGO.options.domain;
+            // url = url + "&testname=" + id;
             this_test.url = url; // For later display of test urls
             GIGO.update_url(id);
         } else {
@@ -251,9 +252,11 @@ GIGO.test_type_json_only = function (url, id) {
     }
     if ((id === "test_asn6") && (GIGO.isdef(GIGO.CGI.ip6))) {
         if ((GIGO.CGI.ip6) && (GIGO.CGI.ip6.match(/^[0-9abcdef.:]+$/))) {
-            url = "/ip/?callback=?&asn=1&testip=" + GIGO.CGI.ip6;
-            url = url + "&testdomain=" + GIGO.options.domain;
-            url = url + "&testname=" + id;
+            url = url  + "&testip=" + GIGO.CGI.ip6;
+            //
+            // url = "/ip/?callback=?&asn=1&testip=" + GIGO.CGI.ip6;
+            // url = url + "&testdomain=" + GIGO.options.domain;
+            // url = url + "&testname=" + id;
             this_test.url = url; // For later display of test urls
             GIGO.update_url(id);
         } else {
@@ -659,8 +662,8 @@ GIGO.set_default_options = function (options) {
 
 
     // ASN lookups are corrently broken.
-    options.url.test_asn4 = "http://ipv4." + options.subdomain + options.uri + "&asn=1";
-    options.url.test_asn6 = "http://ipv6." + options.subdomain + options.uri + "&asn=1";
+    options.url.test_asn4 = "http://ipv4.lookup.test-ipv6.com" + options.uri + "&asn=1";
+    options.url.test_asn6 = "http://ipv6.lookup.test-ipv6.com" + options.uri + "&asn=1";
 
 
     options.url.test_a_img = "http://ipv4." + options.subdomain + options.img_uri;
