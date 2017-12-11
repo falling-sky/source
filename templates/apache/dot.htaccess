@@ -13,7 +13,7 @@ CookieTracking off
 ################################################################
 
 Options +MultiViews
-LanguagePriority en-us en 
+LanguagePriority en-us en
 ForceLanguagePriority prefer fallback
 
 ################################################################
@@ -50,8 +50,14 @@ RewriteEngine On
 
 # Prepare for Let's Encrypt.  But, only do this for test-ipv6.com
 # and not other people's domains.
+# https://github.com/falling-sky/source/wiki/SSL-and-HTTP-2-plans
+# Only "transparent mirrors" will be listed below, so that I can negotiate
+# SSL certificates with the joint test-ipv6.com name + the sponsoring host names.
 RewriteCond %{HTTP_HOST} ^(.*\.)?test-ipv6\.com$ [NC,OR]
-RewriteCond %{HTTP_HOST} ^(.*\.)?vr\.org$ [NC]
+RewriteCond %{HTTP_HOST} ^(.*\.)?test-ipv6\.vr\.org$ [NC,OR]
+RewriteCond %{HTTP_HOST} ^(.*\.)?test-ipv6-ct\.comcast.net$ [NC,OR]
+RewriteCond %{HTTP_HOST} ^(.*\.)?test-ipv6-pa\.comcast.net$ [NC,OR]
+RewriteCond %{HTTP_HOST} ^(.*\.)?test-ipv6\.arauc\.br$ [NC]
 RewriteRule "^(.well-known/acme-.*)$" http://validation-server.test-ipv6.com/$1 [R,L]
 
 </IfModule>
@@ -64,4 +70,3 @@ RewriteRule "^(.well-known/acme-.*)$" http://validation-server.test-ipv6.com/$1 
 #                                                                   #
 #####################################################################
 Redirect 307 /htrev/ /?htrev=[% .GitInfo.Version %]-[% .DirSignature %]
-
