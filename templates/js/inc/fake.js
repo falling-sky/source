@@ -22,7 +22,7 @@ GIGO.prepare_fake = function () {
 
 GIGO.override_id = function (id, url) {
     var tests, this_test, parts, status, protocol, whichasn;
-    tests = GIGO.results.tests; // Convenience    
+    tests = GIGO.results.tests; // Convenience
     if (!(tests.hasOwnProperty(id))) {
         tests[id] = {};
     }
@@ -116,8 +116,9 @@ GIGO.override_id = function (id, url) {
 
 GIGO.override_id_ip = function (id) {
     var tests, this_test, parts, status, protocol, whichasn;
-    tests = GIGO.results.tests; // Convenience    
+    tests = GIGO.results.tests; // Convenience
     this_test = tests[id];
+    console.log("override_id_ip? id=%o",id);
     if (!this_test) {
         return;
     }
@@ -125,6 +126,7 @@ GIGO.override_id_ip = function (id) {
         return;
     }
     whichasn = "test_asn" + this_test.ipinfo.type.replace(/^ipv/, "");
+    console.log("override_id_ip? whichasn=%o",whichasn);
 
     this_test.ipinfo = {};
 
@@ -134,4 +136,5 @@ GIGO.override_id_ip = function (id) {
             this_test.ipinfo[key] = tests[whichasn].ipinfo[key];
         }
     }
+    console.log("override_id_ip tests[%o]=%o",id,this_test);
 };

@@ -320,7 +320,7 @@ GIGO.send_survey_global = function (tokens) {
         GIGO.send_survey(tokens);
      }
   }
-}
+};
 
 
 GIGO.send_survey = function (tokens) {
@@ -333,9 +333,9 @@ GIGO.send_survey = function (tokens) {
     if (MirrorConfig.options.userdata) {
         // We're going to completely override "url"
         if (GIGO.results.ipv4.ip) {
-            url = "http://ipv4." + MirrorConfig.options.userdata + MirrorConfig.options.survey;
+            url = GIGO.protocol  + "ipv4." + MirrorConfig.options.userdata + MirrorConfig.options.survey;
         } else {
-            url = "http://ipv6." + MirrorConfig.options.userdata + MirrorConfig.options.survey;
+            url = GIGO.protocol  + "ipv6." + MirrorConfig.options.userdata + MirrorConfig.options.survey;
         }
     }
 
@@ -566,7 +566,7 @@ GIGO.help_popup = function (file, tabname, popup) {
         // hostname (instead of the 'current server');  This is to
         // avoid cross-domain problems.
         hostname = String(document.location.hostname);
-        file = "http://" + hostname + "/" + file;
+        file = GIGO.protocol + hostname + "/" + file;
         lfile = file + '.{{locale}}';
 
 
