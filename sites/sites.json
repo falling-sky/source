@@ -624,6 +624,15 @@
       "v4": "http://ipv4.test-ipv6.tni-au.mil.id/images-nc/knob_green.png",
       "v6": "http://ipv6.test-ipv6.tni-au.mil.id/images-nc/knob_green.png"
     },
+    "test-ipv6.densus88.id": {
+      "hide": false,
+      "loc": "ID",
+      "mirror": true,
+      "monitor": "Vicky Ezra Imanuel <vicky@densus88.id>",
+      "provider": "Special Detachment 88 - Indonesian National Police",
+      "v4": "http://ipv4.test-ipv6.densus88.id/images-nc/knob_green.png",
+      "v6": "http://ipv6.test-ipv6.densus88.id/images-nc/knob_green.png"
+    },
     "test-ipv6.arauc.br": {
       "hide": false,
       "loc": "BR",
