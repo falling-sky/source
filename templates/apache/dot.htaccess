@@ -54,7 +54,7 @@ RewriteEngine On
 # Only "transparent mirrors" will be listed below, so that I can negotiate
 # SSL certificates with the joint test-ipv6.com name + the sponsoring host names.
 RewriteCond %{HTTP_HOST} ^(.*\.)?test-ipv6\.com$ [NC,OR]
-RewriteCond %{HTTP_HOST} ^(.*\.)?test-ipv6\.vr\.org$ [NC,OR]
+RewriteCond %{HTTP_HOST} ^(.*\.)?test-ipv6\.[a-z]+\.vr\.org$ [NC,OR]
 RewriteCond %{HTTP_HOST} ^(.*\.)?test-ipv6-ct\.comcast.net$ [NC,OR]
 RewriteCond %{HTTP_HOST} ^(.*\.)?test-ipv6-pa\.comcast.net$ [NC,OR]
 RewriteCond %{HTTP_HOST} ^(.*\.)?test-ipv6\.arauc\.br$ [NC]
