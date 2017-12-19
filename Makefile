@@ -70,6 +70,7 @@ output: FORCE
 
 pipeline: pre output post
 
+
 crowdin-upload:
 	@echo Uploading crowdin strings to translate | ./support/fold_start.sh $@
 ifeq ($(TRAVIS_PUBLISH),true)
@@ -138,7 +139,7 @@ dist-stable:
 # Real targets.                                                #
 ################################################################
 
-beta: pipeline
+beta: fsbuilder output
 	@echo Publishing to beta server | ./support/fold_start.sh $@
 	rsync output/. $(BETA)/.  -a --exclude site --delete -z
 	@./support/fold_end.sh $@

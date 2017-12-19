@@ -22,7 +22,7 @@ GIGO.prepare_fake = function () {
 
 GIGO.override_id = function (id, url) {
     var tests, this_test, parts, status, protocol, whichasn;
-    tests = GIGO.results.tests; // Convenience    
+    tests = GIGO.results.tests; // Convenience
     if (!(tests.hasOwnProperty(id))) {
         tests[id] = {};
     }
@@ -51,6 +51,10 @@ GIGO.override_id = function (id, url) {
         } else {
             protocol = "ipv4";
         }
+    }
+    // Is it abbreviated?
+    if (protocol==="6" || protocol==="4") {
+      protocol="ipv"+protocol;
     }
 
     whichasn = "test_asn" + protocol.replace(/^ipv/, "");
@@ -83,7 +87,11 @@ GIGO.override_id = function (id, url) {
         this_test.status = status;
         this_test.time_ms = parseInt(parts[1]) || (GIGO.max_time + 1);
     }
-
+    if (status === "skipped") {
+        this_test.ipinfo = {};
+        this_test.status = status;
+        this_test.time_ms = parseInt(parts[1]) || (0);
+    }
 
     if (id === "test_ds") {
         // We need to populate test_ds4 and test_ds6  in much the same way that GIGO.test_type_json() does
@@ -111,12 +119,13 @@ GIGO.override_id = function (id, url) {
             };
         }
     }
+    this_test.ipinfo.type=protocol;
 
 };
 
 GIGO.override_id_ip = function (id) {
     var tests, this_test, parts, status, protocol, whichasn;
-    tests = GIGO.results.tests; // Convenience    
+    tests = GIGO.results.tests; // Convenience
     this_test = tests[id];
     if (!this_test) {
         return;

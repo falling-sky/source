@@ -41,6 +41,7 @@ GIGO.helpdesk_ob_status = function (n) {
     if (s === "slow") return "g";
     if (s === "bad") return "b";
     if (s === "timeout") return "t";
+    if (s === "skipped") return "x";
 };
 GIGO.helpdesk_ob_type = function () {
     //# global,bad,teredo,6to4,asn(different)
@@ -72,6 +73,8 @@ GIGO.helpdesk_score = function () {
 
     var status = status_a + status_ipv4 + ":" + status_aaaa + status_ipv6_type;
     var ob = new Object;
+
+    console.log("helpdesk status code %o",status);
 
     ob.found = GIGO.sym_helpdesk[status];
     ob.qcode = GIGO.sym_helpdesk_qcode[ob.found];
@@ -248,8 +251,8 @@ GIGO.finish_helpdesk = function () {
     // GIGO.results.mini_primary
     // GIGO.results.mini_secondary
 
-    // This is meant to be ran several times; each time will replace 
-    // #helpdesk_content 
+    // This is meant to be ran several times; each time will replace
+    // #helpdesk_content
 
     // First time replaced, will be before the "other sites" tab starts.
     // If we have IPV6, then it should say "checking other sites.."
