@@ -1,0 +1,51 @@
+[% PROCESS "inc/header.inc" %]
+[% $page := "Using HTTPS" %]
+[% PROCESS "inc/list-nav.inc" %]
+
+<div id="content">
+
+<h1>{{Differences in HTTP vs HTTPS}}</h1>
+<p>{{HTTP and HTTPS bring us different testing capabilities.  Unfortunately, we can not test both at once.  You can choose which features to test for, by using http://test-ipv6.com or https://test-ipv6.com.}}</p>
+<p>{{<b>HTTP</b> allows us to test for Teredo and 6to4.  Both are transitional technologies.
+  Modern operating systems by default no longer use those, unless there is no other choice.
+  Windows, for example, will not use Teredo, when the browser is given a DNS name to connect to.
+  However, Windows will attempt to use Teredo, when told an IPv6-only IP address.  6to4
+  is similarly deprecated; and only likely used if there is no other choice.}}</p>
+
+<p>{{HTTP also allows us to detect certain types of DNS64/NAT64.
+  NAT64 is a migration strategy that allows for an eventual IPv6-only Internet.
+  Until then, connections to the IPv4 Internet are translated.
+  We detect this by making connections to literal IP address, such as http://192.0.2.1/
+  (with a server-specific IP address).
+  We are able to detect NAT64 in particular when there is no local IPv4 tunnel
+  (464xlat on Android) or OS assistance (Apple iOS, Apple MacOS).
+}}
+
+<p>{{<b>HTTPS</b>, which ensures a trusted transport from you to the server,
+  allows bypassing many corporate and mobile proxy servers.
+  There are exceptions; particularly if you agreed to install their certificate;
+  but that is generally not advised.  Bypassing these proxies allows us to show
+  you a better idea of your IP address - something that represents your location,
+  and your connectivity to the IPv6 Internet.</p>
+
+  <p>{{A limitation of using HTTPS exists.  Since HTTPS requires certificates,
+    and certificates are not offered to IP addresses (but instead to web site names),
+    we can't test for NAT64, 6to4, or Teredo.}}</p>
+
+
+<h1>{{Should I use HTTP or HTTPS?}}</h1>
+
+<p>{{If you're in a new location, or a computer you're not familiar with,
+  consider both!.  If both come up with the same results, you can
+  pick http for speed, or https to bypass certain proxies.}}</p>
+
+<p>{{Links:}}</p>
+<ul>
+    <li><a href="javascript:window.location=window.location.href.replace('http://', 'https://');">https</a>
+    <li><a href="javascript:window.location=window.location.href.replace('https://', 'http://');">http</a>
+</ul>
+
+
+
+
+[% PROCESS "inc/footer.inc" %]

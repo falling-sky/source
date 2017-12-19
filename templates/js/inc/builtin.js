@@ -454,6 +454,10 @@ GIGO.show_results = function () {
         jQuery("#help_plugins").show(); // Less encouraging of soliciting comments on this one.
     }
 
+
+    // Create href substitutions
+
+
     GIGO.check_versions(); // Check OS, Browser, etc
     // Show the results to the user
     for (i = 0; i < GIGO.results.tokens_expanded.length; i = i + 1) {
@@ -468,6 +472,9 @@ GIGO.show_results = function () {
             // token_expanded.token
             // token_expanded.color
             // token_expanded.text
+
+
+
 
             table = GIGO.results_table_wrapper(token_expanded.color, token_expanded.text);
             jQuery("#results_eof").before(table);
