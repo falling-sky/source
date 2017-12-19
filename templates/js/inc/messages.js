@@ -7,6 +7,7 @@ GIGO.messages = {
     "ok": "{{ok}}",
     "slow": "{{slow}}",
     "timeout": "{{timeout}}",
+    "skipped": "{{skipped}}",
 
     "No Direct IP": "{{Connections to urls with IP addresses appear to be blocked; perhaps by a web filter such as 'NoScript' or 'RequestPolicy' installed into your browser, or filtering in your proxy server.  This limits some of the functionality of this test site.}}",
     "No Direct IPv4": "{{IPv4 Connections using DNS work; but literal IP addresses in urls do not.  These are rarely used on the web today.}}",

@@ -1016,7 +1016,7 @@ msgstr ""
 msgid "To open your terminal: Go to your Applications folder; go to Utilities; and double click Terminal."
 msgstr ""
 
-#: "faq/find_ip.inc"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "To see your IP addresses: <code>ifconfig -f inet6</code>."
 msgstr ""
 
@@ -2272,7 +2272,7 @@ msgstr ""
 msgid "Your ethernet switch / hub: No. It is unaware of IP; it works at a lower level on the local network."
 msgstr ""
 
-#: "faq_whyipv6.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Your router: Quite possibly. Many home routers have no upgrade path for IPv6. Do a web search for your router mode, with the keyword \"ipv6\" with it."
 msgstr ""
 
@@ -2786,5 +2786,17 @@ msgstr ""
 
 #: "faq/plugins_tryagain.inc"
 msgid "Alternately, consider trying another browser. Suggested browsers: IE, Firefox, Safari, Chrome."
+msgstr ""
+
+#: "inc/messages.js"
+msgid "skipped"
+msgstr ""
+
+#: "inc/builtin.js"
+msgid "Tests using this web site are unreliable from your location."
+msgstr ""
+
+#: "faq/find_ip.inc"
+msgid "To see your IP addresses: <code>ifconfig -a inet6</code> or <code>ifconfig -f inet6</code>"
 msgstr ""
 

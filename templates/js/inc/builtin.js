@@ -17,6 +17,9 @@ GIGO.generate_share_link_entry = function (name, def) {
         if ((t.status === "bad") || (t.status === "timeout")) {
             s = "&" + name + "=" + encodeURIComponent(t.status) + "," + encodeURIComponent(t.time_ms);
         }
+        if ((t.status === "skipped")) {
+            s = "&" + name + "=" + encodeURIComponent(t.status) + "," + encodeURIComponent(t.time_ms);
+        }
     } catch (e) {
         noop = 1;
     }
@@ -228,11 +231,14 @@ GIGO.update_status = function (id) {
     // id = the update we just received (ie, "test_a", "test_aaaa")
     // ipinfo.ip  = text form of ip;  ipinfo.type = "ipv4" or "ipv6";  ipinfo.subtype MAY say "Teredo" or "6to4"
     var status, status_translated, time_ms, ipinfo, content, url, proxied;
-    status = GIGO.results.tests[id].status; // This should be ok/bad/slow/timeout
+    status = GIGO.results.tests[id].status; // This should be ok/bad/slow/timeout/skipped
     status_translated = GIGO.messages[status];
     time_ms = GIGO.results.tests[id].time_ms; // This should be number of milliseconds spent
     ipinfo = GIGO.results.tests[id].ipinfo; // This may be "undef"
     url = GIGO.results.tests[id].url;
+
+    // Should we detect "skipped", and hide the content?
+
 
     if (!time_ms) {
         content = "{{Started}}";

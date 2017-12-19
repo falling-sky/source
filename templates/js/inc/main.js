@@ -170,6 +170,12 @@ GIGO.test_type_json = function (url, id) {
             }
             this_test.status = (this_test.time_ms < GIGO.slow) ? "bad" : "timeout";
 
+            if (GIGO.protocol==="https://") {
+              if ((id==="test_ipv4") || (id==="test_ipv6")) {
+                // We expected this to fail.
+                this_test.status = "skipped";
+              }
+            }
 
             // Look for dual stack
             if (id === "test_ds") {
@@ -200,8 +206,8 @@ GIGO.test_type_json = function (url, id) {
     GIGO.update_url(id);
     GIGO.show_debug();
 
-
 };
+
 
 GIGO.test_type_json_only = function (url, id) {
     // name = dns name to fetch
