@@ -36,6 +36,9 @@ GIGO.ministates = function (which) {
         key = which[i];
         try {
             v = GIGO.results.tests["test_" + key].status.charAt(0);
+            if (GIGO.results.tests["test_" + key].status === "skipped") {
+              v="x";
+            }
         } catch (e) {
             v = "?";
         }
@@ -272,6 +275,8 @@ GIGO.identify_symptoms = function () {
     mini_primary = GIGO.ministates(["a", "aaaa", "ds4", "ds6"]);
     mini_secondary = GIGO.ministates(["ipv4", "ipv6", "v6mtu", "v6ns"]);
 
+    console.log("mini_secondary %o",mini_secondary);
+
     GIGO.helpdesk.mini_primary = mini_primary;
     GIGO.helpdesk.mini_secondary = mini_secondary;
 
@@ -362,6 +367,14 @@ GIGO.identify_symptoms = function () {
         res.push("NAT64");
     }
 
+    // Warn IPv4-only users, if we're using TLS, that we can't detect Teredo/6to4
+    if (GIGO.protocol === "https://") {
+      console.log("checking https score exception");
+      if (mini_primary.match(/^[os][bt]/)) {
+        res.push("tls_warning");
+      }
+    }
+
     // Other transition technologies
     if (teredo) {
         if (aaaa === "bad") {
@@ -449,6 +462,11 @@ GIGO.identify_symptoms = function () {
         res.push("Unknown");
     }
     res = GIGO.dedupe_res(res);
+
+    console.log("score mini_primary=%o",mini_primary);
+    console.log("score mini_secondary=%o",mini_secondary);
+    console.log("score res=%o",res);
+
     return res;
 
 };

@@ -22,7 +22,7 @@ GIGO.results = {}; // what we want to expose as "this" to callback functions
 GIGO.results.ipv4 = {
     ip: "",
     subtype: ""
-}; // Customer IP information, per our web service call 
+}; // Customer IP information, per our web service call
 GIGO.results.ipv6 = {
     ip: "",
     subtype: ""
@@ -33,7 +33,7 @@ GIGO.results.tests = {}; // Store test specific data here.
 GIGO.tabhistory = ["main"]; // History of what tab we go to and when; used for GIGO.goback()
 
 GIGO.tests_planned = 0; // As we add tests, this will be incremented.  Used by progress bar.
-GIGO.tests_finished = 0; // As we finish tests, this will be incremented. Used by progress bar. 
+GIGO.tests_finished = 0; // As we finish tests, this will be incremented. Used by progress bar.
 GIGO.start_time = GIGO.getms(); // Starting time.  Used by progress bar as well as by retry_until
 GIGO.finished = 0; // When we're done with all tests, set to 1 to hide the progress bar
 GIGO.slowcount = 0; // How many background jsonp we spawned so far. Used when we execute tasks in parallel to stagger load.
@@ -79,6 +79,10 @@ if (navigator.userAgent.match(/SymbianOS|SymbOS/)) {
     GIGO.slow = 9000;
 }
 
+// What protocol (http, https) should we make our URLs?
+// Force it into https:// or http:// (even though our inputs might say http or http:)
+GIGO.protocol =   MirrorConfig.options.protocol ? MirrorConfig.options.protocol   : document.location.protocol;
+GIGO.protocol = (GIGO.protocol.match(/https/))  ? "https://" : "http://";
 
 
 GIGO.parseGetVars = function () {

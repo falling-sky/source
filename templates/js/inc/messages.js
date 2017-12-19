@@ -7,7 +7,9 @@ GIGO.messages = {
     "ok": "{{ok}}",
     "slow": "{{slow}}",
     "timeout": "{{timeout}}",
+    "skipped": "{{skipped}}",
 
+    "tls_warning": "{{We are sometimes unable to detect Teredo and 6to4 when using HTTPS.}}",
     "No Direct IP": "{{Connections to urls with IP addresses appear to be blocked; perhaps by a web filter such as 'NoScript' or 'RequestPolicy' installed into your browser, or filtering in your proxy server.  This limits some of the functionality of this test site.}}",
     "No Direct IPv4": "{{IPv4 Connections using DNS work; but literal IP addresses in urls do not.  These are rarely used on the web today.}}",
     "No Direct IPv6": "{{IPv6 Connections using DNS work; but literal IP addresses in urls do not. These are rarely used on the web today.}}",
@@ -83,5 +85,6 @@ GIGO.messages_popups = {
     "broken": ["broken.html", "{{faq: Broken!}}"],
     "ipv6:nodns": ["faq_broken_aaaa.html", "{{faq: Broken DNS Lookups}}"],
     "avoids_ipv6": ["faq_avoids_ipv6.html", "{{faq: Avoiding IPv6?}}"],
-    "tunnel_6rd_dumb": ["faq_tunnel_6rd.html", "{{faq: 6RD tunnel}}"]
+    "tunnel_6rd_dumb": ["faq_tunnel_6rd.html", "{{faq: 6RD tunnel}}"],
+    "tls_warning" : ["faq_https.html","{{faq: Using HTTPS}}"]
 };
