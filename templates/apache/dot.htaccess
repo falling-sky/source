@@ -45,7 +45,7 @@ deny from all
 </FilesMatch>
 
 <IfModule mod_rewrite.c>
-RewriteRule ^/isp/ http://test-ipv6.com/isp.html [R]
+RewriteRule ^/isp/ /isp.html [R]
 RewriteEngine On
 
 # Prepare for Let's Encrypt.  But, only do this for test-ipv6.com
@@ -68,7 +68,7 @@ RewriteCond %{HTTP_HOST} ^(.*\.)?test-ipv6\.ke\.liquidtelecom.net$ [NC,OR]
 RewriteCond %{HTTP_HOST} ^(.*\.)?test-ipv6\.arauc\.br$ [NC,OR]
 RewriteCond %{HTTP_HOST} ^(.*\.)?test-ipv6\.jp [NC,OR]
 RewriteCond %{HTTP_HOST} ^(.*\.)?test-ipv6\.null\.nu [NC,OR]
-RewriteCond %{HTTP_HOST} ^(.*\.)?test-ipv6\.alpinedc\.dc [NC]
+RewriteCond %{HTTP_HOST} ^(.*\.)?test-ipv6\.alpinedc\.ch [NC]
 RewriteRule "^(.well-known/acme-.*)$" http://validation-server.test-ipv6.com/$1 [R,L]
 
 </IfModule>
