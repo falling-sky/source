@@ -72,9 +72,9 @@ GIGO.helpdesk_score = function () {
     var status_ipv6_type = GIGO.helpdesk_ob_type();
 
     var status = status_a + status_ipv4 + ":" + status_aaaa + status_ipv6_type;
-    var ob = new Object;
+    var ob = {};
 
-    console.log("helpdesk status code %o",status);
+    //console.log("helpdesk status code %o",status);
 
     ob.found = GIGO.sym_helpdesk[status];
     ob.qcode = GIGO.sym_helpdesk_qcode[ob.found];
@@ -86,7 +86,7 @@ GIGO.helpdesk_score = function () {
         }
         if (GIGO.helpdesk.mini_primary.match(/s/)) {
             ob.found = ob.found + ", Slow";
-            ob.qcode = ob.qcode + ",slow"
+            ob.qcode = ob.qcode + ",slow";
         }
         return ob;
     }

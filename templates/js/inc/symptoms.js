@@ -211,6 +211,7 @@ GIGO.identify_symptoms = function () {
     v6ns = tests.test_v6ns.status;
     dsmtu = tests.test_dsmtu.status;
 
+
     // HTTP proxies?
     via = GIGO.ipinfo_in_tests(tests, "via");
 
@@ -374,6 +375,12 @@ GIGO.identify_symptoms = function () {
         res.push("tls_warning");
       }
       res.push("tls_beta");
+    }
+
+    if (GIGO.protocol === "http://") {
+      if (tests.test_dsmtu.status=="ok") {
+        res.push("tls_available");
+      }
     }
 
     // Other transition technologies

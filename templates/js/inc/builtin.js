@@ -17,9 +17,6 @@ GIGO.generate_share_link_entry = function (name, def) {
         if ((t.status === "bad") || (t.status === "timeout")) {
             s = "&" + name + "=" + encodeURIComponent(t.status) + "," + encodeURIComponent(t.time_ms);
         }
-        if ((t.status === "skipped")) {
-            s = "&" + name + "=" + encodeURIComponent(t.status) + "," + encodeURIComponent(t.time_ms);
-        }
     } catch (e) {
         noop = 1;
     }
@@ -86,10 +83,20 @@ GIGO.show_debug = function () {
     GIGO.show_share_link();
 };
 
+
+// Some of our substitutions are expensive to compute.
+// Let's just do it once.
+GIGO.substitutions = {};
+GIGO.substitutions.HTTPS = '<a href="' + "https://" + document.location.hostname + document.location.pathname + '">HTTPS</a>';
+
+
 // Return a table with left side colored and with a symbol; right side, informative text.
 GIGO.results_table_wrapper = function (color, text) {
     var table;
     color = color.toLowerCase();
+
+    // Things we will do as substitutions
+    text = text.replace("%HTTPS",GIGO.substitutions.HTTPS);
 
     table = "";
     table = "<table class=\"results_wrapper\">";
@@ -198,29 +205,7 @@ GIGO.update_ip = function (id) {
     }
 
 
-};
 
-GIGO.update_service_warning = function () {
-  var danger=false;
-  try {
-    if (GIGO.unreliable[ GIGO.results.tests.test_asn4.ipinfo.country ]) {
-      danger=true;
-    }
-  } catch (e) {
-    // noop
-  }
-  try {
-    if (GIGO.unreliable[ GIGO.results.tests.test_asn6.ipinfo.country ]) {
-      danger=true;
-    }
-  } catch (e) {
-    // noop
-  }
-  if (danger) {
-    s = "{{Tests using this web site are unreliable from your location.}}";
-    table  = GIGO.results_table_wrapper("orange",s);
-    jQuery("#results_eof").before(table);
-  }
 
 };
 
@@ -231,14 +216,11 @@ GIGO.update_status = function (id) {
     // id = the update we just received (ie, "test_a", "test_aaaa")
     // ipinfo.ip  = text form of ip;  ipinfo.type = "ipv4" or "ipv6";  ipinfo.subtype MAY say "Teredo" or "6to4"
     var status, status_translated, time_ms, ipinfo, content, url, proxied;
-    status = GIGO.results.tests[id].status; // This should be ok/bad/slow/timeout/skipped
+    status = GIGO.results.tests[id].status; // This should be ok/bad/slow/timeout
     status_translated = GIGO.messages[status];
     time_ms = GIGO.results.tests[id].time_ms; // This should be number of milliseconds spent
     ipinfo = GIGO.results.tests[id].ipinfo; // This may be "undef"
     url = GIGO.results.tests[id].url;
-
-    // Should we detect "skipped", and hide the content?
-
 
     if (!time_ms) {
         content = "{{Started}}";
@@ -339,9 +321,9 @@ GIGO.send_survey = function (tokens) {
     if (MirrorConfig.options.userdata) {
         // We're going to completely override "url"
         if (GIGO.results.ipv4.ip) {
-            url = GIGO.protocol  + "ipv4." + MirrorConfig.options.userdata + MirrorConfig.options.survey;
+            url = "http://ipv4." + MirrorConfig.options.userdata + MirrorConfig.options.survey;
         } else {
-            url = GIGO.protocol  + "ipv6." + MirrorConfig.options.userdata + MirrorConfig.options.survey;
+            url = "http://ipv6." + MirrorConfig.options.userdata + MirrorConfig.options.survey;
         }
     }
 
@@ -432,6 +414,7 @@ GIGO.show_results = function () {
     var tokens_hash, i, table, token_expanded, help, s4, s6, sid4, sid6;
 
 
+
     // GIGO.dumpObj(this); // requires popups enabled
     // Check for some specific issues; and possibly either show
     // extra content panels (already in the HTML)  and/or
@@ -454,10 +437,6 @@ GIGO.show_results = function () {
         jQuery("#help_plugins").show(); // Less encouraging of soliciting comments on this one.
     }
 
-
-    // Create href substitutions
-
-
     GIGO.check_versions(); // Check OS, Browser, etc
     // Show the results to the user
     for (i = 0; i < GIGO.results.tokens_expanded.length; i = i + 1) {
@@ -472,9 +451,6 @@ GIGO.show_results = function () {
             // token_expanded.token
             // token_expanded.color
             // token_expanded.text
-
-
-
 
             table = GIGO.results_table_wrapper(token_expanded.color, token_expanded.text);
             jQuery("#results_eof").before(table);
@@ -529,7 +505,6 @@ GIGO.show_results = function () {
 
 GIGO.show_faq_link = function (tokens) {
     var html, faqs, page, title, linktext, m;
-    page="";
 
     if (/ipv4_only/.test(tokens)) {
       page = "faq_ipv4_only.html";
@@ -578,8 +553,7 @@ GIGO.help_popup = function (file, tabname, popup) {
         // force the help popups to show the original, user-entered
         // hostname (instead of the 'current server');  This is to
         // avoid cross-domain problems.
-        hostname = String(document.location.hostname);
-        file = GIGO.protocol + hostname + "/" + file;
+        file = GIGO.protocol  + String(document.location.hostname) + "/" + file;
         lfile = file + '.{{locale}}';
 
 

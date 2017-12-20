@@ -127,11 +127,8 @@ GIGO.fixup_html_per_locale = function () {
     if (value.startsWith("/") && value.endsWith(".html")) {
         value=value+'.{{locale}}';
         $(this).attr('href',value);
-        console.log("fixup_html_per_locale fixed href %o",value);
-    }     else {
-      console.log("fixup_html_per_locale ignored href %o",value);
-    }
+        //console.log("fixup_html_per_locale fixed href %o",value);
+    }   
 
-    //$(this).attr('href', value.replace('#/',''));
   });
 };
