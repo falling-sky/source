@@ -321,9 +321,9 @@ GIGO.send_survey = function (tokens) {
     if (MirrorConfig.options.userdata) {
         // We're going to completely override "url"
         if (GIGO.results.ipv4.ip) {
-            url = "http://ipv4." + MirrorConfig.options.userdata + MirrorConfig.options.survey;
+            url = GIGO.protocol + "ipv4." + MirrorConfig.options.userdata + MirrorConfig.options.survey;
         } else {
-            url = "http://ipv6." + MirrorConfig.options.userdata + MirrorConfig.options.survey;
+            url = GIGO.protocol + "ipv6." + MirrorConfig.options.userdata + MirrorConfig.options.survey;
         }
     }
 
