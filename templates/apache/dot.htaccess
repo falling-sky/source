@@ -58,10 +58,13 @@ RewriteCond %{HTTP_HOST} ^(.*\.)?test-ipv6\.com$ [NC,OR]
 RewriteCond %{HTTP_HOST} ^(.*\.)?testipv6\.com$ [NC,OR]
 RewriteCond %{HTTP_HOST} ^(.*\.)?testv6\.com$ [NC,OR]
 
+
 RewriteCond %{HTTP_HOST} ^(.*\.)?test-ipv6\.[a-z]+\.vr\.org$ [NC,OR]
 RewriteCond %{HTTP_HOST} ^(.*\.)?test-ipv6\.comcast.net$ [NC,OR]
 RewriteCond %{HTTP_HOST} ^(.*\.)?test-ipv6-ct\.comcast.net$ [NC,OR]
 RewriteCond %{HTTP_HOST} ^(.*\.)?test-ipv6-pa\.comcast.net$ [NC,OR]
+RewriteCond %{HTTP_HOST} ^(.*\.)?test-ipv6\.za\.liquidtelecom.net$ [NC,OR]
+RewriteCond %{HTTP_HOST} ^(.*\.)?test-ipv6\.ke\.liquidtelecom.net$ [NC,OR]
 RewriteCond %{HTTP_HOST} ^(.*\.)?test-ipv6\.arauc\.br$ [NC,OR]
 RewriteCond %{HTTP_HOST} ^(.*\.)?test-ipv6\.jp [NC,OR]
 RewriteCond %{HTTP_HOST} ^(.*\.)?test-ipv6\.null\.nu [NC]
