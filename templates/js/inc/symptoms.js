@@ -373,6 +373,7 @@ GIGO.identify_symptoms = function () {
       if (mini_primary.match(/^[os][bt]/)) {
         res.push("tls_warning");
       }
+      res.push("tls_beta");
     }
 
     // Other transition technologies

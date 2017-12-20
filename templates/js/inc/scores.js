@@ -19,6 +19,7 @@ GIGO.scores = {
     "No Direct IPv4": [9, 10, "BLUE"],
     "No Direct IPv6": [10, 10, "BLUE"],
     "tls_warning": [10, 10, "BLUE"],
+    "tls_beta": [10, 10, "BLUE"],
     "6to4": [7, 7, "BLUE"],
     "teredo": [7, 7, "BLUE"],
     "teredo-v4pref": [10, 7, "BLUE"],
