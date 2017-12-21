@@ -60,8 +60,8 @@
       "loc": "global",
       "provider": "Google",
       "site": "google.com",
-      "v4": "http://test-ipv6-dot-com-v6exp3-v4.metric.gstatic.com/v6exp3/6.gif",
-      "v6": "http://test-ipv6-dot-com-v6exp3-v6.metric.gstatic.com/v6exp3/6.gif"
+      "v4": "https://test-ipv6-dot-com-v6exp3-v4.metric.gstatic.com/v6exp3/6.gif",
+      "v6": "https://test-ipv6-dot-com-v6exp3-v6.metric.gstatic.com/v6exp3/6.gif"
     },
     "he.net": {
       "hide": false,
@@ -70,8 +70,8 @@
       "monitor": "Hurricane Electric <noc@he.net>",
       "provider": "HE.net",
       "site": "he.net",
-      "v4": "http://ipv4.tunnelbroker.net/images/helogo.gif",
-      "v6": "http://ipv6.tunnelbroker.net/images/helogo.gif"
+      "v4": "https://ipv4.tunnelbroker.net/images/helogo.gif",
+      "v6": "https://ipv6.tunnelbroker.net/images/helogo.gif"
     },
     "ipv6-test.pl": {
       "hide": false,
@@ -104,8 +104,8 @@
       "monitor": "ipv6@liquidtelecom.com",
       "provider": "Liquid Telecom",
       "site": "test-ipv6.zw.liquidtelecom.net",
-      "v4": "http://ipv4.test-ipv6.zw.liquidtelecom.net/images-nc/knob_green.png",
-      "v6": "http://ipv6.test-ipv6.zw.liquidtelecom.net/images-nc/knob_green.png"
+      "v4": "https://ipv4.test-ipv6.zw.liquidtelecom.net/images-nc/knob_green.png",
+      "v6": "https://ipv6.test-ipv6.zw.liquidtelecom.net/images-nc/knob_green.png"
     },
     "test-ipv6.ke.liquidtelecom.net": {
       "hide": false,
@@ -116,8 +116,8 @@
       "monitor": "ipv6@liquidtelecom.com",
       "provider": "Liquid Telecom",
       "site": "test-ipv6.ke.liquidtelecom.net",
-      "v4": "http://ipv4.test-ipv6.ke.liquidtelecom.net/images-nc/knob_green.png",
-      "v6": "http://ipv6.test-ipv6.ke.liquidtelecom.net/images-nc/knob_green.png"
+      "v4": "https://ipv4.test-ipv6.ke.liquidtelecom.net/images-nc/knob_green.png",
+      "v6": "https://ipv6.test-ipv6.ke.liquidtelecom.net/images-nc/knob_green.png"
     },
     "nic.br": {
       "hide": false,
@@ -173,8 +173,8 @@
       "provider": "Comcast",
       "site": "test-ipv6-ct.comcast.net",
       "transparent": true,
-      "v4": "http://ipv4.test-ipv6-ct.comcast.net/images-nc/knob_green.png",
-      "v6": "http://ipv6.test-ipv6-ct.comcast.net/images-nc/knob_green.png"
+      "v4": "https://ipv4.test-ipv6-ct.comcast.net/images-nc/knob_green.png",
+      "v6": "https://ipv6.test-ipv6-ct.comcast.net/images-nc/knob_green.png"
     },
     "test-ipv6-pa.comcast.net": {
       "hide": false,
@@ -184,8 +184,8 @@
       "provider": "Comcast",
       "site": "test-ipv6-pa.comcast.net",
       "transparent": true,
-      "v4": "http://ipv4.test-ipv6-pa.comcast.net/images-nc/knob_green.png",
-      "v6": "http://ipv6.test-ipv6-pa.comcast.net/images-nc/knob_green.png"
+      "v4": "https://ipv4.test-ipv6-pa.comcast.net/images-nc/knob_green.png",
+      "v6": "https://ipv6.test-ipv6-pa.comcast.net/images-nc/knob_green.png"
     },
     "test-ipv6.alpinedc.ch": {
       "hide": false,
@@ -195,8 +195,8 @@
       "monitor": "Sebastien Morier <smorier@alpinedc.ch>",
       "provider": "AlpineDC",
       "site": "test-ipv6.alpinedc.ch",
-      "v4": "http://ipv4.test-ipv6.alpinedc.ch/images-nc/knob_green.png",
-      "v6": "http://ipv6.test-ipv6.alpinedc.ch/images-nc/knob_green.png"
+      "v4": "https://ipv4.test-ipv6.alpinedc.ch/images-nc/knob_green.png",
+      "v6": "https://ipv6.test-ipv6.alpinedc.ch/images-nc/knob_green.png"
     },
     "test-ipv6.arbor.net": {
       "hide": false,
@@ -368,8 +368,8 @@
       "monitor": "Shin Shirahata <inquiry@test-ipv6.jp>",
       "provider": "BIGLOBE, Inc/Fullroute Pte. Ltd",
       "site": "test-ipv6.jp",
-      "v4": "http://ipv4.test-ipv6.jp/images-nc/knob_green.png",
-      "v6": "http://ipv6.test-ipv6.jp/images-nc/knob_green.png"
+      "v4": "https://ipv4.test-ipv6.jp/images-nc/knob_green.png",
+      "v6": "https://ipv6.test-ipv6.jp/images-nc/knob_green.png"
     },
     "test-ipv6.lazypaddle.com": {
       "loc": "US WI",
