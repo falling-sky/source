@@ -32,8 +32,12 @@ GIGO.CheckTransparent = function() {
             MirrorConfig.options.comment_html = 1;
             MirrorConfig.options.v6mtu = "mtu1280." + MirrorConfig.load.domain;
             MirrorConfig.options.userdata = "master.test-ipv6.com";
+            MirrorConfig.facebook =  {    "enable": 1,    "fb_admins": "688631212"  };
+            MirrorConfig.twitter =  {  "enable": 1,    "name": "testipv6com"};
+
         }
     }
+    console.log("CheckTransparent: MirrorConfig is now %o",MirrorConfig);
 };
 
 GIGO.CheckTransparent();

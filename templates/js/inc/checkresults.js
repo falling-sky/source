@@ -220,7 +220,7 @@ GIGO.facebook_like = function () {
             s1 = document.getElementsByTagName('SCRIPT')[0];
         s.type = 'text/javascript';
         s.async = true;
-        s.src = 'http://connect.facebook.net/en_US/all.js#xfbml=1';
+        s.src = '//connect.facebook.net/en_US/all.js#xfbml=1';
         s1.parentNode.insertBefore(s, s1);
     }
 };
@@ -236,7 +236,7 @@ GIGO.twitter_tweet = function () {
             s1 = document.getElementsByTagName('SCRIPT')[0];
         s.type = 'text/javascript';
         s.async = true;
-        s.src = 'http://platform.twitter.com/widgets.js';
+        s.src = '//platform.twitter.com/widgets.js';
         s1.parentNode.insertBefore(s, s1);
     }
 };
