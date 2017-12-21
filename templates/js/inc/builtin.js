@@ -27,7 +27,7 @@ GIGO.generate_share_link_entry = function (name, def) {
 
 GIGO.generate_share_link = function () {
     var url;
-    url = location.href.replace(/[?].*$/,'') + "?";
+    url = location.href.replace(/[?#].*$/,'') + "?";
     if (GIGO.results.ipv4.ip) {
         url = url + "ip4=" + encodeURIComponent(GIGO.results.ipv4.ip);
     } else {

@@ -87,6 +87,8 @@ GIGO.protocol = (GIGO.protocol.match(/https/))  ? "https://" : "http://";
 
 GIGO.parseGetVars = function () {
     var getVars, returnVars, i, newVar;
+
+
     getVars = location.search.substring(1).split("&"); // From the browser URL
     returnVars = [];
     i = 0;
@@ -101,6 +103,8 @@ GIGO.parseGetVars = function () {
 
 GIGO.CGI = GIGO.parseGetVars(); // Parse CGI arguements
 GIGO.contact_wanted = GIGO.CGI.contact; // Do we want to force the contact form?
+
+console.log("GIGO.CGI=%o",GIGO.CGI);
 
 // If we found overrides, we will set GIGO.override
 // as we as prepared each override into GIGO.overrides

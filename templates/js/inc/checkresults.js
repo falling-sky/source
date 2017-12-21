@@ -153,7 +153,7 @@ GIGO.check_results = function () {
         GIGO.start_sites(); // Check other sites for connections too.  Starts a new on-page tab.
     }
     if (score_strict < 9) {
-        GIGO.update_service_warning();
+        GIGO.update_service_warning(); // China <-> rest of world is unreliable
     }
 
     // Copy the results into a place that other people might find them
@@ -184,6 +184,31 @@ GIGO.check_results = function () {
     GIGO.show_debug();
 
 };
+
+GIGO.update_service_warning = function () {
+  var danger=false;
+  try {
+    if (GIGO.unreliable[ GIGO.results.tests.test_asn4.ipinfo.country ]) {
+      danger=true;
+    }
+  } catch (e) {
+    // noop
+  }
+  try {
+    if (GIGO.unreliable[ GIGO.results.tests.test_asn6.ipinfo.country ]) {
+      danger=true;
+    }
+  } catch (e) {
+    // noop
+  }
+  if (danger) {
+    s = "{{Tests using this web site are unreliable from your location.}}";
+    table  = GIGO.results_table_wrapper("orange",s);
+    jQuery("#results_eof").before(table);
+  }
+
+ };
+
 
 GIGO.facebook_like = function () {
     if (GIGO.mirrorconfig("facebook", "enable", 0)) {
