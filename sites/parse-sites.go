@@ -277,8 +277,13 @@ func (sr *SiteRecord) CheckVerifier(domain string, wg *sync.WaitGroup) (err erro
 	if sr.Mirror {
 		cmr.Mirror = domain
 		cmr.Transparent = sr.Transparent
-		sr.V4 = fmt.Sprintf("http://ipv4.%s/images-nc/knob_green.png", domain)
-		sr.V6 = fmt.Sprintf("http://ipv6.%s/images-nc/knob_green.png", domain)
+		protocol := "http"
+		if strings.HasPrefix(sr.V4, "https") {
+			protocol = "https"
+		}
+		// Force the V4 and V6 url to conform, but preseve any protocol they know.
+		sr.V4 = fmt.Sprintf("%s://ipv4.%s/images-nc/knob_green.png", protocol, domain)
+		sr.V6 = fmt.Sprintf("%s://ipv6.%s/images-nc/knob_green.png", protocol, domain)
 	} else {
 		cmr.ResourceV4 = sr.V4
 		cmr.ResourceV6 = sr.V6
@@ -316,9 +321,9 @@ func (sr *SiteRecord) CheckVerifier(domain string, wg *sync.WaitGroup) (err erro
 		//	log.Printf("%s: decode error after POST with: %s\n", *validator, jsonStr)
 		return fmt.Errorf("decode error after POST with: %s", jsonStr)
 	}
-	
+
 	if cmres.Error != "" {
-		return fmt.Errorf("%s",cmres.Error)
+		return fmt.Errorf("%s", cmres.Error)
 	}
 
 	//log.Print(cmres.String())
