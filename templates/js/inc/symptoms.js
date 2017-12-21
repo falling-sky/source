@@ -1,5 +1,9 @@
-/*global GIGO, jQuery, alert, Browser, $gt */
+/*global GIGO,  console, Browser */
 /*jslint browser: true */
+/* jshint undef: true, unused: true */
+/* jshint latedef: true */
+
+
 
 /*jslint regexp: true */
 
@@ -191,25 +195,17 @@ GIGO.check6RD = function (addr4, addr6) {
         // Else, remove one leading bit of addr4
         addr4Bits = addr4Bits.substr(1, addr4Bits.length - 1);
     }
-    return 0
-}
+    return 0;
+};
 
 GIGO.identify_symptoms = function () {
-    var a, aaaa, ds4, ds6, ipv4, ipv6, v6mtu, v6ns, tunnel, tunnel_6rd, teredo, sixfour, mini_primary, mini_secondary, res, failed_pmtud, x, x_array, i, tests, via, dsmtu, a, b, ia, ib, a4, a6, k, i, r, f4, f6;
+    var tunnel, tunnel_6rd, teredo, sixfour, mini_primary, mini_secondary, res, failed_pmtud, x, x_array, tests, via, alist, blist, ia, ib, a4, a6, k, i, r, f4, f6;
 
     res = [];
     tests = GIGO.results.tests; // Convenience
     GIGO.find_evidence_of_noscript(tests, res);
     GIGO.fallback_to_image_tests(tests, res); // Hmm, we might use image connection data instead.
-    a = tests.test_a.status;
-    aaaa = tests.test_aaaa.status;
-    ds4 = tests.test_ds4.status;
-    ds6 = tests.test_ds6.status;
-    ipv4 = tests.test_ipv4.status;
-    ipv6 = tests.test_ipv6.status;
-    v6mtu = tests.test_v6mtu.status;
-    v6ns = tests.test_v6ns.status;
-    dsmtu = tests.test_dsmtu.status;
+
 
 
     // HTTP proxies?
@@ -230,17 +226,19 @@ GIGO.identify_symptoms = function () {
 
     // ASN similarities?  Based on mod_ip ASN list
     if ((GIGO.results.ipv4.asnlist) && (GIGO.results.ipv6.asnlist)) {
-        a = GIGO.results.ipv4.asnlist.split(new RegExp('[; ]','g'));
-        b = GIGO.results.ipv6.asnlist.split(new RegExp('[; ]','g'));
-        for (ia = 0; ia < a.length; ia = ia + 1) {
-            for (ib = 0; ib < b.length; ib = ib + 1) {
-                if (a[ia] === b[ib]) {
-                    //alert("No tunnel. asn match found with asn" + a[ia]);
+        alist = GIGO.results.ipv4.asnlist.split(new RegExp('[; ]','g'));
+        blist = GIGO.results.ipv6.asnlist.split(new RegExp('[; ]','g'));
+        for (ia = 0; ia < alist.length; ia = ia + 1) {
+            for (ib = 0; ib < blist.length; ib = ib + 1) {
+                if (alist[ia] === blist[ib]) {
+                    //alert("No tunnel. asn match found with asn" + alist[ia]);
                     tunnel = 0;
                 }
             }
         }
     }
+
+
 
     // ASN equivalents?  Based on static GIGO.asn_same table  (yuck!)
     if ((GIGO.results.ipv4.asn) && (GIGO.results.ipv6.asn)) {
@@ -258,6 +256,8 @@ GIGO.identify_symptoms = function () {
         }
     }
 
+
+
     // Sometimes we know that there is an IPv6 provider that is not a tunnel.
     // DREN for example.
     if (GIGO.results.ipv6.ip) {
@@ -273,6 +273,7 @@ GIGO.identify_symptoms = function () {
 
 
 
+
     mini_primary = GIGO.ministates(["a", "aaaa", "ds4", "ds6"]);
     mini_secondary = GIGO.ministates(["ipv4", "ipv6", "v6mtu", "v6ns"]);
 
@@ -284,6 +285,8 @@ GIGO.identify_symptoms = function () {
 
     //    alert("mini_primary " + mini_primary + " secondary " + mini_secondary);
 
+    console.log("res=%o",res);
+    console.log("mini_primary=%o",mini_primary);
 
     // Convert the JSON table entry to a series of initial elements
     x = GIGO.sym_primary[mini_primary];
@@ -293,12 +296,14 @@ GIGO.identify_symptoms = function () {
         res.push(x_array[i]);
     }
 
+    console.log("res=%o",res);
+
 
 
     // IPv6 Flag Day  - does DUAL STACK choke?
     // Only do this, if IPv4 appears to work, or IPv6 appears to work.
     // (Otherwise, some Firefox plugin is screwing us again.)
-    if (dsmtu === "ok") {
+    if (tests.test_dsmtu.status === "ok") {
         // Do we want to encourage IPv6?  Or acknowledge IPv6?
         if (teredo || sixfour || (!GIGO.results.ipv6.ip)) {
           // Encourage the use of IPv6
@@ -324,6 +329,7 @@ GIGO.identify_symptoms = function () {
     }
 
 
+
     // Do we have IP addresses?
     if ((!GIGO.results.ipv4.ip) && (!GIGO.results.ipv6.ip)) {
         res.unshift("no_address");
@@ -342,6 +348,7 @@ GIGO.identify_symptoms = function () {
             }
         }
     }
+
 
 
     // Do we have direct IP access?
@@ -385,7 +392,7 @@ GIGO.identify_symptoms = function () {
 
     // Other transition technologies
     if (teredo) {
-        if (aaaa === "bad") {
+        if (tests.test_aaaa.status === "bad") {
             res.push("teredo-minimum");
         } else if (mini_primary.match(/^..[os]b/)) {
             // a aaaa ds4 ds6
@@ -398,14 +405,14 @@ GIGO.identify_symptoms = function () {
     if (sixfour) {
         res.push("6to4");
     }
-    if ((!teredo) && (aaaa === "bad") && (ipv6 === "ok")) {
+    if ((!teredo) && (tests.test_aaaa.status === "bad") && (tests.test_ipv6.status === "ok")) {
         // Sort of like teredo-minimum.  But with a global address.
         res.push("ipv6:nodns");
     }
 
     // What about IPv6 only DNS server
-    if ((ds4 === "ok") || (ds4 === "slow") || (ds6 === "ok") || (ds6 === "slow")) {
-        if ((v6ns === "ok") || (v6ns === "slow")) {
+    if ((tests.test_ds4.status === "ok") || (tests.test_ds4.status === "slow") || (tests.test_ds6.status === "ok") || (tests.test_ds6.status === "slow")) {
+        if ((tests.test_v6ns.status === "ok") || (tests.test_v6ns.status === "slow")) {
             res.push("v6ns:ok");
         } else {
             res.push("v6ns:bad");
@@ -423,12 +430,12 @@ GIGO.identify_symptoms = function () {
     // Did our larger request work ok?
     if (Browser.opera) {
         // Opera always fails the 1600 byte test.  WTF?
-        if ((aaaa === "ok") && ((v6mtu === "timeout") || (v6mtu === "slow"))) {
+        if ((tests.test_aaaa.status === "ok") && ((tests.test_v6mtu.status === "timeout") || (tests.test_v6mtu.status === "slow"))) {
             res.push("IPv6 MTU"); // Uh oh, MTU problems.
             failed_pmtud = 1;
         }
     } else {
-        if ((aaaa === "ok") && ((v6mtu === "bad") || (v6mtu === "timeout") || (v6mtu === "slow") || (dsmtu === "bad") || (dsmtu === "timeout") || (dsmtu === "slow"))) {
+        if ((tests.test_aaaa.status === "ok") && ((tests.test_v6mtu.status === "bad") || (tests.test_v6mtu.status === "timeout") || (tests.test_v6mtu.status === "slow") || (tests.test_dsmtu.status === "bad") || (tests.test_dsmtu.status === "timeout") || (tests.test_dsmtu.status === "slow"))) {
             res.push("IPv6 MTU"); // Uh oh, MTU problems.
             failed_pmtud = 1;
         }
