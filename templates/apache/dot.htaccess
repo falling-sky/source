@@ -48,17 +48,21 @@ deny from all
 RewriteRule ^/isp/ /isp.html [R]
 RewriteEngine On
 
-# Prepare for Let's Encrypt.  But, only do this for test-ipv6.com
-# and not other people's domains.
+# "Transparent Mirrors"  - those answering
+# to the name "test-ipv6.com" - need to redirect
+# the SSL certificate challenge, to the location
+# where we generate combination SSL certs containing
+# both the "test-ipv6.com" name and your mirror name.
+# if you're not running a transparent mirror, your site
+# should not be in this list.
+#
 # https://github.com/falling-sky/source/wiki/SSL-and-HTTP-2-plans
-# Only "transparent mirrors" will be listed below, so that I can negotiate
-# SSL certificates with the joint test-ipv6.com name + the sponsoring host names.
-
+#
+# This is the list of "transparent" mirrors 
+# that need SSL certificates for "test-ipv6.com".
 RewriteCond %{HTTP_HOST} ^(.*\.)?test-ipv6\.com$ [NC,OR]
 RewriteCond %{HTTP_HOST} ^(.*\.)?testipv6\.com$ [NC,OR]
 RewriteCond %{HTTP_HOST} ^(.*\.)?testv6\.com$ [NC,OR]
-
-
 RewriteCond %{HTTP_HOST} ^(.*\.)?test-ipv6\.[a-z]+\.vr\.org$ [NC,OR]
 RewriteCond %{HTTP_HOST} ^(.*\.)?test-ipv6\.comcast.net$ [NC,OR]
 RewriteCond %{HTTP_HOST} ^(.*\.)?test-ipv6-ct\.comcast.net$ [NC,OR]
@@ -71,7 +75,6 @@ RewriteCond %{HTTP_HOST} ^(.*\.)?test-ipv6\.jp [NC,OR]
 RewriteCond %{HTTP_HOST} ^(.*\.)?test-ipv6\.null\.nu [NC,OR]
 RewriteCond %{HTTP_HOST} ^(.*\.)?test-ipv6\.alpinedc\.ch [NC]
 RewriteRule "^(.well-known/acme-.*)$" http://validation-server.test-ipv6.com/$1 [R,L]
-
 </IfModule>
 
 
