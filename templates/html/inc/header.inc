@@ -32,7 +32,7 @@
   <link rel="mask-icon" href="/images/website_icon.svg?version=[% .GitInfo.Version %]" color="green"/>
 
 
-  <meta property="og:image" content="http://test-ipv6.com/images/snapshot.png" />
+  <meta property="og:image" content="https://test-ipv6.com/images/snapshot.png" />
 
    <script type="text/javascript"  src="/site/config.js?version=[% .GitInfo.Version %]"></script>
    <script type="text/javascript"  src="/index.js.{{locale}}?version=[% .GitInfo.Version %]"></script>
