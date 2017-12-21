@@ -79,6 +79,8 @@ GIGO.test_type_json = function (url, id) {
     // Update status to "Started" if we don't have any time for this yet
 
 
+
+
     if (GIGO.overrides && GIGO.overrides[id]) {
         // oh, we're faking this one.  TODO
         // we can take a lot of short cuts.
@@ -158,6 +160,8 @@ GIGO.test_type_json = function (url, id) {
         "error": function (d, msg) {
             var delta;
 
+            console.log("test_type_json url=%o id=%o d=%o msg=%o",url,id,d,msg);
+
             delta = GIGO.getms() - this_test.start_time;
             if (GIGO.isdef(this_test.time_ms)) {
                 if (delta < this_test.time_ms) {
@@ -168,6 +172,12 @@ GIGO.test_type_json = function (url, id) {
             }
             this_test.status = (this_test.time_ms < GIGO.slow) ? "bad" : "timeout";
 
+            if (GIGO.protocol==="https://") {
+              if ((id==="test_ipv4") || (id==="test_ipv6")) {
+                // We expected this to fail.
+                this_test.status = "skipped";
+              }
+            }
 
             // Look for dual stack
             if (id === "test_ds") {
@@ -198,8 +208,8 @@ GIGO.test_type_json = function (url, id) {
     GIGO.update_url(id);
     GIGO.show_debug();
 
-
 };
+
 
 GIGO.test_type_json_only = function (url, id) {
     // name = dns name to fetch
@@ -234,9 +244,10 @@ GIGO.test_type_json_only = function (url, id) {
 
     if ((id === "test_asn4") && (GIGO.isdef(GIGO.CGI.ip4))) {
         if ((GIGO.CGI.ip4) && (GIGO.CGI.ip4.match(/^[0-9abcdef.:]+$/))) {
-            url = "/ip/?callback=?&asn=1&testip=" + GIGO.CGI.ip4;
-            url = url + "&testdomain=" + GIGO.options.domain;
-            url = url + "&testname=" + id;
+            url = url  + "&testip=" + GIGO.CGI.ip4;
+            // url = "/ip/?callback=?&asn=1&testip=" + GIGO.CGI.ip4;
+            // url = url + "&testdomain=" + GIGO.options.domain;
+            // url = url + "&testname=" + id;
             this_test.url = url; // For later display of test urls
             GIGO.update_url(id);
         } else {
@@ -251,9 +262,11 @@ GIGO.test_type_json_only = function (url, id) {
     }
     if ((id === "test_asn6") && (GIGO.isdef(GIGO.CGI.ip6))) {
         if ((GIGO.CGI.ip6) && (GIGO.CGI.ip6.match(/^[0-9abcdef.:]+$/))) {
-            url = "/ip/?callback=?&asn=1&testip=" + GIGO.CGI.ip6;
-            url = url + "&testdomain=" + GIGO.options.domain;
-            url = url + "&testname=" + id;
+            url = url  + "&testip=" + GIGO.CGI.ip6;
+            //
+            // url = "/ip/?callback=?&asn=1&testip=" + GIGO.CGI.ip6;
+            // url = url + "&testdomain=" + GIGO.options.domain;
+            // url = url + "&testname=" + id;
             this_test.url = url; // For later display of test urls
             GIGO.update_url(id);
         } else {
@@ -611,6 +624,11 @@ GIGO.setup_tests = function () {
     GIGO.queue.push(["test_type_json", GIGO.options.url.test_v6mtu, "test_v6mtu"]);
     GIGO.queue.push(["test_type_json", GIGO.options.url.test_v6ns, "test_v6ns"]);
     GIGO.queue.push(["test_type_json", GIGO.options.url.test_dsmtu, "test_dsmtu"]);
+
+    if (GIGO.protocol === "http://") {
+      GIGO.queue.push(["test_type_json", GIGO.options.url.test_https, "test_https"]);
+    }
+
     GIGO.show_debug();
     GIGO.prepare_fake();
 
@@ -647,31 +665,37 @@ GIGO.set_default_options = function (options) {
 
 
     // options.uri = "/report-ip.php?callback=?";  // Alternative to mod_ip
-    options.url.test_a = "http://ipv4." + options.subdomain + options.uri;
-    options.url.test_aaaa = "http://ipv6." + options.subdomain + options.uri;
-    options.url.test_ds = "http://ds." + options.subdomain + options.uri;
-    options.url.test_ipv4 = "http://" + options.ipv4 + options.uri;
-    options.url.test_ipv6 = "http://[" + options.ipv6 + "]:80" + options.uri;
-    options.url.test_v6ns = "http://ds.v6ns." + options.subdomain + options.uri;
-    options.url.test_v6mtu = "http://mtu1280." + options.subdomain + options.uri + "&size=1600&fill=" + GIGO.fill(1600, "x");
-    options.url.test_dsmtu = "http://ds." + options.subdomain + options.uri + "&size=1600&fill=" + GIGO.fill(1600, "x");
-    options.url.test_buggydns1 = "http://buggydns1." + options.subdomain + options.uri;
+    options.url.test_a = GIGO.protocol+"ipv4." + options.subdomain + options.uri;
+    options.url.test_aaaa = GIGO.protocol+"ipv6." + options.subdomain + options.uri;
+    options.url.test_ds = GIGO.protocol+"ds." + options.subdomain + options.uri;
+    options.url.test_ipv4 = GIGO.protocol+"" + options.ipv4 + options.uri;
+    options.url.test_ipv6 = GIGO.protocol+"[" + options.ipv6 + "]:80" + options.uri;
+    options.url.test_v6ns = GIGO.protocol+"ds.v6ns." + options.subdomain + options.uri;
+    options.url.test_v6mtu = GIGO.protocol+"mtu1280." + options.subdomain + options.uri + "&size=1600&fill=" + GIGO.fill(1600, "x");
+    options.url.test_dsmtu = GIGO.protocol+"ds." + options.subdomain + options.uri + "&size=1600&fill=" + GIGO.fill(1600, "x");
+    options.url.test_buggydns1 = GIGO.protocol+"buggydns1." + options.subdomain + options.uri;
+
 
 
     // ASN lookups are corrently broken.
-    options.url.test_asn4 = "http://ipv4." + options.subdomain + options.uri + "&asn=1";
-    options.url.test_asn6 = "http://ipv6." + options.subdomain + options.uri + "&asn=1";
+    options.url.test_asn4 = GIGO.protocol+"ipv4.lookup.test-ipv6.com" + options.uri + "&asn=1";
+    options.url.test_asn6 = GIGO.protocol+"ipv6.lookup.test-ipv6.com" + options.uri + "&asn=1";
 
 
-    options.url.test_a_img = "http://ipv4." + options.subdomain + options.img_uri;
-    options.url.test_aaaa_img = "http://ipv6." + options.subdomain + options.img_uri;
-    options.url.test_ds_img = "http://ds." + options.subdomain + options.img_uri;
-    options.url.test_ipv4_img = "http://" + options.ipv4 + options.img_uri;
-    options.url.test_ipv6_img = "http://[" + options.ipv6 + "]:80" + options.img_uri;
-    options.url.test_v6ns_img = "http://ds.v6ns." + options.subdomain + options.img_uri;
-    options.url.test_v6mtu_img = "http://mtu1280." + options.subdomain + options.img_uri_big;
-    options.url.test_dsmtu_img = "http://ds." + options.subdomain + options.img_uri_big;
-    options.url.test_buggydns1_img = "http://buggydns1." + options.subdomain + options.img_uri;
+    options.url.test_a_img = GIGO.protocol+"ipv4." + options.subdomain + options.img_uri;
+    options.url.test_aaaa_img = GIGO.protocol+"ipv6." + options.subdomain + options.img_uri;
+    options.url.test_ds_img = GIGO.protocol+"ds." + options.subdomain + options.img_uri;
+    options.url.test_ipv4_img = GIGO.protocol+"" + options.ipv4 + options.img_uri;
+    options.url.test_ipv6_img = GIGO.protocol+"[" + options.ipv6 + "]:80" + options.img_uri;
+    options.url.test_v6ns_img = GIGO.protocol+"ds.v6ns." + options.subdomain + options.img_uri;
+    options.url.test_v6mtu_img = GIGO.protocol+"mtu1280." + options.subdomain + options.img_uri_big;
+    options.url.test_dsmtu_img = GIGO.protocol+"ds." + options.subdomain + options.img_uri_big;
+    options.url.test_buggydns1_img = GIGO.protocol+"buggydns1." + options.subdomain + options.img_uri;
+
+
+    // Probe for https - stick to our current hostname
+    options.url.test_https = "https://" + document.location.hostname + options.uri;
+    options.url.test_https_img = "https://" + document.location.hostname + options.img_uri;
 
 
 
@@ -684,11 +708,11 @@ GIGO.fix_comment_form_and_tab = function () {
         var url = MirrorConfig.options.comment;
         if (MirrorConfig.options.userdata) {
             if (GIGO.results.ipv4.ip) {
-                url = "http://ipv4." + MirrorConfig.options.userdata + "/comment.php";
+                url = GIGO.protocol+"ipv4." + MirrorConfig.options.userdata + "/comment.php";
             } else if (GIGO.results.ipv6.ip) {
-                url = "http://ipv6." + MirrorConfig.options.userdata + "/comment.php";
+                url = GIGO.protocol+"ipv6." + MirrorConfig.options.userdata + "/comment.php";
             } else {
-                url = "http://ds." + MirrorConfig.options.userdata + "/comment.php";
+                url = GIGO.protocol+"ds." + MirrorConfig.options.userdata + "/comment.php";
             }
         }
 

@@ -3,7 +3,7 @@
 <p>{{ Finding your IPv6 address and default router can be a challenge if you are not familiar with your OS's network configuration.  Instructions for your OS are below. }}</p>
 
 <p>
-{{ When looking for your IPv6 address, skip any <code>fe80:</code> address. 
+{{ When looking for your IPv6 address, skip any <code>fe80:</code> address.
 Everyone has them if their OS supports IPv6; this is regadless of whether or
 not your ISP supports IPv6 yet.  Those are "link local" addresses; used just
 for communicating to other hosts in the same physical network as you.
@@ -26,7 +26,7 @@ for communicating to other hosts in the same physical network as you.
   <p>{{ OS X users: To find your IP address using the command line: }}</p>
   <ul>
   <li>{{ To open your terminal: Go to your Applications folder; go to Utilities; and double click Terminal. }}</li>
-  <li>{{ To see your IP addresses: <code>ifconfig -f inet6</code>. }}</li>
+  <li>{{ To see your IP addresses: <code>ifconfig -a inet6</code> or <code>ifconfig -f inet6</code>  }}</li>
   <li>{{ Ignore the <code>fe80:</code> addresses; look for any other address on your <code>en0</code> or <code>en1</code>. }}</li>
   <li>{{ To see if you have a default route: <code>netstat -nr -f inet6</code>. }}</li>
   <li>{{ Look for a line that says "default"; probably pointing to a gateway starting with <code>fe80:</code> }}</li>
@@ -87,5 +87,3 @@ for communicating to other hosts in the same physical network as you.
   <p><em>{{ Other Windows based OS's: Send jfesler@test-ipv6.com detailed instructions; and I'll add them to the site. }}</em></p>
 
 </div>
-
-

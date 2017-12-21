@@ -22,6 +22,10 @@ GIGO.asn_native = {
     24352: 1 /* CERNET2 */
 };
 
+GIGO.unreliable = {
+  "CN": 1, /* China */
+};
+
 
 GIGO.ministates = function (which) {
     var s, i, key, v, tests;
@@ -32,6 +36,9 @@ GIGO.ministates = function (which) {
         key = which[i];
         try {
             v = GIGO.results.tests["test_" + key].status.charAt(0);
+            if (GIGO.results.tests["test_" + key].status === "skipped") {
+              v="x";
+            }
         } catch (e) {
             v = "?";
         }
@@ -204,6 +211,7 @@ GIGO.identify_symptoms = function () {
     v6ns = tests.test_v6ns.status;
     dsmtu = tests.test_dsmtu.status;
 
+
     // HTTP proxies?
     via = GIGO.ipinfo_in_tests(tests, "via");
 
@@ -222,8 +230,8 @@ GIGO.identify_symptoms = function () {
 
     // ASN similarities?  Based on mod_ip ASN list
     if ((GIGO.results.ipv4.asnlist) && (GIGO.results.ipv6.asnlist)) {
-        a = GIGO.results.ipv4.asnlist.split(";");
-        b = GIGO.results.ipv6.asnlist.split(";");
+        a = GIGO.results.ipv4.asnlist.split(new RegExp('[; ]','g'));
+        b = GIGO.results.ipv6.asnlist.split(new RegExp('[; ]','g'));
         for (ia = 0; ia < a.length; ia = ia + 1) {
             for (ib = 0; ib < b.length; ib = ib + 1) {
                 if (a[ia] === b[ib]) {
@@ -267,6 +275,8 @@ GIGO.identify_symptoms = function () {
 
     mini_primary = GIGO.ministates(["a", "aaaa", "ds4", "ds6"]);
     mini_secondary = GIGO.ministates(["ipv4", "ipv6", "v6mtu", "v6ns"]);
+
+    console.log("mini_secondary %o",mini_secondary);
 
     GIGO.helpdesk.mini_primary = mini_primary;
     GIGO.helpdesk.mini_secondary = mini_secondary;
@@ -358,6 +368,21 @@ GIGO.identify_symptoms = function () {
         res.push("NAT64");
     }
 
+    // Warn IPv4-only users, if we're using TLS, that we can't detect Teredo/6to4
+    if (GIGO.protocol === "https://") {
+      console.log("checking https score exception");
+      if (mini_primary.match(/^[os][bt]/)) {
+        res.push("tls_warning");
+      }
+      res.push("tls_beta");
+    }
+
+    if (GIGO.protocol === "http://") {
+      if (tests.test_dsmtu.status=="ok") {
+        res.push("tls_available");
+      }
+    }
+
     // Other transition technologies
     if (teredo) {
         if (aaaa === "bad") {
@@ -445,6 +470,11 @@ GIGO.identify_symptoms = function () {
         res.push("Unknown");
     }
     res = GIGO.dedupe_res(res);
+
+    console.log("score mini_primary=%o",mini_primary);
+    console.log("score mini_secondary=%o",mini_secondary);
+    console.log("score res=%o",res);
+
     return res;
 
 };

@@ -641,6 +641,15 @@
       "v4": "http://ipv4.test-ipv6.tni-au.mil.id/images-nc/knob_green.png",
       "v6": "http://ipv6.test-ipv6.tni-au.mil.id/images-nc/knob_green.png"
     },
+    "test-ipv6.densus88.id": {
+      "hide": false,
+      "loc": "ID",
+      "mirror": true,
+      "monitor": "Vicky Ezra Imanuel <vicky@densus88.id>",
+      "provider": "Special Detachment 88 - Indonesian National Police",
+      "v4": "http://ipv4.test-ipv6.densus88.id/images-nc/knob_green.png",
+      "v6": "http://ipv6.test-ipv6.densus88.id/images-nc/knob_green.png"
+    },
     "test-ipv6.arauc.br": {
       "hide": false,
       "loc": "BR",
@@ -726,5 +735,25 @@
       "v4": "http://ipv4.nop.hu/hosted.png",
       "v6": "http://ipv6.nop.hu/hosted.png"
     }
-  }
+  },
+  "test-ipv6.orbyta.com": {
+    "hide": false,
+    "loc": "CL",
+    "mirror": true,
+    "monitor": "javier campos <javiersource@gmail.com>",
+    "provider": "Orbyta S.A.",
+    "v4": "http://ipv4.test-ipv6.orbyta.com/images-nc/knob_green.png",
+    "v6": "http://ipv6.test-ipv6.orbyta.com/images-nc/knob_green.png"
+  },
+   "test-ipv6.showmyip.ca": {		
+       "hide": false,		
+       "loc": "CA",		
+       "mirror": true,		
+       "monitor": "Christopher Munz-Michielin <christopher@showmyip.ca>",		
+       "provider": "Christopher Munz-Michielin",		
+       "site": "test-ipv6.showmyip.ca",		
+       "v4": "http://ipv4.test-ipv6.showmyip.ca/images-nc/knob_green.png",		
+       "v6": "http://ipv6.test-ipv6.showmyip.ca/images-nc/knob_green.png"		
+     }
+ 
 }

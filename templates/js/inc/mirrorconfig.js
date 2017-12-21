@@ -5,7 +5,7 @@
 GIGO.mirrorconfig = function (key1, key2, fallback) {
     var ret;
     try {
-        ret = MirrorConfig[key1][key2]; 
+        ret = MirrorConfig[key1][key2];
         if (typeof ret === "undefined") {
           ret = fallback;
         }
@@ -53,7 +53,7 @@ GIGO.fix_logo_generic = function () {
 
 // This is called very late, after the test completes
 // but before "Other Sites" are checked.  We will by default
-// wait until "late", to avoid interfering with the 
+// wait until "late", to avoid interfering with the
 // actual tests, since those are purely timing based.
 GIGO.fix_footer_late = function () {
     if (MirrorConfig.footer) {
@@ -74,7 +74,7 @@ GIGO.fix_footer_early = function() {
         GIGO.fix_logo_generic();
       }
     }
-}
+};
 
 
 GIGO.fixup_html_per_site_config = function () {
@@ -106,4 +106,29 @@ GIGO.fixup_html_per_site_config = function () {
         }
     }
 
+};
+
+
+GIGO.fixup_html_per_locale = function () {
+
+  if (/bot|google|baidu|bing|msn|duckduckgo|teoma|slurp|yandex/i.test(navigator.userAgent)) {
+    console.log("skipping link fixup (crawler)");
+    return;
+  }
+
+
+  $('a').each(function() {
+    var value = $(this).attr('href');
+    // if value starts with "/" and ends in .html .. fix it.
+    if (value === "/") {
+      value="/index.html";
+    }
+
+    if (value.startsWith("/") && value.endsWith(".html")) {
+        value=value+'.{{locale}}';
+        $(this).attr('href',value);
+        //console.log("fixup_html_per_locale fixed href %o",value);
+    }   
+
+  });
 };

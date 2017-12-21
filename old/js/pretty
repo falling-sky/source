@@ -1,2 +1,0 @@
-#! /bin/sh
- uglifyjs -b --comments all

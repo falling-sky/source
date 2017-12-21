@@ -25,8 +25,8 @@ GIGO.CheckTransparent = function() {
                 contact: "Jason Fesler",
                 mailto: "jfesler@test-ipv6.com"
             };
-            MirrorConfig.orig_options = JSON.parse(JSON.stringify(MirrorConfig.options))
-            MirrorConfig.options.show_stats = "http://master.test-ipv6.com/stats.html";
+            MirrorConfig.orig_options = JSON.parse(JSON.stringify(MirrorConfig.options));
+            MirrorConfig.options.show_stats = GIGO.protocol + "master.test-ipv6.com/stats.html";
             MirrorConfig.options.survey = "/survey.php";
             MirrorConfig.options.comment = "/comment.php";
             MirrorConfig.options.comment_html = 1;

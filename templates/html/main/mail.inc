@@ -9,14 +9,14 @@
     <div id="comments_unwanted" style="display:block">
       <p>{{This form will let you leave a comment, voice concerns, or ask questions.  Your test results will be included automatically.}}
       {{This includes your IP address, which is shared with the site administrator in order to answer your questions.}}
-      {{Use of this form implies consent.}}      
+      {{Use of this form implies consent.}}
       </p>
     </div>
-    
+
     <div id="comments_faq" style="display:none">
       <p>{{<span id="comments_faq_link"></span> (FAQ) page is available for <b>your</b> exact set of results.  Please read it  before leaving comments; many questions have already been answered.  If you still have questions, comments, or concerns, feel freel to use this form.}}</p>
     </div>
-    
+
    [% PROCESS "main/mail-language.inc" %]
 
 
@@ -34,21 +34,22 @@
         <input type="hidden" name="form_tab_main" value="" />
         <input type="hidden" name="form_config" value="" />
         <input type="hidden" name="form_results" value="" />
-        <input type="hidden" name="a" value="" /> 
-        <input type="hidden" name="aaaa" value="" /> 
-        <input type="hidden" name="ds4" value="" /> 
-        <input type="hidden" name="ds6" value="" /> 
+        <input type="hidden" name="form_replay" value="" />
+        <input type="hidden" name="a" value="" />
+        <input type="hidden" name="aaaa" value="" />
+        <input type="hidden" name="ds4" value="" />
+        <input type="hidden" name="ds6" value="" />
         <input type="hidden" name="ipv4" value="" />
         <input type="hidden" name="ipv6" value="" />
         <input type="hidden" name="v6mtu" value="" />
         <input type="hidden" name="v6ns" value="" />
         <input type="hidden" name="ip4" value="" />
-        <input type="hidden" name="ip6" value="" /> 
+        <input type="hidden" name="ip6" value="" />
         <input type="hidden" name="dsmtu" value="" />
-        <input type="hidden" name="ip6subtype" value="" /> 
-        <input type="hidden" name="tokens" value= "" /> 
-        <input type="hidden" name="score_transition" value="" /> 
-        <input type="hidden" name="score_strict" value="" /> 
+        <input type="hidden" name="ip6subtype" value="" />
+        <input type="hidden" name="tokens" value= "" />
+        <input type="hidden" name="score_transition" value="" />
+        <input type="hidden" name="score_strict" value="" />
         <input type="hidden" name="nobots" value="" />
 	<input type="hidden" name="subdomain" />
 
@@ -58,7 +59,7 @@
             <td>
               <b>{{Purpose for comment}}</b>:
             </td><td>
-           
+
             <select name="purpose" onchange='jQuery("#contact_form").show();'>
 <option value="-">{{Purpose for comment}}</option>
 <option value="questions">{{Questions about test results}}</option>
@@ -132,7 +133,7 @@
                 {{Copy the output from those commands, into the box below. This will help me confirm/deny any theories relating to your question.}}
               </div>
 
- 
+
 
             </td>
           </tr>

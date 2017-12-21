@@ -83,10 +83,20 @@ GIGO.show_debug = function () {
     GIGO.show_share_link();
 };
 
+
+// Some of our substitutions are expensive to compute.
+// Let's just do it once.
+GIGO.substitutions = {};
+GIGO.substitutions.HTTPS = '<a href="' + "https://" + document.location.hostname + document.location.pathname + '">HTTPS</a>';
+
+
 // Return a table with left side colored and with a symbol; right side, informative text.
 GIGO.results_table_wrapper = function (color, text) {
     var table;
     color = color.toLowerCase();
+
+    // Things we will do as substitutions
+    text = text.replace("%HTTPS",GIGO.substitutions.HTTPS);
 
     table = "";
     table = "<table class=\"results_wrapper\">";
@@ -298,7 +308,7 @@ GIGO.send_survey_global = function (tokens) {
         GIGO.send_survey(tokens);
      }
   }
-}
+};
 
 
 GIGO.send_survey = function (tokens) {
@@ -311,9 +321,9 @@ GIGO.send_survey = function (tokens) {
     if (MirrorConfig.options.userdata) {
         // We're going to completely override "url"
         if (GIGO.results.ipv4.ip) {
-            url = "http://ipv4." + MirrorConfig.options.userdata + MirrorConfig.options.survey;
+            url = GIGO.protocol + "ipv4." + MirrorConfig.options.userdata + MirrorConfig.options.survey;
         } else {
-            url = "http://ipv6." + MirrorConfig.options.userdata + MirrorConfig.options.survey;
+            url = GIGO.protocol + "ipv6." + MirrorConfig.options.userdata + MirrorConfig.options.survey;
         }
     }
 
@@ -402,6 +412,7 @@ GIGO.testing_ipv4 = function () {
 
 GIGO.show_results = function () {
     var tokens_hash, i, table, token_expanded, help, s4, s6, sid4, sid6;
+
 
 
     // GIGO.dumpObj(this); // requires popups enabled
@@ -542,8 +553,7 @@ GIGO.help_popup = function (file, tabname, popup) {
         // force the help popups to show the original, user-entered
         // hostname (instead of the 'current server');  This is to
         // avoid cross-domain problems.
-        hostname = String(document.location.hostname);
-        file = "http://" + hostname + "/" + file;
+        file = GIGO.protocol  + String(document.location.hostname) + "/" + file;
         lfile = file + '.{{locale}}';
 
 

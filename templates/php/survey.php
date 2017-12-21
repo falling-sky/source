@@ -49,7 +49,7 @@ function get_ua()
 
 function fetch_time($name)
 {
-    $t = param_val($name, "/^(ok|bad|slow|timeout)(,[0-9]+)?\$/");
+    $t = param_val($name, "/^(ok|bad|slow|timeout|skipped)(,[0-9]+)?\$/");
     if (!isset($t))
         return "-1";
     $a = explode(",", $t);
@@ -57,7 +57,7 @@ function fetch_time($name)
 }
 function fetch_status($name)
 {
-    $t = param_val($name, "/^(ok|bad|slow|timeout)(,[0-9]+)?\$/");
+    $t = param_val($name, "/^(ok|bad|slow|timeout|skipped)(,[0-9]+)?\$/");
     if (!isset($t))
         return "undef";
     $a = explode(",", $t);

@@ -1,1 +1,0 @@
-[% PROCESS "main/mail.inc" %]

@@ -38,6 +38,19 @@
   "reason": "",
   "transparent": false
  },
+ "campaya.co.uk": {
+  "site": "campaya.co.uk",
+  "mirror": false,
+  "hide": false,
+  "v4": "http://ipv4.campaya.co.uk/apple-touch-icon.png",
+  "v6": "http://ipv6.campaya.co.uk/apple-touch-icon.png",
+  "loc": "UK",
+  "provider": "Campaya",
+  "monitor": "Claus Pedersen \u003cclausp@campaya.com\u003e",
+  "contact": "",
+  "reason": "",
+  "transparent": false
+ },
  "duplimaster.com": {
   "site": "duplimaster.com",
   "mirror": false,
@@ -350,19 +363,6 @@
   "reason": "",
   "transparent": false
  },
- "test-ipv6.co.za": {
-  "site": "test-ipv6.co.za",
-  "mirror": true,
-  "hide": false,
-  "v4": "http://ipv4.test-ipv6.co.za/images-nc/knob_green.png",
-  "v6": "http://ipv6.test-ipv6.co.za/images-nc/knob_green.png",
-  "loc": "ZA",
-  "provider": "Multisource Telecoms",
-  "monitor": "Multisource Support \u003csupport@multisource.co.za\u003e",
-  "contact": "",
-  "reason": "",
-  "transparent": false
- },
  "test-ipv6.com": {
   "site": "test-ipv6.com",
   "mirror": true,
@@ -519,6 +519,19 @@
   "reason": "",
   "transparent": false
  },
+ "test-ipv6.lazypaddle.com": {
+  "site": "test-ipv6.lazypaddle.com",
+  "mirror": true,
+  "hide": false,
+  "v4": "http://ipv4.test-ipv6.lazypaddle.com/images-nc/knob_green.png",
+  "v6": "http://ipv6.test-ipv6.lazypaddle.com/images-nc/knob_green.png",
+  "loc": "US WI",
+  "provider": "Dale Hartung",
+  "monitor": "Dale Hartung \u003cdale@dghartung.com\u003e",
+  "contact": "",
+  "reason": "",
+  "transparent": false
+ },
  "test-ipv6.monash.edu": {
   "site": "test-ipv6.monash.edu",
   "mirror": true,
@@ -636,19 +649,6 @@
   "reason": "",
   "transparent": false
  },
- "test-ipv6.showmyip.ca": {
-  "site": "test-ipv6.showmyip.ca",
-  "mirror": true,
-  "hide": false,
-  "v4": "http://ipv4.test-ipv6.showmyip.ca/images-nc/knob_green.png",
-  "v6": "http://ipv6.test-ipv6.showmyip.ca/images-nc/knob_green.png",
-  "loc": "CA",
-  "provider": "Christopher Munz-Michielin",
-  "monitor": "Christopher Munz-Michielin \u003cchristopher@showmyip.ca\u003e",
-  "contact": "",
-  "reason": "",
-  "transparent": false
- },
  "test-ipv6.si": {
   "site": "test-ipv6.si",
   "mirror": true,
@@ -701,15 +701,15 @@
   "reason": "",
   "transparent": false
  },
- "test-ipv6.vyncke.org": {
-  "site": "test-ipv6.vyncke.org",
+ "test-ipv6.vtt.net": {
+  "site": "test-ipv6.vtt.net",
   "mirror": true,
   "hide": false,
-  "v4": "http://ipv4.test-ipv6.vyncke.org/images-nc/knob_green.png",
-  "v6": "http://ipv6.test-ipv6.vyncke.org/images-nc/knob_green.png",
-  "loc": "FR",
-  "provider": "Éric Vyncke",
-  "monitor": "Eric Vyncke \u003ceric@vyncke.org\u003e",
+  "v4": "http://ipv4.test-ipv6.vtt.net/images-nc/knob_green.png",
+  "v6": "http://ipv6.test-ipv6.vtt.net/images-nc/knob_green.png",
+  "loc": "RU",
+  "provider": "JSC \"Volgatranstelecom\"",
+  "monitor": "VTT Network Operations Centre \u003cnoc@vtt.net\u003e",
   "contact": "",
   "reason": "",
   "transparent": false
@@ -801,6 +801,19 @@
   "loc": "IT",
   "provider": "Joram.IT",
   "monitor": "Servizio Partners - Joram.IT \u003ccontact@joram.it\u003e",
+  "contact": "",
+  "reason": "",
+  "transparent": false
+ },
+ "www.nop.hu": {
+  "site": "www.nop.hu",
+  "mirror": false,
+  "hide": false,
+  "v4": "http://ipv4.nop.hu/hosted.png",
+  "v6": "http://ipv6.nop.hu/hosted.png",
+  "loc": "HU",
+  "provider": "nop.hu",
+  "monitor": "matecs \u003cmatecs@niif.hu\u003e",
   "contact": "",
   "reason": "",
   "transparent": false
