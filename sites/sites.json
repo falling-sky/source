@@ -233,10 +233,10 @@
       "mirror": true,
       "transparent": true,
       "monitor": "jfesler@gigo.com",
-      "provider": "vr.org",
+      "provider": "HostVirtual",
       "site": "test-ipv6.hkg.vr.org",
-      "v4": "http://ipv4.test-ipv6.hkg.vr.org/images-nc/knob_green.png",
-      "v6": "http://ipv6.test-ipv6.hkg.vr.org/images-nc/knob_green.png"
+      "v4": "https://ipv4.test-ipv6.hkg.vr.org/images-nc/knob_green.png",
+      "v6": "https://ipv6.test-ipv6.hkg.vr.org/images-nc/knob_green.png"
     },
     "test-ipv6.ams.vr.org": {
       "hide": false,
@@ -244,10 +244,10 @@
       "mirror": true,
       "transparent": true,
       "monitor": "jfesler@gigo.com",
-      "provider": "vr.org",
+      "provider": "HostVirtual",
       "site": "test-ipv6.ams.vr.org",
-      "v4": "http://ipv4.test-ipv6.ams.vr.org/images-nc/knob_green.png",
-      "v6": "http://ipv6.test-ipv6.ams.vr.org/images-nc/knob_green.png"
+      "v4": "https://ipv4.test-ipv6.ams.vr.org/images-nc/knob_green.png",
+      "v6": "https://ipv6.test-ipv6.ams.vr.org/images-nc/knob_green.png"
     },
     "test-ipv6.sin.vr.org": {
       "hide": false,
@@ -255,10 +255,10 @@
       "mirror": true,
       "transparent": true,
       "monitor": "jfesler@gigo.com",
-      "provider": "vr.org",
+      "provider": "HostVirtual",
       "site": "test-ipv6.sin.vr.org",
-      "v4": "http://ipv4.test-ipv6.sin.vr.org/images-nc/knob_green.png",
-      "v6": "http://ipv6.test-ipv6.sin.vr.org/images-nc/knob_green.png"
+      "v4": "https://ipv4.test-ipv6.sin.vr.org/images-nc/knob_green.png",
+      "v6": "https://ipv6.test-ipv6.sin.vr.org/images-nc/knob_green.png"
     },
     "test-ipv6.com": {
       "hide": false,
@@ -276,8 +276,8 @@
       "mirror": true,
       "provider": "Jason Fesler",
       "site": "test-ipv6.com",
-      "v4": "http://ipv4.vm0.test-ipv6.com/images-nc/knob_green.png",
-      "v6": "http://ipv6.vm0.test-ipv6.com/images-nc/knob_green.png"
+      "v4": "https://ipv4.vm0.test-ipv6.com/images-nc/knob_green.png",
+      "v6": "https://ipv6.vm0.test-ipv6.com/images-nc/knob_green.png"
     },
     "vm1.test-ipv6.com": {
       "hide": true,
@@ -286,8 +286,8 @@
       "mirror": true,
       "provider": "Jason Fesler",
       "site": "test-ipv6.com",
-      "v4": "http://ipv4.vm1.test-ipv6.com/images-nc/knob_green.png",
-      "v6": "http://ipv6.vm1.test-ipv6.com/images-nc/knob_green.png"
+      "v4": "https://ipv4.vm1.test-ipv6.com/images-nc/knob_green.png",
+      "v6": "https://ipv6.vm1.test-ipv6.com/images-nc/knob_green.png"
     },
     "vm2.test-ipv6.com": {
       "hide": true,
@@ -296,18 +296,18 @@
       "mirror": true,
       "provider": "Jason Fesler",
       "site": "test-ipv6.com",
-      "v4": "http://ipv4.vm2.test-ipv6.com/images-nc/knob_green.png",
-      "v6": "http://ipv6.vm2.test-ipv6.com/images-nc/knob_green.png"
+      "v4": "https://ipv4.vm2.test-ipv6.com/images-nc/knob_green.png",
+      "v6": "https://ipv6.vm2.test-ipv6.com/images-nc/knob_green.png"
     },
     "syd.test-ipv6.com": {
       "hide": true,
       "transparent": true,
       "loc": "AU",
       "mirror": true,
-      "provider": "vr.org",
+      "provider": "HostVirtual",
       "site": "syd.test-ipv6.com",
-      "v4": "http://ipv4.vm2.test-ipv6.com/images-nc/knob_green.png",
-      "v6": "http://ipv6.vm2.test-ipv6.com/images-nc/knob_green.png"
+      "v4": "https://ipv4.vm2.test-ipv6.com/images-nc/knob_green.png",
+      "v6": "https://ipv6.vm2.test-ipv6.com/images-nc/knob_green.png"
     },
     "test-ipv6.com.au": {
       "hide": false,
@@ -316,8 +316,8 @@
       "monitor": "Deborah Pickett <debbiep@icemoonprison.com>",
       "provider": "Futzle Industries",
       "site": "test-ipv6.com.au",
-      "v4": "http://ipv4.test-ipv6.com.au/images-nc/knob_green.png",
-      "v6": "http://ipv6.test-ipv6.com.au/images-nc/knob_green.png"
+      "v4": "https://ipv4.test-ipv6.com.au/images-nc/knob_green.png",
+      "v6": "https://ipv6.test-ipv6.com.au/images-nc/knob_green.png"
     },
     "test-ipv6.cz": {
       "hide": false,
@@ -333,11 +333,12 @@
       "hide": false,
       "loc": "CR",
       "mirror": true,
+      "https": true,
       "monitor": "Jorge Frater <jfrater@fratec.com>",
       "provider": "Sistemas Fratec S.A.",
       "site": "test-ipv6.fratec.net",
-      "v4": "http://ipv4.test-ipv6.fratec.net/images-nc/knob_green.png",
-      "v6": "http://ipv6.test-ipv6.fratec.net/images-nc/knob_green.png"
+      "v4": "https://ipv4.test-ipv6.fratec.net/images-nc/knob_green.png",
+      "v6": "https://ipv6.test-ipv6.fratec.net/images-nc/knob_green.png"
     },
     "test-ipv6.go6.si": {
       "hide": false,
@@ -465,8 +466,8 @@
       "monitor": "Damjan Sirnik <damjan@sirnik.si>",
       "provider": "Damjan Sirnik",
       "site": "test-ipv6.si",
-      "v4": "http://ipv4.test-ipv6.si/images-nc/knob_green.png",
-      "v6": "http://ipv6.test-ipv6.si/images-nc/knob_green.png"
+      "v4": "https://ipv4.test-ipv6.si/images-nc/knob_green.png",
+      "v6": "https://ipv6.test-ipv6.si/images-nc/knob_green.png"
     },
     "test-ipv6.tld.sk": {
       "hide": false,
@@ -550,15 +551,6 @@
       "site": "www.tecpeu.com.br",
       "v4": "http://www.ipv4.tecpeu.com.br/img/logo-big.png",
       "v6": "http://www.ipv6.tecpeu.com.br/img/logo-big.png"
-    },
-    "www.heise.de": {
-      "hide": false,
-      "loc": "DE",
-      "monitor": "Johannes Endres, c't <je@heise.de>",
-      "provider": "Heise",
-      "site": "www.heise.de",
-      "v4": "http://www.four.heise.de/icons/ho/heise.gif",
-      "v6": "http://www.six.heise.de/icons/ho/heise.gif"
     },
     "www.radioradicale.it": {
       "loc": "IT",
