@@ -81,8 +81,8 @@
       "monitor": "noc@net-admin.pl",
       "provider": "Net-Admin",
       "site": "ipv6-test.pl",
-      "v4": "http://ipv4.ipv6-test.pl/images-nc/knob_green.png",
-      "v6": "http://ipv6.ipv6-test.pl/images-nc/knob_green.png"
+      "v4": "https://ipv4.ipv6-test.pl/images-nc/knob_green.png",
+      "v6": "https://ipv6.ipv6-test.pl/images-nc/knob_green.png"
     },
     "test-ipv6.noroutetohost.net": {
       "hide": false,
@@ -224,8 +224,8 @@
       "monitor": "CARNet <sysadm@carnet.hr>",
       "provider": "Croatian Academic and Research Network",
       "site": "test-ipv6.carnet.hr",
-      "v4": "http://ipv4.test-ipv6.carnet.hr/images-nc/knob_green.png",
-      "v6": "http://ipv6.test-ipv6.carnet.hr/images-nc/knob_green.png"
+      "v4": "https://ipv4.test-ipv6.carnet.hr/images-nc/knob_green.png",
+      "v6": "https://ipv6.test-ipv6.carnet.hr/images-nc/knob_green.png"
     },
     "test-ipv6.hkg.vr.org": {
       "hide": false,
@@ -406,8 +406,8 @@
       "monitor": "Teun Vink <teun@bit.nl>",
       "provider": "BIT BV",
       "site": "test-ipv6.nl",
-      "v4": "http://ipv4.test-ipv6.nl/images-nc/knob_green.png",
-      "v6": "http://ipv6.test-ipv6.nl/images-nc/knob_green.png"
+      "v4": "https://ipv4.test-ipv6.nl/images-nc/knob_green.png",
+      "v6": "https://ipv6.test-ipv6.nl/images-nc/knob_green.png"
     },
     "test-ipv6.no": {
       "hide": false,
@@ -558,8 +558,8 @@
       "monitor": "Dario Centofanti <dario@popinga.net>",
       "provider": "Centro di Produzione Spa - AS57329",
       "site": "www.radioradicale.it",
-      "v4": "http://ipv4.radioradicale.it/sites/www.radioradicale.it/files/pagine/2015/12/ipv6.png",
-      "v6": "http://ipv6.radioradicale.it/sites/www.radioradicale.it/files/pagine/2015/12/ipv6.png"
+      "v4": "https://ipv4.radioradicale.it/sites/www.radioradicale.it/files/pagine/2015/12/ipv6.png",
+      "v6": "https://ipv6.radioradicale.it/sites/www.radioradicale.it/files/pagine/2015/12/ipv6.png"
     },
     "www.rascom.ru": {
       "loc": "RU",
@@ -575,8 +575,8 @@
       "monitor": "Sander Steffann <sander@steffann.nl>",
       "provider": "SJM Steffann Consultancy",
       "site": "www.steffann.nl",
-      "v4": "http://v4-only.steffann.nl/v4-only.png",
-      "v6": "http://v6-only.steffann.nl/v6-only.png"
+      "v4": "https://v4-only.steffann.nl/v4-only.png",
+      "v6": "https://v6-only.steffann.nl/v6-only.png"
     },
     "www.vyncke.org/ipv6status/": {
       "hide": false,
