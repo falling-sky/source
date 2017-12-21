@@ -513,8 +513,9 @@ GIGO.show_faq_link = function (tokens) {
       page = "broken.html";
     }
 
+console.log("show_faq_link: page=%o",page);
 
-    if (page !== "") {
+    if (page) {
         jQuery("#comments_unwanted").hide();
         jQuery("#comments_faq").show();
 
@@ -523,6 +524,7 @@ GIGO.show_faq_link = function (tokens) {
 
         //        handle = GIGO.help_popup(page, title, 0); // Don't auto-switch to this
         html = '<a href="#" onclick="return GIGO.help_popup(\'' + page + '\', \'' + title + '\');">' + linktext + '</a>';
+
 
         m = jQuery("#comments_faq_link");
         m.html(html);
