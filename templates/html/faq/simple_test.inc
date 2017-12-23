@@ -35,7 +35,7 @@ with IE, Firefox, Safari, or Chrome, to get more detailed information about poss
 </td></tr>
 
 <tr>
-<td><img  style="height: 2em; width: auto;"  src="http://ds.test-ipv6.com/images/hires_ok.png" alt="?"/></td>
+<td><img  style="height: 2em; width: auto;"  src="http://ipv6.test-ipv6.com/images/hires_ok.png" alt="?"/></td>
 <td><b>IPv6</b></td>
 <td>
 {{ <i>If red or blank, do not stress!</i>  Few people already have IPv6 at
