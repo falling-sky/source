@@ -189,12 +189,23 @@ GIGO.sites_init = function () {
 };
 
 GIGO.sites_queue_entry = function (r) {
+
     if (!r.v4) {
         r.v4 = "http://ipv4." + r.site + "/images-nc/hires_ok.png";
     }
     if (!r.v6) {
         r.v6 = "http://ipv6." + r.site + "/images-nc/hires_ok.png";
     }
+
+    // Do we have a suitable protocol?
+    // Shrink the list, if that is what it takes.
+    if (GIGO.protocol==="https://") {
+      // Be a bit more strict.
+      if (!r.v4.startsWith("https://") || !r.v6.startsWith("https://")) {
+        return; // When viewing as https, we require all images being tested also be https
+      }
+    }
+
 
     // Mark up r.v4 for site analytics
     if (r.v4.search(/\?/)<0) {
