@@ -6,8 +6,8 @@
       "monitor": "Sander Smeenk <sander@bit.nl>",
       "provider": "8n1.org - a simple pastebin",
       "site": "8n1.org",
-      "v4": "http://ip4.8n1.org/test.gif",
-      "v6": "http://ip6.8n1.org/test.gif"
+      "v4": "https://ip4.8n1.org/test.gif",
+      "v6": "https://ip6.8n1.org/test.gif"
     },
     "aa.net.uk": {
       "hide": false,
@@ -92,8 +92,8 @@
       "monitor": "test-ipv6@noroutetohost.net",
       "provider": "NoRouteToHost",
       "site": "test-ipv6.noroutetohost.net",
-      "v4": "http://ipv4.test-ipv6.noroutetohost.net/images-nc/knob_green.png",
-      "v6": "http://ipv6.test-ipv6.noroutetohost.net/images-nc/knob_green.png"
+      "v4": "https://ipv4.test-ipv6.noroutetohost.net/images-nc/knob_green.png",
+      "v6": "https://ipv6.test-ipv6.noroutetohost.net/images-nc/knob_green.png"
     },
     "test-ipv6.zw.liquidtelecom.net": {
       "hide": false,
@@ -134,8 +134,8 @@
       "monitor": "Stephan Fiebrandt <stephan@nsx.de>",
       "provider": "Stephan Fiebrandt (personal)",
       "site": "nsx.de",
-      "v4": "http://ipv4.nsx.de/images/knob_valid_green.png",
-      "v6": "http://ipv6.nsx.de/images/knob_valid_green.png"
+      "v4": "https://ipv4.nsx.de/images/knob_valid_green.png",
+      "v6": "https://ipv6.nsx.de/images/knob_valid_green.png"
     },
     "sixte.st": {
       "hide": false,
@@ -266,8 +266,8 @@
       "mirror": true,
       "provider": "Several locations around the world",
       "site": "test-ipv6.com",
-      "v4": "http://ipv4.test-ipv6.com/images-nc/knob_green.png",
-      "v6": "http://ipv6.test-ipv6.com/images-nc/knob_green.png"
+      "v4": "https://ipv4.test-ipv6.com/images-nc/knob_green.png",
+      "v6": "https://ipv6.test-ipv6.com/images-nc/knob_green.png"
     },
     "vm0.test-ipv6.com": {
       "hide": true,
@@ -326,8 +326,8 @@
       "monitor": "NOC NIC <noc@nic.cz>",
       "provider": "nic.cz",
       "site": "test-ipv6.cz",
-      "v4": "http://ipv4.test-ipv6.cz/images-nc/knob_green.png",
-      "v6": "http://ipv6.test-ipv6.cz/images-nc/knob_green.png"
+      "v4": "https://ipv4.test-ipv6.cz/images-nc/knob_green.png",
+      "v6": "https://ipv6.test-ipv6.cz/images-nc/knob_green.png"
     },
     "test-ipv6.fratec.net": {
       "hide": false,
@@ -347,8 +347,8 @@
       "monitor": "Jan Zorz <jan@go6.si>",
       "provider": "Go6 Lab - Slovenian IPv6 Iniciative",
       "site": "test-ipv6.go6.si",
-      "v4": "http://ipv4.test-ipv6.go6.si/images-nc/knob_green.png",
-      "v6": "http://ipv6.test-ipv6.go6.si/images-nc/knob_green.png"
+      "v4": "https://ipv4.test-ipv6.go6.si/images-nc/knob_green.png",
+      "v6": "https://ipv6.test-ipv6.go6.si/images-nc/knob_green.png"
     },
     "test-ipv6.hu": {
       "hide": false,
@@ -456,8 +456,8 @@
       "monitor": "torbjorn.eklov@interlan.se <torbjorn.eklov@interlan.se>",
       "provider": "Interlan Gefle AB",
       "site": "test-ipv6.se",
-      "v4": "http://ipv4.test-ipv6.se/images-nc/knob_green.png",
-      "v6": "http://ipv6.test-ipv6.se/images-nc/knob_green.png"
+      "v4": "https://ipv4.test-ipv6.se/images-nc/knob_green.png",
+      "v6": "https://ipv6.test-ipv6.se/images-nc/knob_green.png"
     },
     "test-ipv6.si": {
       "hide": false,
@@ -495,8 +495,8 @@
       "mirror": true,
       "monitor": "Eric Vyncke <eric@vyncke.org>",
       "provider": "Éric Vyncke",
-      "v4": "http://ipv4.test-ipv6.vyncke.org/images-nc/knob_green.png",
-      "v6": "http://ipv6.test-ipv6.vyncke.org/images-nc/knob_green.png"
+      "v4": "https://ipv4.test-ipv6.vyncke.org/images-nc/knob_green.png",
+      "v6": "https://ipv6.test-ipv6.vyncke.org/images-nc/knob_green.png"
     },
     "testipv6.de": {
       "hide": false,
@@ -531,8 +531,8 @@
       "monitor": "Liviu Pislaru <liviu.pislaru@duiadns.net>",
       "provider": "Duiadns",
       "site": "www.duiadns.net",
-      "v4": "http://ipv4.duiadns.net/1x1.gif",
-      "v6": "http://ipv6.duiadns.net/1x1.gif"
+      "v4": "https://ipv4.duiadns.net/1x1.gif",
+      "v6": "https://ipv6.duiadns.net/1x1.gif"
     },
     "www.excathedra.co": {
       "hide": false,
@@ -603,8 +603,8 @@
       "mirror": true,
       "monitor": "NIC Chile <soporte@nic.cl>",
       "provider": "NIC Chile",
-      "v4": "http://ipv4.test-ipv6.cl/images-nc/knob_green.png",
-      "v6": "http://ipv6.test-ipv6.cl/images-nc/knob_green.png"
+      "v4": "https://ipv4.test-ipv6.cl/images-nc/knob_green.png",
+      "v6": "https://ipv6.test-ipv6.cl/images-nc/knob_green.png"
     },
     "bvconline.com.ar": {
       "hide": false,
@@ -649,8 +649,8 @@
       "contact": "PoP-PR/RNP <admnet@pop-pr.rnp.br>",
       "monitor": "equipe@pop-pr.rnp.br",
       "provider": "PoP-PR/RNP",
-      "v4": "http://ipv4.test-ipv6.arauc.br/images-nc/knob_green.png",
-      "v6": "http://ipv6.test-ipv6.arauc.br/images-nc/knob_green.png"
+      "v4": "https://ipv4.test-ipv6.arauc.br/images-nc/knob_green.png",
+      "v6": "https://ipv6.test-ipv6.arauc.br/images-nc/knob_green.png"
     },
     "test-ipv6.ernet.in": {
       "hide": false,
@@ -659,8 +659,8 @@
       "monitor": "praveen.misra@eis.ernet.in",
       "provider": "IPv6 Division of ERNET India",
       "site": "test-ipv6.ernet.in",
-      "v4": "http://ipv4.test-ipv6.ernet.in/images-nc/knob_green.png",
-      "v6": "http://ipv6.test-ipv6.ernet.in/images-nc/knob_green.png"
+      "v4": "https://ipv4.test-ipv6.ernet.in/images-nc/knob_green.png",
+      "v6": "https://ipv6.test-ipv6.ernet.in/images-nc/knob_green.png"
     },
     "test-ipv6.epic.network": {
       "hide": false,
@@ -688,8 +688,8 @@
       "mirror": true,
       "monitor": "systems-committee@csclub.uwaterloo.ca",
       "provider": "University of Waterloo Computer Science Club",
-      "v4": "http://ipv4.test-ipv6.csclub.uwaterloo.ca/images-nc/knob_green.png",
-      "v6": "http://ipv6.test-ipv6.csclub.uwaterloo.ca/images-nc/knob_green.png"
+      "v4": "https://ipv4.test-ipv6.csclub.uwaterloo.ca/images-nc/knob_green.png",
+      "v6": "https://ipv6.test-ipv6.csclub.uwaterloo.ca/images-nc/knob_green.png"
     },
     "www.joram.it": {
       "hide": false,
