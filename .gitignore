@@ -1,5 +1,5 @@
+DEADJOE
 *~
-po/missing.*.po
 fsky-content-*tgz
 work/
 po/crowdin.yaml
@@ -7,9 +7,28 @@ fsbuilder
 src/github.com
 output
 
+po/missing.*.po
 translations/all.zip
 translations/crowdin.yaml
+translations/falling-sky.pot
+translations/dl/*/*po
+translations/falling-sky.pot
+
 sites/parse-sites
+sites/versions/versions
+templates/js/sites_parsed*js
+
+1
+11*
+2
+22*
+
+#  golang source to build things with
+src 
+src/github.com
+
+
 
 id_travis
 .DS_Store
+
