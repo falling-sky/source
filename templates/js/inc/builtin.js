@@ -481,7 +481,7 @@ GIGO.show_results = function () {
     }
     table += "<tr><td><span id=" + sid6 + ">" + s6 + "</span></td><td>" + "{{for your IPv6 stability and readiness, when publishers are forced to go IPv6 only}}" + "</td></tr>";
     table += "</table></div>";
-    table += "<div class='next'><p>" + "{{Click to see}}" + " <a href=\"#\" class=\"tabbutton_tests\"  onclick='return GIGO.tabnav(\"tests\")'>" + "{{test data}}" + "</a></p></div>";
+    table += "<div class='next'><p>" + "{{Click to see}}" + " <a href=\"#\" class=\"tabbutton_tests\"  onclick='return GIGO.tabnav(\"tests\")'>" + "{{Test Data}}" + "</a></p></div>";
     jQuery("#results_eof").before(table);
 
 
