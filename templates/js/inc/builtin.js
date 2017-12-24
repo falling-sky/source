@@ -426,8 +426,8 @@ GIGO.show_results = function () {
     }
     if (tokens_hash.hasOwnProperty("confused:ASK")) {
         if (MirrorConfig.options.comment) {
-            GIGO.contact_wanted = 1;
-            jQuery("#help_plugins").show(); // Encourage more feedback.
+              GIGO.contact_wanted = 1;
+              jQuery("#help_plugins").show(); // Encourage more feedback.
         }
     }
     if (tokens_hash.hasOwnProperty("webfilter:dsboth")) {
@@ -498,7 +498,11 @@ GIGO.show_results = function () {
     if ((GIGO.results.score_transition === "?") || (GIGO.results.score_transition > 10) || (GIGO.contact_wanted)) {
         // I really want to talk to them.
         if (MirrorConfig.options.comment) {
+          // But not if they are from places with known problems.
+          // China
+          if (!GIGO.isUnreliable()) {
             GIGO.showform();
+          }
         }
     }
 };

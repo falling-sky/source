@@ -27,6 +27,7 @@ GIGO.scores = {
     "teredo-minimum": [10, 0, "BLUE"],
     "IPv6 MTU": [1, 1, "RED"],
     "confused:ASK": [0, 0, "ORANGE"],
+    "confused:NOASK": [0, 0, "ORANGE"],
     "dualstack:ipv4_preferred": [10, 10, "GREEN"],
     "dualstack:ipv6_preferred": [10, 10, "GREEN"],
     "dualstack:slow": [7, 7, "BLUE"],

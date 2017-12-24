@@ -471,6 +471,15 @@ GIGO.identify_symptoms = function () {
                 res[i] = "broken_ipv6";
             }
         }
+
+        console.log("res[i]=%o",res[i]);
+
+        if (res[i] === 'confused:ASK') {
+          if (GIGO.isUnreliable()) {
+            res[i]="confused:NOASK";
+            console.log("res[i] updated to %o",res[i]);
+          }
+        }
     }
 
     if (res.length === 0) {

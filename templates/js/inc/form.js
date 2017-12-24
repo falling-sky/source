@@ -45,6 +45,10 @@ GIGO.form_setup = function (tokens) {
 GIGO.showform = function () {
     var msgs, share_text, share_link;
 
+    if (GIGO.isUnreliable()){
+      return;
+    }
+
     // Highlight the tab
     jQuery("a.tabbutton_mail").attr("id", "contactme");
     GIGO.contact_wanted = 1;
@@ -68,37 +72,6 @@ GIGO.showform = function () {
     // Add fields to the contact form
 };
 
-
-GIGO.showconfused = function (s) {
-    var msgs, share_text, share_link, retest_text, retest_link;
-
-    // Highlight the tab
-    jQuery("a.tabbutton_mail").attr("id", "contactme");
-    GIGO.contact_wanted = 1;
-    jQuery("#comments_wanted").show();
-    jQuery("#comments_unwanted").hide();
-    share_text = "{{share your results}}";
-    share_link = "<a href='#' onclick='return GIGO.tabnav(\"mail\");'>%1</a>";
-    share_link = share_link.replace(/%1/, share_text);
-
-    retest_text = "{{retest}}";
-    retest_link = "<a href='#' onclick='return GIGO.retest();'>%1</a>";
-    retest_link = retest_link.replace(/%1/, retest_text);
-
-
-    msgs = "{{I am most interested in discussing your setup with you, because it was been determined that <B>your IPv6 connectivity is broken</b>, or at least not fully understood.  This is not normal; would you be willing to %share?}}";
-    msgs = msgs.replace(/%share/, share_link);
-    msgs = msgs.replace(/%retest/, retest_link);
-    msgs = "<div><p><span id='highlighter'>" + msgs + "</span></p></div>";
-
-    msgs = msgs + "<div><p>" + "{{Result code}}" + " " + s + "</p></div>";
-
-
-    jQuery("#results_eof").before(msgs);
-
-    // Add fields to the contact form
-    return false;
-};
 
 GIGO.debuggercomments = function (thisform) {
 

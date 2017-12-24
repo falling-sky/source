@@ -21,6 +21,7 @@ GIGO.messages = {
     "teredo-v4pref": "{{Your IPv6 connection appears to be using Teredo, a type of IPv4/IPv6 gateway.  Your particular teredo configuration is only used as a protocol of last resort. When visiting a site with both IPv4 and IPv6, IPv4 will be preferred.}}",
     "IPv6 MTU": "{{Danger! IPv6 sorta works - however, large packets appear to fail, giving the appearance of a broken website.  If a publisher publishes to IPv6, you will believe their web site to be broken. Ask your ISP about MTU issues; possibly with your tunnel.}} {{Check your firewall to make sure that ICMPv6 messages are allowed (in particular, Type 2 or Packet Too Big).}}",
     "confused:ASK": "{{Test results inconclusive; they were not consistent with expectations.  Please rerun the test, and if the results are the same, please fill out the contact form.}}",
+    "confused:NOASK": "{{Test results inconclusive; they were not consistent with expectations.  Please rerun the test, and if the results are the same, seek local network help.}}",
     "dualstack:ipv4_preferred": "-",
     "dualstack:ipv6_preferred": "-",
     "dualstack:slow": "{{For unknown reasons, your browser appears to operate slower when given the option of connecting to both IPv4 and IPv6.  Please rerun the test, and if the results are the same, please fill out the contact form.}}",

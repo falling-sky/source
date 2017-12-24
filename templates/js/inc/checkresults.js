@@ -185,7 +185,7 @@ GIGO.check_results = function () {
 
 };
 
-GIGO.update_service_warning = function () {
+GIGO.isUnreliable = function() {
   var danger=false;
   try {
     if (GIGO.unreliable[ GIGO.results.tests.test_asn4.ipinfo.country ]) {
@@ -201,12 +201,15 @@ GIGO.update_service_warning = function () {
   } catch (e) {
     // noop
   }
-  if (danger) {
+  return danger;
+};
+
+GIGO.update_service_warning = function () {
+  if (GIGO.isUnreliable()) {
     s = "{{Tests using this web site are unreliable from your location.}}";
     table  = GIGO.results_table_wrapper("orange",s);
     jQuery("#results_eof").before(table);
   }
-
  };
 
 
