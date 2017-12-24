@@ -281,7 +281,6 @@
 
   <hr/>
   <p> {{If the summary results indicated problems, you (or your technical support) may be able to use the information above to diagnose the issues. Each of the test urls and their results is shown on the left side. To the right you'll see a description of what that URL was designed to test.}}</p>
-  <p> {{After each test is ran. The summary page attempts to look at the results If the summary doesn't seem to make sense given the symptoms recorded above, or if you need further assistance, please feel free to contact us.}}</p>
 
 </div>
 
