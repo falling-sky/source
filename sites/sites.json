@@ -43,8 +43,8 @@
       "monitor": "Jesus Vara <jvara@e-impresion.es>",
       "provider": "duplimaster.com",
       "site": "duplimaster.com",
-      "v4": "http://ipv4.duplimaster.com/public/images/logo-sombra.png",
-      "v6": "http://ipv6.duplimaster.com/public/images/logo-sombra.png"
+      "v4": "https://ipv4.duplimaster.com/public/images/logo-sombra.png",
+      "v6": "https://ipv6.duplimaster.com/public/images/logo-sombra.png"
     },
     "eurobilltracker.com": {
       "hide": false,
