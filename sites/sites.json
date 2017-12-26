@@ -153,8 +153,8 @@
       "monitor": "Warren Kumari <warren@kumari.net>",
       "provider": "Warren Kumari",
       "site": "snozzages.com",
-      "v4": "http://ipv4.v6test.snozzages.com/1x1.gif",
-      "v6": "http://ipv6.v6test.snozzages.com/1x1.gif"
+      "v4": "https://ipv4.v6test.snozzages.com/1x1.gif",
+      "v6": "https://ipv6.v6test.snozzages.com/1x1.gif"
     },
     "stdio.be": {
       "hide": false,
