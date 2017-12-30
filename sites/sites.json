@@ -420,7 +420,8 @@
       "v6": "http://ipv6.test-ipv6.no/images-nc/knob_green.png"
     },
     "test-ipv6.polkam.go.id": {
-      "hide": false,
+      "hide": true,
+      "comment": "HSTS requires HTTPS; no HTTPS available.",
       "loc": "ID",
       "mirror": true,
       "monitor": "vicky@polkam.go.id",
@@ -506,8 +507,8 @@
       "monitor": "COSIMO WebTeam <kontakt@testipv6.de>",
       "provider": "COSIMO Vertriebs -und Beratungs GmbH",
       "site": "testipv6.de",
-      "v4": "http://ipv4.testipv6.de/images-nc/knob_green.png",
-      "v6": "http://ipv6.testipv6.de/images-nc/knob_green.png"
+      "v4": "https://ipv4.testipv6.de/images-nc/knob_green.png",
+      "v6": "https://ipv6.testipv6.de/images-nc/knob_green.png"
     },
     "ipv6-test.ch": {
       "hide": false,
@@ -622,8 +623,8 @@
       "mirror": true,
       "monitor": "Cesar Scoassabia <suporte@cmd.net.br>",
       "provider": "CMD Informatica",
-      "v4": "http://ipv4.test-ipv6.cmd.net.br/images-nc/knob_green.png",
-      "v6": "http://ipv6.test-ipv6.cmd.net.br/images-nc/knob_green.png"
+      "v4": "https://ipv4.test-ipv6.cmd.net.br/images-nc/knob_green.png",
+      "v6": "https://ipv6.test-ipv6.cmd.net.br/images-nc/knob_green.png"
     },
     "test-ipv6.tni-au.mil.id": {
       "hide": false,
