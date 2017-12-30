@@ -443,11 +443,12 @@
       "hide": false,
       "loc": "RO",
       "mirror": true,
+      "transparent": true,
       "monitor": "IPv6 @ RoEduNet <ipv6@roedu.net>",
       "provider": "RoEduNet",
       "site": "test-ipv6.roedu.net",
-      "v4": "http://ipv4.test-ipv6.roedu.net/images-nc/knob_green.png",
-      "v6": "http://ipv6.test-ipv6.roedu.net/images-nc/knob_green.png"
+      "v4": "https://ipv4.test-ipv6.roedu.net/images-nc/knob_green.png",
+      "v6": "https://ipv6.test-ipv6.roedu.net/images-nc/knob_green.png"
     },
     "test-ipv6.se": {
       "hide": false,
