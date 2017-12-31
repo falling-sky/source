@@ -671,8 +671,8 @@
       "monitor": "test-ipv6@qpg.us",
       "provider": "epic.network",
       "site": "test-ipv6.epic.network",
-      "v4": "https://ipv4.test-ipv6.epic.network/images-nc/knob_green.png",
-      "v6": "https://ipv6.test-ipv6.epic.network/images-nc/knob_green.png"
+      "v4": "http://ipv4.test-ipv6.epic.network/images-nc/knob_green.png",
+      "v6": "http://ipv6.test-ipv6.epic.network/images-nc/knob_green.png"
     },
     "ipv6ready.me": {
       "hide": false,
@@ -680,9 +680,9 @@
       "mirror": true,
       "monitor": "kazuhide.t@ipv6ready.me",
       "provider": "Kazuhide Takahashi",
-      "site": "test-ipv6.epic.network",
-      "v4": "http://ipv4.ipv6ready.me/images-nc/knob_green.png",
-      "v6": "http://ipv6.ipv6ready.me/images-nc/knob_green.png"
+      "site": "ipv6ready.me",
+      "v4": "https://ipv4.ipv6ready.me/images-nc/knob_green.png",
+      "v6": "https://ipv6.ipv6ready.me/images-nc/knob_green.png"
     },
     "test-ipv6.csclub.uwaterloo.ca": {
       "hide": false,
