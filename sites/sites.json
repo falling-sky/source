@@ -125,8 +125,8 @@
       "monitor": "Antonio M. Moreiras <moreiras@nic.br>",
       "provider": "NIC.br",
       "site": "nic.br",
-      "v4": "http://v4.ipv6.br/img/logo-ipv6.png",
-      "v6": "http://v6.ipv6.br/img/logo-ipv6.png"
+      "v4": "https://v4.ipv6.br/img/logo-ipv6.png",
+      "v6": "https://v6.ipv6.br/img/logo-ipv6.png"
     },
     "nsx.de": {
       "hide": false,
@@ -420,15 +420,15 @@
       "v6": "http://ipv6.test-ipv6.no/images-nc/knob_green.png"
     },
     "test-ipv6.polkam.go.id": {
-      "hide": true,
-      "comment": "HSTS requires HTTPS; no HTTPS available.",
+      "hide": false,
+      "comment": "HSTS requires HTTPS",
       "loc": "ID",
       "mirror": true,
       "monitor": "vicky@sentinel.id",
       "provider": "Coordinating Ministry For Political, Legal, and Security Affairs of Indonesia",
       "site": "test-ipv6.polkam.go.id",
-      "v4": "http://ipv4.test-ipv6.polkam.go.id/images-nc/knob_green.png",
-      "v6": "http://ipv6.test-ipv6.polkam.go.id/images-nc/knob_green.png"
+      "v4": "https://ipv4.test-ipv6.polkam.go.id/images-nc/knob_green.png",
+      "v6": "https://ipv6.test-ipv6.polkam.go.id/images-nc/knob_green.png"
     },
     "test-ipv6.ro": {
       "hide": false,
