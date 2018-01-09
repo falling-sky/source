@@ -596,8 +596,8 @@
       "monitor": "ipv6@yahoo-inc.com",
       "provider": "Yahoo!",
       "site": "www.yahoo.com",
-      "v4": "http://v4test.yahoo.com/eng/test/eye-test.png",
-      "v6": "http://v6test.yahoo.com/eng/test/eye-test.png"
+      "v4": "https://v4test.yahoo.com/eng/test/eye-test.png",
+      "v6": "https://v6test.yahoo.com/eng/test/eye-test.png"
     },
     "test-ipv6.cl": {
       "hide": false,
