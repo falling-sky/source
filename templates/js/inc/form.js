@@ -87,6 +87,12 @@ GIGO.debuggercomments = function (thisform) {
 
 GIGO.validate_form = function (thisform) {
 
+    if (!( $('#consent').prop('checked'))) {
+      alert("{{Please consent to sharing your data.}}");
+      thisform.consent.focus();
+      return false;
+    }
+
     if ((thisform.contact.value === null) || (thisform.contact.value === "")) {
         if (!GIGO.validate_form.asked) {
             GIGO.validate_form.asked = 1;

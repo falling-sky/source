@@ -17,7 +17,6 @@
       <p>{{<span id="comments_faq_link"></span> (FAQ) page is available for <b>your</b> exact set of results.  Please read it  before leaving comments; many questions have already been answered.  If you still have questions, comments, or concerns, feel freel to use this form.}}</p>
     </div>
 
-   [% PROCESS "main/mail-language.inc" %]
 
 
     <div>
@@ -30,6 +29,10 @@
 
     <div>
       <form id="commentform" action="/comment.php" method="post" enctype="multipart/form-data" name="commentform" onsubmit="return GIGO.validate_form(this)" >
+
+
+
+
 
         <input type="hidden" name="form_tab_main" value="" />
         <input type="hidden" name="form_config" value="" />
@@ -74,10 +77,13 @@
 
 
 
+
+
         <table summary="contact form" id="contact_form" style="display:none">
 
-
-
+          <tr>
+            <td>&nbsp;</td>
+          </tr>
 
           <tr>
             <td>&nbsp;</td>
@@ -143,6 +149,22 @@
             <textarea name="comments" rows="10" cols="80">
 </textarea></td>
           </tr>
+
+          <tr><td>
+            <table><tr><td valign=top>
+              <input type="checkbox" id="consent" name="consent" value="given">
+            </td><td td valign=top class="subtle">
+               {{
+                 I consent to sharing my IP address(es),
+               test results, web browser name and version, operating system name and version,
+               and any other information entered above (including email address), as
+               email transmitted to
+               <a mailto=site.mailto href="-"><span lookup=site.contact></span> &lt;<span lookup=site.mailto></span>&gt;</a>;
+               and that this information may be translated by Google Translate.
+             }}
+             </td></tr></table>
+          </td></tr>
+
 
           <tr>
             <td><input type="submit" value="{{Send results}}" /></td>

@@ -108,6 +108,12 @@ function store_data_html() {
   $cookie = fetch_cookie();  # Validated for certain safety measures.
   $tokens = param_val("tokens","/^[a-zA-Z0-9 ,]+\$/");
 
+  if ($_POST["consent"] != "consent") {
+    header("HTTP/1.1 400 Bad Request");
+    print htmlentities("consent not given");
+    exit(1);
+  }
+
   if ($_POST["nobots"] != "serious") {
     header("HTTP/1.1 500 Internal server error");
     print htmlentities("nobots value wrong, received \"".  $_POST["nobots"] . "\"");
@@ -236,6 +242,7 @@ function store_data_text() {
   $message .= sprintf("%-15s: %s\n", "user-agent",  $_SERVER["HTTP_USER_AGENT"]);
   $message .= sprintf("%-15s: %s\n", "referer", $_SERVER["HTTP_REFERER"]);
   $message .= sprintf("%-15s: %s\n", "subdomain", $_POST["subdomain"]);
+  $message .= sprintf("%-15s: %s\n", "consent", $_POST["consent"]);
 
 
   $message .= "\n\nNotes\n--------------\n" . $_POST["notes"];
