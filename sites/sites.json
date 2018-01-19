@@ -728,27 +728,27 @@
       "site": "www.nop.hu",
       "v4": "http://ipv4.nop.hu/hosted.png",
       "v6": "http://ipv6.nop.hu/hosted.png"
-    }
-  },
-  "test-ipv6.orbyta.com": {
-    "hide": false,
-    "loc": "CL",
-    "mirror": true,
-    "monitor": "javier campos <javiersource@gmail.com>",
-    "provider": "Orbyta S.A.",
-    "v4": "http://ipv4.test-ipv6.orbyta.com/images-nc/knob_green.png",
-    "v6": "http://ipv6.test-ipv6.orbyta.com/images-nc/knob_green.png"
-  },
-   "test-ipv6.showmyip.ca": {		
-       "hide": false,		
-       "loc": "CA",		
-       "mirror": true,		
-       "monitor": "Christopher Munz-Michielin <christopher@showmyip.ca>",		
-       "provider": "Christopher Munz-Michielin",		
-       "site": "test-ipv6.showmyip.ca",		
-       "v4": "http://ipv4.test-ipv6.showmyip.ca/images-nc/knob_green.png",		
-       "v6": "http://ipv6.test-ipv6.showmyip.ca/images-nc/knob_green.png"		
-     },
+    },
+    "test-ipv6.orbyta.com": {
+      "hide": true,
+      "comment": "repeated validator failures starting 10/18/2017",
+      "loc": "CL",
+      "mirror": true,
+      "monitor": "javier campos <javiersource@gmail.com>",
+      "provider": "Orbyta S.A.",
+      "v4": "http://ipv4.test-ipv6.orbyta.com/images-nc/knob_green.png",
+      "v6": "http://ipv6.test-ipv6.orbyta.com/images-nc/knob_green.png"
+    },
+    "test-ipv6.showmyip.ca": {
+      "hide": false,
+      "loc": "CA",
+      "mirror": true,
+      "monitor": "Christopher Munz-Michielin <christopher@showmyip.ca>",
+      "provider": "Christopher Munz-Michielin",
+      "site": "test-ipv6.showmyip.ca",
+      "v4": "http://ipv4.test-ipv6.showmyip.ca/images-nc/knob_green.png",
+      "v6": "http://ipv6.test-ipv6.showmyip.ca/images-nc/knob_green.png"
+    },
     "ayepv6.com": {
       "hide": false,
       "loc": "UK",
@@ -758,7 +758,6 @@
       "v4": "https://v4.test-ipv6.do.ayepv6.com/images/knob_green.png",
       "v6": "https://v6.test-ipv6.do.ayepv6.com/images/knob_green.png"
     },
- 
     "2.ayepv6.com": {
       "hide": false,
       "loc": "UK",
@@ -768,5 +767,5 @@
       "v4": "https://v4.test-ipv6.vu.ayepv6.com/images/knob_green.png",
       "v6": "https://v6.test-ipv6.vu.ayepv6.com/images/knob_green.png"
     }
- 
+  }
 }
