@@ -748,6 +748,25 @@
        "site": "test-ipv6.showmyip.ca",		
        "v4": "http://ipv4.test-ipv6.showmyip.ca/images-nc/knob_green.png",		
        "v6": "http://ipv6.test-ipv6.showmyip.ca/images-nc/knob_green.png"		
-     }
+     },
+    "ayepv6.com": {
+      "hide": false,
+      "loc": "UK",
+      "monitor": "Stephen Strowes <sdstrowes@gmail.com>",
+      "provider": "Stephen Strowes (hosted at Digital Ocean)",
+      "site": "ayepv6.com",
+      "v4": "https://v4.test-ipv6.do.ayepv6.com/images/knob_green.png",
+      "v6": "https://v6.test-ipv6.do.ayepv6.com/images/knob_green.png"
+    },
+ 
+    "2.ayepv6.com": {
+      "hide": false,
+      "loc": "UK",
+      "monitor": "Stephen Strowes <sdstrowes@gmail.com>",
+      "provider": "Stephen Strowes (hosted at Vultr)",
+      "site": "ayepv6.com",
+      "v4": "https://v4.test-ipv6.vu.ayepv6.com/images/knob_green.png",
+      "v6": "https://v6.test-ipv6.vu.ayepv6.com/images/knob_green.png"
+    }
  
 }
