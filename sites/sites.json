@@ -746,8 +746,8 @@
       "monitor": "Christopher Munz-Michielin <christopher@ve7alb.ca>",
       "provider": "Christopher Munz-Michielin",
       "site": "test-ipv6.showmyip.ca",
-      "v4": "http://ipv4.test-ipv6.showmyip.ca/images-nc/knob_green.png",
-      "v6": "http://ipv6.test-ipv6.showmyip.ca/images-nc/knob_green.png"
+      "v4": "https://ipv4.test-ipv6.showmyip.ca/images-nc/knob_green.png",
+      "v6": "https://ipv6.test-ipv6.showmyip.ca/images-nc/knob_green.png"
     },
     "ayepv6.com": {
       "hide": false,
