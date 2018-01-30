@@ -108,7 +108,7 @@ function store_data_html() {
   $cookie = fetch_cookie();  # Validated for certain safety measures.
   $tokens = param_val("tokens","/^[a-zA-Z0-9 ,]+\$/");
 
-  if ($_POST["consent"] != "consent")   { 
+  if ($_POST["consent"] != "given")   { 
     header("HTTP/1.1 400 Bad Request");
     print htmlentities("consent not given");
     exit(1);
