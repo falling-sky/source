@@ -16,8 +16,8 @@
       "monitor": "support@aa.net.uk",
       "provider": "AAISP (UK IPv6 ISP)",
       "site": "aa.net.uk",
-      "v4": "http://ip4.aa.net.uk/images/aaisp_logo.png",
-      "v6": "http://ip6.aa.net.uk/images/aaisp_logo.png"
+      "v4": "https://ip4.aa.net.uk/images/aaisp_logo.png",
+      "v6": "https://ip6.aa.net.uk/images/aaisp_logo.png"
     },
     "campaya.co.uk": {
       "hide": false,
