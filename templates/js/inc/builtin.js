@@ -87,7 +87,8 @@ GIGO.show_debug = function () {
 // Some of our substitutions are expensive to compute.
 // Let's just do it once.
 GIGO.substitutions = {};
-GIGO.substitutions.HTTPS = '<a href="' + "https://" + document.location.hostname + document.location.pathname + '">HTTPS</a>';
+GIGO.substitutions.hostname = document.location.hostname + "";
+GIGO.substitutions.HTTPS = '<a href="' + "https://" + GIGO.substitutions.hostname.replace(/^www./,"") + document.location.pathname + '">HTTPS</a>';
 
 
 // Return a table with left side colored and with a symbol; right side, informative text.

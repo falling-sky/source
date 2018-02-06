@@ -385,7 +385,7 @@ GIGO.identify_symptoms = function () {
     }
 
     if (GIGO.protocol === "http://") {
-      if (tests.test_dsmtu.status=="ok") {
+      if (tests.test_https.status=="ok") {
         res.push("tls_available");
       }
     }
