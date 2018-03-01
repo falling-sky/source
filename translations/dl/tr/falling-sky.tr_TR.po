@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2017-07-09 14:00-0400\n"
+"PO-Revision-Date: 2018-03-01 02:30-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Turkish\n"
 "MIME-Version: 1.0\n"
@@ -16,7 +16,7 @@ msgstr ""
 
 #: "inc/mirrorconfig.js"
 msgid "This mirror is provided by"
-msgstr "Bu yansıma"
+msgstr "Bu ayna, ........ tarafından sağlanmaktadır"
 
 #: "inc/messages.js"
 msgid "bad"
@@ -24,7 +24,7 @@ msgstr "kötü"
 
 #: "inc/messages.js"
 msgid "ok"
-msgstr "iyi"
+msgstr "Tamam"
 
 #: "inc/messages.js"
 msgid "slow"
@@ -110,7 +110,7 @@ msgstr "IPv6 bağlantıları yavaş ama hâlâ çalışıyor. Büyük ihtimal ya
 msgid "Connections to IPv6-only sites are timing out. Any web site that is IPv6 only, will appear to be down to you."
 msgstr "Sadece IPv6 tabanlı sitelere erişiminiz zaman aşımına uğruyor. Yalnızca IPv6 tabanına sahip siteler size bozukmuş gibi gözükecek."
 
-#: "inc/messages.js"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Connections to IPv6-capable web sites hang. It appears that you may have IPv6 configured; and your computer believes that your IPv6 is working, with a route. It is however completely failing. Any web site that adds IPv6, will become unreachable to you. If you are unable to fix your IPv6 routing or connectivity, seek help. If all else fails, strongly consider disabling IP6 on host."
 msgstr "IPV6 kullanabilen sitelere erişiminiz kapanıyor. Görünüşe göre IPv6 ayarlarınız yapılmış ve bilgisayarınız IPv6'nızın yönlendiricinizle çalıştığını düşünüyor. Ancak bu bağlantı tamamen başarısız oluyor. IPv6 ekleyen sitelere ulaşamayacaksınız. IPv6 yönlendirmenizi veya bağlantınızı düzeltemezseniz, yardım isteyin. Tüm çabalarınız boşa çıkarsa IPv6'yı bu sunucuda engelleyin."
 
@@ -152,11 +152,11 @@ msgstr "Sadece IPv6 tabanlı bir ismi ararken başarısız olundu, ancak IPv6 ar
 
 #: "inc/messages.js"
 msgid "A lookup for an IPv6-only name failed; yet the lookup and connect for dual-stack connected via IPv6. The IPv6-only lookup should have worked. Apple has a bug that sporadically causes some IPv6 lookups to fail. We saw evidence of it on this test. You can reload the page and try the test again. For more details, see <a href='http://openradar.appspot.com/7333104'>http://openradar.appspot.com/7333104</a>."
-msgstr ""
+msgstr "Sadece IPv6 tabanlı bir ismi ararken başarısız olundu, ancak IPv6 aracılığıyla arama ve çift yığınlı bağlantı başarılı. Sadece-IPV6 araması çalıştı. Apple bazı IPv6 bağlantılarının düzensiz aralıklarla başarısız olmasına neden olan bir hataya sahip. Bu testte belirtilen sorunun örneklerine rastladık. Sayfayı tekrar yükleyip testi çalıştırmayı tekrar deneyebilirsiniz. Daha fazla ayrıntı için bkz. <a href=\"http://openradar.appspot.com/7333104\">http://openradar.appspot.com/7333104</a>."
 
 #: "inc/messages.js"
 msgid "A lookup for an dual-stack IPv4 and IPv6 name failed (at minimum it should have connected via IPv4). Apple has a bug that sporadically causes some IPv6 lookups to fail. We saw evidence of it on this test. You can reload the page and try the test again. For more details, see <a href='http://openradar.appspot.com/7333104'>http://openradar.appspot.com/7333104</a>."
-msgstr ""
+msgstr "Çift yığınlı IPv4 ve IPv6 adı için bir arama başarısız oldu (en azından IPv4 aracılığıyla bağlanmış olmalıdır). Apple'ın bazı IPv6 aramalarının başarısız olmasına neden olan bir hata var. Bu testte kanıt var. Sayfayı yeniden yükleyebilir ve testi tekrar deneyebilirsiniz. Daha fazla ayrıntı için <a href='http://openradar.appspot.com/7333104'> http://openradar.appspot.com/7333104 </a> adresine bakın."
 
 #: "inc/messages.js"
 msgid "No IPv4 address detected"
@@ -354,7 +354,7 @@ msgstr "IPv6'nızın kararlılığı ve hazırlığı için, yayıncılar sadece
 msgid "Click to see"
 msgstr "Görmek için tıklayın"
 
-#: "inc/builtin.js"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "test data"
 msgstr "test verisi"
 
@@ -392,13 +392,13 @@ msgstr "sonuçlarınızı paylaşın"
 
 #: "inc/form.js"
 msgid "I am most interested in discussing your setup with you, because it was been determined that <B>your IPv6 connectivity is broken</b>, or at least not fully understood. This is not normal; would you be willing to %share?"
-msgstr ""
+msgstr "Kurulumda en çok sizinle tartışmayı seviyorum, çünkü <B> IPv6 bağlantınız kırıldı </ b> veya en azından tamamen anlaşılmadığı tespit edildi. Bu normal değil; Eğer istekli olacağını % s?"
 
-#: "inc/form.js"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "retest"
 msgstr "tekrar test edin"
 
-#: "inc/form.js"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Result code"
 msgstr "Sonuç kodu"
 
@@ -420,7 +420,7 @@ msgstr "Tarayıcınız engelledi"
 
 #: "inc/helpdesk.js"
 msgid "Your Internet help desk may ask you for the information below."
-msgstr ""
+msgstr "İnternet yardım masanız sizden aşağıdaki bilgileri isteyebilir."
 
 #: "inc/header.inc"
 msgid "Test your IPv6."
@@ -460,11 +460,11 @@ msgstr "JavaScript Gerekli"
 
 #: "inc/js_required.inc"
 msgid "This site requires JavaScript, as well as the ability to pull in cross-site scripts, in order to perform the testing."
-msgstr ""
+msgstr "Bu site, test gerçekleştirmek için JavaScript'i ve siteler arası komut dosyalarını çekme yeteneğini gerektirir."
 
 #: "inc/js_required.inc"
 msgid "If this message does not go away, it means that JavaScript has been disabled, either by a plugin or extension in your browser, or by explicit browser setting."
-msgstr ""
+msgstr "Bu mesaj gitmezse, JavaScript'in tarayıcınızdaki bir eklenti, uzantı veya açık tarayıcı ayarı tarafından devre dışı bırakıldığı anlamına gelmektedir."
 
 #: "inc/js_required.inc"
 msgid "Do you use NoScript?"
@@ -472,15 +472,15 @@ msgstr "NoScript mi kullanıyorsunuz?"
 
 #: "inc/js_required.inc"
 msgid "If you use this Firefox add-on, you'll need to \"Temporarily allow all this page\". You will need to do this <b>twice</b> for everything to work. Alternately, disable NoScript entirely until you are done with this site."
-msgstr ""
+msgstr "Bu Firefox eklentisini kullanırsanız, \"Geçici olarak tüm bu sayfaya izin vermelisiniz\". Bunun her şeyi yapabilmesi için <b> iki kez </ b> yapmanız gerekecektir. Alternatif olarak, bu siteyi tamamlayana kadar NoScript'i tamamen devre dışı bırakın."
 
 #: "inc/js_required.inc"
 msgid "You can opt instead to view the <a href=\"simple_test.html\">simple test</a>, which will give you a quick pass/fail for IPv4, IPv4+IPv6, and IPv6. It will however offer little diagnostic information."
-msgstr ""
+msgstr "IPv4, IPv4 + IPv6 ve IPv6 için hızlı bir geçiş / başarısızlık verecek olan <a href=\"simple_test.html\"> basit testi </a> görüntülemeyi tercih edebilirsiniz. Bununla birlikte, çok az tanı bilgisi sunacaktır."
 
 #: "main/tabnav.inc"
 msgid "For the Help Desk"
-msgstr ""
+msgstr "Yardımcı olmak için"
 
 #: "main/tabnav.inc"
 msgid "Summary"
@@ -516,7 +516,7 @@ msgstr "Bu test nasıl çalışır:"
 
 #: "main/tests.inc"
 msgid "Your browser will be instructed to reach a series of URLs. The combination of successes and failures tells a story about how ready you are for when publishers start offering their web sites on IPv6."
-msgstr ""
+msgstr "Tarayıcınızdan bir dizi URL'ye erişmesi için talimat verilecektir. Başarıların ve başarısızlıkların birleşimi, yayıncılar kendi web sitelerini IPv6 ile sunmaya ne zaman hazır olduğunuza dair bir hikayeyi anlatır."
 
 #: "main/tests.inc"
 msgid "Technical Info"
@@ -540,7 +540,7 @@ msgstr "Çift Yığın DNS kaydıyla test edin"
 
 #: "main/tests.inc"
 msgid "Test for Dual Stack DNS and large packet"
-msgstr ""
+msgstr "Çift Yığın büyük paket ve DNS için test"
 
 #: "main/tests.inc"
 msgid "Test IPv4 without DNS"
@@ -552,7 +552,7 @@ msgstr "IPv6'yı DNS olmadan test edin"
 
 #: "main/tests.inc"
 msgid "Test IPv6 large packet"
-msgstr ""
+msgstr "IPv6 büyük paketini test edin"
 
 #: "main/tests.inc"
 msgid "Test if your ISP's DNS server uses IPv6"
@@ -572,39 +572,39 @@ msgstr "Bozuk DNS testi"
 
 #: "main/tech.inc"
 msgid "Fetches an object that has just an A record in DNS. This is expected to use IPv4. IPv6-only users might still reach this, if their provider has employed a NAT64/DNS64 or proxy solution."
-msgstr ""
+msgstr "DNS'de sadece bir A kaydına sahip bir nesneyi geri getirir. Bu, IPv4'ü kullanması bekleniyor. Sağlayıcı NAT64 / DNS64 veya proxy çözümü kullandıysa, yalnızca IPv6 kullanıcıları buna erişebilir."
 
 #: "main/tech.inc"
 msgid "Fetches an object that has just an AAAA record in DNS. This is expected to use IPv6. Users not yet on the IPv6 Internet are likely to see this fail. As long as it fails quickly, it will be OK - for now."
-msgstr ""
+msgstr "Yalnızca bir AAAA kaydı olan bir nesneyi DNS'ye getirir. Bunun IPv6 kullanması bekleniyor. Henüz IPv6 İnternet'inde olmayan kullanıcılar bunun başarısız olduğunu görürler. Hızla başarısız olduğu sürece, şimdilik daha iyi olacak."
 
 #: "main/tech.inc"
 msgid "This is the most important test. This verifies your browser can connect to a site that has both IPv4 and IPv6 records published. IPv4 only hosts should connect fine (using IPv4)."
-msgstr ""
+msgstr "Bu en önemli testtir. Bu, tarayıcınızın hem IPv4 hem de IPv6 kayıtlarının yayınlandığı bir siteye bağlanabileceğini doğrular. IPv4 sadece ana bilgisayarlar iyi bağlanmalıdır (IPv4 kullanır)."
 
 #: "main/tech.inc"
 msgid "If this test fails or times out, you can expect major problems as publishers start offering their sites on IPv6."
-msgstr ""
+msgstr "Bu test başarısız olursa veya zaman aşımına uğradığında, yayıncılar IPv6'yla ilgili sitelerini sunmaya başladıkça önemli sorunlar bekleyebilirsiniz."
 
 #: "main/tech.inc"
 msgid "Validates that you can connect to a dual-stack server (like the ds test); and that you can send/receive large packets on that connection. If this test times out for any reason, it indicates trouble for World IPv6 Day."
-msgstr ""
+msgstr "Çift yığınlı bir sunucuya bağlanabildiğinizi doğrular (ds testi gibi); ve bu bağlantıda büyük paketler gönderebilir / alabilir. Bu test herhangi bir nedenle zaman aşımına uğradığında, Dünya IPv6 Günü için sorun olduğunu gösterir."
 
 #: "main/tech.inc"
 msgid "This will try connecting with a literal IPv4 numeric address. This should work for most people, unless they are running IPv6-only. If the first test worked, but this fails, it likely confirms your provider is using NAT64/DNS64; you'll need to only try connecting using hostnames instead of numeric IP addresses."
-msgstr ""
+msgstr "Bu, değişmez bir IPv4 sayısal adresi ile bağlanmaya çalışacaktır. Bu, yalnızca IPv6 kullanmıyorsa, çoğu kişi için geçerli olmalıdır. İlk test işe yaradıysa, ancak bu başarısız olursa, sağlayıcı NAT64 / DNS64 kullandığını doğrulayacaktır; yalnızca sayısal IP adresleri yerine ana makine adlarını kullanarak bağlanmayı denemeniz gerekir."
 
 #: "main/tech.inc"
 msgid "This will try connecting with a literal IPv6 hexadecimal address. The primary purpose of this test is to separate out your connectivity on IPv6 from your ability to fetch DNS for it. A secondary purpose is to see if you have Teredo enabled; some systems may only use Teredo when an IPv6 address is in the URL."
-msgstr ""
+msgstr "Bu, değişmez bir IPv6 onaltılık adresi ile bağlanmayı deneyecektir. Bu sınamanın ilk amacı, IPv6'daki bağlantınızı, DNS'inizi kendiniz getirme yeteneğinizden ayırmaktır. İkinci bir amaç, Teredo'yu etkinleştirip etkinleştirmediğinizi görmektir; bazı sistemler bir IPv6 adresi URL'de olduğunda Teredo'yu kullanabilir."
 
 #: "main/tech.inc"
 msgid "Validates that IPv6 requests with large packets work. If this test times out, but other IPv6 tests work, it suggests that there may be PMTUD issues; possibly involving IP tunnels."
-msgstr ""
+msgstr "Büyük paketlerle IPv6 isteklerinin çalışıp çalışmadığını doğrular. Bu test zaman aşımına uğradı, ancak diğer IPv6 testleri çalışırsa, PMTUD sorunları olabileceğini önermektedir; muhtemelen IP tünelleriyle ilgili."
 
 #: "main/tech.inc"
 msgid "Double check to make sure that ICMPv6 Type 2 (\"Packet Too Big\") messages are not filtered by your firewall."
-msgstr ""
+msgstr "CMPv6 Tip 2 (\"Paket Çok Büyük\") iletilerinin güvenlik duvarınız tarafından filtrelenmediğinden emin olmak için bir kez daha kontrol edin."
 
 #: "main/tech.inc"
 msgid "(This is bonus credit)"
@@ -612,39 +612,39 @@ msgstr "(Bu bonus kredidir)"
 
 #: "main/tech.inc"
 msgid "This is a test of your ISP's resolver (instead of a test of your host). If this test passes, your DNS server (often run by your ISP) is capable of reaching IPV6-only DNS authoritative servers on the Internet. This is not critical (at this time) for you to reach sites via IPv6."
-msgstr ""
+msgstr "Bu, İSS'nizin çözümleyicisinin (ev sahibi bilgisayarınızın testi yerine) bir testidir. Bu test geçerse, DNS sunucunuz (genellikle İSS'nize aittir) Internet'te IPV6'ya özgü DNS yetkili sunucularına erişebilir. Bu, IPv6 yoluyla sitelere ulaşmanız için kritik değildir (şu an için)."
 
 #: "main/tech.inc"
 msgid "Attempts to identify what Internet Service Provider you use for IPv4. This may be different from the marketing name you see in your local market; or may reflect a previous company name. The name shown reflects how it is known in the network operator community."
-msgstr ""
+msgstr "IPv4 için hangi İnternet Servis Sağlayıcı kullandığınızı belirlemeye çalışır. Bu, yerel pazarda gördüğünüz pazarlama adından farklı olabilir; veya bir önceki şirketin adını yansıtabilir. Gösterilen ad, şebeke operatörü topluluğunda nasıl bilinmekte olduğunu yansıtır."
 
 #: "main/tech.inc"
 msgid "Attempts to identify what Internet Service Provider you use for IPv6. When the IPv4 name and the IPv6 name don't match, it may suggest that you're using a tunnel; or some form of third party provider for IPv6."
-msgstr ""
+msgstr "IPv6 için hangi İnternet Hizmet Sağlayıcısı'nı kullandığınızı belirleme girişiminde bulunur. IPv4 adı ve IPv6 adı eşleşmediğinde, bir tünel kullandığınızı önerebilir; veya IPv6 için üçüncü taraf sağlayıcılarından biridir."
 
 #: "main/tech.inc"
 msgid "Queries for a malformed AAAA record. Some routers mishandle these as \"A\" records, and only keep the first 32 bits. We want this test to fail to connect."
-msgstr ""
+msgstr "Hatalı biçimlendirilmiş bir AAAA kaydı sorgular. Bazı yönlendiriciler bunları \"A\" kaydı olarak kullanmaz ve yalnızca ilk 32 biti tutar. Bu testin başarısız olmasını istiyoruz."
 
 #: "main/tech.inc"
 msgid "If the summary results indicated problems, you (or your technical support) may be able to use the information above to diagnose the issues. Each of the test urls and their results is shown on the left side. To the right you'll see a description of what that URL was designed to test."
-msgstr ""
+msgstr "Özet sonuçlar sorunları gösteriyorsa, siz (veya teknik desteğiniz), sorunları teşhis etmek için yukarıdaki bilgileri kullanabilir. Her bir test URL'si ve sonuçları sol tarafta gösterilir. Sağ tarafta, bu URL'nin test etmek için tasarlanmış halinin açıklaması görüleceksiniz."
 
-#: "main/tech.inc"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "After each test is ran. The summary page attempts to look at the results If the summary doesn't seem to make sense given the symptoms recorded above, or if you need further assistance, please feel free to contact us."
-msgstr ""
+msgstr "Her testten sonra koştu. Özet sayfası sonuçlara bakmaya çalışır Yukarıdaki kaydedilmiş özetlerde özet anlamazsa veya daha fazla yardıma ihtiyacınız varsa lütfen bizimle iletişime geçmekten çekinmeyin."
 
 #: "main/mail.inc"
 msgid "<b>Your particular configuration is of interest.</b> We are always striving to make the test-ipv6.com code better. Would you be willing to contribute more information about your browser and computer setup? With your help, we can document for others how to repair their systems."
-msgstr ""
+msgstr "<b> Özel yapılandırmanız ilgi çekici. </ b> Test-ipv6.com kodunu daha iyi hale getirmeye çabalıyoruz. Tarayıcınız ve bilgisayar kurulumunuz hakkında daha fazla bilgi vermek ister misiniz? Yardımlarınızla, başkaları için sistemlerini onarmayı belgeleyebiliriz."
 
 #: "main/mail.inc"
 msgid "This form will let you leave a comment, voice concerns, or ask questions. Your test results will be included automatically."
-msgstr ""
+msgstr "Bu form, bir yorum bırakmanıza, sesli endişeleriniz olduğunda veya soru sormanıza izin verir. Test sonuçlarınız otomatik olarak dahil edilecektir."
 
 #: "main/mail.inc"
 msgid "This includes your IP address, which is shared with the site administrator in order to answer your questions."
-msgstr ""
+msgstr "Sorularınıza cevap bulmak için site yöneticinizle paylaşılan IP adresiniz de buna dahildir."
 
 #: "main/mail.inc"
 msgid "Use of this form implies consent."
@@ -652,15 +652,15 @@ msgstr "Bu formun kullanılması izin verildiği anlamına gelir."
 
 #: "main/mail.inc"
 msgid "<span id=\"comments_faq_link\"></span> (FAQ) page is available for <b>your</b> exact set of results. Please read it before leaving comments; many questions have already been answered. If you still have questions, comments, or concerns, feel freel to use this form."
-msgstr ""
+msgstr "<span id = \"comments_faq_link\"> </ span> (SSS) sayfası, <b> sizin </ b> kesin sonuç kümeniz için kullanılabilir. Yorum bırakmadan önce lütfen okuyun; birçok soru zaten cevaplanmış durumda. Hala sorularınız, yorumlarınız veya endişeleriniz varsa, bu formu kullanmaktan çekinmeyin."
 
-#: "main/mail-language.inc"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Please leave your comments using English, if possible."
-msgstr ""
+msgstr "Lütfen, mümkünse İngilizce kullanarak yorum yapın."
 
 #: "main/mail.inc"
 msgid "If reporting a problem with the test, or requesting help with your results, please fill out all requested information to the best of your ability. If leaving general comments, use your best judgement on how much to report."
-msgstr ""
+msgstr "Testte bir sorun bildiriyorsa veya sonuçlarınızda yardım istemekte lütfen yeteneğinizin en iyisine göre istenen bilgileri doldurun. Genel yorumları terk ediyorsanız, ne kadar rapor edeceğiniz konusunda en iyi karanızı kullanın."
 
 #: "main/mail.inc"
 msgid "Thanks,"
@@ -688,23 +688,23 @@ msgstr "Övgü veya Yuhlama"
 
 #: "main/mail.inc"
 msgid "Email address if you'll permit me to contact you. <i>Required, if you wish a response.</i>"
-msgstr ""
+msgstr "Sizinle iletişime geçmeme izin vereceğiniz bir e-posta adresi. <i> Bir yanıt istiyorsanız, gereklidir. </ i>"
 
 #: "main/mail.inc"
 msgid "Any information you think I might find useful (what router you're using, or a firewall in the way, or type of proxy you use, etc). This includes general feedback."
-msgstr ""
+msgstr "Yararlı bulacağımı düşündüğünüz herhangi bir bilgiyi (kullandığınız yönlendirici veya güvenlik duvarı ya da kullandığınız proxy türü vb.). Buna genel geribildirim de dahildir."
 
 #: "main/mail.inc"
 msgid "The javascript based test appears to have failed. This may be browser plugin or extension related. Please indicate what browser plugins and extenions you have enabled in this browser."
-msgstr ""
+msgstr "Javascript tabanlı test başarısız görünüyor. Bu, tarayıcı eklentisi veya uzantıyla ilgili olabilir. Lütfen bu tarayıcıda hangi tarayıcı eklentilerini ve ek açıklamalarını etkinleştirdiğinizi belirtin."
 
 #: "main/mail.inc"
 msgid "If you are technically minded please cut/paste the output of the following commands:"
-msgstr ""
+msgstr "Teknik olarak fikir sahibiyseniz, lütfen aşağıdaki komutların çıktısını kes / yapıştırın:"
 
 #: "main/mail.inc"
 msgid "Copy the output from those commands, into the box below. This will help me confirm/deny any theories relating to your question."
-msgstr ""
+msgstr "Bu komutların çıktısını aşağıdaki kutuya kopyalayın. Bu, sorunuzla ilgili herhangi bir teoriyi onaylamama / reddetmemde size yardımcı olacaktır."
 
 #: "main/mail.inc"
 msgid "If you are technically minded, please open a \"Command Prompt\" or \"cmd\" window, and run these three commands:"
@@ -716,39 +716,39 @@ msgstr "Sonuçları gönder"
 
 #: "main/helpdesk.inc"
 msgid "Help desk information will follow once the test completes."
-msgstr ""
+msgstr "Test tamamlandıktan sonra yardım masası bilgileri izlenecektir."
 
 #: "main/helpdesk.inc"
 msgid "If your Internet help desk asks you to mail the 'results url', copy and paste the following URL."
-msgstr ""
+msgstr "İnternet yardım masanızdan size 'sonuçlar url'si gönderilmesini istersiniz, aşağıdaki URL'yi kopyalayıp yapıştırın."
 
 #: "main/helpdesk.inc"
 msgid "Note that this will share your current numeric Internet Protocol address(es)."
-msgstr ""
+msgstr "Bunun mevcut sayısal İnternet Protokol adresinizi paylaşacağına dikkat edin."
 
 #: "main/helpdesk.inc"
 msgid "We do not recommend posting this link on public web sites such as forums."
-msgstr ""
+msgstr "Bu bağlantıyı forumlar gibi genel web sitelerine yayınlamanızı öneririz."
 
 #: "main/helpdesk.inc"
 msgid "On most computers, you can right-click the above URL, and select 'Copy'."
-msgstr ""
+msgstr "Çoğu bilgisayarda yukarıdaki URL'yi sağ tıklayıp 'Kopyala'yı seçebilirsiniz."
 
 #: "inc/sites.inc"
 msgid "<b>Because you have IPv6</b>, we've added this tab to show you whether or not you can reach other IPv6 web sites on the Internet. Consider notifying your ISP, if there are sites that show up as broken. If you are the ISP, you can click the Info link to see what test URLs are being used."
-msgstr ""
+msgstr "<b> IPv6 kullandığınızdan </ b>, Internet'te diğer IPv6 web sitelerine erişip erişemeyeceğinizi göstermek için bu sekmeyi ekledik. Kırılmış olarak görünen siteler varsa İSS'nize bildirmeyi düşünün. ISS iseniz, hangi test URL'lerinin kullanıldığını görmek için Bilgi bağlantısını tıklayabilirsiniz."
 
 #: "inc/sites.inc"
 msgid "<b>Hint</b>: Columns are sortable (click the first row); <a href=\"#\" onclick=\"GIGO.test_sites(2); return false;\">click here</a> to re-check reachability from where you are to those mirrors."
-msgstr ""
+msgstr "<b> İpucu </ b>: Sütunlar sıralanabilir (ilk satırı tıklayın); Bu sütunların nerede olduğunuzu tekrar kontrol etmek için <a href=\"#\" onclick=\"GIGO.test_sites(2);yönet false;\"> burayı tıklayın </a>."
 
 #: "inc/sites.inc"
 msgid "It is real easy to get added to this list for basic checks. Just provide two image URLs (one IPv4-only; one IPv6-only), to Jason Fesler &lt;jfesler@gigo.com&gt;. Also send your general web site address and organization name."
-msgstr ""
+msgstr "Temel kontroller için bu listeye eklenmek gerçekten kolaydır. Sadece iki resim URL'si sağlayın (bir IPv4-yalnızca, yalnızca bir IPv6), Jason Fesler & lt; jfesler@gigo.com & gt;. Ayrıca genel web sitesi adresinizi ve kuruluş adınızı gönderin."
 
 #: "inc/sites.inc"
 msgid "Full mirrors are welcomed and appreciated, whether public or private. Please see <a href=\"https://github.com/falling-sky/source/wiki\">the wiki</a> for details."
-msgstr ""
+msgstr "Kamusal ya da özel olmasına rağmen, tam aynalar memnuniyetle karşılanır ve takdir edilir. Bakınız <a href=\"https://github.com/falling-sky/source/wiki\"> wiki </a> detayları için."
 
 #: "inc/footer.inc"
 msgid "All rights reserved."
@@ -768,7 +768,7 @@ msgstr "E-posta"
 
 #: "inc/footer.inc"
 msgid "Attributions"
-msgstr ""
+msgstr "Bilgilendirici"
 
 #: "inc/disclaimer.inc"
 msgid "This is a mirror of test-ipv6.com. The views expressed here may or may not reflect the views of the mirror owner."
@@ -780,15 +780,15 @@ msgstr "Mevcut Diller"
 
 #: "locale.html"
 msgid "Pick one of the following to switch to that language."
-msgstr ""
+msgstr "O dile geçmek için aşağıdakilerden birini seçin."
 
 #: "locale.html"
 msgid "Translators and proof readers welcome."
-msgstr ""
+msgstr "Çevirici ve kanıt okuyucuları hoş geldiniz."
 
 #: "locale.html"
 msgid "See <a href='https://github.com/falling-sky/source/wiki/LocalizationPlan'>Info</a>; and our <a href='https://crowdin.net/project/falling-sky'>'CrowdIn'</a> project page."
-msgstr ""
+msgstr "Bkz. <a href='https://github.com/falling-sky/source/wiki/LocalizationPlan'> Bilgi </a>; ve <a href='https://crowdin.net/project/falling-sky'> 'CrowdIn' </a> proje sayfası."
 
 #: "faq_helpdesk.html"
 msgid "Help Desk Information"
@@ -800,15 +800,15 @@ msgstr "S: Yardım Masası bölümü ne işe yarar?"
 
 #: "faq_helpdesk.html"
 msgid "This tab is intended to help provide a brief, concise explanation of your connectivity. This can be read over the phone, if needed, to a service provider. This tab has less hand-holding; it is intended for a help desk to understand (as compared to an end user)."
-msgstr ""
+msgstr "Bu sekmenin, bağlantınızın kısa ve özlü açıklamalarına yardımcı olması amaçlanmıştır. Bu, gerekirse bir servis sağlayıcısına telefonla okunabilir. Bu sekmede elle tutuş daha azdır; bir yardım masasının anlaması (bir son kullanıcıya kıyasla) olması amaçlanmıştır."
 
 #: "faq_helpdesk.html"
 msgid "This special instance shares in a very compact way:"
-msgstr ""
+msgstr "Bu özel durum, çok net bir şekilde paylaşıyor:"
 
 #: "faq_helpdesk.html"
 msgid "Status of each protocol"
-msgstr ""
+msgstr "Her protokolün durumu"
 
 #: "faq_helpdesk.html"
 msgid "Warn of slow/timeout"
@@ -820,11 +820,11 @@ msgstr "Maksimum Veri İletimi (MTU) Uyarısı"
 
 #: "faq_helpdesk.html"
 msgid "Status of reachability to “other sites” (as compact as possible)"
-msgstr ""
+msgstr "\"Diğer sitelere\" erişilebilirlik durumu (olabildiğince net)"
 
 #: "faq_helpdesk.html"
 msgid "IP address shown, in case tech support needs it."
-msgstr ""
+msgstr "Teknoloji desteğinin ihtiyacı olması durumunda, gösterilen IP adresi."
 
 #: "faq_helpdesk.html"
 msgid "List of unreachable sites, if any"
@@ -832,31 +832,31 @@ msgstr "Varsa, ulaşılamayan sitelerin listesi"
 
 #: "faq_helpdesk.html"
 msgid "Q: What is the easiest way to send users to the Help Desk tab?"
-msgstr ""
+msgstr "S: Kullanıcıları Yardım Masası sekmesine göndermenin en kolay yolu nedir?"
 
 #: "faq_helpdesk.html"
 msgid "There are several ways to do it. Some of these are more obvious than the others when reading; some of them may be easier when read over the phone. In all of these cases, the \"Help Desk\" tab is moved to be the first and default tab shown to the user, instead of exposing the more detailed user-facing page."
-msgstr ""
+msgstr "Bunu yapmanın birkaç yolu vardır. Bunlardan bazıları okurken diğerlerinden daha belirgindir; bazıları telefonla okunduğunda daha kolay olabilir. Bu gibi durumlarda, \"Yardım Masası\" sekmesi kullanıcıya bakan daha ayrıntılı sayfayı göstermek yerine kullanıcıya gösterilen ilk ve varsayılan sekme olacak şekilde taşınır."
 
 #: "faq_helpdesk.html"
 msgid "Mirror sites may not have all the fancy DNS names; they are more likely to be useful like this:"
-msgstr ""
+msgstr "Yansıtma sitelerinin tümü fantezi DNS adlarına sahip olmayabilir; bunun gibi kullanışlı olma olasılığı daha yüksektir:"
 
 #: "faq_helpdesk.html"
 msgid "Q: What are the Help Desk codes?"
-msgstr ""
+msgstr "S: Yardım Masası kodları nedir?"
 
 #: "faq_helpdesk.html"
 msgid "These are meant to offer a quick, short way for your customer to tell you the status of their Internet connectivity, as validated by this site. They are also meant to be easy to memorize."
-msgstr ""
+msgstr "Bunların amacı, bu site tarafından doğrulanmış olarak müşterinizin İnternet bağlantısının durumunu söylemesinin hızlı ve kısa bir yol sunması demektir. Ayrıca ezberlemenin kolay olması amaçlanmıştır."
 
 #: "faq_helpdesk.html"
 msgid "Q: How can I recommend changes to the Help Desk tab?"
-msgstr ""
+msgstr "S: Yardım Masası sekmesinde nasıl değişiklikler önerebilirim?"
 
 #: "faq_helpdesk.html"
 msgid "Suggestions are welcome; especially from those operating help desks. This tab is really for you - not for the consumer. Please keep in mind that we want to keep the tab brief, concise, and easy to read for the average user over the phone to your help desk team. Send suggestions to jfesler@test-ipv6.com ."
-msgstr ""
+msgstr "Önerileriniz hoş geldiniz; özellikle bu yardım masalarından. Bu sekme gerçekten sizin için - tüketiciye değil. Sekmeyi, ortalama kullanıcı için telefonla yardım masası ekibinize kısa, özlü ve okunması kolay tutmak istediğimizi lütfen unutmayın. Jfesler@test-ipv6.com adresine öneriler gönderin."
 
 #: "broken.html"
 msgid "What to do if you're broken..."
@@ -864,15 +864,15 @@ msgstr "Bozuk çıktıysanız n'apacaksınız..."
 
 #: "broken.html"
 msgid "If you are reading this page, it means that we've identified that your host will have problems on World IPv6 Day. Any web site that goes \"dual stack\" (meaning, both IPv4 and IPv6), will be unreachable to you."
-msgstr ""
+msgstr "Bu sayfayı okurken, ana bilgisayarınızın Dünya IPv6 Günü'nde sorunlarla karşılaşacağını belirtiriz. \"Çift yığın\" (yani hem IPv4 hem de IPv6) olan herhangi bir web sitesine ulaşılamazsınız."
 
 #: "broken.html"
 msgid "To resolve this, you'll first need to identify your IPv6 address (if you have one) and your IPv6 default route (if you have one). This will help identify which sections to read."
-msgstr ""
+msgstr "Bunu çözmek için öncelikle IPv6 adresinizi (varsa) ve IPv6 varsayılan yolunuzu (varsa) tanımlamanız gerekir. Bu, hangi bölümlerin okunacağını belirlemenize yardımcı olacaktır."
 
 #: "broken.html"
 msgid "If you find your particular problem is not well represented; or you have additional suggestions; please do leave feedback using the <a href='#' onclick='return GIGO.tabnav(\"mail\");'>form</a> (or contact <a href=\"mailto:jfesler@test-ipv6.com\">jfesler@test-ipv6.com</a>)."
-msgstr ""
+msgstr "Belirli bir sorunun iyi temsil edilmediğini bulursanız; ya da ek önerileriniz var; kullanarak geribildirim lütfen GIGO.tabnav(\"mail\");'> onclick='return <a href='#' formu </a> (veya temas jfesler@test-ipv6.com: <a href = \"mailto \"> jfesler@test-ipv6.com </a>)."
 
 #: "broken.html"
 msgid "Make sure you are current"
@@ -884,23 +884,23 @@ msgstr "IP adresinizi bulun"
 
 #: "broken.html"
 msgid "If you set up a tunnel broker"
-msgstr ""
+msgstr "Bir tünel komisyoncusu kurarsan"
 
 #: "broken.html"
 msgid "If you set up 6to4 (IPv6 address: starts with 2002)"
-msgstr ""
+msgstr "6to4'ü kurarsanız (IPv6 adresi: 2002 ile başlar)"
 
 #: "broken.html"
 msgid "If you have an ULA (IPv6 address: starts with FC or FD)"
-msgstr ""
+msgstr "Bir ULA'nız varsa (IPv6 adresi: FC veya FD ile başlar)"
 
 #: "broken.html"
 msgid "If you have an Bad or Inappropriate IPv6 Addresss (see table)"
-msgstr ""
+msgstr "Kötü veya Uygun Olmayan IPv6 Adresiniz varsa (bkz. Tablo)"
 
 #: "broken.html"
 msgid "If you have an unexpected IPv6 address"
-msgstr ""
+msgstr "Beklenmedik bir IPv6 adresiniz varsa"
 
 #: "broken.html"
 msgid "Try the netalyzr"
@@ -908,27 +908,27 @@ msgstr "\"netalyzr\"ı deneyin"
 
 #: "broken.html"
 msgid "If all else fails, disable or deprioritize IPv6"
-msgstr ""
+msgstr "Her şey başarısız olursa, IPv6'yı devre dışı bırakın veya yönlendirmeden öncelik kaldırın"
 
 #: "faq/staycurrent.inc"
 msgid "Many OS and Hardware manufacturers are making updates to help improve the transition to IPv6. Some known \"gotchas\" are being addressed by workarounds by these vendors."
-msgstr ""
+msgstr "Pek çok OS ve Donanım üreticisi, IPv6'ya geçiş sürecini iyileştirmeye yardımcı olmak için güncellemeler yapmaktadır. Bilinen bazı \"kazançlar\" bu satıcıların geçici çözümleri aracılığıyla ele alınmaktadır."
 
 #: "faq/staycurrent.inc"
 msgid "You can do your part to make sure you are running the latest:"
-msgstr ""
+msgstr "En son çalıştırdığınızdan emin olmak için görevinizi yerine getirebilirsiniz:"
 
 #: "faq/staycurrent.inc"
 msgid "OS - Make sure you have the latest."
-msgstr ""
+msgstr "OS - En son sürümünüze sahip olduğunuzdan emin olun."
 
 #: "faq/staycurrent.inc"
 msgid "Mac users: Apple OS X 10.6.7 is recommended for improved IPv6 support."
-msgstr ""
+msgstr "Mac kullanıcıları: Geliştirilmiş IPv6 desteği için Apple OS X 10.6.7 önerilir."
 
 #: "faq/staycurrent.inc"
 msgid "Mac users on 10.4 or 10.5 may need to disable IPv6 if other troubleshooting steps fail."
-msgstr ""
+msgstr "Diğer sorun giderme adımları başarısız olursa 10.4 veya 10.5'teki Mac kullanıcılarının IPv6'yı devre dışı bırakmaları gerekebilir."
 
 #: "faq/staycurrent.inc"
 msgid "Windows users: go to"
@@ -940,27 +940,27 @@ msgstr "iPhone/iPad kullanıcıları: şu anda tavsiye edilen belli bir sürüm 
 
 #: "faq/staycurrent.inc"
 msgid "Routers - Make sure you have the latest firmware installed. Some vendors have updated the defaults, or put in health checks before enabling IPv6."
-msgstr ""
+msgstr "Yönlendiriciler - En yeni bellenimin kurulu olduğundan emin olun. Bazı sağlayıcılar, IPv6'yı etkinleştirmeden önce varsayılanları güncelledi veya sağlık kontrolleri yaptı."
 
 #: "faq/staycurrent.inc"
 msgid "If you are using an Apple router or Time Capsule, load the Airport Utility to check that your router is up to date."
-msgstr ""
+msgstr "Bir Apple yönlendirici veya Time Capsule kullanıyorsanız, Yönelticinizin güncelliğini kontrol etmek için Airport Utility'yi yükleyin."
 
 #: "faq/staycurrent.inc"
 msgid "Browsers - Some browsers have made updates to detect \"broken\" users, and to temporarily disable IPv6."
-msgstr ""
+msgstr "Tarayıcılar - Bazı tarayıcılar, \"kırık\" kullanıcıları tespit etmek ve IPv6'yı geçici olarak devre dışı bırakmak için güncellemeler yapmıştır."
 
 #: "faq/staycurrent.inc"
 msgid "Firefox 4.x now only tries IPv6, when an IPv6 address is configured. Firefox 3 users are encouraged to upgrade."
-msgstr ""
+msgstr "Firefox 4.x, şimdi bir IPv6 adresi yapılandırıldığında IPv6'yı deniyor. Firefox 3 kullanıcılarının yükseltmeleri önerilir."
 
 #: "faq/staycurrent.inc"
 msgid "Chrome: If a wrench icon appears on the browser toolbar, click it. Select \"Update Google Chrome\" then Restart."
-msgstr ""
+msgstr "Chrome: Tarayıcı araç çubuğunda bir anahtar simgesi görünüyorsa, simgesini tıklayın. \"Google Chrome'u Güncelle\" yi seçin ve ardından Yeniden Başlat'ı seçin."
 
 #: "faq/staycurrent.inc"
 msgid "Opera: Make sure you use at least 11.10."
-msgstr ""
+msgstr "Opera: En az 11.10 kullandığınızdan emin olun."
 
 #: "broken.html"
 msgid "Finding your IP address"
@@ -968,27 +968,27 @@ msgstr "IP adresinizi bulma"
 
 #: "faq/find_ip.inc"
 msgid "Identify your IPv6 address, and your default router (if you have one)."
-msgstr ""
+msgstr "Adresinizi ve varsayılan yönlendiricinizi (varsa) belirleyin."
 
 #: "faq/find_ip.inc"
 msgid "Finding your IPv6 address and default router can be a challenge if you are not familiar with your OS's network configuration. Instructions for your OS are below."
-msgstr ""
+msgstr "İşletim sisteminizin ağ yapılandırmasına aşina değilseniz, IPv6 adresinizi ve varsayılan yönlendiricinizi bulmak bir sorun olabilir. İşletim sisteminiz için talimatlar aşağıda verilmiştir."
 
 #: "faq/find_ip.inc"
 msgid "When looking for your IPv6 address, skip any <code>fe80:</code> address. Everyone has them if their OS supports IPv6; this is regadless of whether or not your ISP supports IPv6 yet. Those are \"link local\" addresses; used just for communicating to other hosts in the same physical network as you."
-msgstr ""
+msgstr "IPv6 adresinizi ararken, herhangi bir <code> fe80: </ code> adresini atlayın. OS'leri IPv6'yı destekliyorsa, herkes bunlara sahiptir; Bu, İSS'nizin IPv6'yı henüz desteklemesine bakılmaksızın. Bunlar \"bağlantı yerel\" adresleridir; sadece sizinle aynı fiziksel ağdaki diğer ana makinelere iletişim kurmak için kullanılır."
 
 #: "faq/find_ip.inc"
 msgid "OS X users: To find your IP address using the GUI:"
-msgstr ""
+msgstr "OS X kullanıcıları: komut sekmesini kullanarak IP adresinizi bulmak için:"
 
 #: "faq/find_ip.inc"
 msgid "Go to the \"Apple\" menu (top left corner)"
-msgstr ""
+msgstr "\"Apple\" menüsüne gidin (sol üst köşe)"
 
 #: "faq/find_ip.inc"
 msgid "Go to System Preferences"
-msgstr ""
+msgstr "\"Apple\" menüsüne gidin (sol üst köşe)"
 
 #: "faq/find_ip.inc"
 msgid "Go to Network"
@@ -996,7 +996,7 @@ msgstr "Ağ'a tıklayın"
 
 #: "faq/find_ip.inc"
 msgid "Click on your primary network (green icon) if you have more than one work."
-msgstr ""
+msgstr "Birden fazla çalışmanız varsa, birincil ağınızı (yeşil simge) tıklayın."
 
 #: "faq/find_ip.inc"
 msgid "Go to \"Advanced\""
@@ -1004,11 +1004,11 @@ msgstr "\"Gelişmiş\"e tıklayın"
 
 #: "faq/find_ip.inc"
 msgid "Look at the TCP/IP tab, uder \"Configure IPv6\"."
-msgstr ""
+msgstr "TCP / IP sekmesine, \"Yapılandırma IPv6\" uderine bakın."
 
 #: "faq/find_ip.inc"
 msgid "Make a note of whether or not there is a router."
-msgstr ""
+msgstr "Bir yönlendirici olup olmadığını not edin."
 
 #: "faq/find_ip.inc"
 msgid "Make a note of the IPv6 address (if any)."
@@ -1020,9 +1020,9 @@ msgstr "OS X kullanıcıları: komut satırını kullanarak IP adresini bulmak i
 
 #: "faq/find_ip.inc"
 msgid "To open your terminal: Go to your Applications folder; go to Utilities; and double click Terminal."
-msgstr ""
+msgstr "Terminalinizi açmak için: Uygulamalar klasörüne gidin; Yardımcı Programlara gidin; ve Terminal'i çift tıklayın."
 
-#: "faq/find_ip.inc"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "To see your IP addresses: <code>ifconfig -f inet6</code>."
 msgstr "IP adreslerinizi görüntülemek için: <code>ifconfig -f inet6</code>."
 
@@ -1032,43 +1032,43 @@ msgstr "<code>fe80:</code> adreslerini görmezden gelin; <code>en0</code> veya <
 
 #: "faq/find_ip.inc"
 msgid "To see if you have a default route: <code>netstat -nr -f inet6</code>."
-msgstr ""
+msgstr "Varsayılan rotanız olup olmadığını görmek için: <code> netstat -nr -f inet6 </ code>."
 
 #: "faq/find_ip.inc"
 msgid "Look for a line that says \"default\"; probably pointing to a gateway starting with <code>fe80:</code>"
-msgstr ""
+msgstr "\"Varsayılan\" yazan bir satıra bakın; muhtemelen <code> fe80 ile başlayan bir ağ geçidini gösteriyor: </ code>"
 
 #: "faq/find_ip.inc"
 msgid "iPhone and iPad users: No information is shown via Apple's preferences/setup. The \"IT Tools\" and the \"ip6config\" apps do show IPv6 address data; both cost."
-msgstr ""
+msgstr "iPhone ve iPad kullanıcıları: Apple'ın tercihleri ​​/ kurulumu ile hiçbir bilgi gösterilmez. \"BT Araçları\" ve \"ip6config\" uygulamaları IPv6 adres verilerini gösterir; her iki maliyet."
 
 #: "faq/find_ip.inc"
 msgid "Linux users: To find your IPv6 address, open a terminal and.."
-msgstr ""
+msgstr "Linux kullanıcıları: IPv6 adresinizi bulmak için bir terminal açın ve.."
 
 #: "faq/find_ip.inc"
 msgid "Linux users: To find your IPv6 route, use:"
-msgstr ""
+msgstr "Linux kullanıcıları: IPv6 rotanızı bulmak için şunu kullanın:"
 
 #: "faq/find_ip.inc"
 msgid "Generic unix instructions for determining your IPv6 address and default route:"
-msgstr ""
+msgstr "IPv6 adresinizi ve varsayılan rotanızı belirlemek için genel unix talimatları:"
 
 #: "faq/find_ip.inc"
 msgid "Run"
-msgstr ""
+msgstr "Çalıştırmak"
 
 #: "faq/find_ip.inc"
 msgid "and look for <code>inet6</code> to see your possible IPv6 addresses."
-msgstr ""
+msgstr "ve olası IPv6 adreslerinizi görmek için <code> inet6 </ code> arayın."
 
 #: "faq/find_ip.inc"
 msgid "and look for <code>inet6</code> or <code>Internet6</code> or similar to find the IPv6 portion; then look for <code>default</code> or <code>::</code> or <code>::/0</code>."
-msgstr ""
+msgstr "iPv6 bölümünü bulmak için <code> inet6 </ code> veya <code> Internet6 </ code> veya benzerlerini arayın; <code> default </ code> veya <code>:: </ code> veya <code>:: / 0 </ code> arayın."
 
 #: "faq/find_ip.inc"
 msgid "Windows users: To find your IP address using cmd.exe:"
-msgstr ""
+msgstr "Windows kullanıcıları: IP adresinizi cmd.exe'den bulmak için:"
 
 #: "faq/find_ip.inc"
 msgid "Go to your \"start\" menu"
@@ -1076,19 +1076,19 @@ msgstr "\"Başlangıç\" menüsüne gidin"
 
 #: "faq/find_ip.inc"
 msgid "If you have a \"Run\" menu option, select it. Otherwise go to the \"Search programs and files\" box."
-msgstr ""
+msgstr "Menüde ''Çalıştır'' opsiyonu varsa, bunu seçin. Aksi taktirde ''Arama proğramları ve dosyaları'' kutusuna gidin."
 
 #: "faq/find_ip.inc"
 msgid "Type <code>cmd.exe</code>"
-msgstr ""
+msgstr "<code>cmd.exe</code>Yazın"
 
 #: "faq/find_ip.inc"
 msgid "In the cmd window, type <code>ipconfig</code> ."
-msgstr ""
+msgstr "Cmd penceresinde, <code>ipconfig</code>yazınız."
 
 #: "faq/find_ip.inc"
 msgid "Windows 7 GUI users:"
-msgstr ""
+msgstr "Windows 7 GUI kullanıcılar:"
 
 #: "faq/find_ip.inc"
 msgid "Go to the start menu"
@@ -1104,15 +1104,15 @@ msgstr "\"Ağ ve İnternet\"e tıklayın"
 
 #: "faq/find_ip.inc"
 msgid "Go to \"View network status and tasks\""
-msgstr ""
+msgstr "''Ağ durumunu ve görevleri görüntüle'' ye git"
 
 #: "faq/find_ip.inc"
 msgid "Go to \"Change adapter settings\"."
-msgstr ""
+msgstr "''Adaptör ayarlarını değiştir'' e gidin."
 
 #: "faq/find_ip.inc"
 msgid "Go to your main Internet connection, double click"
-msgstr ""
+msgstr "Ana internet bağlantınıza gidin, çift tıklayın"
 
 #: "faq/find_ip.inc"
 msgid "Go to \"Details\""
@@ -1120,55 +1120,55 @@ msgstr "\"Ayrıntılar\"a tıklayın"
 
 #: "faq/find_ip.inc"
 msgid "Look for \"IPv6 Address\" and \"IPv6 Default Gateway\""
-msgstr ""
+msgstr "''IPv6 Adresi'' ve ''IPv6 Varsayılan Ağ Gecidi'' ni arayın"
 
 #: "faq/find_ip.inc"
 msgid "Other Windows based OS's: Send jfesler@test-ipv6.com detailed instructions; and I'll add them to the site."
-msgstr ""
+msgstr "Diğer Windows tabanlı işletim sisitemleri: Ayrıntılı talimatları jfesler@test-iov6.com'a gönder; ardından onları siteye ekleyeceğim."
 
 #: "faq/broken_tunnelbroker.inc"
 msgid "<b>If you set up a tunnelbroker tunnel</b>: The most common causes for tunnelbroker users to fail are:"
-msgstr ""
+msgstr "<b>Bir tünel arabulucu tüneli kurduysanız </b>: Tünel aracısı kullanıclarının başarısız olmalarının en yaygın nedenleri şunlardır:"
 
 #: "faq/broken_tunnelbroker.inc"
 msgid "Your IPv4 address may have changed; you need to tell the tunnelbroker server this happened."
-msgstr ""
+msgstr "IPv4 adresiniz değişmiş olabilir, tünel borsası sunucusuna bildirmelisin."
 
 #: "faq/broken_tunnelbroker.inc"
 msgid "If you are using your router to do the 6in4 (sometimes called 6to4 with explicit provider):"
-msgstr ""
+msgstr "Yönlendiricinizi 6in4'ü yapmak için kullanıyorsanız (bazen açık sağlayıcı ile 6to4 olarak adlandırılır):"
 
 #: "faq/broken_tunnelbroker.inc"
 msgid "Make sure tunnelbroker knows your current IPv4 address. Our site tells you your public IPv4 address."
-msgstr ""
+msgstr "Tünel arabulucunun mevcut IPv4 adresinizi bildiğinden emin olun. Sitemiz size genel IPv4 adresini söyler."
 
 #: "faq/broken_tunnelbroker.inc"
 msgid "Make sure your router can ping the other side of the tunnel. Don't waste your time fixing computers until the router works!"
-msgstr ""
+msgstr "Yönelticinizin tünelin diğer tarafına ping yapabileceğinden emin olun. Yöneltici çalışana kadar bilgisayarınızı sabitleme zamanınızı boşa harcamayın!"
 
 #: "faq/broken_tunnelbroker.inc"
 msgid "If you are using your Linux, BSD, Mac, or Windows box to \"talk 6to4\" specifically:"
-msgstr ""
+msgstr "Linux, BSD, Mac veya Windows kutusunu ''6to4'la konuşmak'' için kullanıyorsanız:"
 
 #: "faq/broken_tunnelbroker.inc"
 msgid "Make sure your router is passing \"protocol 41\" to you."
-msgstr ""
+msgstr "Yönelticinizin ''protocol 41'' i geçtiğinden emin olun."
 
 #: "faq/broken_tunnelbroker.inc"
 msgid "Make sure any software firewall you are operating is passing \"protocol 41\" to you."
-msgstr ""
+msgstr "Çalıştırdığınız herhangi bir yazışım duvarının ''protokol 41'' i geçtiğinden emin olun."
 
 #: "faq/broken_tunnelbroker.inc"
 msgid "If everything worked before your reboot but fails now, check your firewall settings."
-msgstr ""
+msgstr "Her şey yeniden başlatmadan önce çalıştı, ancak şimdi çalışmazsa, güvenlik duvarı ayarlarınızı kontrol edin."
 
 #: "faq/broken_tunnelbroker.inc"
 msgid "Make sure the box \"doing 6to4\" can ping the other side of the tunnelbroker gateway before working on any other hosts."
-msgstr ""
+msgstr "''Yaptığınız 6to4'' kutusunun, diğer ana makinelerde çalışmadan önce tunnelbroker gateway'in diğer tarafına ping yapabileceğinden emin olun."
 
 #: "broken.html"
 msgid "If you set up 6to4"
-msgstr ""
+msgstr "6to4'ü kurarsan"
 
 #: "broken.html"
 msgid "(IPv6 address: starts with 2002)"
@@ -1176,131 +1176,131 @@ msgstr "(IPv6 adresi: 2002 ile başlar)"
 
 #: "faq/broken_6to4.inc"
 msgid "If you use 6to4</b> (without a tunnel broker; ie, using anonymous 6to4):"
-msgstr ""
+msgstr "6to4 </b> (tünel komisyoncusu olmadan yani anonim 6to4 kullanarak) kullanırsanız:"
 
 #: "faq/6to4_sucks.inc"
 msgid "The use of \"automatic\" 6to4, or the use of 6to4 without explicit configuration of the gateways, is not recommended. For more information see <a href='#' onclick='return help_page(\"faq_6to4.html\",\"6to4\")'>6to4</a>."
-msgstr ""
+msgstr "''Otomatik'' 6to4'ün kullanılması veya ağ geçitlerinin açık yapılandırılması olmaksızın 6to4 kullanılması önerilmez. Daha fazla bilgi için <a href='#'click='reurn help_page(\"faq_6to4.html\",\"6to4\")'> 6to4 </a> adresini ziyaret edin."
 
 #: "faq/broken_6to4.inc"
 msgid "If you want to continue trying to debug anonymous 6to4:"
-msgstr ""
+msgstr "Anonim 6to4'ü hata ayıklama girişiminde bulunmaya devam etmek isterseniz:"
 
 #: "faq/broken_6to4.inc"
 msgid "If you are using your router to do the 6to4:"
-msgstr ""
+msgstr "Yönlendiricinizi 6to4'ü yapmak için kullanıyorsanız:"
 
 #: "faq/broken_6to4.inc"
 msgid "Make sure your router has a public IPv4 address. Without this, 6to4 fails."
-msgstr ""
+msgstr "Yönlendiricinizin genel bir IPv4 adresine sahip olduğundan emin olun. Bu olmadan 6to4 başarısız olur."
 
 #: "faq/broken_6to4.inc"
 msgid "If your router permits you to log in, use \"ping\" or \"ping6\" and see if you can ping \"ipv6.test-ipv6.com\". Don't waste your time fixing computers until the router works!"
-msgstr ""
+msgstr "Yönelticiniz oturum açmanıza izin veriyorsa, \"ping\" veya \"ping6\" kullanın ve \"ipv6.test-ipv6.com\" adresine ping komutu gönderip gönderemeyeceğinize bakın. Yöneltici çalışana kadar bilgisayarınızı sabitleme zamanınızı boşa harcamayın!"
 
 #: "faq/broken_6to4.inc"
 msgid "Most home systems have private IPv4 addresses; this won't work with 6to4 (unless..)"
-msgstr ""
+msgstr "Çoğu ev sisteminin özel IPv4 adresleri vardır; 6to4 ile çalışmaz (olmazsa..)"
 
 #: "faq/broken_6to4.inc"
 msgid "Make sure your 6to4 interface knows your public IPv4 address."
-msgstr ""
+msgstr "6to4 arayüzünüzün genel IPv4 adresinizi bildiğinden emin olun."
 
 #: "faq/broken_6to4.inc"
 msgid "Make sure that your router permits protocol 41 from any IP address - not just 192.88.99.1. This will allow web sites to operate their half of 6to4, even if they can not spoof the 192.88.99.1 anycast address."
-msgstr ""
+msgstr "Yönelticinizin sadece192.88.99.1'den başka herhangi bir IP adresinden protokol 41'e izin verdiğinden emin olun. Bu, web sitelerinin, 192.88.99.1 anycast adresini taklit edemeyecekleri halde, 6to4'ün yarısını çalışmasına izin verecektir."
 
 #: "faq/broken_6to4.inc"
 msgid "Linux users using iptables connection tracking: take heed of the previous note!"
-msgstr ""
+msgstr "Iptables bağlantı izlemeyi kullanan Linux kullanıcıları: Önceki nota kulak asın!"
 
 #: "faq/broken_6to4.inc"
 msgid "Consider changing how you connect."
-msgstr ""
+msgstr "Bağlanma şeklinizi değiştirmeyi düşünün."
 
 #: "faq/broken_6to4.inc"
 msgid "Ask your ISP if they offer any IPv6 connectivity (including possibly 6in4 tunnels, or tunnelbroker type tunnels)."
-msgstr ""
+msgstr "Herhangi bir IPv6 bağlantısı (muhtemelen 6 inç tünel veya tünel brokeri tünelleri dahil) sunup sunmadıklarını İSS'nize sorun."
 
 #: "faq/broken_6to4.inc"
 msgid "See <a href=\"#\" onclick='return help_page(\"faq_6to4.html\",\"6to4\")'>6to4</a> for more information on why you would want to switch; and some options."
-msgstr ""
+msgstr "Bkz<a href=\"#\" onclick='return help_page(\"faq_6to4.html\",\"6to4\")'> 6ya4 </a> bu geçişi yapmak istemesi için ilgili daha fazla bilgi için; ve bazı seçenekler."
 
 #: "broken.html"
 msgid "If you have an ULA"
-msgstr ""
+msgstr "ULA'nız varsa"
 
 #: "broken.html"
 msgid "(IPv6 address: starts with FC or FD)"
-msgstr ""
+msgstr "(IPv6 adresi: FC veya FDyle başlar)"
 
 #: "faq/broken_ula.inc"
 msgid "If you have an IP address starting with <code>FC</code> or <code>FD</code>, you have what is effectively a private IPv6 address. It might be usable for talking to other devices within your home, or within your company. It also allows you to have a steady IPv6 address inside, even if your public IPv6 address changes regularly."
-msgstr ""
+msgstr "<Code> FC </ code> veya <code> FD </ code> ile başlayan bir IP adresiniz varsa, etkili bir şekilde özel bir IPv6 adresi olana sahipsiniz. Evinizdeki ya da şirketinizde ki diğer cihazlarla konuşmak için kullanılabilir. Ayrıca, genel IPv6 adresiniz düzenli olarak değişse bile, içinde sabit bir IPv6 adresinizin olmasını sağlar."
 
 #: "faq/broken_ula.inc"
 msgid "The main problem with ULA is that certain home routers are now offering ULA, *and* giving you a default route. This route is offered regardless of whether or not your router actually has IPv6 connectivity. From your browser's point of view, it doesn't know that your default route goes nowhere; there is no feedback mechanism. Since IPv6 is (roughly speaking) preferred over IPv4, your browser will try using this broken route. It may take minutes before giving up."
-msgstr ""
+msgstr "ULA'nın ana problemi, bazı ev yönlendiricilerinin şimdi ULA, * ve * varsayılan bir yol verdiği yönündedir. Bu rota, yönlendiricinizin gerçekte IPv6 bağlantısı olup olmamasından bağımsız olarak sunulmaktadır. Tarayıcınızın bakış açısından, varsayılan rotanızın hiçbir yere gitmediğini bilmiyor; Geri bildirim mekanizması yok. IPv6 (kabaca konuşma) IPv4'e göre tercih edildiğinden, tarayıcınız bu kırık rotayı kullanmaya çalışacaktır. İptal etmeden önce birkaç dakika sürebilir."
 
 #: "faq/broken_ula.inc"
 msgid "Our advice: Enable ULA only if your router has full time IPv6 connectivity. Disable it, otherwise. If you do disable it on your router, you will likely need to reboot your router first, then reboot your host, before the symptoms go away."
-msgstr ""
+msgstr "Tavsiyemiz: ULA'yı, yalnızca yönlendiricinin tam zamanlı IPv6 bağlantısı olması durumunda etkinleştirin. Aksi takdirde devre dışı bırakın. Yönlendiricinizde devre dışı bırakırsanız, belirtiler kaybolmadan önce yönlendiricinizi önce yeniden başlatmanız, ardından ana makinenizi yeniden başlatmanız gerekecektir."
 
 #: "broken.html"
 msgid "Bad or Inappropriate IPv6 Addresss"
-msgstr ""
+msgstr "Kötü veya Uygun olmayan IPv6 Adresleri"
 
 #: "broken.html"
 msgid "(IPv6 address: see table below)"
-msgstr ""
+msgstr "(IPv6 adresi: aşağıdaki tabloya bakınız)"
 
 #: "faq/broken_bogon.inc"
 msgid "Bad or Inappropriate IPv6 Addresses (Bogons)"
-msgstr ""
+msgstr "Kötü veya uygun olmayan IPv6 Adresleri (Bogon'lar)"
 
 #: "faq/broken_bogon.inc"
 msgid "If you IPv6 address starts with any of these, your router needs to be upgraded."
-msgstr ""
+msgstr "IPv6 adresiniz bunlardan herhangi biriyle başlarsa, yönlendiricinizin yükseltilmesi gerekir."
 
 #: "faq/broken_bogon.inc"
 msgid "disable ULA."
-msgstr ""
+msgstr "uLA'yı devre dışı bırak."
 
 #: "faq/broken_bogon.inc"
 msgid "Other routers: Try updating the firmware. If that fails, look for and disable \"ULA\" or \"Unique Local Addressing\"."
-msgstr ""
+msgstr "Diğer yönlendiriciler: Ürün yazılımını güncellemeyi deneyin. Bu başarısız olursa, \"ULA\" ya da \"Benzersiz Yerel Adresleme\" arayın ve devre dışı bırakınız."
 
 #: "faq/broken_bogon.inc"
 msgid "If that fails, disable IPv6 entirely on the router."
-msgstr ""
+msgstr "Bu başarısız olursa, IPv6'yı yönlendiricide tamamen devre dışı bırakınınız."
 
 #: "faq/broken_bogon.inc"
 msgid "or"
-msgstr ""
+msgstr "ve ya"
 
 #: "faq/broken_bogon.inc"
 msgid "This is a router using 6to4, but using a private IPv4 address. This will never work."
-msgstr ""
+msgstr "Bu, 6to4'u kullanan, ancak özel bir IPv4 adresi kullanan bir yönlendiricidir. Bu asla işe yaramaz."
 
 #: "faq/broken_bogon.inc"
 msgid "Apple routers: Update to the latest firmware; that has been corrected."
-msgstr ""
+msgstr "Apple yönlendiricileri: En yeni ürün yazılımını güncelleyin; düzeltilmiştir."
 
 #: "faq/broken_bogon.inc"
 msgid "Other routers: Try updating the firmware. If that fails, look for and disable \"6to4\" or any form of automatic IPv6 tunnel."
-msgstr ""
+msgstr "Diğer yönlendiriciler: Ürün yazılımını güncellemeyi deneyin. Bu başarısız olursa, \"6to4\" veya herhangi bir otomatik IPv6 tüneli formunu arayın ve devre dışı bırakınız."
 
 #: "faq/broken_bogon.inc"
 msgid "This router is using the official \"Documentation\" prefix - which is not routable on the IPv6 Internet."
-msgstr ""
+msgstr "Bu yönlendirici, IPv6 İnternet'te yönlendirilemeyen resmi \"Dokümantasyon\" ön ekini kullanıyor."
 
 #: "faq/broken_bogon.inc"
 msgid "Update to the latest firmware."
-msgstr ""
+msgstr "En yeni sürüme güncelleyin."
 
 #: "faq/broken_bogon.inc"
 msgid "Other routers: Try updating the firmware."
-msgstr ""
+msgstr "Diğer yönlendiriciler: Ürün yazılımını güncellemeyi deneyin."
 
 #: "faq/broken_bogon.inc"
 msgid "Disable IPv6."
@@ -1308,63 +1308,63 @@ msgstr "IPv6'yı devre dışı bırakın."
 
 #: "broken.html"
 msgid "(IPv6 address: not starting with fe80)"
-msgstr ""
+msgstr "(IPv6 adresi: fe80 ile başlamaz)"
 
 #: "faq/broken_unexpected.inc"
 msgid "Unexpected IPv6 address?"
-msgstr ""
+msgstr "Beklenmedik IPv6 adresi mi?"
 
 #: "faq/broken_unexpected.inc"
 msgid "Modern operating systems all have IPv6 enabled. This feature is dormant until someone explicitly configures IPv6, <em><b>or</b></em> a device on the local network offers it. Autoconfigured IPv6 hosts learn their IPv6 address and their gateway through the use of IPv6 router announcements (RAs). The network you are on may intentionally offer IPv6; you'll automatically use it when your computer sees it."
-msgstr ""
+msgstr "Modern işletim sistemlerinin tümünde IPv6 etkin. Bu özellik, açık bir şekilde IPv6'yı yapılandırana kadar, yerel ağdaki bir cihaza <em> <b> veya </ b> </ em> bir cihaz sunulana kadar uyku modunda değildir. Otomatik konfigüre edilmiş IPv6 ana bilgisayarları, IPv6 yönlendirici duyurularının (RA'lar) kullanılması yoluyla IPv6 adreslerini ve ağ geçidini öğrenirler. Bulunduğunuz şebeke bilerek IPv6'yı sunabilir; bilgisayarınız onu gördüğünde otomatik olarak kullanacaksınız."
 
 #: "faq/broken_unexpected.inc"
 msgid "<b>Where this goes wrong:</b> Some people plug their router into the network (wired or wireless) and inadvertantly offer IPv6 services to everyone. Classic examples of this are where people add an early version of an Apple router (with 6to4 automatically enabled); another example is someone who has Windows Internet Connection Sharing enabled. In both cases, there is a chance they offer their services - and become your IPv6 router of choice, without any notification to you."
-msgstr ""
+msgstr "<b> Bu yanlış giderse: </ b> Bazı kişiler yönlendiricilerini ağa (kablolu veya kablosuz) takarlar ve yanlışlıkla herkes için IPv6 hizmetleri sunar. Bunun klasik örnekleri, insanların Apple yönlendiricisinin erken bir sürümünü ekledikleri yerlerdir (6to4 otomatik olarak etkinleşir); Başka bir örnek, Windows Internet Bağlantı Paylaşımı etkinleştirilmiş bir kişidir. Her iki durumda da, size sundukları hizmetleri sunma şansı var - ve size bildirimde bulunmaksızın IPv6 yönlendiriciniz olacak."
 
 #: "faq/broken_unexpected.inc"
 msgid "If these IPv6 routers don't work, you will fail to connect to any web site that offers services on both IPv4 and IPv6. Even if they do work, if the router in question is unplugged (the owner packs up, leaves the hotel/conference) your host never gets the notice; and it can be hours before it gives up."
-msgstr ""
+msgstr "Bu IPv6 yönlendiricileri çalışmazsa hem IPv4 hem de IPv6 üzerinde hizmet sunan herhangi bir web sitesine bağlanmayı başarısız bulacaksınız. Söz konusu yönlendirici fişten çekilirse (sahibi evden çıkıyor, otel / konferanstan ayrılıyor) ev sahibi hiçbir zaman haberim olmadı; ve vazgeçmeden saatler önce olabilir."
 
 #: "faq/broken_unexpected.inc"
 msgid "This is similiar to someone accidentially (or intentionally) running a rogue DHCP server."
-msgstr ""
+msgstr "Bu, sahte bir DHCP sunucusu çalıştıran birisine yanlışlıkla (veya bilerek) benzer."
 
 #: "faq/broken_unexpected.inc"
 msgid "<b>If you are are not the network admin</b> - and have no access to fix the problem - consider disabling IPv6, at least for the location you are in. Another option might be to try turning off, and turning back on, your network interface (clearing the IP address), in case the source of the problem has left the network."
-msgstr ""
+msgstr "<b> Ağ yöneticisi siz değilseniz </ b> - ve sorunu çözmek için herhangi bir erişiminiz yok - en azından bulunduğunuz yer için IPv6'yı devre dışı bırakmayı düşünün. Başka bir seçenek, kapatmayı denemek ve geri dönmek olabilir Açık, sorunun kaynağının ağdan ayrılması durumunda ağ arayüzünüzü (IP adresini temizleyerek) açın."
 
 #: "faq/broken_unexpected.inc"
 msgid "<b>If you are the network administrator</b>: You can use the default route information to identify the ethernet address; and then search for the owner of that ethernet address. Some network vendors have features that will suppress the advertisements of unauthorized RAs (router announcements); consider enabling those feaatures. More reactive measures involve finding (by ethernet address) the owner of the device; or possibly spoofing RA's from their device to indicate the device is going away."
-msgstr ""
+msgstr "<b> Ağ yöneticisiyseniz </ b>: Eternet adresini tanımlamak için varsayılan rota bilgilerini kullanabilirsiniz; ve sonra bu ethernet adresinin sahibini arayın. Bazı ağ üreticileri, yetkisiz RA'ların reklamlarını engelleyecek özelliklere sahiptir (yönlendirici duyuruları); Bu özelliklerin etkinleştirilmesini düşünün. Daha tepkisel tedbirler cihazın sahibini bulma (ethernet adresi ile) içerir; ya da muhtemelen aygıtın gittiğini belirtmek için aygıtlarından RA'nın sızdırma yapması."
 
 #: "faq/broken_netalyzr.inc"
 msgid "Consider trying the \"netalyzr\". This is another site that runs a java applet (which can do more than my site can, in just javascript). I would find feedback about how you useful this site was for you."
-msgstr ""
+msgstr "\"Netalyzr\" ı denemeyi düşünün. Bu, bir java uygulaması çalıştıran başka bir sitedir (siteminkinden fazlasını yapabilir, yalnızca javascript içinden). Bu sitenin sizin için ne kadar yararlı olduğu hakkında geribildirim bulurum."
 
 #: "faq/broken_netalyzr.inc"
 msgid "From the netalyzr staff:"
-msgstr ""
+msgstr "Netalyzr personelinden:"
 
 #: "broken.html"
 msgid "If all else fails"
-msgstr ""
+msgstr "Eğer hepsi hataysa"
 
 #: "broken.html"
 msgid "(Instructions for disabling or deprioritizing IPv6)"
-msgstr ""
+msgstr "(IPv6'yı devre dışı bırakma veya yönlendirmeden vazgeçme talimatları)"
 
 #: "faq/broken_disable.inc"
 msgid "Disabling or Deprioritizing your IPv6 address"
-msgstr ""
+msgstr "IPv6 adresinizi devre dışı bırakma veya kaldırma"
 
 #: "faq/broken_disable.inc"
 msgid "<b>To disable IPv6 entirely, until your ISP offers IPv6 to you:</b> see <b>Microsoft's \"fixit\" site</b> that gives clear instructions. We advocate considering \"Use IPv4 instead of IPv6 in prefix policies\", instead of completely disabling IPv6. Specific Windows features depend on IPv6 being enabled."
-msgstr ""
+msgstr "<b> ISP size IPv6 büyüklüğünü önebilirsiniz. IPv6 devre dışı bırakmak için: </ b> bakınız <b> Microsoft'un \"fixit\" site </ b> açık talimatlar verir. IPv6'yı tamamen devre dışı bırakmak yerine, \"Önek politikalarında IPv6 yerine IPv4 kullan\" seçeneğini değerlendirmeyi savunuyoruz. Belirli Windows özellikleri, IPv6'nın etkinleştirilmiş olmasına bağlıdır."
 
 #: "faq/broken_disable.inc"
 msgid "To completely disable IPv6 (Windows 7, Vista; XP should be similiar):"
-msgstr ""
+msgstr "IPv6'yı tamamen devre dışı bırakmak için (Windows 7, Vista; XP benzer olmalı):"
 
 #: "faq/broken_disable.inc"
 msgid "Go to \"Properties\""
@@ -1372,7 +1372,7 @@ msgstr "\"Özellikler\"e tıklayın"
 
 #: "faq/broken_disable.inc"
 msgid "Uncheck \"Internet Protocol Version 6\""
-msgstr ""
+msgstr "\"İnternet Protokol Sürümü 6\" nın işaretlerini kaldırınız"
 
 #: "faq/broken_disable.inc"
 msgid "Hit \"ok\""
@@ -1384,7 +1384,7 @@ msgstr "Kapatın/yeniden başlatın."
 
 #: "faq/broken_disable.inc"
 msgid "To disable IPv6 in Windows XP:"
-msgstr ""
+msgstr "Windows XP'de IPv6'yı devre dışı bırakmak için:"
 
 #: "faq/broken_disable.inc"
 msgid "Taken from:"
@@ -1412,7 +1412,7 @@ msgstr "OS X kullanıcıları"
 
 #: "faq/broken_disable.inc"
 msgid "Before disabling IPv6, please be sure you are running the latest OS version. In particular, OS X 10.6.7 has several workarounds for being \"Broken\". This may solve your problems without resorting to completely disabling IPv6."
-msgstr ""
+msgstr "IPv6'yı devre dışı bırakmadan önce lütfen en son OS sürümünü çalıştırdığınızdan emin olun. Özellikle, OS X 10.6.7'de \"Kırık\" olduğu için çeşitli geçici çözümler var. Bu, IPv6'yı tamamen devre dışı bırakmaya başvurmadan sorunlarınızı çözebilir."
 
 #: "faq/broken_disable.inc"
 msgid "How to disable IPv6"
@@ -1432,7 +1432,7 @@ msgstr "iPhone ve iPad kullanıcıları"
 
 #: "faq/broken_disable.inc"
 msgid "IPv6 is not configurable on the iPhone or iPad. Your only option is to switch to another network."
-msgstr ""
+msgstr "IPv6, iPhone'da veya iPad'de yapılandırılamaz. Tek seçeneğiniz başka bir ağa geçmektir."
 
 #: "faq/broken_disable.inc"
 msgid "Linux users:"
@@ -1440,15 +1440,15 @@ msgstr "Linux kullanıcıları:"
 
 #: "faq/broken_disable.inc"
 msgid "This is very distribution-specific. Do a web search using your favorite search engine."
-msgstr ""
+msgstr "Bu, dağıtıma özgüdür. En sevdiğiniz arama motorunu kullanarak bir web araması yapınız."
 
 #: "faq/broken_disable.inc"
 msgid "Example web search: <code>disable ipv6 on centos</code>"
-msgstr ""
+msgstr "Örnek web araması: <code> centos'ta ipv6'yı devre dışı bırak </ code>"
 
 #: "faq/broken_disable.inc"
 msgid "Generic unix instructions, to temporarily remove your IPv6 address."
-msgstr ""
+msgstr "IPv6 adresinizi geçici olarak kaldırmak için genel unix talimatları."
 
 #: "faq/broken_disable.inc"
 msgid "IP_ADDRESS"
@@ -1456,11 +1456,11 @@ msgstr "IP_ADRESi"
 
 #: "faq/broken_disable.inc"
 msgid "Be aware that if the router re-advertises it, you will relearn the default route."
-msgstr ""
+msgstr "Yöneltici yeniden duyurursa, varsayılan rotayı öğrenirsiniz."
 
 #: "faq/broken_disable.inc"
 msgid "You can do a web search for your particular OS distribution. Example search would be <code>disable ipv6 on freebsd</code>."
-msgstr ""
+msgstr "Belli bir işletim sistemi dağıtımınız için bir web araması yapabilirsiniz. Örnek arama, <code> freebsd'de ipv6'yı devre dışı bırak </ code> olacaktır."
 
 #: "broken.html"
 msgid "See Also"
@@ -1472,7 +1472,7 @@ msgstr "Yardımcı olabilecek diğer kaynaklar"
 
 #: "faq_disable.html"
 msgid "Disabling IPv6 is the least preferred option. For some people, however, it may be your only option. This may be due to equipment limitations, or in limitations in technical support."
-msgstr ""
+msgstr "IPv6'yı devre dışı bırakmak en az tercih edilen seçenektir. Ancak bazı insanlar için bu sizin tek seçeneğiniz olabilir. Bu ekipman sınırlamaları veya teknik destek sınırlamaları yüzünden olabilir."
 
 #: "faq.html"
 msgid "test-ipv6.com FAQ"
@@ -1484,51 +1484,51 @@ msgstr "S: Bu testi nasıl çalışır?"
 
 #: "faq.html"
 msgid "The test is entirely client-side javascript. To determine reachability, a series of ajax requests are made from the web server, using various DNS names that force the use of IPv6 only, or dual stack, or other such scenarios. The pass/fail of such fetches, as well as how long they take, are taken into account."
-msgstr ""
+msgstr "Test tamamen istemci tarafında javascript. Erişilebilirliği belirlemek için, web sunucusundan, yalnızca IPv6 kullanımını zorlayan çeşitli DNS adlarını veya ikili yığınları veya diğer benzer senaryoları kullanarak bir dizi ajax isteği yapılır. Bu alımların geçmesi / başarısızlığı ve bunların ne kadar süre geçtiği hesaba katılır."
 
 #: "faq.html"
 msgid "Q: Why is this web site reachable via IPv4 only?"
-msgstr ""
+msgstr "S: Bu web sitesine neden sadece IPv4 yoluyla erişilebilir?"
 
 #: "faq.html"
 msgid "You're right, there are no AAAA records, intentionally. A percentage of users are unable to browse sites that are dual-stack. If the users can't connect, then they can't be told they have a problem. This is a big problem facing content providers today; of which, I work at one for my &#36;dayjob. As such, the main test page requires IPv4 (either native or translated)."
-msgstr ""
+msgstr "Haklısın, kasten AAAA kayıtları yok. Kullanıcıların yüzde bir kısmı çift yığını olan sitelere göz atamadı. Kullanıcılar bağlanamazlarsa, bir sorunlarının olduğu söylenemez. Bu içerik sağlayıcıların bugün karşılaştıkları büyük bir sorundur; Bunlardan hangisi için benim için çalışıyorum; günlük iş. Bu nedenle, ana test sayfası IPv4'ü (yerel veya tercüme edilmiş) gerektirir."
 
 #: "not-used, archived.  Not currently needed for translation."
 msgid "At some point, when the percentage of \"broken\" users has gone significantly down, I'll consider making test-ipv6.com dual-stack. At least check, May 2013, we still see 0.5% broken visiting test-ipv6.com. And we still want them to understand their situation."
-msgstr ""
+msgstr "\"Kırık\" kullanıcılar yüzdesinin düştüğü bazı noktalarda, test-ipv6.com'u çift yığını yapmayı düşünürüm. En azından, Mayıs 2013'te, test-ipv6.com ziyaretinde% 0.5 kesintiye uğradığını hala kontrol ediyoruz. Ve yine de durumlarını anlamalarını istiyoruz."
 
 #: "not-used, archived.  Not currently needed for translation."
 msgid "Q: How do I test my IPv6-only host"
-msgstr ""
+msgstr "S: IPv6 yalnızca ana bilgisayarımı nasıl test ederim"
 
 #: "not-used, archived.  Not currently needed for translation."
 msgid "If you ask that question, chances are you don't need this site. However, if you really want to, visit <a href= \"http://ipv6.test-ipv6.com\">http://ipv6.test-ipv6.com</a> with your IPv6-only host."
-msgstr ""
+msgstr "Bu soruyu sorarsanız, bu sitede ihtiyacınız olmayabilir. Bununla birlikte, gerçekten isterseniz, yalnızca IPv6 kullanıcısı olan bilgisayarınızla <a href= \"http://ipv6.test-ipv6.com\"> http://ipv6.test-ipv6.com </a> adresini ziyaret edin."
 
 #: "faq.html"
 msgid "Q: What do you mean by broken?"
-msgstr ""
+msgstr "S: Ne demek kırılmış?"
 
 #: "faq.html"
 msgid "A percentage of users today have IPv6 enabled, but are either using a public tunnel that is currently giving poor performance; or otherwise have a route that is installed but broken or suboptimal. However, because they have a route at all, in many cases the address selection algorithm of RFC3484 will pick using it, and trying to use this broken route. It can take towards 75+ seconds before the browser gives up!"
-msgstr ""
+msgstr "Bugün yüzde bir kullanıcı, IPv6'yı etkinleştirmiş ancak şu anda düşük performans gösteren genel bir tünel kullanıyor; ya da başka bir yolla kurulmuş fakat kırılmış ya da en uygun olmayan bir rota var. Bununla birlikte, çoğu zaman bir rota bulunduğundan, çoğu durumda RFC3484'ün adres seçim algoritması onu kullanmayı ve bozulmuş rota kullanmayı seçecektir. doğru Tarayıcı vazgeçmeden önce 75+ saniyeye kadar sürer!"
 
 #: "faq.html"
 msgid "From the perspective of a user with these conditions, a web site offering both A and AAAA DNS records (ie, \"dual stack\") will appear to time out; and the user will move on to another site that offers a similar product. This is the quandary content providers have."
-msgstr ""
+msgstr "Bu koşullara sahip bir kullanıcının bakış açısıyla, A ve AAAA DNS kayıtlarını (yani, \"çift yığın\") sunan bir web sitesi zaman aşımına uğramış gibi görünür; ve kullanıcı benzer bir ürün sunan başka bir siteye geçecektir. Bu, içerik sağlayıcıların sahip olduğu hoşnutsuzluktur."
 
 #: "faq.html"
 msgid "If we detect that you will have problems reaching dual-stack web sites, we recommend you see the <a href=\"broken.html\">Broken User FAQ</a>. It provides several steps to try and identify your root cause for being broken; and barring that, what you can do to disable IPv6 until your ISP offers native IPv6 connectivity."
-msgstr ""
+msgstr "Çift yığın web sitelerine erişirken sorun yaşayacağınızı tespit edersek, <a href=\"broken.html\"> Kırık Kullanıcı SSS </a> ni görmenizi öneririz. Çatlamış olduğunuz için kök nedeninizi denemek ve tanımlamak için birkaç adım sağlar; ve bunun yasaklanmasıyla, ISS'iniz doğal IPv6 bağlantısı sunana kadar IPv6'yı devre dışı bırakmak için neler yapabilirsiniz."
 
 #: "faq.html"
 msgid "Q: Why did your stats say you already have IPv6-only users?"
-msgstr ""
+msgstr "S: İstatistikleriniz neden IPv6 kullanıcısı olan kullanıcılarınız olduğunu söylediler?"
 
 #: "faq.html"
 msgid "They went to <a href=\"http://ipv6.test-ipv6.com\">http://ipv6.test-ipv6.com</a> ."
-msgstr ""
+msgstr "<a href=\"http://ipv6.test-ipv6.com\"> http://ipv6.test-ipv6.com </a> adresine gittiler ."
 
 #: "faq.html"
 msgid "Q: How valid are the stats?"
@@ -1536,27 +1536,27 @@ msgstr "S: İstatistikler ne kadar geçerli?"
 
 #: "faq.html"
 msgid "They do not represent the average web consumer. Visitors to this site are self-selecting. The intent of this site is to not provide stats, but instead to inform the user the level of readiness for the world to move to IPv6 (with or without'em!). As such, stats found here will be completely different from an average content provider."
-msgstr ""
+msgstr "Ortalama web tüketicisini temsil etmezler. Bu sitenin ziyaretçileri kendi kendine seçiyor. Bu sitenin amacı, istatistik sağlamamaktır, bunun yerine kullanıcıya dünyaya IPv6'ya geçmek için hazır olma düzeyini ( olmadan veya olmadan) bildirmektir. Bu nedenle, burada bulunan istatistikler ortalama bir içerik sağlayıcısından tamamen farklı olacaktır."
 
 #: "faq.html"
 msgid "Q: How does your test differ, from what the content providers are doing?"
-msgstr ""
+msgstr "S: Testleriniz içerik sağlayıcıların yaptıklarından nasıl farklı?"
 
 #: "faq.html"
 msgid "Content providers are gathering metrics of broken vs non-broken users, in an aggregate form. They are not at this time actually giving the user feedback as to the user's current state. Those metrics will principally drive the business decision of when to start publishing sites over IPv6, versus remaining IPv4 only. IPv4 only for some content sites really is an option; it has a handful of downsides, but the expectation is that everyone will always be able to reach IPv4, in some fashion."
-msgstr ""
+msgstr "İçerik sağlayıcıları kırık ve kırık olmayan kullanıcıların metriklerini bir araya getiriyor. Şu an kullanıcıya kullanıcının durumuna ilişkin geribildirim vermediler. Bu metrikler esas olarak, IPv6 üzerinden site yayınlamaya ne zaman başlarsanız, yalnızca IPv4'ten kalan sürecin işletme kararını verecektir. IPv4 yalnızca bazı içerik siteleri için gerçekten bir seçenektir; bir avuç eksikliği var, ancak beklenti herkesin bir şekilde IPv4'e her zaman erişebilmesidir."
 
 #: "faq.html"
 msgid "This site, on the other hand, is intended to help the user understand their current state, and what that state possibly means to them."
-msgstr ""
+msgstr "Bu site, diğer taraftan, kullanıcının mevcut durumunu ve bu durumun onlara ne anlama geldiğini anlamasına yardımcı olmak için hazırlanmıştır."
 
 #: "not-used, archived.  Not currently needed for translation."
 msgid "Q: Your site shows the wrong IP address; how can I bypass my proxy server to find my public address?"
-msgstr ""
+msgstr "S: Siteniz yanlış IP adresini gösteriyor; genel adresimi bulmak için proxy sunucumu nasıl atlaya bilirim?"
 
 #: "not-used, archived.  Not currently needed for translation."
 msgid "For ipv4/ipv6/dual stack, use one of these:"
-msgstr ""
+msgstr "Ipv4 / ipv6 / çift yığını için aşağıdakilerden birini kullanın:"
 
 #: "not-used, archived.  Not currently needed for translation."
 msgid "for ipv4"
@@ -1564,51 +1564,51 @@ msgstr "ipv4 için"
 
 #: "not-used, archived.  Not currently needed for translation."
 msgid "for ipv6"
-msgstr ""
+msgstr "ipv6 için"
 
 #: "not-used, archived.  Not currently needed for translation."
 msgid "for either"
-msgstr ""
+msgstr "ya"
 
 #: "not-used, archived.  Not currently needed for translation."
 msgid "Note you _may_ need to specify other options to your telnet command, depending on your operating system. On my mac, for example, I need to use \"<code>telnet -6</code>\"."
-msgstr ""
+msgstr "İşletim sisteminize bağlı olarak telnet komutunuza başka seçenekler belirtmeniz gerektiğini not edin. Mesela Mac cihazım da \" <code> telnet -6 </code> \" kullanmam gerekiyor."
 
 #: "faq.html"
 msgid "Q: Do you actually read the feedback?"
-msgstr ""
+msgstr "S: Geri bildirimleri sahiden okuyor musunuz?"
 
 #: "faq.html"
 msgid "Yes, I do. Thank you! Note that I can only follow up with you if you do leave contact information. While I am still grateful for feedback without contact information, I will be unable to reply with any answers if you asked for them."
-msgstr ""
+msgstr "Evet. Teşekkür ederim! İletişim bilgilerinizi vermezseniz sizinle takipleşemeyeceğimizi unutmayın. Şimdiye kadar iletişim bilgileri olmayan geribildirimleri anlayışla karşıladım, ancak sorularınızın yanıtını aldıysanız bundan sonra cevaplamayacağım."
 
 #: "faq.html"
 msgid "Q: How else can I contact you?"
-msgstr ""
+msgstr "S: Başka nasıl iletişime geçebilirim?"
 
 #: "faq.html"
 msgid "I would prefer you use the form, as it gives details of your connectivity, and bypasses any mail filters."
-msgstr ""
+msgstr "Bağlantının ayrıntılarını verdiği ve herhangi bir posta filtresi atladığı için, formu kullanmayı tercih ediyorum."
 
 #: "faq.html"
 msgid "That said, you are welcome to directly email <a href=\"mailto:jfesler@test-ipv6.com\">jfesler@test-ipv6.com</a>."
-msgstr ""
+msgstr "Bununla birlikte, doğrudan <a href=\"mailto:jfesler@test-ipv6.com\"> jfesler@test-ipv6.com </a> adresine e-posta gönderebilirsiniz."
 
 #: "faq.html"
 msgid "Q: Is this open source?"
-msgstr ""
+msgstr "S: Bu açık kaynak mı?"
 
 #: "faq.html"
 msgid "Yes. See the <a href=\"source.html\">source page</a> for details."
-msgstr ""
+msgstr "Evet. Ayrıntılar için <a href=\"source.html\"> kaynak sayfasına </a> bakın."
 
 #: "not-used, archived.  Not currently needed for translation."
 msgid "<span lookup=site.name>site</span> statistics"
-msgstr ""
+msgstr "<span lookup=site.name> site </span> istatistikleri"
 
 #: "stats.html"
 msgid "Graphs are updated daily."
-msgstr ""
+msgstr "Grafikler her gün güncellenir."
 
 #: "not-used, archived.  Not currently needed for translation."
 msgid "60 days view"
@@ -1620,39 +1620,39 @@ msgstr "600 günü görüntüle"
 
 #: "stats.html"
 msgid "Quick notes:"
-msgstr ""
+msgstr "Hızlı notlar:"
 
-#: "stats.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Browser Filter means that both the \"A\" and \"AAAA\" test failed. Browser (plugin/filter) shenanigans, likely with add-ons like ad blockers."
-msgstr ""
+msgstr "Tarayıcı filtresi, \"A\" ve \"AAAA\" test sonuçlarının başarısız olduğu anlamına gelir. Büyük olasılıkla reklam engelleyicileri gibi eklentiler içeren tarayıcı (eklenti / filtreleme) kurnazdır."
 
 #: "stats.html"
 msgid "Brokeness goes down, when volume goes up. This is due to having a wider sample of average people (versus people explicitly testing a new IPv6 setup)."
-msgstr ""
+msgstr "Seviye yükselidiğinde kırılganlık azalır. Bunun nedeni, daha geniş bir ortalama örneğe (yeni bir IPv6 kurulumunu açıkça test eden kişilere karşı) sahip olmasıdır."
 
 #: "not-used, archived.  Not currently needed for translation."
 msgid "These graphs show the last 60 days of activity at <span lookup=site.name>site</span>"
-msgstr ""
+msgstr "Bu grafikler, <span lookup = site.name> sitesinde geçen 60 günlük etkinliği göstermektedir </span>"
 
 #: "not-used, archived.  Not currently needed for translation."
 msgid "Graph: shows result summaries, stacked. Total height shows number of users who took the test on a given day."
-msgstr ""
+msgstr "Grafik: Kümelenmiş sonuç özetlerini gösterir. Toplam yükseklik, test için bir gününü harcayan kullanıcı sayısını gösterir."
 
 #: "not-used, archived.  Not currently needed for translation."
 msgid "Similiar graph, except this time showing percentages."
-msgstr ""
+msgstr "Saat yüzdesini gösterenlerin haricinde, benzer bir grafik."
 
 #: "not-used, archived.  Not currently needed for translation."
 msgid "The most interesting graph is the percentage of \"broken\" users. Our definition of a \"broken\" user is that the browser stalls or times out, while attempting to visit a web site published on both IPv4 and IPv6."
-msgstr ""
+msgstr "En ilginç grafik, \"kırık\" kullanıcıların yüzdesidir.''Kırık\" kullanıcı tanımımız, hem IPv4 hemde IPv6'da yayınlanan bir web sitesini ziyaret etmeye çalışırken tarayıcının durduğu veya zaman aşımına uğradığıdır."
 
 #: "not-used, archived.  Not currently needed for translation."
 msgid "Line graph, not stacked, of results over time."
-msgstr ""
+msgstr "Çizgi grafiği üzerinden fazla zaman geçmiş sonuçların kümelenmemiş halidir."
 
 #: "not-used, archived.  Not currently needed for translation."
 msgid "These graphs show the last 600 days of activity at <span lookup=site.name>site</span>"
-msgstr ""
+msgstr "Bu grafikler <span lookup=site.name>sitede ki</span> eylemlerin son 600 gününü gösterir"
 
 #: "mission.html"
 msgid "test-ipv6.com - Our mission"
@@ -1664,15 +1664,15 @@ msgstr "Görevimiz şunlardır:"
 
 #: "mission.html"
 msgid "Help people identify if they will have problems when publishers offer their web sites on IPv6;"
-msgstr ""
+msgstr "Yayıncıların kendi web sitelerini IPv6 ile sunduklarında sorun yaşayıp yaşamayacaklarını belirlemelerine yardımcı olun;"
 
 #: "mission.html"
 msgid "Help people fix their system configuration so that they are no longer affected."
-msgstr ""
+msgstr "Kullanıcıların sistem yapılandırmasını düzeltmelerinden ve etkilenmemelerine yardımcı olun."
 
 #: "mission.html"
 msgid "To do so in a brand neutral, ad-free way."
-msgstr ""
+msgstr "Tarafsız markada ücretsiz reklam yoluyla yap."
 
 #: "mission.html"
 msgid "Why do we do this?"
@@ -1680,15 +1680,15 @@ msgstr "Bunu neden yapıyoruz?"
 
 #: "mission.html"
 msgid "Because of 1 out of every 4000 users are \"broken\" based on industry measurements. This has delayed the web sites from publishing to IPv6."
-msgstr ""
+msgstr "Her 4000 kullanıcısından 1'inde endüstri ölçümlerine dayanarak \"kırık\" olduğu belirlendiği için bu web sitelerinin yayınlanmasını IPv6'ya erteledi."
 
 #: "mission.html"
 msgid "So, what is meant by \"broken\"?"
-msgstr ""
+msgstr "Peki, \"kırık\" demek ne demektir?"
 
 #: "mission.html"
 msgid "When you go to your favorite web site in a browser, and it hangs for several seconds or even minutes. If the publisher publishes to IPv6, and your computer has a *broken* IPv6 route (as compared to having no route), then your computer will attempt to use that broken route first, before falling back to the IPv4 Internet."
-msgstr ""
+msgstr "Bir tarayıcıda en sevdiğiniz web sitesine gittiğinizde birkaç saniye veya birkaç dakika duruyorsa, yayıncı IPv6'ya yayınlar ve bilgisayarınızda * bir kırık * (hiçbir rota bulunmadığına kıyasla), bilgisayarınız IPv4 İnternet'e geri dönmeden önce bu bozuk rotayı kullanmaya çalışır."
 
 #: "mission.html"
 msgid "What causes these timeouts?"
@@ -1696,19 +1696,19 @@ msgstr "Zaman aşımının sebebi nedir?"
 
 #: "mission.html"
 msgid "Newer operating systems have IPv6 enabled by default. Older ones, may have IPv6 enabled, as a result of user action (or specific applications). Enabling IPv6 does not automatically make you vulnerable."
-msgstr ""
+msgstr "Yeni işletim sistemlerinde IPv6 varsayılan olarak etkindir. Daha eski olanlar, kullanıcıeylemi (veya belirli uygulamalar) sonucunda IPv6'yı etkinleştirebilir. IPv6'yı etkinleştirmek sizi otomatik olarak savunmasız hale getirmez."
 
 #: "mission.html"
 msgid "The problem lies when your system is convinced to try and use IPv6, when it is not working adequately. This may be because you're using a public service for your IPv6 gateway. Or, someone on your network, was advertising (to the network) IPv6 through Internet connection sharing; and they left. Last, your router may have IPv6 automatically configured to use public unmanaged gateways; and is telling your computer to use it."
-msgstr ""
+msgstr "Sorun, sisteminiz yeterince çalışmadığında IPv6'yı denemek ve kullanmak için ikna olduğunda ortaya çıkar. Bunun nedeni, IPv6 ağ geçidi için bir kamu hizmeti kullanıyor olmanız olabilir. Veya, ağınızdaki birisi Internet bağlantısı paylaşımı yoluyla IPv6'yı (ağa) reklam veriyor olabilir; ama olmadı. Son olarak, yönlendiriciniz, ortak yönetilmeyen ağ geçitlerini kullanacak şekilde otomatik olarak yapılandırılmış IPv6'ya sahip olabilir; bilgisayarınıza onu kullanmasını söylüyor."
 
 #: "mission.html"
 msgid "The simplest, yet near-sighted, solution, would be just to disable IPv6. However, over the next couple of years, this will start to cause you more troubles than not. It would be best to instead find the root of your actual problem, and fix that instead."
-msgstr ""
+msgstr "En kolay, en yakın görüşlü çözüm, sadece IPv6'yı devre dışı bırakmak olacaktır. Bununla birlikte, önümüzdeki birkaç yıl içide, sizi daha çok sıkıntıya sokmaya başlaycaktır. Bunun yerine, asıl sorunun kökünü bulmak ve bunun yerine düzeltmek en iyisidir."
 
 #: "mission.html"
 msgid "The <a href=\"broken.html\">Broken User FAQ</a> has several suggestions for broken users to follow, to remediate their situation."
-msgstr ""
+msgstr "<a href=\"broken.html\"> Kırık Kullanıcı SSS </a> kırık kullanıcılar için çeşitli öneriler vardır,durumlarını iyileştirmek için, takip et."
 
 #: "mission.html"
 msgid "How you can help"
@@ -1716,7 +1716,7 @@ msgstr "Nasıl yardımcı olabilirsiniz?"
 
 #: "mission.html"
 msgid "This is an open-source project. I can certainly use your help in a variety of ways; please see the <a href=\"source.html\">source</a> page."
-msgstr ""
+msgstr "Bu açık kaynak kodlu bir projedir. Yardımınızı çeşitli şekillerde kullanacağımdan emin olabilirsiniz; lütfen <a href=\"source.html\"> kaynak </a> sayfasına bakın."
 
 #: "mirrors.html"
 msgid "test-ipv6.com mirrors"
@@ -1724,15 +1724,16 @@ msgstr "test-ipv6.com yansıma siteleri"
 
 #: "mirrors.html"
 msgid "These are the known publicly accessible mirrors for test-ipv6.com."
-msgstr ""
+msgstr "Bunlar, test-ipv6.com için genel olarak erişilebilen bilinen aynalardır."
 
 #: "mirrors.html"
 msgid "Thank you to all of these organizations, who have put in significant effort to provide this mirror sites. If you have problems with the site you are on now, try another mirror site; perhaps one closer to you."
-msgstr ""
+msgstr "Ayna sitelerini sunmak için çaba gösteren tüm organizasyonlara teşekkür ederiz.\n"
+"Bulunduğunuz siteyle ilgili sorunlarınız varsa, başka bir yansıtma sitesini deneyin; belki de biri sana daha yakındır."
 
 #: "mirrors.html"
 msgid "Hints Columns are sortable (click the first row); <a href=\"#\" onclick=\"GIGO.test_sites(1); return false;\">click here</a> to re-check reachability from where you are to those mirrors."
-msgstr ""
+msgstr "İpuçları; Sütunlar sıralanabilir (ilk satırı tıklayın); Bu aynalara nerede olduğunuzu tekrar kontrol etmek için <a href=\"#\" onclick=\"GIGO.test_sites(1); return false;\"> buraya tıklayın </a>."
 
 #: "mirrors.html"
 msgid "(generated by javascript)"
@@ -1744,147 +1745,147 @@ msgstr "Bir yansıma çalıştırmakla ilgileniyor musunuz?"
 
 #: "mirrors.html"
 msgid "Mirrors are welcomed and appreciated, whether public or private. Please see <a href=\"https://github.com/falling-sky/source/wiki\">the wiki</a> for details."
-msgstr ""
+msgstr "Aynalar, ister kamusal isterse özel olsun, memnuniyetle karşılanır ve takdir edilir. Detaylar için <a href=\"https://github.com/falling-sky/source/wiki\"> wiki </a> bakınız."
 
 #: "faq_6to4.html"
 msgid "test-ipv6.com views on 6to4"
-msgstr ""
+msgstr "6to4'deki test-ipv6.com görüntülemeleri"
 
 #: "faq_6to4.html"
 msgid "The ugly bits"
-msgstr ""
+msgstr "Çirkin bitler"
 
 #: "faq_6to4.html"
 msgid "The good bits"
-msgstr ""
+msgstr "İyi bitler"
 
 #: "faq_6to4.html"
 msgid "6to4 is a technology that allows you to use your existing Internet provider (with only IPv4), to access the IPV6 Internet. It does this by putting IPv6 packets inside IPv4 packets, and with the help of some friendly folks on the Internet. (The specification of this is in <a href=\"http://www.ietf.org/rfc/rfc3056.txt\">rfc3056</a>.)"
-msgstr ""
+msgstr "6to4, IPV6 Internet'e erişmek için varolan Internet sağlayıcınızı (sadece IPv4 ile) kullanmanıza izin veren bir teknolojidir. Bunu, IPv6 paketlerini IPv4 paketlerine koyarak ve Internetteki bazı dostça insanlar ona yardım ederek yapar. (Bunun belirtimi <a href=\"http://www.ietf.org/rfc/rfc3056.txt\"> rfc3056 </a> 'da verilmiştir.)"
 
 #: "faq_6to4.html"
 msgid "Before covering my actual view on 6to4, lets discuss how it works."
-msgstr ""
+msgstr "6to4'le ilgili gerçek görüşümü belirtmeden önce, nasıl çalıştığını tartışalım."
 
 #: "faq_6to4.html"
 msgid "With traditional IPv4 Internet connections, traffic goes from you, to your ISP; to one or more ISPs; and finally to the end web site. Debugging issues with this is fairly easy. And, in the event of issues, your ISP has an obligation to fix things that they are associated with; the web site has a similiar contract with their ISP."
-msgstr ""
+msgstr "Geleneksel IPv4 Internet bağlantılarıyla, trafik sizden ISP'nize; bir veya daha fazla ISS'e; ve sonunda web sitesine giderek son bulur. Bununla ilgili hata ayıklama sorunlarının çözümleri oldukça kolaydır. Ve sorunlar olduğunda, İSS'nizin ilişkili oldukları şeyleri düzeltme yükümlülüğü vardır; web sitesi ISS'si ile benzer bir sözleşmeye sahiptir."
 
 #: "faq_6to4.html"
 msgid "With unmanaged 6to4 connections (created \"automatically\" or without explicit gateway information) the process is a fair bit different. IPv6 is put into an IPv4 packet - much like sticking a letter in an envelope. This packet is sent to the \"nearest available\" gateway. Your ISP<i>may</i> run one of these; most do not. Chances are the one you use, will be run by a good samaritan who's trying to contribute to the community. This relay will take the IPV6 from inside your IPv4 packet, and then forward it over the IPV6 Internet."
-msgstr ""
+msgstr "Yönetilmeyen 6to4 bağlantılar (\"otomatik\" veya açık ağ geçidi bilgisi olmadan) ile işlem biraz farklıdır. IPv6 bir IPv4 paketine konur - tıpkı zarf içinde bir harf yapıştırmak gibi. Bu paket \"en yakın kullanılabilir\" ağ geçidine gönderilir. Sizin ISS <i> may </ i> bunlardan yalnızca biri işletilmektedir. Şansınızı kullandığınız, topluluğa katkıda bulunmaya çalışan iyi bir samaritan tarafından çalıştırılma şansınız var. Bu röle, IPV6'yı IPv4 paketinizden alır ve IPV6 İnternet'inden iletir."
 
 #: "faq_6to4.html"
 msgid "Traffic from the web site takes a similiar path. That web site replies back to your automatic IPv6 address. This is routed to the nearest 6to4 relay to that web site. This is not deterministic from your part, at all. In fact, you won't even be able to tell where this relay is. That relay will take the IPv6 packet, stick it inside an IPv4 packet, and then send to your router."
-msgstr ""
+msgstr "Web sitesindeki trafik benzer bir yol izliyor. Bu web sitesi, otomatik IPv6 adresinize tekrar yanıt verir. Web sitesine en yakın 6to4 röleye yönlendirilir. Bu sizin tarafınızdan deterministik değildir. Aslında, bu rölenin nerede olduğunu bile anlayamayacaksın. Bu röle, IPv6 paketini alır, bir IPv4 paketi içine yapıştırır ve ardından yönlendiricinize bönderir."
 
 #: "faq_6to4.html"
 msgid "Q: What could possibly go wrong?"
-msgstr ""
+msgstr "S: Ters gitme ihtimali olan neydi?"
 
 #: "faq_6to4.html"
 msgid "The main issues involve the lack of a service level agreement, the lack of predictability, and a lack in the protocol for your computer to realize that this method is not working."
-msgstr ""
+msgstr "Temel sorunlar, bir hizmet düzeyi anlaşması eksikliği, öngörülebilirlik eksikliği ve bilgisayarınızın bu yöntemin çalışmadığını anlaması için protokol eksikliğiyle ilgilidir."
 
 #: "faq_6to4.html"
 msgid "Service level agreement: 6to4 relays are put up, voluntarilly by some organizations. They use BGP (the Internet's way of saying \"I'm here!\") to advertise to the world the existence of the public gateway. Some of them are managed quite well. Some are not. AS long as the route is being advertised, and they are the \"closest\" (in a BGP network sense - not in your control), that particular relay is the one you MUST use. Same for the web site you're trying to use - they have the same constraints, but most likely using a different relay than you. If anything goes wrong, even if you or the web site can figure out which one it is, there is not a good way to get the problem fixed."
-msgstr ""
+msgstr "Hizmet düzeyi sözleşmesi: 6to4 röle, gönüllü olarak bazı kuruluşlar tarafından konulmaktadır. Onlar, dünyaya kamu geçidinin varlığını ilan etmek için BGP'yi kullanıyorlar (Internet'in \"Ben buradayım!\" Deme şeklidir). Bazıları oldukça iyi yönetiliyor. Bazıları değil. Güzergah ilan edildiği sürece ve bunlar \"en yakın\" (BGP şebekesi anlamında - sizin kontrolünüzde değil) oldukları için kullanmanız gereken röle söz konusudur. Kullanmaya çalıştığınız web sitesinde de aynı - orada da aynı kısıtlamaları var, ancak büyük olasılıkla sizden farklı bir geçiş kullanıyor. Herhangi bir yanlışlık olursa, siz veya web sitesi, hangisinin olduğunu anlayabilse bile sorunu düzeltmek için iyi bir yol yoktur."
 
 #: "faq_6to4.html"
 msgid "Some ISPs are starting to offer 6to4 relays in their network; one such example is Comcast. But even if your ISP does this, that is only half the battle."
-msgstr ""
+msgstr "Bazı ISS'ler ağlarında 6to4 röle sunmaya başlıyor; Böyle bir örnek Comcast'tir. Ancak ISS'niz bunu yapsa bile, bu savaşın yalnızca yarısıdır."
 
 #: "faq_6to4.html"
 msgid "Once you enable 6to4, your computer will go \"Ah-ha! IPv6 Internet!\". Any time you vist a web site, your web browser will prefer to try IPv6 (if the web site is offering it). When it works, great! But when it doesn't work, you'll see timeouts. Browsers can wait a very long time before giving up on IPv6, and going back to IPv4. And the browser won't remember it had to try IPv4 - so ever web graphic, every link you click, etc will be subject to what looks like \"web site slow\" or \"web site down\"."
-msgstr ""
+msgstr "6to4'ü etkinleştirdikten sonra, bilgisayarınız \"Ah-ha! IPv6 Internet!\" Bir web sitesine her baktığınızda, web tarayıcınız IPv6'yı denemeyi tercih eder (web sitesi bunu öneriyorsa). Ne zaman işe yarıyor, harika! Ancak çalışmazsa, zaman aşımlarını görürsünüz. Tarayıcılar, IPv6'dan vazgeçmeden IPv4'e dönmeden önce çok uzun süre bekleyebilir. Ve tarayıcı, IPv4'ü denemek zorunda olduğunu hatırlamaz; bu nedenle hiç web grafik, tıkladığınız her bağlantı vs. \"web sitesi yavaş\" veya \"web sitesi aşağı\" gibi görünenlere tabi olacaktır."
 
 #: "faq_6to4.html"
 msgid "6to4 worked for me, but the \"Big Packet\" or MTU test was slow/failed. What happened?"
-msgstr ""
+msgstr "6to4 benim için çalıştı, ancak \"Big Packet\" veya MTU testi yavaş / başarısız oldu?"
 
 #: "faq_6to4.html"
 msgid "When using 6to4, your IPv6 packet has to be pushed into an IPv4 packet. Internet protocol packets have a maximum size; and this can vary based on the Internet service provider, as well as the equipment used."
-msgstr ""
+msgstr "6to4 kullanırken, IPv6 paketiniz bir IPv4 paketine aktarılmalıdır. Internet protokol paketlerinin maksimum boyutu vardır; ve bu internet servis sağlayıcısına ve kullanılan ekipmana bağlı olarak değişiklik gösterebilir."
 
 #: "faq_6to4.html"
 msgid "Because of this maximum size, your IPv6 packets actually have to be made a bit smaller - so that they fit inside the IPv4 packet, and that the IPv4 packet is still small enough to leave your network."
-msgstr ""
+msgstr "Bu maksimum boyut nedeniyle, IPv6 paketleriniz aslında biraz daha küçülmelidir - böylece IPv4 paketi içine sığar ve IPv4 paketi hala ağınızı terk edecek kadar küçüktür."
 
 #: "faq_6to4.html"
 msgid "Further down the line, there may be another network with even tigher restrictions on the packet size. That network may itself be a tunnel - ISPs occasionally have to do that. This is where the problem often - lies. The IPv4 tunnel will send a message back towards you, - indicating that the packet was too big - but you don't get it. Even - if you do, your IPv6 packets don't get the message, so ultimately - you never reduce your packet size."
-msgstr ""
+msgstr "Hattın ötesinde, paket boyutu konusunda daha sıkı kısıtlamalara sahip başka bir ağ olabilir. Bu ağ kendisi bir tünel olabilir - ISP'ler bazen bunu yapmak zorundalar. Sorunun sıklıkla bulunduğu yerde - yalan söylüyor. IPv4 tüneli size doğru bir mesaj gönderir - paketin çok büyük olduğunu belirtir - ancak bunu almazsınız. Hatta - yaparsanız, IPv6 paketleriniz mesajı almaz, sonuçta paket boyutunuzu asla azaltmazsınız."
 
 #: "faq_6to4.html"
 msgid "For some people, reducing the MTU size on IPv6 will help. 1280 is the minimum legal size. You can try values between 1400 to 1480 if you really want to find the one magic value that seems to work for you; but if you do touch MTU at all I'd recommend just doing 1280, and avoid later frustration."
-msgstr ""
+msgstr "Bazı insanlar için, IPv6 üzerindeki MTU boyutunu azaltmak yardımcı olacaktır. En az yasal boyut 1280'dir. Gerçekten sizin için çalışacak gibi görünen bir büyü değeri bulmak istiyorsanız, 1400 ile 1480 arasında değerler deneyebilirsiniz; ancak MTU'ya dokunursan, sadece 1280 yapmanızı öneririm ve daha sonra hayal kırıklığına uğramayacağım."
 
 #: "faq_6to4.html"
 msgid "Managed tunnels"
-msgstr ""
+msgstr "Yönetilen tüneller"
 
 #: "faq_6to4.html"
 msgid "You sure sound like you don't like 6to4."
-msgstr ""
+msgstr "6to4'dan hoşlanmadığınıza eminim."
 
 #: "faq_6to4.html"
 msgid "I don't like that it is *unmanaged*. 6to4 is basically 6in4 - an IPv6 packet wrapped with an IPv4 header. Managed 6in4 services can actualy be pretty good.."
-msgstr ""
+msgstr "Bunun * yönetilmeyen * olduğunu sevmiyorum *. 6to4 temelde 6in4'tür - bir IPv4 üstbilgisi ile paketlenmiş bir IPv6 paketi. Yönetilen 6in4 hizmetler aslında oldukça iyi olabilir.."
 
 #: "faq_6to4.html"
 msgid "test-ipv6.com's recommendation is that if you need IPv6 before your ISP can offer it, consider a managed 6in4 service. 6in4 is the same service as 6to4 on the wire, except with a managed tunnel endpoint (instead of an anonymous one). There are a few major options out there. They each offer great service; and they offer a <b>support</b> channel. These relays are <b>actively monitored</b> for service quality. Best of all, the <b>same relay is used both directions</b> - meaning the same staff manages both conversions. Consider these services:"
-msgstr ""
+msgstr "test-ipv6.com'un tavsiyesi, ISS'niz bunu sunmadan önce IPv6'ya ihtiyacınız varsa, yönetilen bir 6in4 hizmetini düşünün. 6in4, yönetilen tünel bitiş noktası (anonim bir nokta yerine) haricinde 6to4 ile aynı hizmettir. Orada birkaç önemli seçenek var. Her biri mükemmel bir hizmet sunmaktadır; ve bir <b> destek </ b> kanalı sunuyorlar. Bu röleler servis kalitesi için <b> aktif olarak izlenir </ b>. En iyisi, <b> aynı röle her iki yönde de kullanılır </ b> - aynı personelin her iki dönüşüm de yönettiği anlamına gelir. Bu hizmetleri düşünün:"
 
 #: "faq_6to4.html"
 msgid "Ran by Hurricane Electric. The author of test-ipv6.com has used their services for 2-3 years; and would notice latency problems (lots of interactive SSH use from home to the server). This service requires a static IPv4 address (or static enough - you can always go to the tunnelbroker.net site and update your IP). Lastly, tunnelbroker is fully automated - you can sign up, get your tunnel assignment immediately, and configure your end."
-msgstr ""
+msgstr "Hurricane Electric tarafından çalıştırıldı. Test-ipv6.com yazarı, hizmetlerini 2-3 yıl kullandı; ve gecikme sorunlarını (evden sunucuya birçok etkileşimli SSH kullanımı) fark edeceksiniz. Bu hizmet, statik bir IPv4 adresi gerektirir (veya statik yeterlidir - her zaman tunnelbroker.net sitesine gidip IP'nizi güncelleyebilirsiniz). Son olarak, tünel borsası tamamen otomatiktir - kaydolabilir, tünel atamalarını derhal alabilir ve sonunuzu konfigüre edebilirsiniz."
 
 #: "not-used, archived.  Not currently needed for translation."
 msgid "is another popular service. I see many European users using this service significantly; though their footprint is global. They work with dynamic IPs with some custom software that they provide."
-msgstr ""
+msgstr "başka popüler bir hizmettir. Pek çok Avrupa kullanıcısının bu hizmeti önemli ölçüde kullandığını görüyorum; ayak izleri küresel olsa da. Sağladıkları bazı özel yazılımlarla dinamik IP'ler ile çalışırlar."
 
-#: "faq_6to4.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "aka freenet6. I don't have personal experience with this, but test-ipv6.com does see a number of connections via this service."
-msgstr ""
+msgstr "aka freenet6. Bununla ilgili kişisel tecrübem yok, ancak test-ipv6.com bu hizmet üzerinden birçok bağlantı görüyor."
 
-#: "faq_6to4.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "may be a better solution, in China. This requires a custom client to be installed."
-msgstr ""
+msgstr "çin'de daha iyi bir çözüm olabilir. Bu, özel bir istemci yüklenmesini gerektirir."
 
-#: "faq_6to4.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "in Australia offers both free and paid-for (with SLA) tunnels."
-msgstr ""
+msgstr "avustralya'da ücretsiz ve ücretli (SLA ile birlikte) tüneller sunmaktadır."
 
 #: "faq_ipv4_only.html"
 msgid "About your IPv4-only Internet service."
-msgstr ""
+msgstr "IPv4-yalnızca Internet servisiniz hakkında."
 
 #: "faq_ipv4_only.html"
 msgid "This FAQ has been produced to try and address the questions of IPv4 only users"
-msgstr ""
+msgstr "Bu SSS, yalnızca IPv4 kullanıcılarının sorularını yanıtlamak için hazırlanmıştır"
 
 #: "faq/dontfeelbad.inc"
 msgid "It looks like you have only IPv4 Internet service at this time. Don't feel bad - most people are in this position right now. Most Internet service providers are not quite yet ready to provide IPv6 Internet to residential customers."
-msgstr ""
+msgstr "Şu anda sadece IPv4 Internet hizmetiniz varmış gibi görünüyor. Kötü hissetmeyin - şu anda insanların çoğu bu konumdadır. İnternet servis sağlayıcıların çoğu konut müşterilerine IPv6 Internet'i sağlamaya henüz hazır değil."
 
 #: "faq/nothingwillbreak.inc"
 msgid "The good news is, nothing will suddenly break."
-msgstr ""
+msgstr "İyi haber şu ki, hiçbir şey aniden bozulmayacak."
 
 #: "faq/nothingwillbreak.inc"
 msgid "When web sites offer their content on both IPv4 and IPv6, you'll still reach them using your existing IPv4 Internet service."
-msgstr ""
+msgstr "Web siteleri, hem IPv4 hem de IPv6 içeriğini sunduğunda, mevcut IPv4 Internet hizmetinizi kullanarak bunlara ulaşmaya devam edersiniz."
 
 #: "faq/whyipv6.inc"
 msgid "Many of the visitors to the site are new to what IPv6 is."
-msgstr ""
+msgstr "Siteye gelen ziyaretçilerin birçoğu IPv6'nın yenileri."
 
 #: "faq/whyipv6.inc"
 msgid "If you don't know why IPv6 matters, see the <a href=\"#\" onclick=\"return help_page('faq_whyipv6.html','Why IPv6')\">Why IPv6 FAQ</a>."
-msgstr ""
+msgstr "IPv6'nın neden önemli olduğunu bilmiyorsanız, <a href=\"#\" onclick=\"return help_page('faq_whyipv6.html','Why IPv6')\"> Neden IPv6 SSS </a> 'ne bakın."
 
 #: "faq/whyipv6.inc"
 msgid "This will give you a bit of background of what to expect with IPv4 in the coming months and years; and perhaps some incentive to ask your ISP when they will offer IPv6."
-msgstr ""
+msgstr "Bu, önümüzdeki aylar ve yıllar içinde IPv4'le bekleyeceğiniz şeylerin bir kısmını verecektir; ve belki de IPv6'yı ne zaman sunacakları İSS'nize sormak için teşvik edicidir."
 
 #: "faq/brokers.inc"
 msgid "If you are savvy with technology, you can be an early adopter of IPv6, consider learning more about"
@@ -1892,55 +1893,55 @@ msgstr "Teknolojiden anlıyorsanız, IPv6'nın ilk nesil kullanıcılarından ol
 
 #: "faq/brokers.inc"
 msgid "providers (managed 6to4 tunnel services)."
-msgstr ""
+msgstr "sağlayıcıları (6to4 tünel servislerini yönetti)."
 
 #: "faq/brokers.inc"
 msgid "The use of automatic tunnels is discouraged"
-msgstr ""
+msgstr "Otomatik tünel kullanımı önerilmemektedir"
 
 #: "faq/brokers.inc"
 msgid "[see more]"
-msgstr ""
+msgstr "[daha fazla gör]"
 
 #: "faq_ipv4_only.html"
 msgid "If you are not savvy with technology, here is more generic information:"
-msgstr ""
+msgstr "Teknolojiye meraklı değilseniz, daha genel bilgileri burada bulabilirsiniz:"
 
 #: "faq/matrix_os.inc"
 msgid "Windows Vista and Windows 7 are both IPv6 ready. Mac OS X 10.5 and higher is fine. FreeBSD and Linux, all recent versions, are also fine. When your Internet service provider offers IPv6 to you, these OSs are good. You may still need to replace your router (wireless or wired), if it is not aware of IPv6. You'll have to consult with your Internet service provider on when IPv6 will be offered."
-msgstr ""
+msgstr "Windows Vista ve Windows 7, IPv6'ya hazırdır. Mac OS X 10.5 ve üstü sorunsuzdur. FreeBSD ve Linux'un tüm son sürümleri de iyi. İnternet servis sağlayıcınız size IPv6 önerdiğinde, bu işletim sistemleri iyi. IPv6'yı bilmiyorsa yönlendiricinizi (kablosuz veya kablolu) değiştirmeniz gerekebilir. IPv6'nın ne zaman sunulacağı konusunda İnternet servis sağlayıcınıza danışmalısınız."
 
 #: "faq/matrix_os.inc"
 msgid "Windows XP users: My advice is to plan on upgrading before using IPv6. It is technically possible to use IPv6 with XP, to a minimal extent."
-msgstr ""
+msgstr "Windows XP kullanıcıları: Benim tavsiyem, IPv6 kullanmadan önce yükseltmeyi planlamaktır. Teknik olarak IPv6'yı XP ile minimum düzeyde kullanmak mümkündür."
 
 #: "faq/dontstress.inc"
 msgid "Don't stress too much on having an IPv6 address in 2011."
-msgstr ""
+msgstr "2011'de IPv6 adresinin olması konusunda çok fazla baskı yapmayın."
 
 #: "faq/dontstress.inc"
 msgid "If you do buy a new router, make sure that it will be IPv6 ready (or upgradable) when your service provider does offer IPv6."
-msgstr ""
+msgstr "Yeni bir yönlendirici satın alırsanız, servis sağlayıcınız IPv6 önerdiğinde IPv6'nın hazır (veya yükseltilebilir) olduğundan emin olun."
 
 #: "faq_no_ipv6.html"
 msgid "You appear to have no IPv6 at this time.."
-msgstr ""
+msgstr "Şu anda IPv6'nuz yok gibi görünüyor.."
 
 #: "faq_no_ipv6.html"
 msgid "You appear to have no IPv6 address."
-msgstr ""
+msgstr "Hiçbir IPv6 adresiniz görünmüyor."
 
 #: "faq/unable_to_see_ipv6.inc"
 msgid "<b>If you strongly believe you have IPv6, but we were unable to detect it:</b> it means one of a couple of things. Either your organization is blocking the use of IPv6 to talk to the outside Internet through network policy; or perhaps what you see with IPv6 on your host is not a global address. Any address starting with \"::\", \"fc\", \"fd\", or \"fe\" are unable to work with the public IPv6 Internet."
-msgstr ""
+msgstr "<b> IPv6'sı olduğuna inanıyorsanız, ancak bunu algılayamadık: </ b> bunun anlamı bir kaç şey demektir. Ya kuruluşunuz, ağ ilkesi aracılığıyla dış İnternet ile konuşmak için IPv6 kullanımını engelliyor; ya da belki de ana bilgisayarınızdaki IPv6 ile gördüğünüz şey genel bir adres değildir. \"::\", \"fc\", \"fd\" veya \"fe\" ile başlayan herhangi bir adres, genel IPv6 Internet'le çalışamaz."
 
 #: "faq_teredo_minimum.html"
 msgid "More about your test results."
-msgstr ""
+msgstr "Test sonuçlarınız hakkında daha fazla bilgi."
 
 #: "faq/teredo_iponly.inc"
 msgid "You also appear to have Teredo enabled. You did successfully connect to an IPv6 site during this test - but only when forcing the connection by connecting to an IPv6 numeric address, instead of a web site name. This setting will not help or hurt you going forward to reach IPv6 web sites."
-msgstr ""
+msgstr "Ayrıca, Teredo etkinleştirilmiş gibi görünüyorsunuz. Bu sınama sırasında bir IPv6 sitesine başarıyla bağlandınız - yalnızca bir web sitesi adı yerine bir IPv6 sayısal adresine bağlanarak bağlantıyı zorlarken. Bu ayar, IPv6 web sitelerine ulaşmanız için size yardım veya zarar vermez."
 
 #: "faq_teredo.html"
 msgid "About Teredo"
@@ -1948,31 +1949,31 @@ msgstr "Teredo Hakkında"
 
 #: "faq_teredo.html"
 msgid "This FAQ has been produced to tell you about Microsoft's Teredo service - a transition tool to help get early access to the IPv6 Internet."
-msgstr ""
+msgstr "Bu SSS, Microsoft Internet Explorer'ın Teredo hizmetini (IPv6 Internet'e erken erişime yardımcı olacak bir geçiş aracı) hakkında bilgi vermek için hazırlanmıştır."
 
 #: "faq_teredo.html"
 msgid "By default, Teredo is enabled on Vista and Windows 7. However, if Teredo is the only available IPv6 solution for you, it will default to only connecting to web sites by IPv6 address - not by name. More can be found <a href=\"http://technet.microsoft.com/en-us/library/bb727035.aspx\">here</a>. Once a global IP address has been assigned, Windows will do lookups. At this point, you probably wonder - why do I need Teredo?"
-msgstr ""
+msgstr "Varsayılan olarak Teredo, Vista ve Windows 7 üzerinde etkindir. Bununla birlikte, Teredo sizin için tek kullanılabilir IPv6 çözümü ise, varsayılan olarak yalnızca web sitelerine IPv6 adresi ile bağlanır; ada değil. Daha fazlası <a href=\"http://technet.microsoft.com/en-us/library/bb727035.aspx\"> burada </a> bulunabilir. Bir küresel IP adresi atandığında, Windows arama yapacaktır. Bu noktada, muhtemelen merak ediyorsun - neden Teredo'ya ihtiyacım var?"
 
 #: "faq_v6ns_bad.html"
 msgid "About the \"v6ns\" test."
-msgstr ""
+msgstr "\"V6ns\" testi hakkında."
 
 #: "faq_v6ns_bad.html"
 msgid "This FAQ has been produced to try and address what it means for the v6ns test to be \"bad\"."
-msgstr ""
+msgstr "Bu SSS, v6ns testinin \"kötü\" olması için ne anlam ifade ettiğini denemek ve üretmek için üretilmiştir."
 
 #: "faq_v6ns_bad.html"
 msgid "This test specifically verifies that your DNS resolver (usually operated by your Internet service provider, or your corporate IT department) is capable of reaching IPv6 Internet sites for DNS lookups. If you explicitly configured the use of a different DNS server, such as OpenDNS or Google's Public DNS, you'll test those services instead."
-msgstr ""
+msgstr "Bu test, DNS çözümleyicinizin (genellikle İnternet servis sağlayıcınız veya şirket IT departmanı tarafından işletilen) DNS aramaları için IPv6 İnternet sitelerine erişebildiğini doğrular. Açık bir şekilde, OpenDNS veya Google'ın Genel DNS gibi farklı bir DNS sunucusu kullanımını yapılandırdıysanız, bunun yerine bu hizmetleri test edersiniz."
 
 #: "faq_v6ns_bad.html"
 msgid "If this test fails:"
-msgstr ""
+msgstr "Bu test başarısız olursa:"
 
 #: "not-used, archived.  Not currently needed for translation."
 msgid "it means that the DNS resolver you are using, requires IPv4 to reach the DNS authoritative servers of your favoriate web sites. In the near future, every web site of consequence will remain accessible in this form, so <b>there is no immediate danger.</b>"
-msgstr ""
+msgstr "kullandığınız DNS çözümleyicisinin, tercih edilen web sitelerinin DNS yetkili sunucularına erişmesi için IPv4'ü gerektirdiği anlamına gelir. Yakın gelecekte, sonuçların her web sitesi bu formda erişilebilir olmaya devam edecek, dolayısıyla acil bir tehlike bulunmuyor <b>. </ b>"
 
 #: "faq_v6ns_bad.html"
 msgid "If this test succeeds:"
@@ -1980,35 +1981,35 @@ msgstr "Bu test başarılı olursa:"
 
 #: "faq_v6ns_bad.html"
 msgid "it means that your DNS resolver is fully capable of reaching IPv6 DNS servers. This means that the operator of that DNS server has IPv6 within their network. If they do not already offer you IPv6, this may be a sign that they are actively working on trying to make it possible."
-msgstr ""
+msgstr "dNS çözümleyicinizin IPv6 DNS sunucularına tam erişebileceği anlamına gelir. Bu, DNS sunucusunun operatörünün kendi ağında IPv6 olduğunu gösterir. Zaten IPv6 sunmuyorlarsa, bunlar mümkün olduğunca çabalamaya çalıştıklarının bir göstergesi olabilir."
 
 #: "faq_v6ns_bad.html"
 msgid "Do you use OpenDNS?"
 msgstr "OpenDNS mi kullanıyorsunuz?"
 
-#: "faq_v6ns_bad.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "OpenDNS is now offering IPv6-specific resolvers, that will be able to retrieve DNS over IPv6. This means the \"v6ns\" test operated here will pass. See the <a target=_blank href=\"http://www.opendns.com/ipv6/\">OpenDNS IPv6 information page</a>."
-msgstr ""
+msgstr "OpenDNS şimdi IPv6'yı DNS üzerinden alabilecek olan IPv6'ye özel çözümleyiciler sunuyor. Bu, burada işletilen \"v6ns\" testinin geçeceği anlamına geliyor. Bkz <a target=_blank href=\"http://www.opendns.com/ipv6/\"> OpenDNS IPv6 bilgi sayfası </a>."
 
 #: "faq_v6ns_bad.html"
 msgid "Do you operate your own DNS resolvers?"
-msgstr ""
+msgstr "Kendi DNS çözümleyicilerinizi işletiyor musunuz?"
 
 #: "faq_v6ns_bad.html"
 msgid "If you operated the DNS resolvers in use at your home or organization, enabling IPv6 on your DNS server is easy."
-msgstr ""
+msgstr "Evinizde veya kuruluşunuzda kullanılan DNS çözümleyicilerini çalıştırdıysanız, DNS sunucunuzda IPv6'yı etkinleştirmek kolaydır."
 
 #: "faq_v6ns_bad.html"
 msgid "ISC BIND: Make sure that IPv6 support is compiled in when you ./configure it. It is enabled by default. If you recently added IPv6 to your server, simply restart your named process, as you normally would."
-msgstr ""
+msgstr "ISC BIND: ./configure yaparken IPv6 desteğinin derlendiğinden emin olun. Varsayılan olarak etkindir. Son zamanlarda IPv6'yı sunucunuza eklediyseniz , normalde yaptığınız gibi adlandırılmış işlemi yeniden başlatmanız yeterlidir."
 
 #: "not-used, archived.  Not currently needed for translation."
 msgid "PowerDNS: Enable <code>aaaa-additional-processing</code> and configure <code>query-local-address6</code> in your <code>recursor.conf</code>. Restart powerdns."
-msgstr ""
+msgstr "PowerDNS: Enable <code> aaaa-ek-işlem </ code> ve yapılandırmak <code> sorgu-yerel-address6 </ code> sizin de <code> recursor.conf </ code>. Powerdns'i yeniden başlatın."
 
 #: "faq_v6ns_bad.html"
 msgid "Windows Server 2003: Upgrade to Windows Server 2008 at a minimum. Windows 2003 will resolve AAAA records, and supports IPv6 clients, but does *not* do DNS resolution over IPv6."
-msgstr ""
+msgstr "Windows Server 2003: En azından Windows Server 2008'e yükseltin. Windows 2003, AAAA kayıtlarını çözümleyecek ve IPv6 istemcilerini destekleyecek, ancak IPv6 üzerinden * DNS çözünürlüğü yapmaz *."
 
 #: "faq_v6ns_bad.html"
 msgid "Confirmation:"
@@ -2016,23 +2017,23 @@ msgstr "Onay:"
 
 #: "faq_v6ns_bad.html"
 msgid "should return back an aaaa record without errors."
-msgstr ""
+msgstr "hatasız bir aaaa kaydını geri döndürmelidir."
 
 #: "faq_broken_aaaa.html"
 msgid "Broken DNS AAAA Lookups"
-msgstr ""
+msgstr "Kırık DNS AAAA Aramaları"
 
 #: "faq_broken_aaaa.html"
 msgid "We detected that you are able to connect to IPv6 sites, by numerical address specifically. However, connections using DNS either failed, or preferred IPv4."
-msgstr ""
+msgstr "Özellikle sayısal adresle IPv6 sitelerine bağlanabildiğinizi tespit ettik. Bununla birlikte, DNS kullanan bağlantılar başarısız veya tercih edilen IPv4'tür."
 
 #: "faq_broken_aaaa.html"
 msgid "What does this mean for you?"
-msgstr ""
+msgstr "Bu senin için ne anlam ifade ediyor?"
 
 #: "faq_broken_aaaa.html"
 msgid "You should still be able to reach most sites fine, so long as they offer their services on IPv4. This means few near-term problems."
-msgstr ""
+msgstr "Hizmetlerini IPv4'te sundukları sürece çoğu siteye hâlâ erişebilirsiniz. Bu kısa vadede pek az sorun demektir."
 
 #: "faq_broken_aaaa.html"
 msgid "Possible causes:"
@@ -2040,35 +2041,35 @@ msgstr "Olası nedenler:"
 
 #: "faq_broken_aaaa.html"
 msgid "Firefox users may have IPv6 lookups disabled."
-msgstr ""
+msgstr "Firefox kullanıcılarının IPv6 aramaları devre dışı bırakılmış olabilir."
 
 #: "faq_broken_aaaa.html"
 msgid "Go to <a href=\"about:config\">about:config</a> in your browser."
-msgstr ""
+msgstr "Tarayıcınızda <a href=\"about:config\"> about: config </a> adresine gidin."
 
 #: "faq_broken_aaaa.html"
 msgid "Look for <code>network.dns.disableIPv6</code>"
-msgstr ""
+msgstr "<code> network.dns.disableIPv6 </code> arayın"
 
 #: "faq_broken_aaaa.html"
 msgid "Make sure this is set to <code>false</code>."
-msgstr ""
+msgstr "Bunun <code> false </ code> olarak ayarlandığından emin olun."
 
 #: "faq_broken_aaaa.html"
 msgid "Your OS may be configured to not do AAAA lookups; that is, to prefer IPv4 only."
-msgstr ""
+msgstr "İşletim sisteminiz AAAA aramaları yapmak için yapılandırılmamış olabilir; yani sadece IPv4'ü tercih etmek."
 
 #: "faq_broken_aaaa.html"
 msgid "Your DNS server may be filtering AAAA responses (or otherwise broken)."
-msgstr ""
+msgstr "DNS sunucunuz AAAA yanıtlarını filtreliyor olabilir (aksi halde bozulabilir)."
 
 #: "faq_broken_aaaa.html"
 msgid "Some ISPs will intentionally filter AAAA records. For example, on World IPv6 Day, we expect many Japanese ISPs to filter AAAA records, to mitigate current IPv6 deployment issues unique to their environments."
-msgstr ""
+msgstr "Bazı İSS'ler kasıtlı olarak AAAA kayıtlarını süzer. Örneğin, Dünya IPv6 Günü'nde, pek çok Japon ISP'nin, ortamlarına özgü geçerli IPv6 dağıtım sorunlarını azaltmak için AAAA kayıtlarını filtrelemesini bekliyoruz."
 
 #: "faq_broken_aaaa.html"
 msgid "You (or your techical support) can run <code>dig @DNSSERVER aaaa aaaa.test-ipv6.com</code> to confirm if the DNS server is working properly"
-msgstr ""
+msgstr "DNS sunucusunun düzgün çalışıp çalışmadığını doğrulamak için siz (veya teknik desteğiniz) <code> dig @DNSSERVER aaaa aaaa.test-ipv6.com </ code> komutunu çalıştırabilirsiniz"
 
 #: "faq_firefox_plugins.html"
 msgid "FAQ on Firefox Plugins"
@@ -2076,39 +2077,39 @@ msgstr "Firofox Eklentileri Hakkında SSS"
 
 #: "faq_firefox_plugins.html"
 msgid "This FAQ has been produced to try and address issues caused when using Firefox"
-msgstr ""
+msgstr "Bu SSS, Firefox'u kullanırken oluşan sorunları denemek ve bunları ele almak için üretilmiştir"
 
 #: "faq/intro_js.inc"
 msgid "<b>How this site works:</b> This site tells your browser to try and load several remote javascript files. Each file is on a different server. After each one finishes, we look at which ones worked - and which ones failed. Depending on the pattern, we can guess at IPv4 and IPv6 compatibility, and sometimes suggest possible fixes."
-msgstr ""
+msgstr "<b> Bu site nasıl çalışır: </ b> Bu site, tarayıcınıza birkaç uzak javascript dosyası denemesini ve yüklemesini söyler. Her dosya farklı bir sunucuda. Her biri bittikten sonra, hangilerinin çalıştığını - hangilerinin başarısız olduğunu - görüyoruz. Modele bağlı olarak IPv4 ve IPv6 uyumluluğunu tahmin edebiliriz ve bazen olası düzeltmeleri önermekteyiz."
 
 #: "faq/intro_js.inc"
 msgid "Some browser plugins enforce policies that are compatible with the above behavior. They block connections that (to them) look like they might be 3rd party advertising or tracking. There is no good way to identify this plugins from inside javascript; nor any good way to work around it."
-msgstr ""
+msgstr "Bazı tarayıcı eklentileri, yukarıdaki davranışla uyumlu politikaları zorlar. Üçüncü taraf reklam veya izleme gibi görünen bağlantıları (onlara göre) engellerler. Bu eklentileri javascript içinde tanımlamak için iyi bir yol yoktur; ne de bunun etrafında çalışmanın iyi bir yolu yoktur."
 
 #: "faq/plugins_firefox.inc"
 msgid "In the case of Firefox, the most common plugins that cause problems are AdBlock and RequestPolicy. There are probably others - any which claims to prevent XSS, CSRF, or Cross Site Scripting can be a problem. Try disabling these plugins (either temporarilly via any menu they offer you, or via the Firefox add-ons menu)."
-msgstr ""
+msgstr "Firefox durumunda, sorunlara neden olan en yaygın eklentiler AdBlock ve RequestPolicy'dir. Muhtemelen başkaları da vardır - XSS, CSRF veya Siteler Arası Komut Dosyalarını engellemeyi iddia eden herhangi bir soru bir sorun olabilir. Bu eklentileri devre dışı bırakmayı deneyin (geçici olarak size sundukları herhangi bir menü aracılığıyla veya Firefox eklentileri menüsünden)."
 
 #: "faq_browser_plugins.html"
 msgid "Alternative test for you.."
-msgstr ""
+msgstr "Sizin için alternatif test.."
 
 #: "faq_browser_plugins.html"
 msgid "This image based test is provided as a workaround. It will give you a quick pass/fail test, to tell you if you should be worried for World IPv6 Day."
-msgstr ""
+msgstr "Bu görsel tabanlı test, bir geçici çözüm olarak sağlanmıştır. Size Dünya IPv6 Günü için endişe edip etmeyeceğinizi söylemek size hızlı bir geçiş / başarısızlık testi verecektir."
 
 #: "faq/simple_test.inc"
 msgid "The following table will try and load 3 images."
-msgstr ""
+msgstr "Aşağıdaki tablo 3 görüntü yükleyecek ve yükleyecektir."
 
 #: "faq/simple_test.inc"
 msgid "test images for ipv4, dual stack, and ipv6"
-msgstr ""
+msgstr "ipv4, çift yığın ve ipv6 için test görüntüleri"
 
 #: "faq/simple_test.inc"
 msgid "Pass?"
-msgstr ""
+msgstr "Geçiş?"
 
 #: "faq/simple_test.inc"
 msgid "Method"
@@ -2124,131 +2125,131 @@ msgstr "IPv4. Temel geleneksel Internet."
 
 #: "faq/simple_test.inc"
 msgid "If green, you will have no problem on World IPv6 day."
-msgstr ""
+msgstr "Yeşil ise, Dünya IPv6 gününde sorun yaşamayacaksınız."
 
 #: "faq/simple_test.inc"
 msgid "If this fails, seek help from your IT department, helpdesk, or ISP tech support."
-msgstr ""
+msgstr "Bu başarısız olursa, IT departmanınızdan, yardım masasında veya ISP teknik desteğinden yardım isteyin."
 
 #: "faq/simple_test.inc"
 msgid "If this fails, consider using the <a href=\"/\">full test</a>, with IE, Firefox, Safari, or Chrome, to get more detailed information about possible failure reasons."
-msgstr ""
+msgstr "Bu başarısız olursa, muhtemel arıza nedenleriyle ilgili daha ayrıntılı bilgi edinmek için IE, Firefox, Safari veya Chrome ile <a href=\"/\"> tam testi </a> kullanmayı düşünün."
 
 #: "faq/simple_test.inc"
 msgid "<i>If red or blank, do not stress!</i> Few people already have IPv6 at this time; and it is not critical for 2011 but will be for the coming years."
-msgstr ""
+msgstr "<i> Kırmızı veya boşsa, stres atmayın! </ i> Şu anda IPv6 kullanan az insan var; ve 2011 için kritik değil, önümüzdeki yıllar için olacak."
 
 #: "faq_browser_plugins.html"
 msgid "FAQ on Plugins and Add-Ons"
-msgstr ""
+msgstr "Eklentiler ve Eklentiler Hakkında SSS"
 
 #: "faq_browser_plugins.html"
 msgid "This FAQ has been produced to try and address issues caused when using browser add-ons"
-msgstr ""
+msgstr "Bu SSS, tarayıcı eklentilerini kullanırken oluşan sorunları denemek ve bunları ele almak için üretilmiştir"
 
 #: "simple_test.html"
 msgid "This image based test is provided for those with browsers or browser plugins incompatible with the <a href=\"/\">main test</a>. This page provides only a subset of features, but should be enough for a simple pass/fail."
-msgstr ""
+msgstr "Bu görsel tabanlı test, <a href=\"/\"> ana testle </a> uyuşmayan tarayıcılara veya tarayıcı eklentilerine sahip olanlar için sağlanmıştır. Bu sayfa yalnızca bir özellik alt kümesi sağlar, ancak basit bir geçiş / başarısızlık için yeterli olmalıdır."
 
 #: "faq_whyipv6.html"
 msgid "Why IPv6?"
-msgstr ""
+msgstr "Neden IPv6?"
 
 #: "faq_whyipv6.html"
 msgid "This is an interesting question. IPv6 buys you only a bit more than you already have today; and most of that is a promise. IPv6 will help you preserve the level of Internet connectivity between your home and other locations on the Internet, without interference, as you enjoyed in 2012."
-msgstr ""
+msgstr "Bu ilginç bir soru. IPv6 bugün sizi daha çok satın alıyor; ve bunların çoğu bir vaad. IPv6, evinizde ve İnternet'teki diğer konumlarınız arasında, 2012'de sevdiğiniz gibi etkileşime girmeden, İnternet bağlantısının seviyesini korumanıza yardımcı olacaktır."
 
 #: "faq_whyipv6.html"
 msgid "The promise is the ability to give every device in your house a reachable network address. Each house will have practically unlimited network addresses (2<sup>64</sup> if you're curious - about 18 billion billions). Each house may potentially have more than that, particularly if they have the need for multiple networks within the home. Many ISPs will be able to easy give you 256 of those networks. <em>Running out of IPv6 address space will seem impossible for decades.</em>"
-msgstr ""
+msgstr "Söz, evinizdeki her cihaza erişilebilir bir ağ adresi verme becerisidir. Her ev neredeyse sınırsız ağ adresine sahip olacak ( merak ediyorsanız 2 <sup> 64 </ sup> - yaklaşık 18 milyar milyarlarca). Her evde, özellikle evde birden çok şebekeye ihtiyaç duyulması halinde, bundan daha fazlasına sahip olabilir. Çoğu İSS size bu ağlardan 256'sı kolaylıkla verebilecek. <em> IPv6 adres alanından kaçmak, onlarca yıldır imkansız gibi görünüyor. </ em>"
 
 #: "faq_whyipv6.html"
 msgid "Applications to take advantage of this are just now being thought of. Imagine having all of your home electronics accessible from work or from your mobile phone. You could watch your TV recorder, or the security camera. You could check the fridge, perhaps start the oven timer. Maybe turn on the air conditioning or the heater when you know you're coming home early. All of these *can* be done today, but are cumbersome with IPv4 if you're using a single IPv4 address today. And, very difficult in the future, with where IPv4 is heading next."
-msgstr ""
+msgstr "Bunun avantajlarından yararlanmak için başvurular şu anda düşünülüyor. Tüm ev elektroniklerinizi iş yerinde veya cep telefonunuzdan erişebildiğinizi düşünün. TV kaydedicinizi veya güvenlik kamerasını izleyebilirsiniz. Buzdolabını kontrol edebilir, belki fırın zamanlayıcısını başlatabilirsin. Belki erken eve döndüğünüzü bildiğiniz zaman klima veya ısıtıcıyı açın. Bunların hepsi bugün yapılabilir, ancak bugün tek bir IPv4 adresi kullanıyorsanız IPv4'le hantaldır. Ve gelecekte IPv4'in nereye ilerleyeceği çok zor."
 
 #: "faq_whyipv6.html"
 msgid "What Is Wrong with IPv4"
-msgstr ""
+msgstr "IPv4 ile Ne Yanılıyor"
 
 #: "faq_whyipv6.html"
 msgid "The traditional IPv4 Internet is running out of space. The IANA registry (at the global level) is either just about out, or totally out, depending on when you read this. They are expected to announce this depletion Janaury or February 2011."
-msgstr ""
+msgstr "Geleneksel IPv4 İnternet alanı doluyor. IANA kayıt defteri (küresel düzeyde), bunu okuduğunuza bağlı olarak ya dışarı ya da tamamen dışarıdadır. Onların bu tükenme Janaury'yi veya Şubat 2011'i açıklamaları bekleniyor."
 
 #: "faq_whyipv6.html"
 msgid "As Internet service providers each run out of the space they have been allocated, they will have to find creative ways to help keep taking on new customers. Those customers will still need access to the IPv4 Internet."
-msgstr ""
+msgstr "İnternet servis sağlayıcılarının her biri tahsis ettikleri alanın bittiğinde, yeni müşterilere ayak uydurmaya yardımcı olmak için yaratıcı yollar bulmak zorunda kalacaklardır. Bu müşteriler hala IPv4 Internet erişimine ihtiyaç duyacaktır."
 
 #: "faq_whyipv6.html"
 msgid "Q: I heard there are millions of addresses left. Take it back from the companies not using it! Use the Class E space! (etc)."
-msgstr ""
+msgstr "S: Milyonlarca adres kaldığını duydum. Onu kullanmayan şirketlerden geri al! Sınıf E alanını kullanın! (vb)."
 
 #: "faq_whyipv6.html"
 msgid "Those have been looked at. The space is relatively small, given the rate that the world is consuming it now. Forcefully taking back space would require more time in the court systems than it would buy back. Other currently reserved space is too difficult to use - it would require replacing most of the routers in the world to do so."
-msgstr ""
+msgstr "Onlara baktılar. Dünya, şu anda onu tüketme oranı göz önüne alındığında, alan nispeten küçük. Alanı zorunlu olarak geri almak mahkeme sistemlerinde geri satın alacağından daha fazla zaman gerektirir. Şu anda ayrılmış olan diğer alanlar çok zordur - bunu yapmak için dünyanın birçok yönlendiricisinin değiştirilmesi gerekecektir."
 
 #: "faq_whyipv6.html"
 msgid "Q: What creative ways will ISPs keep IPv4 running?"
-msgstr ""
+msgstr "S: ISS'ler, IPv4'ü nasıl çalışacak tutmak için yaratıcı yollar olacak?"
 
 #: "faq_whyipv6.html"
 msgid "Most commonly, some form of NAT. NAT is a form of address sharing; think of it as a party line from the earlier days of the telephone. You'll be able to make outgoing connections easy enough, as long as your shared IP address is not too busy."
-msgstr ""
+msgstr "Çoğu zaman, NAT'ın bazı biçimleri. NAT, adres paylaşımının bir biçimidir; telefonun önceki günlerinden bir parti çizgisi olarak düşünün. Paylaşılan IP adresiniz çok meşgul olmadığı sürece giden bağlantıları kolaylaştırabilirsiniz."
 
 #: "faq_whyipv6.html"
 msgid "Note this is in addition to any NAT you do at home."
-msgstr ""
+msgstr "Bunun evdeki herhangi bir NAT'a ek olarak olduğunu unutmayın."
 
 #: "faq_whyipv6.html"
 msgid "Q: So, why worry? NAT will work, right? I use NAT at home today after all.."
-msgstr ""
+msgstr "S: Peki, neden endişeleniyorsun? NAT çalışacak, değil mi? Her şeyden evde NAT'ı evde kullanıyorum.."
 
 #: "faq_whyipv6.html"
 msgid "Sort of. Basic web browsing should be OK for most sites. Some map sites, the itunes store, and other sites that use a <em>huge</em> number of connections to rapidly load the page, may start showing blank images, depending on how many people share that public IP address."
-msgstr ""
+msgstr "Birazca. Çoğu web sitesinde temel web tarama işlemi tamam olmalıdır. Sayfayı hızla yüklemek için bir dizi <em> büyük </ em> bağlantı kullanan bazı harita siteleri, itunes mağazası ve diğer siteler, bu genel IP adresini kaç kişinin paylaştığına bağlı olarak boş resimler görüntülemeye başlayabilir."
 
 #: "faq_whyipv6.html"
 msgid "Mail will still work, both traditional as well as web based."
-msgstr ""
+msgstr "Mail, hem geleneksel hem de web tabanlı olarak hala çalışacaktır."
 
 #: "faq_whyipv6.html"
 msgid "Q: What will break when ISPs NAT their customers?"
-msgstr ""
+msgstr "S: İSS'ler müşterilerine ulaştığında ne gibi aksamalar olacak?"
 
 #: "faq_whyipv6.html"
 msgid "When web sites have to block abusers, they often block the IP address the abuse came from. If you are sharing your IP address with 1000 other broadband customers, if *any* of them trigger a block, you will be blocked too. Your ISP is not likely to be able to assist in fixing this."
-msgstr ""
+msgstr "Web siteleri istismar eden kişileri engellemek zorunda kaldıklarında, istismarın geldiği IP adresini sık sık engellerler. IP adresinizi diğer 1000 genişbant müşterisiyle paylaşıyorsanız, * herhangi * bir blok devreye sokarsa, siz de engellenirsiniz. İSS'nizin bu sorunu çözmede yardımcı olması muhtemel değildir."
 
 #: "faq_whyipv6.html"
 msgid "Running servers at home will break, unless you arrange to pay for a static IP address. Assuming the ISP is able to offer this at all, we expect the price for this to go up over the coming years. Some ISPs may be able to offer you a port forward on a static IP on an odd port number - but not the whole IP address"
-msgstr ""
+msgstr "Statik bir IP adresi için ödeme yapmadığınız sürece sunucuları evde çalıştırmak kesilecektir. ISP'nin bu hizmeti herkese sunabileceğini varsayarsak, bunun fiyatının önümüzdeki yıllarda yükselmesini bekliyoruz. Bazı ISS'ler, tek bir port numarasında statik bir IP üzerinde ileri bir bağlantı noktası sunabilir - ancak tüm IP adresi değil"
 
 #: "faq_whyipv6.html"
 msgid "Running p2p applications will likely break. <b>This includes things like voice and video chat, video games, and yes - even those legal BitTorrent clients.</b> Some ISPs may handle this better than others, and some applications may handle this better than others, but there will be a lot of road bumps over all on this."
-msgstr ""
+msgstr "P2P uygulamalarını çalıştırmak muhtemelen kırılacaktır. <b> Bu, sesli ve görüntülü sohbet, video oyunları ve evet - hatta yasal BitTorrent istemcileri gibi şeyleri içerir. </ b> Bazı ISS'ler bu konuyu diğerlerinden daha iyi işleyebilir ve bazı uygulamalar bu konuyu diğerlerinden daha iyi işleyebilir, ancak bu konuyla ilgili çok sayıda yol darbesi olacaktır."
 
-#: "faq_whyipv6.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Web sites that today automatically show you your local weather, news, and movies may no longer be able to locate you using your IPv4 address; you'll have to tell the web sites where in the world you are"
-msgstr ""
+msgstr "Günümüzde otomatik olarak yerel hava durumunuzu, haberlerinizi ve filmlerinizi gösteren web siteleri sizi IPv4 adresinizi kullanarak bulamaz; dünyanın neresinde olduğunuzu web sitelerine söylemek zorundasınız"
 
 #: "faq_whyipv6.html"
 msgid "Q: Do I have to give up IPv4, to go IPv6?"
-msgstr ""
+msgstr "S: IPv6'ya gitmek için IPv4' vazgeçmeli miyim?"
 
 #: "faq_whyipv6.html"
 msgid "No. They can co-exist. Most ISPs will continue to offer some form of IPv4 (most NAT'd) while offering IPv6. So you can reach the web sites that are still IPv4 only."
-msgstr ""
+msgstr "Hayır, birlikte çalışabilirler. Çoğu İSS, IPv6 sunarken bir şekilde IPv4'ten (çoğu NAT'dan) teklif vermeye devam edecektir. Böylece sadece IPv4 olan web sitelerine ulaşabilirsiniz."
 
 #: "faq_whyipv6.html"
 msgid "Q: When is the cutoff date for switching?"
-msgstr ""
+msgstr "S: Değiştirme tarihi ne zaman?"
 
 #: "faq_whyipv6.html"
 msgid "Most service providers will keep existing IPv4 users on the same service they have now. Only when they change services will they be forced to share a public address with other residences. Either way, you'll still have IPv4 available for years to come, in most markets."
-msgstr ""
+msgstr "Servis sağlayıcıların çoğu mevcut IPv4 kullanıcılarını sahip oldukları hizmette kalmaya devam edecektir. Ancak hizmetleri değiştirdiklerinde, diğer konutlarla ortak bir adres paylaşmaya zorlanırlar. Her iki durumda da, çoğu pazarda önümüzde ki yıllar için hala IPv4 kullanımınıza sahip olacaksınız."
 
 #: "faq_whyipv6.html"
 msgid "As such, there is no hard cutoff date. Just be aware that IPv4 will start working less well over time."
-msgstr ""
+msgstr "Bu nedenle, kesilme tarihi yoktur. IPv4'ün zamanla daha iyi çalışmaya başlayacağını unutmayın."
 
 #: "faq_whyipv6.html"
 msgid "Q: Will I have to replace my OS?"
@@ -2256,203 +2257,203 @@ msgstr "S: İşletim Sistemimi değiştirmek zorunda kalacak mıyım?"
 
 #: "faq_whyipv6.html"
 msgid "Windows Vista, Windows 7: You're good to go. XP users: It can be made to work, but it really is time to consider upgrading. Win98 and Win2000 users have no path to IPv6."
-msgstr ""
+msgstr "Windows Vista, Windows 7: Gitmek güzel. XP kullanıcıları: Çalışmak mümkündür, ancak güncellemeyi düşünmenin tam zamanıdır. Win98 ve Win2000 kullanıcılarının IPv6'ya giden yolları yoktur."
 
 #: "faq_whyipv6.html"
 msgid "Mac OS X: All supported versions of OS X (since Tiger, 10.4) have IPv6."
-msgstr ""
+msgstr "Mac OS X: OS X'in tüm desteklenen sürümleri (Tiger, 10.4'ten beri), IPv6'ya sahiptir."
 
 #: "faq_whyipv6.html"
 msgid "Linux, BSD, and other unix like systems generally all have IPv6."
-msgstr ""
+msgstr "Linux, BSD ve benzeri diğer unix sistemleri genelde hepsinin IPv6'sı vardır."
 
 #: "faq_whyipv6.html"
 msgid "Q: Will I have to replace my hardware?"
-msgstr ""
+msgstr "S: Donanımımı değiştirmek zorunda kalacak mıyım?"
 
 #: "faq_whyipv6.html"
 msgid "Your PC: Only if the OS upgrade you do requires it."
-msgstr ""
+msgstr "PC'niz: Yalnızca yaptığınız OS güncellemesi gerekiyorsa."
 
 #: "faq_whyipv6.html"
 msgid "Your ethernet switch / hub: No. It is unaware of IP; it works at a lower level on the local network."
-msgstr ""
+msgstr "Ethernet anahtar / hub: Hayır. IP'den habersiz; yerel ağda daha düşük bir seviyede çalışır."
 
-#: "faq_whyipv6.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Your router: Quite possibly. Many home routers have no upgrade path for IPv6. Do a web search for your router mode, with the keyword \"ipv6\" with it."
-msgstr ""
+msgstr "Yönelticiniz: Muhtemelen. Pek çok ev yönlendiricisinin IPv6 için yükseltme yolu yoktur. Yönlendirici modunuz için \"ipv6\" anahtar kelimesini içeren bir web araması yapın."
 
 #: "faq_whyipv6.html"
 msgid "Your router: Quite possibly. Many home routers have no upgrade path for IPv6. Do a web search for your router model, with the keyword \"ipv6\" with it."
-msgstr ""
+msgstr "Yönelticiniz: Pek çok ev yönlendiricisinin IPv6 için muhtemelen yükseltme yolu yoktur. Yönlendirici modeliniz için \"IPv6\" anahtar kelimsesini içeren bir web araması yapın."
 
 #: "faq_whyipv6.html"
 msgid "<b>What router to buy:</b> Wait until your ISP gives you guidance on what will work best with their system. If you must replace your router immediately, look for ones that are IPv6 capable. Apple Airport Express and Airport Extreme have built in tunneling capabilities. OpenWRT capable routers also do (when loaded with the OpenWRT firmware). If you do consider tunnels, see my <a href=\"#\" onclick=\"return help_page('faq_6to4.html','6to4')\">6to4 comments</a>."
-msgstr ""
+msgstr "<b> Hangi yönlendiriciyi satın alacaksınız: </ b> İSS'niz size sistemiyle en iyi neyin işe yarayacağına dair size yol gösterecek kadar bekleyiniz. Yönlendiricinizi derhal değiştirmeniz gerekiyorsa, IPv6 yeteneğine sahip olanları arayınız. Apple Airport Express ve Airport Extreme, tünel oluşturma yetenekleri içeriyor. OpenWRT özellikli yönlendiriciler de (OpenWRT sabit yazılımı ile yüklendiğinde) yapar. Tüneller düşünürseniz, <a href=\"#\" onclick=\"return help_page('faq_6to4.html','6to4')\"> 6to4 yorumlarımı </a> görün."
 
 #: "faq_pmtud.html"
 msgid "This will attempt to explain why you may have PMTUD problems when using test-ipv6.com; and possible solutions. Unfortunately, it is beyond the ability of this site to be able to clearly articulate *your* specific problem."
-msgstr ""
+msgstr "Bu, test-ipv6.com'u kullanırken neden PMTUD sorunlarınız olabileceğini açıklamaya çalışacaktır; ve olası çözümler. Maalesef, bu sitenin spesifik probleminizi açıkça ifade edebilme kapasitesinin ötesinde."
 
 #: "faq_pmtud.html"
 msgid "Q: What is Path MTU Discovery (or PMTUD)"
-msgstr ""
+msgstr "S: Path MTU Discovery (veya PMTUD) nedir"
 
 #: "faq_pmtud.html"
 msgid "PMTUD is a mechanism used on the Internet that tells your computer the maximum size of the packets that should be sent for a given destination. How this works: Your host will send a possibly large packet; with the packet marked \"Do Not Fragment\". When the packet reaches a router that can't forward this packet, due to size, it sends back a response saying \"Too big! Try this size instead.\""
-msgstr ""
+msgstr "PMTUD, belirli bir hedef için gönderilmesi gereken paketlerin maksimum boyutunu bilgisayarınıza söyleyen İnternette kullanılan bir mekanizmadır. Nasıl çalışır: Ev sahibi muhtemelen büyük bir paket gönderir; paket \"Parçalanmama\" olarak işaretlenir. Paket, boyutu nedeniyle bu paketi iletemeyen bir yönlendiriciye ulaştığında, \"Çok büyük! Bunun yerine bu boyutu deneyin\" yanıtını geri gönderir"
 
 #: "faq_pmtud.html"
 msgid "Q: How does this relate to IPv6?"
-msgstr ""
+msgstr "S: Bu IPv6 ile ne alakalı?"
 
 #: "faq_pmtud.html"
 msgid "With IPv6, all packets are by definition \"Do Not Fragment\". The responsibility of sending the correct sized packets no longer falls on the router; this is an expensive operation for the router to handle. Instead, the ability to do PMTUD is mandated by the IPv6 specification."
-msgstr ""
+msgstr "IPv6 ile, tüm paketler tanım gereği \"Parçalara Ayırmayın\". Doğru boyutlu paketlerin gönderilmesi sorumluluğu artık yönlendiricide düşmemektedir; bu, yönlendiricinin işleyeceği pahalı bir işlemdir. Bunun yerine PMTUD'u yapma olanağı, IPv6 şartnamesi tarafından zorunlu kılınmıştır."
 
 #: "faq_pmtud.html"
 msgid "Q: What does the firewall need to allow?"
-msgstr ""
+msgstr "S: Güvenlik duvarına ne izni vermelidir?"
 
 #: "faq_pmtud.html"
 msgid "IPv6 firewalls <b>need</b> to permit ICMPv6, type 2 (Packet Too Big) to work correctly with the public Internet. If you are implementing the IPv6 firewall for your web site, your enterprise, or other organization, please permit this specific ICMPv6 message, even if you by default block other types of ICMP."
-msgstr ""
+msgstr "IPv6 güvenlik duvarları, ICMPv6'ya izin vermek için <b> ihtiyaç duyar </ b>, genel İnternet'le doğru şekilde çalışmak için 2 (Paket Çok Büyük) yazın. Web siteniz, kuruluşunuz veya başka bir kuruluşunuz için IPv6 güvenlik duvarı uyguluyorsanız, lütfen varsayılan olarak bu ICMPv6 mesajını diğer ICMP türlerini engelleyecekseniz de izin verin."
 
 #: "faq_pmtud.html"
 msgid "Q: What else can cause PMTUD failures?"
-msgstr ""
+msgstr "S: PMTUD hatalarına neden olan başka neler olabilir?"
 
 #: "faq_pmtud.html"
 msgid "Tunnels inside of tunnels. One might be your own; the other, you may not see. Internet service providers often use tunnels either to simplify their topology; to hide it; or to transport things in a more convenient way. However, each tunnel used requires adding a bit of a header to the top of the packet - making the packet bigger. The problem lies in that routers have a maximum size packet they will route."
-msgstr ""
+msgstr "Tünellerin içindeki tüneller. Bunlardan biri kendi olabilir; diğeri, göremeyebilirsiniz. İnternet servis sağlayıcıları genellikle topolojilerini basitleştirmek için tünelleri kullanır; onu gizlemek; ya da eşyaları daha kolay bir şekilde nakletmek için. Bununla birlikte, kullanılan her tünel, paketin üst kısmına biraz başlık eklemeyi - paketin daha büyük olmasını gerektirir. Sorun, yönlendiricilerin yönlendikleri maksimum boyuta sahip bir pakete sahip olmalarıdır."
 
 #: "faq_pmtud.html"
 msgid "This is what it looks like when you use 6to4, 6in4, Teredo, and other types of tunnels:"
-msgstr ""
+msgstr "6to4, 6in4, Teredo ve diğer tünel tiplerini kullandığınızda şöyle görünür:"
 
-#: "faq_pmtud.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Your router will automatically add an IPv4 header to the top of your packet. This same router will let your computer know if the packet is going to be too big; your computer will (as long as it gets the ICMPv6 \"Packet Too Big\" message) resend the packet, at a smaller size recommended by your router. A router near the web site, will automatically remove the IPv4 header, and forward the IPv6 peice."
-msgstr ""
+msgstr "Yönlendiriciniz, paketinizin üst kısmına otomatik olarak bir IPv4 başlığı ekleyecektir. Bu aynı yönlendirici, bilgisayarınızın paketin çok büyük olup olmayacağını bilmesine izin verir; bilgisayarınız (ICMPv6 \"Packet Too Big\" mesajı alır almaz) paketinizi, yönlendiricinizin önerdiği daha küçük bir boyutla yeniden gönderecektir. Web sitesinin yakınında bir yönlendirici, otomatik olarak IPv4 üstbilgisini kaldırır ve IPv6'yı iletir."
 
 #: "faq_pmtud.html"
 msgid "This is like putting a letter in an envelope, inside another envelope for someone else to forward on. There may be a maximum size or weight limit for your postage stamp. Tunneling is conceptually the same."
-msgstr ""
+msgstr "Bu, bir zarfın içine bir mektubun yerleştirilmesi, bir başkasının ilerlemesi için başka bir zarfın içine koyulması gibidir. Posta pulunuz için maksimum boyut veya ağırlık limiti olabilir. Tünel kavramsal olarak aynıdır."
 
 #: "faq_pmtud.html"
 msgid "If any Internet service provider along the way adds their own tunnel, in effect stuffing your package into another envelope, the packet may become too big:"
-msgstr ""
+msgstr "Yol boyunca herhangi bir internet servis sağlayıcısını kendi tüneline ekler, paketinizi başka bir zarfa doldururken, paket çok büyük olabilir:"
 
 #: "faq_pmtud.html"
 msgid "In the above case, the message is now so big, that it can't be forwarded. A \"Packet Too Big\" message will be sent by that router - but it only sees the IPv4 address; not your IPv6 address. Because of this, your computer will never retry with a smaller sized packet, one that might fit when using multiple envelopes."
-msgstr ""
+msgstr "Yukarıdaki mesaj o kadar büyük ki iletilemez. Bu yönlendirici tarafından \"Paket Çok Büyük\" iletisi gönderilecek - ancak yalnızca IPv4 adresini görüyor; sizin IPv6 adresinizi değil Bu nedenle, bilgisayarınız bir daha küçük boyutlu paketle tekrar denemez; bunlardan biri birden çok zarf kullanırken sığabilir."
 
 #: "faq_pmtud.html"
 msgid "What does this look like on the network?"
-msgstr ""
+msgstr "Bu ağdaki neye benziyor?"
 
 #: "faq_pmtud.html"
 msgid "(What does tcpdump show?)"
-msgstr ""
+msgstr "(Tcdump ne gösterir?)"
 
 #: "faq_pmtud.html"
 msgid "This is what tcpdump will show.."
-msgstr ""
+msgstr "Tcdump'ın göstereceği şey budur.."
 
 #: "faq_pmtud.html"
 msgid "This is what I ran to generate the packets."
-msgstr ""
+msgstr "Paketleri oluşturmak için koştuğum şey buydu."
 
 #: "faq_pmtud.html"
 msgid "What can I do?"
-msgstr ""
+msgstr "Ne yapabilirim?"
 
 #: "faq_pmtud.html"
 msgid "This is a complex question - there are many ways to get on the Internet."
-msgstr ""
+msgstr "Bu karmaşık bir sorudur - İnternette birçok yolu var."
 
 #: "faq_pmtud.html"
 msgid "The preferred fix is to permit ICMPv6 Type 2 Packet Too Big messages."
-msgstr ""
+msgstr "Tercih edilen düzeltme, ICMPv6 Tip 2 paketi çok büyük iletilere izin vermektedir."
 
 #: "faq_pmtud.html"
 msgid "Your router or firewall may be blocking these."
-msgstr ""
+msgstr "Yönelticiniz veya güvenlik duvarınız bunları engelleyebilir."
 
 #: "faq_pmtud.html"
 msgid "If you have \"native\" IPv6, meaning your ISP gave you your IPv6 connectivity, and you are still running into MTU problems, see if your router can advertise a smaller IPv6 MTU. Alternately, configure your <b>entire LAN</b> for a smaller MTU (not really advised!)"
-msgstr ""
+msgstr "\"Yerli\" IPv6'ya sahipseniz, ISP'nizin IPv6 bağlantınızı sağladığı ve MTU sorunlarıyla karşılaştığınız halde, yönlendiricinizin daha küçük bir IPv6 MTU'yu tanıtabileceğine bakın. Alternatif olarak, <b>entire LAN</ b> daha küçük bir MTU için yapılandırın (gerçekten önerilmez!)"
 
 #: "faq_pmtud.html"
 msgid "If your router provides IPv6 for you, see if you can configure a smaller MTU to be advertising with (perhaps) RADVD."
-msgstr ""
+msgstr "Yönlendiriciniz sizin için IPv6'yı sağlıyorsa, küçük bir MTU'yu (belki de) RADVD ile reklam verecek şekilde yapılandırabilir miyiz bakın."
 
 #: "faq_pmtud.html"
 msgid "Apple Airport routers: Automatically send ICMPv6 redirects to your hosts, telling them to reduce the path MTU to 1280."
-msgstr ""
+msgstr "Apple Airport yönlendiricileri: Ana bilgisayarınıza ICMPv6 yönlendirmelerini otomatik olarak göndererek yol MTU'yu 1280'e düşürmesini söyledi."
 
 #: "faq_pmtud.html"
 msgid "DD-WRT routers: Looks like you need to use \"AdvLinkMTU 1280;\" on your wireless side; and make sure the tun6to4 mtu is set to 1280."
-msgstr ""
+msgstr "DD-WRT yönlendiricileri: \"AdvLinkMTU 1280;\" kullanmanız gerektiği ablaşılıyor. Kablosuz ağ tarafında; tun6to4 mtu değerinin 1280 olarak ayarlandığından emin olun."
 
 #: "faq_pmtud.html"
 msgid "Routers based on Linux, BSD, and (presumably) Mac: Set your 6to4 interface to MTU 1280. Configure radvd.conf's interface config with \"AdvLinkMTU 1280\"."
-msgstr ""
+msgstr "Linux, BSD ve (muhtemelen) Mac tabanlı yönlendiriciler: 6to4 arabirimini MTU 1280 olarak ayarlayın. Radvd.conf'ın arabirim yapılandırmasını \"AdvLinkMTU 1280\" ile yapılandırın."
 
 #: "faq_pmtud.html"
 msgid "If you run \"6to4\" on your computer instead (not the router):"
-msgstr ""
+msgstr "Bunun yerine bilgisayarınızda \"6to4\" çalıştırırsanız (yönlendirici değil):"
 
 #: "faq_pmtud.html"
 msgid "Linux, BSD, and (presumably) Mac: Set your 6to4 interface to MTU 1280. If you are running radvd, set \"AdvLinkMTU 1280\" in your interface radvd.conf ."
-msgstr ""
+msgstr "Linux, BSD, (muhtemelen) Mac: 6to4 arabirimini MTU 1280'e ayarlayın.Radvd kullanıyorsanız, radvd.conf arabiriminde \"AdvLinkMTU 1280\" ayarlayın."
 
 #: "faq_pmtud.html"
 msgid "Windows: If you figure this out, please share with jfesler@test-ipv6.com to add to this site. Presumably: control panel, network adapters, properties, 6"
-msgstr ""
+msgstr "Windows: Bunu çözerseniz, lütfen bu siteye eklemek için jfesler@test-ipv6.com ile paylaşın. Muhtemelen: kontrol paneli, ağ adaptörleri, özellikleri, 6"
 
 #: "faq_pmtud.html"
 msgid "<b>If you are not covered by the above, do a web search.</b>. As you learn what fixes your particular circumstances, please share with jfesler@test-ipv6.com to add to this site. Your contribution will be appreciated by others!"
-msgstr ""
+msgstr "<b>Yukarıda belirtilenler kapsamında değilseniz, bir web araması yapın. </b>. Özel durumunuzu düzelten şeyleri öğrenirken, lütfen bu siteye eklemek için jfesler@test-ipv6.com ile paylaşın. Katkınız başkaları tarafından takdir edilecektir!"
 
 #: "attributions.html"
 msgid "This site would not exist without the following components and resources."
-msgstr ""
+msgstr "Bu site aşağıdaki bileşenler ve kaynaklar olmadan mevcut olamazdı."
 
 #: "faq_buggydns1.html"
 msgid "FAQ on \"Buggy DNS\""
-msgstr ""
+msgstr "\"Buggy DNS\" hakkında SSS"
 
 #: "faq_buggydns1.html"
 msgid "If you were referred to this page by test-ipv6.com, it means that we were able to detect a dangerous condition with your DNS server."
-msgstr ""
+msgstr "Bu sayfaya test-ipv6.com tarafından yönlendirildiyseniz, DNS sunucunuzla tehlikeli bir durum tespit edebildiğimiz anlamına gelir."
 
 #: "faq_buggydns1.html"
 msgid "First a description of the problem:"
-msgstr ""
+msgstr "Önce sorunun açıklaması:"
 
 #: "faq_buggydns1.html"
 msgid "Your browser asked for a DNS lookup, both IPv4 and IPv6."
-msgstr ""
+msgstr "Tarayıcınız hem IPv4 hem de IPv6 DNS araması istedi."
 
 #: "faq_buggydns1.html"
 msgid "The IPv6 response was returned first."
-msgstr ""
+msgstr "Önce IPv6 yanıtı iade edildi."
 
 #: "faq_buggydns1.html"
 msgid "Your DNS server was confused by the result - it doesn't fully follow the DNS standards."
-msgstr ""
+msgstr "DNS sunucunuz sonuçtan dolayı karıştı: DNS standartlarını tam olarak uyguladığından karışmadı."
 
 #: "faq_buggydns1.html"
 msgid "Your DNS server took the first piece of the IPV6 address, and memorized it as the IPv4 address."
-msgstr ""
+msgstr "DNS sunucunuz IPV6 adresinin ilk parçasını aldı ve IPv4 adresi olarak aklında tuttu."
 
 #: "faq_buggydns1.html"
 msgid "The browser fails the IPv6 lookup, but \"succeeds\" in getting a bogus IPv4 address."
-msgstr ""
+msgstr "Tarayıcı IPv6 aramasını başaramıyor, ancak sahte bir IPv4 adresi elde etmeyi \"başarıyor\"."
 
 #: "faq_buggydns1.html"
 msgid "It then tries to make a connecting, to the wrong address, with the wrong protocol."
-msgstr ""
+msgstr "Ardından yanlış adrese yanlış protokol ile bağlantı kurmaya çalışır."
 
 #: "faq_buggydns1.html"
 msgid "This is bad for several reasons:"
@@ -2460,35 +2461,35 @@ msgstr "Bu çeşitli nedenlerden dolayı kötüdür:"
 
 #: "faq_buggydns1.html"
 msgid "You won't be able to connect to IPv6-only sites."
-msgstr ""
+msgstr "Yaknızca IPv6'ya bağlı sitelere bağlanamazsınız."
 
 #: "faq_buggydns1.html"
 msgid "You may sporadically fail (or always fail) to connect to IPv6-enabled web sites. This is regardless of whether you are capable IPv6 or not - you may still be impacted."
-msgstr ""
+msgstr "Genelde IPv6 etkinleştirilmiş web sitelerine başarıyla bağlanamıyo olabilirsiniz (veya hiç bir zaman bağlanamayabilirsiniz). Bu, IPv6 yeteneğine sahip olup olmadığınızla alakalı değildir - yine de etkilenmiş olabilirsiniz."
 
 #: "faq_buggydns1.html"
 msgid "So, what is actually affected?"
-msgstr ""
+msgstr "Peki, aslında neyin etkisi var?"
 
 #: "faq_buggydns1.html"
 msgid "You'll need to determine what device is forwarding your DNS queries."
-msgstr ""
+msgstr "Hangi cihazın DNS sorgularınızı yönlendirmekte olduğunu belirlemelisiniz."
 
 #: "faq_buggydns1.html"
 msgid "With Windows, at the <code>cmd</code> prompt, you can type <code>ipconfig /all</code>. Look for \"<code>DNS Servers</code>\"."
-msgstr ""
+msgstr "Windows'ta, <code> cmd </code> isteminde, <code> ipconfig / all </code> yazabilirsiniz. \" <code> DNS Servers </code> \" arayın."
 
 #: "faq_buggydns1.html"
 msgid "With Linux, BSD, and Mac OS X, you can do this in a terminal: <code>cat /etc/resolv.conf</code>."
-msgstr ""
+msgstr "Linux, BSD ve Mac OS X ile bunu bir terminalde yapabilirsiniz: <code> cat /etc/resolv.conf </code>."
 
 #: "faq_buggydns1.html"
 msgid "Residential ISP customers: look to see if the DNS server is <b>192.168.0.1</b> or <b>192.168.1.1</b>. If so, chances are good that your home router is at fault. This is probably the blue box you have that connects the Internet."
-msgstr ""
+msgstr "Konut ISS müşterileri: DNS olmadığını görmek için <b> 192.168.0.1 </ b> veya <b> 192.168.1.1 </ b> sunucuya bakar. Öyleyse, ev yönlendiricinizin arızalı olması ihtimali yüksektir. Muhtemelen, İnternet'i bağlayan kutu mavidir."
 
 #: "faq_buggydns1.html"
 msgid "Business customers: Provide this information to your IT professional to investigate."
-msgstr ""
+msgstr "İşletme müşterileri: Bu bilgiyi, araştırmanız için BT uzmanınıza danışın."
 
 #: "faq_buggydns1.html"
 msgid "IT professionals:"
@@ -2496,11 +2497,11 @@ msgstr "Bilişim Teknolojileri uzmanları:"
 
 #: "faq_buggydns1.html"
 msgid "You can see an illustration of this, by doing:"
-msgstr ""
+msgstr "Bunu yaparak şunları gösteren bir illüstrasyon görebilirsiniz:"
 
 #: "faq_buggydns1.html"
 msgid "Substitute the 192.168.1.1 with the resolver being used by the host. If the \"aaaa\" request comes back with no answer, but the \"a\" answer does, this is a confirmation of a broken DNS cache or forwarder. The actual DNS information for buggydns1.test-ipv6.com has only an IPv6 record configured."
-msgstr ""
+msgstr "192.168.1.1'i, ev sahibi tarafından kullanılan çözücü ile değiştirin. \"Aaaa\" isteği yanıtlanmaz, ancak \"a\" yanıtını verirse, bozuk bir DNS önbelleğinin veya ileticiden bir onay gelir. Buggydns1.test-ipv6.com için gerçek DNS bilgileri yalnızca yapılandırılmış bir IPv6 kaydı vardır."
 
 #: "faq_avoids_ipv6.html"
 msgid "Your browser is avoiding IPv6."
@@ -2520,19 +2521,19 @@ msgstr "Bu bizi neden endişelendiriyor"
 
 #: "faq_avoids_ipv6.html"
 msgid "This document explains why we worry when IPv4 is preferred over IPv6."
-msgstr ""
+msgstr "Bu belge, IPv4'ün IPv6 üzerinde tercih edildiğinde neden endişe edeceğimizi açıklamaktadır."
 
 #: "faq_avoids_ipv6.html"
 msgid "This section applies only when we offered to show you this page from inside the test."
-msgstr ""
+msgstr "Bu bölüm, yalnızca bu sayfayı testin içinden göstermeyi teklif ettiğimizde geçerlidir."
 
 #: "faq_avoids_ipv6.html"
 msgid "First of all, we detected you had a working IPv6 connection. We also found that your IPv6 connection, was using a \"real\" IPv6 address; meaning not a Teredo or a 6to4 address."
-msgstr ""
+msgstr "Öncelikle, çalıştığınız IPv6 bağlantısının bulunduğunu tespit ettik. Ayrıca, IPv6 bağlantınızın \"gerçek\" bir IPv6 adresi kullandığını gördük; Teredo ya da 6to4 adresini değil."
 
 #: "faq_avoids_ipv6.html"
 msgid "Second, we detected that when given the choice, your browser decided it would prefer to use IPv4 instead of IPv6. This has some concerns for us."
-msgstr ""
+msgstr "İkinci olarak, seçim yapıldığında tarayıcınızın IPv6 yerine IPv4 kullanmayı tercih ettiğine karar verdi. Bunun bizim için bazı endişeleri var."
 
 #: "faq_avoids_ipv6.html"
 msgid "Causes for preferring IPv4"
@@ -2540,11 +2541,11 @@ msgstr "IPv4'ü tercih nedenleri"
 
 #: "faq_avoids_ipv6.html"
 msgid "There are several possible reasons why a browser might prefer IPv4 instead of IPv6."
-msgstr ""
+msgstr "Tarayıcının IPv6 yerine IPv4'ü tercih etmesinin birkaç olası nedeni vardır."
 
 #: "faq_avoids_ipv6.html"
 msgid "Google's \"Chrome\" has a \"fast fallback\" mechanism. On the first try to a site, it will prefer IPv6. If connections take longer than a third of a second, IPv4 is attempted in parallel; and the better of the two will be used for that site."
-msgstr ""
+msgstr "Google'ın \"Chrome\" da \"hızlı geri dönüş\" mekanizması var. İlk önce bir siteyi denemek IPv6'yı tercih eder. Bağlantılar saniyenin üçte birinden daha uzun sürerse, IPv4 paralel olarak denenir; ve bu siteler için ikisinin en iyisi kullanılacaktır."
 
 #: "faq_avoids_ipv6.html"
 msgid "(more info)"
@@ -2552,111 +2553,111 @@ msgstr "(daha fazla bilgi)"
 
 #: "faq_avoids_ipv6.html"
 msgid "Firefox (recent builds) does the same as Chrome."
-msgstr ""
+msgstr "Firefox (son yapılar), Chrome ile aynı işi görür."
 
 #: "faq_avoids_ipv6.html"
 msgid "The latest Windows 7 and Windows 8 updates will periodically test to see if IPv6 works. If the health check fails, then many applications (including Internet Explorer) will use IPv4, to insulate you from any local IPv6 misconfiguration."
-msgstr ""
+msgstr "En yeni Windows 7 ve Windows 8 güncelleştirmeleri düzenli olarak IPv6'nın çalışıp çalışmadığını test eder. Sağlık denetimi başarısız olursa, birçok uygulama (Internet Explorer da dahil olmak üzere), herhangi bir yerel IPv6 yanlış yapılandırmasını engellemek için IPv4 kullanır."
 
 #: "faq_avoids_ipv6.html"
 msgid "Apple's latest Lion and Mountain Lion updates will prefer whichever is \"faster\" for a given destination."
-msgstr ""
+msgstr "Apple'ın en yeni Lion ve Mountain Lion güncellemeleri, belirli bir hedef için Hangisi \"daha hızlı\" olanı tercih edecektir."
 
 #: "faq_avoids_ipv6.html"
 msgid "When you use the Internet, a connection is made between your computer, and the service you're connecting to. To connect, you have to have the other side's IP - Internet Protocol - number. And, when you connect, they see yours, so they can send traffic back to you and your applications."
-msgstr ""
+msgstr "İnternet'i kullandığınızda, bilgisayarınız ile bağlanmakta olduğunuz servis arasında bir bağlantı kurulur. Bağlanmak için, karşı tarafın IP - Internet Protokolü numarası olmalıdır. Ve bağladığınızda, sizinkini görürler, bu nedenle size ve uygulamanıza geri trafik gönderebilirler."
 
 #: "faq_avoids_ipv6.html"
 msgid "The Internet protocol that we've been using for the 1990's and the 2000s, has run out of these unique numbers. We can keep going, but with some limitations, by sharing multiple machines with one number. Often times, we do this at home or at work."
-msgstr ""
+msgstr "1990'lı ve 2000'li yıllarda kullandığımız İnternet protokolü, bu eşsiz sayıları tüketti. Devam edebiliriz, ancak bazı sınırlamalarla, birden fazla makineyi tek bir sayı ile paylaşarak devam edebiliriz. Çoğu zaman, bunu evde veya iş yerinde yaparız."
 
 #: "faq_avoids_ipv6.html"
 msgid "What is changing is that the Internet Service Providers are all facing the fact that they will have to implement this type of address sharing, on a much larger scale. Some buzzwords you may hear: NAT, CGN, Carrier Grade NAT, LSN, Large Scale NAT. They all look something like this:"
-msgstr ""
+msgstr "Değişen şey, İnternet Servis Sağlayıcılarının hepsinin, bu tür bir adres paylaşımını çok daha büyük ölçekte uygulamak zorunda kalacakları gerçeğiyle yüzleşmesidir. Duyabileceğiniz bazı sözler: NAT, CGN, Carrier Grade NAT, LSN, Büyük Ölçekli NAT. Hepsi şöyle bir şey gibi görünüyor:"
 
 #: "faq_avoids_ipv6.html"
 msgid "The thing to watch for here: <b>Many</b> houses sharing one public address."
-msgstr ""
+msgstr "Burada izlenecek şey: <b> Birçok </ b> evlerin ortak bir adres paylaştığı evler."
 
 #: "faq_avoids_ipv6.html"
 msgid "What happens if one of those homes has a bored hacker, or (more likely) a compromised machine owned by someone who doesn't stay up to date, and doesn't run antivirus software? What happens when that machine starts to attack your favorite web sites? What about your banking site?"
-msgstr ""
+msgstr "Bu evlerden birinde sıkıntılı bir bilgisayar korsanlığı veya (muhtemelen) güncel kalmaması ve virüsten koruma yazılımı çalıştırmayan birinin sahip olduğu tehlikeye atılmış bir makine varsa ne olur? Bu makine en sevdiğiniz web sitelerine saldırmaya başladığında ne olur? Bankacılık sitenize ne oldu?"
 
 #: "faq_avoids_ipv6.html"
 msgid "Those sites will have to ultimately protect themselves, by blocking the traffic. Unfortuantely, they only see the shared address, so their blocking it looks like this:"
-msgstr ""
+msgstr "Bu siteler, trafiği engelleyerek sonuçta kendilerini korumak zorunda kalacaklardır. Ne yazık ki, yalnızca paylaşılan adresi görüyorlar, bu nedenle engelleme şu şekilde görünüyor:"
 
 #: "faq_avoids_ipv6.html"
 msgid "This is not a good situation. And the main way to avoid it, is to make sure that your IPv6 is working; and to make sure that IPv6 is the preferred protocol."
-msgstr ""
+msgstr "Bu iyi bir durum değil. Bunu önlemenin başlıca yolu, IPv6'nızın çalıştığından emin olmaktır; ve IPv6'nın tercih edilen protokoldür olduğundan emin olun."
 
 #: "faq_avoids_ipv6.html"
 msgid "Why else should I care about IPv4 being preferred instead of IPv6, when I have both available?"
-msgstr ""
+msgstr "İkisini de kullandığımda, IPv6 yerine tercih edilen IPv4'ün neden önemsemesi gerek?"
 
 #: "faq_avoids_ipv6.html"
 msgid "Sites that determine your location automatically, will get this wrong more frequently when you share an IPv4 address with people in other cities."
-msgstr ""
+msgstr "Konumunuzu otomatik olarak belirleyen siteler, diğer şehirlerdeki insanlarla bir IPv4 adresi paylaştığınızda bu hatayı daha sık alacaktır."
 
 #: "faq_avoids_ipv6.html"
 msgid "The box that shares an address between you and the other hundreds of houses, may become performance constrained (cpu, network, TCP ports)"
-msgstr ""
+msgstr "Siz ve diğer yüzlerce ev arasında bir adresi paylaşan kutu, performans kısıtlı olabilir (CPU, ağ, TCP bağlantı noktası)"
 
 #: "faq_avoids_ipv6.html"
 msgid "The box is a potential central point of failure for your internet access"
-msgstr ""
+msgstr "Kutu, internet erişiminizin potansiyel bir merkezi başarısızlık noktasıdır"
 
 #: "faq_avoids_ipv6.html"
 msgid "Sharing IPv4 addresses is an extra expense for the ISP that they will be passing on to their customers"
-msgstr ""
+msgstr "IPv4 adreslerini paylaşmak, ISS'nin müşterilerine sunacağı ilave bir harcamadır"
 
 #: "inc/tunnel.inc"
 msgid "What is a tunnel?"
-msgstr ""
+msgstr "Tünel nedir?"
 
 #: "inc/tunnel.inc"
 msgid "A tunnel is a technique often used to transport one protocol over another one. For example, it is used by ADSL to transport PPP over ATM (a common technique for several Internet residential subscribers)."
-msgstr ""
+msgstr "Tünel, bir protokolü başka bir protokole aktarmak için sıklıkla kullanılan bir tekniktir. Örneğin, ATM üzerinden PPP'yi taşımak için ADSL tarafından kullanılır (birkaç İnternet konut abonesi için yaygın bir tekniktir)."
 
 #: "inc/tunnel.inc"
 msgid "In the realm of IPv6, tunnels are used to transport:"
-msgstr ""
+msgstr "IPv6 alanında, ulaşım için tüneller kullanılır:"
 
 #: "inc/tunnel.inc"
 msgid "IPv6 packets over IPv4 network: then IPv4-only Internet users can reach the IPv6 Internet;"
-msgstr ""
+msgstr "IPv4 ağı üzerinden IPv6 paketleri: IPv4-yalnızca İnternet kullanıcıları IPv6 İnternet'e erişebilir;"
 
 #: "inc/tunnel.inc"
 msgid "IPv4 packets over IPv6 network: then IPv6-only Internet users can reach the IPv4 Internet."
-msgstr ""
+msgstr "IPv6 ağı üzerinden IPv4 paketleri: daha sonra sadece IPv6 kullanıcıları IPv4 ile Internet'e erişebilirler."
 
 #: "faq_tunnel.html"
 msgid "How did the test detect a tunnel?"
-msgstr ""
+msgstr "Test tüneli nasıl tespit etti?"
 
 #: "faq_tunnel.html"
 msgid "For the technical-oriented readers, here is the explanation how we detect that you are probably using a tunnel. As the test collects your IPv4 and IPv6 addresses, it also collects (thanks to <a href=\"http://www.team-cymru.org/Services/ip-to-asn.html\">http://www.team-cymru.org/Services/ip-to-asn.html</a>) your Autonomous System Numbers (ASN) for IPv4 and IPv6. If your ISP is dual stack, then your IPv4 ASN and your IPv6 ASN should be identical as your IPv4 and IPv6 connectivity are provided by the same ISP."
-msgstr ""
+msgstr "Teknik odaklı okuyucular için muhtemelen bir tünel kullandığınızı nasıl tespit ettiğimizin açıklaması aşağıda verilmektedir. Test, IPv4 ve IPv6 adreslerinizi topladığından da toplar ( <a href=\"http://www.team-cymru.org/Services/ip-to-asn.html\"> http: // www. team-cymru.org/Services/ip-to-asn.html </a> adresinde IPv4 ve IPv6 için Özerk Sistem Numaralarınızı (ASN) seçin. İSS'niz çift yığıtlıysa, IPv4 ASN'niz ve IPv6 ASN'niz aynı olmalı ve IPv4 ve IPv6 bağlantılarınız aynı İSS'den sağlanmaktadır."
 
 #: "faq_tunnel.html"
 msgid "If the ASN number is different, we highlight that fact - and call out that you are probably using a tunnel. If this is a tunnel you know about, great. If you did not know you were being tunneled, you might ask your network administrator about it."
-msgstr ""
+msgstr "ASN numarası farklıysa, o gerçeği vurguluyoruz ve muhtemelen bir tünel kullandığınızı söyleyelim. Eğer bu senin bildiğin bir tüneldeyse, harika. Tünellendiğini bilmiyordun, bunu ağ yöneticinize sorabilirsiniz."
 
 #: "faq_tunnel.html"
 msgid "Tunnels are not inherently bad; but (depending on circumstances) they may cause troubles that might not otherwise be seen with native IPv6 connectivity. Specifically, there may be issues of PMTUD (Path MTU Discovery) with some sites you visit - depending on the firewall configurations between you and those sites."
-msgstr ""
+msgstr "Tüneller doğal olarak kötü değildir; ancak (duruma bağlı olarak) yerel IPv6 bağlantısında aksi halde görülemeyebilecek sorunlara neden olabilirler. Özellikle, ziyaret ettiğiniz bazı sitelerle (sizinle bu siteler arasındaki güvenlik duvarı yapılandırmalarına bağlı olarak) PMTUD (Yol MTU Bulma) sorunları olabilir."
 
 #: "faq_tunnel_6rd.html"
 msgid "What is specific to 6RD tunnels?"
-msgstr ""
+msgstr "6RD tünellerine özgü nedir?"
 
 #: "faq_tunnel_6rd.html"
 msgid "6RD tunnels have been designed by the IETF as <a href=\"http://tools.ietf.org/html/rfc5969\">RFC 5969</a> to be deployed within an ISP access network and by the ISP itself to transport IPv6 over a legacy IPv4 access network. As the tunnel is confined with a single ISP, it is therefore managed in such a way to provide performances as good in IPv6 as in IPv4 (except perhaps for the largest packet size, a.k.a. MTU)."
-msgstr ""
+msgstr "6RD tünelleri IETF tarafından dizayn edilmiştir <a href=\"http://tools.ietf.org/html/rfc5969\"> 5969 RFC </a> bir ISP erişim ağı içinde ve ulaşım ISS tarafından konuşlandırılacak Eski IPv4 erişim ağı üzerinden IPv6. Tünel tek bir ISS ile sınırlı olduğu için, IPv4'te olduğu gibi IPv6'da da iyi performanslar verecek şekilde yönetilir (belki de en büyük paket boyutu, MTU hariç)."
 
 #: "faq_tunnel_6rd.html"
 msgid "In short, a 6RD tunnel provides you with native IPv6 connectivity."
-msgstr ""
+msgstr "Kısacası, 6RD tünel size yerel IPv6 bağlantısı sağlar."
 
 #: "faq_tunnel_6rd.html"
 msgid "How did we detect a 6RD tunnel?"
@@ -2664,109 +2665,233 @@ msgstr "6RD tünelini nasıl tespit ederiz?"
 
 #: "faq_tunnel_6rd.html"
 msgid "During the tests, we collect your IPv4 and IPv6 addresses. If at least 16 bits of your IPv4 address are embedded in your IPv6 prefix, then we assume that you are using a 6RD tunnel."
-msgstr ""
+msgstr "Testler sırasında IPv4 ve IPv6 adreslerinizi toplarız. IPv4 adresinizin en az 16 bit'i IPv6 önekinizde yer alıyorsa, 6RD tüneli kullandığınızı varsayıyoruz."
 
 #: "not-used, archived.  Not currently needed for translation."
 msgid "dummy example"
-msgstr ""
+msgstr "kukla örneği"
 
 #: "faq_no_ipv4.html"
 msgid "What? No IPv4 address?"
-msgstr ""
+msgstr "Ne? IPv4 adresi yok mu?"
 
 #: "faq_no_ipv4.html"
 msgid "Most of you are visiting this site using IPv4. Few people in 2013 will truely only have access to the IPv6 Internet. This FAQ will help explain why we were unable to detect IPv4 on your browser."
-msgstr ""
+msgstr "Çoğunuz bu siteyi IPv4 kullanarak ziyaret ediyor. 2013'teki az insan, yalnızca IPv6 İnternetine yalnızca erişebilecek. Bu SSS, tarayıcınızda IPv4'ü neden tespit edemediğimizin açıklamasına yardımcı olacaktır."
 
 #: "faq_no_ipv4.html"
 msgid "This site works by telling your browser to connect to a series of test urls. These urls, if they do connect, report back to the web browser your IP address. JavaScript is not permitted to look at your system itself; it is only allowed to interact with the web. As such, if the urls all fail, we are unable to determine your IP address."
-msgstr ""
+msgstr "Bu site, tarayıcınıza bir dizi test URL'sine bağlanmasını söyleyerek çalışır. Bu URL'ler, bağlanırsa, IP adresinizi tekrar web tarayıcısına bildirir. JavaScript'in sisteminize bakmasına izin verilmez; yalnızca web ile etkileşime girmesine izin verilir. Bu nedenle, URL'lerin hepsi başarısız olursa, IP adresinizi belirleyemiyoruz."
 
 #: "faq_no_ipv4.html"
 msgid "This usually indicates something is broken, or filtered."
-msgstr ""
+msgstr "Bu genellikle bir şeyin kırıldığını veya filtrelendiğini gösterir."
 
 #: "faq_no_ipv4.html"
 msgid "Since the test obviously failed, here is a simpler test to help you know if you are ready for web sites to offer their services on IPv6. After this simpler test, you'll see more information about specific browsers."
-msgstr ""
+msgstr "Test açıkça başarısız olduğundan, burada, web sitelerinin IPv6 ile ilgili hizmet sunma hazırlığına hazır olup olmadığınızı anlamanıza yardımcı olacak daha basit bir test var. Bu basit testten sonra, belirli tarayıcılarla ilgili daha fazla bilgi görürsünüz."
 
 #: "faq_no_ipv4.html"
 msgid "Firefox and NoScript"
-msgstr ""
+msgstr "Firefox ve NoScript"
 
 #: "faq_no_ipv4.html"
 msgid "The NoScript browser plugin disables scripts on the page. In the lower right corner of your browser, is the NoScript icon. Click this to bring up a menu; and temporarilly permit scripts on this site."
-msgstr ""
+msgstr "NoScript tarayıcı eklentisi sayfadaki komut dosyalarını devre dışı bırakır. Tarayıcınızın sağ alt köşesinde NoScript simgesi bulunur. Bir menüyü getirmek için bu düğmeyi tıklayın; ve bu sitede komut dizelerine geçici olarak izin verin."
 
 #: "faq_no_ipv4.html"
 msgid "Firefox and AdBlock+"
-msgstr ""
+msgstr "Firefox ve AdBlock +"
 
 #: "faq_no_ipv4.html"
 msgid "The AdBlock+ plugin is suspect; it depends on the ruleset that is used. More information from people willing to investigate would be appreciated."
-msgstr ""
+msgstr "AdBlock + eklentisi şüpheli; kullanılan kural grubuna bağlıdır. Soruşturmak isteyen insanlardan daha fazla bilgi takdir edilecektir."
 
 #: "faq_no_ipv4.html"
 msgid "Other browser plugins"
-msgstr ""
+msgstr "Diğer tarayıcı eklentileri"
 
 #: "faq_no_ipv4.html"
 msgid "If you have problems using this site, get a list of the plugins or add-ons you have for this browser. Save that list. Now, disable all of them - and try the site again. If it works, one of those is definately to blame. Enable them one by one, and retry the site. When you find the one that causes problems, please email <a href=\"mailto:jfesler@test-ipv6.com\">Jason Fesler &lt;jfesler@test-ipv6.com&gt;</a> with your findings."
-msgstr ""
+msgstr "Bu siteyi kullanırken sorun yaşıyorsanız, bu tarayıcı için eklentileri veya eklentiler listesini alın. Bu listeyi kaydedin. Hepsini devre dışı bırakın - ve siteyi tekrar deneyin. Çalışırsa, bunlardan biri kesinlikle suçlanacaktır. Onları birer birer etkinleştirin ve siteyi yenileyin. Sorunların nedenini bulduğunuzda, <a href=\"mailto:jfesler@test-ipv6.com\"> Jason Fesler & lt; jfesler@test-ipv6.com & gt; </a> bulguları ile e-posta gönderin."
 
 #: "inc/footer.inc"
 msgid "percenttranslated"
-msgstr ""
+msgstr "yüzdeçeviri"
 
 #: "faq_v6ns_bad.html"
 msgid "PowerDNS: Configure <code>query-local-address6</code> in your <code>recursor.conf</code>. Restart powerdns."
-msgstr ""
+msgstr "PowerDNS: Yapılandırma <code> sorgu-yerel-address6 </code> sizin de <code> recursor.conf </code>. Powerdns'i yeniden başlatın."
 
 #: "inc/mirrorconfig.js"
 msgid "This instance of test-ipv6.com is provided by"
-msgstr ""
+msgstr "Test-ipv6.com'un bu örneği, tarafından sağlanmaktadır"
 
 #: "faq_v6ns_bad.html"
 msgid "it means that the DNS resolver you are using, requires IPv4 to reach the DNS authoritative servers of your favorite web sites. In the near future, every web site of consequence will remain accessible in this form, so <b>there is no immediate danger.</b>"
-msgstr ""
+msgstr "kullandığınız DNS çözümleyicisinin, en sevdiğiniz web sitelerinin DNS yetkili sunucularına ulaşması için IPv4 gerektirdiği anlamına gelir. Yakında, sonuçların her web için sitesi bu şekilde erişilebilir olmaya devam edecektir, dolayısıyla acil bir tehlike bulunmuyor <b>. </b>"
 
 #: "faq_avoids_ipv6.html"
 msgid "Most OS's and Browsers will automatically have a strong bias towards a working IPv6 connection instead of the (possibly shared address) IPv4 connection. If yours does not, and you want to see this changed, let the browser company know. You might also find other browsers on the same OS will work the way you'd expect, if you need a work-around."
-msgstr ""
+msgstr "Çoğu işletim sistemi ve Tarayıcı, otomatik olarak (muhtemelen paylaşılan adres) IPv4 bağlantısı yerine çalışan bir IPv6 bağlantısı yönünde önyargıya sahip olur. Sizinki sahip değilse ve siz değişmesini istiyorsanız, tarayıcı firmasına bildirin. Eğer bir işe ihtiyacınız varsa, aynı işletim sistemindeki diğer tarayıcıları, beklediğiniz şekilde çalıştırabilirsiniz."
 
 #: "faq/simple_test.inc"
 msgid "A standalone copy of this test can be found <a href=\"/simple_test.html\">here</a>."
-msgstr ""
+msgstr "Bu testin bağımsız bir kopyasını <a href=\"/simple_test.html\"> burada </a> bulabilirsiniz."
 
 #: "faq_buggydns1.html"
 msgid "Malicious people can recognize that specific IPv6 addresses, when matched with this bug, map to IPv4 addresses they control. Web sites you depend on can be spoofed; you would not know any better, unless the sites are using SSL."
-msgstr ""
+msgstr "Kötü niyetli kişiler, bu hatayla eşleştiğinde belirli IPv6 adreslerinin kontrol ettiği, IPv4 adreslerine eşleme yaptığını anlayabilir. Bağlı olduğunuz web siteleri sahte olabilir; siteler SSL kullanmıyorsa, sahte olup olmadıklarından emin olamazsınız."
 
 #: "faq_no_ipv4.html"
 msgid "You will have to do this twice."
-msgstr ""
+msgstr "Bunu ikinci kez yapmanız gerekecek."
 
 #: "faq_no_ipv4.html"
 msgid "The first time enables scripts from the main site; the second time will enable all the \"off site\" scripts that are needed as well."
-msgstr ""
+msgstr "İlkinde sitedeki senaryoları etkinleştirir; ikincisinde de ihtiyaç duyulan tüm \"site dışı\" komut dosyalarını etkinleştireceğiz."
 
 #: "stats.html"
 msgid "<span lookup=\"site.name\">site</span> statistics"
-msgstr ""
+msgstr "<span lookup = \"site.name\"> site </span> istatistikleri"
 
 #: "faq.html"
 msgid "Q: I run a production IPv6-only network. Without IPv4. My users can't reach test-ipv6.com."
-msgstr ""
+msgstr "S: IPv6 ile üretilen üretim ağını çalıştırıyorum. IPv4 olmadan. Kullanıcılarım test-ipv6.com adresine ulaşamıyor."
 
 #: "faq.html"
 msgid "Send email to jfesler@test-ipv6.com. If your IPv6-only network has dedicated name servers, or a dedicated BGP ASN, jfesler will enable AAAA records for test-ipv6.com for you."
-msgstr ""
+msgstr "Jfesler@test-ipv6.com adresine bir e-posta gönder. Yalnızca IPv6 ağınızda isim sunucuları veya ayrılmış bir BGP ASN varsa, jfesler test-ipv6.com sizin için AAAA kayıtlarını etkinleştirecektir."
 
 #: "faq.html"
 msgid "If you don't meet the above requirements, you can visit http://ipv6.test-ipv6.com (IPv6-only) or http://ds.test-ipv6.com (IPv4+IPv6)."
-msgstr ""
+msgstr "Yukarıdaki gereksinimleri karşılıyorsanız, http://ipv6.test-ipv6.com (yalnızca IPv6) veya http://ds.test-ipv6.com (IPv4 + IPv6) adresini ziyaret edebilirsiniz."
 
 #: "faq.html"
 msgid "At some point, when the percentage of \"broken\" users has gone significantly down, I'll consider making test-ipv6.com dual-stack. At last check, March 2017, we still see 0.2% broken visiting test-ipv6.com. And we still want them to understand their situation."
+msgstr "\"Kırık\" kullanıcılar yüzdesinin düştüğü bazı noktalarda, test-ipv6.com'u çift küme yapmayı düşünürüm. Son kontrol, Mart 2017' de, yine de %0.2 kırılmış ziyaret testi-ipv6.com görüyoruz. Ve durumlarını anlamalarını istiyoruz."
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "Your current configuration may not achieve the highest performance or assure connectivity to all Internet resources as global IPv6 adoption continues. Ask your ISP about native IPv6."
+msgstr "Geçerli yapılandırmanız, en yüksek performansı sağlamayabilir veya genel IPv6 kabulü devam ettiği için tüm internet kaynaklarına bağlanmayı sağlamayabilir. ISP'nize yerel IPv6 hakkında bilgi verin."
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "To ensure the best performance and connectivity, ask your ISP about native IPv6."
+msgstr "En iyi performansı ve bağlantıyı sağlamak için İSS'nize yerel IPv6 hakkında bilgi verin."
+
+#: "inc/messages.js"
+msgid "To ensure the best Internet performance and connectivity, ask your ISP about native IPv6."
+msgstr "En iyi internet performansını ve bağlantısını sağlamak için, İSS'nizden yerel IPv6 hakkında bilgi alın."
+
+#: "faq/plugins_tryagain.inc"
+msgid "After disabling any suspect plugins or extensions, try this site again."
+msgstr "Şüpheli eklentileri veya uzantıları devre dışı bıraktıktan sonra bu siteyi tekrar deneyin."
+
+#: "faq/plugins_tryagain.inc"
+msgid "If it still fails, disable all plugins and extensions, until the browser works again."
+msgstr "Hala başarısız olursa, tarayıcı tekrar çalışana kadar tüm eklentileri ve uzantıları devre dışı bırakın."
+
+#: "faq/plugins_tryagain.inc"
+msgid "Alternately, consider trying another browser. Suggested browsers: IE, Firefox, Safari, Chrome."
+msgstr "Alternatif olarak, başka bir tarayıcı denemeyi düşünün. Önerilen tarayıcılar: IE, Firefox, Safari, Chrome."
+
+#: "inc/messages.js"
+msgid "skipped"
+msgstr "atlandı"
+
+#: "inc/messages.js"
+msgid "We are sometimes unable to detect Teredo and 6to4 when using HTTPS."
+msgstr "Biz bazen HTTPS kullanırken Teredo ve 6to4'u tespit edemiyoruz."
+
+#: "inc/messages.js"
+msgid "HTTPS support on this web site is in <em>beta</em>."
+msgstr "HTTPS desteği bu web sitesi üzerinde <em>beta</em> halindedir."
+
+#: "inc/messages.js"
+msgid "%HTTPS support is now available on this site."
+msgstr "Bu site üzerindeki %HTTPS desteği şimdi kullanıma hazır."
+
+#: "inc/messages.js"
+msgid "faq: Using HTTPS"
+msgstr "SSS: HTTPS Kullanmak"
+
+#: "inc/checkresults.js"
+msgid "Tests using this web site are unreliable from your location."
+msgstr "Bu web sitesini kullanan testler bulunduğunuz yerden güvenli değil."
+
+#: "faq/find_ip.inc"
+msgid "To see your IP addresses: <code>ifconfig -a inet6</code> or <code>ifconfig -f inet6</code>"
+msgstr "IP adreslerinizi görmek için:<code> ifconfig -a inet6 </code> veya <code> ifconfig -f inet6 </code>"
+
+#: "faq_https.html"
+msgid "Differences in HTTP vs HTTPS"
+msgstr "HTTP ve HTTPS'deki Farklılıklar"
+
+#: "faq_https.html"
+msgid "HTTP and HTTPS bring us different testing capabilities. Unfortunately, we can not test both at once. You can choose which features to test for, by using http://test-ipv6.com or https://test-ipv6.com."
+msgstr "HTTP ve HTTPS bize farklı test etme imkanları sağlar. Ne yazık ki, tek seferde her ikisini de test edemeyiz. http://test-ipv6.com ya da https://test-ipv6.com bağlantılarını kullanarak hangi özelliklerin test edileceğini seçebilirsiniz."
+
+#: "faq_https.html"
+msgid "<b>HTTP</b> allows us to test for Teredo and 6to4. Both are transitional technologies. Modern operating systems by default no longer use those, unless there is no other choice. Windows, for example, will not use Teredo, when the browser is given a DNS name to connect to. However, Windows will attempt to use Teredo, when told an IPv6-only IP address. 6to4 is similarly deprecated; and only likely used if there is no other choice."
+msgstr "<b>HTTP</b> bize Teredo ve 6to4'ü test etme imkanı verir. Her ikisi de geçici teknolojilerdir. Modern işletim sistemleri, başka bir seçeneği olmadığı sürece varsayılan olarak bunları kullanmıyor. Örneğin, tarayıcı, bağlantı için bir DNS adı verdiğinde Windows, Teredo'yu kullanmaz. Ancak, Windows sadece IPv6'ya özgü bir IP adresi söylediği zaman Teredo'yu kullanmaya çalışacaktır. 6to4'ün de benzer şekilde modası geçmiştir; ve muhtemelen sadece başka seçenek olmazsa kullanılabilir."
+
+#: "faq_https.html"
+msgid "HTTP also allows us to detect certain types of DNS64/NAT64. NAT64 is a migration strategy that allows for an eventual IPv6-only Internet. Until then, connections to the IPv4 Internet are translated. We detect this by making connections to literal IP address, such as http://192.0.2.1/ (with a server-specific IP address). We are able to detect NAT64 in particular when there is no local IPv4 tunnel (464xlat on Android) or OS assistance (Apple iOS, Apple MacOS)."
+msgstr "HTTP aynı zamanda DNS64/NAT64'ün belirli türlerini algılamamızı sağlar. NAT64, yalnızca olası bir IPv6 internet erişimi sağlayan bir geçiş taktiğidir. O zamana kadar, IPv4 internet bağlantıları tercüme edildi. Bunu, http://192.0.2.1/ gibi (sunucuya özel bir IP adres ile) gerçek IP adresiyle bağlantı kurarak tespit ediyoruz. Yerel IPv4 tüneli ( Android'de 464xlat'tır) veya OS asistanı (Apple iOS, Apple MacOS) olmadan NAT64'ü özellikle tespit edebiliyoruz."
+
+#: "faq_https.html"
+msgid "<b>HTTPS</b>, which ensures a trusted transport from you to the server, allows bypassing many corporate and mobile proxy servers. There are exceptions; particularly if you agreed to install their certificate; but that is generally not advised. Bypassing these proxies allows us to show you a better idea of your IP address - something that represents your location, and your connectivity to the IPv6 Internet."
+msgstr "Güvenilir bir şekilde sunucudan taşınmasını sağlayan <b>HTTPS</b>, birçok kurumsal ve mobil proxy sunucularını atlamanızı sağlar. İstisnalar var; özellikle onların belgelerini yüklemeyi kabul ettiyseniz; ama bu genellikle tavsiye edilmez. Bu proxy'leri atlamak, IP adresiniz için size daha iyi bir fikir sunmamızı sağlar - konumunuzu ve IPv6 internete bağlantınızı belirten bir şey."
+
+#: "faq_https.html"
+msgid "A limitation of using HTTPS exists. Since HTTPS requires certificates, and certificates are not offered to IP addresses (but instead to web site names), we can't test for NAT64, 6to4, or Teredo."
+msgstr "HTTPS kullanmanın bir limiti vardır. HTTPS sertifika gerektirdiğinden ve sertifikalar IP adreslerine (veya web site isimlerine) sunulmadığından, NAT64, 6to4 veya Teredo için test yapamıyoruz."
+
+#: "faq_https.html"
+msgid "Should I use HTTP or HTTPS?"
+msgstr "HTTP veya HTTPS kullanmalı mıyım?"
+
+#: "faq_https.html"
+msgid "If you're in a new location, or a computer you're not familiar with, consider both! If both come up with the same results, you can pick HTTP for speed, or HTTPS to bypass certain proxies."
+msgstr "Eğer yeni bir konumdaysanız veya tanıdık olmayan bir bilgisayardaysanız, her ikisini de göz önünde bulundurun! Eğer her ikisi de aynı sonuçlarla karşılaşırsa, hız için HTTP veya belirli proxy'leri atlamak için HTTPS'yi seçebilirsiniz."
+
+#: "faq_https.html"
+msgid "Links:"
+msgstr "Linkler:"
+
+#: "inc/messages.js"
+msgid "Test results inconclusive; they were not consistent with expectations. Please rerun the test, and if the results are the same, seek local network help."
+msgstr "Test sonuçları neticesiz; beklentilerle uyumlu değildi. Lütfen testi tekrar çalıştırın ve eğer sonuçlar aynıysa, yerel ağ yardımı isteyin."
+
+#: "inc/messages.js"
+msgid "Connections to IPv6-capable web sites hang. It appears that you may have IPv6 configured; and your computer believes that your IPv6 is working, with a route. It is however completely failing. Any web site that adds IPv6, will become unreachable to you. If you are unable to fix your IPv6 routing or connectivity, seek help. If all else fails, strongly consider disabling IPv6 on your host."
+msgstr "IPv6 uyumlu web sitelerine bağlantılar askıda duruyor. Görünen o ki, IPv6'yı yapılandırmış olabilirsiniz; ve bilgisayarınız IPv6'nızın bir rota ile çalıştığını sanıyor. Ancak bu tamamen başarısızlıktır. IPv6 ekleyen herhangi bir web site, sizin için ulaşılamaz olacaktır. Eğer IPv6 rotanızı ve bağlantınızı gideremezseniz, yardım isteyin. Eğer her şey başarısız olursa, ana bilgisayarınızda IPv6'yı devre dışı bırakmayı düşünmelisiniz."
+
+#: "inc/builtin.js"
+msgid "Test Data"
+msgstr "Test Verisi"
+
+#: "inc/form.js"
+msgid "Please consent to sharing your data."
+msgstr ""
+
+#: "faq_avoids_ipv6.html"
+msgid "As of OS X 10.11 \"El Capitan\" and iOS 9, IPv6 is given a slight preference; but will fall back to IPv4 if network conditions warrant it."
+msgstr "OS X 10.11 \"El Capitan\" ve iOS 9 olarak, IPv6 küçük bir tercih veriyor; ama ağ koşulları desteklerse IPv4'e geri dönülecektir."
+
+#: "faq_pmtud.html"
+msgid "Your router will automatically add an IPv4 header to the top of your packet. This same router will let your computer know if the packet is going to be too big; your computer will (as long as it gets the ICMPv6 \"Packet Too Big\" message) resend the packet, at a smaller size recommended by your router. A router near the web site, will automatically remove the IPv4 header, and forward the IPv6 piece."
+msgstr "Yönlendiriciniz otomatik olarak paketinizin üstüne bir IPv4 başlığı ekleyecektir. Bu aynı yönlendirici, eğer paket çok büyük olacaksa bilgisayarınızın bilmesine izin verir; bilgisayarınız paketinizi yönlendirici tarafından önerilen daha küçük bir boyutta yeniden gönderir (ICMPv6 \"Paketiniz Çok Büyük\" mesajı aldığı sürece). Web sitesi yakınındaki bir yönlendirici, otomatik olarak IPv4 başlığını kaldıracaktır ve IPv6 parçasını iletecektir."
+
+#: "faq_v6ns_bad.html"
+msgid "OpenDNS is now offering IPv6-specific resolvers, that will be able to retrieve DNS over IPv6. This means the \"v6ns\" test operated here will pass. See the <a target=_blank href=\"https://www.opendns.com/about/innovations/ipv6/\">OpenDNS IPv6 information page</a>."
+msgstr "OpenDNS şimdi IPv6'yı DNS üzerinden geri alabilecek olan IPv6'ya özel çözümleyiciler sunuyor. Bu, burada kullanılan \"v6ns\" testinin geçeceği anlamına geliyor. <a target=_blank href=\"https://www.opendns.com/about/innovations/ipv6/\">OpenDNS IPv6 bilgilendirme sayfası</a> bağlantısına bakın."
+
+#: "faq_whyipv6.html"
+msgid "Web sites that today automatically show you your local weather, news, and movies may no longer be able to locate you using your IPv4 address; you'll have to tell the web sites where in the world you are."
+msgstr "Günümüzde otomatik olarak yerel hava durumunuzu, haberlerinizi ve filmlerinizi gösteren web siteleri sizi IPv4 adresinizi kullanarak bulamaz; web sitelerine dünyanın neresinde bulunduğunuzu söylemelisiniz."
+
+#: "main/mail.inc"
+msgid "I consent to sharing my IP address(es), test results, web browser name and version, operating system name and version, and any other information entered above (including email address), as email transmitted to <a mailto=site.mailto href=\"-\"><span lookup=site.contact></span> &lt;<span lookup=site.mailto></span>&gt;</a>; and that this information may be translated by Google Translate."
 msgstr ""
 

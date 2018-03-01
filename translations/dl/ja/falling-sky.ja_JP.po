@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2017-07-09 14:00-0400\n"
+"PO-Revision-Date: 2018-03-01 02:30-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -110,7 +110,7 @@ msgstr "IPv6 への接続は遅いものの、機能しています。おそら�
 msgid "Connections to IPv6-only sites are timing out. Any web site that is IPv6 only, will appear to be down to you."
 msgstr "IPv6 のみのサイトに対する接続がタイムアウトしました。IPv6 のみの Web サイトすべてが、あなたにはダウンしているように見えるでしょう。"
 
-#: "inc/messages.js"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Connections to IPv6-capable web sites hang. It appears that you may have IPv6 configured; and your computer believes that your IPv6 is working, with a route. It is however completely failing. Any web site that adds IPv6, will become unreachable to you. If you are unable to fix your IPv6 routing or connectivity, seek help. If all else fails, strongly consider disabling IP6 on host."
 msgstr "IPv6 対応Webサイトがハングアップします。あなたはIPv6対応の設定を行っているようです; そしてあなたのコンピュータには経路が有り、IPv6が動作しているように思われています。しかしながら、完全に失敗しています。あなたは IPv6 に対応した Web サイトに到達できなくなるでしょう。もし IPv6 経路もしくは接続の問題を修正できなければ、助けを求めてください。もし、それ以外が全て失敗する場合には、ホスト上での IPv6 無効化を検討することを強く推奨します。"
 
@@ -304,7 +304,7 @@ msgstr "あなたがお使いの IPv6 サービス"
 
 #: "inc/builtin.js"
 msgid "Your Internet Service Provider (ISP) appears to be"
-msgstr "ご利用のインターネットサービス プロバイダー (ISP) は以下のようです"
+msgstr "ご利用のインターネットサービスプロバイダ (ISP):"
 
 #: "inc/builtin.js"
 msgid "Started"
@@ -354,7 +354,7 @@ msgstr "コンテンツ側が IPv6 のみになった際の、あなたの IPv6 
 msgid "Click to see"
 msgstr "クリックして表示"
 
-#: "inc/builtin.js"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "test data"
 msgstr "テストデータ"
 
@@ -394,11 +394,11 @@ msgstr "あなたの結果を共有"
 msgid "I am most interested in discussing your setup with you, because it was been determined that <B>your IPv6 connectivity is broken</b>, or at least not fully understood. This is not normal; would you be willing to %share?"
 msgstr "あなたの環境が興味深いため、お話を伺いたいと考えています。といいますのも、<B>お使いのIPv6接続が壊れている</B>、もしくは完全な判別ができなかったためです。これは特殊なケースであるため、%share しませんか?"
 
-#: "inc/form.js"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "retest"
 msgstr "再テスト"
 
-#: "inc/form.js"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Result code"
 msgstr "結果点"
 
@@ -630,7 +630,7 @@ msgstr "不正な形式の AAAA レコードに対するクエリ。一部のル
 msgid "If the summary results indicated problems, you (or your technical support) may be able to use the information above to diagnose the issues. Each of the test urls and their results is shown on the left side. To the right you'll see a description of what that URL was designed to test."
 msgstr "もしサマリーが問題を示している場合、あなた(もしくはあなたの技術サポート) は該当問題を診断するため、以上の情報を利用できます。それぞれのテスト URL とその結果は左側に表示されます。右には、その URL のテストの設計目的に対する説明が表示されます。"
 
-#: "main/tech.inc"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "After each test is ran. The summary page attempts to look at the results If the summary doesn't seem to make sense given the symptoms recorded above, or if you need further assistance, please feel free to contact us."
 msgstr "各テストの完了後、サマリーは以上で記録された症状をみて、つじつまがあっていない場合、サマリーページが結果を調べます。もしくはさらなる支援が必要な場合、我々にご連絡ください(英語のみ)。"
 
@@ -654,7 +654,7 @@ msgstr "このフォームの使用は、同意を意味します。"
 msgid "<span id=\"comments_faq_link\"></span> (FAQ) page is available for <b>your</b> exact set of results. Please read it before leaving comments; many questions have already been answered. If you still have questions, comments, or concerns, feel freel to use this form."
 msgstr "<b>あなた</b> の結果と同一の結果が<span id=\"comments_faq_link\"></span>(FAQ) にあります。コメントを残す前に、こちらをお読みください; 多くの質問が既に回答されています。それでもまだ質問、コメント、もしくは関心事がある場合、このフォームをご自由にお使いください。"
 
-#: "main/mail-language.inc"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Please leave your comments using English, if possible."
 msgstr "可能であれば、コメントをお寄せください(英語のみ)。"
 
@@ -741,7 +741,7 @@ msgstr "<b>IPv6があるので</b>このタブを追加して、インターネ�
 
 #: "inc/sites.inc"
 msgid "<b>Hint</b>: Columns are sortable (click the first row); <a href=\"#\" onclick=\"GIGO.test_sites(2); return false;\">click here</a> to re-check reachability from where you are to those mirrors."
-msgstr "<b>ヒント</b>: 列はソート可能です（最初の行をクリックします）。<a href=\\\"#\\\" onclick=\\\"GIGO.test_sites(2); return false;\\\">ここをクリック</a>するとミラーへの到達可能性を再確認できます。"
+msgstr "<b>ヒント</b>: 列はソート可能です（最初の行をクリックします）。<a href=\"#\" onclick=\"GIGO.test_sites(2); return false;\">ここをクリック</a>するとミラーへの到達可能性を再確認できます。"
 
 #: "inc/sites.inc"
 msgid "It is real easy to get added to this list for basic checks. Just provide two image URLs (one IPv4-only; one IPv6-only), to Jason Fesler &lt;jfesler@gigo.com&gt;. Also send your general web site address and organization name."
@@ -749,7 +749,7 @@ msgstr "基本的なチェックのためのサイトをこのリストに追加
 
 #: "inc/sites.inc"
 msgid "Full mirrors are welcomed and appreciated, whether public or private. Please see <a href=\"https://github.com/falling-sky/source/wiki\">the wiki</a> for details."
-msgstr "全てをミラーするのは、公開、非公開に関わらず歓迎し感謝ます。詳細については<a　href=\\\"https://github.com/falling-sky/source/wiki\\\">このwiki</a>を参照してください。"
+msgstr "全てをミラーするのは、公開、非公開に関わらず歓迎し感謝します。詳細については<a href=\"https://github.com/falling-sky/source/wiki\">このwiki</a>を参照してください。"
 
 #: "inc/footer.inc"
 msgid "All rights reserved."
@@ -1023,7 +1023,7 @@ msgstr "OS Xユーザーの場合: コマンドラインを使用してIPアド�
 msgid "To open your terminal: Go to your Applications folder; go to Utilities; and double click Terminal."
 msgstr "ターミナルをオープンします。ターミナルを開くには「アプリケーション」フォルダに移動します。「ユーティリティ」に移動します。「ターミナル」をダブルクリックします。"
 
-#: "faq/find_ip.inc"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "To see your IP addresses: <code>ifconfig -f inet6</code>."
 msgstr "あなたのIPアドレスを確認するには: <code>ifconfig -f inet6</code>"
 
@@ -1453,7 +1453,7 @@ msgstr "IPv6アドレスを一時的に削除する一般的なunix命令。"
 
 #: "faq/broken_disable.inc"
 msgid "IP_ADDRESS"
-msgstr ""
+msgstr "IP_ADDRESS"
 
 #: "faq/broken_disable.inc"
 msgid "Be aware that if the router re-advertises it, you will relearn the default route."
@@ -1623,7 +1623,7 @@ msgstr "20ヶ月表示"
 msgid "Quick notes:"
 msgstr "簡単な注釈:"
 
-#: "stats.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Browser Filter means that both the \"A\" and \"AAAA\" test failed. Browser (plugin/filter) shenanigans, likely with add-ons like ad blockers."
 msgstr "ブラウザフィルタは、\"A\"および\"AAAA\"のテストの両方が失敗したことを意味します。 ブラウザ(プラグイン/フィルタ)の問題は、広告ブロッカーのようなアドオンの問題であると 考えられます。"
 
@@ -1844,15 +1844,15 @@ msgstr "Hurricane ElectricによるRAN(地域エリアネットワーク)。 tes
 msgid "is another popular service. I see many European users using this service significantly; though their footprint is global. They work with dynamic IPs with some custom software that they provide."
 msgstr "もう一つの人気のあるサービスです。 ヨーロッパの多くのユーザーがこのサービスを利用していますが、全世界的にその痕跡は見られます。 これはダイナミックIPア>ドレスとカスタムソフトウェアの組み合わせで動作します。"
 
-#: "faq_6to4.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "aka freenet6. I don't have personal experience with this, but test-ipv6.com does see a number of connections via this service."
 msgstr "freenet6として知られるもの。私はこれを個人的なに使った経験はありませんが、test-ipv6.comはこのサービスを介してのいくつかの接続を確認しています。"
 
-#: "faq_6to4.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "may be a better solution, in China. This requires a custom client to be installed."
 msgstr "中国ではもっとも良い解決策かもしれない。 これにはカスタムクライアントをインストールする必要があります。"
 
-#: "faq_6to4.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "in Australia offers both free and paid-for (with SLA) tunnels."
 msgstr "オーストラリアでは無料（SLA付き）トンネルを提供しています。"
 
@@ -1988,7 +1988,7 @@ msgstr "これは、DNSリゾルバがIPv6 DNSサーバに完全にアクセス�
 msgid "Do you use OpenDNS?"
 msgstr "OpenDNSを使用していますか？"
 
-#: "faq_v6ns_bad.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "OpenDNS is now offering IPv6-specific resolvers, that will be able to retrieve DNS over IPv6. This means the \"v6ns\" test operated here will pass. See the <a target=_blank href=\"http://www.opendns.com/ipv6/\">OpenDNS IPv6 information page</a>."
 msgstr "OpenDNSは現在、IPv6固有のリゾルバを提供しており、IPv6を介してDNSを取得することができます。 これは、ここで実施される\"v6ns\"テストは合格することを意味します。 <a target=_blank href=\"http://www.opendns.com/ipv6/\">OpenDNS IPv6情報ページ</a>を参照してください。"
 
@@ -2230,7 +2230,7 @@ msgstr "静的IPアドレスを別料金で手配しない限り自宅でサー�
 msgid "Running p2p applications will likely break. <b>This includes things like voice and video chat, video games, and yes - even those legal BitTorrent clients.</b> Some ISPs may handle this better than others, and some applications may handle this better than others, but there will be a lot of road bumps over all on this."
 msgstr "P2Pアプリケーションの実行は中断する可能性があります。 <b>これには、ボイ>ス＆ビデオチャット、ビデオゲーム、はい、合法的なBitTorrentクライアントなども含まれます。</b>一部のISPはこれらを他のものよりもうまく処理することもあります。 一部のアプリケーションはよりうまく処理されることもありますが、その他多くについては道のりは険しいのです。"
 
-#: "faq_whyipv6.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Web sites that today automatically show you your local weather, news, and movies may no longer be able to locate you using your IPv4 address; you'll have to tell the web sites where in the world you are"
 msgstr "現在地の天気予報、ニュース、映画などを自動的に表示するWebサイトでは、IPv4アドレスを使用してあなたを特定できなくなる場合があります。 あなたは世界のどこにいるのかをWebサイトに伝えなければなりません"
 
@@ -2282,7 +2282,7 @@ msgstr "お使いのPC: OSのアップグレードに必要な場合のみ。"
 msgid "Your ethernet switch / hub: No. It is unaware of IP; it works at a lower level on the local network."
 msgstr "あなたのイーサネット スイッチやハブ: いいえ。それはIPには関知しません。 ローカルネットワーク上の低位のレベルで動作しています。"
 
-#: "faq_whyipv6.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Your router: Quite possibly. Many home routers have no upgrade path for IPv6. Do a web search for your router mode, with the keyword \"ipv6\" with it."
 msgstr "あなたのルータ: おそらく。 多くの家庭用ルータにはIPv6へのアップグレード>パスはありません。 ルーターのモデルと共にキーワード\"ipv6\"を付けてWebで検索してみます。"
 
@@ -2334,7 +2334,7 @@ msgstr "トンネル内のトンネル。 片方はあなた自身のもので�
 msgid "This is what it looks like when you use 6to4, 6in4, Teredo, and other types of tunnels:"
 msgstr "これは、6to4、6in4、Teredo、およびその他のタイプのトンネルを使用するときにみられます。"
 
-#: "faq_pmtud.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Your router will automatically add an IPv4 header to the top of your packet. This same router will let your computer know if the packet is going to be too big; your computer will (as long as it gets the ICMPv6 \"Packet Too Big\" message) resend the packet, at a smaller size recommended by your router. A router near the web site, will automatically remove the IPv4 header, and forward the IPv6 peice."
 msgstr "ルーターはパケットの先頭にIPv4ヘッダーを自動的に追加します。 この同じルーターは、パケットが大きすぎるかどうかをコンピューターに知らせます。 あなたのコンピュータは(パケットが長すぎるとICMPv6 \"Packet Too Big\"というメッセージを受け取り)、あなたのルータが推奨するより小さなサイズでパケットを再送します。 Webサイトの近くのルータは、自動的にIPv4ヘッダーを削除し、IPv6の断片を転送します。"
 
@@ -2673,7 +2673,7 @@ msgstr "テストでは、IPv4とIPv6のアドレスを収集します。 IPv4�
 
 #: "not-used, archived.  Not currently needed for translation."
 msgid "dummy example"
-msgstr ""
+msgstr "ダミーの例題"
 
 #: "faq_no_ipv4.html"
 msgid "What? No IPv4 address?"
@@ -2774,4 +2774,129 @@ msgstr "まだあなたが上記のリクエストを行なっていないなら
 #: "faq.html"
 msgid "At some point, when the percentage of \"broken\" users has gone significantly down, I'll consider making test-ipv6.com dual-stack. At last check, March 2017, we still see 0.2% broken visiting test-ipv6.com. And we still want them to understand their situation."
 msgstr "いずれ「壊れた」ユーザーの割合が大幅に低下した場合、私はtest-ipv6.comをデュアルスタックにすることを検討します。最後に確認した時点(2017年3月)では、未だ0.2％が「壊れた」ままtest-ipv6.comにアクセスしています。そして私は彼らに彼らの状況を理解してほしいのです。"
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "Your current configuration may not achieve the highest performance or assure connectivity to all Internet resources as global IPv6 adoption continues. Ask your ISP about native IPv6."
+msgstr "現在の構成ではグローバルIPv6が使われているすべてのインターネットリソースへの接続が保証されない場合や最高のパフォーマンスが得られない場合があります。 ネイティブIPv6についてはISPに問い合わせてみてください。"
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "To ensure the best performance and connectivity, ask your ISP about native IPv6."
+msgstr "最高のパフォーマンスと接続性を確保するためには、ISPにネイティブIPv6について問い合わせてみてください。"
+
+#: "inc/messages.js"
+msgid "To ensure the best Internet performance and connectivity, ask your ISP about native IPv6."
+msgstr "最高のインターネットパフォーマンスと接続性を確保するためには、ISPにネイティブIPv6について問い合わせてみてください。"
+
+#: "faq/plugins_tryagain.inc"
+msgid "After disabling any suspect plugins or extensions, try this site again."
+msgstr "疑わしいプラグインまたは拡張機能を無効にしてからこのサイトをもう一度試してみてください。"
+
+#: "faq/plugins_tryagain.inc"
+msgid "If it still fails, disable all plugins and extensions, until the browser works again."
+msgstr "それでも失敗する場合には、すべてのプラグインと拡張機能を無効にしてみてください。"
+
+#: "faq/plugins_tryagain.inc"
+msgid "Alternately, consider trying another browser. Suggested browsers: IE, Firefox, Safari, Chrome."
+msgstr "その他の方法としては、IE、Firefox、Safari、Chromeなどの別のブラ>ウザで試してみるいことを検討してください。"
+
+#: "inc/messages.js"
+msgid "skipped"
+msgstr "スキップしました"
+
+#: "inc/messages.js"
+msgid "We are sometimes unable to detect Teredo and 6to4 when using HTTPS."
+msgstr "HTTPSを使っている場合にはTeredoや6to4を検出できない場合があります。"
+
+#: "inc/messages.js"
+msgid "HTTPS support on this web site is in <em>beta</em>."
+msgstr "このWebサイトでは<em>ベータ版</em>のHTTPSをサポートしています。"
+
+#: "inc/messages.js"
+msgid "%HTTPS support is now available on this site."
+msgstr "このサイトでは %HTTPS が利用可能になりました。"
+
+#: "inc/messages.js"
+msgid "faq: Using HTTPS"
+msgstr "faq: HTTPSの利用"
+
+#: "inc/checkresults.js"
+msgid "Tests using this web site are unreliable from your location."
+msgstr "テストに利用したこのサイトはあなたの場所からは読めません。"
+
+#: "faq/find_ip.inc"
+msgid "To see your IP addresses: <code>ifconfig -a inet6</code> or <code>ifconfig -f inet6</code>"
+msgstr "IPアドレスを表示するには: <code>ifconfig -a inet6</code> または <code>ifconfig -f inet6</code>"
+
+#: "faq_https.html"
+msgid "Differences in HTTP vs HTTPS"
+msgstr "HTTPとHTTPSの違い"
+
+#: "faq_https.html"
+msgid "HTTP and HTTPS bring us different testing capabilities. Unfortunately, we can not test both at once. You can choose which features to test for, by using http://test-ipv6.com or https://test-ipv6.com."
+msgstr "HTTPとHTTPSは異なるテスト機能を提供しています。残念ながらここではこの両方を一度にテストすることはできません。http://test-ipv6.com または https://test-ipv6.com のどちらかで、どのをテストするかを選んでください。"
+
+#: "faq_https.html"
+msgid "<b>HTTP</b> allows us to test for Teredo and 6to4. Both are transitional technologies. Modern operating systems by default no longer use those, unless there is no other choice. Windows, for example, will not use Teredo, when the browser is given a DNS name to connect to. However, Windows will attempt to use Teredo, when told an IPv6-only IP address. 6to4 is similarly deprecated; and only likely used if there is no other choice."
+msgstr "<b>HTTP</b> では、6to4 および Teredo をテストすることが出来ます。どちらも過渡的な技術です。最近のオペレーティングシステムでは、他の選択肢がないのでなければデフォルトでこれらは使用しません。 たとえば、Windowsではブラウザで接続先にDNS名が指定されているならTeredoは使用されません。 IPv6オンリーのIPアドレスが指定された場合に限ってWindowsはTeredoを使用しようとします。6to4 も同様に過去のものです。他に手段がない場合にだけ使う様にすべきでしょう。"
+
+#: "faq_https.html"
+msgid "HTTP also allows us to detect certain types of DNS64/NAT64. NAT64 is a migration strategy that allows for an eventual IPv6-only Internet. Until then, connections to the IPv4 Internet are translated. We detect this by making connections to literal IP address, such as http://192.0.2.1/ (with a server-specific IP address). We are able to detect NAT64 in particular when there is no local IPv4 tunnel (464xlat on Android) or OS assistance (Apple iOS, Apple MacOS)."
+msgstr "HTTPではある種のDNS64/NAT64を検出することができます。 NAT64はIPv6オンリーなインターネットからIPv4インターネットへの接続をアドレスの変換によって可能にする移行技術です。  これを検出するにはhttp://192.0.2.1/(サーバー固有のIPアドレスを指定)などのリテラルIPアドレスに接続してみます。 ローカルなIPv4トンネル (Androidの464xlat) やOSによる補助  (Apple iOS、Apple MacOSなど）がない場合にNAT64を検出することができます。"
+
+#: "faq_https.html"
+msgid "<b>HTTPS</b>, which ensures a trusted transport from you to the server, allows bypassing many corporate and mobile proxy servers. There are exceptions; particularly if you agreed to install their certificate; but that is generally not advised. Bypassing these proxies allows us to show you a better idea of your IP address - something that represents your location, and your connectivity to the IPv6 Internet."
+msgstr "あなたからサーバーへの信頼できる通信を保証する<b> HTTPS </b>により多くの企業やモバイルプロキシサーバーをバイパスできます。 例外があります。 特別な証明書をインストールすることに同意した場合ですが、こは一般的には推奨されません。 これらのプロキシをバイパスすることで、IPアドレスのより良いアイデアを提示することができます。それは、あなたの住む地域を表すものやIPv6インターネットへの接続性です。"
+
+#: "faq_https.html"
+msgid "A limitation of using HTTPS exists. Since HTTPS requires certificates, and certificates are not offered to IP addresses (but instead to web site names), we can't test for NAT64, 6to4, or Teredo."
+msgstr "HTTPSを使用する場合には制約があります。 HTTPSでは証明書を必要とし、証明書はIPアドレス (Webサイト名ではなく) に対しては提供されないため、NAT64、6to4、またはTeredoのテストではきません。"
+
+#: "faq_https.html"
+msgid "Should I use HTTP or HTTPS?"
+msgstr "HTTP と HTTPS のどちらを使えばいいですか？"
+
+#: "faq_https.html"
+msgid "If you're in a new location, or a computer you're not familiar with, consider both! If both come up with the same results, you can pick HTTP for speed, or HTTPS to bypass certain proxies."
+msgstr "あなたが知らない場所にいるか、日頃使っていないコンピュータを使っているのなら、両方とも同じ結果が出た場合には、どちらにするのかを考えてください。 HTTPを選択してスピードを重視するか、HTTPSを使用してプロキシをバイパスするのかを。"
+
+#: "faq_https.html"
+msgid "Links:"
+msgstr "リンク:"
+
+#: "inc/messages.js"
+msgid "Test results inconclusive; they were not consistent with expectations. Please rerun the test, and if the results are the same, seek local network help."
+msgstr "テスト結果は決定的ではありません; 予想と一貫性はありませんでした。テストを再度行い、もし結果が変わらないようであれば、ローカルネットワークのヘルプをご覧ください。"
+
+#: "inc/messages.js"
+msgid "Connections to IPv6-capable web sites hang. It appears that you may have IPv6 configured; and your computer believes that your IPv6 is working, with a route. It is however completely failing. Any web site that adds IPv6, will become unreachable to you. If you are unable to fix your IPv6 routing or connectivity, seek help. If all else fails, strongly consider disabling IPv6 on your host."
+msgstr "IPv6 対応Webサイトがハングアップします。あなたはIPv6対応の設定を行っているようです; そしてあなたのコンピュータには経路が有り、IPv6が動作しているように思われています。しかしながら、完全に失敗しています。あなたは IPv6 に対応した Web サイトに到達できなくなるでしょう。もし IPv6 経路もしくは接続の問題を修正できなければ、助けを求めてください。もし、それ以外が全て失敗する場合には、ホスト上での IPv6 無効化を検討することを強く推奨します。"
+
+#: "inc/builtin.js"
+msgid "Test Data"
+msgstr "テストデータ"
+
+#: "inc/form.js"
+msgid "Please consent to sharing your data."
+msgstr "あなたの情報を共有することに同意してください。"
+
+#: "faq_avoids_ipv6.html"
+msgid "As of OS X 10.11 \"El Capitan\" and iOS 9, IPv6 is given a slight preference; but will fall back to IPv4 if network conditions warrant it."
+msgstr "OS X 10.11「El Capitan」およびiOS 9以降ではIPv6に多少の優先権が与えられています。 ただしネットワークの状態によってはIPv4にフォールバックされます。"
+
+#: "faq_pmtud.html"
+msgid "Your router will automatically add an IPv4 header to the top of your packet. This same router will let your computer know if the packet is going to be too big; your computer will (as long as it gets the ICMPv6 \"Packet Too Big\" message) resend the packet, at a smaller size recommended by your router. A router near the web site, will automatically remove the IPv4 header, and forward the IPv6 piece."
+msgstr "ルーターはパケットの先頭にIPv4ヘッダーを自動的に追加します。 この同じルーターは、パケットが大きすぎるかどうかをコンピューターに知らせます。 あなたのコンピュータは(パケットが長すぎるとICMPv6 \"Packet Too Big\"というメッセージを受け取り)、あなたのルータが推奨するより小さなサイズでパケットを再送します。 Webサイトの近くのルータは、自動的にIPv4ヘッダーを削除し、IPv6の断片を転送します。"
+
+#: "faq_v6ns_bad.html"
+msgid "OpenDNS is now offering IPv6-specific resolvers, that will be able to retrieve DNS over IPv6. This means the \"v6ns\" test operated here will pass. See the <a target=_blank href=\"https://www.opendns.com/about/innovations/ipv6/\">OpenDNS IPv6 information page</a>."
+msgstr "OpenDNSは現在、IPv6に特化したリゾルバを提供していてIPv6経由でDNSを参照することができます。 これは、ここで実施される「v6ns」テストに合格することを意味します。 詳しくは<a target=_blank href=\"https://www.opendns.com/about/innovations/ipv6/\">OpenDNS IPv6 information page</a>を参照してください。"
+
+#: "faq_whyipv6.html"
+msgid "Web sites that today automatically show you your local weather, news, and movies may no longer be able to locate you using your IPv4 address; you'll have to tell the web sites where in the world you are."
+msgstr "ローカルな天気予報、ニュース、映画を自動的に表示するWebサイトではIPv4アドレスを使用してあなたを特定できない場合があります。 その場合には、あなたは自分が世界のどこにいるのかをウェブサイトに伝えなければなりません。"
+
+#: "main/mail.inc"
+msgid "I consent to sharing my IP address(es), test results, web browser name and version, operating system name and version, and any other information entered above (including email address), as email transmitted to <a mailto=site.mailto href=\"-\"><span lookup=site.contact></span> &lt;<span lookup=site.mailto></span>&gt;</a>; and that this information may be translated by Google Translate."
+msgstr "\n"
+"私は、<a mailto=site.mailto href=\"-\"><span lookup=site.contact></span> &lt;<span lookup=site.mailto></span>&gt;</a> に送信される電子メールに自分のIPアドレス、テスト結果、Webブラウザの名前とバージョン、オペレーティングシステムの名前とバージョン、および上記に入力されたその他の情報(電子メールアドレスを含む) が共有され、そしてその情報がGoogle翻訳で翻訳される可能性があることに同意します。"
 
