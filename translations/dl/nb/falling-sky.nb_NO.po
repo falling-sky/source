@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2017-07-09 14:00-0400\n"
+"PO-Revision-Date: 2018-03-01 02:30-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Norwegian Bokmal\n"
 "MIME-Version: 1.0\n"
@@ -16,23 +16,23 @@ msgstr ""
 
 #: "inc/mirrorconfig.js"
 msgid "This mirror is provided by"
-msgstr ""
+msgstr "Denne instansen er levert av"
 
 #: "inc/messages.js"
 msgid "bad"
-msgstr ""
+msgstr "dårlig"
 
 #: "inc/messages.js"
 msgid "ok"
-msgstr ""
+msgstr "ok"
 
 #: "inc/messages.js"
 msgid "slow"
-msgstr ""
+msgstr "sakte"
 
 #: "inc/messages.js"
 msgid "timeout"
-msgstr ""
+msgstr "tidsavbrudd"
 
 #: "inc/messages.js"
 msgid "Connections to urls with IP addresses appear to be blocked; perhaps by a web filter such as 'NoScript' or 'RequestPolicy' installed into your browser, or filtering in your proxy server. This limits some of the functionality of this test site."
@@ -68,7 +68,7 @@ msgstr "Advarsel! IPv6 fungerar på sett og vis - men store datapakker kommer ik
 
 #: "inc/messages.js"
 msgid "Check your firewall to make sure that ICMPv6 messages are allowed (in particular, Type 2 or Packet Too Big)."
-msgstr ""
+msgstr "Sjekk brannmuren din for at ICMPv6-meldinger er tillatt (spesifikt Type 2 eller \"Packet Too Big\")."
 
 #: "inc/messages.js"
 msgid "Test results inconclusive; they were not consistent with expectations. Please rerun the test, and if the results are the same, please fill out the contact form."
@@ -110,7 +110,7 @@ msgstr "Oppkoplinger mot IPv6 er trege, men fungerer. Det er mulig at du bruker 
 msgid "Connections to IPv6-only sites are timing out. Any web site that is IPv6 only, will appear to be down to you."
 msgstr "Oppkoblinger til nettsider kun tilgjengelig over IPv6 får tidsavbrutt. Slike nettsider vil for deg se ut til å være nede."
 
-#: "inc/messages.js"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Connections to IPv6-capable web sites hang. It appears that you may have IPv6 configured; and your computer believes that your IPv6 is working, with a route. It is however completely failing. Any web site that adds IPv6, will become unreachable to you. If you are unable to fix your IPv6 routing or connectivity, seek help. If all else fails, strongly consider disabling IP6 on host."
 msgstr "Oppkoblinger til IPv6-aktiverte nettsider henger. Det kan virke som du har IPv6 satt opp, og at din datamaskin tror denne konnektiviteten fungerer. Det feiler imidlertid fullstendig. En nettside som aktiverer IPv6, vil bli utilgjengelig for deg. Om du ikke er i stand til å reparere din IPv6-konnektivitet, søk hjelp. Om du ikke før løst problemet, vurder å deaktiver IPv6 på din datamaskin."
 
@@ -132,7 +132,7 @@ msgstr "Sannsynligvis er årsaken NoScript eller AdBlock+. NoScript kan konfigur
 
 #: "inc/messages.js"
 msgid "NAT64 detected. IPv6 works. IPv4 works for most purposes. Applications that are hard-coded for IPv4-only will fail. We are aware of at least one major voice-over-ip program that falls into this category. Your application's support staff may need a nudge to add proper IPv6 support."
-msgstr ""
+msgstr "NAT64 oppdaget, IPv6 fungerer. IPv4 fungerer for de fleste formål. Programmer som er hardkodet for bare IPv4 vil feile. Det er kjent at minst ett utbredt IP-telefoni program vil bli påvirket av dette. Kontakt din programvareleverandør for å implementere korrekt IPv6 støtte."
 
 #: "inc/messages.js"
 msgid "Your DNS server (possibly run by your ISP) appears to have IPv6 Internet access."
@@ -152,11 +152,11 @@ msgstr "Et navneoppslag med kun IPv6-svar feilet, men likevel fikk du koblet til
 
 #: "inc/messages.js"
 msgid "A lookup for an IPv6-only name failed; yet the lookup and connect for dual-stack connected via IPv6. The IPv6-only lookup should have worked. Apple has a bug that sporadically causes some IPv6 lookups to fail. We saw evidence of it on this test. You can reload the page and try the test again. For more details, see <a href='http://openradar.appspot.com/7333104'>http://openradar.appspot.com/7333104</a>."
-msgstr ""
+msgstr "Et oppslag mot et IPv6 navn feilet; likevel ble oppslaget koblet til med IPv6. Derfor burde IPv6 navneoppslaget fungere likevel. Apple har en kjent feil, der IPv6 oppslag sporadisk feiler. Det er bevis på dette i testen. Last om siden og prøv å kjøre testen på nytt. For mer informasjon, les <a href='http://openradar.appspot.com/7333104'>http://openradar.appspot.com/7333104</a>."
 
 #: "inc/messages.js"
 msgid "A lookup for an dual-stack IPv4 and IPv6 name failed (at minimum it should have connected via IPv4). Apple has a bug that sporadically causes some IPv6 lookups to fail. We saw evidence of it on this test. You can reload the page and try the test again. For more details, see <a href='http://openradar.appspot.com/7333104'>http://openradar.appspot.com/7333104</a>."
-msgstr ""
+msgstr "Et oppslag mot dual-stack IPv4 og IPv6 navn feilet (dette skal normalt fungere over IPv4). Apple har en kjent feil, der IPv6 oppslag sporadisk feiler. Det er bevis på dette i testen. Last om siden og prøv å kjøre testen på nytt. For mer informasjon, les <a href='http://openradar.appspot.com/7333104'>http://openradar.appspot.com/7333104</a>."
 
 #: "inc/messages.js"
 msgid "No IPv4 address detected"
@@ -196,11 +196,11 @@ msgstr "Vi gjorde et oppslag av en IPv6-adresse, men din DNS-server (muligens di
 
 #: "inc/messages.js"
 msgid "It appears that you use a tunnel mechanism for either IPv4 or IPv6."
-msgstr ""
+msgstr "Det virker som du bruker en tunnelingmekanisme for enten IPv4 eller IPv6."
 
 #: "inc/messages.js"
 msgid "It appears that you use a managed tunnel mechanism, 6RD, to transport IPv6 over IPv4."
-msgstr ""
+msgstr "Det virker som du bruker en provisjonert tunnelingmekanisme, 6RD - for enten IPv4 eller IPv6."
 
 #: "inc/messages.js"
 msgid "We have detected that you are using a proxy. This means we are testing your proxy server, not your computer. Proxy details (as reported by your proxy 'Via' header): %details"
@@ -212,19 +212,19 @@ msgstr "Vi har oppdaget at du bruker en proxy. Dette betyr at vi tester din prox
 
 #: "inc/messages.js"
 msgid "IPv6 connections work, but connections using DNS names do not use IPv6. For some reason, your browser or your OS is not doing IPv6 DNS 'AAAA' lookups."
-msgstr ""
+msgstr "IPv6 tilkoblinger fungerer, men koblinger mot DNS bruker ikke IPv6. Dette kan skyldes innstillinger i nettleser eller operativsystem."
 
 #: "inc/messages.js"
 msgid "We have suggestions to help you fix your system."
-msgstr ""
+msgstr "Vi har forslag som kan reparere systemet ditt."
 
 #: "inc/messages.js"
 msgid "Since you have IPv6, we are including a tab that shows how well you can reach other IPv6 sites. %sites"
-msgstr ""
+msgstr "Fordi du har IPv6, er det inkludert en fane som viser hvor godt du kan nå andre IPv6-nettsteder. %sites"
 
 #: "inc/messages.js"
 msgid "Your browser has real working IPv6 address - but is avoiding using it. We're concerned about this."
-msgstr ""
+msgstr "Din nettleser har en fungerende IPv6 adresse, med unngår å benytte den. Dette er bekymringsverdig."
 
 #: "inc/messages.js"
 msgid "faq: MTU"
@@ -268,19 +268,19 @@ msgstr "oss: Buggy navnetjener"
 
 #: "inc/messages.js"
 msgid "faq: Broken!"
-msgstr ""
+msgstr "faq: Ødelagt!"
 
 #: "inc/messages.js"
 msgid "faq: Broken DNS Lookups"
-msgstr ""
+msgstr "fag: ikke--fungerende DNS-oppslag"
 
 #: "inc/messages.js"
 msgid "faq: Avoiding IPv6?"
-msgstr ""
+msgstr "fag: Unngå IPv6?"
 
 #: "inc/messages.js"
 msgid "faq: 6RD tunnel"
-msgstr ""
+msgstr "fag: 6RD tunnelingmekanisme"
 
 #: "inc/builtin.js"
 msgid "[more info]"
@@ -292,7 +292,7 @@ msgstr "Din offentlige IPv4-adresse ser ut til å være"
 
 #: "inc/builtin.js"
 msgid "Proxied"
-msgstr ""
+msgstr "Proxy"
 
 #: "inc/builtin.js"
 msgid "Your IPv6 address on the public Internet appears to be"
@@ -304,7 +304,7 @@ msgstr "Din IPv6-tjeneste ser ut til å være"
 
 #: "inc/builtin.js"
 msgid "Your Internet Service Provider (ISP) appears to be"
-msgstr ""
+msgstr "Din Internett-leverandør (ISP) er tilsynelatende"
 
 #: "inc/builtin.js"
 msgid "Started"
@@ -312,7 +312,7 @@ msgstr "Startet"
 
 #: "inc/builtin.js"
 msgid "proxied"
-msgstr ""
+msgstr "proxy"
 
 #: "inc/builtin.js"
 msgid "using"
@@ -320,7 +320,7 @@ msgstr "bruker"
 
 #: "inc/builtin.js"
 msgid "tests run"
-msgstr ""
+msgstr "utførte tester"
 
 #: "inc/builtin.js"
 msgid "(Survey posting skipped; test was rigged)"
@@ -354,7 +354,7 @@ msgstr "for din IPv6-tilgang, når innholdsleverandører tilbyr kun IPv6"
 msgid "Click to see"
 msgstr "Klikk for å se"
 
-#: "inc/builtin.js"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "test data"
 msgstr "test-data"
 
@@ -380,11 +380,11 @@ msgstr "[gå tilbake]"
 
 #: "inc/builtin.js"
 msgid "[permalink]"
-msgstr ""
+msgstr "[permalink]"
 
 #: "inc/versions.js"
 msgid "%app: You are running version %found; we recommend %suggest or newer."
-msgstr ""
+msgstr "%app: Du kjører versjon %found; vi anbefaler %suggest eller nyere."
 
 #: "inc/form.js"
 msgid "share your results"
@@ -394,11 +394,11 @@ msgstr "dele ditt resultat"
 msgid "I am most interested in discussing your setup with you, because it was been determined that <B>your IPv6 connectivity is broken</b>, or at least not fully understood. This is not normal; would you be willing to %share?"
 msgstr "Jeg er svært interessert i å diskutere nettverksoppsettet ditt med deg, fordi det ser ut som at <B>din IPv6-konnektivet er defekt</b>, eller iallfall ikke fullt ut forstått. Dette er ikke normalt; er du villing til å %share?"
 
-#: "inc/form.js"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "retest"
 msgstr "test igjen"
 
-#: "inc/form.js"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Result code"
 msgstr "Resultat-kode"
 
@@ -420,7 +420,7 @@ msgstr "Nettleseren din blokkerte"
 
 #: "inc/helpdesk.js"
 msgid "Your Internet help desk may ask you for the information below."
-msgstr ""
+msgstr "Kundesenteret til din Internett-leverandør (ISP) kan komme til å etterspørre informasjon nedenfor."
 
 #: "inc/header.inc"
 msgid "Test your IPv6."
@@ -432,7 +432,7 @@ msgstr "Dette vil teste om din nettleser og internett-forbindelse er klar for IP
 
 #: "inc/list-nav.inc"
 msgid "Test IPv6"
-msgstr ""
+msgstr "Test IPv6"
 
 #: "inc/list-nav.inc"
 msgid "FAQ"
@@ -444,7 +444,7 @@ msgstr "Speil"
 
 #: "inc/list-nav.inc"
 msgid "stats"
-msgstr ""
+msgstr "statistikk"
 
 #: "index.html"
 msgid "Test your IPv6 connectivity."
@@ -452,35 +452,35 @@ msgstr "Test din IPv6-konnektivitet"
 
 #: "index.html"
 msgid "(Replay)"
-msgstr ""
+msgstr "(gjenta)"
 
 #: "inc/js_required.inc"
 msgid "JavaScript Required"
-msgstr ""
+msgstr "JavaScript er påkrevd"
 
 #: "inc/js_required.inc"
 msgid "This site requires JavaScript, as well as the ability to pull in cross-site scripts, in order to perform the testing."
-msgstr ""
+msgstr "Denne siden krever JavaScript, samt mulighet for å hente skript fra andre domener for å utføre tester."
 
 #: "inc/js_required.inc"
 msgid "If this message does not go away, it means that JavaScript has been disabled, either by a plugin or extension in your browser, or by explicit browser setting."
-msgstr ""
+msgstr "Hvis denne meldingen ikke forsvinner, betyr det at JavaScript er deaktivert, enten via en plugin eller utvidelse, eller av en spesifikk innstilling i nettleseren din."
 
 #: "inc/js_required.inc"
 msgid "Do you use NoScript?"
-msgstr ""
+msgstr "Bruker du NoScript?"
 
 #: "inc/js_required.inc"
 msgid "If you use this Firefox add-on, you'll need to \"Temporarily allow all this page\". You will need to do this <b>twice</b> for everything to work. Alternately, disable NoScript entirely until you are done with this site."
-msgstr ""
+msgstr "Hvis du benytter deg av dette Firefox-tillegget, må du midlertidig tillate denne siden med \"Temporarily allow all this page\". Dette må gjøres <b>to ganger</b> for at alt skal fungere. Alternativt kan du deaktivere NoScript fullstendig, til du er ferdig med å bruke dette nettstedet."
 
 #: "inc/js_required.inc"
 msgid "You can opt instead to view the <a href=\"simple_test.html\">simple test</a>, which will give you a quick pass/fail for IPv4, IPv4+IPv6, and IPv6. It will however offer little diagnostic information."
-msgstr ""
+msgstr "Du kan velge i stedet kjøre en <a href=\"simple_test.html\">enklere test</a>, som vil raskt vise bestått/feilet for IPv4, IPv4+IPv6, samt IPv6. Det vil imidlertid vises fåe detaljer for bruk ved feilsøking."
 
 #: "main/tabnav.inc"
 msgid "For the Help Desk"
-msgstr ""
+msgstr "For brukerstøtte"
 
 #: "main/tabnav.inc"
 msgid "Summary"
@@ -508,7 +508,7 @@ msgstr "Feilsøk"
 
 #: "main/tabnav.inc"
 msgid "Other IPv6 Sites"
-msgstr ""
+msgstr "Andre IPv6 nettsteder"
 
 #: "main/tests.inc"
 msgid "How this test works:"
@@ -560,11 +560,11 @@ msgstr "Test om din internettleverandør sin DNS-tjener bruker IPv6"
 
 #: "main/tests.inc"
 msgid "Find IPv4 Service Provider"
-msgstr ""
+msgstr "Finn IPv4 tilbyder"
 
 #: "main/tests.inc"
 msgid "Find IPv6 Service Provider"
-msgstr ""
+msgstr "Finn IPv6 tilbyder"
 
 #: "main/tests.inc"
 msgid "Test for buggy DNS"
@@ -604,7 +604,7 @@ msgstr "Sjekker at IPv6-forespørsler med store pakker virker. Om denne testen f
 
 #: "main/tech.inc"
 msgid "Double check to make sure that ICMPv6 Type 2 (\"Packet Too Big\") messages are not filtered by your firewall."
-msgstr ""
+msgstr "Dobbeltsjekk at ICMPv6 Type 2 (\"Packet Too Big\") pakker ikke blir blokkert i din brannmur."
 
 #: "main/tech.inc"
 msgid "(This is bonus credit)"
@@ -616,11 +616,11 @@ msgstr "Dette er en test av din internettleverandør sin DNS-tjener (ikke en tes
 
 #: "main/tech.inc"
 msgid "Attempts to identify what Internet Service Provider you use for IPv4. This may be different from the marketing name you see in your local market; or may reflect a previous company name. The name shown reflects how it is known in the network operator community."
-msgstr ""
+msgstr "Forsøker å identifisere din Internett-leverandør for IPv4-trafikk. Navnet kan være forskjellig fra det brukt i markedsføring i ditt område eller stamme fra tidligere bedriftsnavn. Navnet som vises reflekterer det som er kjent i operatør/nettverksleverandør-miljøet."
 
 #: "main/tech.inc"
 msgid "Attempts to identify what Internet Service Provider you use for IPv6. When the IPv4 name and the IPv6 name don't match, it may suggest that you're using a tunnel; or some form of third party provider for IPv6."
-msgstr ""
+msgstr "Forsøker å identifisere din Internett-leverandør for IPv6-trafikk. Samsvarer ikke IPv4 og IPv6 navn, kan dette tyde på at du bruker tunnelingmekanismer eller annen tredjepartsleverandør for IPv6."
 
 #: "main/tech.inc"
 msgid "Queries for a malformed AAAA record. Some routers mishandle these as \"A\" records, and only keep the first 32 bits. We want this test to fail to connect."
@@ -628,9 +628,9 @@ msgstr "Sjekker etter omskrevet AAAA-innslag. Noen rutere håndterer disse ukorr
 
 #: "main/tech.inc"
 msgid "If the summary results indicated problems, you (or your technical support) may be able to use the information above to diagnose the issues. Each of the test urls and their results is shown on the left side. To the right you'll see a description of what that URL was designed to test."
-msgstr "Om sammendraget over indikerer problemer, kan muligens du (eller support hos din ISP/bedrift) bruke informasjonen til å stille en diagnose. Hver test-URL med tilhørende resultat er vist på venstre side. På høyre side ser du en beskrivelse av hva testen er ment å sjekke."
+msgstr "Om sammendraget over indikerer problemer, kan muligens du (eller brukerstøtte hos din ISP/bedrift) bruke informasjonen for feilsøking av problemene. Hver test-URL med tilhørende resultat er vist på venstre side. På høyre side ser du en beskrivelse av hva testen er ment å sjekke."
 
-#: "main/tech.inc"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "After each test is ran. The summary page attempts to look at the results If the summary doesn't seem to make sense given the symptoms recorded above, or if you need further assistance, please feel free to contact us."
 msgstr "Etter at testene er utført, prøver sammendrag-siden å vurdere resultatene. Om sammendraget ikke gir mening gitt symptomene vist over, eller du trenger mer hjelp, ikke nøl med å ta kontakt med oss."
 
@@ -644,17 +644,17 @@ msgstr "Dette skjemaet vil la deg sende inn kommentarer, innspill, og spørsmål
 
 #: "main/mail.inc"
 msgid "This includes your IP address, which is shared with the site administrator in order to answer your questions."
-msgstr ""
+msgstr "Dette inkluderer din IP-adresse, som er delt med sideadministratoren for å kunne besvare dine spørsmål."
 
 #: "main/mail.inc"
 msgid "Use of this form implies consent."
-msgstr ""
+msgstr "Det innebærer samtykke ved å benytte dette skjemaet."
 
 #: "main/mail.inc"
 msgid "<span id=\"comments_faq_link\"></span> (FAQ) page is available for <b>your</b> exact set of results. Please read it before leaving comments; many questions have already been answered. If you still have questions, comments, or concerns, feel freel to use this form."
 msgstr "<b>ditt</b> resultat. Vennligst les dem før du legger igjen kommentarer - mange spørsmål har allerede blitt besvart. Om du fortsatt har spørsmål eller andre tilbakemeldinger, send gjerne inn skjemaet."
 
-#: "main/mail-language.inc"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Please leave your comments using English, if possible."
 msgstr "Vennligst legg igjen dine kommentarer på engelsk, om mulig."
 
@@ -716,27 +716,27 @@ msgstr "Send inn"
 
 #: "main/helpdesk.inc"
 msgid "Help desk information will follow once the test completes."
-msgstr ""
+msgstr "Informasjon for kundesenteret vil vises så snart testen er ferdigstilt."
 
 #: "main/helpdesk.inc"
 msgid "If your Internet help desk asks you to mail the 'results url', copy and paste the following URL."
-msgstr ""
+msgstr "Ber kundesenteret deg å sende link for testresultet, kopier og lim inn følgende URL."
 
 #: "main/helpdesk.inc"
 msgid "Note that this will share your current numeric Internet Protocol address(es)."
-msgstr ""
+msgstr "Merk at dette vil dele noverande numeriske IP-adresse(r)."
 
 #: "main/helpdesk.inc"
 msgid "We do not recommend posting this link on public web sites such as forums."
-msgstr ""
+msgstr "Vi fråråder deg å legge ut denne koblingen på offentlige nettsteder som eksempel diskusjonsforum."
 
 #: "main/helpdesk.inc"
 msgid "On most computers, you can right-click the above URL, and select 'Copy'."
-msgstr ""
+msgstr "På de fleste datamaskiner kan du høyreklikke adressen ovenfor, og velge \"Kopier\"."
 
 #: "inc/sites.inc"
 msgid "<b>Because you have IPv6</b>, we've added this tab to show you whether or not you can reach other IPv6 web sites on the Internet. Consider notifying your ISP, if there are sites that show up as broken. If you are the ISP, you can click the Info link to see what test URLs are being used."
-msgstr ""
+msgstr "<b>Fordi du har IPv6</b>, er denne fanen gjort synlig, slik at du kan se hvilken andre IPv6 nettsteder på Internett du kan nå. Vurder å varsle din Internett-leverandør(ISP) hvis det er områder som har status med feil. Er du Internett-leverandør(ISP), klikk Info-koblingen for å se hvilke test URL-er som benyttes."
 
 #: "inc/sites.inc"
 msgid "<b>Hint</b>: Columns are sortable (click the first row); <a href=\"#\" onclick=\"GIGO.test_sites(2); return false;\">click here</a> to re-check reachability from where you are to those mirrors."
@@ -1022,7 +1022,7 @@ msgstr ""
 msgid "To open your terminal: Go to your Applications folder; go to Utilities; and double click Terminal."
 msgstr ""
 
-#: "faq/find_ip.inc"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "To see your IP addresses: <code>ifconfig -f inet6</code>."
 msgstr ""
 
@@ -1622,7 +1622,7 @@ msgstr ""
 msgid "Quick notes:"
 msgstr ""
 
-#: "stats.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Browser Filter means that both the \"A\" and \"AAAA\" test failed. Browser (plugin/filter) shenanigans, likely with add-ons like ad blockers."
 msgstr ""
 
@@ -1780,7 +1780,7 @@ msgstr "Trafikk tilbake fra nettsiden til deg tar en lignende vei. Nettsiden sva
 
 #: "faq_6to4.html"
 msgid "Q: What could possibly go wrong?"
-msgstr "Spm: Kva kan gå galt?"
+msgstr "Spm: Hva kan gå galt?"
 
 #: "faq_6to4.html"
 msgid "The main issues involve the lack of a service level agreement, the lack of predictability, and a lack in the protocol for your computer to realize that this method is not working."
@@ -1842,15 +1842,15 @@ msgstr "Driftet av Hurricane Electric. Jeg har brukt denne i 2-3 år, og ville h
 msgid "is another popular service. I see many European users using this service significantly; though their footprint is global. They work with dynamic IPs with some custom software that they provide."
 msgstr "er en annen populær tjeneste. Mange europeiske brukerer bruker denne tjenesten i stor grad, selv om de har en global tilstedeværelse. Den fungerer med dynamiske IP-adresser med hjelp av spesiallaget programvare."
 
-#: "faq_6to4.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "aka freenet6. I don't have personal experience with this, but test-ipv6.com does see a number of connections via this service."
 msgstr "a.k.a. freenet6. Jeg har ikke personlig erfaringer med denne tjenesten, men test-ipv6.com ser en god del oppkoplinger fra den."
 
-#: "faq_6to4.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "may be a better solution, in China. This requires a custom client to be installed."
 msgstr "er muligens det beste valget for kinesiske brukere. Den trenger spesiallaget programvare."
 
-#: "faq_6to4.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "in Australia offers both free and paid-for (with SLA) tunnels."
 msgstr ""
 
@@ -1986,7 +1986,7 @@ msgstr ""
 msgid "Do you use OpenDNS?"
 msgstr ""
 
-#: "faq_v6ns_bad.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "OpenDNS is now offering IPv6-specific resolvers, that will be able to retrieve DNS over IPv6. This means the \"v6ns\" test operated here will pass. See the <a target=_blank href=\"http://www.opendns.com/ipv6/\">OpenDNS IPv6 information page</a>."
 msgstr ""
 
@@ -2226,7 +2226,7 @@ msgstr ""
 msgid "Running p2p applications will likely break. <b>This includes things like voice and video chat, video games, and yes - even those legal BitTorrent clients.</b> Some ISPs may handle this better than others, and some applications may handle this better than others, but there will be a lot of road bumps over all on this."
 msgstr ""
 
-#: "faq_whyipv6.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Web sites that today automatically show you your local weather, news, and movies may no longer be able to locate you using your IPv4 address; you'll have to tell the web sites where in the world you are"
 msgstr ""
 
@@ -2278,7 +2278,7 @@ msgstr ""
 msgid "Your ethernet switch / hub: No. It is unaware of IP; it works at a lower level on the local network."
 msgstr ""
 
-#: "faq_whyipv6.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Your router: Quite possibly. Many home routers have no upgrade path for IPv6. Do a web search for your router mode, with the keyword \"ipv6\" with it."
 msgstr ""
 
@@ -2330,7 +2330,7 @@ msgstr ""
 msgid "This is what it looks like when you use 6to4, 6in4, Teredo, and other types of tunnels:"
 msgstr ""
 
-#: "faq_pmtud.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Your router will automatically add an IPv4 header to the top of your packet. This same router will let your computer know if the packet is going to be too big; your computer will (as long as it gets the ICMPv6 \"Packet Too Big\" message) resend the packet, at a smaller size recommended by your router. A router near the web site, will automatically remove the IPv4 header, and forward the IPv6 peice."
 msgstr ""
 
@@ -2716,7 +2716,7 @@ msgstr ""
 
 #: "inc/footer.inc"
 msgid "percenttranslated"
-msgstr ""
+msgstr "prosent oversatt"
 
 #: "faq_v6ns_bad.html"
 msgid "PowerDNS: Configure <code>query-local-address6</code> in your <code>recursor.conf</code>. Restart powerdns."
@@ -2769,4 +2769,128 @@ msgstr ""
 #: "faq.html"
 msgid "At some point, when the percentage of \"broken\" users has gone significantly down, I'll consider making test-ipv6.com dual-stack. At last check, March 2017, we still see 0.2% broken visiting test-ipv6.com. And we still want them to understand their situation."
 msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "Your current configuration may not achieve the highest performance or assure connectivity to all Internet resources as global IPv6 adoption continues. Ask your ISP about native IPv6."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "To ensure the best performance and connectivity, ask your ISP about native IPv6."
+msgstr ""
+
+#: "inc/messages.js"
+msgid "To ensure the best Internet performance and connectivity, ask your ISP about native IPv6."
+msgstr ""
+
+#: "faq/plugins_tryagain.inc"
+msgid "After disabling any suspect plugins or extensions, try this site again."
+msgstr ""
+
+#: "faq/plugins_tryagain.inc"
+msgid "If it still fails, disable all plugins and extensions, until the browser works again."
+msgstr ""
+
+#: "faq/plugins_tryagain.inc"
+msgid "Alternately, consider trying another browser. Suggested browsers: IE, Firefox, Safari, Chrome."
+msgstr ""
+
+#: "inc/messages.js"
+msgid "skipped"
+msgstr ""
+
+#: "inc/messages.js"
+msgid "We are sometimes unable to detect Teredo and 6to4 when using HTTPS."
+msgstr ""
+
+#: "inc/messages.js"
+msgid "HTTPS support on this web site is in <em>beta</em>."
+msgstr "%HTTPS støtte er nå i <em>beta</em> på denne nettsiden."
+
+#: "inc/messages.js"
+msgid "%HTTPS support is now available on this site."
+msgstr "%HTTPS støtte er nå tilgjengeleg på denne nettsiden."
+
+#: "inc/messages.js"
+msgid "faq: Using HTTPS"
+msgstr ""
+
+#: "inc/checkresults.js"
+msgid "Tests using this web site are unreliable from your location."
+msgstr ""
+
+#: "faq/find_ip.inc"
+msgid "To see your IP addresses: <code>ifconfig -a inet6</code> or <code>ifconfig -f inet6</code>"
+msgstr ""
+
+#: "faq_https.html"
+msgid "Differences in HTTP vs HTTPS"
+msgstr ""
+
+#: "faq_https.html"
+msgid "HTTP and HTTPS bring us different testing capabilities. Unfortunately, we can not test both at once. You can choose which features to test for, by using http://test-ipv6.com or https://test-ipv6.com."
+msgstr ""
+
+#: "faq_https.html"
+msgid "<b>HTTP</b> allows us to test for Teredo and 6to4. Both are transitional technologies. Modern operating systems by default no longer use those, unless there is no other choice. Windows, for example, will not use Teredo, when the browser is given a DNS name to connect to. However, Windows will attempt to use Teredo, when told an IPv6-only IP address. 6to4 is similarly deprecated; and only likely used if there is no other choice."
+msgstr ""
+
+#: "faq_https.html"
+msgid "HTTP also allows us to detect certain types of DNS64/NAT64. NAT64 is a migration strategy that allows for an eventual IPv6-only Internet. Until then, connections to the IPv4 Internet are translated. We detect this by making connections to literal IP address, such as http://192.0.2.1/ (with a server-specific IP address). We are able to detect NAT64 in particular when there is no local IPv4 tunnel (464xlat on Android) or OS assistance (Apple iOS, Apple MacOS)."
+msgstr ""
+
+#: "faq_https.html"
+msgid "<b>HTTPS</b>, which ensures a trusted transport from you to the server, allows bypassing many corporate and mobile proxy servers. There are exceptions; particularly if you agreed to install their certificate; but that is generally not advised. Bypassing these proxies allows us to show you a better idea of your IP address - something that represents your location, and your connectivity to the IPv6 Internet."
+msgstr ""
+
+#: "faq_https.html"
+msgid "A limitation of using HTTPS exists. Since HTTPS requires certificates, and certificates are not offered to IP addresses (but instead to web site names), we can't test for NAT64, 6to4, or Teredo."
+msgstr ""
+
+#: "faq_https.html"
+msgid "Should I use HTTP or HTTPS?"
+msgstr ""
+
+#: "faq_https.html"
+msgid "If you're in a new location, or a computer you're not familiar with, consider both! If both come up with the same results, you can pick HTTP for speed, or HTTPS to bypass certain proxies."
+msgstr ""
+
+#: "faq_https.html"
+msgid "Links:"
+msgstr ""
+
+#: "inc/messages.js"
+msgid "Test results inconclusive; they were not consistent with expectations. Please rerun the test, and if the results are the same, seek local network help."
+msgstr ""
+
+#: "inc/messages.js"
+msgid "Connections to IPv6-capable web sites hang. It appears that you may have IPv6 configured; and your computer believes that your IPv6 is working, with a route. It is however completely failing. Any web site that adds IPv6, will become unreachable to you. If you are unable to fix your IPv6 routing or connectivity, seek help. If all else fails, strongly consider disabling IPv6 on your host."
+msgstr ""
+
+#: "inc/builtin.js"
+msgid "Test Data"
+msgstr ""
+
+#: "inc/form.js"
+msgid "Please consent to sharing your data."
+msgstr ""
+
+#: "faq_avoids_ipv6.html"
+msgid "As of OS X 10.11 \"El Capitan\" and iOS 9, IPv6 is given a slight preference; but will fall back to IPv4 if network conditions warrant it."
+msgstr ""
+
+#: "faq_pmtud.html"
+msgid "Your router will automatically add an IPv4 header to the top of your packet. This same router will let your computer know if the packet is going to be too big; your computer will (as long as it gets the ICMPv6 \"Packet Too Big\" message) resend the packet, at a smaller size recommended by your router. A router near the web site, will automatically remove the IPv4 header, and forward the IPv6 piece."
+msgstr ""
+
+#: "faq_v6ns_bad.html"
+msgid "OpenDNS is now offering IPv6-specific resolvers, that will be able to retrieve DNS over IPv6. This means the \"v6ns\" test operated here will pass. See the <a target=_blank href=\"https://www.opendns.com/about/innovations/ipv6/\">OpenDNS IPv6 information page</a>."
+msgstr ""
+
+#: "faq_whyipv6.html"
+msgid "Web sites that today automatically show you your local weather, news, and movies may no longer be able to locate you using your IPv4 address; you'll have to tell the web sites where in the world you are."
+msgstr ""
+
+#: "main/mail.inc"
+msgid "I consent to sharing my IP address(es), test results, web browser name and version, operating system name and version, and any other information entered above (including email address), as email transmitted to <a mailto=site.mailto href=\"-\"><span lookup=site.contact></span> &lt;<span lookup=site.mailto></span>&gt;</a>; and that this information may be translated by Google Translate."
+msgstr "Jeg samtykker til deling av mine IP-adresser, testresultater, nettlesernavn og versjon, samt operativsystemnavn og versjon og annen informasjon skrevet ovenfor. Dette inkluderer e-postadresse, da e-post sendt til <a mailto=site.mailto href=\"-\"><span lookup=site.contact></span>&lt;<span lookup=site.mailto></span>&gt;</a> og dette kan bli oversatt med Google Translate."
 

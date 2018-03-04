@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2017-07-09 14:00-0400\n"
+"PO-Revision-Date: 2018-03-01 02:30-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Chinese Traditional\n"
 "MIME-Version: 1.0\n"
@@ -110,7 +110,7 @@ msgstr "IPv6 連線功能緩慢。也許你所使用的公用的 IPv6 通道速�
 msgid "Connections to IPv6-only sites are timing out. Any web site that is IPv6 only, will appear to be down to you."
 msgstr "IPv6 連結網站超時，任何啟用 IPv6 的網站可能會顯示無法連線。"
 
-#: "inc/messages.js"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Connections to IPv6-capable web sites hang. It appears that you may have IPv6 configured; and your computer believes that your IPv6 is working, with a route. It is however completely failing. Any web site that adds IPv6, will become unreachable to you. If you are unable to fix your IPv6 routing or connectivity, seek help. If all else fails, strongly consider disabling IP6 on host."
 msgstr "與啟用 IPv6 的網站連線卡住了。看起來你可能有設定 IPv6；且你的電腦相信你的 IPv6 設定及路由是可行的。但是卻完全無法連線。這將造成你無法開啟任何已經啟用 IPv6 的網站。如果你無法修復 IPv6 路由或連線，請尋求幫助。如果無法修復，請考慮在電腦上停用 IPv6 。"
 
@@ -354,7 +354,7 @@ msgstr "當網站陸續只使用 IPv6 ，請提早為您的 IPv6 做準備和設
 msgid "Click to see"
 msgstr "點擊查看"
 
-#: "inc/builtin.js"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "test data"
 msgstr "測試結果"
 
@@ -388,17 +388,17 @@ msgstr "%app ︰ 您正在運行版本 %found;我們推薦 %suggest 或更高版
 
 #: "inc/form.js"
 msgid "share your results"
-msgstr "分享你的結果"
+msgstr "分享您的測試結果"
 
 #: "inc/form.js"
 msgid "I am most interested in discussing your setup with you, because it was been determined that <B>your IPv6 connectivity is broken</b>, or at least not fully understood. This is not normal; would you be willing to %share?"
 msgstr "我最感興趣的與你，討論您的設置，因為它確定了，<B>你的 IPv6 連接是破碎</B>，或至少不完全理解。這是不正常的;你願意 %share 嗎？"
 
-#: "inc/form.js"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "retest"
 msgstr "重試"
 
-#: "inc/form.js"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Result code"
 msgstr "結果代碼"
 
@@ -472,7 +472,7 @@ msgstr "您使用 NoScript 嗎？"
 
 #: "inc/js_required.inc"
 msgid "If you use this Firefox add-on, you'll need to \"Temporarily allow all this page\". You will need to do this <b>twice</b> for everything to work. Alternately, disable NoScript entirely until you are done with this site."
-msgstr "如果你使用此火狐瀏覽器載入項，您需要\"暫時允許所有此頁\"。你將需要做這 <b>兩次</b> 的一切工作。交替，禁用 NoScript 完全直到你完成與該網站。"
+msgstr "如果你使用這個 Firefox 瀏覽器的擴充套件，您需要選擇\"暫時允許該頁面所有物件\"。你將需要設定這個步驟 <b>兩次</b> 。又或者，完全禁用 NoScript 直到你完成網站的測試。"
 
 #: "inc/js_required.inc"
 msgid "You can opt instead to view the <a href=\"simple_test.html\">simple test</a>, which will give you a quick pass/fail for IPv4, IPv4+IPv6, and IPv6. It will however offer little diagnostic information."
@@ -630,7 +630,7 @@ msgstr "格式不正確的 AAAA 記錄進行查詢。某些路由器責難這些
 msgid "If the summary results indicated problems, you (or your technical support) may be able to use the information above to diagnose the issues. Each of the test urls and their results is shown on the left side. To the right you'll see a description of what that URL was designed to test."
 msgstr "如果總結結果指出的問題，你（或你的技術人員） 可以使用上面的資訊來診斷問題。每個測試 url 和它們的測試結果顯示在左邊。而在右邊，你可以看到該 URL 的測試說明。"
 
-#: "main/tech.inc"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "After each test is ran. The summary page attempts to look at the results If the summary doesn't seem to make sense given the symptoms recorded above, or if you need further assistance, please feel free to contact us."
 msgstr "每項測試跑完後，總結頁面會顯示判斷結果，如果總結上的資訊顯示出來不合理，或是你需要進一步的協助，請隨時聯繫我們。"
 
@@ -654,7 +654,7 @@ msgstr "使用這個表單代表你同意上述。"
 msgid "<span id=\"comments_faq_link\"></span> (FAQ) page is available for <b>your</b> exact set of results. Please read it before leaving comments; many questions have already been answered. If you still have questions, comments, or concerns, feel freel to use this form."
 msgstr "<span id=\"comments_faq_link\"></span> (FAQ) 頁面，供 <b>您</b> 確切的結果集。請留下評論; 之前先閱讀已回答了許多問題。如果你仍然有問題，意見或疑慮，覺得使用這種形式在揚棄。"
 
-#: "main/mail-language.inc"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Please leave your comments using English, if possible."
 msgstr "請留下你的意見，如果可以的話請使用英語。"
 
@@ -952,7 +952,7 @@ msgstr "瀏覽器 – 某些瀏覽器已經更新到可以檢測「壞掉的」�
 
 #: "faq/staycurrent.inc"
 msgid "Firefox 4.x now only tries IPv6, when an IPv6 address is configured. Firefox 3 users are encouraged to upgrade."
-msgstr "Firefox 瀏覽器 4.x 只在 IPv6 已經設定後嘗試使用 IPv6。我們建議使用Firefox 3 的用戶升級。"
+msgstr "Firefox 瀏覽器 4.x 只在 IPv6 已經設定後嘗試使用 IPv6。我們建議Firefox 3 的用戶升級至新版本。"
 
 #: "faq/staycurrent.inc"
 msgid "Chrome: If a wrench icon appears on the browser toolbar, click it. Select \"Update Google Chrome\" then Restart."
@@ -1022,7 +1022,7 @@ msgstr "OS X 使用者 ︰ 要找到您的 IP 位址使用命令列 ︰"
 msgid "To open your terminal: Go to your Applications folder; go to Utilities; and double click Terminal."
 msgstr "打開你的終端 ︰ 轉到您的應用程式資料夾;轉到實用程式;然後按兩下終端。"
 
-#: "faq/find_ip.inc"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "To see your IP addresses: <code>ifconfig -f inet6</code>."
 msgstr "要查看您的 IP 位址 ︰ <code>ifconfig-f inet6</code>。"
 
@@ -1056,7 +1056,7 @@ msgstr "一般的 unix 說明用於確定您的 IPv6 位址和預設路由 ︰"
 
 #: "faq/find_ip.inc"
 msgid "Run"
-msgstr "運行"
+msgstr "執行"
 
 #: "faq/find_ip.inc"
 msgid "and look for <code>inet6</code> to see your possible IPv6 addresses."
@@ -1624,7 +1624,7 @@ msgstr "600 天查看"
 msgid "Quick notes:"
 msgstr "便箋 ︰"
 
-#: "stats.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Browser Filter means that both the \"A\" and \"AAAA\" test failed. Browser (plugin/filter) shenanigans, likely with add-ons like ad blockers."
 msgstr "瀏覽器篩選器表示\"A\"和\"AAAA\"測試失敗。瀏覽器 （外掛程式/篩選器） 的惡作劇，可能與載入項喜歡廣告受體阻滯劑。"
 
@@ -1844,15 +1844,15 @@ msgstr "跑了由颶風電氣。測試-ipv6.com 的作者已經用他們的服�
 msgid "is another popular service. I see many European users using this service significantly; though their footprint is global. They work with dynamic IPs with some custom software that they provide."
 msgstr "是另一個受歡迎的服務。我看到很多歐洲使用者使用這項服務顯著;雖然他們的足跡是全球性的。他們工作與一些自訂的軟體，他們提供動態的 ip 位址。"
 
-#: "faq_6to4.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "aka freenet6. I don't have personal experience with this, but test-ipv6.com does see a number of connections via this service."
 msgstr "aka freenet6。我沒有親身體驗一下這，但是測試-ipv6.com 確實看到通過這項服務的連接的數目。"
 
-#: "faq_6to4.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "may be a better solution, in China. This requires a custom client to be installed."
 msgstr "可能是更好的解決方案，在中國。這就要求自訂的用戶端安裝。"
 
-#: "faq_6to4.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "in Australia offers both free and paid-for (with SLA) tunnels."
 msgstr "在澳大利亞提供免費和付費的 （與二語習得） 隧道。"
 
@@ -1906,7 +1906,7 @@ msgstr "[查看更多]"
 
 #: "faq_ipv4_only.html"
 msgid "If you are not savvy with technology, here is more generic information:"
-msgstr "如果你不是精通技術，在這裡是更通用的資訊 ︰"
+msgstr "如果你對網路技術不熟，這裡提供簡單的資訊 ︰"
 
 #: "faq/matrix_os.inc"
 msgid "Windows Vista and Windows 7 are both IPv6 ready. Mac OS X 10.5 and higher is fine. FreeBSD and Linux, all recent versions, are also fine. When your Internet service provider offers IPv6 to you, these OSs are good. You may still need to replace your router (wireless or wired), if it is not aware of IPv6. You'll have to consult with your Internet service provider on when IPv6 will be offered."
@@ -1988,7 +1988,7 @@ msgstr "這意味著您的 DNS 解析器是完全能夠達到 IPv6 DNS 伺服器
 msgid "Do you use OpenDNS?"
 msgstr "您是否使用了 OpenDNS？"
 
-#: "faq_v6ns_bad.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "OpenDNS is now offering IPv6-specific resolvers, that will be able to retrieve DNS over IPv6. This means the \"v6ns\" test operated here will pass. See the <a target=_blank href=\"http://www.opendns.com/ipv6/\">OpenDNS IPv6 information page</a>."
 msgstr "OpenDNS 現在提供 IPv6 特定衝突解決程式，這將能夠通過 IPv6 檢索 DNS。這意味著將會通過\"v6ns\"測試在這裡經營。請參閱 <a target=_blank href=\"HTTP://www.opendns.com/ipv6/\"> OpenDNS IPv6 資訊頁面</a>。"
 
@@ -2042,7 +2042,7 @@ msgstr "可能的原因 ︰"
 
 #: "faq_broken_aaaa.html"
 msgid "Firefox users may have IPv6 lookups disabled."
-msgstr "火狐瀏覽器使用者可以禁用 IPv6 查找。"
+msgstr "Firefox 瀏覽器使用者可以停用 IPv6 解析服務。"
 
 #: "faq_broken_aaaa.html"
 msgid "Go to <a href=\"about:config\">about:config</a> in your browser."
@@ -2074,7 +2074,7 @@ msgstr "您 （或您的技術支援） 可以運行 <code>挖 @DNSSERVER aaaa a
 
 #: "faq_firefox_plugins.html"
 msgid "FAQ on Firefox Plugins"
-msgstr "火狐瀏覽器外掛程式的常見問題"
+msgstr "Firefox 瀏覽器外掛程式的常見問題"
 
 #: "faq_firefox_plugins.html"
 msgid "This FAQ has been produced to try and address issues caused when using Firefox"
@@ -2228,7 +2228,7 @@ msgstr "在家裡運行伺服器將打破，除非你安排支付一個靜態的
 msgid "Running p2p applications will likely break. <b>This includes things like voice and video chat, video games, and yes - even those legal BitTorrent clients.</b> Some ISPs may handle this better than others, and some applications may handle this better than others, but there will be a lot of road bumps over all on this."
 msgstr "運行 p2p 應用程式都可能中斷。<b>這包括的東西，像語音和視頻聊天，視頻遊戲，是的--甚至那些法律的 BitTorrent 用戶端。</b>某些 Isp 可能比其他人更好地處理這和某些應用程式可能比其他人更好地處理這但所有對此會有大量的路途顛簸。"
 
-#: "faq_whyipv6.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Web sites that today automatically show you your local weather, news, and movies may no longer be able to locate you using your IPv4 address; you'll have to tell the web sites where in the world you are"
 msgstr "今天自動顯示你你當地的天氣、 新聞和電影的網站可能不再能夠找到您使用的您的 IPv4 位址;你必須告訴 web 網站在世界你在哪裡"
 
@@ -2280,7 +2280,7 @@ msgstr "您的 PC ︰ 只有當你做的 OS 升級需要它。"
 msgid "Your ethernet switch / hub: No. It is unaware of IP; it works at a lower level on the local network."
 msgstr "乙太網交換器 / 集線器 ︰ 號它不知道 IP;它工作在本地網路上的較低級別。"
 
-#: "faq_whyipv6.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Your router: Quite possibly. Many home routers have no upgrade path for IPv6. Do a web search for your router mode, with the keyword \"ipv6\" with it."
 msgstr "您的路由器 ︰ 很有可能。許多家用路由器的 IPv6 有沒有升級路徑。做為你路由器模式下，用關鍵字\"ipv6\"與它的 web 搜索。"
 
@@ -2332,7 +2332,7 @@ msgstr "在隧道的隧道。其中一個可能是你自己;另外，您可能�
 msgid "This is what it looks like when you use 6to4, 6in4, Teredo, and other types of tunnels:"
 msgstr "這是看起來像當您使用 6to4，6in4，Teredo 與其他類型的通道 ︰"
 
-#: "faq_pmtud.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Your router will automatically add an IPv4 header to the top of your packet. This same router will let your computer know if the packet is going to be too big; your computer will (as long as it gets the ICMPv6 \"Packet Too Big\" message) resend the packet, at a smaller size recommended by your router. A router near the web site, will automatically remove the IPv4 header, and forward the IPv6 peice."
 msgstr "您的路由器將自動添加到你的包的頂部的 IPv4 標頭。這相同的路由器會讓您的電腦知道是否資料包將會太大;您的電腦將 (只要它獲取 ICMPv6\"資料包太大\"消息) 發送資料包，在較小的大小，建議您的路由器。路由器附近網站，將自動刪除 IPv4 標頭，並轉發 IPv6 片。"
 
@@ -2554,7 +2554,7 @@ msgstr "（更多資訊）"
 
 #: "faq_avoids_ipv6.html"
 msgid "Firefox (recent builds) does the same as Chrome."
-msgstr "火狐瀏覽器 （最新版本） Chrome 一樣。"
+msgstr "Firefox 瀏覽器 （最新版本） 跟 Chrome 的功能一樣。"
 
 #: "faq_avoids_ipv6.html"
 msgid "The latest Windows 7 and Windows 8 updates will periodically test to see if IPv6 works. If the health check fails, then many applications (including Internet Explorer) will use IPv4, to insulate you from any local IPv6 misconfiguration."
@@ -2694,7 +2694,7 @@ msgstr "因為測試顯然失敗，這是一種簡單的測試來説明你知道
 
 #: "faq_no_ipv4.html"
 msgid "Firefox and NoScript"
-msgstr "火狐瀏覽器和 NoScript"
+msgstr "Firefox 瀏覽器和 NoScript"
 
 #: "faq_no_ipv4.html"
 msgid "The NoScript browser plugin disables scripts on the page. In the lower right corner of your browser, is the NoScript icon. Click this to bring up a menu; and temporarilly permit scripts on this site."
@@ -2702,7 +2702,7 @@ msgstr "NoScript 瀏覽器外掛程式禁用頁面上的腳本。在您的瀏覽
 
 #: "faq_no_ipv4.html"
 msgid "Firefox and AdBlock+"
-msgstr "火狐瀏覽器和 AdBlock +"
+msgstr "Firefox 瀏覽器和 AdBlock +"
 
 #: "faq_no_ipv4.html"
 msgid "The AdBlock+ plugin is suspect; it depends on the ruleset that is used. More information from people willing to investigate would be appreciated."
@@ -2734,41 +2734,194 @@ msgstr "這意味著，DNS 解析器使用的需要使用 IPv4 到達你最喜�
 
 #: "faq_avoids_ipv6.html"
 msgid "Most OS's and Browsers will automatically have a strong bias towards a working IPv6 connection instead of the (possibly shared address) IPv4 connection. If yours does not, and you want to see this changed, let the browser company know. You might also find other browsers on the same OS will work the way you'd expect, if you need a work-around."
-msgstr ""
+msgstr "大多數的作業系統和瀏覽器將自動擁有偏重於工作而不是 (可能是共用的位址) IPv4 連接的 IPv6 連接。如果你不存在，和你想要看到這改變，讓這家公司知道的瀏覽器。你也可能發現相同的 OS 上其他瀏覽器都將工作你所期望的是否你需要一個變通辦法。"
 
 #: "faq/simple_test.inc"
 msgid "A standalone copy of this test can be found <a href=\"/simple_test.html\">here</a>."
-msgstr ""
+msgstr "可以找到此測試獨立副本 <a href=\"/simple_test.html\"> 點擊這裡</a>。"
 
 #: "faq_buggydns1.html"
 msgid "Malicious people can recognize that specific IPv6 addresses, when matched with this bug, map to IPv4 addresses they control. Web sites you depend on can be spoofed; you would not know any better, unless the sites are using SSL."
-msgstr ""
+msgstr "惡意的人可以識別特定的 IPv6 位址，當符合這個 bug，映射到他們控制的 IPv4 位址。取決於您的 web 網站可以被欺騙; 你不知道任何更好，除非網站使用 SSL。"
 
 #: "faq_no_ipv4.html"
 msgid "You will have to do this twice."
-msgstr ""
+msgstr "你可能需要設定兩遍。"
 
 #: "faq_no_ipv4.html"
 msgid "The first time enables scripts from the main site; the second time will enable all the \"off site\" scripts that are needed as well."
-msgstr ""
+msgstr "第一次設定將開啟主網站的程式腳本，第二次將會開啟剩下尚未開啟的網站的腳本。"
 
 #: "stats.html"
 msgid "<span lookup=\"site.name\">site</span> statistics"
-msgstr ""
+msgstr "<span lookup=\"site.name\">網站</span> 統計"
 
 #: "faq.html"
 msgid "Q: I run a production IPv6-only network. Without IPv4. My users can't reach test-ipv6.com."
-msgstr ""
+msgstr "問： 我正在運行純 IPv6 網路。沒有 IPv4。我的使用者不能訪問測試 ipv6.com。"
 
 #: "faq.html"
 msgid "Send email to jfesler@test-ipv6.com. If your IPv6-only network has dedicated name servers, or a dedicated BGP ASN, jfesler will enable AAAA records for test-ipv6.com for you."
-msgstr ""
+msgstr "請寄信至 jfesler@test-ipv6.com 。如果你的純 IPv6 網路有一個專用的 DNS 伺服器，或是一個 BGP ASN, jfesler 將會為你在 test-ipv6.com 上啟用 AAAA 紀錄。"
 
 #: "faq.html"
 msgid "If you don't meet the above requirements, you can visit http://ipv6.test-ipv6.com (IPv6-only) or http://ds.test-ipv6.com (IPv4+IPv6)."
-msgstr ""
+msgstr "如果你不符合上述需求，你可以到 http://ipv6.test-ipv6.com (僅IPv6) or http://ds.test-ipv6.com (IPv4+IPv6)。"
 
 #: "faq.html"
 msgid "At some point, when the percentage of \"broken\" users has gone significantly down, I'll consider making test-ipv6.com dual-stack. At last check, March 2017, we still see 0.2% broken visiting test-ipv6.com. And we still want them to understand their situation."
-msgstr ""
+msgstr "當壞掉的使用者比例顯著下降後，我會考慮將 test-ipv6.com 改成雙協定。在最後的一次 2017年 3 月的檢視中，我們仍發現還有 0.2% 壞掉的使用者訪問 test-ipv6.com 。而我們仍希望能幫助他們了解他們遇到的狀況。"
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "Your current configuration may not achieve the highest performance or assure connectivity to all Internet resources as global IPv6 adoption continues. Ask your ISP about native IPv6."
+msgstr "您當前的網路配置不可能達到最高的性能或保證所有網路資源的連接，隨著全球開始採用 IPv6 。關於本機 IPv6 請詢問您的 ISP。"
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "To ensure the best performance and connectivity, ask your ISP about native IPv6."
+msgstr "為了確保最佳的性能和連線性，請將您的 ISP 詢問本機 IPv6。"
+
+#: "inc/messages.js"
+msgid "To ensure the best Internet performance and connectivity, ask your ISP about native IPv6."
+msgstr "為了確保最佳的網路效能及連通性，請向您的ISP業者詢問原生地IPV6。"
+
+#: "faq/plugins_tryagain.inc"
+msgid "After disabling any suspect plugins or extensions, try this site again."
+msgstr "請先停用任何可疑的外掛程式或擴充功能，再進行測試。"
+
+#: "faq/plugins_tryagain.inc"
+msgid "If it still fails, disable all plugins and extensions, until the browser works again."
+msgstr "如果測試仍然失敗，請停用所有的外掛程式和擴充功能，直到瀏覽器恢復正常運作。"
+
+#: "faq/plugins_tryagain.inc"
+msgid "Alternately, consider trying another browser. Suggested browsers: IE, Firefox, Safari, Chrome."
+msgstr "您也可以考慮使用其他瀏覽器。建議使用的瀏覽器為：IE、Firefox、Safari、Chrome"
+
+#: "inc/messages.js"
+msgid "skipped"
+msgstr "跳過"
+
+#: "inc/messages.js"
+msgid "We are sometimes unable to detect Teredo and 6to4 when using HTTPS."
+msgstr "在使用HTTPS时, 我们有时无法检测到 Teredo 和 6 to 4。"
+
+#: "inc/messages.js"
+msgid "HTTPS support on this web site is in <em>beta</em>."
+msgstr "此網站上的 HTTPS 支援位於 <em> Beta </em> 中。"
+
+#: "inc/messages.js"
+msgid "%HTTPS support is now available on this site."
+msgstr "%HTTPS 支援現已在本網站上提供。"
+
+#: "inc/messages.js"
+msgid "faq: Using HTTPS"
+msgstr "常見問題: 使用 HTTPS"
+
+#: "inc/checkresults.js"
+msgid "Tests using this web site are unreliable from your location."
+msgstr "使用这个网站的测试是不可靠的从您的位置。"
+
+#: "faq/find_ip.inc"
+msgid "To see your IP addresses: <code>ifconfig -a inet6</code> or <code>ifconfig -f inet6</code>"
+msgstr "要查看您的 IP 位址: <code> ifconfig-inet6 </code> 或 <code> ifconfig-f inet6 </code>"
+
+#: "faq_https.html"
+msgid "Differences in HTTP vs HTTPS"
+msgstr "HTTP与HTTPS的差异"
+
+#: "faq_https.html"
+msgid "HTTP and HTTPS bring us different testing capabilities. Unfortunately, we can not test both at once. You can choose which features to test for, by using http://test-ipv6.com or https://test-ipv6.com."
+msgstr "HTTP和HTTPS为我们带来了不同的测试功能。 \n"
+"不幸的是，我们不能一次测试两者。 \n"
+"您可以使用http://test-ipv6.com或https://test-ipv6.com选择要测试的功能。"
+
+#: "faq_https.html"
+msgid "<b>HTTP</b> allows us to test for Teredo and 6to4. Both are transitional technologies. Modern operating systems by default no longer use those, unless there is no other choice. Windows, for example, will not use Teredo, when the browser is given a DNS name to connect to. However, Windows will attempt to use Teredo, when told an IPv6-only IP address. 6to4 is similarly deprecated; and only likely used if there is no other choice."
+msgstr "<b> HTTP </ b>允许我们测试Teredo和6to4。 \n"
+"两者都是过渡性技术。 现代操作系统默认不再使用这些, 除非没有其他选择。 \n"
+"例如, Windows将不会使用Teredo, 当浏览器被赋予一个DNS名称来连接。 \n"
+"但是, Windows将在尝试使用Teredo时, \n"
+"会告知仅限IPv6的IP地址。 \n"
+"6to4也同样被弃用; 只有在没有其他选择的情况下才可能使用。"
+
+#: "faq_https.html"
+msgid "HTTP also allows us to detect certain types of DNS64/NAT64. NAT64 is a migration strategy that allows for an eventual IPv6-only Internet. Until then, connections to the IPv4 Internet are translated. We detect this by making connections to literal IP address, such as http://192.0.2.1/ (with a server-specific IP address). We are able to detect NAT64 in particular when there is no local IPv4 tunnel (464xlat on Android) or OS assistance (Apple iOS, Apple MacOS)."
+msgstr "HTTP还允许我们检测某些类型的DNS64 / NAT64。 NAT64是一种迁移策略，允许使用最终IPv6的互联网。 \n"
+"在此之前, 连接到IPv4互联网被翻译。 我们通过连接到文字IP地址 (如http://192.0.2.1/) (具有特定于服务器的IP地址) 来检测此情况。 \n"
+"当没有本地IPv4隧道 (安卓版本464xlat) 或操作系统帮助 (Apple iOS，Apple MacOS) 时, 我们能够检测NAT64。"
+
+#: "faq_https.html"
+msgid "<b>HTTPS</b>, which ensures a trusted transport from you to the server, allows bypassing many corporate and mobile proxy servers. There are exceptions; particularly if you agreed to install their certificate; but that is generally not advised. Bypassing these proxies allows us to show you a better idea of your IP address - something that represents your location, and your connectivity to the IPv6 Internet."
+msgstr "确保从您到服务器的可信传输的<b> HTTPS </ b>允许绕过许多公司和移动代理服务器。 \n"
+"有例外; 特别是如果你同意安装他们的证书; 但通常不建议。 绕过这些代理可以让我们更好地了解您的IP地址 - 代表您的位置，以及您与IPv6 Internet的连接。"
+
+#: "faq_https.html"
+msgid "A limitation of using HTTPS exists. Since HTTPS requires certificates, and certificates are not offered to IP addresses (but instead to web site names), we can't test for NAT64, 6to4, or Teredo."
+msgstr "存在使用HTTPS的限制。 \n"
+"由于HTTPS需要证书,\n"
+"证书不提供给IP地址(而是提供给网站名称),\n"
+"所以我们无法测试NAT64, 6to4或Teredo。"
+
+#: "faq_https.html"
+msgid "Should I use HTTP or HTTPS?"
+msgstr "我應該使用 HTTP 還是 HTTPS？"
+
+#: "faq_https.html"
+msgid "If you're in a new location, or a computer you're not familiar with, consider both! If both come up with the same results, you can pick HTTP for speed, or HTTPS to bypass certain proxies."
+msgstr "如果你在一个新的位置,\n"
+"或者你不熟悉的计算机,\n"
+"可以同时考虑!\n"
+" 如果两者都得到相同的结果,\n"
+"您可以选择HTTP的速度, 或HTTPS绕过某些代理。"
+
+#: "faq_https.html"
+msgid "Links:"
+msgstr "連結："
+
+#: "inc/messages.js"
+msgid "Test results inconclusive; they were not consistent with expectations. Please rerun the test, and if the results are the same, seek local network help."
+msgstr "测试结果不确定; 他们不符合预期。 请重新运行测试, 如果结果相同, 请寻求本地网络帮助。"
+
+#: "inc/messages.js"
+msgid "Connections to IPv6-capable web sites hang. It appears that you may have IPv6 configured; and your computer believes that your IPv6 is working, with a route. It is however completely failing. Any web site that adds IPv6, will become unreachable to you. If you are unable to fix your IPv6 routing or connectivity, seek help. If all else fails, strongly consider disabling IPv6 on your host."
+msgstr "连接到支持IPv6的网站挂起。 看起来您可能已经配置了IPv6; 而你的电脑认为你的IPv6正在工作, 有一个路由。 但是. 这完全是失败的。 任何添加IPv6的网站都将无法访问您。 如果您无法修复您的IPv6路由或连接, 请寻求帮助。 如果一切都失败了, 请考虑在主机上禁用IPv6。"
+
+#: "inc/builtin.js"
+msgid "Test Data"
+msgstr "測試資料"
+
+#: "inc/form.js"
+msgid "Please consent to sharing your data."
+msgstr "請確認同意分享你的資料。"
+
+#: "faq_avoids_ipv6.html"
+msgid "As of OS X 10.11 \"El Capitan\" and iOS 9, IPv6 is given a slight preference; but will fall back to IPv4 if network conditions warrant it."
+msgstr "从OS X 10.11“El Capitan”和iOS 9开始,\n"
+"IPv6被赋予轻微的偏好; 但如果网络条件允许的话,\n"
+"会回落到IPv4。"
+
+#: "faq_pmtud.html"
+msgid "Your router will automatically add an IPv4 header to the top of your packet. This same router will let your computer know if the packet is going to be too big; your computer will (as long as it gets the ICMPv6 \"Packet Too Big\" message) resend the packet, at a smaller size recommended by your router. A router near the web site, will automatically remove the IPv4 header, and forward the IPv6 piece."
+msgstr "您的路由器会自动将IPv4标头添加到数据包的顶部。 \n"
+"这个相同的路由器会让你的电脑知道这个数据包是否会太大,\n"
+" 您的计算机将(只要它得到ICMPv6“数据包太大”消息)\n"
+"重新发送数据包,\n"
+"在路由器推荐的较小的大小。 \n"
+"网站附近的路由器会自动删除IPv4标头, 并转发IPv6片段。"
+
+#: "faq_v6ns_bad.html"
+msgid "OpenDNS is now offering IPv6-specific resolvers, that will be able to retrieve DNS over IPv6. This means the \"v6ns\" test operated here will pass. See the <a target=_blank href=\"https://www.opendns.com/about/innovations/ipv6/\">OpenDNS IPv6 information page</a>."
+msgstr "OpenDNS現在提供IPv6特定的解析器,\n"
+"它將能夠通過IPv6檢索DNS。 \n"
+"這意味著這裡操作的“v6ns”測試將通過。 \n"
+"請參閱<a target=_blank href=\"https://www.opendns.com/about/innovations/ipv6/\"> OpenDNS IPv6信息頁面</a>。"
+
+#: "faq_whyipv6.html"
+msgid "Web sites that today automatically show you your local weather, news, and movies may no longer be able to locate you using your IPv4 address; you'll have to tell the web sites where in the world you are."
+msgstr "今天自動向您顯示當地天氣,\n"
+"新聞和電影的網站可能無法再使用您的IPv4地址找到您; \n"
+"你必須告訴網站在世界上你是誰。"
+
+#: "main/mail.inc"
+msgid "I consent to sharing my IP address(es), test results, web browser name and version, operating system name and version, and any other information entered above (including email address), as email transmitted to <a mailto=site.mailto href=\"-\"><span lookup=site.contact></span> &lt;<span lookup=site.mailto></span>&gt;</a>; and that this information may be translated by Google Translate."
+msgstr "我確認同意分享我的IP位址、測試結果、瀏覽器名稱與版本、作業系統名稱與版本，和其他上面提供的資料(包含電子郵件信箱)，這將寄去<a mailto=site.mailto href=\"-\"><span lookup=site.contact></span>&lt;<span lookup=site.mailto></span>&gt;</a>；這些資訊可能會被Google翻譯使用。"
 

@@ -6,8 +6,7 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <title>{{Test your IPv6.}}</title>
 [% if eq .Basename "index" %]
-  <meta name="description" content='{{This will test your browser and connection for IPv6 readiness, as well as show you your current IPV4 and IPv6 address.}}' />
-[% end %]
+  <meta name="description" content='{{This will test your browser and connection for IPv6 readiness, as well as show you your current IPv4 and IPv6 address.}}' /> [% end %]
   <meta name="keywords" content="test,ipv4,ipv6,isp" />
   <meta name="y_key" content="6a3ded130c3ff129" />
   <link rel="stylesheet" href="/index.css?version=[% .GitInfo.Version %]" type="text/css" />

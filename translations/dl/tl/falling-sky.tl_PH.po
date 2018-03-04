@@ -3,132 +3,132 @@ msgstr ""
 "Project-Id-Version: falling-sky\n"
 "PO-Revision-Date: 2018-03-01 02:30-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
-"Language-Team: Croatian\n"
+"Language-Team: Tagalog\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: crowdin.com\n"
 "X-Crowdin-Project: falling-sky\n"
-"X-Crowdin-Language: hr\n"
+"X-Crowdin-Language: tl\n"
 "X-Crowdin-File: falling-sky.pot\n"
-"Language: hr_HR\n"
+"Language: tl_PH\n"
 
 #: "inc/mirrorconfig.js"
 msgid "This mirror is provided by"
-msgstr ""
+msgstr "Ang nagbigay ng salamin ay si"
 
 #: "inc/messages.js"
 msgid "bad"
-msgstr "loše"
+msgstr "masama"
 
 #: "inc/messages.js"
 msgid "ok"
-msgstr "dobro"
+msgstr "ok"
 
 #: "inc/messages.js"
 msgid "slow"
-msgstr "sporo"
+msgstr "mabagal"
 
 #: "inc/messages.js"
 msgid "timeout"
-msgstr "bez odgovora"
+msgstr "timeout"
 
 #: "inc/messages.js"
 msgid "Connections to urls with IP addresses appear to be blocked; perhaps by a web filter such as 'NoScript' or 'RequestPolicy' installed into your browser, or filtering in your proxy server. This limits some of the functionality of this test site."
-msgstr "Pristupi na stranice koje sadrže IP adrese su blokirani; možda zbog web filtera u vašem pregledniku kao što je 'NoScript' ili 'RequestPolicy', a možda ih filtrira vaš proxy poslužitelj. Zbog toga je funkcionalnost ovih provjera djelomično ograničena."
+msgstr "Ang koneksyon sa urls na mayrong mga IP adrdress ay lumilitaw na hinarangan; marahil ito ay dahil sa web filter gaya ng 'NoScript o 'RequestPolicy' na naistall sa iyong browser, o di kaya piltro ng iyong proxy server. Ito ay naglimita ng ilang ginagawa nitong test site."
 
 #: "inc/messages.js"
 msgid "IPv4 Connections using DNS work; but literal IP addresses in urls do not. These are rarely used on the web today."
-msgstr "IPv4 pristupi putem DNS imena rade, ali ne rade pristupi koji u adresi koriste numeričku IP adresu poslužitelja. Takavi pristupi se danas na webu rijetko koriste."
+msgstr "Ang koneskyon ng IPv4 gamit ang DNS ay gumagana; ngunit ang literal na IP address ng urls ay hindi gumagana. Ito ay bihirang ginagamit ng web ngayon."
 
 #: "inc/messages.js"
 msgid "IPv6 Connections using DNS work; but literal IP addresses in urls do not. These are rarely used on the web today."
-msgstr "IPv6 pristupi putem DNS imena rade, ali ne rade pristupi koji u adresi koriste numeričku IP adresu poslužitelja. Takavi pristupi se danas na webu rijetko koriste."
+msgstr "Ang konekson ng IPv6 gamit ang DNS ay gumaganal ngunit ang literal na IP address ng urls ay hindi gumagana. Ito ay bihirang ginagamit ng web ngayon."
 
 #: "inc/messages.js"
 msgid "You appear to be using a public 6to4 gateway; your router may be providing this to you automatically. Such public gateways have no service level agreements; you may see performance problems using such. Better would be to get a native IPv6 address from your ISP."
-msgstr "Koristite javni 6to4 pretvornik; vaš usmjeriterlj možda automatski pruža tu funkcionalnost. Neki javni pretvornici ne daju garanciju kvalitete, pa ukoliko ih koristite možete imati problema s perfromansama. Bolje bi bilo da od svog ISP-a zatražite klasičnu IPv6 adresu."
+msgstr "Lumitaw na ikay ay gumagamit ng public 6to4 gateway; ang iyong rawter ang awtomatikong nag-bigay nito. Itong pampublikong gateways ay walang kasunduan sa level agreements; makakakita ka ng problema sa pagganap gamit nito. Mas mabuti na kumuha ka ng likas na IPv6 address galing sa iyong ISP."
 
 #: "inc/messages.js"
 msgid "Your IPv6 connection appears to be using Teredo, a type of IPv4/IPv6 translation using a public gateway. The quality for this <i>may</i> suffer, as you are using a public gateway to reach IPv6 based sites."
-msgstr "Vaša IPv6 veza možda koristi Toredo, vrstu IPv4/IPv6 pretvorbe koja koristi javni pretvornik. Kvalitet ovakvog pristupa može biti <i>slabiji</i> jer se IPv6 stranicama pristupa preko ajvnog premosnika."
+msgstr "Lumitaw na ang iyong IPv6 na koneksyon ay gumagamit ng Teredo; ang uri ng IPv4/IPv6 na pagsasalin gamit ang pampublikog gateway. Ang kalidad nito ay <i>ay maaring</i> magdusa, habang ikaw ay gumagamit ng pampublikong gateway para maabot ang IPv6 based sites."
 
 #: "inc/messages.js"
 msgid "Your IPv6 connection appears to be using Teredo, a type of IPv4/IPv6 gateway; currently it connects only to direct IP's. Your browser will not be able to go to IPv6 sites by name. This means the current configuration is not useful for browsing IPv6 web sites."
-msgstr "Vaša IPv6 veza možda koristi Toredo, vrstu IPv4/IPv6 pretvorbe koja koristi javni pretvornik; trenutno radi samo spajanje direktno na IP adresu. Vaš preglednik neće moći otvoriti IPv6 stranice po imenu. To znači da trenutna konfiguracija nije pogodna za pristup IPv6 web stranicama."
+msgstr "Lumitaw na ang iyong IPv6 na koneksyonay gumagamit ng Teredo, ang uri ng IPv4/IPv6 na gateway; sa ngayon ito ay kumokonekta lang sa direct IP's. Ang iyong browser ay hindi maaring pumunta sa IPv6 sites gamit ang pangalan. Ibig sabihin nito ang kasalukuyang konpigurasyon ay hindi nakakatulong sa pagbrows ng IPv6 web sites."
 
 #: "inc/messages.js"
 msgid "Your IPv6 connection appears to be using Teredo, a type of IPv4/IPv6 gateway. Your particular teredo configuration is only used as a protocol of last resort. When visiting a site with both IPv4 and IPv6, IPv4 will be preferred."
-msgstr "Vaša IPv6 veza možda koristi Toredo, vrstu IPv4/IPv6 pretvorbe koja koristi javni pretvornik. Vaša konkretna Teredo konfiguracija se koristi samo u slučaju da drugi pristupi ne rade. Kad pristupate stranici koja ima IPv4 i IPv6, prvo će se koristiti IPv4."
+msgstr "Lumitaw na ang iyong IPv6 na koneksyon ay gumagamit ng Teredo, ang uri ng IPv4/IPv6 na gateway. Iyong partikular na pagsasaayos ng teredo ay magamit lamang bilang protocol sa huling paraan. Kapag bumisita ng site na may IPv4 at IPv6, ang IPv4 ang gamitin."
 
 #: "inc/messages.js"
 msgid "Danger! IPv6 sorta works - however, large packets appear to fail, giving the appearance of a broken website. If a publisher publishes to IPv6, you will believe their web site to be broken. Ask your ISP about MTU issues; possibly with your tunnel."
-msgstr "Važno! IPv6 naizgled radi - međutim veći zahtjevi ne prolaze što ima za posljedicu da pristup web stranicama ne radi. Ako pružatelj sadržaja koristi IPv6 činit će vam se da njihova web stranica ne radi. Kontaktirajte svoj ISP u vezi MTU problema; moguće da je problem u tunelu koji koristite."
+msgstr "Piligro! IPv6 sorta gumagana - ganun paman, ang malalaking paket ay lumilitaw na mabibigo, makikita ang hitsura ng sirang website. Kapag ang tagapaglathala ay nagpa-publish sa IPv6, ikaw ay maniniwala na ang kanilang web site ay sira. Magtanong sa iyong ISP tungkol sa MTU na mga isyu; marahil sa iyong tunnel."
 
 #: "inc/messages.js"
 msgid "Check your firewall to make sure that ICMPv6 messages are allowed (in particular, Type 2 or Packet Too Big)."
-msgstr ""
+msgstr "I-check ang iyong firewall upang tiyakin na ang mga mensahe sa ICMPv6 ay pinaghintulotan (sa partikular na, Type 2 o Packet Too Big)."
 
 #: "inc/messages.js"
 msgid "Test results inconclusive; they were not consistent with expectations. Please rerun the test, and if the results are the same, please fill out the contact form."
-msgstr "Rezultati provjera nisu jednoznačni; drugim riječima nisu onakvi kao što bi se očekivalo. Molimo ponovite provjere i ako su rezultati ponovo jednaki molimo ispunite web formu."
+msgstr "Ang resulta ng pagsuri ay kasama; ang expektasyon ay pabago-bago. Pakiusa e-run ulit ang pagsuri, at kapag ang resulta ay pareho na, paki fill-up ang contact form."
 
 #: "inc/messages.js"
 msgid "For unknown reasons, your browser appears to operate slower when given the option of connecting to both IPv4 and IPv6. Please rerun the test, and if the results are the same, please fill out the contact form."
-msgstr "Iz nepoznatog razloga vaš preglednik radi sporije kad pristupa stranicama koje imaju IPv4 i IPv6 adresu. Molimo ponovo pokrenite provjeri i ako su rezultati ponovo isti ispunite kontakt formu."
+msgstr "Para sa mga hindi nalamang rason, ang iyong browser ay lumitaw na mahina paandarin kapag ito ay binigyan ng opsyon sa pagkonekta sa IPv4 at IPv6. Pakiusap i-run ulit ang pagsuri, at kapag pareho na ang resulta, paki fill-upan ang contact form."
 
 #: "inc/messages.js"
 msgid "You appear to be able to browse the IPv4 Internet only. You will not be able to reach IPv6-only sites."
-msgstr "Čini se da možete pristupati samo IPv4 Internetu. Ne možete pristupati sjedištima koja imaju samo IPv6 adresu."
+msgstr "Lumitaw na ikaw ay pwedeng mag-browse gamit ang IPv4 Internet lamang. Hindi mo maabot ang IPv6-only sites."
 
 #: "inc/messages.js"
 msgid "When a publisher offers both IPv4 and IPv6, your browser appears to be happy to take the IPv4 site without delay."
-msgstr "Kad pružatelj sadržaja koristi IPv4 i IPv6 vaš preglednik pristupa IPv4 stranici bez zadrške."
+msgstr "Kapag ang tagapaglathala ay nag alok ng IPv4 at IPv6, ang iyong browser ay lumilitaw na masaya na kunin ang IPv4 site na walang antala."
 
 #: "inc/messages.js"
 msgid "When a publisher offers both IPv4 and IPv6, your browser appears to slow down signficantly compared to an IPv4-only site. You may even believe the destination web site to be broken. This may be due to your IPv6 configuration."
-msgstr "Kad pružatelj sadržaja koristi IPv4 i IPv6 vaš preglednik se značajno uspori u usporedbi sa pristupom na stranicu koja ima samo IPv4 adresu. Zbog toga vam se može činiti da je web stranica u kvaru. Ovakvo ponašanje može biti posljedica vaše IPv6 konfiguracije."
+msgstr "Kapag ang tagapaglathala ay nag alok ng IPv4 at IPv6, ang iyong browser ay lumilitaw na makabuluhang nghina kung ikumpara sa IPv4-only site. Baka sakaling ikaw ay maniwala na ang destinasyon ng web site ay sira. Ito ay maaring dahilan ng iyong IPv6 na pagsasaayos."
 
 #: "inc/messages.js"
 msgid "When a publisher offers both IPv4 and IPv6, your browser will time out trying to connect. You may believe the site is down. This may be due to your IPv6 configuration. Consider disabling IPv6, or seeking help."
-msgstr "Kad pružatelj sadržaja koristi IPv4 i IPv6 vaš preglednik se ne uspjeva spojiti u zadanom roku. Zbog toga vam se može činiti da je web stranica nedostupna. Ovakvo ponašanje može biti posljedica vaše IPv6 konfiguracije. Razmislite o isključivanju IPv6 podrške ili potražite pomoć."
+msgstr "Kapag ang tagapaglathala ay mag alok ng IPv4 at IPv6, ang iyong browser ay magtime out kaka-konek. Ikaw ay maaring maniwala na ang site ay sira. Ito ay marahil dahil sa iyong IPv6 na pagsasaayos. I-consider ang hindi pag-gana ng IPv6, o di kaya maghanap ng katulong."
 
 #: "inc/messages.js"
 msgid "Connections to IPv4 are slow, but functional. Perhaps you or your ISP put you behind an IP sharing device (NAT) that is currently slow."
-msgstr "Veze na IPv4 stranice su spore ali funkcioniraju. Možda ste vi ili vaš ISP iza uređaja za dijeljnje IP adresa (NAT) koji trenutno sporo radi."
+msgstr "Ang koneksyon sa IPv4 ay mahina, pero gumagana. Marahil ikaw o ang iyong ISP na linagay sa likod ng IP sharing device (NAT) ay ang kasulukoyang mahina."
 
 #: "inc/messages.js"
 msgid "You appear to be able to browse the IPv6 Internet only. You have no access to IPv4. That's pretty bold!"
-msgstr "Čini se da možete pristupati samo IPv4 Internetu. Nemate pristup na IPv4 stranice. To je prilično hrabro!"
+msgstr "Lumilitaw na ikaw ay pwedeng makabrowse ng IPv6 internet lamang. Wala kang access sa IPv4. Iyan ay mapangahas!"
 
 #: "inc/messages.js"
 msgid "Connections to IPv6 are slow, but functional. Perhaps you are using a public IPv6 tunnel that is either slow, or not located near you."
-msgstr "Veze na IPv6 stranice su spore ali funkcioniraju. Možda koristite javni IPv6 tunel koji je spor ili se ne nalazi u vašoj blizini."
+msgstr "Ang koneksyon sa IPv6 ay mahina, pero gumagana. Marahil ikaw ay gumagamit ng pampublikong IPv6 tunnel na mahina, o hindi natatagpuan malapit sayo."
 
 #: "inc/messages.js"
 msgid "Connections to IPv6-only sites are timing out. Any web site that is IPv6 only, will appear to be down to you."
-msgstr "Veze na stranice koje koriste samo IPv6 ne uspijevaju u zadanom roku. Zbog toga će vam web stranice koje koriste samo IPv6 izgledati nedostupne."
+msgstr "Ang koneksyon sa IPv6-only sites ay nagtime out. Anumang web site na IPv6 only, ay lumilitaw na sira sa iyo."
 
 #: "not-used, archived.  Not currently needed for translation."
 msgid "Connections to IPv6-capable web sites hang. It appears that you may have IPv6 configured; and your computer believes that your IPv6 is working, with a route. It is however completely failing. Any web site that adds IPv6, will become unreachable to you. If you are unable to fix your IPv6 routing or connectivity, seek help. If all else fails, strongly consider disabling IP6 on host."
-msgstr "Spajanje na web stranice sa IPv6 adresom ne uspijeva. Čini se da imate postavljen IPv6; vaše računalo vjeruje da IPv6 radi i da može usmjeravati podatke tim putem. Ali to zapravo uopće ne radi. Svaka web stranica koja aktivira IPv6 postat će vam nedostupna. Ako ne možete popraviti svoje IPv6 usmeravanje ili vezu potražite pomoć. Ako nista drugo ne uspije, ozbiljno razmislite o isključivanju IPv6 podrške na vašem računalu."
+msgstr "Ang koneksyon sa IPv6-capable web sites ay nag hang. Lumilitaw na ikaw ay may IPv6 na isinaayos; at ang iyong kompyuter ay naniniwala na ang iyong IPv6 ay gumagana, na may ruta. Gayunpaman ito ay ganap na hindi gumagana. Anumang web site na idagdag ang IPv6, ay hindi mo na maabot. Kapag hindi mo nagawang ayusin ang iyong IPv6 na ruta o ang koneksyon, maghanap ng makakatulong. Kapag ang lahat ay mabigo, Isaalang-alang na wag nalang gamitin ang IP6 sa host."
 
 #: "inc/messages.js"
 msgid "We are unable to test your system; it appears that a firewall or browser filter is preventing the test from running. Critical tests are failing. Try disabling any browser plugins, extensions, or add-ons (such as ad blockers); and reloading this page. If that still fails, you can leave a comment requesting help."
-msgstr "Provjere se ne mogu izvršiti na vašem sustavu; čini se da vatrozid ili filter u pregledniku spriječava izvršavanje provjera. Kritične provjere se ne mogu izvršiti. Pokušajte isključiti dodatke i proširenja za preglednik (kao što je blokiranje oglasa), te nakon toga ponovo učitajte ovu stranicu. Ako ni to ne pomogne, možete putem komentara zatražiti pomoć."
+msgstr "Hindi namin nakayang suriin ang iyong systema; lumilitaw na ang firewall o browser filter ay pinigilan ang test para mag suri. Nanghihina ang critical tests. Subukang hindi paganahin ang browser plugins, extension, o add-ons (tulang ng ad blockers); at e load muli itong pahina. Kapag hindi parin gumagana, pwede kang mag iwan ng komento na humiling ng tulong."
 
 #: "inc/messages.js"
 msgid "We are unable to test your system; it appears that a firewall or browser filter is preventing the test from running. The dual-stack tests are failing. Try disabling any browser plugins, extensions, or add-ons (such as ad blockers); and reloading this page. If that still fails, you can leave a comment requesting help."
-msgstr "Provjere se ne mogu izvršiti na vašem sustavu; čini se da vatrozid ili filter u pregledniku spriječava izvršavanje provjera. Provjere web stranica sa dualnom IPv4/IPv6 adresom ne uspjevaju. Pokušajte isključiti dodatke i proširenja za preglednik (kao što je blokiranje oglasa), te nakon toga ponovo učitajte ovu stranicu. Ako ni to ne pomogne, možete putem komentara zatražiti pomoć."
+msgstr "Hindi namin nakayang suriin ang iyong systema; lumilitaw na ang firewall o browser filter ay pinigilan ang test para mag suri. Ang dual-stack test ay nanghina. Subukang wag paganahin ang browser plugins, extensions, o add-ons (gaya ng blockers); at i-load ulit ang pahena. Kapag hindi parin gumagana, pwede kang mag iwan ng komenta na humiling ng tulong."
 
 #: "inc/messages.js"
 msgid "Your browser is blocking the test urls. We will try alternate methods, but they may fail to show your IP address; and may affect the quality of the advice given."
-msgstr "Vaš preglednik blokira testne adrese. Pokušat ćemo koristiti zamjenske načine pristupa, ali vaša IP adresa možda se neće moći prikaziti, te to može utjecati na točnost danih savjeta."
+msgstr "Ang iyong browser ay hinarangan ang test urls. Susubakan naming maghanap ng alternatibo, pero maaring hindi nila maipakita ang iyong IP address; at maapektuhan ang kalidad ng payo na ibinigay."
 
 #: "inc/messages.js"
 msgid "The most likely cause is NoScript or AdBlock+. NoScript can be told to permit all scripts on this page (you may need to do this more than once). At minimum, permit the urls listed below."
-msgstr "Najvjerojatniji razlog je NoScript ili AdBlock+. NoScript se može postaviti tako da propušta sve skripte na ovo stranici (ovo ćete možda morati ponoviti više puta). Za početak propustite dolje navedene adrese."
+msgstr "Ang maaring dahilan nito ay ang NoScript o Adblock+. NoScript ay maaring masabihan na pahintulutan ang lahat ng scipts sa iyong pahena (maaring kailangan mo itong gawin higit sa isa). Sa minimum, pahintulutan ang urls na nalista sa baba."
 
 #: "inc/messages.js"
 msgid "NAT64 detected. IPv6 works. IPv4 works for most purposes. Applications that are hard-coded for IPv4-only will fail. We are aware of at least one major voice-over-ip program that falls into this category. Your application's support staff may need a nudge to add proper IPv6 support."
@@ -136,19 +136,19 @@ msgstr ""
 
 #: "inc/messages.js"
 msgid "Your DNS server (possibly run by your ISP) appears to have IPv6 Internet access."
-msgstr "DNS poslužitelj koji koristite (najvjerojatnije ga održava vaš ISP) ima pristup do IPv6 Interneta."
+msgstr ""
 
 #: "inc/messages.js"
 msgid "Your DNS server (possibly run by your ISP) appears to have no access to the IPv6 Internet, or is not configured to use it. This may in the future restrict your ability to reach IPv6-only sites."
-msgstr "DNS poslužitelj koji koristite (najvjerojatnije ga održava vaš ISP) nema pristup do IPv6 Interneta ili nije postavljen da ga koristi. U budućnosti to može ograničiti vašu mogućnost spajanja sa stranice koje koriste samo IPv6."
+msgstr ""
 
 #: "inc/messages.js"
 msgid "You are likely using a FireFox plugin that is causing IP based tests to fail. Examples: RequestPolicy. Please disable those while using this site."
-msgstr "Vjerojatno koristite FireFox dodatak koji uzrokuje greške u provjerama za pristup na IP adrese. Primjer: RequestPolicy. Molim isključite dodatke kad pristupate ovoj stranici."
+msgstr ""
 
 #: "inc/messages.js"
 msgid "A lookup for an IPv6-only name failed; yet the lookup and connect for dual-stack connected via IPv6. Something appears to be confused with the DNS lookups."
-msgstr "Dohvat adrese za stranicu koja koristi samo IPv6 nije uspio, dok je dohvat i spajanje na stranicu sa dualnom IPv4/IPv6 adresom putem IPv6 bio uspješan. Nešto nije u redu sa DNS upitima."
+msgstr ""
 
 #: "inc/messages.js"
 msgid "A lookup for an IPv6-only name failed; yet the lookup and connect for dual-stack connected via IPv6. The IPv6-only lookup should have worked. Apple has a bug that sporadically causes some IPv6 lookups to fail. We saw evidence of it on this test. You can reload the page and try the test again. For more details, see <a href='http://openradar.appspot.com/7333104'>http://openradar.appspot.com/7333104</a>."
@@ -160,39 +160,39 @@ msgstr ""
 
 #: "inc/messages.js"
 msgid "No IPv4 address detected"
-msgstr "IPv4 adresa nije detektirana"
+msgstr "Walang IPv4 address na nakita"
 
 #: "inc/messages.js"
 msgid "No IPv6 address detected"
-msgstr "IPv6 adresa nije detektirana"
+msgstr "Walang IPv6 address na nakita"
 
 #: "inc/messages.js"
 msgid "Your IP address(es) could not be detected due to inteference from browser add-ons."
-msgstr "Vaše IP adrese nisu detektirane zbog interferencije s dodacima u pregledniku."
+msgstr ""
 
 #: "inc/messages.js"
 msgid "The Opera web browser seems to be break on this site frequently. <b>If you have trouble, try another browser</b>."
-msgstr "<b>Ako primjetite probleme, pokušajte s drugim preglednikom</b>."
+msgstr ""
 
 #: "inc/messages.js"
 msgid "<b>Disable turbo mode on Opera, and try again.</b> Turbo mode is not compatible with the needs of this site."
-msgstr "<b>Isključite ubrzani način rada u Operi i pokušajte ponovo.</b> Ubrzani način rada nije kompatibilan s funkcioniranjem ove stranice."
+msgstr ""
 
 #: "inc/messages.js"
 msgid "<b>Good news!</b> Your current configuration will continue to work as web sites enable IPv6."
-msgstr "<b>Dobra vijest!</b> Preglednik u kojem ovo čitate, na ovom računalu i trenutnoj lokaciji bi trebali nastaviti ispravno raditi nakon svjetske IPv6 aktivacije."
+msgstr ""
 
 #: "inc/messages.js"
 msgid "<b>Our tests show that you will have a broken or misconfigured IPv6 setup, and this will cause problems as web sites enable IPv6.</b>"
-msgstr "<b>Provjere ukazuju na neispravnu IPv6 konfiguraciju i to će uzrokovati probleme kad web stranice aktiviraju IPv6.</b>"
+msgstr ""
 
 #: "inc/messages.js"
 msgid "<b>Our tests show that you may have MTU problems with IPv6; this can cause web sites to load slow (or not at all) when web sites enable IPv6.</b>"
-msgstr "<b>Provjere ukazuju na MTU probleme kod IPv6 pristupa što može uzrokovati da se web stranice učitavaju sporo (ili se uopće ne učitaju) kad se na njima aktivira IPv6.</b>"
+msgstr ""
 
 #: "inc/messages.js"
 msgid "We looked up an IPv6 address, but your DNS server (possibly your home router) mangled the response, and is treating it as (broken) IPv4."
-msgstr "Pokušali smo dohvatiti IPv6 adresu ali je vaš DNS poslužitelj (koji se možda nalazi na kućnom usmjerivaču) vratio neispravan odgovor jer neispravno tretira kao IPv4 adresu."
+msgstr ""
 
 #: "inc/messages.js"
 msgid "It appears that you use a tunnel mechanism for either IPv4 or IPv6."
@@ -204,219 +204,219 @@ msgstr ""
 
 #: "inc/messages.js"
 msgid "We have detected that you are using a proxy. This means we are testing your proxy server, not your computer. Proxy details (as reported by your proxy 'Via' header): %details"
-msgstr "Detektirali smo da za pristup stranicama koristite proxy poslužitelj. To znači da ova stranica zapravo provjerava vaš proxy poslužitelj, a ne vaše računalo. Detalji o proxy poslužitelju (navedeni u 'Via' zaglavlju zahtjeva): %details"
+msgstr ""
 
 #: "inc/messages.js"
 msgid "We have detected that you are using a proxy. This means we are testing your proxy server, not your computer."
-msgstr "Detektirali smo da za pristup stranicama koristite proxy poslužitelj. To znači da ova stranica zapravo provjerava vaš proxy poslužitelj, a ne vaše računalo."
+msgstr ""
 
 #: "inc/messages.js"
 msgid "IPv6 connections work, but connections using DNS names do not use IPv6. For some reason, your browser or your OS is not doing IPv6 DNS 'AAAA' lookups."
-msgstr "IPv6 spajanje radi, ali veze ostvarene putem DNS imena ne koriste IPv6. Iz nekog razloga vaš preglednik ili operacijski sustav na šalje IPv6 'AAAA' upite na DNS."
+msgstr ""
 
 #: "inc/messages.js"
 msgid "We have suggestions to help you fix your system."
-msgstr "Imamo ideju kako možete popraviti greške prijavljenje kod provjere vašeg računala."
+msgstr "Mayroong kaming payo para matulugan kang ayusing ang iyong systema."
 
 #: "inc/messages.js"
 msgid "Since you have IPv6, we are including a tab that shows how well you can reach other IPv6 sites. %sites"
-msgstr "Pošto imate aktivan IPv6 pristup prikazuje se kartica s popisom drugih IPv6 stranica kojima možete pristupiti. %sites"
+msgstr "Dahil mayron kang IPv6, kami ay may sinama na tab na magpakita kung gaano ka kahusay sa IPv6 sites. %sites"
 
 #: "inc/messages.js"
 msgid "Your browser has real working IPv6 address - but is avoiding using it. We're concerned about this."
-msgstr "Vaš preglednik ima radeću IPv6 adresu ali ju izbjegava koristiti. To je zabrinjavajuće."
+msgstr "Ang iyong browser ay tunay na gumagana ang IPv6 address - pero hinarangan ang pag gamit nito. Kami ay nag-aalala dahil dito."
 
 #: "inc/messages.js"
 msgid "faq: MTU"
-msgstr "ČPP: MTU"
+msgstr "faq: MTU"
 
 #: "inc/messages.js"
 msgid "faq: No IPv4"
-msgstr "ČPP: Bez IPv4 veze"
+msgstr "faq: Walang IPv4"
 
 #: "inc/messages.js"
 msgid "faq: No IPv6"
-msgstr "ČPP: Bez IPv6 veze"
+msgstr "faq: Walang IPv6"
 
 #: "inc/messages.js"
 msgid "faq: 6to4"
-msgstr "ČPP: 6to4"
+msgstr "faq: 6to4"
 
 #: "inc/messages.js"
 msgid "faq: Teredo Minimum"
-msgstr "ČPP: Teredo osnovni pristup"
+msgstr "faq: Teredo Minimum"
 
 #: "inc/messages.js"
 msgid "faq: v6ns Bad"
-msgstr "ČPP: v6ns neispravan"
+msgstr "faq: v6ns Masama"
 
 #: "inc/messages.js"
 msgid "faq: Browser Plugins"
-msgstr "ČPP: Dodatci za preglednik"
+msgstr "faq: Browser Plugins"
 
 #: "inc/messages.js"
 msgid "faq: Firefox Add-Ons"
-msgstr "ČPP: Dodatci za Firefox"
+msgstr "faq: Firefox Add-Ons"
 
 #: "inc/messages.js"
 msgid "faq: Opera"
-msgstr "ČPP: Opera"
+msgstr "faq: Opera"
 
 #: "inc/messages.js"
 msgid "faq: Buggy DNS"
-msgstr "ČPP: Neispravan DNS"
+msgstr "faq: Buggy DNS"
 
 #: "inc/messages.js"
 msgid "faq: Broken!"
-msgstr "ČPP: Neispravno!"
+msgstr "faq: Sira!"
 
 #: "inc/messages.js"
 msgid "faq: Broken DNS Lookups"
-msgstr "ČPP: Neispravni DNS upiti"
+msgstr "faq: Sirang DNS Lookups"
 
 #: "inc/messages.js"
 msgid "faq: Avoiding IPv6?"
-msgstr "ČPP: Izbjegavanje korištenja IPv6?"
+msgstr "faq: Iniiwasang IPv6?"
 
 #: "inc/messages.js"
 msgid "faq: 6RD tunnel"
-msgstr ""
+msgstr "faq: 6RD tunnel"
 
 #: "inc/builtin.js"
 msgid "[more info]"
-msgstr "[dodatne informacije]"
+msgstr "[karagdagang impormasyon]"
 
 #: "inc/builtin.js"
 msgid "Your IPv4 address on the public Internet appears to be"
-msgstr "Vaša javna IPv4 adresa je"
+msgstr "Ang iyong IPv4 address sa pam-publikong internet ay lumilitaw na"
 
 #: "inc/builtin.js"
 msgid "Proxied"
-msgstr "Posredovan"
+msgstr "Kinatawanan"
 
 #: "inc/builtin.js"
 msgid "Your IPv6 address on the public Internet appears to be"
-msgstr "Vaša javna IPv6 adresa je"
+msgstr "Ang iyong IPv6 address sa pam-publikong internet ay lumabas na"
 
 #: "inc/builtin.js"
 msgid "Your IPv6 service appears to be"
-msgstr "Vaša IPv6 usluga je"
+msgstr "Ang iyong IPv6 ay lumilitaw na"
 
 #: "inc/builtin.js"
 msgid "Your Internet Service Provider (ISP) appears to be"
-msgstr ""
+msgstr "Ang iyong Internet Service Provide (ISP) ay lumilitaw na"
 
 #: "inc/builtin.js"
 msgid "Started"
-msgstr "Započeto"
+msgstr "Nasimulan"
 
 #: "inc/builtin.js"
 msgid "proxied"
-msgstr "posredovano"
+msgstr "kinatawanan"
 
 #: "inc/builtin.js"
 msgid "using"
-msgstr "koristi"
+msgstr "ginamit"
 
 #: "inc/builtin.js"
 msgid "tests run"
-msgstr ""
+msgstr "sinubukang patakbuhin"
 
 #: "inc/builtin.js"
 msgid "(Survey posting skipped; test was rigged)"
-msgstr "(Izvještaj nije poslan; provjera je bila namještena)"
+msgstr ""
 
 #: "inc/builtin.js"
 msgid "(Updating server side IPv6 readiness stats)"
-msgstr "(Ažuriranje statistike IPv6 pripremnjenosti)"
+msgstr ""
 
 #: "inc/builtin.js"
 msgid "(Updated server side IPv6 readiness stats)"
-msgstr "(Ažurirana statistika IPv6 pripremljenosti)"
+msgstr ""
 
 #: "inc/builtin.js"
 msgid "(Survey posting failed; the above information is accurate, but not recorded.)"
-msgstr "(Slanje izvještaja nije uspjelo; gore navedeni rezultati su točni ali statistika nije ažurirana.)"
+msgstr ""
 
 #: "inc/builtin.js"
 msgid "Your readiness score"
-msgstr "Vaš rezultat"
+msgstr ""
 
 #: "inc/builtin.js"
 msgid "for your IPv4 stability and readiness, when publishers offer both IPv4 and IPv6"
-msgstr "za stabilnost i pripremljenost vaše IPv4 veze kad pružatelji sadržaja koriste IPv4 i IPv6"
+msgstr ""
 
 #: "inc/builtin.js"
 msgid "for your IPv6 stability and readiness, when publishers are forced to go IPv6 only"
-msgstr "za stabilnost i pripremljenost vaše IPv6 veze kad pružatelji sadržaja budu primorani koristiti samo IPv6"
+msgstr ""
 
 #: "inc/builtin.js"
 msgid "Click to see"
-msgstr "Kliknite da bi ste vidjeli"
+msgstr "I-click upang makita"
 
 #: "not-used, archived.  Not currently needed for translation."
 msgid "test data"
-msgstr "Izvršene provjere"
+msgstr "suriin ang data"
 
 #: "inc/builtin.js"
 msgid "Your FAQ"
-msgstr "Vaša Često postavljena pitanja"
+msgstr "Iyong FAQ"
 
 #: "inc/builtin.js"
 msgid "Frequently Asked Questions"
-msgstr "Često postavljena pitanja"
+msgstr "Mga madalas na katanungan"
 
 #: "inc/builtin.js"
 msgid "loading..."
-msgstr "učitavanje..."
+msgstr "naglo-load..."
 
 #: "inc/builtin.js"
 msgid "failed to load"
-msgstr "učitavanje nije uspjelo"
+msgstr "hindi na-load"
 
 #: "inc/builtin.js"
 msgid "[go back]"
-msgstr "[nazad]"
+msgstr "[bumalik]"
 
 #: "inc/builtin.js"
 msgid "[permalink]"
-msgstr "[stalna poveznica]"
+msgstr "[paguugnay]"
 
 #: "inc/versions.js"
 msgid "%app: You are running version %found; we recommend %suggest or newer."
-msgstr "%app: Vi koristite inačicu %found; preporučena je %suggest ili novija."
+msgstr ""
 
 #: "inc/form.js"
 msgid "share your results"
-msgstr "podjeliti vaše rezultate"
+msgstr "ibahagi ang iyong mga resulta"
 
 #: "inc/form.js"
 msgid "I am most interested in discussing your setup with you, because it was been determined that <B>your IPv6 connectivity is broken</b>, or at least not fully understood. This is not normal; would you be willing to %share?"
-msgstr "<b>vaša IPv6 veza neispravna</b> ili ju provjere ne podržavaju. To nije uobičajeno; želite li %share svoje rezultate?"
+msgstr ""
 
 #: "not-used, archived.  Not currently needed for translation."
 msgid "retest"
-msgstr "ponovite provjeru"
+msgstr "subukan muli"
 
 #: "not-used, archived.  Not currently needed for translation."
 msgid "Result code"
-msgstr "Kod rezultata"
+msgstr "Resulta kowd"
 
 #: "inc/form.js"
 msgid "Note: I can't contact you, if the contact info is blank. If you really want to submit this anonymously, hit Send Results again."
-msgstr "Napomena: Ne možemo vas kontaktirate ako ne unesete adresu svoje elektroničke pošte. Ukoliko rezultate želite poslati anonimno ponovo odaberite slanje rezultata."
+msgstr ""
 
 #: "inc/checkresults.js"
 msgid "unknown expansion"
-msgstr "nepoznat izraz"
+msgstr "hindi kilalang expansyon"
 
 #: "inc/checkresults.js"
 msgid "unknown result code"
-msgstr "nepoznat kod rezultata"
+msgstr "hindi alam na resulta ng kowd"
 
 #: "inc/symptoms.js"
 msgid "Your browser blocked"
-msgstr "Vaš preglednik je blokirao"
+msgstr "Ang iyong browser ay hinarangan"
 
 #: "inc/helpdesk.js"
 msgid "Your Internet help desk may ask you for the information below."
@@ -424,51 +424,51 @@ msgstr ""
 
 #: "inc/header.inc"
 msgid "Test your IPv6."
-msgstr "Provjera IPv6 veze"
+msgstr ""
 
 #: "inc/header.inc"
 msgid "This will test your browser and connection for IPv6 readiness, as well as show you your current IPV4 and IPv6 address."
-msgstr "Ova stranica provjerava pripremljenost vašeg preglednika i Internet veze za IPv6, te prikazuje vašu trenutnu IPv4 i IPv6 adresu."
+msgstr ""
 
 #: "inc/list-nav.inc"
 msgid "Test IPv6"
-msgstr "IPv6 provjera"
+msgstr "Suriin ang IPv6"
 
 #: "inc/list-nav.inc"
 msgid "FAQ"
-msgstr "Često postavljena pitanja"
+msgstr "FAQ"
 
 #: "inc/list-nav.inc"
 msgid "Mirrors"
-msgstr "Kopije stranice"
+msgstr "Mga salamin"
 
 #: "inc/list-nav.inc"
 msgid "stats"
-msgstr ""
+msgstr "mga statistika"
 
 #: "index.html"
 msgid "Test your IPv6 connectivity."
-msgstr "Provjera IPv6 veze"
+msgstr "Suriin ang pagkokonekta ng iyong IPv6."
 
 #: "index.html"
 msgid "(Replay)"
-msgstr ""
+msgstr "(Ulitin)"
 
 #: "inc/js_required.inc"
 msgid "JavaScript Required"
-msgstr "JavaScript potreban"
+msgstr ""
 
 #: "inc/js_required.inc"
 msgid "This site requires JavaScript, as well as the ability to pull in cross-site scripts, in order to perform the testing."
-msgstr "Ova stranica zahtijeva JavaScript, kao i mogućnost povlačenja cross-site skripti radi obavljanja testiranja."
+msgstr ""
 
 #: "inc/js_required.inc"
 msgid "If this message does not go away, it means that JavaScript has been disabled, either by a plugin or extension in your browser, or by explicit browser setting."
-msgstr "Ako ova poruka ne nestane, znači da je JavaScript onemogućen, bilo zbog plugin-a ili ekstenzije u Vašem pregledniku, ili zbog izričitih postavki preglednika."
+msgstr ""
 
 #: "inc/js_required.inc"
 msgid "Do you use NoScript?"
-msgstr "Koristite li NoScript?"
+msgstr ""
 
 #: "inc/js_required.inc"
 msgid "If you use this Firefox add-on, you'll need to \"Temporarily allow all this page\". You will need to do this <b>twice</b> for everything to work. Alternately, disable NoScript entirely until you are done with this site."
@@ -484,79 +484,79 @@ msgstr ""
 
 #: "main/tabnav.inc"
 msgid "Summary"
-msgstr "Sažetak"
+msgstr ""
 
 #: "main/tabnav.inc"
 msgid "Tests Run"
-msgstr "Izvršene provjere"
+msgstr ""
 
 #: "main/tabnav.inc"
 msgid "Share Results / Contact"
-msgstr "Dijeli rezultate / Kontakt"
+msgstr ""
 
 #: "main/tabnav.inc"
 msgid "FAQ for You"
-msgstr "Vaša često postavljena pitanja"
+msgstr ""
 
 #: "main/tabnav.inc"
 msgid "Help Popup"
-msgstr "Prozor pomoći"
+msgstr ""
 
 #: "main/tabnav.inc"
 msgid "Debug"
-msgstr "Ispravljanje grešaka"
+msgstr ""
 
 #: "main/tabnav.inc"
 msgid "Other IPv6 Sites"
-msgstr "Druge IPv6 stranice"
+msgstr ""
 
 #: "main/tests.inc"
 msgid "How this test works:"
-msgstr "Kako rade ove provjere:"
+msgstr ""
 
 #: "main/tests.inc"
 msgid "Your browser will be instructed to reach a series of URLs. The combination of successes and failures tells a story about how ready you are for when publishers start offering their web sites on IPv6."
-msgstr "Vaš preglednik pokušat će pristupiti nizu stranica. Kombinacija uspješnih i neuspješnih pristupa odredit će koliko ste spremni za pristup na IPv6 web stranice."
+msgstr ""
 
 #: "main/tests.inc"
 msgid "Technical Info"
-msgstr "Tehničke informacije"
+msgstr ""
 
 #: "main/tests.inc"
 msgid "Test with IPv4 DNS record"
-msgstr "Provjera sa IPv4 DNS zapisom"
+msgstr ""
 
 #: "main/tests.inc"
 msgid "pending"
-msgstr "u tijeku"
+msgstr ""
 
 #: "main/tests.inc"
 msgid "Test with IPv6 DNS record"
-msgstr "Provjera sa IPv6 DNS zapisom"
+msgstr ""
 
 #: "main/tests.inc"
 msgid "Test with Dual Stack DNS record"
-msgstr "Provjera sa IPv4/IPv6 DNS zapisom"
+msgstr ""
 
 #: "main/tests.inc"
 msgid "Test for Dual Stack DNS and large packet"
-msgstr "Provjera sa IPv4/IPv6 DNS-om i velikim paketima"
+msgstr ""
 
 #: "main/tests.inc"
 msgid "Test IPv4 without DNS"
-msgstr "Provjera IPv4 adrese bez DNS-a"
+msgstr ""
 
 #: "main/tests.inc"
 msgid "Test IPv6 without DNS"
-msgstr "Provjera IPv6 adrese bez DNS-a"
+msgstr ""
 
 #: "main/tests.inc"
 msgid "Test IPv6 large packet"
-msgstr "Provjera velikih IPv6 paketa"
+msgstr ""
 
 #: "main/tests.inc"
 msgid "Test if your ISP's DNS server uses IPv6"
-msgstr "Provjera koristi li DNS vašeg ISP-a IPv6"
+msgstr ""
 
 #: "main/tests.inc"
 msgid "Find IPv4 Service Provider"
@@ -568,39 +568,39 @@ msgstr ""
 
 #: "main/tests.inc"
 msgid "Test for buggy DNS"
-msgstr "Provjera pokvarenog DNS-a"
+msgstr ""
 
 #: "main/tech.inc"
 msgid "Fetches an object that has just an A record in DNS. This is expected to use IPv4. IPv6-only users might still reach this, if their provider has employed a NAT64/DNS64 or proxy solution."
-msgstr "Dohvaća stranicu koja ima samo A zapis u DNS-u. Ovaj pristup bi trebao koristiti IPv4 vezu. Korisnici koji imaju samo IPv6 pristup moći će pristupiti takvoj stranici ako njihov ISP koristi NAT64/DNS64 ili web proxy."
+msgstr ""
 
 #: "main/tech.inc"
 msgid "Fetches an object that has just an AAAA record in DNS. This is expected to use IPv6. Users not yet on the IPv6 Internet are likely to see this fail. As long as it fails quickly, it will be OK - for now."
-msgstr "Dohvaća stranicu koja ima samo AAAA zapis u DNS-u. Ovaj pristup bi trebao koristiti IPv6 vezu. Korisnicima koji još nemaju IPv6 vezu ova provjera će vjerojatno javiti grešku. Greška bi se trebala javiti brzo i to je u redu - barem za sad."
+msgstr ""
 
 #: "main/tech.inc"
 msgid "This is the most important test. This verifies your browser can connect to a site that has both IPv4 and IPv6 records published. IPv4 only hosts should connect fine (using IPv4)."
-msgstr "Ovo je najvažnija provjera. Dohvaća se stranica koja ima IPv4 i IPv6 zapise u DNS-u. Korisnici koji imaju samo IPv4 pristup trebali bi se spojiti bez problema (koristeći IPv4 vezu)."
+msgstr ""
 
 #: "main/tech.inc"
 msgid "If this test fails or times out, you can expect major problems as publishers start offering their sites on IPv6."
-msgstr "Ako ovaj provjera ne uspije ili traje predugo, možete očekivati značajne probleme kad pružatelji sadržaja počnu koristiti IPv6."
+msgstr ""
 
 #: "main/tech.inc"
 msgid "Validates that you can connect to a dual-stack server (like the ds test); and that you can send/receive large packets on that connection. If this test times out for any reason, it indicates trouble for World IPv6 Day."
-msgstr "Provjerava radi li dohvat stranice koja ima IPv4 i IPv6 adresu kad se koriste veliki paketu. Ako ova provjera iz bilo kojeg razloga traje predugo, možete očekivati probleme u pristupu stranicama tijekom svjetskog IPv6 dana."
+msgstr ""
 
 #: "main/tech.inc"
 msgid "This will try connecting with a literal IPv4 numeric address. This should work for most people, unless they are running IPv6-only. If the first test worked, but this fails, it likely confirms your provider is using NAT64/DNS64; you'll need to only try connecting using hostnames instead of numeric IP addresses."
-msgstr "Dohvaća stranicu direktnim pristupom na IPv4 adresu. Ovo bi gotovo uvijek trebalo raditi, osim ako koristite samo IPv6 pristup. Ako je prva provjera bila uspješna, a ova nije, to vjerojatno znači da vaš ISP koristi NAT64/DNS64; za spajanje ćete morati koristiti imena računala umjesto IP adresa."
+msgstr ""
 
 #: "main/tech.inc"
 msgid "This will try connecting with a literal IPv6 hexadecimal address. The primary purpose of this test is to separate out your connectivity on IPv6 from your ability to fetch DNS for it. A secondary purpose is to see if you have Teredo enabled; some systems may only use Teredo when an IPv6 address is in the URL."
-msgstr "Dohvaća stranicu direktnim pristupom na IPv6 adresu. Osnovna svrha ove provjere je nezavisno provjeriti IPv6 povezivost od mogućnosti dohvata DNS zapisa za IPv6. Dodatna svrha je provjereiti je li aktiviran Teredo; neki sustavi mogu koristiti Teredo samo kad se u adresi stranice koristi IPv6 adresa."
+msgstr ""
 
 #: "main/tech.inc"
 msgid "Validates that IPv6 requests with large packets work. If this test times out, but other IPv6 tests work, it suggests that there may be PMTUD issues; possibly involving IP tunnels."
-msgstr "Provjerava rade li IPv6 zahtjevi kad se koriste veliki paketi. Ako ova provjera ne uspije, ali druge IPv6 provjere rade, to upućuje na probleme sa PMTUD; moguće zbog korištenja IP tunela."
+msgstr ""
 
 #: "main/tech.inc"
 msgid "Double check to make sure that ICMPv6 Type 2 (\"Packet Too Big\") messages are not filtered by your firewall."
@@ -608,11 +608,11 @@ msgstr ""
 
 #: "main/tech.inc"
 msgid "(This is bonus credit)"
-msgstr "(Ovo je dodatna provjera)"
+msgstr ""
 
 #: "main/tech.inc"
 msgid "This is a test of your ISP's resolver (instead of a test of your host). If this test passes, your DNS server (often run by your ISP) is capable of reaching IPV6-only DNS authoritative servers on the Internet. This is not critical (at this time) for you to reach sites via IPv6."
-msgstr "Provjerava DNS poslužitelj vašeg ISP-a (umjesto provjeranja vašeg računala). Ako je ova provjera uspješna, DNS poslužitelj koji koristite (obično ga održava vaš ISP) uspješno komunicira sa autoritativnim DNS poslužiteljima koji imaju samo IPv6 adresu. Ova provjera (trenutno) nije kritična za pristup stranicama putem IPv6 veze."
+msgstr ""
 
 #: "main/tech.inc"
 msgid "Attempts to identify what Internet Service Provider you use for IPv4. This may be different from the marketing name you see in your local market; or may reflect a previous company name. The name shown reflects how it is known in the network operator community."
@@ -624,23 +624,23 @@ msgstr ""
 
 #: "main/tech.inc"
 msgid "Queries for a malformed AAAA record. Some routers mishandle these as \"A\" records, and only keep the first 32 bits. We want this test to fail to connect."
-msgstr "Provjerava se upit neispravnog AAAA zapisa. Neki usmjerivači pogrešno tumače odgovore kao A zapise i koriste samo prva 32 bita. Da bi se uspješno spojili ova provjera treba prijaviti grešku."
+msgstr ""
 
 #: "main/tech.inc"
 msgid "If the summary results indicated problems, you (or your technical support) may be able to use the information above to diagnose the issues. Each of the test urls and their results is shown on the left side. To the right you'll see a description of what that URL was designed to test."
-msgstr "Ako se u sažetku rezultata pojavljuju problemi, možete sami (ili uz pomoć vaše tehničke podrške) koristiti gornje informacije za dijagnosticiranje problema. U lijevom stupcu prikazane su adrese korištene u svakoj od provjera. Na desno strani nalazi se opis provjere koja se postiže pristupom na navedene adrese stranica."
+msgstr ""
 
 #: "not-used, archived.  Not currently needed for translation."
 msgid "After each test is ran. The summary page attempts to look at the results If the summary doesn't seem to make sense given the symptoms recorded above, or if you need further assistance, please feel free to contact us."
-msgstr "Stranica sa sažetkom rezultata osvježava se nakon što se izvrši svaka od provjera. Ako sažetak rezultata ne odgovara gore navedenim rezultatima ili trebate dodatnu pomoć slobodno nas kontaktirajte."
+msgstr ""
 
 #: "main/mail.inc"
 msgid "<b>Your particular configuration is of interest.</b> We are always striving to make the test-ipv6.com code better. Would you be willing to contribute more information about your browser and computer setup? With your help, we can document for others how to repair their systems."
-msgstr "<b>Vaši rezultati su nam bitni..</b> Neprestano pokušavamo poboljšati kod stranice test-ipv6.com. Pristajete li poslate detaljnije informacije o vašem pregledniku i postvakama računala? Uz vašu pomoć možemo za druge korisnike dokumentirati kako da isprave slične greške na svom sustavu."
+msgstr ""
 
 #: "main/mail.inc"
 msgid "This form will let you leave a comment, voice concerns, or ask questions. Your test results will be included automatically."
-msgstr "Ova forma daje vam mogućnost ostavljanja komentara, primjedbi ili postavljanje pitanja. Rezultati vaših provjera bit će automatski uključeni u poslanu poruku."
+msgstr ""
 
 #: "main/mail.inc"
 msgid "This includes your IP address, which is shared with the site administrator in order to answer your questions."
@@ -652,67 +652,67 @@ msgstr ""
 
 #: "main/mail.inc"
 msgid "<span id=\"comments_faq_link\"></span> (FAQ) page is available for <b>your</b> exact set of results. Please read it before leaving comments; many questions have already been answered. If you still have questions, comments, or concerns, feel freel to use this form."
-msgstr "<b>vaše</b> rezultate provjera. Molimo pročitajte ju prije ostavljanja komentara jer su mnoga pitanja već odgovorena. Ako i nakon toga imate pitanje, komentar ili primjedbu slobodno nas kontaktirajte."
+msgstr ""
 
 #: "not-used, archived.  Not currently needed for translation."
 msgid "Please leave your comments using English, if possible."
-msgstr "Komentare preporučamo ostaviti na hrvatskom jeziku."
+msgstr ""
 
 #: "main/mail.inc"
 msgid "If reporting a problem with the test, or requesting help with your results, please fill out all requested information to the best of your ability. If leaving general comments, use your best judgement on how much to report."
-msgstr "Ako prijavljujete problem u provjerama ili tražite pomoć u vezi vaših rezultata molimo da što je točnije moguće pošaljete sve tražene podatke. Ako ostavljate općenite komentare, sami prosudite koliko detaljan treba biti opis."
+msgstr ""
 
 #: "main/mail.inc"
 msgid "Thanks,"
-msgstr "Hvala,"
+msgstr ""
 
 #: "main/mail.inc"
 msgid "Purpose for comment"
-msgstr "Vrsta upita"
+msgstr ""
 
 #: "main/mail.inc"
 msgid "Questions about test results"
-msgstr "Upit o rezultatima provjere"
+msgstr ""
 
 #: "main/mail.inc"
 msgid "Report a bug with diagnosis"
-msgstr "Prijava greške sa detaljnim opisom"
+msgstr ""
 
 #: "main/mail.inc"
 msgid "Suggestion"
-msgstr "Prijedlog"
+msgstr ""
 
 #: "main/mail.inc"
 msgid "Cheers or Jeers"
-msgstr "Pohvale ili pokude"
+msgstr ""
 
 #: "main/mail.inc"
 msgid "Email address if you'll permit me to contact you. <i>Required, if you wish a response.</i>"
-msgstr "Vaša adresa elektroničke pošte ako želite da vas kontaktiramo. <i>Obavezna ako želite odgovor.</i>"
+msgstr ""
 
 #: "main/mail.inc"
 msgid "Any information you think I might find useful (what router you're using, or a firewall in the way, or type of proxy you use, etc). This includes general feedback."
-msgstr "Bilo kakve informacije za koje mislite da su korisne (tip uspmjerivača koji koristite, vatrozit ili proxy kroz koji prolazi promet, itd). To uključuje i druge općenite informacije."
+msgstr ""
 
 #: "main/mail.inc"
 msgid "The javascript based test appears to have failed. This may be browser plugin or extension related. Please indicate what browser plugins and extenions you have enabled in this browser."
-msgstr "Provjere temeljene na javscript-u nisu uspješno završile. To može biti vezano uz dodatke ili proširenja instalirana u vaš preglednik. Molimo navedite koji dodatci i proširenja su aktivni u vašem pregledniku."
+msgstr ""
 
 #: "main/mail.inc"
 msgid "If you are technically minded please cut/paste the output of the following commands:"
-msgstr "Ako ste tehnički potkovani molimo kopirajte ispis sljedećih naredbi:"
+msgstr ""
 
 #: "main/mail.inc"
 msgid "Copy the output from those commands, into the box below. This will help me confirm/deny any theories relating to your question."
-msgstr "Kopirajte ispis navedenih naredbi u donju kućicu. Ti podaci podrebni su da bi što točnije odgovorili na vaše pitanje."
+msgstr ""
 
 #: "main/mail.inc"
 msgid "If you are technically minded, please open a \"Command Prompt\" or \"cmd\" window, and run these three commands:"
-msgstr "Ako ste tehnički potkovani molimo otvorite \"Command Prompt\" ili \"cmd\" prozor te u njemu pokrenite sljedeće tri naredbe:"
+msgstr ""
 
 #: "main/mail.inc"
 msgid "Send results"
-msgstr "Pošalji rezultate"
+msgstr ""
 
 #: "main/helpdesk.inc"
 msgid "Help desk information will follow once the test completes."
@@ -736,15 +736,15 @@ msgstr ""
 
 #: "inc/sites.inc"
 msgid "<b>Because you have IPv6</b>, we've added this tab to show you whether or not you can reach other IPv6 web sites on the Internet. Consider notifying your ISP, if there are sites that show up as broken. If you are the ISP, you can click the Info link to see what test URLs are being used."
-msgstr "<b>Pošto imate radeću IPv6 vezu</b>, prikazuje se ova kartica pomoću koje možete provjeriti jesu li vam dostupne druge IPv6 stranice na Internetu. Ako su neke od stranica prikazane kao nedostupne, obavijestite svoj ISP. Ako ste vi ISP, kliknite na ikonu u Info stupcu da bi se prikazale adrese koje se koriste za provjeru."
+msgstr ""
 
 #: "inc/sites.inc"
 msgid "<b>Hint</b>: Columns are sortable (click the first row); <a href=\"#\" onclick=\"GIGO.test_sites(2); return false;\">click here</a> to re-check reachability from where you are to those mirrors."
-msgstr "<b>Napomena</b>: Moguće je sortirati po stupcima (klikom na naslov stupca); <a href=\"#\" onclick=\"GIGO.test_sites(2); return false;\">kliknite ovdje</a> za ponavljanje provjere dostupnosti navedenih stranica s vaše lokacije."
+msgstr ""
 
 #: "inc/sites.inc"
 msgid "It is real easy to get added to this list for basic checks. Just provide two image URLs (one IPv4-only; one IPv6-only), to Jason Fesler &lt;jfesler@gigo.com&gt;. Also send your general web site address and organization name."
-msgstr "Vrlo je jednostavno dodati se na ovaj popis osnovnih provjera. Dovoljno je poslati adrese dvije slike (jedna dostupna samo preko IPv4, druga samo preko IPv6) na adresu Jason Fesler &lt;jfesler@gigo.com&gt;. Također pošaljite adresu vaše web stranice i naziv vaše orgranizacije."
+msgstr ""
 
 #: "inc/sites.inc"
 msgid "Full mirrors are welcomed and appreciated, whether public or private. Please see <a href=\"https://github.com/falling-sky/source/wiki\">the wiki</a> for details."
@@ -752,7 +752,7 @@ msgstr ""
 
 #: "inc/footer.inc"
 msgid "All rights reserved."
-msgstr "Sva prava pridržana."
+msgstr ""
 
 #: "inc/footer.inc"
 msgid "Mission"
@@ -772,7 +772,7 @@ msgstr ""
 
 #: "inc/disclaimer.inc"
 msgid "This is a mirror of test-ipv6.com. The views expressed here may or may not reflect the views of the mirror owner."
-msgstr "Ova stranica je kopija weba test-ipv6.com. Ovdje iskazani pogledi mogu ali ne moraju odražavati poglede vlasnika ove kopije stranice."
+msgstr ""
 
 #: "locale.html"
 msgid "Available Languages"
@@ -1660,7 +1660,7 @@ msgstr ""
 
 #: "mission.html"
 msgid "Our mission is thus:"
-msgstr "Naša je misija sljedeća:"
+msgstr ""
 
 #: "mission.html"
 msgid "Help people identify if they will have problems when publishers offer their web sites on IPv6;"
@@ -1984,7 +1984,7 @@ msgstr ""
 
 #: "faq_v6ns_bad.html"
 msgid "Do you use OpenDNS?"
-msgstr "Koristite li OpenDNS?"
+msgstr ""
 
 #: "not-used, archived.  Not currently needed for translation."
 msgid "OpenDNS is now offering IPv6-specific resolvers, that will be able to retrieve DNS over IPv6. This means the \"v6ns\" test operated here will pass. See the <a target=_blank href=\"http://www.opendns.com/ipv6/\">OpenDNS IPv6 information page</a>."
@@ -2112,7 +2112,7 @@ msgstr ""
 
 #: "faq/simple_test.inc"
 msgid "Method"
-msgstr "Metoda"
+msgstr ""
 
 #: "faq/simple_test.inc"
 msgid "More Info"
@@ -2152,7 +2152,7 @@ msgstr ""
 
 #: "faq_whyipv6.html"
 msgid "Why IPv6?"
-msgstr "Zašto IPv6?"
+msgstr ""
 
 #: "faq_whyipv6.html"
 msgid "This is an interesting question. IPv6 buys you only a bit more than you already have today; and most of that is a promise. IPv6 will help you preserve the level of Internet connectivity between your home and other locations on the Internet, without interference, as you enjoyed in 2012."
@@ -2232,7 +2232,7 @@ msgstr ""
 
 #: "faq_whyipv6.html"
 msgid "Q: Do I have to give up IPv4, to go IPv6?"
-msgstr "P: Moram li odustati od IPv4 kako bi koristio IPv6?"
+msgstr ""
 
 #: "faq_whyipv6.html"
 msgid "No. They can co-exist. Most ISPs will continue to offer some form of IPv4 (most NAT'd) while offering IPv6. So you can reach the web sites that are still IPv4 only."
@@ -2256,11 +2256,11 @@ msgstr ""
 
 #: "faq_whyipv6.html"
 msgid "Windows Vista, Windows 7: You're good to go. XP users: It can be made to work, but it really is time to consider upgrading. Win98 and Win2000 users have no path to IPv6."
-msgstr "Windows Vista, Windows 7: Podržano. XP korisnik: Moguće je, ali stvarno je vrijeme da razmislite o nadogradnji. Win98 i Win2000 korisnici nemaju pristup IPv6-u."
+msgstr ""
 
 #: "faq_whyipv6.html"
 msgid "Mac OS X: All supported versions of OS X (since Tiger, 10.4) have IPv6."
-msgstr "Mac OS X: Sve podržane verzije OS X-a (od verzije Tiger, 10.4) imaju IPv6."
+msgstr ""
 
 #: "faq_whyipv6.html"
 msgid "Linux, BSD, and other unix like systems generally all have IPv6."
@@ -2364,7 +2364,7 @@ msgstr ""
 
 #: "faq_pmtud.html"
 msgid "What can I do?"
-msgstr "Što mogu učiniti?"
+msgstr ""
 
 #: "faq_pmtud.html"
 msgid "This is a complex question - there are many ways to get on the Internet."
@@ -2544,7 +2544,7 @@ msgstr ""
 
 #: "faq_avoids_ipv6.html"
 msgid "Google's \"Chrome\" has a \"fast fallback\" mechanism. On the first try to a site, it will prefer IPv6. If connections take longer than a third of a second, IPv4 is attempted in parallel; and the better of the two will be used for that site."
-msgstr "Googleov \"Chrome\" sadrži \"brz fallback\" mehanizam. Pri prvom pokušaju pristupanja stranici, IPv6 će imati prednost. Ako povezivanje traje dulje od jedne trećine sekunde, pokušava se IPv4 paralelno; i bolji od ta dva će se koristiti za to web-mjesto."
+msgstr ""
 
 #: "faq_avoids_ipv6.html"
 msgid "(more info)"

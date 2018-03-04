@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2017-07-09 14:00-0400\n"
+"PO-Revision-Date: 2018-03-01 02:30-0500\n"
 "Last-Translator: jfesler <jfesler@gigo.com>\n"
 "Language-Team: Korean\n"
 "MIME-Version: 1.0\n"
@@ -64,7 +64,7 @@ msgstr "당신은 IPv4/IPv6 전환기술의 일종인 Teredo를 통해 IPv6 서�
 
 #: "inc/messages.js"
 msgid "Danger! IPv6 sorta works - however, large packets appear to fail, giving the appearance of a broken website. If a publisher publishes to IPv6, you will believe their web site to be broken. Ask your ISP about MTU issues; possibly with your tunnel."
-msgstr "주의: IPv6는 동작합니다 - 하지만 큰 패킷은 손실되는 것으로 보이며 이것은 웹 사이트를 깨지게 할 수 있습니다. 만일 사이트가 IPv6 접속을 제공한다면, 이는 사이트의 문제점으로 착각될 수 있습니다. ISP에 MTU 문제에 대해 문의하십시오."
+msgstr "주의: IPv6는 동작합니다 - 하지만 큰 패킷은 손실되는 것으로 보이며 이것은 웹 사이트를 깨지게 할 수 있습니다. 만일 사이트가 IPv6 접속을 제공한다면, 이는 사이트의 문제점으로 착각될 수 있습니다. ISP에 MTU 문제에 대해 문의하십시오. 당신의 터널의 문제일 수도 있습니다."
 
 #: "inc/messages.js"
 msgid "Check your firewall to make sure that ICMPv6 messages are allowed (in particular, Type 2 or Packet Too Big)."
@@ -110,7 +110,7 @@ msgstr "IPv6 연결이 느리지만 동작합니다. 느리거나 멀리 위치�
 msgid "Connections to IPv6-only sites are timing out. Any web site that is IPv6 only, will appear to be down to you."
 msgstr "IPv6 전용 사이트에 접속시 시간 초과가 발생합니다. IPv6로만 접속이 가능한 사이트는 접속을 할 수 없게 됩니다."
 
-#: "inc/messages.js"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Connections to IPv6-capable web sites hang. It appears that you may have IPv6 configured; and your computer believes that your IPv6 is working, with a route. It is however completely failing. Any web site that adds IPv6, will become unreachable to you. If you are unable to fix your IPv6 routing or connectivity, seek help. If all else fails, strongly consider disabling IP6 on host."
 msgstr "IPv6 지원 웹 사이트에 대한 연결이 중단되었습니다. IPv6이 구성되어 있을 수 있고, 컴퓨터에서 IPv6이 경로와 함께 작동하고 있다고 인식합니다. 하지만 완전히 실패하고 있습니다. IPv6이 추가되는 모든 웹 사이트에 접속할 수 없습니다. IPv6 라우팅 또는 연결을 수정할 수 없는 경우 도움을 요청하십시오. 다른 모든 방법으로 안 되면 호스트에서 IP6을 사용 안 함으로 설정하는 것이 좋습니다."
 
@@ -354,7 +354,7 @@ msgstr "왼쪽 점수는 IPv6-only로만 연결되었을 때 당신의 IPv6 안�
 msgid "Click to see"
 msgstr "확인하려면 클릭합니다."
 
-#: "inc/builtin.js"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "test data"
 msgstr "테스트 데이터"
 
@@ -394,11 +394,11 @@ msgstr "결과 공유하기"
 msgid "I am most interested in discussing your setup with you, because it was been determined that <B>your IPv6 connectivity is broken</b>, or at least not fully understood. This is not normal; would you be willing to %share?"
 msgstr "설정에 관해 논의하고자 합니다. 그 이유는<B> IPv6 연결이 끊어졌거나</b>, 적어도 이해하기에 충분하지 않기 때문입니다. 이것은 정상적이지 않습니다. %공유할 의향이 있습니까?"
 
-#: "inc/form.js"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "retest"
 msgstr "다시 테스트"
 
-#: "inc/form.js"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Result code"
 msgstr "결과 코드"
 
@@ -630,7 +630,7 @@ msgstr "잘못된 형식의 AAAA 레코드에 대한 쿼리입니다. 일부 라
 msgid "If the summary results indicated problems, you (or your technical support) may be able to use the information above to diagnose the issues. Each of the test urls and their results is shown on the left side. To the right you'll see a description of what that URL was designed to test."
 msgstr "요약 결과에 문제가 나타난 경우 사용자(또는 기술 지원팀)은 위의 정보를 사용하여 문제를 진단할 수 있습니다. 각 테스트 URL 및 그 결과는 왼쪽에 표시됩니다. 오른쪽에는 해당 URL이 테스트하는 항목의 설명을 볼 수 있습니다."
 
-#: "main/tech.inc"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "After each test is ran. The summary page attempts to look at the results If the summary doesn't seem to make sense given the symptoms recorded above, or if you need further assistance, please feel free to contact us."
 msgstr "요약 결과에 문제가 나타난 경우 사용자(또는 기술 지원팀)은 위의 정보를 사용하여 문제를 진단할 수 있습니다. 각 테스트 URL 및 그 결과는 왼쪽에 표시됩니다. 오른쪽에는 해당 URL이 테스트하는 항목의 설명을 볼 수 있습니다."
 
@@ -654,7 +654,7 @@ msgstr "이 양식을 사용하면 동의를 뜻합니다."
 msgid "<span id=\"comments_faq_link\"></span> (FAQ) page is available for <b>your</b> exact set of results. Please read it before leaving comments; many questions have already been answered. If you still have questions, comments, or concerns, feel freel to use this form."
 msgstr "<span id=\"comments_faq_link\"></span>일련의 정확한 결과에 대해 <b>(FAQ)</b> 페이지를 사용할 수 있습니다. 먼저 읽고 난 후에 댓글을 남기십시오. 이미 많은 질문에 대한 답변이 나열되어 있습니다. 추가 질문, 댓글 또는 우려 사항이 있는 경우 이 양식을 사용하십시오."
 
-#: "main/mail-language.inc"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Please leave your comments using English, if possible."
 msgstr "가능한 경우 댓글을 영어로 남겨 주십시오."
 
@@ -1022,7 +1022,7 @@ msgstr "OS X 사용자: 명령줄을 사용하여 IP 주소를 찾는 방법:"
 msgid "To open your terminal: Go to your Applications folder; go to Utilities; and double click Terminal."
 msgstr "터미널을 여는 방법: 응용 프로그램 폴더로 이동하고 유틸리티로 이동하여 터미널을 두 번 클릭합니다."
 
-#: "faq/find_ip.inc"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "To see your IP addresses: <code>ifconfig -f inet6</code>."
 msgstr "IP 주소를 확인하는 방법: <code>ifconfig -f inet6</code>."
 
@@ -1622,7 +1622,7 @@ msgstr "600일 보기"
 msgid "Quick notes:"
 msgstr "빠른 노트:"
 
-#: "stats.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Browser Filter means that both the \"A\" and \"AAAA\" test failed. Browser (plugin/filter) shenanigans, likely with add-ons like ad blockers."
 msgstr "브라우저 필터는 \"A\" 및 \"AAAA\" 테스트 모두가 실패했음을 의미합니다. 광고 차단 프로그램과 같은 추가 기능과 브라우저(플러그 인/필터) 속임수의 가능성이 있습니다."
 
@@ -1842,15 +1842,15 @@ msgstr "Hurricane Electric에 의해서 실행됩니다. test-ipv6.com의 저자
 msgid "is another popular service. I see many European users using this service significantly; though their footprint is global. They work with dynamic IPs with some custom software that they provide."
 msgstr "또 다른 인기 있는 서비스입니다. 유럽에서 많은 사용자들이 이 서비스를 중요하게 사용하고 있는 것을 볼 수 있으며, 그 영역은 세계적입니다. 제공되는 일부 사용자 지정 소프트웨어와 동적 IP로 작동됩니다."
 
-#: "faq_6to4.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "aka freenet6. I don't have personal experience with this, but test-ipv6.com does see a number of connections via this service."
 msgstr "freenet6으로도 알려졌습니다. 개인적으로 경험은 없지만 test-ipv6.com을 통해 이 서비스를 통한 다수의 연결을 볼 수 있습니다."
 
-#: "faq_6to4.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "may be a better solution, in China. This requires a custom client to be installed."
 msgstr "중국에서 더 나은 해결책일 수 있습니다. 이것에는 사용자 지정 클라이언트를 설치해야 합니다."
 
-#: "faq_6to4.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "in Australia offers both free and paid-for (with SLA) tunnels."
 msgstr "호주에서는 무료 및 유료(SLA 포함) 터널 모두를 제공합니다."
 
@@ -1986,7 +1986,7 @@ msgstr "이것은 DNS 변환기가 IPv6 DNS 서버에 충분히 연결될 수 �
 msgid "Do you use OpenDNS?"
 msgstr "OpenDNS를 사용하십니까?"
 
-#: "faq_v6ns_bad.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "OpenDNS is now offering IPv6-specific resolvers, that will be able to retrieve DNS over IPv6. This means the \"v6ns\" test operated here will pass. See the <a target=_blank href=\"http://www.opendns.com/ipv6/\">OpenDNS IPv6 information page</a>."
 msgstr "OpenDNS에서는 IPv6을 통해서 DNS를 검색할 수 있는 IPv6별 변환기를 제공하고 있습니다. 이것은 여기서 운영하는 \"v6ns\" 테스트를 통과하는 것을 의미합니다. <a target=_blank href=\"http://www.opendns.com/ipv6/\">OpenDNS IPv6 정보 페이지</a>를 참조하십시오."
 
@@ -2226,7 +2226,7 @@ msgstr "가정에서 서버를 실행하는 것은 고정 IP 주소에 대해 �
 msgid "Running p2p applications will likely break. <b>This includes things like voice and video chat, video games, and yes - even those legal BitTorrent clients.</b> Some ISPs may handle this better than others, and some applications may handle this better than others, but there will be a lot of road bumps over all on this."
 msgstr "p2p 응용 프로그램을 실행하지 못할 가능성이 있습니다. <b>여기에는 음성 채팅 및 화상 채팅, 비디오 게임 및 심지어 합법적인 BitTorrent 클라이언트 등이 포함됩니다.</b> 일부 ISP는 다른 ISP들 보다 이를 더 잘 처리할 수 있으며, 일부 응용 프로그램은 다른 응용 프로그램들 보다 이를 더 잘 처리할 수 있지만, 이에 관해 전반적으로 많은 난관이 있을 것입니다."
 
-#: "faq_whyipv6.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Web sites that today automatically show you your local weather, news, and movies may no longer be able to locate you using your IPv4 address; you'll have to tell the web sites where in the world you are"
 msgstr "오늘날 자동으로 지역 날씨, 뉴스 및 영화를 보여주는 웹 사이트는 더 이상 IPv4 주소를 사용하여 사용자를 찾을 수 없습니다. 사용자는 웹 사이트에 자신의 위치 정보를 제공해야 합니다."
 
@@ -2278,7 +2278,7 @@ msgstr "귀하의: OS 업그레이드의 경우라면 필요 시"
 msgid "Your ethernet switch / hub: No. It is unaware of IP; it works at a lower level on the local network."
 msgstr "이더넷 스위치/허브의 경우: 아니오. IP를 인식하지 못합니다. 로컬 네트워크에서 하위 단계에서 작동합니다."
 
-#: "faq_whyipv6.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Your router: Quite possibly. Many home routers have no upgrade path for IPv6. Do a web search for your router mode, with the keyword \"ipv6\" with it."
 msgstr "라우터의 경우: 가능성이 높습니다. 많은 홈 라우터에는 IPv6에 대한 업그레이드 경로가 없습니다. \"ipv6\"을 키워드로 사용하여 라우터 모델을 웹에서 검색해보십시오."
 
@@ -2330,7 +2330,7 @@ msgstr "터널 내부의 터널입니다. 하나는 사용자 자신의 것일 �
 msgid "This is what it looks like when you use 6to4, 6in4, Teredo, and other types of tunnels:"
 msgstr "이것은 6to4, 6in4, Teredo 및 기타 유형의 터널을 사용할 때의 모습입니다."
 
-#: "faq_pmtud.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Your router will automatically add an IPv4 header to the top of your packet. This same router will let your computer know if the packet is going to be too big; your computer will (as long as it gets the ICMPv6 \"Packet Too Big\" message) resend the packet, at a smaller size recommended by your router. A router near the web site, will automatically remove the IPv4 header, and forward the IPv6 peice."
 msgstr "라우터가 자동으로 패킷의 상단에 IPv4 헤더를 추가합니다. 바로 이 라우터는 패킷이 너무 클 경우 이를 컴퓨터에 알립니다. 컴퓨터는 (ICMPv6 \"패킷이 너무 큼\" 메시지를 받는 한) 라우터에 의해 권장되는 더 작은 크기로 패킷을 재전송합니다. 웹 사이트 근처 라우터는 자동으로 IPv4 헤더를 제거하고 IPv6 조각을 전달합니다."
 
@@ -2727,7 +2727,7 @@ msgstr "PowerDNS: <code>recursor.conf</code>에서 <code>query-local-address6</c
 
 #: "inc/mirrorconfig.js"
 msgid "This instance of test-ipv6.com is provided by"
-msgstr ""
+msgstr "이 test-ipv6.com 의 인스턴스는 다음에 의해서 재공됩니다:"
 
 #: "faq_v6ns_bad.html"
 msgid "it means that the DNS resolver you are using, requires IPv4 to reach the DNS authoritative servers of your favorite web sites. In the near future, every web site of consequence will remain accessible in this form, so <b>there is no immediate danger.</b>"
@@ -2735,41 +2735,165 @@ msgstr "이것은 즐겨 찾는 웹 사이트의 신뢰할 만한 DNS 서버에 
 
 #: "faq_avoids_ipv6.html"
 msgid "Most OS's and Browsers will automatically have a strong bias towards a working IPv6 connection instead of the (possibly shared address) IPv4 connection. If yours does not, and you want to see this changed, let the browser company know. You might also find other browsers on the same OS will work the way you'd expect, if you need a work-around."
-msgstr ""
+msgstr "대부분의 OS와 브라우저는 (공유되는 주소일 수도 있는) IPv4 연결 보다 작동하는 IPv6 연결을 자동적으로 선호합니다. 만약 당신의 OS나 브라우저가 그렇지 않고, 당신이 그것을 바꾸기 원한다면, 브라우저 회사에 연락하십시오. 당신의 OS에서 작동하는 다른 브라우저들은 당신이 예측한 방식으로 작동할 수도 있습니다."
 
 #: "faq/simple_test.inc"
 msgid "A standalone copy of this test can be found <a href=\"/simple_test.html\">here</a>."
-msgstr ""
+msgstr "이 테스트의 독립 복사본은 <a href=\"/simple_test.html\">여기서</a> 찾을 수 있습니다."
 
 #: "faq_buggydns1.html"
 msgid "Malicious people can recognize that specific IPv6 addresses, when matched with this bug, map to IPv4 addresses they control. Web sites you depend on can be spoofed; you would not know any better, unless the sites are using SSL."
-msgstr ""
+msgstr "악의적 공격자는 이 버그가 발생할 경우 특정한 IPv6 주소에 대응하는 IPv4 주소 차지할 수 있습니다. 당신이 사용하는 웹사이트가 스푸핑 될 수 있습니다. 사이트가 SSL을 사용하지 않는 한 당신은 그것을 알아 챌 수 없을 것입니다."
 
 #: "faq_no_ipv4.html"
 msgid "You will have to do this twice."
-msgstr ""
+msgstr "당신은 이 작업을 두 번 하셔야 합니다."
 
 #: "faq_no_ipv4.html"
 msgid "The first time enables scripts from the main site; the second time will enable all the \"off site\" scripts that are needed as well."
-msgstr ""
+msgstr "메인 사이트의 스크립트를 허용하기 위해서 한 번, 그리고 다음에는 필요한 '외부 사이트' 스크립트를 허용하기 위해서 한 번."
 
 #: "stats.html"
 msgid "<span lookup=\"site.name\">site</span> statistics"
-msgstr ""
+msgstr "<span lookup=\"site.name\">사이트</span> 통계"
 
 #: "faq.html"
 msgid "Q: I run a production IPv6-only network. Without IPv4. My users can't reach test-ipv6.com."
-msgstr ""
+msgstr "Q: 저는 IPv4가 없는 IPv6 전용네트워크를 실제 서비스용으로 운영하고 있습니다. 제 사용자들은 test-ipv6.com에 접속할 수 없습니다."
 
 #: "faq.html"
 msgid "Send email to jfesler@test-ipv6.com. If your IPv6-only network has dedicated name servers, or a dedicated BGP ASN, jfesler will enable AAAA records for test-ipv6.com for you."
-msgstr ""
+msgstr "jfesler@test-ipv6.com로 이메일을 보내십시요. 만약 당신의 IPv6 전용 네트워크가 전용 네임서버를 가지고 있거나, 전용 BGP ASN을 가지고 있다면, jfesler가 test-ipv6에 대한 AAAA 레코드를 활성화 해 드릴 겁니다."
 
 #: "faq.html"
 msgid "If you don't meet the above requirements, you can visit http://ipv6.test-ipv6.com (IPv6-only) or http://ds.test-ipv6.com (IPv4+IPv6)."
-msgstr ""
+msgstr "만약 당신이 위 조건들을 충족하지 못하신다면, 당신은 http://ipv6.test-ipv6.com (IPv6-only) 나 http://ds.test-ipv6.com (IPv4+IPv6) 을 사용할 수 있습니다."
 
 #: "faq.html"
 msgid "At some point, when the percentage of \"broken\" users has gone significantly down, I'll consider making test-ipv6.com dual-stack. At last check, March 2017, we still see 0.2% broken visiting test-ipv6.com. And we still want them to understand their situation."
 msgstr "적절한 시점에, \"끊어진\" 사용자의 비율이 크게 내려 갔을 때 이중 스택 test-ipv6.com을 개발할 것을 고려 중입니다. 2017년 3월에 test-ipv6.com의 방문자 중에 최소한 0.5%가 여전히 끊어진 것을 확인할 수 있습니다. 그리고 우리는 여전히 그들의 상황을 이해하려고 합니다."
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "Your current configuration may not achieve the highest performance or assure connectivity to all Internet resources as global IPv6 adoption continues. Ask your ISP about native IPv6."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "To ensure the best performance and connectivity, ask your ISP about native IPv6."
+msgstr ""
+
+#: "inc/messages.js"
+msgid "To ensure the best Internet performance and connectivity, ask your ISP about native IPv6."
+msgstr "최고의 인터넷 성능과 연결성을 위해서 당신의 ISP에게 네이티브 IPv6을 요청하세요."
+
+#: "faq/plugins_tryagain.inc"
+msgid "After disabling any suspect plugins or extensions, try this site again."
+msgstr "의심가는 플러그인이나 확장 기능을 비활성화 한 뒤에 이 사이트를 다시 시도합니다."
+
+#: "faq/plugins_tryagain.inc"
+msgid "If it still fails, disable all plugins and extensions, until the browser works again."
+msgstr "만약 계속 실패한다면, 브라우저가 다시 작동할 때까지 모든 플러그인과 확장 기능을 비활성화 합니다."
+
+#: "faq/plugins_tryagain.inc"
+msgid "Alternately, consider trying another browser. Suggested browsers: IE, Firefox, Safari, Chrome."
+msgstr "또는 다른 브라우저 사용을 고려합니다. 권장 브라우저: IE, Firefox, Safari, Chrome."
+
+#: "inc/messages.js"
+msgid "skipped"
+msgstr "생략됨"
+
+#: "inc/messages.js"
+msgid "We are sometimes unable to detect Teredo and 6to4 when using HTTPS."
+msgstr "HTTPS를 사용할 경우 우리는 어떤 경우 Teredo나 6to4 사용을 감지할 수 없습니다."
+
+#: "inc/messages.js"
+msgid "HTTPS support on this web site is in <em>beta</em>."
+msgstr "이 사이트의 HTTPS 지원은 <em>베타</em> 입니다."
+
+#: "inc/messages.js"
+msgid "%HTTPS support is now available on this site."
+msgstr "이 사이트는 %HTTPS 를 지원합니다."
+
+#: "inc/messages.js"
+msgid "faq: Using HTTPS"
+msgstr "FAQ: HTTPS 사용하기"
+
+#: "inc/checkresults.js"
+msgid "Tests using this web site are unreliable from your location."
+msgstr "당신의 위치에서는 이 사이트를 사용한 테스트 결과를 신뢰할 수 없습니다."
+
+#: "faq/find_ip.inc"
+msgid "To see your IP addresses: <code>ifconfig -a inet6</code> or <code>ifconfig -f inet6</code>"
+msgstr "당신의 아이피 주소를 보기 위해서는 <code>ifconfig -a inet6</code> 나 <code>ifconfig -f inet6</code> 를 사용할 수 있습니다."
+
+#: "faq_https.html"
+msgid "Differences in HTTP vs HTTPS"
+msgstr "HTTP와 HTTPS의 차이점"
+
+#: "faq_https.html"
+msgid "HTTP and HTTPS bring us different testing capabilities. Unfortunately, we can not test both at once. You can choose which features to test for, by using http://test-ipv6.com or https://test-ipv6.com."
+msgstr "HTTP와 HTTPS는 서로 다른 태스팅 능력을 가지고 있습니다. 불행히도, 우리는 이 둘을 동시에 테스트 할 수 없습니다. 당신은 http://test-ipv6.com 나 https://test-ipv6.com 을 사용하면서 어떤 기능을 테스트 할 것인지 선택 할 수 있습니다."
+
+#: "faq_https.html"
+msgid "<b>HTTP</b> allows us to test for Teredo and 6to4. Both are transitional technologies. Modern operating systems by default no longer use those, unless there is no other choice. Windows, for example, will not use Teredo, when the browser is given a DNS name to connect to. However, Windows will attempt to use Teredo, when told an IPv6-only IP address. 6to4 is similarly deprecated; and only likely used if there is no other choice."
+msgstr "<b>HTTP</b> 는 전통적 기술인 Teredo와 6to4를 테스트 할 수 있습니다. 최근의 운영체제들은 대안이 있는 한 이러한 기능들을 사용하지 않습니다. 예를 들어 Windows의 경우, 브라우저가 DNS 이름을 줄 경우 Teredo를 사용하지 않습니다. 하지만, Windows는 IPv6-전용 주소를 얻을 경우 Teredo를 사용하려고 할 것입니다. 6to4의 경우도 마찬가지로 다른 선택이 없는 경우에만 사용될 것입니다."
+
+#: "faq_https.html"
+msgid "HTTP also allows us to detect certain types of DNS64/NAT64. NAT64 is a migration strategy that allows for an eventual IPv6-only Internet. Until then, connections to the IPv4 Internet are translated. We detect this by making connections to literal IP address, such as http://192.0.2.1/ (with a server-specific IP address). We are able to detect NAT64 in particular when there is no local IPv4 tunnel (464xlat on Android) or OS assistance (Apple iOS, Apple MacOS)."
+msgstr "HTTP는 또한 우리가 특정한 종류의 DNS64와 NAT64를 감지할 수 있도록 합니다. NAT64는 IPv6 전용 인터넷을 허용하도록 하는 마이그레이션 전략입니다. 그때까지는 IPv4 인터넷으로의 연결은 번역될 것입니다. 우리는 이것을 http://192.0.2.1/ (서버 전용 ip 주소) 과 같은 리터럴 IP 주소에 연결함으로서 감지합니다. 우리는 로컬 IPv5 터널(안드로이드의 464xlat) 이나 OS 지원(iOS나 MacOS) 이 없는 경우 NAT64를 감지할 수 있습니다."
+
+#: "faq_https.html"
+msgid "<b>HTTPS</b>, which ensures a trusted transport from you to the server, allows bypassing many corporate and mobile proxy servers. There are exceptions; particularly if you agreed to install their certificate; but that is generally not advised. Bypassing these proxies allows us to show you a better idea of your IP address - something that represents your location, and your connectivity to the IPv6 Internet."
+msgstr "당신과 서버 사이의 신뢰가능한 전송을 보장하는 <b>HTTPS</b>의 경우, 많은 기업과 모바일 프록시 서버를 우회할 수 있도록 합니다. 여기예는 예외가 있습니다. 예를 들어 당신이 그들의 인증서를 설치하도록 동의한 경우. 그러나 이건 일반적으로 권장되지 않습니다. 이러한 프록시를 우회하도록 하는 것은 우리가 당신의 지역이나, 당신의 IPv6 인터넷에 대한 연결성 등의 당신의 IP 주소에 대한 더 나은 이해를 돕습니다."
+
+#: "faq_https.html"
+msgid "A limitation of using HTTPS exists. Since HTTPS requires certificates, and certificates are not offered to IP addresses (but instead to web site names), we can't test for NAT64, 6to4, or Teredo."
+msgstr "HTTPS를 사용하는 것에는 한계가 있습니다. HTTPS가 인증서를 요구하고, 인증서는 IP 주소에 대해서 발급되지 않기 때문에 (대신 웹 사이트 이름에 대해서 발급됩니다), 우리는 NAT64, 6to4, 또는 Teredo를 테스트 할 수 없습니다."
+
+#: "faq_https.html"
+msgid "Should I use HTTP or HTTPS?"
+msgstr "HTTP와 HTTPS 중에 뭐를 사용해야 하나요?"
+
+#: "faq_https.html"
+msgid "If you're in a new location, or a computer you're not familiar with, consider both! If both come up with the same results, you can pick HTTP for speed, or HTTPS to bypass certain proxies."
+msgstr "만약 당신이 새로운 장소에 있거나, 당신이 익숙한 컴퓨터가 아니라면, 둘 다 사용하는 것을 고려해 주세요!. 만약 둘 모두가 같은 결과를 가져온다면, 당신은 속도를 위해 HTTP를 선택하거나 어떤 프록시들을 우회하기 위해 HTTPS를 선택할 수 있습니다."
+
+#: "faq_https.html"
+msgid "Links:"
+msgstr "링크:"
+
+#: "inc/messages.js"
+msgid "Test results inconclusive; they were not consistent with expectations. Please rerun the test, and if the results are the same, seek local network help."
+msgstr "테스트 결과가 불확실합니다; 결과값이 기대치와 다릅니다. 테스트를 재실행해 보시고 문제가 계속된다면 로컬 네트워크의 문제 해결에 도움을 요청하세요."
+
+#: "inc/messages.js"
+msgid "Connections to IPv6-capable web sites hang. It appears that you may have IPv6 configured; and your computer believes that your IPv6 is working, with a route. It is however completely failing. Any web site that adds IPv6, will become unreachable to you. If you are unable to fix your IPv6 routing or connectivity, seek help. If all else fails, strongly consider disabling IPv6 on your host."
+msgstr "IPv6 지원 웹 사이트에 대한 연결이 중단되었습니다. IPv6이 구성되어 있을 수 있고, 컴퓨터에서 IPv6이 경로와 함께 작동하고 있다고 인식합니다. 하지만 완전히 실패하고 있습니다. IPv6이 추가되는 모든 웹 사이트에 접속할 수 없습니다. IPv6 라우팅 또는 연결을 수정할 수 없는 경우 도움을 요청하십시오. 다른 모든 방법으로 안 되면 호스트에서 IPv6을 사용 안 함으로 설정하는 것이 좋습니다."
+
+#: "inc/builtin.js"
+msgid "Test Data"
+msgstr "테스트 데이터"
+
+#: "inc/form.js"
+msgid "Please consent to sharing your data."
+msgstr ""
+
+#: "faq_avoids_ipv6.html"
+msgid "As of OS X 10.11 \"El Capitan\" and iOS 9, IPv6 is given a slight preference; but will fall back to IPv4 if network conditions warrant it."
+msgstr "OS X 10.11 \"엘 캐피탄\"과 IOS 9는 IPv6을 약간 선호합니다. 하지만 네트워크의 상태가 필요로 한다면 IPv4를 사용할 것입니다."
+
+#: "faq_pmtud.html"
+msgid "Your router will automatically add an IPv4 header to the top of your packet. This same router will let your computer know if the packet is going to be too big; your computer will (as long as it gets the ICMPv6 \"Packet Too Big\" message) resend the packet, at a smaller size recommended by your router. A router near the web site, will automatically remove the IPv4 header, and forward the IPv6 piece."
+msgstr "라우터가 자동으로 패킷의 상단에 IPv4 헤더를 추가합니다. 바로 이 라우터는 패킷이 너무 클 경우 이를 컴퓨터에 알립니다. 컴퓨터는 (ICMPv6 \"패킷이 너무 큼\" 메시지를 받는 한) 라우터에 의해 권장되는 더 작은 크기로 패킷을 재전송합니다. 웹 사이트 근처의 라우터는 자동으로 IPv4 헤더를 제거하고 IPv6 조각을 전달합니다."
+
+#: "faq_v6ns_bad.html"
+msgid "OpenDNS is now offering IPv6-specific resolvers, that will be able to retrieve DNS over IPv6. This means the \"v6ns\" test operated here will pass. See the <a target=_blank href=\"https://www.opendns.com/about/innovations/ipv6/\">OpenDNS IPv6 information page</a>."
+msgstr "OpenDNS에서는 IPv6을 통해서 DNS를 검색할 수 있는 IPv6별 변환기를 제공하고 있습니다. 이것은 여기서 운영하는 \"v6ns\" 테스트를 통과하는 것을 의미합니다. <a target=_blank href=\"https://www.opendns.com/about/innovations/ipv6/\">OpenDNS IPv6 정보 페이지</a>를 참조하십시오."
+
+#: "faq_whyipv6.html"
+msgid "Web sites that today automatically show you your local weather, news, and movies may no longer be able to locate you using your IPv4 address; you'll have to tell the web sites where in the world you are."
+msgstr "오늘날 자동으로 지역 날씨, 뉴스 및 영화를 보여주는 웹 사이트는 더 이상 IPv4 주소를 사용하여 사용자를 찾을 수 없습니다. 사용자는 웹 사이트에 자신의 위치 정보를 제공해야 합니다."
+
+#: "main/mail.inc"
+msgid "I consent to sharing my IP address(es), test results, web browser name and version, operating system name and version, and any other information entered above (including email address), as email transmitted to <a mailto=site.mailto href=\"-\"><span lookup=site.contact></span> &lt;<span lookup=site.mailto></span>&gt;</a>; and that this information may be translated by Google Translate."
+msgstr ""
 
