@@ -14,7 +14,7 @@
     </div>
 
     <div id="comments_faq" style="display:none">
-      <p>{{<span id="comments_faq_link"></span> (FAQ) page is available for <b>your</b> exact set of results.  Please read it  before leaving comments; many questions have already been answered.  If you still have questions, comments, or concerns, feel freel to use this form.}}</p>
+      <p>{{<span id="comments_faq_link"></span> (FAQ) page is available for <b>your</b> exact set of results.  Please read it  before leaving comments; many questions have already been answered.  If you still have questions, comments, or concerns, feel free to use this form.}}</p>
     </div>
 
 
