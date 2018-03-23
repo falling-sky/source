@@ -165,27 +165,27 @@
       "v4": "http://ipv4.stdio.be/images/knob_valid_green.png",
       "v6": "http://ipv6.stdio.be/images/knob_valid_green.png"
     },
-    "test-ipv6-vm1.comcast.net": {
+    "test-ipv6-vm3.comcast.net": {
       "hide": false,
       "loc": "US",
       "mirror": true,
       "monitor": "Comcast IPv6 Team <comcast-ipv6@cable.comcast.com>",
       "provider": "Comcast",
-      "site": "test-ipv6-vm1.comcast.net",
+      "site": "test-ipv6-vm3.comcast.net",
       "transparent": true,
-      "v4": "https://ipv4.test-ipv6-vm1.comcast.net/images-nc/knob_green.png",
-      "v6": "https://ipv6.test-ipv6-vm1.comcast.net/images-nc/knob_green.png"
+      "v4": "https://ipv4.test-ipv6-vm3.comcast.net/images-nc/knob_green.png",
+      "v6": "https://ipv6.test-ipv6-vm3.comcast.net/images-nc/knob_green.png"
     },
-    "test-ipv6-vm2.comcast.net": {
+    "test-ipv6-vm4.comcast.net": {
       "hide": false,
       "loc": "US",
       "mirror": true,
       "monitor": "Comcast IPv6 Team <comcast-ipv6@cable.comcast.com>",
       "provider": "Comcast",
-      "site": "test-ipv6-vm2.comcast.net",
+      "site": "test-ipv6-vm4.comcast.net",
       "transparent": true,
-      "v4": "https://ipv4.test-ipv6-vm2.comcast.net/images-nc/knob_green.png",
-      "v6": "https://ipv6.test-ipv6-vm2.comcast.net/images-nc/knob_green.png"
+      "v4": "https://ipv4.test-ipv6-vm4.comcast.net/images-nc/knob_green.png",
+      "v6": "https://ipv6.test-ipv6-vm4.comcast.net/images-nc/knob_green.png"
     },
     "test-ipv6.alpinedc.ch": {
       "hide": false,
