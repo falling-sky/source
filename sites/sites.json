@@ -357,8 +357,8 @@
       "monitor": "Polaris-N Systems <info@polaris-n.hu>",
       "provider": "Polaris-N Systems",
       "site": "test-ipv6.hu",
-      "v4": "http://ipv4.test-ipv6.hu/images-nc/knob_green.png",
-      "v6": "http://ipv6.test-ipv6.hu/images-nc/knob_green.png"
+      "v4": "https://ipv4.test-ipv6.hu/images-nc/knob_green.png",
+      "v6": "https://ipv6.test-ipv6.hu/images-nc/knob_green.png"
     },
     "test-ipv6.jp": {
       "hide": false,
