@@ -551,8 +551,8 @@
       "monitor": "Ricardo Peu Grassi <contato@tecpeu.com.br>",
       "provider": "Tecpeu Informática",
       "site": "www.tecpeu.com.br",
-      "v4": "http://www.ipv4.tecpeu.com.br/img/logo-big.png",
-      "v6": "http://www.ipv6.tecpeu.com.br/img/logo-big.png"
+      "v4": "https://ipv4.tecpeu.com.br/img/logo-big.png",
+      "v6": "https://ipv6.tecpeu.com.br/img/logo-big.png"
     },
     "www.radioradicale.it": {
       "loc": "IT",
