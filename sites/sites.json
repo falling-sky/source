@@ -766,6 +766,15 @@
       "site": "ayepv6.com",
       "v4": "https://v4.test-ipv6.vu.ayepv6.com/images/knob_green.png",
       "v6": "https://v6.test-ipv6.vu.ayepv6.com/images/knob_green.png"
+    },
+    "vulndetect.com": {
+      "hide": false,
+      "loc": "IE",
+      "monitor": "tom@vulndetect.com",
+      "provider": "vulndetect.com",
+      "site": "vulndetect.com (hosted at Amazon Ireland)",
+      "v4": "https://ipv4.vulndetect.com/assets/uploads/profile/ipv6.png",
+      "v6": "https://ipv6.vulndetect.com/assets/uploads/profile/ipv6.png"
     }
   }
 }
