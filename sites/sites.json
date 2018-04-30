@@ -771,8 +771,8 @@
       "hide": false,
       "loc": "IE",
       "monitor": "tom@vulndetect.com",
-      "provider": "vulndetect.com",
-      "site": "vulndetect.com (hosted at Amazon Ireland)",
+      "provider": "vulndetect.com (hosted at Amazon Ireland)",
+      "site": "vulndetect.com",
       "v4": "https://ipv4.vulndetect.com/assets/uploads/profile/ipv6.png",
       "v6": "https://ipv6.vulndetect.com/assets/uploads/profile/ipv6.png"
     }
