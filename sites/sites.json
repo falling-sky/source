@@ -603,7 +603,7 @@
       "hide": false,
       "loc": "CL",
       "mirror": true,
-      "monitor": "NIC Chile <soporte@nic.cl>",
+      "monitor": "hsalgado@nic.cl",
       "provider": "NIC Chile",
       "v4": "https://ipv4.test-ipv6.cl/images-nc/knob_green.png",
       "v6": "https://ipv6.test-ipv6.cl/images-nc/knob_green.png"
