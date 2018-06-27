@@ -705,8 +705,8 @@
     "jamieweb.net": {
       "hide": false,
       "loc": "UK",
-      "monitor": "JamieOnUbuntu . <jamieonubuntu@gmail.com>",
-      "provider": "Jamie Scaife (JamieOnUbuntu)",
+      "monitor": "Jamie Scaife <jamie@jamieweb.net>",
+      "provider": "Jamie Scaife (JamieWeb)",
       "site": "jamieweb.net",
       "v4": "https://ipv4.jamieweb.net/ipv4-only.png",
       "v6": "https://ipv6.jamieweb.net/ipv6-only.png"
