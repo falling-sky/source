@@ -749,6 +749,16 @@
       "v4": "https://ipv4.test-ipv6.showmyip.ca/images-nc/knob_green.png",
       "v6": "https://ipv6.test-ipv6.showmyip.ca/images-nc/knob_green.png"
     },
+    "test-ipv6.freerangecloud.com": {
+      "hide": false,
+      "loc": "US (CA)",
+      "mirror": true,
+      "monitor": "Christopher Munz-Michielin <christopher@ve7alb.ca>",
+      "provider": "Christopher Munz-Michielin",
+      "site": "test-ipv6.freerangecloud.com",
+      "v4": "https://ipv4.test-ipv6.freerangecloud.com/images-nc/knob_green.png",
+      "v6": "https://ipv6.test-ipv6.freerangecloud.com/images-nc/knob_green.png"
+    },
     "ayepv6.com": {
       "hide": false,
       "loc": "UK",
