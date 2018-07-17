@@ -759,6 +759,16 @@
       "v4": "https://ipv4.test-ipv6.freerangecloud.com/images-nc/knob_green.png",
       "v6": "https://ipv6.test-ipv6.freerangecloud.com/images-nc/knob_green.png"
     },
+    "test.ipv6s.com": {
+      "hide": false,
+      "loc": "CN",
+      "mirror": true,
+      "monitor": "monitor@ipv6s.com",
+      "provider": "中国IPv6网",
+      "site": "test.ipv6s.com",
+      "v4": "https://ipv4.test-ipv6.ipv6s.com/images-nc/knob_green.png",
+      "v6": "https://ipv6.test-ipv6.ipv6s.com/images-nc/knob_green.png"
+    },
     "ayepv6.com": {
       "hide": false,
       "loc": "UK",
