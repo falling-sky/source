@@ -734,6 +734,8 @@ GIGO.test_ipv6_gui = function (options) {
     GIGO.options = options;
     GIGO.set_default_options(options);
 
+
+
     // Start real workload
     jQuery(document).ready(function () {
         // Primitive hack to avoid the web bots from comment spamming

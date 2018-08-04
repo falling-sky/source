@@ -68,6 +68,13 @@ GIGO.fix_footer_late = function () {
 // This gives the option of displaying any footer information
 // at the risk of interfering with results.
 GIGO.fix_footer_early = function() {
+
+
+GIGO.facebook_like();
+GIGO.twitter_tweet();
+
+
+
     if (MirrorConfig.footer) {
       if (MirrorConfig.footer.early) {
         GIGO.fix_logo_as_html();

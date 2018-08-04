@@ -12,6 +12,8 @@
 <span class="ghost">
   |  <a href="#" onclick=" GIGO.showdebug(); return false;">Debug</a>
 </span>
+
+
 [% end %]
 
 
@@ -22,6 +24,12 @@
 {{locale}}
 </a>
 {{percenttranslated}}
+
+
+<span id="social" style="display:none">
+|  {{Share on:}} 
+</span>
+
 
 <br/>
 [% PROCESS "inc/disclaimer.inc" %]

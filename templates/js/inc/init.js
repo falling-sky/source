@@ -83,6 +83,7 @@ if (navigator.userAgent.match(/SymbianOS|SymbOS/)) {
 // Force it into https:// or http:// (even though our inputs might say http or http:)
 GIGO.protocol =   MirrorConfig.options.protocol ? MirrorConfig.options.protocol   : document.location.protocol;
 GIGO.protocol = (GIGO.protocol.match(/https/))  ? "https://" : "http://";
+GIGO.publishname = GIGO.protocol + GIGO.mirrorconfig("site", "name");
 
 
 GIGO.parseGetVars = function () {
@@ -110,3 +111,5 @@ console.log("GIGO.CGI=%o",GIGO.CGI);
 // as we as prepared each override into GIGO.overrides
 GIGO.override = 0;
 GIGO.overrides = {};
+
+

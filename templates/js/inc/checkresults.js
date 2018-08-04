@@ -175,8 +175,7 @@ GIGO.check_results = function () {
 
     // Callbacks
     GIGO.fix_footer_late();
-    GIGO.facebook_like();
-    GIGO.twitter_tweet();
+
     GIGO.send_survey(tokens);
     GIGO.send_survey_global(tokens);
     GIGO.show_results();
@@ -214,32 +213,34 @@ GIGO.update_service_warning = function () {
 
 
 GIGO.facebook_like = function () {
-    if (GIGO.mirrorconfig("facebook", "enable", 0)) {
-        jQuery('#facebook_like').replaceWith('<div id="fb-root"></div><fb:like href="http://' + GIGO.mirrorconfig("site", "name", null) + '" send="false" width="450" show_faces="false" font=""></fb:like>');
+  
 
-        // http://techoctave.com/c7/posts/40-xhtml-strict-tweet-button-and-facebook-like-button
-        // Tian Valdemar Davis
-        var s = document.createElement('SCRIPT'),
-            s1 = document.getElementsByTagName('SCRIPT')[0];
-        s.type = 'text/javascript';
-        s.async = true;
-        s.src = '//connect.facebook.net/en_US/all.js#xfbml=1';
-        s1.parentNode.insertBefore(s, s1);
+    if (GIGO.mirrorconfig("facebook", "enable", 0)) {
+        jQuery("#social").css({'display':'inline'}); 
+        jQuery('#social').append(
+            ' <span id="facebook_like">' + 
+            '<a href="http://www.facebook.com/sharer/sharer.php?u=' + 
+            encodeURIComponent(GIGO.publishname ) + 
+            '" >Facebook</a></span>');
     }
 };
 
 GIGO.twitter_tweet = function () {
+    jQuery("#social").css({'display':'inline'}); 
+
+
     if (GIGO.mirrorconfig("twitter", "enable", 0)) {
+        var url, via;
 
-        jQuery('#twitter_tweet').replaceWith('<a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="' + GIGO.mirrorconfig("twitter", "name") + '">Tweet</a>');
+        url = "http://twitter.com/intent/tweet/?url=" +  encodeURIComponent(GIGO.publishname);
+        via =  GIGO.mirrorconfig("twitter", "name");
+        if (via) {
+            url = url + "&via=" + encodeURIComponent(via);
+        }
 
-        // http://techoctave.com/c7/posts/40-xhtml-strict-tweet-button-and-facebook-like-button
-        // Tian Valdemar Davis
-        var s = document.createElement('SCRIPT'),
-            s1 = document.getElementsByTagName('SCRIPT')[0];
-        s.type = 'text/javascript';
-        s.async = true;
-        s.src = '//platform.twitter.com/widgets.js';
-        s1.parentNode.insertBefore(s, s1);
+
+        jQuery('#social').append(
+            '&nbsp <span id=#twitter_tweet>'  + 
+            '<a href="' + url +   '">Twitter</a></span>');
     }
 };
