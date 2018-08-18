@@ -699,8 +699,8 @@
       "monitor": "Servizio Partners - Joram.IT <contact@joram.it>",
       "provider": "Joram.IT",
       "site": "www.joram.it",
-      "v4": "http://ipv4.joram.it/oggetti/immagini/ipv4.png",
-      "v6": "http://ipv6.joram.it/oggetti/immagini/ipv6.jpg"
+      "v4": "https://ipv4.joram.it/oggetti/immagini/ipv4.png",
+      "v6": "https://ipv6.joram.it/oggetti/immagini/ipv6.jpg"
     },
     "jamieweb.net": {
       "hide": false,
