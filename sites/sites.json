@@ -729,16 +729,6 @@
       "v4": "http://ipv4.nop.hu/hosted.png",
       "v6": "http://ipv6.nop.hu/hosted.png"
     },
-    "test-ipv6.orbyta.com": {
-      "hide": true,
-      "comment": "repeated validator failures starting 10/18/2017",
-      "loc": "CL",
-      "mirror": true,
-      "monitor": "javier campos <javiersource@gmail.com>",
-      "provider": "Orbyta S.A.",
-      "v4": "http://ipv4.test-ipv6.orbyta.com/images-nc/knob_green.png",
-      "v6": "http://ipv6.test-ipv6.orbyta.com/images-nc/knob_green.png"
-    },
     "test-ipv6.showmyip.ca": {
       "hide": false,
       "loc": "CA",
