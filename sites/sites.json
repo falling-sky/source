@@ -144,8 +144,8 @@
       "monitor": "Delan Azabani <delan@azabani.com>",
       "provider": "Delan Azabani",
       "site": "sixte.st",
-      "v4": "http://ipv4.sixte.st/images-nc/knob_green.png",
-      "v6": "http://ipv6.sixte.st/images-nc/knob_green.png"
+      "v4": "https://ipv4.sixte.st/images-nc/knob_green.png",
+      "v6": "https://ipv6.sixte.st/images-nc/knob_green.png"
     },
     "snozzages.com": {
       "hide": false,
