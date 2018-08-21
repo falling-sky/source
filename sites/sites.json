@@ -377,8 +377,8 @@
       "monitor": "Dale Hartung <dale@dghartung.com>",
       "provider": "Dale Hartung",
       "site": "test-ipv6.lazypaddle.com",
-      "v4": "http://ipv4.test-ipv6.lazypaddle.com/images-nc/knob_green.png",
-      "v6": "http://ipv6.test-ipv6.lazypaddle.com/images-nc/knob_green.png"
+      "v4": "https://ipv4.test-ipv6.lazypaddle.com/images-nc/knob_green.png",
+      "v6": "https://ipv6.test-ipv6.lazypaddle.com/images-nc/knob_green.png"
     },
     "test-ipv6.monash.edu": {
       "hide": false,
@@ -478,8 +478,8 @@
       "monitor": "\"SK-NIC, a.s.\" <hostmaster@sk-nic.sk>",
       "provider": "Sk-nic",
       "site": "test-ipv6.tld.sk",
-      "v4": "http://ipv4.test-ipv6.tld.sk/images-nc/knob_green.png",
-      "v6": "http://ipv6.test-ipv6.tld.sk/images-nc/knob_green.png"
+      "v4": "https://ipv4.test-ipv6.tld.sk/images-nc/knob_green.png",
+      "v6": "https://ipv6.test-ipv6.tld.sk/images-nc/knob_green.png"
     },
     "test-ipv6.vtt.net": {
       "hide": false,
