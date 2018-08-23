@@ -380,16 +380,6 @@
       "v4": "https://ipv4.test-ipv6.lazypaddle.com/images-nc/knob_green.png",
       "v6": "https://ipv6.test-ipv6.lazypaddle.com/images-nc/knob_green.png"
     },
-    "test-ipv6.monash.edu": {
-      "hide": false,
-      "loc": "AU",
-      "mirror": true,
-      "monitor": "John Mann <John.Mann@monash.edu>",
-      "provider": "Monash University",
-      "site": "test-ipv6.monash.edu",
-      "v4": "http://ipv4.test-ipv6.monash.edu/images-nc/knob_green.png",
-      "v6": "http://ipv6.test-ipv6.monash.edu/images-nc/knob_green.png"
-    },
     "test-ipv6.netiter.dk": {
       "hide": false,
       "loc": "DE",
