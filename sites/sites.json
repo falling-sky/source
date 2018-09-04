@@ -508,6 +508,14 @@
       "v4": "http://ipv4.ipv6-test.ch/images-nc/knob_green.png",
       "v6": "http://ipv6.ipv6-test.ch/images-nc/knob_green.png"
     },
+    "test-ipv6.ch": {
+      "hide": false,
+      "loc": "UK",
+      "monitor": "feedback@test-ipv6.ch",
+      "provider": "G Consulting",
+      "v4": "http://ipv4.test-ipv6.ch/images-nc/knob_green.png",
+      "v6": "http://ipv6.test-ipv6.ch/images-nc/knob_green.png"
+    },
     "www.ctbc.com.br": {
       "hide": false,
       "loc": "BR",
