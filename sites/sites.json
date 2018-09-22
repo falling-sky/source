@@ -604,15 +604,6 @@
       "v4": "http://ipv4.test-ipv6.bvconline.com.ar/knob_green.png",
       "v6": "http://ipv6.test-ipv6.bvconline.com.ar/knob_green.png"
     },
-    "test-ipv6.cmd.net.br": {
-      "hide": false,
-      "loc": "BR",
-      "mirror": true,
-      "monitor": "Cesar Scoassabia <suporte@cmd.net.br>",
-      "provider": "CMD Informatica",
-      "v4": "https://ipv4.test-ipv6.cmd.net.br/images-nc/knob_green.png",
-      "v6": "https://ipv6.test-ipv6.cmd.net.br/images-nc/knob_green.png"
-    },
     "test-ipv6.arauc.br": {
       "hide": false,
       "loc": "BR",
