@@ -409,17 +409,6 @@
       "v4": "http://ipv4.test-ipv6.no/images-nc/knob_green.png",
       "v6": "http://ipv6.test-ipv6.no/images-nc/knob_green.png"
     },
-    "test-ipv6.polkam.go.id": {
-      "hide": false,
-      "comment": "HSTS requires HTTPS",
-      "loc": "ID",
-      "mirror": true,
-      "monitor": "vicky@sentinel.id",
-      "provider": "Coordinating Ministry For Political, Legal, and Security Affairs of Indonesia",
-      "site": "test-ipv6.polkam.go.id",
-      "v4": "https://ipv4.test-ipv6.polkam.go.id/images-nc/knob_green.png",
-      "v6": "https://ipv6.test-ipv6.polkam.go.id/images-nc/knob_green.png"
-    },
     "test-ipv6.ro": {
       "hide": false,
       "loc": "RO",
@@ -623,24 +612,6 @@
       "provider": "CMD Informatica",
       "v4": "https://ipv4.test-ipv6.cmd.net.br/images-nc/knob_green.png",
       "v6": "https://ipv6.test-ipv6.cmd.net.br/images-nc/knob_green.png"
-    },
-    "test-ipv6.tni-au.mil.id": {
-      "hide": false,
-      "loc": "ID",
-      "mirror": true,
-      "monitor": "vicky@sentinel.id",
-      "provider": "Indonesian Air Force",
-      "v4": "http://ipv4.test-ipv6.tni-au.mil.id/images-nc/knob_green.png",
-      "v6": "http://ipv6.test-ipv6.tni-au.mil.id/images-nc/knob_green.png"
-    },
-    "test-ipv6.densus88.id": {
-      "hide": false,
-      "loc": "ID",
-      "mirror": true,
-      "monitor": "vicky@sentinel.id",
-      "provider": "Special Detachment 88 - Indonesian National Police",
-      "v4": "http://ipv4.test-ipv6.densus88.id/images-nc/knob_green.png",
-      "v6": "http://ipv6.test-ipv6.densus88.id/images-nc/knob_green.png"
     },
     "test-ipv6.arauc.br": {
       "hide": false,
