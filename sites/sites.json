@@ -746,6 +746,15 @@
       "site": "vulndetect.com",
       "v4": "https://ipv4.vulndetect.com/assets/uploads/profile/ipv6.png",
       "v6": "https://ipv6.vulndetect.com/assets/uploads/profile/ipv6.png"
+    },
+    "dns-zone.net": {
+      "loc": "DE",
+      "mirror": false,
+      "monitor": "DNS-ZONE <info@dns-zone.net>",
+      "provider": "DNS-ZONE.NET",
+      "site": "dns-zone.net",
+      "v4": "https://ipv4check.dns-zone.net/ipv6.png",
+      "v6": "https://ipv6check.dns-zone.net/ipv6.png"
     }
   }
 }
