@@ -250,16 +250,6 @@
           "v4": "https://ipv4.test-ipv6.arauc.br/images-nc/knob_green.png",
           "v6": "https://ipv6.test-ipv6.arauc.br/images-nc/knob_green.png"
         },
-        "test-ipv6.arbor.net": {
-          "hide": false,
-          "loc": "US",
-          "mirror": true,
-          "monitor": "Bill Cerveny <admin@v6research.net>",
-          "provider": "Arbor Networks",
-          "site": "test-ipv6.arbor.net",
-          "v4": "http://ipv4.test-ipv6.arbor.net/images-nc/knob_green.png",
-          "v6": "http://ipv6.test-ipv6.arbor.net/images-nc/knob_green.png"
-        },
         "test-ipv6.azstarnet.az": {
           "loc": "AZ",
           "mirror": true,
