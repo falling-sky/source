@@ -630,14 +630,14 @@
           "v4": "https://ipv4.vm2.test-ipv6.com/images-nc/knob_green.png",
           "v6": "https://ipv6.vm2.test-ipv6.com/images-nc/knob_green.png"
         },
-        "vulndetect.com": {
+        "vulndetect.org": {
           "hide": false,
           "loc": "IE",
           "monitor": "tom@vulndetect.com",
           "provider": "vulndetect.com (hosted at Amazon Ireland)",
-          "site": "vulndetect.com",
-          "v4": "https://ipv4.vulndetect.com/assets/uploads/profile/ipv6.png",
-          "v6": "https://ipv6.vulndetect.com/assets/uploads/profile/ipv6.png"
+          "site": "vulndetect.org",
+          "v4": "https://ipv4.vulndetect.org/assets/uploads/profile/ipv6.png",
+          "v6": "https://ipv6.vulndetect.org/assets/uploads/profile/ipv6.png"
         },
         "www.ctbc.com.br": {
           "hide": false,
