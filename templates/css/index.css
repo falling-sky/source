@@ -270,3 +270,13 @@ img.emish {
   height: 2em;
   width: auto;
 }
+
+
+div.nomail {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color:#fbb;
+  top: 0;
+  left: 0;
+}

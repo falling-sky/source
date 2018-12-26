@@ -460,13 +460,13 @@ GIGO.identify_symptoms = function () {
             if (res[i] === 'confused:obbo') {
                 res[i] = "apple:dnsbug_aaaa"; // Failed to connect to AAAA but dual stack says it shoulda
             }
-            if (res[i] === 'confused:ASK') {
+            if (res[i].match(/^confused/)) {
                 if (mini_primary.match(/^obb[sob]/)) {
                     res[i] = "apple:dnsbug_aaaa"; // Failed to connect to AAAA but dual stack says it shoulda
                 }
             }
         }
-        if (res[i] === 'confused:ASK') {
+        if (res[i].match(/^confused/)) {
             if ((mini_primary.match(/^ottt/)) && (mini_secondary.match(/^ottt/))) {
                 res[i] = "broken_ipv6";
             }
@@ -474,7 +474,7 @@ GIGO.identify_symptoms = function () {
 
         console.log("res[i]=%o",res[i]);
 
-        if (res[i] === 'confused:ASK') {
+        if (res[i].match(/^confused/)) {
           if (GIGO.isUnreliable()) {
             res[i]="confused:NOASK";
             console.log("res[i] updated to %o",res[i]);

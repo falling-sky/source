@@ -101,6 +101,41 @@ GIGO.validate_form = function (thisform) {
             return false;
         }
     }
+
+
     return true;
 };
 GIGO.validate_form.asked = 0;
+
+GIGO.onchange_purpose = function (thisform) {
+
+    var e = document.getElementById("purpose");
+    var strUser = e.options[e.selectedIndex].value;
+
+    jQuery("div[id^=response]").hide();
+    jQuery("#contact_form").hide();
+    switch (strUser) {
+        case "isp":
+            jQuery("#response_isp").show();
+            break;
+
+        case "hacked":
+        jQuery("#response_hacked").show();
+            break;
+
+        case "gfw":
+        jQuery("#response_gfw").show();
+            break;
+
+        case "isp":
+        jQuery("#response_isp").show();
+            break;
+
+        default:
+        jQuery("#contact_form").show();
+            break;
+    };
+
+
+    console.log("this is %o", strUser);
+};

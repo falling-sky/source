@@ -28,7 +28,7 @@
     </div>
 
     <div>
-      <form id="commentform" action="/comment.php" method="post" enctype="multipart/form-data" name="commentform" onsubmit="return GIGO.validate_form(this)" >
+      <form id="commentform" action="/comment.php" method="post" enctype="multipart/form-data" name="commentform"  onsubmit="return GIGO.validate_form(this)" >
 
 
 
@@ -63,10 +63,14 @@
               <b>{{Purpose for comment}}</b>:
             </td><td>
 
-            <select name="purpose" onchange='jQuery("#contact_form").show();'>
+            <select id="purpose" name="purpose" onchange="return GIGO.onchange_purpose(this)">
 <option value="-">{{Purpose for comment}}</option>
 <option value="questions">{{Questions about test results}}</option>
-<option value="bug">{{Report a bug with diagnosis}}</option>
+<option value="bug">{{Report a bug with diagnosis or this web site}}</option>
+<option value="isp">{{Report problem about slow internet service with your provider}}
+<option value="hacked">{{Hacked phone or computer}}
+<option value="hacked">{{Being watched by spouse, hackers, mafia, government}}
+<option value="gfw">{{Problems with IPv6 in China}}
 <option value="suggestion">{{Suggestion}}</option>
 <option value="cheersjeers">{{Cheers or Jeers}}</option>
 </select>
@@ -75,6 +79,31 @@
 
 </table>
 
+
+
+<div id="response_isp" class="nomail"   style="display:none">
+<p>{{
+Problems relating to your Internet service, should be sent to your Internet Service Provider.
+Please contact them for support.}}</p>
+</div>
+
+<div id="response_hacked" class="nomail"  style="display:none">
+<p>{{
+This web site is not a tool for security or forensic analysis.
+If you have security concerns, please find a security professional
+to consult with.  They can offer investigation and education 
+that is appropriately matched to your concerns.
+}}</p>
+</div>
+
+<div id="response_gfw" class="nomail" style="display:none">
+<p>{{
+  This web site is subject to the policies 
+  and technology limitations of the "Great Wall" for the Internet.
+  Because of these limitations, this web site is not reliable 
+  for viewing from inside China.
+}}</p>
+</div>
 
 
 
