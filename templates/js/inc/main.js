@@ -624,6 +624,8 @@ GIGO.setup_tests = function () {
     GIGO.queue.push(["test_type_json", GIGO.options.url.test_v6mtu, "test_v6mtu"]);
     GIGO.queue.push(["test_type_json", GIGO.options.url.test_v6ns, "test_v6ns"]);
     GIGO.queue.push(["test_type_json", GIGO.options.url.test_dsmtu, "test_dsmtu"]);
+    GIGO.queue.push(["test_type_img", GIGO.options.url.test_ood_img, "test_ood"]);
+
 
     if (GIGO.protocol === "http://") {
       GIGO.queue.push(["test_type_json", GIGO.options.url.test_https, "test_https"]);
@@ -674,7 +676,7 @@ GIGO.set_default_options = function (options) {
     options.url.test_v6mtu = GIGO.protocol+"mtu1280." + options.subdomain + options.uri + "&size=1600&fill=" + GIGO.fill(1600, "x");
     options.url.test_dsmtu = GIGO.protocol+"ds." + options.subdomain + options.uri + "&size=1600&fill=" + GIGO.fill(1600, "x");
     options.url.test_buggydns1 = GIGO.protocol+"buggydns1." + options.subdomain + options.uri;
-
+    options.url.test_ood=""; // Dummy
 
 
     // ASN lookups are corrently broken.
@@ -691,6 +693,7 @@ GIGO.set_default_options = function (options) {
     options.url.test_v6mtu_img = GIGO.protocol+"mtu1280." + options.subdomain + options.img_uri_big;
     options.url.test_dsmtu_img = GIGO.protocol+"ds." + options.subdomain + options.img_uri_big;
     options.url.test_buggydns1_img = GIGO.protocol+"buggydns1." + options.subdomain + options.img_uri;
+    options.url.test_ood_img = GIGO.ood_url()
 
 
     // Probe for https - stick to our current hostname

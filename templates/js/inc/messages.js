@@ -62,7 +62,8 @@ GIGO.messages = {
     "ipv6:nodns": "{{IPv6 connections work, but connections using DNS names do not use IPv6.  For some reason, your browser or your OS is not doing IPv6 DNS 'AAAA' lookups.}}",
     "broken": "{{We have suggestions to help you fix your system.}}",
     "sites": "{{Since you have IPv6, we are including a tab that shows how well you can reach other IPv6 sites.  %sites}}",
-    "avoids_ipv6": "{{Your browser has real working IPv6 address - but is avoiding using it.  We're concerned about this.}}"
+    "avoids_ipv6": "{{Your browser has real working IPv6 address - but is avoiding using it.  We're concerned about this.}}",
+    "ood":"{{This mirror has been marked as out of compliance; you should instead visit <a href='//test-ipv6.com/'>test-ipv6.com</a>.}}"
 };
 
 GIGO.messages_popups = {

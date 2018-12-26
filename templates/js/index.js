@@ -39,6 +39,7 @@
 [% PROCESS   "inc/helpdesk.js"                     %]
 [% PROCESS   "inc/pulse.js"                    %]
 [% PROCESS   "inc/fake.js" %]
+[% PROCESS   "inc/ood.js" %]
 [% PROCESS   "inc/main.js"                     %]
 
 // end of base.js

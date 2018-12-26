@@ -208,6 +208,7 @@ GIGO.identify_symptoms = function () {
 
 
 
+
     // HTTP proxies?
     via = GIGO.ipinfo_in_tests(tests, "via");
 
@@ -277,11 +278,18 @@ GIGO.identify_symptoms = function () {
     mini_primary = GIGO.ministates(["a", "aaaa", "ds4", "ds6"]);
     mini_secondary = GIGO.ministates(["ipv4", "ipv6", "v6mtu", "v6ns"]);
 
+    mini_ood = GIGO.ministates(["ood"])
+    console.log("mini_ood %o", mini_ood);
     console.log("mini_secondary %o",mini_secondary);
 
     GIGO.helpdesk.mini_primary = mini_primary;
     GIGO.helpdesk.mini_secondary = mini_secondary;
 
+
+    // Out of date mirror flagged
+    if (mini_ood.match(/^[os]/)) {
+        res.push("ood")
+    }
 
     //    alert("mini_primary " + mini_primary + " secondary " + mini_secondary);
 

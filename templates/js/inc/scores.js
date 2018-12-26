@@ -68,5 +68,6 @@ GIGO.scores = {
     "proxy_via": [10, 10, "ORANGE"],
     "proxy_via_dumb": [10, 10, "ORANGE"],
     "broken": [0, 0, "BLUE"],
-    "avoids_ipv6": [10, 10, "ORANGE"]
+    "avoids_ipv6": [10, 10, "ORANGE"],
+    "ood": [10, 10, "RED"]
 };
