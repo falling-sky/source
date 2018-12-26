@@ -341,16 +341,6 @@
           "v4": "https://ipv4.test-ipv6.epic.network/images-nc/knob_green.png",
           "v6": "https://ipv6.test-ipv6.epic.network/images-nc/knob_green.png"
         },
-        "test-ipv6.ernet.in": {
-          "hide": false,
-          "loc": "IN",
-          "mirror": true,
-          "monitor": "praveen.misra@eis.ernet.in",
-          "provider": "IPv6 Division of ERNET India",
-          "site": "test-ipv6.ernet.in",
-          "v4": "https://ipv4.test-ipv6.ernet.in/images-nc/knob_green.png",
-          "v6": "https://ipv6.test-ipv6.ernet.in/images-nc/knob_green.png"
-        },
         "test-ipv6.fratec.net": {
           "hide": false,
           "https": true,
@@ -392,16 +382,6 @@
           "transparent": true,
           "v4": "https://ipv4.test-ipv6.hkg.vr.org/images-nc/knob_green.png",
           "v6": "https://ipv6.test-ipv6.hkg.vr.org/images-nc/knob_green.png"
-        },
-        "test-ipv6.hu": {
-          "hide": false,
-          "loc": "HU",
-          "mirror": true,
-          "monitor": "Polaris-N Systems <info@polaris-n.hu>",
-          "provider": "Polaris-N Systems",
-          "site": "test-ipv6.hu",
-          "v4": "https://ipv4.test-ipv6.hu/images-nc/knob_green.png",
-          "v6": "https://ipv6.test-ipv6.hu/images-nc/knob_green.png"
         },
         "test-ipv6.jp": {
           "hide": false,
@@ -453,16 +433,6 @@
           "site": "test-ipv6.nl",
           "v4": "https://ipv4.test-ipv6.nl/images-nc/knob_green.png",
           "v6": "https://ipv6.test-ipv6.nl/images-nc/knob_green.png"
-        },
-        "test-ipv6.no": {
-          "hide": false,
-          "loc": "NO",
-          "mirror": true,
-          "monitor": "Brynjar Eide <test-ipv6@availo.no>",
-          "provider": "Availo AS",
-          "site": "test-ipv6.no",
-          "v4": "http://ipv4.test-ipv6.no/images-nc/knob_green.png",
-          "v6": "http://ipv6.test-ipv6.no/images-nc/knob_green.png"
         },
         "test-ipv6.noroutetohost.net": {
           "contact": "David Wilkinson <test-ipv6@noroutetohost.net>",
@@ -547,16 +517,6 @@
           "v4": "https://ipv4.test-ipv6.tld.sk/images-nc/knob_green.png",
           "v6": "https://ipv6.test-ipv6.tld.sk/images-nc/knob_green.png"
         },
-        "test-ipv6.vtt.net": {
-          "hide": false,
-          "loc": "RU",
-          "mirror": true,
-          "monitor": "VTT Network Operations Centre <noc@vtt.net>",
-          "provider": "JSC \"Volgatranstelecom\"",
-          "site": "test-ipv6.vtt.net",
-          "v4": "http://ipv4.test-ipv6.vtt.net/images-nc/knob_green.png",
-          "v6": "http://ipv6.test-ipv6.vtt.net/images-nc/knob_green.png"
-        },
         "test-ipv6.vyncke.org": {
           "hide": false,
           "loc": "FR",
@@ -577,16 +537,6 @@
           "transparent": true,
           "v4": "https://ipv4.test-ipv6.zw.liquidtelecom.net/images-nc/knob_green.png",
           "v6": "https://ipv6.test-ipv6.zw.liquidtelecom.net/images-nc/knob_green.png"
-        },
-        "test.ipv6s.com": {
-          "hide": false,
-          "loc": "CN",
-          "mirror": true,
-          "monitor": "adminin@gmail.com",
-          "provider": "中国IPv6网",
-          "site": "test.ipv6s.com",
-          "v4": "https://ipv4.test-ipv6.ipv6s.com/images-nc/knob_green.png",
-          "v6": "https://ipv6.test-ipv6.ipv6s.com/images-nc/knob_green.png"
         },
         "testipv6.de": {
           "hide": false,
