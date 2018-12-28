@@ -78,6 +78,7 @@ RewriteCond %{HTTP_HOST} ^(.*\.)?test-ipv6\.null\.nu [NC,OR]
 RewriteCond %{HTTP_HOST} ^(.*\.)?test-ipv6\.roedu\.net [NC,OR]
 RewriteCond %{HTTP_HOST} ^(.*\.)?test-ipv6\.noroutetohost\.net [NC,OR]
 RewriteCond %{HTTP_HOST} ^(.*\.)?test-ipv6\.com\.au [NC,OR]
+RewriteCond %{HTTP_HOST} ^(.*\.)?test-ipv6\.ttk\.ru [NC,OR]
 RewriteCond %{HTTP_HOST} ^(.*\.)?test-ipv6\.alpinedc\.ch [NC]
 RewriteRule "^(.well-known/acme-.*)$" http://validation-server.test-ipv6.com/$1 [R,L]
 </IfModule>
