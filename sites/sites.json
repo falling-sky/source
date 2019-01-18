@@ -730,7 +730,7 @@
       "mirror": true,
       "monitor":"jfesler@gigo.com",
       "contact": "NOC <noc@tascom.com.br>",
-      "provider": "TTK",
+      "provider": "Use Telecomunicações",
       "site": "test-ipv6.tascom.com.br",
       "v4": "http://ipv4.test-ipv6.tascom.com.br/images-nc/knob_green.png",
       "v6": "http://ipv6.test-ipv6.tascom.com.br/images-nc/knob_green.png"
