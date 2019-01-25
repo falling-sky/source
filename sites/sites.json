@@ -724,16 +724,16 @@
       "v4": "https://ipv4.test-ipv6.ttk.ru/images-nc/knob_green.png",
       "v6": "https://ipv6.test-ipv6.ttk.ru/images-nc/knob_green.png"
     },
-    "test-ipv6.tascom.com.br": {
+    "test-ipv6.usetelecom.com.br": {
       "hide": false,
       "loc": "BR",
       "mirror": true,
       "monitor":"jfesler@gigo.com",
-      "contact": "NOC <noc@tascom.com.br>",
+      "contact": "NOC <noc@usetelecom.com.br>",
       "provider": "Use Telecomunicações",
-      "site": "test-ipv6.tascom.com.br",
-      "v4": "http://ipv4.test-ipv6.tascom.com.br/images-nc/knob_green.png",
-      "v6": "http://ipv6.test-ipv6.tascom.com.br/images-nc/knob_green.png"
+      "site": "test-ipv6.usetelecom.com.br",
+      "v4": "http://ipv4.test-ipv6.usetelecom.com.br/images-nc/knob_green.png",
+      "v6": "http://ipv6.test-ipv6.usetelecom.com.br/images-nc/knob_green.png"
     }
   }
 }
