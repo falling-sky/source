@@ -734,6 +734,16 @@
       "site": "test-ipv6.usetelecom.com.br",
       "v4": "http://ipv4.test-ipv6.usetelecom.com.br/images-nc/knob_green.png",
       "v6": "http://ipv6.test-ipv6.usetelecom.com.br/images-nc/knob_green.png"
+    },
+    "test-ipv6.micso.network": {
+      "hide": false,
+      "loc": "IT",
+      "mirror": true,
+      "monitor":"Micso NOC <admin@micso.net>",
+      "provider": "Micso srl",
+      "site": "micso.it",
+      "v4": "http://ipv4.test-ipv6.micso.network/images-nc/knob_green.png",
+      "v6": "http://ipv6.test-ipv6.micso.network/images-nc/knob_green.png"
     }
   }
 }
