@@ -1,0 +1,10 @@
+    "aa.net.uk": {
+      "contact": "Adrian Kennard <a@k.gg>",
+      "hide": false,
+      "loc": "UK",
+      "monitor": "support@aa.net.uk",
+      "provider": "AAISP (UK IPv6 ISP)",
+      "site": "aa.net.uk",
+      "v4": "https://ip4.aa.net.uk/images/aaisp_logo.png",
+      "v6": "https://ip6.aa.net.uk/images/aaisp_logo.png"
+    },

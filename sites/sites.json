@@ -18,16 +18,6 @@
       "v4": "https://ip4.8n1.org/test.gif",
       "v6": "https://ip6.8n1.org/test.gif"
     },
-    "aa.net.uk": {
-      "contact": "Adrian Kennard <a@k.gg>",
-      "hide": false,
-      "loc": "UK",
-      "monitor": "support@aa.net.uk",
-      "provider": "AAISP (UK IPv6 ISP)",
-      "site": "aa.net.uk",
-      "v4": "https://ip4.aa.net.uk/images/aaisp_logo.png",
-      "v6": "https://ip6.aa.net.uk/images/aaisp_logo.png"
-    },
     "ayepv6.com": {
       "hide": false,
       "loc": "UK",
@@ -734,6 +724,15 @@
       "site": "test-ipv6.usetelecom.com.br",
       "v4": "http://ipv4.test-ipv6.usetelecom.com.br/images-nc/knob_green.png",
       "v6": "http://ipv6.test-ipv6.usetelecom.com.br/images-nc/knob_green.png"
+    },
+    "mudgee.host": {
+      "hide": false,
+      "loc": "US",
+      "monitor": "Fraser Stuart <fs@mudgee.host>",
+      "provider": "Mudgee Host",
+      "site": "mudgee.host",
+      "v4": "https://ipv4.mudgee.host/logo.png",
+      "v6": "https://ipv6.mudgee.host/logo.png"
     },
     "test-ipv6.micso.network": {
       "hide": false,
