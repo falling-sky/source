@@ -32,3 +32,6 @@ src/github.com
 id_travis
 .DS_Store
 
+sites_parsed.js
+sites_parsed_raw.js
+falling-sky.pot

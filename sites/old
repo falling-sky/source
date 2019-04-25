@@ -8,3 +8,12 @@
       "v4": "https://ip4.aa.net.uk/images/aaisp_logo.png",
       "v6": "https://ip6.aa.net.uk/images/aaisp_logo.png"
     },
+    "test-ipv6.vyncke.org": {
+      "hide": false,
+      "loc": "FR",
+      "mirror": true,
+      "monitor": "Eric Vyncke <eric@vyncke.org>",
+      "provider": "Éric Vyncke",
+      "v4": "https://ipv4.test-ipv6.vyncke.org/images-nc/knob_green.png",
+      "v6": "https://ipv6.test-ipv6.vyncke.org/images-nc/knob_green.png"
+    },

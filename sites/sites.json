@@ -507,15 +507,6 @@
       "v4": "https://ipv4.test-ipv6.tld.sk/images-nc/knob_green.png",
       "v6": "https://ipv6.test-ipv6.tld.sk/images-nc/knob_green.png"
     },
-    "test-ipv6.vyncke.org": {
-      "hide": false,
-      "loc": "FR",
-      "mirror": true,
-      "monitor": "Eric Vyncke <eric@vyncke.org>",
-      "provider": "Éric Vyncke",
-      "v4": "https://ipv4.test-ipv6.vyncke.org/images-nc/knob_green.png",
-      "v6": "https://ipv6.test-ipv6.vyncke.org/images-nc/knob_green.png"
-    },
     "test-ipv6.zw.liquidtelecom.net": {
       "contact": "Liquid Telecom <ipv6@liquidtelecom.com>",
       "hide": false,
