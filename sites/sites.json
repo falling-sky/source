@@ -45,6 +45,15 @@
       "v4": "http://ipv4.campaya.co.uk/apple-touch-icon.png",
       "v6": "http://ipv6.campaya.co.uk/apple-touch-icon.png"
     },
+    "test-ipv6.in": {
+      "hide": false,
+      "loc": "IN",
+      "monitor": "ipv6@limeconsultants.com",
+      "provider": "Lime Consultants",
+      "site": "www.limeconsultants.com",
+      "v4": "http://ipv4.test-ipv6.i[An/images/knob_green.png",
+      "v6": "http://ipv6.test-ipv6.in/images/knob_green.png"
+    },
     "dns-zone.net": {
       "loc": "DE",
       "mirror": false,
