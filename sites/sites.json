@@ -51,7 +51,7 @@
       "monitor": "ipv6@limeconsultants.com",
       "provider": "Lime Consultants",
       "site": "www.limeconsultants.com",
-      "v4": "http://ipv4.test-ipv6.i[An/images/knob_green.png",
+      "v4": "http://ipv4.test-ipv6.in/images/knob_green.png",
       "v6": "http://ipv6.test-ipv6.in/images/knob_green.png"
     },
     "dns-zone.net": {
