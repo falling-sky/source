@@ -20,9 +20,7 @@
   |
 
 <a href="#" onclick="return help_page('locale.html','Locale')">
-<img src="/images/icon_987_red.png" class="em1" border="0" />
-{{locale}}
-</a>
+<img src="/images/icon_987_red.png" class="em1" border="0" />{{locale}}</a>
 {{percenttranslated}}
 
 
