@@ -763,6 +763,16 @@
       "provider": "Éric Vyncke",
       "v4": "https://ipv4.test-ipv6.vyncke.org/images-nc/knob_green.png",
       "v6": "https://ipv6.test-ipv6.vyncke.org/images-nc/knob_green.png"
+    },
+        "antradar.com": {
+      "hide": false,
+      "loc": "US (NJ)",
+      "monitor": "schien@antradar.com",
+      "provider": "Antradar Software",
+      "site": "antradar.com",
+      "v4": "https://ipv4.antradar.com/gyroscope.png",
+      "v6": "https://ipv6.antradar.com/gyroscope.png"
     }
+
   }
 }
