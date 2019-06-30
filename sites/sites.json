@@ -668,15 +668,6 @@
       "v4": "https://v4-only.steffann.nl/v4-only.png",
       "v6": "https://v6-only.steffann.nl/v6-only.png"
     },
-    "www.tecpeu.com.br": {
-      "hide": false,
-      "loc": "BR",
-      "monitor": "Ricardo Peu Grassi <contato@tecpeu.com.br>",
-      "provider": "Tecpeu Informática",
-      "site": "www.tecpeu.com.br",
-      "v4": "https://ipv4.tecpeu.com.br/img/logo-big.png",
-      "v6": "https://ipv6.tecpeu.com.br/img/logo-big.png"
-    },
     "www.vyncke.org/ipv6status/": {
       "hide": false,
       "loc": "FR",
