@@ -55,7 +55,7 @@ GIGO.messages = {
     "dualstack:unsafe": "{{<b>Our tests show that you will have a broken or misconfigured IPv6 setup, and this will cause problems as web sites enable IPv6.</b>}}",
     "dualstack:mtu": "{{<b>Our tests show that you may have MTU problems with IPv6; this can cause web sites to load slow (or not at all) when web sites enable IPv6.</b>}}",
     "buggydns1": "{{We looked up an IPv6 address, but your DNS server (possibly your home router) mangled the response, and is treating it as (broken) IPv4.}}",
-    "tunnel_dumb": "{{It appears that you use a tunnel mechanism for either IPv4 or IPv6.}}",
+    "tunnel_dumb": "{{It appears that you use a tunnel mechanism for either IPv4 or IPv6.}} {{If you are using a VPN, your VPN is only protecting one protocol, not both.}}",
     "tunnel_6rd_dumb": "{{It appears that you use a managed tunnel mechanism, 6RD, to transport IPv6 over IPv4.}}",
     "proxy_via": "{{We have detected that you are using a proxy.  This means we are testing your proxy server, not your computer. Proxy details (as reported by your proxy 'Via' header): %details}}",
     "proxy_via_dumb": "{{We have detected that you are using a proxy.  This means we are testing your proxy server, not your computer.}}",
