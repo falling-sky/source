@@ -557,15 +557,6 @@
       "v4": "https://ipv4.vulndetect.org/assets/uploads/profile/ipv6.png",
       "v6": "https://ipv6.vulndetect.org/assets/uploads/profile/ipv6.png"
     },
-    "xiaoyu.net": {
-      "hide": false,
-      "loc": "CA US",
-      "monitor": "yon@xiaoyu.net",
-      "provider": "Liuxyon International  AS39753",
-      "site": "xiaoyu.net",
-      "v4": "https://ipv4.xiaoyu.net/test-ipv6/favicon.ico",
-      "v6": "https://ipv6.xiaoyu.net/test-ipv6/favicon.ico"
-    },
     "www.ctbc.com.br": {
       "hide": false,
       "loc": "BR",
