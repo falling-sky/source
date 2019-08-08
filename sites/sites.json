@@ -382,17 +382,6 @@
       "v4": "https://ipv4.test-ipv6.hkg.vr.org/images-nc/knob_green.png",
       "v6": "https://ipv6.test-ipv6.hkg.vr.org/images-nc/knob_green.png"
     },
-    "test-ipv6.jp": {
-      "hide": false,
-      "loc": "JP",
-      "mirror": true,
-      "monitor": "Shin Shirahata <inquiry@test-ipv6.jp>",
-      "provider": "BIGLOBE, Inc/Fullroute Pte. Ltd",
-      "site": "test-ipv6.jp",
-      "transparent": true,
-      "v4": "https://ipv4.test-ipv6.jp/images-nc/knob_green.png",
-      "v6": "https://ipv6.test-ipv6.jp/images-nc/knob_green.png"
-    },
     "test-ipv6.ke.liquidtelecom.net": {
       "contact": "Liquid Telecom <ipv6@liquidtelecom.com>",
       "hide": false,
