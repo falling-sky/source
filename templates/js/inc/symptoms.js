@@ -18,7 +18,8 @@ GIGO.asn_same = {
     "surewest": [14051],
     "aarnet": [757, 56132],
     "tmobile-usa": [21928, 22140],
-    "att": [7132, 7018, 6389]
+    "att": [7132, 7018, 6389],
+    "emirates": [8966, 5384]
 };
 
 GIGO.asn_native = {
