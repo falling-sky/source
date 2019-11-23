@@ -65,15 +65,6 @@
       "v4": "https://ipv4.limeconsultants.com/1x1.png",
       "v6": "https://ipv6.limeconsultants.com/1x1.png"
     },
-    "dns-zone.net": {
-      "loc": "DE",
-      "mirror": false,
-      "monitor": "DNS-ZONE <info@dns-zone.net>",
-      "provider": "DNS-ZONE.NET",
-      "site": "dns-zone.net",
-      "v4": "https://ipv4check.dns-zone.net/ipv6.png",
-      "v6": "https://ipv6check.dns-zone.net/ipv6.png"
-    },
     "duplimaster.com": {
       "hide": false,
       "loc": "ES",
@@ -556,15 +547,6 @@
       "site": "vulndetect.org",
       "v4": "https://ipv4.vulndetect.org/assets/uploads/profile/ipv6.png",
       "v6": "https://ipv6.vulndetect.org/assets/uploads/profile/ipv6.png"
-    },
-    "www.ctbc.com.br": {
-      "hide": false,
-      "loc": "BR",
-      "monitor": "Tiago Carrijo Setti <tiagoc@algartelecom.com.br>",
-      "provider": "Algar Telecom / CTBC",
-      "site": "www.ctbc.com.br",
-      "v4": "http://ipv4only.ctbc.net.br/ctbc/pixel.gif",
-      "v6": "http://ipv6only.ctbc.net.br/ctbc/pixel.gif"
     },
     "www.duiadns.net": {
       "loc": "NL",
