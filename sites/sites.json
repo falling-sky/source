@@ -659,7 +659,7 @@
       "v6": "https://ipv6.test-ipv6.ttk.ru/images-nc/knob_green.png"
     },
     "test-ipv6.usetelecom.com.br": {
-      "hide": true,
+      "hide": false,
       "loc": "BR",
       "mirror": true,
       "monitor":"jfesler@gigo.com",
