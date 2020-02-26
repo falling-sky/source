@@ -620,15 +620,6 @@
       "v4": "https://test4.vyncke.org/knob_valid_green.png",
       "v6": "https://test6.vyncke.org/knob_valid_green.png"
     },
-    "www.yahoo.com": {
-      "hide": false,
-      "loc": "global",
-      "monitor": "ipv6@yahoo-inc.com",
-      "provider": "Yahoo!",
-      "site": "www.yahoo.com",
-      "v4": "https://v4test.yahoo.com/eng/test/eye-test.png",
-      "v6": "https://v6test.yahoo.com/eng/test/eye-test.png"
-    },
     "ziggoforum.nl": {
       "hide": false,
       "loc": "NL",
@@ -723,6 +714,15 @@
       "provider": "yidazao一大早（personal",
       "v4": "https://ipv4.testipv6.cn/images-nc/knob_green.png",
       "v6": "https://ipv6.testipv6.cn/images-nc/knob_green.png"
+    },
+    "test-ipv6.iu13.net": {
+      "hide": false,
+      "loc": "US (PA)",
+      "mirror": true,
+      "monitor": "test-ipv6@iu13.org",
+      "provider": "Lancaster-Lebanon IU13",
+      "v4": "https://ipv4.test-ipv6.iu13.net/images-nc/knob_green.png",
+      "v6": "https://ipv6.test-ipv6.iu13.net/images-nc/knob_green.png"
     }
   }
 }
