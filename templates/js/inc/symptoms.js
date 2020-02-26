@@ -31,6 +31,11 @@ GIGO.unreliable = {
   "CN": 1, /* China */
 };
 
+// Exceptions to the unreliable warning.
+if (window.location.hostname.toLowerCase().endsWith(".cn")) {
+  GIGO.unreliable["CN"]=0;
+};
+
 
 GIGO.ministates = function (which) {
     var s, i, key, v, tests;
