@@ -662,7 +662,7 @@
       "hide": false,
       "loc": "BR",
       "mirror": true,
-      "monitor":"jfesler@gigo.com",
+      "monitor": "jfesler@gigo.com",
       "contact": "NOC <noc@usetelecom.com.br>",
       "provider": "Use Telecomunicações",
       "site": "test-ipv6.usetelecom.com.br",
@@ -682,13 +682,13 @@
       "hide": false,
       "loc": "IT",
       "mirror": true,
-      "monitor":"Micso NOC <admin@micso.net>",
+      "monitor": "Micso NOC <admin@micso.net>",
       "provider": "Micso srl",
       "site": "micso.it",
       "v4": "http://ipv4.test-ipv6.micso.network/images-nc/knob_green.png",
       "v6": "http://ipv6.test-ipv6.micso.network/images-nc/knob_green.png"
     },
-        "test-ipv6.vyncke.org": {
+    "test-ipv6.vyncke.org": {
       "hide": false,
       "loc": "FR",
       "mirror": true,
@@ -697,7 +697,7 @@
       "v4": "https://ipv4.test-ipv6.vyncke.org/images-nc/knob_green.png",
       "v6": "https://ipv6.test-ipv6.vyncke.org/images-nc/knob_green.png"
     },
-        "test-ipv6.belwue.net": {
+    "test-ipv6.belwue.net": {
       "hide": false,
       "loc": "DE",
       "mirror": true,
@@ -706,7 +706,7 @@
       "v4": "https://ipv4.test-ipv6.belwue.net/images-nc/knob_green.png",
       "v6": "https://ipv6.test-ipv6.belwue.net/images-nc/knob_green.png"
     },
-        "antradar.com": {
+    "antradar.com": {
       "hide": false,
       "loc": "US (NJ)",
       "monitor": "schien@antradar.com",
@@ -714,7 +714,15 @@
       "site": "antradar.com",
       "v4": "https://ipv4.antradar.com/gyroscope.png",
       "v6": "https://ipv6.antradar.com/gyroscope.png"
+    },
+    "testipv6.cn": {
+      "hide": false,
+      "loc": "CN",
+      "mirror": true,
+      "monitor": "56690@qq.com",
+      "provider": "yidazao一大早（personal",
+      "v4": "https://ipv4.testipv6.cn/images-nc/knob_green.png",
+      "v6": "https://ipv6.testipv6.cn/images-nc/knob_green.png"
     }
-
   }
 }
