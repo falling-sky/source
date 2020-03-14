@@ -706,15 +706,6 @@
       "v4": "https://ipv4.antradar.com/gyroscope.png",
       "v6": "https://ipv6.antradar.com/gyroscope.png"
     },
-    "testipv6.cn": {
-      "hide": false,
-      "loc": "CN",
-      "mirror": true,
-      "monitor": "56690@qq.com",
-      "provider": "yidazao一大早（personal",
-      "v4": "https://ipv4.testipv6.cn/images-nc/knob_green.png",
-      "v6": "https://ipv6.testipv6.cn/images-nc/knob_green.png"
-    },
     "test-ipv6.iu13.net": {
       "hide": false,
       "loc": "US (PA)",
