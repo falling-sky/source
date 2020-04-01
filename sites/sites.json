@@ -714,6 +714,15 @@
       "provider": "Lancaster-Lebanon IU13",
       "v4": "https://ipv4.test-ipv6.iu13.net/images-nc/knob_green.png",
       "v6": "https://ipv6.test-ipv6.iu13.net/images-nc/knob_green.png"
-    }
+    },
+    "test-ipv6.access.net.id" : {
+      "mirror" : true,
+      "loc" : "ID",
+      "provider" : "ACCESS-ID",
+      "ipv6" : "http://ipv6.test-ipv6.access.net.id/images-nc/knob_green.png",
+      "ipv4" : "http://ipv4.test-ipv6.access.net.id/images-nc/knob_green.png",
+      "monitor" : "vicky@access.net.id",
+      "hide" : false
+   }
   }
 }
