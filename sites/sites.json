@@ -385,15 +385,6 @@
       "v4": "https://ipv4.test-ipv6.ke.liquidtelecom.net/images-nc/knob_green.png",
       "v6": "https://ipv6.test-ipv6.ke.liquidtelecom.net/images-nc/knob_green.png"
     },
-    "test-ipv6.lazypaddle.com": {
-      "loc": "US WI",
-      "mirror": true,
-      "monitor": "Dale Hartung <dale@dghartung.com>",
-      "provider": "Dale Hartung",
-      "site": "test-ipv6.lazypaddle.com",
-      "v4": "https://ipv4.test-ipv6.lazypaddle.com/images-nc/knob_green.png",
-      "v6": "https://ipv6.test-ipv6.lazypaddle.com/images-nc/knob_green.png"
-    },
     "test-ipv6.nl": {
       "hide": false,
       "loc": "NL",
