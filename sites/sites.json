@@ -710,8 +710,8 @@
       "mirror" : true,
       "loc" : "ID",
       "provider" : "ACCESS-ID",
-      "ipv6" : "http://ipv6.test-ipv6.access.net.id/images-nc/knob_green.png",
-      "ipv4" : "http://ipv4.test-ipv6.access.net.id/images-nc/knob_green.png",
+      "v6" : "http://ipv6.test-ipv6.access.net.id/images-nc/knob_green.png",
+      "v4" : "http://ipv4.test-ipv6.access.net.id/images-nc/knob_green.png",
       "monitor" : "vicky@access.net.id",
       "hide" : false
    }
