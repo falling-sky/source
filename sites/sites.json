@@ -714,6 +714,16 @@
       "v4" : "http://ipv4.test-ipv6.access.net.id/images-nc/knob_green.png",
       "monitor" : "vicky@access.net.id",
       "hide" : false
-   }
+   },
+       "testipv6.cn": {
+      "hide": false,
+      "loc": "CN",
+      "mirror": true,
+      "monitor": "56690@qq.com",
+      "provider": "yidazao一大早（personal)",
+      "v4": "https://ipv4.testipv6.cn/site/logo-v4.png",
+      "v6": "https://ipv6.testipv6.cn/site/logo-v6.png"
+    }
+
   }
 }
