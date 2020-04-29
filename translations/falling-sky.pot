@@ -1576,15 +1576,15 @@ msgstr ""
 msgid "Yes, I do. Thank you! Note that I can only follow up with you if you do leave contact information. While I am still grateful for feedback without contact information, I will be unable to reply with any answers if you asked for them."
 msgstr ""
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Q: How else can I contact you?"
 msgstr ""
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "I would prefer you use the form, as it gives details of your connectivity, and bypasses any mail filters."
 msgstr ""
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "That said, you are welcome to directly email <a href=\"mailto:jfesler@test-ipv6.com\">jfesler@test-ipv6.com</a>."
 msgstr ""
 
@@ -2688,7 +2688,7 @@ msgstr ""
 msgid "Firefox and NoScript"
 msgstr ""
 
-#: "faq_no_ipv4.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "The NoScript browser plugin disables scripts on the page. In the lower right corner of your browser, is the NoScript icon. Click this to bring up a menu; and temporarilly permit scripts on this site."
 msgstr ""
 
@@ -2966,5 +2966,17 @@ msgstr ""
 
 #: "inc/messages.js"
 msgid "If you are using a VPN, your VPN is only protecting one protocol, not both."
+msgstr ""
+
+#: "faq.html"
+msgid "Q: Can you fix my VPN?"
+msgstr ""
+
+#: "faq.html"
+msgid "No, I can not fix your VPN."
+msgstr ""
+
+#: "faq_no_ipv4.html"
+msgid "The NoScript browser extension disables scripts on the page. In the upper right corner of your browser, is the NoScript icon. Click this to bring up a menu; and temporarily permit scripts on this site."
 msgstr ""
 

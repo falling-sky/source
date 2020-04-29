@@ -529,6 +529,7 @@ GIGO.sites_start_ipv6_take2 = function (r) {
 
 GIGO.sites_start_ipv6 = function (r) {
     var url, img, img_pending;
+    console.log("sites_start_ipv6 %o",r);
 
     if (!r.v6) {
         return;
@@ -583,6 +584,7 @@ GIGO.sites_start_ipv6 = function (r) {
 
 GIGO.sites_start_ipv4_take2 = function (r) {
     var url, img, img_pending;
+    console.log("sites_start_ipv4 %o",r);
 
     if (!r.v4) {
         return;
@@ -650,10 +652,22 @@ GIGO.sites_start_ipv4_take2 = function (r) {
 GIGO.sites_start_ipv4 = function (r) {
     var url, img, img_pending;
 
+
     if (!r.v4) {
         return;
     }
 
+    // Visiting the IPv6 specific site
+    if (window.location.hostname.toLocaleLowerCase().startsWith("ipv6."))  {
+        GIGO.sites_start_ipv6(r);
+        return;
+    }
+
+    // OR the beta site
+    if (window.location.hostname.toLocaleLowerCase().startsWith("beta."))  {
+        GIGO.sites_start_ipv6(r);
+        return;
+    }
 
     // IPv6 only? Brave fellow.
     if ((!GIGO.results.ipv4.ip) && (GIGO.results.ipv6.ip)) {
@@ -684,6 +698,7 @@ GIGO.sites_start_ipv4 = function (r) {
         error: function () {
             if (img_pending) {
                 img_pending = 0;
+
                 GIGO.sites_start_ipv4_take2(r);
             }
         }
