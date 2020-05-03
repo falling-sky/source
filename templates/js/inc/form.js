@@ -87,6 +87,13 @@ GIGO.debuggercomments = function (thisform) {
 
 GIGO.validate_form = function (thisform) {
 
+
+    // Nothing filled out?
+    if (!(thisform.notes.value || thisform.comments.value || thisform.contact.value) ) {
+        thisform.notes.focus();
+        return false;
+    }
+
     if (!( $('#consent').prop('checked'))) {
       alert("{{Please consent to sharing your data.}}");
       thisform.consent.focus();
@@ -100,6 +107,7 @@ GIGO.validate_form = function (thisform) {
             thisform.contact.focus();
             return false;
         }
+
     }
 
 
