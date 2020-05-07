@@ -87,9 +87,16 @@ GIGO.debuggercomments = function (thisform) {
 
 GIGO.validate_form = function (thisform) {
 
+    check = function (x) {
+        try {
+            return  x.value.match(/\S/)
+        } catch (e) {
+            return false
+        }
+    }
 
     // Nothing filled out?
-    if (!(thisform.notes.value || thisform.comments.value || thisform.contact.value) ) {
+    if (!( check(thisform.notes) || check(thisform.comments) || check(thisform.contact)) ) {
         thisform.notes.focus();
         return false;
     }
