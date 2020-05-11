@@ -281,7 +281,16 @@ function store_data_text() {
      $replyto = "";  $contact="";
   }
 
-  mail($mirrorconfig["site"]["mailto"],$mirrorconfig["site"]["name"] . " feedback [$contact]", $message,$replyto . "Content-type: text/plain; charset=$charset");
+
+  if (
+      (preg_match('/\S/',$_POST["notes"])) || 
+      (preg_match('/\S/',$_POST["comments"])) ||
+      (preg_match('/\S/',$_POST["contact"]))
+      ) {
+    mail($mirrorconfig["site"]["mailto"],$mirrorconfig["site"]["name"] . " feedback [$contact]", $message,$replyto . "Content-type: text/plain; charset=$charset");
+   }
+
+
   print "Feedback sent; thank you for your assistance.<p>";
   print "If you included contact details, you may be contacted for further information, by " . $mirrorconfig["site"]["contact"]   . "</hr>";
   print "<pre><code>";
