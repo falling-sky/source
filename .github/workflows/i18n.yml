@@ -9,7 +9,9 @@ on:
     branches: [ master ]
   pull_request:
     branches: [ master ]
-
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    - cron:  '0 * * * *'
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -23,25 +25,14 @@ jobs:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
 
-    # Runs a single command using the runners shell
-    - name: Run a one-line script
-      run: hostname
-
-    # Runs a set of commands using the runners shell
-    - name: Run a multi-line script
-      run: |
-        echo Add other actions to build,
-        echo test, and deploy your project.
-
-    - run: 'echo "$SSH_KEY" > cicd_beta && chmod 600 cicd_beta'
+    - run: 'echo "$SSH_KEY" > cicd_i18n && chmod 600 cicd_i18n'
       shell: bash
       env:
-        SSH_KEY: ${{secrets.CICD_BETA}}
+        SSH_KEY: ${{secrets.CICD_I18N}}
 
     - name: Build and push Docker images
       uses: docker/build-push-action@v1.1.0
       with:
-        repository: jfesler/testing
-        build_args: arg1="${{ secrets.CICD_BETA }}",arg2=value2
+        repository: jfesler/dummyvalue
         path: .
         push: false

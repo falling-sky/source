@@ -12,46 +12,25 @@ FROM golang:alpine
 RUN apk add make git rsync curl openssh-client
 
 
-# Copy what we need, versus trying to exclude.
-# Why? I dont want "Dockerfile" edits to trigger a complete 
-# cache busting build right now, it's slow to get to this point.
 COPY . /build
-#COPY .git /build
-#COPY icons /build/icons
-#COPY images /build/images
-#COPY support /build/support
-#COPY translations /build/translations
-#COPY templates /build/templates
-#COPY sites/*.go /build/sites/
-#COPY sites/*.json /build/sites/
-#COPY go.mod /build/
-#COPY go.sum /build/
-#COPY Makefi* /build/
-#COPY .ssh/known_hosts /build/.ssh/known_hosts
 WORKDIR /build
 
 RUN go install github.com/falling-sky/fsbuilder
 
-#ARG CROWDIN_YAML
-#ARG CICD_BETA
-
-#RUN echo   "${CROWDIN_YAML}" > translations/crowdin.yaml
-#RUN echo "${CICD_BETA}" > cicd_beta
-#RUN chmod 600 cicd_beta
-
-# Only if we are publishing will I bother updating "sites"
-RUN if [ ! -z cicd_beta ]; then cd sites && go run parse-sites.go || exit 1 ; fi
-
+# Check sites, but skip on beta (I'm always in a hurry for beta)
+RUN if [[ -s cicd_release ||  -s cicd_i18n ]]; then cd sites && go run parse-sites.go || exit 1 ; fi
 
 # Build the project
 RUN fsbuilder
 
 # Post-processing: translation and uploads
-#RUN if [ ! -z translations/crowdin.yaml ]; then cd translations && make || exit 1 ; fi
+RUN if [[ -s cicd_release || -s cicd_i18n ]]; then cd translations && make || exit 1 ; fi
 
-
-RUN if [ ! -z cicd_beta ]; then HOME=. rsync -av -e "ssh -o UserKnownHostsFile=.ssh/known_hosts  -vvvvvvi cicd_beta"  output/. fskyweb@bender.gigo.com: || exit 1 ; fi
-
+# Publish
+RUN if [ -s cicd_beta ];    then  rsync -av -e "ssh -o UserKnownHostsFile=.ssh/known_hosts  -i cicd_beta"     output/. fskyweb@bender.gigo.com:      || exit 1 ; fi
+RUN if [ -s cicd_release ]; then  rsync -av -e "ssh -o UserKnownHostsFile=.ssh/known_hosts  -i cicd_release"  output/. fskyweb@ds.vm0.test-ipv6.com: || exit 1 ; fi
+RUN if [ -s cicd_release ]; then  rsync -av -e "ssh -o UserKnownHostsFile=.ssh/known_hosts  -i cicd_release"  output/. fskyweb@ds.vm1.test-ipv6.com: || exit 1 ; fi
+RUN if [ -s cicd_release ]; then  rsync -av -e "ssh -o UserKnownHostsFile=.ssh/known_hosts  -i cicd_release"  output/. fskyweb@ds.vm2.test-ipv6.com: || exit 1 ; fi
 
 
 FROM golang:alpine
