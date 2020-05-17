@@ -16,7 +16,6 @@ addons:
    packages:
      - perl
      - tidy
-     - default-jre-headless
 script:
 - make travis
 notifications:
