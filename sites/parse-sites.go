@@ -21,6 +21,7 @@ var raw = flag.String("raw", "../templates/js/sites_parsed_raw.js", "js file to 
 var validator = flag.String("validator", "http://port8000.validator.test-ipv6.com:8000/v0/CheckMirror/Check", "use this validator api")
 var slow = flag.Duration("slow", time.Second*12, "time to consider a lookup 'slow'") // TODO Make this slow check per-url?
 var minimumCount = flag.Int("minimum", 0, "Minimum number of sites that must answer, else fail")
+var skipValidation = flag.Bool("skip-validation",false,"skip validation, just write file")
 
 // SiteRecord describes a single mirror or "Other Sites" record
 type SiteRecord struct {
@@ -366,12 +367,15 @@ func main() {
 	sf.FixDefaults()  // Fix the v4 and v6 test urls if blank
 	sf.DeleteHidden() // First pass cleanup, stuff humans marked hide
 
-	log.Printf("Checking %v sites\n", len(sf.Sites))
 
-	sf.CheckHTTP()    // Do active checks against the v4 and v6 test urls
-	sf.DeleteHidden() // Second pass cleanup, stuff CheckHTTP marked hide
+	if !*skipValidation {
+		log.Printf("Checking %v sites\n", len(sf.Sites))
+		sf.CheckHTTP()    // Do active checks against the v4 and v6 test urls
+		sf.DeleteHidden() // Second pass cleanup, stuff CheckHTTP marked hide
+		log.Printf("After checking, %v sites remain\n", len(sf.Sites))
+	}
 
-	log.Printf("After checking, %v sites remain\n", len(sf.Sites))
+
 
 	if err = sf.CountRemaining(); err != nil {
 		log.Fatal(err)

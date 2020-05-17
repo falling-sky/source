@@ -17,7 +17,9 @@ WORKDIR /build
 
 RUN go install github.com/falling-sky/fsbuilder
 
-# Check sites, but skip on beta (I'm always in a hurry for beta)
+# Make sure there is a valid sites file (minimum for beta).
+# Under release and i18n conditions, do a full real check.
+RUN cd sites && go run parse-sites.go --skip-validation
 RUN if [[ -s cicd_release ||  -s cicd_i18n ]]; then cd sites && go run parse-sites.go || exit 1 ; fi
 
 # Build the project
@@ -37,5 +39,6 @@ RUN if [ -s cicd_release ]; then  rsync -av -e "ssh -o StrictHostKeyChecking=no 
 FROM golang:alpine
 COPY --from=0 /build /build
 WORKDIR /build
+
 
 
