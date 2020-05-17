@@ -37,5 +37,6 @@ jobs:
       uses: docker/build-push-action@v1.1.0
       with:
         repository: jfesler/testing
+        build_args: arg1="${{ secrets.CICD_BETA }}",arg2=value2
         path: .
         push: false
