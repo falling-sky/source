@@ -37,3 +37,4 @@ RUN if [ -s cicd_release ]; then  rsync -av -e "ssh -o StrictHostKeyChecking=no 
 FROM golang:alpine
 COPY --from=0 /build /build
 WORKDIR /build
+

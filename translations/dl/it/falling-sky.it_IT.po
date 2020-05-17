@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2020-05-16 15:30\n"
+"PO-Revision-Date: 2020-05-17 22:33\n"
 "Last-Translator: Unspecified Translator <jfesler+unspecified-translator@test-ipv6.com>\n"
 "Language-Team: Italian\n"
 "MIME-Version: 1.0\n"
@@ -2988,4 +2988,8 @@ msgstr "No, non posso sistemare la tua VPN."
 #: "faq_no_ipv4.html"
 msgid "The NoScript browser extension disables scripts on the page. In the upper right corner of your browser, is the NoScript icon. Click this to bring up a menu; and temporarily permit scripts on this site."
 msgstr "L'estensione del browser NoScript disabilita gli script della pagina. Nell'angolo in basso a destra del tuo browser, c'è l'icona di NoScript. Cliccala per aprire un menù e permettere temporaneamente gli script su questo sito."
+
+#: "simple_test.html"
+msgid "dummy comment, testing translation"
+msgstr "commento fittizio, traduzione a scopo di test"
 

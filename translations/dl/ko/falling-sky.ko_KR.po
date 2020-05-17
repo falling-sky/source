@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2020-05-16 15:30\n"
+"PO-Revision-Date: 2020-05-17 22:33\n"
 "Last-Translator: Unspecified Translator <jfesler+unspecified-translator@test-ipv6.com>\n"
 "Language-Team: Korean\n"
 "MIME-Version: 1.0\n"
@@ -2987,4 +2987,8 @@ msgstr "아니요, VPN을 고칠 수 없습니다."
 #: "faq_no_ipv4.html"
 msgid "The NoScript browser extension disables scripts on the page. In the upper right corner of your browser, is the NoScript icon. Click this to bring up a menu; and temporarily permit scripts on this site."
 msgstr "NoScript 브라우저 확장 프로그램은 페이지의 스크립트를 비활성화합니다. 브라우저 상단 우측에서 NoScript 아이콘을 확인할 수 있습니다. 메뉴를 가져오기 위해 클릭한 다음 이 사이트에서 임시적으로 스크립트를 사용할 수 있게 허용해주세요."
+
+#: "simple_test.html"
+msgid "dummy comment, testing translation"
+msgstr ""
 
