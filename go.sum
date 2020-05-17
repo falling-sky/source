@@ -1,0 +1,5 @@
+github.com/falling-sky/fsbuilder v0.0.0-20171221220211-37e3468f2c6f h1:GfeusgeU+uwYs5kX7pUPvfOQ09m+P1C7W6lX32prvOw=
+github.com/falling-sky/fsbuilder v0.0.0-20171221220211-37e3468f2c6f/go.mod h1:XTtp6GA3RqTAj1T01C8M9dah2YAE6HWIxYxePfogL2Y=
+golang.org/x/text v0.3.2 h1:tW2bmiBqwgJj/UpqtC8EpXEZVYOwU0yG4iWbprSVAcs=
+golang.org/x/text v0.3.2/go.mod h1:bEr9sfX3Q8Zfm5fL9x+3itogRgK3+ptLWKqgva+5dAk=
+golang.org/x/tools v0.0.0-20180917221912-90fa682c2a6e/go.mod h1:n7NCudcB/nEzxVGmLbDWY5pfWTLqBcC2KZ6jyYvM4mQ=
