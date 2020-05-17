@@ -39,14 +39,14 @@ RUN echo "${CICD_BETA}" > cicd_beta
 RUN chmod 600 cicd_beta
 
 # Only if we are publishing will I bother updating "sites"
-#RUN if [ ! -z cicd_beta ]; then cd sites && go run parse-sites.go || exit 1 ; fi
+RUN if [ ! -z cicd_beta ]; then cd sites && go run parse-sites.go || exit 1 ; fi
+
 
 # Build the project
 RUN fsbuilder
 
 # Post-processing: translation and uploads
 #RUN if [ ! -z translations/crowdin.yaml ]; then cd translations && make || exit 1 ; fi
-
 
 
 RUN if [ ! -z cicd_beta ]; then HOME=. rsync -av -e "ssh -o UserKnownHostsFile=.ssh/known_hosts  -vvvvvvi cicd_beta"  output/. fskyweb@bender.gigo.com: || exit 1 ; fi
