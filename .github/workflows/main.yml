@@ -33,6 +33,11 @@ jobs:
         echo Add other actions to build,
         echo test, and deploy your project.
 
+    - run: 'echo "$SSH_KEY" > cicd_beta'
+      shell: bash
+      env:
+        SSH_KEY: ${{secrets.CICD_BETA}}
+
     - name: Build and push Docker images
       uses: docker/build-push-action@v1.1.0
       with:
