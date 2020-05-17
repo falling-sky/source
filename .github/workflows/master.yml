@@ -11,7 +11,7 @@ on:
     branches: [ master ]
   schedule:
     # * is a special character in YAML so you have to quote this string
-    - cron:  '45 15 * * *'
+    - cron:  '0 15 * * *'
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -25,10 +25,17 @@ jobs:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
 
+    # Pushes to master, we will publish on all primary systems
     - run: 'echo "$SSH_KEY" > cicd_release && chmod 600 cicd_release'
       shell: bash
       env:
         SSH_KEY: ${{secrets.CICD_RELEASE}}
+
+    # And we'll publish to beta, as well.
+    - run: 'echo "$SSH_KEY" > cicd_i18n && chmod 600 cicd_i18n'
+      shell: bash
+      env:
+        SSH_KEY: ${{secrets.CICD_I18N}}
 
     - run: 'echo "$CROWDIN_YAML" > translations/crowdin.yaml && chmod 600 translations/crowdin.yaml'
       shell: bash
