@@ -26,6 +26,7 @@ ifeq ($(PUBLISH),true)
 	rm -f all.zip
 	wget -O all.zip  "https://api.crowdin.com/api/project/falling-sky/download/all.zip?key=$(API_KEY)"
 	rm -fr dl
+	mkdir -p dl
 	unzip -q -d dl all.zip
 	for x in `find dl/ -type d`; do cp README.md $$x/ ; done
 else
