@@ -30,6 +30,11 @@ jobs:
       env:
         SSH_KEY: ${{secrets.CICD_I18N}}
 
+    - run: 'echo "$CROWDIN_YAML" > translations/crowdin.yaml && chmod 600 translations/crowdin.yaml'
+      shell: bash
+      env:
+        SSH_KEY: ${{secrets.CROWDIN_YAML}}
+
     - name: Build and push Docker images
       uses: docker/build-push-action@v1.1.0
       with:

@@ -24,10 +24,11 @@ RUN if [[ -s cicd_release ||  -s cicd_i18n ]]; then cd sites && go run parse-sit
 RUN fsbuilder
 
 # Post-processing: translation and uploads
-RUN if [[ -s cicd_release || -s cicd_i18n ]]; then cd translations && make || exit 1 ; fi
+RUN if [[ -s translations/crowdin.yaml ]]; then cd translations && make || exit 1 ; fi
 
 # Publish
 RUN if [ -s cicd_beta ];    then  rsync -av -e "ssh -o UserKnownHostsFile=.ssh/known_hosts  -i cicd_beta"     output/. fskyweb@bender.gigo.com:      || exit 1 ; fi
+RUN if [ -s cicd_i18n ];    then  rsync -av -e "ssh -o UserKnownHostsFile=.ssh/known_hosts  -i cicd_i18n"     output/. fskyweb@bender.gigo.com:      || exit 1 ; fi
 RUN if [ -s cicd_release ]; then  rsync -av -e "ssh -o UserKnownHostsFile=.ssh/known_hosts  -i cicd_release"  output/. fskyweb@ds.vm0.test-ipv6.com: || exit 1 ; fi
 RUN if [ -s cicd_release ]; then  rsync -av -e "ssh -o UserKnownHostsFile=.ssh/known_hosts  -i cicd_release"  output/. fskyweb@ds.vm1.test-ipv6.com: || exit 1 ; fi
 RUN if [ -s cicd_release ]; then  rsync -av -e "ssh -o UserKnownHostsFile=.ssh/known_hosts  -i cicd_release"  output/. fskyweb@ds.vm2.test-ipv6.com: || exit 1 ; fi

@@ -28,6 +28,8 @@ jobs:
       env:
         SSH_KEY: ${{secrets.CICD_BETA}}
 
+
+
     - name: Build and push Docker images
       uses: docker/build-push-action@v1.1.0
       with:
