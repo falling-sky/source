@@ -20,13 +20,6 @@ endif
 # Upload and Download                                          #
 ################################################################
 
-crowdin-upload:
-ifeq ($(PUBLISH),true)
-	java -jar ../support/crowdin-cli.jar upload sources --auto-update
-else
-	echo make download skipped on this host
-endif
-
 crowdin-download:
 ifeq ($(PUBLISH),true)
 	curl "https://api.crowdin.com/api/project/falling-sky/export?key=$(API_KEY)" 
@@ -35,6 +28,15 @@ ifeq ($(PUBLISH),true)
 	rm -fr dl
 	unzip -q -d dl all.zip
 	for x in `find dl/ -type d`; do cp README.md $$x/ ; done
+else
+	echo make crowdin-download skipped on this host
+endif
+
+crowdin-upload:
+ifeq ($(PUBLISH),true)
+	curl \
+		-F "files[falling-sky.pot]=@falling-sky.pot" \
+		 "https://api.crowdin.com/api/project/falling-sky/update-file?key=$(API_KEY)&update_option=update_without_changes" 
 else
 	echo make crowdin-download skipped on this host
 endif
