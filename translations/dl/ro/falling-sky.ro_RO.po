@@ -1,14 +1,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2018-03-01 02:30-0500\n"
-"Last-Translator: jfesler <jfesler@gigo.com>\n"
+"PO-Revision-Date: 2020-05-16 15:30\n"
+"Last-Translator: Unspecified Translator <jfesler+unspecified-translator@test-ipv6.com>\n"
 "Language-Team: Romanian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100>0 && n%100<20)) ? 1 : 2);\n"
-"X-Generator: crowdin.com\n"
 "X-Crowdin-Project: falling-sky\n"
 "X-Crowdin-Language: ro\n"
 "X-Crowdin-File: falling-sky.pot\n"
@@ -148,15 +147,15 @@ msgstr "Cel mai probabil folosesti un plugin din browser-ul Firefox care cauzeaz
 
 #: "inc/messages.js"
 msgid "A lookup for an IPv6-only name failed; yet the lookup and connect for dual-stack connected via IPv6. Something appears to be confused with the DNS lookups."
-msgstr ""
+msgstr "O căutare pentru un nume doar IPv6 a eșuat; totuși căutarea și conexiunea dual-stack este conectată prin IPv6. Ceva pare să fie confundat în căutările cu DNS."
 
 #: "inc/messages.js"
 msgid "A lookup for an IPv6-only name failed; yet the lookup and connect for dual-stack connected via IPv6. The IPv6-only lookup should have worked. Apple has a bug that sporadically causes some IPv6 lookups to fail. We saw evidence of it on this test. You can reload the page and try the test again. For more details, see <a href='http://openradar.appspot.com/7333104'>http://openradar.appspot.com/7333104</a>."
-msgstr ""
+msgstr "O căutare pentru un nume doar IPv6 a eșuat; totuși căutarea și conexiunea dual-stack este conectată prin IPv6. Căutarea doar prin IPv6 ar fi trebuit să meargă. Apple are o problemă care cauzează sporadic câteva căutări IPv6 eșuate. Am văzut dovezi despre asta în acest test. Puteți reîncarcă pagină și încerca testul din nou. Pentru mai multe detalii, vedeți <a href='http://openradar.appspot.com/7333104'>http://openradar.appspot.com/7333104</a>."
 
 #: "inc/messages.js"
 msgid "A lookup for an dual-stack IPv4 and IPv6 name failed (at minimum it should have connected via IPv4). Apple has a bug that sporadically causes some IPv6 lookups to fail. We saw evidence of it on this test. You can reload the page and try the test again. For more details, see <a href='http://openradar.appspot.com/7333104'>http://openradar.appspot.com/7333104</a>."
-msgstr ""
+msgstr "O căutare pentru un dual-stack IPv4 și IPv6 a eșuat (minim ar trebui să fie conectat prin IPv4). Apple are o problemă care cauzează sporadic câteva căutări IPv6 eșuate. Am văzut dovezi despre asta în acest test. Puteți reîncarcă pagină și încerca testul din nou. Pentru mai multe detalii, vedeți <ahref='http://openradar.appspot.com/7333104'>http://openradar.appspot.com/7333104</a>."
 
 #: "inc/messages.js"
 msgid "No IPv4 address detected"
@@ -272,7 +271,7 @@ msgstr "faq: Deteriorat!"
 
 #: "inc/messages.js"
 msgid "faq: Broken DNS Lookups"
-msgstr ""
+msgstr "faq: Cautari DNS intrerupte"
 
 #: "inc/messages.js"
 msgid "faq: Avoiding IPv6?"
@@ -324,7 +323,7 @@ msgstr "teste rulate"
 
 #: "inc/builtin.js"
 msgid "(Survey posting skipped; test was rigged)"
-msgstr ""
+msgstr "(Postarea sondajului omisă; testul a fost fraudat)"
 
 #: "inc/builtin.js"
 msgid "(Updating server side IPv6 readiness stats)"
@@ -336,19 +335,19 @@ msgstr "(S-au actualizat statisticile pentru disponibilitatea IPv6 la nivelul se
 
 #: "inc/builtin.js"
 msgid "(Survey posting failed; the above information is accurate, but not recorded.)"
-msgstr ""
+msgstr "(Postarea sondajului omisă; informația de mai sus este exact, dar nu înregistrată)"
 
 #: "inc/builtin.js"
 msgid "Your readiness score"
-msgstr ""
+msgstr "Scorul de pregătire"
 
 #: "inc/builtin.js"
 msgid "for your IPv4 stability and readiness, when publishers offer both IPv4 and IPv6"
-msgstr ""
+msgstr "pentru stabilitatea și disponibilitatea IPv4-ului dumneavoastră, când producătorii oferă atât IPv4 cât și IPv6"
 
 #: "inc/builtin.js"
 msgid "for your IPv6 stability and readiness, when publishers are forced to go IPv6 only"
-msgstr ""
+msgstr "pentru stabilitatea și disponibilitatea IPv6-ului dumneavoastră, când producătorii sunt forțați să folosească doar IPv6"
 
 #: "inc/builtin.js"
 msgid "Click to see"
@@ -392,7 +391,7 @@ msgstr "distribuie rezultatele tale"
 
 #: "inc/form.js"
 msgid "I am most interested in discussing your setup with you, because it was been determined that <B>your IPv6 connectivity is broken</b>, or at least not fully understood. This is not normal; would you be willing to %share?"
-msgstr ""
+msgstr "Sunt cel mai interesat în discutarea setup-ului cu tine, deoarece s-a constatat că <B>conexiunea ta IPv6 este întreruptă</b>, sau cel puțin nu pe deplin înțeleasă. Asta nu este normal; ești dispus să %împărtășești?"
 
 #: "not-used, archived.  Not currently needed for translation."
 msgid "retest"
@@ -426,7 +425,7 @@ msgstr "Ghiseul de ajutor al providerul dumneavoastra de Internet s-ar putea sa 
 msgid "Test your IPv6."
 msgstr "Testează IPv6."
 
-#: "inc/header.inc"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "This will test your browser and connection for IPv6 readiness, as well as show you your current IPV4 and IPv6 address."
 msgstr "Aceasta o sa va testeze browser-ul dumneavoastra si promptitudinea conexiunii IPv6, de asemenea si adresa IPv4 si IPv6 curenta."
 
@@ -476,11 +475,11 @@ msgstr "Daca folositi vreun plugin in Firefox, o sa fiti nevoiti sa dati click p
 
 #: "inc/js_required.inc"
 msgid "You can opt instead to view the <a href=\"simple_test.html\">simple test</a>, which will give you a quick pass/fail for IPv4, IPv4+IPv6, and IPv6. It will however offer little diagnostic information."
-msgstr ""
+msgstr "Puteți opta în schimb pentru a vizualiza <a href=\"simple_test.html\">test simplu</a>, care vă va oferii un succes/eșec pentru IPv4, IPv4+IPv6, și IPv6. Însă acesta va oferii puține informații de diagnostic."
 
 #: "main/tabnav.inc"
 msgid "For the Help Desk"
-msgstr "Pentru serviciul de asistență"
+msgstr "Pentru Help Desk"
 
 #: "main/tabnav.inc"
 msgid "Summary"
@@ -500,7 +499,7 @@ msgstr "Întrebări frecvente pentru tine"
 
 #: "main/tabnav.inc"
 msgid "Help Popup"
-msgstr ""
+msgstr "Popup Ajutor"
 
 #: "main/tabnav.inc"
 msgid "Debug"
@@ -512,11 +511,11 @@ msgstr "Alte saituri IPv6"
 
 #: "main/tests.inc"
 msgid "How this test works:"
-msgstr ""
+msgstr "Cum funcționează acest test:"
 
 #: "main/tests.inc"
 msgid "Your browser will be instructed to reach a series of URLs. The combination of successes and failures tells a story about how ready you are for when publishers start offering their web sites on IPv6."
-msgstr ""
+msgstr "Browser-ul dumnveavoastra va fi instruit să ajungă la o listă de URL-uri. O combinație de succese și eșecuri spune cât de pregătit sunteți atunci când producătorii încep să ofere site-urile lor pe IPv6."
 
 #: "main/tests.inc"
 msgid "Technical Info"
@@ -536,11 +535,11 @@ msgstr "Test cu înregistrare DNS IPv6"
 
 #: "main/tests.inc"
 msgid "Test with Dual Stack DNS record"
-msgstr ""
+msgstr "Test cu înregistrare DNS Dual Stack"
 
 #: "main/tests.inc"
 msgid "Test for Dual Stack DNS and large packet"
-msgstr ""
+msgstr "Test pentru Dual Stack DNS si pachete mari"
 
 #: "main/tests.inc"
 msgid "Test IPv4 without DNS"
@@ -572,11 +571,11 @@ msgstr "Testează pentru DNS problematic"
 
 #: "main/tech.inc"
 msgid "Fetches an object that has just an A record in DNS. This is expected to use IPv4. IPv6-only users might still reach this, if their provider has employed a NAT64/DNS64 or proxy solution."
-msgstr ""
+msgstr "Preia un obiect care are doar o înregistrare A în DNS. Acest lurcru este de așteptat să folosească IPv4. Utilizatorii IPv6 ar putea ajunge la asta, dacă furnizorul a adaugat NAT64/DNS64 sau o soltuie proxy."
 
 #: "main/tech.inc"
 msgid "Fetches an object that has just an AAAA record in DNS. This is expected to use IPv6. Users not yet on the IPv6 Internet are likely to see this fail. As long as it fails quickly, it will be OK - for now."
-msgstr ""
+msgstr "Preia un obiect care are doar o înregistrare AAAA în DNS. Acest lucru este de așteptat să folosească IPv6. Utilizatorii care nu sunt încă pe Internet IPv6 au șanse să vadă un eșec. Atâta timp cât eșuează rapid, o să fie ok - pentru acum."
 
 #: "main/tech.inc"
 msgid "This is the most important test. This verifies your browser can connect to a site that has both IPv4 and IPv6 records published. IPv4 only hosts should connect fine (using IPv4)."
@@ -584,43 +583,43 @@ msgstr "Acesta este cel mai important test. Verifică dacă navigatorul tău se 
 
 #: "main/tech.inc"
 msgid "If this test fails or times out, you can expect major problems as publishers start offering their sites on IPv6."
-msgstr ""
+msgstr "Dacă testul eșuează sau se oprește, va puteți aștepta la probleme majore deoarece producătorii încep să ofere site-uri pe IPv6."
 
 #: "main/tech.inc"
 msgid "Validates that you can connect to a dual-stack server (like the ds test); and that you can send/receive large packets on that connection. If this test times out for any reason, it indicates trouble for World IPv6 Day."
-msgstr ""
+msgstr "Validează că puteți să va conectați la un server dual-stack (ca testul ds); și că puteți trimite/primii pachete largi pe acea conexiune. Dacă acest test se oprește din orice motiv, indică probleme pentru World IPv6 Day."
 
 #: "main/tech.inc"
 msgid "This will try connecting with a literal IPv4 numeric address. This should work for most people, unless they are running IPv6-only. If the first test worked, but this fails, it likely confirms your provider is using NAT64/DNS64; you'll need to only try connecting using hostnames instead of numeric IP addresses."
-msgstr ""
+msgstr "Asta va încerca să se conecteze cu o adresa numerică IPv4. Acest lucru trebuie să meargă pentru majoritatea oamenilor, dacă nu folosesc doar IPv6. Dacă primul test a funcționat, dar acesta eșuează, probabil confirmă că furnizorul folosește NAT64/DNS64; va trebuii să încercați numai conexiunii folosind nume de host în loc de adrese IP."
 
 #: "main/tech.inc"
 msgid "This will try connecting with a literal IPv6 hexadecimal address. The primary purpose of this test is to separate out your connectivity on IPv6 from your ability to fetch DNS for it. A secondary purpose is to see if you have Teredo enabled; some systems may only use Teredo when an IPv6 address is in the URL."
-msgstr ""
+msgstr "Aceasta va încerca o comexiune IPv6 cu adresa hexadecimala. Scopul principal al acestui test este de a separa conexiunea dumneavoastră IPv6 de abilitatea dumneavoastră de a prelua DNS pentru ea. Al doilea scop este de a vedea dacă aveți Teredo activat; unele sisteme utilizează Teredo numai când o adresa IPv6 se află în URL."
 
 #: "main/tech.inc"
 msgid "Validates that IPv6 requests with large packets work. If this test times out, but other IPv6 tests work, it suggests that there may be PMTUD issues; possibly involving IP tunnels."
-msgstr ""
+msgstr "Validează că cererile IPv6 cu pachete mari funcționează. Dacă acest test se oprește, dar celelalte teste IPv6 funcționează, sugerează că există probleme PMTUD; posibil care implică tunele IP."
 
 #: "main/tech.inc"
 msgid "Double check to make sure that ICMPv6 Type 2 (\"Packet Too Big\") messages are not filtered by your firewall."
-msgstr ""
+msgstr "Verificați de două ori pentru a fi siguri că mesajele ICMPv6 Type 2 (\"Packet Too Big\") nu sunt filtrate de firewall."
 
 #: "main/tech.inc"
 msgid "(This is bonus credit)"
-msgstr ""
+msgstr "(Acesta este credit bonus)"
 
 #: "main/tech.inc"
 msgid "This is a test of your ISP's resolver (instead of a test of your host). If this test passes, your DNS server (often run by your ISP) is capable of reaching IPV6-only DNS authoritative servers on the Internet. This is not critical (at this time) for you to reach sites via IPv6."
-msgstr ""
+msgstr "Acesta este un test al resolverului dumneavoastră de ISP (în locul unui test al host-ului dumneavoastră). În cazul în care testul trece, serverul dumneavoastră DNS (cel mai des rulat de ISP-ul dumneavoastră) este capabil de a ajunge doar la servere IPV6 autoritare DNS pe Internet. Acest lucru nu este critic (în acest moment) pentru dumneavoastră pentru a ajunge la site-uri pe IPv6."
 
 #: "main/tech.inc"
 msgid "Attempts to identify what Internet Service Provider you use for IPv4. This may be different from the marketing name you see in your local market; or may reflect a previous company name. The name shown reflects how it is known in the network operator community."
-msgstr ""
+msgstr "Încercări de a identifica de Furnizor de Servicii de Internet folosiți pentru IPv4. Acesta ar putea fi diferit de numele comercializat pe care îl vedeți în comerț; sau poate reflectă o denumire anterioară a companiei. Numele indicat reflectă cum este cunoscut în comunitatea operatorului de rețea."
 
 #: "main/tech.inc"
 msgid "Attempts to identify what Internet Service Provider you use for IPv6. When the IPv4 name and the IPv6 name don't match, it may suggest that you're using a tunnel; or some form of third party provider for IPv6."
-msgstr ""
+msgstr "Încercări de a identifica ce Furnizor de Servicii de Internet utilizați pentru IPv6. Când numele IPv4 și IPv6 nu corespund, poate sugera că folosiți un tunel; sau orice altă formă de program furnizor pentru IPv6."
 
 #: "main/tech.inc"
 msgid "Queries for a malformed AAAA record. Some routers mishandle these as \"A\" records, and only keep the first 32 bits. We want this test to fail to connect."
@@ -628,11 +627,11 @@ msgstr ""
 
 #: "main/tech.inc"
 msgid "If the summary results indicated problems, you (or your technical support) may be able to use the information above to diagnose the issues. Each of the test urls and their results is shown on the left side. To the right you'll see a description of what that URL was designed to test."
-msgstr ""
+msgstr "Dacă rezumatul rezultatelor indică probleme, dumneavoastră (sau sprijinul tehnic) puteți folosi informația de mai sus pentru a diagnostica problemele. Fiecare dintre url-urile de test și rezultatele acestora este afișat în partea stânga. În dreapta o să vedeți o descriere URL-ului și pentru ce a fost conceput."
 
 #: "not-used, archived.  Not currently needed for translation."
 msgid "After each test is ran. The summary page attempts to look at the results If the summary doesn't seem to make sense given the symptoms recorded above, or if you need further assistance, please feel free to contact us."
-msgstr ""
+msgstr "După rularea fiecărui test. Pagina rezumat încearcă să se uite peste rezultate, dacă rezumatul pare că nu are sens cu simptomele înregistrate mai sus, sau dacă aveți nevoie de asistență mai departe, va rugăm să ne contactați."
 
 #: "main/mail.inc"
 msgid "<b>Your particular configuration is of interest.</b> We are always striving to make the test-ipv6.com code better. Would you be willing to contribute more information about your browser and computer setup? With your help, we can document for others how to repair their systems."
@@ -640,27 +639,27 @@ msgstr ""
 
 #: "main/mail.inc"
 msgid "This form will let you leave a comment, voice concerns, or ask questions. Your test results will be included automatically."
-msgstr ""
+msgstr "Acest formular va permite să lăsați un comentariu, preocupări vocale, sau întrebări. Rezultatele testului dumneavoastră vor fi inclus automat."
 
 #: "main/mail.inc"
 msgid "This includes your IP address, which is shared with the site administrator in order to answer your questions."
-msgstr ""
+msgstr "Acesta include adresa dumneavoastră IP, care este împărtășită cu administratorul site-ului pentru a răspunde la întrebări."
 
 #: "main/mail.inc"
 msgid "Use of this form implies consent."
-msgstr ""
+msgstr "Folosirea acestui formular implică consimțământul dumneavoastră."
 
-#: "main/mail.inc"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "<span id=\"comments_faq_link\"></span> (FAQ) page is available for <b>your</b> exact set of results. Please read it before leaving comments; many questions have already been answered. If you still have questions, comments, or concerns, feel freel to use this form."
 msgstr ""
 
 #: "not-used, archived.  Not currently needed for translation."
 msgid "Please leave your comments using English, if possible."
-msgstr ""
+msgstr "Va rugăm să lăsăți comentarii în Engleză, dacă este posibil."
 
 #: "main/mail.inc"
 msgid "If reporting a problem with the test, or requesting help with your results, please fill out all requested information to the best of your ability. If leaving general comments, use your best judgement on how much to report."
-msgstr ""
+msgstr "În cazul în care raportați o problema cu testul, sau solicitați ajutor cu rezultatele dumneavoastră, va rugăm să completați toate informațiile solicitate. În cazul în care lăsăți comentarii generale, apreciați cât mai bine cât de mult sa raportați."
 
 #: "main/mail.inc"
 msgid "Thanks,"
@@ -674,7 +673,7 @@ msgstr "Scopul comentariului"
 msgid "Questions about test results"
 msgstr "Întrebări despre rezultatele testului"
 
-#: "main/mail.inc"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Report a bug with diagnosis"
 msgstr "Raportează o hibă cu diagnosticare"
 
@@ -688,51 +687,51 @@ msgstr "Felicitări sau dezaprobări"
 
 #: "main/mail.inc"
 msgid "Email address if you'll permit me to contact you. <i>Required, if you wish a response.</i>"
-msgstr ""
+msgstr "Adresa de email dacă îmi permiteți să va contactez <i>Necesară, dacă doriți un răspuns.</i>"
 
 #: "main/mail.inc"
 msgid "Any information you think I might find useful (what router you're using, or a firewall in the way, or type of proxy you use, etc). This includes general feedback."
-msgstr ""
+msgstr "Orice informație la care va puteți gandii că poate fi folositoare (ce router folosiți sau firewall, sau tipul de proxy folosit, etc). Acestea includ păreri generale."
 
 #: "main/mail.inc"
 msgid "The javascript based test appears to have failed. This may be browser plugin or extension related. Please indicate what browser plugins and extenions you have enabled in this browser."
-msgstr ""
+msgstr "Testul bazat pe javascript pare să fi eșuat. Acest lucru poate fi din cauza unui plugin al browser-ului sau al unei extensii. Va rugăm să indicați ce plugin-uri ale browser-ului și extensii aveți activate în browser."
 
 #: "main/mail.inc"
 msgid "If you are technically minded please cut/paste the output of the following commands:"
-msgstr ""
+msgstr "Dacă sunteți obișnuiți cu termenii tehnici, copiați și postați rezultatele următoarelor comenzi:"
 
 #: "main/mail.inc"
 msgid "Copy the output from those commands, into the box below. This will help me confirm/deny any theories relating to your question."
-msgstr ""
+msgstr "Copiați rezultatul acestor comenzi în cutia de mai jos. Acestea mă ajută să confirm/resping orice teorii referitoare la întrebarea dumneavoastră."
 
 #: "main/mail.inc"
 msgid "If you are technically minded, please open a \"Command Prompt\" or \"cmd\" window, and run these three commands:"
-msgstr ""
+msgstr "Dacă va descurcați din punct de vedere tehnic, va rog deschideți fereastră \"Command Prompt\" sau \"cmd\", și rulați aceste trei comenzi:"
 
 #: "main/mail.inc"
 msgid "Send results"
-msgstr ""
+msgstr "Trimite rezultate"
 
 #: "main/helpdesk.inc"
 msgid "Help desk information will follow once the test completes."
-msgstr ""
+msgstr "Informații de la biroul de asistență urmează după completarea testului."
 
 #: "main/helpdesk.inc"
 msgid "If your Internet help desk asks you to mail the 'results url', copy and paste the following URL."
-msgstr ""
+msgstr "Dacă biroul de asistență al Internetului dumneavoastră va cere să ne trimiteți un mail cu 'rezultate url', copiați și plasați următorul URL."
 
 #: "main/helpdesk.inc"
 msgid "Note that this will share your current numeric Internet Protocol address(es)."
-msgstr ""
+msgstr "Rețineți că acesta va impartasii adresele numerice curente ale Internet Protocol."
 
 #: "main/helpdesk.inc"
 msgid "We do not recommend posting this link on public web sites such as forums."
-msgstr ""
+msgstr "Nu recomandăm postarea acestui link pe site-uri publice cum ar fi forumurile."
 
 #: "main/helpdesk.inc"
 msgid "On most computers, you can right-click the above URL, and select 'Copy'."
-msgstr ""
+msgstr "Pe majoritatea calculatoarelor, puteți da click dreapta pe URL-ul de mai sus, și selectați 'Copy'."
 
 #: "inc/sites.inc"
 msgid "<b>Because you have IPv6</b>, we've added this tab to show you whether or not you can reach other IPv6 web sites on the Internet. Consider notifying your ISP, if there are sites that show up as broken. If you are the ISP, you can click the Info link to see what test URLs are being used."
@@ -752,11 +751,11 @@ msgstr "Oglinzile complete sunt bine-venite și apreciate, publice sau private. 
 
 #: "inc/footer.inc"
 msgid "All rights reserved."
-msgstr ""
+msgstr "Toate drepturile rezervate."
 
 #: "inc/footer.inc"
 msgid "Mission"
-msgstr ""
+msgstr "Misiune"
 
 #: "inc/footer.inc"
 msgid "Source"
@@ -776,19 +775,19 @@ msgstr "Aceasta este o oglindă a test-ipv6.com. Opiniile exprimate aici ar pute
 
 #: "locale.html"
 msgid "Available Languages"
-msgstr ""
+msgstr "Limbi disponibile"
 
 #: "locale.html"
 msgid "Pick one of the following to switch to that language."
-msgstr ""
+msgstr "Alege una dintre următoarele pentru a schimba la acea limbă."
 
 #: "locale.html"
 msgid "Translators and proof readers welcome."
-msgstr ""
+msgstr "Traducătorii și corectorii sunt întotdeauna bineveniți."
 
 #: "locale.html"
 msgid "See <a href='https://github.com/falling-sky/source/wiki/LocalizationPlan'>Info</a>; and our <a href='https://crowdin.net/project/falling-sky'>'CrowdIn'</a> project page."
-msgstr ""
+msgstr "Vezi<a href='https://github.com/falling-sky/source/wiki/LocalizationPlan'>Informații</a>; și <a href='https://crowdin.net/project/falling-sky'>pagina</a>de Crowdin a proiectului nostru."
 
 #: "faq_helpdesk.html"
 msgid "Help Desk Information"
@@ -796,35 +795,35 @@ msgstr "Informații centrul de asistență"
 
 #: "faq_helpdesk.html"
 msgid "Q: What is the Help Desk tab for?"
-msgstr ""
+msgstr "Î: Pentru ce este fila Help Desk?"
 
 #: "faq_helpdesk.html"
 msgid "This tab is intended to help provide a brief, concise explanation of your connectivity. This can be read over the phone, if needed, to a service provider. This tab has less hand-holding; it is intended for a help desk to understand (as compared to an end user)."
-msgstr ""
+msgstr "Această filă este destinată să ofere o explicație succintă și concisă a conectivității dumneavostră. Dacă este necesar, acest lucru poate fi citit de la telefon către un furnizor de servicii. Această filă este mai ușor de manevrat; este destinată pentru help desk (în comparație cu un utilizator)."
 
 #: "faq_helpdesk.html"
 msgid "This special instance shares in a very compact way:"
-msgstr ""
+msgstr "Acest caz special împărtășește într-un mod foarte compact:"
 
 #: "faq_helpdesk.html"
 msgid "Status of each protocol"
-msgstr ""
+msgstr "Starea fiecărui protocol"
 
 #: "faq_helpdesk.html"
 msgid "Warn of slow/timeout"
-msgstr ""
+msgstr "Avertizare la lent/timp expirat"
 
 #: "faq_helpdesk.html"
 msgid "Warn of MTU"
-msgstr ""
+msgstr "Avertizare a MTU"
 
 #: "faq_helpdesk.html"
 msgid "Status of reachability to “other sites” (as compact as possible)"
-msgstr ""
+msgstr "Starea accesibilității către “alte site-uri“ (pe cât de compact posibil)"
 
 #: "faq_helpdesk.html"
 msgid "IP address shown, in case tech support needs it."
-msgstr ""
+msgstr "Adresă IP afișată, în cazul în care echipa de suport are nevoie."
 
 #: "faq_helpdesk.html"
 msgid "List of unreachable sites, if any"
@@ -832,31 +831,31 @@ msgstr "Lista saiturilor inaccesibile, dacă există"
 
 #: "faq_helpdesk.html"
 msgid "Q: What is the easiest way to send users to the Help Desk tab?"
-msgstr ""
+msgstr "Î: Care este cea mai ușoară cale de a trimite utilizatotrii către fila Help Desk?"
 
 #: "faq_helpdesk.html"
 msgid "There are several ways to do it. Some of these are more obvious than the others when reading; some of them may be easier when read over the phone. In all of these cases, the \"Help Desk\" tab is moved to be the first and default tab shown to the user, instead of exposing the more detailed user-facing page."
-msgstr ""
+msgstr "Există mai multe moduri de a face acest lucru. Unele dintre acestea sunt mai evidente decât celelalte; unele pot fi mai ușoare atunci când sunt citite în convorbirea telefonică. În toate aceste cazuri, fila \"Help Desk\" este mutată pentru a fi prima filă și totodată implicită, în loc să expună pagina mai detaliată a utilizatorului."
 
 #: "faq_helpdesk.html"
 msgid "Mirror sites may not have all the fancy DNS names; they are more likely to be useful like this:"
-msgstr ""
+msgstr "Site-urile oglindite poate că nu au toate numele DNS atractive; acestea sunt de obicei mai folositoare astfel:"
 
 #: "faq_helpdesk.html"
 msgid "Q: What are the Help Desk codes?"
-msgstr ""
+msgstr "Î: Care sunt codurile de Help Desk?"
 
 #: "faq_helpdesk.html"
 msgid "These are meant to offer a quick, short way for your customer to tell you the status of their Internet connectivity, as validated by this site. They are also meant to be easy to memorize."
-msgstr ""
+msgstr "Acestea au menirea să ofere o modalitate rapidă și scurtă cliențiilor, pentru a le spune starea conectivității lor la internet ca și validată de acest site. De asemenea, sunt ușor de memorat."
 
 #: "faq_helpdesk.html"
 msgid "Q: How can I recommend changes to the Help Desk tab?"
-msgstr ""
+msgstr "Î: Cum pot recomanda modificări filei de Help Desk?"
 
 #: "faq_helpdesk.html"
 msgid "Suggestions are welcome; especially from those operating help desks. This tab is really for you - not for the consumer. Please keep in mind that we want to keep the tab brief, concise, and easy to read for the average user over the phone to your help desk team. Send suggestions to jfesler@test-ipv6.com ."
-msgstr ""
+msgstr "Sugestiile sunt binevenite; mai ales de la cei care se ocupa de help desks. Această filă este pentru dumneavoastră - nu pentru client. Vă rugăm să aveți în vedere faptul că vrem să ținem această filă concisă, scurtă și ușor de citit la telefon, pentru utilizatorul obișnuit. Trimite-ți sugestii la jfesler@test-ipv6.com ."
 
 #: "broken.html"
 msgid "What to do if you're broken..."
@@ -864,15 +863,15 @@ msgstr ""
 
 #: "broken.html"
 msgid "If you are reading this page, it means that we've identified that your host will have problems on World IPv6 Day. Any web site that goes \"dual stack\" (meaning, both IPv4 and IPv6), will be unreachable to you."
-msgstr ""
+msgstr "Dacă citiți această pagină, înseamnă că am identificat că gazda dumneavoastră o să aibe probleme în Ziua IPv6. Orice site web care rulează \"stack dual\" (adică, IPv4 și IPv6), va fi imposibil de văzut."
 
 #: "broken.html"
 msgid "To resolve this, you'll first need to identify your IPv6 address (if you have one) and your IPv6 default route (if you have one). This will help identify which sections to read."
-msgstr ""
+msgstr "Pentru a rezolva această problemă, va trebui să identificați propria adresă de IPv6 (dacă aveți una) și ruta IPv6 implicită (dacă aveți una). Acest lucru va ajuta la identificarea secțiunilor care să fie citite."
 
 #: "broken.html"
 msgid "If you find your particular problem is not well represented; or you have additional suggestions; please do leave feedback using the <a href='#' onclick='return GIGO.tabnav(\"mail\");'>form</a> (or contact <a href=\"mailto:jfesler@test-ipv6.com\">jfesler@test-ipv6.com</a>)."
-msgstr ""
+msgstr "Dacă găsiți vreo problemă anume și nu este bine reprezentată; sau aveți sugestii suplimentare; vă rugăm să lăsați un feedback folosind <a href='#' onclick='return GIGO.tabnav(\"mail\");'>formularul</a> (sau contactați<a href=\"mailto:jfesler@test-ipv6.com\">jfesler@test-ipv6.com</a>)."
 
 #: "broken.html"
 msgid "Make sure you are current"
@@ -880,7 +879,7 @@ msgstr ""
 
 #: "broken.html"
 msgid "Find your IP address"
-msgstr ""
+msgstr "Găsiți adresa proprie de IP"
 
 #: "broken.html"
 msgid "If you set up a tunnel broker"
@@ -900,139 +899,139 @@ msgstr ""
 
 #: "broken.html"
 msgid "If you have an unexpected IPv6 address"
-msgstr ""
+msgstr "Dacă aveți o adresa IPv6 neașteptată"
 
 #: "broken.html"
 msgid "Try the netalyzr"
-msgstr ""
+msgstr "Încercați netalyzr"
 
 #: "broken.html"
 msgid "If all else fails, disable or deprioritize IPv6"
-msgstr ""
+msgstr "Dacă nimic nu funcționează, dezactivați IPv6"
 
 #: "faq/staycurrent.inc"
 msgid "Many OS and Hardware manufacturers are making updates to help improve the transition to IPv6. Some known \"gotchas\" are being addressed by workarounds by these vendors."
-msgstr ""
+msgstr "Multe sisteme de operare și producători de hardware fac actualizări pentru a ajută îmbunătățirea trecerii la IPv6. Câteva \"chestii\" bine cunoscute sunt abordate că soluții de acești furnizori."
 
 #: "faq/staycurrent.inc"
 msgid "You can do your part to make sure you are running the latest:"
-msgstr ""
+msgstr "Asigurați-vă că rulați cea mai recentă versiune:"
 
 #: "faq/staycurrent.inc"
 msgid "OS - Make sure you have the latest."
-msgstr ""
+msgstr "OS - Asigurați-vă că aveți cea mai recentă versiune."
 
 #: "faq/staycurrent.inc"
 msgid "Mac users: Apple OS X 10.6.7 is recommended for improved IPv6 support."
-msgstr ""
+msgstr "Utilizatorii Mac: Apple OS X 10.6.7 este recomandat pentru un suport IPv6 mai bun."
 
 #: "faq/staycurrent.inc"
 msgid "Mac users on 10.4 or 10.5 may need to disable IPv6 if other troubleshooting steps fail."
-msgstr ""
+msgstr "Utilizatorii Mac cu 10.4 sau 10.5 ar putea să dezactiveze IPv6, dacă ceilalți pași de troubleshooting nu funționează."
 
 #: "faq/staycurrent.inc"
 msgid "Windows users: go to"
-msgstr ""
+msgstr "Utilizatorii Windows: mergeți la"
 
 #: "faq/staycurrent.inc"
 msgid "iPhone/iPad users: No specific version advised at this time."
-msgstr ""
+msgstr "utilizatorii iPhone/iPad: La momentul actul nu este nici o versiune specificată."
 
 #: "faq/staycurrent.inc"
 msgid "Routers - Make sure you have the latest firmware installed. Some vendors have updated the defaults, or put in health checks before enabling IPv6."
-msgstr ""
+msgstr "Routere - Asigurați-vă că aveți instalat cel mai recent firmware. Unii furnizori au actualizat setările implicite, sau le-au pus în controlele de siguranță înainte de instalarea IPv6."
 
 #: "faq/staycurrent.inc"
 msgid "If you are using an Apple router or Time Capsule, load the Airport Utility to check that your router is up to date."
-msgstr ""
+msgstr "Dacă folosiți un router Apple sau Time Capsule, încărcați Airport Utility pentru a verifica actualitatea routerului."
 
 #: "faq/staycurrent.inc"
 msgid "Browsers - Some browsers have made updates to detect \"broken\" users, and to temporarily disable IPv6."
-msgstr ""
+msgstr "Browsere - Unele browsere au făcut actualizări pentru a detecta utilizatorii \"stricați\", și să dezactiveze IPv6 temporar."
 
 #: "faq/staycurrent.inc"
 msgid "Firefox 4.x now only tries IPv6, when an IPv6 address is configured. Firefox 3 users are encouraged to upgrade."
-msgstr ""
+msgstr "Firefox 4.x încercă acum doar IPv6, atunci când o adresă IPv6 este configurată. Utilizatorii Firefox 3 sunt încurajați să facă o actualizare."
 
 #: "faq/staycurrent.inc"
 msgid "Chrome: If a wrench icon appears on the browser toolbar, click it. Select \"Update Google Chrome\" then Restart."
-msgstr ""
+msgstr "Chrome: Dacă apare o iconiță în bara de instrumente a browser-ului, apăsați pe aceasta. Selectați \"Actualizare Google Chrome\" și Apoi Restart."
 
 #: "faq/staycurrent.inc"
 msgid "Opera: Make sure you use at least 11.10."
-msgstr ""
+msgstr "Opera: Asigurați-vă că folosiți cel puțin 11.10."
 
 #: "broken.html"
 msgid "Finding your IP address"
-msgstr ""
+msgstr "Se caută adresa dumeavoastră de IP"
 
 #: "faq/find_ip.inc"
 msgid "Identify your IPv6 address, and your default router (if you have one)."
-msgstr ""
+msgstr "Identificați adresa dumneavoastră IPv6, și router-ul dumneavoastră (dacă aveți unul)."
 
 #: "faq/find_ip.inc"
 msgid "Finding your IPv6 address and default router can be a challenge if you are not familiar with your OS's network configuration. Instructions for your OS are below."
-msgstr ""
+msgstr "Găsirea adresei IPv6 și a router-ului poate fi o provocare dacă nu sunteți familiarizați cu configurarea rețelei sistemului de operare. Instrucțiuni pentru sistemul dumneavoastră de operare mai jos."
 
 #: "faq/find_ip.inc"
 msgid "When looking for your IPv6 address, skip any <code>fe80:</code> address. Everyone has them if their OS supports IPv6; this is regadless of whether or not your ISP supports IPv6 yet. Those are \"link local\" addresses; used just for communicating to other hosts in the same physical network as you."
-msgstr ""
+msgstr "Când căutați adresa dumneavoastră IPv6, săriți peste orice adresa <code>fe80</code>. Toată lumea le are dacă sistemul lor de operare suportă IPv6; nu contează dacă ISP-ul dumneavoastră suportă sau nu IPv6 momentan. Acestea sunt adrese \"link local\"; folosite pentru a comunica cu alte host-uri în aceași rețea fizică că a dumneavoastră."
 
 #: "faq/find_ip.inc"
 msgid "OS X users: To find your IP address using the GUI:"
-msgstr ""
+msgstr "Utilizatorii OS X: Pentru a găsii adresa IP folosind GUI:"
 
 #: "faq/find_ip.inc"
 msgid "Go to the \"Apple\" menu (top left corner)"
-msgstr ""
+msgstr "Mergeți la meniul \"Apple\" (colț stânga sus)"
 
 #: "faq/find_ip.inc"
 msgid "Go to System Preferences"
-msgstr ""
+msgstr "Mergi la Preferințele Sistemului"
 
 #: "faq/find_ip.inc"
 msgid "Go to Network"
-msgstr ""
+msgstr "Mergi la Rețea"
 
 #: "faq/find_ip.inc"
 msgid "Click on your primary network (green icon) if you have more than one work."
-msgstr ""
+msgstr "Apasă pe rețeaua principală (iconița verde) dacă ai mai mult de lucru."
 
 #: "faq/find_ip.inc"
 msgid "Go to \"Advanced\""
-msgstr ""
+msgstr "Mergeți la \"Advanced\""
 
 #: "faq/find_ip.inc"
 msgid "Look at the TCP/IP tab, uder \"Configure IPv6\"."
-msgstr ""
+msgstr "Uitați-vă la tab-ul TCP/IP, sub \"Configure IPv6\"."
 
 #: "faq/find_ip.inc"
 msgid "Make a note of whether or not there is a router."
-msgstr ""
+msgstr "Notați-va dacă cumva există sau nu un router."
 
 #: "faq/find_ip.inc"
 msgid "Make a note of the IPv6 address (if any)."
-msgstr ""
+msgstr "Notați-vă adresa IPv6 (dacă există una)."
 
 #: "faq/find_ip.inc"
 msgid "OS X users: To find your IP address using the command line:"
-msgstr ""
+msgstr "Utilizatorii OS X: Pentru a găsi adresa dumneavoastră IP folosiți command line-ul:"
 
 #: "faq/find_ip.inc"
 msgid "To open your terminal: Go to your Applications folder; go to Utilities; and double click Terminal."
-msgstr ""
+msgstr "Pentru a deschide terminalul: Mergeți în folderul Applications; apoi Utilities; și dublu clic pe Terminal."
 
 #: "not-used, archived.  Not currently needed for translation."
 msgid "To see your IP addresses: <code>ifconfig -f inet6</code>."
-msgstr ""
+msgstr "Pentru a vizualiza adresele dumneavoastră IP: <code>ifcongif -f inet6</code>."
 
 #: "faq/find_ip.inc"
 msgid "Ignore the <code>fe80:</code> addresses; look for any other address on your <code>en0</code> or <code>en1</code>."
-msgstr ""
+msgstr "Ignorați adresele <code>fe80</code>; uitați-va după orice altă adresa <code>en0</code> sau <code>en1</code>."
 
 #: "faq/find_ip.inc"
 msgid "To see if you have a default route: <code>netstat -nr -f inet6</code>."
-msgstr ""
+msgstr "Pentru a vedea dacă aveți o ruta implicită: <code>netstat -nr -f inet6</code>."
 
 #: "faq/find_ip.inc"
 msgid "Look for a line that says \"default\"; probably pointing to a gateway starting with <code>fe80:</code>"
@@ -1040,27 +1039,27 @@ msgstr ""
 
 #: "faq/find_ip.inc"
 msgid "iPhone and iPad users: No information is shown via Apple's preferences/setup. The \"IT Tools\" and the \"ip6config\" apps do show IPv6 address data; both cost."
-msgstr ""
+msgstr "Utilizatorii iPhone și iPad: Nici o informație nu este vizibilă prin intermediul preferințelor Apple/instalare. Aplicațiile \"IT Tools\" și \"ip6config\" arată datele adesei; cât și costul."
 
 #: "faq/find_ip.inc"
 msgid "Linux users: To find your IPv6 address, open a terminal and.."
-msgstr ""
+msgstr "Utilizatorii Linux: Pentru a găși adresa IPv6, deschideți un terminal si.."
 
 #: "faq/find_ip.inc"
 msgid "Linux users: To find your IPv6 route, use:"
-msgstr ""
+msgstr "Utilizatorii Linux: Pentru a găsi traseul IPv6, folosiți:"
 
 #: "faq/find_ip.inc"
 msgid "Generic unix instructions for determining your IPv6 address and default route:"
-msgstr ""
+msgstr "Instrucțiuni generice unix pentru determinarea adresei dumneavoastre IPv6 și ruta implicită:"
 
 #: "faq/find_ip.inc"
 msgid "Run"
-msgstr ""
+msgstr "Rulează"
 
 #: "faq/find_ip.inc"
 msgid "and look for <code>inet6</code> to see your possible IPv6 addresses."
-msgstr ""
+msgstr "și caută <code>inet6</code> pentru a vedea adresele IPv6 posibile."
 
 #: "faq/find_ip.inc"
 msgid "and look for <code>inet6</code> or <code>Internet6</code> or similar to find the IPv6 portion; then look for <code>default</code> or <code>::</code> or <code>::/0</code>."
@@ -1068,115 +1067,115 @@ msgstr ""
 
 #: "faq/find_ip.inc"
 msgid "Windows users: To find your IP address using cmd.exe:"
-msgstr ""
+msgstr "Utilizatorii Windows: Pentru a găsii adresa dumneavoastră IP folosind cmd.exe:"
 
 #: "faq/find_ip.inc"
 msgid "Go to your \"start\" menu"
-msgstr ""
+msgstr "Mergeți la meniul \"start"
 
 #: "faq/find_ip.inc"
 msgid "If you have a \"Run\" menu option, select it. Otherwise go to the \"Search programs and files\" box."
-msgstr ""
+msgstr "Dacă aveți o opțiune a meniului numită \"Run\", selectați-o. Altfel mergeți la cutia \"Search programs and files\"."
 
 #: "faq/find_ip.inc"
 msgid "Type <code>cmd.exe</code>"
-msgstr ""
+msgstr "Tastați <code>cmd.exe</code>"
 
 #: "faq/find_ip.inc"
 msgid "In the cmd window, type <code>ipconfig</code> ."
-msgstr ""
+msgstr "În fereastră cmd, tastați <code>ipconfig</code> ."
 
 #: "faq/find_ip.inc"
 msgid "Windows 7 GUI users:"
-msgstr ""
+msgstr "Utilizatorii de Windows 7 GUI:"
 
 #: "faq/find_ip.inc"
 msgid "Go to the start menu"
-msgstr ""
+msgstr "Mergeți la start menu"
 
 #: "faq/find_ip.inc"
 msgid "Go to the control panel"
-msgstr ""
+msgstr "Mergeți la control panel"
 
 #: "faq/find_ip.inc"
 msgid "Go to \"Network and Internet\""
-msgstr ""
+msgstr "Mergeți la \"Network and Internet\""
 
 #: "faq/find_ip.inc"
 msgid "Go to \"View network status and tasks\""
-msgstr ""
+msgstr "Mergeți la \"View network status and tasks\""
 
 #: "faq/find_ip.inc"
 msgid "Go to \"Change adapter settings\"."
-msgstr ""
+msgstr "Mergeți la \"Change adapter setting\"."
 
 #: "faq/find_ip.inc"
 msgid "Go to your main Internet connection, double click"
-msgstr ""
+msgstr "Mergeți la conexiunea principala la Internet, și faceți dublu clic"
 
 #: "faq/find_ip.inc"
 msgid "Go to \"Details\""
-msgstr ""
+msgstr "Mergeți la \"Details\""
 
 #: "faq/find_ip.inc"
 msgid "Look for \"IPv6 Address\" and \"IPv6 Default Gateway\""
-msgstr ""
+msgstr "Uitați-vă după \"IPv6 Adress\" și \"IPv6 Default Gateway\""
 
 #: "faq/find_ip.inc"
 msgid "Other Windows based OS's: Send jfesler@test-ipv6.com detailed instructions; and I'll add them to the site."
-msgstr ""
+msgstr "Alte sisteme de operare bazate pe Windows: Trimite-ți instrucțiuni detaliate la jfesler@test-ipv6.com; și am să le adaug pe site."
 
 #: "faq/broken_tunnelbroker.inc"
 msgid "<b>If you set up a tunnelbroker tunnel</b>: The most common causes for tunnelbroker users to fail are:"
-msgstr ""
+msgstr "<b>Dacă configurați un tunel tunnelbroker</b>: Cele mai comune cauze pentru că un tunnelbroker să eșueze sunt:"
 
 #: "faq/broken_tunnelbroker.inc"
 msgid "Your IPv4 address may have changed; you need to tell the tunnelbroker server this happened."
-msgstr ""
+msgstr "Adresa dumneavoastră IPv4 poate fi schimbată; trebuie să îi spuneți serverului tunnelbroker că asta s-a întâmplat."
 
 #: "faq/broken_tunnelbroker.inc"
 msgid "If you are using your router to do the 6in4 (sometimes called 6to4 with explicit provider):"
-msgstr ""
+msgstr "Dacă folosiți un router să facă 6in4 (uneori numit 6to4 cu furnizorul explicit):"
 
 #: "faq/broken_tunnelbroker.inc"
 msgid "Make sure tunnelbroker knows your current IPv4 address. Our site tells you your public IPv4 address."
-msgstr ""
+msgstr "Asigurați-vă că tunnelbroker cunoaște adresa IPv4 curentă. Site-ul nostru va spune adresa dumneavoastră publică IPv4."
 
 #: "faq/broken_tunnelbroker.inc"
 msgid "Make sure your router can ping the other side of the tunnel. Don't waste your time fixing computers until the router works!"
-msgstr ""
+msgstr "Asigurați-vă că routerul dumneavoastră poate da ping părții celeilalte de tunel. Nu pierdeți timp cu repararea calculatoarelor până nu funcționează router-ul!"
 
 #: "faq/broken_tunnelbroker.inc"
 msgid "If you are using your Linux, BSD, Mac, or Windows box to \"talk 6to4\" specifically:"
-msgstr ""
+msgstr "Dacă folosiți Linux, BSD, Mac, sau cutie Windows pentru \"talk 6to4\" precis:"
 
 #: "faq/broken_tunnelbroker.inc"
 msgid "Make sure your router is passing \"protocol 41\" to you."
-msgstr ""
+msgstr "Asigurați-va că router-ul dumneavoastră pasează \"protocol 41\" către dumneavoastră."
 
 #: "faq/broken_tunnelbroker.inc"
 msgid "Make sure any software firewall you are operating is passing \"protocol 41\" to you."
-msgstr ""
+msgstr "Asigurați-va că orice program firewall pe care îl folosiți pasează \"protocol 41\" către dumneavoastră."
 
 #: "faq/broken_tunnelbroker.inc"
 msgid "If everything worked before your reboot but fails now, check your firewall settings."
-msgstr ""
+msgstr "Dacă totul mergea înainte de restart dar acum eșuează, verificați setările firewall-ului dumneavoastră."
 
 #: "faq/broken_tunnelbroker.inc"
 msgid "Make sure the box \"doing 6to4\" can ping the other side of the tunnelbroker gateway before working on any other hosts."
-msgstr ""
+msgstr "Asigurați-va că cutia \"doing 6to4\" poate da ping celeilalte părți a ușii tunnelbroker înainte de a lucra la alte gazde."
 
 #: "broken.html"
 msgid "If you set up 6to4"
-msgstr ""
+msgstr "Dacă setați 6to4"
 
 #: "broken.html"
 msgid "(IPv6 address: starts with 2002)"
-msgstr ""
+msgstr "(IPv6 address: incepe cu 2002)"
 
 #: "faq/broken_6to4.inc"
 msgid "If you use 6to4</b> (without a tunnel broker; ie, using anonymous 6to4):"
-msgstr ""
+msgstr "Dacă folosiți 6to4</b> (fără un tunnel broker; ex, folosind 6to4 anonim):"
 
 #: "faq/6to4_sucks.inc"
 msgid "The use of \"automatic\" 6to4, or the use of 6to4 without explicit configuration of the gateways, is not recommended. For more information see <a href='#' onclick='return help_page(\"faq_6to4.html\",\"6to4\")'>6to4</a>."
@@ -1184,23 +1183,23 @@ msgstr ""
 
 #: "faq/broken_6to4.inc"
 msgid "If you want to continue trying to debug anonymous 6to4:"
-msgstr ""
+msgstr "Dacă vreți să continuați încercările de depanare 6to4 anonim:"
 
 #: "faq/broken_6to4.inc"
 msgid "If you are using your router to do the 6to4:"
-msgstr ""
+msgstr "Dacă folosiți un router pentru a face 6to4:"
 
 #: "faq/broken_6to4.inc"
 msgid "Make sure your router has a public IPv4 address. Without this, 6to4 fails."
-msgstr ""
+msgstr "Asigurați-va că router-ul dumneavoastră are o adresa IPv4 publică. Fără această, 6to4 eșuează."
 
 #: "faq/broken_6to4.inc"
 msgid "If your router permits you to log in, use \"ping\" or \"ping6\" and see if you can ping \"ipv6.test-ipv6.com\". Don't waste your time fixing computers until the router works!"
-msgstr ""
+msgstr "Dacă router-ul va permite să va conectați, folosiți \"ping\" sau \"ping6\" și verificați dacă puteți da ping la \"ipv6.test-ipv6.com\". Nu va pierdeți timpul cu repararea calculatoarelor până nu merge router-ul!"
 
 #: "faq/broken_6to4.inc"
 msgid "Most home systems have private IPv4 addresses; this won't work with 6to4 (unless..)"
-msgstr ""
+msgstr "Majoritatea sistemelor casnice au adrese IPv4 private; asta nu funcționează cu 6to4 (decât dacă...)"
 
 #: "faq/broken_6to4.inc"
 msgid "Make sure your 6to4 interface knows your public IPv4 address."
@@ -1256,7 +1255,7 @@ msgstr ""
 
 #: "faq/broken_bogon.inc"
 msgid "Bad or Inappropriate IPv6 Addresses (Bogons)"
-msgstr ""
+msgstr "Adrese IPv6 greșite sau neadecvate (Bogons)"
 
 #: "faq/broken_bogon.inc"
 msgid "If you IPv6 address starts with any of these, your router needs to be upgraded."
@@ -1304,31 +1303,31 @@ msgstr ""
 
 #: "faq/broken_bogon.inc"
 msgid "Disable IPv6."
-msgstr ""
+msgstr "Dezactivați IPv6."
 
 #: "broken.html"
 msgid "(IPv6 address: not starting with fe80)"
-msgstr ""
+msgstr "(Adresa IPv6: care nu incep cu fe80)"
 
 #: "faq/broken_unexpected.inc"
 msgid "Unexpected IPv6 address?"
-msgstr ""
+msgstr "Adresă IPv6 neașteptată?"
 
 #: "faq/broken_unexpected.inc"
 msgid "Modern operating systems all have IPv6 enabled. This feature is dormant until someone explicitly configures IPv6, <em><b>or</b></em> a device on the local network offers it. Autoconfigured IPv6 hosts learn their IPv6 address and their gateway through the use of IPv6 router announcements (RAs). The network you are on may intentionally offer IPv6; you'll automatically use it when your computer sees it."
-msgstr ""
+msgstr "Toate sistemele de operare moderne au IPv6 activat. Această caracteristică este inactivă până când cineva configurează în mod explicit IPv6, <em><b>sau</b></em> un dispozitiv din rețeaua locală oferă. Host-urile IPv6 autoconfigurate învață adresele și portalul acestora prin anunțurile routerului folosind IPv6 (RAs). Rețeaua pe care te aflii poate oferii intenționat IPv6; o veți utiliza automat când calculatorul o descoperă."
 
 #: "faq/broken_unexpected.inc"
 msgid "<b>Where this goes wrong:</b> Some people plug their router into the network (wired or wireless) and inadvertantly offer IPv6 services to everyone. Classic examples of this are where people add an early version of an Apple router (with 6to4 automatically enabled); another example is someone who has Windows Internet Connection Sharing enabled. In both cases, there is a chance they offer their services - and become your IPv6 router of choice, without any notification to you."
-msgstr ""
+msgstr "<b>Unde poate da greș acest lucru:</b> Unii oameni conectează router-ul lor în rețea (cablu sau wireless) și din neatenție ofer servicii IPv6 pentru toată lumea. Exemple clasice de acest tip sunt când oamenii adaugă o versiune timpurie a router-ului Apple (cu 6to4 activată automat); un alt exemplu este când cineva are Windows Internet Connection Sharing activat. În ambele cazuri, există șansă că ei să ofere serviciile și să devină router-ul IPv6, fără nici o notificare pentru dumneavoastră."
 
 #: "faq/broken_unexpected.inc"
 msgid "If these IPv6 routers don't work, you will fail to connect to any web site that offers services on both IPv4 and IPv6. Even if they do work, if the router in question is unplugged (the owner packs up, leaves the hotel/conference) your host never gets the notice; and it can be hours before it gives up."
-msgstr ""
+msgstr "Dacă aceste rute IPv6 nu funcționează, conectarea pe orice site web care oferă servicii pe IPv4 și IPv6 va eșua. Chiar dacă funcționează, dacă routerul în cauza este deconectat (proprietarul împachetează, și părăsește hotelul/conferință) hostul nu primește niciodată o notificare; și poate dura ore până renunța."
 
 #: "faq/broken_unexpected.inc"
 msgid "This is similiar to someone accidentially (or intentionally) running a rogue DHCP server."
-msgstr ""
+msgstr "Acesta este similar cu cineva care rulează accidental (sau intenționat) un server escroc DHCP."
 
 #: "faq/broken_unexpected.inc"
 msgid "<b>If you are are not the network admin</b> - and have no access to fix the problem - consider disabling IPv6, at least for the location you are in. Another option might be to try turning off, and turning back on, your network interface (clearing the IP address), in case the source of the problem has left the network."
@@ -1348,7 +1347,7 @@ msgstr ""
 
 #: "broken.html"
 msgid "If all else fails"
-msgstr ""
+msgstr "Dacă nimic nu funcționează"
 
 #: "broken.html"
 msgid "(Instructions for disabling or deprioritizing IPv6)"
@@ -1420,23 +1419,23 @@ msgstr ""
 
 #: "faq/broken_disable.inc"
 msgid "Disable IPv6"
-msgstr ""
+msgstr "Dezactivați IPv6"
 
 #: "faq/broken_disable.inc"
 msgid "Apply changes"
-msgstr ""
+msgstr "Aplică modificările"
 
 #: "faq/broken_disable.inc"
 msgid "iPhone and iPad users"
-msgstr ""
+msgstr "Utilizatori iPhone și iPad"
 
 #: "faq/broken_disable.inc"
 msgid "IPv6 is not configurable on the iPhone or iPad. Your only option is to switch to another network."
-msgstr ""
+msgstr "IPv6 nu este configurabil pentu iPhone sau iPad. Singură dumneavoastră soluție este să schimbați pe o altă rețea."
 
 #: "faq/broken_disable.inc"
 msgid "Linux users:"
-msgstr ""
+msgstr "Utilizatorii Linux:"
 
 #: "faq/broken_disable.inc"
 msgid "This is very distribution-specific. Do a web search using your favorite search engine."
@@ -1452,7 +1451,7 @@ msgstr ""
 
 #: "faq/broken_disable.inc"
 msgid "IP_ADDRESS"
-msgstr ""
+msgstr "IP_ADDRESS"
 
 #: "faq/broken_disable.inc"
 msgid "Be aware that if the router re-advertises it, you will relearn the default route."
@@ -1582,15 +1581,15 @@ msgstr "Î: Chiar citești comentariile?"
 msgid "Yes, I do. Thank you! Note that I can only follow up with you if you do leave contact information. While I am still grateful for feedback without contact information, I will be unable to reply with any answers if you asked for them."
 msgstr ""
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Q: How else can I contact you?"
 msgstr ""
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "I would prefer you use the form, as it gives details of your connectivity, and bypasses any mail filters."
 msgstr ""
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "That said, you are welcome to directly email <a href=\"mailto:jfesler@test-ipv6.com\">jfesler@test-ipv6.com</a>."
 msgstr "Acestea fiind spuse ești binevenit să scrii un email direct către <a href=\"mailto:jfesler@test-ipv6.com\">jfesler@test-ipv6.com</a>."
 
@@ -2554,11 +2553,11 @@ msgstr ""
 msgid "Firefox (recent builds) does the same as Chrome."
 msgstr ""
 
-#: "faq_avoids_ipv6.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "The latest Windows 7 and Windows 8 updates will periodically test to see if IPv6 works. If the health check fails, then many applications (including Internet Explorer) will use IPv4, to insulate you from any local IPv6 misconfiguration."
 msgstr ""
 
-#: "faq_avoids_ipv6.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Apple's latest Lion and Mountain Lion updates will prefer whichever is \"faster\" for a given destination."
 msgstr ""
 
@@ -2694,7 +2693,7 @@ msgstr ""
 msgid "Firefox and NoScript"
 msgstr ""
 
-#: "faq_no_ipv4.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "The NoScript browser plugin disables scripts on the page. In the lower right corner of your browser, is the NoScript icon. Click this to bring up a menu; and temporarilly permit scripts on this site."
 msgstr ""
 
@@ -2874,6 +2873,10 @@ msgstr ""
 msgid "Please consent to sharing your data."
 msgstr ""
 
+#: "inc/header.inc"
+msgid "This will test your browser and connection for IPv6 readiness, as well as show you your current IPv4 and IPv6 address."
+msgstr ""
+
 #: "faq_avoids_ipv6.html"
 msgid "As of OS X 10.11 \"El Capitan\" and iOS 9, IPv6 is given a slight preference; but will fall back to IPv4 if network conditions warrant it."
 msgstr ""
@@ -2891,6 +2894,94 @@ msgid "Web sites that today automatically show you your local weather, news, and
 msgstr ""
 
 #: "main/mail.inc"
+msgid "<span id=\"comments_faq_link\"></span> (FAQ) page is available for <b>your</b> exact set of results. Please read it before leaving comments; many questions have already been answered. If you still have questions, comments, or concerns, feel free to use this form."
+msgstr ""
+
+#: "main/mail.inc"
 msgid "I consent to sharing my IP address(es), test results, web browser name and version, operating system name and version, and any other information entered above (including email address), as email transmitted to <a mailto=site.mailto href=\"-\"><span lookup=site.contact></span> &lt;<span lookup=site.mailto></span>&gt;</a>; and that this information may be translated by Google Translate."
+msgstr ""
+
+#: "inc/footer.inc"
+msgid "Share on:"
+msgstr ""
+
+#: "faq_avoids_ipv6.html"
+msgid "Since Windows 7, the operating system will periodically test to see if IPv6 works. If the health check fails, then many applications (including Internet Explorer) will use IPv4, to insulate you from any local IPv6 misconfiguration."
+msgstr ""
+
+#: "faq_avoids_ipv6.html"
+msgid "Apple's Lion and Mountain Lion updates will prefer whichever is \"faster\" for a given destination."
+msgstr ""
+
+#: "main/mail.inc"
+msgid "Report a bug with diagnosis or this web site"
+msgstr ""
+
+#: "main/mail.inc"
+msgid "Report problem about slow internet service with your provider"
+msgstr ""
+
+#: "main/mail.inc"
+msgid "Hacked phone or computer"
+msgstr ""
+
+#: "main/mail.inc"
+msgid "Being watched by spouse, hackers, mafia, government"
+msgstr ""
+
+#: "main/mail.inc"
+msgid "Problems with IPv6 in China"
+msgstr ""
+
+#: "main/mail.inc"
+msgid "Problems relating to your Internet service, should be sent to your Internet Service Provider. Please contact them for support."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "This web site is not a tool for security or forensic analysis. If you have security concerns, please find a security professional to consult with. They can offer investication and education that is appropriately matched to your concerns."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "You are in a country that has government controls over available web sites. This web site is operated from outside of your country, and is subject to the policicies and technology limitations of your \"Great Wall\" for the Internet."
+msgstr ""
+
+#: "main/mail.inc"
+msgid "This web site is subject to the policies and technology limitations of the \"Great Wall\" for the Internet. Because of these limitations, this web site is not reliable for viewing from inside China."
+msgstr ""
+
+#: "main/mail.inc"
+msgid "This web site is not a tool for security or forensic analysis. If you have security concerns, please find a security professional to consult with. They can offer investigation and education that is appropriately matched to your concerns."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "This mirror marked as out of complaince; you should instead visit <a href='http://test-ipv6.com/'>http://test-ipv6.com</a>."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "This mirror marked as out of compliance; you should instead visit <a href='///test-ipv6.com/'>test-ipv6.com</a>."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "This mirror marked as out of compliance; you should instead visit <a href='//test-ipv6.com/'>test-ipv6.com</a>."
+msgstr ""
+
+#: "inc/messages.js"
+msgid "This mirror has been marked as out of compliance; you should instead visit <a href='//test-ipv6.com/'>test-ipv6.com</a>."
+msgstr ""
+
+#: "inc/messages.js"
+msgid "If you are using a VPN, your VPN is only protecting one protocol, not both."
+msgstr ""
+
+#: "faq.html"
+msgid "Q: Can you fix my VPN?"
+msgstr ""
+
+#: "faq.html"
+msgid "No, I can not fix your VPN."
+msgstr ""
+
+#: "faq_no_ipv4.html"
+msgid "The NoScript browser extension disables scripts on the page. In the upper right corner of your browser, is the NoScript icon. Click this to bring up a menu; and temporarily permit scripts on this site."
 msgstr ""
 

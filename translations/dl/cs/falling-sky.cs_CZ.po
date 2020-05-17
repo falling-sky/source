@@ -1,14 +1,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2018-03-01 02:30-0500\n"
-"Last-Translator: jfesler <jfesler@gigo.com>\n"
+"PO-Revision-Date: 2020-05-16 15:30\n"
+"Last-Translator: Unspecified Translator <jfesler+unspecified-translator@test-ipv6.com>\n"
 "Language-Team: Czech\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 3;\n"
-"X-Generator: crowdin.com\n"
 "X-Crowdin-Project: falling-sky\n"
 "X-Crowdin-Language: cs\n"
 "X-Crowdin-File: falling-sky.pot\n"
@@ -196,11 +195,11 @@ msgstr "Povedl se překlad IPv6 adresy, ale Váš DNS server (zřejmě Váš dom
 
 #: "inc/messages.js"
 msgid "It appears that you use a tunnel mechanism for either IPv4 or IPv6."
-msgstr ""
+msgstr "Vypadá to, že používáte tunelování pro IPv4 i IPv6."
 
 #: "inc/messages.js"
 msgid "It appears that you use a managed tunnel mechanism, 6RD, to transport IPv6 over IPv4."
-msgstr ""
+msgstr "Vypadá to, že používáte spravovaný tunel, 6RD, pro přenos IPv6 přes IPv4."
 
 #: "inc/messages.js"
 msgid "We have detected that you are using a proxy. This means we are testing your proxy server, not your computer. Proxy details (as reported by your proxy 'Via' header): %details"
@@ -228,7 +227,7 @@ msgstr "Váš prohlížeč má funkční IPv6 adresu, ale vyhýbá se jejímu po
 
 #: "inc/messages.js"
 msgid "faq: MTU"
-msgstr ""
+msgstr "faq: MTU"
 
 #: "inc/messages.js"
 msgid "faq: No IPv4"
@@ -252,11 +251,11 @@ msgstr ""
 
 #: "inc/messages.js"
 msgid "faq: Browser Plugins"
-msgstr ""
+msgstr "faq: Pluginy prohlížečů"
 
 #: "inc/messages.js"
 msgid "faq: Firefox Add-Ons"
-msgstr ""
+msgstr "faq: Doplňky pro Firefox"
 
 #: "inc/messages.js"
 msgid "faq: Opera"
@@ -292,7 +291,7 @@ msgstr "Vaše IPv4 adresa ve veřejném internetu je"
 
 #: "inc/builtin.js"
 msgid "Proxied"
-msgstr ""
+msgstr "Použita proxy"
 
 #: "inc/builtin.js"
 msgid "Your IPv6 address on the public Internet appears to be"
@@ -312,7 +311,7 @@ msgstr "Start"
 
 #: "inc/builtin.js"
 msgid "proxied"
-msgstr ""
+msgstr "použita proxy"
 
 #: "inc/builtin.js"
 msgid "using"
@@ -320,7 +319,7 @@ msgstr "protokolem"
 
 #: "inc/builtin.js"
 msgid "tests run"
-msgstr ""
+msgstr "spuštěných testů"
 
 #: "inc/builtin.js"
 msgid "(Survey posting skipped; test was rigged)"
@@ -380,7 +379,7 @@ msgstr "[Zpět]"
 
 #: "inc/builtin.js"
 msgid "[permalink]"
-msgstr ""
+msgstr "[permalink]"
 
 #: "inc/versions.js"
 msgid "%app: You are running version %found; we recommend %suggest or newer."
@@ -426,7 +425,7 @@ msgstr "Technická podpora vašeho poskytovatele připojení může chtít níž
 msgid "Test your IPv6."
 msgstr "Otestuje připojení k IPv6."
 
-#: "inc/header.inc"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "This will test your browser and connection for IPv6 readiness, as well as show you your current IPV4 and IPv6 address."
 msgstr "Tato stránka otestuje, zdali jsou váš prohlížeč a připojení připraveny na IPv6. Ukáže vaši současnou IPv4 i IPv6 adresu."
 
@@ -444,7 +443,7 @@ msgstr "Mirrory"
 
 #: "inc/list-nav.inc"
 msgid "stats"
-msgstr ""
+msgstr "statistiky"
 
 #: "index.html"
 msgid "Test your IPv6 connectivity."
@@ -452,7 +451,7 @@ msgstr "Testuje vaše IPv6 připojení."
 
 #: "index.html"
 msgid "(Replay)"
-msgstr ""
+msgstr "(Spustit znovu)"
 
 #: "inc/js_required.inc"
 msgid "JavaScript Required"
@@ -460,7 +459,7 @@ msgstr "Je vyžadován JavaScript"
 
 #: "inc/js_required.inc"
 msgid "This site requires JavaScript, as well as the ability to pull in cross-site scripts, in order to perform the testing."
-msgstr ""
+msgstr "Tato stránka vyžaduje JavaScript a možnost stahovat skripty z jiných stránek, aby mohla provádět testy."
 
 #: "inc/js_required.inc"
 msgid "If this message does not go away, it means that JavaScript has been disabled, either by a plugin or extension in your browser, or by explicit browser setting."
@@ -650,7 +649,7 @@ msgstr "To zahrnuje vaši IP adresu, kterou potřebuje provozovatel serveru zná
 msgid "Use of this form implies consent."
 msgstr "Použití tohoto formuláře předpokládá souhlas."
 
-#: "main/mail.inc"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "<span id=\"comments_faq_link\"></span> (FAQ) page is available for <b>your</b> exact set of results. Please read it before leaving comments; many questions have already been answered. If you still have questions, comments, or concerns, feel freel to use this form."
 msgstr "<b>Vaši</b> množinu výsledků. Prosím přečtete si ji předtým než napíšete komentář; mnoho dotazů již bylo zodpovězeno. Když máte další dotazy, použijte formulář."
 
@@ -674,7 +673,7 @@ msgstr "Účel vaší zprávy"
 msgid "Questions about test results"
 msgstr "Dotaz týkající se výsledků testů"
 
-#: "main/mail.inc"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Report a bug with diagnosis"
 msgstr "Nahlášení chyby"
 
@@ -768,7 +767,7 @@ msgstr "E-mail"
 
 #: "inc/footer.inc"
 msgid "Attributions"
-msgstr ""
+msgstr "Atributy"
 
 #: "inc/disclaimer.inc"
 msgid "This is a mirror of test-ipv6.com. The views expressed here may or may not reflect the views of the mirror owner."
@@ -812,11 +811,11 @@ msgstr "Stav každého protokolu"
 
 #: "faq_helpdesk.html"
 msgid "Warn of slow/timeout"
-msgstr ""
+msgstr "Upozornění - pomalý/časový limit"
 
 #: "faq_helpdesk.html"
 msgid "Warn of MTU"
-msgstr ""
+msgstr "Upozornění - MTU"
 
 #: "faq_helpdesk.html"
 msgid "Status of reachability to “other sites” (as compact as possible)"
@@ -876,7 +875,7 @@ msgstr ""
 
 #: "broken.html"
 msgid "Make sure you are current"
-msgstr ""
+msgstr "Ujistěte se, že máte aktuální verzi"
 
 #: "broken.html"
 msgid "Find your IP address"
@@ -900,7 +899,7 @@ msgstr ""
 
 #: "broken.html"
 msgid "If you have an unexpected IPv6 address"
-msgstr ""
+msgstr "Pokud máte jinou IPv6 adresu"
 
 #: "broken.html"
 msgid "Try the netalyzr"
@@ -908,7 +907,7 @@ msgstr "Vyzkoušejte netalyzr"
 
 #: "broken.html"
 msgid "If all else fails, disable or deprioritize IPv6"
-msgstr ""
+msgstr "Pokud vše ostatní selže, vypněte nebo zrušte prioritu IPv6"
 
 #: "faq/staycurrent.inc"
 msgid "Many OS and Hardware manufacturers are making updates to help improve the transition to IPv6. Some known \"gotchas\" are being addressed by workarounds by these vendors."
@@ -920,7 +919,7 @@ msgstr ""
 
 #: "faq/staycurrent.inc"
 msgid "OS - Make sure you have the latest."
-msgstr ""
+msgstr "OS - Ujistěte se, že máte poslední verzi."
 
 #: "faq/staycurrent.inc"
 msgid "Mac users: Apple OS X 10.6.7 is recommended for improved IPv6 support."
@@ -940,15 +939,15 @@ msgstr ""
 
 #: "faq/staycurrent.inc"
 msgid "Routers - Make sure you have the latest firmware installed. Some vendors have updated the defaults, or put in health checks before enabling IPv6."
-msgstr ""
+msgstr "Ruotery - Ujistěte se, že máte nainstalovaný nejnovější firmware. Někteří výrobci aktualizovali výchozí nastavení nebo vložili kontroly stavu před povolením IPv6."
 
 #: "faq/staycurrent.inc"
 msgid "If you are using an Apple router or Time Capsule, load the Airport Utility to check that your router is up to date."
-msgstr ""
+msgstr "Pokud používáte router Apple nebo Time Capsule, spusťte Airport Utility pro kontrolu, zda je váš router je aktualizován."
 
 #: "faq/staycurrent.inc"
 msgid "Browsers - Some browsers have made updates to detect \"broken\" users, and to temporarily disable IPv6."
-msgstr ""
+msgstr "Prohlížeče - Některé prohlížeče provedly aktualizaci detekcí \"rozbitých\" uživatelů pro dočasné vypnutí IPv6."
 
 #: "faq/staycurrent.inc"
 msgid "Firefox 4.x now only tries IPv6, when an IPv6 address is configured. Firefox 3 users are encouraged to upgrade."
@@ -1582,15 +1581,15 @@ msgstr ""
 msgid "Yes, I do. Thank you! Note that I can only follow up with you if you do leave contact information. While I am still grateful for feedback without contact information, I will be unable to reply with any answers if you asked for them."
 msgstr ""
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Q: How else can I contact you?"
 msgstr "Otázka: jak jinak vás můžu kontaktovat?"
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "I would prefer you use the form, as it gives details of your connectivity, and bypasses any mail filters."
 msgstr ""
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "That said, you are welcome to directly email <a href=\"mailto:jfesler@test-ipv6.com\">jfesler@test-ipv6.com</a>."
 msgstr ""
 
@@ -1612,11 +1611,11 @@ msgstr "Grafy se aktualizují denně."
 
 #: "not-used, archived.  Not currently needed for translation."
 msgid "60 days view"
-msgstr ""
+msgstr "Zobrazení 60 dní"
 
 #: "not-used, archived.  Not currently needed for translation."
 msgid "600 days view"
-msgstr ""
+msgstr "Zobrazení 600 dní"
 
 #: "stats.html"
 msgid "Quick notes:"
@@ -1820,7 +1819,7 @@ msgstr ""
 
 #: "faq_6to4.html"
 msgid "Managed tunnels"
-msgstr ""
+msgstr "Spravované tunely"
 
 #: "faq_6to4.html"
 msgid "You sure sound like you don't like 6to4."
@@ -1968,7 +1967,7 @@ msgstr ""
 
 #: "faq_v6ns_bad.html"
 msgid "If this test fails:"
-msgstr ""
+msgstr "Pokud tento test selhal:"
 
 #: "not-used, archived.  Not currently needed for translation."
 msgid "it means that the DNS resolver you are using, requires IPv4 to reach the DNS authoritative servers of your favoriate web sites. In the near future, every web site of consequence will remain accessible in this form, so <b>there is no immediate danger.</b>"
@@ -2108,11 +2107,11 @@ msgstr ""
 
 #: "faq/simple_test.inc"
 msgid "Pass?"
-msgstr "Přeskočit?"
+msgstr "Úspěch?"
 
 #: "faq/simple_test.inc"
 msgid "Method"
-msgstr "Postup"
+msgstr "Metoda"
 
 #: "faq/simple_test.inc"
 msgid "More Info"
@@ -2128,11 +2127,11 @@ msgstr "Je-li to zelené, nebudete mít žádný problém při světovém dni IP
 
 #: "faq/simple_test.inc"
 msgid "If this fails, seek help from your IT department, helpdesk, or ISP tech support."
-msgstr "Pokud se to nedaří, vyhledejte pomoc od IT oddělení, helpdesku nebo technické podpory ISP."
+msgstr "Pokud tento test selhal, vyhledejte pomoc od IT oddělení, helpdesku nebo technické podpory poskytovatele internetu."
 
 #: "faq/simple_test.inc"
 msgid "If this fails, consider using the <a href=\"/\">full test</a>, with IE, Firefox, Safari, or Chrome, to get more detailed information about possible failure reasons."
-msgstr ""
+msgstr "Pokud tento test selhal, zkuste použít <a href=\"/\">plný test</a> v Internet Exploreru, Firefoxu, Safari nebo Chromu, kde získáte více detailních informací o možném selhání."
 
 #: "faq/simple_test.inc"
 msgid "<i>If red or blank, do not stress!</i> Few people already have IPv6 at this time; and it is not critical for 2011 but will be for the coming years."
@@ -2554,11 +2553,11 @@ msgstr "(více informací)"
 msgid "Firefox (recent builds) does the same as Chrome."
 msgstr "Firefox se v novějších verzích chová stejně jako Chrome."
 
-#: "faq_avoids_ipv6.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "The latest Windows 7 and Windows 8 updates will periodically test to see if IPv6 works. If the health check fails, then many applications (including Internet Explorer) will use IPv4, to insulate you from any local IPv6 misconfiguration."
 msgstr ""
 
-#: "faq_avoids_ipv6.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Apple's latest Lion and Mountain Lion updates will prefer whichever is \"faster\" for a given destination."
 msgstr "Aktuální aktualizace pro Lion a Mountain Lion od Apple upřednostňují ten \"rychlejší\" pro danou adresu."
 
@@ -2694,7 +2693,7 @@ msgstr ""
 msgid "Firefox and NoScript"
 msgstr ""
 
-#: "faq_no_ipv4.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "The NoScript browser plugin disables scripts on the page. In the lower right corner of your browser, is the NoScript icon. Click this to bring up a menu; and temporarilly permit scripts on this site."
 msgstr ""
 
@@ -2874,6 +2873,10 @@ msgstr ""
 msgid "Please consent to sharing your data."
 msgstr ""
 
+#: "inc/header.inc"
+msgid "This will test your browser and connection for IPv6 readiness, as well as show you your current IPv4 and IPv6 address."
+msgstr ""
+
 #: "faq_avoids_ipv6.html"
 msgid "As of OS X 10.11 \"El Capitan\" and iOS 9, IPv6 is given a slight preference; but will fall back to IPv4 if network conditions warrant it."
 msgstr ""
@@ -2891,6 +2894,94 @@ msgid "Web sites that today automatically show you your local weather, news, and
 msgstr ""
 
 #: "main/mail.inc"
+msgid "<span id=\"comments_faq_link\"></span> (FAQ) page is available for <b>your</b> exact set of results. Please read it before leaving comments; many questions have already been answered. If you still have questions, comments, or concerns, feel free to use this form."
+msgstr ""
+
+#: "main/mail.inc"
 msgid "I consent to sharing my IP address(es), test results, web browser name and version, operating system name and version, and any other information entered above (including email address), as email transmitted to <a mailto=site.mailto href=\"-\"><span lookup=site.contact></span> &lt;<span lookup=site.mailto></span>&gt;</a>; and that this information may be translated by Google Translate."
+msgstr ""
+
+#: "inc/footer.inc"
+msgid "Share on:"
+msgstr ""
+
+#: "faq_avoids_ipv6.html"
+msgid "Since Windows 7, the operating system will periodically test to see if IPv6 works. If the health check fails, then many applications (including Internet Explorer) will use IPv4, to insulate you from any local IPv6 misconfiguration."
+msgstr ""
+
+#: "faq_avoids_ipv6.html"
+msgid "Apple's Lion and Mountain Lion updates will prefer whichever is \"faster\" for a given destination."
+msgstr ""
+
+#: "main/mail.inc"
+msgid "Report a bug with diagnosis or this web site"
+msgstr ""
+
+#: "main/mail.inc"
+msgid "Report problem about slow internet service with your provider"
+msgstr ""
+
+#: "main/mail.inc"
+msgid "Hacked phone or computer"
+msgstr ""
+
+#: "main/mail.inc"
+msgid "Being watched by spouse, hackers, mafia, government"
+msgstr ""
+
+#: "main/mail.inc"
+msgid "Problems with IPv6 in China"
+msgstr ""
+
+#: "main/mail.inc"
+msgid "Problems relating to your Internet service, should be sent to your Internet Service Provider. Please contact them for support."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "This web site is not a tool for security or forensic analysis. If you have security concerns, please find a security professional to consult with. They can offer investication and education that is appropriately matched to your concerns."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "You are in a country that has government controls over available web sites. This web site is operated from outside of your country, and is subject to the policicies and technology limitations of your \"Great Wall\" for the Internet."
+msgstr ""
+
+#: "main/mail.inc"
+msgid "This web site is subject to the policies and technology limitations of the \"Great Wall\" for the Internet. Because of these limitations, this web site is not reliable for viewing from inside China."
+msgstr ""
+
+#: "main/mail.inc"
+msgid "This web site is not a tool for security or forensic analysis. If you have security concerns, please find a security professional to consult with. They can offer investigation and education that is appropriately matched to your concerns."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "This mirror marked as out of complaince; you should instead visit <a href='http://test-ipv6.com/'>http://test-ipv6.com</a>."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "This mirror marked as out of compliance; you should instead visit <a href='///test-ipv6.com/'>test-ipv6.com</a>."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "This mirror marked as out of compliance; you should instead visit <a href='//test-ipv6.com/'>test-ipv6.com</a>."
+msgstr ""
+
+#: "inc/messages.js"
+msgid "This mirror has been marked as out of compliance; you should instead visit <a href='//test-ipv6.com/'>test-ipv6.com</a>."
+msgstr ""
+
+#: "inc/messages.js"
+msgid "If you are using a VPN, your VPN is only protecting one protocol, not both."
+msgstr ""
+
+#: "faq.html"
+msgid "Q: Can you fix my VPN?"
+msgstr ""
+
+#: "faq.html"
+msgid "No, I can not fix your VPN."
+msgstr ""
+
+#: "faq_no_ipv4.html"
+msgid "The NoScript browser extension disables scripts on the page. In the upper right corner of your browser, is the NoScript icon. Click this to bring up a menu; and temporarily permit scripts on this site."
 msgstr ""
 

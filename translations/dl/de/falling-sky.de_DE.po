@@ -1,14 +1,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2018-03-01 02:30-0500\n"
-"Last-Translator: jfesler <jfesler@gigo.com>\n"
+"PO-Revision-Date: 2020-05-16 15:30\n"
+"Last-Translator: Unspecified Translator <jfesler+unspecified-translator@test-ipv6.com>\n"
 "Language-Team: German\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: crowdin.com\n"
 "X-Crowdin-Project: falling-sky\n"
 "X-Crowdin-Language: de\n"
 "X-Crowdin-File: falling-sky.pot\n"
@@ -16,7 +15,7 @@ msgstr ""
 
 #: "inc/mirrorconfig.js"
 msgid "This mirror is provided by"
-msgstr "Dieser Mirror wird bereitgestellt von"
+msgstr "Dieser Spiegel wird bereitgestellt von"
 
 #: "inc/messages.js"
 msgid "bad"
@@ -426,7 +425,7 @@ msgstr "Ihren Internet-Help-Desk können Sie um die nachfolgenden Informationen 
 msgid "Test your IPv6."
 msgstr "Testen Sie Ihre IPv6-Konnektivität."
 
-#: "inc/header.inc"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "This will test your browser and connection for IPv6 readiness, as well as show you your current IPV4 and IPv6 address."
 msgstr "Dies wird Ihren Webbrowser und Ihre Internetverbindung auf IPv6-Tauglichkeit überprüfen und Ihre aktuelle IPv4- und IPv6-Adresse ermitteln."
 
@@ -650,7 +649,7 @@ msgstr "Dies beinhaltet Ihre IP-Adresse, die dem Seitenbetreiber mitgeteilt wird
 msgid "Use of this form implies consent."
 msgstr "Mit der Nutzung des Formulares stimmen Sie dem zu."
 
-#: "main/mail.inc"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "<span id=\"comments_faq_link\"></span> (FAQ) page is available for <b>your</b> exact set of results. Please read it before leaving comments; many questions have already been answered. If you still have questions, comments, or concerns, feel freel to use this form."
 msgstr "<b>Ihre</b> Testergebnisse. Bitte lesen Sie diese bevor Sie Kommentare hinterlassen. Viele Fragen wurden darin bereits beantwortet. Falls Sie immer noch Fragen, Kommentare oder Anregungen haben, können Sie gerne dieses Formular benutzen."
 
@@ -674,7 +673,7 @@ msgstr "Grund für den Kontakt"
 msgid "Questions about test results"
 msgstr "Frage zu den Testergebnissen"
 
-#: "main/mail.inc"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Report a bug with diagnosis"
 msgstr "Fehler bei der Diagnose melden"
 
@@ -760,7 +759,7 @@ msgstr "Mission"
 
 #: "inc/footer.inc"
 msgid "Source"
-msgstr "Quelle"
+msgstr "Quellcode"
 
 #: "inc/footer.inc"
 msgid "Email"
@@ -1582,15 +1581,15 @@ msgstr "F: Lesen Sie wirklich die Rückmeldungen?"
 msgid "Yes, I do. Thank you! Note that I can only follow up with you if you do leave contact information. While I am still grateful for feedback without contact information, I will be unable to reply with any answers if you asked for them."
 msgstr "Ja, das tue ich. Vielen Dank! Beachten Sie, dass ich Ihnen nur antworten kann, wenn Sie Ihre Kontaktinformationen hinterlassen. Obwohl ich immer noch dankbar für Ihre Anmerkungen ohne Kontaktinformationen bin, werde ich dann keine Möglichkeit haben, eine Antwort zu senden, wenn Sie danach gefragt haben."
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Q: How else can I contact you?"
 msgstr "F: wie sonst kann ich Sie kontaktieren?"
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "I would prefer you use the form, as it gives details of your connectivity, and bypasses any mail filters."
 msgstr "Mir wäre lieber, dass Sie das Formular verwenden, da es Informationen über Ihre Verbindung gibt, und eventuelle Mail-Filter umgeht."
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "That said, you are welcome to directly email <a href=\"mailto:jfesler@test-ipv6.com\">jfesler@test-ipv6.com</a>."
 msgstr "Das heißt, Sie sind herzlich eingeladen, eine e-Mail an <a href=\"mailto:jfesler@test-ipv6.com\">jfesler@test-ipv6.com</a> zu senden."
 
@@ -2554,11 +2553,11 @@ msgstr "(mehr Infos)"
 msgid "Firefox (recent builds) does the same as Chrome."
 msgstr "Firefox (aktuelle Versionen) verhält sich wie Chrome."
 
-#: "faq_avoids_ipv6.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "The latest Windows 7 and Windows 8 updates will periodically test to see if IPv6 works. If the health check fails, then many applications (including Internet Explorer) will use IPv4, to insulate you from any local IPv6 misconfiguration."
 msgstr "Die neuesten Updates für Windows 7 und Windows 8 werden regelmäßig testen, ob IPv6 funktioniert. Wenn dieser Test fehlschlägt. werden viele Anwendungen (einschließlich dem Internet Explorer) IPv4 benutzen, um Sie vor einer lokalen IPv6 Fehlkonfiguration zu schützen."
 
-#: "faq_avoids_ipv6.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Apple's latest Lion and Mountain Lion updates will prefer whichever is \"faster\" for a given destination."
 msgstr "Apples neueste Updates für Lion und Mountain Lion bevorzugen immer die Methode, welche für ein Ziel am schnellsten ist."
 
@@ -2694,7 +2693,7 @@ msgstr "Da der Test offensichtlich fehlgeschlagen ist, ist hier ein einfacherer 
 msgid "Firefox and NoScript"
 msgstr "Firefox und NoScript"
 
-#: "faq_no_ipv4.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "The NoScript browser plugin disables scripts on the page. In the lower right corner of your browser, is the NoScript icon. Click this to bring up a menu; and temporarilly permit scripts on this site."
 msgstr "Das Browser-Plugin \"NoScript\" deaktiviert Skripts auf der Seite. In der unteren rechten Ecke des Browsers wird das Symbol \"NoScript\" angezeigt. Klicken Sie dort, um ein Menü aufzurufen, und erlauben Sie dann temporär Skripte auf dieser Seite."
 
@@ -2800,11 +2799,11 @@ msgstr "übersprungen"
 
 #: "inc/messages.js"
 msgid "We are sometimes unable to detect Teredo and 6to4 when using HTTPS."
-msgstr "Wir sind manchmal nicht in der Lage Teredo und 6to4 zu erkennen, wenn Sie HTTPS verwenden."
+msgstr "Wir sind manchmal nicht in der Lage, Teredo und 6to4 zu erkennen, wenn Sie HTTPS verwenden."
 
 #: "inc/messages.js"
 msgid "HTTPS support on this web site is in <em>beta</em>."
-msgstr "Die HTTPS Unterstützung auf dieser Website ist in der <em>Beta</em>."
+msgstr "Die HTTPS Unterstützung auf dieser Website ist in der <em>Beta-Phase</em>."
 
 #: "inc/messages.js"
 msgid "%HTTPS support is now available on this site."
@@ -2816,7 +2815,7 @@ msgstr "faq: Verwendung von HTTPS"
 
 #: "inc/checkresults.js"
 msgid "Tests using this web site are unreliable from your location."
-msgstr "Tests mit dieser Web-Site sind von Ihrem Standort unzuverlässig."
+msgstr "Tests mit dieser Website sind von Ihrem Standort unzuverlässig."
 
 #: "faq/find_ip.inc"
 msgid "To see your IP addresses: <code>ifconfig -a inet6</code> or <code>ifconfig -f inet6</code>"
@@ -2828,23 +2827,23 @@ msgstr "Unterschiede zwischen HTTP und HTTPS"
 
 #: "faq_https.html"
 msgid "HTTP and HTTPS bring us different testing capabilities. Unfortunately, we can not test both at once. You can choose which features to test for, by using http://test-ipv6.com or https://test-ipv6.com."
-msgstr "HTTP und HTTPS bringen uns verschiedene Testmöglichkeiten. Leider können wir nicht beide auf einmal testen. Sie können auswählen welche Funktionen getestet werden sollen, indem Sie http://test-ipv6.com oder https://test-ipv6.com verwenden."
+msgstr "HTTP und HTTPS bringen uns verschiedene Testmöglichkeiten. Leider können wir nicht beide auf einmal testen. Sie können auswählen, welche Funktionen getestet werden sollen, indem Sie http://test-ipv6.com oder https://test-ipv6.com verwenden."
 
 #: "faq_https.html"
 msgid "<b>HTTP</b> allows us to test for Teredo and 6to4. Both are transitional technologies. Modern operating systems by default no longer use those, unless there is no other choice. Windows, for example, will not use Teredo, when the browser is given a DNS name to connect to. However, Windows will attempt to use Teredo, when told an IPv6-only IP address. 6to4 is similarly deprecated; and only likely used if there is no other choice."
-msgstr "<b>HTTP</b> ermöglicht es uns, Teredo und 6to4 zu testen. Beides sind Übergangstechnologien. Moderne Betriebssysteme verwenden sie standardmäßig nicht mehr, es sei denn es gibt keine andere Wahl. Windows wird Teredo z.B. nicht verwenden, wenn der Browser einen DNS-Namen zum Herstellen einer Verbindung verwendet. Allerdings versucht Windows Teredo zu verwenden, wenn nur eine IPv6 angegeben wird. 6to4 ist ebenso veraltet und wird wahrscheinlich ebenfalls nur verwendet, wenn es keine andere Wahl gibt."
+msgstr "<b>HTTP</b> ermöglicht es uns, auf Teredo und 6to4 zu testen. Beides sind Übergangstechnologien. Moderne Betriebssysteme verwenden sie standardmäßig nicht mehr, es sei denn, es gibt keine andere Wahl. Windows wird Teredo z. B. nicht verwenden, wenn der Browser einen DNS-Namen zum Herstellen einer Verbindung verwendet. Allerdings versucht Windows, Teredo zu verwenden, wenn nur eine IPv6-Adresse angegeben wird. 6to4 ist ebenso veraltet und wird wahrscheinlich ebenfalls nur verwendet, wenn es keine andere Wahl gibt."
 
 #: "faq_https.html"
 msgid "HTTP also allows us to detect certain types of DNS64/NAT64. NAT64 is a migration strategy that allows for an eventual IPv6-only Internet. Until then, connections to the IPv4 Internet are translated. We detect this by making connections to literal IP address, such as http://192.0.2.1/ (with a server-specific IP address). We are able to detect NAT64 in particular when there is no local IPv4 tunnel (464xlat on Android) or OS assistance (Apple iOS, Apple MacOS)."
-msgstr "Auch ermöglicht HTTP es, bestimmte Arten von DNS64/NAT64 zu erkennen. NAT64 ist eine Migrationsstrategie, die ein eventuelles reines IPv6-Internet ermöglicht. Bis dahin werden Verbindungen mit dem IPv4-Internet übersetzt. Wir erkennen dies durch Herstellen von Direktverbindungen mit IP-Adressen, z. B. http://192.0.2.1/ (mit einer Server-spezifische IP-Adresse). Wir sind in der Lage NAT64 insbesondere dann zu erkennen, wenn es keine lokalen IPv4-Tunnel (464xlat auf Android) oder OS-Unterstützung (Apple iOS, Apple MacOS) gibt."
+msgstr "Auch ermöglicht HTTP es, bestimmte Arten von DNS64/NAT64 zu erkennen. NAT64 ist eine Migrationsstrategie, die letztendlich ein reines IPv6-Internet ermöglicht. Bis dahin werden Verbindungen zu dem IPv4-Internet übersetzt. Wir erkennen dies durch Herstellen von Direktverbindungen mit IP-Adressen, z. B. http://192.0.2.1/ (mit einer Server-spezifische IP-Adresse). Wir sind in der Lage NAT64 insbesondere dann zu erkennen, wenn es keine lokalen IPv4-Tunnel (464xlat auf Android) oder OS-Unterstützung (Apple iOS, Apple MacOS) gibt."
 
 #: "faq_https.html"
 msgid "<b>HTTPS</b>, which ensures a trusted transport from you to the server, allows bypassing many corporate and mobile proxy servers. There are exceptions; particularly if you agreed to install their certificate; but that is generally not advised. Bypassing these proxies allows us to show you a better idea of your IP address - something that represents your location, and your connectivity to the IPv6 Internet."
-msgstr ""
+msgstr "<b>HTTPS</b>, welches einen gesicherten Transport von Ihnen zu dem Server ermöglicht, erlaubt es, viele Firmen- und Mobilfunk-Proxy-Server zu umgehen. Es gibt Ausnahmen, besonders, wenn Sie es erlaubt haben, deren Zertifikate zu installieren, aber das wird nicht allgemein empfohlen. Die Umgehung dieser Proxies erlaubt es uns, Ihre IP-Adresse besser abzuschätzen - etwas, welches Ihre Lokation und Ihre Konnektivität zum IPv6-Internet repräsentiert."
 
 #: "faq_https.html"
 msgid "A limitation of using HTTPS exists. Since HTTPS requires certificates, and certificates are not offered to IP addresses (but instead to web site names), we can't test for NAT64, 6to4, or Teredo."
-msgstr "Eine Einschränkung bei der Verwendung von HTTPS ist vorhanden. Da HTTPS Zertifikate erfordert und Zertifikate nicht für IP-Adressen ausgestellt werden (sondern auf Website-Namen), können wir NAT64, 6to4 und Teredo nicht testen."
+msgstr "Eine Einschränkung bei der Verwendung von HTTPS ist vorhanden. Da HTTPS Zertifikate erfordert und Zertifikate nicht für IP-Adressen ausgestellt werden (sondern auf Website-Namen), können wir nicht auf NAT64, 6to4 und Teredo testen."
 
 #: "faq_https.html"
 msgid "Should I use HTTP or HTTPS?"
@@ -2852,7 +2851,7 @@ msgstr "Sollte ich HTTP oder HTTPS verwenden?"
 
 #: "faq_https.html"
 msgid "If you're in a new location, or a computer you're not familiar with, consider both! If both come up with the same results, you can pick HTTP for speed, or HTTPS to bypass certain proxies."
-msgstr "Sollten Sie an einem neuen Standort oder einem Computer sein den Sie nicht kennen, versuchen Sie beide Varianten! Wenn beide mit dem gleichen Ergebnis beendet werden, können Sie HTTP für eine höhere Geschwindigkeit oder HTTPS zur Umgehung von bestimmten Proxys verwenden."
+msgstr "Sollten Sie an einem neuen Standort oder einem Computer sein, den Sie nicht kennen, versuchen Sie beide Varianten! Wenn beide mit dem gleichen Ergebnis beendet werden, können Sie HTTP für eine höhere Geschwindigkeit oder HTTPS zur Umgehung von bestimmten Proxys verwenden."
 
 #: "faq_https.html"
 msgid "Links:"
@@ -2860,11 +2859,11 @@ msgstr "Links:"
 
 #: "inc/messages.js"
 msgid "Test results inconclusive; they were not consistent with expectations. Please rerun the test, and if the results are the same, seek local network help."
-msgstr ""
+msgstr "Test war ergebnislos, die Ergebnisse sind nicht konsistent mit den Erwartungen. Bitte führen Sie den Test erneut durch. Falls der Test zum selben Ergebnis führt, suchen Sie sich Netzwerkhilfe vor Ort."
 
 #: "inc/messages.js"
 msgid "Connections to IPv6-capable web sites hang. It appears that you may have IPv6 configured; and your computer believes that your IPv6 is working, with a route. It is however completely failing. Any web site that adds IPv6, will become unreachable to you. If you are unable to fix your IPv6 routing or connectivity, seek help. If all else fails, strongly consider disabling IPv6 on your host."
-msgstr ""
+msgstr "Verbindungen zu IPv6-fähigen Webseiten hängen. Es scheint, als wäre bei Ihnen IPv6 konfiguriert und Ihr Computer glaubt, dass IPv6 über eine Route funktioniert. Dies ist jedoch nicht der Fall und schlägt komplett fehl. Alle IPv6-fähigen Webseiten werden für Sie unerreichbar sein. Falls Sie Ihre IPv6-Verbindung oder Ihr IPv6-Routing nicht reparieren können, suchen Sie sich Hilfe. Falls alle Lösungsversuche fehlschlagen, sollten Sie IPv6 auf Ihrem Computer komplett deaktivieren."
 
 #: "inc/builtin.js"
 msgid "Test Data"
@@ -2874,23 +2873,115 @@ msgstr "Testdaten"
 msgid "Please consent to sharing your data."
 msgstr "Bitte stimmen Sie der Weitergabe Ihrer Daten zu."
 
+#: "inc/header.inc"
+msgid "This will test your browser and connection for IPv6 readiness, as well as show you your current IPv4 and IPv6 address."
+msgstr "Dies wird Ihren Webbrowser und Ihre Internetverbindung auf IPv6-Tauglichkeit überprüfen und Ihre aktuelle IPv4- und IPv6-Adresse anzeigen."
+
 #: "faq_avoids_ipv6.html"
 msgid "As of OS X 10.11 \"El Capitan\" and iOS 9, IPv6 is given a slight preference; but will fall back to IPv4 if network conditions warrant it."
 msgstr "Ab OS X 10.11 \"El Capitan\" und iOS 9 wird IPv6 leicht präferiert; es wird aber auf IPv4 zurückgegriffen, wenn die Netzwerkbedingungen dies rechtfertigen."
 
 #: "faq_pmtud.html"
 msgid "Your router will automatically add an IPv4 header to the top of your packet. This same router will let your computer know if the packet is going to be too big; your computer will (as long as it gets the ICMPv6 \"Packet Too Big\" message) resend the packet, at a smaller size recommended by your router. A router near the web site, will automatically remove the IPv4 header, and forward the IPv6 piece."
-msgstr ""
+msgstr "Ihr Router wird automatisch einen IPv4-Header vor Ihr Paket setzen. Genau dieser Router wird Ihrem Computer mitteilen, ob das Paket zu groß sein wird; Ihr Computer wird (wenn er die ICMPv6 \"Packet Too Big\"-Nachricht bekommt) das Paket erneut mit einer kleineren Größe senden, nämlich der von Ihrem Router empfohlenen. Ein Router in der Nähe der Webseite wird den IPv4-Header automatisch entfernen, und den IPv6-Teil weiterleiten."
 
 #: "faq_v6ns_bad.html"
 msgid "OpenDNS is now offering IPv6-specific resolvers, that will be able to retrieve DNS over IPv6. This means the \"v6ns\" test operated here will pass. See the <a target=_blank href=\"https://www.opendns.com/about/innovations/ipv6/\">OpenDNS IPv6 information page</a>."
-msgstr "OpenDNS bietet nun IPv6-spezifische Resolver an, welche DNS über IPv6 ermöglichen. Dies bedeutet, dass der „v6ns\" Test erfolgreich seien wird. Siehe auch <a target=_blank href=\"https://www.opendns.com/about/innovations/ipv6/\">OpenDNS IPv6 Informationsseite</a>."
+msgstr "OpenDNS bietet nun IPv6-spezifische Resolver an, welche DNS über IPv6 ermöglichen. Dies bedeutet, dass der „v6ns\" Test erfolgreich sein wird. Siehe auch <a target=_blank href=\"https://www.opendns.com/about/innovations/ipv6/\">OpenDNS IPv6 Informationsseite</a>."
 
 #: "faq_whyipv6.html"
 msgid "Web sites that today automatically show you your local weather, news, and movies may no longer be able to locate you using your IPv4 address; you'll have to tell the web sites where in the world you are."
-msgstr "Web-Sites, die heute automatisch Ihr lokales Wetter, lokale Nachrichten und das lokale Kinoprogramm anzeigen sind möglicherweise nicht mehr in der Lagerhalle e, Sie anhand Ihrer IPv4-Adresse zu lokalisieren; Sie müssen der Webseite erst sagen, wo in der Welt Sie sich gerade befinden."
+msgstr "Web-Sites, die heute automatisch Ihr lokales Wetter, lokale Nachrichten und das lokale Kinoprogramm anzeigen, sind möglicherweise nicht mehr in der Lage, Sie anhand Ihrer IPv4-Adresse zu lokalisieren; Sie müssen der Webseite erst sagen, wo in der Welt Sie sich gerade befinden."
+
+#: "main/mail.inc"
+msgid "<span id=\"comments_faq_link\"></span> (FAQ) page is available for <b>your</b> exact set of results. Please read it before leaving comments; many questions have already been answered. If you still have questions, comments, or concerns, feel free to use this form."
+msgstr "<span id=\"comments_faq_link\"></span>Die (FAQ-)Seite ist spezifisch für <b>Ihre</b> Testergebnisse. Bitte lesen Sie diese, bevor Sie Kommentare hinterlassen. Viele Fragen wurden darin bereits beantwortet. Falls Sie immer noch Fragen, Kommentare oder Anregungen haben, können Sie gerne dieses Formular benutzen."
 
 #: "main/mail.inc"
 msgid "I consent to sharing my IP address(es), test results, web browser name and version, operating system name and version, and any other information entered above (including email address), as email transmitted to <a mailto=site.mailto href=\"-\"><span lookup=site.contact></span> &lt;<span lookup=site.mailto></span>&gt;</a>; and that this information may be translated by Google Translate."
+msgstr "Ich bin damit einverstanden, meine IP-Adresse/en, Testergebnisse, Webbrowser-Name und -Version, Betriebssystem-Name und -Version, und sonstige oben eingegebenen Informationen (einschließlich e-Mail-Adresse), als E-Mail übertragen an <a mailto=site.mailto href=\"-\"><span lookup=site.contact></span> &lt;<span lookup=site.mailto></span>&gt;</a> zu teilen; sowie dass diese Informationen von Google Translate übersetzt werden dürfen."
+
+#: "inc/footer.inc"
+msgid "Share on:"
+msgstr "Teilen auf:"
+
+#: "faq_avoids_ipv6.html"
+msgid "Since Windows 7, the operating system will periodically test to see if IPv6 works. If the health check fails, then many applications (including Internet Explorer) will use IPv4, to insulate you from any local IPv6 misconfiguration."
+msgstr "Ab Windows 7 überprüft das Betriebssystem regelmäßig, ob IPv6 funktioniert. Wenn dieser Test fehlschlägt, werden viele Anwendungen (einschließlich des Internet Explorer) IPv4 benutzen, um Sie vor einer lokalen IPv6 Fehlkonfiguration zu schützen."
+
+#: "faq_avoids_ipv6.html"
+msgid "Apple's Lion and Mountain Lion updates will prefer whichever is \"faster\" for a given destination."
+msgstr "Apples Lion Updates für Lion und Mountain Lion bevorzugen immer das Protokoll, das für ein Ziel am schnellsten ist."
+
+#: "main/mail.inc"
+msgid "Report a bug with diagnosis or this web site"
+msgstr "Melden Sie Fehler bei der Diagnose oder Fehler dieser Website"
+
+#: "main/mail.inc"
+msgid "Report problem about slow internet service with your provider"
+msgstr "Melden Sie Probleme mit langsamer Internetverbindung bei Ihrem Provider"
+
+#: "main/mail.inc"
+msgid "Hacked phone or computer"
+msgstr "Gehacktes Handy oder Computer"
+
+#: "main/mail.inc"
+msgid "Being watched by spouse, hackers, mafia, government"
+msgstr "Von Ehegatte, Hacker, Mafia, Regierung beobachtet werden"
+
+#: "main/mail.inc"
+msgid "Problems with IPv6 in China"
+msgstr "Probleme mit IPv6 in China"
+
+#: "main/mail.inc"
+msgid "Problems relating to your Internet service, should be sent to your Internet Service Provider. Please contact them for support."
+msgstr "Wegen Problemen im Zusammenhang mit Ihrer Internet-Anbindung wenden Sie sich bitte an Ihren Internet-Service-Provider."
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "This web site is not a tool for security or forensic analysis. If you have security concerns, please find a security professional to consult with. They can offer investication and education that is appropriately matched to your concerns."
+msgstr "Diese Website ist kein Werkzeug für eine Sicherheitsanalyse oder eine forensische Analyse. Wenn Sie Anliegen bzgl. Sicherheit haben, suchen Sie sich einen Sicherheitsexperten, von dem Sie sich beraten lassen können. Dieser kann Nachforschungen und Unterweisung anbieten, die Ihre Anliegen angemessen beantworten."
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "You are in a country that has government controls over available web sites. This web site is operated from outside of your country, and is subject to the policicies and technology limitations of your \"Great Wall\" for the Internet."
+msgstr "Sie befinden sich in einem Land, das über staatliche Kontrollen von verfügbaren Webseiten verfügt. Diese Website wird von außerhalb Ihres Landes betrieben und unterliegt den polizeilichen und technischen Beschränkungen Ihrer \"Great Wall\" für das Internet."
+
+#: "main/mail.inc"
+msgid "This web site is subject to the policies and technology limitations of the \"Great Wall\" for the Internet. Because of these limitations, this web site is not reliable for viewing from inside China."
+msgstr "Diese Website unterliegt den Richtlinien und technischen Einschränkungen der \"Großen Mauer\" für das Internet. Aufgrund dieser Einschränkungen kann diese Website von China aus nicht zuverlässig genutzt werden."
+
+#: "main/mail.inc"
+msgid "This web site is not a tool for security or forensic analysis. If you have security concerns, please find a security professional to consult with. They can offer investigation and education that is appropriately matched to your concerns."
+msgstr "Diese Website ist kein Werkzeug für Sicherheitsanalysen oder forensische Analysen. Wenn Sie Anliegen bzgl. Sicherheit haben, suchen Sie sich einen Sicherheitsexperten, von dem Sie sich beraten lassen können. Dieser kann Nachforschungen und Unterweisungen anbieten, die Ihre Anliegen angemessen beantworten."
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "This mirror marked as out of complaince; you should instead visit <a href='http://test-ipv6.com/'>http://test-ipv6.com</a>."
+msgstr "Dieser Spiegel wurde als nicht konform markiert; stattdessen sollten Sie <a href='http://test-ipv6.com/'>http://test-ipv6.com</a> besuchen."
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "This mirror marked as out of compliance; you should instead visit <a href='///test-ipv6.com/'>test-ipv6.com</a>."
+msgstr "Dieser Spiegel wurde als nicht konform markiert; stattdessen sollten Sie <a href='//test-ipv6.com/'>test-ipv6.com</a> besuchen."
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "This mirror marked as out of compliance; you should instead visit <a href='//test-ipv6.com/'>test-ipv6.com</a>."
+msgstr "Dieser Spiegel wurde als nicht konform markiert; stattdessen sollten Sie <a href='//test-ipv6.com/'>test-ipv6.com</a> besuchen."
+
+#: "inc/messages.js"
+msgid "This mirror has been marked as out of compliance; you should instead visit <a href='//test-ipv6.com/'>test-ipv6.com</a>."
+msgstr "Dieser Spiegel wurde als nicht konform markiert; stattdessen sollten Sie <a href='//test-ipv6.com/'>test-ipv6.com</a> besuchen."
+
+#: "inc/messages.js"
+msgid "If you are using a VPN, your VPN is only protecting one protocol, not both."
+msgstr "Wenn Sie ein VPN verwenden, schützt Ihr VPN nur ein Protokoll, nicht beides."
+
+#: "faq.html"
+msgid "Q: Can you fix my VPN?"
+msgstr "F: Können Sie mein VPN reparieren?"
+
+#: "faq.html"
+msgid "No, I can not fix your VPN."
+msgstr "Nein, ich kann Ihr VPN nicht reparieren."
+
+#: "faq_no_ipv4.html"
+msgid "The NoScript browser extension disables scripts on the page. In the upper right corner of your browser, is the NoScript icon. Click this to bring up a menu; and temporarily permit scripts on this site."
 msgstr ""
 

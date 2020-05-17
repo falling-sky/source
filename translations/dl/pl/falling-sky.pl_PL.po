@@ -1,14 +1,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2018-03-01 02:30-0500\n"
-"Last-Translator: jfesler <jfesler@gigo.com>\n"
+"PO-Revision-Date: 2020-05-16 15:30\n"
+"Last-Translator: Unspecified Translator <jfesler+unspecified-translator@test-ipv6.com>\n"
 "Language-Team: Polish\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=((n == 1) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || n%10 == 1 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 12 && n%100 <= 14)) ? 2 : 3));\n"
-"X-Generator: crowdin.com\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 "X-Crowdin-Project: falling-sky\n"
 "X-Crowdin-Language: pl\n"
 "X-Crowdin-File: falling-sky.pot\n"
@@ -132,7 +131,7 @@ msgstr "Najbardziej prawdopodobną przyczyną jest NoScript lub AdBlock+. NoScri
 
 #: "inc/messages.js"
 msgid "NAT64 detected. IPv6 works. IPv4 works for most purposes. Applications that are hard-coded for IPv4-only will fail. We are aware of at least one major voice-over-ip program that falls into this category. Your application's support staff may need a nudge to add proper IPv6 support."
-msgstr ""
+msgstr "NAT64 wykryte. IPv6 działa. IPv4 działa w większości celów. Aplikacje, które są zakodowane na stałe tylko dla IPv4, zawiodą. Zdajemy sobie sprawę z co najmniej jednego dużego programu do obsługi głosu, który należy do tej kategorii. Pracownicy obsługi twojej aplikacji mogą potrzebować pomocy, aby dodać odpowiednią obsługę IPv6."
 
 #: "inc/messages.js"
 msgid "Your DNS server (possibly run by your ISP) appears to have IPv6 Internet access."
@@ -426,7 +425,7 @@ msgstr "Internetowa pomoc techniczna może poprosić o informacje podane poniże
 msgid "Test your IPv6."
 msgstr "Testuj twoje IPv6."
 
-#: "inc/header.inc"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "This will test your browser and connection for IPv6 readiness, as well as show you your current IPV4 and IPv6 address."
 msgstr "Ten test sprawdzi twoją przeglądarkę i połączenie pod gotowość IPv6, jak również pokaże ci twój bieżący adres IPv4 i IPv6."
 
@@ -460,7 +459,7 @@ msgstr "JavaScript jest wymagany"
 
 #: "inc/js_required.inc"
 msgid "This site requires JavaScript, as well as the ability to pull in cross-site scripts, in order to perform the testing."
-msgstr ""
+msgstr "Ta strona wymaga JavaScript, a także możliwość przeciągania skryptów cross-site, w celu przeprowadzenia testów."
 
 #: "inc/js_required.inc"
 msgid "If this message does not go away, it means that JavaScript has been disabled, either by a plugin or extension in your browser, or by explicit browser setting."
@@ -472,7 +471,7 @@ msgstr "Czy używasz NoScript?"
 
 #: "inc/js_required.inc"
 msgid "If you use this Firefox add-on, you'll need to \"Temporarily allow all this page\". You will need to do this <b>twice</b> for everything to work. Alternately, disable NoScript entirely until you are done with this site."
-msgstr ""
+msgstr "Jeśli używasz tego dodatku do Firefoksa, musisz \"Tymczasowo zezwolić na tę stronę\". Będziesz musiał zrobić to <b>dwa razy</b>, aby wszystko poprawnie działało. Ewentualnie wyłącz NoScript całkowicie, dopóki nie ukończysz tej strony."
 
 #: "inc/js_required.inc"
 msgid "You can opt instead to view the <a href=\"simple_test.html\">simple test</a>, which will give you a quick pass/fail for IPv4, IPv4+IPv6, and IPv6. It will however offer little diagnostic information."
@@ -650,7 +649,7 @@ msgstr "To obejmuje twojego adresu IP, który jest dzielony z administratorem st
 msgid "Use of this form implies consent."
 msgstr "Używanie tego formularza oznacza zgodę."
 
-#: "main/mail.inc"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "<span id=\"comments_faq_link\"></span> (FAQ) page is available for <b>your</b> exact set of results. Please read it before leaving comments; many questions have already been answered. If you still have questions, comments, or concerns, feel freel to use this form."
 msgstr ""
 
@@ -674,7 +673,7 @@ msgstr "Cel wysyłki komentarza"
 msgid "Questions about test results"
 msgstr "Pytania odnośnie rezultatów z testu"
 
-#: "main/mail.inc"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Report a bug with diagnosis"
 msgstr "Zgłoszenie błędu w teście"
 
@@ -1012,7 +1011,7 @@ msgstr "Zwróć uwagę czy znajduje się router."
 
 #: "faq/find_ip.inc"
 msgid "Make a note of the IPv6 address (if any)."
-msgstr ""
+msgstr "Zapisz adres IPv6 (jeśli taki istnieje)."
 
 #: "faq/find_ip.inc"
 msgid "OS X users: To find your IP address using the command line:"
@@ -1020,7 +1019,7 @@ msgstr "Użytkownicy OS X: Aby znaleźć swój adres IP używając wiersza polec
 
 #: "faq/find_ip.inc"
 msgid "To open your terminal: Go to your Applications folder; go to Utilities; and double click Terminal."
-msgstr ""
+msgstr "Aby otworzyć twój terminal: Udaj się do folderu aplikacji, przejdź do Narzędzi; i kliknij dwukrotnie Terminal."
 
 #: "not-used, archived.  Not currently needed for translation."
 msgid "To see your IP addresses: <code>ifconfig -f inet6</code>."
@@ -1052,7 +1051,7 @@ msgstr "Użytkownicy systemu Linux: Aby znaleźć trasę IPv6 użyj:"
 
 #: "faq/find_ip.inc"
 msgid "Generic unix instructions for determining your IPv6 address and default route:"
-msgstr ""
+msgstr "Ogólne instrukcje uniksowe do określania adresu IPv6 i trasy domyślnej:"
 
 #: "faq/find_ip.inc"
 msgid "Run"
@@ -1484,7 +1483,7 @@ msgstr "P: Jak działa ten test?"
 
 #: "faq.html"
 msgid "The test is entirely client-side javascript. To determine reachability, a series of ajax requests are made from the web server, using various DNS names that force the use of IPv6 only, or dual stack, or other such scenarios. The pass/fail of such fetches, as well as how long they take, are taken into account."
-msgstr ""
+msgstr "Test jest całkowicie oparty o javascript po stronie klienta. Aby określić osiągalność, seria żądań ajax jest wykonywana z serwera WWW, używając różnych nazw DNS, które wymuszają użycie wyłącznie IPv6 lub podwójnego stosu lub innych takich scenariuszy. Brane są pod uwagę zaliczenia/niepowodzenia takich pobrań, a także czas ich trwania."
 
 #: "faq.html"
 msgid "Q: Why is this web site reachable via IPv4 only?"
@@ -1580,19 +1579,19 @@ msgstr "P: Czy rzeczywiście czytacie opinie?"
 
 #: "faq.html"
 msgid "Yes, I do. Thank you! Note that I can only follow up with you if you do leave contact information. While I am still grateful for feedback without contact information, I will be unable to reply with any answers if you asked for them."
-msgstr ""
+msgstr "Tak, to prawda. Dziękuję! Pamiętaj, że mogę się z Tobą skontaktować tylko wtedy, gdy pozostawisz dane kontaktowe. Chociaż nadal jestem wdzięczny za informacje zwrotne bez danych kontaktowych, nie będę w stanie odpowiedzieć na żadne z nich, jeśli o nie poprosisz."
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Q: How else can I contact you?"
 msgstr "P: Jak inaczej można się z Tobą skontaktować?"
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "I would prefer you use the form, as it gives details of your connectivity, and bypasses any mail filters."
-msgstr ""
+msgstr "Wolałbym, żebyś skorzystał z formularza, ponieważ podaje on szczegóły dotyczące połączenia i omija wszelkie filtry pocztowe."
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "That said, you are welcome to directly email <a href=\"mailto:jfesler@test-ipv6.com\">jfesler@test-ipv6.com</a>."
-msgstr ""
+msgstr "Mimo to, zapraszam do bezpośredniego wyłania e-maila na <a href=\"mailto:jfesler@test-ipv6.com\">jfesler@test-ipv6.com</a>."
 
 #: "faq.html"
 msgid "Q: Is this open source?"
@@ -1664,15 +1663,15 @@ msgstr "Naszą misją jest zatem:"
 
 #: "mission.html"
 msgid "Help people identify if they will have problems when publishers offer their web sites on IPv6;"
-msgstr "Pomóż ludziom zidentyfikowanych czy mają problem gdy wydawcy oferują swoje strony na IPv6;"
+msgstr "Pomóc ludziom zidentyfikować czy mają problem gdy wydawcy oferują swoje strony na IPv6;"
 
 #: "mission.html"
 msgid "Help people fix their system configuration so that they are no longer affected."
-msgstr "Pomóż ludziom naprawić ich konfigurację systemu żeby już ich to nie dotyczyło."
+msgstr "Pomóc ludziom naprawić ich konfigurację systemu żeby już ich to nie dotyczyło."
 
 #: "mission.html"
 msgid "To do so in a brand neutral, ad-free way."
-msgstr ""
+msgstr "Aby to uczynić w sposób neutralny i wolny od reklam."
 
 #: "mission.html"
 msgid "Why do we do this?"
@@ -1716,7 +1715,7 @@ msgstr "Jak możesz pomóc"
 
 #: "mission.html"
 msgid "This is an open-source project. I can certainly use your help in a variety of ways; please see the <a href=\"source.html\">source</a> page."
-msgstr "Jest to projekt typu open-source. Z pewnością mogę skorzystać z twojej pomocy na różne sposoby; zobacz <a href=\"source.html\"> źródło </a> strona."
+msgstr "Jest to projekt typu open-source. Z pewnością mogę skorzystać z twojej pomocy na różne sposoby; zobacz <a href=\"source.html\"> źródło</a> strony."
 
 #: "mirrors.html"
 msgid "test-ipv6.com mirrors"
@@ -1924,7 +1923,7 @@ msgstr ""
 
 #: "faq_no_ipv6.html"
 msgid "You appear to have no IPv6 at this time.."
-msgstr ""
+msgstr "Wygląda na to, że w tej chwili nie posiadasz adresu IPv6.."
 
 #: "faq_no_ipv6.html"
 msgid "You appear to have no IPv6 address."
@@ -2554,11 +2553,11 @@ msgstr "(więcej informacji)"
 msgid "Firefox (recent builds) does the same as Chrome."
 msgstr "Firefox (ostatnie kompilacje) zachowuje się tak samo jak Chrome."
 
-#: "faq_avoids_ipv6.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "The latest Windows 7 and Windows 8 updates will periodically test to see if IPv6 works. If the health check fails, then many applications (including Internet Explorer) will use IPv4, to insulate you from any local IPv6 misconfiguration."
 msgstr ""
 
-#: "faq_avoids_ipv6.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Apple's latest Lion and Mountain Lion updates will prefer whichever is \"faster\" for a given destination."
 msgstr ""
 
@@ -2694,7 +2693,7 @@ msgstr ""
 msgid "Firefox and NoScript"
 msgstr "Firefox i NoScript"
 
-#: "faq_no_ipv4.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "The NoScript browser plugin disables scripts on the page. In the lower right corner of your browser, is the NoScript icon. Click this to bring up a menu; and temporarilly permit scripts on this site."
 msgstr ""
 
@@ -2760,7 +2759,7 @@ msgstr ""
 
 #: "faq.html"
 msgid "Send email to jfesler@test-ipv6.com. If your IPv6-only network has dedicated name servers, or a dedicated BGP ASN, jfesler will enable AAAA records for test-ipv6.com for you."
-msgstr ""
+msgstr "Wyślij e-mail na jfesler@test-ipv6.com. Jeśli Twoja sieć IPv6-only ma dedykowane serwery nazwy lub dedykowany BGP ASN, jfesler włączy dla Ciebie rekordy AAAA dla test-ipv6.com."
 
 #: "faq.html"
 msgid "If you don't meet the above requirements, you can visit http://ipv6.test-ipv6.com (IPv6-only) or http://ds.test-ipv6.com (IPv4+IPv6)."
@@ -2874,6 +2873,10 @@ msgstr "Wyniki testu"
 msgid "Please consent to sharing your data."
 msgstr ""
 
+#: "inc/header.inc"
+msgid "This will test your browser and connection for IPv6 readiness, as well as show you your current IPv4 and IPv6 address."
+msgstr ""
+
 #: "faq_avoids_ipv6.html"
 msgid "As of OS X 10.11 \"El Capitan\" and iOS 9, IPv6 is given a slight preference; but will fall back to IPv4 if network conditions warrant it."
 msgstr ""
@@ -2891,6 +2894,94 @@ msgid "Web sites that today automatically show you your local weather, news, and
 msgstr ""
 
 #: "main/mail.inc"
+msgid "<span id=\"comments_faq_link\"></span> (FAQ) page is available for <b>your</b> exact set of results. Please read it before leaving comments; many questions have already been answered. If you still have questions, comments, or concerns, feel free to use this form."
+msgstr ""
+
+#: "main/mail.inc"
 msgid "I consent to sharing my IP address(es), test results, web browser name and version, operating system name and version, and any other information entered above (including email address), as email transmitted to <a mailto=site.mailto href=\"-\"><span lookup=site.contact></span> &lt;<span lookup=site.mailto></span>&gt;</a>; and that this information may be translated by Google Translate."
+msgstr ""
+
+#: "inc/footer.inc"
+msgid "Share on:"
+msgstr ""
+
+#: "faq_avoids_ipv6.html"
+msgid "Since Windows 7, the operating system will periodically test to see if IPv6 works. If the health check fails, then many applications (including Internet Explorer) will use IPv4, to insulate you from any local IPv6 misconfiguration."
+msgstr ""
+
+#: "faq_avoids_ipv6.html"
+msgid "Apple's Lion and Mountain Lion updates will prefer whichever is \"faster\" for a given destination."
+msgstr ""
+
+#: "main/mail.inc"
+msgid "Report a bug with diagnosis or this web site"
+msgstr ""
+
+#: "main/mail.inc"
+msgid "Report problem about slow internet service with your provider"
+msgstr ""
+
+#: "main/mail.inc"
+msgid "Hacked phone or computer"
+msgstr ""
+
+#: "main/mail.inc"
+msgid "Being watched by spouse, hackers, mafia, government"
+msgstr ""
+
+#: "main/mail.inc"
+msgid "Problems with IPv6 in China"
+msgstr "Problemy z IPv6 w Chinach"
+
+#: "main/mail.inc"
+msgid "Problems relating to your Internet service, should be sent to your Internet Service Provider. Please contact them for support."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "This web site is not a tool for security or forensic analysis. If you have security concerns, please find a security professional to consult with. They can offer investication and education that is appropriately matched to your concerns."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "You are in a country that has government controls over available web sites. This web site is operated from outside of your country, and is subject to the policicies and technology limitations of your \"Great Wall\" for the Internet."
+msgstr ""
+
+#: "main/mail.inc"
+msgid "This web site is subject to the policies and technology limitations of the \"Great Wall\" for the Internet. Because of these limitations, this web site is not reliable for viewing from inside China."
+msgstr ""
+
+#: "main/mail.inc"
+msgid "This web site is not a tool for security or forensic analysis. If you have security concerns, please find a security professional to consult with. They can offer investigation and education that is appropriately matched to your concerns."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "This mirror marked as out of complaince; you should instead visit <a href='http://test-ipv6.com/'>http://test-ipv6.com</a>."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "This mirror marked as out of compliance; you should instead visit <a href='///test-ipv6.com/'>test-ipv6.com</a>."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "This mirror marked as out of compliance; you should instead visit <a href='//test-ipv6.com/'>test-ipv6.com</a>."
+msgstr ""
+
+#: "inc/messages.js"
+msgid "This mirror has been marked as out of compliance; you should instead visit <a href='//test-ipv6.com/'>test-ipv6.com</a>."
+msgstr ""
+
+#: "inc/messages.js"
+msgid "If you are using a VPN, your VPN is only protecting one protocol, not both."
+msgstr ""
+
+#: "faq.html"
+msgid "Q: Can you fix my VPN?"
+msgstr ""
+
+#: "faq.html"
+msgid "No, I can not fix your VPN."
+msgstr ""
+
+#: "faq_no_ipv4.html"
+msgid "The NoScript browser extension disables scripts on the page. In the upper right corner of your browser, is the NoScript icon. Click this to bring up a menu; and temporarily permit scripts on this site."
 msgstr ""
 

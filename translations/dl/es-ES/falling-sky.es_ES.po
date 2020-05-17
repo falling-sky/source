@@ -1,14 +1,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2018-03-01 02:30-0500\n"
-"Last-Translator: jfesler <jfesler@gigo.com>\n"
+"PO-Revision-Date: 2020-05-16 15:30\n"
+"Last-Translator: Unspecified Translator <jfesler+unspecified-translator@test-ipv6.com>\n"
 "Language-Team: Spanish\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: crowdin.com\n"
 "X-Crowdin-Project: falling-sky\n"
 "X-Crowdin-Language: es-ES\n"
 "X-Crowdin-File: falling-sky.pot\n"
@@ -426,7 +425,7 @@ msgstr "Su centro de ayuda de Internet puede solicitarle la siguiente informaci�
 msgid "Test your IPv6."
 msgstr "Prueba tu IPv6."
 
-#: "inc/header.inc"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "This will test your browser and connection for IPv6 readiness, as well as show you your current IPV4 and IPv6 address."
 msgstr "Esto va a probar su navegador y conexión IPv6, así como mostrar su dirección actual IPV4 e IPv6."
 
@@ -650,7 +649,7 @@ msgstr "Esto incluye su dirección IP, que es compartida con el administrador de
 msgid "Use of this form implies consent."
 msgstr "Uso de este formulario implica su consentimiento."
 
-#: "main/mail.inc"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "<span id=\"comments_faq_link\"></span> (FAQ) page is available for <b>your</b> exact set of results. Please read it before leaving comments; many questions have already been answered. If you still have questions, comments, or concerns, feel freel to use this form."
 msgstr "<span id=\"comments_faq_link\"></span> página (FAQ) está disponible para <b>su</b> conjunto exacto de resultados. Por favor, léalo antes de dejar comentarios; muchas preguntas ya han sido contestadas. Si usted todavía tiene preguntas, comentarios o preocupaciones, use este formulario."
 
@@ -674,7 +673,7 @@ msgstr "Propósito para comentario"
 msgid "Questions about test results"
 msgstr "Preguntas sobre los resultados"
 
-#: "main/mail.inc"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Report a bug with diagnosis"
 msgstr "Notificar un error con diagnóstico"
 
@@ -1582,15 +1581,15 @@ msgstr "P: ¿Realmente lee los comentarios?"
 msgid "Yes, I do. Thank you! Note that I can only follow up with you if you do leave contact information. While I am still grateful for feedback without contact information, I will be unable to reply with any answers if you asked for them."
 msgstr "Sí, lo hago. ¡Gracias! Tenga en cuenta que sólo puedo comunicarme con usted si usted deja información de contacto. Mientras que todavía le agradezco comentarios sin información de contacto, no podré contestar sus preguntas si las tiene."
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Q: How else can I contact you?"
 msgstr "P: ¿De qué otra manera puedo contactarle?"
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "I would prefer you use the form, as it gives details of your connectivity, and bypasses any mail filters."
 msgstr "Prefiero que use el formulario, ya que da detalles de su conectividad y se brinca los filtros de correo."
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "That said, you are welcome to directly email <a href=\"mailto:jfesler@test-ipv6.com\">jfesler@test-ipv6.com</a>."
 msgstr "Dicho esto, eres bienvenido a enviarme directamente un correo electrónico a <a href=\"mailto:jfesler@test-ipv6.com\"> jfesler@test-ipv6.com</a>."
 
@@ -2554,11 +2553,11 @@ msgstr "(más información)"
 msgid "Firefox (recent builds) does the same as Chrome."
 msgstr "Firefox (versiones recientes) hace lo mismo que Chrome."
 
-#: "faq_avoids_ipv6.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "The latest Windows 7 and Windows 8 updates will periodically test to see if IPv6 works. If the health check fails, then many applications (including Internet Explorer) will use IPv4, to insulate you from any local IPv6 misconfiguration."
 msgstr "Las últimas actualizaciones de Windows 7 y Windows 8 prueban periódicamente si funciona IPv6. Si falla el chequeo, entonces muchas aplicaciones (incluyendo Internet Explorer) utilizarán IPv4, para aislarle de cualquier problema de configuración IPv6 local."
 
-#: "faq_avoids_ipv6.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Apple's latest Lion and Mountain Lion updates will prefer whichever is \"faster\" for a given destination."
 msgstr "Últimas actualizaciones de Apple de Lion y Mountain Lion prefieren la que sea más \"rápida\" para un destino determinado."
 
@@ -2694,7 +2693,7 @@ msgstr "Puesto que obviamente la prueba falló, aquí está una prueba simple pa
 msgid "Firefox and NoScript"
 msgstr "Firefox y NoScript"
 
-#: "faq_no_ipv4.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "The NoScript browser plugin disables scripts on the page. In the lower right corner of your browser, is the NoScript icon. Click this to bring up a menu; and temporarilly permit scripts on this site."
 msgstr "El plugin de navegador NoScript desactiva scripts en la página. En la esquina inferior derecha del navegador, verá el icono de NoScript. Haga clic allí para abrir un menú; y temporalmente permita scripts en este sitio."
 
@@ -2808,7 +2807,7 @@ msgstr "Soporte HTTPS en este sitio web está en <em>fase beta</em>."
 
 #: "inc/messages.js"
 msgid "%HTTPS support is now available on this site."
-msgstr "% HTTPS ahora está disponible en este sitio."
+msgstr "%HTTPS ahora está disponible en este sitio."
 
 #: "inc/messages.js"
 msgid "faq: Using HTTPS"
@@ -2874,6 +2873,10 @@ msgstr "Datos de prueba"
 msgid "Please consent to sharing your data."
 msgstr "Por favor dé su consentimiento a compartir sus datos."
 
+#: "inc/header.inc"
+msgid "This will test your browser and connection for IPv6 readiness, as well as show you your current IPv4 and IPv6 address."
+msgstr "Esto va a probar su navegador y conexión IPv6, así como mostrar su dirección actual IPV4 e IPv6."
+
 #: "faq_avoids_ipv6.html"
 msgid "As of OS X 10.11 \"El Capitan\" and iOS 9, IPv6 is given a slight preference; but will fall back to IPv4 if network conditions warrant it."
 msgstr "A partir del OS X 10.11 \"El Capitan\" y iOS 9, IPv6 se recibe una ligera preferencia; pero recurrirá a IPv4 si las condiciones de la red lo justifican."
@@ -2891,6 +2894,94 @@ msgid "Web sites that today automatically show you your local weather, news, and
 msgstr "Sitios web que hoy muestran automáticamente su tiempo local, noticias y películas ya no podrán ser capaces de localizarlo mediante su dirección IPv4; Tendrá que decirle los sitios donde está ubicado."
 
 #: "main/mail.inc"
+msgid "<span id=\"comments_faq_link\"></span> (FAQ) page is available for <b>your</b> exact set of results. Please read it before leaving comments; many questions have already been answered. If you still have questions, comments, or concerns, feel free to use this form."
+msgstr "<span id=\"comments_faq_link\"></span> página (FAQ) está disponible para <b>su</b> conjunto exacto de resultados. Por favor, léalo antes de dejar comentarios; muchas preguntas ya han sido contestadas. Si usted todavía tiene preguntas, comentarios o preocupaciones, use este formulario."
+
+#: "main/mail.inc"
 msgid "I consent to sharing my IP address(es), test results, web browser name and version, operating system name and version, and any other information entered above (including email address), as email transmitted to <a mailto=site.mailto href=\"-\"><span lookup=site.contact></span> &lt;<span lookup=site.mailto></span>&gt;</a>; and that this information may be translated by Google Translate."
 msgstr "Doy mi consentimiento para compartir mi(s) dirección(es) IP, resultados de la prueba, nombre del navegador web y versión, nombre del sistema operativo y versión, y cualquier otra información ingresado anteriormente (incluyendo dirección de correo electrónico), como correo electrónico transmitido a <a mailto=site.mailto href=\"-\"><span lookup=site.contact></span> &lt;<span lookup=site.mailto></span>&gt;</a>; y que esta información pueda ser traducida por Google Translate."
+
+#: "inc/footer.inc"
+msgid "Share on:"
+msgstr "Compartir en:"
+
+#: "faq_avoids_ipv6.html"
+msgid "Since Windows 7, the operating system will periodically test to see if IPv6 works. If the health check fails, then many applications (including Internet Explorer) will use IPv4, to insulate you from any local IPv6 misconfiguration."
+msgstr "Desde Windows 7, el sistema operativo probará periódicamente si IPv6 funciona. Si el chequeo de salud falla, muchas aplicaciones (incluyendo Internet Explorer) usarán IPv4, para aislarlo de cualquier error de IPv6 local."
+
+#: "faq_avoids_ipv6.html"
+msgid "Apple's Lion and Mountain Lion updates will prefer whichever is \"faster\" for a given destination."
+msgstr "Las actualizaciones de Apple Lion y Mountain Lion preferirán lo que sea \"más rápido\" para un destino determinado."
+
+#: "main/mail.inc"
+msgid "Report a bug with diagnosis or this web site"
+msgstr "Reportar un error con el diagnóstico o este sitio web"
+
+#: "main/mail.inc"
+msgid "Report problem about slow internet service with your provider"
+msgstr "Reportar problema sobre el servicio lento de internet con su proveedor"
+
+#: "main/mail.inc"
+msgid "Hacked phone or computer"
+msgstr "Teléfono u ordenador hackeado"
+
+#: "main/mail.inc"
+msgid "Being watched by spouse, hackers, mafia, government"
+msgstr "Ser vigilado por cónyuge, hackers, mafia, gobierno"
+
+#: "main/mail.inc"
+msgid "Problems with IPv6 in China"
+msgstr "Problemas con IPv6 en China"
+
+#: "main/mail.inc"
+msgid "Problems relating to your Internet service, should be sent to your Internet Service Provider. Please contact them for support."
+msgstr "Problemas relacionados con su servicio de Internet, deben ser enviados a su proveedor de servicios de Internet. Por favor, póngase en contacto con ellos para recibir soporte."
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "This web site is not a tool for security or forensic analysis. If you have security concerns, please find a security professional to consult with. They can offer investication and education that is appropriately matched to your concerns."
+msgstr "Este sitio web no es una herramienta para la seguridad o el análisis forense. Si tiene preocupaciones en materia de seguridad, por favor consulte a un profesional en seguridad. Ellos pueden ofrecer investigación y educación que se adapte adecuadamente a sus preocupaciones."
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "You are in a country that has government controls over available web sites. This web site is operated from outside of your country, and is subject to the policicies and technology limitations of your \"Great Wall\" for the Internet."
+msgstr "Usted está en un país que tiene controles gubernamentales sobre sitios web disponibles. Este sitio web se opera desde fuera de su país, y está sujeto a las limitaciones de políticas y tecnología de su \"Gran Muro\" para Internet."
+
+#: "main/mail.inc"
+msgid "This web site is subject to the policies and technology limitations of the \"Great Wall\" for the Internet. Because of these limitations, this web site is not reliable for viewing from inside China."
+msgstr "Este sitio web está sujeto a las políticas y limitaciones de la tecnología de la \"gran muralla\" para Internet. Debido a estas limitaciones, este sitio web no es confiable desde dentro de China."
+
+#: "main/mail.inc"
+msgid "This web site is not a tool for security or forensic analysis. If you have security concerns, please find a security professional to consult with. They can offer investigation and education that is appropriately matched to your concerns."
+msgstr "Este sitio web no es una herramienta para la seguridad o el análisis forense. Si tiene preocupaciones en materia de seguridad, por favor consulte a un profesional en seguridad. Ellos pueden ofrecer investigación y educación que se adapte adecuadamente a sus preocupaciones."
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "This mirror marked as out of complaince; you should instead visit <a href='http://test-ipv6.com/'>http://test-ipv6.com</a>."
+msgstr "Este espejo está marcado como fuera de la conformidad; en su lugar debería visitar <a href='http://test-ipv6.com/'>http://test-ipv6.com</a>."
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "This mirror marked as out of compliance; you should instead visit <a href='///test-ipv6.com/'>test-ipv6.com</a>."
+msgstr "Este espejo está marcado como fuera de la conformidad; en su lugar debería visitar <a href='http://test-ipv6.com/'>http://test-ipv6.com</a>."
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "This mirror marked as out of compliance; you should instead visit <a href='//test-ipv6.com/'>test-ipv6.com</a>."
+msgstr "Este espejo está marcado como fuera de la conformidad; en su lugar debería visitar <a href='http://test-ipv6.com/'>http://test-ipv6.com</a>."
+
+#: "inc/messages.js"
+msgid "This mirror has been marked as out of compliance; you should instead visit <a href='//test-ipv6.com/'>test-ipv6.com</a>."
+msgstr "Este espejo está marcado como fuera de la conformidad; en su lugar debería visitar <a href='http://test-ipv6.com/'>http://test-ipv6.com</a>."
+
+#: "inc/messages.js"
+msgid "If you are using a VPN, your VPN is only protecting one protocol, not both."
+msgstr "Si está utilizando una VPN, su VPN solo está protegiendo un protocolo, no ambos."
+
+#: "faq.html"
+msgid "Q: Can you fix my VPN?"
+msgstr ""
+
+#: "faq.html"
+msgid "No, I can not fix your VPN."
+msgstr ""
+
+#: "faq_no_ipv4.html"
+msgid "The NoScript browser extension disables scripts on the page. In the upper right corner of your browser, is the NoScript icon. Click this to bring up a menu; and temporarily permit scripts on this site."
+msgstr ""
 

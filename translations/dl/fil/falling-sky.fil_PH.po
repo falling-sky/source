@@ -1,14 +1,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2018-03-01 06:00-0500\n"
-"Last-Translator: jfesler <jfesler@gigo.com>\n"
+"PO-Revision-Date: 2020-05-16 15:30\n"
+"Last-Translator: Unspecified Translator <jfesler+unspecified-translator@test-ipv6.com>\n"
 "Language-Team: Filipino\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: crowdin.com\n"
 "X-Crowdin-Project: falling-sky\n"
 "X-Crowdin-Language: fil\n"
 "X-Crowdin-File: falling-sky.pot\n"
@@ -412,7 +411,7 @@ msgstr "hindi kilalang pagpapalawak"
 
 #: "inc/checkresults.js"
 msgid "unknown result code"
-msgstr ""
+msgstr "hindi alam na resulta ng code"
 
 #: "inc/symptoms.js"
 msgid "Your browser blocked"
@@ -420,163 +419,163 @@ msgstr "Ang iyong browser ay hinarangan"
 
 #: "inc/helpdesk.js"
 msgid "Your Internet help desk may ask you for the information below."
-msgstr ""
+msgstr "Ang iyong Internet help desk ay maaring humiling sa iyo ng mga impormasyon sa ibaba."
 
 #: "inc/header.inc"
 msgid "Test your IPv6."
-msgstr "Subukan ang iyong IPv6."
+msgstr "Ang iyong IPv6 au subukan."
 
-#: "inc/header.inc"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "This will test your browser and connection for IPv6 readiness, as well as show you your current IPV4 and IPv6 address."
-msgstr "Susubukan nito ang iyong browser at koneksyon para sa IPv6 na kahandaan, pati na rin ipapakita sa iyo ang kasalukuyan mong IPV4 at IPv6 na address."
+msgstr "Ito ay susubukan sa iyong browser at koneksyon para sa IPv6 na kahandaan, pati na rin ipapakita sa iyo ang kasalukuyan mong IPV4 at IPv6 na address."
 
 #: "inc/list-nav.inc"
 msgid "Test IPv6"
-msgstr ""
+msgstr "Suriin ang IPv6"
 
 #: "inc/list-nav.inc"
 msgid "FAQ"
-msgstr ""
+msgstr "FAQ"
 
 #: "inc/list-nav.inc"
 msgid "Mirrors"
-msgstr ""
+msgstr "Mga salamin"
 
 #: "inc/list-nav.inc"
 msgid "stats"
-msgstr ""
+msgstr "mga statistika"
 
 #: "index.html"
 msgid "Test your IPv6 connectivity."
-msgstr ""
+msgstr "Subukan ang iyong koneksyon sa IPv6."
 
 #: "index.html"
 msgid "(Replay)"
-msgstr ""
+msgstr "(Muling paglalaro)"
 
 #: "inc/js_required.inc"
 msgid "JavaScript Required"
-msgstr ""
+msgstr "JavaScript ay kinakailangan"
 
 #: "inc/js_required.inc"
 msgid "This site requires JavaScript, as well as the ability to pull in cross-site scripts, in order to perform the testing."
-msgstr ""
+msgstr "Ang site na ito ay nangangailangan ng JavaScript, pati na rin ang kakayahang mag-pull sa mga cross-site, upang maisagawa ang pagsubok."
 
 #: "inc/js_required.inc"
 msgid "If this message does not go away, it means that JavaScript has been disabled, either by a plugin or extension in your browser, or by explicit browser setting."
-msgstr ""
+msgstr "Kung ang mensahe na ito ay hindi mawawala, ito ay nangangahulugan na ang JavaScript ay hindi pinagana, alinman sa pamamagitan ng isang plugin o extension sa iyong browser, o sa tahasang setting ng browser."
 
 #: "inc/js_required.inc"
 msgid "Do you use NoScript?"
-msgstr ""
+msgstr "Gumagamit ka ba ng NoScript?"
 
 #: "inc/js_required.inc"
 msgid "If you use this Firefox add-on, you'll need to \"Temporarily allow all this page\". You will need to do this <b>twice</b> for everything to work. Alternately, disable NoScript entirely until you are done with this site."
-msgstr ""
+msgstr "Kung gagamitin mo ang Firefox add-on na ito, kailangan mong \"Pansamantalang pahintulutan lahat ng pahinang ito\". Kailangan mong gawin ito <b>dalawang beses</b> para gumana ang lahat. Halilihan, huwag paganahin ang buong NoScript hanggang matapos ka sa site na ito."
 
 #: "inc/js_required.inc"
 msgid "You can opt instead to view the <a href=\"simple_test.html\">simple test</a>, which will give you a quick pass/fail for IPv4, IPv4+IPv6, and IPv6. It will however offer little diagnostic information."
-msgstr ""
+msgstr "Puwede kang magpasya sa halip na suriin ang <a href=\"simple_test.html\">simpleng pagsusuri</a>, na magbibigay sa iyo ng mabilis na pass/fail para sa IPv4,IPv4+IPv6. Gayunpaman magbibigay ito ng kaunting diagnastikong impormasyon."
 
 #: "main/tabnav.inc"
 msgid "For the Help Desk"
-msgstr ""
+msgstr "Para sa Help Desk"
 
 #: "main/tabnav.inc"
 msgid "Summary"
-msgstr ""
+msgstr "Buod"
 
 #: "main/tabnav.inc"
 msgid "Tests Run"
-msgstr ""
+msgstr "Tests Run"
 
 #: "main/tabnav.inc"
 msgid "Share Results / Contact"
-msgstr ""
+msgstr "Ibahagi ang mga resulta / Kontak"
 
 #: "main/tabnav.inc"
 msgid "FAQ for You"
-msgstr ""
+msgstr "FAQ para sa iyo"
 
 #: "main/tabnav.inc"
 msgid "Help Popup"
-msgstr ""
+msgstr "Lumitaw na Tulong"
 
 #: "main/tabnav.inc"
 msgid "Debug"
-msgstr ""
+msgstr "Mag-alis"
 
 #: "main/tabnav.inc"
 msgid "Other IPv6 Sites"
-msgstr ""
+msgstr "Ibang mga site ng IPv6"
 
 #: "main/tests.inc"
 msgid "How this test works:"
-msgstr ""
+msgstr "Paano gumagana ang pagsusuri na ito:"
 
 #: "main/tests.inc"
 msgid "Your browser will be instructed to reach a series of URLs. The combination of successes and failures tells a story about how ready you are for when publishers start offering their web sites on IPv6."
-msgstr ""
+msgstr "Ang iyong browser ay magiging atasan upang maabot ang mga serye ng URLs. Ang kumbinasyonng mga tagumpay at kabiguan ay nagsasabi ng kuwento tungkol sa kung paano ka handa kapag nagsisimula ang mga publisher na mag-alay ng kanilang mga web site sa IPv6."
 
 #: "main/tests.inc"
 msgid "Technical Info"
-msgstr ""
+msgstr "Teknikal na Impormasyon"
 
 #: "main/tests.inc"
 msgid "Test with IPv4 DNS record"
-msgstr ""
+msgstr "Magtest gamit ang IPv4 na talaan"
 
 #: "main/tests.inc"
 msgid "pending"
-msgstr ""
+msgstr "nakabinbin"
 
 #: "main/tests.inc"
 msgid "Test with IPv6 DNS record"
-msgstr ""
+msgstr "Subukan sa IPv6 DNS na talaan"
 
 #: "main/tests.inc"
 msgid "Test with Dual Stack DNS record"
-msgstr ""
+msgstr "Subukan sa talaan ng Dual Stack DNS"
 
 #: "main/tests.inc"
 msgid "Test for Dual Stack DNS and large packet"
-msgstr ""
+msgstr "Suriin para sa Dual Stack DNS at malaking packet"
 
 #: "main/tests.inc"
 msgid "Test IPv4 without DNS"
-msgstr ""
+msgstr "Suriin ang IPv4 nang walang DNS"
 
 #: "main/tests.inc"
 msgid "Test IPv6 without DNS"
-msgstr ""
+msgstr "Suriin ang IPv6 nang walang DNS"
 
 #: "main/tests.inc"
 msgid "Test IPv6 large packet"
-msgstr ""
+msgstr "Suriin ang IPv6 sa malaking packet"
 
 #: "main/tests.inc"
 msgid "Test if your ISP's DNS server uses IPv6"
-msgstr ""
+msgstr "Suriin kung ang DNS server ng iyong ISP ay gumagamit ng IPv6"
 
 #: "main/tests.inc"
 msgid "Find IPv4 Service Provider"
-msgstr ""
+msgstr "HAnapin ang IPv4 na Tagapaglaan ng Serbisyo"
 
 #: "main/tests.inc"
 msgid "Find IPv6 Service Provider"
-msgstr ""
+msgstr "Hanapin ang IPv6 na Tagapaglaan ng Serbisyo"
 
 #: "main/tests.inc"
 msgid "Test for buggy DNS"
-msgstr ""
+msgstr "Suriin para sa buggy DNS"
 
 #: "main/tech.inc"
 msgid "Fetches an object that has just an A record in DNS. This is expected to use IPv4. IPv6-only users might still reach this, if their provider has employed a NAT64/DNS64 or proxy solution."
-msgstr ""
+msgstr "Kunin ang isang bagay na may lamang isang A na tala sa DNS. Ito ay inaasahang gumamit ng IPv4. IPv6 - na mga gumagamit ay maari pa ring maabot, kung ang kanilang tagapagtustos ay nagtatrabahi sa isang NAT64 / DNS64 o kahalili na solusyon."
 
 #: "main/tech.inc"
 msgid "Fetches an object that has just an AAAA record in DNS. This is expected to use IPv6. Users not yet on the IPv6 Internet are likely to see this fail. As long as it fails quickly, it will be OK - for now."
-msgstr ""
+msgstr "Kunin ang isang bagay na may isang AAAA na talaan lamang sa DNS. Ito ay inaasahang gumamit ng IPv6. Ang mga gumagamit na hindi pa sa IPv6 Internet ay malamang na makakita ng kabiguan nito. Hangga't ito ay mabilis na mabigo, magiging OK ito - sa ngayon."
 
 #: "main/tech.inc"
 msgid "This is the most important test. This verifies your browser can connect to a site that has both IPv4 and IPv6 records published. IPv4 only hosts should connect fine (using IPv4)."
@@ -650,7 +649,7 @@ msgstr "Kabilang dito ang iyong IP address, kung saan ibinabahagi ng administrad
 msgid "Use of this form implies consent."
 msgstr "Ang pag- gamit ng porma na ito ay nagpapahiwatig ng pahintulot."
 
-#: "main/mail.inc"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "<span id=\"comments_faq_link\"></span> (FAQ) page is available for <b>your</b> exact set of results. Please read it before leaving comments; many questions have already been answered. If you still have questions, comments, or concerns, feel freel to use this form."
 msgstr "<span id=\"comments_faq_link\"></span>(FAQ) na pahina ay magagamit para sa <b>iyong</b> eksaktong hanay ng mga resulta. Paki-basa ito bago mag-iwan ng mga komento; maraming tanong na ang nasagot. Kung mayroon ka pa ring katanungan, komento, o alalahanin, huwah mag-atubiling gamitin ang porma na ito."
 
@@ -674,7 +673,7 @@ msgstr "Layunin ng komento"
 msgid "Questions about test results"
 msgstr "Mga katanungan tungkol sa mga resulta ng pagsubok"
 
-#: "main/mail.inc"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Report a bug with diagnosis"
 msgstr "Ibalita ang bug na may diyagnosis"
 
@@ -684,775 +683,775 @@ msgstr "Mungkahi"
 
 #: "main/mail.inc"
 msgid "Cheers or Jeers"
-msgstr ""
+msgstr "Tagahanga o umaglahi"
 
 #: "main/mail.inc"
 msgid "Email address if you'll permit me to contact you. <i>Required, if you wish a response.</i>"
-msgstr ""
+msgstr "I-emal ang address kung papayagan mo ako na makipag-ugnay sa iyo. <i> Kinakailangan, kung nais mo ng tugon. </i>"
 
 #: "main/mail.inc"
 msgid "Any information you think I might find useful (what router you're using, or a firewall in the way, or type of proxy you use, etc). This includes general feedback."
-msgstr ""
+msgstr "Kahit anong impormasyon na sa tingin mo ay maaring akong makinabang (anumang router na ginagamit mo, o isang firewall sa paraan, o sa uri ng proxy na iyong ginagamit, atpb). Ito ay kabilang sa pangkalahatang katugunan."
 
 #: "main/mail.inc"
 msgid "The javascript based test appears to have failed. This may be browser plugin or extension related. Please indicate what browser plugins and extenions you have enabled in this browser."
-msgstr ""
+msgstr "Ang javascript na batay na pagsubok ay lumilitaw ba nabigo. Ito ay maaaring kaugnay sa browser plugin o ekstensyon. Mangyaring ipahiwatig kung anong mga plugin at mga ekstensyon ng browser ang pinagana mo sa browser na ito."
 
 #: "main/mail.inc"
 msgid "If you are technically minded please cut/paste the output of the following commands:"
-msgstr ""
+msgstr "Kung ikaw ay may teknikal na pag-iisip mangyaring kunin/i-paste ang output ng mga sumusunod na utos:"
 
 #: "main/mail.inc"
 msgid "Copy the output from those commands, into the box below. This will help me confirm/deny any theories relating to your question."
-msgstr ""
+msgstr "Kopyahin ang output mula sa mga utos na iyon, sa kahon sa ibaba. Ito ay makakatulong sa akon na kumpirmahin/tanggihan ang anumang mga teyorya na may kaugnayan sa iyong katanungan."
 
 #: "main/mail.inc"
 msgid "If you are technically minded, please open a \"Command Prompt\" or \"cmd\" window, and run these three commands:"
-msgstr ""
+msgstr "King ikaw ay may teknikal na pag-iisip, mangyaring buksan ang \"Command Prompt\" o \"cmd\" window, at patakbuhin ang mga taltong utos:"
 
 #: "main/mail.inc"
 msgid "Send results"
-msgstr ""
+msgstr "Ipadala ang mga resulta"
 
 #: "main/helpdesk.inc"
 msgid "Help desk information will follow once the test completes."
-msgstr ""
+msgstr "Impormasyon sa desk ng tulng ay susundin kapag nakumpleto ang pagsubok."
 
 #: "main/helpdesk.inc"
 msgid "If your Internet help desk asks you to mail the 'results url', copy and paste the following URL."
-msgstr ""
+msgstr "Kung ang iyong Internet help desk ay humuhiling sa iyo na ipadala ang mga 'resulta ng url' kopyahin at i-paste ang sumusunod na URL."
 
 #: "main/helpdesk.inc"
 msgid "Note that this will share your current numeric Internet Protocol address(es)."
-msgstr ""
+msgstr "Tandaan na ibabahagi nito ang iyong kasalukuyang numerikong address ng Internet Protocol(es)."
 
 #: "main/helpdesk.inc"
 msgid "We do not recommend posting this link on public web sites such as forums."
-msgstr ""
+msgstr "Hindi namin inirekomenda ang pag-post ng link na ito sa pampublikong web sites gaya ng forums."
 
 #: "main/helpdesk.inc"
 msgid "On most computers, you can right-click the above URL, and select 'Copy'."
-msgstr ""
+msgstr "Sa karamihan ng mga computer, maari mong i-right-click ang URL sa itaas, at piliin ang 'Kopyahin'."
 
 #: "inc/sites.inc"
 msgid "<b>Because you have IPv6</b>, we've added this tab to show you whether or not you can reach other IPv6 web sites on the Internet. Consider notifying your ISP, if there are sites that show up as broken. If you are the ISP, you can click the Info link to see what test URLs are being used."
-msgstr ""
+msgstr "<b>Dahil mayroon kang IPv6</b>, idinagdag namin ang tab na ito upang ipakita sa iyo kung maari o hindi mo maabot ang iba pang mga IPv6 web site sa Internet. Isaalang-alang ang mga pagpapaalam sa iyong ISP, kung may mga site na nagpapakita na sira. Kung ikaw ang ISP, maaari mo na i-click ang link ng Inpormasyon upang makita kung anong mga pagsusuri sa URL ang ginagamit."
 
 #: "inc/sites.inc"
 msgid "<b>Hint</b>: Columns are sortable (click the first row); <a href=\"#\" onclick=\"GIGO.test_sites(2); return false;\">click here</a> to re-check reachability from where you are to those mirrors."
-msgstr ""
+msgstr "<b>Pahitig</b>: Ang mga haligi ay ma-uuri ( i-click ang unang hilera); <a href=\"#\" onclick=\"GIGO.test_sites(2); return false;\"><a href=\"#\" onclick=\"GIGO.test_sites(2); return false;\"> magclick dito</a> upang muling suriin ang pagiging abot mula sa kung saan ka sa mga salamin."
 
 #: "inc/sites.inc"
 msgid "It is real easy to get added to this list for basic checks. Just provide two image URLs (one IPv4-only; one IPv6-only), to Jason Fesler &lt;jfesler@gigo.com&gt;. Also send your general web site address and organization name."
-msgstr ""
+msgstr "Ito ay talagang madaling idagdag sa listahan para sa pangunahing pagsusuri. Magbigay lamang ng dalawang imahe ng mga URLs (isang IPv4-lamang; isang IPv6-lamang), kay Jason Fesler &lt;jfesler@gigi.com&gt; Ipadala din ang iyong pangkalahatangaddress ng web site at pangalan ng samahan."
 
 #: "inc/sites.inc"
 msgid "Full mirrors are welcomed and appreciated, whether public or private. Please see <a href=\"https://github.com/falling-sky/source/wiki\">the wiki</a> for details."
-msgstr ""
+msgstr "Mga buong salamin ay tinatanggap at pinapahahalagahan, kahit pampubliko man o pribado. Mangyaring tingnan ang <a href=\"https://github.com/falling-sky/source/wiki\"> ang wiki </a> para sa mga detalye."
 
 #: "inc/footer.inc"
 msgid "All rights reserved."
-msgstr ""
+msgstr "Lahat ng mga karapatan ay nakalaan."
 
 #: "inc/footer.inc"
 msgid "Mission"
-msgstr ""
+msgstr "Misyon"
 
 #: "inc/footer.inc"
 msgid "Source"
-msgstr ""
+msgstr "Pinagmulan"
 
 #: "inc/footer.inc"
 msgid "Email"
-msgstr ""
+msgstr "Email"
 
 #: "inc/footer.inc"
 msgid "Attributions"
-msgstr ""
+msgstr "Mga pag-uugnay"
 
 #: "inc/disclaimer.inc"
 msgid "This is a mirror of test-ipv6.com. The views expressed here may or may not reflect the views of the mirror owner."
-msgstr ""
+msgstr "Ito ay isang pagsusuri sa ipv6.com. Ang mga pananaw na ipinahayag dito ay maaari o hindi maaaring sumalamin sa mga pananaw ng may-ari ng salamin."
 
 #: "locale.html"
 msgid "Available Languages"
-msgstr ""
+msgstr "Mga magagamit na mga wika"
 
 #: "locale.html"
 msgid "Pick one of the following to switch to that language."
-msgstr ""
+msgstr "Pumili ng isa sa mga sumusunod upang lumipat sa wikang iyon."
 
 #: "locale.html"
 msgid "Translators and proof readers welcome."
-msgstr ""
+msgstr "Mga tagasalin at patunay na mambabasa ay ay malugod na tatangapin."
 
 #: "locale.html"
 msgid "See <a href='https://github.com/falling-sky/source/wiki/LocalizationPlan'>Info</a>; and our <a href='https://crowdin.net/project/falling-sky'>'CrowdIn'</a> project page."
-msgstr ""
+msgstr "Tingnan <a href='https://github.com/falling-sky/source/wiki/LocalizationPlan'>Impormasyon</a>; at ating <a href='https://crowdin.net/project/falling-sky'>'CrowdIn'</a> pahina ng proyekto."
 
 #: "faq_helpdesk.html"
 msgid "Help Desk Information"
-msgstr ""
+msgstr "Impormasyon sa Tulong na Desk"
 
 #: "faq_helpdesk.html"
 msgid "Q: What is the Help Desk tab for?"
-msgstr ""
+msgstr "Q: Para saan ang Impormasyon Tulong na Desk tab?"
 
 #: "faq_helpdesk.html"
 msgid "This tab is intended to help provide a brief, concise explanation of your connectivity. This can be read over the phone, if needed, to a service provider. This tab has less hand-holding; it is intended for a help desk to understand (as compared to an end user)."
-msgstr ""
+msgstr "Ang tab na ito ay inilaan upang makatulong na magbigay ng isang maikling, maigsi na paliwanag ng iyong pagkakakonekta. Ito ay mababasa sa telepono, kung kinakailangan sa isang service provider. Ang tab na ito ay may kaunting paghawak; ito ay inilaan para sa isang tulong na desk upang maunawaan ( kumpara sa isang end user)."
 
 #: "faq_helpdesk.html"
 msgid "This special instance shares in a very compact way:"
-msgstr ""
+msgstr "Ang espesyal na pagkakataon ay namamahagi ng siksik na paraan:"
 
 #: "faq_helpdesk.html"
 msgid "Status of each protocol"
-msgstr ""
+msgstr "Estado ng bawat protokol"
 
 #: "faq_helpdesk.html"
 msgid "Warn of slow/timeout"
-msgstr ""
+msgstr "Babala ng paghina/pag-gatol"
 
 #: "faq_helpdesk.html"
 msgid "Warn of MTU"
-msgstr ""
+msgstr "Babala ng MTU"
 
 #: "faq_helpdesk.html"
 msgid "Status of reachability to “other sites” (as compact as possible)"
-msgstr ""
+msgstr "Katayuan sa pag-abot ng \"iba pang mga site\" ( bilang siksik kung maaari)"
 
 #: "faq_helpdesk.html"
 msgid "IP address shown, in case tech support needs it."
-msgstr ""
+msgstr "IP address ay ipinapakita, kung kinakailangan ang supporta ng tech."
 
 #: "faq_helpdesk.html"
 msgid "List of unreachable sites, if any"
-msgstr ""
+msgstr "Talaan ng mga hindi maaabot na site, kung mayroon"
 
 #: "faq_helpdesk.html"
 msgid "Q: What is the easiest way to send users to the Help Desk tab?"
-msgstr ""
+msgstr "Q: Ano ang pinakamahalagang paraan upang ipadala sa mga gumagamit ang Help Desk Tab?"
 
 #: "faq_helpdesk.html"
 msgid "There are several ways to do it. Some of these are more obvious than the others when reading; some of them may be easier when read over the phone. In all of these cases, the \"Help Desk\" tab is moved to be the first and default tab shown to the user, instead of exposing the more detailed user-facing page."
-msgstr ""
+msgstr "Mayroon maraming paraan upang gawin ito. Ang ilan sa mga ito ay ay mas malinaw kaysa iba kapag nagbabasa; ang ilan ay maaaring maging mas madali kapag basahin sa telepono. Sa laha ng mga kasong ito, ang tab na \"Help Desk\" ay inilipat upang maging una at default na tab na ipinapakita sa gumagamit, sa halip na ilantad ang mas detalyadong pahina na nakaharap sa gumagamit."
 
 #: "faq_helpdesk.html"
 msgid "Mirror sites may not have all the fancy DNS names; they are more likely to be useful like this:"
-msgstr ""
+msgstr "Ang mga site ng salamin ay hindi maaaring magkaroon ng lahat ng magagandang mga pangalan ng DNS; mas malamang na maging kapaki-pakinabang ang ganito:"
 
 #: "faq_helpdesk.html"
 msgid "Q: What are the Help Desk codes?"
-msgstr ""
+msgstr "Q: Ano ang mga code ng Help Desk?"
 
 #: "faq_helpdesk.html"
 msgid "These are meant to offer a quick, short way for your customer to tell you the status of their Internet connectivity, as validated by this site. They are also meant to be easy to memorize."
-msgstr ""
+msgstr "Ang mga ito ay sinasadya upang mag-alok ng isang mabilis, maikling paraan para sa iyong customer na sabihin sa iyo ang katayuan ng kanilang koneksyon sa Internet, bilang napatunayan ng site na ito. Ang mga ito ay sinasadya upang madaling maunawaan."
 
 #: "faq_helpdesk.html"
 msgid "Q: How can I recommend changes to the Help Desk tab?"
-msgstr ""
+msgstr "Q: Paano ko mai-rerekomenda ang mga pagbabago sa tab ng Help Desk?"
 
 #: "faq_helpdesk.html"
 msgid "Suggestions are welcome; especially from those operating help desks. This tab is really for you - not for the consumer. Please keep in mind that we want to keep the tab brief, concise, and easy to read for the average user over the phone to your help desk team. Send suggestions to jfesler@test-ipv6.com ."
-msgstr ""
+msgstr "Mga mungkahi ay malugod; lalo na kung ang mga iyon ay mula sa mga operating desk ng tulong. Ang tab na ito ay para sa iyo - hindi para sa mga mamimili. Mangyaring tandaan na gusto naming panatilihin ang tab na maikli, maikli, at madaling basahin para sa average na gumagamit sa telepono sa iyong koponan ng help desk. Magpadala ng suhestiyon sa jfesler@test-ipv6.com."
 
 #: "broken.html"
 msgid "What to do if you're broken..."
-msgstr ""
+msgstr "Ano ang gagawin mo kapag ikaw ay sira..."
 
 #: "broken.html"
 msgid "If you are reading this page, it means that we've identified that your host will have problems on World IPv6 Day. Any web site that goes \"dual stack\" (meaning, both IPv4 and IPv6), will be unreachable to you."
-msgstr ""
+msgstr "Kung ikaw ay nagbabasa ng pahinang ito, ito ay nangangahulugan na ikaw ay nakilala na ang iyong host ay magkakaroon ng mga problema sa Araw ng World IPv6. Ano mang website na napupunta sa \"dual stack\" ( ibig sabihib, kapwa IPv4 at IPv6), ay hindi mo maabot."
 
 #: "broken.html"
 msgid "To resolve this, you'll first need to identify your IPv6 address (if you have one) and your IPv6 default route (if you have one). This will help identify which sections to read."
-msgstr ""
+msgstr "Upang malutas ito, kailangan mo munang kilalanin ang iyong IPv6 (kung mayroon kang isa) at ang iyong IPv6 default na ruta ( kung mayron kang isa). Ito ay makakatulong upang matukoy kung anong mga seksyon ang babasahin."
 
 #: "broken.html"
 msgid "If you find your particular problem is not well represented; or you have additional suggestions; please do leave feedback using the <a href='#' onclick='return GIGO.tabnav(\"mail\");'>form</a> (or contact <a href=\"mailto:jfesler@test-ipv6.com\">jfesler@test-ipv6.com</a>)."
-msgstr ""
+msgstr "Kung nakita mo na ang iyong problema ay hindi mahusay na kinatawanan; o mayroon kang mga karagdagang mungkahi; mangyaring mag-iwan ng katugunan gamit ang <a href='#' onclick='return GIGO.tabnav(\"mail\");'>porma</a>(o makipag-ugnayan sa <a href=\"mailto:jfesler@test-ipv6.com\">jfesler@test-ipv6.com</a>)."
 
 #: "broken.html"
 msgid "Make sure you are current"
-msgstr ""
+msgstr "Tiyakin na ikaw ay kasalukuyang"
 
 #: "broken.html"
 msgid "Find your IP address"
-msgstr ""
+msgstr "Hanapin ang iyong IP address"
 
 #: "broken.html"
 msgid "If you set up a tunnel broker"
-msgstr ""
+msgstr "Kung ikaw ay nag-set up ng tunnel broker"
 
 #: "broken.html"
 msgid "If you set up 6to4 (IPv6 address: starts with 2002)"
-msgstr ""
+msgstr "Kung ikaw ay nag-set up ng 6to4 (IPv6 address: nagsisimula sa 2002)"
 
 #: "broken.html"
 msgid "If you have an ULA (IPv6 address: starts with FC or FD)"
-msgstr ""
+msgstr "Kung mayroon kang ULA ( IPv6 address: nagsisimula sa FC o FD)"
 
 #: "broken.html"
 msgid "If you have an Bad or Inappropriate IPv6 Addresss (see table)"
-msgstr ""
+msgstr "Kung ikaw ay mayroong masama o hindi angkop na IPv6 (tingnan ang talahanayan)"
 
 #: "broken.html"
 msgid "If you have an unexpected IPv6 address"
-msgstr ""
+msgstr "Kung mayroon kang hindi inaasahangIPv6 address"
 
 #: "broken.html"
 msgid "Try the netalyzr"
-msgstr ""
+msgstr "Subukan ang netalyzr"
 
 #: "broken.html"
 msgid "If all else fails, disable or deprioritize IPv6"
-msgstr ""
+msgstr "Kung lahat ay nabigo, di gumagana o hindi pinipili"
 
 #: "faq/staycurrent.inc"
 msgid "Many OS and Hardware manufacturers are making updates to help improve the transition to IPv6. Some known \"gotchas\" are being addressed by workarounds by these vendors."
-msgstr ""
+msgstr "Maraming OS at Hardware na mga tagagawa ang gumagawa ng mga update upang maktulong na mapabuti ang paglipat sa IPv6. Ang ilang mga kilalang \"gotchas\" ay tinutugunan ng mga workaround ng mga nagtitinda na ito."
 
 #: "faq/staycurrent.inc"
 msgid "You can do your part to make sure you are running the latest:"
-msgstr ""
+msgstr "Magagawa mo ang iyong parte upang tiyakin na ikaw ay nagpapatakbo ng pinakabagong:"
 
 #: "faq/staycurrent.inc"
 msgid "OS - Make sure you have the latest."
-msgstr ""
+msgstr "OS - Tiyakin na mayroon kang pinakabagong."
 
 #: "faq/staycurrent.inc"
 msgid "Mac users: Apple OS X 10.6.7 is recommended for improved IPv6 support."
-msgstr ""
+msgstr "Mga gumagamit ng Mac: Ang Apple OS X 10.6.7 ay inirerekomenda para sa pagpapahusay ng suporta ng IPv6."
 
 #: "faq/staycurrent.inc"
 msgid "Mac users on 10.4 or 10.5 may need to disable IPv6 if other troubleshooting steps fail."
-msgstr ""
+msgstr "Mga gumagamit sa 10.4 o 10.5 ay maaring kailanganin na huwag paganahin ang IPv6 kung mabibigo ang iba pang mga hakbang sa pag-troubleshoot."
 
 #: "faq/staycurrent.inc"
 msgid "Windows users: go to"
-msgstr ""
+msgstr "Mga gumagamit sa Window: pumunta sa"
 
 #: "faq/staycurrent.inc"
 msgid "iPhone/iPad users: No specific version advised at this time."
-msgstr ""
+msgstr "iPhone/iPad na mga gumagamit: Walang tiyak na bersyon ang pinapayo sa oras na ito."
 
 #: "faq/staycurrent.inc"
 msgid "Routers - Make sure you have the latest firmware installed. Some vendors have updated the defaults, or put in health checks before enabling IPv6."
-msgstr ""
+msgstr "Mga Routers - Siguraduhing naka- installka ng pinakabagong firmware. Na-update ng ilang mga vendor ngmga defult, o ilagay sa mga pagsusuri sa kalusugan bago ang pagpapagana ng IPv6."
 
 #: "faq/staycurrent.inc"
 msgid "If you are using an Apple router or Time Capsule, load the Airport Utility to check that your router is up to date."
-msgstr ""
+msgstr "Kung ikaw ay gumagamit ng Apple router o Time Capsule, i0load ang Airport Utility upang masuri na ang iyong router ay napapanahon."
 
 #: "faq/staycurrent.inc"
 msgid "Browsers - Some browsers have made updates to detect \"broken\" users, and to temporarily disable IPv6."
-msgstr ""
+msgstr "Mga Browser - May ilang mga browser na gumawa ng mga pagbabago upang tuklasin ang mga \"nasira\" na mga gumagamit, at pannsamantalang hindi paganahin ang IPv6."
 
 #: "faq/staycurrent.inc"
 msgid "Firefox 4.x now only tries IPv6, when an IPv6 address is configured. Firefox 3 users are encouraged to upgrade."
-msgstr ""
+msgstr "Firefox 4.x ngayon lamang sinusubukan ang IPv6, kapag ang isang IPv6 address ay isinasaayos. Ang mga gumagamit ng Firefox 3 ay hinihikayat na mag-upgrade."
 
 #: "faq/staycurrent.inc"
 msgid "Chrome: If a wrench icon appears on the browser toolbar, click it. Select \"Update Google Chrome\" then Restart."
-msgstr ""
+msgstr "Chrome: Kung ang icon ng lyabe ay lumilitaw sa browser ng toolbar, pindutin ito. Piliin ang \"I-update ang Google Chrome\" pagkatapos ay i-restart."
 
 #: "faq/staycurrent.inc"
 msgid "Opera: Make sure you use at least 11.10."
-msgstr ""
+msgstr "Opera: Siguraduhin na gumagamit ka ng hindi bababa sa 11.10."
 
 #: "broken.html"
 msgid "Finding your IP address"
-msgstr ""
+msgstr "Hanapin ang iyong IP address"
 
 #: "faq/find_ip.inc"
 msgid "Identify your IPv6 address, and your default router (if you have one)."
-msgstr ""
+msgstr "Kilalanin ang iyong IPv6 address, at ang iyong default router (kung mayroon kang isa)."
 
 #: "faq/find_ip.inc"
 msgid "Finding your IPv6 address and default router can be a challenge if you are not familiar with your OS's network configuration. Instructions for your OS are below."
-msgstr ""
+msgstr "Ang paghahanap ng iyong IPv6 na address at default router ay magiging isang hamon kung ikaw ay hindi kabisado sa konpigurasyon ng iyong OS's na network. Ang mga tagubilin para sa iyong OS ay nasa ibaba."
 
 #: "faq/find_ip.inc"
 msgid "When looking for your IPv6 address, skip any <code>fe80:</code> address. Everyone has them if their OS supports IPv6; this is regadless of whether or not your ISP supports IPv6 yet. Those are \"link local\" addresses; used just for communicating to other hosts in the same physical network as you."
-msgstr ""
+msgstr "Kapag naghahanap ng iyong IPv6 address, laktawan ang anumang <code>fe80:</code>na address. Lahat ay may mga ito kung ang kanilang OS ay sumusuporta sa IPv6; ito ay hindi alintana kung o hindi ang iyong ISP ay supusuporta sa IPv6 pa. Iyon ay mga \"linl na lokal\" na mga address; ginagamit lamang para sa pakikipag-usap sa iba pang mga host sa parehong pisikal na network tulad mo."
 
 #: "faq/find_ip.inc"
 msgid "OS X users: To find your IP address using the GUI:"
-msgstr ""
+msgstr "Mga gumagamit ng OS X: Hanapin ang iyong IP address gamit ang GUI:"
 
 #: "faq/find_ip.inc"
 msgid "Go to the \"Apple\" menu (top left corner)"
-msgstr ""
+msgstr "Magtungo sa \"Apple\" na menu (itaas na kaliwang sulok)"
 
 #: "faq/find_ip.inc"
 msgid "Go to System Preferences"
-msgstr ""
+msgstr "Magtungo sa mga Kagustuhan ng Sistema"
 
 #: "faq/find_ip.inc"
 msgid "Go to Network"
-msgstr ""
+msgstr "Pagtungo sa Network"
 
 #: "faq/find_ip.inc"
 msgid "Click on your primary network (green icon) if you have more than one work."
-msgstr ""
+msgstr "Pindutin ang iyong pangunahing network( berde na icon) kung mayroon kang higit sa isang ginagawa."
 
 #: "faq/find_ip.inc"
 msgid "Go to \"Advanced\""
-msgstr ""
+msgstr "Magtungo sa \"Advanced\""
 
 #: "faq/find_ip.inc"
 msgid "Look at the TCP/IP tab, uder \"Configure IPv6\"."
-msgstr ""
+msgstr "Tumingin sa TCP/IP tab, uder \"IPv6 na Konpigurasyon\"."
 
 #: "faq/find_ip.inc"
 msgid "Make a note of whether or not there is a router."
-msgstr ""
+msgstr "Gumawa ng talaan sa kung mayroon o walang router."
 
 #: "faq/find_ip.inc"
 msgid "Make a note of the IPv6 address (if any)."
-msgstr ""
+msgstr "Gumawa ng tala sa IPv6 na address ( kung mayroon)."
 
 #: "faq/find_ip.inc"
 msgid "OS X users: To find your IP address using the command line:"
-msgstr ""
+msgstr "Mga gumagamit ng OS X: Sa paghahanap ang iyong gamit ang command na linya:"
 
 #: "faq/find_ip.inc"
 msgid "To open your terminal: Go to your Applications folder; go to Utilities; and double click Terminal."
-msgstr ""
+msgstr "Sa pagbubukas ng iyong terminal: Pumunta sa iyong polder ng mga Aplikasyon; pumunta sa mga Utilities; at i-double click ang Terminal."
 
 #: "not-used, archived.  Not currently needed for translation."
 msgid "To see your IP addresses: <code>ifconfig -f inet6</code>."
-msgstr ""
+msgstr "Upang makita ang iyong mga IP address: <code>ifconfig -f inet6</code>."
 
 #: "faq/find_ip.inc"
 msgid "Ignore the <code>fe80:</code> addresses; look for any other address on your <code>en0</code> or <code>en1</code>."
-msgstr ""
+msgstr "Huwag pansinin ang <code>fe80:</code>na mga address; maghanap ng iba pang mga address sa iyong <code>en0</code> o <code>en1</code>."
 
 #: "faq/find_ip.inc"
 msgid "To see if you have a default route: <code>netstat -nr -f inet6</code>."
-msgstr ""
+msgstr "Upang makita kung mayroon kang default na ruta:<code>netstat -nr -f inet6</code>."
 
 #: "faq/find_ip.inc"
 msgid "Look for a line that says \"default\"; probably pointing to a gateway starting with <code>fe80:</code>"
-msgstr ""
+msgstr "Maghanap ng isang linya na nagsasabing \"default\"; marahil na nagtuturo sa isang gateway na nagsisimula sa <code>fe80:</code>"
 
 #: "faq/find_ip.inc"
 msgid "iPhone and iPad users: No information is shown via Apple's preferences/setup. The \"IT Tools\" and the \"ip6config\" apps do show IPv6 address data; both cost."
-msgstr ""
+msgstr "mga gumagamit ng iPhone at iPad: Walang impormasyon ang ipinapakita sa pamamagitan ng mga kagustuhan/setup. Ang \"IT Tools\" at ang \"ip6config\" na mga app ay nagpapakita ng datos ng IPv6 na address; parehong gastos."
 
 #: "faq/find_ip.inc"
 msgid "Linux users: To find your IPv6 address, open a terminal and.."
-msgstr ""
+msgstr "Mga gumagamit ng Linux: upang mahanap ang iyong IPv6 address, magbukas ng isang terminal at.."
 
 #: "faq/find_ip.inc"
 msgid "Linux users: To find your IPv6 route, use:"
-msgstr ""
+msgstr "Mga gumagamit ng Linux: Upang mahanap ang iyong IPv6 na ruta, gamitin:"
 
 #: "faq/find_ip.inc"
 msgid "Generic unix instructions for determining your IPv6 address and default route:"
-msgstr ""
+msgstr "Mga tagubilin ng generic na unix para tukuyin ang iyong IPv6 address at ang default na ruta:"
 
 #: "faq/find_ip.inc"
 msgid "Run"
-msgstr ""
+msgstr "Takbo"
 
 #: "faq/find_ip.inc"
 msgid "and look for <code>inet6</code> to see your possible IPv6 addresses."
-msgstr ""
+msgstr "at hanapin ang <code>inet6</code>upang makita ang iyong mga posibleng IPv6 address."
 
 #: "faq/find_ip.inc"
 msgid "and look for <code>inet6</code> or <code>Internet6</code> or similar to find the IPv6 portion; then look for <code>default</code> or <code>::</code> or <code>::/0</code>."
-msgstr ""
+msgstr "at hanapin para sa <code>inet6</code> o <code>Internet6</code> o katulad nito uoang mahanap ang bahagi ng IPv6; pagkatapos ay hanapin ang <code>default</code> o <code>::</code> o <code>::/0</code>."
 
 #: "faq/find_ip.inc"
 msgid "Windows users: To find your IP address using cmd.exe:"
-msgstr ""
+msgstr "Mga gumagamit ng Windows: Upang mahanap ang iyong IP address gamit ang cmd.exe:"
 
 #: "faq/find_ip.inc"
 msgid "Go to your \"start\" menu"
-msgstr ""
+msgstr "Magtungo sa iyong \"start\" menu"
 
 #: "faq/find_ip.inc"
 msgid "If you have a \"Run\" menu option, select it. Otherwise go to the \"Search programs and files\" box."
-msgstr ""
+msgstr "Kung mayroon kang pagpipiliang \"Run\" na menu, piliin ito. Kung hindi, magtungo sa \"Search programs at files\" na box."
 
 #: "faq/find_ip.inc"
 msgid "Type <code>cmd.exe</code>"
-msgstr ""
+msgstr "I-type<code>cmd.exe</code>"
 
 #: "faq/find_ip.inc"
 msgid "In the cmd window, type <code>ipconfig</code> ."
-msgstr ""
+msgstr "Sa cmd window, i-type ang <code>ipconfig</code>."
 
 #: "faq/find_ip.inc"
 msgid "Windows 7 GUI users:"
-msgstr ""
+msgstr "Mga gumagamit ng Windows 7GUI:"
 
 #: "faq/find_ip.inc"
 msgid "Go to the start menu"
-msgstr ""
+msgstr "Magtungo sa start menu"
 
 #: "faq/find_ip.inc"
 msgid "Go to the control panel"
-msgstr ""
+msgstr "Mangtungo sa control panel"
 
 #: "faq/find_ip.inc"
 msgid "Go to \"Network and Internet\""
-msgstr ""
+msgstr "Magtunggo sa \"Network at Internet\""
 
 #: "faq/find_ip.inc"
 msgid "Go to \"View network status and tasks\""
-msgstr ""
+msgstr "Magtungo sa \"Tingnan ang katayuan at mga gawain\""
 
 #: "faq/find_ip.inc"
 msgid "Go to \"Change adapter settings\"."
-msgstr ""
+msgstr "Magtungo sa \"Baguhin ang mga setting ng adoptor\"."
 
 #: "faq/find_ip.inc"
 msgid "Go to your main Internet connection, double click"
-msgstr ""
+msgstr "Magtungo sa iyong pangunahing Internet koneksyon, i-double click"
 
 #: "faq/find_ip.inc"
 msgid "Go to \"Details\""
-msgstr ""
+msgstr "Magtungo sa \"Mga Detalye\""
 
 #: "faq/find_ip.inc"
 msgid "Look for \"IPv6 Address\" and \"IPv6 Default Gateway\""
-msgstr ""
+msgstr "Maghanap ng \"IPv6 na Address\" at \"IPv6 Default Gateway\""
 
 #: "faq/find_ip.inc"
 msgid "Other Windows based OS's: Send jfesler@test-ipv6.com detailed instructions; and I'll add them to the site."
-msgstr ""
+msgstr "Iba pang OS batay sa OS: Magpadala ng mga detalyadong tagubilin sa jfesler@test-ipv6.com; at idadagdag ko ang mga ito sa site."
 
 #: "faq/broken_tunnelbroker.inc"
 msgid "<b>If you set up a tunnelbroker tunnel</b>: The most common causes for tunnelbroker users to fail are:"
-msgstr ""
+msgstr "<b>Kung nag-set up ka ng tunnelbroker tunnel</b>: Ang pinaka-karaniwang dahilan para sa mga gumagamit ng tunnelbroker na mabibigo ay:"
 
 #: "faq/broken_tunnelbroker.inc"
 msgid "Your IPv4 address may have changed; you need to tell the tunnelbroker server this happened."
-msgstr ""
+msgstr "Ang iyong IPv4 address ay maaring nabago; kailangan mong sabihin sa tunnelbroker server na nangyari ito."
 
 #: "faq/broken_tunnelbroker.inc"
 msgid "If you are using your router to do the 6in4 (sometimes called 6to4 with explicit provider):"
-msgstr ""
+msgstr "Kung ginagamit mo ang iyong router upang gawin ang 6in4 (kung minsan ay tinatawag na 6to4 na may tahasang provider):"
 
 #: "faq/broken_tunnelbroker.inc"
 msgid "Make sure tunnelbroker knows your current IPv4 address. Our site tells you your public IPv4 address."
-msgstr ""
+msgstr "Tiyaking alam ng tunnelbroker ang iyong kasalukuyang IPv4 address. Sinasabi sa iyo ng aming site ang iyong pampublikong IPv4 address."
 
 #: "faq/broken_tunnelbroker.inc"
 msgid "Make sure your router can ping the other side of the tunnel. Don't waste your time fixing computers until the router works!"
-msgstr ""
+msgstr "Tiyakin na ang iyong router ay makapag-ping sa kabilang panig ng tunel. Huwag mag-aaksaya ng iyong oras ng pag-aayos ng mga computer hanggang sa gumagana ang router!"
 
 #: "faq/broken_tunnelbroker.inc"
 msgid "If you are using your Linux, BSD, Mac, or Windows box to \"talk 6to4\" specifically:"
-msgstr ""
+msgstr "Kung ikaw ay gumagamit ng iyong Linux, BSD, Mac, o mga Window box na \"makipag-usap 6to4\" partikular:"
 
 #: "faq/broken_tunnelbroker.inc"
 msgid "Make sure your router is passing \"protocol 41\" to you."
-msgstr ""
+msgstr "Tiyakin na ang iyong router ay dumaan sa \"protocol 41\" sa iyo."
 
 #: "faq/broken_tunnelbroker.inc"
 msgid "Make sure any software firewall you are operating is passing \"protocol 41\" to you."
-msgstr ""
+msgstr "Siguraduhin na anumang software firewall na iyong pinapatakbo ay dumadaan sa \"protocol 41\" sa iyo."
 
 #: "faq/broken_tunnelbroker.inc"
 msgid "If everything worked before your reboot but fails now, check your firewall settings."
-msgstr ""
+msgstr "Kung ang lahat ay nagtrabaho bago ang iyong pag-reboot ngunit nabigo ngayon, suriin ang iyongmga setting sa firewall."
 
 #: "faq/broken_tunnelbroker.inc"
 msgid "Make sure the box \"doing 6to4\" can ping the other side of the tunnelbroker gateway before working on any other hosts."
-msgstr ""
+msgstr "Siguraduhing ang kahon na \"paggawa ng 6to4\" ay maaaring mag-ping sa kabilang panig ng tunnelbroker gateway bago magtrabaho sa anumang iba pang mga host."
 
 #: "broken.html"
 msgid "If you set up 6to4"
-msgstr ""
+msgstr "Kung ikaw ay nag-set up 6to4"
 
 #: "broken.html"
 msgid "(IPv6 address: starts with 2002)"
-msgstr ""
+msgstr "(IPv6 address: nagsisimula sa 2002)"
 
 #: "faq/broken_6to4.inc"
 msgid "If you use 6to4</b> (without a tunnel broker; ie, using anonymous 6to4):"
-msgstr ""
+msgstr "Kung gumagamit ka ng 6to4</b> (walang broker ng tunel, ibig sabihin, gamit ang hindi kilalang 6to4):"
 
 #: "faq/6to4_sucks.inc"
 msgid "The use of \"automatic\" 6to4, or the use of 6to4 without explicit configuration of the gateways, is not recommended. For more information see <a href='#' onclick='return help_page(\"faq_6to4.html\",\"6to4\")'>6to4</a>."
-msgstr ""
+msgstr "Ang paggamit ng \"awomatikong\" 6to4,o ang paggamit ng 6to4 nang walang tahasang pagsasaayos ng mga gateway, ay hindi inirerekomenda. Para sa karagdagang impormasyon tingnan ang <a href='#' onclick='return help_page(\"faq_6to4.html\",\"6to4\")'>6to4</a>."
 
 #: "faq/broken_6to4.inc"
 msgid "If you want to continue trying to debug anonymous 6to4:"
-msgstr ""
+msgstr "Kung gusto mong ipagpatuloy ang pagsisikap na i-debug ang hindi kilalang 6to4:"
 
 #: "faq/broken_6to4.inc"
 msgid "If you are using your router to do the 6to4:"
-msgstr ""
+msgstr "Kung ginagamit mo ang iyong router upang gawin ang 6to4:"
 
 #: "faq/broken_6to4.inc"
 msgid "Make sure your router has a public IPv4 address. Without this, 6to4 fails."
-msgstr ""
+msgstr "Tiyaking may isang pampublikong IPv4 address ang iyong router. Kung wala ito, 6to4 ay nabigo."
 
 #: "faq/broken_6to4.inc"
 msgid "If your router permits you to log in, use \"ping\" or \"ping6\" and see if you can ping \"ipv6.test-ipv6.com\". Don't waste your time fixing computers until the router works!"
-msgstr ""
+msgstr "Kung pinahihintukutan ka ng iyong router na mag-log in, gamitin ang \"ping\" o \"ping6\" at tingnan kung maaari mong i-ping ang \"ipv6.test-ipv6.com\". Huwag mag-aaksaya ng iyong oras ng pag -aayos ng mga computer hanggang gumagana ang router!"
 
 #: "faq/broken_6to4.inc"
 msgid "Most home systems have private IPv4 addresses; this won't work with 6to4 (unless..)"
-msgstr ""
+msgstr "Karamihan ng mga sistema ng bahay ay may pribadong IPv6 address; hindi ito gagana sa 6to4 (maliban kung...)"
 
 #: "faq/broken_6to4.inc"
 msgid "Make sure your 6to4 interface knows your public IPv4 address."
-msgstr ""
+msgstr "Tiyaking alam ng iyong 6to4 interface ang iyong pampublikong IPv4 address."
 
 #: "faq/broken_6to4.inc"
 msgid "Make sure that your router permits protocol 41 from any IP address - not just 192.88.99.1. This will allow web sites to operate their half of 6to4, even if they can not spoof the 192.88.99.1 anycast address."
-msgstr ""
+msgstr "Tiyakin na pinahihintulutan ng iyong router ang protocol 41 mula sa anumang IP address - hindi lamang 192.88.99.1. Pahihintulutan nito ang mga web site na gumagana ang kalahati ng kanilang 6to4, kahit na hindi nila ma-spoof ang 192.88.99.1 anycast address."
 
 #: "faq/broken_6to4.inc"
 msgid "Linux users using iptables connection tracking: take heed of the previous note!"
-msgstr ""
+msgstr "Mga gumagamit ng Linux gamit ang iptables pagsubaybay sa koneksyon: mag-ingat sa nakaraang tala!"
 
 #: "faq/broken_6to4.inc"
 msgid "Consider changing how you connect."
-msgstr ""
+msgstr "Isaalang-alang ang pagbabago kung paano ka kumonekta."
 
 #: "faq/broken_6to4.inc"
 msgid "Ask your ISP if they offer any IPv6 connectivity (including possibly 6in4 tunnels, or tunnelbroker type tunnels)."
-msgstr ""
+msgstr "Tanungin ang iyong ISP kung sila ay nag-aalok ng anumang koneksyon sa IPv6 (kabilang ang posibleng 6in4 tunnels, o tunnel type ng mga tunnels)."
 
 #: "faq/broken_6to4.inc"
 msgid "See <a href=\"#\" onclick='return help_page(\"faq_6to4.html\",\"6to4\")'>6to4</a> for more information on why you would want to switch; and some options."
-msgstr ""
+msgstr "Tingnan <a href=\"#\" onclick='return help_page(\"faq_6to4.html\",\"6to4\")'>6to4</a> para sa higit pang impormasyonkung bakit gusto mong lumipat; at ilang mga pagpipilian."
 
 #: "broken.html"
 msgid "If you have an ULA"
-msgstr ""
+msgstr "Kung mayroon kang ULA"
 
 #: "broken.html"
 msgid "(IPv6 address: starts with FC or FD)"
-msgstr ""
+msgstr "(IPv6 address: nagsisimula sa FC o FD)"
 
 #: "faq/broken_ula.inc"
 msgid "If you have an IP address starting with <code>FC</code> or <code>FD</code>, you have what is effectively a private IPv6 address. It might be usable for talking to other devices within your home, or within your company. It also allows you to have a steady IPv6 address inside, even if your public IPv6 address changes regularly."
-msgstr ""
+msgstr "Kung mayroon kang isang IP address na nagsisimula sa <code>FC</code> o <code>FD</code>, mayroon kang epektibo na pribadong IPv6 address. Ito ay maaaring magamit sa pakikipag-usap sa ibang mga aparato sa loob ng iyong bahay, o sa loob ng iyong kumpanya. Pinapayagan din nito na magkaroon ka ng isang matatag na IPv6 address sa loob, kahit na ang iyong pampublikong IPv6 address ay regular na nagbabago."
 
 #: "faq/broken_ula.inc"
 msgid "The main problem with ULA is that certain home routers are now offering ULA, *and* giving you a default route. This route is offered regardless of whether or not your router actually has IPv6 connectivity. From your browser's point of view, it doesn't know that your default route goes nowhere; there is no feedback mechanism. Since IPv6 is (roughly speaking) preferred over IPv4, your browser will try using this broken route. It may take minutes before giving up."
-msgstr ""
+msgstr "Ang pangunahing problema sa ULA ay ang ilang mga routers sa bahay ay nag-aalok ngayon ng ULA, *at* nagbibigay sa iyo ng default na ruta. Ang ruta na ito ay inaalok hindi alintana kung o hindi ang iyong router ay talagang may koneksyon sa IPv6. Mula sa pananaw ng iyong browser, hindi mo alam na ang iyong default na ruta ay napupunta saanman; walang mekanismo ng katugunan. Dahil ang IPv6 ay (halos nagsasalita) na higit na gusto ang IPv4, susubukan ng iyong browser ang paggamit ng sirang ruta. Maaaring tumagal ng ilang minuto bago sumuko."
 
 #: "faq/broken_ula.inc"
 msgid "Our advice: Enable ULA only if your router has full time IPv6 connectivity. Disable it, otherwise. If you do disable it on your router, you will likely need to reboot your router first, then reboot your host, before the symptoms go away."
-msgstr ""
+msgstr "Ang payo namin: Paganahin ang ULA kung ang iyong router ay may ganap na oras na pagkokonekta ng IPv6. Huwag paganahin ito, kung hindi man. Kung gagawin mo itong hindi paganahin sa iyong router, malamang na kailangan mong munang i-reboot ang iyong router, pagkatapos ay i-reboot ang iyong host, bago lumayo ang mga sintomas."
 
 #: "broken.html"
 msgid "Bad or Inappropriate IPv6 Addresss"
-msgstr ""
+msgstr "Masama o Di-angkop na mga IPv6 Address"
 
 #: "broken.html"
 msgid "(IPv6 address: see table below)"
-msgstr ""
+msgstr "(IPv6 address: tingnan ang talahanayan sa ibaba)"
 
 #: "faq/broken_bogon.inc"
 msgid "Bad or Inappropriate IPv6 Addresses (Bogons)"
-msgstr ""
+msgstr "Masama o Di-angkop na Mga IPv6 Address (Bogons)"
 
 #: "faq/broken_bogon.inc"
 msgid "If you IPv6 address starts with any of these, your router needs to be upgraded."
-msgstr ""
+msgstr "King ang IPv6 address ay nagsisimula sa alinman sa mga ito, kailangang ma-upgrade ang iyong router."
 
 #: "faq/broken_bogon.inc"
 msgid "disable ULA."
-msgstr ""
+msgstr "huwag paganahin ang ULA."
 
 #: "faq/broken_bogon.inc"
 msgid "Other routers: Try updating the firmware. If that fails, look for and disable \"ULA\" or \"Unique Local Addressing\"."
-msgstr ""
+msgstr "Iba pang mga router: Subukang i-update ang firmware. Kung nabigo iyon, hanapin at huwag paganahin ang \"ULA\" o \"Unique Local Addressing\"."
 
 #: "faq/broken_bogon.inc"
 msgid "If that fails, disable IPv6 entirely on the router."
-msgstr ""
+msgstr "Kung nabigo iyon, huwag paganahin ang IPv6 sa router."
 
 #: "faq/broken_bogon.inc"
 msgid "or"
-msgstr ""
+msgstr "o"
 
 #: "faq/broken_bogon.inc"
 msgid "This is a router using 6to4, but using a private IPv4 address. This will never work."
-msgstr ""
+msgstr "Ito ay isang router na gumagamit ng 6to4, ngunit gumagamit ng pribadong IPv4 address. Hindi ito gagana."
 
 #: "faq/broken_bogon.inc"
 msgid "Apple routers: Update to the latest firmware; that has been corrected."
-msgstr ""
+msgstr "Mg router ng Apple: I-update sa pinakabagong firmware; na naitama."
 
 #: "faq/broken_bogon.inc"
 msgid "Other routers: Try updating the firmware. If that fails, look for and disable \"6to4\" or any form of automatic IPv6 tunnel."
-msgstr ""
+msgstr "Iba pang mga router: Subukang i-update ang firmware. Kung nabigo iyon, hanapin at huwag paganahin ang \"6to4\" o anumang annyo ng awtomatikong IPv6 tunnel."
 
 #: "faq/broken_bogon.inc"
 msgid "This router is using the official \"Documentation\" prefix - which is not routable on the IPv6 Internet."
-msgstr ""
+msgstr "Ang router na ito ay gumagamit ng opisyal na \"Dokumentasyon\" ng prefix - na kung saan ay hindi mai-ruta sa IPv6 Internet."
 
 #: "faq/broken_bogon.inc"
 msgid "Update to the latest firmware."
-msgstr ""
+msgstr "I-update sa pinakabagong firmware."
 
 #: "faq/broken_bogon.inc"
 msgid "Other routers: Try updating the firmware."
-msgstr ""
+msgstr "Iba pang mga router: Subukang i-update ang firmware."
 
 #: "faq/broken_bogon.inc"
 msgid "Disable IPv6."
-msgstr ""
+msgstr "Huwag paganahin ang IPv6."
 
 #: "broken.html"
 msgid "(IPv6 address: not starting with fe80)"
-msgstr ""
+msgstr "(IPv6 address: hindi nagsisimula sa fe80)"
 
 #: "faq/broken_unexpected.inc"
 msgid "Unexpected IPv6 address?"
-msgstr ""
+msgstr "Hindi inaasahang IPv6 address?"
 
 #: "faq/broken_unexpected.inc"
 msgid "Modern operating systems all have IPv6 enabled. This feature is dormant until someone explicitly configures IPv6, <em><b>or</b></em> a device on the local network offers it. Autoconfigured IPv6 hosts learn their IPv6 address and their gateway through the use of IPv6 router announcements (RAs). The network you are on may intentionally offer IPv6; you'll automatically use it when your computer sees it."
-msgstr ""
+msgstr "Ang mga modernong operating na sistema ay may lahat na pinagana ng IPv6. Ang tampok na ito ay natutulog hanggang sa isang tao ay malinaw na kinuconpigura ang IPv6,<em><b>o</b></em> isang aparato sa lokal na network ay nag-aalok ito. Ang mga maka-configure na IPv6 host ay natututo ng kanilang IPv6 address at kanilang gateway sa pamamagitan ng paggamit ng mga anunsyo ng IPv6 router (RA). Ang network na nasa iyo ay maaaring sinasadya na nag-aalok ng IPv6; awtomatiko mong gamitin ito kapag nakikita ito ng iyong computer."
 
 #: "faq/broken_unexpected.inc"
 msgid "<b>Where this goes wrong:</b> Some people plug their router into the network (wired or wireless) and inadvertantly offer IPv6 services to everyone. Classic examples of this are where people add an early version of an Apple router (with 6to4 automatically enabled); another example is someone who has Windows Internet Connection Sharing enabled. In both cases, there is a chance they offer their services - and become your IPv6 router of choice, without any notification to you."
-msgstr ""
+msgstr "<b>Kung saan ito nagkamali:</b> Ang ilang mga tao ay nag-plug sa kanilang router sa network (may wire o walang wire) at hindi sinasadyang nag-aalok ng mga serbisyo ng IPv6 sa lahat. Ang mga klasikong halimbawa ng mga ito ay kung saan ang mga tao ay nagdaragdag ng mga maaagang bersyon ng isang Apple router (na may 6to4 awtomatikong pinagana); isa pang halimbawa ay isang taong may Windows Internet Connection sharing na pinagana. Sa parehong mga kaso, mayroong isang pagkakataon na nag-aalok sila ng kanilang mga serbisyo - at maging iyong Pv6 router ng pagpili, nang walang abiso sa iyo."
 
 #: "faq/broken_unexpected.inc"
 msgid "If these IPv6 routers don't work, you will fail to connect to any web site that offers services on both IPv4 and IPv6. Even if they do work, if the router in question is unplugged (the owner packs up, leaves the hotel/conference) your host never gets the notice; and it can be hours before it gives up."
-msgstr ""
+msgstr "Kung hindi gumagana ang mga IPv6 na mga router, hindi ka makakonekta sa anumang website na nag-aalok ng mga serbisyo sa parehong IPv4 at IPv6. Kahit na kung gagawin nila ang trabaho, kung ang router ba pinag-uusapan ay naka unplugged (ang may-ari ay naka-pack up, umalis sa hotel/conference) ang iyong host ay hindi kailanman makakakuha ng paunawa; at maaaring aabotin ng oras bago ito bibigay."
 
 #: "faq/broken_unexpected.inc"
 msgid "This is similiar to someone accidentially (or intentionally) running a rogue DHCP server."
-msgstr ""
+msgstr "Ito ay pareho sa isang tao na sinasadya ( o sinasadyang) nagpapatakbo ng isang pusong server ng DHCP."
 
 #: "faq/broken_unexpected.inc"
 msgid "<b>If you are are not the network admin</b> - and have no access to fix the problem - consider disabling IPv6, at least for the location you are in. Another option might be to try turning off, and turning back on, your network interface (clearing the IP address), in case the source of the problem has left the network."
-msgstr ""
+msgstr "<b>Kung ikaw ay hindi ang admin network</b>- at walang access upang ayusin ang problema - isaalang-alang ang hindi pagpapagana ng IPv5, hindi bababa para sa iyong lokasyon. Ang isa pang opsyon ay maaaring subukan ang pag-off, at pagbalik ng iyong network sa interface (nililinis ang IP address), kung sakaling ang pinagmulan ng problema ay umalis sa network."
 
 #: "faq/broken_unexpected.inc"
 msgid "<b>If you are the network administrator</b>: You can use the default route information to identify the ethernet address; and then search for the owner of that ethernet address. Some network vendors have features that will suppress the advertisements of unauthorized RAs (router announcements); consider enabling those feaatures. More reactive measures involve finding (by ethernet address) the owner of the device; or possibly spoofing RA's from their device to indicate the device is going away."
-msgstr ""
+msgstr "<b>Kung ikaw ang tagapangasiwa ng network</b>: Maaari mong gamitin ang default na impormasyon sa ruta upang makilala ang ethernet address; at pagkatapos ay maghanap para sa may-ari ng ethernet address na iyon. Ang ilang mga vendor ng network ay mayroong mga tampok na susugutin sa mga paanunsiyo ng mga hindi awtorisadong RA ( mga anunsyo ng router); isaalang-alang ang pagpapagana ng mga kuwentong iyon. Higit pang mga reaktibong panukala ay kinasasangkutan ng paghahanap ( sa pamamagitan ng ethernet address) ang may-ari ng aparato; o posibleng spoofing RA mula sa kanilang aparato ay umalis."
 
 #: "faq/broken_netalyzr.inc"
 msgid "Consider trying the \"netalyzr\". This is another site that runs a java applet (which can do more than my site can, in just javascript). I would find feedback about how you useful this site was for you."
-msgstr ""
+msgstr "Isaalang-alang ang pagsubok sa \"netalyzr\". Ito ay pang site na nagpapatakbo ng isang java applet (na maaaring magawa nang higit pa kaysa sa aking site, sa javascript lang). Gusto kong makahanap ng puna tungkol sa kung paano mo kapaki-pakinabangan ang site na ito para sa iyo."
 
 #: "faq/broken_netalyzr.inc"
 msgid "From the netalyzr staff:"
-msgstr ""
+msgstr "Mula sa kawani ng netalyzr:"
 
 #: "broken.html"
 msgid "If all else fails"
-msgstr ""
+msgstr "Kung lahat ay nabigo"
 
 #: "broken.html"
 msgid "(Instructions for disabling or deprioritizing IPv6)"
-msgstr ""
+msgstr "(Mga tagubilin para sa hindi pagpapagana o pag-deprioritize ng IPv6)"
 
 #: "faq/broken_disable.inc"
 msgid "Disabling or Deprioritizing your IPv6 address"
-msgstr ""
+msgstr "I-disable o I-deprioritize ang iyong Ip address"
 
 #: "faq/broken_disable.inc"
 msgid "<b>To disable IPv6 entirely, until your ISP offers IPv6 to you:</b> see <b>Microsoft's \"fixit\" site</b> that gives clear instructions. We advocate considering \"Use IPv4 instead of IPv6 in prefix policies\", instead of completely disabling IPv6. Specific Windows features depend on IPv6 being enabled."
-msgstr ""
+msgstr "<b>Upang huwag paganahin ang IPv6, hanggang ang iyong ISP ay nag-aalok ng IPv6 sa iyo:</b>tingnan ang<b>site ng \"fixit\" ng Microsoft</b>na nagbibigay ng malinaw na mga tagubilin. Nagtataguyod kami na isinasaalang-alang ang \"Gumamit ng IPv4 sa halip ng IPv6 sa mga patakaran ng prefix\", sa halip na ganap na hindi pag-disable ng IPv6. ang mga partikular na tampok ng Windows ay depende sa pinagana ng IPv6."
 
 #: "faq/broken_disable.inc"
 msgid "To completely disable IPv6 (Windows 7, Vista; XP should be similiar):"
-msgstr ""
+msgstr "Upang ganap na huwag paganahin ang IPv6 (Windows 7, Vista; XP ay dapat na pareho):"
 
 #: "faq/broken_disable.inc"
 msgid "Go to \"Properties\""
-msgstr ""
+msgstr "Pumunta sa \"Properties\""
 
 #: "faq/broken_disable.inc"
 msgid "Uncheck \"Internet Protocol Version 6\""
-msgstr ""
+msgstr "Alisan ng tsek ang \"Internet Protocol Version 6\""
 
 #: "faq/broken_disable.inc"
 msgid "Hit \"ok\""
-msgstr ""
+msgstr "Pindutin ang \"ok\""
 
 #: "faq/broken_disable.inc"
 msgid "Shutdown/reboot."
-msgstr ""
+msgstr "Pagsasara/reboot."
 
 #: "faq/broken_disable.inc"
 msgid "To disable IPv6 in Windows XP:"
-msgstr ""
+msgstr "Upang huwag paganahin ang IPv6 sa Windows XP:"
 
 #: "faq/broken_disable.inc"
 msgid "Taken from:"
-msgstr ""
+msgstr "Kinukuha mula sa:"
 
 #: "faq/broken_disable.inc"
 msgid "Make sure you are logged in as an Administrator."
-msgstr ""
+msgstr "Tiyakin na nakalog-in ka bilang isang Administrator."
 
 #: "faq/broken_disable.inc"
 msgid "Click Start, click All Programs, click Accessories, and then click Command Prompt."
-msgstr ""
+msgstr "I-click ang Simulan, i-click ang Lahat ng mga Programa, i-click ang Accessory, at pagkatapos ay i-click ang Command Prompt."
 
 #: "faq/broken_disable.inc"
 msgid "At the command prompt, type: netsh int ipv6 uninstall and press the Enter key on your keyboard."
-msgstr ""
+msgstr "Sa command prompt, i-type: netsh int ipv6 i-uninstall at pindutin ang Enter key sa iyong keyboard."
 
 #: "faq/broken_disable.inc"
 msgid "Close the Command Prompt window and restart the computer."
-msgstr ""
+msgstr "Isara ang window ng Command Prompt at i-restary ang computer."
 
 #: "faq/broken_disable.inc"
 msgid "OS X users"
-msgstr ""
+msgstr "Mga gumagamit ng OS X"
 
 #: "faq/broken_disable.inc"
 msgid "Before disabling IPv6, please be sure you are running the latest OS version. In particular, OS X 10.6.7 has several workarounds for being \"Broken\". This may solve your problems without resorting to completely disabling IPv6."
-msgstr ""
+msgstr "Bago patakbuhin ang IPv, mangyaring siguraduhin na pinatakbo mo ang pinakabagong bersyon ng Os. Sa partikular, ang OS X 10.6.7 ay may ilang mga workaround para sa pagiging \"Broken\". Maaaring malutas nito ang iyong mga problema nang hindi ginagamot ang ganap na i-disable ang IPv6."
 
 #: "faq/broken_disable.inc"
 msgid "How to disable IPv6"
-msgstr ""
+msgstr "Paano hindi paganahin ang IPv6"
 
 #: "faq/broken_disable.inc"
 msgid "Disable IPv6"
-msgstr ""
+msgstr "Huwag paganahin ang IPv6"
 
 #: "faq/broken_disable.inc"
 msgid "Apply changes"
-msgstr ""
+msgstr "I-apply ang mga pagbabago"
 
 #: "faq/broken_disable.inc"
 msgid "iPhone and iPad users"
-msgstr ""
+msgstr "mga gumagamit ng iPhone at iPad"
 
 #: "faq/broken_disable.inc"
 msgid "IPv6 is not configurable on the iPhone or iPad. Your only option is to switch to another network."
-msgstr ""
+msgstr "Hindi maaaring i-configure ang IPv6 sa iPhone o iPad. Ang iyong tanging pagpipilian ay upang lumipat sa isa pang network."
 
 #: "faq/broken_disable.inc"
 msgid "Linux users:"
-msgstr ""
+msgstr "Mga gumagamit ng Linux:"
 
 #: "faq/broken_disable.inc"
 msgid "This is very distribution-specific. Do a web search using your favorite search engine."
-msgstr ""
+msgstr "Ito ay tiyak na pamamahagi. Gumawa ng isang paghahanap sa web gamit ang iyong paboritong search engine."
 
 #: "faq/broken_disable.inc"
 msgid "Example web search: <code>disable ipv6 on centos</code>"
-msgstr ""
+msgstr "Halimbawa ng paghahanap sa web: <code>huwag paganahin ang ipv6 sa centos</code>"
 
 #: "faq/broken_disable.inc"
 msgid "Generic unix instructions, to temporarily remove your IPv6 address."
-msgstr ""
+msgstr "Mga tagubilin ng generic na unix, upang pansamantalang alisin ang iyong IPv6 address."
 
 #: "faq/broken_disable.inc"
 msgid "IP_ADDRESS"
-msgstr ""
+msgstr "IP_ADDRESS"
 
 #: "faq/broken_disable.inc"
 msgid "Be aware that if the router re-advertises it, you will relearn the default route."
@@ -1582,15 +1581,15 @@ msgstr ""
 msgid "Yes, I do. Thank you! Note that I can only follow up with you if you do leave contact information. While I am still grateful for feedback without contact information, I will be unable to reply with any answers if you asked for them."
 msgstr ""
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Q: How else can I contact you?"
 msgstr ""
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "I would prefer you use the form, as it gives details of your connectivity, and bypasses any mail filters."
 msgstr ""
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "That said, you are welcome to directly email <a href=\"mailto:jfesler@test-ipv6.com\">jfesler@test-ipv6.com</a>."
 msgstr ""
 
@@ -2554,11 +2553,11 @@ msgstr ""
 msgid "Firefox (recent builds) does the same as Chrome."
 msgstr ""
 
-#: "faq_avoids_ipv6.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "The latest Windows 7 and Windows 8 updates will periodically test to see if IPv6 works. If the health check fails, then many applications (including Internet Explorer) will use IPv4, to insulate you from any local IPv6 misconfiguration."
 msgstr ""
 
-#: "faq_avoids_ipv6.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Apple's latest Lion and Mountain Lion updates will prefer whichever is \"faster\" for a given destination."
 msgstr ""
 
@@ -2694,7 +2693,7 @@ msgstr ""
 msgid "Firefox and NoScript"
 msgstr ""
 
-#: "faq_no_ipv4.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "The NoScript browser plugin disables scripts on the page. In the lower right corner of your browser, is the NoScript icon. Click this to bring up a menu; and temporarilly permit scripts on this site."
 msgstr ""
 
@@ -2874,6 +2873,10 @@ msgstr ""
 msgid "Please consent to sharing your data."
 msgstr ""
 
+#: "inc/header.inc"
+msgid "This will test your browser and connection for IPv6 readiness, as well as show you your current IPv4 and IPv6 address."
+msgstr ""
+
 #: "faq_avoids_ipv6.html"
 msgid "As of OS X 10.11 \"El Capitan\" and iOS 9, IPv6 is given a slight preference; but will fall back to IPv4 if network conditions warrant it."
 msgstr ""
@@ -2891,6 +2894,94 @@ msgid "Web sites that today automatically show you your local weather, news, and
 msgstr ""
 
 #: "main/mail.inc"
+msgid "<span id=\"comments_faq_link\"></span> (FAQ) page is available for <b>your</b> exact set of results. Please read it before leaving comments; many questions have already been answered. If you still have questions, comments, or concerns, feel free to use this form."
+msgstr ""
+
+#: "main/mail.inc"
 msgid "I consent to sharing my IP address(es), test results, web browser name and version, operating system name and version, and any other information entered above (including email address), as email transmitted to <a mailto=site.mailto href=\"-\"><span lookup=site.contact></span> &lt;<span lookup=site.mailto></span>&gt;</a>; and that this information may be translated by Google Translate."
+msgstr ""
+
+#: "inc/footer.inc"
+msgid "Share on:"
+msgstr ""
+
+#: "faq_avoids_ipv6.html"
+msgid "Since Windows 7, the operating system will periodically test to see if IPv6 works. If the health check fails, then many applications (including Internet Explorer) will use IPv4, to insulate you from any local IPv6 misconfiguration."
+msgstr ""
+
+#: "faq_avoids_ipv6.html"
+msgid "Apple's Lion and Mountain Lion updates will prefer whichever is \"faster\" for a given destination."
+msgstr ""
+
+#: "main/mail.inc"
+msgid "Report a bug with diagnosis or this web site"
+msgstr ""
+
+#: "main/mail.inc"
+msgid "Report problem about slow internet service with your provider"
+msgstr ""
+
+#: "main/mail.inc"
+msgid "Hacked phone or computer"
+msgstr ""
+
+#: "main/mail.inc"
+msgid "Being watched by spouse, hackers, mafia, government"
+msgstr ""
+
+#: "main/mail.inc"
+msgid "Problems with IPv6 in China"
+msgstr ""
+
+#: "main/mail.inc"
+msgid "Problems relating to your Internet service, should be sent to your Internet Service Provider. Please contact them for support."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "This web site is not a tool for security or forensic analysis. If you have security concerns, please find a security professional to consult with. They can offer investication and education that is appropriately matched to your concerns."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "You are in a country that has government controls over available web sites. This web site is operated from outside of your country, and is subject to the policicies and technology limitations of your \"Great Wall\" for the Internet."
+msgstr ""
+
+#: "main/mail.inc"
+msgid "This web site is subject to the policies and technology limitations of the \"Great Wall\" for the Internet. Because of these limitations, this web site is not reliable for viewing from inside China."
+msgstr ""
+
+#: "main/mail.inc"
+msgid "This web site is not a tool for security or forensic analysis. If you have security concerns, please find a security professional to consult with. They can offer investigation and education that is appropriately matched to your concerns."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "This mirror marked as out of complaince; you should instead visit <a href='http://test-ipv6.com/'>http://test-ipv6.com</a>."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "This mirror marked as out of compliance; you should instead visit <a href='///test-ipv6.com/'>test-ipv6.com</a>."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "This mirror marked as out of compliance; you should instead visit <a href='//test-ipv6.com/'>test-ipv6.com</a>."
+msgstr ""
+
+#: "inc/messages.js"
+msgid "This mirror has been marked as out of compliance; you should instead visit <a href='//test-ipv6.com/'>test-ipv6.com</a>."
+msgstr ""
+
+#: "inc/messages.js"
+msgid "If you are using a VPN, your VPN is only protecting one protocol, not both."
+msgstr ""
+
+#: "faq.html"
+msgid "Q: Can you fix my VPN?"
+msgstr ""
+
+#: "faq.html"
+msgid "No, I can not fix your VPN."
+msgstr ""
+
+#: "faq_no_ipv4.html"
+msgid "The NoScript browser extension disables scripts on the page. In the upper right corner of your browser, is the NoScript icon. Click this to bring up a menu; and temporarily permit scripts on this site."
 msgstr ""
 

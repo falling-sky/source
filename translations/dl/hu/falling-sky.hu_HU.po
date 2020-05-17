@@ -1,14 +1,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2018-03-01 02:30-0500\n"
-"Last-Translator: jfesler <jfesler@gigo.com>\n"
+"PO-Revision-Date: 2020-05-16 15:30\n"
+"Last-Translator: Unspecified Translator <jfesler+unspecified-translator@test-ipv6.com>\n"
 "Language-Team: Hungarian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: crowdin.com\n"
 "X-Crowdin-Project: falling-sky\n"
 "X-Crowdin-Language: hu\n"
 "X-Crowdin-File: falling-sky.pot\n"
@@ -426,7 +425,7 @@ msgstr "Az internetes ügyfélszolgálat kérheti az alábbi információkat."
 msgid "Test your IPv6."
 msgstr "Teszteld az IPv6 kapcsolatod."
 
-#: "inc/header.inc"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "This will test your browser and connection for IPv6 readiness, as well as show you your current IPV4 and IPv6 address."
 msgstr "Ez az oldal a böngésződ és a kapcsolatod IPv6 képességét teszteli, valamint megmutatja az aktuális IPV4 és IPV6 címedet."
 
@@ -650,7 +649,7 @@ msgstr "Ez magában foglalja a Te IP-címedet, amelyet a webhely üzemeltetője 
 msgid "Use of this form implies consent."
 msgstr "Az űrlap használatával egyetért."
 
-#: "main/mail.inc"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "<span id=\"comments_faq_link\"></span> (FAQ) page is available for <b>your</b> exact set of results. Please read it before leaving comments; many questions have already been answered. If you still have questions, comments, or concerns, feel freel to use this form."
 msgstr "<b>Te</b> konkrét eredményeidhez. Kérlek olvasd el mielőtt üzenetet küldesz; rengeteg kérdésre megszületett már a válasz. Ha ezek ellenére szeretnéd velünk megosztani kérdésed, kérésed, véleményed, akkor használd ezt az űrlapot."
 
@@ -674,7 +673,7 @@ msgstr "Hozzászólás oka"
 msgid "Questions about test results"
 msgstr "Kérdés a teszt eredményekkel kapcsolatban"
 
-#: "main/mail.inc"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Report a bug with diagnosis"
 msgstr "Hiba bejelentése diagnózissal"
 
@@ -724,11 +723,11 @@ msgstr "Ha az internetes ügyfélszolgálat megkér, hogy küldj levelet az 'ere
 
 #: "main/helpdesk.inc"
 msgid "Note that this will share your current numeric Internet Protocol address(es)."
-msgstr "Kérjük, vedd figyelembe, hogy ez megadja az aktuális internetcímedet."
+msgstr "Vedd figyelembe, hogy ez megadja az aktuális internetcímedet."
 
 #: "main/helpdesk.inc"
 msgid "We do not recommend posting this link on public web sites such as forums."
-msgstr "Nem javasoljuk, hogy ezt a linket közzétegyék nyilvános webhelyeken, például fórumokon."
+msgstr "Nem javasoljuk, hogy ezt a linket megoszd nyilvános webhelyeken, például fórumokon."
 
 #: "main/helpdesk.inc"
 msgid "On most computers, you can right-click the above URL, and select 'Copy'."
@@ -868,7 +867,7 @@ msgstr ""
 
 #: "broken.html"
 msgid "To resolve this, you'll first need to identify your IPv6 address (if you have one) and your IPv6 default route (if you have one). This will help identify which sections to read."
-msgstr ""
+msgstr "A probléma megoldásához először keresd meg az IPv6-címét (ha van ilyen) és az IPv6 alapértelmezett útvonalát (ha van ilyen). Ez segít azonosítani a rész olvasását."
 
 #: "broken.html"
 msgid "If you find your particular problem is not well represented; or you have additional suggestions; please do leave feedback using the <a href='#' onclick='return GIGO.tabnav(\"mail\");'>form</a> (or contact <a href=\"mailto:jfesler@test-ipv6.com\">jfesler@test-ipv6.com</a>)."
@@ -1040,7 +1039,7 @@ msgstr "Keress egy sort az \"alapértelmezett\" értékkel; esetleg egy átjár�
 
 #: "faq/find_ip.inc"
 msgid "iPhone and iPad users: No information is shown via Apple's preferences/setup. The \"IT Tools\" and the \"ip6config\" apps do show IPv6 address data; both cost."
-msgstr ""
+msgstr "iPhone és iPad felhasználók: az Apple \"Beállítások\" nem mutatnak információt. Az IT eszközök és az ip6config alkalmazások IPv6-címeket mutatnak. Mindkét alkalmazás díjköteles."
 
 #: "faq/find_ip.inc"
 msgid "Linux users: To find your IPv6 address, open a terminal and.."
@@ -1244,7 +1243,7 @@ msgstr ""
 
 #: "faq/broken_ula.inc"
 msgid "Our advice: Enable ULA only if your router has full time IPv6 connectivity. Disable it, otherwise. If you do disable it on your router, you will likely need to reboot your router first, then reboot your host, before the symptoms go away."
-msgstr ""
+msgstr "Tanácsunk: csak engedélyezd az ULA-t, ha a router mindig rendelkezik IPv6-kapcsolattal. Ellenkező esetben tiltsd le. Ha letiltod az ULA-t a router-en, akkor valószínűleg újra kell indítanod az eszközt és a gépet is a beállítások érvénybelépéséhez."
 
 #: "broken.html"
 msgid "Bad or Inappropriate IPv6 Addresss"
@@ -1320,11 +1319,11 @@ msgstr ""
 
 #: "faq/broken_unexpected.inc"
 msgid "<b>Where this goes wrong:</b> Some people plug their router into the network (wired or wireless) and inadvertantly offer IPv6 services to everyone. Classic examples of this are where people add an early version of an Apple router (with 6to4 automatically enabled); another example is someone who has Windows Internet Connection Sharing enabled. In both cases, there is a chance they offer their services - and become your IPv6 router of choice, without any notification to you."
-msgstr ""
+msgstr "<b> Ahol ez meghiúsul: </ b> Vannak néhányan akik routereket adnak hozzá a hálózathoz (vezetékes vagy vezeték nélküli), amelyek véletlenül mindenki számára biztosítanak IPv6 szolgáltatást. Egy klasszikus példa az Apple router korai verziója (a 6to4 automatikusan engedélyezve van). Egy másik példa az, amikor engedélyezve van a Windows Internetkapcsolat megosztása. Mindkét esetben van esély arra, hogy ezeket a szolgáltatásokat kínálják - és válthat az IPv6 router választása nélkül."
 
 #: "faq/broken_unexpected.inc"
 msgid "If these IPv6 routers don't work, you will fail to connect to any web site that offers services on both IPv4 and IPv6. Even if they do work, if the router in question is unplugged (the owner packs up, leaves the hotel/conference) your host never gets the notice; and it can be hours before it gives up."
-msgstr ""
+msgstr "Ha ezek az IPv6-forgalomirányítók nem működnek, akkor nem fog csatlakozni semmilyen webhelyhez, amelyek IPv4 és IPv6 szolgáltatást nyújtanak. Még ha működnek is, a szóban forgó routert kihúzzák (a tulajdonos csomagol és elhagyja a szállodát / konferenciát) a fogadó soha nem kapja meg az értesítést; és órák telhetnek el, mielőtt feladja. Kontextus | Kéréskörnyezet."
 
 #: "faq/broken_unexpected.inc"
 msgid "This is similiar to someone accidentially (or intentionally) running a rogue DHCP server."
@@ -1332,7 +1331,7 @@ msgstr "Ez hasonló ahhoz, amikor valaki véletlenül (vagy szándékosan) futta
 
 #: "faq/broken_unexpected.inc"
 msgid "<b>If you are are not the network admin</b> - and have no access to fix the problem - consider disabling IPv6, at least for the location you are in. Another option might be to try turning off, and turning back on, your network interface (clearing the IP address), in case the source of the problem has left the network."
-msgstr ""
+msgstr "<b>Ha nem te vagy a hálózati adminisztrátor </ b> - és nincs megfelelő hozzáférésed a probléma megoldásához - fontold meg az IPv6 letiltását, legalább lokálisan. Egy másik lehetőség a hálózati interfész kikapcsolása majd újra bekapcsolása (visszaállítja az IP-címet) abban az esetben, ha a probléma a hálózati kapcsolódásból ered."
 
 #: "faq/broken_unexpected.inc"
 msgid "<b>If you are the network administrator</b>: You can use the default route information to identify the ethernet address; and then search for the owner of that ethernet address. Some network vendors have features that will suppress the advertisements of unauthorized RAs (router announcements); consider enabling those feaatures. More reactive measures involve finding (by ethernet address) the owner of the device; or possibly spoofing RA's from their device to indicate the device is going away."
@@ -1340,7 +1339,7 @@ msgstr ""
 
 #: "faq/broken_netalyzr.inc"
 msgid "Consider trying the \"netalyzr\". This is another site that runs a java applet (which can do more than my site can, in just javascript). I would find feedback about how you useful this site was for you."
-msgstr ""
+msgstr "Fontold meg a \"netalyzr\" kipróbálását. Ez egy másik weboldal, amely Java-alkalmazást futtat (amely több funkciót tud végrehajtani, mint a weboldalam, csak javascript-tel). Nagyra értékelem a visszajelzést arról, hogy milyen hasznos volt a webhely számodra."
 
 #: "faq/broken_netalyzr.inc"
 msgid "From the netalyzr staff:"
@@ -1456,7 +1455,7 @@ msgstr "IP_CÍM"
 
 #: "faq/broken_disable.inc"
 msgid "Be aware that if the router re-advertises it, you will relearn the default route."
-msgstr ""
+msgstr "Ne feledd, hogy a router újra meghirdeti, és újra megjegyzi az alapértelmezett útvonalat."
 
 #: "faq/broken_disable.inc"
 msgid "You can do a web search for your particular OS distribution. Example search would be <code>disable ipv6 on freebsd</code>."
@@ -1582,15 +1581,15 @@ msgstr "K: Tényleg olvastad a visszajelzést?"
 msgid "Yes, I do. Thank you! Note that I can only follow up with you if you do leave contact information. While I am still grateful for feedback without contact information, I will be unable to reply with any answers if you asked for them."
 msgstr ""
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Q: How else can I contact you?"
 msgstr "K: Hogyan tudnék másként kapcsolatba lépni veled?"
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "I would prefer you use the form, as it gives details of your connectivity, and bypasses any mail filters."
 msgstr ""
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "That said, you are welcome to directly email <a href=\"mailto:jfesler@test-ipv6.com\">jfesler@test-ipv6.com</a>."
 msgstr ""
 
@@ -1848,7 +1847,7 @@ msgstr ""
 
 #: "not-used, archived.  Not currently needed for translation."
 msgid "may be a better solution, in China. This requires a custom client to be installed."
-msgstr ""
+msgstr "esetleg Kínában jobb megoldás lehet. Ehhez telepíteni kell egy egyedi ügyfélprogramot."
 
 #: "not-used, archived.  Not currently needed for translation."
 msgid "in Australia offers both free and paid-for (with SLA) tunnels."
@@ -2404,7 +2403,7 @@ msgstr "Ha inkább \"6to4\" -et futtatsz a számítógépeden (nem a routeren):"
 
 #: "faq_pmtud.html"
 msgid "Linux, BSD, and (presumably) Mac: Set your 6to4 interface to MTU 1280. If you are running radvd, set \"AdvLinkMTU 1280\" in your interface radvd.conf ."
-msgstr ""
+msgstr "Linux, BSD és (valószínűleg) Mac: Állítsd a \"6to4\" interfész \"MTU\" méretét 1280-ra. Ha a radvd-t van használatban, akkor változtasd meg a radvd.conf konfigurációját az \"AdvLinkMTU-t 1280\" -ra."
 
 #: "faq_pmtud.html"
 msgid "Windows: If you figure this out, please share with jfesler@test-ipv6.com to add to this site. Presumably: control panel, network adapters, properties, 6"
@@ -2484,7 +2483,7 @@ msgstr "A Linux, a BSD és a Mac OS X esetében ezt a terminálon megadhatod: <c
 
 #: "faq_buggydns1.html"
 msgid "Residential ISP customers: look to see if the DNS server is <b>192.168.0.1</b> or <b>192.168.1.1</b>. If so, chances are good that your home router is at fault. This is probably the blue box you have that connects the Internet."
-msgstr ""
+msgstr "Lakossági ISP ügyfeleknek: nézd meg, hogy van-e a DNS-kiszolgáló <b>192.168.0.1</b> vagy <b>192.168.1.1</b>. Ha igen, jó esély van arra, hogy az otthoni router hibás. Ez valószínűleg az a 'blue box', amely az internetet összekapcsolja."
 
 #: "faq_buggydns1.html"
 msgid "Business customers: Provide this information to your IT professional to investigate."
@@ -2554,13 +2553,13 @@ msgstr "(Bővebb információ)"
 msgid "Firefox (recent builds) does the same as Chrome."
 msgstr "A Firefox (jelenlegi verziók) ugyanaz, mint a Chrome."
 
-#: "faq_avoids_ipv6.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "The latest Windows 7 and Windows 8 updates will periodically test to see if IPv6 works. If the health check fails, then many applications (including Internet Explorer) will use IPv4, to insulate you from any local IPv6 misconfiguration."
 msgstr ""
 
-#: "faq_avoids_ipv6.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Apple's latest Lion and Mountain Lion updates will prefer whichever is \"faster\" for a given destination."
-msgstr ""
+msgstr "Az Apple legfrissebb Lion and Mountain Lion frissítései mindig a gyorsabb útvonalat választják."
 
 #: "faq_avoids_ipv6.html"
 msgid "When you use the Internet, a connection is made between your computer, and the service you're connecting to. To connect, you have to have the other side's IP - Internet Protocol - number. And, when you connect, they see yours, so they can send traffic back to you and your applications."
@@ -2694,9 +2693,9 @@ msgstr ""
 msgid "Firefox and NoScript"
 msgstr "Firefox és NoScript"
 
-#: "faq_no_ipv4.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "The NoScript browser plugin disables scripts on the page. In the lower right corner of your browser, is the NoScript icon. Click this to bring up a menu; and temporarilly permit scripts on this site."
-msgstr ""
+msgstr "A NoScript böngészőkiterjesztés letiltja a JavaScriptet a lapon. A NoScript ikonja a böngésző eszköztárán (az ablak jobb felső sarka közelében) található. Erre kattintva megjelenik egy menü, ahol ideiglenesen engedélyezhető a JavaScript ezen az oldalon."
 
 #: "faq_no_ipv4.html"
 msgid "Firefox and AdBlock+"
@@ -2760,19 +2759,19 @@ msgstr ""
 
 #: "faq.html"
 msgid "Send email to jfesler@test-ipv6.com. If your IPv6-only network has dedicated name servers, or a dedicated BGP ASN, jfesler will enable AAAA records for test-ipv6.com for you."
-msgstr ""
+msgstr "Küldj egy e-mailt a: jfesler@test-ipv6.com címre. Ha csak az IPv6-alapú hálózata rendelkezik dedikált DNS-kiszolgálókkal vagy dedikált BGP ASN-el, a JFesler lehetővé teszi az AAAA-rekordok tesztelését a test-ipv6.com webhelyen."
 
 #: "faq.html"
 msgid "If you don't meet the above requirements, you can visit http://ipv6.test-ipv6.com (IPv6-only) or http://ds.test-ipv6.com (IPv4+IPv6)."
-msgstr ""
+msgstr "Ha nem felelsz meg a fenti követelményeknek, akkor látogass el a http://ipv6.test-ipv6.com (csak IPv6) vagy http://ds.test-ipv6.com (IPv4+IPv6) oldalakra."
 
 #: "faq.html"
 msgid "At some point, when the percentage of \"broken\" users has gone significantly down, I'll consider making test-ipv6.com dual-stack. At last check, March 2017, we still see 0.2% broken visiting test-ipv6.com. And we still want them to understand their situation."
-msgstr ""
+msgstr "Egy pillanatra, ha a \"törött\" felhasználók aránya jelentősen csökkent, a teszt-ipv6.com kínálatát dual-stack segítségével vizsgálom meg. Az utolsó felülvizsgálat során, amely 2017 márciusában még 0,5% \"rossz\" látogató volt a teszt-ipv6.com oldalon. Így segíteni akarjuk őket abban, hogy megértsék helyzetüket."
 
 #: "not-used, archived.  Not currently needed for translation."
 msgid "Your current configuration may not achieve the highest performance or assure connectivity to all Internet resources as global IPv6 adoption continues. Ask your ISP about native IPv6."
-msgstr ""
+msgstr "Az aktuális konfiguráció nem működik megfelelően, vagy nem csatlakozhatsz az összes internetes erőforráshoz, mivel az IPv6 globális növekedése folytatódik. Kérj az internetszolgáltatódtól natív IPv6-ot."
 
 #: "not-used, archived.  Not currently needed for translation."
 msgid "To ensure the best performance and connectivity, ask your ISP about native IPv6."
@@ -2864,7 +2863,7 @@ msgstr "A vizsgálati eredmények nem meggyőzőek; nem voltak összhangban a v�
 
 #: "inc/messages.js"
 msgid "Connections to IPv6-capable web sites hang. It appears that you may have IPv6 configured; and your computer believes that your IPv6 is working, with a route. It is however completely failing. Any web site that adds IPv6, will become unreachable to you. If you are unable to fix your IPv6 routing or connectivity, seek help. If all else fails, strongly consider disabling IPv6 on your host."
-msgstr ""
+msgstr "Az IPv6-alapú weboldalakhoz kapcsolódások során fennakadás van. Úgy tűnik, hogy az IPv6 konfigurálva van, és a számítógép úgy gondolja, hogy az IPv6 egy útvonalon működik is. Ez azonban nem így van, és teljesen kimarad. Minden IPv6-alapú weboldal elérhető lesz a számodra, de ha nem tudod kijavítani az IPv6 kapcsolatot vagy az IPv6 útválasztást, akkor kérj segítséget. Ha minden megoldás sikertelen, akkor teljesen tiltsd le az IPv6-ot a számítógépen."
 
 #: "inc/builtin.js"
 msgid "Test Data"
@@ -2872,7 +2871,11 @@ msgstr "Teszt Adatok"
 
 #: "inc/form.js"
 msgid "Please consent to sharing your data."
-msgstr ""
+msgstr "Kérjük, fogadd el az adataid közzétételét."
+
+#: "inc/header.inc"
+msgid "This will test your browser and connection for IPv6 readiness, as well as show you your current IPv4 and IPv6 address."
+msgstr "Ez ellenőrizni fogja az internetes böngészőt és az internetkapcsolatot az IPv6 használhatóságához, és meghatározza az aktuális IPv4 és IPv6 címed."
 
 #: "faq_avoids_ipv6.html"
 msgid "As of OS X 10.11 \"El Capitan\" and iOS 9, IPv6 is given a slight preference; but will fall back to IPv4 if network conditions warrant it."
@@ -2880,7 +2883,7 @@ msgstr "Az OS X 10.11 \"El Capitan\" és az iOS 9 IPv6 kevésbé előnyös; de v
 
 #: "faq_pmtud.html"
 msgid "Your router will automatically add an IPv4 header to the top of your packet. This same router will let your computer know if the packet is going to be too big; your computer will (as long as it gets the ICMPv6 \"Packet Too Big\" message) resend the packet, at a smaller size recommended by your router. A router near the web site, will automatically remove the IPv4 header, and forward the IPv6 piece."
-msgstr ""
+msgstr "A router automatikusan IPv4 fejlécet helyez el a csomagod elejére. A router megmondja a számítógépnek, ha a csomag túl nagy lesz; A számítógép (ha megkapja az ICMPv6 \"Packet Too Big\" üzenetet), akkor egy kisebb csomagot vár, amelyet az útválasztó ajánl. A weboldal közelében a router automatikusan eltávolítja az IPv4 fejlécet, és továbbítja az IPv6 részt."
 
 #: "faq_v6ns_bad.html"
 msgid "OpenDNS is now offering IPv6-specific resolvers, that will be able to retrieve DNS over IPv6. This means the \"v6ns\" test operated here will pass. See the <a target=_blank href=\"https://www.opendns.com/about/innovations/ipv6/\">OpenDNS IPv6 information page</a>."
@@ -2888,9 +2891,97 @@ msgstr "Az OpenDNS mostantól olyan IPv6-specifikus megoldásokat kínál, amely
 
 #: "faq_whyipv6.html"
 msgid "Web sites that today automatically show you your local weather, news, and movies may no longer be able to locate you using your IPv4 address; you'll have to tell the web sites where in the world you are."
-msgstr ""
+msgstr "Azok a webhelyek, amelyek automatikusan megjelenítik a helyi időjárást, helyi híreket és a helyi mozi bemutatókat, azok esetleg már nem tudják megtalálni az IPv4-címet; Ezért először meg kell adni a weboldalnak, hogy hol vagy."
+
+#: "main/mail.inc"
+msgid "<span id=\"comments_faq_link\"></span> (FAQ) page is available for <b>your</b> exact set of results. Please read it before leaving comments; many questions have already been answered. If you still have questions, comments, or concerns, feel free to use this form."
+msgstr "<b>Te</b> konkrét eredményeidhez. Kérjük olvasd el mielőtt üzenetet küldesz; rengeteg kérdésre megszületett már a válasz. Ha ezek ellenére szeretnéd velünk megosztani kérdésed, kérésed, véleményed, akkor használd ezt az űrlapot."
 
 #: "main/mail.inc"
 msgid "I consent to sharing my IP address(es), test results, web browser name and version, operating system name and version, and any other information entered above (including email address), as email transmitted to <a mailto=site.mailto href=\"-\"><span lookup=site.contact></span> &lt;<span lookup=site.mailto></span>&gt;</a>; and that this information may be translated by Google Translate."
+msgstr "Elfogadom, hogy e-mailben elküldöm az IP-címemet, a vizsgálati eredményeket, a webböngésző nevét és verziószámát, az operációs rendszer nevét és verzióját, valamint a fent megadott összes információt (beleértve az e-mail címem is) <a <a mailto=site.mailto href=\"-\"><span lookup=site.contact></span> &lt;<span lookup=site.mailto></span>&gt;</a>; és ezeket az információkat lefordíthatják a Google Fordító segítségével."
+
+#: "inc/footer.inc"
+msgid "Share on:"
+msgstr "Megosztás:"
+
+#: "faq_avoids_ipv6.html"
+msgid "Since Windows 7, the operating system will periodically test to see if IPv6 works. If the health check fails, then many applications (including Internet Explorer) will use IPv4, to insulate you from any local IPv6 misconfiguration."
+msgstr "A Windows 7 operációs rendszernek rendszeres időközönként meg kell vizsgálnia, hogy működik-e az IPv6. Ha az állapotfelmérés sikertelen, akkor sok alkalmazás fogja használni az IPv4-et (beleértve az Internet Explorer programot is), hogy elkerülje az IPv6 konfigurációs hibáit bármely helyi hálózaton."
+
+#: "faq_avoids_ipv6.html"
+msgid "Apple's Lion and Mountain Lion updates will prefer whichever is \"faster\" for a given destination."
+msgstr "Apple's Lion és Mountain Lion frissítése után automatikusan a gyorsabb protokollt részesítik előnyben meghatározott célok alapján."
+
+#: "main/mail.inc"
+msgid "Report a bug with diagnosis or this web site"
 msgstr ""
+
+#: "main/mail.inc"
+msgid "Report problem about slow internet service with your provider"
+msgstr ""
+
+#: "main/mail.inc"
+msgid "Hacked phone or computer"
+msgstr ""
+
+#: "main/mail.inc"
+msgid "Being watched by spouse, hackers, mafia, government"
+msgstr ""
+
+#: "main/mail.inc"
+msgid "Problems with IPv6 in China"
+msgstr ""
+
+#: "main/mail.inc"
+msgid "Problems relating to your Internet service, should be sent to your Internet Service Provider. Please contact them for support."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "This web site is not a tool for security or forensic analysis. If you have security concerns, please find a security professional to consult with. They can offer investication and education that is appropriately matched to your concerns."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "You are in a country that has government controls over available web sites. This web site is operated from outside of your country, and is subject to the policicies and technology limitations of your \"Great Wall\" for the Internet."
+msgstr ""
+
+#: "main/mail.inc"
+msgid "This web site is subject to the policies and technology limitations of the \"Great Wall\" for the Internet. Because of these limitations, this web site is not reliable for viewing from inside China."
+msgstr ""
+
+#: "main/mail.inc"
+msgid "This web site is not a tool for security or forensic analysis. If you have security concerns, please find a security professional to consult with. They can offer investigation and education that is appropriately matched to your concerns."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "This mirror marked as out of complaince; you should instead visit <a href='http://test-ipv6.com/'>http://test-ipv6.com</a>."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "This mirror marked as out of compliance; you should instead visit <a href='///test-ipv6.com/'>test-ipv6.com</a>."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "This mirror marked as out of compliance; you should instead visit <a href='//test-ipv6.com/'>test-ipv6.com</a>."
+msgstr ""
+
+#: "inc/messages.js"
+msgid "This mirror has been marked as out of compliance; you should instead visit <a href='//test-ipv6.com/'>test-ipv6.com</a>."
+msgstr ""
+
+#: "inc/messages.js"
+msgid "If you are using a VPN, your VPN is only protecting one protocol, not both."
+msgstr ""
+
+#: "faq.html"
+msgid "Q: Can you fix my VPN?"
+msgstr "K: Tudod javítani a VPN-emet?"
+
+#: "faq.html"
+msgid "No, I can not fix your VPN."
+msgstr "Nem, nem tudom javítani a VPN-edet."
+
+#: "faq_no_ipv4.html"
+msgid "The NoScript browser extension disables scripts on the page. In the upper right corner of your browser, is the NoScript icon. Click this to bring up a menu; and temporarily permit scripts on this site."
+msgstr "A NoScript böngészőkiterjesztés letiltja a JavaScriptet a lapon. A NoScript ikonja a böngésző eszköztárán (az ablak jobb felső sarka közelében) található. Erre kattintva megjelenik egy menü, ahol ideiglenesen engedélyezhető a JavaScript ezen az oldalon."
 

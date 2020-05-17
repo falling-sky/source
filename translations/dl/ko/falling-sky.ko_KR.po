@@ -1,14 +1,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2018-03-01 02:30-0500\n"
-"Last-Translator: jfesler <jfesler@gigo.com>\n"
+"PO-Revision-Date: 2020-05-16 15:30\n"
+"Last-Translator: Unspecified Translator <jfesler+unspecified-translator@test-ipv6.com>\n"
 "Language-Team: Korean\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: crowdin.com\n"
 "X-Crowdin-Project: falling-sky\n"
 "X-Crowdin-Language: ko\n"
 "X-Crowdin-File: falling-sky.pot\n"
@@ -36,7 +35,7 @@ msgstr "시간 초과"
 
 #: "inc/messages.js"
 msgid "Connections to urls with IP addresses appear to be blocked; perhaps by a web filter such as 'NoScript' or 'RequestPolicy' installed into your browser, or filtering in your proxy server. This limits some of the functionality of this test site."
-msgstr "IP 주소로의 연결이 차단된 것으로 보입니다; 'NoScript'나 'RequestPolicy' 같은 웹 필터가 설치되어 있거나, 프록시 서버의 필터링을 하는 것일 수 있습니다. 이것은 이 테스트 사이트의 몇몇 기능들을 제한합니다."
+msgstr "IP 주소로의 연결이 차단된 것으로 보입니다; 'NoScript'나 'RequestPolicy' 같은 웹 필터가 설치되어 있거나, 프록시 서버 필터링을 하는 것일수도 있습니다. 이것은 이 테스트 사이트의 몇몇 기능들을 제한합니다."
 
 #: "inc/messages.js"
 msgid "IPv4 Connections using DNS work; but literal IP addresses in urls do not. These are rarely used on the web today."
@@ -64,7 +63,7 @@ msgstr "당신은 IPv4/IPv6 전환기술의 일종인 Teredo를 통해 IPv6 서�
 
 #: "inc/messages.js"
 msgid "Danger! IPv6 sorta works - however, large packets appear to fail, giving the appearance of a broken website. If a publisher publishes to IPv6, you will believe their web site to be broken. Ask your ISP about MTU issues; possibly with your tunnel."
-msgstr "주의: IPv6는 동작합니다 - 하지만 큰 패킷은 손실되는 것으로 보이며 이것은 웹 사이트를 깨지게 할 수 있습니다. 만일 사이트가 IPv6 접속을 제공한다면, 이는 사이트의 문제점으로 착각될 수 있습니다. ISP에 MTU 문제에 대해 문의하십시오. 당신의 터널의 문제일 수도 있습니다."
+msgstr "경고! IPv6는 작동합니다 - 하지만 큰 패킷은 손실되는 것으로 보이며 이것은 웹 사이트를 깨지게 할 수 있습니다. 만일 사이트가 IPv6 접속을 사용한다면, 사이트가 깨질 것으로 예상됩니다. ISP에 MTU 문제에 대해 문의하십시오. 당신의 터널의 문제일 수도 있습니다."
 
 #: "inc/messages.js"
 msgid "Check your firewall to make sure that ICMPv6 messages are allowed (in particular, Type 2 or Packet Too Big)."
@@ -426,7 +425,7 @@ msgstr "인터넷 기술 지원팀에서 다음 정보를 요청할 수 있습�
 msgid "Test your IPv6."
 msgstr "IPv6을 테스트합니다."
 
-#: "inc/header.inc"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "This will test your browser and connection for IPv6 readiness, as well as show you your current IPV4 and IPv6 address."
 msgstr "이것은 IPv6 준비를 위한 연결 및 브라우저를 테스트할 뿐만 아니라 현재 IPV4와 IPv6 주소를 표시합니다."
 
@@ -650,7 +649,7 @@ msgstr "또한 IP 주소는 질문에 답변하기 위해 사이트 관리자와
 msgid "Use of this form implies consent."
 msgstr "이 양식을 사용하면 동의를 뜻합니다."
 
-#: "main/mail.inc"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "<span id=\"comments_faq_link\"></span> (FAQ) page is available for <b>your</b> exact set of results. Please read it before leaving comments; many questions have already been answered. If you still have questions, comments, or concerns, feel freel to use this form."
 msgstr "<span id=\"comments_faq_link\"></span>일련의 정확한 결과에 대해 <b>(FAQ)</b> 페이지를 사용할 수 있습니다. 먼저 읽고 난 후에 댓글을 남기십시오. 이미 많은 질문에 대한 답변이 나열되어 있습니다. 추가 질문, 댓글 또는 우려 사항이 있는 경우 이 양식을 사용하십시오."
 
@@ -674,7 +673,7 @@ msgstr "댓글의 목적"
 msgid "Questions about test results"
 msgstr "테스트 결과에 관한 질문"
 
-#: "main/mail.inc"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Report a bug with diagnosis"
 msgstr "진단 버그 보고"
 
@@ -1582,15 +1581,15 @@ msgstr "Q: 피드백을 실제로 읽습니까?"
 msgid "Yes, I do. Thank you! Note that I can only follow up with you if you do leave contact information. While I am still grateful for feedback without contact information, I will be unable to reply with any answers if you asked for them."
 msgstr "그렇습니다. 피드백에 감사 드립니다. 연락처 정보를 남기는 경우에만 후속조치를 취할 수 있습니다. 연락처 정보가 없는 피드백도 환영하지만 질문에 대한 답변은 할 수가 없습니다."
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Q: How else can I contact you?"
 msgstr "Q: 다른 연락 방법은 무엇입니까?"
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "I would prefer you use the form, as it gives details of your connectivity, and bypasses any mail filters."
 msgstr "연결에 대한 세부 정보를 제공하고, 메일 필터를 우회할 수 있기 때문에 이 양식을 사용하는 것이 좋습니다."
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "That said, you are welcome to directly email <a href=\"mailto:jfesler@test-ipv6.com\">jfesler@test-ipv6.com</a>."
 msgstr "그렇긴 하지만 <a href=\"mailto:jfesler@test-ipv6.com\">jfesler@test-ipv6.com</a>로 직접 이메일을 보내 주셔도 좋습니다."
 
@@ -2557,11 +2556,11 @@ msgstr "(추가 정보)"
 msgid "Firefox (recent builds) does the same as Chrome."
 msgstr "Firefox(최근 빌드)도 Chrome과 동일하게 작동합니다."
 
-#: "faq_avoids_ipv6.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "The latest Windows 7 and Windows 8 updates will periodically test to see if IPv6 works. If the health check fails, then many applications (including Internet Explorer) will use IPv4, to insulate you from any local IPv6 misconfiguration."
 msgstr "최신 Windows 7 및 Windows 8 업데이트에서는 IPv6이 작동하는지 확인하기 위해 주기적인 테스트가 수행됩니다. 상태 검사가 실패하는 경우 많은 응용 프로그램(Internet Explorer 포함)이 모든 잘못된 로컬 IPv6 구성으로부터 사용자를 보호하기 위해 IPv4를 사용합니다."
 
-#: "faq_avoids_ipv6.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Apple's latest Lion and Mountain Lion updates will prefer whichever is \"faster\" for a given destination."
 msgstr "Apple의 최신 Lion 및 Mountain Lion 업데이트는 특정 대상에 대해 \"더 빠른\" 쪽을 선호합니다."
 
@@ -2697,7 +2696,7 @@ msgstr "테스트가 분명히 실패했기 때문에 IPv6에서 서비스를 �
 msgid "Firefox and NoScript"
 msgstr "Firefox 및 NoScript"
 
-#: "faq_no_ipv4.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "The NoScript browser plugin disables scripts on the page. In the lower right corner of your browser, is the NoScript icon. Click this to bring up a menu; and temporarilly permit scripts on this site."
 msgstr "NoScript 브라우저 플러그 인은 이 페이지에서 스크립트를 사용 안 함으로 설정합니다. 브라우저의 오른쪽 하단 모퉁이에 있는 것이 NoScript 아이콘입니다. 이것을 클릭하여 메뉴를 불러 오고 이 사이트에서 스크립트를 일시적으로 허용합니다."
 
@@ -2775,11 +2774,11 @@ msgstr "적절한 시점에, \"끊어진\" 사용자의 비율이 크게 내려 
 
 #: "not-used, archived.  Not currently needed for translation."
 msgid "Your current configuration may not achieve the highest performance or assure connectivity to all Internet resources as global IPv6 adoption continues. Ask your ISP about native IPv6."
-msgstr ""
+msgstr "현재의 설정으로는, 미래에 IPv6망이 넓어지면서 최상의 성능이나 연결이 보장되지 않을 수 있습니다. 인터넷 공급자 서비스(ISP)에게 네이티브 IPv6을 요청하십시오."
 
 #: "not-used, archived.  Not currently needed for translation."
 msgid "To ensure the best performance and connectivity, ask your ISP about native IPv6."
-msgstr ""
+msgstr "최상의 성능과 연결을 위해 당신의 ISP에게 네이티브 IPv6를 요청하세요,"
 
 #: "inc/messages.js"
 msgid "To ensure the best Internet performance and connectivity, ask your ISP about native IPv6."
@@ -2875,7 +2874,11 @@ msgstr "테스트 데이터"
 
 #: "inc/form.js"
 msgid "Please consent to sharing your data."
-msgstr ""
+msgstr "데이터 공유에 동의해주십시오."
+
+#: "inc/header.inc"
+msgid "This will test your browser and connection for IPv6 readiness, as well as show you your current IPv4 and IPv6 address."
+msgstr "이 테스트는 당신의 브라우저와 인터넷 연결의 IPv6 준비도를 테스트할 뿐만 아니라 현재 당신의 IPV4및 IPv6 주소를 표시합니다."
 
 #: "faq_avoids_ipv6.html"
 msgid "As of OS X 10.11 \"El Capitan\" and iOS 9, IPv6 is given a slight preference; but will fall back to IPv4 if network conditions warrant it."
@@ -2894,6 +2897,94 @@ msgid "Web sites that today automatically show you your local weather, news, and
 msgstr "오늘날 자동으로 지역 날씨, 뉴스 및 영화를 보여주는 웹 사이트는 더 이상 IPv4 주소를 사용하여 사용자를 찾을 수 없습니다. 사용자는 웹 사이트에 자신의 위치 정보를 제공해야 합니다."
 
 #: "main/mail.inc"
+msgid "<span id=\"comments_faq_link\"></span> (FAQ) page is available for <b>your</b> exact set of results. Please read it before leaving comments; many questions have already been answered. If you still have questions, comments, or concerns, feel free to use this form."
+msgstr "<span id=\"comments_faq_link\"></span>일련의 정확한 결과에 대해 <b>(FAQ)</b> 페이지를 사용할 수 있습니다. 먼저 읽고 난 후에 댓글을 남기십시오. 이미 많은 질문에 대한 답변이 나열되어 있습니다. 추가 질문, 댓글 또는 우려 사항이 있는 경우 이 양식을 사용하십시오."
+
+#: "main/mail.inc"
 msgid "I consent to sharing my IP address(es), test results, web browser name and version, operating system name and version, and any other information entered above (including email address), as email transmitted to <a mailto=site.mailto href=\"-\"><span lookup=site.contact></span> &lt;<span lookup=site.mailto></span>&gt;</a>; and that this information may be translated by Google Translate."
-msgstr ""
+msgstr "이메일을<a mailto=site.mailto href=\"-\"><span lookup=site.contact></span>&lt;<span lookup=site.mailto></span>&gt;</a> 으로 보냄을 통해 내 IP 주소들, 테스트 결과, 브라우저의 종류와 버전, 운영체제 종류와 버전, 그리고 이메일 주소를 포함한 위해 적힌 모든 정보가 전송됨에 동의합니다.그리고 이 정보는 구글 번역에 의해서 번역될 수 있습니다."
+
+#: "inc/footer.inc"
+msgid "Share on:"
+msgstr "다음으로 공유하기:"
+
+#: "faq_avoids_ipv6.html"
+msgid "Since Windows 7, the operating system will periodically test to see if IPv6 works. If the health check fails, then many applications (including Internet Explorer) will use IPv4, to insulate you from any local IPv6 misconfiguration."
+msgstr "Windows 7 이후에는 IPv6이 작동하는지 확인하기 위해 주기적인 테스트가 수행됩니다. 상태 검사가 실패하는 경우 많은 응용 프로그램 (Internet Explorer 포함) 이 모든 잘못된 로컬 IPv6 구성으로부터 사용자를 보호하기 위해 IPv4를 사용합니다."
+
+#: "faq_avoids_ipv6.html"
+msgid "Apple's Lion and Mountain Lion updates will prefer whichever is \"faster\" for a given destination."
+msgstr "Apple의 최신 Lion 및 Mountain Lion 업데이트는 특정 대상에 대해 \"더 빠른\" 쪽을 선호합니다."
+
+#: "main/mail.inc"
+msgid "Report a bug with diagnosis or this web site"
+msgstr "이 웹사이트의 버그를 분석과 함께 보내기"
+
+#: "main/mail.inc"
+msgid "Report problem about slow internet service with your provider"
+msgstr "인터넷 제공업체에게 느린 인터넷 문제에 대해 알리기"
+
+#: "main/mail.inc"
+msgid "Hacked phone or computer"
+msgstr "해킹된 휴대폰 또는 컴퓨터"
+
+#: "main/mail.inc"
+msgid "Being watched by spouse, hackers, mafia, government"
+msgstr "배우자, 해커, 마피아, 정부에 의해 감시당하고 있음"
+
+#: "main/mail.inc"
+msgid "Problems with IPv6 in China"
+msgstr "중국에서의 IPv6 문제"
+
+#: "main/mail.inc"
+msgid "Problems relating to your Internet service, should be sent to your Internet Service Provider. Please contact them for support."
+msgstr "인터넷 서비스 문제로 보이며, 인터넷 서비스 제공자에게 알려주셔야 합니다. 지원을 위해 제공자에게 문의해주세요."
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "This web site is not a tool for security or forensic analysis. If you have security concerns, please find a security professional to consult with. They can offer investication and education that is appropriately matched to your concerns."
+msgstr "이 사이트는 보안이나 포렌식 분석을 위한 도구가 아닙니다 보안에 대한 염려가 있다면, 보안 전문가를 찾아보세요. 그들은 당신의 염려에 적당히 맞는 조사나 교육을 제공합니다."
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "You are in a country that has government controls over available web sites. This web site is operated from outside of your country, and is subject to the policicies and technology limitations of your \"Great Wall\" for the Internet."
+msgstr "정부가 웹사이트를 검열하는 지역입니다. 이 웹사이트는 외국에 있으며, 인터넷 \"만리장성\"에 대한 정책이나 기술적인 제한을 적용받습니다."
+
+#: "main/mail.inc"
+msgid "This web site is subject to the policies and technology limitations of the \"Great Wall\" for the Internet. Because of these limitations, this web site is not reliable for viewing from inside China."
+msgstr "이 웹 사이트에는 인터넷 \"만리장성\"의 정책 및 기술 제한 사항이 적용됩니다. 그렇기 때문에 이 웹 사이트는 중국 본토에서 볼 수 없습니다."
+
+#: "main/mail.inc"
+msgid "This web site is not a tool for security or forensic analysis. If you have security concerns, please find a security professional to consult with. They can offer investigation and education that is appropriately matched to your concerns."
+msgstr "이 사이트는 보안이나 포렌식 분석을 위한 도구가 아닙니다 보안에 대한 염려가 있다면, 보안 전문가를 찾아보세요. 그들은 당신의 염려에 적당히 맞는 조사나 교육을 제공합니다."
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "This mirror marked as out of complaince; you should instead visit <a href='http://test-ipv6.com/'>http://test-ipv6.com</a>."
+msgstr "이 미러는 문제가 있습니다; <a href='http://test-ipv6.com/'>http://test-ipv6.com</a>에 접속해보세요."
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "This mirror marked as out of compliance; you should instead visit <a href='///test-ipv6.com/'>test-ipv6.com</a>."
+msgstr "이 미러는 문제가 있습니다; <a href='///test-ipv6.com/'>test-ipv6.com</a>에 접속해보세요."
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "This mirror marked as out of compliance; you should instead visit <a href='//test-ipv6.com/'>test-ipv6.com</a>."
+msgstr "이 미러는 문제가 있습니다; <a href='//test-ipv6.com/'>test-ipv6.com</a>에 접속해보세요."
+
+#: "inc/messages.js"
+msgid "This mirror has been marked as out of compliance; you should instead visit <a href='//test-ipv6.com/'>test-ipv6.com</a>."
+msgstr "이 미러는 문제가 있었습니다; <a href='//test-ipv6.com/'>test-ipv6.com</a>에 접속해보세요."
+
+#: "inc/messages.js"
+msgid "If you are using a VPN, your VPN is only protecting one protocol, not both."
+msgstr "VPN을 사용하고 계시다면 그 VPN은 둘 다가 아닌 한 프로토콜만 보호합니다."
+
+#: "faq.html"
+msgid "Q: Can you fix my VPN?"
+msgstr "Q: VPN 문제를 해결해주실 수 있나요?"
+
+#: "faq.html"
+msgid "No, I can not fix your VPN."
+msgstr "아니요, VPN을 고칠 수 없습니다."
+
+#: "faq_no_ipv4.html"
+msgid "The NoScript browser extension disables scripts on the page. In the upper right corner of your browser, is the NoScript icon. Click this to bring up a menu; and temporarily permit scripts on this site."
+msgstr "NoScript 브라우저 확장 프로그램은 페이지의 스크립트를 비활성화합니다. 브라우저 상단 우측에서 NoScript 아이콘을 확인할 수 있습니다. 메뉴를 가져오기 위해 클릭한 다음 이 사이트에서 임시적으로 스크립트를 사용할 수 있게 허용해주세요."
 

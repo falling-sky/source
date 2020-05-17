@@ -2980,3 +2980,7 @@ msgstr ""
 msgid "The NoScript browser extension disables scripts on the page. In the upper right corner of your browser, is the NoScript icon. Click this to bring up a menu; and temporarily permit scripts on this site."
 msgstr ""
 
+#: "simple_test.html"
+msgid "dummy comment, testing translation"
+msgstr ""
+

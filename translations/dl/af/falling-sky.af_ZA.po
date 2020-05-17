@@ -1,14 +1,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2018-03-01 02:30-0500\n"
-"Last-Translator: jfesler <jfesler@gigo.com>\n"
+"PO-Revision-Date: 2020-05-16 15:30\n"
+"Last-Translator: Unspecified Translator <jfesler+unspecified-translator@test-ipv6.com>\n"
 "Language-Team: Afrikaans\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: crowdin.com\n"
 "X-Crowdin-Project: falling-sky\n"
 "X-Crowdin-Language: af\n"
 "X-Crowdin-File: falling-sky.pot\n"
@@ -16,11 +15,11 @@ msgstr ""
 
 #: "inc/mirrorconfig.js"
 msgid "This mirror is provided by"
-msgstr "Hierdie spieel is geborg deur"
+msgstr "This mirror is provided by"
 
 #: "inc/messages.js"
 msgid "bad"
-msgstr "slegte"
+msgstr "bad"
 
 #: "inc/messages.js"
 msgid "ok"
@@ -64,7 +63,7 @@ msgstr "Jou IPv6 verbinding lyk asof dit Teredo gebruik, soort van 'n IPv4/IPv6 
 
 #: "inc/messages.js"
 msgid "Danger! IPv6 sorta works - however, large packets appear to fail, giving the appearance of a broken website. If a publisher publishes to IPv6, you will believe their web site to be broken. Ask your ISP about MTU issues; possibly with your tunnel."
-msgstr ""
+msgstr "Gevaar! IPv6 sorta werke - egter groot pakkies verskyn om te misluk, gee die voorkoms van 'n gebroke webwerf. Indien 'n uitgewer publiseer om IPv6 te aktiveer, sal jy glo hul webwerf verbreek word. Vra jou ISP oor MTU kwessies; moontlik met jou tonnel."
 
 #: "inc/messages.js"
 msgid "Check your firewall to make sure that ICMPv6 messages are allowed (in particular, Type 2 or Packet Too Big)."
@@ -72,11 +71,11 @@ msgstr "Maak seker dat jou brandmuur ICMPv6 boodskappe toelaat (veral \"Type 2\"
 
 #: "inc/messages.js"
 msgid "Test results inconclusive; they were not consistent with expectations. Please rerun the test, and if the results are the same, please fill out the contact form."
-msgstr ""
+msgstr "Toets resultate inconclusive; hulle was nie in ooreenstemming met verwagtinge. Asseblief Herloop die toets, en as die resultate dieselfde is nie, vul asseblief die kontak vorm."
 
 #: "inc/messages.js"
 msgid "For unknown reasons, your browser appears to operate slower when given the option of connecting to both IPv4 and IPv6. Please rerun the test, and if the results are the same, please fill out the contact form."
-msgstr ""
+msgstr "Vir onbekende redes, jou blaaier verskyn om stadiger te werk wanneer die opsie van verbind IPv4 en IPv6 gegee. Asseblief Herloop die toets, en as die resultate dieselfde is nie, vul asseblief die kontak vorm."
 
 #: "inc/messages.js"
 msgid "You appear to be able to browse the IPv4 Internet only. You will not be able to reach IPv6-only sites."
@@ -84,19 +83,19 @@ msgstr "Die lyk asof jy net die IPv4 Internet kan bereik. Jy sal nie tuistes met
 
 #: "inc/messages.js"
 msgid "When a publisher offers both IPv4 and IPv6, your browser appears to be happy to take the IPv4 site without delay."
-msgstr ""
+msgstr "Wanneer 'n uitgewer bied IPv4 en IPv6, jou blaaier lyk gelukkig te neem die IPv4 werf sonder vertraging."
 
 #: "inc/messages.js"
 msgid "When a publisher offers both IPv4 and IPv6, your browser appears to slow down signficantly compared to an IPv4-only site. You may even believe the destination web site to be broken. This may be due to your IPv6 configuration."
-msgstr ""
+msgstr "Wanneer 'n uitgewer bied IPv4 en IPv6, jou blaaier verskyn om stadiger te maak signficantly in vergelyking met 'n IPv4-net werf. Jy kan selfs glo dat die bestemming se webwerf verbreek word. Dit kan wees as gevolg van jou IPv6 konfigurasie."
 
 #: "inc/messages.js"
 msgid "When a publisher offers both IPv4 and IPv6, your browser will time out trying to connect. You may believe the site is down. This may be due to your IPv6 configuration. Consider disabling IPv6, or seeking help."
-msgstr ""
+msgstr "Wanneer 'n uitgewer bied IPv4 en IPv6, sal jou blaaier blaaskans probeer om te verbind. Jy kan glo die werf af. Dit kan wees as gevolg van jou IPv6 konfigurasie. Oorweeg of versperring van IPv6, op soek na hulp."
 
 #: "inc/messages.js"
 msgid "Connections to IPv4 are slow, but functional. Perhaps you or your ISP put you behind an IP sharing device (NAT) that is currently slow."
-msgstr ""
+msgstr "Verbindings met IPv4 is stadig, maar funksioneel. Miskien jy of jou ISP sit jy agter 'n IP toestel (NAT) is tans stadige deel."
 
 #: "inc/messages.js"
 msgid "You appear to be able to browse the IPv6 Internet only. You have no access to IPv4. That's pretty bold!"
@@ -104,23 +103,23 @@ msgstr "Jy kan net die IPv6 Internet bereik. Jy het geen verbinding tot IPv4. Di
 
 #: "inc/messages.js"
 msgid "Connections to IPv6 are slow, but functional. Perhaps you are using a public IPv6 tunnel that is either slow, or not located near you."
-msgstr ""
+msgstr "Verbindings aan IPv6 is stadig, maar funksioneel. Miskien gebruik jy 'n openbare IPv6 tonnel wat is stadig, óf nie geleë naby jou."
 
 #: "inc/messages.js"
 msgid "Connections to IPv6-only sites are timing out. Any web site that is IPv6 only, will appear to be down to you."
-msgstr ""
+msgstr "Verbindings aan IPv6-net werwe is tydreëling. Enige webwerf wat IPv6 net, sal blyk te wees tot jy."
 
 #: "not-used, archived.  Not currently needed for translation."
 msgid "Connections to IPv6-capable web sites hang. It appears that you may have IPv6 configured; and your computer believes that your IPv6 is working, with a route. It is however completely failing. Any web site that adds IPv6, will become unreachable to you. If you are unable to fix your IPv6 routing or connectivity, seek help. If all else fails, strongly consider disabling IP6 on host."
-msgstr ""
+msgstr "Verbindings aan IPv6-in staat om webwerwe hang. Dit blyk dat jy mag het IPv6 gekonfigureer; en jou rekenaar glo dat jou IPv6 werk, met 'n roete. Dit is egter heeltemal by gebreke aan. Enige webwerf wat voeg IPv6, onbereikbaar vir jou sal raak. As jy nie reg jou IPv6 routing of konnektiwiteit, kry hulp. As alles anders misluk, sterk oorweeg versperring IP6 op gasheer."
 
 #: "inc/messages.js"
 msgid "We are unable to test your system; it appears that a firewall or browser filter is preventing the test from running. Critical tests are failing. Try disabling any browser plugins, extensions, or add-ons (such as ad blockers); and reloading this page. If that still fails, you can leave a comment requesting help."
-msgstr ""
+msgstr "Ons is nie in staat om te toets jou stelsel; Dit blyk dat 'n brandmuur of blaaier filter voorkom dat die toets om te loop. Kritiese toetse is versuim. Probeer enige blaaier invoegtoepassings, uitbreidings of byvoegings (soos ad blokkers); en herlaai die bladsy. As dit steeds nie werk nie, kan jy los 'n kommentaar versoek hulp."
 
 #: "inc/messages.js"
 msgid "We are unable to test your system; it appears that a firewall or browser filter is preventing the test from running. The dual-stack tests are failing. Try disabling any browser plugins, extensions, or add-ons (such as ad blockers); and reloading this page. If that still fails, you can leave a comment requesting help."
-msgstr ""
+msgstr "Ons is nie in staat om te toets jou stelsel; Dit blyk dat 'n brandmuur of blaaier filter voorkom dat die toets om te loop. Kritiese toetse is versuim. Probeer enige blaaier invoegtoepassings, uitbreidings of byvoegings (soos ad blokkers); en herlaai die bladsy. As dit steeds nie werk nie, kan jy los 'n kommentaar versoek hulp."
 
 #: "inc/messages.js"
 msgid "Your browser is blocking the test urls. We will try alternate methods, but they may fail to show your IP address; and may affect the quality of the advice given."
@@ -426,7 +425,7 @@ msgstr ""
 msgid "Test your IPv6."
 msgstr "Toets jou IPv6."
 
-#: "inc/header.inc"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "This will test your browser and connection for IPv6 readiness, as well as show you your current IPV4 and IPv6 address."
 msgstr ""
 
@@ -650,7 +649,7 @@ msgstr ""
 msgid "Use of this form implies consent."
 msgstr ""
 
-#: "main/mail.inc"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "<span id=\"comments_faq_link\"></span> (FAQ) page is available for <b>your</b> exact set of results. Please read it before leaving comments; many questions have already been answered. If you still have questions, comments, or concerns, feel freel to use this form."
 msgstr ""
 
@@ -664,7 +663,7 @@ msgstr ""
 
 #: "main/mail.inc"
 msgid "Thanks,"
-msgstr ""
+msgstr "Baie Dankie,"
 
 #: "main/mail.inc"
 msgid "Purpose for comment"
@@ -674,13 +673,13 @@ msgstr ""
 msgid "Questions about test results"
 msgstr ""
 
-#: "main/mail.inc"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Report a bug with diagnosis"
 msgstr ""
 
 #: "main/mail.inc"
 msgid "Suggestion"
-msgstr ""
+msgstr "Voorstelle"
 
 #: "main/mail.inc"
 msgid "Cheers or Jeers"
@@ -752,7 +751,7 @@ msgstr ""
 
 #: "inc/footer.inc"
 msgid "All rights reserved."
-msgstr ""
+msgstr "Alle Regte Voorbehou."
 
 #: "inc/footer.inc"
 msgid "Mission"
@@ -760,15 +759,15 @@ msgstr ""
 
 #: "inc/footer.inc"
 msgid "Source"
-msgstr ""
+msgstr "Bron"
 
 #: "inc/footer.inc"
 msgid "Email"
-msgstr ""
+msgstr "Epos"
 
 #: "inc/footer.inc"
 msgid "Attributions"
-msgstr ""
+msgstr "Kenmerke"
 
 #: "inc/disclaimer.inc"
 msgid "This is a mirror of test-ipv6.com. The views expressed here may or may not reflect the views of the mirror owner."
@@ -852,7 +851,7 @@ msgstr ""
 
 #: "faq_helpdesk.html"
 msgid "Q: How can I recommend changes to the Help Desk tab?"
-msgstr ""
+msgstr "Q: Hoe kan ek beveel aan dat veranderinge aan die Help lessenaar-oortjie?"
 
 #: "faq_helpdesk.html"
 msgid "Suggestions are welcome; especially from those operating help desks. This tab is really for you - not for the consumer. Please keep in mind that we want to keep the tab brief, concise, and easy to read for the average user over the phone to your help desk team. Send suggestions to jfesler@test-ipv6.com ."
@@ -968,7 +967,7 @@ msgstr ""
 
 #: "faq/find_ip.inc"
 msgid "Identify your IPv6 address, and your default router (if you have one)."
-msgstr ""
+msgstr "Identifiseer jou IPv6-adres, en jou verstek roeteerder (as jy een het)."
 
 #: "faq/find_ip.inc"
 msgid "Finding your IPv6 address and default router can be a challenge if you are not familiar with your OS's network configuration. Instructions for your OS are below."
@@ -1056,7 +1055,7 @@ msgstr ""
 
 #: "faq/find_ip.inc"
 msgid "Run"
-msgstr ""
+msgstr "Hardloop"
 
 #: "faq/find_ip.inc"
 msgid "and look for <code>inet6</code> to see your possible IPv6 addresses."
@@ -1092,7 +1091,7 @@ msgstr ""
 
 #: "faq/find_ip.inc"
 msgid "Go to the start menu"
-msgstr ""
+msgstr "Gaan na die stasie"
 
 #: "faq/find_ip.inc"
 msgid "Go to the control panel"
@@ -1176,7 +1175,7 @@ msgstr ""
 
 #: "faq/broken_6to4.inc"
 msgid "If you use 6to4</b> (without a tunnel broker; ie, using anonymous 6to4):"
-msgstr ""
+msgstr "As jy gebruik 6to4</b> (dws, gebruik anonieme 6to4 sonder 'n tonnel makelaar;):"
 
 #: "faq/6to4_sucks.inc"
 msgid "The use of \"automatic\" 6to4, or the use of 6to4 without explicit configuration of the gateways, is not recommended. For more information see <a href='#' onclick='return help_page(\"faq_6to4.html\",\"6to4\")'>6to4</a>."
@@ -1324,7 +1323,7 @@ msgstr ""
 
 #: "faq/broken_unexpected.inc"
 msgid "If these IPv6 routers don't work, you will fail to connect to any web site that offers services on both IPv4 and IPv6. Even if they do work, if the router in question is unplugged (the owner packs up, leaves the hotel/conference) your host never gets the notice; and it can be hours before it gives up."
-msgstr ""
+msgstr "As hierdie IPv6 roeteerders nie werk nie, sal jy misluk om aan enige webwerf wat bied dienste op IPv4 en IPv6 te koppel. Selfs as hulle werk, as die roeteerder in vraag is uitgeprop (die eienaar pakke, verlaat die hotel/konferensie) jou gasheer kry nooit die kennisgewing; en dit kan ure voordat dit gee."
 
 #: "faq/broken_unexpected.inc"
 msgid "This is similiar to someone accidentially (or intentionally) running a rogue DHCP server."
@@ -1408,7 +1407,7 @@ msgstr ""
 
 #: "faq/broken_disable.inc"
 msgid "OS X users"
-msgstr ""
+msgstr "Bedryfstelsel gebruikers"
 
 #: "faq/broken_disable.inc"
 msgid "Before disabling IPv6, please be sure you are running the latest OS version. In particular, OS X 10.6.7 has several workarounds for being \"Broken\". This may solve your problems without resorting to completely disabling IPv6."
@@ -1424,11 +1423,11 @@ msgstr ""
 
 #: "faq/broken_disable.inc"
 msgid "Apply changes"
-msgstr ""
+msgstr "Pas verandering toe"
 
 #: "faq/broken_disable.inc"
 msgid "iPhone and iPad users"
-msgstr ""
+msgstr "iPhone en iPad apps"
 
 #: "faq/broken_disable.inc"
 msgid "IPv6 is not configurable on the iPhone or iPad. Your only option is to switch to another network."
@@ -1582,15 +1581,15 @@ msgstr ""
 msgid "Yes, I do. Thank you! Note that I can only follow up with you if you do leave contact information. While I am still grateful for feedback without contact information, I will be unable to reply with any answers if you asked for them."
 msgstr ""
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Q: How else can I contact you?"
 msgstr ""
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "I would prefer you use the form, as it gives details of your connectivity, and bypasses any mail filters."
 msgstr ""
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "That said, you are welcome to directly email <a href=\"mailto:jfesler@test-ipv6.com\">jfesler@test-ipv6.com</a>."
 msgstr ""
 
@@ -2554,11 +2553,11 @@ msgstr "(meer inligting)"
 msgid "Firefox (recent builds) does the same as Chrome."
 msgstr ""
 
-#: "faq_avoids_ipv6.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "The latest Windows 7 and Windows 8 updates will periodically test to see if IPv6 works. If the health check fails, then many applications (including Internet Explorer) will use IPv4, to insulate you from any local IPv6 misconfiguration."
 msgstr ""
 
-#: "faq_avoids_ipv6.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Apple's latest Lion and Mountain Lion updates will prefer whichever is \"faster\" for a given destination."
 msgstr ""
 
@@ -2694,7 +2693,7 @@ msgstr ""
 msgid "Firefox and NoScript"
 msgstr ""
 
-#: "faq_no_ipv4.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "The NoScript browser plugin disables scripts on the page. In the lower right corner of your browser, is the NoScript icon. Click this to bring up a menu; and temporarilly permit scripts on this site."
 msgstr ""
 
@@ -2874,6 +2873,10 @@ msgstr ""
 msgid "Please consent to sharing your data."
 msgstr ""
 
+#: "inc/header.inc"
+msgid "This will test your browser and connection for IPv6 readiness, as well as show you your current IPv4 and IPv6 address."
+msgstr ""
+
 #: "faq_avoids_ipv6.html"
 msgid "As of OS X 10.11 \"El Capitan\" and iOS 9, IPv6 is given a slight preference; but will fall back to IPv4 if network conditions warrant it."
 msgstr ""
@@ -2891,6 +2894,94 @@ msgid "Web sites that today automatically show you your local weather, news, and
 msgstr ""
 
 #: "main/mail.inc"
+msgid "<span id=\"comments_faq_link\"></span> (FAQ) page is available for <b>your</b> exact set of results. Please read it before leaving comments; many questions have already been answered. If you still have questions, comments, or concerns, feel free to use this form."
+msgstr ""
+
+#: "main/mail.inc"
 msgid "I consent to sharing my IP address(es), test results, web browser name and version, operating system name and version, and any other information entered above (including email address), as email transmitted to <a mailto=site.mailto href=\"-\"><span lookup=site.contact></span> &lt;<span lookup=site.mailto></span>&gt;</a>; and that this information may be translated by Google Translate."
+msgstr ""
+
+#: "inc/footer.inc"
+msgid "Share on:"
+msgstr ""
+
+#: "faq_avoids_ipv6.html"
+msgid "Since Windows 7, the operating system will periodically test to see if IPv6 works. If the health check fails, then many applications (including Internet Explorer) will use IPv4, to insulate you from any local IPv6 misconfiguration."
+msgstr ""
+
+#: "faq_avoids_ipv6.html"
+msgid "Apple's Lion and Mountain Lion updates will prefer whichever is \"faster\" for a given destination."
+msgstr ""
+
+#: "main/mail.inc"
+msgid "Report a bug with diagnosis or this web site"
+msgstr ""
+
+#: "main/mail.inc"
+msgid "Report problem about slow internet service with your provider"
+msgstr ""
+
+#: "main/mail.inc"
+msgid "Hacked phone or computer"
+msgstr ""
+
+#: "main/mail.inc"
+msgid "Being watched by spouse, hackers, mafia, government"
+msgstr ""
+
+#: "main/mail.inc"
+msgid "Problems with IPv6 in China"
+msgstr ""
+
+#: "main/mail.inc"
+msgid "Problems relating to your Internet service, should be sent to your Internet Service Provider. Please contact them for support."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "This web site is not a tool for security or forensic analysis. If you have security concerns, please find a security professional to consult with. They can offer investication and education that is appropriately matched to your concerns."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "You are in a country that has government controls over available web sites. This web site is operated from outside of your country, and is subject to the policicies and technology limitations of your \"Great Wall\" for the Internet."
+msgstr ""
+
+#: "main/mail.inc"
+msgid "This web site is subject to the policies and technology limitations of the \"Great Wall\" for the Internet. Because of these limitations, this web site is not reliable for viewing from inside China."
+msgstr ""
+
+#: "main/mail.inc"
+msgid "This web site is not a tool for security or forensic analysis. If you have security concerns, please find a security professional to consult with. They can offer investigation and education that is appropriately matched to your concerns."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "This mirror marked as out of complaince; you should instead visit <a href='http://test-ipv6.com/'>http://test-ipv6.com</a>."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "This mirror marked as out of compliance; you should instead visit <a href='///test-ipv6.com/'>test-ipv6.com</a>."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "This mirror marked as out of compliance; you should instead visit <a href='//test-ipv6.com/'>test-ipv6.com</a>."
+msgstr ""
+
+#: "inc/messages.js"
+msgid "This mirror has been marked as out of compliance; you should instead visit <a href='//test-ipv6.com/'>test-ipv6.com</a>."
+msgstr ""
+
+#: "inc/messages.js"
+msgid "If you are using a VPN, your VPN is only protecting one protocol, not both."
+msgstr ""
+
+#: "faq.html"
+msgid "Q: Can you fix my VPN?"
+msgstr ""
+
+#: "faq.html"
+msgid "No, I can not fix your VPN."
+msgstr ""
+
+#: "faq_no_ipv4.html"
+msgid "The NoScript browser extension disables scripts on the page. In the upper right corner of your browser, is the NoScript icon. Click this to bring up a menu; and temporarily permit scripts on this site."
 msgstr ""
 

@@ -1,14 +1,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2018-03-01 02:30-0500\n"
-"Last-Translator: jfesler <jfesler@gigo.com>\n"
+"PO-Revision-Date: 2020-05-16 15:30\n"
+"Last-Translator: Unspecified Translator <jfesler+unspecified-translator@test-ipv6.com>\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: crowdin.com\n"
 "X-Crowdin-Project: falling-sky\n"
 "X-Crowdin-Language: ja\n"
 "X-Crowdin-File: falling-sky.pot\n"
@@ -156,7 +155,7 @@ msgstr "IPv6のみの名前のルックアップに失敗しました。 IPv6経
 
 #: "inc/messages.js"
 msgid "A lookup for an dual-stack IPv4 and IPv6 name failed (at minimum it should have connected via IPv4). Apple has a bug that sporadically causes some IPv6 lookups to fail. We saw evidence of it on this test. You can reload the page and try the test again. For more details, see <a href='http://openradar.appspot.com/7333104'>http://openradar.appspot.com/7333104</a>."
-msgstr "デュアルスタック、IPv4とIPv6の名前のルックアップが失敗しました(少なくと も、IPv4経由で接続しているはずです)。 Appleには散発的にいくつかのIPv6ルックアッ プが失敗するバグがあります。 このテストでは、その証拠が見つかりました。 ページをリロードして、もう一度テストを試みることができます。 詳細については、<a href='http://openradar.appspot.com/7333104'>http://openradar.appspot.com/7333104</a>をご覧ください。"
+msgstr "デュアルスタック、IPv4とIPv6の名前のルックアップが失敗しました(少なくとも、IPv4経由で接続しているはずです)。 Appleには散発的にいくつかのIPv6ルックアップが失敗するバグがあります。 このテストでは、その証拠が見つかりました。 ページをリロードして、もう一度テストを試みることができます。 詳細については、<a href='http://openradar.appspot.com/7333104'>http://openradar.appspot.com/7333104</a>をご覧ください。"
 
 #: "inc/messages.js"
 msgid "No IPv4 address detected"
@@ -426,7 +425,7 @@ msgstr "あなたのインターネットヘルプデスクから以下の情報
 msgid "Test your IPv6."
 msgstr "あなたの IPv6 をテストしましょう。"
 
-#: "inc/header.inc"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "This will test your browser and connection for IPv6 readiness, as well as show you your current IPV4 and IPv6 address."
 msgstr "あなたのブラウザと接続の IPv6 の準備状況をテストし、あなたの現在の IPv4 および IPv6 アドレスを表示します。"
 
@@ -650,7 +649,7 @@ msgstr "これには、質問に答えるためにサイト管理者に共有さ
 msgid "Use of this form implies consent."
 msgstr "このフォームの使用は、同意を意味します。"
 
-#: "main/mail.inc"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "<span id=\"comments_faq_link\"></span> (FAQ) page is available for <b>your</b> exact set of results. Please read it before leaving comments; many questions have already been answered. If you still have questions, comments, or concerns, feel freel to use this form."
 msgstr "<b>あなた</b> の結果と同一の結果が<span id=\"comments_faq_link\"></span>(FAQ) にあります。コメントを残す前に、こちらをお読みください; 多くの質問が既に回答されています。それでもまだ質問、コメント、もしくは関心事がある場合、このフォームをご自由にお使いください。"
 
@@ -674,7 +673,7 @@ msgstr "コメントの趣旨"
 msgid "Questions about test results"
 msgstr "テスト結果についての質問"
 
-#: "main/mail.inc"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Report a bug with diagnosis"
 msgstr "診断結果とともにバグを報告"
 
@@ -805,7 +804,7 @@ msgstr "このタブは接続の簡潔で短い説明を提供することを目
 
 #: "faq_helpdesk.html"
 msgid "This special instance shares in a very compact way:"
-msgstr "以下のような情報をとても簡潔なな方法で共有します。"
+msgstr "以下のような情報をとても簡潔な方法で共有します。"
 
 #: "faq_helpdesk.html"
 msgid "Status of each protocol"
@@ -1583,15 +1582,15 @@ msgstr "Q: フィードバック、本当に読んでますか？"
 msgid "Yes, I do. Thank you! Note that I can only follow up with you if you do leave contact information. While I am still grateful for feedback without contact information, I will be unable to reply with any answers if you asked for them."
 msgstr "はい、読んでます。ありがとうございます。ただ、連絡先情報をご記入いただいた場合のみ対応しております。連絡先情報なしでのフィードバックについては、お問い合わせいただいてもお返事はできませんが、感謝しております。"
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Q: How else can I contact you?"
 msgstr "どのように私（英語版の作者）にコンタクトできますか？"
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "I would prefer you use the form, as it gives details of your connectivity, and bypasses any mail filters."
 msgstr "あなたの接続性の詳細を含めるため、またメールの遅延を迂回（こちら側のグレイリスティングを含む）するため、こちらのフォームをご利用いただければ幸いです。"
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "That said, you are welcome to directly email <a href=\"mailto:jfesler@test-ipv6.com\">jfesler@test-ipv6.com</a>."
 msgstr "とはいうものの、メールや jabber で直接連絡したい場合には<a href=\"mailto:jfesler@test-ipv6.com\">jfesler@test-ipv6.com</a>までお願いします（英語のみ）。FreeNode 上では、単に \"jfesler\" です。<br />（訳注：日本語版サイトと日本語訳を担当している白畑に連絡を希望される場合には、<a href=\"mailto:shin/atmark/tokyo6to4.net\">shin/atmark/tokyo6to4.net(/atmark/を@に置き換えてください</a>でご連絡ください。"
 
@@ -2558,11 +2557,11 @@ msgstr "(更なる情報)"
 msgid "Firefox (recent builds) does the same as Chrome."
 msgstr "Firefox(最近のビルド)もChromeと同じです。"
 
-#: "faq_avoids_ipv6.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "The latest Windows 7 and Windows 8 updates will periodically test to see if IPv6 works. If the health check fails, then many applications (including Internet Explorer) will use IPv4, to insulate you from any local IPv6 misconfiguration."
 msgstr "最新のWindows 7およびWindows 8アップデートは、IPv6が動作するかどうかを定期的にテストします。 ヘルスチェックが失敗した場合、Internet Explorerを含む多くのアプリケーションがIPv4を使用して、ローカルIPv6の誤設定を防ぐことができます。"
 
-#: "faq_avoids_ipv6.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Apple's latest Lion and Mountain Lion updates will prefer whichever is \"faster\" for a given destination."
 msgstr "Appleの最新のLionとMountain Lionのアップデートは、与えられた目的地までの「速い方」どちらかを優先します。"
 
@@ -2699,7 +2698,7 @@ msgstr "テストが明らかに失敗したので、ここには、Webサイト
 msgid "Firefox and NoScript"
 msgstr "FirefoxとNoScript"
 
-#: "faq_no_ipv4.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "The NoScript browser plugin disables scripts on the page. In the lower right corner of your browser, is the NoScript icon. Click this to bring up a menu; and temporarilly permit scripts on this site."
 msgstr "NoScriptブラウザプラグインは、ページ上のスクリプトを無効にします。 ブラ>ウザの右下にNoScriptのアイコンがあります。 これをクリックするとメニューが表示されます。 一時的にこのサイトのスクリプトを許可します。"
 
@@ -2879,6 +2878,10 @@ msgstr "テストデータ"
 msgid "Please consent to sharing your data."
 msgstr "あなたの情報を共有することに同意してください。"
 
+#: "inc/header.inc"
+msgid "This will test your browser and connection for IPv6 readiness, as well as show you your current IPv4 and IPv6 address."
+msgstr "あなたのブラウザと接続の IPv6 の準備状況をテストし、あなたの現在の IPv4 および IPv6 アドレスを表示します。"
+
 #: "faq_avoids_ipv6.html"
 msgid "As of OS X 10.11 \"El Capitan\" and iOS 9, IPv6 is given a slight preference; but will fall back to IPv4 if network conditions warrant it."
 msgstr "OS X 10.11「El Capitan」およびiOS 9以降ではIPv6に多少の優先権が与えられています。 ただしネットワークの状態によってはIPv4にフォールバックされます。"
@@ -2896,7 +2899,95 @@ msgid "Web sites that today automatically show you your local weather, news, and
 msgstr "ローカルな天気予報、ニュース、映画を自動的に表示するWebサイトではIPv4アドレスを使用してあなたを特定できない場合があります。 その場合には、あなたは自分が世界のどこにいるのかをウェブサイトに伝えなければなりません。"
 
 #: "main/mail.inc"
+msgid "<span id=\"comments_faq_link\"></span> (FAQ) page is available for <b>your</b> exact set of results. Please read it before leaving comments; many questions have already been answered. If you still have questions, comments, or concerns, feel free to use this form."
+msgstr "<b>あなた</b> の結果と同一の結果が<span id=\"comments_faq_link\"></span>(FAQ) にあります。コメントを残す前に、こちらをお読みください; 多くの質問が既に回答されています。それでもまだ質問、コメント、もしくは関心事がある場合、このフォームをご自由にお使いください。"
+
+#: "main/mail.inc"
 msgid "I consent to sharing my IP address(es), test results, web browser name and version, operating system name and version, and any other information entered above (including email address), as email transmitted to <a mailto=site.mailto href=\"-\"><span lookup=site.contact></span> &lt;<span lookup=site.mailto></span>&gt;</a>; and that this information may be translated by Google Translate."
 msgstr "\n"
 "私は、<a mailto=site.mailto href=\"-\"><span lookup=site.contact></span> &lt;<span lookup=site.mailto></span>&gt;</a> に送信される電子メールに自分のIPアドレス、テスト結果、Webブラウザの名前とバージョン、オペレーティングシステムの名前とバージョン、および上記に入力されたその他の情報(電子メールアドレスを含む) が共有され、そしてその情報がGoogle翻訳で翻訳される可能性があることに同意します。"
+
+#: "inc/footer.inc"
+msgid "Share on:"
+msgstr "共有先："
+
+#: "faq_avoids_ipv6.html"
+msgid "Since Windows 7, the operating system will periodically test to see if IPv6 works. If the health check fails, then many applications (including Internet Explorer) will use IPv4, to insulate you from any local IPv6 misconfiguration."
+msgstr "Windows 7以降では、IPv6が動作するかどうかを定期的にテストします。 ヘルスチェックが失敗した場合、Internet Explorerを含む多くのアプリケーションがIPv4を使用して、ローカルIPv6の誤設定を防ぐことができます。"
+
+#: "faq_avoids_ipv6.html"
+msgid "Apple's Lion and Mountain Lion updates will prefer whichever is \"faster\" for a given destination."
+msgstr "AppleのLionとMountain Lionのアップデートは、与えられた目的地までの「速い方」どちらかを優先します。"
+
+#: "main/mail.inc"
+msgid "Report a bug with diagnosis or this web site"
+msgstr "このサイトの診断付きのバグを報告する"
+
+#: "main/mail.inc"
+msgid "Report problem about slow internet service with your provider"
+msgstr "プロバイダとの低速イン​​ターネットに関する問題を報告する"
+
+#: "main/mail.inc"
+msgid "Hacked phone or computer"
+msgstr "ハッキングされた携帯電話かPC"
+
+#: "main/mail.inc"
+msgid "Being watched by spouse, hackers, mafia, government"
+msgstr "配偶者、ハッカー、マフィア、政府によって監視されている"
+
+#: "main/mail.inc"
+msgid "Problems with IPv6 in China"
+msgstr "中国におけるIPv6の問題"
+
+#: "main/mail.inc"
+msgid "Problems relating to your Internet service, should be sent to your Internet Service Provider. Please contact them for support."
+msgstr "インターネットサービスに関連する問題は、インターネットサービスプロバイダに送信されるべきです。サポートに連絡してください。"
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "This web site is not a tool for security or forensic analysis. If you have security concerns, please find a security professional to consult with. They can offer investication and education that is appropriately matched to your concerns."
+msgstr "このサイトはセキュリティや法医学的分析のためのツールではありません。セキュリティ上の問題がある場合は、セキュリティの専門家に相談してください。問題に適切な調査と教育を提供することができます。"
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "You are in a country that has government controls over available web sites. This web site is operated from outside of your country, and is subject to the policicies and technology limitations of your \"Great Wall\" for the Internet."
+msgstr "あなたは政府がウェブサイトへのアクセスを制限している国にいます。このウェブサイトはあなたの国の外から運営されており、「インターネットグレートウォール」のポリシーと技術的制限に準じています。"
+
+#: "main/mail.inc"
+msgid "This web site is subject to the policies and technology limitations of the \"Great Wall\" for the Internet. Because of these limitations, this web site is not reliable for viewing from inside China."
+msgstr "このサイトはインターネットのための「Great Firewall」の方針と技術的な制限を受けます。これらの制限により、このサイトは中国国内からのアクセスには信頼できません。"
+
+#: "main/mail.inc"
+msgid "This web site is not a tool for security or forensic analysis. If you have security concerns, please find a security professional to consult with. They can offer investigation and education that is appropriately matched to your concerns."
+msgstr "このサイトはセキュリティや法医学的分析のためのツールではありません。セキュリティ上の問題がある場合は、セキュリティの専門家に相談してください。彼らは問題に適切に合った調査と教育を提供することができます。"
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "This mirror marked as out of complaince; you should instead visit <a href='http://test-ipv6.com/'>http://test-ipv6.com</a>."
+msgstr "このミラーはコンプライアンス違反としてマークされています。代わりに<a href='http://test-ipv6.com/'>test-ipv6.com</a>にアクセスしてください。"
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "This mirror marked as out of compliance; you should instead visit <a href='///test-ipv6.com/'>test-ipv6.com</a>."
+msgstr "このミラーはコンプライアンス違反としてマークされています。代わりに<a href='///test-ipv6.com/'>test-ipv6.com</a>にアクセスしてください。"
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "This mirror marked as out of compliance; you should instead visit <a href='//test-ipv6.com/'>test-ipv6.com</a>."
+msgstr "このミラーはコンプライアンス違反としてマークされています。代わりに<a href='//test-ipv6.com/'>test-ipv6.com</a>にアクセスしてください。"
+
+#: "inc/messages.js"
+msgid "This mirror has been marked as out of compliance; you should instead visit <a href='//test-ipv6.com/'>test-ipv6.com</a>."
+msgstr "このミラーはコンプライアンス違反としてマークされています。代わりに<a href='//test-ipv6.com/'>test-ipv6.com</a>にアクセスしてください。"
+
+#: "inc/messages.js"
+msgid "If you are using a VPN, your VPN is only protecting one protocol, not both."
+msgstr "VPNを使用している場合、VPNはいずれかのプロトコルのみを保護しています。"
+
+#: "faq.html"
+msgid "Q: Can you fix my VPN?"
+msgstr "Q: 私のVPNを修理できますか？"
+
+#: "faq.html"
+msgid "No, I can not fix your VPN."
+msgstr "いいえ、できません。"
+
+#: "faq_no_ipv4.html"
+msgid "The NoScript browser extension disables scripts on the page. In the upper right corner of your browser, is the NoScript icon. Click this to bring up a menu; and temporarily permit scripts on this site."
+msgstr "NoScriptブラウザプラグインは、ページ上のスクリプトを無効にします。 ブラウザの右下にNoScriptのアイコンがあります。 これをクリックするとメニューが表示されます。 一時的にこのサイトのスクリプトを許可します。"
 

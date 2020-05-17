@@ -1,14 +1,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2018-03-01 02:30-0500\n"
-"Last-Translator: jfesler <jfesler@gigo.com>\n"
+"PO-Revision-Date: 2020-05-16 15:30\n"
+"Last-Translator: Unspecified Translator <jfesler+unspecified-translator@test-ipv6.com>\n"
 "Language-Team: Chinese Traditional\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: crowdin.com\n"
 "X-Crowdin-Project: falling-sky\n"
 "X-Crowdin-Language: zh-TW\n"
 "X-Crowdin-File: falling-sky.pot\n"
@@ -40,11 +39,11 @@ msgstr "IP位址與URL的連線好像被封鎖了；原因可能是您的瀏覽�
 
 #: "inc/messages.js"
 msgid "IPv4 Connections using DNS work; but literal IP addresses in urls do not. These are rarely used on the web today."
-msgstr "DNS使用IPv4工作; 但url不在IP地址。這些是在今天的網上很少使用。"
+msgstr "使用 DNS 連線 IPv4 成功；但使用 IP 位址作為 URL 卻無法連線。這個問題在現在的網站很少見。"
 
 #: "inc/messages.js"
 msgid "IPv6 Connections using DNS work; but literal IP addresses in urls do not. These are rarely used on the web today."
-msgstr "使用 IPv6 的 DNS 連線成功；但在url沒有IP地址。這個問題在現在的網站很少見。"
+msgstr "使用 DNS 連線 IPv6 成功；但使用 IP 位址作為 URL 卻無法連線。這個問題在現在的網站很少見。"
 
 #: "inc/messages.js"
 msgid "You appear to be using a public 6to4 gateway; your router may be providing this to you automatically. Such public gateways have no service level agreements; you may see performance problems using such. Better would be to get a native IPv6 address from your ISP."
@@ -52,15 +51,15 @@ msgstr "您好像正在使用公共的6轉4閘道器；您的路由器可能自�
 
 #: "inc/messages.js"
 msgid "Your IPv6 connection appears to be using Teredo, a type of IPv4/IPv6 translation using a public gateway. The quality for this <i>may</i> suffer, as you are using a public gateway to reach IPv6 based sites."
-msgstr "您的IPv6連線好像正在使用Teredo，一種使用公共閘道器的IPv4/IPv6變換器。由於您正在使用公共閘道器存取基於IPv6的網站，網絡質素<i>可能會</i>受到影響。"
+msgstr "您的 IPv6 連線好像正在使用 Teredo 隧道，這是一種使用公共閘道器的 IPv4/IPv6 轉換器。由於您正在使用公共閘道器存取基於 IPv6 的網站，網絡質素<i>可能會</i>受到影響。"
 
 #: "inc/messages.js"
 msgid "Your IPv6 connection appears to be using Teredo, a type of IPv4/IPv6 gateway; currently it connects only to direct IP's. Your browser will not be able to go to IPv6 sites by name. This means the current configuration is not useful for browsing IPv6 web sites."
-msgstr "你的 IPv6 連線好像是使用 Teredo，一種使用公共閘道器的 IPv4/IPv6 變換器；目前它只能直接連線 IPv6 位址。你的瀏覽器無法透過網址連接 IPv6 網站。這代表你目前的設定對存取 IPv6 網站沒有作用。"
+msgstr "你的 IPv6 連線好像是使用 Teredo 隧道，一種使用公共閘道器的 IPv4/IPv6 轉換器；目前它只能直接連線 IPv6 位址。你的瀏覽器無法透過網址連接 IPv6 網站。這代表你目前的設定對存取 IPv6 網站沒有作用。"
 
 #: "inc/messages.js"
 msgid "Your IPv6 connection appears to be using Teredo, a type of IPv4/IPv6 gateway. Your particular teredo configuration is only used as a protocol of last resort. When visiting a site with both IPv4 and IPv6, IPv4 will be preferred."
-msgstr "您的IPv6連線好像正在使用Teredo，一種使用公共閘道器的IPv4/IPv6變換器。您的特定Teredo設定只是出於無奈的協定。當存取同時提供IPv4和IPv6的網站時，IPv4將被優先考慮。"
+msgstr "你的 IPv6 連線好像是使用 Teredo 隧道，一種使用公共閘道器的 IPv4/IPv6 變換器；在你的網絡中，Teredo 被設定為最後方案。也就是說，當你連接到同時提供 IPv4 和 IPv6 的網站時，你會優先連接至 IPv4。"
 
 #: "inc/messages.js"
 msgid "Danger! IPv6 sorta works - however, large packets appear to fail, giving the appearance of a broken website. If a publisher publishes to IPv6, you will believe their web site to be broken. Ask your ISP about MTU issues; possibly with your tunnel."
@@ -132,7 +131,7 @@ msgstr "最可能造成錯誤的原因是NoScript或AdBlock +。 NoScript可以�
 
 #: "inc/messages.js"
 msgid "NAT64 detected. IPv6 works. IPv4 works for most purposes. Applications that are hard-coded for IPv4-only will fail. We are aware of at least one major voice-over-ip program that falls into this category. Your application's support staff may need a nudge to add proper IPv6 support."
-msgstr "檢測到 NAT64 。 IPv6 運作正常。 IPv4在大多數情況下運作正常。使用 Hard-Coded 的程式可能對僅 IPv4 的連線。我們知道至少有一個主要的 IP 電話程式屬於這一類。你的應用程式開發人員可能需要添加適當的 IPv6 支援。"
+msgstr "偵測到 NAT64。 IPv6 運作正常，而在大多數情況下 IPv4 也會運作正常；但硬編碼（Hard-Code）成僅透過 IPv4 連線的程式或許會未能運作。我們注意到至少有一個主要的 IP 電話程式會遇上此情況。應用程式開發人員可能需要補回適當的 IPv6 支援以確保程式正常運作。"
 
 #: "inc/messages.js"
 msgid "Your DNS server (possibly run by your ISP) appears to have IPv6 Internet access."
@@ -148,31 +147,31 @@ msgstr "你正在使用的一個或多個FireFox插件，例如RequestPolicy，�
 
 #: "inc/messages.js"
 msgid "A lookup for an IPv6-only name failed; yet the lookup and connect for dual-stack connected via IPv6. Something appears to be confused with the DNS lookups."
-msgstr "查找僅供IPv6名稱失敗;然而,查找和連接雙堆棧通過IPv6連接。事情似乎與DNS查找混淆。"
+msgstr "一個僅限 IPv6 的域名查詢失敗，不過透過 IPv6 的雙通道域名查詢及連接依然成功。似乎 DNS 查詢出現了問題。"
 
 #: "inc/messages.js"
 msgid "A lookup for an IPv6-only name failed; yet the lookup and connect for dual-stack connected via IPv6. The IPv6-only lookup should have worked. Apple has a bug that sporadically causes some IPv6 lookups to fail. We saw evidence of it on this test. You can reload the page and try the test again. For more details, see <a href='http://openradar.appspot.com/7333104'>http://openradar.appspot.com/7333104</a>."
-msgstr "查找一個站點名稱失敗;然而,查找和連接雙堆棧通過IPv6連接。站點查找應該工作。蘋果有一個bug,偶爾會導致一些IPv6查找失敗。我們看到在這個測試的​​證據。你可以重新加載頁面並測試再試。更多細節,請參閱<a href='http://openradar.appspot.com/7333104'>http://openradar.appspot.com/7333104</a>."
+msgstr "一個僅限 IPv6 的域名查詢失敗，不過透過 IPv6 的雙通道域名查詢及連接依然成功；也就是說，僅限 IPv6 的域名查詢理應可行。蘋果的軟件有一個 Bug，偶爾可能會導致 IPv6 查詢失敗；在測試過程中，出現了此錯誤與該 Bug 相關的​​證據。你可以在重新整理後再試。更多細節，請參閱 <a href='http://openradar.appspot.com/7333104'>http://openradar.appspot.com/7333104</a>。"
 
 #: "inc/messages.js"
 msgid "A lookup for an dual-stack IPv4 and IPv6 name failed (at minimum it should have connected via IPv4). Apple has a bug that sporadically causes some IPv6 lookups to fail. We saw evidence of it on this test. You can reload the page and try the test again. For more details, see <a href='http://openradar.appspot.com/7333104'>http://openradar.appspot.com/7333104</a>."
-msgstr "查找一個雙堆棧IPv4和IPv6名字失敗(至少它應該通過IPv4連接)。蘋果有一個bug,偶爾會導致一些IPv6查找失敗。我們看到在這個測試的​​證據。你可以重新加載頁面並測試再試。更多細節,請參閱<a href='http://openradar.appspot.com/7333104'>http://openradar.appspot.com/7333104</a>."
+msgstr "IPv4 與 IPv6 雙通道域名查詢失敗（至少域名應可透過 IPv4 來連接）。蘋果的軟件有一個bug，偶爾可能會導致 IPv6 查詢失敗；在測試過程中，出現了此錯誤與該 Bug 相關的​​證據。你可以在重新整理後再試。更多細節，請參閱<a href='http://openradar.appspot.com/7333104'>http://openradar.appspot.com/7333104</a>。"
 
 #: "inc/messages.js"
 msgid "No IPv4 address detected"
-msgstr "未檢測到 IPv4 位址"
+msgstr "未偵測到 IPv4 位址"
 
 #: "inc/messages.js"
 msgid "No IPv6 address detected"
-msgstr "未檢測到 IPv6 位址"
+msgstr "未偵測到 IPv6 位址"
 
 #: "inc/messages.js"
 msgid "Your IP address(es) could not be detected due to inteference from browser add-ons."
-msgstr "由於你使用的瀏覽器附加功能干擾所以無法檢測你的 IP 位址。"
+msgstr "因為您的瀏覽器附加元件正在干擾，無法偵測您的 IP 位址。"
 
 #: "inc/messages.js"
 msgid "The Opera web browser seems to be break on this site frequently. <b>If you have trouble, try another browser</b>."
-msgstr "Opera瀏覽器在這個網站似乎無法正常顯示。 <b>如果遇到錯誤,請嘗試使用另一個瀏覽器</b>。"
+msgstr "Opera 瀏覽器在這個網站似乎無法正常顯示。 <b>如果遇到錯誤，請嘗試使用另一個瀏覽器</b>。"
 
 #: "inc/messages.js"
 msgid "<b>Disable turbo mode on Opera, and try again.</b> Turbo mode is not compatible with the needs of this site."
@@ -188,15 +187,15 @@ msgstr "<b>我們的測試顯示你可能有損壞或錯誤的 IPv6 設定，當
 
 #: "inc/messages.js"
 msgid "<b>Our tests show that you may have MTU problems with IPv6; this can cause web sites to load slow (or not at all) when web sites enable IPv6.</b>"
-msgstr "<b>我們的測試顯示你可能在 IPv6 的 MTU 設定上有問題；當網站啟用 IPv6 時，這可能會造成網站載入緩慢(或不完全)。 </b>"
+msgstr "<b>我們的測試顯示你可能在 IPv6 的 MTU 設定上有問題；當網站啟用 IPv6 時，這可能會造成網站載入緩慢（或不完整）。 </b>"
 
 #: "inc/messages.js"
 msgid "We looked up an IPv6 address, but your DNS server (possibly your home router) mangled the response, and is treating it as (broken) IPv4."
-msgstr "我們抬頭IPv6地址,但是你的DNS伺服器(可能你家里路由器)破壞響應,並把它當作(破碎)IPv4。"
+msgstr "雖然我們找到一段 IPv6 地址，但你的 DNS 伺服器（可能為你家中的路由器）沒有正確回應，並將之視為（錯誤的）IPv4 地址。"
 
 #: "inc/messages.js"
 msgid "It appears that you use a tunnel mechanism for either IPv4 or IPv6."
-msgstr "看來你是使用通道技術來連接 IPv4 或 IPv6 。"
+msgstr "你似乎正在透過通道技術來連接 IPv4 或 IPv6 。"
 
 #: "inc/messages.js"
 msgid "It appears that you use a managed tunnel mechanism, 6RD, to transport IPv6 over IPv4."
@@ -204,67 +203,67 @@ msgstr "看來你使用有人管理的通道技術，6RD，透過 IPv4 網路來
 
 #: "inc/messages.js"
 msgid "We have detected that you are using a proxy. This means we are testing your proxy server, not your computer. Proxy details (as reported by your proxy 'Via' header): %details"
-msgstr "我們檢測到你正在使用代理伺服器。這意味著我們正在測試你的代理伺服器，而不是你的電腦。代理細節(根據你的代理標頭檔):%d細節"
+msgstr "我們偵測到您正在使用代理伺服器。這代表我們正在測試的只是你的代理伺服器，而不是你的電腦。代理伺服器的詳細資訊（根據您的代理伺服器標頭）： %details"
 
 #: "inc/messages.js"
 msgid "We have detected that you are using a proxy. This means we are testing your proxy server, not your computer."
-msgstr "我們檢測到你正在使用代理伺服器。這意味著我們正在測試你的代理伺服器，而不是你的電腦。"
+msgstr "我們偵測到您正在使用代理伺服器。這代表我們正在測試的只是你的代理伺服器，而不是你的電腦。"
 
 #: "inc/messages.js"
 msgid "IPv6 connections work, but connections using DNS names do not use IPv6. For some reason, your browser or your OS is not doing IPv6 DNS 'AAAA' lookups."
-msgstr "IPv6 連線正常，但是查詢DNS紀錄時不是使用IPv6連線。出於某種原因，你的瀏覽器或作業系統不做IPv6 DNS “AAAA紀錄” 查詢。"
+msgstr "IPv6 連線正常，但是查詢 DNS 紀錄時不是使用 IPv6 連線。基於某種原因，你的瀏覽器或作業系統並不查詢 IPv6 DNS 的「AAAA紀錄」。"
 
 #: "inc/messages.js"
 msgid "We have suggestions to help you fix your system."
-msgstr "我們提供建議來協助您解決您的系統。"
+msgstr "我們能提供建議來協助修復您的系統。"
 
 #: "inc/messages.js"
 msgid "Since you have IPv6, we are including a tab that shows how well you can reach other IPv6 sites. %sites"
-msgstr "由於你已經啟用了 IPv6 ，我們有一個網頁可以測試你對其他 IPv6 網站的連線狀況。%sites"
+msgstr "你已經啟用 IPv6 。你現在可以查看一個用來測試其他 IPv6 網站連線狀況的分頁。 %sites"
 
 #: "inc/messages.js"
 msgid "Your browser has real working IPv6 address - but is avoiding using it. We're concerned about this."
-msgstr "你的瀏覽器已經有一個真正的IPv6位置，但正在避免使用它。我們對此表示憂慮。"
+msgstr "雖然你已經有真正的 IPv6 位址，但比較令人擔心的是，你的瀏覽器似乎不太願意透過 IPv6 連線。"
 
 #: "inc/messages.js"
 msgid "faq: MTU"
-msgstr "常見問題集: MTU"
+msgstr "常見問題：最大傳輸單元（MTU）"
 
 #: "inc/messages.js"
 msgid "faq: No IPv4"
-msgstr "常見問題集: 無 IPv4"
+msgstr "常見問題：沒有 IPv4"
 
 #: "inc/messages.js"
 msgid "faq: No IPv6"
-msgstr "常見問題集: 無 IPv6"
+msgstr "常見問題：沒有 IPv6"
 
 #: "inc/messages.js"
 msgid "faq: 6to4"
-msgstr "常見問題集: 6to4"
+msgstr "常見問題：6to4"
 
 #: "inc/messages.js"
 msgid "faq: Teredo Minimum"
-msgstr "常見問題：Teredo 簡介"
+msgstr "常見問題：Teredo Minimum"
 
 #: "inc/messages.js"
 msgid "faq: v6ns Bad"
-msgstr "常見問題集: v6ns 錯誤"
+msgstr "常見問題：v6ns 失敗"
 
 #: "inc/messages.js"
 msgid "faq: Browser Plugins"
-msgstr "FAQ：瀏覽器外掛程式"
+msgstr "常見問題：瀏覽器外掛程式"
 
 #: "inc/messages.js"
 msgid "faq: Firefox Add-Ons"
-msgstr "常見問題集: Firefox 附加元件"
+msgstr "常見問題：Firefox 附加元件"
 
 #: "inc/messages.js"
 msgid "faq: Opera"
-msgstr "常見問題集: Opera"
+msgstr "常見問題：Opera"
 
 #: "inc/messages.js"
 msgid "faq: Buggy DNS"
-msgstr "常見問題：干擾DNS"
+msgstr "常見問題：老是出錯的 DNS"
 
 #: "inc/messages.js"
 msgid "faq: Broken!"
@@ -272,11 +271,11 @@ msgstr "常見問題：壞掉了！"
 
 #: "inc/messages.js"
 msgid "faq: Broken DNS Lookups"
-msgstr "常見問題：DNS查找斷線"
+msgstr "常見問題：損毀的 DNS 查詢"
 
 #: "inc/messages.js"
 msgid "faq: Avoiding IPv6?"
-msgstr "常見問題：避開IPv6"
+msgstr "常見問題：避開 IPv6？"
 
 #: "inc/messages.js"
 msgid "faq: 6RD tunnel"
@@ -336,7 +335,7 @@ msgstr "（已更新網站的 IPv6 統計）"
 
 #: "inc/builtin.js"
 msgid "(Survey posting failed; the above information is accurate, but not recorded.)"
-msgstr "（調查發布失敗; 以上信息是準確的，但沒有記錄。）"
+msgstr "（結果上載失敗；上述結果仍然準確，只是沒有被記錄下來。）"
 
 #: "inc/builtin.js"
 msgid "Your readiness score"
@@ -344,7 +343,7 @@ msgstr "你對於 IPv6 準備的分數"
 
 #: "inc/builtin.js"
 msgid "for your IPv4 stability and readiness, when publishers offer both IPv4 and IPv6"
-msgstr "為您的IPv4穩定性和準備，當供應商提供IPv4和IPv6"
+msgstr "當網站同時使用 IPv4 與 IPv6 ，請為您的 IPv4 做準備和設定"
 
 #: "inc/builtin.js"
 msgid "for your IPv6 stability and readiness, when publishers are forced to go IPv6 only"
@@ -372,7 +371,7 @@ msgstr "載入中"
 
 #: "inc/builtin.js"
 msgid "failed to load"
-msgstr "加載失敗"
+msgstr "載入失敗"
 
 #: "inc/builtin.js"
 msgid "[go back]"
@@ -392,7 +391,7 @@ msgstr "分享您的測試結果"
 
 #: "inc/form.js"
 msgid "I am most interested in discussing your setup with you, because it was been determined that <B>your IPv6 connectivity is broken</b>, or at least not fully understood. This is not normal; would you be willing to %share?"
-msgstr "我最感興趣的與你，討論您的設置，因為它確定了，<B>你的 IPv6 連接是破碎</B>，或至少不完全理解。這是不正常的;你願意 %share 嗎？"
+msgstr "我有興趣進一步了解你的網絡設定。測試確認了<b>你的 IPv6 連接錯誤</b>，或是不完全正確；這是種異常現象，你願意 %share 嗎？"
 
 #: "not-used, archived.  Not currently needed for translation."
 msgid "retest"
@@ -404,7 +403,7 @@ msgstr "結果代碼"
 
 #: "inc/form.js"
 msgid "Note: I can't contact you, if the contact info is blank. If you really want to submit this anonymously, hit Send Results again."
-msgstr "注 ︰ 我不能與您聯繫，如果聯繫資訊為空。如果你真的想要匿名提交這，又打發送結果。"
+msgstr "注︰如果沒有聯絡資料，我沒有辦法聯絡你。如果你真的想匿名提交結果，請再按「發送結果」一次。"
 
 #: "inc/checkresults.js"
 msgid "unknown expansion"
@@ -420,13 +419,13 @@ msgstr "您的瀏覽器阻止"
 
 #: "inc/helpdesk.js"
 msgid "Your Internet help desk may ask you for the information below."
-msgstr "互聯網説明辦公桌可能要求您提供下面的資訊。"
+msgstr "您的網際網路服務檯可能會要求您提供下方資訊。"
 
 #: "inc/header.inc"
 msgid "Test your IPv6."
 msgstr "測試你的 IPv6 連線。"
 
-#: "inc/header.inc"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "This will test your browser and connection for IPv6 readiness, as well as show you your current IPV4 and IPv6 address."
 msgstr "這將測試您的瀏覽器和為 IPv6 的連線做準備，以及顯示你目前的 IPv4 和 IPv6 位址。"
 
@@ -456,7 +455,7 @@ msgstr "重播(&R)"
 
 #: "inc/js_required.inc"
 msgid "JavaScript Required"
-msgstr "所需的 JavaScript"
+msgstr "需要 JavaScript"
 
 #: "inc/js_required.inc"
 msgid "This site requires JavaScript, as well as the ability to pull in cross-site scripts, in order to perform the testing."
@@ -464,7 +463,7 @@ msgstr "本網站需要 JavaScript 來執行跨網站的腳本進行測試。"
 
 #: "inc/js_required.inc"
 msgid "If this message does not go away, it means that JavaScript has been disabled, either by a plugin or extension in your browser, or by explicit browser setting."
-msgstr "如果此消息不會消失，這意味著 JavaScript 已被禁用，由一個外掛程式或在您的瀏覽器，擴展或顯式的瀏覽器設置。"
+msgstr "如果此段訊息一直出現，就代表 JavaScript 已被外掛程式、擴充元件或是瀏覽器的設定停用"
 
 #: "inc/js_required.inc"
 msgid "Do you use NoScript?"
@@ -640,7 +639,7 @@ msgstr "<b>您的特定配置是感興趣。</b>我們總是正在努力使test-
 
 #: "main/mail.inc"
 msgid "This form will let you leave a comment, voice concerns, or ask questions. Your test results will be included automatically."
-msgstr "這個表格可以讓你留言、提出建言或詢問問題。這個表格會自動將你的測試結果附上。"
+msgstr "This form will let you leave a comment, voice concerns, or ask questions. Your test results will be included automatically."
 
 #: "main/mail.inc"
 msgid "This includes your IP address, which is shared with the site administrator in order to answer your questions."
@@ -650,7 +649,7 @@ msgstr "為了讓網站管理員回答你的問題，這個資訊包括你的 IP
 msgid "Use of this form implies consent."
 msgstr "使用這個表單代表你同意上述。"
 
-#: "main/mail.inc"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "<span id=\"comments_faq_link\"></span> (FAQ) page is available for <b>your</b> exact set of results. Please read it before leaving comments; many questions have already been answered. If you still have questions, comments, or concerns, feel freel to use this form."
 msgstr "<span id=\"comments_faq_link\"></span> (FAQ) 頁面，供 <b>您</b> 確切的結果集。請留下評論; 之前先閱讀已回答了許多問題。如果你仍然有問題，意見或疑慮，覺得使用這種形式在揚棄。"
 
@@ -674,7 +673,7 @@ msgstr "留言類別"
 msgid "Questions about test results"
 msgstr "有關測試結果的問題"
 
-#: "main/mail.inc"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Report a bug with diagnosis"
 msgstr "回報已分析的 bug "
 
@@ -1100,7 +1099,7 @@ msgstr "請轉到控制台"
 
 #: "faq/find_ip.inc"
 msgid "Go to \"Network and Internet\""
-msgstr "點選\"網路和網際網路\""
+msgstr "前往「網路和網際網路」"
 
 #: "faq/find_ip.inc"
 msgid "Go to \"View network status and tasks\""
@@ -1584,15 +1583,15 @@ msgstr "問︰你真的會看我的回覆嗎？"
 msgid "Yes, I do. Thank you! Note that I can only follow up with you if you do leave contact information. While I am still grateful for feedback without contact information, I will be unable to reply with any answers if you asked for them."
 msgstr "是的，我會。謝謝！要注意的是我只能對有留下聯絡方式的用戶做處理。雖然我仍然很感謝那些未留聯絡方式的回覆，但我沒辦法回答他們提出的問題。"
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Q: How else can I contact you?"
 msgstr "問︰有什麼其他方式可以聯絡你？"
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "I would prefer you use the form, as it gives details of your connectivity, and bypasses any mail filters."
 msgstr "我建議你使用網站的表格，他會提供你目前連線的詳細資訊，並且不受任何垃圾郵件篩選器影響。"
 
-#: "faq.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "That said, you are welcome to directly email <a href=\"mailto:jfesler@test-ipv6.com\">jfesler@test-ipv6.com</a>."
 msgstr "也就是說，歡迎直接發電子郵件給我 <a href=\"mailto:jfesler@test-ipv6.com\"> jfesler@test-ipv6.com</a>。"
 
@@ -2556,11 +2555,11 @@ msgstr "（更多資訊）"
 msgid "Firefox (recent builds) does the same as Chrome."
 msgstr "Firefox 瀏覽器 （最新版本） 跟 Chrome 的功能一樣。"
 
-#: "faq_avoids_ipv6.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "The latest Windows 7 and Windows 8 updates will periodically test to see if IPv6 works. If the health check fails, then many applications (including Internet Explorer) will use IPv4, to insulate you from any local IPv6 misconfiguration."
 msgstr "最新的 Windows 7 和 Windows 8 更新將定期進行測試以查看是否 IPv6 工作。如果健康檢查失敗，則 （包括 Internet Explorer） 的許多應用程式將使用 IPv4，，使你免受任何本地 IPv6 配置錯誤。"
 
-#: "faq_avoids_ipv6.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Apple's latest Lion and Mountain Lion updates will prefer whichever is \"faster\" for a given destination."
 msgstr "蘋果公司的新的獅子和山獅更新會更喜歡哪個是\"更快\"為給定的目標。"
 
@@ -2696,7 +2695,7 @@ msgstr "因為測試顯然失敗，這是一種簡單的測試來説明你知道
 msgid "Firefox and NoScript"
 msgstr "Firefox 瀏覽器和 NoScript"
 
-#: "faq_no_ipv4.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "The NoScript browser plugin disables scripts on the page. In the lower right corner of your browser, is the NoScript icon. Click this to bring up a menu; and temporarilly permit scripts on this site."
 msgstr "NoScript 瀏覽器外掛程式禁用頁面上的腳本。在您的瀏覽器的右下角，是 NoScript 圖示。按一下此處可彈出功能表;和暫時性允許此網站上的腳本。"
 
@@ -2802,7 +2801,7 @@ msgstr "跳過"
 
 #: "inc/messages.js"
 msgid "We are sometimes unable to detect Teredo and 6to4 when using HTTPS."
-msgstr "在使用HTTPS时, 我们有时无法检测到 Teredo 和 6 to 4。"
+msgstr "在使用 HTTPS 時，我們偶爾無法偵測到 Teredo 和 6to4。"
 
 #: "inc/messages.js"
 msgid "HTTPS support on this web site is in <em>beta</em>."
@@ -2893,6 +2892,10 @@ msgstr "測試資料"
 msgid "Please consent to sharing your data."
 msgstr "請確認同意分享你的資料。"
 
+#: "inc/header.inc"
+msgid "This will test your browser and connection for IPv6 readiness, as well as show you your current IPv4 and IPv6 address."
+msgstr "這將測試您的瀏覽器和IPv6的連接情況，並向您顯示您當前的IPv4和IPv6地址。"
+
 #: "faq_avoids_ipv6.html"
 msgid "As of OS X 10.11 \"El Capitan\" and iOS 9, IPv6 is given a slight preference; but will fall back to IPv4 if network conditions warrant it."
 msgstr "从OS X 10.11“El Capitan”和iOS 9开始,\n"
@@ -2922,6 +2925,94 @@ msgstr "今天自動向您顯示當地天氣,\n"
 "你必須告訴網站在世界上你是誰。"
 
 #: "main/mail.inc"
+msgid "<span id=\"comments_faq_link\"></span> (FAQ) page is available for <b>your</b> exact set of results. Please read it before leaving comments; many questions have already been answered. If you still have questions, comments, or concerns, feel free to use this form."
+msgstr "<span id=\"comments_faq_link\"></span> (FAQ) 頁面可用於<b>您的</b>精確結果集。 在發表評論之前請閱讀它; 很多問題已經得到解答。 如果您仍有問題，意見或疑慮，請隨時使用此表格。"
+
+#: "main/mail.inc"
 msgid "I consent to sharing my IP address(es), test results, web browser name and version, operating system name and version, and any other information entered above (including email address), as email transmitted to <a mailto=site.mailto href=\"-\"><span lookup=site.contact></span> &lt;<span lookup=site.mailto></span>&gt;</a>; and that this information may be translated by Google Translate."
 msgstr "我確認同意分享我的IP位址、測試結果、瀏覽器名稱與版本、作業系統名稱與版本，和其他上面提供的資料(包含電子郵件信箱)，這將寄去<a mailto=site.mailto href=\"-\"><span lookup=site.contact></span>&lt;<span lookup=site.mailto></span>&gt;</a>；這些資訊可能會被Google翻譯使用。"
+
+#: "inc/footer.inc"
+msgid "Share on:"
+msgstr "分享於："
+
+#: "faq_avoids_ipv6.html"
+msgid "Since Windows 7, the operating system will periodically test to see if IPv6 works. If the health check fails, then many applications (including Internet Explorer) will use IPv4, to insulate you from any local IPv6 misconfiguration."
+msgstr "從 Windows 7 開始，作業系統會定期測試 IPv6 能否使用。如果這項檢查失敗，許多應用程式 (包含 Internet Explorer) 會使用 IPv4，以避免您遇到任何區域網路上的 IPv6 組態錯誤。"
+
+#: "faq_avoids_ipv6.html"
+msgid "Apple's Lion and Mountain Lion updates will prefer whichever is \"faster\" for a given destination."
+msgstr "蘋果公司的 Lion 和 Mountain Lion 系統更新後，會優先選擇能「較快」抵達指定目標的路徑。"
+
+#: "main/mail.inc"
+msgid "Report a bug with diagnosis or this web site"
+msgstr "報告此網站的錯誤連診斷資料"
+
+#: "main/mail.inc"
+msgid "Report problem about slow internet service with your provider"
+msgstr "向您的供應商報告有關互聯網服務緩慢的問題"
+
+#: "main/mail.inc"
+msgid "Hacked phone or computer"
+msgstr "被駭客控制的手機或電腦"
+
+#: "main/mail.inc"
+msgid "Being watched by spouse, hackers, mafia, government"
+msgstr "被配偶、駭客、黑手黨、政府監視"
+
+#: "main/mail.inc"
+msgid "Problems with IPv6 in China"
+msgstr "IPv6 在中國的問題"
+
+#: "main/mail.inc"
+msgid "Problems relating to your Internet service, should be sent to your Internet Service Provider. Please contact them for support."
+msgstr "與互聯網服務相關的問題, 應向您的互聯網服務提供者提出。請聯繫他們尋求支援。"
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "This web site is not a tool for security or forensic analysis. If you have security concerns, please find a security professional to consult with. They can offer investication and education that is appropriately matched to your concerns."
+msgstr "本網站不是安全或司法分析的工具。如果您有安全問題，請找安全專業人員諮詢。他們可以提供適當的調查和教育。"
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "You are in a country that has government controls over available web sites. This web site is operated from outside of your country, and is subject to the policicies and technology limitations of your \"Great Wall\" for the Internet."
+msgstr "你現正身處地區的互聯網受政府管制。這網站的伺服器在你身處地區以外的地方，你的鏈接或會因此而受「防火長城」的技術或政策而受限制或影響。"
+
+#: "main/mail.inc"
+msgid "This web site is subject to the policies and technology limitations of the \"Great Wall\" for the Internet. Because of these limitations, this web site is not reliable for viewing from inside China."
+msgstr "這個網站由於「防火長城」的影響，於中國境內瀏覽時可能不穩定。"
+
+#: "main/mail.inc"
+msgid "This web site is not a tool for security or forensic analysis. If you have security concerns, please find a security professional to consult with. They can offer investigation and education that is appropriately matched to your concerns."
+msgstr "本網站不是安全或司法分析的工具。如果您有安全問題, 請找安全專業人員諮詢。他們可以提供適當的調查和教育。"
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "This mirror marked as out of complaince; you should instead visit <a href='http://test-ipv6.com/'>http://test-ipv6.com</a>."
+msgstr "此鏡像已標記為不合格；您應該造訪 <a href='//test-ipv6.com/'>test-ipv6.com</a>。"
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "This mirror marked as out of compliance; you should instead visit <a href='///test-ipv6.com/'>test-ipv6.com</a>."
+msgstr "此鏡像已標記為不合格；您應該造訪 <a href='///test-ipv6.com/'>test-ipv6.com</a>。"
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "This mirror marked as out of compliance; you should instead visit <a href='//test-ipv6.com/'>test-ipv6.com</a>."
+msgstr "此鏡像已標記為不合格；您應該造訪 <a href='//test-ipv6.com/'>test-ipv6.com</a>。"
+
+#: "inc/messages.js"
+msgid "This mirror has been marked as out of compliance; you should instead visit <a href='//test-ipv6.com/'>test-ipv6.com</a>."
+msgstr "此鏡像已被標記為不合格；您應該訪問 <a href='//test-ipv6.com/'>test-ipv6.com</a> 。"
+
+#: "inc/messages.js"
+msgid "If you are using a VPN, your VPN is only protecting one protocol, not both."
+msgstr "若您正在使用 VPN，那你的 VPN 只有保護一個（而非兩個）通訊協定。"
+
+#: "faq.html"
+msgid "Q: Can you fix my VPN?"
+msgstr "問：你能修好我的 VPN 嗎？"
+
+#: "faq.html"
+msgid "No, I can not fix your VPN."
+msgstr "不能，我不會修你的 VPN。"
+
+#: "faq_no_ipv4.html"
+msgid "The NoScript browser extension disables scripts on the page. In the upper right corner of your browser, is the NoScript icon. Click this to bring up a menu; and temporarily permit scripts on this site."
+msgstr ""
 
