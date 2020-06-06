@@ -438,16 +438,6 @@
       "v4": "https://ipv4.test-ipv6.showmyip.ca/images-nc/knob_green.png",
       "v6": "https://ipv6.test-ipv6.showmyip.ca/images-nc/knob_green.png"
     },
-    "test-ipv6.si": {
-      "hide": false,
-      "loc": "SI",
-      "mirror": true,
-      "monitor": "Damjan Sirnik <damjan@sirnik.si>",
-      "provider": "Damjan Sirnik",
-      "site": "test-ipv6.si",
-      "v4": "https://ipv4.test-ipv6.si/images-nc/knob_green.png",
-      "v6": "https://ipv6.test-ipv6.si/images-nc/knob_green.png"
-    },
     "test-ipv6.sin.vr.org": {
       "hide": false,
       "loc": "SG",
