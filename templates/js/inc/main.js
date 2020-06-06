@@ -674,7 +674,7 @@ GIGO.set_default_options = function (options) {
     console.log("check for ssl");
     if (GIGO.CheckHTTPS()) {
         console.log("disabling ssl");
-        jQuery("#disable_ssl").hide();
+        jQuery(".disable_ssl").hide();
 
     } else {
         console.log("enabling ssl");
