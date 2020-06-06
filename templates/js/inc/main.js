@@ -616,20 +616,35 @@ GIGO.setup_tests = function () {
     }
 
 
+
+
+
+
     GIGO.queue.push(["test_type_json", GIGO.options.url.test_a, "test_a"]);
     GIGO.queue.push(["test_type_json", GIGO.options.url.test_aaaa, "test_aaaa"]);
     GIGO.queue.push(["test_type_json", GIGO.options.url.test_ds, "test_ds"]);
-    GIGO.queue.push(["test_type_json", GIGO.options.url.test_ipv4, "test_ipv4"]);
-    GIGO.queue.push(["test_type_json", GIGO.options.url.test_ipv6, "test_ipv6"]);
+
     GIGO.queue.push(["test_type_json", GIGO.options.url.test_v6mtu, "test_v6mtu"]);
     GIGO.queue.push(["test_type_json", GIGO.options.url.test_v6ns, "test_v6ns"]);
     GIGO.queue.push(["test_type_json", GIGO.options.url.test_dsmtu, "test_dsmtu"]);
     GIGO.queue.push(["test_type_img", GIGO.options.url.test_ood_img, "test_ood"]);
 
+    console.log("check for ssl");
+    if (GIGO.CheckHTTPS()) {
+        console.log("disabling test_https test_ipv4 test_ipv6 due to ssl");
+        jQuery("#nossl1").remove()
+        jQuery("#nossl2").remove()
+        jQuery("#nossl3").remove()
+        jQuery("#nossl4").remove()
+    } else {
+        console.log("enabling test_https test_ipv4 test_ipv6");
+        GIGO.queue.push(["test_type_json", GIGO.options.url.test_ipv4, "test_ipv4"]);
+        GIGO.queue.push(["test_type_json", GIGO.options.url.test_ipv6, "test_ipv6"]);
+        GIGO.queue.push(["test_type_json", GIGO.options.url.test_https, "test_https"]);
 
-    if (GIGO.protocol === "http://") {
-      GIGO.queue.push(["test_type_json", GIGO.options.url.test_https, "test_https"]);
     }
+
+
 
     GIGO.show_debug();
     GIGO.prepare_fake();
@@ -671,17 +686,9 @@ GIGO.set_default_options = function (options) {
     options.url.test_aaaa = GIGO.protocol+"ipv6." + options.subdomain + options.uri;
     options.url.test_ds = GIGO.protocol+"ds." + options.subdomain + options.uri;
 
-    console.log("check for ssl");
-    if (GIGO.CheckHTTPS()) {
-        console.log("disabling ipv4/ipv6 checks (ssl)");
-        jQuery(".disable_ssl").remove()
-    } else {
-        console.log("enabling ipv4/ipv6 checks (no ssl)");
-        options.url.test_ipv4 = GIGO.protocol+"" + options.ipv4 + options.uri;
-        options.url.test_ipv6 = GIGO.protocol+"[" + options.ipv6 + "]:80" + options.uri;
-    }
 
-
+    options.url.test_ipv4 = GIGO.protocol+"" + options.ipv4 + options.uri;
+    options.url.test_ipv6 = GIGO.protocol+"[" + options.ipv6 + "]:80" + options.uri;
     options.url.test_v6ns = GIGO.protocol+"ds.v6ns." + options.subdomain + options.uri;
     options.url.test_v6mtu = GIGO.protocol+"mtu1280." + options.subdomain + options.uri + "&size=1600&fill=" + GIGO.fill(1600, "x");
     options.url.test_dsmtu = GIGO.protocol+"ds." + options.subdomain + options.uri + "&size=1600&fill=" + GIGO.fill(1600, "x");

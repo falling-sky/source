@@ -108,7 +108,7 @@
 
 
 
-      <tr class="disable_ssl">
+      <tr id="nossl3">
         <td nowrap="nowrap">
           <div>
              {{Test IPv4 without DNS}}
@@ -130,7 +130,7 @@
         </td>
       </tr>
 
-      <tr class="disable_ssl">
+      <tr id="nossl4">
         <td nowrap="nowrap">
           <div>
             {{Test IPv6 without DNS}}
