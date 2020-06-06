@@ -10,6 +10,11 @@ if (!String.prototype.endsWith) {
     };
 }
 
+GIGO.CheckHTTPS = function(s) {
+    console.log("document protocol %o",document.location.protocol);
+    return document.location.protocol.startsWith("https");
+};
+
 GIGO.CheckTransparentDomain = function(s) {
     return s == "test-ipv6.com" || s.endsWith(".test-ipv6.com");
 };

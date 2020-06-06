@@ -316,7 +316,7 @@
       "hide": false,
       "loc": "US",
       "mirror": true,
-      "monitor": "test-ipv6@qpg.us",
+      "monitor": "test-ipv6-eb3gei5z@qpg.us",
       "provider": "epic.network",
       "site": "test-ipv6.epic.network",
       "v4": "https://ipv4.test-ipv6.epic.network/images-nc/knob_green.png",

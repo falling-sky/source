@@ -3,7 +3,7 @@
 
 <div>
   <p><b>{{How this test works:}}</b> {{Your browser will be instructed to reach a series of URLs. The combination of successes and failures tells a story about how ready you are for when publishers start offering their web sites on IPv6.}}</p>
-  <p>{{Click to see}} 
+  <p>{{Click to see}}
    <a href="#" class="tabbutton_xxx" onclick='return GIGO.tabnav_tests("tech")'>{{Technical Info}}</a>
   </p>
 <hr/>
@@ -63,7 +63,7 @@
 
       </tr>
 
-      <tr>
+      <tr id="nossl1">
         <td nowrap="nowrap">{{Test IPv4 without DNS}}</td>
 
         <td nowrap="nowrap">&nbsp;</td>
@@ -76,7 +76,7 @@
 
       </tr>
 
-      <tr>
+      <tr id="nossl2">
         <td nowrap="nowrap">{{Test IPv6 without DNS}}</td>
 
         <td nowrap="nowrap">&nbsp;</td>
