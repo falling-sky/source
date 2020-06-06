@@ -670,8 +670,16 @@ GIGO.set_default_options = function (options) {
     options.url.test_a = GIGO.protocol+"ipv4." + options.subdomain + options.uri;
     options.url.test_aaaa = GIGO.protocol+"ipv6." + options.subdomain + options.uri;
     options.url.test_ds = GIGO.protocol+"ds." + options.subdomain + options.uri;
-    options.url.test_ipv4 = GIGO.protocol+"" + options.ipv4 + options.uri;
-    options.url.test_ipv6 = GIGO.protocol+"[" + options.ipv6 + "]:80" + options.uri;
+
+    if (GIGO.CheckHTTPS()) {
+        jQuery("#disable_ssl").hide();
+
+    } else {
+        options.url.test_ipv4 = GIGO.protocol+"" + options.ipv4 + options.uri;
+        options.url.test_ipv6 = GIGO.protocol+"[" + options.ipv6 + "]:80" + options.uri;
+    }
+
+
     options.url.test_v6ns = GIGO.protocol+"ds.v6ns." + options.subdomain + options.uri;
     options.url.test_v6mtu = GIGO.protocol+"mtu1280." + options.subdomain + options.uri + "&size=1600&fill=" + GIGO.fill(1600, "x");
     options.url.test_dsmtu = GIGO.protocol+"ds." + options.subdomain + options.uri + "&size=1600&fill=" + GIGO.fill(1600, "x");
