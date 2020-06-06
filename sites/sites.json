@@ -238,15 +238,6 @@
       "v4": "https://ipv4.test-ipv6.arauc.br/images-nc/knob_green.png",
       "v6": "https://ipv6.test-ipv6.arauc.br/images-nc/knob_green.png"
     },
-    "test-ipv6.azstarnet.az": {
-      "loc": "AZ",
-      "mirror": true,
-      "monitor": "Nadir M. Aliyev <nadir@azstarnet.az>",
-      "provider": "AZSTARNET LLC",
-      "site": "test-ipv6.azstarnet.az",
-      "v4": "http://ipv4.test-ipv6.azstarnet.az/images-nc/knob_green.png",
-      "v6": "http://ipv6.test-ipv6.azstarnet.az/images-nc/knob_green.png"
-    },
     "test-ipv6.carnet.hr": {
       "hide": false,
       "loc": "HR",
