@@ -21,8 +21,11 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-    - uses: actions/checkout@v2.2.0
-      fetch-depth: 0
+    - name: Checkout
+      uses: actions/checkout@v2.2.0
+      with:
+        fetch-depth: 0
+
       
     # Pushes to master, we will publish on all primary systems
     - run: 'echo "$SSH_KEY" > cicd_release && chmod 600 cicd_release'
