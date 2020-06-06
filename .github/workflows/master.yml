@@ -22,7 +22,8 @@ jobs:
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
-
+      fetch-depth: 0
+      
     # Pushes to master, we will publish on all primary systems
     - run: 'echo "$SSH_KEY" > cicd_release && chmod 600 cicd_release'
       shell: bash
