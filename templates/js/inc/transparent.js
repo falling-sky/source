@@ -11,7 +11,8 @@ if (!String.prototype.endsWith) {
 }
 
 GIGO.CheckHTTPS = function(s) {
-    return document.location.hostname.startsWith("https://")
+    console.log("document %o",document.location.hostname);
+    return document.location.hostname.startsWith("https://");
 };
 
 GIGO.CheckTransparentDomain = function(s) {

@@ -672,9 +672,11 @@ GIGO.set_default_options = function (options) {
     options.url.test_ds = GIGO.protocol+"ds." + options.subdomain + options.uri;
 
     if (GIGO.CheckHTTPS()) {
+        console.log("disabling ssl");
         jQuery("#disable_ssl").hide();
 
     } else {
+        console.log("enabling ssl");
         options.url.test_ipv4 = GIGO.protocol+"" + options.ipv4 + options.uri;
         options.url.test_ipv6 = GIGO.protocol+"[" + options.ipv6 + "]:80" + options.uri;
     }
