@@ -12,7 +12,7 @@ if (!String.prototype.endsWith) {
 
 GIGO.CheckHTTPS = function(s) {
     console.log("document protocol %o",document.location.protocol);
-    return document.location.protocol.startsWith("https://");
+    return document.location.protocol.startsWith("https");
 };
 
 GIGO.CheckTransparentDomain = function(s) {
