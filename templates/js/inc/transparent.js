@@ -11,7 +11,7 @@ if (!String.prototype.endsWith) {
 }
 
 GIGO.CheckHTTPS = function(s) {
-    console.log("document %o",document.location.protocol);
+    console.log("document protocol %o",document.location.protocol);
     return document.location.protocol.startsWith("https://");
 };
 
