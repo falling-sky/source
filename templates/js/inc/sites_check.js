@@ -529,7 +529,7 @@ GIGO.sites_start_ipv6_take2 = function (r) {
 
 GIGO.sites_start_ipv6 = function (r) {
     var url, img, img_pending;
-    console.log("sites_start_ipv6 %o",r);
+    // console.log("sites_start_ipv6 %o",r);
 
     if (!r.v6) {
         return;

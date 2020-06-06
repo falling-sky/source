@@ -671,6 +671,7 @@ GIGO.set_default_options = function (options) {
     options.url.test_aaaa = GIGO.protocol+"ipv6." + options.subdomain + options.uri;
     options.url.test_ds = GIGO.protocol+"ds." + options.subdomain + options.uri;
 
+    console.log("check for ssl");
     if (GIGO.CheckHTTPS()) {
         console.log("disabling ssl");
         jQuery("#disable_ssl").hide();
