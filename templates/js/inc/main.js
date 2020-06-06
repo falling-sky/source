@@ -629,6 +629,9 @@ GIGO.setup_tests = function () {
     GIGO.queue.push(["test_type_json", GIGO.options.url.test_dsmtu, "test_dsmtu"]);
     GIGO.queue.push(["test_type_img", GIGO.options.url.test_ood_img, "test_ood"]);
 
+    GIGO.queue.push(["test_type_json", GIGO.options.url.test_ipv4, "test_ipv4"]);
+    GIGO.queue.push(["test_type_json", GIGO.options.url.test_ipv6, "test_ipv6"]);
+    
     console.log("check for ssl");
     if (GIGO.CheckHTTPS()) {
         console.log("disabling test_https test_ipv4 test_ipv6 due to ssl");
@@ -638,8 +641,7 @@ GIGO.setup_tests = function () {
         jQuery("#nossl4").remove()
     } else {
         console.log("enabling test_https test_ipv4 test_ipv6");
-        GIGO.queue.push(["test_type_json", GIGO.options.url.test_ipv4, "test_ipv4"]);
-        GIGO.queue.push(["test_type_json", GIGO.options.url.test_ipv6, "test_ipv6"]);
+
         GIGO.queue.push(["test_type_json", GIGO.options.url.test_https, "test_https"]);
 
     }
