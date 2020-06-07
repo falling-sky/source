@@ -18,7 +18,7 @@ import (
 var input = flag.String("input", "sites.json", "json file to read")
 var parsed = flag.String("parsed", "../templates/js/sites_parsed.js", "GIGO.sites_parsed= js file to write for falling-sky")
 var raw = flag.String("raw", "../templates/js/sites_parsed_raw.js", "js file to write for other automation")
-var validator = flag.String("validator", "http://port8000.validator.test-ipv6.com:8000/v0/CheckMirror/Check", "use this validator api")
+var validator = flag.String("validator", "http://validator.test-ipv6.com/v0/CheckMirror/Check", "use this validator api")
 var slow = flag.Duration("slow", time.Second*12, "time to consider a lookup 'slow'") // TODO Make this slow check per-url?
 var minimumCount = flag.Int("minimum", 0, "Minimum number of sites that must answer, else fail")
 var skipValidation = flag.Bool("skip-validation",false,"skip validation, just write file")
