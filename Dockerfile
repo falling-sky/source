@@ -38,9 +38,6 @@ RUN if [ -s cicd_release ]; then  rsync -av -e "ssh -o StrictHostKeyChecking=no 
 RUN if [ -s cicd_release ]; then  rsync -av -e "ssh -o StrictHostKeyChecking=no  -i cicd_release"  output/. fskyweb@ds.vm2.test-ipv6.com: || exit 1 ; fi
 
 
-FROM golang:alpine
-COPY --from=0 /build /build
-WORKDIR /build
 
 
 
