@@ -202,6 +202,7 @@ GIGO.sites_queue_entry = function (r) {
     if (GIGO.protocol==="https://") {
       // Be a bit more strict.
       if (!r.v4.startsWith("https://") || !r.v6.startsWith("https://")) {
+        console.log("GIGO.sites_queue_entry skipping %o due to https",r);
         return; // When viewing as https, we require all images being tested also be https
       }
     }
@@ -234,6 +235,7 @@ GIGO.sites_queue_entry = function (r) {
 GIGO.sites_queue_all = function (mode) {
     var r, siteName;
 
+    console.log("in GIGO.sites_queue_all, GIGO.sites_parsed=%o",GIGO.sites_parsed);
     // mirrors only if mode=1
     // all sites if mode=2
     for (siteName in GIGO.sites_parsed) {
