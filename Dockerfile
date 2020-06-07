@@ -30,7 +30,7 @@ RUN fsbuilder
 RUN if [[ -s translations/crowdin.yaml ]]; then cd translations && make || exit 1 ; fi
 
 # Publish
-RUN if [ -s cicd_release ]; then  rsync -av -e "ssh -o StrictHostKeyChecking=no  -i cicd_release"  output/. fskyweb@rsync.test-ipv6.com:stable/. || exit 1 ; fi
+RUN if [ -s cicd_release ]; then  rsync -av -e "ssh -o StrictHostKeyChecking=no  -i cicd_release"  output/. fskyweb@rsync.test-ipv6.com:stable/content/. || exit 1 ; fi
 RUN if [ -s cicd_beta ];    then  rsync -av -e "ssh -o StrictHostKeyChecking=no  -i cicd_beta"     output/. fskyweb@bender.gigo.com:      || exit 1 ; fi
 RUN if [ -s cicd_i18n ];    then  rsync -av -e "ssh -o StrictHostKeyChecking=no  -i cicd_i18n"     output/. fskyweb@bender.gigo.com:      || exit 1 ; fi
 RUN if [ -s cicd_release ]; then  rsync -av -e "ssh -o StrictHostKeyChecking=no  -i cicd_release"  output/. fskyweb@ds.vm0.test-ipv6.com: || exit 1 ; fi
