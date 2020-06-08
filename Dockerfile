@@ -30,12 +30,12 @@ RUN fsbuilder
 RUN if [[ -s translations/crowdin.yaml ]]; then cd translations && make || exit 1 ; fi
 
 # Publish
-RUN if [ -s cicd_release ]; then  rsync -a -e "ssh -o StrictHostKeyChecking=no  -i cicd_release"  output/. fskyweb@rsync.test-ipv6.com:stable/content/. || exit 1 ; fi
-RUN if [ -s cicd_beta ];    then  rsync -a -e "ssh -o StrictHostKeyChecking=no  -i cicd_beta"     output/. fskyweb@bender.gigo.com:      || exit 1 ; fi
-RUN if [ -s cicd_i18n ];    then  rsync -a -e "ssh -o StrictHostKeyChecking=no  -i cicd_i18n"     output/. fskyweb@bender.gigo.com:      || exit 1 ; fi
-RUN if [ -s cicd_release ]; then  rsync -a -e "ssh -o StrictHostKeyChecking=no  -i cicd_release"  output/. fskyweb@ds.vm0.test-ipv6.com: || exit 1 ; fi
-RUN if [ -s cicd_release ]; then  rsync -a -e "ssh -o StrictHostKeyChecking=no  -i cicd_release"  output/. fskyweb@ds.vm1.test-ipv6.com: || exit 1 ; fi
-RUN if [ -s cicd_release ]; then  rsync -a -e "ssh -o StrictHostKeyChecking=no  -i cicd_release"  output/. fskyweb@ds.vm2.test-ipv6.com: || exit 1 ; fi
+RUN if [ -s cicd_release ]; then  rsync -a -e "ssh -o StrictHostKeyChecking=no  -i cicd_release -p 2222"  output/. fskyweb@rsync.test-ipv6.com:stable/content/. || exit 1 ; fi
+RUN if [ -s cicd_beta ];    then  rsync -a -e "ssh -o StrictHostKeyChecking=no  -i cicd_beta"             output/. fskyweb@bender.gigo.com:      || exit 1 ; fi
+RUN if [ -s cicd_i18n ];    then  rsync -a -e "ssh -o StrictHostKeyChecking=no  -i cicd_i18n"             output/. fskyweb@bender.gigo.com:      || exit 1 ; fi
+RUN if [ -s cicd_release ]; then  rsync -a -e "ssh -o StrictHostKeyChecking=no  -i cicd_release"          output/. fskyweb@ds.vm0.test-ipv6.com: || exit 1 ; fi
+RUN if [ -s cicd_release ]; then  rsync -a -e "ssh -o StrictHostKeyChecking=no  -i cicd_release"          output/. fskyweb@ds.vm1.test-ipv6.com: || exit 1 ; fi
+RUN if [ -s cicd_release ]; then  rsync -a -e "ssh -o StrictHostKeyChecking=no  -i cicd_release"          output/. fskyweb@ds.vm2.test-ipv6.com: || exit 1 ; fi
 
 
 
