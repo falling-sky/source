@@ -49,6 +49,44 @@ GIGO.finish_test = function (id) {
 };
 
 
+GIGO.test_type_skip = function (url, id) {
+    // name = dns name to fetch
+    // id = which <div> to update
+    var tests, this_test;
+
+
+
+    // Let us also add in some hints for mirror operators
+    if (url.search(/\?/) < 0) {
+        url = url + "?";
+    }
+    url = url + "&testdomain=" + GIGO.options.domain;
+    url = url + "&testname=" + id;
+    if (Browser.opera) {
+        url = url + "&random=" + Math.random();
+    }
+
+
+    tests = GIGO.results.tests; // Convenience
+    if (!(tests.hasOwnProperty(id))) {
+        tests[id] = {};
+    }
+    this_test = tests[id];
+
+    this_test.start_time = GIGO.getms(); // Will use to find how long we ran
+    this_test.url = url; // For later display of test urls
+    // Update status to "Started" if we don't have any time for this yet
+
+
+
+    this_test.time_ms=0;
+    this_test.status = "skipped";
+    GIGO.finish_test(id);
+    GIGO.update_url(id);
+    GIGO.show_debug();
+
+};
+
 
 GIGO.test_type_json = function (url, id) {
     // name = dns name to fetch
@@ -629,19 +667,22 @@ GIGO.setup_tests = function () {
     GIGO.queue.push(["test_type_json", GIGO.options.url.test_dsmtu, "test_dsmtu"]);
     GIGO.queue.push(["test_type_img", GIGO.options.url.test_ood_img, "test_ood"]);
 
-    GIGO.queue.push(["test_type_json", GIGO.options.url.test_ipv4, "test_ipv4"]);
-    GIGO.queue.push(["test_type_json", GIGO.options.url.test_ipv6, "test_ipv6"]);
 
     console.log("check for ssl");
     if (GIGO.CheckHTTPS()) {
         console.log("disabling test_https test_ipv4 test_ipv6 due to ssl");
+        GIGO.queue.push(["test_type_skip", GIGO.options.url.test_ipv4, "test_ipv4"]);
+        GIGO.queue.push(["test_type_skip", GIGO.options.url.test_ipv6, "test_ipv6"]);
+        GIGO.queue.push(["test_type_skip", GIGO.options.url.test_https, "test_https"]);
+
         jQuery("#nossl1").remove()
         jQuery("#nossl2").remove()
         jQuery("#nossl3").remove()
         jQuery("#nossl4").remove()
     } else {
         console.log("enabling test_https test_ipv4 test_ipv6");
-
+        GIGO.queue.push(["test_type_json", GIGO.options.url.test_ipv4, "test_ipv4"]);
+        GIGO.queue.push(["test_type_json", GIGO.options.url.test_ipv6, "test_ipv6"]);
         GIGO.queue.push(["test_type_json", GIGO.options.url.test_https, "test_https"]);
 
     }
