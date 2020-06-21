@@ -2,7 +2,7 @@ build::
 	go run github.com/falling-sky/fsbuilder
 
 beta: build
-	rsync -azv output/. fskyweb@gigo.com:  --exclude site --delete
+	rsync -azv output/. jfesler@cosco.gigo.com:/persist/rsync.gigo.com/fsky/beta/content/.  --exclude site --delete
 
 sites::
 	@echo Validating mirror sites | ./support/fold_start.sh $@
