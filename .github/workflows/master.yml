@@ -38,7 +38,7 @@ jobs:
     - run: 'echo "$SSH_KEY" > cicd_i18n && chmod 600 cicd_i18n'
       shell: bash
       env:
-        SSH_KEY: ${{secrets.CICD_I18N}}
+        SSH_KEY: ${{secrets.CICD_RELEASE}}
 
     - run: 'echo "$CROWDIN_YAML" > translations/crowdin.yaml && chmod 600 translations/crowdin.yaml'
       shell: bash
