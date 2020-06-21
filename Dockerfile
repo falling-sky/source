@@ -1,5 +1,5 @@
 
-FROM golang:alpine 
+FROM golang:alpine as builder
 
 ## This dockerfile is for CI/CD.
 ## We use docker as a build method, but we are not shipping docker artifacts.
@@ -36,5 +36,5 @@ RUN if [ -s cicd_beta    ]; then  rsync -a -e "ssh -o StrictHostKeyChecking=no  
 
 
 
-
-
+# We're not really wanting to publish anything.
+FROM scratch
