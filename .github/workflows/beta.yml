@@ -23,14 +23,8 @@ jobs:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
 
-    - run: 'echo "$SSH_KEY" > cicd_beta && chmod 600 cicd_beta'
-      shell: bash
-      env:
-        SSH_KEY: ${{secrets.CICD_BETA}}
 
-
-
-    - name: Build and push Docker images
+    - name: Build without pushing.
       uses: docker/build-push-action@v1.1.0
       with:
         repository: jfesler/dummyvalue
