@@ -38,3 +38,4 @@ RUN if [ -s cicd_beta    ]; then  rsync -a -e "ssh -o StrictHostKeyChecking=no  
 
 # We're not really wanting to publish anything.
 FROM scratch
+COPY --from=builder /bin/true /bin/true
