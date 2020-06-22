@@ -65,15 +65,6 @@
       "v4": "https://ipv4.limeconsultants.com/1x1.png",
       "v6": "https://ipv6.limeconsultants.com/1x1.png"
     },
-    "duplimaster.com": {
-      "hide": false,
-      "loc": "ES",
-      "monitor": "Jesus Vara <jvara@e-impresion.es>",
-      "provider": "duplimaster.com",
-      "site": "duplimaster.com",
-      "v4": "https://ipv4.duplimaster.com/public/images/logo-sombra.png",
-      "v6": "https://ipv6.duplimaster.com/public/images/logo-sombra.png"
-    },
     "eurobilltracker.com": {
       "hide": false,
       "loc": "FI",
