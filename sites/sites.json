@@ -36,15 +36,6 @@
       "v4": "http://ipv4.test-ipv6.bvconline.com.ar/knob_green.png",
       "v6": "http://ipv6.test-ipv6.bvconline.com.ar/knob_green.png"
     },
-    "campaya.co.uk": {
-      "hide": false,
-      "loc": "UK",
-      "monitor": "Claus Pedersen <clausp@campaya.com>",
-      "provider": "Campaya",
-      "site": "campaya.co.uk",
-      "v4": "http://ipv4.campaya.co.uk/apple-touch-icon.png",
-      "v6": "http://ipv6.campaya.co.uk/apple-touch-icon.png"
-    },
     "test-ipv6.in": {
       "hide": false,
       "loc": "IN",
