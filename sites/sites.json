@@ -210,6 +210,17 @@
       "v4": "https://ipv4.ams2.test-ipv6.com/images-nc/knob_green.png",
       "v6": "https://ipv6.ams2.test-ipv6.com/images-nc/knob_green.png"
     },
+    "fra.test-ipv6.com": {
+      "hide": false,
+      "loc": "DE",
+      "mirror": true,
+      "monitor": "jfesler@gigo.com",
+      "provider": "HostVirtual",
+      "site": "fra.test-ipv6.com",
+      "transparent": true,
+      "v4": "https://ipv4.fra.test-ipv6.com/images-nc/knob_green.png",
+      "v6": "https://ipv6.fra.test-ipv6.com/images-nc/knob_green.png"
+    },
     "test-ipv6.arauc.br": {
       "contact": "PoP-PR/RNP <admnet@pop-pr.rnp.br>",
       "hide": false,
