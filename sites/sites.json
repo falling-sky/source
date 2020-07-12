@@ -65,14 +65,6 @@
       "v4": "https://ipv4-test-ipv6.eurobilltracker.com/img/1x1.gif",
       "v6": "https://ipv6-test-ipv6.eurobilltracker.com/img/1x1.gif"
     },
-    "google.com": {
-      "hide": false,
-      "loc": "global",
-      "provider": "Google",
-      "site": "google.com",
-      "v4": "https://test-ipv6-dot-com-v6exp3-v4.metric.gstatic.com/v6exp3/6.gif",
-      "v6": "https://test-ipv6-dot-com-v6exp3-v6.metric.gstatic.com/v6exp3/6.gif"
-    },
     "he.net": {
       "contact": "Mike Tindle <mtindle@he.net>",
       "hide": false,
@@ -565,17 +557,9 @@
       "v4": "https://test4.vyncke.org/knob_valid_green.png",
       "v6": "https://test6.vyncke.org/knob_valid_green.png"
     },
-    "ziggoforum.nl": {
-      "hide": false,
-      "loc": "NL",
-      "monitor": "Rene Kemp <rene.kemp@outlook.com>",
-      "provider": "Ziggo Gebruikersforum",
-      "site": "ziggoforum.nl",
-      "v4": "https://ipv4.ziggoforum.nl/images/pixel.gif",
-      "v6": "https://ipv6.ziggoforum.nl/images/pixel.gif"
-    },
     "test-ipv6.hu": {
-      "hide": false,
+      "hide": true,
+      "reason":"needs tls 1.2+",
       "loc": "HU",
       "mirror": true,
       "monitor": "Polaris-N Systems <info@polaris-n.hu>",
