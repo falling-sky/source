@@ -446,7 +446,8 @@
     },
     "test-ipv6.zw.liquidtelecom.net": {
       "contact": "Liquid Telecom <ipv6@liquidtelecom.com>",
-      "hide": false,
+      "hide": true,
+      "commnt":"broken ipv6",
       "loc": "ZW",
       "mirror": true,
       "monitor": "ipv6@liquidtelecom.com",
