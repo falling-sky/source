@@ -244,7 +244,7 @@
     },
     "test-ipv6.ch": {
       "hide": false,
-      "loc": "UK",
+      "loc": "CH",
       "monitor": "feedback@test-ipv6.ch",
       "provider": "G Consulting",
       "v4": "https://ipv4.test-ipv6.ch/images-nc/knob_green.png",
