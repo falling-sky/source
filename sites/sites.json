@@ -530,14 +530,6 @@
       "v4": "https://ipv4.radioradicale.it/sites/www.radioradicale.it/files/pagine/2015/12/ipv6.png",
       "v6": "https://ipv6.radioradicale.it/sites/www.radioradicale.it/files/pagine/2015/12/ipv6.png"
     },
-    "www.rascom.ru": {
-      "loc": "RU",
-      "monitor": "Андрей Сафонов <as@rascom.ru>",
-      "provider": "RASCOM",
-      "site": "www.rascom.ru",
-      "v4": "http://wood.rascom.ru/ipv4.jpg",
-      "v6": "http://wood6.rascom.ru/logo2.png"
-    },
     "www.steffann.nl": {
       "hide": false,
       "loc": "NL",
