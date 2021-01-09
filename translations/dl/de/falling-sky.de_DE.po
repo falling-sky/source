@@ -1803,7 +1803,7 @@ msgstr "\"6to4\" hat bei mir funktioniert, aber der \"Big Packet\" oder \"MTU\" 
 
 #: "faq_6to4.html"
 msgid "When using 6to4, your IPv6 packet has to be pushed into an IPv4 packet. Internet protocol packets have a maximum size; and this can vary based on the Internet service provider, as well as the equipment used."
-msgstr "Bei der Verwendung von \"6to4\" muss ein IPv6-Paket in ein IPv4-Paket integriert werden. Dbaei haben Internet-Protokoll-Pakete eine maximale Größe, welche  basierend auf dem Internet-Dienstleister, sowie den verwendeten Geräten variieren kann ."
+msgstr "Bei der Verwendung von \"6to4\" muss ein IPv6-Paket in ein IPv4-Paket integriert werden. Dabei haben Internet-Protokoll-Pakete eine maximale Größe, welche  basierend auf dem Internet-Dienstleister, sowie den verwendeten Geräten variieren kann ."
 
 #: "faq_6to4.html"
 msgid "Because of this maximum size, your IPv6 packets actually have to be made a bit smaller - so that they fit inside the IPv4 packet, and that the IPv4 packet is still small enough to leave your network."
