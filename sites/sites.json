@@ -278,15 +278,6 @@
       "v4": "https://ipv4.test-ipv6.com.au/images-nc/knob_green.png",
       "v6": "https://ipv6.test-ipv6.com.au/images-nc/knob_green.png"
     },
-    "test-ipv6.csclub.uwaterloo.ca": {
-      "hide": false,
-      "loc": "CA",
-      "mirror": true,
-      "monitor": "systems-committee@csclub.uwaterloo.ca",
-      "provider": "University of Waterloo Computer Science Club",
-      "v4": "https://ipv4.test-ipv6.csclub.uwaterloo.ca/images-nc/knob_green.png",
-      "v6": "https://ipv6.test-ipv6.csclub.uwaterloo.ca/images-nc/knob_green.png"
-    },
     "test-ipv6.cz": {
       "hide": false,
       "loc": "CZ",
@@ -381,16 +372,6 @@
       "site": "test-ipv6.noroutetohost.net",
       "v4": "https://ipv4.test-ipv6.noroutetohost.net/images-nc/knob_green.png",
       "v6": "https://ipv6.test-ipv6.noroutetohost.net/images-nc/knob_green.png"
-    },
-    "test-ipv6.ro": {
-      "hide": false,
-      "loc": "RO",
-      "mirror": true,
-      "monitor": "Liviu Pislaru <liviu.pislaru@rcs-rds.ro>",
-      "provider": "RCS & RDS",
-      "site": "test-ipv6.ro",
-      "v4": "https://ipv4.test-ipv6.ro/images-nc/knob_green.png",
-      "v6": "https://ipv6.test-ipv6.ro/images-nc/knob_green.png"
     },
     "test-ipv6.roedu.net": {
       "hide": false,
@@ -521,15 +502,6 @@
       "v4": "http://ipv4.nop.hu/hosted.png",
       "v6": "http://ipv6.nop.hu/hosted.png"
     },
-    "www.radioradicale.it": {
-      "loc": "IT",
-      "mirror": false,
-      "monitor": "Dario Centofanti <dario@popinga.net>",
-      "provider": "Centro di Produzione Spa - AS57329",
-      "site": "www.radioradicale.it",
-      "v4": "https://ipv4.radioradicale.it/sites/www.radioradicale.it/files/pagine/2015/12/ipv6.png",
-      "v6": "https://ipv6.radioradicale.it/sites/www.radioradicale.it/files/pagine/2015/12/ipv6.png"
-    },
     "www.steffann.nl": {
       "hide": false,
       "loc": "NL",
@@ -551,7 +523,7 @@
     },
     "test-ipv6.hu": {
       "hide": true,
-      "reason":"needs tls 1.2+",
+      "reason": "needs tls 1.2+",
       "loc": "HU",
       "mirror": true,
       "monitor": "Polaris-N Systems <info@polaris-n.hu>",
@@ -627,7 +599,7 @@
       "v4": "https://ipv4.test-ipv6.iu13.net/images-nc/knob_green.png",
       "v6": "https://ipv6.test-ipv6.iu13.net/images-nc/knob_green.png"
     },
-       "testipv6.cn": {
+    "testipv6.cn": {
       "hide": false,
       "loc": "CN",
       "mirror": true,
@@ -635,7 +607,15 @@
       "provider": "yidazao一大早（personal)",
       "v4": "https://ipv4.testipv6.cn/site/logo-v4.png",
       "v6": "https://ipv6.testipv6.cn/site/logo-v6.png"
+    },
+    "test-ipv6.vzxy.net": {
+      "hide": false,
+      "loc": "DE",
+      "mirror": true,
+      "monitor": "mihai@vzxy.net",
+      "provider": "(personal)",
+      "v4": "https://ipv4.test-ipv6.vzxy.net/site/logo-v4.png",
+      "v6": "https://ipv6.test-ipv6.vzxy.net/site/logo-v6.png"
     }
-
   }
 }
