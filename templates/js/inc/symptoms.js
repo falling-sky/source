@@ -25,7 +25,35 @@ GIGO.asn_same = {
 
 GIGO.asn_native = {
     668: 1, /* DREN, native non-tunnel provider */
-    24352: 1 /* CERNET2 */
+    24352: 1, /* CERNET2 */
+    "AR": 1, /* Argentina */
+    "AW": 1,
+    "BZ": 1,
+    "BO": 1,
+    "BR": 1,
+    "CL": 1,
+    "CO": 1,
+    "CR": 1,
+    "CU": 1,
+    "EC": 1,
+    "GT": 1,
+    "GY": 1,
+    "GF": 1,
+    "HT": 1,
+    "HN": 1,
+    "FK": 1,
+    "MX": 1,
+    "NI": 1,
+    "PA": 1,
+    "PY": 1,
+    "PE": 1,
+    "DO": 1,
+    "MF": 1,
+    "GS": 1,
+    "SR": 1,
+    "TT": 1,
+    "UY": 1,
+    "VE": 1
 };
 
 GIGO.unreliable = {
@@ -274,6 +302,20 @@ GIGO.identify_symptoms = function () {
             tunnel = 0;
         }
     }
+
+    // Stop tunnel warnings for some countries.
+    if (GIGO.results.ipv6.ip) {
+        if (GIGO.asn_native[ GIGO.results.tests.test_asn6.ipinfo.country ]) {
+            tunnel = 0;
+        }
+    }
+
+
+
+
+    // Some countries outsource their IPv4.
+
+
     GIGO.helpdesk.tunnel = tunnel; // Save for later.
     GIGO.helpdesk.teredo = teredo; // save for later
     GIGO.helpdesk.sixfour = sixfour; // save for later
