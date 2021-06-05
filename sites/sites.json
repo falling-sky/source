@@ -141,15 +141,6 @@
       "v4": "https://ipv4.sixte.st/images-nc/knob_green.png",
       "v6": "https://ipv6.sixte.st/images-nc/knob_green.png"
     },
-    "snozzages.com": {
-      "hide": false,
-      "loc": "US (VA)",
-      "monitor": "Warren Kumari <warren@kumari.net>",
-      "provider": "Warren Kumari",
-      "site": "snozzages.com",
-      "v4": "https://ipv4.v6test.snozzages.com/1x1.gif",
-      "v6": "https://ipv6.v6test.snozzages.com/1x1.gif"
-    },
     "stdio.be": {
       "hide": false,
       "loc": "DE",
