@@ -1359,7 +1359,7 @@ msgstr "IPv6 deaktivieren, oder die Priorität senken"
 
 #: "faq/broken_disable.inc"
 msgid "<b>To disable IPv6 entirely, until your ISP offers IPv6 to you:</b> see <b>Microsoft's \"fixit\" site</b> that gives clear instructions. We advocate considering \"Use IPv4 instead of IPv6 in prefix policies\", instead of completely disabling IPv6. Specific Windows features depend on IPv6 being enabled."
-msgstr "<b>Um IPv6 vollständig zu deaktivieren, bis Ihr ISP IPv6 anbietet:</b> <b>Die Website von Microsoft \"Fixit\"</b> bietet Ihnen genaue Anweisungen. Wir befürworten es, sich Gedanken über eine \"benutze IPv4 statt IPv6 Präfix-Policy\" zu machen, anstatt IPv6 komplett zu deaktivieren. Bestimmte Windows-Funktionen davon ab, dass IPv6 aktiviert ist."
+msgstr "<b>Um IPv6 vollständig zu deaktivieren, bis Ihr ISP IPv6 anbietet:</b> <b>Die Website von Microsoft \"Fixit\"</b> bietet Ihnen genaue Anweisungen. Wir befürworten es, sich Gedanken über eine \"benutze IPv4 statt IPv6 Präfix-Policy\" zu machen, anstatt IPv6 komplett zu deaktivieren. Bestimmte Windows-Funktionen hängen davon ab, dass IPv6 aktiviert ist."
 
 #: "faq/broken_disable.inc"
 msgid "To completely disable IPv6 (Windows 7, Vista; XP should be similiar):"
