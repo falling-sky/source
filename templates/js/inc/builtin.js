@@ -398,7 +398,7 @@ GIGO.gen_help_link = function (token) {
     if (GIGO.messages_popups.hasOwnProperty(token)) {
         page = GIGO.messages_popups[token][0];
         title = GIGO.messages_popups[token][1];
-        code = "<a href=\"#\" onclick=\"GIGO.help_popup('" + page + "','" + title + "'); return false;\" class=\"help_popup\">" + "{{[more info]}}" + "</a>";
+        code = "<a href='"+page+"'  onclick=\"GIGO.help_popup('" + page + "','" + title + "'); return false;\" class=\"help_popup\">" + "{{[more info]}}" + "</a>";
     }
     return code;
 };

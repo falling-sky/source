@@ -31,8 +31,7 @@
   <li style="list-style: none; display: inline">
     <ul>
       <li>{{ Ask your ISP if they offer any IPv6 connectivity (including possibly 6in4 tunnels, or tunnelbroker type tunnels). }}</li>
-      <li>{{ See <a href="#" onclick='return help_page("faq_6to4.html","6to4")'>6to4</a> for more information on why you would want to switch; and some options. }}</li>
+      <li>{{ See <a href="faq_6to4.html" onclick='return help_page("faq_6to4.html","6to4")'>6to4</a> for more information on why you would want to switch; and some options. }}</li>
     </ul>
   </li>
 </ul>
-  	

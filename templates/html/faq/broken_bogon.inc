@@ -5,7 +5,7 @@
     <tr>
         <td valign=top><p><b>fc</b>xx: or <b>fd</b>xx:</p></td>
         <td valign=top>
-            <p><a href="#" onclick="return help_page('faq_avm.html','AVM')">AVM FritzBox</a> - {{ disable ULA. }}</p>
+            <p><a href="faq_avm.html" onclick="return help_page('faq_avm.html','AVM')">AVM FritzBox</a> - {{ disable ULA. }}</p>
             <p>{{ Other routers: Try updating the firmware.  If that fails, look for and disable "ULA" or "Unique Local Addressing". }}</p>
             <p>{{ If that fails, disable IPv6 entirely on the router. }}</p>
         </td>
