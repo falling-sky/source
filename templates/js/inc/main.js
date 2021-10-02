@@ -6,6 +6,19 @@
 GIGO.update_ipaddress = function (ipinfo) {
     // ipinfo:  callback({"ip":"69.62.233.151","type":"ipv4","subtype":"","public":1,"filler":""});
 
+    // What if "ip" is  "192.0.2.1, 192.0.2.1"?  Reduce it.
+    if ((ipinfo) && (ipinfo.ip)) {
+        let sp = ipinfo.ip.split(", ");
+        let use = sp[0];
+        for (let element of sp.values()) {
+            if (element !== sp[0]) {
+                use=ipinfo.ip;
+            }
+        }
+        ipinfo.ip=use ;
+    }
+
+    console.log("ipinfo is %o",ipinfo)
 
     if (ipinfo.type === "ipv4") {
         if (!GIGO.results.ipv4.asn) {
