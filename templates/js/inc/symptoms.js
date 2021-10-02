@@ -442,11 +442,12 @@ GIGO.identify_symptoms = function () {
       res.push("tls_beta");
     }
 
-    if (GIGO.protocol === "http://") {
-      if (tests.test_https.status=="ok") {
-        res.push("tls_available");
-      }
-    }
+    // Tell them about https.
+    // if (GIGO.protocol === "http://") {
+    //   if (tests.test_https.status=="ok") {
+    //     res.push("tls_available");
+    //   }
+    // }
 
     // Other transition technologies
     if (teredo) {
