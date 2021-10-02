@@ -26,13 +26,13 @@ GIGO.CheckTransparent = function() {
         // Bias the reporting location if the user is visiting a specific flavor of the site.
         let master = "master.test-ipv6.com"
         if (document.location.hostname.startsWith("ipv6.")) {
-            MirrorConfig.options.show_stats = "ipv6.master.test-ipv6.com";
+            master = "ipv6.master.test-ipv6.com";
         }
         if (document.location.hostname.startsWith("ipv4.")) {
-            MirrorConfig.options.show_stats = "ipv4.master.test-ipv6.com";
+            master = "ipv4.master.test-ipv6.com";
         }
         if (document.location.hostname.startsWith("ds.")) {
-            MirrorConfig.options.show_stats = "ds.master.test-ipv6.com";
+            master = "ds.master.test-ipv6.com";
         }
         console.log("document.location.hostname is %o",document.location.hostname);
         console.log("master is %o",master);
