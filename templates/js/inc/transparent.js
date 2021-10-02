@@ -42,6 +42,8 @@ GIGO.CheckTransparent = function() {
             if (document.location.hostname.startsWith("ds.")) {
                 MirrorConfig.options.show_stats = "ds.master.test-ipv6.com";
             }
+            console.log("document.location.hostname is %o",document.location.hostname);
+            console.log("master is %o",master);
 
 
             MirrorConfig.orig_options = JSON.parse(JSON.stringify(MirrorConfig.options));

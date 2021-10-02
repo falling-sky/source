@@ -18,8 +18,6 @@ GIGO.update_ipaddress = function (ipinfo) {
         ipinfo.ip=use ;
     }
 
-    console.log("ipinfo is %o",ipinfo)
-
     if (ipinfo.type === "ipv4") {
         if (!GIGO.results.ipv4.asn) {
             GIGO.results.ipv4 = ipinfo;
