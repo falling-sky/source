@@ -22,6 +22,8 @@ GIGO.CheckTransparentDomain = function(s) {
 GIGO.CheckTransparent = function() {
     if (GIGO.CheckTransparentDomain(document.location.hostname)) {
 
+        let og  = JSON.parse(JSON.stringify(MirrorConfig.options));
+
 
         // Bias the reporting location if the user is visiting a specific flavor of the site.
         let master = "master.test-ipv6.com"
@@ -47,7 +49,6 @@ GIGO.CheckTransparent = function() {
             contact: "Jason Fesler",
             mailto: "jfesler@test-ipv6.com"
         };
-        MirrorConfig.orig_options = JSON.parse(JSON.stringify(MirrorConfig.options));
         MirrorConfig.options.show_stats = GIGO.protocol + master + "/stats.html";
         MirrorConfig.options.comment_html = 1;
         MirrorConfig.options.userdata = master;
@@ -55,6 +56,7 @@ GIGO.CheckTransparent = function() {
         MirrorConfig.twitter =  {  "enable": 0,    "name": "testipv6com"};
         // Only replace these, if the underlying domain is something else.
         if (!GIGO.CheckTransparentDomain(MirrorConfig.load.domain)) {
+            MirrorConfig.orig_options = og;
             MirrorConfig.options.survey = "/survey.php";
             MirrorConfig.options.comment = "/comment.php";
             MirrorConfig.options.userdata = master;
