@@ -2848,7 +2848,7 @@ msgstr ""
 msgid "If you're in a new location, or a computer you're not familiar with, consider both! If both come up with the same results, you can pick HTTP for speed, or HTTPS to bypass certain proxies."
 msgstr ""
 
-#: "not-used, archived.  Not currently needed for translation."
+#: "faq_https.html"
 msgid "Links:"
 msgstr ""
 
@@ -3064,11 +3064,11 @@ msgstr ""
 msgid "test-ipv6.com is actually spread across many providers. Some are hosting providers, or customers of hosting provides. Some are broadband internet providers. It is not possible for test-ipv6.com to prove ownership of their address space. As an example, I can't prove I own the Comcast mirror IP addresses. For mirror operators that CAN prove this, these certificates tend to be expensive due to the extra burden of proof needing examination."
 msgstr ""
 
-#: "faq_https.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "test-ipv6.com is actually spread across many providers. Some are hosting providers, or customers of hosting provides. Some are broadband internet providers. It is not possible for test-ipv6.com to prove ownership of their address space."
 msgstr ""
 
-#: "faq_https.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "As an example, I can't prove I own the Comcast (a large US broadbroad provider) IP addresses used by this site.</p> <p>{{Links:"
 msgstr ""
 
@@ -3094,5 +3094,13 @@ msgstr ""
 
 #: "faq/whyipv6.inc"
 msgid "If you don't know why IPv6 matters, see the <a href=\"faq_whyipv6.html\" onclick=\"return help_page('faq_whyipv6.html','Why IPv6')\">Why IPv6 FAQ</a>."
+msgstr ""
+
+#: "faq_https.html"
+msgid "test-ipv6.com is actually spread across many providers. Some are hosting providers, or customers of hosting providers. Some are broadband internet providers. It is not possible for test-ipv6.com to prove ownership of their address space."
+msgstr ""
+
+#: "faq_https.html"
+msgid "As an example, I can't prove I own the Comcast (a large US broadbroad provider) IP addresses used by this site."
 msgstr ""
 

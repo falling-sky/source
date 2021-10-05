@@ -94,16 +94,6 @@
       "v4": "https://ipv4.ipv6-test.pl/images-nc/knob_green.png",
       "v6": "https://ipv6.ipv6-test.pl/images-nc/knob_green.png"
     },
-    "ipv6ready.me": {
-      "hide": false,
-      "loc": "JP",
-      "mirror": true,
-      "monitor": "kazuhide.t@ipv6ready.me",
-      "provider": "Kazuhide Takahashi",
-      "site": "ipv6ready.me",
-      "v4": "https://ipv4.ipv6ready.me/images-nc/knob_green.png",
-      "v6": "https://ipv6.ipv6ready.me/images-nc/knob_green.png"
-    },
     "jamieweb.net": {
       "hide": false,
       "loc": "UK",
