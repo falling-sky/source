@@ -337,7 +337,7 @@ GIGO.send_survey = function (tokens) {
 
 
     tokens = tokens.join(",");
-    url += "?x&" + GIGO.cgistats("a") + GIGO.cgistats("aaaa") + GIGO.cgistats("ds4") + GIGO.cgistats("ds6") + "--" + GIGO.cgistats("v6ns") + GIGO.cgistats("dsmtu") + GIGO.cgistats("v6mtu") + "&tokens=" + encodeURI(tokens) + "&rand=" + Math.floor(Math.random() * 2000000000);
+    url += "?x&" + GIGO.cgistats("a") + GIGO.cgistats("aaaa") + GIGO.cgistats("ds4") + GIGO.cgistats("ds6")  + GIGO.cgistats("v6ns") + GIGO.cgistats("dsmtu") + GIGO.cgistats("v6mtu") + "&tokens=" + encodeURI(tokens) + "&rand=" + Math.floor(Math.random() * 2000000000);
 
     if (MirrorConfig.options.survey_ip) {
         if (GIGO.results.ipv4.ip) {
