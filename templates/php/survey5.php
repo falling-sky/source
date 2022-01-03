@@ -48,7 +48,7 @@ function fetch_time ($name) {
 }
 function fetch_status ($name) {
   $t = param_val($name,"/^(ok|bad|slow|timeout)(,[0-9]+)?\$/");   
-  if (!isset($t)) return "undef";
+  if (!isset($t)) return "x";
   $a = explode(",",$t);
   return $a[0];
 }

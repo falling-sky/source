@@ -59,7 +59,7 @@ function fetch_status($name)
 {
     $t = param_val($name, "/^(ok|bad|slow|timeout|skipped)(,[0-9]+)?\$/");
     if (!isset($t))
-        return "undef";
+        return "x";
     $a = explode(",", $t);
     return $a[0];
 }
