@@ -3,8 +3,8 @@
 
 // Call this early, to enable the isp helpdesk tab
 
-//GIGO.list_of_ipv4 = ["a", "ds4", "test_ipv4"];
-//GIGO.list_of_ipv6 = ["aaaa", "ds6", "test_ipv6","test_v6mtu"];
+//GIGO.list_of_ipv4 = ["a", "ds4"];
+//GIGO.list_of_ipv6 = ["aaaa", "ds6", "test_v6mtu"];
 
 
 GIGO.start_helpdesk = function () {
@@ -54,9 +54,6 @@ GIGO.helpdesk_ob_type = function () {
         if (GIGO.helpdesk.sixfour) {
             t = "6"; // 6to4
         }
-        if (GIGO.helpdesk.tunnel) {
-            t = "a"; // Check the ASN
-        }
     }
     return t;
 };
@@ -67,11 +64,10 @@ GIGO.helpdesk_score = function () {
 
     // GIGO.results.tests[x].status
     var status_a = GIGO.helpdesk_ob_status("test_a");
-    var status_ipv4 = GIGO.helpdesk_ob_status("test_ipv4");
     var status_aaaa = GIGO.helpdesk_ob_status("test_aaaa");
     var status_ipv6_type = GIGO.helpdesk_ob_type();
 
-    var status = status_a + status_ipv4 + ":" + status_aaaa + status_ipv6_type;
+    var status = status_a + ":" + status_aaaa + status_ipv6_type;
     var ob = {};
 
     //console.log("helpdesk status code %o",status);
@@ -128,7 +124,7 @@ GIGO.helpdesk_ipv4_info = function () {
 
     if ((test_a.ipinfo) && (test_a.ipinfo.ip)) {
         s = "IPv4: ";
-        s = s + GIGO.helpdesk_good_bad_slow(["test_a", "test_ds4", "test_ipv4"]);
+        s = s + GIGO.helpdesk_good_bad_slow(["test_a", "test_ds4"]);
         if (test_asn4 && test_asn4.ipinfo && test_asn4.ipinfo.asn) {
             s = s + ", AS" + test_asn4.ipinfo.asn + " - ";
             s = s + test_asn4.ipinfo.asn_name;
@@ -156,7 +152,7 @@ GIGO.helpdesk_ipv6_info = function () {
 
     if ((test_aaaa.ipinfo) && (test_aaaa.ipinfo.ip)) {
         s = "IPv6: ";
-        s = s + GIGO.helpdesk_good_bad_slow(["test_aaaa", "test_ds6", "test_ipv6", "test_v6mtu"]);
+        s = s + GIGO.helpdesk_good_bad_slow(["test_aaaa", "test_ds6",  "test_v6mtu"]);
         if (test_asn6 && test_asn6.ipinfo && test_asn6.ipinfo.asn) {
             s = s + ", AS" + test_asn6.ipinfo.asn + " - ";
             s = s + test_asn6.ipinfo.asn_name;

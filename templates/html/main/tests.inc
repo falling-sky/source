@@ -63,31 +63,6 @@
 
       </tr>
 
-      <tr id="nossl1">
-        <td nowrap="nowrap">{{Test IPv4 without DNS}}</td>
-
-        <td nowrap="nowrap">&nbsp;</td>
-
-        <td nowrap="nowrap">
-          <div id="sum_test_ipv4">
-            {{pending}}
-          </div>
-        </td>
-
-      </tr>
-
-      <tr id="nossl2">
-        <td nowrap="nowrap">{{Test IPv6 without DNS}}</td>
-
-        <td nowrap="nowrap">&nbsp;</td>
-
-        <td nowrap="nowrap">
-          <div id="sum_test_ipv6">
-            {{pending}}
-          </div>
-        </td>
-
-      </tr>
 
       <tr>
         <td nowrap="nowrap">{{Test IPv6 large packet}}</td>

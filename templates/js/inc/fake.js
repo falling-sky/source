@@ -46,7 +46,7 @@ GIGO.override_id = function (id, url) {
     status = parts[0];
     protocol = parts[2];
     if (!protocol) {
-        if ((id === "test_aaaa") || (id === "test_ipv6") || (id === "test_v6mtu") || (id === "test_v6ns") || (id === "test_dsmtu") || (id === "test_ds")) {
+        if ((id === "test_aaaa") ||  (id === "test_v6mtu") || (id === "test_v6ns") || (id === "test_dsmtu") || (id === "test_ds")) {
             protocol = "ipv6";
         } else {
             protocol = "ipv4";

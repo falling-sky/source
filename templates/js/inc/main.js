@@ -221,13 +221,6 @@ GIGO.test_type_json = function (url, id) {
             }
             this_test.status = (this_test.time_ms < GIGO.slow) ? "bad" : "timeout";
 
-            if (GIGO.protocol==="https://") {
-              if ((id==="test_ipv4") || (id==="test_ipv6")) {
-                // We expected this to fail.
-                this_test.status = "skipped";
-              }
-            }
-
             // Look for dual stack
             if (id === "test_ds") {
                 tests.test_ds6 = {
@@ -679,24 +672,6 @@ GIGO.setup_tests = function () {
     GIGO.queue.push(["test_type_img", GIGO.options.url.test_ood_img, "test_ood"]);
 
 
-    console.log("check for ssl");
-    if (GIGO.CheckHTTPS()) {
-        console.log("disabling test_https test_ipv4 test_ipv6 due to ssl");
-        GIGO.queue.push(["test_type_skip", GIGO.options.url.test_ipv4, "test_ipv4"]);
-        GIGO.queue.push(["test_type_skip", GIGO.options.url.test_ipv6, "test_ipv6"]);
-        GIGO.queue.push(["test_type_skip", GIGO.options.url.test_https, "test_https"]);
-
-        jQuery("#nossl1").remove()
-        jQuery("#nossl2").remove()
-        jQuery("#nossl3").remove()
-        jQuery("#nossl4").remove()
-    } else {
-        console.log("enabling test_https test_ipv4 test_ipv6");
-        GIGO.queue.push(["test_type_json", GIGO.options.url.test_ipv4, "test_ipv4"]);
-        GIGO.queue.push(["test_type_json", GIGO.options.url.test_ipv6, "test_ipv6"]);
-        GIGO.queue.push(["test_type_json", GIGO.options.url.test_https, "test_https"]);
-
-    }
 
 
 
@@ -741,8 +716,6 @@ GIGO.set_default_options = function (options) {
     options.url.test_ds = GIGO.protocol+"ds." + options.subdomain + options.uri;
 
 
-    options.url.test_ipv4 = GIGO.protocol+"" + options.ipv4 + options.uri;
-    options.url.test_ipv6 = GIGO.protocol+"[" + options.ipv6 + "]:80" + options.uri;
     options.url.test_v6ns = GIGO.protocol+"ds.v6ns." + options.subdomain + options.uri;
     options.url.test_v6mtu = GIGO.protocol+"mtu1280." + options.subdomain + options.uri + "&size=1600&fill=" + GIGO.fill(1600, "x");
     options.url.test_dsmtu = GIGO.protocol+"ds." + options.subdomain + options.uri + "&size=1600&fill=" + GIGO.fill(1600, "x");
@@ -758,8 +731,6 @@ GIGO.set_default_options = function (options) {
     options.url.test_a_img = GIGO.protocol+"ipv4." + options.subdomain + options.img_uri;
     options.url.test_aaaa_img = GIGO.protocol+"ipv6." + options.subdomain + options.img_uri;
     options.url.test_ds_img = GIGO.protocol+"ds." + options.subdomain + options.img_uri;
-    options.url.test_ipv4_img = GIGO.protocol+"" + options.ipv4 + options.img_uri;
-    options.url.test_ipv6_img = GIGO.protocol+"[" + options.ipv6 + "]:80" + options.img_uri;
     options.url.test_v6ns_img = GIGO.protocol+"ds.v6ns." + options.subdomain + options.img_uri;
     options.url.test_v6mtu_img = GIGO.protocol+"mtu1280." + options.subdomain + options.img_uri_big;
     options.url.test_dsmtu_img = GIGO.protocol+"ds." + options.subdomain + options.img_uri_big;
@@ -767,9 +738,6 @@ GIGO.set_default_options = function (options) {
     options.url.test_ood_img = GIGO.ood_url()
 
 
-    // Probe for https - stick to our current hostname
-    options.url.test_https = "https://" + document.location.hostname + options.uri;
-    options.url.test_https_img = "https://" + document.location.hostname + options.img_uri;
 
 
 

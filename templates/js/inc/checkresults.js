@@ -73,7 +73,7 @@ GIGO.check_results = function () {
     // bothering.
     // In this case, lets do it only if one or more of our tests ran "slow".
     if ((GIGO.repeated <= GIGO.retry_min) || ((GIGO.repeated <= GIGO.retry_max) && (GIGO.delta < GIGO.retry_until))) {
-        if ((GIGO.repeat_only_if_slow === 0) || (GIGO.ministates(["a", "aaaa", "ds4", "ds6", "ipv4", "ipv6", "v6mtu", "v6ns"]).match(/s/))) {
+        if ((GIGO.repeat_only_if_slow === 0) || (GIGO.ministates(["a", "aaaa", "ds4", "ds6",  "v6mtu", "v6ns"]).match(/s/))) {
             GIGO.restart_tests(); // Minimum number of retries needed
             return;
         }
@@ -86,7 +86,7 @@ GIGO.check_results = function () {
 
     tokens = GIGO.identify_symptoms();
     mini_primary = GIGO.ministates(["a", "aaaa", "ds4", "ds6"]);
-    mini_secondary = GIGO.ministates(["ipv4", "ipv6", "v6mtu", "v6ns"]);
+    mini_secondary = GIGO.ministates([ "v6mtu", "v6ns"]);
 
 
 

@@ -89,7 +89,7 @@ GIGO.ministates = function (which) {
 
 GIGO.find_evidence_of_noscript = function (tests, res) {
     var i, key_json, key_img, test_json, test_img, key, keys, blocked;
-    keys = ["a", "aaaa", "ds", "ipv4", "ipv6", "v6mtu", "v6ns", "dsmtu"];
+    keys = ["a", "aaaa", "ds", "v6mtu", "v6ns", "dsmtu"];
     for (i = 0; i < keys.length; i = i + 1) {
         key = keys[i];
         key_json = "test_" + key;
@@ -126,7 +126,7 @@ GIGO.find_evidence_of_noscript = function (tests, res) {
 GIGO.fallback_to_image_tests = function (tests, res) {
     // If the json was bad, but we have an image that worked, fudge it all.
     var keys, i, key, key_json, key_img, test_json, test_img;
-    keys = ["a", "aaaa", "ds", "ipv4", "ipv6", "v6mtu", "v6ns", "dsmtu"];
+    keys = ["a", "aaaa", "ds", "v6mtu", "v6ns", "dsmtu"];
     for (i = 0; i < keys.length; i = i + 1) {
         key = keys[i];
         key_json = "test_" + key;
@@ -183,7 +183,7 @@ GIGO.dedupe_res = function (res) {
 
 GIGO.ipinfo_in_tests = function (tests, name) {
     var keys, key, i;
-    keys = ["a", "aaaa", "ds", "ipv4", "ipv6", "v6mtu", "v6ns", "dsmtu"];
+    keys = ["a", "aaaa", "ds", "v6mtu", "v6ns", "dsmtu"];
     for (i = 0; i < keys.length; i = i + 1) {
         key = "test_" + keys[i];
         if (tests.hasOwnProperty(key)) {
@@ -235,7 +235,7 @@ GIGO.check6RD = function (addr4, addr6) {
 };
 
 GIGO.identify_symptoms = function () {
-    var tunnel, tunnel_6rd, teredo, sixfour, mini_primary, mini_secondary, res, failed_pmtud, x, x_array, tests, via, alist, blist, ia, ib, a4, a6, k, i, r, f4, f6;
+    var  tunnel_6rd, teredo, sixfour, mini_primary, mini_secondary, res, failed_pmtud, x, x_array, tests, via, alist, blist, ia, ib, a4, a6, k, i, r, f4, f6;
 
     res = [];
     tests = GIGO.results.tests; // Convenience
@@ -249,7 +249,6 @@ GIGO.identify_symptoms = function () {
     via = GIGO.ipinfo_in_tests(tests, "via");
 
     // Tunnels?
-    tunnel = (GIGO.results.ipv4.asn !== GIGO.results.ipv6.asn) && GIGO.results.ipv4.asn && GIGO.results.ipv6.asn;
     teredo = (GIGO.results.ipv6.subtype === "Teredo");
     sixfour = (GIGO.results.ipv6.subtype === "6to4");
     if (GIGO.results.ipv4.ip && GIGO.results.ipv6.ip)
@@ -257,76 +256,11 @@ GIGO.identify_symptoms = function () {
     else
         tunnel_6rd = 0;
 
-
-
-
-
-    // ASN similarities?  Based on mod_ip ASN list
-    if ((GIGO.results.ipv4.asnlist) && (GIGO.results.ipv6.asnlist)) {
-        alist = GIGO.results.ipv4.asnlist.split(new RegExp('[; ]','g'));
-        blist = GIGO.results.ipv6.asnlist.split(new RegExp('[; ]','g'));
-        for (ia = 0; ia < alist.length; ia = ia + 1) {
-            for (ib = 0; ib < blist.length; ib = ib + 1) {
-                if (alist[ia] === blist[ib]) {
-                    //alert("No tunnel. asn match found with asn" + alist[ia]);
-                    tunnel = 0;
-                }
-            }
-        }
-    }
-
-
-
-    // ASN equivalents?  Based on static GIGO.asn_same table  (yuck!)
-    if ((GIGO.results.ipv4.asn) && (GIGO.results.ipv6.asn)) {
-        a4 = parseInt(GIGO.results.ipv4.asn, 10);
-        a6 = parseInt(GIGO.results.ipv6.asn, 10);
-        for (k in GIGO.asn_same) {
-            if (GIGO.asn_same.hasOwnProperty(k)) {
-                r = GIGO.asn_same[k];
-                for (i = 0; i < r.length; i = i + 1) {
-                    if (r[i] === a4) f4 = 1;
-                    if (r[i] === a6) f6 = 1;
-                }
-                if (f4 && f6) tunnel = 0;
-            }
-        }
-    }
-
-
-
-    // Sometimes we know that there is an IPv6 provider that is not a tunnel.
-    // DREN for example.
-    if (GIGO.results.ipv6.ip) {
-        a6 = parseInt(GIGO.results.ipv6.asn, 10);
-        if (GIGO.asn_native[a6]) {
-            tunnel = 0;
-        }
-    }
-
-    // Stop tunnel warnings for some countries.
-    if ((GIGO.results.ipv6.ip) && (GIGO.results.tests.test_asn6.ipinfo) && (GIGO.results.tests.test_asn6.ipinfo.country) ) {
-        if (GIGO.asn_native[ GIGO.results.tests.test_asn6.ipinfo.country ]) {
-            tunnel = 0;
-        }
-    }
-
-
-
-
-    // Some countries outsource their IPv4.
-
-
-    GIGO.helpdesk.tunnel = tunnel; // Save for later.
     GIGO.helpdesk.teredo = teredo; // save for later
     GIGO.helpdesk.sixfour = sixfour; // save for later
 
-
-
-
-
     mini_primary = GIGO.ministates(["a", "aaaa", "ds4", "ds6"]);
-    mini_secondary = GIGO.ministates(["ipv4", "ipv6", "v6mtu", "v6ns"]);
+    mini_secondary = GIGO.ministates([ "v6mtu", "v6ns"]);
 
     mini_ood = GIGO.ministates(["ood"])
     console.log("mini_ood %o", mini_ood);
@@ -374,13 +308,7 @@ GIGO.identify_symptoms = function () {
         res.unshift("dualstack:unsafe");
     }
 
-    if ((!teredo) && (!sixfour)) {
-        if (tunnel) {
-            res.unshift("tunnel_dumb");
-        } else if (tunnel_6rd) {
-            res.unshift("tunnel_6rd_dumb");
-        }
-    }
+
 
     if (via) {
         res.unshift("proxy_via_dumb");
@@ -407,18 +335,7 @@ GIGO.identify_symptoms = function () {
         }
     }
 
-
-
-    // Do we have direct IP access?
-    if (mini_secondary.match(/^[bst][bst]/)) {
-        res.push("No Direct IP"); // Not at all!
-    } else if ((mini_secondary.match(/^[bt]./)) && (mini_primary.match(/^[os]./))) {
-        0; // res.push("No Direct IPv4");  // Leave this for the NAT64 messaging
-    } else if ((mini_secondary.match(/^.[bt]/)) && (mini_primary.match(/^.[os]/))) {
-        res.push("No Direct IPv6");
-    }
-
-    if ((mini_primary.match(/o/)) && (mini_secondary.match(/^ttt/))) {
+    if ((mini_primary.match(/o/)) && (mini_secondary.match(/^t/))) {
         // If at least a single name-based lookup worked, but all IP based ones were timeouts
         // both IPv4 and IPv6, then we more strongly suspect a filtering plugin.
         //  RequestPolicy follows this pattern.
@@ -427,27 +344,6 @@ GIGO.identify_symptoms = function () {
         }
         // Specifically, those were TIMEOUTS
     }
-
-    // NAT64?
-    if ((mini_primary.match(/^[os][os]/)) && (mini_secondary.match(/^[bt][os]/))) {
-        res.push("NAT64");
-    }
-
-    // Warn IPv4-only users, if we're using TLS, that we can't detect Teredo/6to4
-    if (GIGO.protocol === "https://") {
-      console.log("checking https score exception");
-      if (mini_primary.match(/^[os][bt]/)) {
-        res.push("tls_warning");
-      }
-      res.push("tls_beta");
-    }
-
-    // Tell them about https.
-    // if (GIGO.protocol === "http://") {
-    //   if (tests.test_https.status=="ok") {
-    //     res.push("tls_available");
-    //   }
-    // }
 
     // Other transition technologies
     if (teredo) {
@@ -464,10 +360,7 @@ GIGO.identify_symptoms = function () {
     if (sixfour) {
         res.push("6to4");
     }
-    if ((!teredo) && (tests.test_aaaa.status === "bad") && (tests.test_ipv6.status === "ok")) {
-        // Sort of like teredo-minimum.  But with a global address.
-        res.push("ipv6:nodns");
-    }
+
 
     // What about IPv6 only DNS server
     if ((tests.test_ds4.status === "ok") || (tests.test_ds4.status === "slow") || (tests.test_ds6.status === "ok") || (tests.test_ds6.status === "slow")) {
@@ -526,7 +419,7 @@ GIGO.identify_symptoms = function () {
             }
         }
         if (res[i].match(/^confused/)) {
-            if ((mini_primary.match(/^ottt/)) && (mini_secondary.match(/^ottt/))) {
+            if ((mini_primary.match(/^ottt/)) && (mini_secondary.match(/^tt/))) {
                 res[i] = "broken_ipv6";
             }
         }

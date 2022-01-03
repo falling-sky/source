@@ -108,49 +108,7 @@
 
 
 
-      <tr id="nossl3">
-        <td nowrap="nowrap">
-          <div>
-             {{Test IPv4 without DNS}}
-          </div>
 
-          <div id="test_ipv4">
-            {{pending}}
-          </div>
-
-          <div id="results_ipv4">
-            -
-          </div>
-        </td>
-
-        <td>
-          <div id="detail_ipv4">
-            {{This will try connecting with a literal IPv4 numeric address. This should work for most people, unless they are running IPv6-only. If the first test worked, but this fails, it likely confirms your provider is using NAT64/DNS64; you'll need to only try connecting using hostnames instead of numeric IP addresses.}}
-          </div>
-        </td>
-      </tr>
-
-      <tr id="nossl4">
-        <td nowrap="nowrap">
-          <div>
-            {{Test IPv6 without DNS}}
-          </div>
-
-          <div id="test_ipv6">
-            {{pending}}
-          </div>
-
-          <div id="results_ipv6">
-            -
-          </div>
-        </td>
-
-        <td>
-          <div id="detail_ipv6">
-            {{This will try connecting with a literal IPv6 hexadecimal address. The primary purpose of this test is to separate out your connectivity on IPv6 from your ability to fetch DNS for it.  A secondary purpose is to see if you have Teredo enabled; some systems may only use Teredo when an IPv6 address is in the URL.}}
-          </div>
-        </td>
-      </tr>
 
       <tr>
         <td nowrap="nowrap">
