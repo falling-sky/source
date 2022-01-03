@@ -305,7 +305,7 @@ GIGO.identify_symptoms = function () {
     }
 
     // Stop tunnel warnings for some countries.
-    if (GIGO.results.ipv6.ip) {
+    if ((GIGO.results.ipv6.ip) && (GIGO.results.tests.test_asn6.ipinfo) && (GIGO.results.tests.test_asn6.ipinfo.country) ) {
         if (GIGO.asn_native[ GIGO.results.tests.test_asn6.ipinfo.country ]) {
             tunnel = 0;
         }

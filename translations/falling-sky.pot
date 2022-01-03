@@ -104,10 +104,6 @@ msgstr ""
 msgid "Connections to IPv6-only sites are timing out. Any web site that is IPv6 only, will appear to be down to you."
 msgstr ""
 
-#: "not-used, archived.  Not currently needed for translation."
-msgid "Connections to IPv6-capable web sites hang. It appears that you may have IPv6 configured; and your computer believes that your IPv6 is working, with a route. It is however completely failing. Any web site that adds IPv6, will become unreachable to you. If you are unable to fix your IPv6 routing or connectivity, seek help. If all else fails, strongly consider disabling IP6 on host."
-msgstr ""
-
 #: "inc/messages.js"
 msgid "We are unable to test your system; it appears that a firewall or browser filter is preventing the test from running. Critical tests are failing. Try disabling any browser plugins, extensions, or add-ons (such as ad blockers); and reloading this page. If that still fails, you can leave a comment requesting help."
 msgstr ""
@@ -348,10 +344,6 @@ msgstr ""
 msgid "Click to see"
 msgstr ""
 
-#: "not-used, archived.  Not currently needed for translation."
-msgid "test data"
-msgstr ""
-
 #: "inc/builtin.js"
 msgid "Your FAQ"
 msgstr ""
@@ -388,14 +380,6 @@ msgstr ""
 msgid "I am most interested in discussing your setup with you, because it was been determined that <B>your IPv6 connectivity is broken</b>, or at least not fully understood. This is not normal; would you be willing to %share?"
 msgstr ""
 
-#: "not-used, archived.  Not currently needed for translation."
-msgid "retest"
-msgstr ""
-
-#: "not-used, archived.  Not currently needed for translation."
-msgid "Result code"
-msgstr ""
-
 #: "inc/form.js"
 msgid "Note: I can't contact you, if the contact info is blank. If you really want to submit this anonymously, hit Send Results again."
 msgstr ""
@@ -418,10 +402,6 @@ msgstr ""
 
 #: "inc/header.inc"
 msgid "Test your IPv6."
-msgstr ""
-
-#: "not-used, archived.  Not currently needed for translation."
-msgid "This will test your browser and connection for IPv6 readiness, as well as show you your current IPV4 and IPv6 address."
 msgstr ""
 
 #: "inc/list-nav.inc"
@@ -624,10 +604,6 @@ msgstr ""
 msgid "If the summary results indicated problems, you (or your technical support) may be able to use the information above to diagnose the issues. Each of the test urls and their results is shown on the left side. To the right you'll see a description of what that URL was designed to test."
 msgstr ""
 
-#: "not-used, archived.  Not currently needed for translation."
-msgid "After each test is ran. The summary page attempts to look at the results If the summary doesn't seem to make sense given the symptoms recorded above, or if you need further assistance, please feel free to contact us."
-msgstr ""
-
 #: "main/mail.inc"
 msgid "<b>Your particular configuration is of interest.</b> We are always striving to make the test-ipv6.com code better. Would you be willing to contribute more information about your browser and computer setup? With your help, we can document for others how to repair their systems."
 msgstr ""
@@ -644,14 +620,6 @@ msgstr ""
 msgid "Use of this form implies consent."
 msgstr ""
 
-#: "not-used, archived.  Not currently needed for translation."
-msgid "<span id=\"comments_faq_link\"></span> (FAQ) page is available for <b>your</b> exact set of results. Please read it before leaving comments; many questions have already been answered. If you still have questions, comments, or concerns, feel freel to use this form."
-msgstr ""
-
-#: "not-used, archived.  Not currently needed for translation."
-msgid "Please leave your comments using English, if possible."
-msgstr ""
-
 #: "main/mail.inc"
 msgid "If reporting a problem with the test, or requesting help with your results, please fill out all requested information to the best of your ability. If leaving general comments, use your best judgement on how much to report."
 msgstr ""
@@ -666,10 +634,6 @@ msgstr ""
 
 #: "main/mail.inc"
 msgid "Questions about test results"
-msgstr ""
-
-#: "not-used, archived.  Not currently needed for translation."
-msgid "Report a bug with diagnosis"
 msgstr ""
 
 #: "main/mail.inc"
@@ -1016,10 +980,6 @@ msgstr ""
 msgid "To open your terminal: Go to your Applications folder; go to Utilities; and double click Terminal."
 msgstr ""
 
-#: "not-used, archived.  Not currently needed for translation."
-msgid "To see your IP addresses: <code>ifconfig -f inet6</code>."
-msgstr ""
-
 #: "faq/find_ip.inc"
 msgid "Ignore the <code>fe80:</code> addresses; look for any other address on your <code>en0</code> or <code>en1</code>."
 msgstr ""
@@ -1172,10 +1132,6 @@ msgstr ""
 msgid "If you use 6to4</b> (without a tunnel broker; ie, using anonymous 6to4):"
 msgstr ""
 
-#: "not-used, archived.  Not currently needed for translation."
-msgid "The use of \"automatic\" 6to4, or the use of 6to4 without explicit configuration of the gateways, is not recommended. For more information see <a href='#' onclick='return help_page(\"faq_6to4.html\",\"6to4\")'>6to4</a>."
-msgstr ""
-
 #: "faq/broken_6to4.inc"
 msgid "If you want to continue trying to debug anonymous 6to4:"
 msgstr ""
@@ -1214,10 +1170,6 @@ msgstr ""
 
 #: "faq/broken_6to4.inc"
 msgid "Ask your ISP if they offer any IPv6 connectivity (including possibly 6in4 tunnels, or tunnelbroker type tunnels)."
-msgstr ""
-
-#: "not-used, archived.  Not currently needed for translation."
-msgid "See <a href=\"#\" onclick='return help_page(\"faq_6to4.html\",\"6to4\")'>6to4</a> for more information on why you would want to switch; and some options."
 msgstr ""
 
 #: "broken.html"
@@ -1488,18 +1440,6 @@ msgstr ""
 msgid "You're right, there are no AAAA records, intentionally. A percentage of users are unable to browse sites that are dual-stack. If the users can't connect, then they can't be told they have a problem. This is a big problem facing content providers today; of which, I work at one for my &#36;dayjob. As such, the main test page requires IPv4 (either native or translated)."
 msgstr ""
 
-#: "not-used, archived.  Not currently needed for translation."
-msgid "At some point, when the percentage of \"broken\" users has gone significantly down, I'll consider making test-ipv6.com dual-stack. At least check, May 2013, we still see 0.5% broken visiting test-ipv6.com. And we still want them to understand their situation."
-msgstr ""
-
-#: "not-used, archived.  Not currently needed for translation."
-msgid "Q: How do I test my IPv6-only host"
-msgstr ""
-
-#: "not-used, archived.  Not currently needed for translation."
-msgid "If you ask that question, chances are you don't need this site. However, if you really want to, visit <a href= \"http://ipv6.test-ipv6.com\">http://ipv6.test-ipv6.com</a> with your IPv6-only host."
-msgstr ""
-
 #: "faq.html"
 msgid "Q: What do you mean by broken?"
 msgstr ""
@@ -1544,48 +1484,12 @@ msgstr ""
 msgid "This site, on the other hand, is intended to help the user understand their current state, and what that state possibly means to them."
 msgstr ""
 
-#: "not-used, archived.  Not currently needed for translation."
-msgid "Q: Your site shows the wrong IP address; how can I bypass my proxy server to find my public address?"
-msgstr ""
-
-#: "not-used, archived.  Not currently needed for translation."
-msgid "For ipv4/ipv6/dual stack, use one of these:"
-msgstr ""
-
-#: "not-used, archived.  Not currently needed for translation."
-msgid "for ipv4"
-msgstr ""
-
-#: "not-used, archived.  Not currently needed for translation."
-msgid "for ipv6"
-msgstr ""
-
-#: "not-used, archived.  Not currently needed for translation."
-msgid "for either"
-msgstr ""
-
-#: "not-used, archived.  Not currently needed for translation."
-msgid "Note you _may_ need to specify other options to your telnet command, depending on your operating system. On my mac, for example, I need to use \"<code>telnet -6</code>\"."
-msgstr ""
-
 #: "faq.html"
 msgid "Q: Do you actually read the feedback?"
 msgstr ""
 
 #: "faq.html"
 msgid "Yes, I do. Thank you! Note that I can only follow up with you if you do leave contact information. While I am still grateful for feedback without contact information, I will be unable to reply with any answers if you asked for them."
-msgstr ""
-
-#: "not-used, archived.  Not currently needed for translation."
-msgid "Q: How else can I contact you?"
-msgstr ""
-
-#: "not-used, archived.  Not currently needed for translation."
-msgid "I would prefer you use the form, as it gives details of your connectivity, and bypasses any mail filters."
-msgstr ""
-
-#: "not-used, archived.  Not currently needed for translation."
-msgid "That said, you are welcome to directly email <a href=\"mailto:jfesler@test-ipv6.com\">jfesler@test-ipv6.com</a>."
 msgstr ""
 
 #: "faq.html"
@@ -1596,56 +1500,16 @@ msgstr ""
 msgid "Yes. See the <a href=\"source.html\">source page</a> for details."
 msgstr ""
 
-#: "not-used, archived.  Not currently needed for translation."
-msgid "<span lookup=site.name>site</span> statistics"
-msgstr ""
-
 #: "stats.html"
 msgid "Graphs are updated daily."
-msgstr ""
-
-#: "not-used, archived.  Not currently needed for translation."
-msgid "60 days view"
-msgstr ""
-
-#: "not-used, archived.  Not currently needed for translation."
-msgid "600 days view"
 msgstr ""
 
 #: "stats.html"
 msgid "Quick notes:"
 msgstr ""
 
-#: "not-used, archived.  Not currently needed for translation."
-msgid "Browser Filter means that both the \"A\" and \"AAAA\" test failed. Browser (plugin/filter) shenanigans, likely with add-ons like ad blockers."
-msgstr ""
-
 #: "stats.html"
 msgid "Brokeness goes down, when volume goes up. This is due to having a wider sample of average people (versus people explicitly testing a new IPv6 setup)."
-msgstr ""
-
-#: "not-used, archived.  Not currently needed for translation."
-msgid "These graphs show the last 60 days of activity at <span lookup=site.name>site</span>"
-msgstr ""
-
-#: "not-used, archived.  Not currently needed for translation."
-msgid "Graph: shows result summaries, stacked. Total height shows number of users who took the test on a given day."
-msgstr ""
-
-#: "not-used, archived.  Not currently needed for translation."
-msgid "Similiar graph, except this time showing percentages."
-msgstr ""
-
-#: "not-used, archived.  Not currently needed for translation."
-msgid "The most interesting graph is the percentage of \"broken\" users. Our definition of a \"broken\" user is that the browser stalls or times out, while attempting to visit a web site published on both IPv4 and IPv6."
-msgstr ""
-
-#: "not-used, archived.  Not currently needed for translation."
-msgid "Line graph, not stacked, of results over time."
-msgstr ""
-
-#: "not-used, archived.  Not currently needed for translation."
-msgid "These graphs show the last 600 days of activity at <span lookup=site.name>site</span>"
 msgstr ""
 
 #: "mission.html"
@@ -1832,22 +1696,6 @@ msgstr ""
 msgid "Ran by Hurricane Electric. The author of test-ipv6.com has used their services for 2-3 years; and would notice latency problems (lots of interactive SSH use from home to the server). This service requires a static IPv4 address (or static enough - you can always go to the tunnelbroker.net site and update your IP). Lastly, tunnelbroker is fully automated - you can sign up, get your tunnel assignment immediately, and configure your end."
 msgstr ""
 
-#: "not-used, archived.  Not currently needed for translation."
-msgid "is another popular service. I see many European users using this service significantly; though their footprint is global. They work with dynamic IPs with some custom software that they provide."
-msgstr ""
-
-#: "not-used, archived.  Not currently needed for translation."
-msgid "aka freenet6. I don't have personal experience with this, but test-ipv6.com does see a number of connections via this service."
-msgstr ""
-
-#: "not-used, archived.  Not currently needed for translation."
-msgid "may be a better solution, in China. This requires a custom client to be installed."
-msgstr ""
-
-#: "not-used, archived.  Not currently needed for translation."
-msgid "in Australia offers both free and paid-for (with SLA) tunnels."
-msgstr ""
-
 #: "faq_ipv4_only.html"
 msgid "About your IPv4-only Internet service."
 msgstr ""
@@ -1870,10 +1718,6 @@ msgstr ""
 
 #: "faq/whyipv6.inc"
 msgid "Many of the visitors to the site are new to what IPv6 is."
-msgstr ""
-
-#: "not-used, archived.  Not currently needed for translation."
-msgid "If you don't know why IPv6 matters, see the <a href=\"#\" onclick=\"return help_page('faq_whyipv6.html','Why IPv6')\">Why IPv6 FAQ</a>."
 msgstr ""
 
 #: "faq/whyipv6.inc"
@@ -1964,10 +1808,6 @@ msgstr ""
 msgid "If this test fails:"
 msgstr ""
 
-#: "not-used, archived.  Not currently needed for translation."
-msgid "it means that the DNS resolver you are using, requires IPv4 to reach the DNS authoritative servers of your favoriate web sites. In the near future, every web site of consequence will remain accessible in this form, so <b>there is no immediate danger.</b>"
-msgstr ""
-
 #: "faq_v6ns_bad.html"
 msgid "If this test succeeds:"
 msgstr ""
@@ -1980,10 +1820,6 @@ msgstr ""
 msgid "Do you use OpenDNS?"
 msgstr ""
 
-#: "not-used, archived.  Not currently needed for translation."
-msgid "OpenDNS is now offering IPv6-specific resolvers, that will be able to retrieve DNS over IPv6. This means the \"v6ns\" test operated here will pass. See the <a target=_blank href=\"http://www.opendns.com/ipv6/\">OpenDNS IPv6 information page</a>."
-msgstr ""
-
 #: "faq_v6ns_bad.html"
 msgid "Do you operate your own DNS resolvers?"
 msgstr ""
@@ -1994,10 +1830,6 @@ msgstr ""
 
 #: "faq_v6ns_bad.html"
 msgid "ISC BIND: Make sure that IPv6 support is compiled in when you ./configure it. It is enabled by default. If you recently added IPv6 to your server, simply restart your named process, as you normally would."
-msgstr ""
-
-#: "not-used, archived.  Not currently needed for translation."
-msgid "PowerDNS: Enable <code>aaaa-additional-processing</code> and configure <code>query-local-address6</code> in your <code>recursor.conf</code>. Restart powerdns."
 msgstr ""
 
 #: "faq_v6ns_bad.html"
@@ -2220,10 +2052,6 @@ msgstr ""
 msgid "Running p2p applications will likely break. <b>This includes things like voice and video chat, video games, and yes - even those legal BitTorrent clients.</b> Some ISPs may handle this better than others, and some applications may handle this better than others, but there will be a lot of road bumps over all on this."
 msgstr ""
 
-#: "not-used, archived.  Not currently needed for translation."
-msgid "Web sites that today automatically show you your local weather, news, and movies may no longer be able to locate you using your IPv4 address; you'll have to tell the web sites where in the world you are"
-msgstr ""
-
 #: "faq_whyipv6.html"
 msgid "Q: Do I have to give up IPv4, to go IPv6?"
 msgstr ""
@@ -2272,10 +2100,6 @@ msgstr ""
 msgid "Your ethernet switch / hub: No. It is unaware of IP; it works at a lower level on the local network."
 msgstr ""
 
-#: "not-used, archived.  Not currently needed for translation."
-msgid "Your router: Quite possibly. Many home routers have no upgrade path for IPv6. Do a web search for your router mode, with the keyword \"ipv6\" with it."
-msgstr ""
-
 #: "faq_whyipv6.html"
 msgid "Your router: Quite possibly. Many home routers have no upgrade path for IPv6. Do a web search for your router model, with the keyword \"ipv6\" with it."
 msgstr ""
@@ -2322,10 +2146,6 @@ msgstr ""
 
 #: "faq_pmtud.html"
 msgid "This is what it looks like when you use 6to4, 6in4, Teredo, and other types of tunnels:"
-msgstr ""
-
-#: "not-used, archived.  Not currently needed for translation."
-msgid "Your router will automatically add an IPv4 header to the top of your packet. This same router will let your computer know if the packet is going to be too big; your computer will (as long as it gets the ICMPv6 \"Packet Too Big\" message) resend the packet, at a smaller size recommended by your router. A router near the web site, will automatically remove the IPv4 header, and forward the IPv6 peice."
 msgstr ""
 
 #: "faq_pmtud.html"
@@ -2548,14 +2368,6 @@ msgstr ""
 msgid "Firefox (recent builds) does the same as Chrome."
 msgstr ""
 
-#: "not-used, archived.  Not currently needed for translation."
-msgid "The latest Windows 7 and Windows 8 updates will periodically test to see if IPv6 works. If the health check fails, then many applications (including Internet Explorer) will use IPv4, to insulate you from any local IPv6 misconfiguration."
-msgstr ""
-
-#: "not-used, archived.  Not currently needed for translation."
-msgid "Apple's latest Lion and Mountain Lion updates will prefer whichever is \"faster\" for a given destination."
-msgstr ""
-
 #: "faq_avoids_ipv6.html"
 msgid "When you use the Internet, a connection is made between your computer, and the service you're connecting to. To connect, you have to have the other side's IP - Internet Protocol - number. And, when you connect, they see yours, so they can send traffic back to you and your applications."
 msgstr ""
@@ -2660,10 +2472,6 @@ msgstr ""
 msgid "During the tests, we collect your IPv4 and IPv6 addresses. If at least 16 bits of your IPv4 address are embedded in your IPv6 prefix, then we assume that you are using a 6RD tunnel."
 msgstr ""
 
-#: "not-used, archived.  Not currently needed for translation."
-msgid "dummy example"
-msgstr ""
-
 #: "faq_no_ipv4.html"
 msgid "What? No IPv4 address?"
 msgstr ""
@@ -2686,10 +2494,6 @@ msgstr ""
 
 #: "faq_no_ipv4.html"
 msgid "Firefox and NoScript"
-msgstr ""
-
-#: "not-used, archived.  Not currently needed for translation."
-msgid "The NoScript browser plugin disables scripts on the page. In the lower right corner of your browser, is the NoScript icon. Click this to bring up a menu; and temporarilly permit scripts on this site."
 msgstr ""
 
 #: "faq_no_ipv4.html"
@@ -2764,14 +2568,6 @@ msgstr ""
 msgid "At some point, when the percentage of \"broken\" users has gone significantly down, I'll consider making test-ipv6.com dual-stack. At last check, March 2017, we still see 0.2% broken visiting test-ipv6.com. And we still want them to understand their situation."
 msgstr ""
 
-#: "not-used, archived.  Not currently needed for translation."
-msgid "Your current configuration may not achieve the highest performance or assure connectivity to all Internet resources as global IPv6 adoption continues. Ask your ISP about native IPv6."
-msgstr ""
-
-#: "not-used, archived.  Not currently needed for translation."
-msgid "To ensure the best performance and connectivity, ask your ISP about native IPv6."
-msgstr ""
-
 #: "inc/messages.js"
 msgid "To ensure the best Internet performance and connectivity, ask your ISP about native IPv6."
 msgstr ""
@@ -2796,10 +2592,6 @@ msgstr ""
 msgid "We are sometimes unable to detect Teredo and 6to4 when using HTTPS."
 msgstr ""
 
-#: "not-used, archived.  Not currently needed for translation."
-msgid "HTTPS support on this web site is in <em>beta</em>."
-msgstr ""
-
 #: "inc/messages.js"
 msgid "%HTTPS support is now available on this site."
 msgstr ""
@@ -2814,38 +2606,6 @@ msgstr ""
 
 #: "faq/find_ip.inc"
 msgid "To see your IP addresses: <code>ifconfig -a inet6</code> or <code>ifconfig -f inet6</code>"
-msgstr ""
-
-#: "not-used, archived.  Not currently needed for translation."
-msgid "Differences in HTTP vs HTTPS"
-msgstr ""
-
-#: "not-used, archived.  Not currently needed for translation."
-msgid "HTTP and HTTPS bring us different testing capabilities. Unfortunately, we can not test both at once. You can choose which features to test for, by using http://test-ipv6.com or https://test-ipv6.com."
-msgstr ""
-
-#: "not-used, archived.  Not currently needed for translation."
-msgid "<b>HTTP</b> allows us to test for Teredo and 6to4. Both are transitional technologies. Modern operating systems by default no longer use those, unless there is no other choice. Windows, for example, will not use Teredo, when the browser is given a DNS name to connect to. However, Windows will attempt to use Teredo, when told an IPv6-only IP address. 6to4 is similarly deprecated; and only likely used if there is no other choice."
-msgstr ""
-
-#: "not-used, archived.  Not currently needed for translation."
-msgid "HTTP also allows us to detect certain types of DNS64/NAT64. NAT64 is a migration strategy that allows for an eventual IPv6-only Internet. Until then, connections to the IPv4 Internet are translated. We detect this by making connections to literal IP address, such as http://192.0.2.1/ (with a server-specific IP address). We are able to detect NAT64 in particular when there is no local IPv4 tunnel (464xlat on Android) or OS assistance (Apple iOS, Apple MacOS)."
-msgstr ""
-
-#: "not-used, archived.  Not currently needed for translation."
-msgid "<b>HTTPS</b>, which ensures a trusted transport from you to the server, allows bypassing many corporate and mobile proxy servers. There are exceptions; particularly if you agreed to install their certificate; but that is generally not advised. Bypassing these proxies allows us to show you a better idea of your IP address - something that represents your location, and your connectivity to the IPv6 Internet."
-msgstr ""
-
-#: "not-used, archived.  Not currently needed for translation."
-msgid "A limitation of using HTTPS exists. Since HTTPS requires certificates, and certificates are not offered to IP addresses (but instead to web site names), we can't test for NAT64, 6to4, or Teredo."
-msgstr ""
-
-#: "not-used, archived.  Not currently needed for translation."
-msgid "Should I use HTTP or HTTPS?"
-msgstr ""
-
-#: "not-used, archived.  Not currently needed for translation."
-msgid "If you're in a new location, or a computer you're not familiar with, consider both! If both come up with the same results, you can pick HTTP for speed, or HTTPS to bypass certain proxies."
 msgstr ""
 
 #: "faq_https.html"
@@ -2932,32 +2692,12 @@ msgstr ""
 msgid "Problems relating to your Internet service, should be sent to your Internet Service Provider. Please contact them for support."
 msgstr ""
 
-#: "not-used, archived.  Not currently needed for translation."
-msgid "This web site is not a tool for security or forensic analysis. If you have security concerns, please find a security professional to consult with. They can offer investication and education that is appropriately matched to your concerns."
-msgstr ""
-
-#: "not-used, archived.  Not currently needed for translation."
-msgid "You are in a country that has government controls over available web sites. This web site is operated from outside of your country, and is subject to the policicies and technology limitations of your \"Great Wall\" for the Internet."
-msgstr ""
-
 #: "main/mail.inc"
 msgid "This web site is subject to the policies and technology limitations of the \"Great Wall\" for the Internet. Because of these limitations, this web site is not reliable for viewing from inside China."
 msgstr ""
 
 #: "main/mail.inc"
 msgid "This web site is not a tool for security or forensic analysis. If you have security concerns, please find a security professional to consult with. They can offer investigation and education that is appropriately matched to your concerns."
-msgstr ""
-
-#: "not-used, archived.  Not currently needed for translation."
-msgid "This mirror marked as out of complaince; you should instead visit <a href='http://test-ipv6.com/'>http://test-ipv6.com</a>."
-msgstr ""
-
-#: "not-used, archived.  Not currently needed for translation."
-msgid "This mirror marked as out of compliance; you should instead visit <a href='///test-ipv6.com/'>test-ipv6.com</a>."
-msgstr ""
-
-#: "not-used, archived.  Not currently needed for translation."
-msgid "This mirror marked as out of compliance; you should instead visit <a href='//test-ipv6.com/'>test-ipv6.com</a>."
 msgstr ""
 
 #: "inc/messages.js"
@@ -2988,44 +2728,12 @@ msgstr ""
 msgid "HTTP vs HTTPS"
 msgstr ""
 
-#: "not-used, archived.  Not currently needed for translation."
-msgid "The web is evolving towards using secure connections everywhere. While this is generally a good thing, it does impact what tests we can run."
-msgstr ""
-
-#: "not-used, archived.  Not currently needed for translation."
-msgid "When visiting with HTTPS, we are unable to report NAT64 or 6to4. We are also unable to detect certain conditions where Teredo might be used."
-msgstr ""
-
-#: "not-used, archived.  Not currently needed for translation."
-msgid "Some browsers now force HTTPS. For these browsers, the above features are no longer available."
-msgstr ""
-
 #: "faq_https.html"
 msgid "Why do these specific tests fail when using HTTPS?"
 msgstr ""
 
-#: "not-used, archived.  Not currently needed for translation."
-msgid "The specific features mentioned work, by making connections to specific IP addresses, and seeing if those connections work. When running in HTTPS mode, this would require special certificates. We can only get those certificates if we can prove ownership of those IP addresses."
-msgstr ""
-
-#: "not-used, archived.  Not currently needed for translation."
-msgid "test-ipv6.com is actually spread across many providers. Some are hosting providers, or customers of hosting provides. Some are broadband internet providers. It is not possible for me to prove ownership of another business's IP space, even if they are letting me use that space for test-ipv6.com."
-msgstr ""
-
 #: "faq_https.html"
 msgid "When visiting with HTTPS, we are unable to detect NAT64 or Teredo."
-msgstr ""
-
-#: "not-used, archived.  Not currently needed for translation."
-msgid "To test for NAT64, 6to4, and hidden Teredo capabilities, we make connections to specific IP addresses (instead of names), and seeing if those connections work. NAT64 is detected when connections by name work, but by IPv4 address do not. Teredo is detected when connections made by name fail, but by IPv6 address work."
-msgstr ""
-
-#: "not-used, archived.  Not currently needed for translation."
-msgid "When running in HTTPS mode, this would require special certificates. We can only get those certificates if we can prove ownership of those IP addresses."
-msgstr ""
-
-#: "not-used, archived.  Not currently needed for translation."
-msgid "test-ipv6.com is actually spread across many providers. Some are hosting providers, or customers of hosting provides. Some are broadband internet providers. It is not possible for me to prove my ownership of their address space. For mirror operators that CAN prove this, these certificates tend to be expensive due to the extra burden of proof needing examination."
 msgstr ""
 
 #: "faq_https.html"
@@ -3036,14 +2744,6 @@ msgstr ""
 msgid "Some browsers now force HTTPS. For these browsers, these features are no longer available."
 msgstr ""
 
-#: "not-used, archived.  Not currently needed for translation."
-msgid "To test for NAT64 and Teredo, we make connections to specific IP addresses (instead of names), and seeing if those connections work. NAT64 is detected when connections by name work, but by IPv4 address do not. Teredo is detected when connections made by name fail, but by IPv6 address work."
-msgstr ""
-
-#: "not-used, archived.  Not currently needed for translation."
-msgid "NAT64 is detected when connections by name work, but by IPv4 address do not."
-msgstr ""
-
 #: "faq_https.html"
 msgid "NAT64 is detected when connections by name work, but by IPv4 numeric address do not."
 msgstr ""
@@ -3052,32 +2752,8 @@ msgstr ""
 msgid "Teredo is detected when connections by name fail, but by IPv6 numeric address work."
 msgstr ""
 
-#: "not-used, archived.  Not currently needed for translation."
-msgid "When running in HTTPS mode, this requires special certificates. These certificates are available only with proof of ownership for the IP addresses."
-msgstr ""
-
 #: "faq_https.html"
 msgid "When running in HTTPS mode, connecting to a specific IP address requires a special certificate. These certificates are available only with proof of ownership for the IP address."
-msgstr ""
-
-#: "not-used, archived.  Not currently needed for translation."
-msgid "test-ipv6.com is actually spread across many providers. Some are hosting providers, or customers of hosting provides. Some are broadband internet providers. It is not possible for test-ipv6.com to prove ownership of their address space. As an example, I can't prove I own the Comcast mirror IP addresses. For mirror operators that CAN prove this, these certificates tend to be expensive due to the extra burden of proof needing examination."
-msgstr ""
-
-#: "not-used, archived.  Not currently needed for translation."
-msgid "test-ipv6.com is actually spread across many providers. Some are hosting providers, or customers of hosting provides. Some are broadband internet providers. It is not possible for test-ipv6.com to prove ownership of their address space."
-msgstr ""
-
-#: "not-used, archived.  Not currently needed for translation."
-msgid "As an example, I can't prove I own the Comcast (a large US broadbroad provider) IP addresses used by this site.</p> <p>{{Links:"
-msgstr ""
-
-#: "not-used, archived.  Not currently needed for translation."
-msgid "HTTPS used. Some tests are skipped."
-msgstr ""
-
-#: "not-used, archived.  Not currently needed for translation."
-msgid "Secure HTTPS used. Skipping Teredo and NAT64 tests."
 msgstr ""
 
 #: "inc/messages.js"
@@ -3100,11 +2776,15 @@ msgstr ""
 msgid "test-ipv6.com is actually spread across many providers. Some are hosting providers, or customers of hosting providers. Some are broadband internet providers. It is not possible for test-ipv6.com to prove ownership of their address space."
 msgstr ""
 
-#: "not-used, archived.  Not currently needed for translation."
-msgid "As an example, I can't prove I own the Comcast (a large US broadbroad provider) IP addresses used by this site."
-msgstr ""
-
 #: "faq_https.html"
 msgid "As an example, I can't prove I own the Comcast (a large US broadband provider) IP addresses used by this site."
+msgstr ""
+
+#: "faq.html"
+msgid "Q: What are your data sources?"
+msgstr ""
+
+#: "faq.html"
+msgid "The following data sources are checked daily, and are used to convert IP addresses into Internet Service Provider names. <ul> <li><a href=\"http://routeviews.org\">University of Oregon Route Views Archive Project</a> provides hourly views of the Internet routing tables. <li><a href=\"http://bgp.potaroo.net/asn.txt\">http://bgp.potaroo.net/asn.txt</a> is a currated list of ASNs to internet service provider names. This is provided by Geoff Huston, a well respected researcher from APNIC. </ul>"
 msgstr ""
 
