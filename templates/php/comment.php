@@ -231,8 +231,6 @@ function store_data_text() {
     $message .= sprintf("%-15s: %s (via ipv6)\n", "ds", $_POST["ds6"]);
   }
   $message .= sprintf("%-15s: %s\n", "dsmtu", $_POST["dsmtu"]);
-  $message .= sprintf("%-15s: %s\n", "ipv4", $_POST["ipv4"]);
-  $message .= sprintf("%-15s: %s\n", "ipv6", $_POST["ipv6"]);
   $message .= sprintf("%-15s: %s\n", "v6mtu", $_POST["v6mtu"]);
   $message .= sprintf("%-15s: %s\n", "v6ns", $_POST["v6ns"]);
   $message .= "----------------------------\n";
