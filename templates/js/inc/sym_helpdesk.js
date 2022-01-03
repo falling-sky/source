@@ -35,13 +35,19 @@ GIGO.sym_helpdesk = {
 GIGO.sym_helpdesk_qcode = {
   null: null,
   "Dual Stack": "46",
-  // "IPv4 plus Teredo": "4t",
   "6to4": "624",
-  // "Dual Stack, Possible Tunnel": "46t",
   "IPv4 Only": "4",
   "IPv4 Only (Teredo Detected)": "4",
-  "NAT64": "64",
   "IPv4, plus Broken IPv6": "112",
-  // "NAT64, Possible Tunnel": "64t",
   "IPv6 Only": 6
+
+  // NO LONGER DETECTED:  With HTTPS, we can't detect these things.
+  // We're now seeing browsers forcing HTTPS.  We're also seeing
+  // the use of different ASNs for IPv6 vs IPv4.
+  //
+  // "IPv4 plus Teredo": "4t",
+  // "Dual Stack, Possible Tunnel": "46t",
+  // "NAT64": "64",
+  // "NAT64, Possible Tunnel": "64t",
+
 };

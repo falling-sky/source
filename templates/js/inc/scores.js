@@ -45,7 +45,6 @@ GIGO.scores = {
     "webfilter:dsboth": [10, 10, "ORANGE"],
     "webfilter:addons": [10, 10, "ORANGE"],
     "webfilter:firefox": [10, 10, "ORANGE"],
-    "NAT64": [7, 10, "ORANGE"],
     "v6ns:ok": [10, 10, "GREEN"],
     "v6ns:bad": [10, 9, "BLUE"],
     "ip_timeout:firefox": [10, 10, "RED"],

@@ -143,6 +143,16 @@
   </div>
 
   <div class="question">
+    {{ Q: What features have been added/removed? }}
+  </div>
+  <div clsas="answer">
+    <ul>{{ 2017: Added TLS (https) support}} </ul>
+    <ul>{{ 2022: Removed links to swap http/https. Browsers are starting to forcefully upgrade to https. }}</ul>
+    <ul>{{ 2022: Removed tunnel detection by comparing ASN numbers. More service providers are using a different entity for IPv4 vs IPv6. }}</ul>
+    <ul>{{ 2022: Removed direct IP checks, NAT64 detection, Teredo detection.  This is for support cost reasons; too many people complain about the tests that are skipped in https mode, and we're seeing browsers forcefully upgrade to https. }}</ul>
+  </div>
+
+  <div class="question">
     {{ Q: Do you actually read the feedback? }}
   </div>
 

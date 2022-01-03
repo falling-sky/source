@@ -110,13 +110,7 @@ detected; but if it was, we found that it was not used for normal named
 web sites (only for raw IPv6 address connections).</td>
 </tr>
 
-<tr>
-<td>4t</td>
-<td>IPv4 plus Teredo</td>
-<td>Provision working IPv6 to the user; ensure the user has a modern home
-router and a modern operating system.  Teredo will be ignored when a useful
-IPv6 service is found.</td>
-</tr>
+
 
 <tr>
 <td>46</td>
@@ -124,12 +118,7 @@ IPv6 service is found.</td>
 <td>Rejoice!</td>
 </tr>
 
-<tr>
-<td>46t</td>
-<td>Dual Stack, Possible Tunnel</td>
-<td>This is not necesarily an error. Make sure that the ISP mentioned for
-both IPv4 and IPv6 look reasonable.</td>
-</tr>
+
 
 <tr>
 <td>624</td>
@@ -139,25 +128,6 @@ router and a modern operating system.  6to4 will be ignored when a useful
 IPv6 service is found.</td>
 </tr>
 
-
-<tr>
-<td>64</td>
-<td>NAT64</td>
-<td>This is probably not an error. We found IPv6 to work fine;
-but we found IPv4 only works with named urls (and not raw 
-numbers).  This may break a few applications like Skype,
-but otherwise IPv4 mostly works.
-</td>
-</tr>
-
-
-<td>64t</td>
-<td>NAT64, Possible Tunnel</td>
-<td>A cross between '64' and '46t' above.  NAT64 is in use;
-and the ISP is possibly different for IPv4 vs IPv6.
-Check the ISP names for sensible values.
-</td>
-</tr>
 
 <tr>
 <td>6</td>
