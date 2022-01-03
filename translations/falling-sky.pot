@@ -2792,3 +2792,23 @@ msgstr ""
 msgid "are sometimes unable to detect Teredo and 6to4 when using HTTPS."
 msgstr ""
 
+#: "faq.html"
+msgid "Q: What features have been added/removed?"
+msgstr ""
+
+#: "faq.html"
+msgid "2017: Added TLS (https) support"
+msgstr ""
+
+#: "faq.html"
+msgid "2022: Removed links to swap http/https. Browsers are starting to forcefully upgrade to https."
+msgstr ""
+
+#: "faq.html"
+msgid "2022: Removed tunnel detection by comparing ASN numbers. More service providers are using a different entity for IPv4 vs IPv6."
+msgstr ""
+
+#: "faq.html"
+msgid "2022: Removed direct IP checks, NAT64 detection, Teredo detection. This is for support cost reasons; too many people complain about the tests that are skipped in https mode, and we're seeing browsers forcefully upgrade to https."
+msgstr ""
+
