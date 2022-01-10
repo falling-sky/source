@@ -146,6 +146,9 @@ that is appropriately matched to your concerns.
               <div id="help_generic" style="display:none">
                 {{If you are technically minded please cut/paste the output of the following commands:}}
                 <br/>
+                <code>nslookup -type=txt debug.test-ipv6.com"</code><br/>
+                or 
+                <code>dig +short txt debug.test-ipv6.com</code><br/>
                 <code>netstat -nr</code><br/>
                 <code>ifconfig -a</code><br/>
                 {{Copy the output from those commands, into the box below. This will help me confirm/deny any theories relating to your question.}}
@@ -154,6 +157,9 @@ that is appropriately matched to your concerns.
               <div id="help_linux" style="display:none">
                 {{If you are technically minded please cut/paste the output of the following commands:}}
                 <br/>
+                <code>nslookup -type=txt debug.test-ipv6.com"</code><br/>
+                or 
+                <code>dig +short txt debug.test-ipv6.com</code><br/>
                 <code>ip -f inet6 route show</code> <br/>
                 <code>ip -f inet6 addr</code> <br/>
                 {{Copy the output from those commands, into the box below. This will help me confirm/deny any theories relating to your question.}}
@@ -162,8 +168,8 @@ that is appropriately matched to your concerns.
               <div id="help_windows" style="display:none">
                 {{If you are technically minded, please open a "Command Prompt" or "cmd" window, and run these three commands:}}
 		<br/>
+                <code>  nslookup -type=txt debug.test-ipv6.com"</code><br/>
                 <code>  ipconfig /all</code><br/>
-                <code>  netsh interface ipv6 show teredo</code><br/>
                 <code>  netsh interface ipv6 show route</code><br/>
                 {{Copy the output from those commands, into the box below. This will help me confirm/deny any theories relating to your question.}}
               </div>
