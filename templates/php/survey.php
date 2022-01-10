@@ -122,9 +122,13 @@ function store_data()
       time_dsmtu,
       tokens,
       ua_id,
-      cookie, ip, ip4, ip6
+      cookie,
+      ip,
+      ip4,
+      ip6
       )
-     VALUES (:status_a,
+     VALUES (
+             :status_a,
              :status_aaaa,
              :status_ds4,
              :status_ds6,
@@ -143,7 +147,8 @@ function store_data()
              :cookie,
              :ip,
              :ip4,
-             :ip6)
+             :ip6
+             )
 ";
     
     
@@ -153,22 +158,16 @@ function store_data()
         "status_aaaa" => fetch_status("aaaa"),
         "status_ds4" => fetch_status("ds4"),
         "status_ds6" => fetch_status("ds6"),
-        "status_ipv4" => fetch_status("ipv4"),
-        "status_ipv6" => fetch_status("ipv6"),
         "status_v6ns" => fetch_status("v6ns"),
         "status_v6mtu" => fetch_status("v6mtu"),
         "status_dsmtu" => fetch_status("dsmtu"),
-        
         "time_a" => fetch_time("a"),
         "time_aaaa" => fetch_time("aaaa"),
         "time_ds4" => fetch_time("ds4"),
         "time_ds6" => fetch_time("ds6"),
-        "time_ipv4" => fetch_time("ipv4"),
-        "time_ipv6" => fetch_time("ipv6"),
         "time_v6ns" => fetch_time("v6ns"),
         "time_v6mtu" => fetch_time("v6mtu"),
         "time_dsmtu" => fetch_time("dsmtu"),
-        
         "tokens" => $tokens,
         "ua_id" => $ua_id,
         "cookie" => $cookie,
