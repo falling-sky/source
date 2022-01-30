@@ -2,7 +2,6 @@
 /* tablesorter */
 table.tablesorter {
 	font-family:arial;
-	background-color: #CDCDCD;
 	margin:10px 0pt 15px;
 	font-size: 10pt;
 	width: 100%;

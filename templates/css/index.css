@@ -73,11 +73,7 @@ color: #000;
   font-size: 80%;
 }
 
-th { 
-  background-color: #000000;
-  font-weight: bold;
-  color: #ffffff;
-}
+th {font-weight: bold;}
 
 td {vertical-align: top;}
 
@@ -117,37 +113,31 @@ a {  white-space:nowrap; }
 .status_ok {
   font-weight: bold;
   color: green;
-  background-color: white;
 }
 
 .status_safe {
   font-weight: bold;
   color: green;
-  background-color: white;
 }
 
 .status_slow {
   font-weight: bold;
   color: orange;
-  background-color: white;
 }
 
 .status_affected {
   font-weight: bold;
   color: red;
-  background-color: white;
 }
 
 .status_bad {
   font-weight: bold;
   color: blue;
-  background-color: white;
 }
 
 .status_timeout {
   font-weight: bold;
   color: red;
-  background-color: white;
 }
 
 
@@ -155,12 +145,6 @@ a {  white-space:nowrap; }
 [% PROCESS "inc/list-nav.inc" %]
 [% PROCESS "inc/tabnav.inc" %]
 [% PROCESS "inc/tabbox.inc" %]
-
-
-.subtle a { color: #000; text-decoration: none; }
-.subtle a:link { color: #000; }
-.subtle a:visited { color: #000; }
-.subtle a:hover { color: #00F; text-decoration: underline;}
 
 
 #about P {
@@ -277,6 +261,11 @@ div.nomail {
   margin: 0;
   padding: 0;
   background-color:#fbb;
+  color: #000000;
   top: 0;
   left: 0;
 }
+
+a.help_popup {color: blue;}
+
+[% PROCESS "inc/color-schemes.inc" %]
