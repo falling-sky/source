@@ -33,8 +33,8 @@
 /* Dark mode */
 @media (prefers-color-scheme: dark) {
   body {
-      background-color: black;
-      color: white;
+      background-color: #0D1117;
+      color: #ABB2BA;
   }
 
   .tabbox_outside  div {border: 1px solid #ffffff;}
