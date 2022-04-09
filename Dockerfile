@@ -23,7 +23,7 @@ RUN cd sites && go run parse-sites.go --skip-validation
 RUN ls -l cicd_release ; true 
 RUN ls -l cicd_i18n  ; true
 RUN if [[ -s cicd_release ||  -s cicd_i18n ]]; then cd sites && go run parse-sites.go || exit 1 ; fi
-#RUN if [[ -s cicd_i18n ]]; then ./support/add-build-date ; fi
+RUN if [[ -s cicd_i18n ]]; then ./support/add-build-date ; fi
 RUN cat ./templates/js/sites_parsed.js
 
 # Build the project
