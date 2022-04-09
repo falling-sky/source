@@ -20,6 +20,8 @@ RUN go install github.com/falling-sky/fsbuilder
 # Make sure there is a valid sites file (minimum for beta).
 # Under release and i18n conditions, do a full real check.
 RUN cd sites && go run parse-sites.go --skip-validation
+RUN ls -l cicd_release ; true 
+RUN ls -l cicd_i18n  ; true
 RUN if [[ -s cicd_release ||  -s cicd_i18n ]]; then cd sites && go run parse-sites.go || exit 1 ; fi
 #RUN if [[ -s cicd_i18n ]]; then ./support/add-build-date ; fi
 RUN cat ./templates/js/sites_parsed.js
@@ -32,7 +34,6 @@ RUN if [[ -s translations/crowdin.yaml ]]; then cd translations && make || exit 
 
 # Publish
 RUN if [ -s cicd_release ]; then  rsync -a -e "ssh -o StrictHostKeyChecking=no  -i cicd_release -p 2222"  output/. fskyweb@rsync.test-ipv6.com:stable/content/. || exit 1 ; fi
-RUN if [ -s cicd_beta    ]; then  rsync -a -e "ssh -o StrictHostKeyChecking=no  -i cicd_release -p 2222"  output/. fskyweb@rsync.test-ipv6.com:beta/content/. || exit 1 ; fi
 RUN if [ -s cicd_i18n    ]; then  rsync -a -e "ssh -o StrictHostKeyChecking=no  -i cicd_i18n -p 2222"  output/. fskyweb@rsync.test-ipv6.com:i18n/content/. || exit 1 ; fi
 
 
