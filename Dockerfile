@@ -32,6 +32,7 @@ RUN if [[ -s translations/crowdin.yaml ]]; then cd translations && make || exit 
 # Publish
 RUN if [ -s cicd_release ]; then  rsync -a -e "ssh -o StrictHostKeyChecking=no  -i cicd_release -p 2222"  output/. fskyweb@rsync.test-ipv6.com:stable/content/. || exit 1 ; fi
 RUN if [ -s cicd_beta    ]; then  rsync -a -e "ssh -o StrictHostKeyChecking=no  -i cicd_release -p 2222"  output/. fskyweb@rsync.test-ipv6.com:beta/content/. || exit 1 ; fi
+RUN if [ -s cicd_i18n    ]; then  rsync -a -e "ssh -o StrictHostKeyChecking=no  -i cicd_release -p 2222"  output/. fskyweb@rsync.test-ipv6.com:i18n/content/. || exit 1 ; fi
 
 
 
