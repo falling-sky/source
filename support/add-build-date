@@ -1,0 +1,4 @@
+#! /bin/sh
+
+( echo "<h2> Last build: " `TZ=UTC date` "</h2>" ; cat ./templates/html/inc/footer.inc)  > ./templates/html/inc/footer.inc.new && mv ./templates/html/inc/footer.inc.new ./templates/html/inc/footer.inc
+
