@@ -22,9 +22,8 @@ RUN go install github.com/falling-sky/fsbuilder
 RUN cd sites && go run parse-sites.go --skip-validation
 RUN ls -l cicd_release ; true 
 RUN ls -l cicd_i18n  ; true
-RUN if [[ -s cicd_release ]]; then cd sites && go run parse-sites.go || exit 1 ; fi
+RUN if [[ -s cicd_release ]]; then cd sites && go run parse-sites.go || exit 1 ; cat ./templates/js/sites_parsed.js ; fi
 RUN if [[ -s cicd_i18n ]]; then ./support/add-build-date ; fi
-RUN cat ./templates/js/sites_parsed.js
 
 # Build the project
 RUN fsbuilder

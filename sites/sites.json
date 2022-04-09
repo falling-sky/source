@@ -365,16 +365,6 @@
       "v4": "https://ipv4.test-ipv6.se/images-nc/knob_green.png",
       "v6": "https://ipv6.test-ipv6.se/images-nc/knob_green.png"
     },
-    "test-ipv6.showmyip.ca": {
-      "hide": false,
-      "loc": "CA",
-      "mirror": true,
-      "monitor": "Christopher Munz-Michielin <christopher@ve7alb.ca>",
-      "provider": "Christopher Munz-Michielin",
-      "site": "test-ipv6.showmyip.ca",
-      "v4": "https://ipv4.test-ipv6.showmyip.ca/images-nc/knob_green.png",
-      "v6": "https://ipv6.test-ipv6.showmyip.ca/images-nc/knob_green.png"
-    },
     "test-ipv6.sin.vr.org": {
       "hide": false,
       "loc": "SG",
@@ -560,15 +550,6 @@
       "site": "antradar.com",
       "v4": "https://ipv4.antradar.com/gyroscope.png",
       "v6": "https://ipv6.antradar.com/gyroscope.png"
-    },
-    "test-ipv6.iu13.net": {
-      "hide": false,
-      "loc": "US (PA)",
-      "mirror": true,
-      "monitor": "test-ipv6@iu13.org",
-      "provider": "Lancaster-Lebanon IU13",
-      "v4": "https://ipv4.test-ipv6.iu13.net/images-nc/knob_green.png",
-      "v6": "https://ipv6.test-ipv6.iu13.net/images-nc/knob_green.png"
     },
     "testipv6.cn": {
       "hide": false,
