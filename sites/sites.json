@@ -212,14 +212,6 @@
       "v4": "http://ipv4.test-ipv6.cgates.lt/images-nc/knob_green.png",
       "v6": "http://ipv6.test-ipv6.cgates.lt/images-nc/knob_green.png"
     },
-    "test-ipv6.ch": {
-      "hide": false,
-      "loc": "CH",
-      "monitor": "feedback@test-ipv6.ch",
-      "provider": "G Consulting",
-      "v4": "https://ipv4.test-ipv6.ch/images-nc/knob_green.png",
-      "v6": "https://ipv6.test-ipv6.ch/images-nc/knob_green.png"
-    },
     "test-ipv6.cl": {
       "hide": false,
       "loc": "CL",
