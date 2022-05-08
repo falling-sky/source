@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2020-05-17 22:33\n"
+"PO-Revision-Date: 2021-10-05 06:25\n"
 "Last-Translator: Unspecified Translator <jfesler+unspecified-translator@test-ipv6.com>\n"
 "Language-Team: Dutch\n"
 "MIME-Version: 1.0\n"
@@ -9,8 +9,10 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: falling-sky\n"
+"X-Crowdin-Project-ID: 14778\n"
 "X-Crowdin-Language: nl\n"
 "X-Crowdin-File: falling-sky.pot\n"
+"X-Crowdin-File-ID: 17\n"
 "Language: nl_NL\n"
 
 #: "inc/mirrorconfig.js"
@@ -195,7 +197,7 @@ msgstr "We hebben een IPv6-adres opgevraagd, maar uw DNS-server (mogelijk uw thu
 
 #: "inc/messages.js"
 msgid "It appears that you use a tunnel mechanism for either IPv4 or IPv6."
-msgstr "Het lijkt erop dat u een tunnel-mechanisme voor IPv4 of IPv6 gebruiken."
+msgstr "Het lijkt erop dat u een tunnel-mechanisme voor IPv4 of IPv6 gebruikt."
 
 #: "inc/messages.js"
 msgid "It appears that you use a managed tunnel mechanism, 6RD, to transport IPv6 over IPv4."
@@ -603,7 +605,7 @@ msgstr "Deze test controleert of IPv6 requests met grote pakketten werken. Als d
 
 #: "main/tech.inc"
 msgid "Double check to make sure that ICMPv6 Type 2 (\"Packet Too Big\") messages are not filtered by your firewall."
-msgstr ""
+msgstr "Controleer extra zorgvuldig of ICMPv6 type 2 (\"pakket te groot\") berichten correct doorgelaten worden door uw firewall."
 
 #: "main/tech.inc"
 msgid "(This is bonus credit)"
@@ -1177,7 +1179,7 @@ msgstr ""
 msgid "If you use 6to4</b> (without a tunnel broker; ie, using anonymous 6to4):"
 msgstr ""
 
-#: "faq/6to4_sucks.inc"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "The use of \"automatic\" 6to4, or the use of 6to4 without explicit configuration of the gateways, is not recommended. For more information see <a href='#' onclick='return help_page(\"faq_6to4.html\",\"6to4\")'>6to4</a>."
 msgstr ""
 
@@ -1221,7 +1223,7 @@ msgstr ""
 msgid "Ask your ISP if they offer any IPv6 connectivity (including possibly 6in4 tunnels, or tunnelbroker type tunnels)."
 msgstr ""
 
-#: "faq/broken_6to4.inc"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "See <a href=\"#\" onclick='return help_page(\"faq_6to4.html\",\"6to4\")'>6to4</a> for more information on why you would want to switch; and some options."
 msgstr ""
 
@@ -1811,7 +1813,7 @@ msgstr ""
 
 #: "faq_6to4.html"
 msgid "Further down the line, there may be another network with even tigher restrictions on the packet size. That network may itself be a tunnel - ISPs occasionally have to do that. This is where the problem often - lies. The IPv4 tunnel will send a message back towards you, - indicating that the packet was too big - but you don't get it. Even - if you do, your IPv6 packets don't get the message, so ultimately - you never reduce your packet size."
-msgstr ""
+msgstr "Er kan ook, verderop in de verbinding, een ander netwerk zijn met nog verdere restricties op de pakketgrootte. Dat netwerk kan zelf een tunnel zijn - soms moeten ISP's dat doen. Daar ligt het probleem dan vaak. De IPv4-tunnel stuurt een bericht dat aangeeft dat het pakket te groot was - maar u ontvangt niks. En zelfs als dit IPv4-bericht u bereikt, dan ontvangt het IPv6-endpoint dit bericht niet, dus de omvang van de IPv6-pakketten wordt niet aangepast."
 
 #: "faq_6to4.html"
 msgid "For some people, reducing the MTU size on IPv6 will help. 1280 is the minimum legal size. You can try values between 1400 to 1480 if you really want to find the one magic value that seems to work for you; but if you do touch MTU at all I'd recommend just doing 1280, and avoid later frustration."
@@ -1877,7 +1879,7 @@ msgstr ""
 msgid "Many of the visitors to the site are new to what IPv6 is."
 msgstr ""
 
-#: "faq/whyipv6.inc"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "If you don't know why IPv6 matters, see the <a href=\"#\" onclick=\"return help_page('faq_whyipv6.html','Why IPv6')\">Why IPv6 FAQ</a>."
 msgstr ""
 
@@ -2023,7 +2025,7 @@ msgstr ""
 
 #: "faq_broken_aaaa.html"
 msgid "We detected that you are able to connect to IPv6 sites, by numerical address specifically. However, connections using DNS either failed, or preferred IPv4."
-msgstr ""
+msgstr "We hebben gedetecteerd dat u alleen verbinding kunt maken met IPv6 websites via numerieke adressen. Verbindingen die gebruikmaken van DNS zijn ofwel mislukt, ofwel verliepen via IPv4."
 
 #: "faq_broken_aaaa.html"
 msgid "What does this mean for you?"
@@ -2331,7 +2333,7 @@ msgstr ""
 
 #: "not-used, archived.  Not currently needed for translation."
 msgid "Your router will automatically add an IPv4 header to the top of your packet. This same router will let your computer know if the packet is going to be too big; your computer will (as long as it gets the ICMPv6 \"Packet Too Big\" message) resend the packet, at a smaller size recommended by your router. A router near the web site, will automatically remove the IPv4 header, and forward the IPv6 peice."
-msgstr ""
+msgstr "Uw router voegt automatisch een IPv4-header toe aan de voorkant van uw pakket. Dezelfde router laat je computer weten of het pakket te groot wordt; uw computer zal het pakket (zolang het de ICMPv6 \"pakket te groot\" berichten krijgt) opnieuw verzenden, maar nu kleiner, zoals aanbevolen door de router. Een router bij de website zal automatisch de IPv4-header weghalen en het IPv6-deel doorsturen."
 
 #: "faq_pmtud.html"
 msgid "This is like putting a letter in an envelope, inside another envelope for someone else to forward on. There may be a maximum size or weight limit for your postage stamp. Tunneling is conceptually the same."
@@ -2503,7 +2505,7 @@ msgstr ""
 
 #: "faq_avoids_ipv6.html"
 msgid "Your browser is avoiding IPv6."
-msgstr ""
+msgstr "Uw browser mijdt IPv6."
 
 #: "faq_avoids_ipv6.html"
 msgid "What we found"
@@ -2511,7 +2513,7 @@ msgstr ""
 
 #: "faq_avoids_ipv6.html"
 msgid "What causes a preference for IPv4"
-msgstr ""
+msgstr "Wat veroorzaakt een voorkeur voor IPv4"
 
 #: "faq_avoids_ipv6.html"
 msgid "Why this worries us"
@@ -2519,31 +2521,31 @@ msgstr ""
 
 #: "faq_avoids_ipv6.html"
 msgid "This document explains why we worry when IPv4 is preferred over IPv6."
-msgstr ""
+msgstr "Dit document legt uit waarom wij ons zorgen maken wanneer IPv4 de voorkeur krijgt over IPv6."
 
 #: "faq_avoids_ipv6.html"
 msgid "This section applies only when we offered to show you this page from inside the test."
-msgstr ""
+msgstr "Dit onderdeel van de tekst is alleen van toepassing als we in de test hebben aangeboden om deze te tonen."
 
 #: "faq_avoids_ipv6.html"
 msgid "First of all, we detected you had a working IPv6 connection. We also found that your IPv6 connection, was using a \"real\" IPv6 address; meaning not a Teredo or a 6to4 address."
-msgstr ""
+msgstr "Om te beginnen: we detecteerden dat u een werkende IPv6 verbinding heeft. We vonden ook dat uw IPv6-verbinding gebruik maakte van een \"echt\" IPv6-adres; oftewel: geen Teredo of 6to4-adres."
 
 #: "faq_avoids_ipv6.html"
 msgid "Second, we detected that when given the choice, your browser decided it would prefer to use IPv4 instead of IPv6. This has some concerns for us."
-msgstr ""
+msgstr "Maar daarnast detecteerden we, dat je browser, wanneer er de keuze is, liever IPv4 gebruikt in plaats van IPv6. Dit baart ons enige zorgen."
 
 #: "faq_avoids_ipv6.html"
 msgid "Causes for preferring IPv4"
-msgstr ""
+msgstr "Oorzaken voor de voorkeur voor IPv4"
 
 #: "faq_avoids_ipv6.html"
 msgid "There are several possible reasons why a browser might prefer IPv4 instead of IPv6."
-msgstr ""
+msgstr "Er zijn verschillende mogelijke redenen waarom een browser de voorkeur kan geven aan IPv4 boven IPv6."
 
 #: "faq_avoids_ipv6.html"
 msgid "Google's \"Chrome\" has a \"fast fallback\" mechanism. On the first try to a site, it will prefer IPv6. If connections take longer than a third of a second, IPv4 is attempted in parallel; and the better of the two will be used for that site."
-msgstr ""
+msgstr "Google \"Chrome\" heeft een \"snelle-terugval\" (fast fallback) mechanisme. Bij de eerste poging voor een site geeft Chrome de voorkeur aan IPv6. Wanneer verbindingen langer duren dan een derde van een seconde, wordt parallel daaraan IPv4 geprobeerd; en de betere van de twee zal voor die site worden gebruikt."
 
 #: "faq_avoids_ipv6.html"
 msgid "(more info)"
@@ -2551,7 +2553,7 @@ msgstr "(meer info)"
 
 #: "faq_avoids_ipv6.html"
 msgid "Firefox (recent builds) does the same as Chrome."
-msgstr ""
+msgstr "Firefox (recente versie) doet hetzelfde als Chrome."
 
 #: "not-used, archived.  Not currently needed for translation."
 msgid "The latest Windows 7 and Windows 8 updates will periodically test to see if IPv6 works. If the health check fails, then many applications (including Internet Explorer) will use IPv4, to insulate you from any local IPv6 misconfiguration."
@@ -2801,9 +2803,9 @@ msgstr ""
 msgid "We are sometimes unable to detect Teredo and 6to4 when using HTTPS."
 msgstr ""
 
-#: "inc/messages.js"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "HTTPS support on this web site is in <em>beta</em>."
-msgstr ""
+msgstr "HTTPS-ondersteuning op deze website is in <em>beta</em>."
 
 #: "inc/messages.js"
 msgid "%HTTPS support is now available on this site."
@@ -2821,35 +2823,35 @@ msgstr ""
 msgid "To see your IP addresses: <code>ifconfig -a inet6</code> or <code>ifconfig -f inet6</code>"
 msgstr ""
 
-#: "faq_https.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Differences in HTTP vs HTTPS"
 msgstr ""
 
-#: "faq_https.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "HTTP and HTTPS bring us different testing capabilities. Unfortunately, we can not test both at once. You can choose which features to test for, by using http://test-ipv6.com or https://test-ipv6.com."
 msgstr ""
 
-#: "faq_https.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "<b>HTTP</b> allows us to test for Teredo and 6to4. Both are transitional technologies. Modern operating systems by default no longer use those, unless there is no other choice. Windows, for example, will not use Teredo, when the browser is given a DNS name to connect to. However, Windows will attempt to use Teredo, when told an IPv6-only IP address. 6to4 is similarly deprecated; and only likely used if there is no other choice."
 msgstr ""
 
-#: "faq_https.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "HTTP also allows us to detect certain types of DNS64/NAT64. NAT64 is a migration strategy that allows for an eventual IPv6-only Internet. Until then, connections to the IPv4 Internet are translated. We detect this by making connections to literal IP address, such as http://192.0.2.1/ (with a server-specific IP address). We are able to detect NAT64 in particular when there is no local IPv4 tunnel (464xlat on Android) or OS assistance (Apple iOS, Apple MacOS)."
 msgstr ""
 
-#: "faq_https.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "<b>HTTPS</b>, which ensures a trusted transport from you to the server, allows bypassing many corporate and mobile proxy servers. There are exceptions; particularly if you agreed to install their certificate; but that is generally not advised. Bypassing these proxies allows us to show you a better idea of your IP address - something that represents your location, and your connectivity to the IPv6 Internet."
 msgstr ""
 
-#: "faq_https.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "A limitation of using HTTPS exists. Since HTTPS requires certificates, and certificates are not offered to IP addresses (but instead to web site names), we can't test for NAT64, 6to4, or Teredo."
 msgstr ""
 
-#: "faq_https.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Should I use HTTP or HTTPS?"
 msgstr ""
 
-#: "faq_https.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "If you're in a new location, or a computer you're not familiar with, consider both! If both come up with the same results, you can pick HTTP for speed, or HTTPS to bypass certain proxies."
 msgstr ""
 
@@ -2883,7 +2885,7 @@ msgstr ""
 
 #: "faq_pmtud.html"
 msgid "Your router will automatically add an IPv4 header to the top of your packet. This same router will let your computer know if the packet is going to be too big; your computer will (as long as it gets the ICMPv6 \"Packet Too Big\" message) resend the packet, at a smaller size recommended by your router. A router near the web site, will automatically remove the IPv4 header, and forward the IPv6 piece."
-msgstr ""
+msgstr "Uw router voegt automatisch een IPv4-header toe aan de voorkant van uw pakket. Dezelfde router laat je computer weten of het pakket te groot wordt; uw computer zal het pakket (zolang het de ICMPv6 \"pakket te groot\" berichten krijgt) opnieuw verzenden, maar nu kleiner, zoals aanbevolen door de router. Een router bij de website zal automatisch de IPv4-header weghalen en het IPv6-deel doorsturen."
 
 #: "faq_v6ns_bad.html"
 msgid "OpenDNS is now offering IPv6-specific resolvers, that will be able to retrieve DNS over IPv6. This means the \"v6ns\" test operated here will pass. See the <a target=_blank href=\"https://www.opendns.com/about/innovations/ipv6/\">OpenDNS IPv6 information page</a>."
@@ -2907,7 +2909,7 @@ msgstr ""
 
 #: "faq_avoids_ipv6.html"
 msgid "Since Windows 7, the operating system will periodically test to see if IPv6 works. If the health check fails, then many applications (including Internet Explorer) will use IPv4, to insulate you from any local IPv6 misconfiguration."
-msgstr ""
+msgstr "Vanaf Windows 7 checkt het besturingssysteem regelmatig of IPv6 werkt. Als de check mislukt, zullen veel programma's (waaronder Internet Explorer) gebruik maken van IPv4, om u te behoeden voor een lokale IPv6 misconfiguratie."
 
 #: "faq_avoids_ipv6.html"
 msgid "Apple's Lion and Mountain Lion updates will prefer whichever is \"faster\" for a given destination."
@@ -2971,15 +2973,15 @@ msgstr ""
 
 #: "inc/messages.js"
 msgid "If you are using a VPN, your VPN is only protecting one protocol, not both."
-msgstr ""
+msgstr "Als u een VPN gebruikt, beschermt uw VPN slechts één protocol, niet beide."
 
 #: "faq.html"
 msgid "Q: Can you fix my VPN?"
-msgstr ""
+msgstr "V: Kun je mijn VPN repareren?"
 
 #: "faq.html"
 msgid "No, I can not fix your VPN."
-msgstr ""
+msgstr "Nee, ik kan je VPN niet repareren."
 
 #: "faq_no_ipv4.html"
 msgid "The NoScript browser extension disables scripts on the page. In the upper right corner of your browser, is the NoScript icon. Click this to bring up a menu; and temporarily permit scripts on this site."
@@ -2988,4 +2990,128 @@ msgstr ""
 #: "simple_test.html"
 msgid "dummy comment, testing translation"
 msgstr ""
+
+#: "faq_https.html"
+msgid "HTTP vs HTTPS"
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "The web is evolving towards using secure connections everywhere. While this is generally a good thing, it does impact what tests we can run."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "When visiting with HTTPS, we are unable to report NAT64 or 6to4. We are also unable to detect certain conditions where Teredo might be used."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "Some browsers now force HTTPS. For these browsers, the above features are no longer available."
+msgstr ""
+
+#: "faq_https.html"
+msgid "Why do these specific tests fail when using HTTPS?"
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "The specific features mentioned work, by making connections to specific IP addresses, and seeing if those connections work. When running in HTTPS mode, this would require special certificates. We can only get those certificates if we can prove ownership of those IP addresses."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "test-ipv6.com is actually spread across many providers. Some are hosting providers, or customers of hosting provides. Some are broadband internet providers. It is not possible for me to prove ownership of another business's IP space, even if they are letting me use that space for test-ipv6.com."
+msgstr ""
+
+#: "faq_https.html"
+msgid "When visiting with HTTPS, we are unable to detect NAT64 or Teredo."
+msgstr "Bij een bezoek met HTTPS kunnen we geen NAT64 of Teredo detecteren."
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "To test for NAT64, 6to4, and hidden Teredo capabilities, we make connections to specific IP addresses (instead of names), and seeing if those connections work. NAT64 is detected when connections by name work, but by IPv4 address do not. Teredo is detected when connections made by name fail, but by IPv6 address work."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "When running in HTTPS mode, this would require special certificates. We can only get those certificates if we can prove ownership of those IP addresses."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "test-ipv6.com is actually spread across many providers. Some are hosting providers, or customers of hosting provides. Some are broadband internet providers. It is not possible for me to prove my ownership of their address space. For mirror operators that CAN prove this, these certificates tend to be expensive due to the extra burden of proof needing examination."
+msgstr ""
+
+#: "faq_https.html"
+msgid "The web is evolving towards using secure connections everywhere. While this is generally a good thing for security, it does impact what tests we can run."
+msgstr "Het web beweegt naar algemeen gebruik van beveiligde verbindingen. Hoewel dit voor de veiligheid in principe een goede zaak is, heeft het invloed op welke tests we kunnen doen."
+
+#: "faq_https.html"
+msgid "Some browsers now force HTTPS. For these browsers, these features are no longer available."
+msgstr "Sommige browsers gebruiken alleen nog HTTPS. Voor deze browsers zijn deze functies niet meer beschikbaar."
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "To test for NAT64 and Teredo, we make connections to specific IP addresses (instead of names), and seeing if those connections work. NAT64 is detected when connections by name work, but by IPv4 address do not. Teredo is detected when connections made by name fail, but by IPv6 address work."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "NAT64 is detected when connections by name work, but by IPv4 address do not."
+msgstr ""
+
+#: "faq_https.html"
+msgid "NAT64 is detected when connections by name work, but by IPv4 numeric address do not."
+msgstr ""
+
+#: "faq_https.html"
+msgid "Teredo is detected when connections by name fail, but by IPv6 numeric address work."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "When running in HTTPS mode, this requires special certificates. These certificates are available only with proof of ownership for the IP addresses."
+msgstr ""
+
+#: "faq_https.html"
+msgid "When running in HTTPS mode, connecting to a specific IP address requires a special certificate. These certificates are available only with proof of ownership for the IP address."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "test-ipv6.com is actually spread across many providers. Some are hosting providers, or customers of hosting provides. Some are broadband internet providers. It is not possible for test-ipv6.com to prove ownership of their address space. As an example, I can't prove I own the Comcast mirror IP addresses. For mirror operators that CAN prove this, these certificates tend to be expensive due to the extra burden of proof needing examination."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "test-ipv6.com is actually spread across many providers. Some are hosting providers, or customers of hosting provides. Some are broadband internet providers. It is not possible for test-ipv6.com to prove ownership of their address space."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "As an example, I can't prove I own the Comcast (a large US broadbroad provider) IP addresses used by this site.</p> <p>{{Links:"
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "HTTPS used. Some tests are skipped."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "Secure HTTPS used. Skipping Teredo and NAT64 tests."
+msgstr ""
+
+#: "inc/messages.js"
+msgid "🔒HTTPS used. Skipping Teredo and NAT64 tests."
+msgstr ""
+
+#: "faq/broken_6to4.inc"
+msgid "See <a href=\"faq_6to4.html\" onclick='return help_page(\"faq_6to4.html\",\"6to4\")'>6to4</a> for more information on why you would want to switch; and some options."
+msgstr ""
+
+#: "faq/6to4_sucks.inc"
+msgid "The use of \"automatic\" 6to4, or the use of 6to4 without explicit configuration of the gateways, is not recommended. For more information see <a href='faq_6to4.html' onclick='return help_page(\"faq_6to4.html\",\"6to4\")'>6to4</a>."
+msgstr ""
+
+#: "faq/whyipv6.inc"
+msgid "If you don't know why IPv6 matters, see the <a href=\"faq_whyipv6.html\" onclick=\"return help_page('faq_whyipv6.html','Why IPv6')\">Why IPv6 FAQ</a>."
+msgstr ""
+
+#: "faq_https.html"
+msgid "test-ipv6.com is actually spread across many providers. Some are hosting providers, or customers of hosting providers. Some are broadband internet providers. It is not possible for test-ipv6.com to prove ownership of their address space."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "As an example, I can't prove I own the Comcast (a large US broadbroad provider) IP addresses used by this site."
+msgstr ""
+
+#: "faq_https.html"
+msgid "As an example, I can't prove I own the Comcast (a large US broadband provider) IP addresses used by this site."
+msgstr "Zo kan ik bijvoorbeeld niet bewijzen dat ik eigenaar ben van de IP-adressen van Comcast (een grote Amerikaanse breedbandprovider) die door deze website worden gebruikt."
 

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2020-05-17 22:33\n"
+"PO-Revision-Date: 2022-02-24 11:06\n"
 "Last-Translator: Unspecified Translator <jfesler+unspecified-translator@test-ipv6.com>\n"
 "Language-Team: Korean\n"
 "MIME-Version: 1.0\n"
@@ -9,13 +9,15 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Crowdin-Project: falling-sky\n"
+"X-Crowdin-Project-ID: 14778\n"
 "X-Crowdin-Language: ko\n"
 "X-Crowdin-File: falling-sky.pot\n"
+"X-Crowdin-File-ID: 17\n"
 "Language: ko_KR\n"
 
 #: "inc/mirrorconfig.js"
 msgid "This mirror is provided by"
-msgstr "이 미러 제공자는 다음과 같습니다 : "
+msgstr "이 미러 제공자는 다음과 같습니다: "
 
 #: "inc/messages.js"
 msgid "bad"
@@ -123,7 +125,7 @@ msgstr "시스템을 테스트할 수 없습니다. 방화벽 또는 브라우�
 
 #: "inc/messages.js"
 msgid "Your browser is blocking the test urls. We will try alternate methods, but they may fail to show your IP address; and may affect the quality of the advice given."
-msgstr "브라우저에서 테스트 URL을 차단하고 있습니다. 테스트를 위해 여러 대안을 시도하겠지만, IP주소 감지에 실패하여 정확한 테스트 결과를 얻지 못할 수 있습니다."
+msgstr "브라우저에서 테스트 URL을 차단하고 있습니다. 테스트를 위해 여러 대안을 시도하겠지만, IP 주소 감지에 실패하여 정확한 테스트 결과를 얻지 못할 수 있습니다."
 
 #: "inc/messages.js"
 msgid "The most likely cause is NoScript or AdBlock+. NoScript can be told to permit all scripts on this page (you may need to do this more than once). At minimum, permit the urls listed below."
@@ -131,31 +133,31 @@ msgstr "가장 가능성이 있는 원인은 NoScript 또는 AdBlock+입니다. 
 
 #: "inc/messages.js"
 msgid "NAT64 detected. IPv6 works. IPv4 works for most purposes. Applications that are hard-coded for IPv4-only will fail. We are aware of at least one major voice-over-ip program that falls into this category. Your application's support staff may need a nudge to add proper IPv6 support."
-msgstr "NAT64가 감지되었습니다. IPv6가 작동하며, IPv4도 대부분의 상황에서 작동합니다. 단, IPv4 주소가 프로그램 내에 하드코딩된 애플리케이션은 정상적으로 작동하지 않을 것입니다. 주요 VoIP(voice-over-ip) 프로그램이 이와 같은 이유로 작동하지 않을 수 있으며, 이 경우 해당 애플리케이션 측에서 IPv6를 고려하여 앱을 수정해야 합니다."
+msgstr "NAT64가 감지되었습니다. IPv6가 작동하며, IPv4도 대부분의 상황에서 작동합니다. 단, IPv4 주소가 프로그램 내에 하드코딩된 애플리케이션은 정상적으로 작동하지 않을 것입니다. 주요 VoIP 프로그램이 이와 같은 이유로 작동하지 않을 수 있으며, 이 경우 해당 애플리케이션 측에서 IPv6를 고려하여 앱을 수정해야 합니다."
 
 #: "inc/messages.js"
 msgid "Your DNS server (possibly run by your ISP) appears to have IPv6 Internet access."
-msgstr "이 단말에서 이용하는 DNS서버는 아마도 계약하신 ISP에서 제공하고 있을 것입니다. 해당 DNS 서버는 IPv6로 접속 가능합니다."
+msgstr "이 단말에서 이용하는 DNS 서버(계약한 ISP가 제공하고 있을 수 있음)는 IPv6로 접속 가능합니다."
 
 #: "inc/messages.js"
 msgid "Your DNS server (possibly run by your ISP) appears to have no access to the IPv6 Internet, or is not configured to use it. This may in the future restrict your ability to reach IPv6-only sites."
-msgstr "이 단말에서 이용하는 DNS서버는 아마도 계약하신 ISP에서 제공하고 있을 것입니다. 해당 DNS 서버에 IPv6 주소가 없거나 IPv6 인터넷에 접속이 불가능하므로, 추후에 IPv6-only 웹사이트 이용에 지장이 있을 수 있습니다."
+msgstr "이 단말에서 이용하는 DNS 서버(계약한 ISP가 제공하고 있을 수 있음)에 IPv6 주소가 없거나 IPv6를 사용하도록 설정되지 않았습니다. 추후에 IPv6-only 웹사이트 이용에 지장이 있을 수 있습니다."
 
 #: "inc/messages.js"
 msgid "You are likely using a FireFox plugin that is causing IP based tests to fail. Examples: RequestPolicy. Please disable those while using this site."
-msgstr "IP 기반 테스트가 실패하는 원인이 되는 FireFox 플러그 인을 사용하고 있을 가능성이 큽니다. 예: RequestPolicy. 이 사이트를 사용하는 동안 사용 안 함으로 설정하십시오."
+msgstr "IP 기반 테스트가 실패하는 원인이 되는 RequestPolicy와 같은 Firefox 플러그인을 사용하고 있는 것으로 보입니다. 이 사이트를 사용하는 동안에는 비활성화 하시기 바랍니다."
 
 #: "inc/messages.js"
 msgid "A lookup for an IPv6-only name failed; yet the lookup and connect for dual-stack connected via IPv6. Something appears to be confused with the DNS lookups."
-msgstr "IPv6 전용 이름을 조회하지 못했습니다. 그런데도 조회와 이중 스택 연결은 IPv6을 통해 연결되었습니다. 뭔가 DNS 조회와 혼동되는 것 같습니다."
+msgstr "IPv6 전용 도메인을 조회하지 못했으나 이중 스택 도메인은 IPv6을 통해 연결되었습니다. 뭔가 DNS 조회와 혼동되는 것 같습니다."
 
 #: "inc/messages.js"
 msgid "A lookup for an IPv6-only name failed; yet the lookup and connect for dual-stack connected via IPv6. The IPv6-only lookup should have worked. Apple has a bug that sporadically causes some IPv6 lookups to fail. We saw evidence of it on this test. You can reload the page and try the test again. For more details, see <a href='http://openradar.appspot.com/7333104'>http://openradar.appspot.com/7333104</a>."
-msgstr "IPv6 전용 이름을 조회하지 못했습니다. 그런데도 조회와 이중 스택 연결은 IPv6을 통해 연결되었습니다. IPv6 전용 조회가 작동했어야 했습니다. Apple에는 산발적으로 일부 IPv6 조회가 실패하게 되는 버그가 있습니다. 이 테스트에서 그 증거를 확인했습니다. 페이지를 다시 로드하고 다시 테스트할 수 있습니다. 자세한 내용은 <a href='http://openradar.appspot.com/7333104'>http://openradar.appspot.com/7333104</a>을 확인하십시오."
+msgstr "IPv6 전용 도메인을 조회하지 못했습니다. 그런데도 조회와 이중 스택 연결은 IPv6을 통해 연결되었습니다. IPv6 전용 도메인이 조회되었어야 했습니다. Apple에는 산발적으로 일부 IPv6 조회가 실패하게 되는 버그가 있습니다. 이 테스트에서 그 증거를 확인했습니다. 페이지를 다시 로드하고 다시 테스트할 수 있습니다. 자세한 내용은 <a href='http://openradar.appspot.com/7333104'>http://openradar.appspot.com/7333104</a>을 확인하십시오."
 
 #: "inc/messages.js"
 msgid "A lookup for an dual-stack IPv4 and IPv6 name failed (at minimum it should have connected via IPv4). Apple has a bug that sporadically causes some IPv6 lookups to fail. We saw evidence of it on this test. You can reload the page and try the test again. For more details, see <a href='http://openradar.appspot.com/7333104'>http://openradar.appspot.com/7333104</a>."
-msgstr "이중 스택 IPv4와 IPv6 이름을 조회하지 못했습니다(최소한 IPv4를 통해 연결되었어야 했습니다). Apple에는 산발적으로 일부 IPv6 조회가 실패하게 되는 버그가 있습니다. 이 테스트에서 그 증거를 확인했습니다. 페이지를 다시 로드하고 다시 테스트할 수 있습니다. 자세한 내용은 <a href='http://openradar.appspot.com/7333104'>http://openradar.appspot.com/7333104</a>을 확인하십시오."
+msgstr "IPv4와 IPv6의 이중 스택 도메인을 조회하지 못했습니다(최소한 IPv4를 통해 연결되었어야 했습니다). Apple에는 산발적으로 일부 IPv6 조회가 실패하게 되는 버그가 있습니다. 이 테스트에서 그 증거를 확인했습니다. 페이지를 다시 로드하고 다시 테스트할 수 있습니다. 자세한 내용은 <a href='http://openradar.appspot.com/7333104'>http://openradar.appspot.com/7333104</a>을 확인하십시오."
 
 #: "inc/messages.js"
 msgid "No IPv4 address detected"
@@ -1177,7 +1179,7 @@ msgstr "(IPv6 주소: 2002로 시작)"
 msgid "If you use 6to4</b> (without a tunnel broker; ie, using anonymous 6to4):"
 msgstr "6to4를 사용하는 경우</b>(터널 브로커 없이, 즉, 익명 6to4를 사용):"
 
-#: "faq/6to4_sucks.inc"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "The use of \"automatic\" 6to4, or the use of 6to4 without explicit configuration of the gateways, is not recommended. For more information see <a href='#' onclick='return help_page(\"faq_6to4.html\",\"6to4\")'>6to4</a>."
 msgstr "\"자동\" 6to4, 또는 게이트웨이의 명시적인 구성이 없는 6to4는 사용하지 않는 것이 좋습니다. 자세한 내용은 <a href='#' onclick='return help_page(\"faq_6to4.html\",\"6to4\")'>6to4</a>를 참조하십시오."
 
@@ -1221,7 +1223,7 @@ msgstr "연결 방법을 변경하는 것이 좋습니다."
 msgid "Ask your ISP if they offer any IPv6 connectivity (including possibly 6in4 tunnels, or tunnelbroker type tunnels)."
 msgstr "ISP가 IPv6 연결(6in4 터널, 또는 터널브로커 유형 터널 등)을 제공하는지 질문합니다."
 
-#: "faq/broken_6to4.inc"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "See <a href=\"#\" onclick='return help_page(\"faq_6to4.html\",\"6to4\")'>6to4</a> for more information on why you would want to switch; and some options."
 msgstr "전환해야 하는 이유와 일부 옵션에 대한 자세한 내용은 <a href=\"#\" onclick='return help_page(\"faq_6to4.html\",\"6to4\")'>6to4</a>를 참조하십시오."
 
@@ -1877,7 +1879,7 @@ msgstr "웹 사이트가 IPv4와 IPv6 모두에 콘텐츠를 제공하는 경우
 msgid "Many of the visitors to the site are new to what IPv6 is."
 msgstr "이 사이트의 많은 방문자들에게 IPv6은 생소합니다."
 
-#: "faq/whyipv6.inc"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "If you don't know why IPv6 matters, see the <a href=\"#\" onclick=\"return help_page('faq_whyipv6.html','Why IPv6')\">Why IPv6 FAQ</a>."
 msgstr "IPv6이 중요한 이유를 모르는 경우 <a href=\"#\" onclick=\"return help_page('faq_whyipv6.html','Why IPv6')\">왜 IPv6인가요 FAQ</a>를 참조하십시오."
 
@@ -2804,7 +2806,7 @@ msgstr "생략됨"
 msgid "We are sometimes unable to detect Teredo and 6to4 when using HTTPS."
 msgstr "HTTPS를 사용할 경우 우리는 어떤 경우 Teredo나 6to4 사용을 감지할 수 없습니다."
 
-#: "inc/messages.js"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "HTTPS support on this web site is in <em>beta</em>."
 msgstr "이 사이트의 HTTPS 지원은 <em>베타</em> 입니다."
 
@@ -2824,35 +2826,35 @@ msgstr "당신의 위치에서는 이 사이트를 사용한 테스트 결과를
 msgid "To see your IP addresses: <code>ifconfig -a inet6</code> or <code>ifconfig -f inet6</code>"
 msgstr "당신의 아이피 주소를 보기 위해서는 <code>ifconfig -a inet6</code> 나 <code>ifconfig -f inet6</code> 를 사용할 수 있습니다."
 
-#: "faq_https.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Differences in HTTP vs HTTPS"
 msgstr "HTTP와 HTTPS의 차이점"
 
-#: "faq_https.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "HTTP and HTTPS bring us different testing capabilities. Unfortunately, we can not test both at once. You can choose which features to test for, by using http://test-ipv6.com or https://test-ipv6.com."
 msgstr "HTTP와 HTTPS는 서로 다른 태스팅 능력을 가지고 있습니다. 불행히도, 우리는 이 둘을 동시에 테스트 할 수 없습니다. 당신은 http://test-ipv6.com 나 https://test-ipv6.com 을 사용하면서 어떤 기능을 테스트 할 것인지 선택 할 수 있습니다."
 
-#: "faq_https.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "<b>HTTP</b> allows us to test for Teredo and 6to4. Both are transitional technologies. Modern operating systems by default no longer use those, unless there is no other choice. Windows, for example, will not use Teredo, when the browser is given a DNS name to connect to. However, Windows will attempt to use Teredo, when told an IPv6-only IP address. 6to4 is similarly deprecated; and only likely used if there is no other choice."
 msgstr "<b>HTTP</b> 는 전통적 기술인 Teredo와 6to4를 테스트 할 수 있습니다. 최근의 운영체제들은 대안이 있는 한 이러한 기능들을 사용하지 않습니다. 예를 들어 Windows의 경우, 브라우저가 DNS 이름을 줄 경우 Teredo를 사용하지 않습니다. 하지만, Windows는 IPv6-전용 주소를 얻을 경우 Teredo를 사용하려고 할 것입니다. 6to4의 경우도 마찬가지로 다른 선택이 없는 경우에만 사용될 것입니다."
 
-#: "faq_https.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "HTTP also allows us to detect certain types of DNS64/NAT64. NAT64 is a migration strategy that allows for an eventual IPv6-only Internet. Until then, connections to the IPv4 Internet are translated. We detect this by making connections to literal IP address, such as http://192.0.2.1/ (with a server-specific IP address). We are able to detect NAT64 in particular when there is no local IPv4 tunnel (464xlat on Android) or OS assistance (Apple iOS, Apple MacOS)."
 msgstr "HTTP는 또한 우리가 특정한 종류의 DNS64와 NAT64를 감지할 수 있도록 합니다. NAT64는 IPv6 전용 인터넷을 허용하도록 하는 마이그레이션 전략입니다. 그때까지는 IPv4 인터넷으로의 연결은 번역될 것입니다. 우리는 이것을 http://192.0.2.1/ (서버 전용 ip 주소) 과 같은 리터럴 IP 주소에 연결함으로서 감지합니다. 우리는 로컬 IPv5 터널(안드로이드의 464xlat) 이나 OS 지원(iOS나 MacOS) 이 없는 경우 NAT64를 감지할 수 있습니다."
 
-#: "faq_https.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "<b>HTTPS</b>, which ensures a trusted transport from you to the server, allows bypassing many corporate and mobile proxy servers. There are exceptions; particularly if you agreed to install their certificate; but that is generally not advised. Bypassing these proxies allows us to show you a better idea of your IP address - something that represents your location, and your connectivity to the IPv6 Internet."
 msgstr "당신과 서버 사이의 신뢰가능한 전송을 보장하는 <b>HTTPS</b>의 경우, 많은 기업과 모바일 프록시 서버를 우회할 수 있도록 합니다. 여기예는 예외가 있습니다. 예를 들어 당신이 그들의 인증서를 설치하도록 동의한 경우. 그러나 이건 일반적으로 권장되지 않습니다. 이러한 프록시를 우회하도록 하는 것은 우리가 당신의 지역이나, 당신의 IPv6 인터넷에 대한 연결성 등의 당신의 IP 주소에 대한 더 나은 이해를 돕습니다."
 
-#: "faq_https.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "A limitation of using HTTPS exists. Since HTTPS requires certificates, and certificates are not offered to IP addresses (but instead to web site names), we can't test for NAT64, 6to4, or Teredo."
 msgstr "HTTPS를 사용하는 것에는 한계가 있습니다. HTTPS가 인증서를 요구하고, 인증서는 IP 주소에 대해서 발급되지 않기 때문에 (대신 웹 사이트 이름에 대해서 발급됩니다), 우리는 NAT64, 6to4, 또는 Teredo를 테스트 할 수 없습니다."
 
-#: "faq_https.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Should I use HTTP or HTTPS?"
 msgstr "HTTP와 HTTPS 중에 뭐를 사용해야 하나요?"
 
-#: "faq_https.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "If you're in a new location, or a computer you're not familiar with, consider both! If both come up with the same results, you can pick HTTP for speed, or HTTPS to bypass certain proxies."
 msgstr "만약 당신이 새로운 장소에 있거나, 당신이 익숙한 컴퓨터가 아니라면, 둘 다 사용하는 것을 고려해 주세요!. 만약 둘 모두가 같은 결과를 가져온다면, 당신은 속도를 위해 HTTP를 선택하거나 어떤 프록시들을 우회하기 위해 HTTPS를 선택할 수 있습니다."
 
@@ -2990,5 +2992,129 @@ msgstr "NoScript 브라우저 확장 프로그램은 페이지의 스크립트�
 
 #: "simple_test.html"
 msgid "dummy comment, testing translation"
+msgstr "더미 댓글, 번역 테스트 중"
+
+#: "faq_https.html"
+msgid "HTTP vs HTTPS"
+msgstr "HTTP vs HTTPS"
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "The web is evolving towards using secure connections everywhere. While this is generally a good thing, it does impact what tests we can run."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "When visiting with HTTPS, we are unable to report NAT64 or 6to4. We are also unable to detect certain conditions where Teredo might be used."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "Some browsers now force HTTPS. For these browsers, the above features are no longer available."
+msgstr ""
+
+#: "faq_https.html"
+msgid "Why do these specific tests fail when using HTTPS?"
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "The specific features mentioned work, by making connections to specific IP addresses, and seeing if those connections work. When running in HTTPS mode, this would require special certificates. We can only get those certificates if we can prove ownership of those IP addresses."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "test-ipv6.com is actually spread across many providers. Some are hosting providers, or customers of hosting provides. Some are broadband internet providers. It is not possible for me to prove ownership of another business's IP space, even if they are letting me use that space for test-ipv6.com."
+msgstr ""
+
+#: "faq_https.html"
+msgid "When visiting with HTTPS, we are unable to detect NAT64 or Teredo."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "To test for NAT64, 6to4, and hidden Teredo capabilities, we make connections to specific IP addresses (instead of names), and seeing if those connections work. NAT64 is detected when connections by name work, but by IPv4 address do not. Teredo is detected when connections made by name fail, but by IPv6 address work."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "When running in HTTPS mode, this would require special certificates. We can only get those certificates if we can prove ownership of those IP addresses."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "test-ipv6.com is actually spread across many providers. Some are hosting providers, or customers of hosting provides. Some are broadband internet providers. It is not possible for me to prove my ownership of their address space. For mirror operators that CAN prove this, these certificates tend to be expensive due to the extra burden of proof needing examination."
+msgstr ""
+
+#: "faq_https.html"
+msgid "The web is evolving towards using secure connections everywhere. While this is generally a good thing for security, it does impact what tests we can run."
+msgstr ""
+
+#: "faq_https.html"
+msgid "Some browsers now force HTTPS. For these browsers, these features are no longer available."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "To test for NAT64 and Teredo, we make connections to specific IP addresses (instead of names), and seeing if those connections work. NAT64 is detected when connections by name work, but by IPv4 address do not. Teredo is detected when connections made by name fail, but by IPv6 address work."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "NAT64 is detected when connections by name work, but by IPv4 address do not."
+msgstr ""
+
+#: "faq_https.html"
+msgid "NAT64 is detected when connections by name work, but by IPv4 numeric address do not."
+msgstr ""
+
+#: "faq_https.html"
+msgid "Teredo is detected when connections by name fail, but by IPv6 numeric address work."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "When running in HTTPS mode, this requires special certificates. These certificates are available only with proof of ownership for the IP addresses."
+msgstr ""
+
+#: "faq_https.html"
+msgid "When running in HTTPS mode, connecting to a specific IP address requires a special certificate. These certificates are available only with proof of ownership for the IP address."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "test-ipv6.com is actually spread across many providers. Some are hosting providers, or customers of hosting provides. Some are broadband internet providers. It is not possible for test-ipv6.com to prove ownership of their address space. As an example, I can't prove I own the Comcast mirror IP addresses. For mirror operators that CAN prove this, these certificates tend to be expensive due to the extra burden of proof needing examination."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "test-ipv6.com is actually spread across many providers. Some are hosting providers, or customers of hosting provides. Some are broadband internet providers. It is not possible for test-ipv6.com to prove ownership of their address space."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "As an example, I can't prove I own the Comcast (a large US broadbroad provider) IP addresses used by this site.</p> <p>{{Links:"
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "HTTPS used. Some tests are skipped."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "Secure HTTPS used. Skipping Teredo and NAT64 tests."
+msgstr ""
+
+#: "inc/messages.js"
+msgid "🔒HTTPS used. Skipping Teredo and NAT64 tests."
+msgstr "🔒HTTPS를 사용하고 있습니다. Teredo와 NAT64 테스트를 넘어갑니다."
+
+#: "faq/broken_6to4.inc"
+msgid "See <a href=\"faq_6to4.html\" onclick='return help_page(\"faq_6to4.html\",\"6to4\")'>6to4</a> for more information on why you would want to switch; and some options."
+msgstr ""
+
+#: "faq/6to4_sucks.inc"
+msgid "The use of \"automatic\" 6to4, or the use of 6to4 without explicit configuration of the gateways, is not recommended. For more information see <a href='faq_6to4.html' onclick='return help_page(\"faq_6to4.html\",\"6to4\")'>6to4</a>."
+msgstr ""
+
+#: "faq/whyipv6.inc"
+msgid "If you don't know why IPv6 matters, see the <a href=\"faq_whyipv6.html\" onclick=\"return help_page('faq_whyipv6.html','Why IPv6')\">Why IPv6 FAQ</a>."
+msgstr ""
+
+#: "faq_https.html"
+msgid "test-ipv6.com is actually spread across many providers. Some are hosting providers, or customers of hosting providers. Some are broadband internet providers. It is not possible for test-ipv6.com to prove ownership of their address space."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "As an example, I can't prove I own the Comcast (a large US broadbroad provider) IP addresses used by this site."
+msgstr ""
+
+#: "faq_https.html"
+msgid "As an example, I can't prove I own the Comcast (a large US broadband provider) IP addresses used by this site."
 msgstr ""
 

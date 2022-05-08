@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2020-05-17 22:33\n"
+"PO-Revision-Date: 2022-04-09 16:18\n"
 "Last-Translator: Unspecified Translator <jfesler+unspecified-translator@test-ipv6.com>\n"
 "Language-Team: French\n"
 "MIME-Version: 1.0\n"
@@ -9,13 +9,15 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Crowdin-Project: falling-sky\n"
+"X-Crowdin-Project-ID: 14778\n"
 "X-Crowdin-Language: fr\n"
 "X-Crowdin-File: falling-sky.pot\n"
+"X-Crowdin-File-ID: 17\n"
 "Language: fr_FR\n"
 
 #: "inc/mirrorconfig.js"
 msgid "This mirror is provided by"
-msgstr "This mirror is provided by"
+msgstr "Cette page est fournie par"
 
 #: "inc/messages.js"
 msgid "bad"
@@ -299,7 +301,7 @@ msgstr "Votre adresse IPv6 sur l'Internet semble être"
 
 #: "inc/builtin.js"
 msgid "Your IPv6 service appears to be"
-msgstr "Votre service IPv6 semble etait"
+msgstr "Votre service IPv6 semble être"
 
 #: "inc/builtin.js"
 msgid "Your Internet Service Provider (ISP) appears to be"
@@ -431,7 +433,7 @@ msgstr "Cela va tester votre navigateur et votre connexion pour la préparation 
 
 #: "inc/list-nav.inc"
 msgid "Test IPv6"
-msgstr "Testér IPv6"
+msgstr "Test IPv6"
 
 #: "inc/list-nav.inc"
 msgid "FAQ"
@@ -443,7 +445,7 @@ msgstr "Miroirs"
 
 #: "inc/list-nav.inc"
 msgid "stats"
-msgstr "stats"
+msgstr "statistiques"
 
 #: "index.html"
 msgid "Test your IPv6 connectivity."
@@ -743,7 +745,7 @@ msgstr "<b>Conseil</b>: les colonnes peuvent être triées (cliquez sur la premi
 
 #: "inc/sites.inc"
 msgid "It is real easy to get added to this list for basic checks. Just provide two image URLs (one IPv4-only; one IPv6-only), to Jason Fesler &lt;jfesler@gigo.com&gt;. Also send your general web site address and organization name."
-msgstr "C'est vraiment simple d'être ajouté à; cette liste de tests simples. Il suffit de fournir deux URL d'images (une en IPv4-seulement, et une en IPv6-seulement) à; Jason Fesler &lt;jfesler@gigo.com&gt;. Envoyez aussi l'adresse de votre site web général et le nom de votre organisation."
+msgstr "C'est vraiment simple d'être ajouté à cette liste de tests simples. Il suffit de fournir deux URL d'images (une en IPv4-seulement, et une en IPv6-seulement) à Jason Fesler &lt;jfesler@gigo.com&gt;. Envoyez aussi l'adresse de votre site web général et le nom de votre organisation."
 
 #: "inc/sites.inc"
 msgid "Full mirrors are welcomed and appreciated, whether public or private. Please see <a href=\"https://github.com/falling-sky/source/wiki\">the wiki</a> for details."
@@ -1063,7 +1065,7 @@ msgstr "et tapez <code>inet6</code> pour voir vos adresses IPv6 possibles."
 
 #: "faq/find_ip.inc"
 msgid "and look for <code>inet6</code> or <code>Internet6</code> or similar to find the IPv6 portion; then look for <code>default</code> or <code>::</code> or <code>::/0</code>."
-msgstr ""
+msgstr "et recherchez <code>inet6</code> ou <code>Internet6</code> ou similaire pour trouver la partie IPv6 ; puis recherchez <code>défaut</code> ou <code>::</code> ou <code>::/0</code>."
 
 #: "faq/find_ip.inc"
 msgid "Windows users: To find your IP address using cmd.exe:"
@@ -1103,7 +1105,7 @@ msgstr "Aller à « Réseau et Internet »"
 
 #: "faq/find_ip.inc"
 msgid "Go to \"View network status and tasks\""
-msgstr ""
+msgstr "Allez à « Afficher l'état et la gestion du réseau »"
 
 #: "faq/find_ip.inc"
 msgid "Go to \"Change adapter settings\"."
@@ -1171,13 +1173,13 @@ msgstr "Si vous configurez 6to4"
 
 #: "broken.html"
 msgid "(IPv6 address: starts with 2002)"
-msgstr ""
+msgstr "(Adresse IPv6 : commence par 2002)"
 
 #: "faq/broken_6to4.inc"
 msgid "If you use 6to4</b> (without a tunnel broker; ie, using anonymous 6to4):"
 msgstr ""
 
-#: "faq/6to4_sucks.inc"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "The use of \"automatic\" 6to4, or the use of 6to4 without explicit configuration of the gateways, is not recommended. For more information see <a href='#' onclick='return help_page(\"faq_6to4.html\",\"6to4\")'>6to4</a>."
 msgstr ""
 
@@ -1221,7 +1223,7 @@ msgstr "Pensez à modifier le mode de connexion."
 msgid "Ask your ISP if they offer any IPv6 connectivity (including possibly 6in4 tunnels, or tunnelbroker type tunnels)."
 msgstr "Demandez à votre FAI s'ils offrent une connectivité IPv6 (y compris éventuellement des tunnels 6in4 ou des tunnels de type tunnelbroker)."
 
-#: "faq/broken_6to4.inc"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "See <a href=\"#\" onclick='return help_page(\"faq_6to4.html\",\"6to4\")'>6to4</a> for more information on why you would want to switch; and some options."
 msgstr "Voir <a href=\"#\" onclick='return help_page(\"faq_6to4.html\",\"6to4\")'>6to4</a> pour plus d'informations sur les raisons pour lesquelles vous souhaitez basculer ; et quelques options."
 
@@ -1255,11 +1257,11 @@ msgstr ""
 
 #: "faq/broken_bogon.inc"
 msgid "Bad or Inappropriate IPv6 Addresses (Bogons)"
-msgstr ""
+msgstr "Adresses IPv6 incorrectes ou inappropriées (Bogons)"
 
 #: "faq/broken_bogon.inc"
 msgid "If you IPv6 address starts with any of these, your router needs to be upgraded."
-msgstr ""
+msgstr "Si votre adresse IPv6 commence par l'une de ces adresses, votre routeur doit être mis à niveau."
 
 #: "faq/broken_bogon.inc"
 msgid "disable ULA."
@@ -1267,11 +1269,11 @@ msgstr "désactiver ULA."
 
 #: "faq/broken_bogon.inc"
 msgid "Other routers: Try updating the firmware. If that fails, look for and disable \"ULA\" or \"Unique Local Addressing\"."
-msgstr ""
+msgstr "Autres routeurs : Essayez de mettre à jour le firmware. Si cela échoue, recherchez et désactivez \"ULA\" ou \"Unique Local Addressing\"."
 
 #: "faq/broken_bogon.inc"
 msgid "If that fails, disable IPv6 entirely on the router."
-msgstr ""
+msgstr "Si cela échoue, désactivez entièrement IPv6 sur le routeur."
 
 #: "faq/broken_bogon.inc"
 msgid "or"
@@ -1279,7 +1281,7 @@ msgstr "ou"
 
 #: "faq/broken_bogon.inc"
 msgid "This is a router using 6to4, but using a private IPv4 address. This will never work."
-msgstr ""
+msgstr "Ceci est un routeur utilisant 6to4, mais en utilisant une adresse IPv4 privée. Cela ne fonctionnera jamais."
 
 #: "faq/broken_bogon.inc"
 msgid "Apple routers: Update to the latest firmware; that has been corrected."
@@ -1319,7 +1321,7 @@ msgstr "Les systèmes d'exploitation modernes ont tous l'IPv6 activé. Cette fon
 
 #: "faq/broken_unexpected.inc"
 msgid "<b>Where this goes wrong:</b> Some people plug their router into the network (wired or wireless) and inadvertantly offer IPv6 services to everyone. Classic examples of this are where people add an early version of an Apple router (with 6to4 automatically enabled); another example is someone who has Windows Internet Connection Sharing enabled. In both cases, there is a chance they offer their services - and become your IPv6 router of choice, without any notification to you."
-msgstr ""
+msgstr "<b>Là où cela ne va pas :</b> Certaines personnes branchent leur routeur sur le réseau (câblé ou sans fil) et offrent par inadvertance des services IPv6 à tout le monde. Les exemples classiques de ceci sont où les gens ajoutent une version anticipée d'un routeur Apple (avec 6to4 activé automatiquement) ; un autre exemple est quelqu'un qui a activé le partage de connexion Internet Windows. Dans les deux cas, il y a une chance qu'ils offrent leurs services - et deviennent votre routeur IPv6 de choix, sans aucune notification."
 
 #: "faq/broken_unexpected.inc"
 msgid "If these IPv6 routers don't work, you will fail to connect to any web site that offers services on both IPv4 and IPv6. Even if they do work, if the router in question is unplugged (the owner packs up, leaves the hotel/conference) your host never gets the notice; and it can be hours before it gives up."
@@ -1335,11 +1337,11 @@ msgstr "<b>Si vous n'êtes pas l'administrateur réseau</b> - et n'avez pas acc�
 
 #: "faq/broken_unexpected.inc"
 msgid "<b>If you are the network administrator</b>: You can use the default route information to identify the ethernet address; and then search for the owner of that ethernet address. Some network vendors have features that will suppress the advertisements of unauthorized RAs (router announcements); consider enabling those feaatures. More reactive measures involve finding (by ethernet address) the owner of the device; or possibly spoofing RA's from their device to indicate the device is going away."
-msgstr ""
+msgstr "<b>Si vous êtes l'administrateur du réseau</b>: Vous pouvez utiliser les informations d'itinéraire par défaut pour identifier l'adresse ethernet ; puis chercher le propriétaire de cette adresse ethernet. Certains fournisseurs de réseau ont des fonctionnalités qui supprimeront les annonces d'ARs non autorisés (annonces de routeurs) ; envisageront d'autoriser ces opérations. Les mesures plus réactives impliquent de trouver (par adresse Ethernet) le propriétaire de l'appareil ; ou peut-être falsifier les RA's de leur appareil pour indiquer que l'appareil disparaît."
 
 #: "faq/broken_netalyzr.inc"
 msgid "Consider trying the \"netalyzr\". This is another site that runs a java applet (which can do more than my site can, in just javascript). I would find feedback about how you useful this site was for you."
-msgstr ""
+msgstr "Envisagez d'essayer le \"netalyzr\", un autre site qui exécute une applet java (qui peut faire plus que ce que mon site peut, en juste javascript). Je trouverais des commentaires sur la façon dont vous avez utile ce site a été pour vous."
 
 #: "faq/broken_netalyzr.inc"
 msgid "From the netalyzr staff:"
@@ -1387,23 +1389,23 @@ msgstr "Pour désactiver IPv6 dans Windows XP :"
 
 #: "faq/broken_disable.inc"
 msgid "Taken from:"
-msgstr ""
+msgstr "Pris de :"
 
 #: "faq/broken_disable.inc"
 msgid "Make sure you are logged in as an Administrator."
-msgstr ""
+msgstr "Assurez-vous que vous êtes bien connecté en tant qu'administrateur."
 
 #: "faq/broken_disable.inc"
 msgid "Click Start, click All Programs, click Accessories, and then click Command Prompt."
-msgstr ""
+msgstr "Cliquez sur Démarrer, sur Tous les programmes, sur Accessoires, puis sur Invite de commandes."
 
 #: "faq/broken_disable.inc"
 msgid "At the command prompt, type: netsh int ipv6 uninstall and press the Enter key on your keyboard."
-msgstr ""
+msgstr "À l'invite de commande, tapez : <code>netsh int ipv6 uninstall</code>et appuyez sur la touche Entrée de votre clavier."
 
 #: "faq/broken_disable.inc"
 msgid "Close the Command Prompt window and restart the computer."
-msgstr ""
+msgstr "Fermez la fenêtre de l'invité de commande et redémarrez l'ordinateur."
 
 #: "faq/broken_disable.inc"
 msgid "OS X users"
@@ -1411,11 +1413,11 @@ msgstr "Utilisateurs OS X"
 
 #: "faq/broken_disable.inc"
 msgid "Before disabling IPv6, please be sure you are running the latest OS version. In particular, OS X 10.6.7 has several workarounds for being \"Broken\". This may solve your problems without resorting to completely disabling IPv6."
-msgstr ""
+msgstr "Avant de désactiver IPv6, assurez-vous que vous utilisez la dernière version du système d'exploitation. En particulier, OS X 10.6.7 a plusieurs solutions de contournement pour être \"cassé\". Cela peut résoudre vos problèmes sans avoir à désactiver complètement IPv6."
 
 #: "faq/broken_disable.inc"
 msgid "How to disable IPv6"
-msgstr ""
+msgstr "Comment désactiver IPv6"
 
 #: "faq/broken_disable.inc"
 msgid "Disable IPv6"
@@ -1439,15 +1441,15 @@ msgstr "Utilisateurs de Linux :"
 
 #: "faq/broken_disable.inc"
 msgid "This is very distribution-specific. Do a web search using your favorite search engine."
-msgstr ""
+msgstr "Ceci est très spécifique à la distribution, faites une recherche web en utilisant votre moteur de recherche favori."
 
 #: "faq/broken_disable.inc"
 msgid "Example web search: <code>disable ipv6 on centos</code>"
-msgstr ""
+msgstr "Exemple de recherche web : <code>désactiver ipv6 sur centos</code>"
 
 #: "faq/broken_disable.inc"
 msgid "Generic unix instructions, to temporarily remove your IPv6 address."
-msgstr ""
+msgstr "Instructions unix génériques, pour supprimer temporairement votre adresse IPv6."
 
 #: "faq/broken_disable.inc"
 msgid "IP_ADDRESS"
@@ -1455,23 +1457,23 @@ msgstr ""
 
 #: "faq/broken_disable.inc"
 msgid "Be aware that if the router re-advertises it, you will relearn the default route."
-msgstr ""
+msgstr "Sachez que si le routeur le ré-annonce, vous réapprendrez la route par défaut."
 
 #: "faq/broken_disable.inc"
 msgid "You can do a web search for your particular OS distribution. Example search would be <code>disable ipv6 on freebsd</code>."
-msgstr ""
+msgstr "Vous pouvez effectuer une recherche web pour votre distribution/OS spécifique. Par exemple, <code>désactiver ipv6 sur freebsd</code>."
 
 #: "broken.html"
 msgid "See Also"
-msgstr ""
+msgstr "Voir aussi"
 
 #: "broken.html"
 msgid "Other resources that may help"
-msgstr ""
+msgstr "Autres ressources qui peuvent aider"
 
 #: "faq_disable.html"
 msgid "Disabling IPv6 is the least preferred option. For some people, however, it may be your only option. This may be due to equipment limitations, or in limitations in technical support."
-msgstr ""
+msgstr "La désactivation d'IPv6 est l'option la moins recommandée. Pour certaines personnes, cependant, c'est peut-être votre seule option. Cela peut être dû à des limitations d'équipement ou à des limitations de support technique."
 
 #: "faq.html"
 msgid "test-ipv6.com FAQ"
@@ -1619,7 +1621,7 @@ msgstr "vue sur 20 mois"
 
 #: "stats.html"
 msgid "Quick notes:"
-msgstr ""
+msgstr "Notes rapides :"
 
 #: "not-used, archived.  Not currently needed for translation."
 msgid "Browser Filter means that both the \"A\" and \"AAAA\" test failed. Browser (plugin/filter) shenanigans, likely with add-ons like ad blockers."
@@ -1631,7 +1633,7 @@ msgstr "Les disfonctionnements (<i>broken</i>) diminuent parfois avec le nombre.
 
 #: "not-used, archived.  Not currently needed for translation."
 msgid "These graphs show the last 60 days of activity at <span lookup=site.name>site</span>"
-msgstr ""
+msgstr "Ces graphiques montrent les 60 derniers jours d'activité sur le site <span lookup=site.name>site</span>"
 
 #: "not-used, archived.  Not currently needed for translation."
 msgid "Graph: shows result summaries, stacked. Total height shows number of users who took the test on a given day."
@@ -1651,15 +1653,15 @@ msgstr "Graphique sous forme de lignes, plus sous forme d'empilement, des résul
 
 #: "not-used, archived.  Not currently needed for translation."
 msgid "These graphs show the last 600 days of activity at <span lookup=site.name>site</span>"
-msgstr ""
+msgstr "Ces graphiques montrent les 600 derniers jours d'activité sur le site <span lookup=site.name>site</span>"
 
 #: "mission.html"
 msgid "test-ipv6.com - Our mission"
-msgstr ""
+msgstr "test-ipv6.com - Notre mission"
 
 #: "mission.html"
 msgid "Our mission is thus:"
-msgstr ""
+msgstr "Notre mission est donc :"
 
 #: "mission.html"
 msgid "Help people identify if they will have problems when publishers offer their web sites on IPv6;"
@@ -1667,15 +1669,15 @@ msgstr ""
 
 #: "mission.html"
 msgid "Help people fix their system configuration so that they are no longer affected."
-msgstr ""
+msgstr "Aidez les gens à corriger la configuration de leur système afin qu'ils ne soient plus affectés."
 
 #: "mission.html"
 msgid "To do so in a brand neutral, ad-free way."
-msgstr ""
+msgstr "Pour le faire de manière neutre et sans publicité."
 
 #: "mission.html"
 msgid "Why do we do this?"
-msgstr ""
+msgstr "Pourquoi faisons-nous cela ?"
 
 #: "mission.html"
 msgid "Because of 1 out of every 4000 users are \"broken\" based on industry measurements. This has delayed the web sites from publishing to IPv6."
@@ -1687,7 +1689,7 @@ msgstr "Alors, qu'entend-on par \"cassé\"?"
 
 #: "mission.html"
 msgid "When you go to your favorite web site in a browser, and it hangs for several seconds or even minutes. If the publisher publishes to IPv6, and your computer has a *broken* IPv6 route (as compared to having no route), then your computer will attempt to use that broken route first, before falling back to the IPv4 Internet."
-msgstr ""
+msgstr "Lorsque vous accédez à votre site Web préféré dans un navigateur, il se bloque pendant plusieurs secondes voire quelques minutes. Si l'éditeur publie sur IPv6, et que votre ordinateur a une route IPv6 *cassée* (par rapport à l'absence de route), alors votre ordinateur tentera d'abord d'utiliser cette route brisée avant de revenir à l'Internet IPv4."
 
 #: "mission.html"
 msgid "What causes these timeouts?"
@@ -1815,7 +1817,7 @@ msgstr ""
 
 #: "faq_6to4.html"
 msgid "For some people, reducing the MTU size on IPv6 will help. 1280 is the minimum legal size. You can try values between 1400 to 1480 if you really want to find the one magic value that seems to work for you; but if you do touch MTU at all I'd recommend just doing 1280, and avoid later frustration."
-msgstr ""
+msgstr "Pour certaines personnes, réduire la taille du MTU sur IPv6 sera utile. 1280 est la taille légale minimale. Vous pouvez essayer des valeurs comprises entre 1400 et 1480 si vous voulez vraiment trouver la seule valeur magique qui semble fonctionner pour vous ; mais si vous ne touchez pas MTU je vous recommande de faire juste 1280, et d'éviter la frustration plus tard."
 
 #: "faq_6to4.html"
 msgid "Managed tunnels"
@@ -1877,7 +1879,7 @@ msgstr ""
 msgid "Many of the visitors to the site are new to what IPv6 is."
 msgstr "Beaucoup de visiteurs de ce site ne savent pas toujours ce qu'IPv6 représente."
 
-#: "faq/whyipv6.inc"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "If you don't know why IPv6 matters, see the <a href=\"#\" onclick=\"return help_page('faq_whyipv6.html','Why IPv6')\">Why IPv6 FAQ</a>."
 msgstr "Si vous ne savez pas pour IPv6 est important, veuillez lire <a href=\"#\" onclick=\"return help_page('faq_whyipv6.html','Why IPv6')\">la FAQ pourquoi IPv6</a>."
 
@@ -2059,7 +2061,7 @@ msgstr ""
 
 #: "faq_broken_aaaa.html"
 msgid "Your DNS server may be filtering AAAA responses (or otherwise broken)."
-msgstr ""
+msgstr "Votre serveur DNS peut filtrer les réponses AAAA (ou autrement cassé)."
 
 #: "faq_broken_aaaa.html"
 msgid "Some ISPs will intentionally filter AAAA records. For example, on World IPv6 Day, we expect many Japanese ISPs to filter AAAA records, to mitigate current IPv6 deployment issues unique to their environments."
@@ -2447,31 +2449,31 @@ msgstr ""
 
 #: "faq_buggydns1.html"
 msgid "The browser fails the IPv6 lookup, but \"succeeds\" in getting a bogus IPv4 address."
-msgstr ""
+msgstr "Le navigateur échoue à la recherche IPv6, mais « réussit » à obtenir une adresse IPv4 erronée."
 
 #: "faq_buggydns1.html"
 msgid "It then tries to make a connecting, to the wrong address, with the wrong protocol."
-msgstr ""
+msgstr "Il tente ensuite de faire une connexion, à la mauvaise adresse, avec le mauvais protocole."
 
 #: "faq_buggydns1.html"
 msgid "This is bad for several reasons:"
-msgstr ""
+msgstr "C'est mauvais pour plusieurs raisons :"
 
 #: "faq_buggydns1.html"
 msgid "You won't be able to connect to IPv6-only sites."
-msgstr ""
+msgstr "Vous ne pourrez pas vous connecter à des sites IPv6 uniquement."
 
 #: "faq_buggydns1.html"
 msgid "You may sporadically fail (or always fail) to connect to IPv6-enabled web sites. This is regardless of whether you are capable IPv6 or not - you may still be impacted."
-msgstr ""
+msgstr "Vous pouvez sporadiquement échouer (ou toujours échouer) pour vous connecter à des sites Web activés en IPv6. Peu importe que vous soyez capable d'IPv6 ou non - vous pouvez toujours être impacté."
 
 #: "faq_buggydns1.html"
 msgid "So, what is actually affected?"
-msgstr ""
+msgstr "Alors, qu'est-ce qui est réellement affecté?"
 
 #: "faq_buggydns1.html"
 msgid "You'll need to determine what device is forwarding your DNS queries."
-msgstr ""
+msgstr "Vous devrez déterminer quel périphérique est en train de transmettre vos requêtes DNS."
 
 #: "faq_buggydns1.html"
 msgid "With Windows, at the <code>cmd</code> prompt, you can type <code>ipconfig /all</code>. Look for \"<code>DNS Servers</code>\"."
@@ -2479,23 +2481,23 @@ msgstr ""
 
 #: "faq_buggydns1.html"
 msgid "With Linux, BSD, and Mac OS X, you can do this in a terminal: <code>cat /etc/resolv.conf</code>."
-msgstr ""
+msgstr "Avec Linux, BSD et Mac OS X, vous pouvez le faire dans un terminal : <code>cat /etc/resolv.conf</code>."
 
 #: "faq_buggydns1.html"
 msgid "Residential ISP customers: look to see if the DNS server is <b>192.168.0.1</b> or <b>192.168.1.1</b>. If so, chances are good that your home router is at fault. This is probably the blue box you have that connects the Internet."
-msgstr ""
+msgstr "Clientèle de FAI résidentiel : vérifiez si le serveur DNS est <b>192.168.0.1</b> ou <b>192.168.1.1</b>. Si c'est le cas, il y a de bonnes chances que votre routeur à domicile soit en faute. C'est probablement la boîte bleue que vous avez qui connecte l'Internet."
 
 #: "faq_buggydns1.html"
 msgid "Business customers: Provide this information to your IT professional to investigate."
-msgstr ""
+msgstr "Clientèle d’affaires : Fournissez ces informations à votre professionnel d'informatique pour enquêter."
 
 #: "faq_buggydns1.html"
 msgid "IT professionals:"
-msgstr ""
+msgstr "Professionnels de l'informatique :"
 
 #: "faq_buggydns1.html"
 msgid "You can see an illustration of this, by doing:"
-msgstr ""
+msgstr "Vous pouvez voir une illustration de cela, en faisant :"
 
 #: "faq_buggydns1.html"
 msgid "Substitute the 192.168.1.1 with the resolver being used by the host. If the \"aaaa\" request comes back with no answer, but the \"a\" answer does, this is a confirmation of a broken DNS cache or forwarder. The actual DNS information for buggydns1.test-ipv6.com has only an IPv6 record configured."
@@ -2507,15 +2509,15 @@ msgstr ""
 
 #: "faq_avoids_ipv6.html"
 msgid "What we found"
-msgstr ""
+msgstr "Ce que nous avons trouvé"
 
 #: "faq_avoids_ipv6.html"
 msgid "What causes a preference for IPv4"
-msgstr ""
+msgstr "Ce qui provoque une préférence pour IPv4"
 
 #: "faq_avoids_ipv6.html"
 msgid "Why this worries us"
-msgstr ""
+msgstr "Pourquoi cela nous inquiète"
 
 #: "faq_avoids_ipv6.html"
 msgid "This document explains why we worry when IPv4 is preferred over IPv6."
@@ -2801,7 +2803,7 @@ msgstr ""
 msgid "We are sometimes unable to detect Teredo and 6to4 when using HTTPS."
 msgstr ""
 
-#: "inc/messages.js"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "HTTPS support on this web site is in <em>beta</em>."
 msgstr ""
 
@@ -2821,35 +2823,35 @@ msgstr ""
 msgid "To see your IP addresses: <code>ifconfig -a inet6</code> or <code>ifconfig -f inet6</code>"
 msgstr ""
 
-#: "faq_https.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Differences in HTTP vs HTTPS"
 msgstr ""
 
-#: "faq_https.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "HTTP and HTTPS bring us different testing capabilities. Unfortunately, we can not test both at once. You can choose which features to test for, by using http://test-ipv6.com or https://test-ipv6.com."
 msgstr ""
 
-#: "faq_https.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "<b>HTTP</b> allows us to test for Teredo and 6to4. Both are transitional technologies. Modern operating systems by default no longer use those, unless there is no other choice. Windows, for example, will not use Teredo, when the browser is given a DNS name to connect to. However, Windows will attempt to use Teredo, when told an IPv6-only IP address. 6to4 is similarly deprecated; and only likely used if there is no other choice."
 msgstr ""
 
-#: "faq_https.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "HTTP also allows us to detect certain types of DNS64/NAT64. NAT64 is a migration strategy that allows for an eventual IPv6-only Internet. Until then, connections to the IPv4 Internet are translated. We detect this by making connections to literal IP address, such as http://192.0.2.1/ (with a server-specific IP address). We are able to detect NAT64 in particular when there is no local IPv4 tunnel (464xlat on Android) or OS assistance (Apple iOS, Apple MacOS)."
 msgstr "HTTP nous permet également de détecter certains types de DNS64 / NAT64. NAT64 est une stratégie de migration qui permet un accès Internet uniquement en IPv6. D'ici là, les connexions à Internet IPv4 sont traduites. Nous détectons cela en établissant des connexions à une adresse IP littérale, telle que http://192.0.2.1/ (avec une adresse IP spécifique au serveur). Nous sommes en mesure de détecter NAT64 notamment lorsqu'il n'y a pas de tunnel IPv4 local (464xlat sur Android) ou d'assistance OS (Apple iOS, Apple MacOS)."
 
-#: "faq_https.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "<b>HTTPS</b>, which ensures a trusted transport from you to the server, allows bypassing many corporate and mobile proxy servers. There are exceptions; particularly if you agreed to install their certificate; but that is generally not advised. Bypassing these proxies allows us to show you a better idea of your IP address - something that represents your location, and your connectivity to the IPv6 Internet."
 msgstr ""
 
-#: "faq_https.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "A limitation of using HTTPS exists. Since HTTPS requires certificates, and certificates are not offered to IP addresses (but instead to web site names), we can't test for NAT64, 6to4, or Teredo."
 msgstr "Il existe une limitation de l'utilisation du protocole HTTPS. Étant donné que HTTPS nécessite des certificats et que les certificats ne sont pas proposés aux adresses IP (mais plutôt aux noms de sites Web), nous ne pouvons pas tester NAT64, 6to4 ou Teredo."
 
-#: "faq_https.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Should I use HTTP or HTTPS?"
 msgstr ""
 
-#: "faq_https.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "If you're in a new location, or a computer you're not familiar with, consider both! If both come up with the same results, you can pick HTTP for speed, or HTTPS to bypass certain proxies."
 msgstr ""
 
@@ -2903,7 +2905,7 @@ msgstr ""
 
 #: "inc/footer.inc"
 msgid "Share on:"
-msgstr ""
+msgstr "Partager sur:"
 
 #: "faq_avoids_ipv6.html"
 msgid "Since Windows 7, the operating system will periodically test to see if IPv6 works. If the health check fails, then many applications (including Internet Explorer) will use IPv4, to insulate you from any local IPv6 misconfiguration."
@@ -2975,11 +2977,11 @@ msgstr ""
 
 #: "faq.html"
 msgid "Q: Can you fix my VPN?"
-msgstr ""
+msgstr "Q: Pouvez-vous réparer mon VPN?"
 
 #: "faq.html"
 msgid "No, I can not fix your VPN."
-msgstr ""
+msgstr "Non, je ne peux pas réparer votre VPN."
 
 #: "faq_no_ipv4.html"
 msgid "The NoScript browser extension disables scripts on the page. In the upper right corner of your browser, is the NoScript icon. Click this to bring up a menu; and temporarily permit scripts on this site."
@@ -2987,5 +2989,129 @@ msgstr ""
 
 #: "simple_test.html"
 msgid "dummy comment, testing translation"
+msgstr ""
+
+#: "faq_https.html"
+msgid "HTTP vs HTTPS"
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "The web is evolving towards using secure connections everywhere. While this is generally a good thing, it does impact what tests we can run."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "When visiting with HTTPS, we are unable to report NAT64 or 6to4. We are also unable to detect certain conditions where Teredo might be used."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "Some browsers now force HTTPS. For these browsers, the above features are no longer available."
+msgstr ""
+
+#: "faq_https.html"
+msgid "Why do these specific tests fail when using HTTPS?"
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "The specific features mentioned work, by making connections to specific IP addresses, and seeing if those connections work. When running in HTTPS mode, this would require special certificates. We can only get those certificates if we can prove ownership of those IP addresses."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "test-ipv6.com is actually spread across many providers. Some are hosting providers, or customers of hosting provides. Some are broadband internet providers. It is not possible for me to prove ownership of another business's IP space, even if they are letting me use that space for test-ipv6.com."
+msgstr ""
+
+#: "faq_https.html"
+msgid "When visiting with HTTPS, we are unable to detect NAT64 or Teredo."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "To test for NAT64, 6to4, and hidden Teredo capabilities, we make connections to specific IP addresses (instead of names), and seeing if those connections work. NAT64 is detected when connections by name work, but by IPv4 address do not. Teredo is detected when connections made by name fail, but by IPv6 address work."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "When running in HTTPS mode, this would require special certificates. We can only get those certificates if we can prove ownership of those IP addresses."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "test-ipv6.com is actually spread across many providers. Some are hosting providers, or customers of hosting provides. Some are broadband internet providers. It is not possible for me to prove my ownership of their address space. For mirror operators that CAN prove this, these certificates tend to be expensive due to the extra burden of proof needing examination."
+msgstr ""
+
+#: "faq_https.html"
+msgid "The web is evolving towards using secure connections everywhere. While this is generally a good thing for security, it does impact what tests we can run."
+msgstr ""
+
+#: "faq_https.html"
+msgid "Some browsers now force HTTPS. For these browsers, these features are no longer available."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "To test for NAT64 and Teredo, we make connections to specific IP addresses (instead of names), and seeing if those connections work. NAT64 is detected when connections by name work, but by IPv4 address do not. Teredo is detected when connections made by name fail, but by IPv6 address work."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "NAT64 is detected when connections by name work, but by IPv4 address do not."
+msgstr ""
+
+#: "faq_https.html"
+msgid "NAT64 is detected when connections by name work, but by IPv4 numeric address do not."
+msgstr ""
+
+#: "faq_https.html"
+msgid "Teredo is detected when connections by name fail, but by IPv6 numeric address work."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "When running in HTTPS mode, this requires special certificates. These certificates are available only with proof of ownership for the IP addresses."
+msgstr ""
+
+#: "faq_https.html"
+msgid "When running in HTTPS mode, connecting to a specific IP address requires a special certificate. These certificates are available only with proof of ownership for the IP address."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "test-ipv6.com is actually spread across many providers. Some are hosting providers, or customers of hosting provides. Some are broadband internet providers. It is not possible for test-ipv6.com to prove ownership of their address space. As an example, I can't prove I own the Comcast mirror IP addresses. For mirror operators that CAN prove this, these certificates tend to be expensive due to the extra burden of proof needing examination."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "test-ipv6.com is actually spread across many providers. Some are hosting providers, or customers of hosting provides. Some are broadband internet providers. It is not possible for test-ipv6.com to prove ownership of their address space."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "As an example, I can't prove I own the Comcast (a large US broadbroad provider) IP addresses used by this site.</p> <p>{{Links:"
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "HTTPS used. Some tests are skipped."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "Secure HTTPS used. Skipping Teredo and NAT64 tests."
+msgstr ""
+
+#: "inc/messages.js"
+msgid "🔒HTTPS used. Skipping Teredo and NAT64 tests."
+msgstr ""
+
+#: "faq/broken_6to4.inc"
+msgid "See <a href=\"faq_6to4.html\" onclick='return help_page(\"faq_6to4.html\",\"6to4\")'>6to4</a> for more information on why you would want to switch; and some options."
+msgstr ""
+
+#: "faq/6to4_sucks.inc"
+msgid "The use of \"automatic\" 6to4, or the use of 6to4 without explicit configuration of the gateways, is not recommended. For more information see <a href='faq_6to4.html' onclick='return help_page(\"faq_6to4.html\",\"6to4\")'>6to4</a>."
+msgstr ""
+
+#: "faq/whyipv6.inc"
+msgid "If you don't know why IPv6 matters, see the <a href=\"faq_whyipv6.html\" onclick=\"return help_page('faq_whyipv6.html','Why IPv6')\">Why IPv6 FAQ</a>."
+msgstr ""
+
+#: "faq_https.html"
+msgid "test-ipv6.com is actually spread across many providers. Some are hosting providers, or customers of hosting providers. Some are broadband internet providers. It is not possible for test-ipv6.com to prove ownership of their address space."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "As an example, I can't prove I own the Comcast (a large US broadbroad provider) IP addresses used by this site."
+msgstr ""
+
+#: "faq_https.html"
+msgid "As an example, I can't prove I own the Comcast (a large US broadband provider) IP addresses used by this site."
 msgstr ""
 

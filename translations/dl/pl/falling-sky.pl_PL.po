@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2020-05-17 22:33\n"
+"PO-Revision-Date: 2022-02-24 10:07\n"
 "Last-Translator: Unspecified Translator <jfesler+unspecified-translator@test-ipv6.com>\n"
 "Language-Team: Polish\n"
 "MIME-Version: 1.0\n"
@@ -9,8 +9,10 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 "X-Crowdin-Project: falling-sky\n"
+"X-Crowdin-Project-ID: 14778\n"
 "X-Crowdin-Language: pl\n"
 "X-Crowdin-File: falling-sky.pot\n"
+"X-Crowdin-File-ID: 17\n"
 "Language: pl_PL\n"
 
 #: "inc/mirrorconfig.js"
@@ -327,11 +329,11 @@ msgstr "(Przegląd został pominięty; test był sfałszowany)"
 
 #: "inc/builtin.js"
 msgid "(Updating server side IPv6 readiness stats)"
-msgstr ""
+msgstr "(Aktualizowanie statystyk gotowości serwera IPv6)"
 
 #: "inc/builtin.js"
 msgid "(Updated server side IPv6 readiness stats)"
-msgstr ""
+msgstr "(Ukończono aktualizowanie statystyk gotowości serwera IPv6)"
 
 #: "inc/builtin.js"
 msgid "(Survey posting failed; the above information is accurate, but not recorded.)"
@@ -423,7 +425,7 @@ msgstr "Internetowa pomoc techniczna może poprosić o informacje podane poniże
 
 #: "inc/header.inc"
 msgid "Test your IPv6."
-msgstr "Testuj twoje IPv6."
+msgstr "Sprawdź swoje połączenie IPv6."
 
 #: "not-used, archived.  Not currently needed for translation."
 msgid "This will test your browser and connection for IPv6 readiness, as well as show you your current IPV4 and IPv6 address."
@@ -439,7 +441,7 @@ msgstr "Często zadawane pytania"
 
 #: "inc/list-nav.inc"
 msgid "Mirrors"
-msgstr "Mirrory"
+msgstr "Kopie lustrzane"
 
 #: "inc/list-nav.inc"
 msgid "stats"
@@ -447,7 +449,7 @@ msgstr "statystki"
 
 #: "index.html"
 msgid "Test your IPv6 connectivity."
-msgstr "Wyświetl twoją łączność IPv6."
+msgstr "Sprawdź swoje połączenie IPv6."
 
 #: "index.html"
 msgid "(Replay)"
@@ -459,7 +461,7 @@ msgstr "JavaScript jest wymagany"
 
 #: "inc/js_required.inc"
 msgid "This site requires JavaScript, as well as the ability to pull in cross-site scripts, in order to perform the testing."
-msgstr "Ta strona wymaga JavaScript, a także możliwość przeciągania skryptów cross-site, w celu przeprowadzenia testów."
+msgstr "Ta witryna wymaga JavaScript oraz możliwości wczytywania skryptów z innych witryn, aby przeprowadzić testy."
 
 #: "inc/js_required.inc"
 msgid "If this message does not go away, it means that JavaScript has been disabled, either by a plugin or extension in your browser, or by explicit browser setting."
@@ -731,7 +733,7 @@ msgstr "Nie polecamy umieszczania tego linku na publicznych stronach takich jak 
 
 #: "main/helpdesk.inc"
 msgid "On most computers, you can right-click the above URL, and select 'Copy'."
-msgstr "Na większości komputerów, możesz nacisnąć prawy klawisz myszy na powyższy URL i wybrać 'Kopiuj'."
+msgstr "Na większości komputerów możesz nacisnąć prawym przyciskiem myszy na powyższy adres URL i wybrać opcję 'Kopiuj'."
 
 #: "inc/sites.inc"
 msgid "<b>Because you have IPv6</b>, we've added this tab to show you whether or not you can reach other IPv6 web sites on the Internet. Consider notifying your ISP, if there are sites that show up as broken. If you are the ISP, you can click the Info link to see what test URLs are being used."
@@ -747,7 +749,7 @@ msgstr "To bardzo łatwe,, żeby zostać dodanym do listy podstawowych kontroli.
 
 #: "inc/sites.inc"
 msgid "Full mirrors are welcomed and appreciated, whether public or private. Please see <a href=\"https://github.com/falling-sky/source/wiki\">the wiki</a> for details."
-msgstr ""
+msgstr "Pełne kopie lustrzane są mile widziane, prywatne jak i publiczne. Po więcej informacji przejdź na <a href=\"https://github.com/falling-sky/source/wiki\">nasze wiki</a>."
 
 #: "inc/footer.inc"
 msgid "All rights reserved."
@@ -771,7 +773,7 @@ msgstr "Zakres"
 
 #: "inc/disclaimer.inc"
 msgid "This is a mirror of test-ipv6.com. The views expressed here may or may not reflect the views of the mirror owner."
-msgstr ""
+msgstr "Jest to serwer lustrzany test-ipv6.com. Przedstawione tutaj poglądy mogą nie odzwierciedlać poglądów właściciela serwera lustrzanego."
 
 #: "locale.html"
 msgid "Available Languages"
@@ -1177,7 +1179,7 @@ msgstr "(Adres IPv6: zaczyna się z 2002)"
 msgid "If you use 6to4</b> (without a tunnel broker; ie, using anonymous 6to4):"
 msgstr ""
 
-#: "faq/6to4_sucks.inc"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "The use of \"automatic\" 6to4, or the use of 6to4 without explicit configuration of the gateways, is not recommended. For more information see <a href='#' onclick='return help_page(\"faq_6to4.html\",\"6to4\")'>6to4</a>."
 msgstr ""
 
@@ -1221,7 +1223,7 @@ msgstr "Rozważ zmianę sposobu połączenia."
 msgid "Ask your ISP if they offer any IPv6 connectivity (including possibly 6in4 tunnels, or tunnelbroker type tunnels)."
 msgstr "Zapytaj swojego dostawcę usług internetowych, czy oferuje jakąkolwiek łączność IPv6 (w tym ewentualne tunele 6in4 tunele typu tunnelbroker)."
 
-#: "faq/broken_6to4.inc"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "See <a href=\"#\" onclick='return help_page(\"faq_6to4.html\",\"6to4\")'>6to4</a> for more information on why you would want to switch; and some options."
 msgstr ""
 
@@ -1511,7 +1513,7 @@ msgstr "P: Co masz na myśli mówiąc złamane?"
 
 #: "faq.html"
 msgid "A percentage of users today have IPv6 enabled, but are either using a public tunnel that is currently giving poor performance; or otherwise have a route that is installed but broken or suboptimal. However, because they have a route at all, in many cases the address selection algorithm of RFC3484 will pick using it, and trying to use this broken route. It can take towards 75+ seconds before the browser gives up!"
-msgstr ""
+msgstr "Odsetek użytkowników ma włączone IPv6, ale albo używają publicznego tunelu, który obecnie daje słabą wydajność; albo w inny sposób posiada trasę, która jest zainstalowana, ale jest uszkodzona lub nieoptymalna. Ponieważ jednak w ogóle mają one drogę do ruchu, w wielu przypadkach algorytm wyboru adresu RFC3484 wybierze go i próbuje użyć tej przerwanej trasy. Może to potrwać ponad 75 sekund, zanim przeglądarka zacznie się składać!"
 
 #: "faq.html"
 msgid "From the perspective of a user with these conditions, a web site offering both A and AAAA DNS records (ie, \"dual stack\") will appear to time out; and the user will move on to another site that offers a similar product. This is the quandary content providers have."
@@ -1531,7 +1533,7 @@ msgstr ""
 
 #: "faq.html"
 msgid "Q: How valid are the stats?"
-msgstr "P: Jak prawidłowe są te statystyki?"
+msgstr "P: Jak dokładne są te statystyki?"
 
 #: "faq.html"
 msgid "They do not represent the average web consumer. Visitors to this site are self-selecting. The intent of this site is to not provide stats, but instead to inform the user the level of readiness for the world to move to IPv6 (with or without'em!). As such, stats found here will be completely different from an average content provider."
@@ -1877,7 +1879,7 @@ msgstr ""
 msgid "Many of the visitors to the site are new to what IPv6 is."
 msgstr "Wiele z osób odwiedzających witrynę nie wiedząc jeszcze, czym jest IPv6."
 
-#: "faq/whyipv6.inc"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "If you don't know why IPv6 matters, see the <a href=\"#\" onclick=\"return help_page('faq_whyipv6.html','Why IPv6')\">Why IPv6 FAQ</a>."
 msgstr ""
 
@@ -2779,7 +2781,7 @@ msgstr ""
 
 #: "inc/messages.js"
 msgid "To ensure the best Internet performance and connectivity, ask your ISP about native IPv6."
-msgstr ""
+msgstr "Aby zapewnić najlepszą wydajność i stabilność, zapytaj swojego dostawcę usług internetowych o natywne IPv6."
 
 #: "faq/plugins_tryagain.inc"
 msgid "After disabling any suspect plugins or extensions, try this site again."
@@ -2799,9 +2801,9 @@ msgstr "pominięte"
 
 #: "inc/messages.js"
 msgid "We are sometimes unable to detect Teredo and 6to4 when using HTTPS."
-msgstr ""
+msgstr "Czasami nie możemy wykryć Teredo lub 6to4, gdy używany jest HTTPS."
 
-#: "inc/messages.js"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "HTTPS support on this web site is in <em>beta</em>."
 msgstr "Wsparcie HTTPS na tej stronie jest w <em>becie</em>."
 
@@ -2821,35 +2823,35 @@ msgstr "Testy używające tej strony internetowej są zawodne z twojej lokalizac
 msgid "To see your IP addresses: <code>ifconfig -a inet6</code> or <code>ifconfig -f inet6</code>"
 msgstr ""
 
-#: "faq_https.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Differences in HTTP vs HTTPS"
 msgstr "Różnice między HTTP, a HTTPS"
 
-#: "faq_https.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "HTTP and HTTPS bring us different testing capabilities. Unfortunately, we can not test both at once. You can choose which features to test for, by using http://test-ipv6.com or https://test-ipv6.com."
 msgstr ""
 
-#: "faq_https.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "<b>HTTP</b> allows us to test for Teredo and 6to4. Both are transitional technologies. Modern operating systems by default no longer use those, unless there is no other choice. Windows, for example, will not use Teredo, when the browser is given a DNS name to connect to. However, Windows will attempt to use Teredo, when told an IPv6-only IP address. 6to4 is similarly deprecated; and only likely used if there is no other choice."
 msgstr ""
 
-#: "faq_https.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "HTTP also allows us to detect certain types of DNS64/NAT64. NAT64 is a migration strategy that allows for an eventual IPv6-only Internet. Until then, connections to the IPv4 Internet are translated. We detect this by making connections to literal IP address, such as http://192.0.2.1/ (with a server-specific IP address). We are able to detect NAT64 in particular when there is no local IPv4 tunnel (464xlat on Android) or OS assistance (Apple iOS, Apple MacOS)."
 msgstr ""
 
-#: "faq_https.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "<b>HTTPS</b>, which ensures a trusted transport from you to the server, allows bypassing many corporate and mobile proxy servers. There are exceptions; particularly if you agreed to install their certificate; but that is generally not advised. Bypassing these proxies allows us to show you a better idea of your IP address - something that represents your location, and your connectivity to the IPv6 Internet."
 msgstr ""
 
-#: "faq_https.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "A limitation of using HTTPS exists. Since HTTPS requires certificates, and certificates are not offered to IP addresses (but instead to web site names), we can't test for NAT64, 6to4, or Teredo."
 msgstr ""
 
-#: "faq_https.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Should I use HTTP or HTTPS?"
 msgstr "Czy powinienem użyć HTTP czy HTTPS?"
 
-#: "faq_https.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "If you're in a new location, or a computer you're not familiar with, consider both! If both come up with the same results, you can pick HTTP for speed, or HTTPS to bypass certain proxies."
 msgstr ""
 
@@ -2903,23 +2905,23 @@ msgstr ""
 
 #: "inc/footer.inc"
 msgid "Share on:"
-msgstr ""
+msgstr "Udostępnij na:"
 
 #: "faq_avoids_ipv6.html"
 msgid "Since Windows 7, the operating system will periodically test to see if IPv6 works. If the health check fails, then many applications (including Internet Explorer) will use IPv4, to insulate you from any local IPv6 misconfiguration."
-msgstr ""
+msgstr "Począwszy od wersji Windows 7 system operacyjny będzie okresowo sprawdzał, czy IPv6 działa. Jeśli sprawdzanie zakończy się błędem, wiele aplikacji (w tym Internet Explorer) będzie korzystać z IPv4, aby odizolować Cię od jakiejkolwiek błędnej konfiguracji IPv6."
 
 #: "faq_avoids_ipv6.html"
 msgid "Apple's Lion and Mountain Lion updates will prefer whichever is \"faster\" for a given destination."
-msgstr ""
+msgstr "Aktualizacje MacOS Lion oraz Mountain Lion będą preferować łącze, które w danym momencie jest \"szybsze\"."
 
 #: "main/mail.inc"
 msgid "Report a bug with diagnosis or this web site"
-msgstr ""
+msgstr "Zgłoś błąd dotyczący diagnostyki lub tej strony internetowej"
 
 #: "main/mail.inc"
 msgid "Report problem about slow internet service with your provider"
-msgstr ""
+msgstr "Zgłoś problem z powolnym połączeniem z Internetem od Twojego dostawcy"
 
 #: "main/mail.inc"
 msgid "Hacked phone or computer"
@@ -2935,7 +2937,7 @@ msgstr "Problemy z IPv6 w Chinach"
 
 #: "main/mail.inc"
 msgid "Problems relating to your Internet service, should be sent to your Internet Service Provider. Please contact them for support."
-msgstr ""
+msgstr "Problemy związane z usługami internetowymi powinny zostać wysłane bezpośrednio do Twojego dostawcy. Skontaktuj się z ich obsługą klienta."
 
 #: "not-used, archived.  Not currently needed for translation."
 msgid "This web site is not a tool for security or forensic analysis. If you have security concerns, please find a security professional to consult with. They can offer investication and education that is appropriately matched to your concerns."
@@ -2947,7 +2949,7 @@ msgstr ""
 
 #: "main/mail.inc"
 msgid "This web site is subject to the policies and technology limitations of the \"Great Wall\" for the Internet. Because of these limitations, this web site is not reliable for viewing from inside China."
-msgstr ""
+msgstr "Ta strona internetowa podlega ograniczeniom prawnym i technologicznym związanym z \"Wielkim Murem\" dla Internetu. Z powodu tych ograniczeń informacje wyświetlone na tej stronie internetowej nie są wiarygodne, gdy przeglądana jest w Chinach."
 
 #: "main/mail.inc"
 msgid "This web site is not a tool for security or forensic analysis. If you have security concerns, please find a security professional to consult with. They can offer investigation and education that is appropriately matched to your concerns."
@@ -2971,11 +2973,11 @@ msgstr ""
 
 #: "inc/messages.js"
 msgid "If you are using a VPN, your VPN is only protecting one protocol, not both."
-msgstr ""
+msgstr "Jeśli korzystasz z VPN, chroni on tylko jeden protokół, a nie oba."
 
 #: "faq.html"
 msgid "Q: Can you fix my VPN?"
-msgstr ""
+msgstr "P: Czy możesz naprawić mój VPN?"
 
 #: "faq.html"
 msgid "No, I can not fix your VPN."
@@ -2983,9 +2985,133 @@ msgstr ""
 
 #: "faq_no_ipv4.html"
 msgid "The NoScript browser extension disables scripts on the page. In the upper right corner of your browser, is the NoScript icon. Click this to bring up a menu; and temporarily permit scripts on this site."
-msgstr ""
+msgstr "Rozszerzenie NoScript wyłącza skrypty na tej stronie. W prawym górnym rogu Twojej przeglądarki znajduje się ikona NoScript. Naciśnij ją, aby wyświetlić menu i tymczasowo zezwól na skrypty w tej witrynie."
 
 #: "simple_test.html"
 msgid "dummy comment, testing translation"
+msgstr ""
+
+#: "faq_https.html"
+msgid "HTTP vs HTTPS"
+msgstr "HTTP kontra HTTPS"
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "The web is evolving towards using secure connections everywhere. While this is generally a good thing, it does impact what tests we can run."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "When visiting with HTTPS, we are unable to report NAT64 or 6to4. We are also unable to detect certain conditions where Teredo might be used."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "Some browsers now force HTTPS. For these browsers, the above features are no longer available."
+msgstr ""
+
+#: "faq_https.html"
+msgid "Why do these specific tests fail when using HTTPS?"
+msgstr "Dlaczego te konkretne testy wyświetlają błędy podczas korzystania z HTTPS?"
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "The specific features mentioned work, by making connections to specific IP addresses, and seeing if those connections work. When running in HTTPS mode, this would require special certificates. We can only get those certificates if we can prove ownership of those IP addresses."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "test-ipv6.com is actually spread across many providers. Some are hosting providers, or customers of hosting provides. Some are broadband internet providers. It is not possible for me to prove ownership of another business's IP space, even if they are letting me use that space for test-ipv6.com."
+msgstr ""
+
+#: "faq_https.html"
+msgid "When visiting with HTTPS, we are unable to detect NAT64 or Teredo."
+msgstr "Gdy korzystasz z HTTPS, nie jesteśmy w stanie wykryć NAT64 lub Teredo."
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "To test for NAT64, 6to4, and hidden Teredo capabilities, we make connections to specific IP addresses (instead of names), and seeing if those connections work. NAT64 is detected when connections by name work, but by IPv4 address do not. Teredo is detected when connections made by name fail, but by IPv6 address work."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "When running in HTTPS mode, this would require special certificates. We can only get those certificates if we can prove ownership of those IP addresses."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "test-ipv6.com is actually spread across many providers. Some are hosting providers, or customers of hosting provides. Some are broadband internet providers. It is not possible for me to prove my ownership of their address space. For mirror operators that CAN prove this, these certificates tend to be expensive due to the extra burden of proof needing examination."
+msgstr ""
+
+#: "faq_https.html"
+msgid "The web is evolving towards using secure connections everywhere. While this is generally a good thing for security, it does impact what tests we can run."
+msgstr ""
+
+#: "faq_https.html"
+msgid "Some browsers now force HTTPS. For these browsers, these features are no longer available."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "To test for NAT64 and Teredo, we make connections to specific IP addresses (instead of names), and seeing if those connections work. NAT64 is detected when connections by name work, but by IPv4 address do not. Teredo is detected when connections made by name fail, but by IPv6 address work."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "NAT64 is detected when connections by name work, but by IPv4 address do not."
+msgstr ""
+
+#: "faq_https.html"
+msgid "NAT64 is detected when connections by name work, but by IPv4 numeric address do not."
+msgstr ""
+
+#: "faq_https.html"
+msgid "Teredo is detected when connections by name fail, but by IPv6 numeric address work."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "When running in HTTPS mode, this requires special certificates. These certificates are available only with proof of ownership for the IP addresses."
+msgstr ""
+
+#: "faq_https.html"
+msgid "When running in HTTPS mode, connecting to a specific IP address requires a special certificate. These certificates are available only with proof of ownership for the IP address."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "test-ipv6.com is actually spread across many providers. Some are hosting providers, or customers of hosting provides. Some are broadband internet providers. It is not possible for test-ipv6.com to prove ownership of their address space. As an example, I can't prove I own the Comcast mirror IP addresses. For mirror operators that CAN prove this, these certificates tend to be expensive due to the extra burden of proof needing examination."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "test-ipv6.com is actually spread across many providers. Some are hosting providers, or customers of hosting provides. Some are broadband internet providers. It is not possible for test-ipv6.com to prove ownership of their address space."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "As an example, I can't prove I own the Comcast (a large US broadbroad provider) IP addresses used by this site.</p> <p>{{Links:"
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "HTTPS used. Some tests are skipped."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "Secure HTTPS used. Skipping Teredo and NAT64 tests."
+msgstr ""
+
+#: "inc/messages.js"
+msgid "🔒HTTPS used. Skipping Teredo and NAT64 tests."
+msgstr ""
+
+#: "faq/broken_6to4.inc"
+msgid "See <a href=\"faq_6to4.html\" onclick='return help_page(\"faq_6to4.html\",\"6to4\")'>6to4</a> for more information on why you would want to switch; and some options."
+msgstr ""
+
+#: "faq/6to4_sucks.inc"
+msgid "The use of \"automatic\" 6to4, or the use of 6to4 without explicit configuration of the gateways, is not recommended. For more information see <a href='faq_6to4.html' onclick='return help_page(\"faq_6to4.html\",\"6to4\")'>6to4</a>."
+msgstr ""
+
+#: "faq/whyipv6.inc"
+msgid "If you don't know why IPv6 matters, see the <a href=\"faq_whyipv6.html\" onclick=\"return help_page('faq_whyipv6.html','Why IPv6')\">Why IPv6 FAQ</a>."
+msgstr ""
+
+#: "faq_https.html"
+msgid "test-ipv6.com is actually spread across many providers. Some are hosting providers, or customers of hosting providers. Some are broadband internet providers. It is not possible for test-ipv6.com to prove ownership of their address space."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "As an example, I can't prove I own the Comcast (a large US broadbroad provider) IP addresses used by this site."
+msgstr ""
+
+#: "faq_https.html"
+msgid "As an example, I can't prove I own the Comcast (a large US broadband provider) IP addresses used by this site."
 msgstr ""
 

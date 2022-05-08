@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2020-05-17 22:33\n"
+"PO-Revision-Date: 2022-02-06 07:19\n"
 "Last-Translator: Unspecified Translator <jfesler+unspecified-translator@test-ipv6.com>\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -9,8 +9,10 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Crowdin-Project: falling-sky\n"
+"X-Crowdin-Project-ID: 14778\n"
 "X-Crowdin-Language: ja\n"
 "X-Crowdin-File: falling-sky.pot\n"
+"X-Crowdin-File-ID: 17\n"
 "Language: ja_JP\n"
 
 #: "inc/mirrorconfig.js"
@@ -303,7 +305,7 @@ msgstr "あなたがお使いの IPv6 サービス"
 
 #: "inc/builtin.js"
 msgid "Your Internet Service Provider (ISP) appears to be"
-msgstr "ご利用のインターネットサービスプロバイダ (ISP):"
+msgstr "推定されたインターネットサービスプロバイダ (ISP):"
 
 #: "inc/builtin.js"
 msgid "Started"
@@ -776,7 +778,7 @@ msgstr "このサイトは test-ipv6.com のミラーサイトです。ここで
 
 #: "locale.html"
 msgid "Available Languages"
-msgstr "ご利用可能な言語"
+msgstr "利用可能な言語"
 
 #: "locale.html"
 msgid "Pick one of the following to switch to that language."
@@ -1178,7 +1180,7 @@ msgstr "(IPv6アドレスは2002:で始まる)"
 msgid "If you use 6to4</b> (without a tunnel broker; ie, using anonymous 6to4):"
 msgstr "6to4を使用している場合</b> (tunnelbroker以外の、例えば匿名6to4などをを利用):"
 
-#: "faq/6to4_sucks.inc"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "The use of \"automatic\" 6to4, or the use of 6to4 without explicit configuration of the gateways, is not recommended. For more information see <a href='#' onclick='return help_page(\"faq_6to4.html\",\"6to4\")'>6to4</a>."
 msgstr "\"自動\"での6to4の使用、またはゲートウェイを明示的に構成しないでの6to4の使用はお勧めしません。詳細については、<a href='#' click='return help_page(\"faq_6to4.html\",\"6to4\")'>6to4</a>を参照してください。"
 
@@ -1222,7 +1224,7 @@ msgstr "接続方法の変更を検討してください。"
 msgid "Ask your ISP if they offer any IPv6 connectivity (including possibly 6in4 tunnels, or tunnelbroker type tunnels)."
 msgstr "ISPに他のIPv6接続(おそらく6in4トンネルまたはtunnelbrokerタイプのトンネルを含む)を提供していないかを訊ねてみましょう。"
 
-#: "faq/broken_6to4.inc"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "See <a href=\"#\" onclick='return help_page(\"faq_6to4.html\",\"6to4\")'>6to4</a> for more information on why you would want to switch; and some options."
 msgstr "切り替えるべき理由の詳細については、<a href=\"#\" onclick='return help_page(\"faq_6to4.html\",\"6to4\")'>6to4</a>を参照してください。いくつかの理由があります。"
 
@@ -1879,7 +1881,7 @@ msgstr "WebサイトがIPv4とIPv6の両方でコンテンツを提供しても�
 msgid "Many of the visitors to the site are new to what IPv6 is."
 msgstr "このサイトへの訪問者の多くはIPv6とは何かを知らない人々です。"
 
-#: "faq/whyipv6.inc"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "If you don't know why IPv6 matters, see the <a href=\"#\" onclick=\"return help_page('faq_whyipv6.html','Why IPv6')\">Why IPv6 FAQ</a>."
 msgstr "IPv6の重要性が分からない場合は、<a href=\"#\" onclick=\"return help_page('faq_whyipv6.html','Why IPv6')\">なぜIPv6なのか？のFAQ</a>をご覧ください。"
 
@@ -1933,7 +1935,7 @@ msgstr "IPv6 アドレスがないようです."
 
 #: "faq/unable_to_see_ipv6.inc"
 msgid "<b>If you strongly believe you have IPv6, but we were unable to detect it:</b> it means one of a couple of things. Either your organization is blocking the use of IPv6 to talk to the outside Internet through network policy; or perhaps what you see with IPv6 on your host is not a global address. Any address starting with \"::\", \"fc\", \"fd\", or \"fe\" are unable to work with the public IPv6 Internet."
-msgstr "<b>IPv6があるはずなのにそれを検出できなかった場合: </b>これにはいくつか>の原因が考えられます。 ひつつは、あなたの組織がIPv6の使用をブロックするネットワークポリシーを適用して外部のインターネットと通信をしている場合です。 もしくはあなたのホスト上で見えているIPv6アドレスがグローバルアドレスではない場合です。 \"::\"、\"fc\"、\"fd\"、\"fe\"で始まるアドレスはパブリックIPv6インターネットでは動作しません。"
+msgstr "<b>IPv6があるはずなのにそれを検出できなかった場合:</b> これにはいくつかの原因が考えられます。 ひとつは、あなたの組織がIPv6の使用をブロックするネットワークポリシーを適用して外部のインターネットと通信をしている場合です。 もしくはあなたのホスト上で見えているIPv6アドレスがグローバルアドレスではない場合です。 \"::\"、\"fc\"、\"fd\"、\"fe\"で始まるアドレスはパブリックIPv6インターネットでは動作しません。"
 
 #: "faq_teredo_minimum.html"
 msgid "More about your test results."
@@ -2806,7 +2808,7 @@ msgstr "スキップしました"
 msgid "We are sometimes unable to detect Teredo and 6to4 when using HTTPS."
 msgstr "HTTPSを使っている場合にはTeredoや6to4を検出できない場合があります。"
 
-#: "inc/messages.js"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "HTTPS support on this web site is in <em>beta</em>."
 msgstr "このWebサイトでは<em>ベータ版</em>のHTTPSをサポートしています。"
 
@@ -2826,35 +2828,35 @@ msgstr "テストに利用したこのサイトはあなたの場所からは読
 msgid "To see your IP addresses: <code>ifconfig -a inet6</code> or <code>ifconfig -f inet6</code>"
 msgstr "IPアドレスを表示するには: <code>ifconfig -a inet6</code> または <code>ifconfig -f inet6</code>"
 
-#: "faq_https.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Differences in HTTP vs HTTPS"
 msgstr "HTTPとHTTPSの違い"
 
-#: "faq_https.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "HTTP and HTTPS bring us different testing capabilities. Unfortunately, we can not test both at once. You can choose which features to test for, by using http://test-ipv6.com or https://test-ipv6.com."
 msgstr "HTTPとHTTPSは異なるテスト機能を提供しています。残念ながらここではこの両方を一度にテストすることはできません。http://test-ipv6.com または https://test-ipv6.com のどちらかで、どのをテストするかを選んでください。"
 
-#: "faq_https.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "<b>HTTP</b> allows us to test for Teredo and 6to4. Both are transitional technologies. Modern operating systems by default no longer use those, unless there is no other choice. Windows, for example, will not use Teredo, when the browser is given a DNS name to connect to. However, Windows will attempt to use Teredo, when told an IPv6-only IP address. 6to4 is similarly deprecated; and only likely used if there is no other choice."
 msgstr "<b>HTTP</b> では、6to4 および Teredo をテストすることが出来ます。どちらも過渡的な技術です。最近のオペレーティングシステムでは、他の選択肢がないのでなければデフォルトでこれらは使用しません。 たとえば、Windowsではブラウザで接続先にDNS名が指定されているならTeredoは使用されません。 IPv6オンリーのIPアドレスが指定された場合に限ってWindowsはTeredoを使用しようとします。6to4 も同様に過去のものです。他に手段がない場合にだけ使う様にすべきでしょう。"
 
-#: "faq_https.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "HTTP also allows us to detect certain types of DNS64/NAT64. NAT64 is a migration strategy that allows for an eventual IPv6-only Internet. Until then, connections to the IPv4 Internet are translated. We detect this by making connections to literal IP address, such as http://192.0.2.1/ (with a server-specific IP address). We are able to detect NAT64 in particular when there is no local IPv4 tunnel (464xlat on Android) or OS assistance (Apple iOS, Apple MacOS)."
 msgstr "HTTPではある種のDNS64/NAT64を検出することができます。 NAT64はIPv6オンリーなインターネットからIPv4インターネットへの接続をアドレスの変換によって可能にする移行技術です。  これを検出するにはhttp://192.0.2.1/(サーバー固有のIPアドレスを指定)などのリテラルIPアドレスに接続してみます。 ローカルなIPv4トンネル (Androidの464xlat) やOSによる補助  (Apple iOS、Apple MacOSなど）がない場合にNAT64を検出することができます。"
 
-#: "faq_https.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "<b>HTTPS</b>, which ensures a trusted transport from you to the server, allows bypassing many corporate and mobile proxy servers. There are exceptions; particularly if you agreed to install their certificate; but that is generally not advised. Bypassing these proxies allows us to show you a better idea of your IP address - something that represents your location, and your connectivity to the IPv6 Internet."
 msgstr "あなたからサーバーへの信頼できる通信を保証する<b> HTTPS </b>により多くの企業やモバイルプロキシサーバーをバイパスできます。 例外があります。 特別な証明書をインストールすることに同意した場合ですが、こは一般的には推奨されません。 これらのプロキシをバイパスすることで、IPアドレスのより良いアイデアを提示することができます。それは、あなたの住む地域を表すものやIPv6インターネットへの接続性です。"
 
-#: "faq_https.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "A limitation of using HTTPS exists. Since HTTPS requires certificates, and certificates are not offered to IP addresses (but instead to web site names), we can't test for NAT64, 6to4, or Teredo."
 msgstr "HTTPSを使用する場合には制約があります。 HTTPSでは証明書を必要とし、証明書はIPアドレス (Webサイト名ではなく) に対しては提供されないため、NAT64、6to4、またはTeredoのテストではきません。"
 
-#: "faq_https.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Should I use HTTP or HTTPS?"
 msgstr "HTTP と HTTPS のどちらを使えばいいですか？"
 
-#: "faq_https.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "If you're in a new location, or a computer you're not familiar with, consider both! If both come up with the same results, you can pick HTTP for speed, or HTTPS to bypass certain proxies."
 msgstr "あなたが知らない場所にいるか、日頃使っていないコンピュータを使っているのなら、両方とも同じ結果が出た場合には、どちらにするのかを考えてください。 HTTPを選択してスピードを重視するか、HTTPSを使用してプロキシをバイパスするのかを。"
 
@@ -2993,5 +2995,129 @@ msgstr "NoScriptブラウザプラグインは、ページ上のスクリプト�
 
 #: "simple_test.html"
 msgid "dummy comment, testing translation"
+msgstr "翻訳をテストするためにあるダミーコメントです"
+
+#: "faq_https.html"
+msgid "HTTP vs HTTPS"
+msgstr "HTTPとHTTPSの比較"
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "The web is evolving towards using secure connections everywhere. While this is generally a good thing, it does impact what tests we can run."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "When visiting with HTTPS, we are unable to report NAT64 or 6to4. We are also unable to detect certain conditions where Teredo might be used."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "Some browsers now force HTTPS. For these browsers, the above features are no longer available."
+msgstr ""
+
+#: "faq_https.html"
+msgid "Why do these specific tests fail when using HTTPS?"
+msgstr "なぜHTTPSでの特定のテストが失敗するのですか？"
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "The specific features mentioned work, by making connections to specific IP addresses, and seeing if those connections work. When running in HTTPS mode, this would require special certificates. We can only get those certificates if we can prove ownership of those IP addresses."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "test-ipv6.com is actually spread across many providers. Some are hosting providers, or customers of hosting provides. Some are broadband internet providers. It is not possible for me to prove ownership of another business's IP space, even if they are letting me use that space for test-ipv6.com."
+msgstr ""
+
+#: "faq_https.html"
+msgid "When visiting with HTTPS, we are unable to detect NAT64 or Teredo."
+msgstr "HTTPS でアクセスすると、NAT64 や Teredo を検出できません。"
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "To test for NAT64, 6to4, and hidden Teredo capabilities, we make connections to specific IP addresses (instead of names), and seeing if those connections work. NAT64 is detected when connections by name work, but by IPv4 address do not. Teredo is detected when connections made by name fail, but by IPv6 address work."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "When running in HTTPS mode, this would require special certificates. We can only get those certificates if we can prove ownership of those IP addresses."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "test-ipv6.com is actually spread across many providers. Some are hosting providers, or customers of hosting provides. Some are broadband internet providers. It is not possible for me to prove my ownership of their address space. For mirror operators that CAN prove this, these certificates tend to be expensive due to the extra burden of proof needing examination."
+msgstr ""
+
+#: "faq_https.html"
+msgid "The web is evolving towards using secure connections everywhere. While this is generally a good thing for security, it does impact what tests we can run."
+msgstr "ウェブはどこでもセキュアな接続を使用するように進化してきています。これは一般的にはセキュリティにとって良いことですが、実行できるテストに影響を与えます。"
+
+#: "faq_https.html"
+msgid "Some browsers now force HTTPS. For these browsers, these features are no longer available."
+msgstr "一部のブラウザでは HTTPS を強制的に使用するようになりました。そうしたブラウザでは、これらの機能は使用できなくなりました。"
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "To test for NAT64 and Teredo, we make connections to specific IP addresses (instead of names), and seeing if those connections work. NAT64 is detected when connections by name work, but by IPv4 address do not. Teredo is detected when connections made by name fail, but by IPv6 address work."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "NAT64 is detected when connections by name work, but by IPv4 address do not."
+msgstr ""
+
+#: "faq_https.html"
+msgid "NAT64 is detected when connections by name work, but by IPv4 numeric address do not."
+msgstr "名前による接続では NAT64 が検出されますが、IPv4 の数値アドレスでは検出されません。"
+
+#: "faq_https.html"
+msgid "Teredo is detected when connections by name fail, but by IPv6 numeric address work."
+msgstr "名前による接続では Teredo の検出に失敗しますが、IPv6 の数値アドレスでは検出されます。"
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "When running in HTTPS mode, this requires special certificates. These certificates are available only with proof of ownership for the IP addresses."
+msgstr ""
+
+#: "faq_https.html"
+msgid "When running in HTTPS mode, connecting to a specific IP address requires a special certificate. These certificates are available only with proof of ownership for the IP address."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "test-ipv6.com is actually spread across many providers. Some are hosting providers, or customers of hosting provides. Some are broadband internet providers. It is not possible for test-ipv6.com to prove ownership of their address space. As an example, I can't prove I own the Comcast mirror IP addresses. For mirror operators that CAN prove this, these certificates tend to be expensive due to the extra burden of proof needing examination."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "test-ipv6.com is actually spread across many providers. Some are hosting providers, or customers of hosting provides. Some are broadband internet providers. It is not possible for test-ipv6.com to prove ownership of their address space."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "As an example, I can't prove I own the Comcast (a large US broadbroad provider) IP addresses used by this site.</p> <p>{{Links:"
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "HTTPS used. Some tests are skipped."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "Secure HTTPS used. Skipping Teredo and NAT64 tests."
+msgstr ""
+
+#: "inc/messages.js"
+msgid "🔒HTTPS used. Skipping Teredo and NAT64 tests."
+msgstr "🔒HTTPS が使用されました。Teredo と NAT64 のテストをスキップします。"
+
+#: "faq/broken_6to4.inc"
+msgid "See <a href=\"faq_6to4.html\" onclick='return help_page(\"faq_6to4.html\",\"6to4\")'>6to4</a> for more information on why you would want to switch; and some options."
+msgstr "切り替えるべき理由の詳細については、<a href=\"faq_6to4.html\" onclick='return help_page(\"faq_6to4.html\",\"6to4\")'>6to4</a> を参照してください。いくつかの理由があります。"
+
+#: "faq/6to4_sucks.inc"
+msgid "The use of \"automatic\" 6to4, or the use of 6to4 without explicit configuration of the gateways, is not recommended. For more information see <a href='faq_6to4.html' onclick='return help_page(\"faq_6to4.html\",\"6to4\")'>6to4</a>."
+msgstr "「自動」での 6to4 の使用、またはゲートウェイを明示的に構成せずに6to4 を使用することはお勧めしません。詳細については、<a href='faq_6to4.html' onclick='return help_page(\"faq_6to4.html\",\"6to4\")'>6to4</a> を参照してください。"
+
+#: "faq/whyipv6.inc"
+msgid "If you don't know why IPv6 matters, see the <a href=\"faq_whyipv6.html\" onclick=\"return help_page('faq_whyipv6.html','Why IPv6')\">Why IPv6 FAQ</a>."
+msgstr "IPv6 の重要性が分からない場合は、<a href=\"faq_whyipv6.html\" onclick=\"return help_page('faq_whyipv6.html','Why IPv6')\">なぜIPv6なのか？のFAQ</a>をご覧ください。"
+
+#: "faq_https.html"
+msgid "test-ipv6.com is actually spread across many providers. Some are hosting providers, or customers of hosting providers. Some are broadband internet providers. It is not possible for test-ipv6.com to prove ownership of their address space."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "As an example, I can't prove I own the Comcast (a large US broadbroad provider) IP addresses used by this site."
+msgstr ""
+
+#: "faq_https.html"
+msgid "As an example, I can't prove I own the Comcast (a large US broadband provider) IP addresses used by this site."
 msgstr ""
 

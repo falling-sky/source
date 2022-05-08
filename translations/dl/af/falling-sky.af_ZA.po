@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: falling-sky\n"
-"PO-Revision-Date: 2020-05-17 22:33\n"
+"PO-Revision-Date: 2022-03-03 07:06\n"
 "Last-Translator: Unspecified Translator <jfesler+unspecified-translator@test-ipv6.com>\n"
 "Language-Team: Afrikaans\n"
 "MIME-Version: 1.0\n"
@@ -9,25 +9,27 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: falling-sky\n"
+"X-Crowdin-Project-ID: 14778\n"
 "X-Crowdin-Language: af\n"
 "X-Crowdin-File: falling-sky.pot\n"
+"X-Crowdin-File-ID: 17\n"
 "Language: af_ZA\n"
 
 #: "inc/mirrorconfig.js"
 msgid "This mirror is provided by"
-msgstr "This mirror is provided by"
+msgstr "Hierdie kopie word verskaf deur"
 
 #: "inc/messages.js"
 msgid "bad"
-msgstr "bad"
+msgstr "sleg"
 
 #: "inc/messages.js"
 msgid "ok"
-msgstr "ok"
+msgstr "goed"
 
 #: "inc/messages.js"
 msgid "slow"
-msgstr "stadige"
+msgstr "stadig"
 
 #: "inc/messages.js"
 msgid "timeout"
@@ -35,35 +37,35 @@ msgstr "tyd verstreke"
 
 #: "inc/messages.js"
 msgid "Connections to urls with IP addresses appear to be blocked; perhaps by a web filter such as 'NoScript' or 'RequestPolicy' installed into your browser, or filtering in your proxy server. This limits some of the functionality of this test site."
-msgstr "Verbindings na bronadrese met IP adrese lyk as of hulle geblokkeer is; miskien deur a web filter soons 'NoScript' of 'RequestPolicy' in jou webblaaier, of 'n filter in jou instaanbediener. Dit beperk sommige van die funksies van hierdie toets webblad."
+msgstr "Verbindings na bronadresse met IP-adresse lyk as of hulle geblokkeer is; miskien deur a webfilter soos 'NoScript' of 'RequestPolicy' in jou webblaaier, of 'n filter in jou instaanbediener. Dit beperk sommige van die funksionaliteit van hierdie toetswerf."
 
 #: "inc/messages.js"
 msgid "IPv4 Connections using DNS work; but literal IP addresses in urls do not. These are rarely used on the web today."
-msgstr "IPv4 verbindings wat DNS gebruik werk; maar IP addrese in bronadrese werk nie. Die is selde deesdae gebruik."
+msgstr "IPv4-verbindings wat DNS gebruik, werk; maar letterlike IP-adresse in bronadresse werk nie. Dit word deesdae selde gebruik."
 
 #: "inc/messages.js"
 msgid "IPv6 Connections using DNS work; but literal IP addresses in urls do not. These are rarely used on the web today."
-msgstr "IPv6 verbindings wat DNS gebruik werk; maar IP addrese in bronadrese werk nie. Die is selde deesdae gebruik."
+msgstr "IPv6-verbindings wat DNS gebruik, werk; maar letterlike IP-adresse in bronadresse werk nie. Dit word deesdae selde gebruik."
 
 #: "inc/messages.js"
 msgid "You appear to be using a public 6to4 gateway; your router may be providing this to you automatically. Such public gateways have no service level agreements; you may see performance problems using such. Better would be to get a native IPv6 address from your ISP."
-msgstr "Dit lyk asof jy 'n publike 6to4 gateway gebruik; dit mag wees dat jou router dit automaties aan jou verskaf. Sulke publike gateways het geen diensvlakooreenkomste; jy mag met hulle werkverrigtings probleme he. Dit sal beter wees om 'n IPv6 adres van jou ISP te kry."
+msgstr "Dit lyk asof jy 'n publieke 6to4 gateway gebruik; dit mag wees dat jou router dit outomaties aan jou verskaf. Sulke publieke gateways het geen diensvlakooreenkomste nie; jy mag met hulle werkverrigtingsprobleme hê. Dit sal beter wees om 'n IPv6 adres van jou ISP te kry."
 
 #: "inc/messages.js"
 msgid "Your IPv6 connection appears to be using Teredo, a type of IPv4/IPv6 translation using a public gateway. The quality for this <i>may</i> suffer, as you are using a public gateway to reach IPv6 based sites."
-msgstr "Jou IPv6 verbinding lyk asof dit Teredo gebruik, soort van 'n IPv4/IPv6 vertaalings stelsel wat 'n openbare gateway gebruik. Die gehalte hiervoor <i>mag</i> ly omdat jy 'n openbare gateway gebruik om IPv6 webwerwe te beruik."
+msgstr "Jou IPv6 verbinding lyk asof dit Teredo gebruik, soort van 'n IPv4/IPv6 vertalingsstelsel wat 'n openbare gateway gebruik. Die gehalte hiervan <i>mag</i> ly omdat jy 'n openbare gateway gebruik om IPv6 webwerwe te besoek."
 
 #: "inc/messages.js"
 msgid "Your IPv6 connection appears to be using Teredo, a type of IPv4/IPv6 gateway; currently it connects only to direct IP's. Your browser will not be able to go to IPv6 sites by name. This means the current configuration is not useful for browsing IPv6 web sites."
-msgstr "Jou IPv6 verbinding lyk asof dit Teredo gebruik, soort van 'n IPv4/IPv6 vertaalings stelsel; dit koppel tans net na direk IPs. Jou weblaier sal nie IPv6 webwerwe kan beruik as jy hul name gebruik. Dit beteken dat die huidge opset nie goed is om IPv6 webwerwe te blaai nie."
+msgstr "Jou IPv6 verbinding lyk asof dit Teredo gebruik, soort van 'n IPv4/IPv6 vertalingsstelsel; dit koppel tans net na direkte IPs. Jou weblaaier sal nie IPv6 webwerwe kan beruik as jy hul name gebruik nie. Dit beteken dat die huidige opset nie goed is om IPv6 webwerwe te besoek nie."
 
 #: "inc/messages.js"
 msgid "Your IPv6 connection appears to be using Teredo, a type of IPv4/IPv6 gateway. Your particular teredo configuration is only used as a protocol of last resort. When visiting a site with both IPv4 and IPv6, IPv4 will be preferred."
-msgstr "Jou IPv6 verbinding lyk asof dit Teredo gebruik, soort van 'n IPv4/IPv6 vertaalings stelsel. Jou spesifieke teredo opset is net as 'n protokol van laaste uitweg gebruik. As jy 'n webblad met beide IPv4 en IPv6 besoek, sal IPv4 voorkeur kry."
+msgstr "Jou IPv6 verbinding lyk asof dit Teredo gebruik, soort van 'n IPv4/IPv6 vertalingsstelsel. Jou spesifieke teredo opset word net as 'n laaste uitweg gebruik. As jy 'n webblad met beide IPv4 en IPv6 besoek, sal IPv4 voorkeur kry."
 
 #: "inc/messages.js"
 msgid "Danger! IPv6 sorta works - however, large packets appear to fail, giving the appearance of a broken website. If a publisher publishes to IPv6, you will believe their web site to be broken. Ask your ISP about MTU issues; possibly with your tunnel."
-msgstr "Gevaar! IPv6 sorta werke - egter groot pakkies verskyn om te misluk, gee die voorkoms van 'n gebroke webwerf. Indien 'n uitgewer publiseer om IPv6 te aktiveer, sal jy glo hul webwerf verbreek word. Vra jou ISP oor MTU kwessies; moontlik met jou tonnel."
+msgstr "Pasop! IPv6 werk, maar groot pakkies werk nie. Dit het die voorkoms van 'n website nie laai nie. Indien 'n uitgewer besluit om IPv6 te aktiveer, sal jy dink hul webwerf is gebreek. Vra jou ISP oor MTU kwessies; moontlik met jou tonnel."
 
 #: "inc/messages.js"
 msgid "Check your firewall to make sure that ICMPv6 messages are allowed (in particular, Type 2 or Packet Too Big)."
@@ -71,11 +73,11 @@ msgstr "Maak seker dat jou brandmuur ICMPv6 boodskappe toelaat (veral \"Type 2\"
 
 #: "inc/messages.js"
 msgid "Test results inconclusive; they were not consistent with expectations. Please rerun the test, and if the results are the same, please fill out the contact form."
-msgstr "Toets resultate inconclusive; hulle was nie in ooreenstemming met verwagtinge. Asseblief Herloop die toets, en as die resultate dieselfde is nie, vul asseblief die kontak vorm."
+msgstr "Toetsuitslag is onbeslis aangesien dit nie in oorstemming met verwagtinge is nie. Loop die toets asseblief weer, en as die resultate steeds dieselfde is, vul dan die kontakvorm in."
 
 #: "inc/messages.js"
 msgid "For unknown reasons, your browser appears to operate slower when given the option of connecting to both IPv4 and IPv6. Please rerun the test, and if the results are the same, please fill out the contact form."
-msgstr "Vir onbekende redes, jou blaaier verskyn om stadiger te werk wanneer die opsie van verbind IPv4 en IPv6 gegee. Asseblief Herloop die toets, en as die resultate dieselfde is nie, vul asseblief die kontak vorm."
+msgstr "Vir onbekende redes blyk dit of jou blaaier stadiger werk as dit die moontlikheid gegee word om beide IPv4 en IPv6 te gebruik. Loop die toets asseblief weer, en as die resultate steeds dieselfde is, vul dan die kontak vorm in."
 
 #: "inc/messages.js"
 msgid "You appear to be able to browse the IPv4 Internet only. You will not be able to reach IPv6-only sites."
@@ -83,19 +85,19 @@ msgstr "Die lyk asof jy net die IPv4 Internet kan bereik. Jy sal nie tuistes met
 
 #: "inc/messages.js"
 msgid "When a publisher offers both IPv4 and IPv6, your browser appears to be happy to take the IPv4 site without delay."
-msgstr "Wanneer 'n uitgewer bied IPv4 en IPv6, jou blaaier lyk gelukkig te neem die IPv4 werf sonder vertraging."
+msgstr "Wanneer 'n uitgewer beide IPv4 en IPv6 bied, blyk dit of jou blaaier gelukig is met die IPv4 werf sonder enige vertraging."
 
 #: "inc/messages.js"
 msgid "When a publisher offers both IPv4 and IPv6, your browser appears to slow down signficantly compared to an IPv4-only site. You may even believe the destination web site to be broken. This may be due to your IPv6 configuration."
-msgstr "Wanneer 'n uitgewer bied IPv4 en IPv6, jou blaaier verskyn om stadiger te maak signficantly in vergelyking met 'n IPv4-net werf. Jy kan selfs glo dat die bestemming se webwerf verbreek word. Dit kan wees as gevolg van jou IPv6 konfigurasie."
+msgstr "Wanneer 'n uitgewer beide IPv4 en IPv6 aanbied, blyk dit of jou blaaier aansienlik stadiger is as met 'n blad wat slegs IPv4 bied. Jy kan selfs dink dat die bestemming se webwerf gebreek is. Dit kan egter as gevolg van jou IPv6 konfigurasie wees."
 
 #: "inc/messages.js"
 msgid "When a publisher offers both IPv4 and IPv6, your browser will time out trying to connect. You may believe the site is down. This may be due to your IPv6 configuration. Consider disabling IPv6, or seeking help."
-msgstr "Wanneer 'n uitgewer bied IPv4 en IPv6, sal jou blaaier blaaskans probeer om te verbind. Jy kan glo die werf af. Dit kan wees as gevolg van jou IPv6 konfigurasie. Oorweeg of versperring van IPv6, op soek na hulp."
+msgstr "Wanneer 'n uitgewer beide IPv4 en IPv6 aanbied, sal jou blaaier sy verstrykingstyd met die maak van 'n verbinding bereik. Jy mag dink dat die webblad aflyn is. Die oorsaak kan jou IPv6 konfigurasie wees. Oorweeg dit om IPv6 af te skakel, of soek hulp."
 
 #: "inc/messages.js"
 msgid "Connections to IPv4 are slow, but functional. Perhaps you or your ISP put you behind an IP sharing device (NAT) that is currently slow."
-msgstr "Verbindings met IPv4 is stadig, maar funksioneel. Miskien jy of jou ISP sit jy agter 'n IP toestel (NAT) is tans stadige deel."
+msgstr "Verbindings na IPv4 werk, maar is stadig. Miskien is jy agter 'n IP-deel-toestel (NAT) wat tans stadig is."
 
 #: "inc/messages.js"
 msgid "You appear to be able to browse the IPv6 Internet only. You have no access to IPv4. That's pretty bold!"
@@ -103,11 +105,11 @@ msgstr "Jy kan net die IPv6 Internet bereik. Jy het geen verbinding tot IPv4. Di
 
 #: "inc/messages.js"
 msgid "Connections to IPv6 are slow, but functional. Perhaps you are using a public IPv6 tunnel that is either slow, or not located near you."
-msgstr "Verbindings aan IPv6 is stadig, maar funksioneel. Miskien gebruik jy 'n openbare IPv6 tonnel wat is stadig, óf nie geleë naby jou."
+msgstr "Verbindings aan IPv6 werk, maar is stadig. Miskien gebruik jy 'n publieke IPv6 tonnel wat óf stadig is óf vêr van jou af is."
 
 #: "inc/messages.js"
 msgid "Connections to IPv6-only sites are timing out. Any web site that is IPv6 only, will appear to be down to you."
-msgstr "Verbindings aan IPv6-net werwe is tydreëling. Enige webwerf wat IPv6 net, sal blyk te wees tot jy."
+msgstr "Verbindings aan werwe met slegs IPv6 bereik hulle verstrykingstyd. Enige webwerf met slegs IPv6 sal blyk om aflyn te wees."
 
 #: "not-used, archived.  Not currently needed for translation."
 msgid "Connections to IPv6-capable web sites hang. It appears that you may have IPv6 configured; and your computer believes that your IPv6 is working, with a route. It is however completely failing. Any web site that adds IPv6, will become unreachable to you. If you are unable to fix your IPv6 routing or connectivity, seek help. If all else fails, strongly consider disabling IP6 on host."
@@ -115,15 +117,15 @@ msgstr "Verbindings aan IPv6-in staat om webwerwe hang. Dit blyk dat jy mag het 
 
 #: "inc/messages.js"
 msgid "We are unable to test your system; it appears that a firewall or browser filter is preventing the test from running. Critical tests are failing. Try disabling any browser plugins, extensions, or add-ons (such as ad blockers); and reloading this page. If that still fails, you can leave a comment requesting help."
-msgstr "Ons is nie in staat om te toets jou stelsel; Dit blyk dat 'n brandmuur of blaaier filter voorkom dat die toets om te loop. Kritiese toetse is versuim. Probeer enige blaaier invoegtoepassings, uitbreidings of byvoegings (soos ad blokkers); en herlaai die bladsy. As dit steeds nie werk nie, kan jy los 'n kommentaar versoek hulp."
+msgstr "Ons is nie in staat om jou stelsel te toets nie. Dit blyk of 'n brandmuur of blaaier-filter die toets belemmer. Belangrike toetse vaal. Probeer om enige invoegtoepassings, uitbreidings of byvoegings (soos ad blokkers) af te skakel en herlaai die bladsy. Indien dit steeds nie werk nie, laat 'n boodskap om hulp agter."
 
 #: "inc/messages.js"
 msgid "We are unable to test your system; it appears that a firewall or browser filter is preventing the test from running. The dual-stack tests are failing. Try disabling any browser plugins, extensions, or add-ons (such as ad blockers); and reloading this page. If that still fails, you can leave a comment requesting help."
-msgstr "Ons is nie in staat om te toets jou stelsel; Dit blyk dat 'n brandmuur of blaaier filter voorkom dat die toets om te loop. Kritiese toetse is versuim. Probeer enige blaaier invoegtoepassings, uitbreidings of byvoegings (soos ad blokkers); en herlaai die bladsy. As dit steeds nie werk nie, kan jy los 'n kommentaar versoek hulp."
+msgstr "Ons is nie in staat om jou stelsel te toets nie. Dit blyk of 'n brandmuur of blaaier-filter die toets belemmer. Dubbel-stapel toetse vaal. Probeer om enige invoegtoepassings, uitbreidings of byvoegings (soos ad blokkers) af te skakel en herlaai die bladsy. Indien dit steeds nie werk nie, laat 'n boodskap om hulp agter."
 
 #: "inc/messages.js"
 msgid "Your browser is blocking the test urls. We will try alternate methods, but they may fail to show your IP address; and may affect the quality of the advice given."
-msgstr ""
+msgstr "Jou blaaier blokkeer die toetsadresse. Ons probeer ander metodes, maar hulle mag vaal om jou IP-adres te wys, en dit kan die kwaliteit van die raad wat ons verskaf affekteer."
 
 #: "inc/messages.js"
 msgid "The most likely cause is NoScript or AdBlock+. NoScript can be told to permit all scripts on this page (you may need to do this more than once). At minimum, permit the urls listed below."
@@ -139,7 +141,7 @@ msgstr "Jou DNS bediener (moontlik deur jou ISP verskaf) het blykbaar toegang to
 
 #: "inc/messages.js"
 msgid "Your DNS server (possibly run by your ISP) appears to have no access to the IPv6 Internet, or is not configured to use it. This may in the future restrict your ability to reach IPv6-only sites."
-msgstr "Jou DNS bediener (moontlik deur jou ISP verskaf) lyk nie as of dit toegang na die IPv6 internet het nie, of is nie daarvoor ingestel nie. Dit mag in die toekoms jou vermoë om IPv6 werwe te beryk beperk."
+msgstr "Dit lyk asof jou DNS bediener (moontlik deur jou ISP verskaf) nie toegang tot die IPv6 internet het nie, of dit is nie daarvoor ingestel nie. Dit mag in die toekoms jou vermoë om IPv6 werwe te beryk belemmer."
 
 #: "inc/messages.js"
 msgid "You are likely using a FireFox plugin that is causing IP based tests to fail. Examples: RequestPolicy. Please disable those while using this site."
@@ -159,15 +161,15 @@ msgstr ""
 
 #: "inc/messages.js"
 msgid "No IPv4 address detected"
-msgstr "Geen IPv4 adres was gevind nie"
+msgstr "Geen IPv4 adres is gevind nie"
 
 #: "inc/messages.js"
 msgid "No IPv6 address detected"
-msgstr "Geen IPv6 adres was gevind nie"
+msgstr "Geen IPv6 adres is gevind nie"
 
 #: "inc/messages.js"
 msgid "Your IP address(es) could not be detected due to inteference from browser add-ons."
-msgstr ""
+msgstr "Weens blaaier-byvoegings wat die toetse belemmer kan jou IP-adresse nie verkry word nie."
 
 #: "inc/messages.js"
 msgid "The Opera web browser seems to be break on this site frequently. <b>If you have trouble, try another browser</b>."
@@ -183,7 +185,7 @@ msgstr "<b>Goeie nuus!</b> Jou huidige opset sal aanhou werk soos webwerwe IPv6 
 
 #: "inc/messages.js"
 msgid "<b>Our tests show that you will have a broken or misconfigured IPv6 setup, and this will cause problems as web sites enable IPv6.</b>"
-msgstr ""
+msgstr "<b>Ons toetse dui aan dat jou IPv6 opstelling gebreek of verkeerd gekonfigureer is. Dit sal probleme veroorsaak soos webwerwe IPv6 begin aanbied.</b>"
 
 #: "inc/messages.js"
 msgid "<b>Our tests show that you may have MTU problems with IPv6; this can cause web sites to load slow (or not at all) when web sites enable IPv6.</b>"
@@ -219,7 +221,7 @@ msgstr ""
 
 #: "inc/messages.js"
 msgid "Since you have IPv6, we are including a tab that shows how well you can reach other IPv6 sites. %sites"
-msgstr "Omdat jy IPv6 het, sluit ons 'n tab in wat wys hoe maklik jy ander IPv6 werwe kan bereik. %sites"
+msgstr "Omdat jy IPv6 het, sluit ons 'n oortjie in wat wys hoe maklik jy ander IPv6 werwe kan bereik. %sites"
 
 #: "inc/messages.js"
 msgid "Your browser has real working IPv6 address - but is avoiding using it. We're concerned about this."
@@ -283,11 +285,11 @@ msgstr ""
 
 #: "inc/builtin.js"
 msgid "[more info]"
-msgstr ""
+msgstr "[wys meer]"
 
 #: "inc/builtin.js"
 msgid "Your IPv4 address on the public Internet appears to be"
-msgstr "Jou IPv4 adres op die publike Internet is blykbaar"
+msgstr "Jou IPv4-adres op die publike Internet is blykbaar"
 
 #: "inc/builtin.js"
 msgid "Proxied"
@@ -295,7 +297,7 @@ msgstr ""
 
 #: "inc/builtin.js"
 msgid "Your IPv6 address on the public Internet appears to be"
-msgstr ""
+msgstr "Jou IPv6-adres op die publieke Internet is blykbaar"
 
 #: "inc/builtin.js"
 msgid "Your IPv6 service appears to be"
@@ -303,7 +305,7 @@ msgstr ""
 
 #: "inc/builtin.js"
 msgid "Your Internet Service Provider (ISP) appears to be"
-msgstr "Jou Interet Verskaffer (ISP) is blykbaar"
+msgstr "Jou Interetdiensverskaffer (ISP) is blykbaar"
 
 #: "inc/builtin.js"
 msgid "Started"
@@ -319,7 +321,7 @@ msgstr "gebruik"
 
 #: "inc/builtin.js"
 msgid "tests run"
-msgstr ""
+msgstr "toetse uitgevoer"
 
 #: "inc/builtin.js"
 msgid "(Survey posting skipped; test was rigged)"
@@ -331,7 +333,7 @@ msgstr ""
 
 #: "inc/builtin.js"
 msgid "(Updated server side IPv6 readiness stats)"
-msgstr ""
+msgstr "(Bedienerkant IPv6 statistieke opgedateer)"
 
 #: "inc/builtin.js"
 msgid "(Survey posting failed; the above information is accurate, but not recorded.)"
@@ -339,15 +341,15 @@ msgstr ""
 
 #: "inc/builtin.js"
 msgid "Your readiness score"
-msgstr "Jou gereedheids telling"
+msgstr "Jou gereedheidstelling"
 
 #: "inc/builtin.js"
 msgid "for your IPv4 stability and readiness, when publishers offer both IPv4 and IPv6"
-msgstr ""
+msgstr "vir jou IPv4 gereedheid en stabiliteit wanneer uitgewers beide IPv4 en IPv6 aanbied"
 
 #: "inc/builtin.js"
 msgid "for your IPv6 stability and readiness, when publishers are forced to go IPv6 only"
-msgstr ""
+msgstr "vir jou IPv6 gereedheid en stabiliteit wanneer uitgewers gedwing word om oor te skakel na slegs IPv6 toe"
 
 #: "inc/builtin.js"
 msgid "Click to see"
@@ -383,7 +385,7 @@ msgstr ""
 
 #: "inc/versions.js"
 msgid "%app: You are running version %found; we recommend %suggest or newer."
-msgstr ""
+msgstr "%app: Jy gebruik weergawe %found; ons beveel weergawe %suggest of nuwer aan."
 
 #: "inc/form.js"
 msgid "share your results"
@@ -439,7 +441,7 @@ msgstr "FAQ"
 
 #: "inc/list-nav.inc"
 msgid "Mirrors"
-msgstr ""
+msgstr "Kopieë"
 
 #: "inc/list-nav.inc"
 msgid "stats"
@@ -479,19 +481,19 @@ msgstr ""
 
 #: "main/tabnav.inc"
 msgid "For the Help Desk"
-msgstr ""
+msgstr "Hulptoonbank"
 
 #: "main/tabnav.inc"
 msgid "Summary"
-msgstr ""
+msgstr "Opsomming"
 
 #: "main/tabnav.inc"
 msgid "Tests Run"
-msgstr ""
+msgstr "Toetse"
 
 #: "main/tabnav.inc"
 msgid "Share Results / Contact"
-msgstr ""
+msgstr "Deel Uitslag / Kontak"
 
 #: "main/tabnav.inc"
 msgid "FAQ for You"
@@ -511,15 +513,15 @@ msgstr ""
 
 #: "main/tests.inc"
 msgid "How this test works:"
-msgstr ""
+msgstr "Hoe werk hierdie toets:"
 
 #: "main/tests.inc"
 msgid "Your browser will be instructed to reach a series of URLs. The combination of successes and failures tells a story about how ready you are for when publishers start offering their web sites on IPv6."
-msgstr ""
+msgstr "Jou webblaaier word beveel om 'n aantal andresse te besoek. Die kombinasie van adresse wat suksesvol bereik is, of gevaal het, vertel 'n storie van hoe gereed jy is wanneer uitgewers hulle webwerwe op IPv6 begin aanbied."
 
 #: "main/tests.inc"
 msgid "Technical Info"
-msgstr ""
+msgstr "Tegniese Details"
 
 #: "main/tests.inc"
 msgid "Test with IPv4 DNS record"
@@ -659,7 +661,7 @@ msgstr ""
 
 #: "main/mail.inc"
 msgid "If reporting a problem with the test, or requesting help with your results, please fill out all requested information to the best of your ability. If leaving general comments, use your best judgement on how much to report."
-msgstr ""
+msgstr "Indien jy 'n probleem met die toets rapporteer, of 'n vraag het rakende jou resultate, vul asseblief al die vereiste inligting tot die beste van jou vermoë in. Indien jy algemene kommentaar agterlaat, gebruik goeie oordeel hoeveel inligting om te verskaf."
 
 #: "main/mail.inc"
 msgid "Thanks,"
@@ -667,7 +669,7 @@ msgstr "Baie Dankie,"
 
 #: "main/mail.inc"
 msgid "Purpose for comment"
-msgstr ""
+msgstr "Rede vir jou boodskap"
 
 #: "main/mail.inc"
 msgid "Questions about test results"
@@ -771,7 +773,7 @@ msgstr "Kenmerke"
 
 #: "inc/disclaimer.inc"
 msgid "This is a mirror of test-ipv6.com. The views expressed here may or may not reflect the views of the mirror owner."
-msgstr ""
+msgstr "Hierdie is 'n kopie van test-ipv6.com. Die menings wat hier uitgespreek word weerspieël nie noodwendig die sienings van die eienaar van die kopie nie."
 
 #: "locale.html"
 msgid "Available Languages"
@@ -1177,7 +1179,7 @@ msgstr ""
 msgid "If you use 6to4</b> (without a tunnel broker; ie, using anonymous 6to4):"
 msgstr "As jy gebruik 6to4</b> (dws, gebruik anonieme 6to4 sonder 'n tonnel makelaar;):"
 
-#: "faq/6to4_sucks.inc"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "The use of \"automatic\" 6to4, or the use of 6to4 without explicit configuration of the gateways, is not recommended. For more information see <a href='#' onclick='return help_page(\"faq_6to4.html\",\"6to4\")'>6to4</a>."
 msgstr ""
 
@@ -1221,7 +1223,7 @@ msgstr ""
 msgid "Ask your ISP if they offer any IPv6 connectivity (including possibly 6in4 tunnels, or tunnelbroker type tunnels)."
 msgstr ""
 
-#: "faq/broken_6to4.inc"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "See <a href=\"#\" onclick='return help_page(\"faq_6to4.html\",\"6to4\")'>6to4</a> for more information on why you would want to switch; and some options."
 msgstr ""
 
@@ -1719,11 +1721,11 @@ msgstr ""
 
 #: "mirrors.html"
 msgid "test-ipv6.com mirrors"
-msgstr ""
+msgstr "test-ipv6.com kopieë"
 
 #: "mirrors.html"
 msgid "These are the known publicly accessible mirrors for test-ipv6.com."
-msgstr ""
+msgstr "Hierdie is die bekende publiek-toeganklike kopieë van test-ipv6.com."
 
 #: "mirrors.html"
 msgid "Thank you to all of these organizations, who have put in significant effort to provide this mirror sites. If you have problems with the site you are on now, try another mirror site; perhaps one closer to you."
@@ -1735,7 +1737,7 @@ msgstr ""
 
 #: "mirrors.html"
 msgid "(generated by javascript)"
-msgstr ""
+msgstr "(deur javascript gemaak)"
 
 #: "mirrors.html"
 msgid "Interested in running a mirror?"
@@ -1877,7 +1879,7 @@ msgstr ""
 msgid "Many of the visitors to the site are new to what IPv6 is."
 msgstr ""
 
-#: "faq/whyipv6.inc"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "If you don't know why IPv6 matters, see the <a href=\"#\" onclick=\"return help_page('faq_whyipv6.html','Why IPv6')\">Why IPv6 FAQ</a>."
 msgstr ""
 
@@ -2779,7 +2781,7 @@ msgstr ""
 
 #: "inc/messages.js"
 msgid "To ensure the best Internet performance and connectivity, ask your ISP about native IPv6."
-msgstr ""
+msgstr "Om die beste kwaliteit internet te verseker, vra jou internetdiensverskaffer oor direkte IPv6 ondersteuning."
 
 #: "faq/plugins_tryagain.inc"
 msgid "After disabling any suspect plugins or extensions, try this site again."
@@ -2799,9 +2801,9 @@ msgstr ""
 
 #: "inc/messages.js"
 msgid "We are sometimes unable to detect Teredo and 6to4 when using HTTPS."
-msgstr ""
+msgstr "Wanneer HTTPS gebruik word kan ons soms nie Teredo en 6na4 optel nie."
 
-#: "inc/messages.js"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "HTTPS support on this web site is in <em>beta</em>."
 msgstr ""
 
@@ -2821,35 +2823,35 @@ msgstr ""
 msgid "To see your IP addresses: <code>ifconfig -a inet6</code> or <code>ifconfig -f inet6</code>"
 msgstr ""
 
-#: "faq_https.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Differences in HTTP vs HTTPS"
 msgstr ""
 
-#: "faq_https.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "HTTP and HTTPS bring us different testing capabilities. Unfortunately, we can not test both at once. You can choose which features to test for, by using http://test-ipv6.com or https://test-ipv6.com."
 msgstr ""
 
-#: "faq_https.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "<b>HTTP</b> allows us to test for Teredo and 6to4. Both are transitional technologies. Modern operating systems by default no longer use those, unless there is no other choice. Windows, for example, will not use Teredo, when the browser is given a DNS name to connect to. However, Windows will attempt to use Teredo, when told an IPv6-only IP address. 6to4 is similarly deprecated; and only likely used if there is no other choice."
 msgstr ""
 
-#: "faq_https.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "HTTP also allows us to detect certain types of DNS64/NAT64. NAT64 is a migration strategy that allows for an eventual IPv6-only Internet. Until then, connections to the IPv4 Internet are translated. We detect this by making connections to literal IP address, such as http://192.0.2.1/ (with a server-specific IP address). We are able to detect NAT64 in particular when there is no local IPv4 tunnel (464xlat on Android) or OS assistance (Apple iOS, Apple MacOS)."
 msgstr ""
 
-#: "faq_https.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "<b>HTTPS</b>, which ensures a trusted transport from you to the server, allows bypassing many corporate and mobile proxy servers. There are exceptions; particularly if you agreed to install their certificate; but that is generally not advised. Bypassing these proxies allows us to show you a better idea of your IP address - something that represents your location, and your connectivity to the IPv6 Internet."
 msgstr ""
 
-#: "faq_https.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "A limitation of using HTTPS exists. Since HTTPS requires certificates, and certificates are not offered to IP addresses (but instead to web site names), we can't test for NAT64, 6to4, or Teredo."
 msgstr ""
 
-#: "faq_https.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "Should I use HTTP or HTTPS?"
 msgstr ""
 
-#: "faq_https.html"
+#: "not-used, archived.  Not currently needed for translation."
 msgid "If you're in a new location, or a computer you're not familiar with, consider both! If both come up with the same results, you can pick HTTP for speed, or HTTPS to bypass certain proxies."
 msgstr ""
 
@@ -2867,7 +2869,7 @@ msgstr ""
 
 #: "inc/builtin.js"
 msgid "Test Data"
-msgstr ""
+msgstr "Toets Data"
 
 #: "inc/form.js"
 msgid "Please consent to sharing your data."
@@ -2895,7 +2897,7 @@ msgstr ""
 
 #: "main/mail.inc"
 msgid "<span id=\"comments_faq_link\"></span> (FAQ) page is available for <b>your</b> exact set of results. Please read it before leaving comments; many questions have already been answered. If you still have questions, comments, or concerns, feel free to use this form."
-msgstr ""
+msgstr "'n <span id=\"comments_faq_link\"></span> (FAQ) bladsy is beskikbaar vir <b>jou</b> spesfieke resultate. Lees dit asseblief goed deur voordat jy enige kommentaar laat of vrae vra. Baie van die vrae is reeds gevra en geantwoord. As jy steeds vrae, kommentaar of ander kommer het, laat gerus 'n boodskap in hierdie vorm agter."
 
 #: "main/mail.inc"
 msgid "I consent to sharing my IP address(es), test results, web browser name and version, operating system name and version, and any other information entered above (including email address), as email transmitted to <a mailto=site.mailto href=\"-\"><span lookup=site.contact></span> &lt;<span lookup=site.mailto></span>&gt;</a>; and that this information may be translated by Google Translate."
@@ -2903,7 +2905,7 @@ msgstr ""
 
 #: "inc/footer.inc"
 msgid "Share on:"
-msgstr ""
+msgstr "Deel met:"
 
 #: "faq_avoids_ipv6.html"
 msgid "Since Windows 7, the operating system will periodically test to see if IPv6 works. If the health check fails, then many applications (including Internet Explorer) will use IPv4, to insulate you from any local IPv6 misconfiguration."
@@ -2987,5 +2989,129 @@ msgstr ""
 
 #: "simple_test.html"
 msgid "dummy comment, testing translation"
+msgstr ""
+
+#: "faq_https.html"
+msgid "HTTP vs HTTPS"
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "The web is evolving towards using secure connections everywhere. While this is generally a good thing, it does impact what tests we can run."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "When visiting with HTTPS, we are unable to report NAT64 or 6to4. We are also unable to detect certain conditions where Teredo might be used."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "Some browsers now force HTTPS. For these browsers, the above features are no longer available."
+msgstr ""
+
+#: "faq_https.html"
+msgid "Why do these specific tests fail when using HTTPS?"
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "The specific features mentioned work, by making connections to specific IP addresses, and seeing if those connections work. When running in HTTPS mode, this would require special certificates. We can only get those certificates if we can prove ownership of those IP addresses."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "test-ipv6.com is actually spread across many providers. Some are hosting providers, or customers of hosting provides. Some are broadband internet providers. It is not possible for me to prove ownership of another business's IP space, even if they are letting me use that space for test-ipv6.com."
+msgstr ""
+
+#: "faq_https.html"
+msgid "When visiting with HTTPS, we are unable to detect NAT64 or Teredo."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "To test for NAT64, 6to4, and hidden Teredo capabilities, we make connections to specific IP addresses (instead of names), and seeing if those connections work. NAT64 is detected when connections by name work, but by IPv4 address do not. Teredo is detected when connections made by name fail, but by IPv6 address work."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "When running in HTTPS mode, this would require special certificates. We can only get those certificates if we can prove ownership of those IP addresses."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "test-ipv6.com is actually spread across many providers. Some are hosting providers, or customers of hosting provides. Some are broadband internet providers. It is not possible for me to prove my ownership of their address space. For mirror operators that CAN prove this, these certificates tend to be expensive due to the extra burden of proof needing examination."
+msgstr ""
+
+#: "faq_https.html"
+msgid "The web is evolving towards using secure connections everywhere. While this is generally a good thing for security, it does impact what tests we can run."
+msgstr ""
+
+#: "faq_https.html"
+msgid "Some browsers now force HTTPS. For these browsers, these features are no longer available."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "To test for NAT64 and Teredo, we make connections to specific IP addresses (instead of names), and seeing if those connections work. NAT64 is detected when connections by name work, but by IPv4 address do not. Teredo is detected when connections made by name fail, but by IPv6 address work."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "NAT64 is detected when connections by name work, but by IPv4 address do not."
+msgstr ""
+
+#: "faq_https.html"
+msgid "NAT64 is detected when connections by name work, but by IPv4 numeric address do not."
+msgstr ""
+
+#: "faq_https.html"
+msgid "Teredo is detected when connections by name fail, but by IPv6 numeric address work."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "When running in HTTPS mode, this requires special certificates. These certificates are available only with proof of ownership for the IP addresses."
+msgstr ""
+
+#: "faq_https.html"
+msgid "When running in HTTPS mode, connecting to a specific IP address requires a special certificate. These certificates are available only with proof of ownership for the IP address."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "test-ipv6.com is actually spread across many providers. Some are hosting providers, or customers of hosting provides. Some are broadband internet providers. It is not possible for test-ipv6.com to prove ownership of their address space. As an example, I can't prove I own the Comcast mirror IP addresses. For mirror operators that CAN prove this, these certificates tend to be expensive due to the extra burden of proof needing examination."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "test-ipv6.com is actually spread across many providers. Some are hosting providers, or customers of hosting provides. Some are broadband internet providers. It is not possible for test-ipv6.com to prove ownership of their address space."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "As an example, I can't prove I own the Comcast (a large US broadbroad provider) IP addresses used by this site.</p> <p>{{Links:"
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "HTTPS used. Some tests are skipped."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "Secure HTTPS used. Skipping Teredo and NAT64 tests."
+msgstr ""
+
+#: "inc/messages.js"
+msgid "🔒HTTPS used. Skipping Teredo and NAT64 tests."
+msgstr "🔒HTTPS word gebruik. Teredo en NAT64 toetse word oorgeslaan."
+
+#: "faq/broken_6to4.inc"
+msgid "See <a href=\"faq_6to4.html\" onclick='return help_page(\"faq_6to4.html\",\"6to4\")'>6to4</a> for more information on why you would want to switch; and some options."
+msgstr ""
+
+#: "faq/6to4_sucks.inc"
+msgid "The use of \"automatic\" 6to4, or the use of 6to4 without explicit configuration of the gateways, is not recommended. For more information see <a href='faq_6to4.html' onclick='return help_page(\"faq_6to4.html\",\"6to4\")'>6to4</a>."
+msgstr ""
+
+#: "faq/whyipv6.inc"
+msgid "If you don't know why IPv6 matters, see the <a href=\"faq_whyipv6.html\" onclick=\"return help_page('faq_whyipv6.html','Why IPv6')\">Why IPv6 FAQ</a>."
+msgstr ""
+
+#: "faq_https.html"
+msgid "test-ipv6.com is actually spread across many providers. Some are hosting providers, or customers of hosting providers. Some are broadband internet providers. It is not possible for test-ipv6.com to prove ownership of their address space."
+msgstr ""
+
+#: "not-used, archived.  Not currently needed for translation."
+msgid "As an example, I can't prove I own the Comcast (a large US broadbroad provider) IP addresses used by this site."
+msgstr ""
+
+#: "faq_https.html"
+msgid "As an example, I can't prove I own the Comcast (a large US broadband provider) IP addresses used by this site."
 msgstr ""
 

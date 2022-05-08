@@ -29,6 +29,7 @@ ifeq ($(PUBLISH),true)
 	mkdir -p dl
 	unzip -q -d dl all.zip
 	for x in `find dl/ -type d`; do cp README.md $$x/ ; done
+	find dl
 else
 	echo make crowdin-download skipped on this host
 endif

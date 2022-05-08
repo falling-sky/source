@@ -25,6 +25,9 @@ RUN ls -l cicd_i18n  ; true
 RUN if [[ -s cicd_release ]]; then cd sites && go run parse-sites.go || exit 1 ; cat ../templates/js/sites_parsed.js ; fi
 RUN if [[ -s cicd_i18n ]]; then ./support/add-build-date ; fi
 
+# Download?
+RUN if [[ -s translations/crowdin.yaml ]]; then cd translations && make || exit 1 ; fi
+
 # Build the project
 RUN fsbuilder
 
