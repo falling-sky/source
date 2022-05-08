@@ -15,7 +15,7 @@ RUN apk add make git rsync curl openssh-client
 COPY . /build
 WORKDIR /build
 
-RUN go install github.com/falling-sky/fsbuilder
+RUN go install github.com/falling-sky/fsbuilder@latest
 
 # Make sure there is a valid sites file (minimum for beta).
 # Under release and i18n conditions, do a full real check.
