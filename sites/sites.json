@@ -587,6 +587,15 @@
       "provider": "SJULTRA",
       "v4": "https://ipv4.test-ipv6.vzxy.net/images-nc/knob_green.png",
       "v6": "https://ipv6.test-ipv6.vzxy.net/images-nc/knob_green.png"
+    },
+     "test-ipv6.is": {
+      "hide": false,
+      "loc": "DE",
+      "mirror": true,
+      "monitor": "jdandri@gmail.com",
+      "provider": "Dandri",
+      "v4": "https://ipv4.test-ipv6.is/images-nc/knob_green.png",
+      "v6": "https://ipv6.test-ipv6.is/images-nc/knob_green.png"
     }
   }
 }
