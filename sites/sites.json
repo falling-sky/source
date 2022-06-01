@@ -475,8 +475,7 @@
       "v6": "https://test6.vyncke.org/knob_valid_green.png"
     },
     "test-ipv6.hu": {
-      "hide": true,
-      "reason": "needs tls 1.2+",
+      "hide": false,
       "loc": "HU",
       "mirror": true,
       "monitor": "Polaris-N Systems <info@polaris-n.hu>",
