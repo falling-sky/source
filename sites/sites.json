@@ -560,15 +560,6 @@
       "v4": "https://ipv4.test-ipv6.vzxy.net/site/logo-v4.png",
       "v6": "https://ipv6.test-ipv6.vzxy.net/site/logo-v6.png"
     },
-    "test-ipv6.rjkonect.com.br": {
-      "hide": false,
-      "loc": "BR",
-      "mirror": true,
-      "monitor": "noc@rjkonect.com.br",
-      "provider": "RJ-Konect",
-      "v4": "https://ipv4.test-ipv6.rjkonect.com.br/site/logo-v4.png",
-      "v6": "https://ipv6.test-ipv6.rjkonect.com.br/site/logo-v6.png"
-    },
     "test-ipv6.csclub.uwaterloo.ca": {
       "hide": false,
       "loc": "CA",
