@@ -580,7 +580,7 @@
     },
      "test-ipv6.is": {
       "hide": false,
-      "loc": "DE",
+      "loc": "IS",
       "mirror": true,
       "monitor": "jdandri@gmail.com",
       "provider": "Dandri",
