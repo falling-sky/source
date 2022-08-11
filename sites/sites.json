@@ -411,7 +411,7 @@
       "v6": "https://ipv6.vm3.test-ipv6.com/images-nc/knob_green.png"
     },
     "vulndetect.org": {
-      "hide": false,
+      "hide": true,
       "loc": "IE",
       "monitor": "tom@vulndetect.com",
       "provider": "vulndetect.org (hosted at Amazon Ireland)",
