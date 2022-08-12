@@ -484,6 +484,16 @@
       "v4": "https://ipv4.test-ipv6.hu/images-nc/knob_green.png",
       "v6": "https://ipv6.test-ipv6.hu/images-nc/knob_green.png"
     },
+    "test-ipv6.ttk.ru": {
+      "hide": false,
+      "loc": "RU",
+      "mirror": true,
+      "monitor": "TTK-Volga Network Operations Centre <noc@vtt.net>",
+      "provider": "TTK",
+      "site": "test-ipv6.ttk.ru",
+      "v4": "https://ipv4.test-ipv6.ttk.ru/images-nc/knob_green.png",
+      "v6": "https://ipv6.test-ipv6.ttk.ru/images-nc/knob_green.png"
+    },
     "test-ipv6.usetelecom.com.br": {
       "hide": false,
       "loc": "BR",
