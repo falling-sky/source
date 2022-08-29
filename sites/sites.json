@@ -378,18 +378,6 @@
       "v4": "https://ipv4.test-ipv6.tld.sk/images-nc/knob_green.png",
       "v6": "https://ipv6.test-ipv6.tld.sk/images-nc/knob_green.png"
     },
-    "test-ipv6.zw.liquidtelecom.net": {
-      "contact": "Liquid Telecom <ipv6@liquidtelecom.com>",
-      "hide": false,
-      "loc": "ZW",
-      "mirror": true,
-      "monitor": "ipv6@liquidtelecom.com",
-      "provider": "Liquid Telecom",
-      "site": "test-ipv6.zw.liquidtelecom.net",
-      "transparent": true,
-      "v4": "https://ipv4.test-ipv6.zw.liquidtelecom.net/images-nc/knob_green.png",
-      "v6": "https://ipv6.test-ipv6.zw.liquidtelecom.net/images-nc/knob_green.png"
-    },
     "testipv6.de": {
       "hide": false,
       "loc": "DE",
