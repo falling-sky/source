@@ -46,16 +46,6 @@
       "v4": "http://ipv4.test-ipv6.in/images/knob_green.png",
       "v6": "http://ipv6.test-ipv6.in/images/knob_green.png"
     },
-    "www.limeconsultants.com": {
-      "hide": false,
-      "loc": "IN",
-      "monitor": "ipv6@limeconsultants.com",
-      "provider": "Lime Consultants",
-      "mirror": false,
-      "site": "www.limeconsultants.com",
-      "v4": "https://ipv4.limeconsultants.com/1x1.png",
-      "v6": "https://ipv6.limeconsultants.com/1x1.png"
-    },
     "eurobilltracker.com": {
       "hide": false,
       "loc": "FI",
