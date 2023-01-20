@@ -544,6 +544,15 @@
       "provider": "Dandri",
       "v4": "https://ipv4.test-ipv6.is/images-nc/knob_green.png",
       "v6": "https://ipv6.test-ipv6.is/images-nc/knob_green.png"
+    },
+     "test-ipv6.iu13.net": {
+      "hide": false,
+      "loc": "US (PA)",
+      "mirror": true,
+      "monitor": "test-ipv6@iu13.org",
+      "provider": "Lancaster-Lebanon IU13",
+      "v4": "https://ipv4.test-ipv6.iu13.net/images-nc/knob_green.png",
+      "v6": "https://ipv6.test-ipv6.iu13.net/images-nc/knob_green.png"
     }
   }
 }

@@ -2677,10 +2677,6 @@ msgid "Q: What are your data sources?"
 msgstr ""
 
 #: "faq.html"
-msgid "The following data sources are checked daily, and are used to convert IP addresses into Internet Service Provider names. <ul> <li><a href=\"http://routeviews.org\">University of Oregon Route Views Archive Project</a> provides hourly views of the Internet routing tables. <li><a href=\"http://bgp.potaroo.net/asn.txt\">http://bgp.potaroo.net/asn.txt</a> is a currated list of ASNs to internet service provider names. This is provided by Geoff Huston, a well respected researcher from APNIC. </ul>"
-msgstr ""
-
-#: "faq.html"
 msgid "Q: What features have been added/removed?"
 msgstr ""
 
@@ -2698,5 +2694,21 @@ msgstr ""
 
 #: "faq.html"
 msgid "2022: Removed direct IP checks, NAT64 detection, Teredo detection. This is for support cost reasons; too many people complain about the tests that are skipped in https mode, and we're seeing browsers forcefully upgrade to https."
+msgstr ""
+
+#: "faq.html"
+msgid "The following data sources are checked daily, and are used to convert IP addresses into Internet Service Provider names. <ul> <li><a href=\"http://routeviews.org\">University of Oregon Route Views Archive Project</a> provides hourly views of the Internet routing tables. <li><a href=\"http://bgp.potaroo.net/asn.txt\">http://bgp.potaroo.net/asn.txt</a> is a curated list of ASNs to internet service provider names. This is provided by Geoff Huston, a well respected researcher from APNIC. </ul>"
+msgstr ""
+
+#: "locale.html"
+msgid "Locale Name"
+msgstr ""
+
+#: "locale.html"
+msgid "Language Name"
+msgstr ""
+
+#: "locale.html"
+msgid "Percent Translated"
 msgstr ""
 
