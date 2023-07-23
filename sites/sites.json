@@ -536,6 +536,15 @@
       "v4": "https://ipv4.test-ipv6.vzxy.net/images-nc/knob_green.png",
       "v6": "https://ipv6.test-ipv6.vzxy.net/images-nc/knob_green.png"
     },
+    "www.netflash.com.cy": {
+      "hide": false,
+      "loc": "CY",
+      "mirror": false,
+      "monitor": "chris@netflash.com.cy",
+      "provider": "A.C. NetFlash Technologies Ltd",
+      "v4": "https://ipv4-test.netflash.com.cy/knob_green.png",
+      "v6": "https://ipv6-test.netflash.com.cy/knob_green.png"
+    },
      "test-ipv6.is": {
       "hide": false,
       "loc": "IS",
