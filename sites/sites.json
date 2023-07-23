@@ -540,7 +540,7 @@
       "hide": false,
       "loc": "CY",
       "mirror": false,
-      "monitor": "chris@netflash.com.cy",
+      "monitor": "ipv6-test@netflash.com.cy",
       "provider": "A.C. NetFlash Technologies Ltd",
       "v4": "https://ipv4-test.netflash.com.cy/knob_green.png",
       "v6": "https://ipv6-test.netflash.com.cy/knob_green.png"
