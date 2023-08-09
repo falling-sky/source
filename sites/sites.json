@@ -358,16 +358,6 @@
       "v4": "https://ipv4.test-ipv6.sin.vr.org/images-nc/knob_green.png",
       "v6": "https://ipv6.test-ipv6.sin.vr.org/images-nc/knob_green.png"
     },
-    "test-ipv6.tld.sk": {
-      "hide": false,
-      "loc": "SK",
-      "mirror": true,
-      "monitor": "\"SK-NIC, a.s.\" <hostmaster@sk-nic.sk>",
-      "provider": "Sk-nic",
-      "site": "test-ipv6.tld.sk",
-      "v4": "https://ipv4.test-ipv6.tld.sk/images-nc/knob_green.png",
-      "v6": "https://ipv6.test-ipv6.tld.sk/images-nc/knob_green.png"
-    },
     "testipv6.de": {
       "hide": false,
       "loc": "DE",
