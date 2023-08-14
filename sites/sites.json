@@ -304,17 +304,6 @@
       "v4": "https://ipv4.test-ipv6.ke.liquidtelecom.net/images-nc/knob_green.png",
       "v6": "https://ipv6.test-ipv6.ke.liquidtelecom.net/images-nc/knob_green.png"
     },
-    "test-ipv6.nl": {
-      "hide": false,
-      "loc": "NL",
-      "mirror": true,
-      "#monitor": "Teun Vink <teun@bit.nl>",
-      "monitor": "support@bit.nl",
-      "provider": "BIT BV",
-      "site": "test-ipv6.nl",
-      "v4": "https://ipv4.test-ipv6.nl/images-nc/knob_green.png",
-      "v6": "https://ipv6.test-ipv6.nl/images-nc/knob_green.png"
-    },
     "test-ipv6.noroutetohost.net": {
       "contact": "David Wilkinson <test-ipv6@noroutetohost.net>",
       "hide": false,
