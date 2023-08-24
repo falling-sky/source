@@ -9,6 +9,17 @@
       "v4": "https://v4.test-ipv6.vu.ayepv6.com/images/knob_green.png",
       "v6": "https://v6.test-ipv6.vu.ayepv6.com/images/knob_green.png"
     },
+    "test-ipv6.coloradointerlink.net": {
+            "hide": false,
+      "loc": "US",
+      "mirror": true,
+      "monitor": "Casey Johnson <hostmaster@coloradointerlink.com>",
+      "provider": "Colorado Interlink",
+      "site": "test-ipv6.coloradointerlink.net",
+      "transparent": false,
+      "v4": "https://ipv4.test-ipv6.coloradointerlink.net/images-nc/knob_green.png",
+      "v6": "https://ipv6.test-ipv6.coloradointerlink.net/images-nc/knob_green.png"
+    },
     "8n1.org": {
       "hide": false,
       "loc": "NL",
@@ -46,16 +57,6 @@
       "v4": "http://ipv4.test-ipv6.in/images/knob_green.png",
       "v6": "http://ipv6.test-ipv6.in/images/knob_green.png"
     },
-    "www.limeconsultants.com": {
-      "hide": false,
-      "loc": "IN",
-      "monitor": "ipv6@limeconsultants.com",
-      "provider": "Lime Consultants",
-      "mirror": false,
-      "site": "www.limeconsultants.com",
-      "v4": "https://ipv4.limeconsultants.com/1x1.png",
-      "v6": "https://ipv6.limeconsultants.com/1x1.png"
-    },
     "eurobilltracker.com": {
       "hide": false,
       "loc": "FI",
@@ -75,14 +76,7 @@
       "v4": "https://ipv4.tunnelbroker.net/images/helogo.gif",
       "v6": "https://ipv6.tunnelbroker.net/images/helogo.gif"
     },
-    "ipv6-test.ch": {
-      "hide": false,
-      "loc": "UK",
-      "monitor": "Ken Booth <ken@ipv6-test.ch>",
-      "provider": "BSC-Telecom",
-      "v4": "http://ipv4.ipv6-test.ch/images-nc/knob_green.png",
-      "v6": "http://ipv6.ipv6-test.ch/images-nc/knob_green.png"
-    },
+
     "ipv6-test.pl": {
       "contact": "Net-Admin <ipv6@goodhost.eu>",
       "hide": false,
@@ -314,17 +308,6 @@
       "v4": "https://ipv4.test-ipv6.ke.liquidtelecom.net/images-nc/knob_green.png",
       "v6": "https://ipv6.test-ipv6.ke.liquidtelecom.net/images-nc/knob_green.png"
     },
-    "test-ipv6.nl": {
-      "hide": false,
-      "loc": "NL",
-      "mirror": true,
-      "#monitor": "Teun Vink <teun@bit.nl>",
-      "monitor": "support@bit.nl",
-      "provider": "BIT BV",
-      "site": "test-ipv6.nl",
-      "v4": "https://ipv4.test-ipv6.nl/images-nc/knob_green.png",
-      "v6": "https://ipv6.test-ipv6.nl/images-nc/knob_green.png"
-    },
     "test-ipv6.noroutetohost.net": {
       "contact": "David Wilkinson <test-ipv6@noroutetohost.net>",
       "hide": false,
@@ -368,28 +351,6 @@
       "v4": "https://ipv4.test-ipv6.sin.vr.org/images-nc/knob_green.png",
       "v6": "https://ipv6.test-ipv6.sin.vr.org/images-nc/knob_green.png"
     },
-    "test-ipv6.tld.sk": {
-      "hide": false,
-      "loc": "SK",
-      "mirror": true,
-      "monitor": "\"SK-NIC, a.s.\" <hostmaster@sk-nic.sk>",
-      "provider": "Sk-nic",
-      "site": "test-ipv6.tld.sk",
-      "v4": "https://ipv4.test-ipv6.tld.sk/images-nc/knob_green.png",
-      "v6": "https://ipv6.test-ipv6.tld.sk/images-nc/knob_green.png"
-    },
-    "test-ipv6.zw.liquidtelecom.net": {
-      "contact": "Liquid Telecom <ipv6@liquidtelecom.com>",
-      "hide": false,
-      "loc": "ZW",
-      "mirror": true,
-      "monitor": "ipv6@liquidtelecom.com",
-      "provider": "Liquid Telecom",
-      "site": "test-ipv6.zw.liquidtelecom.net",
-      "transparent": true,
-      "v4": "https://ipv4.test-ipv6.zw.liquidtelecom.net/images-nc/knob_green.png",
-      "v6": "https://ipv6.test-ipv6.zw.liquidtelecom.net/images-nc/knob_green.png"
-    },
     "testipv6.de": {
       "hide": false,
       "loc": "DE",
@@ -409,15 +370,6 @@
       "transparent": true,
       "v4": "https://ipv4.vm3.test-ipv6.com/images-nc/knob_green.png",
       "v6": "https://ipv6.vm3.test-ipv6.com/images-nc/knob_green.png"
-    },
-    "vulndetect.org": {
-      "hide": false,
-      "loc": "IE",
-      "monitor": "tom@vulndetect.com",
-      "provider": "vulndetect.org (hosted at Amazon Ireland)",
-      "site": "vulndetect.org",
-      "v4": "https://ipv4.vulndetect.org/assets/uploads/profile/ipv6.png",
-      "v6": "https://ipv6.vulndetect.org/assets/uploads/profile/ipv6.png"
     },
     "www.duiadns.net": {
       "loc": "NL",
@@ -494,17 +446,6 @@
       "v4": "https://ipv4.test-ipv6.ttk.ru/images-nc/knob_green.png",
       "v6": "https://ipv6.test-ipv6.ttk.ru/images-nc/knob_green.png"
     },
-    "test-ipv6.usetelecom.com.br": {
-      "hide": false,
-      "loc": "BR",
-      "mirror": true,
-      "monitor": "gsoares@usetelecom.com.br",
-      "contact": "NOC <noc@usetelecom.com.br>",
-      "provider": "Use Telecomunicações",
-      "site": "test-ipv6.usetelecom.com.br",
-      "v4": "https://ipv4.test-ipv6.usetelecom.com.br/images-nc/knob_green.png",
-      "v6": "https://ipv6.test-ipv6.usetelecom.com.br/images-nc/knob_green.png"
-    },
     "mudgee.host": {
       "hide": false,
       "loc": "AU",
@@ -551,15 +492,7 @@
       "v4": "https://ipv4.testipv6.cn/site/logo-v4.png",
       "v6": "https://ipv6.testipv6.cn/site/logo-v6.png"
     },
-    "test-ipv6.vzxy.net": {
-      "hide": false,
-      "loc": "DE",
-      "mirror": true,
-      "monitor": "mihai@vzxy.net",
-      "provider": "(personal)",
-      "v4": "https://ipv4.test-ipv6.vzxy.net/site/logo-v4.png",
-      "v6": "https://ipv6.test-ipv6.vzxy.net/site/logo-v6.png"
-    },
+
     "test-ipv6.csclub.uwaterloo.ca": {
       "hide": false,
       "loc": "CA",
@@ -578,6 +511,15 @@
       "v4": "https://ipv4.test-ipv6.vzxy.net/images-nc/knob_green.png",
       "v6": "https://ipv6.test-ipv6.vzxy.net/images-nc/knob_green.png"
     },
+    "www.netflash.com.cy": {
+      "hide": false,
+      "loc": "CY",
+      "mirror": false,
+      "monitor": "ipv6-test@netflash.com.cy",
+      "provider": "A.C. NetFlash Technologies Ltd",
+      "v4": "https://ipv4-test.netflash.com.cy/knob_green.png",
+      "v6": "https://ipv6-test.netflash.com.cy/knob_green.png"
+    },
      "test-ipv6.is": {
       "hide": false,
       "loc": "IS",
@@ -586,6 +528,15 @@
       "provider": "Dandri",
       "v4": "https://ipv4.test-ipv6.is/images-nc/knob_green.png",
       "v6": "https://ipv6.test-ipv6.is/images-nc/knob_green.png"
+    },
+     "test-ipv6.iu13.net": {
+      "hide": false,
+      "loc": "US (PA)",
+      "mirror": true,
+      "monitor": "test-ipv6@iu13.org",
+      "provider": "Lancaster-Lebanon IU13",
+      "v4": "https://ipv4.test-ipv6.iu13.net/images-nc/knob_green.png",
+      "v6": "https://ipv6.test-ipv6.iu13.net/images-nc/knob_green.png"
     }
   }
 }

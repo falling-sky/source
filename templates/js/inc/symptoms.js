@@ -339,7 +339,7 @@ GIGO.identify_symptoms = function () {
         // If at least a single name-based lookup worked, but all IP based ones were timeouts
         // both IPv4 and IPv6, then we more strongly suspect a filtering plugin.
         //  RequestPolicy follows this pattern.
-        if (Browser.Engine.gecko) {
+        if (Browser && Browser.Engine && Browser.Engine.gecko) {
             res.push("ip_timeout:firefox");
         }
         // Specifically, those were TIMEOUTS
