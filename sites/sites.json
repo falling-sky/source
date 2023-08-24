@@ -9,6 +9,17 @@
       "v4": "https://v4.test-ipv6.vu.ayepv6.com/images/knob_green.png",
       "v6": "https://v6.test-ipv6.vu.ayepv6.com/images/knob_green.png"
     },
+    "test-ipv6.coloradointerlink.net": {
+            "hide": false,
+      "loc": "US",
+      "mirror": true,
+      "monitor": "Casey Johnson <hostmaster@coloradointerlink.com>",
+      "provider": "Colorado Interlink",
+      "site": "test-ipv6.coloradointerlink.net",
+      "transparent": false,
+      "v4": "https://ipv4.test-ipv6.coloradointerlink.net/images-nc/knob_green.png",
+      "v6": "https://ipv6.test-ipv6.coloradointerlink.net/images-nc/knob_green.png"
+    },
     "8n1.org": {
       "hide": false,
       "loc": "NL",
