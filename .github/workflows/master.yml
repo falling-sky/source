@@ -7,9 +7,9 @@ name: CI-Master
 on:
   push:
     branches: [ hold-master ]
-  #schedule:
-  #  # * is a special character in YAML so you have to quote this string
-  #  - cron:  '0 15 * * *'
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    - cron:  '0 15 * * *'
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
