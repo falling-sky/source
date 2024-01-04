@@ -6,7 +6,7 @@ name: CI-Master
 # events but only for the master branch
 on:
   push:
-    branches: [ hold-master ]
+    branches: [ master ]
   schedule:
     # * is a special character in YAML so you have to quote this string
     - cron:  '0 15 * * *'
