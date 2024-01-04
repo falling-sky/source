@@ -28,6 +28,9 @@ RUN if [[ -s cicd_i18n ]]; then ./support/add-build-date ; fi
 # Download?
 RUN if [[ -s translations/crowdin.yaml ]]; then cd translations && make || exit 1 ; fi
 
+RUN ls -l translations
+
+
 # Build the project
 RUN fsbuilder
 
