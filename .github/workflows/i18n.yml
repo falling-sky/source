@@ -22,7 +22,7 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v5
 
     - run: 'echo "$SSH_KEY" > cicd_i18n && chmod 600 cicd_i18n'
       shell: bash
@@ -34,9 +34,18 @@ jobs:
       env:
         CROWDIN_JSON: ${{secrets.CROWDIN_JSON}}
 
+
+    -
+      # Setting up Docker Buildx with docker-container driver is required
+      # at the moment to be able to use a subdirectory with Git context
+      name: Set up Docker Buildx
+      uses: docker/setup-buildx-action@v3
+        
+
     - name: Build and push Docker images
       uses: docker/build-push-action@v1.1.0
       with:
+        context: "."
         repository: jfesler/dummyvalue
         path: .
         push: false
