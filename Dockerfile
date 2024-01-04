@@ -26,7 +26,7 @@ RUN if [[ -s cicd_release ]]; then cd sites && go run parse-sites.go || exit 1 ;
 RUN if [[ -s cicd_i18n ]]; then ./support/add-build-date ; fi
 
 # Download?
-RUN if [[ -s translations/crowdin.yaml ]]; then cd translations && make || exit 1 ; fi
+RUN if [[ -s translations/crowdin.json ]]; then cd translations && make || exit 1 ; fi
 
 RUN ls -l translations
 
