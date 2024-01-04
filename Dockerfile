@@ -35,7 +35,7 @@ RUN ls -l translations
 RUN fsbuilder
 
 # Post-processing: translation and uploads
-RUN if [[ -s translations/crowdin.yaml ]]; then cd translations && make || exit 1 ; fi
+RUN if [[ -s translations/crowdin.json ]]; then cd translations && make || exit 1 ; fi
 
 # Publish
 RUN if [ -s cicd_release ]; then  rsync -a -e "ssh -o StrictHostKeyChecking=no  -i cicd_release -p 2222"  output/. fskyweb@rsync.test-ipv6.com:stable/content/. || exit 1 ; fi
