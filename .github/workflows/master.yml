@@ -23,7 +23,7 @@ jobs:
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - name: Checkout
-      uses: actions/checkout@v2.2.0
+      uses: actions/checkout@v4
       with:
         fetch-depth: 0
 
@@ -34,14 +34,24 @@ jobs:
       env:
         SSH_KEY: ${{secrets.CICD_RELEASE}}
 
-    - run: 'echo "$CROWDIN_YAML" > translations/crowdin.yaml && chmod 600 translations/crowdin.yaml'
+    - run: 'echo "$CROWDIN_JSON" > translations/crowdin.json && chmod 600 translations/crowdin.json'
       shell: bash
       env:
-        CROWDIN_YAML: ${{secrets.CROWDIN_YAML}}
+        CROWDIN_JSON: ${{secrets.CROWDIN_JSON}}
+
+
+    -
+      # Setting up Docker Buildx with docker-container driver is required
+      # at the moment to be able to use a subdirectory with Git context
+      name: Set up Docker Buildx
+      uses: docker/setup-buildx-action@v3
+        
+
 
     - name: Build and push Docker images
-      uses: docker/build-push-action@v1.1.0
+      uses: docker/build-push-action@v5
       with:
+        context: "."
         username: ${{ secrets.DockerUser }}
         password: ${{ secrets.DockerPassword }}
         registry: ${{ secrets.DockerRegistry }}
