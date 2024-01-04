@@ -12,6 +12,6 @@ if [ -z $MD5 ]; then
   exit 1
 fi
 
-cp favicon-16.png $MD5.png
-ls -l $MD5.png
+cp favicon-16.png ood_$MD5.png
+ls -l ood_$MD5.png
 
