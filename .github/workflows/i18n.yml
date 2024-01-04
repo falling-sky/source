@@ -29,10 +29,10 @@ jobs:
       env:
         SSH_KEY: ${{secrets.CICD_RELEASE}}
 
-    - run: 'echo "$CROWDIN_YAML" > translations/crowdin.yaml && chmod 600 translations/crowdin.yaml'
+    - run: 'echo "$CROWDIN_JSON" > translations/crowdin.json && chmod 600 translations/crowdin.json'
       shell: bash
       env:
-        CROWDIN_YAML: ${{secrets.CROWDIN_YAML}}
+        CROWDIN_JSON: ${{secrets.CROWDIN_JSON}}
 
     - name: Build and push Docker images
       uses: docker/build-push-action@v1.1.0

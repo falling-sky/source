@@ -10,6 +10,7 @@ output
 po/missing.*.po
 translations/all.zip
 translations/crowdin.yaml
+translations/crowdin.json
 translations/falling-sky.pot
 translations/dl/*/*po
 translations/falling-sky.pot
