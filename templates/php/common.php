@@ -22,21 +22,22 @@ parse_str($_SERVER["QUERY_STRING"], $raw_query);
 # }
 
 
-try {
-    if (get_magic_quotes_gpc()) {
-        function stripslashes_gpc(&$value)
-        {
-            $value = stripslashes($value);
+if (function_exists("get_magic_quotes_gpc")) {
+    try {
+        if (get_magic_quotes_gpc()) {
+            function stripslashes_gpc(&$value)
+            {
+                $value = stripslashes($value);
+            }
+            array_walk_recursive($_GET, 'stripslashes_gpc');
+            array_walk_recursive($_POST, 'stripslashes_gpc');
+            array_walk_recursive($_COOKIE, 'stripslashes_gpc');
+            array_walk_recursive($_REQUEST, 'stripslashes_gpc');
         }
-        array_walk_recursive($_GET, 'stripslashes_gpc');
-        array_walk_recursive($_POST, 'stripslashes_gpc');
-        array_walk_recursive($_COOKIE, 'stripslashes_gpc');
-        array_walk_recursive($_REQUEST, 'stripslashes_gpc');
+    } catch (Exception $e) {
+        // Do nothing.
     }
-} catch (Exception $e) {
-    // Do nothing.
 }
-
 
 function param_val($name, $regex)
 {
