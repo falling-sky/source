@@ -1,553 +1,542 @@
-{
-  "sites": {
-    "2.ayepv6.com": {
-      "hide": false,
-      "loc": "UK",
-      "monitor": "Stephen Strowes <sdstrowes@gmail.com>",
-      "provider": "Stephen Strowes (hosted at Vultr)",
-      "site": "ayepv6.com",
-      "v4": "https://v4.test-ipv6.vu.ayepv6.com/images/knob_green.png",
-      "v6": "https://v6.test-ipv6.vu.ayepv6.com/images/knob_green.png"
-    },
-       "test-ipv6.coloradointerlink.net": {
-             "hide": false,
-       "loc": "US",
-       "mirror": true,
-       "monitor": "Casey Johnson <hostmaster@coloradointerlink.com>",
-       "provider": "Colorado Interlink",
-       "site": "test-ipv6.coloradointerlink.net",
-       "transparent": false,
-       "v4": "https://ipv4.test-ipv6.coloradointerlink.net/images-nc/knob_green.png",
-       "v6": "https://ipv6.test-ipv6.coloradointerlink.net/images-nc/knob_green.png"
-     },
-    "test-ipv6.coloradointerlink.net": {
-            "hide": false,
-      "loc": "US",
-      "mirror": true,
-      "monitor": "Casey Johnson <hostmaster@coloradointerlink.com>",
-      "provider": "Colorado Interlink",
-      "site": "test-ipv6.coloradointerlink.net",
-      "transparent": false,
-      "v4": "https://ipv4.test-ipv6.coloradointerlink.net/images-nc/knob_green.png",
-      "v6": "https://ipv6.test-ipv6.coloradointerlink.net/images-nc/knob_green.png"
-    },
-    "8n1.org": {
-      "hide": false,
-      "loc": "NL",
-      "monitor": "Sander Smeenk <sander@bit.nl>",
-      "provider": "8n1.org - a simple pastebin",
-      "site": "8n1.org",
-      "v4": "https://ip4.8n1.org/test.gif",
-      "v6": "https://ip6.8n1.org/test.gif"
-    },
-    "ayepv6.com": {
-      "hide": false,
-      "loc": "UK",
-      "monitor": "Stephen Strowes <sdstrowes@gmail.com>",
-      "provider": "Stephen Strowes (hosted at Digital Ocean)",
-      "site": "ayepv6.com",
-      "v4": "https://v4.test-ipv6.do.ayepv6.com/images/knob_green.png",
-      "v6": "https://v6.test-ipv6.do.ayepv6.com/images/knob_green.png"
-    },
-    "bvconline.com.ar": {
-      "hide": false,
-      "loc": "AR",
-      "mirror": false,
-      "monitor": "Ariel Cuesta <arielc@vianet.com.ar>",
-      "provider": "BVNET S.A",
-      "v4": "http://ipv4.test-ipv6.bvconline.com.ar/knob_green.png",
-      "v6": "http://ipv6.test-ipv6.bvconline.com.ar/knob_green.png"
-    },
-    "test-ipv6.in": {
-      "hide": false,
-      "loc": "IN",
-      "monitor": "ipv6@limeconsultants.com",
-      "provider": "Lime Consultants",
-      "mirror": true,
-      "site": "test-ipv6.in",
-      "v4": "http://ipv4.test-ipv6.in/images/knob_green.png",
-      "v6": "http://ipv6.test-ipv6.in/images/knob_green.png"
-    },
-    "eurobilltracker.com": {
-      "hide": false,
-      "loc": "FI",
-      "monitor": "Anssi Johansson <anssi@miuku.net>",
-      "provider": "EuroBillTracker",
-      "site": "eurobilltracker.com",
-      "v4": "https://ipv4-test-ipv6.eurobilltracker.com/img/1x1.gif",
-      "v6": "https://ipv6-test-ipv6.eurobilltracker.com/img/1x1.gif"
-    },
-    "he.net": {
-      "contact": "Mike Tindle <mtindle@he.net>",
-      "hide": false,
-      "loc": "US (CA)",
-      "monitor": "Hurricane Electric <noc@he.net>",
-      "provider": "HE.net",
-      "site": "he.net",
-      "v4": "https://ipv4.tunnelbroker.net/images/helogo.gif",
-      "v6": "https://ipv6.tunnelbroker.net/images/helogo.gif"
-    },
-
-    "ipv6-test.pl": {
-      "contact": "Net-Admin <ipv6@goodhost.eu>",
-      "hide": false,
-      "loc": "PL",
-      "mirror": true,
-      "monitor": "noc@net-admin.pl",
-      "provider": "Net-Admin",
-      "site": "ipv6-test.pl",
-      "v4": "https://ipv4.ipv6-test.pl/images-nc/knob_green.png",
-      "v6": "https://ipv6.ipv6-test.pl/images-nc/knob_green.png"
-    },
-    "jamieweb.net": {
-      "hide": false,
-      "loc": "UK",
-      "monitor": "Jamie Scaife <jamie@jamieweb.net>",
-      "provider": "Jamie Scaife (JamieWeb)",
-      "site": "jamieweb.net",
-      "v4": "https://ipv4.jamieweb.net/ipv4-only.png",
-      "v6": "https://ipv6.jamieweb.net/ipv6-only.png"
-    },
-    "nic.br": {
-      "hide": false,
-      "loc": "BR",
-      "monitor": "Antonio M. Moreiras <moreiras@nic.br>",
-      "provider": "NIC.br",
-      "site": "nic.br",
-      "v4": "https://v4.ipv6.br/img/logo-ipv6.png",
-      "v6": "https://v6.ipv6.br/img/logo-ipv6.png"
-    },
-    "nsx.de": {
-      "hide": false,
-      "loc": "DE",
-      "monitor": "Stephan Fiebrandt <stephan@nsx.de>",
-      "provider": "Stephan Fiebrandt (personal)",
-      "site": "nsx.de",
-      "v4": "https://ipv4.nsx.de/images/knob_valid_green.png",
-      "v6": "https://ipv6.nsx.de/images/knob_valid_green.png"
-    },
-    "sixte.st": {
-      "hide": false,
-      "loc": "AU",
-      "mirror": true,
-      "monitor": "Delan Azabani <delan@azabani.com>",
-      "provider": "Delan Azabani",
-      "site": "sixte.st",
-      "v4": "https://ipv4.sixte.st/images-nc/knob_green.png",
-      "v6": "https://ipv6.sixte.st/images-nc/knob_green.png"
-    },
-    "stdio.be": {
-      "hide": false,
-      "loc": "DE",
-      "monitor": "Andrew Yourtchenko <ayourtch@gmail.com>",
-      "provider": "Andrew Yourtchenko (personal)",
-      "site": "stdio.be",
-      "v4": "http://ipv4.stdio.be/images/knob_valid_green.png",
-      "v6": "http://ipv6.stdio.be/images/knob_valid_green.png"
-    },
-    "syd.test-ipv6.com": {
-      "hide": true,
-      "loc": "AU",
-      "mirror": true,
-      "provider": "HostVirtual",
-      "site": "syd.test-ipv6.com",
-      "transparent": true,
-      "v4": "https://ipv4.vm2.test-ipv6.com/images-nc/knob_green.png",
-      "v6": "https://ipv6.vm2.test-ipv6.com/images-nc/knob_green.png"
-    },
-    "test-ipv6.alpinedc.ch": {
-      "hide": false,
-      "loc": "CH",
-      "mirror": true,
-      "monitor": "Sebastien Morier <smorier@alpinedc.ch>",
-      "provider": "AlpineDC",
-      "site": "test-ipv6.alpinedc.ch",
-      "transparent": true,
-      "v4": "https://ipv4.test-ipv6.alpinedc.ch/images-nc/knob_green.png",
-      "v6": "https://ipv6.test-ipv6.alpinedc.ch/images-nc/knob_green.png"
-    },
-    "ams2.test-ipv6.com": {
-      "hide": false,
-      "loc": "NL",
-      "mirror": true,
-      "monitor": "jfesler@gigo.com",
-      "provider": "HostVirtual",
-      "site": "ams2.test-ipv6.com",
-      "transparent": true,
-      "v4": "https://ipv4.ams2.test-ipv6.com/images-nc/knob_green.png",
-      "v6": "https://ipv6.ams2.test-ipv6.com/images-nc/knob_green.png"
-    },
-    "fra.test-ipv6.com": {
-      "hide": false,
-      "loc": "DE",
-      "mirror": true,
-      "monitor": "jfesler@gigo.com",
-      "provider": "HostVirtual",
-      "site": "fra.test-ipv6.com",
-      "transparent": true,
-      "v4": "https://ipv4.fra.test-ipv6.com/images-nc/knob_green.png",
-      "v6": "https://ipv6.fra.test-ipv6.com/images-nc/knob_green.png"
-    },
-    "test-ipv6.arauc.br": {
-      "contact": "PoP-PR/RNP <admnet@pop-pr.rnp.br>",
-      "hide": false,
-      "loc": "BR",
-      "mirror": true,
-      "monitor": "equipe@pop-pr.rnp.br",
-      "provider": "PoP-PR/RNP",
-      "v4": "https://ipv4.test-ipv6.arauc.br/images-nc/knob_green.png",
-      "v6": "https://ipv6.test-ipv6.arauc.br/images-nc/knob_green.png"
-    },
-    "test-ipv6.carnet.hr": {
-      "hide": false,
-      "loc": "HR",
-      "mirror": true,
-      "monitor": "CARNet <sysadm@carnet.hr>",
-      "provider": "Croatian Academic and Research Network",
-      "site": "test-ipv6.carnet.hr",
-      "v4": "https://ipv4.test-ipv6.carnet.hr/images-nc/knob_green.png",
-      "v6": "https://ipv6.test-ipv6.carnet.hr/images-nc/knob_green.png"
-    },
-    "test-ipv6.cgates.lt": {
-      "hide": false,
-      "loc": "LT",
-      "monitor": "Marius Sokas <marius.sokas@cgates.lt>",
-      "provider": "Cgates",
-      "site": "test-ipv6.cgates.lt",
-      "v4": "http://ipv4.test-ipv6.cgates.lt/images-nc/knob_green.png",
-      "v6": "http://ipv6.test-ipv6.cgates.lt/images-nc/knob_green.png"
-    },
-    "test-ipv6.cl": {
-      "hide": false,
-      "loc": "CL",
-      "mirror": true,
-      "monitor": "hsalgado@nic.cl",
-      "provider": "NIC Chile",
-      "v4": "https://ipv4.test-ipv6.cl/images-nc/knob_green.png",
-      "v6": "https://ipv6.test-ipv6.cl/images-nc/knob_green.png"
-    },
-    "test-ipv6.com": {
-      "hide": false,
-      "loc": "Varies",
-      "mirror": true,
-      "provider": "Several locations around the world",
-      "site": "test-ipv6.com",
-      "v4": "https://ipv4.test-ipv6.com/images-nc/knob_green.png",
-      "v6": "https://ipv6.test-ipv6.com/images-nc/knob_green.png"
-    },
-    "test-ipv6.com.au": {
-      "hide": false,
-      "loc": "AU",
-      "mirror": true,
-      "monitor": "Deborah Pickett <debbiep@icemoonprison.com>",
-      "provider": "Polyfoam",
-      "site": "test-ipv6.com.au",
-      "v4": "https://ipv4.test-ipv6.com.au/images-nc/knob_green.png",
-      "v6": "https://ipv6.test-ipv6.com.au/images-nc/knob_green.png"
-    },
-    "test-ipv6.cz": {
-      "hide": false,
-      "loc": "CZ",
-      "mirror": true,
-      "monitor": "NOC NIC <noc@nic.cz>",
-      "provider": "nic.cz",
-      "site": "test-ipv6.cz",
-      "v4": "https://ipv4.test-ipv6.cz/images-nc/knob_green.png",
-      "v6": "https://ipv6.test-ipv6.cz/images-nc/knob_green.png"
-    },
-    "test-ipv6.epic.network": {
-      "hide": false,
-      "loc": "US",
-      "mirror": true,
-      "monitor": "test-ipv6-eb3gei5z@qpg.us",
-      "provider": "epic.network",
-      "site": "test-ipv6.epic.network",
-      "v4": "https://ipv4.test-ipv6.epic.network/images-nc/knob_green.png",
-      "v6": "https://ipv6.test-ipv6.epic.network/images-nc/knob_green.png"
-    },
-    "test-ipv6.fratec.net": {
-      "hide": false,
-      "https": true,
-      "loc": "CR",
-      "mirror": true,
-      "monitor": "Jorge Frater <jfrater@fratec.com>",
-      "provider": "Sistemas Fratec S.A.",
-      "site": "test-ipv6.fratec.net",
-      "v4": "https://ipv4.test-ipv6.fratec.net/images-nc/knob_green.png",
-      "v6": "https://ipv6.test-ipv6.fratec.net/images-nc/knob_green.png"
-    },
-    "test-ipv6.freerangecloud.com": {
-      "hide": false,
-      "loc": "US (CA)",
-      "mirror": true,
-      "monitor": "Christopher Munz-Michielin <christopher@ve7alb.ca>",
-      "provider": "Christopher Munz-Michielin",
-      "site": "test-ipv6.freerangecloud.com",
-      "v4": "https://ipv4.test-ipv6.freerangecloud.com/images-nc/knob_green.png",
-      "v6": "https://ipv6.test-ipv6.freerangecloud.com/images-nc/knob_green.png"
-    },
-    "test-ipv6.go6.si": {
-      "hide": false,
-      "loc": "SI",
-      "mirror": true,
-      "monitor": "Jan Zorz <jan@go6.si>",
-      "provider": "Go6 Lab - Slovenian IPv6 Iniciative",
-      "site": "test-ipv6.go6.si",
-      "v4": "https://ipv4.test-ipv6.go6.si/images-nc/knob_green.png",
-      "v6": "https://ipv6.test-ipv6.go6.si/images-nc/knob_green.png"
-    },
-    "test-ipv6.hkg.vr.org": {
-      "hide": false,
-      "loc": "HK",
-      "mirror": true,
-      "monitor": "jfesler@gigo.com",
-      "provider": "HostVirtual",
-      "site": "test-ipv6.hkg.vr.org",
-      "transparent": true,
-      "v4": "https://ipv4.test-ipv6.hkg.vr.org/images-nc/knob_green.png",
-      "v6": "https://ipv6.test-ipv6.hkg.vr.org/images-nc/knob_green.png"
-    },
-    "test-ipv6.ke.liquidtelecom.net": {
-      "contact": "Liquid Telecom <ipv6@liquidtelecom.com>",
-      "hide": false,
-      "loc": "KE",
-      "mirror": true,
-      "monitor": "ipv6@liquidtelecom.com",
-      "provider": "Liquid Telecom",
-      "site": "test-ipv6.ke.liquidtelecom.net",
-      "transparent": true,
-      "v4": "https://ipv4.test-ipv6.ke.liquidtelecom.net/images-nc/knob_green.png",
-      "v6": "https://ipv6.test-ipv6.ke.liquidtelecom.net/images-nc/knob_green.png"
-    },
-    "test-ipv6.noroutetohost.net": {
-      "contact": "David Wilkinson <test-ipv6@noroutetohost.net>",
-      "hide": false,
-      "loc": "GB",
-      "mirror": true,
-      "monitor": "test-ipv6@noroutetohost.net",
-      "provider": "NoRouteToHost",
-      "site": "test-ipv6.noroutetohost.net",
-      "v4": "https://ipv4.test-ipv6.noroutetohost.net/images-nc/knob_green.png",
-      "v6": "https://ipv6.test-ipv6.noroutetohost.net/images-nc/knob_green.png"
-    },
-    "test-ipv6.roedu.net": {
-      "hide": false,
-      "loc": "RO",
-      "mirror": true,
-      "monitor": "IPv6 @ RoEduNet <ipv6@roedu.net>",
-      "provider": "RoEduNet",
-      "site": "test-ipv6.roedu.net",
-      "transparent": true,
-      "v4": "https://ipv4.test-ipv6.roedu.net/images-nc/knob_green.png",
-      "v6": "https://ipv6.test-ipv6.roedu.net/images-nc/knob_green.png"
-    },
-    "test-ipv6.se": {
-      "hide": false,
-      "loc": "SE",
-      "mirror": true,
-      "monitor": "torbjorn.eklov@interlan.se <torbjorn.eklov@interlan.se>",
-      "provider": "Interlan Gefle AB",
-      "site": "test-ipv6.se",
-      "v4": "https://ipv4.test-ipv6.se/images-nc/knob_green.png",
-      "v6": "https://ipv6.test-ipv6.se/images-nc/knob_green.png"
-    },
-    "test-ipv6.sin.vr.org": {
-      "hide": false,
-      "loc": "SG",
-      "mirror": true,
-      "monitor": "jfesler@gigo.com",
-      "provider": "HostVirtual",
-      "site": "test-ipv6.sin.vr.org",
-      "transparent": true,
-      "v4": "https://ipv4.test-ipv6.sin.vr.org/images-nc/knob_green.png",
-      "v6": "https://ipv6.test-ipv6.sin.vr.org/images-nc/knob_green.png"
-    },
-    "testipv6.de": {
-      "hide": false,
-      "loc": "DE",
-      "mirror": true,
-      "monitor": "COSIMO WebTeam <kontakt@testipv6.de>",
-      "provider": "COSIMO Vertriebs -und Beratungs GmbH",
-      "site": "testipv6.de",
-      "v4": "https://ipv4.testipv6.de/images-nc/knob_green.png",
-      "v6": "https://ipv6.testipv6.de/images-nc/knob_green.png"
-    },
-    "vm3.test-ipv6.com": {
-      "hide": true,
-      "loc": "US CA",
-      "mirror": true,
-      "provider": "Jason Fesler",
-      "site": "test-ipv6.com",
-      "transparent": true,
-      "v4": "https://ipv4.vm3.test-ipv6.com/images-nc/knob_green.png",
-      "v6": "https://ipv6.vm3.test-ipv6.com/images-nc/knob_green.png"
-    },
-    "www.duiadns.net": {
-      "loc": "NL",
-      "mirror": false,
-      "monitor": "Liviu Pislaru <liviu.pislaru@duiadns.net>",
-      "provider": "Duiadns",
-      "site": "www.duiadns.net",
-      "v4": "https://ipv4.duiadns.net/1x1.gif",
-      "v6": "https://ipv6.duiadns.net/1x1.gif"
-    },
-    "www.excathedra.co": {
-      "hide": false,
-      "loc": "UK",
-      "monitor": "Steve Durbin <steved@excathedra.co>",
-      "provider": "Ex Cathedra Photography",
-      "site": "www.excathedra.co",
-      "v4": "https://ipv4.excathedra.co/knob_valid_green.png",
-      "v6": "https://ipv6.excathedra.co/knob_valid_green.png"
-    },
-    "www.joram.it": {
-      "hide": false,
-      "loc": "IT",
-      "monitor": "Servizio Partners - Joram.IT <contact@joram.it>",
-      "provider": "Joram.IT",
-      "site": "www.joram.it",
-      "v4": "https://ipv4.joram.it/oggetti/immagini/ipv4.png",
-      "v6": "https://ipv6.joram.it/oggetti/immagini/ipv6.jpg"
-    },
-    "www.nop.hu": {
-      "hide": false,
-      "loc": "HU",
-      "monitor": "matecs <matecs@niif.hu>",
-      "provider": "nop.hu",
-      "site": "www.nop.hu",
-      "v4": "http://ipv4.nop.hu/hosted.png",
-      "v6": "http://ipv6.nop.hu/hosted.png"
-    },
-    "www.steffann.nl": {
-      "hide": false,
-      "loc": "NL",
-      "monitor": "Sander Steffann <sander@steffann.nl>",
-      "provider": "SJM Steffann Consultancy",
-      "site": "www.steffann.nl",
-      "v4": "https://v4-only.steffann.nl/v4-only.png",
-      "v6": "https://v6-only.steffann.nl/v6-only.png"
-    },
-    "www.vyncke.org/ipv6status/": {
-      "hide": false,
-      "loc": "FR",
-      "monitor": "Eric Vyncke <eric@vyncke.org>",
-      "provider": "Eric Vyncke (personal)",
-      "reason": "letsencrypt SSL certs don't support AAAA only",
-      "site": "www.vyncke.org/ipv6status/",
-      "v4": "https://test4.vyncke.org/knob_valid_green.png",
-      "v6": "https://test6.vyncke.org/knob_valid_green.png"
-    },
-    "test-ipv6.hu": {
-      "hide": false,
-      "loc": "HU",
-      "mirror": true,
-      "monitor": "Polaris-N Systems <info@polaris-n.hu>",
-      "provider": "Polaris-N Systems",
-      "site": "test-ipv6.hu",
-      "v4": "https://ipv4.test-ipv6.hu/images-nc/knob_green.png",
-      "v6": "https://ipv6.test-ipv6.hu/images-nc/knob_green.png"
-    },
-    "test-ipv6.ttk.ru": {
-      "hide": false,
-      "loc": "RU",
-      "mirror": true,
-      "monitor": "TTK-Volga Network Operations Centre <noc@vtt.net>",
-      "provider": "TTK",
-      "site": "test-ipv6.ttk.ru",
-      "v4": "https://ipv4.test-ipv6.ttk.ru/images-nc/knob_green.png",
-      "v6": "https://ipv6.test-ipv6.ttk.ru/images-nc/knob_green.png"
-    },
-    "mudgee.host": {
-      "hide": false,
-      "loc": "AU",
-      "monitor": "Fraser Stuart <fs@mudgee.host>",
-      "provider": "Mudgee Host",
-      "site": "mudgee.host",
-      "v4": "https://ipv4.mudgee.host/logo.png",
-      "v6": "https://ipv6.mudgee.host/logo.png"
-    },
-    "test-ipv6.micso.network": {
-      "hide": false,
-      "loc": "IT",
-      "mirror": true,
-      "monitor": "Micso NOC <admin@micso.net>",
-      "provider": "Micso srl",
-      "site": "micso.it",
-      "v4": "http://ipv4.test-ipv6.micso.network/images-nc/knob_green.png",
-      "v6": "http://ipv6.test-ipv6.micso.network/images-nc/knob_green.png"
-    },
-    "test-ipv6.belwue.net": {
-      "hide": false,
-      "loc": "DE",
-      "mirror": true,
-      "monitor": "ip@belwue.de",
-      "provider": "Bel Wü",
-      "v4": "https://ipv4.test-ipv6.belwue.net/images-nc/knob_green.png",
-      "v6": "https://ipv6.test-ipv6.belwue.net/images-nc/knob_green.png"
-    },
-    "antradar.com": {
-      "hide": false,
-      "loc": "US (NJ)",
-      "monitor": "schien@antradar.com",
-      "provider": "Antradar Software",
-      "site": "antradar.com",
-      "v4": "https://ipv4.antradar.com/gyroscope.png",
-      "v6": "https://ipv6.antradar.com/gyroscope.png"
-    },
-    "testipv6.cn": {
-      "hide": false,
-      "loc": "CN",
-      "mirror": true,
-      "monitor": "56690@qq.com",
-      "provider": "yidazao一大早（personal)",
-      "v4": "https://ipv4.testipv6.cn/site/logo-v4.png",
-      "v6": "https://ipv6.testipv6.cn/site/logo-v6.png"
-    },
-
-    "test-ipv6.csclub.uwaterloo.ca": {
-      "hide": false,
-      "loc": "CA",
-      "mirror": true,
-      "monitor": "systems-committee@csclub.uwaterloo.ca",
-      "provider": "University of Waterloo Computer Science Club",
-      "v4": "https://ipv4.test-ipv6.csclub.uwaterloo.ca/images-nc/knob_green.png",
-      "v6": "https://ipv6.test-ipv6.csclub.uwaterloo.ca/images-nc/knob_green.png"
-    },
-    "test-ipv6.vzxy.net": {
-      "hide": false,
-      "loc": "DE",
-      "mirror": true,
-      "monitor": "Mihai@vzxy.net",
-      "provider": "SJULTRA",
-      "v4": "https://ipv4.test-ipv6.vzxy.net/images-nc/knob_green.png",
-      "v6": "https://ipv6.test-ipv6.vzxy.net/images-nc/knob_green.png"
-    },
-    "www.netflash.com.cy": {
-      "hide": false,
-      "loc": "CY",
-      "mirror": false,
-      "monitor": "ipv6-test@netflash.com.cy",
-      "provider": "A.C. NetFlash Technologies Ltd",
-      "v4": "https://ipv4-test.netflash.com.cy/knob_green.png",
-      "v6": "https://ipv6-test.netflash.com.cy/knob_green.png"
-    },
-     "test-ipv6.is": {
-      "hide": false,
-      "loc": "IS",
-      "mirror": true,
-      "monitor": "jdandri@gmail.com",
-      "provider": "Dandri",
-      "v4": "https://ipv4.test-ipv6.is/images-nc/knob_green.png",
-      "v6": "https://ipv6.test-ipv6.is/images-nc/knob_green.png"
-    },
-     "test-ipv6.iu13.net": {
-      "hide": false,
-      "loc": "US (PA)",
-      "mirror": true,
-      "monitor": "test-ipv6@iu13.org",
-      "provider": "Lancaster-Lebanon IU13",
-      "v4": "https://ipv4.test-ipv6.iu13.net/images-nc/knob_green.png",
-      "v6": "https://ipv6.test-ipv6.iu13.net/images-nc/knob_green.png"
+[
+  {
+    "sites": {
+      "2.ayepv6.com": {
+        "hide": false,
+        "loc": "UK",
+        "monitor": "Stephen Strowes <sdstrowes@gmail.com>",
+        "provider": "Stephen Strowes (hosted at Vultr)",
+        "site": "ayepv6.com",
+        "v4": "https://v4.test-ipv6.vu.ayepv6.com/images/knob_green.png",
+        "v6": "https://v6.test-ipv6.vu.ayepv6.com/images/knob_green.png"
+      },
+      "8n1.org": {
+        "hide": false,
+        "loc": "NL",
+        "monitor": "Sander Smeenk <sander@bit.nl>",
+        "provider": "8n1.org - a simple pastebin",
+        "site": "8n1.org",
+        "v4": "https://ip4.8n1.org/test.gif",
+        "v6": "https://ip6.8n1.org/test.gif"
+      },
+      "ams2.test-ipv6.com": {
+        "hide": false,
+        "loc": "NL",
+        "mirror": true,
+        "monitor": "jfesler@gigo.com",
+        "provider": "HostVirtual",
+        "site": "ams2.test-ipv6.com",
+        "transparent": true,
+        "v4": "https://ipv4.ams2.test-ipv6.com/images-nc/knob_green.png",
+        "v6": "https://ipv6.ams2.test-ipv6.com/images-nc/knob_green.png"
+      },
+      "antradar.com": {
+        "hide": false,
+        "loc": "US (NJ)",
+        "monitor": "schien@antradar.com",
+        "provider": "Antradar Software",
+        "site": "antradar.com",
+        "v4": "https://ipv4.antradar.com/gyroscope.png",
+        "v6": "https://ipv6.antradar.com/gyroscope.png"
+      },
+      "ayepv6.com": {
+        "hide": false,
+        "loc": "UK",
+        "monitor": "Stephen Strowes <sdstrowes@gmail.com>",
+        "provider": "Stephen Strowes (hosted at Digital Ocean)",
+        "site": "ayepv6.com",
+        "v4": "https://v4.test-ipv6.do.ayepv6.com/images/knob_green.png",
+        "v6": "https://v6.test-ipv6.do.ayepv6.com/images/knob_green.png"
+      },
+      "bvconline.com.ar": {
+        "hide": false,
+        "loc": "AR",
+        "mirror": false,
+        "monitor": "Ariel Cuesta <arielc@vianet.com.ar>",
+        "provider": "BVNET S.A",
+        "v4": "http://ipv4.test-ipv6.bvconline.com.ar/knob_green.png",
+        "v6": "http://ipv6.test-ipv6.bvconline.com.ar/knob_green.png"
+      },
+      "eurobilltracker.com": {
+        "hide": false,
+        "loc": "FI",
+        "monitor": "Anssi Johansson <anssi@miuku.net>",
+        "provider": "EuroBillTracker",
+        "site": "eurobilltracker.com",
+        "v4": "https://ipv4-test-ipv6.eurobilltracker.com/img/1x1.gif",
+        "v6": "https://ipv6-test-ipv6.eurobilltracker.com/img/1x1.gif"
+      },
+      "fra.test-ipv6.com": {
+        "hide": false,
+        "loc": "DE",
+        "mirror": true,
+        "monitor": "jfesler@gigo.com",
+        "provider": "HostVirtual",
+        "site": "fra.test-ipv6.com",
+        "transparent": true,
+        "v4": "https://ipv4.fra.test-ipv6.com/images-nc/knob_green.png",
+        "v6": "https://ipv6.fra.test-ipv6.com/images-nc/knob_green.png"
+      },
+      "he.net": {
+        "contact": "Mike Tindle <mtindle@he.net>",
+        "hide": false,
+        "loc": "US (CA)",
+        "monitor": "Hurricane Electric <noc@he.net>",
+        "provider": "HE.net",
+        "site": "he.net",
+        "v4": "https://ipv4.tunnelbroker.net/images/helogo.gif",
+        "v6": "https://ipv6.tunnelbroker.net/images/helogo.gif"
+      },
+      "ipv6-test.pl": {
+        "contact": "Net-Admin <ipv6@goodhost.eu>",
+        "hide": false,
+        "loc": "PL",
+        "mirror": true,
+        "monitor": "noc@net-admin.pl",
+        "provider": "Net-Admin",
+        "site": "ipv6-test.pl",
+        "v4": "https://ipv4.ipv6-test.pl/images-nc/knob_green.png",
+        "v6": "https://ipv6.ipv6-test.pl/images-nc/knob_green.png"
+      },
+      "jamieweb.net": {
+        "hide": false,
+        "loc": "UK",
+        "monitor": "Jamie Scaife <jamie@jamieweb.net>",
+        "provider": "Jamie Scaife (JamieWeb)",
+        "site": "jamieweb.net",
+        "v4": "https://ipv4.jamieweb.net/ipv4-only.png",
+        "v6": "https://ipv6.jamieweb.net/ipv6-only.png"
+      },
+      "mudgee.host": {
+        "hide": false,
+        "loc": "AU",
+        "monitor": "Fraser Stuart <fs@mudgee.host>",
+        "provider": "Mudgee Host",
+        "site": "mudgee.host",
+        "v4": "https://ipv4.mudgee.host/logo.png",
+        "v6": "https://ipv6.mudgee.host/logo.png"
+      },
+      "nic.br": {
+        "hide": false,
+        "loc": "BR",
+        "monitor": "Antonio M. Moreiras <moreiras@nic.br>",
+        "provider": "NIC.br",
+        "site": "nic.br",
+        "v4": "https://v4.ipv6.br/img/logo-ipv6.png",
+        "v6": "https://v6.ipv6.br/img/logo-ipv6.png"
+      },
+      "nsx.de": {
+        "hide": false,
+        "loc": "DE",
+        "monitor": "Stephan Fiebrandt <stephan@nsx.de>",
+        "provider": "Stephan Fiebrandt (personal)",
+        "site": "nsx.de",
+        "v4": "https://ipv4.nsx.de/images/knob_valid_green.png",
+        "v6": "https://ipv6.nsx.de/images/knob_valid_green.png"
+      },
+      "sixte.st": {
+        "hide": false,
+        "loc": "AU",
+        "mirror": true,
+        "monitor": "Delan Azabani <delan@azabani.com>",
+        "provider": "Delan Azabani",
+        "site": "sixte.st",
+        "v4": "https://ipv4.sixte.st/images-nc/knob_green.png",
+        "v6": "https://ipv6.sixte.st/images-nc/knob_green.png"
+      },
+      "stdio.be": {
+        "hide": false,
+        "loc": "DE",
+        "monitor": "Andrew Yourtchenko <ayourtch@gmail.com>",
+        "provider": "Andrew Yourtchenko (personal)",
+        "site": "stdio.be",
+        "v4": "http://ipv4.stdio.be/images/knob_valid_green.png",
+        "v6": "http://ipv6.stdio.be/images/knob_valid_green.png"
+      },
+      "syd.test-ipv6.com": {
+        "hide": true,
+        "loc": "AU",
+        "mirror": true,
+        "provider": "HostVirtual",
+        "site": "syd.test-ipv6.com",
+        "transparent": true,
+        "v4": "https://ipv4.vm2.test-ipv6.com/images-nc/knob_green.png",
+        "v6": "https://ipv6.vm2.test-ipv6.com/images-nc/knob_green.png"
+      },
+      "test-ipv6.alpinedc.ch": {
+        "hide": false,
+        "loc": "CH",
+        "mirror": true,
+        "monitor": "Sebastien Morier <smorier@alpinedc.ch>",
+        "provider": "AlpineDC",
+        "site": "test-ipv6.alpinedc.ch",
+        "transparent": true,
+        "v4": "https://ipv4.test-ipv6.alpinedc.ch/images-nc/knob_green.png",
+        "v6": "https://ipv6.test-ipv6.alpinedc.ch/images-nc/knob_green.png"
+      },
+      "test-ipv6.arauc.br": {
+        "contact": "PoP-PR/RNP <admnet@pop-pr.rnp.br>",
+        "hide": false,
+        "loc": "BR",
+        "mirror": true,
+        "monitor": "equipe@pop-pr.rnp.br",
+        "provider": "PoP-PR/RNP",
+        "v4": "https://ipv4.test-ipv6.arauc.br/images-nc/knob_green.png",
+        "v6": "https://ipv6.test-ipv6.arauc.br/images-nc/knob_green.png"
+      },
+      "test-ipv6.belwue.net": {
+        "hide": false,
+        "loc": "DE",
+        "mirror": true,
+        "monitor": "ip@belwue.de",
+        "provider": "Bel Wü",
+        "v4": "https://ipv4.test-ipv6.belwue.net/images-nc/knob_green.png",
+        "v6": "https://ipv6.test-ipv6.belwue.net/images-nc/knob_green.png"
+      },
+      "test-ipv6.carnet.hr": {
+        "hide": false,
+        "loc": "HR",
+        "mirror": true,
+        "monitor": "CARNet <sysadm@carnet.hr>",
+        "provider": "Croatian Academic and Research Network",
+        "site": "test-ipv6.carnet.hr",
+        "v4": "https://ipv4.test-ipv6.carnet.hr/images-nc/knob_green.png",
+        "v6": "https://ipv6.test-ipv6.carnet.hr/images-nc/knob_green.png"
+      },
+      "test-ipv6.cgates.lt": {
+        "hide": false,
+        "loc": "LT",
+        "monitor": "Marius Sokas <marius.sokas@cgates.lt>",
+        "provider": "Cgates",
+        "site": "test-ipv6.cgates.lt",
+        "v4": "http://ipv4.test-ipv6.cgates.lt/images-nc/knob_green.png",
+        "v6": "http://ipv6.test-ipv6.cgates.lt/images-nc/knob_green.png"
+      },
+      "test-ipv6.cl": {
+        "hide": false,
+        "loc": "CL",
+        "mirror": true,
+        "monitor": "hsalgado@nic.cl",
+        "provider": "NIC Chile",
+        "v4": "https://ipv4.test-ipv6.cl/images-nc/knob_green.png",
+        "v6": "https://ipv6.test-ipv6.cl/images-nc/knob_green.png"
+      },
+      "test-ipv6.coloradointerlink.net": {
+        "hide": false,
+        "loc": "US",
+        "mirror": true,
+        "monitor": "Casey Johnson <hostmaster@coloradointerlink.com>",
+        "provider": "Colorado Interlink",
+        "site": "test-ipv6.coloradointerlink.net",
+        "transparent": false,
+        "v4": "https://ipv4.test-ipv6.coloradointerlink.net/images-nc/knob_green.png",
+        "v6": "https://ipv6.test-ipv6.coloradointerlink.net/images-nc/knob_green.png"
+      },
+      "test-ipv6.com": {
+        "hide": false,
+        "loc": "Varies",
+        "mirror": true,
+        "provider": "Several locations around the world",
+        "site": "test-ipv6.com",
+        "v4": "https://ipv4.test-ipv6.com/images-nc/knob_green.png",
+        "v6": "https://ipv6.test-ipv6.com/images-nc/knob_green.png"
+      },
+      "test-ipv6.com.au": {
+        "hide": false,
+        "loc": "AU",
+        "mirror": true,
+        "monitor": "Deborah Pickett <debbiep@icemoonprison.com>",
+        "provider": "Polyfoam",
+        "site": "test-ipv6.com.au",
+        "v4": "https://ipv4.test-ipv6.com.au/images-nc/knob_green.png",
+        "v6": "https://ipv6.test-ipv6.com.au/images-nc/knob_green.png"
+      },
+      "test-ipv6.csclub.uwaterloo.ca": {
+        "hide": false,
+        "loc": "CA",
+        "mirror": true,
+        "monitor": "systems-committee@csclub.uwaterloo.ca",
+        "provider": "University of Waterloo Computer Science Club",
+        "v4": "https://ipv4.test-ipv6.csclub.uwaterloo.ca/images-nc/knob_green.png",
+        "v6": "https://ipv6.test-ipv6.csclub.uwaterloo.ca/images-nc/knob_green.png"
+      },
+      "test-ipv6.cz": {
+        "hide": false,
+        "loc": "CZ",
+        "mirror": true,
+        "monitor": "NOC NIC <noc@nic.cz>",
+        "provider": "nic.cz",
+        "site": "test-ipv6.cz",
+        "v4": "https://ipv4.test-ipv6.cz/images-nc/knob_green.png",
+        "v6": "https://ipv6.test-ipv6.cz/images-nc/knob_green.png"
+      },
+      "test-ipv6.epic.network": {
+        "hide": false,
+        "loc": "US",
+        "mirror": true,
+        "monitor": "test-ipv6-eb3gei5z@qpg.us",
+        "provider": "epic.network",
+        "site": "test-ipv6.epic.network",
+        "v4": "https://ipv4.test-ipv6.epic.network/images-nc/knob_green.png",
+        "v6": "https://ipv6.test-ipv6.epic.network/images-nc/knob_green.png"
+      },
+      "test-ipv6.fratec.net": {
+        "hide": false,
+        "https": true,
+        "loc": "CR",
+        "mirror": true,
+        "monitor": "Jorge Frater <jfrater@fratec.com>",
+        "provider": "Sistemas Fratec S.A.",
+        "site": "test-ipv6.fratec.net",
+        "v4": "https://ipv4.test-ipv6.fratec.net/images-nc/knob_green.png",
+        "v6": "https://ipv6.test-ipv6.fratec.net/images-nc/knob_green.png"
+      },
+      "test-ipv6.freerangecloud.com": {
+        "hide": false,
+        "loc": "US (CA)",
+        "mirror": true,
+        "monitor": "Christopher Munz-Michielin <christopher@ve7alb.ca>",
+        "provider": "Christopher Munz-Michielin",
+        "site": "test-ipv6.freerangecloud.com",
+        "v4": "https://ipv4.test-ipv6.freerangecloud.com/images-nc/knob_green.png",
+        "v6": "https://ipv6.test-ipv6.freerangecloud.com/images-nc/knob_green.png"
+      },
+      "test-ipv6.go6.si": {
+        "hide": false,
+        "loc": "SI",
+        "mirror": true,
+        "monitor": "Jan Zorz <jan@go6.si>",
+        "provider": "Go6 Lab - Slovenian IPv6 Iniciative",
+        "site": "test-ipv6.go6.si",
+        "v4": "https://ipv4.test-ipv6.go6.si/images-nc/knob_green.png",
+        "v6": "https://ipv6.test-ipv6.go6.si/images-nc/knob_green.png"
+      },
+      "test-ipv6.hkg.vr.org": {
+        "hide": false,
+        "loc": "HK",
+        "mirror": true,
+        "monitor": "jfesler@gigo.com",
+        "provider": "HostVirtual",
+        "site": "test-ipv6.hkg.vr.org",
+        "transparent": true,
+        "v4": "https://ipv4.test-ipv6.hkg.vr.org/images-nc/knob_green.png",
+        "v6": "https://ipv6.test-ipv6.hkg.vr.org/images-nc/knob_green.png"
+      },
+      "test-ipv6.hu": {
+        "hide": false,
+        "loc": "HU",
+        "mirror": true,
+        "monitor": "Polaris-N Systems <info@polaris-n.hu>",
+        "provider": "Polaris-N Systems",
+        "site": "test-ipv6.hu",
+        "v4": "https://ipv4.test-ipv6.hu/images-nc/knob_green.png",
+        "v6": "https://ipv6.test-ipv6.hu/images-nc/knob_green.png"
+      },
+      "test-ipv6.in": {
+        "hide": false,
+        "loc": "IN",
+        "mirror": true,
+        "monitor": "ipv6@limeconsultants.com",
+        "provider": "Lime Consultants",
+        "site": "test-ipv6.in",
+        "v4": "http://ipv4.test-ipv6.in/images/knob_green.png",
+        "v6": "http://ipv6.test-ipv6.in/images/knob_green.png"
+      },
+      "test-ipv6.is": {
+        "hide": false,
+        "loc": "IS",
+        "mirror": true,
+        "monitor": "jdandri@gmail.com",
+        "provider": "Dandri",
+        "v4": "https://ipv4.test-ipv6.is/images-nc/knob_green.png",
+        "v6": "https://ipv6.test-ipv6.is/images-nc/knob_green.png"
+      },
+      "test-ipv6.iu13.net": {
+        "hide": false,
+        "loc": "US (PA)",
+        "mirror": true,
+        "monitor": "test-ipv6@iu13.org",
+        "provider": "Lancaster-Lebanon IU13",
+        "v4": "https://ipv4.test-ipv6.iu13.net/images-nc/knob_green.png",
+        "v6": "https://ipv6.test-ipv6.iu13.net/images-nc/knob_green.png"
+      },
+      "test-ipv6.ke.liquidtelecom.net": {
+        "contact": "Liquid Telecom <ipv6@liquidtelecom.com>",
+        "hide": false,
+        "loc": "KE",
+        "mirror": true,
+        "monitor": "ipv6@liquidtelecom.com",
+        "provider": "Liquid Telecom",
+        "site": "test-ipv6.ke.liquidtelecom.net",
+        "transparent": true,
+        "v4": "https://ipv4.test-ipv6.ke.liquidtelecom.net/images-nc/knob_green.png",
+        "v6": "https://ipv6.test-ipv6.ke.liquidtelecom.net/images-nc/knob_green.png"
+      },
+      "test-ipv6.micso.network": {
+        "hide": false,
+        "loc": "IT",
+        "mirror": true,
+        "monitor": "Micso NOC <admin@micso.net>",
+        "provider": "Micso srl",
+        "site": "micso.it",
+        "v4": "http://ipv4.test-ipv6.micso.network/images-nc/knob_green.png",
+        "v6": "http://ipv6.test-ipv6.micso.network/images-nc/knob_green.png"
+      },
+      "test-ipv6.noroutetohost.net": {
+        "contact": "David Wilkinson <test-ipv6@noroutetohost.net>",
+        "hide": false,
+        "loc": "GB",
+        "mirror": true,
+        "monitor": "test-ipv6@noroutetohost.net",
+        "provider": "NoRouteToHost",
+        "site": "test-ipv6.noroutetohost.net",
+        "v4": "https://ipv4.test-ipv6.noroutetohost.net/images-nc/knob_green.png",
+        "v6": "https://ipv6.test-ipv6.noroutetohost.net/images-nc/knob_green.png"
+      },
+      "test-ipv6.roedu.net": {
+        "hide": false,
+        "loc": "RO",
+        "mirror": true,
+        "monitor": "IPv6 @ RoEduNet <ipv6@roedu.net>",
+        "provider": "RoEduNet",
+        "site": "test-ipv6.roedu.net",
+        "transparent": true,
+        "v4": "https://ipv4.test-ipv6.roedu.net/images-nc/knob_green.png",
+        "v6": "https://ipv6.test-ipv6.roedu.net/images-nc/knob_green.png"
+      },
+      "test-ipv6.se": {
+        "hide": false,
+        "loc": "SE",
+        "mirror": true,
+        "monitor": "torbjorn.eklov@interlan.se <torbjorn.eklov@interlan.se>",
+        "provider": "Interlan Gefle AB",
+        "site": "test-ipv6.se",
+        "v4": "https://ipv4.test-ipv6.se/images-nc/knob_green.png",
+        "v6": "https://ipv6.test-ipv6.se/images-nc/knob_green.png"
+      },
+      "test-ipv6.sin.vr.org": {
+        "hide": false,
+        "loc": "SG",
+        "mirror": true,
+        "monitor": "jfesler@gigo.com",
+        "provider": "HostVirtual",
+        "site": "test-ipv6.sin.vr.org",
+        "transparent": true,
+        "v4": "https://ipv4.test-ipv6.sin.vr.org/images-nc/knob_green.png",
+        "v6": "https://ipv6.test-ipv6.sin.vr.org/images-nc/knob_green.png"
+      },
+      "test-ipv6.ttk.ru": {
+        "hide": false,
+        "loc": "RU",
+        "mirror": true,
+        "monitor": "TTK-Volga Network Operations Centre <noc@vtt.net>",
+        "provider": "TTK",
+        "site": "test-ipv6.ttk.ru",
+        "v4": "https://ipv4.test-ipv6.ttk.ru/images-nc/knob_green.png",
+        "v6": "https://ipv6.test-ipv6.ttk.ru/images-nc/knob_green.png"
+      },
+      "test-ipv6.vzxy.net": {
+        "hide": false,
+        "loc": "DE",
+        "mirror": true,
+        "monitor": "Mihai@vzxy.net",
+        "provider": "SJULTRA",
+        "v4": "https://ipv4.test-ipv6.vzxy.net/images-nc/knob_green.png",
+        "v6": "https://ipv6.test-ipv6.vzxy.net/images-nc/knob_green.png"
+      },
+      "testipv6.cn": {
+        "hide": false,
+        "loc": "CN",
+        "mirror": true,
+        "monitor": "56690@qq.com",
+        "provider": "yidazao一大早（personal)",
+        "v4": "https://ipv4.testipv6.cn/site/logo-v4.png",
+        "v6": "https://ipv6.testipv6.cn/site/logo-v6.png"
+      },
+      "testipv6.de": {
+        "hide": false,
+        "loc": "DE",
+        "mirror": true,
+        "monitor": "COSIMO WebTeam <kontakt@testipv6.de>",
+        "provider": "COSIMO Vertriebs -und Beratungs GmbH",
+        "site": "testipv6.de",
+        "v4": "https://ipv4.testipv6.de/images-nc/knob_green.png",
+        "v6": "https://ipv6.testipv6.de/images-nc/knob_green.png"
+      },
+      "vm3.test-ipv6.com": {
+        "hide": true,
+        "loc": "US CA",
+        "mirror": true,
+        "provider": "Jason Fesler",
+        "site": "test-ipv6.com",
+        "transparent": true,
+        "v4": "https://ipv4.vm3.test-ipv6.com/images-nc/knob_green.png",
+        "v6": "https://ipv6.vm3.test-ipv6.com/images-nc/knob_green.png"
+      },
+      "www.duiadns.net": {
+        "loc": "NL",
+        "mirror": false,
+        "monitor": "Liviu Pislaru <liviu.pislaru@duiadns.net>",
+        "provider": "Duiadns",
+        "site": "www.duiadns.net",
+        "v4": "https://ipv4.duiadns.net/1x1.gif",
+        "v6": "https://ipv6.duiadns.net/1x1.gif"
+      },
+      "www.excathedra.co": {
+        "hide": false,
+        "loc": "UK",
+        "monitor": "Steve Durbin <steved@excathedra.co>",
+        "provider": "Ex Cathedra Photography",
+        "site": "www.excathedra.co",
+        "v4": "https://ipv4.excathedra.co/knob_valid_green.png",
+        "v6": "https://ipv6.excathedra.co/knob_valid_green.png"
+      },
+      "www.joram.it": {
+        "hide": false,
+        "loc": "IT",
+        "monitor": "Servizio Partners - Joram.IT <contact@joram.it>",
+        "provider": "Joram.IT",
+        "site": "www.joram.it",
+        "v4": "https://ipv4.joram.it/oggetti/immagini/ipv4.png",
+        "v6": "https://ipv6.joram.it/oggetti/immagini/ipv6.jpg"
+      },
+      "www.netflash.com.cy": {
+        "hide": false,
+        "loc": "CY",
+        "mirror": false,
+        "monitor": "ipv6-test@netflash.com.cy",
+        "provider": "A.C. NetFlash Technologies Ltd",
+        "v4": "https://ipv4-test.netflash.com.cy/knob_green.png",
+        "v6": "https://ipv6-test.netflash.com.cy/knob_green.png"
+      },
+      "www.nop.hu": {
+        "hide": false,
+        "loc": "HU",
+        "monitor": "matecs <matecs@niif.hu>",
+        "provider": "nop.hu",
+        "site": "www.nop.hu",
+        "v4": "http://ipv4.nop.hu/hosted.png",
+        "v6": "http://ipv6.nop.hu/hosted.png"
+      },
+      "www.steffann.nl": {
+        "hide": false,
+        "loc": "NL",
+        "monitor": "Sander Steffann <sander@steffann.nl>",
+        "provider": "SJM Steffann Consultancy",
+        "site": "www.steffann.nl",
+        "v4": "https://v4-only.steffann.nl/v4-only.png",
+        "v6": "https://v6-only.steffann.nl/v6-only.png"
+      },
+      "www.vyncke.org/ipv6status/": {
+        "hide": false,
+        "loc": "FR",
+        "monitor": "Eric Vyncke <eric@vyncke.org>",
+        "provider": "Eric Vyncke (personal)",
+        "reason": "letsencrypt SSL certs don't support AAAA only",
+        "site": "www.vyncke.org/ipv6status/",
+        "v4": "https://test4.vyncke.org/knob_valid_green.png",
+        "v6": "https://test6.vyncke.org/knob_valid_green.png"
+      }
     }
   }
-}
+]

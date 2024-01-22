@@ -10,6 +10,12 @@ beta: build
 	echo
 	echo  DO NOT FORGET TO RUN MAKE UPLOAD
 
+mtest: build
+	rsync -azv output/. jfesler@cosco.gigo.com:/persist/rsync.gigo.com/fsky/mtest/content/.  --exclude site --delete
+	echo 
+	echo
+	echo  DO NOT FORGET TO RUN MAKE UPLOAD
+
 upload:
 	cd translations && make crowdin-upload
 

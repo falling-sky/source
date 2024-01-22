@@ -9,6 +9,7 @@
   <meta name="description" content='{{This will test your browser and connection for IPv6 readiness, as well as show you your current IPv4 and IPv6 address.}}' /> [% end %]
   <meta name="keywords" content="test,ipv4,ipv6,isp" />
   <meta name="y_key" content="6a3ded130c3ff129" />
+  <meta name="viewport" content="width=device-width">
   <link rel="stylesheet" href="/index.css?version=[% .GitInfo.Version %]" type="text/css" />
 
   <!-- generic -->

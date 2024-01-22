@@ -269,3 +269,29 @@ div.nomail {
 a.help_popup {color: blue;}
 
 [% PROCESS "inc/color-schemes.inc" %]
+
+
+
+* {
+  box-sizing: border-box;
+}
+@media screen and (max-width: 600px) {
+  body #navlist,#tabnavlist {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+  body :is(#navlist,#tabnavlist) li a {
+    display: inline-block;
+    margin: 0;
+    border-bottom: 1px solid #778;
+  }
+  body :is(#navlist,#tabnavlist) li a#current,
+  body :is(#navlist,#tabnavlist) li a#tabcurrent {
+    border-bottom: 1px solid #778;
+  }
+  body #tabnavlist {
+    padding: .5em;
+    margin: 0;
+  }
+}
