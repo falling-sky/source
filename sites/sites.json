@@ -251,6 +251,17 @@
         "v4": "https://ipv4.test-ipv6.com.au/images-nc/knob_green.png",
         "v6": "https://ipv6.test-ipv6.com.au/images-nc/knob_green.png"
       },
+      "test-ipv6.cs.umd.edu": {
+        "hide": false,
+        "loc": "US",
+        "mirror": true,
+        "monitor": "helpdesk@cs.umd.edu",
+        "provider": "University of Maryland Department of Computer Science",
+        "site": "test-ipv6.cs.umd.edu",
+        "transparent": false,
+        "v4": "https://ipv4.test-ipv6.cs.umd.edu/images-nc/knob_green.png",
+        "v6": "https://ipv6.test-ipv6.cs.umd.edu/images-nc/knob_green.png"
+      },
       "test-ipv6.csclub.uwaterloo.ca": {
         "hide": false,
         "loc": "CA",
