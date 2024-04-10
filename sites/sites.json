@@ -18,6 +18,15 @@
         "v4": "https://ip4.8n1.org/test.gif",
         "v6": "https://ip6.8n1.org/test.gif"
       },
+              "www.cidercounty.org.uk": {
+        "hide": false,
+        "loc": "UK",
+        "monitor": "Allen Coates <kingfisher231@cidercounty.org.uk>",
+        "provider": "Allen Coates (hosted at A&A)",
+        "site": "www.cidercounty.org.uk",
+        "v4": "https://ipv4.cidercounty.org.uk/images/happy_face.gif",
+        "v6": "https://ipv6.cidercounty.org.uk/images/happy_face.gif"
+      },
       "ams2.test-ipv6.com": {
         "hide": false,
         "loc": "NL",
