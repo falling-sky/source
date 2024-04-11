@@ -249,16 +249,6 @@
         "v4": "https://ipv4.test-ipv6.com/images-nc/knob_green.png",
         "v6": "https://ipv6.test-ipv6.com/images-nc/knob_green.png"
       },
-      "test-ipv6.com.au": {
-        "hide": false,
-        "loc": "AU",
-        "mirror": true,
-        "monitor": "Deborah Pickett <debbiep@icemoonprison.com>",
-        "provider": "Polyfoam",
-        "site": "test-ipv6.com.au",
-        "v4": "https://ipv4.test-ipv6.com.au/images-nc/knob_green.png",
-        "v6": "https://ipv6.test-ipv6.com.au/images-nc/knob_green.png"
-      },
       "test-ipv6.cs.umd.edu": {
         "hide": false,
         "loc": "US",
