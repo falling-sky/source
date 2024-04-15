@@ -253,7 +253,7 @@
         "hide": false,
         "loc": "US",
         "mirror": true,
-        "monitor": "helpdesk@cs.umd.edu,ykatz@cs.umd.edu",
+        "monitor": "ipv6@cs.umd.edu",
         "provider": "University of Maryland Department of Computer Science",
         "site": "test-ipv6.cs.umd.edu",
         "transparent": false,
