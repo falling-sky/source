@@ -95,17 +95,6 @@
         "v4": "https://ipv4.tunnelbroker.net/images/helogo.gif",
         "v6": "https://ipv6.tunnelbroker.net/images/helogo.gif"
       },
-      "ipv6-test.pl": {
-        "contact": "Net-Admin <ipv6@goodhost.eu>",
-        "hide": false,
-        "loc": "PL",
-        "mirror": true,
-        "monitor": "noc@net-admin.pl",
-        "provider": "Net-Admin",
-        "site": "ipv6-test.pl",
-        "v4": "https://ipv4.ipv6-test.pl/images-nc/knob_green.png",
-        "v6": "https://ipv6.ipv6-test.pl/images-nc/knob_green.png"
-      },
       "jamieweb.net": {
         "hide": false,
         "loc": "UK",
