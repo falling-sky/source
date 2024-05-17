@@ -222,7 +222,7 @@
         "hide": false,
         "loc": "US",
         "mirror": true,
-        "monitor": "Casey Johnson <hostmaster@hostmaster@coloradointerlink.net>",
+        "monitor": "Casey Johnson <hostmaster@coloradointerlink.net>",
         "provider": "Colorado Interlink",
         "site": "test-ipv6.coloradointerlink.net",
         "transparent": false,
