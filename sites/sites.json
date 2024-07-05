@@ -370,16 +370,6 @@
         "v4": "https://ipv4.test-ipv6.ke.liquidtelecom.net/images-nc/knob_green.png",
         "v6": "https://ipv6.test-ipv6.ke.liquidtelecom.net/images-nc/knob_green.png"
       },
-      "test-ipv6.micso.network": {
-        "hide": false,
-        "loc": "IT",
-        "mirror": true,
-        "monitor": "Micso NOC <admin@micso.net>",
-        "provider": "Micso srl",
-        "site": "micso.it",
-        "v4": "http://ipv4.test-ipv6.micso.network/images-nc/knob_green.png",
-        "v6": "http://ipv6.test-ipv6.micso.network/images-nc/knob_green.png"
-      },
       "test-ipv6.noroutetohost.net": {
         "contact": "David Wilkinson <test-ipv6@noroutetohost.net>",
         "hide": false,
