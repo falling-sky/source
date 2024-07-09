@@ -5,6 +5,8 @@ if [ -z $1 ]; then
   exit 1
 fi
 
+set -e -x 
+
 MD5=`md5 -qs "$1"  | head -c 8`
 
 if [ -z $MD5 ]; then 

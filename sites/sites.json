@@ -423,15 +423,6 @@
         "v4": "https://ipv4.test-ipv6.ttk.ru/images-nc/knob_green.png",
         "v6": "https://ipv6.test-ipv6.ttk.ru/images-nc/knob_green.png"
       },
-      "test-ipv6.vzxy.net": {
-        "hide": false,
-        "loc": "DE",
-        "mirror": true,
-        "monitor": "Mihai@vzxy.net",
-        "provider": "SJULTRA",
-        "v4": "https://ipv4.test-ipv6.vzxy.net/images-nc/knob_green.png",
-        "v6": "https://ipv6.test-ipv6.vzxy.net/images-nc/knob_green.png"
-      },
       "testipv6.cn": {
         "hide": false,
         "loc": "CN",
