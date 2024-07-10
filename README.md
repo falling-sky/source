@@ -5,7 +5,7 @@ source
 
 Main source for falling-sky.  Mostly  HTML, JavaScript.
 
-Depnds on Go 1.6.  Newer versions *may* work but are untested at this time.
+Depends on Go 1.6.  Newer versions *may* work but are untested at this time.
 
 Depends on "fsbuilder".  Use `make fsbuilder` to make.
 
