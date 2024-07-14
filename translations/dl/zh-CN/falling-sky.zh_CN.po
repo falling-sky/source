@@ -3025,15 +3025,15 @@ msgstr "通过 HTTPS 访问本站时，我们无法检测 NAT64 和 Teredo。"
 
 #: "not-used, archived.  Not currently needed for translation."
 msgid "To test for NAT64, 6to4, and hidden Teredo capabilities, we make connections to specific IP addresses (instead of names), and seeing if those connections work. NAT64 is detected when connections by name work, but by IPv4 address do not. Teredo is detected when connections made by name fail, but by IPv6 address work."
-msgstr ""
+msgstr "为了测试 NAT64、6to4 和隐藏的 Teredo 功能，我们将连接到特定的 IP 地址（而不是名称），并查看这些连接是否正常。当通过名称进行的连接正常，而通过 IPv4 地址进行的连接不正常时，就会检测到 NAT64。当通过名称建立的连接失效，而通过 IPv6 地址建立的连接正常时，就会检测到 Teredo。"
 
 #: "not-used, archived.  Not currently needed for translation."
 msgid "When running in HTTPS mode, this would require special certificates. We can only get those certificates if we can prove ownership of those IP addresses."
-msgstr ""
+msgstr "在 HTTPS 模式下运行时，这需要特殊的证书。只有证明这些 IP 地址的所有权，我们才能获得这些证书。"
 
 #: "not-used, archived.  Not currently needed for translation."
 msgid "test-ipv6.com is actually spread across many providers. Some are hosting providers, or customers of hosting provides. Some are broadband internet providers. It is not possible for me to prove my ownership of their address space. For mirror operators that CAN prove this, these certificates tend to be expensive due to the extra burden of proof needing examination."
-msgstr ""
+msgstr "test-ipv6.com 实际上分布在许多提供商中。有些是托管服务提供商，有些是托管服务提供商的客户，有些是宽带互联网提供商。我无法证明我对其地址空间的所有权。对于能够证明这一点的镜像运营商来说，由于需要审查额外的证明负担，这些证书往往价格昂贵。"
 
 #: "faq_https.html"
 msgid "The web is evolving towards using secure connections everywhere. While this is generally a good thing for security, it does impact what tests we can run."
@@ -3045,7 +3045,7 @@ msgstr "现在有些浏览器强制要求使用 HTTPS，同样无法进行这些
 
 #: "not-used, archived.  Not currently needed for translation."
 msgid "To test for NAT64 and Teredo, we make connections to specific IP addresses (instead of names), and seeing if those connections work. NAT64 is detected when connections by name work, but by IPv4 address do not. Teredo is detected when connections made by name fail, but by IPv6 address work."
-msgstr ""
+msgstr "要测试 NAT64 和 Teredo，我们需要连接到特定的 IP 地址（而不是名称），并查看这些连接是否正常。当通过名称进行的连接正常，而通过 IPv4 地址进行的连接不正常时，就会检测到 NAT64。当通过名称建立的连接失效，而通过 IPv6 地址建立的连接正常时，就会检测到 Teredo。"
 
 #: "not-used, archived.  Not currently needed for translation."
 msgid "NAT64 is detected when connections by name work, but by IPv4 address do not."
@@ -3061,7 +3061,7 @@ msgstr "如果域名连接失败，但 IPv6 地址连接正常，我们就认为
 
 #: "not-used, archived.  Not currently needed for translation."
 msgid "When running in HTTPS mode, this requires special certificates. These certificates are available only with proof of ownership for the IP addresses."
-msgstr ""
+msgstr "在 HTTPS 模式下运行时，需要特殊的证书。只有提供 IP 地址的所有权证明，才能获得这些证书。"
 
 #: "faq_https.html"
 msgid "When running in HTTPS mode, connecting to a specific IP address requires a special certificate. These certificates are available only with proof of ownership for the IP address."
@@ -3069,15 +3069,15 @@ msgstr "然而在 HTTPS 模式下，直接连接 IP 地址需要一种特殊的�
 
 #: "not-used, archived.  Not currently needed for translation."
 msgid "test-ipv6.com is actually spread across many providers. Some are hosting providers, or customers of hosting provides. Some are broadband internet providers. It is not possible for test-ipv6.com to prove ownership of their address space. As an example, I can't prove I own the Comcast mirror IP addresses. For mirror operators that CAN prove this, these certificates tend to be expensive due to the extra burden of proof needing examination."
-msgstr ""
+msgstr "test-ipv6.com 实际上分布在许多提供商中。有些是托管服务提供商，有些是托管服务提供商的客户，有些是宽带网络提供商。test-ipv6.com 无法证明其地址空间的所有权。例如，我无法证明我拥有 Comcast 镜像 IP 地址。对于能够证明这一点的镜像运营商，由于需要审查额外的举证责任，这些证书往往价格昂贵。"
 
 #: "not-used, archived.  Not currently needed for translation."
 msgid "test-ipv6.com is actually spread across many providers. Some are hosting providers, or customers of hosting provides. Some are broadband internet providers. It is not possible for test-ipv6.com to prove ownership of their address space."
-msgstr ""
+msgstr "test-ipv6.com 实际上分布在许多提供商中。有些是托管服务提供商，有些是托管服务提供商的客户，有些是宽带网络提供商。test-ipv6.com 无法证明其地址空间的所有权。"
 
 #: "not-used, archived.  Not currently needed for translation."
 msgid "As an example, I can't prove I own the Comcast (a large US broadbroad provider) IP addresses used by this site.</p> <p>{{Links:"
-msgstr ""
+msgstr "例如，我无法证明本网站使用的 Comcast（美国一家大型宽带服务提供商）IP 地址归我所有。</p> <p>{{链接："
 
 #: "not-used, archived.  Not currently needed for translation."
 msgid "HTTPS used. Some tests are skipped."
@@ -3109,7 +3109,7 @@ msgstr "事实上，test-ipv6.com 的运作涉及到很多服务商，有主机�
 
 #: "not-used, archived.  Not currently needed for translation."
 msgid "As an example, I can't prove I own the Comcast (a large US broadbroad provider) IP addresses used by this site."
-msgstr ""
+msgstr "例如，我无法证明本网站使用的 Comcast（美国一家大型宽带服务提供商）IP 地址归我所有。"
 
 #: "faq_https.html"
 msgid "As an example, I can't prove I own the Comcast (a large US broadband provider) IP addresses used by this site."
