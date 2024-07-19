@@ -1,5 +1,16 @@
   {
     "sites": {
+      "main.test-ipv6.com": {
+        "hide": false,
+        "loc": "CA US",
+        "mirror": true,
+        "monitor": "jfesler@gigo.com",
+        "provider": "Hosted at Linode (Akamai)",
+        "site": "main.test-ipv6.com",
+        "transparent": true,
+        "v4": "https://ipv4.main.test-ipv6.com/images-nc/knob_green.png",
+        "v6": "https://ipv6.main.test-ipv6.com/images-nc/knob_green.png"
+      },
       "losangeles.test-ipv6.com": {
         "hide": false,
         "loc": "CA US",
