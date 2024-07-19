@@ -123,17 +123,6 @@
 
 
 
-      <tr class="optional_buggydns1" style="display:none">
-        <td nowrap="nowrap">{{Test for buggy DNS}}</td>
-
-        <td nowrap="nowrap">&nbsp;</td>
-
-        <td nowrap="nowrap">
-          <div id="sum_test_buggydns1">
-            {{pending}}
-          </div>
-        </td>
-      </tr>
 
     </table>
 

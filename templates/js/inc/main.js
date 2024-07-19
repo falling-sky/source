@@ -233,10 +233,6 @@ GIGO.test_type_json = function (url, id) {
                     time_ms: this_test.time_ms,
                     status: this_test.status
                 };
-
-                // Dual stack connection failed. Is it due to buggy DNS?
-                // Queue the buggydns1 check!
-                GIGO.queue.push(["test_buggydns1", GIGO.options.url.test_buggydns1_img, "test_buggydns1"]);
             }
 
 
@@ -381,113 +377,6 @@ GIGO.test_type_json_only = function (url, id) {
     GIGO.show_debug();
 };
 
-
-GIGO.test_buggydns1 = function (url, id) {
-    // name = dns name to fetch
-    // id = which <div> to update
-    var tests, this_test, img, img_pending, max_time;
-    jQuery(".optional_buggydns1").show();
-
-    max_time = (GIGO.max_time > 5000) ? 5000 : GIGO.max_time; // Shorten this test.
-    if (url.search(/\?/) < 0) {
-          url = url + "?";
-    }
-    url = url + "&testdomain=" + GIGO.options.domain;
-    url = url + "&testname=" + id;
-    if (Browser.opera) {
-            url = url + "&random=" + Math.random();
-    }
-
-
-    tests = GIGO.results.tests; // Convenience
-    if (!(tests.hasOwnProperty(id))) {
-        tests[id] = {};
-    }
-    this_test = tests[id];
-
-    this_test.start_time = GIGO.getms(); // Will use to find how long we ran
-    this_test.url = url; // For later display of test urls
-    // Update status to "Started" if we don't have any time for this yet
-    GIGO.update_url(id);
-
-    // Create image.
-    // Attach handlers to the image.
-    // Create a timer to artificially timeout imgs
-    img_pending = 1;
-
-    img = jQuery('<img style="display:none" />');
-
-    // INVERSE LOGIC HERE !!!
-    jQuery(img).bind({
-        load: function () {
-            var delta;
-            if (img_pending) {
-                img_pending = 0;
-                delta = GIGO.getms() - this_test.start_time;
-                if (GIGO.isdef(this_test.time_ms)) {
-                    if (delta < this_test.time_ms) {
-                        this_test.time_ms = delta;
-                    }
-                } else {
-                    this_test.time_ms = delta;
-                }
-                this_test.image = 1;
-                this_test.status = "affected"; // INVERSE LOGIC!
-                GIGO.finish_test(id);
-            }
-        },
-        error: function () {
-            var delta;
-            if (img_pending) {
-                img_pending = 0;
-                delta = GIGO.getms() - this_test.start_time;
-                if (GIGO.isdef(this_test.time_ms)) {
-                    if (delta < this_test.time_ms) {
-                        this_test.time_ms = delta;
-                    }
-                } else {
-                    this_test.time_ms = delta;
-                }
-                this_test.image = 1;
-                this_test.status = "safe"; // INVERSE LOGIC!
-                GIGO.finish_test(id);
-            }
-        }
-    });
-
-    // FAKE IMAGE TIMEOUT HANDLER
-    setTimeout(function () {
-        var delta;
-        if (img_pending) {
-            img_pending = 0;
-            // replace failing image url with one that should work, so that browser can call this done.
-            // we tried setting to "" but safari at minimum treats that as replacing src
-            // with the value of document.location (!).
-            jQuery(img).css("height","2em").css("width","auto");
-            jQuery(img).attr("src", "/images/hires_bad.png");
-
-            delta = GIGO.getms() - this_test.start_time;
-            if (GIGO.isdef(this_test.time_ms)) {
-                if (delta < this_test.time_ms) {
-                    this_test.time_ms = delta;
-                }
-            } else {
-                this_test.time_ms = delta;
-            }
-            this_test.image = 1;
-            this_test.status = "safe"; // INVERSE LOGIC!
-            GIGO.finish_test(id);
-        }
-    }, max_time);
-
-
-    //jQuery('body').append(img);
-    jQuery(img).attr("src", url);
-
-    // Perform callback for presentation
-    GIGO.update_url(id);
-    GIGO.show_debug();
-};
 
 GIGO.test_type_img = function (url, id) {
     // name = dns name to fetch
@@ -719,7 +608,6 @@ GIGO.set_default_options = function (options) {
     options.url.test_v6ns = GIGO.protocol+"ds.v6ns." + options.subdomain + options.uri;
     options.url.test_v6mtu = GIGO.protocol+"mtu1280." + options.subdomain + options.uri + "&size=1600&fill=" + GIGO.fill(1600, "x");
     options.url.test_dsmtu = GIGO.protocol+"ds." + options.subdomain + options.uri + "&size=1600&fill=" + GIGO.fill(1600, "x");
-    options.url.test_buggydns1 = GIGO.protocol+"buggydns1." + options.subdomain + options.uri;
     options.url.test_ood=""; // Dummy
 
 
@@ -734,7 +622,6 @@ GIGO.set_default_options = function (options) {
     options.url.test_v6ns_img = GIGO.protocol+"ds.v6ns." + options.subdomain + options.img_uri;
     options.url.test_v6mtu_img = GIGO.protocol+"mtu1280." + options.subdomain + options.img_uri_big;
     options.url.test_dsmtu_img = GIGO.protocol+"ds." + options.subdomain + options.img_uri_big;
-    options.url.test_buggydns1_img = GIGO.protocol+"buggydns1." + options.subdomain + options.img_uri;
     options.url.test_ood_img = GIGO.ood_url()
 
 

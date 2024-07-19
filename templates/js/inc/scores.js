@@ -60,7 +60,6 @@ GIGO.scores = {
     "needs_ipv6": [10, 10, "BLUE"],
     "dualstack:unsafe": [10, 10, "RED"],
     "dualstack:mtu": [10, 10, "RED"],
-    "buggydns1": [9, 0, "RED"],
     "tunnel_dumb": [10, 10, "ORANGE"],
     "he_tunnel_dumb": [10, 10, "BLUE"],
     "tunnel_6rd_dumb": [10, 10, "BLUE"],

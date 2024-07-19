@@ -372,13 +372,6 @@ GIGO.identify_symptoms = function () {
     }
 
 
-    // Buggy DNS server, mangling first AAAA 32 bits into A?
-    if (tests.hasOwnProperty("test_buggydns1")) {
-        if (tests.test_buggydns1.status === "affected") {
-            res.push("buggydns1");
-        }
-    }
-
     // Did our larger request work ok?
     if (Browser.opera) {
         // Opera always fails the 1600 byte test.  WTF?

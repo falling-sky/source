@@ -205,32 +205,6 @@
       </tr>
 
 
-
-
-
-      <tr class="optional_buggydns1" style="display:none">
-        <td nowrap="nowrap">
-          <div>
-            {{Test for buggy DNS}}
-          </div>
-
-          <div id="test_buggydns1">
-            {{pending}}
-          </div>
-
-          <div id="results_buggydns1">
-            -
-          </div>
-        </td>
-
-        <td>
-          <div id="detail_buggydns1">
-            {{Queries for a malformed AAAA record. Some routers mishandle these as "A" records, and only keep the first 32 bits.  We want this test to fail to connect.}}
-          </div>
-        </td>
-      </tr>
-
-
     </table>
 
   <div id="tech_eof"></div>
