@@ -400,16 +400,6 @@
         "v4": "https://ipv4.test-ipv6.freerangecloud.com/images-nc/knob_green.png",
         "v6": "https://ipv6.test-ipv6.freerangecloud.com/images-nc/knob_green.png"
       },
-      "test-ipv6.go6.si": {
-        "hide": false,
-        "loc": "SI",
-        "mirror": true,
-        "monitor": "Jan Zorz <jan@go6.si>",
-        "provider": "Go6 Lab - Slovenian IPv6 Iniciative",
-        "site": "test-ipv6.go6.si",
-        "v4": "https://ipv4.test-ipv6.go6.si/images-nc/knob_green.png",
-        "v6": "https://ipv6.test-ipv6.go6.si/images-nc/knob_green.png"
-      },
       "test-ipv6.hkg.vr.org": {
         "hide": false,
         "loc": "HK",
