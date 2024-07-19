@@ -11,7 +11,7 @@ window.onerror = function(message, url, linenumber) {
         }
     }
     if (url && linenumber) {
-        eurl = GIGO.protocol + "ds.master.test-ipv6.com/errors.php?";
+        eurl = GIGO.protocol + "ds.main.test-ipv6.com/errors.php?";
         eurl = eurl + "message=" + encodeURIComponent(message);
         eurl = eurl + "&url=" + encodeURIComponent(url);
         eurl = eurl + "&linenumber=" + encodeURIComponent(linenumber);
