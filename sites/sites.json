@@ -1,5 +1,95 @@
   {
     "sites": {
+      "losangeles.test-ipv6.com": {
+        "hide": false,
+        "loc": "CA US",
+        "mirror": true,
+        "monitor": "jfesler@gigo.com",
+        "provider": "Hosted at Linode (Akamai)",
+        "site": "losangeles.test-ipv6.com",
+        "transparent": true,
+        "v4": "https://ipv4.losangeles.test-ipv6.com/images-nc/knob_green.png",
+        "v6": "https://ipv6.losangeles.test-ipv6.com/images-nc/knob_green.png"
+      },
+      "amsterdam.test-ipv6.com": {
+        "hide": false,
+        "loc": "NL",
+        "mirror": true,
+        "monitor": "jfesler@gigo.com",
+        "provider": "Hosted at Linode (Akamai)",
+        "site": "amsterdam.test-ipv6.com",
+        "transparent": true,
+        "v4": "https://ipv4.amsterdam.test-ipv6.com/images-nc/knob_green.png",
+        "v6": "https://ipv6.amsterdam.test-ipv6.com/images-nc/knob_green.png"
+      },
+      "frankfurt.test-ipv6.com": {
+        "hide": false,
+        "loc": "DE",
+        "mirror": true,
+        "monitor": "jfesler@gigo.com",
+        "provider": "Hosted at Linode (Akamai)",
+        "site": "frankfurt.test-ipv6.com",
+        "transparent": true,
+        "v4": "https://ipv4.frankfurt.test-ipv6.com/images-nc/knob_green.png",
+        "v6": "https://ipv6.frankfurt.test-ipv6.com/images-nc/knob_green.png"
+      },
+      "saopaulo.test-ipv6.com": {
+        "hide": false,
+        "loc": "BR",
+        "mirror": true,
+        "monitor": "jfesler@gigo.com",
+        "provider": "Hosted at Linode (Akamai)",
+        "site": "saopaulo.test-ipv6.com",
+        "transparent": true,
+        "v4": "https://ipv4.saopaulo.test-ipv6.com/images-nc/knob_green.png",
+        "v6": "https://ipv6.saopaulo.test-ipv6.com/images-nc/knob_green.png"
+      },
+      "chennai.test-ipv6.com": {
+        "hide": false,
+        "loc": "IN",
+        "mirror": true,
+        "monitor": "jfesler@gigo.com",
+        "provider": "Hosted at Linode (Akamai)",
+        "site": "chennai.test-ipv6.com",
+        "transparent": true,
+        "v4": "https://ipv4.chennai.test-ipv6.com/images-nc/knob_green.png",
+        "v6": "https://ipv6.chennai.test-ipv6.com/images-nc/knob_green.png"
+      },
+      "osaka.test-ipv6.com": {
+        "hide": false,
+        "loc": "JP",
+        "mirror": true,
+        "monitor": "jfesler@gigo.com",
+        "provider": "Hosted at Linode (Akamai)",
+        "site": "osaka.test-ipv6.com",
+        "transparent": true,
+        "v4": "https://ipv4.osaka.test-ipv6.com/images-nc/knob_green.png",
+        "v6": "https://ipv6.osaka.test-ipv6.com/images-nc/knob_green.png"
+      },
+      "singapore.test-ipv6.com": {
+        "hide": false,
+        "loc": "SG",
+        "mirror": true,
+        "monitor": "jfesler@gigo.com",
+        "provider": "Hosted at Linode (Akamai)",
+        "site": "singapore.test-ipv6.com",
+        "transparent": true,
+        "v4": "https://ipv4.singapore.test-ipv6.com/images-nc/knob_green.png",
+        "v6": "https://ipv6.singapore.test-ipv6.com/images-nc/knob_green.png"
+      },
+      "sydney.test-ipv6.com": {
+        "hide": false,
+        "loc": "AU",
+        "mirror": true,
+        "monitor": "jfesler@gigo.com",
+        "provider": "Hosted at Linode (Akamai)",
+        "site": "sydney.test-ipv6.com",
+        "transparent": true,
+        "v4": "https://ipv4.sydney.test-ipv6.com/images-nc/knob_green.png",
+        "v6": "https://ipv6.sydney.test-ipv6.com/images-nc/knob_green.png"
+      },
+    
+    
       "2.ayepv6.com": {
         "hide": false,
         "loc": "UK",
