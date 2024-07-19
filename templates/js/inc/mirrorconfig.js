@@ -70,9 +70,6 @@ GIGO.fix_footer_late = function () {
 GIGO.fix_footer_early = function() {
 
 
-GIGO.facebook_like();
-GIGO.twitter_tweet();
-
 
 
     if (MirrorConfig.footer) {

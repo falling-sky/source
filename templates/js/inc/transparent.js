@@ -41,7 +41,7 @@ GIGO.CheckTransparent = function() {
 
 
         // Always replace certain things when it's test-ipv6.com
-        delete MirrorConfig.footer.html;
+        //delete MirrorConfig.footer.html;
         delete MirrorConfig.footer.logo;
         MirrorConfig.footer.transparent = 1;
         MirrorConfig.site = {
@@ -52,8 +52,6 @@ GIGO.CheckTransparent = function() {
         MirrorConfig.options.show_stats = GIGO.protocol + main + "/stats.html";
         MirrorConfig.options.comment_html = 1;
         MirrorConfig.options.userdata = main;
-        MirrorConfig.facebook =  {    "enable": 0,    "fb_admins": "688631212"  };
-        MirrorConfig.twitter =  {  "enable": 0,    "name": "testipv6com"};
         // Only replace these, if the underlying domain is something else.
         if (!GIGO.CheckTransparentDomain(MirrorConfig.load.domain)) {
             MirrorConfig.orig_options = og;

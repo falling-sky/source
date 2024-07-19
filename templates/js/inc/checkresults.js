@@ -212,35 +212,3 @@ GIGO.update_service_warning = function () {
  };
 
 
-GIGO.facebook_like = function () {
-  
-
-    if (GIGO.mirrorconfig("facebook", "enable", 0)) {
-        jQuery("#social").css({'display':'inline'}); 
-        jQuery('#social').append(
-            ' <span id="facebook_like">' + 
-            '<a href="http://www.facebook.com/sharer/sharer.php?u=' + 
-            encodeURIComponent(GIGO.publishname ) + 
-            '" >Facebook</a></span>');
-    }
-};
-
-GIGO.twitter_tweet = function () {
-    jQuery("#social").css({'display':'inline'}); 
-
-
-    if (GIGO.mirrorconfig("twitter", "enable", 0)) {
-        var url, via;
-
-        url = "http://twitter.com/intent/tweet/?url=" +  encodeURIComponent(GIGO.publishname);
-        via =  GIGO.mirrorconfig("twitter", "name");
-        if (via) {
-            url = url + "&via=" + encodeURIComponent(via);
-        }
-
-
-        jQuery('#social').append(
-            '&nbsp <span id=#twitter_tweet>'  + 
-            '<a href="' + url +   '">Twitter</a></span>');
-    }
-};
