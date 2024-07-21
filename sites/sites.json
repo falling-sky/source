@@ -22,6 +22,17 @@
         "v4": "https://ipv4.losangeles.test-ipv6.com/images-nc/knob_green.png",
         "v6": "https://ipv6.losangeles.test-ipv6.com/images-nc/knob_green.png"
       },
+      "miami.test-ipv6.com": {
+        "hide": false,
+        "loc": "FL US",
+        "mirror": true,
+        "monitor": "jfesler@gigo.com",
+        "provider": "Hosted at Linode (Akamai)",
+        "site": "miami.test-ipv6.com",
+        "transparent": true,
+        "v4": "https://ipv4.miami.test-ipv6.com/images-nc/knob_green.png",
+        "v6": "https://ipv6.miami.test-ipv6.com/images-nc/knob_green.png"
+      },
       "amsterdam.test-ipv6.com": {
         "hide": false,
         "loc": "NL",
@@ -128,17 +139,6 @@
         "v4": "https://ipv4.cidercounty.org.uk/images/happy_face.gif",
         "v6": "https://ipv6.cidercounty.org.uk/images/happy_face.gif"
       },
-      "ams2.test-ipv6.com": {
-        "hide": false,
-        "loc": "NL",
-        "mirror": true,
-        "monitor": "jfesler@gigo.com",
-        "provider": "HostVirtual",
-        "site": "ams2.test-ipv6.com",
-        "transparent": true,
-        "v4": "https://ipv4.ams2.test-ipv6.com/images-nc/knob_green.png",
-        "v6": "https://ipv6.ams2.test-ipv6.com/images-nc/knob_green.png"
-      },
       "antradar.com": {
         "hide": false,
         "loc": "US (NJ)",
@@ -174,17 +174,6 @@
         "site": "eurobilltracker.com",
         "v4": "https://ipv4-test-ipv6.eurobilltracker.com/img/1x1.gif",
         "v6": "https://ipv6-test-ipv6.eurobilltracker.com/img/1x1.gif"
-      },
-      "fra.test-ipv6.com": {
-        "hide": false,
-        "loc": "DE",
-        "mirror": true,
-        "monitor": "jfesler@gigo.com",
-        "provider": "HostVirtual",
-        "site": "fra.test-ipv6.com",
-        "transparent": true,
-        "v4": "https://ipv4.fra.test-ipv6.com/images-nc/knob_green.png",
-        "v6": "https://ipv6.fra.test-ipv6.com/images-nc/knob_green.png"
       },
       "he.net": {
         "contact": "Mike Tindle <mtindle@he.net>",
@@ -251,16 +240,6 @@
         "v4": "http://ipv4.stdio.be/images/knob_valid_green.png",
         "v6": "http://ipv6.stdio.be/images/knob_valid_green.png"
       },
-      "syd.test-ipv6.com": {
-        "hide": true,
-        "loc": "AU",
-        "mirror": true,
-        "provider": "HostVirtual",
-        "site": "syd.test-ipv6.com",
-        "transparent": true,
-        "v4": "https://ipv4.vm2.test-ipv6.com/images-nc/knob_green.png",
-        "v6": "https://ipv6.vm2.test-ipv6.com/images-nc/knob_green.png"
-      },
       "test-ipv6.alpinedc.ch": {
         "hide": false,
         "loc": "CH",
@@ -324,7 +303,7 @@
         "hide": false,
         "loc": "Varies",
         "mirror": true,
-        "provider": "Several locations around the world",
+        "provider": "Hosted at Linode (Akamai)",
         "site": "test-ipv6.com",
         "v4": "https://ipv4.test-ipv6.com/images-nc/knob_green.png",
         "v6": "https://ipv6.test-ipv6.com/images-nc/knob_green.png"
@@ -389,17 +368,6 @@
         "site": "test-ipv6.freerangecloud.com",
         "v4": "https://ipv4.test-ipv6.freerangecloud.com/images-nc/knob_green.png",
         "v6": "https://ipv6.test-ipv6.freerangecloud.com/images-nc/knob_green.png"
-      },
-      "test-ipv6.hkg.vr.org": {
-        "hide": false,
-        "loc": "HK",
-        "mirror": true,
-        "monitor": "jfesler@gigo.com",
-        "provider": "HostVirtual",
-        "site": "test-ipv6.hkg.vr.org",
-        "transparent": true,
-        "v4": "https://ipv4.test-ipv6.hkg.vr.org/images-nc/knob_green.png",
-        "v6": "https://ipv6.test-ipv6.hkg.vr.org/images-nc/knob_green.png"
       },
       "test-ipv6.hu": {
         "hide": false,
@@ -483,17 +451,6 @@
         "v4": "https://ipv4.test-ipv6.se/images-nc/knob_green.png",
         "v6": "https://ipv6.test-ipv6.se/images-nc/knob_green.png"
       },
-      "test-ipv6.sin.vr.org": {
-        "hide": false,
-        "loc": "SG",
-        "mirror": true,
-        "monitor": "jfesler@gigo.com",
-        "provider": "HostVirtual",
-        "site": "test-ipv6.sin.vr.org",
-        "transparent": true,
-        "v4": "https://ipv4.test-ipv6.sin.vr.org/images-nc/knob_green.png",
-        "v6": "https://ipv6.test-ipv6.sin.vr.org/images-nc/knob_green.png"
-      },
       "test-ipv6.ttk.ru": {
         "hide": false,
         "loc": "RU",
@@ -522,16 +479,6 @@
         "site": "testipv6.de",
         "v4": "https://ipv4.testipv6.de/images-nc/knob_green.png",
         "v6": "https://ipv6.testipv6.de/images-nc/knob_green.png"
-      },
-      "vm3.test-ipv6.com": {
-        "hide": true,
-        "loc": "US CA",
-        "mirror": true,
-        "provider": "Jason Fesler",
-        "site": "test-ipv6.com",
-        "transparent": true,
-        "v4": "https://ipv4.vm3.test-ipv6.com/images-nc/knob_green.png",
-        "v6": "https://ipv6.vm3.test-ipv6.com/images-nc/knob_green.png"
       },
       "www.duiadns.net": {
         "loc": "NL",
