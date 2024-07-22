@@ -1,5 +1,5 @@
 
-FROM golang:alpine as builder
+FROM golang:alpine AS builder
 
 ## This dockerfile is for CI/CD.
 ## We use docker as a build method, but we are not shipping docker artifacts.
@@ -19,12 +19,12 @@ RUN go install github.com/falling-sky/fsbuilder@latest
 
 # Make sure there is a valid sites file (minimum for beta).
 # Under release and i18n conditions, do a full real check.
+
 RUN cd sites && go run parse-sites.go --skip-validation
 RUN ls -l cicd_release ; true 
 RUN ls -l cicd_i18n  ; true
 RUN if [[ -s cicd_release ]]; then cd sites && go run parse-sites.go || exit 1 ; cat ../templates/js/sites_parsed.js ; fi
 RUN if [[ -s cicd_i18n ]]; then ./support/add-build-date ; fi
-RUN cp sites/sites.json output/sites_unfiltered.json
 
 
 # Download?
@@ -35,6 +35,8 @@ RUN ls -l translations
 
 # Build the project
 RUN fsbuilder
+
+RUN cp sites/sites.json output/sites_unfiltered.json
 
 # Post-processing: translation and uploads
 RUN if [[ -s translations/crowdin.json ]]; then cd translations && make || exit 1 ; fi
