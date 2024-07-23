@@ -22,6 +22,17 @@
       "v4": "https://ipv4.losangeles.test-ipv6.com/images-nc/knob_green.png",
       "v6": "https://ipv6.losangeles.test-ipv6.com/images-nc/knob_green.png"
     },
+    "neweark.test-ipv6.com": {
+      "hide": false,
+      "loc": "CA NJ",
+      "mirror": true,
+      "monitor": "jfesler@gigo.com",
+      "provider": "Hosted at Linode (Akamai)",
+      "site": "newark.test-ipv6.com",
+      "transparent": true,
+      "v4": "https://ipv4.newark.test-ipv6.com/images-nc/knob_green.png",
+      "v6": "https://ipv6.newark.test-ipv6.com/images-nc/knob_green.png"
+    },
     "miami.test-ipv6.com": {
       "hide": false,
       "loc": "FL US",
