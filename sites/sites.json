@@ -417,7 +417,7 @@
       "v6": "https://ipv6.test-ipv6.iu13.net/images-nc/knob_green.png"
     },
     "test-ipv6.noroutetohost.net": {
-      "contact": "David Wilkinson <test-ipv6@noroutetohost.net>",
+      "contact": "David Wilkinson <test-ipv6.mon@noroutetohost.net>",
       "hide": false,
       "loc": "GB",
       "mirror": true,
