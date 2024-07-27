@@ -22,7 +22,7 @@
       "v4": "https://ipv4.losangeles.test-ipv6.com/images-nc/knob_green.png",
       "v6": "https://ipv6.losangeles.test-ipv6.com/images-nc/knob_green.png"
     },
-    "neweark.test-ipv6.com": {
+    "newark.test-ipv6.com": {
       "hide": false,
       "loc": "CA NJ",
       "mirror": true,
