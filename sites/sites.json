@@ -540,6 +540,13 @@
       "site": "www.vyncke.org/ipv6status/",
       "v4": "https://test4.vyncke.org/knob_valid_green.png",
       "v6": "https://test6.vyncke.org/knob_valid_green.png"
+    },
+    "salesianimestre.it": {
+      "loc": "IT",
+      "monitor": "Vittore Zen <vittore.zen@salesianinordest.it>",
+      "provider": "Salesiani Don Bosco Mestre",
+      "v4": "https://ipv4.salesianimestre.it/check.png",
+      "v6": "https://ipv6.salesianimestre.it/check.png"
     }
   }
 }
