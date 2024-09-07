@@ -260,6 +260,17 @@
       "v4": "https://ipv4.test-ipv6.alpinedc.ch/images-nc/knob_green.png",
       "v6": "https://ipv6.test-ipv6.alpinedc.ch/images-nc/knob_green.png"
     },
+    "test-ipv6.karsolink.com": {
+      "hide": false,
+      "loc": "IT",
+      "mirror": true,
+      "monitor": "sys@karsolink.com",
+      "provider": "2S Computers srl aka Karsolink",
+      "site": "test-ipv6.karsolink.com",
+      "transparent": true,
+      "v4": "https://ipv4.test-ipv6.karsolink.com/images-nc/knob_green.png",
+      "v6": "https://ipv6.test-ipv6.karsolink.com/images-nc/knob_green.png"
+    },
     "test-ipv6.belwue.net": {
       "hide": false,
       "loc": "DE",
