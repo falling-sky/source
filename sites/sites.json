@@ -264,7 +264,7 @@
       "hide": false,
       "loc": "IT",
       "mirror": true,
-      "monitor": "sys@karsolink.com",
+      "monitor": "noc@karsolink.com",
       "provider": "2S Computers srl aka Karsolink",
       "site": "test-ipv6.karsolink.com",
       "transparent": true,
