@@ -409,15 +409,6 @@
       "v4": "http://ipv4.test-ipv6.in/images/knob_green.png",
       "v6": "http://ipv6.test-ipv6.in/images/knob_green.png"
     },
-    "test-ipv6.is": {
-      "hide": false,
-      "loc": "IS",
-      "mirror": true,
-      "monitor": "jdandri@gmail.com",
-      "provider": "Dandri",
-      "v4": "https://ipv4.test-ipv6.is/images-nc/knob_green.png",
-      "v6": "https://ipv6.test-ipv6.is/images-nc/knob_green.png"
-    },
     "test-ipv6.iu13.net": {
       "hide": false,
       "loc": "US (PA)",
