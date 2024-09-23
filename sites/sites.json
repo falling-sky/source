@@ -534,6 +534,15 @@
       "v4": "https://test4.vyncke.org/knob_valid_green.png",
       "v6": "https://test6.vyncke.org/knob_valid_green.png"
     },
+    "testipv6.cn": {
+      "hide": false,
+      "loc": "CN",
+      "mirror": true,
+      "monitor": "56690@qq.com",
+      "provider": "yidazao一大早（personal)",
+      "v4": "https://ipv4.testipv6.cn/site/logo-v4.png",
+      "v6": "https://ipv6.testipv6.cn/site/logo-v6.png"
+    },
     "salesianimestre.it": {
       "loc": "IT",
       "monitor": "Vittore Zen <vittore.zen@salesianinordest.it>",
