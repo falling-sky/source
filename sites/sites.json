@@ -2,7 +2,7 @@
   "sites": {
     "main.test-ipv6.com": {
       "hide": false,
-      "loc": "CA US",
+      "loc": "US (CA)",
       "mirror": true,
       "monitor": "jfesler@gigo.com",
       "provider": "Hosted at Linode (Akamai)",
@@ -13,7 +13,7 @@
     },
     "losangeles.test-ipv6.com": {
       "hide": false,
-      "loc": "CA US",
+      "loc": "US (CA)",
       "mirror": true,
       "monitor": "jfesler@gigo.com",
       "provider": "Hosted at Linode (Akamai)",
@@ -24,7 +24,7 @@
     },
     "newark.test-ipv6.com": {
       "hide": false,
-      "loc": "CA NJ",
+      "loc": "US (NJ)",
       "mirror": true,
       "monitor": "jfesler@gigo.com",
       "provider": "Hosted at Linode (Akamai)",
@@ -532,6 +532,17 @@
       "provider": "yidazao一大早（personal)",
       "v4": "https://ipv4.testipv6.cn/site/logo-v4.png",
       "v6": "https://ipv6.testipv6.cn/site/logo-v6.png"
+    },
+    "test-ipv6.triplebit.us": {
+      "hide": false,
+      "loc": "US (MN)",
+      "mirror": true,
+      "monitor": "jonah@triplebit.net",
+      "provider": "tripplebit.us",
+      "site": "triplebit.org",
+      "transparent": false,
+      "v4": "https://ipv4.test-ipv6.tripplebit.us/images-nc/knob_green.png",
+      "v6": "https://ipv6.test-ipv6.tripplebit.us/images-nc/knob_green.png"
     },
     "salesianimestre.it": {
       "loc": "IT",
