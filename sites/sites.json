@@ -531,6 +531,15 @@
       "provider": "Salesiani Don Bosco Mestre",
       "v4": "https://ipv4.salesianimestre.it/check.png",
       "v6": "https://ipv6.salesianimestre.it/check.png"
+    },
+    "test-ipv6.amelek.net": {
+      "hide": false,
+      "loc": "PL",
+      "mirror": true,
+      "monitor": "marekm@amelek.net",
+      "provider": "Amelek.net",
+      "v4": "https://ipv4.test-ipv6.amelek.net/images-nc/knob_green.png",
+      "v6": "https://ipv6.test-ipv6.amelek.net/images-nc/knob_green.png"
     }
   }
 }
