@@ -505,16 +505,6 @@
       "v4": "https://v4-only.steffann.nl/v4-only.png",
       "v6": "https://v6-only.steffann.nl/v6-only.png"
     },
-    "www.vyncke.org/ipv6status/": {
-      "hide": false,
-      "loc": "FR",
-      "monitor": "Eric Vyncke <eric@vyncke.org>",
-      "provider": "Eric Vyncke (personal)",
-      "reason": "letsencrypt SSL certs don't support AAAA only",
-      "site": "www.vyncke.org/ipv6status/",
-      "v4": "https://test4.vyncke.org/knob_valid_green.png",
-      "v6": "https://test6.vyncke.org/knob_valid_green.png"
-    },
     "testipv6.cn": {
       "hide": false,
       "loc": "CN",
