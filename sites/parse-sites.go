@@ -352,7 +352,7 @@ func (sf *SitesFile) CheckHTTP() {
 		if sr.Hide == false {
 			wg.Add(1)
 			go sr.CheckVerifier(domain, wg)
-			time.Sleep(1 * time.Second / 10)
+			time.Sleep(1 * time.Second)
 		}
 	}
 	wg.Wait()
