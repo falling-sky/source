@@ -540,6 +540,17 @@
       "provider": "Amelek.net",
       "v4": "https://ipv4.test-ipv6.amelek.net/images-nc/knob_green.png",
       "v6": "https://ipv6.test-ipv6.amelek.net/images-nc/knob_green.png"
+    },
+    "ipv6.uz": {
+      "hide": false,
+      "loc": "UZ",
+      "mirror": true,
+      "monitor": "kh.suyunov@uzdc.uz",
+      "provider": "Uztelecom",
+      "site": "uztelecom.uz",
+      "transparent": false,
+      "v4": "https://ipv4.ipv6.uz/images-nc/knob_green.png",
+      "v6": "https://ipv6.ipv6.uz/images-nc/knob_green.png"
     }
   }
 }
