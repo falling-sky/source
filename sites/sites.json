@@ -558,7 +558,7 @@
       "mirror": true,
       "monitor": "bogdan.rotariu@chroot.ro",
       "provider": "CHROOT",
-      "site": "ipv6.ro",
+      "site": "ip6.ro",
       "transparent": false,
       "v4": "https://ipv4.ip6.ro/images-nc/knob_green.png",
       "v6": "https://ipv6.ip6.ro/images-nc/knob_green.png"
