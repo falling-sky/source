@@ -562,6 +562,17 @@
       "transparent": false,
       "v4": "https://ipv4.ip6.ro/images-nc/knob_green.png",
       "v6": "https://ipv6.ip6.ro/images-nc/knob_green.png"
+    },
+    "test-ipv6.datafiber.nl": {
+      "hide": false,
+      "loc": "NL",
+      "mirror": true,
+      "monitor": "operations@datafiber.nl",
+      "provider": "DataFiber",
+      "site": "test-ipv6.datafiber.nl",
+      "transparent": false,
+      "v4": "https://ipv4.test-ipv6.datafiber.nl/images-nc/knob_green.png",
+      "v6": "https://ipv6.test-ipv6.datafiber.nl/images-nc/knob_green.png"
     }
   }
 }
