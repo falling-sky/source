@@ -431,16 +431,6 @@
       "v4": "https://ipv4.test-ipv6.roedu.net/images-nc/knob_green.png",
       "v6": "https://ipv6.test-ipv6.roedu.net/images-nc/knob_green.png"
     },
-    "test-ipv6.se": {
-      "hide": false,
-      "loc": "SE",
-      "mirror": true,
-      "monitor": "torbjorn.eklov@interlan.se <torbjorn.eklov@interlan.se>",
-      "provider": "Interlan Gefle AB",
-      "site": "test-ipv6.se",
-      "v4": "https://ipv4.test-ipv6.se/images-nc/knob_green.png",
-      "v6": "https://ipv6.test-ipv6.se/images-nc/knob_green.png"
-    },
     "testipv6.de": {
       "hide": false,
       "loc": "DE",
