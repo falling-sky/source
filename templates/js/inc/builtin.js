@@ -157,6 +157,14 @@ GIGO.update_ip = function (id) {
 
 
     GIGO.show_debug();
+
+    if (MirrorConfig.site.retire) {
+        s = "<b> {{ test-ipv6.com is retiring December 2025; see }} <a href=\"https://retire.test-ipv6.com\">retire.test-ipv6.com</a></b>";
+        s = GIGO.results_table_wrapper("orange", s);
+        jQuery("#retire").html(s);
+    }
+
+
     if (GIGO.results.ipv4.ip !== "") {
         s = "{{Your IPv4 address on the public Internet appears to be}}" + " " + GIGO.results.ipv4.ip;
         if (GIGO.results.ipv4.subtype) {

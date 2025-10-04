@@ -47,11 +47,13 @@ GIGO.CheckTransparent = function() {
         MirrorConfig.site = {
             name: "test-ipv6.com",
             contact: "Jason Fesler",
-            mailto: "jfesler@test-ipv6.com"
+            mailto: "jfesler@test-ipv6.com",
+            retire: true,
         };
         MirrorConfig.options.show_stats = GIGO.protocol + main + "/stats.html";
         MirrorConfig.options.comment_html = 1;
         MirrorConfig.options.userdata = main;
+        MirrorConfig.options.comment=""; // no comments
         // Only replace these, if the underlying domain is something else.
         if (!GIGO.CheckTransparentDomain(MirrorConfig.load.domain)) {
             MirrorConfig.orig_options = og;

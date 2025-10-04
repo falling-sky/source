@@ -242,9 +242,6 @@ GIGO.identify_symptoms = function () {
     GIGO.find_evidence_of_noscript(tests, res);
     GIGO.fallback_to_image_tests(tests, res); // Hmm, we might use image connection data instead.
 
-
-
-
     // HTTP proxies?
     via = GIGO.ipinfo_in_tests(tests, "via");
 

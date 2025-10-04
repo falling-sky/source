@@ -5,17 +5,7 @@
  <a href="/mirrors.html">{{ Mirrors }}</a> |
 <!-- <a href="mission.html">{{ Mission }}</a> | -->
  <a href="https://github.com/falling-sky/source/wiki">{{ Source }}</a> |
- <a href="mailto:jfesler@test-ipv6.com?subject=test-ipv6.com">{{ Email }}</a>
- - &nbsp; -
 <a href="/attributions.html">{{ Attributions }}</a>
-[% if eq $page "index" %]
-<span class="ghost">
-  |  <a href="#" onclick=" GIGO.showdebug(); return false;">Debug</a>
-</span>
-
-
-[% end %]
-
 
   |
 

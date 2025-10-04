@@ -1,6 +1,8 @@
 
 
 
+  <div id="retire"></div>
+
   <div id="your_ipv4"></div>
 
   <div id="your_ipv6"></div>
