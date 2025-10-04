@@ -165,10 +165,6 @@ msgid "<b>Our tests show that you may have MTU problems with IPv6; this can caus
 msgstr ""
 
 #: "inc/messages.js"
-msgid "We looked up an IPv6 address, but your DNS server (possibly your home router) mangled the response, and is treating it as (broken) IPv4."
-msgstr ""
-
-#: "inc/messages.js"
 msgid "It appears that you use a managed tunnel mechanism, 6RD, to transport IPv6 over IPv4."
 msgstr ""
 
@@ -230,10 +226,6 @@ msgstr ""
 
 #: "inc/messages.js"
 msgid "faq: Opera"
-msgstr ""
-
-#: "inc/messages.js"
-msgid "faq: Buggy DNS"
 msgstr ""
 
 #: "inc/messages.js"
@@ -512,10 +504,6 @@ msgstr ""
 msgid "Find IPv6 Service Provider"
 msgstr ""
 
-#: "main/tests.inc"
-msgid "Test for buggy DNS"
-msgstr ""
-
 #: "main/tech.inc"
 msgid "Fetches an object that has just an A record in DNS. This is expected to use IPv4. IPv6-only users might still reach this, if their provider has employed a NAT64/DNS64 or proxy solution."
 msgstr ""
@@ -558,10 +546,6 @@ msgstr ""
 
 #: "main/tech.inc"
 msgid "Attempts to identify what Internet Service Provider you use for IPv6. When the IPv4 name and the IPv6 name don't match, it may suggest that you're using a tunnel; or some form of third party provider for IPv6."
-msgstr ""
-
-#: "main/tech.inc"
-msgid "Queries for a malformed AAAA record. Some routers mishandle these as \"A\" records, and only keep the first 32 bits. We want this test to fail to connect."
 msgstr ""
 
 #: "main/tech.inc"
@@ -2184,90 +2168,6 @@ msgstr ""
 msgid "This site would not exist without the following components and resources."
 msgstr ""
 
-#: "faq_buggydns1.html"
-msgid "FAQ on \"Buggy DNS\""
-msgstr ""
-
-#: "faq_buggydns1.html"
-msgid "If you were referred to this page by test-ipv6.com, it means that we were able to detect a dangerous condition with your DNS server."
-msgstr ""
-
-#: "faq_buggydns1.html"
-msgid "First a description of the problem:"
-msgstr ""
-
-#: "faq_buggydns1.html"
-msgid "Your browser asked for a DNS lookup, both IPv4 and IPv6."
-msgstr ""
-
-#: "faq_buggydns1.html"
-msgid "The IPv6 response was returned first."
-msgstr ""
-
-#: "faq_buggydns1.html"
-msgid "Your DNS server was confused by the result - it doesn't fully follow the DNS standards."
-msgstr ""
-
-#: "faq_buggydns1.html"
-msgid "Your DNS server took the first piece of the IPV6 address, and memorized it as the IPv4 address."
-msgstr ""
-
-#: "faq_buggydns1.html"
-msgid "The browser fails the IPv6 lookup, but \"succeeds\" in getting a bogus IPv4 address."
-msgstr ""
-
-#: "faq_buggydns1.html"
-msgid "It then tries to make a connecting, to the wrong address, with the wrong protocol."
-msgstr ""
-
-#: "faq_buggydns1.html"
-msgid "This is bad for several reasons:"
-msgstr ""
-
-#: "faq_buggydns1.html"
-msgid "You won't be able to connect to IPv6-only sites."
-msgstr ""
-
-#: "faq_buggydns1.html"
-msgid "You may sporadically fail (or always fail) to connect to IPv6-enabled web sites. This is regardless of whether you are capable IPv6 or not - you may still be impacted."
-msgstr ""
-
-#: "faq_buggydns1.html"
-msgid "So, what is actually affected?"
-msgstr ""
-
-#: "faq_buggydns1.html"
-msgid "You'll need to determine what device is forwarding your DNS queries."
-msgstr ""
-
-#: "faq_buggydns1.html"
-msgid "With Windows, at the <code>cmd</code> prompt, you can type <code>ipconfig /all</code>. Look for \"<code>DNS Servers</code>\"."
-msgstr ""
-
-#: "faq_buggydns1.html"
-msgid "With Linux, BSD, and Mac OS X, you can do this in a terminal: <code>cat /etc/resolv.conf</code>."
-msgstr ""
-
-#: "faq_buggydns1.html"
-msgid "Residential ISP customers: look to see if the DNS server is <b>192.168.0.1</b> or <b>192.168.1.1</b>. If so, chances are good that your home router is at fault. This is probably the blue box you have that connects the Internet."
-msgstr ""
-
-#: "faq_buggydns1.html"
-msgid "Business customers: Provide this information to your IT professional to investigate."
-msgstr ""
-
-#: "faq_buggydns1.html"
-msgid "IT professionals:"
-msgstr ""
-
-#: "faq_buggydns1.html"
-msgid "You can see an illustration of this, by doing:"
-msgstr ""
-
-#: "faq_buggydns1.html"
-msgid "Substitute the 192.168.1.1 with the resolver being used by the host. If the \"aaaa\" request comes back with no answer, but the \"a\" answer does, this is a confirmation of a broken DNS cache or forwarder. The actual DNS information for buggydns1.test-ipv6.com has only an IPv6 record configured."
-msgstr ""
-
 #: "faq_avoids_ipv6.html"
 msgid "Your browser is avoiding IPv6."
 msgstr ""
@@ -2488,10 +2388,6 @@ msgstr ""
 msgid "A standalone copy of this test can be found <a href=\"/simple_test.html\">here</a>."
 msgstr ""
 
-#: "faq_buggydns1.html"
-msgid "Malicious people can recognize that specific IPv6 addresses, when matched with this bug, map to IPv4 addresses they control. Web sites you depend on can be spoofed; you would not know any better, unless the sites are using SSL."
-msgstr ""
-
 #: "faq_no_ipv4.html"
 msgid "You will have to do this twice."
 msgstr ""
@@ -2594,10 +2490,6 @@ msgstr ""
 
 #: "main/mail.inc"
 msgid "I consent to sharing my IP address(es), test results, web browser name and version, operating system name and version, and any other information entered above (including email address), as email transmitted to <a mailto=site.mailto href=\"-\"><span lookup=site.contact></span> &lt;<span lookup=site.mailto></span>&gt;</a>; and that this information may be translated by Google Translate."
-msgstr ""
-
-#: "inc/footer.inc"
-msgid "Share on:"
 msgstr ""
 
 #: "faq_avoids_ipv6.html"
@@ -2714,37 +2606,5 @@ msgstr ""
 
 #: "ignore.html"
 msgid "ignore this text, testing crowdin api changes"
-msgstr ""
-
-#: "faq_https.html"
-msgid "Differences in HTTP vs HTTPS"
-msgstr ""
-
-#: "faq_https.html"
-msgid "HTTP and HTTPS bring us different testing capabilities. Unfortunately, we can not test both at once. You can choose which features to test for, by using http://test-ipv6.com or https://test-ipv6.com."
-msgstr ""
-
-#: "faq_https.html"
-msgid "<b>HTTP</b> allows us to test for Teredo and 6to4. Both are transitional technologies. Modern operating systems by default no longer use those, unless there is no other choice. Windows, for example, will not use Teredo, when the browser is given a DNS name to connect to. However, Windows will attempt to use Teredo, when told an IPv6-only IP address. 6to4 is similarly deprecated; and only likely used if there is no other choice."
-msgstr ""
-
-#: "faq_https.html"
-msgid "HTTP also allows us to detect certain types of DNS64/NAT64. NAT64 is a migration strategy that allows for an eventual IPv6-only Internet. Until then, connections to the IPv4 Internet are translated. We detect this by making connections to literal IP address, such as http://192.0.2.1/ (with a server-specific IP address). We are able to detect NAT64 in particular when there is no local IPv4 tunnel (464xlat on Android) or OS assistance (Apple iOS, Apple MacOS)."
-msgstr ""
-
-#: "faq_https.html"
-msgid "<b>HTTPS</b>, which ensures a trusted transport from you to the server, allows bypassing many corporate and mobile proxy servers. There are exceptions; particularly if you agreed to install their certificate; but that is generally not advised. Bypassing these proxies allows us to show you a better idea of your IP address - something that represents your location, and your connectivity to the IPv6 Internet.</p> <p>{{A limitation of using HTTPS exists. Since HTTPS requires certificates, and certificates are not offered to IP addresses (but instead to web site names), we can't test for NAT64, 6to4, or Teredo."
-msgstr ""
-
-#: "faq_https.html"
-msgid "A limitation of using HTTPS exists. Since HTTPS requires certificates, and certificates are not offered to IP addresses (but instead to web site names), we can't test for NAT64, 6to4, or Teredo.</p> <h1>{{Should I use HTTP or HTTPS?"
-msgstr ""
-
-#: "faq_https.html"
-msgid "Should I use HTTP or HTTPS?</h1> <p>{{If you're in a new location, or a computer you're not familiar with, consider both!. If both come up with the same results, you can pick http for speed, or https to bypass certain proxies."
-msgstr ""
-
-#: "faq_https.html"
-msgid "If you're in a new location, or a computer you're not familiar with, consider both!. If both come up with the same results, you can pick http for speed, or https to bypass certain proxies.</p> <p>{{Links:"
 msgstr ""
 
