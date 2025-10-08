@@ -158,9 +158,11 @@ GIGO.update_ip = function (id) {
 
     GIGO.show_debug();
 
+    // Was the retirement message, now status message.
+    // Can be removed after transition.
     if (MirrorConfig.site.retire) {
-        s = "<b> {{ test-ipv6.com is retiring December 2025; see }} <a href=\"https://retire.test-ipv6.com\">retire.test-ipv6.com</a></b>";
-        s = GIGO.results_table_wrapper("orange", s);
+        s = "{{ test-ipv6.com will stay online! see }} <a href=\"https://status.test-ipv6.com\">status.test-ipv6.com</a>";
+        s = GIGO.results_table_wrapper("green", s);
         jQuery("#retire").html(s);
     }
 
