@@ -158,15 +158,6 @@ GIGO.update_ip = function (id) {
 
     GIGO.show_debug();
 
-    // Was the retirement message, now status message.
-    // Can be removed after transition.
-    if (MirrorConfig.site.retire) {
-        s = "{{ test-ipv6.com will stay online! see }} <a href=\"https://status.test-ipv6.com\">status.test-ipv6.com</a>";
-        s = GIGO.results_table_wrapper("green", s);
-        jQuery("#retire").html(s);
-    }
-
-
     if (GIGO.results.ipv4.ip !== "") {
         s = "{{Your IPv4 address on the public Internet appears to be}}" + " " + GIGO.results.ipv4.ip;
         if (GIGO.results.ipv4.subtype) {
