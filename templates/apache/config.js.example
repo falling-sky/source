@@ -3,8 +3,8 @@ MirrorConfig =
 
   "site": {
     "name": "test-ipv6.example.com",
-    "contact": "Jason Fesler",
-    "mailto": "jfesler@test-ipv6.com"
+    "contact": "Your Name",
+    "mailto": "contact@example.com"
   },
   
   "load": {

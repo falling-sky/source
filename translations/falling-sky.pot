@@ -2604,7 +2604,3 @@ msgstr ""
 msgid "ignore this text, testing crowdin api changes"
 msgstr ""
 
-#: "inc/builtin.js"
-msgid "test-ipv6.com will stay online! see"
-msgstr ""
-
