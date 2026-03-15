@@ -2,7 +2,7 @@
 <div id="about">
 <p> 
 
-<-- Copyright (C) 2010, 2024 Jason Fesler. {{ All rights reserved. }} -->
+<!-- Copyright (C) 2010, 2024 Jason Fesler. {{ All rights reserved. }} -->
 
  Version [% .GitInfo.Version %] ([% .GitInfo.Hash %])<br/>
 
