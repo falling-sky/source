@@ -47,29 +47,6 @@ deny from all
 <IfModule mod_rewrite.c>
 RewriteRule ^/isp/ /isp.html [R]
 RewriteEngine On
-
-# "Transparent Mirrors"  - those answering
-# to the name "test-ipv6.com" - need to redirect
-# the SSL certificate challenge, to the location
-# where we generate combination SSL certs containing
-# both the "test-ipv6.com" name and your mirror name.
-# if you're not running a transparent mirror, your site
-# should not be in this list.
-#
-# https://github.com/falling-sky/source/wiki/SSL-and-HTTP-2-plans
-#
-# This is the list of "transparent" mirrors 
-# that need SSL certificates for "test-ipv6.com".
-RewriteCond %{HTTP_HOST} ^(.*\.)?test-ipv6\.com$ [NC,OR]
-RewriteCond %{HTTP_HOST} ^(.*\.)?testipv6\.com$ [NC,OR]
-RewriteCond %{HTTP_HOST} ^(.*\.)?testv6\.com$ [NC,OR]
-RewriteCond %{HTTP_HOST} ^(.*\.)?test-ipv4\.com$ [NC,OR]
-RewriteCond %{HTTP_HOST} ^(.*\.)?testipv4\.com$ [NC,OR]
-RewriteCond %{HTTP_HOST} ^(.*\.)?testv4\.com$ [NC,OR]
-RewriteCond %{HTTP_HOST} ^(.*\.)?test-ds\.com$ [NC,OR]
-RewriteCond %{HTTP_HOST} ^(.*\.)?testds\.com$ [NC]
-####  LAST ALL BUT LAST ONE SHOULD HAVE [NC,OR]
-RewriteRule "^(.well-known/acme-.*)$" http://validation-server.test-ipv6.com/$1 [R,L]
 </IfModule>
 
 
