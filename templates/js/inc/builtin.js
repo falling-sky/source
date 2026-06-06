@@ -312,6 +312,12 @@ GIGO.send_survey_global = function (tokens) {
 
 GIGO.send_survey = function (tokens) {
 
+    // Temporary(?): disable survey for "test-ipv6.com"; main.test-ipv6.com is 
+    // now non-op.
+    if (GIGO.CheckTransparentDomain(document.location.hostname)) {
+        return;
+    }
+
     var url = MirrorConfig.options.survey;
     if (!url) {
         return;
